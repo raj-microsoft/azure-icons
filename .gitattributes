@@ -1,0 +1,10 @@
+# Microsoft SVG originals must stay byte-for-byte identical, including line endings.
+*.svg -text
+*.png -text
+*.woff2 -text
+*.ts text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.mjs text eol=lf
