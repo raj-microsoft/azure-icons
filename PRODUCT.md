@@ -33,4 +33,4 @@ src/raw/Azure_Public_Service_Icons/Icons; https://learn.microsoft.com/en-us/azur
 Keyboard navigation, labeled controls, visible focus, contrast AA, reduced-motion support.
 
 ## Assumptions
-Subagent brief substitutes for an interactive interview: no direct user decision channel. Assumed frequent desktop diagramming use with mobile lookup; light mode follows system preference, with an explicit persistent override. No unapproved factual or commercial claims.
+Design assumptions derive from the explicit build brief rather than a separate interactive interview. Assumed frequent desktop diagramming use with mobile lookup; light mode follows system preference, with an explicit persistent override. No unapproved factual or commercial claims.

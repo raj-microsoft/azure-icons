@@ -1,5 +1,5 @@
 # Icon browser
-Mode: Operate. Code-led; assigned task brief substitutes for unavailable direct user interview. No delegated reviewers: researcher program requires bounded work in this session.
+Mode: Operate. Code-led. Design assumptions derive from the supplied build brief rather than a separate interactive design interview.
 
 Grounded candidates, ordered: 1. technical publishing reference index, 2. conference wayfinding, 3. architectural material library, 4. standards specimen sheet, 5. exhibition collection labels, 6. cartographic atlas index, 7. university course catalog. Candidate 3 is the roll: a material library, where consistent specimens are examined and gathered for work.
 Challengers: type specimen competitive on clarity; labanotation declined (clarity and audience), kept disciplined alignment; transit map competitive on audience; streaming wall declined (both), kept fast keyboard traversal; consumer app declined (both), kept generous touch targets; Crouwel specimen competitive on audience. None beats the assigned direction on both axes.
