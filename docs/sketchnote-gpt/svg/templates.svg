@@ -1,41 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Templates (sketch)</title>
   <defs>
-    <linearGradient id="templatePaper" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#eaf5ff"/>
-    </linearGradient>
-    <linearGradient id="templateBlue" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5ea0ef"/>
-      <stop offset="1" stop-color="#0078d4"/>
+    <linearGradient id="pageBlue" x1="8.63" y1="17.59" x2="8.63" y2="0.59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".82" stop-color="#5ea0ef"/>
     </linearGradient>
   </defs>
 
-  <!-- Document silhouette -->
-  <path d="M29 12     Q25 12 25 17     L25 111     Q25 116 30 116     L99 116     Q104 116 104 111     L104 43     L74 12 Z" fill="url(#templatePaper)" stroke="#0078d4" stroke-width="3.5" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)">
+    <!-- Original document silhouette and folded corner -->
+    <path d="M9.59.72H2.36a.56.56 0 0 0-.57.57v15.6a.56.56 0 0 0 .57.57H14.89a.57.57 0 0 0 .58-.57V6.56A.58.58 0 0 0 14.89 6H10.73a.57.57 0 0 1-.57-.57V1.29A.56.56 0 0 0 9.59.72Z" fill="#fff"/>
 
-  <!-- Folded page corner -->
-  <path d="M74 13     L74 36     Q74 43 81 43     L103 43 Z" fill="#0078d4" stroke="#005ba1" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M9.33 1.45V5.37A1.43 1.43 0 0 0 10.76 6.8h4v9.93H2.54V1.45H9.33M9.6.59H2.26a.58.58 0 0 0-.58.58V17a.58.58 0 0 0 .58.58H15a.58.58 0 0 0 .58-.58V6.53A.58.58 0 0 0 15 6H10.76a.58.58 0 0 1-.58-.58V1.17A.58.58 0 0 0 9.6.59Z" fill="url(#pageBlue)" stroke="#0078d4" stroke-width=".045" stroke-linejoin="round"/>
 
-  <path d="M79 19 L96 36" fill="none" stroke="#9ed0ff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M15.35 6.06 10 .72V5.07a1 1 0 0 0 1 1Z" fill="#0078d4"/>
 
-  <!-- Template layout: content lines -->
-  <path d="M39 55     Q39 53 42 53     L83 53" fill="none" stroke="#5ea0ef" stroke-width="4" stroke-linecap="round"/>
+    <!-- Original JSON label: J -->
+    <path d="M5.27 10.56a1.21 1.21 0 0 1-.26.83.89.89 0 0 1-.72.29 1 1 0 0 1-.39-.08V11a.55.55 0 0 0 .35.12c.27 0 .41-.21.41-.62V8.93h.61Z" fill="#5ea0ef"/>
 
-  <path d="M39 67 L89 67     M39 79 L87 79     M39 91 L76 91" fill="none" stroke="#83b9f9" stroke-width="3" stroke-linecap="round"/>
+    <!-- Original JSON label: S -->
+    <path d="M5.73 11.52v-.6a1.31 1.31 0 0 0 .36.21 1.22 1.22 0 0 0 .38.07l.2 0 .15-.06A.34.34 0 0 0 6.9 11a.2.2 0 0 0 0-.11.23.23 0 0 0 0-.14.47.47 0 0 0-.13-.11.77.77 0 0 0-.18-.1l-.23-.1a1.25 1.25 0 0 1-.47-.32.68.68 0 0 1-.16-.46.87.87 0 0 1 .08-.37A.92.92 0 0 1 6 9.07a1.16 1.16 0 0 1 .34-.14 1.84 1.84 0 0 1 .41 0 2.05 2.05 0 0 1 .37 0 1.32 1.32 0 0 1 .3.08v.56a.53.53 0 0 0-.15-.08.44.44 0 0 0-.16-.06L7 9.37H6.81l-.19 0a.59.59 0 0 0-.14.06.21.21 0 0 0-.12.2.27.27 0 0 0 0 .12.55.55 0 0 0 .11.1l.16.09.21.1a2 2 0 0 1 .29.14 1.28 1.28 0 0 1 .22.17.74.74 0 0 1 .14.22.88.88 0 0 1 .05.29.74.74 0 0 1-.09.38.68.68 0 0 1-.23.25.93.93 0 0 1-.34.13 1.84 1.84 0 0 1-.41 0 2.72 2.72 0 0 1-.42 0 1.11 1.11 0 0 1-.31-.1Z" fill="#5ea0ef"/>
 
-  <!-- Editable template blocks -->
-  <rect x="39" y="99" width="14" height="9" rx="2" fill="#5ea0ef"/>
-  <rect x="58" y="99" width="14" height="9" rx="2" fill="#0078d4"/>
-  <rect x="77" y="99" width="12" height="9" rx="2" fill="#83b9f9"/>
+    <!-- Original JSON label: O -->
+    <path d="M9.15 11.68a1.26 1.26 0 0 1-.94-.38 1.38 1.38 0 0 1-.37-1 1.48 1.48 0 0 1 .37-1 1.31 1.31 0 0 1 1-.4 1.24 1.24 0 0 1 .94.38 1.4 1.4 0 0 1 .35 1 1.43 1.43 0 0 1-.37 1 1.24 1.24 0 0 1-.98.4Zm.03-2.27a.61.61 0 0 0-.51.24 1.16 1.16 0 0 0 0 1.27.62.62 0 0 0 .49.23.61.61 0 0 0 .5-.23 1 1 0 0 0 .18-.63 1 1 0 0 0-.17-.65.61.61 0 0 0-.49-.23Z" fill="#5ea0ef"/>
 
-  <!-- Page corner marker -->
-  <path d="M85 45 L91 49" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <!-- Original JSON label: N -->
+    <path d="M13.36 11.63h-.62l-1.11-1.7a2.34 2.34 0 0 1-.13-.22h0c0 .09 0 .24 0 .44v1.48h-.57V8.93h.66l1.06 1.64.14.22h0a2.51 2.51 0 0 1 0-.37V8.93h.58Z" fill="#5ea0ef"/>
 
-  <!-- Yellow sketchnote sparkle -->
-  <path d="M104 17     L109 27     L120 31     L110 36     L107 47     L102 37     L92 33     L102 28 Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.7" stroke-linejoin="round"/>
-
-  <!-- Marker accents -->
-  <path d="M16 35 Q12 48 16 59     M108 70 Q114 78 110 86" fill="none" stroke="#50e6ff" stroke-width="2.5" stroke-linecap="round"/>
-
-  <path d="M29 122 Q60 125 88 121" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+  </g>
 </svg>
