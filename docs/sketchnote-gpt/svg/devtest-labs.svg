@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>DevTest Labs (sketch)</title>
+  
+  <desc>Hand-drawn Azure DevTest Labs icon featuring a blue cloud and cyan laboratory flask with purple liquid, preserving the original silhouette and colors.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="7" x2="64" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="flaskCyan" x1="69" y1="49" x2="69" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#29BADE"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn Azure cloud -->
+  <path d="M36 91            C19 94 6 82 6 66            C6 52 16 40 31 38            C37 20 51 9 68 9            C89 9 104 23 106 42            C120 44 126 56 125 68            C124 81 114 91 99 91            Z" fill="url(#cloudBlue)" stroke="#075A9C" stroke-width="3.6"/>
+
+  <!-- Sketchy cloud highlights -->
+  <path d="M17 56            Q23 45 35 44            M43 31            Q52 16 68 16            Q84 16 94 29" stroke="#B9E5FF" stroke-width="3" opacity=".85"/>
+
+  <path d="M113 51 Q121 59 118 70" stroke="#C9EDFF" stroke-width="2.3" opacity=".7"/>
+
+  <!-- Hand-drawn flask outline -->
+  <path d="M59 55            L82 55            L82 79            Q82 81 84 84            L107 116            Q111 122 105 123            L34 123            Q28 122 32 116            L56 83            Q59 80 59 77Z" fill="url(#flaskCyan)" stroke="#087CBA" stroke-width="3.4"/>
+
+  <!-- Flask neck and rim -->
+  <path d="M54 51            Q52 51 52 54            L52 57            Q52 60 55 60            L86 60            Q89 60 89 57            L89 54            Q89 51 86 51Z" fill="#55DDF5" stroke="#087CBA" stroke-width="3"/>
+
+  <!-- Glass highlight -->
+  <path d="M63 64            L63 80            Q63 84 60 88            L42 114" stroke="#D6FAFF" stroke-width="3" opacity=".85"/>
+
+  <!-- Purple laboratory liquid -->
+  <path d="M65 74            Q65 72 68 72            L75 72            Q77 72 77 75            L77 84            Q77 87 80 91            L97 114            Q99 117 95 117            L45 117            Q42 117 45 113            L62 89            Q65 85 65 82Z" fill="#552F99" stroke="#422478" stroke-width="2.2"/>
+
+  <!-- Liquid surface -->
+  <path d="M65 88            Q71 85 77 88            Q81 89 85 92" stroke="#9E7BD3" stroke-width="2.4"/>
+
+  <!-- Subtle marker reflections -->
+  <path d="M52 111            L62 97            M86 101            L92 109" stroke="#B6A1E2" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Laboratory bubbles -->
+  <g fill="#8B64CC" stroke="#C5B0ED" stroke-width="1.5">
+    <circle cx="70" cy="105" r="3.4"/>
+    <circle cx="79" cy="111" r="2.3"/>
+    <circle cx="74" cy="96" r="2"/>
+  </g>
+
+  <!-- Hand-drawn glass reflection -->
+  <path d="M84 88            L102 114" stroke="#BDF4FF" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Small sketchnote accent strokes -->
+  <g stroke="#0078D4" stroke-width="2.5">
+    <path d="M15 99 L24 96"/>
+    <path d="M19 108 L26 103"/>
+    <path d="M109 94 L117 98"/>
+  </g>
+
+  <!-- Restrained yellow highlights -->
+  <g stroke="#F4C542" stroke-width="2.8">
+    <path d="M105 15 L109 8"/>
+    <path d="M115 22 L122 17"/>
+    <path d="M117 32 L125 31"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M20 13            L23 20            L30 23            L23 26            L20 33            L17 26            L10 23            L17 20Z" fill="#F4C542" stroke="#C48B17" stroke-width="1.5"/>
+
+</svg>

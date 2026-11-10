@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>DNS Zones (sketch)</title>
+  
+  <desc>Azure-blue DNS globe with hand-drawn latitude and longitude lines, white DNS lettering, uneven marker outlines, and restrained yellow accents.</desc>
+
+  <defs>
+    <radialGradient id="dnsGlobe" cx="43%" cy="32%" r="76%">
+      <stop offset=".18" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Hand-drawn globe silhouette -->
+  <path d="M64 9            C94 8 118 32 119 62            C121 94 96 118 65 119            C34 120 10 96 9 65            C8 35 32 10 64 9Z" fill="url(#dnsGlobe)" stroke="#075A9C" stroke-width="3.6"/>
+
+  <!-- Inner sketchy globe rim -->
+  <path d="M64 15            C91 14 112 36 113 63            C114 91 93 112 65 113            C37 114 16 93 15 65            C14 38 36 16 64 15Z" stroke="#5EA0EF" stroke-width="2.7"/>
+
+  <!-- Latitude lines -->
+  <g stroke="#91C7FA" stroke-width="2.5" opacity=".92">
+    <path d="M28 32              Q63 48 100 32"/>
+
+    <path d="M16 64              Q64 72 113 64"/>
+
+    <path d="M28 97              Q64 80 101 97"/>
+  </g>
+
+  <!-- Longitude lines -->
+  <g stroke="#91C7FA" stroke-width="2.5" opacity=".92">
+    <path d="M64 15              C42 32 40 93 64 113"/>
+
+    <path d="M64 15              C86 32 88 93 64 113"/>
+  </g>
+
+  <!-- Uneven marker highlights -->
+  <path d="M25 43            Q35 25 54 20            M80 19            Q95 24 104 39" stroke="#C8E9FF" stroke-width="2.8" opacity=".8"/>
+
+  <path d="M21 84            Q27 100 42 108" stroke="#B4DDFF" stroke-width="2.3" opacity=".65"/>
+
+  <!-- DNS lettering as editable vector paths -->
+  <g stroke="#FFFFFF" stroke-width="4.8">
+
+    <!-- D -->
+    <path d="M27 51              L27 78              L34 78              C44 78 48 73 48 64              C48 55 43 51 34 51Z"/>
+
+    <!-- N -->
+    <path d="M54 78              L54 51              L73 78              L73 51"/>
+
+    <!-- S -->
+    <path d="M100 54              Q94 49 86 52              Q79 55 83 62              Q85 65 92 66              Q103 68 100 74              Q96 82 82 76"/>
+  </g>
+
+  <!-- Small sketch strokes around lettering -->
+  <g stroke="#E5F6FF" stroke-width="1.5" opacity=".65">
+    <path d="M30 84 L41 84"/>
+    <path d="M56 84 L69 84"/>
+    <path d="M86 85 L97 82"/>
+  </g>
+
+  <!-- Sketchnote motion accents -->
+  <g stroke="#0078D4" stroke-width="2.6">
+    <path d="M7 27 L15 30"/>
+    <path d="M4 38 L11 40"/>
+    <path d="M112 102 L120 107"/>
+  </g>
+
+  <!-- Restrained yellow emphasis marks -->
+  <g stroke="#F4C542" stroke-width="3">
+    <path d="M94 10 L98 3"/>
+    <path d="M105 16 L112 11"/>
+    <path d="M115 26 L123 24"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M18 104            L21 110            L27 113            L21 116            L18 122            L15 116            L9 113            L15 110Z" fill="#F4C542" stroke="#C48B17" stroke-width="1.5"/>
+
+</svg>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>DNS Multistack (sketch)</title>
+  
+  <desc>Two diagonally arranged stacks of cyan and Azure-blue DNS servers with a central DNS globe, illustrated with uneven marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="cyanStack" x1="88" y1="7" x2="88" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CEBFF"/>
+      <stop offset=".52" stop-color="#41D2EE"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+
+    <linearGradient id="blueStack" x1="40" y1="71" x2="40" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83B9F9"/>
+      <stop offset=".5" stop-color="#2E8CE1"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="globeBlue" x1="42" y1="33" x2="88" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-right DNS server stack -->
+  <path d="M68 8            Q68 6 71 6            L121 7            Q124 7 124 10            L124 21            Q124 23 121 23            L71 23            Q68 23 68 20Z" fill="#9CEBFF" stroke="#168DAE" stroke-width="2.6"/>
+
+  <path d="M68 28            Q68 26 71 26            L121 27            Q124 27 124 30            L124 41            Q124 43 121 43            L71 43            Q68 43 68 40Z" fill="#41D2EE" stroke="#148EA9" stroke-width="2.6"/>
+
+  <path d="M68 48            Q68 46 71 46            L121 47            Q124 47 124 50            L124 61            Q124 63 121 63            L71 63            Q68 63 68 60Z" fill="#198AB3" stroke="#086D91" stroke-width="2.6"/>
+
+  <!-- Upper stack marker highlights -->
+  <g stroke="#E3FBFF" stroke-width="2.1" opacity=".85">
+    <path d="M74 12 L107 12"/>
+    <path d="M74 32 L104 32"/>
+    <path d="M74 52 L104 52"/>
+  </g>
+
+  <!-- Upper server status lights -->
+  <g fill="#FFFFFF">
+    <circle cx="115" cy="13" r="2.5"/>
+    <circle cx="115" cy="33" r="2.5"/>
+    <circle cx="115" cy="53" r="2.5"/>
+  </g>
+
+  <!-- Lower-left Azure server stack -->
+  <path d="M7 70            Q7 68 10 68            L60 69            Q63 69 63 72            L63 83            Q63 85 60 85            L10 85            Q7 85 7 82Z" fill="#83B9F9" stroke="#176FB6" stroke-width="2.7"/>
+
+  <path d="M7 89            Q7 87 10 87            L60 88            Q63 88 63 91            L63 102            Q63 104 60 104            L10 104            Q7 104 7 101Z" fill="#2E8CE1" stroke="#075A9C" stroke-width="2.7"/>
+
+  <path d="M7 108            Q7 106 10 106            L60 107            Q63 107 63 110            L63 121            Q63 123 60 123            L10 123            Q7 123 7 120Z" fill="#005BA1" stroke="#064578" stroke-width="2.7"/>
+
+  <!-- Lower stack highlights -->
+  <g stroke="#D5EBFF" stroke-width="2.1" opacity=".8">
+    <path d="M13 74 L43 74"/>
+    <path d="M13 93 L43 93"/>
+    <path d="M13 112 L43 112"/>
+  </g>
+
+  <!-- Lower server status lights -->
+  <g fill="#FFFFFF">
+    <circle cx="54" cy="76" r="2.5"/>
+    <circle cx="54" cy="95" r="2.5"/>
+    <circle cx="54" cy="114" r="2.5"/>
+  </g>
+
+  <!-- Central DNS globe -->
+  <path d="M64 31            C82 30 97 44 97 63            C97 82 82 96 64 96            C45 96 31 81 31 63            C31 45 45 31 64 31Z" fill="url(#globeBlue)" stroke="#075A9C" stroke-width="3.6"/>
+
+  <!-- Globe latitude curves -->
+  <g stroke="#B9E5FF" stroke-width="2.1" opacity=".9">
+    <path d="M40 48 Q64 58 88 48"/>
+    <path d="M34 63 Q64 68 94 63"/>
+    <path d="M40 78 Q64 69 88 78"/>
+  </g>
+
+  <!-- Globe meridian curves -->
+  <g stroke="#B9E5FF" stroke-width="2.1" opacity=".9">
+    <path d="M64 34              C49 46 49 79 64 93"/>
+    <path d="M64 34              C79 46 79 79 64 93"/>
+  </g>
+
+  <!-- Hand-drawn equator -->
+  <path d="M35 63 Q64 66 93 63" stroke="#D9F3FF" stroke-width="2" stroke-dasharray="7 4" opacity=".75"/>
+
+  <!-- DNS lettering, drawn as editable paths -->
+  <g stroke="#FFFFFF" stroke-width="3.2">
+    <!-- D -->
+    <path d="M46 57 L46 70              L51 70              Q58 69 58 63              Q58 57 51 57Z"/>
+
+    <!-- N -->
+    <path d="M62 70 L62 57              L70 70 L70 57"/>
+
+    <!-- S -->
+    <path d="M82 58              Q76 55 74 60              Q73 63 79 64              Q85 66 81 70              Q77 72 73 69"/>
+  </g>
+
+  <!-- Subtle sketchnote connection marks -->
+  <g stroke="#0078D4" stroke-width="2.2">
+    <path d="M25 59 L29 55"/>
+    <path d="M99 78 L105 83"/>
+    <path d="M70 106 L77 111"/>
+  </g>
+
+  <!-- Restrained yellow annotation accents -->
+  <g stroke="#F4C542" stroke-width="2.8">
+    <path d="M48 14 L51 7"/>
+    <path d="M57 19 L64 15"/>
+  </g>
+
+  <!-- Hand-drawn sparkle -->
+  <path d="M17 20            L19 25            L24 27            L19 29            L17 34            L15 29            L10 27            L15 25Z" fill="#F4C542" stroke="#C48B17" stroke-width="1.3"/>
+</svg>

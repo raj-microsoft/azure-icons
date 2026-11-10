@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>DevOps Starter (sketch)</title>
+  
+  <desc>Azure cyan cloud with an overlapping purple DevOps loop badge, illustrated using uneven marker-style vector outlines.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="48" y1="5" x2="57" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset=".52" stop-color="#35BCEF"/>
+      <stop offset="1" stop-color="#2889E0"/>
+    </linearGradient>
+    <linearGradient id="purpleRing" x1="51" y1="57" x2="116" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C398E9"/>
+      <stop offset=".5" stop-color="#9470D2"/>
+      <stop offset="1" stop-color="#704CB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cloud silhouette -->
+  <path d="M33 94            Q18 93 10 81            Q2 70 8 56            Q14 43 31 38            Q35 17 52 9            Q66 2 79 10            Q94 19 98 39            Q112 41 120 52            Q128 63 121 78            Q116 90 99 94            Z" fill="url(#cloudBlue)" stroke="#176AA6" stroke-width="4.5"/>
+
+  <!-- Uneven hand-drawn cloud contour -->
+  <path d="M12 60            Q17 45 35 44            Q40 21 57 15            Q75 8 88 27            M101 45 Q114 49 118 59" stroke="#C7F8FF" stroke-width="3" opacity=".9"/>
+
+  <!-- Small marker highlight -->
+  <path d="M17 74 Q21 84 33 86            M42 23 Q48 17 55 16" stroke="#83EFFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Overlapping DevOps circular badge -->
+  <path d="M80 49            C100 47 117 61 120 81            C124 103 108 121 88 124            C66 127 47 111 44 91            C41 70 57 52 80 49Z" fill="#FFFFFF" stroke="#704CB3" stroke-width="4"/>
+
+  <!-- Purple ring with irregular marker stroke -->
+  <path d="M81 55            C100 53 114 68 115 85            C117 103 103 117 86 119            C68 121 52 108 50 90            C48 72 61 57 81 55Z" stroke="url(#purpleRing)" stroke-width="5.5"/>
+
+  <path d="M62 61 Q75 52 91 57            M111 75 Q116 91 107 105            M59 109 Q69 119 82 120" stroke="#D8B7F2" stroke-width="2.5" opacity=".85"/>
+
+  <!-- DevOps starter: connected CI/CD loops -->
+  <path d="M76 73            C67 70 59 77 59 86            C59 96 66 104 76 104            C87 104 93 97 93 87            C93 79 99 74 105 78            C109 80 111 84 111 88" stroke="#417BE9" stroke-width="6"/>
+
+  <!-- Return loop -->
+  <path d="M75 75            C82 75 88 80 88 87            C88 95 94 102 102 101            C108 100 111 96 111 92" stroke="#1453C8" stroke-width="5"/>
+
+  <!-- Loop entry highlight -->
+  <path d="M77 68            C85 68 92 72 97 78" stroke="#88AEF1" stroke-width="5"/>
+
+  <!-- Loop branch marker -->
+  <path d="M80 80            Q85 83 86 88            M97 94 Q103 97 107 91" stroke="#83B9F9" stroke-width="2.5"/>
+
+  <!-- Small circular pipeline endpoints -->
+  <path d="M71 68            Q75 65 79 68            Q82 72 79 76            Q75 79 71 75            Q68 72 71 68Z" fill="#417BE9" stroke="#1453C8" stroke-width="2"/>
+
+  <path d="M107 84            Q111 82 114 86            Q116 90 112 93            Q108 95 105 91            Q103 87 107 84Z" fill="#1453C8" stroke="#417BE9" stroke-width="2"/>
+
+  <!-- Yellow starter spark -->
+  <path d="M25 23            L28 29            L34 32            L28 35            L25 41            L22 35            L16 32            L22 29Z" fill="#FFCF45" stroke="#B8861B" stroke-width="1.8"/>
+
+  <!-- Hand-drawn sketchnote accents -->
+  <path d="M14 17 L9 12            M24 14 L23 7            M36 18 L40 12" stroke="#FFCF45" stroke-width="2.5"/>
+
+  <!-- Cloud movement marks -->
+  <path d="M12 101 Q21 105 30 104            M17 108 L26 110            M99 34 L103 29" stroke="#2889E0" stroke-width="2.5" stroke-dasharray="5 4" opacity=".7"/>
+
+  <!-- Tiny pencil-like purple accent marks -->
+  <path d="M121 106 L125 110            M115 116 L119 121            M47 109 L43 114" stroke="#C398E9" stroke-width="2.5"/>
+
+  <!-- Minimal marker dots -->
+  <circle cx="57" cy="29" r="2" fill="#D7FAFF"/>
+  <circle cx="87" cy="33" r="2" fill="#D7FAFF"/>
+  <circle cx="86" cy="113" r="1.8" fill="#C398E9"/>
+</svg>

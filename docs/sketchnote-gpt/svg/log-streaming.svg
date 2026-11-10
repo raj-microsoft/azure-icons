@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Log Streaming (sketch)</title>
+
+  
+  <desc>Hand-drawn orange log document with white streaming signal waves, uneven marker outlines, subtle Azure-blue and yellow highlights, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="logOrange" x1="18" y1="17" x2="99" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F9A13C"/>
+      <stop offset=".45" stop-color="#F78D1E"/>
+      <stop offset="1" stop-color="#EF7100"/>
+    </linearGradient>
+    <linearGradient id="logEdge" x1="26" y1="12" x2="111" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8750B"/>
+      <stop offset="1" stop-color="#D15900"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear document edge -->
+  <path d="M27 23            L37 11            Q39 9 43 9            L108 9            Q113 10 113 15            L113 106            Q113 110 110 113            L101 121            L27 121Z" fill="url(#logEdge)" stroke="#A94700" stroke-width="3.5"/>
+
+  <!-- Exposed white paper -->
+  <path d="M32 23            L42 15            L105 15            L105 105            L97 114            L32 114Z" fill="#FFFFFF" stroke="#D15900" stroke-width="2.5"/>
+
+  <!-- Main orange log document -->
+  <path d="M17 23            Q17 20 21 20            L96 20            Q100 20 100 25            L100 116            Q100 120 96 120            L21 120            Q17 120 17 116Z" fill="url(#logOrange)" stroke="#A94700" stroke-width="4.2"/>
+
+  <!-- Imperfect hand-drawn border -->
+  <path d="M23 29            L23 111            Q23 114 26 114            L91 114" stroke="#FFD09A" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M29 25 L87 25" stroke="#FFC078" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Outer streaming waves, left -->
+  <path d="M47 53            C35 62 35 78 47 88" stroke="#FFFFFF" stroke-width="6.5"/>
+
+  <!-- Inner streaming waves, left -->
+  <path d="M55 61            C48 67 48 75 55 81" stroke="#FFFFFF" stroke-width="6.2"/>
+
+  <!-- Outer streaming waves, right -->
+  <path d="M71 53            C83 62 84 78 71 88" stroke="#FFFFFF" stroke-width="6.5"/>
+
+  <!-- Inner streaming waves, right -->
+  <path d="M64 61            C71 67 71 75 64 81" stroke="#FFFFFF" stroke-width="6.2"/>
+
+  <!-- Central broadcast point -->
+  <path d="M59 66            C63 66 66 69 66 73            C66 77 63 80 59 80            C55 80 52 77 52 73            C52 69 55 66 59 66Z" fill="#FFFFFF" stroke="#FFE0B5" stroke-width="1.4"/>
+
+  <!-- Subtle document details -->
+  <path d="M32 37 L49 37" stroke="#FFE0B5" stroke-width="2.8" opacity=".75"/>
+
+  <path d="M32 43 L43 43" stroke="#FFE0B5" stroke-width="2" opacity=".6"/>
+
+  <path d="M73 102 L87 102            M79 108 L89 108" stroke="#FFD09A" stroke-width="2.5"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M106 38 L113 34            M108 47 L117 47            M105 55 L112 60" stroke="#FFCC4D" stroke-width="3.5"/>
+
+  <!-- Azure-blue marker strokes -->
+  <path d="M10 61 L6 66            M9 74 L4 74" stroke="#0078D4" stroke-width="2.6"/>
+
+  <!-- Small hand-drawn emphasis -->
+  <path d="M32 125 Q59 128 82 125" stroke="#F4BE39" stroke-width="2.8"/>
+
+</svg>

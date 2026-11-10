@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Industrial Scale System (sketch)</title>
+  
+  <desc>Hand-drawn Azure industrial scale with a cyan weighing head, tapered support, blue platform, display housing and two feet.</desc>
+
+  <defs>
+    <linearGradient id="scaleCyan" x1="40" y1="5" x2="65" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="scaleBlue" x1="64" y1="87" x2="64" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper weighing-head silhouette -->
+  <path d="M6 17            Q20 5 40 5            Q62 4 79 17            L53 62            L53 96            L33 96            L33 62Z" fill="url(#scaleCyan)" fill-opacity=".92" stroke="#176B96" stroke-width="3.8"/>
+
+  <!-- Weighing-head curved dial -->
+  <path d="M18 22            Q27 12 40 12            Q54 12 65 22            L54 37            Q40 31 29 37Z" fill="#E9FAFF" fill-opacity=".88" stroke="#1E87DD" stroke-width="3.2"/>
+
+  <!-- Inner dial marker -->
+  <path d="M25 23            Q39 14 57 23            L52 30            Q40 26 31 31Z" fill="#7DB6F8" stroke="#176B96" stroke-width="2"/>
+
+  <!-- Scale needle -->
+  <path d="M35 21 L39 29" stroke="#174E83" stroke-width="3"/>
+
+  <!-- Subtle sketch highlights -->
+  <path d="M11 19            Q22 9 38 9            M16 31 L35 63            M39 68 L39 88" stroke="#D6FAFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Tapered upright -->
+  <path d="M34 65 L34 96            M51 65 L51 96" stroke="#176B96" stroke-width="2.2" opacity=".6"/>
+
+  <!-- Right-side weighing display housing -->
+  <path d="M66 89            Q66 86 70 86            L109 86            Q113 86 113 90            L113 100            L66 100Z" fill="#C5F4FF" stroke="#1E87DD" stroke-width="3.3"/>
+
+  <!-- Display screen -->
+  <path d="M74 91            Q74 89 77 89            L103 89            Q106 89 106 92            L106 97            L74 97Z" fill="#7DB6F8" stroke="#176B96" stroke-width="2"/>
+
+  <path d="M80 93 L98 93" stroke="#EAF8FF" stroke-width="2.3"/>
+
+  <!-- Main weighing platform -->
+  <path d="M19 99            L117 99            Q123 99 123 105            L123 114            Q123 119 118 119            L19 119            Q15 119 15 115            L15 104            Q15 99 19 99Z" fill="url(#scaleCyan)" stroke="#176B96" stroke-width="3.8"/>
+
+  <!-- Platform top edge -->
+  <path d="M22 103            L115 103            M22 113 L115 113" stroke="#B6F3FF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Platform side sketch -->
+  <path d="M18 106 L18 113            M120 107 L120 114" stroke="#1988D9" stroke-width="2.3"/>
+
+  <!-- Left support foot -->
+  <path d="M25 119            L25 123            Q25 125 28 125            L39 125            Q42 125 42 122            L42 119Z" fill="url(#scaleBlue)" stroke="#176B96" stroke-width="2.5"/>
+
+  <!-- Right support foot -->
+  <path d="M99 119            L99 123            Q99 125 102 125            L113 125            Q116 125 116 122            L116 119Z" fill="url(#scaleBlue)" stroke="#176B96" stroke-width="2.5"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M85 17 L91 12            M88 27 L97 27            M84 37 L91 42" stroke="#F6C84B" stroke-width="3.2"/>
+
+  <!-- Small handwritten-style measuring marks -->
+  <path d="M59 54 L65 50            M59 64 L67 62            M59 74 L64 76" stroke="#1988D9" stroke-width="2.7"/>
+
+  <!-- Sketch emphasis around scale -->
+  <path d="M7 91 L12 87            M7 101 L11 101" stroke="#32BEDD" stroke-width="2.8"/>
+
+  <path d="M112 78 L118 73            M119 85 L125 83" stroke="#F6C84B" stroke-width="2.7"/>
+
+  <!-- Marker dots -->
+  <circle cx="76" cy="47" r="2.1" fill="#F6C84B"/>
+  <circle cx="9" cy="73" r="2.1" fill="#1988D9"/>
+</svg>

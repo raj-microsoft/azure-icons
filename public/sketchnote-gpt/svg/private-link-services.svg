@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Private Link Services (sketch)</title>
+  
+  <desc>Azure-blue hexagonal service boundary containing two interlocking blue and cyan chain links, drawn with slightly irregular marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="frameBlue" x1="64" y1="5" x2="64" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="linkBlue" x1="35" y1="38" x2="73" y2="77" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#3F92E6"/>
+      <stop offset="1" stop-color="#127FD9"/>
+    </linearGradient>
+
+    <linearGradient id="linkCyan" x1="57" y1="52" x2="94" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset=".6" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn hexagonal service boundary -->
+  <path d="M64 6            Q66 6 69 8            L117 35            Q120 37 120 41            L120 89            Q120 92 117 94            L68 122            Q64 124 61 122            L11 94            Q8 92 8 88            L8 40            Q8 37 11 35 Z" stroke="url(#frameBlue)" stroke-width="9"/>
+
+  <!-- Inner marker echo -->
+  <path d="M64 15            L110 42            L110 86            L64 112            L18 86            L18 42 Z" stroke="#5EA0EF" stroke-width="1.8" stroke-dasharray="22 5 11 6" opacity=".55"/>
+
+  <!-- Subtle top facet highlights -->
+  <path d="M15 36 L64 8 L112 36" stroke="#5EA0EF" stroke-width="2.5"/>
+
+  <!-- First chain link: Azure blue -->
+  <path d="M62 37            L48 37            C34 37 27 46 27 57            C27 69 35 77 48 77            L62 77            C75 77 83 69 83 57            C83 46 75 37 62 37 Z            M62 48            C68 48 72 51 72 57            C72 63 68 66 62 66            L48 66            C42 66 38 63 38 57            C38 51 42 48 48 48 Z" fill="url(#linkBlue)" fill-rule="evenodd" stroke="#0866B1" stroke-width="2.5"/>
+
+  <!-- Blue link hand-drawn highlight -->
+  <path d="M36 47            Q41 40 50 41            L61 41            Q72 41 77 48" stroke="#C5E6FF" stroke-width="2.7"/>
+
+  <!-- Second chain link: cyan -->
+  <path d="M80 53            L66 53            C53 53 45 62 45 73            C45 85 53 93 66 93            L80 93            C93 93 101 85 101 73            C101 62 93 53 80 53 Z            M80 64            C86 64 90 67 90 73            C90 79 86 82 80 82            L66 82            C60 82 56 79 56 73            C56 67 60 64 66 64 Z" fill="url(#linkCyan)" fill-rule="evenodd" stroke="#087EAD" stroke-width="2.5"/>
+
+  <!-- Restore visual interlocking at overlap -->
+  <path d="M58 54            Q62 53 67 53            L74 53            L74 64            L66 64            Q60 64 56 69" fill="none" stroke="#087EAD" stroke-width="2.5"/>
+
+  <!-- Cyan link marker highlight -->
+  <path d="M61 59            Q66 56 73 57            L81 57            Q92 57 96 65" stroke="#D4FAFF" stroke-width="2.7"/>
+
+  <!-- Hand-drawn link reflections -->
+  <path d="M33 60 Q35 69 44 72" stroke="#A8D8FF" stroke-width="2" opacity=".8"/>
+
+  <path d="M92 78 Q89 86 80 88" stroke="#B3F4FF" stroke-width="2.2" opacity=".9"/>
+
+  <!-- Small connection indicator -->
+  <path d="M60 73 L68 73" stroke="#0078D4" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M99 25 L99 34            M94 29 L104 29" stroke="#F4C542" stroke-width="3"/>
+
+  <path d="M25 98 L21 103            M34 102 L31 108" stroke="#F4C542" stroke-width="2.4"/>
+
+  <!-- Loose marker energy details -->
+  <path d="M24 29 L30 26            M108 99 L113 96" stroke="#32BEDD" stroke-width="2.5"/>
+
+  <!-- Subtle freehand bottom accent -->
+  <path d="M51 116 Q64 121 77 116" stroke="#5EA0EF" stroke-width="1.8" opacity=".7"/>
+</svg>

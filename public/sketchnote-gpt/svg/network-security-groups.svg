@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Network Security Groups (sketch)</title>
+  
+  <desc>Azure-blue security shield with four alternating blue and cyan quadrants, irregular marker outlines, and restrained yellow sketchnote accents.</desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="64" y1="7" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".47" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="66" y1="12" x2="111" y2="69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <clipPath id="shieldClip">
+      <path d="M64 7                C78 7 80 19 99 20                L111 21                Q116 22 116 27                L116 60                C116 87 89 110 66 123                Q64 125 61 123                C38 110 12 87 12 60                L12 27                Q12 22 17 21                C36 20 43 17 49 11                Q55 7 64 7Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Organic outer shield silhouette -->
+  <path d="M64 7            C78 7 80 19 99 20            L111 21            Q116 22 116 27            L116 60            C116 87 89 110 66 123            Q64 125 61 123            C38 110 12 87 12 60            L12 27            Q12 22 17 21            C36 20 43 17 49 11            Q55 7 64 7Z" fill="url(#shieldBlue)" stroke="#1767AD" stroke-width="3.5"/>
+
+  <!-- Four-tone security segmentation -->
+  <g clip-path="url(#shieldClip)">
+
+    <!-- Upper-left cyan quadrant -->
+    <path d="M15 23              Q43 23 51 12              Q57 7 64 10              L64 64              L15 64Z" fill="#50E6FF"/>
+
+    <!-- Upper-right Azure-blue quadrant -->
+    <path d="M64 9              Q77 9 85 18              Q98 23 113 23              L113 64              L64 64Z" fill="url(#deepBlue)"/>
+
+    <!-- Lower-left blue quadrant -->
+    <path d="M15 64              L64 64              L64 122              C40 108 17 89 15 64Z" fill="#0078D4"/>
+
+    <!-- Lower-right cyan quadrant -->
+    <path d="M64 64              L113 64              C111 90 89 109 64 123Z" fill="#50E6FF"/>
+
+    <!-- Organic hand-drawn quadrant divisions -->
+    <path d="M64 11              Q63 39 64 64              Q65 93 64 121" stroke="#B7EFFF" stroke-width="2.4" opacity=".75"/>
+
+    <path d="M15 64              Q39 63 64 64              Q89 65 113 64" stroke="#B7EFFF" stroke-width="2.4" opacity=".75"/>
+
+    <!-- Upper-left marker highlight -->
+    <path d="M20 30              Q39 29 51 20              M21 38 L21 54" stroke="#D4FAFF" stroke-width="2.5" opacity=".8"/>
+
+    <!-- Upper-right highlight -->
+    <path d="M76 18              Q86 28 103 28              M108 35 L108 50" stroke="#A9DBFF" stroke-width="2.2" opacity=".85"/>
+
+    <!-- Lower-left ink contour -->
+    <path d="M22 76              Q28 95 48 109" stroke="#5DAAF0" stroke-width="2" opacity=".8"/>
+
+    <!-- Lower-right cyan contour -->
+    <path d="M105 76              Q98 94 79 108" stroke="#B9F5FF" stroke-width="2.2" opacity=".8"/>
+
+    <!-- Restrained marker hatching -->
+    <path d="M27 46 L32 41              M35 46 L40 41              M85 38 L91 33              M39 91 L44 96              M86 90 L92 84" stroke="#FFFFFF" stroke-width="1.6" opacity=".35"/>
+  </g>
+
+  <!-- Slightly imperfect hand-inked border -->
+  <path d="M18 30            L18 59            Q19 84 41 103            M48 110 Q55 117 63 121            M109 72 Q104 93 85 107" stroke="#0A609E" stroke-width="1.8" opacity=".6"/>
+
+  <!-- Fine shield shoulder accents -->
+  <path d="M25 19            Q43 18 51 11            M77 12 Q86 20 100 21" stroke="#8AD7FF" stroke-width="2" opacity=".75"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M119 13 L119 22            M115 17 L123 17" stroke="#FFD65A" stroke-width="2.7"/>
+
+  <circle cx="119" cy="17" r="1.7" fill="#FFE58A"/>
+
+  <!-- Small annotation ticks -->
+  <path d="M5 38 L9 42            M6 47 L10 48            M117 91 L122 94" stroke="#FFD65A" stroke-width="2.5"/>
+
+  <!-- Subtle exterior corner marks -->
+  <path d="M39 7 L44 4            M84 119 L90 115" stroke="#FFD65A" stroke-width="2.3"/>
+
+</svg>

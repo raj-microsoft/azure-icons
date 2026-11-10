@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Microsoft Dev Box (sketch)</title>
+  
+  <desc>Azure cyan cloud behind a blue developer monitor displaying white code brackets, with a grey stand and subtle yellow sketchnote accents.</desc>
+
+  <defs>
+    <linearGradient id="cloudCyan" x1="10" y1="12" x2="97" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="screenBlue" x1="39" y1="43" x2="120" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".82" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#0065B5"/>
+    </linearGradient>
+    <linearGradient id="standGrey" x1="78" y1="102" x2="84" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn cloud silhouette -->
+  <path d="M28 71            C18 72 10 65 9 55            Q7 43 16 35            Q22 29 31 29            C35 15 47 9 59 10            Q76 9 83 22            Q87 28 88 35            C99 35 106 44 107 54            Q108 65 98 71            Q93 74 84 74            L29 74Z" fill="url(#cloudCyan)" stroke="#168CAC" stroke-width="3.2"/>
+
+  <!-- Loose cyan cloud highlight -->
+  <path d="M17 47 Q19 37 30 36            M39 27 Q46 15 60 17            M70 19 Q81 23 82 36" stroke="#C8F8FF" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Sketchy cloud contour -->
+  <path d="M13 62 Q17 70 28 70            M32 76 Q44 77 55 75" stroke="#087FAD" stroke-width="1.5" opacity=".65"/>
+
+  <!-- Monitor outer frame -->
+  <path d="M38 43            Q38 41 42 41            L119 41            Q122 41 122 45            L122 100            Q122 103 119 103            L41 103            Q38 103 38 100Z" fill="url(#screenBlue)" stroke="#165B9C" stroke-width="3.3"/>
+
+  <!-- Inset screen edge -->
+  <path d="M44 48 Q43 47 46 47            L115 47            Q117 47 117 50            L117 96            Q117 98 114 98            L46 98            Q44 98 44 96Z" stroke="#A9D8FF" stroke-width="1.7" opacity=".8"/>
+
+  <!-- Developer code brackets -->
+  <path d="M70 61            L57 73            L70 85" stroke="#FFFFFF" stroke-width="6"/>
+
+  <path d="M92 61            L105 73            L92 85" stroke="#FFFFFF" stroke-width="6"/>
+
+  <!-- Forward slash, code symbol -->
+  <path d="M87 55            Q84 64 81 74            L76 91" stroke="#F2F2F2" stroke-width="5.5"/>
+
+  <!-- Fine marker-style code highlights -->
+  <path d="M68 58 L54 72            M95 58 L109 72" stroke="#DDF2FF" stroke-width="1.5" opacity=".8"/>
+
+  <!-- Monitor bottom rim -->
+  <path d="M41 101 Q79 104 119 101" stroke="#004E98" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Monitor neck -->
+  <path d="M73 104            L89 104            Q88 115 93 119            L69 119            Q74 115 73 104Z" fill="url(#standGrey)" stroke="#676F78" stroke-width="2.4"/>
+
+  <!-- Desktop foot -->
+  <path d="M68 118            Q66 119 63 123            Q62 125 65 125            L98 125            Q101 125 99 122            Q97 119 94 118Z" fill="#BFC3C8" stroke="#707070" stroke-width="2.5"/>
+
+  <path d="M68 122 Q82 120 95 122" stroke="#F1F1F1" stroke-width="1.7"/>
+
+  <!-- Yellow sketchnote accent strokes -->
+  <path d="M111 30 L115 25            M119 35 L125 33            M22 81 L17 86" stroke="#FFD65A" stroke-width="3"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M27 17 L27 25            M23 21 L31 21" stroke="#FFD65A" stroke-width="2.6"/>
+
+  <circle cx="27" cy="21" r="1.6" fill="#FFE58A"/>
+
+  <!-- Subtle scattered annotation dots -->
+  <circle cx="116" cy="21" r="2" fill="#FFD65A"/>
+  <circle cx="15" cy="91" r="1.8" fill="#50BCE6"/>
+
+</svg>

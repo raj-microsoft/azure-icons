@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Input Output (sketch)</title>
+  
+  <desc>Two right-pointing arrows in original purple and Azure blue, framed by hand-drawn gray rails.</desc>
+
+  <defs>
+    <linearGradient id="purple" x1="16" y1="40" x2="58" y2="89" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="azure" x1="76" y1="40" x2="118" y2="89" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6BB9F2"/>
+      <stop offset="1" stop-color="#1B93EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn top and bottom rails -->
+  <g stroke="#777777" stroke-width="5">
+    <path d="M12 13 Q43 11 65 13 T116 12"/>
+    <path d="M12 115 Q43 117 65 115 T116 116"/>
+  </g>
+
+  <!-- Rail end brackets -->
+  <g fill="#B0B0B0" stroke="#696969" stroke-width="3.5">
+    <path d="M10 13 Q10 10 14 10 L19 11 L19 37 Q17 39 12 38 L10 36 Z"/>
+    <path d="M109 11 L116 10 Q119 10 119 14 L119 36 Q117 39 109 38 Z"/>
+    <path d="M10 91 Q13 89 19 91 L19 117 L13 118 Q10 117 10 114 Z"/>
+    <path d="M109 91 Q115 89 119 92 L119 114 Q119 118 115 118 L109 117 Z"/>
+  </g>
+
+  <!-- Purple input arrow -->
+  <path d="M8 55            Q8 53 12 53            L33 53            L33 39            Q34 35 37 38            L61 61            Q64 64 61 67            L37 91            Q34 94 33 90            L33 76            L11 76            Q8 76 8 73 Z" fill="url(#purple)" stroke="#6530BD" stroke-width="3.5"/>
+
+  <!-- Purple marker highlight -->
+  <path d="M15 58 Q26 57 37 58            M39 46 L55 62" stroke="#D9C4FF" stroke-width="3" opacity=".85"/>
+
+  <!-- Blue output arrow -->
+  <path d="M70 55            Q70 53 73 53            L95 53            L95 39            Q96 35 99 38            L122 61            Q125 64 122 67            L99 91            Q96 94 95 90            L95 76            L73 76            Q70 76 70 73 Z" fill="url(#azure)" stroke="#0875C4" stroke-width="3.5"/>
+
+  <!-- Azure marker highlight -->
+  <path d="M77 58 Q88 57 99 58            M101 46 L117 62" stroke="#D2EEFF" stroke-width="3" opacity=".9"/>
+
+  <!-- Sketchy ink accents -->
+  <g stroke-width="2.4">
+    <path d="M13 81 L25 81 M17 85 L28 85" stroke="#773ADC" opacity=".65"/>
+    <path d="M75 81 L87 81 M79 85 L90 85" stroke="#1B93EB" opacity=".65"/>
+    <path d="M27 31 L31 35 M31 27 L35 31" stroke="#F2B832"/>
+    <path d="M89 31 L93 35 M93 27 L97 31" stroke="#F2B832"/>
+  </g>
+
+  <!-- Small yellow sketchnote spark -->
+  <g stroke="#E5AA27" stroke-width="2.5">
+    <path d="M65 38 L65 44"/>
+    <path d="M59 41 L62 45"/>
+    <path d="M71 41 L68 45"/>
+  </g>
+
+  <!-- Subtle hand-drawn baseline marks -->
+  <g stroke="#888888" stroke-width="1.8" opacity=".65">
+    <path d="M28 121 Q48 123 64 121"/>
+    <path d="M72 121 Q89 123 103 121"/>
+  </g>
+</svg>

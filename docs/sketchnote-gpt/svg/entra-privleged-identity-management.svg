@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Privleged Identity Management (sketch)</title>
+  
+  <desc>Purple circular badge containing the angular cyan and dark-blue Microsoft Entra identity symbol, with subtly uneven hand-drawn outlines and restrained yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="pimPurple" x1="64" y1="8" x2="64" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset=".82" stop-color="#773ADC"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="pimBlue" x1="48" y1="35" x2="98" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0055C5"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+    <linearGradient id="pimCyan" x1="47" y1="41" x2="82" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#44DBF9"/>
+    </linearGradient>
+    <linearGradient id="pimLeft" x1="48" y1="37" x2="48" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0294E4"/>
+      <stop offset="1" stop-color="#66DDFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Purple circular identity badge -->
+  <path d="M64 8            C95 7 120 32 120 63            C121 95 96 120 64 120            C33 121 8 96 8 64            C7 33 32 8 64 8 Z" fill="url(#pimPurple)" stroke="#6632B8" stroke-width="3.8"/>
+
+  <!-- Hand-drawn badge highlight -->
+  <path d="M22 43            Q34 20 57 18            M72 18 Q94 21 106 42" stroke="#D7BCFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Dark-blue Entra diamond silhouette -->
+  <path d="M64 29            Q61 29 59 32            L28 67            Q24 72 30 76            L59 94            Q64 97 69 94            L98 76            Q104 72 100 67            L69 32            Q67 29 64 29 Z" fill="url(#pimBlue)" stroke="#123C79" stroke-width="3.3"/>
+
+  <!-- Light cyan angular identity center -->
+  <path d="M64 49            L86 73            L64 87            L42 73 Z" fill="url(#pimCyan)" stroke="#198CCB" stroke-width="2.4"/>
+
+  <!-- Original Entra ribbon left fold -->
+  <path d="M64 30            Q61 30 59 33            L28 68            Q25 72 31 76            L46 85            Q52 88 57 85            L64 81            L42 73            L64 49            Q70 42 77 42            Q82 42 87 45            L69 33            Q67 30 64 30 Z" fill="url(#pimLeft)" stroke="#0078D4" stroke-width="2.7"/>
+
+  <!-- Ribbon right-hand shaded fold -->
+  <path d="M64 49            L86 73            L64 87            L64 95            Q67 95 70 93            L98 76            Q103 72 99 67            L69 33            Q67 30 64 30 Z" fill="#041642" fill-opacity=".28"/>
+
+  <!-- Fold definition -->
+  <path d="M64 49 L64 87" stroke="#0078D4" stroke-width="2.2"/>
+
+  <!-- Small marker-style surface highlights -->
+  <path d="M35 68 L57 43" stroke="#A4EDFF" stroke-width="2.6" opacity=".85"/>
+  <path d="M47 77 Q53 82 59 80" stroke="#D0F8FF" stroke-width="2.1"/>
+  <path d="M75 61 L85 72" stroke="#D6F8FF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Subtle lower ribbon sketch -->
+  <path d="M50 88 Q57 93 64 92            M71 91 L91 78" stroke="#50E6FF" stroke-width="1.8" opacity=".6"/>
+
+  <!-- Restrained yellow annotation accents -->
+  <path d="M101 25 L106 19            M109 33 L115 31            M105 39 L111 43" stroke="#FFCA28" stroke-width="2.8"/>
+
+  <!-- Small hand-drawn badge details -->
+  <path d="M18 91 L23 97            M26 102 L31 106" stroke="#D7BCFF" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Final marker-style circular emphasis -->
+  <path d="M40 112 Q52 117 65 116            M76 115 Q91 111 100 101" stroke="#5125A0" stroke-width="1.9" opacity=".55"/>
+</svg>

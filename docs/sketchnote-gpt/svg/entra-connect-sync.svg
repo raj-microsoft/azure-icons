@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Connect Sync (sketch)</title>
+  
+  <desc>Azure cyan cloud behind a grey on-premises server, with a purple synchronization badge containing two white circular arrows. Editable vector illustration with hand-drawn marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="35" y1="8" x2="100" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66DDFF"/>
+      <stop offset="1" stop-color="#0294E4"/>
+    </linearGradient>
+    <linearGradient id="serverGrey" x1="12" y1="38" x2="72" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B2B3"/>
+      <stop offset="1" stop-color="#979797"/>
+    </linearGradient>
+    <linearGradient id="syncPurple" x1="72" y1="66" x2="121" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="0.55" stop-color="#8B55E6"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure cloud silhouette -->
+  <path d="M36 91            C19 93 7 80 7 65            C7 49 18 37 33 35            C39 19 52 10 67 10            C87 9 102 23 104 42            C118 44 125 56 124 68            C123 82 113 91 99 92            Z" fill="url(#cloudBlue)" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Uneven cloud marker highlights -->
+  <path d="M15 63            Q17 45 36 43            M43 30            Q52 17 68 18            M78 19            Q94 25 97 44" stroke="#A6F0FF" stroke-width="2.8"/>
+
+  <!-- Subtle cloud sketch contour -->
+  <path d="M112 52 Q119 59 117 69            M14 75 Q21 85 34 84" stroke="#005BA1" stroke-width="2" opacity=".45"/>
+
+  <!-- On-premises server body -->
+  <path d="M16 42            Q16 39 20 39            L65 39            Q69 39 69 43            L69 120            Q69 124 65 124            L20 124            Q16 124 16 120 Z" fill="url(#serverGrey)" stroke="#60616A" stroke-width="3.5"/>
+
+  <!-- Server edge highlights -->
+  <path d="M22 45 L22 117" stroke="#D9D9D9" stroke-width="2.5"/>
+  <path d="M63 45 Q65 78 63 116" stroke="#777777" stroke-width="2"/>
+
+  <!-- Upper server slot -->
+  <path d="M26 53            Q26 50 30 50            L56 50            Q60 50 60 54            L60 62            Q60 65 56 65            L30 65            Q26 65 26 62 Z" fill="#003067" stroke="#174C78" stroke-width="2.4"/>
+
+  <!-- Upper status indicator -->
+  <path d="M37 57            C37 60 35 62 32 62            C29 62 28 59 29 56            C30 53 35 53 37 57 Z" fill="#50E6FF"/>
+
+  <!-- Lower server slot -->
+  <path d="M26 74            Q26 71 30 71            L56 71            Q60 71 60 75            L60 83            Q60 86 56 86            L30 86            Q26 86 26 83 Z" fill="#003067" stroke="#174C78" stroke-width="2.4"/>
+
+  <!-- Lower status indicator -->
+  <path d="M37 78            C37 81 35 83 32 83            C29 83 28 80 29 77            C30 74 35 74 37 78 Z" fill="#50E6FF"/>
+
+  <!-- Minimal server details -->
+  <path d="M29 95 Q42 94 55 95            M29 101 Q39 100 47 101" stroke="#777777" stroke-width="2" opacity=".7"/>
+
+  <!-- Purple Entra Connect Sync badge -->
+  <path d="M120 95            C120 109 109 120 95 121            C81 122 70 111 69 97            C68 83 79 71 93 70            C107 69 119 80 120 95 Z" fill="url(#syncPurple)" stroke="#6632B8" stroke-width="3.8"/>
+
+  <!-- Badge marker highlight -->
+  <path d="M77 89            Q82 77 94 77            Q105 77 111 85" stroke="#D9C4FF" stroke-width="2.4" opacity=".85"/>
+
+  <!-- Top clockwise synchronization arrow -->
+  <path d="M81 91            C85 82 95 80 103 85            Q106 87 108 91" stroke="#FFFFFF" stroke-width="5.5"/>
+
+  <path d="M99 91            L108 93            L109 82" stroke="#FFFFFF" stroke-width="5.5"/>
+
+  <!-- Bottom counter-clockwise synchronization arrow -->
+  <path d="M109 101            C105 110 95 112 87 107            Q84 105 82 101" stroke="#FFFFFF" stroke-width="5.5"/>
+
+  <path d="M91 101            L82 99            L81 110" stroke="#FFFFFF" stroke-width="5.5"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M111 24 L117 18            M119 33 L125 31            M112 16 L113 10" stroke="#FFCA28" stroke-width="3"/>
+
+  <!-- Small handwritten-style detail marks -->
+  <path d="M9 108 L12 112            M8 117 L13 120" stroke="#0078D4" stroke-width="2.4"/>
+
+  <!-- Final hand-drawn emphasis -->
+  <path d="M75 117 Q83 125 95 125            M103 124 Q113 121 119 114" stroke="#773ADC" stroke-width="1.8" opacity=".55"/>
+</svg>

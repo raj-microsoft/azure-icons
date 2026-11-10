@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Power Up (sketch)</title>
+  
+  <desc>Two intersecting orbital rings in Azure blue and soft grey surrounding a small blue heart-shaped energy core, with uneven marker strokes and restrained yellow spark accents.</desc>
+
+  <defs>
+    <linearGradient id="orbitBlue" x1="12" y1="112" x2="115" y2="15" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1988D9"/>
+      <stop offset=".55" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="heartBlue" x1="48" y1="44" x2="81" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#54AEF0"/>
+      <stop offset=".55" stop-color="#379CE5"/>
+      <stop offset="1" stop-color="#1988D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Grey orbital ring: ascending ellipse -->
+  <path d="M20 17            C35 3 73 24 98 49            C122 73 132 109 114 117            C97 126 62 105 37 80            C12 55 4 31 20 17 Z" stroke="#999999" stroke-width="5.5"/>
+
+  <!-- Irregular grey marker highlight -->
+  <path d="M26 19            C43 15 73 36 95 57" stroke="#D0D0D0" stroke-width="2.5"/>
+
+  <path d="M77 104 Q101 119 112 113" stroke="#B3B3B3" stroke-width="2.3"/>
+
+  <!-- Blue orbital ring: descending ellipse -->
+  <path d="M112 17            C95 2 60 20 36 44            C12 68 3 105 19 116            C35 127 72 106 97 81            C121 57 130 31 112 17 Z" stroke="#0866B1" stroke-width="7"/>
+
+  <path d="M112 17            C95 2 60 20 36 44            C12 68 3 105 19 116            C35 127 72 106 97 81            C121 57 130 31 112 17 Z" stroke="url(#orbitBlue)" stroke-width="4.5"/>
+
+  <!-- Hand-drawn orbital highlights -->
+  <path d="M109 23            C91 13 61 34 42 53" stroke="#C4E6FF" stroke-width="2.2"/>
+
+  <path d="M23 110            C35 117 66 100 84 85" stroke="#B5DEFF" stroke-width="2.2"/>
+
+  <!-- Energetic blue heart core -->
+  <path d="M64 55            C59 44 46 43 40 52            C35 59 38 69 44 76            C49 82 57 88 64 93            C72 87 81 80 86 72            C91 64 89 53 82 49            C74 44 67 49 64 55 Z" fill="url(#heartBlue)" stroke="#0866B1" stroke-width="3.5"/>
+
+  <!-- Heart marker highlights -->
+  <path d="M46 55 Q52 49 58 59" stroke="#BCE8FF" stroke-width="3" opacity=".95"/>
+
+  <path d="M70 57 Q76 51 81 57" stroke="#BCE8FF" stroke-width="2.4" opacity=".85"/>
+
+  <path d="M47 70 Q54 80 64 86" stroke="#0078D4" stroke-width="2" opacity=".7"/>
+
+  <!-- Small freehand energy marks -->
+  <path d="M64 36 L64 43            M31 62 L36 64            M91 85 L96 89" stroke="#32BEDD" stroke-width="2.7"/>
+
+  <!-- Yellow sketchnote energy sparkle -->
+  <path d="M104 5 L104 13            M100 9 L108 9" stroke="#F4C542" stroke-width="2.8"/>
+
+  <path d="M8 45 L14 49            M9 56 L15 56" stroke="#F4C542" stroke-width="2.5"/>
+
+  <!-- Hand-drawn orbital movement accents -->
+  <path d="M42 13 Q49 15 56 19" stroke="#A3A3A3" stroke-width="2" opacity=".8"/>
+
+  <path d="M103 105 Q108 109 113 109" stroke="#A3A3A3" stroke-width="1.8" opacity=".75"/>
+
+  <path d="M48 117 Q58 114 67 108" stroke="#5EA0EF" stroke-width="2" opacity=".8"/>
+</svg>

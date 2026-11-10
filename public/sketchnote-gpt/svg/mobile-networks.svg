@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Mobile Networks (sketch)</title>
+  
+  <desc>Azure-blue cloud with a cyan foreground, green wireless signal arcs and a white 5G symbol, recreated with expressive marker-style outlines.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="33" y1="17" x2="105" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset=".65" stop-color="#0071C7"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="cloudCyan" x1="8" y1="43" x2="72" y2="109" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main cloud: uneven hand-drawn silhouette -->
+  <path d="M36 109            C20 110 9 99 9 84            Q8 71 17 61            Q23 54 34 52            C41 32 54 19 72 19            Q91 17 102 31            Q110 40 111 54            C124 57 129 68 126 81            Q124 96 112 104            Q105 109 96 109Z" fill="url(#cloudBlue)" stroke="#145D99" stroke-width="3.5"/>
+
+  <!-- Azure cloud highlight strokes -->
+  <path d="M44 48 Q52 29 70 27            M81 27 Q101 32 103 54            M113 62 Q122 68 120 79" stroke="#91CCFF" stroke-width="2.6" opacity=".85"/>
+
+  <!-- Foreground cyan cloud lobe -->
+  <path d="M35 109            C20 110 9 99 9 84            C9 66 21 52 38 51            Q53 50 64 61            Q72 70 72 85            L72 109Z" fill="url(#cloudCyan)" stroke="#158FAD" stroke-width="3"/>
+
+  <!-- Subtle handmade cyan highlight -->
+  <path d="M16 79 Q18 65 32 59            M38 57 Q54 57 62 71" stroke="#C9F8FF" stroke-width="2.4" opacity=".9"/>
+
+  <!-- Wi-Fi / mobile network signal arcs -->
+  <path d="M33 64            C47 39 72 28 89 35            L78 47            C61 42 45 51 33 64Z" fill="#86D633" stroke="#FFFFFF" stroke-width="2.6"/>
+
+  <path d="M35 70            C47 51 62 47 76 53            L68 62            C55 57 45 63 35 70Z" fill="#86D633" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <path d="M36 77            C45 66 55 65 65 69            L59 77            Q47 72 36 77Z" fill="#86D633" stroke="#FFFFFF" stroke-width="2.3"/>
+
+  <!-- Fine sketchnote signal contours -->
+  <path d="M42 55 Q59 38 77 39            M44 65 Q56 55 67 57" stroke="#D9FFA1" stroke-width="1.8" opacity=".85"/>
+
+  <!-- Hand-lettered-style 5G, vector strokes only -->
+  <!-- Number 5 -->
+  <path d="M20 86            L41 86            L39 96            Q31 92 24 98            C18 104 23 115 34 115            Q46 115 46 104            Q46 96 38 95" stroke="#FFFFFF" stroke-width="5.5"/>
+
+  <!-- Letter G -->
+  <path d="M64 92            Q57 85 48 88            C39 91 39 107 45 113            Q52 120 64 114            L64 104            L55 104" stroke="#FFFFFF" stroke-width="5.5"/>
+
+  <!-- Tiny letter-stroke highlights -->
+  <path d="M22 83 L42 83            M47 91 Q54 85 62 90" stroke="#DDF7FF" stroke-width="1.5" opacity=".75"/>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <path d="M99 20 L104 14            M108 27 L116 24            M117 34 L124 34" stroke="#FFD65A" stroke-width="2.8"/>
+
+  <!-- Wireless sparkle -->
+  <path d="M25 27 L25 36            M20 31 L30 31" stroke="#FFD65A" stroke-width="2.6"/>
+
+  <circle cx="25" cy="31" r="1.7" fill="#FFE58A"/>
+
+  <!-- Small annotation ticks -->
+  <path d="M12 110 L8 115            M105 115 L111 119" stroke="#FFD65A" stroke-width="2.5"/>
+
+  <!-- Loose cloud edge marker details -->
+  <path d="M77 111 Q94 113 106 106            M13 91 Q16 103 28 107" stroke="#136CA8" stroke-width="1.6" opacity=".6"/>
+
+</svg>

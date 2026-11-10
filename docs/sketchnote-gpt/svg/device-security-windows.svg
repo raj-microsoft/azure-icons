@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Device Security Windows (sketch)</title>
+  
+  <desc>Azure-blue security shield protecting a Windows device panel, with uneven marker outlines, handwritten-style details and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="13" y1="8" x2="88" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83B9F9"/>
+      <stop offset=".48" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="windowBlue" x1="43" y1="60" x2="123" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A5CDFF"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Original shield silhouette -->
+  <path d="M45 6            C52 6 55 9 60 12            Q68 16 85 16            Q89 16 89 21            L89 51            Q89 73 69 92            Q58 102 46 110            Q43 112 40 110            C24 100 10 87 5 70            Q2 61 2 50            L2 21            Q2 16 7 16            C24 16 30 12 36 9            Q40 6 45 6Z" fill="url(#shieldBlue)" stroke="#175A94" stroke-width="4.5"/>
+
+  <!-- Uneven inset shield border -->
+  <path d="M45 12            Q53 12 60 18            Q69 23 82 23            L82 51            Q82 75 62 92            Q54 99 43 104            Q17 88 11 68            Q8 58 9 25            Q29 24 38 16            Q42 12 45 12Z" stroke="#D6EBFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Hand-drawn shield sheen -->
+  <path d="M16 31            Q15 53 19 65            M21 71 Q26 83 36 91" stroke="#BDE1FF" stroke-width="3" opacity=".8"/>
+
+  <!-- Security accent -->
+  <path d="M34 49            L42 57            L58 38" stroke="#FFFFFF" stroke-width="5.5" opacity=".9"/>
+
+  <!-- Windows device panel -->
+  <path d="M43 61            Q43 58 48 58            L121 58            Q125 58 125 62            L125 123            Q125 126 121 126            L47 126            Q43 126 43 122Z" fill="url(#windowBlue)" stroke="#24699D" stroke-width="4"/>
+
+  <!-- Browser / device header -->
+  <path d="M47 63            Q47 61 50 61            L119 61            Q122 61 122 64            L122 71            L47 71Z" fill="#EAF5FF" stroke="#5EA0EF" stroke-width="1.5"/>
+
+  <!-- Header marker accent -->
+  <path d="M52 66 L70 66            M77 66 L85 66" stroke="#83B9F9" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Device security status rows -->
+  <g fill="#F6FBFF" opacity=".9">
+    <path d="M64 80 Q64 78 67 78              L113 78 Q116 78 116 81              Q116 84 113 84              L67 84 Q64 84 64 81Z"/>
+    <path d="M64 93 Q64 91 67 91              L113 91 Q116 91 116 94              Q116 97 113 97              L67 97 Q64 97 64 94Z"/>
+    <path d="M64 110 Q64 107 67 107              L116 107 Q119 107 119 110              Q119 113 116 113              L67 113 Q64 113 64 110Z"/>
+  </g>
+
+  <!-- Status bullets -->
+  <g fill="#F6FBFF" stroke="#5EA0EF" stroke-width="1">
+    <path d="M54 78 Q58 77 59 81              Q59 85 55 85              Q51 84 51 81              Q51 79 54 78Z"/>
+    <path d="M54 91 Q58 90 59 94              Q59 98 55 98              Q51 97 51 94              Q51 92 54 91Z"/>
+    <path d="M54 107 Q59 106 59 111              Q59 115 55 115              Q50 114 51 110              Q51 108 54 107Z"/>
+  </g>
+
+  <!-- Sketch highlights -->
+  <path d="M68 81 L91 81            M68 94 L99 94            M68 110 L104 110" stroke="#FFFFFF" stroke-width="1.5" opacity=".75"/>
+
+  <!-- Yellow security verification spark -->
+  <path d="M100 36            L103 43            L110 46            L103 49            L100 56            L97 49            L90 46            L97 43Z" fill="#FFCF45" stroke="#C28D19" stroke-width="1.8"/>
+
+  <!-- Hand-drawn annotation marks -->
+  <path d="M111 35 L116 30            M113 46 L121 46            M108 55 L112 59" stroke="#FFCF45" stroke-width="2.5"/>
+
+  <!-- Sketchnote motion details -->
+  <path d="M5 83 L10 88            M9 95 L14 99            M28 113 L36 117" stroke="#5EA0EF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Device-edge marker strokes -->
+  <path d="M38 69 L38 79            M38 84 L38 90            M73 123 L88 123" stroke="#0078D4" stroke-width="2" opacity=".55"/>
+
+  <!-- Tiny handwritten-style security ticks -->
+  <path d="M17 8 L22 12            M29 4 L32 9            M73 6 L70 11" stroke="#5EA0EF" stroke-width="2.5"/>
+</svg>

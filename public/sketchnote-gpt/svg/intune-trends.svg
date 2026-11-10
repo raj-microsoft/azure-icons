@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Intune Trends (sketch)</title>
+  
+  <desc>Four Azure-blue chart bars with a rising green zigzag trend arrow, sketched marker outlines and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="trend" x1="64" y1="12" x2="64" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B4EC36"/>
+      <stop offset=".55" stop-color="#9FD732"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="50" x2="0" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Four uneven marker-drawn chart bars -->
+  <g fill="url(#bars)" stroke="#075EAB" stroke-width="3.2">
+    <path d="M20 81 Q20 79 23 79 L33 79              Q36 79 36 82 L36 114              Q36 117 33 117 L23 117              Q20 117 20 114 Z"/>
+    <path d="M45 65 Q45 63 48 63 L58 63              Q61 63 61 66 L61 114              Q61 117 58 117 L48 117              Q45 117 45 114 Z"/>
+    <path d="M70 81 Q70 79 73 79 L83 79              Q86 79 86 82 L86 114              Q86 117 83 117 L73 117              Q70 117 70 114 Z"/>
+    <path d="M95 49 Q95 47 98 47 L108 47              Q111 47 111 50 L111 114              Q111 117 108 117 L98 117              Q95 117 95 114 Z"/>
+  </g>
+
+  <!-- Subtle blue marker highlights -->
+  <g stroke="#B8DEFF" stroke-width="2.5" opacity=".85">
+    <path d="M25 86 L25 109"/>
+    <path d="M50 70 L50 109"/>
+    <path d="M75 86 L75 109"/>
+    <path d="M100 55 L100 108"/>
+  </g>
+
+  <!-- Rising green zigzag trend with arrowhead -->
+  <path d="M18 66            L53 32            Q55 30 57 32            L73 48            L99 22            L90 13            L115 13            L115 38            L106 29            L75 61            Q73 63 71 61            L55 45            L25 75            Q23 77 21 75            L18 72            Q15 69 18 66 Z" fill="url(#trend)" stroke="#5E9624" stroke-width="3.4"/>
+
+  <!-- Hand-drawn highlight along trend -->
+  <path d="M23 67 L53 37            M59 37 L73 51            M79 49 L103 25            M98 18 L109 18" stroke="#E0FF91" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Small sketchnote flourish -->
+  <g stroke="#E4B526" stroke-width="2.6">
+    <path d="M118 7 L122 3"/>
+    <path d="M121 21 L126 21"/>
+    <path d="M107 6 L107 2"/>
+  </g>
+
+  <!-- Ink-like baseline -->
+  <path d="M13 121 Q48 120 69 121 T116 121" stroke="#0078D4" stroke-width="2.2" opacity=".55"/>
+</svg>

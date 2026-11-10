@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Industrial Packaging System (sketch)</title>
+  
+  <desc>Hand-drawn Azure industrial packaging system with a blue shipping carton, pale blue sealing tape, and a four-roller conveyor belt.</desc>
+
+  <defs>
+    <linearGradient id="packageBlue" x1="59" y1="8" x2="59" y2="81" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".53" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="conveyorBlue" x1="64" y1="86" x2="64" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1988D9"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shipping carton -->
+  <path d="M22 9            Q22 6 26 6            L94 6            Q98 6 98 10            L98 76            Q98 80 94 80            L26 80            Q22 80 22 76Z" fill="url(#packageBlue)" stroke="#174E83" stroke-width="3.6"/>
+
+  <!-- Hand-drawn carton edge highlights -->
+  <path d="M28 17 L28 70            M32 74 L88 74            M92 20 L92 39" stroke="#B7D9FA" stroke-width="2.5" opacity=".65"/>
+
+  <!-- Central packaging tape -->
+  <path d="M41 7            L78 7            L78 24            Q78 26 75 26            L44 26            Q41 26 41 23Z" fill="#B1D4F7" stroke="#176B96" stroke-width="2.5"/>
+
+  <!-- Tape highlight -->
+  <path d="M46 12 L73 12            M46 17 L72 17" stroke="#EDF8FF" stroke-width="2" opacity=".85"/>
+
+  <!-- Small carton fold marks -->
+  <path d="M22 32 L29 32            M91 32 L98 32" stroke="#174E83" stroke-width="2" opacity=".5"/>
+
+  <!-- Conveyor belt outer silhouette -->
+  <path d="M17 86            L111 86            C119 86 124 94 124 104            C124 114 119 122 111 122            L17 122            C9 122 4 114 4 104            C4 94 9 86 17 86Z" fill="url(#conveyorBlue)" stroke="#174E83" stroke-width="3.6"/>
+
+  <!-- Inner conveyor sketch contour -->
+  <path d="M16 92            Q10 96 10 104            Q10 114 18 116            L109 116            Q117 114 117 104            Q117 95 110 92Z" stroke="#A9D9FF" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Four conveyor rollers -->
+  <g fill="#7DB6F8" stroke="#174E83" stroke-width="2.7">
+    <path d="M34 104              C34 111 30 116 24 116              C18 116 14 111 14 104              C14 97 18 92 24 92              C30 92 34 97 34 104Z"/>
+    <path d="M60 104              C60 111 56 116 50 116              C44 116 40 111 40 104              C40 97 44 92 50 92              C56 92 60 97 60 104Z"/>
+    <path d="M86 104              C86 111 82 116 76 116              C70 116 66 111 66 104              C66 97 70 92 76 92              C82 92 86 97 86 104Z"/>
+    <path d="M112 104              C112 111 108 116 102 116              C96 116 92 111 92 104              C92 97 96 92 102 92              C108 92 112 97 112 104Z"/>
+  </g>
+
+  <!-- Roller centers -->
+  <g fill="#C3E6FF" stroke="#176B96" stroke-width="2">
+    <path d="M30 104              C30 108 27 111 24 111              C20 111 18 108 18 104              C18 100 20 97 24 97              C27 97 30 100 30 104Z"/>
+    <path d="M56 104              C56 108 53 111 50 111              C46 111 44 108 44 104              C44 100 46 97 50 97              C53 97 56 100 56 104Z"/>
+    <path d="M82 104              C82 108 79 111 76 111              C72 111 70 108 70 104              C70 100 72 97 76 97              C79 97 82 100 82 104Z"/>
+    <path d="M108 104              C108 108 105 111 102 111              C98 111 96 108 96 104              C96 100 98 97 102 97              C105 97 108 100 108 104Z"/>
+  </g>
+
+  <!-- Marker highlights on rollers -->
+  <g stroke="#FFFFFF" stroke-width="1.8" opacity=".8">
+    <path d="M20 101 Q22 98 25 99"/>
+    <path d="M46 101 Q48 98 51 99"/>
+    <path d="M72 101 Q74 98 77 99"/>
+    <path d="M98 101 Q100 98 103 99"/>
+  </g>
+
+  <!-- Packaging motion marks -->
+  <path d="M7 48 L15 48            M8 57 L16 57            M11 66 L17 66" stroke="#1988D9" stroke-width="3"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M105 20 L111 15            M108 31 L117 30            M105 42 L111 47" stroke="#F6C84B" stroke-width="3.2"/>
+
+  <!-- Hand-drawn emphasis under conveyor -->
+  <path d="M43 126 Q64 123 85 126" stroke="#1988D9" stroke-width="2.3"/>
+
+  <!-- Tiny marker dots -->
+  <circle cx="14" cy="22" r="2.2" fill="#F6C84B"/>
+  <circle cx="111" cy="70" r="2.2" fill="#32BEDD"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Microsoft Defender EASM (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue Defender shield with a white connected asset network, irregular marker outlines, and subtle yellow highlights.</desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="22" y1="12" x2="107" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#79CFFF"/>
+      <stop offset=".47" stop-color="#59B8FF"/>
+      <stop offset="1" stop-color="#508DFA"/>
+    </linearGradient>
+    <linearGradient id="shieldInner" x1="33" y1="17" x2="99" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8AD7FF"/>
+      <stop offset=".55" stop-color="#64AEFC"/>
+      <stop offset="1" stop-color="#648EFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Organic shield silhouette -->
+  <path d="M64 9            C76 8 79 19 92 22            Q101 24 112 25            Q115 26 115 31            L115 59            C115 83 91 105 66 119            Q64 121 61 119            C36 104 13 83 13 59            L13 31            Q13 26 18 25            C30 24 37 19 45 13            Q53 8 64 9Z" fill="url(#shieldBlue)" stroke="#226EC2" stroke-width="3.5"/>
+
+  <!-- Slightly imperfect inset shield -->
+  <path d="M64 15            C76 15 79 25 92 28            Q99 30 108 30            L108 59            C108 79 87 99 64 112            C41 99 20 79 20 59            L20 31            C37 30 43 24 51 19            Q57 15 64 15Z" fill="url(#shieldInner)" stroke="#B7E7FF" stroke-width="1.8"/>
+
+  <!-- Loose hand-inked edge highlights -->
+  <path d="M23 38 Q22 49 23 60            M25 67 Q29 83 43 95            M83 20 Q91 28 103 29" stroke="#D7F2FF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M105 68 Q101 86 85 100" stroke="#226EC2" stroke-width="1.7" stroke-dasharray="5 5" opacity=".5"/>
+
+  <!-- Central EASM connected-asset symbol -->
+  <!-- White angular network, drawn as marker strokes -->
+  <path d="M42 35            L56 35            L56 52            Q56 54 59 54            L78 54            L78 41            L91 41            L91 51            L80 51            Q78 51 78 55            L78 74            L58 74            Q56 74 56 77            L56 93            L41 93            L41 77            L56 77            L56 58            Q56 56 53 56            L41 56            L41 35Z" fill="#FFFFFF" stroke="#2777D3" stroke-width="2.1"/>
+
+  <!-- Hand-drawn internal connector emphasis -->
+  <path d="M55 55 Q62 57 68 55            M57 73 Q66 72 76 73" stroke="#C9EFFF" stroke-width="1.6" opacity=".85"/>
+
+  <!-- Subtle yellow asset discovery accents -->
+  <path d="M35 31 L39 27 M31 39 L26 39            M94 35 L98 31 M97 44 L103 44" stroke="#FFD65A" stroke-width="2.8"/>
+
+  <path d="M88 82 Q94 76 96 68" stroke="#FFD65A" stroke-width="2.4" stroke-dasharray="3 5"/>
+
+  <!-- Small sketchnote discovery sparkle -->
+  <path d="M91 88 L91 96 M87 92 L95 92" stroke="#FFE17A" stroke-width="2.4"/>
+  <circle cx="91" cy="92" r="1.7" fill="#FFF1A4"/>
+
+  <!-- Secondary ink contours -->
+  <path d="M17 56 Q17 78 38 98            M49 111 Q56 116 63 120" stroke="#145FAE" stroke-width="1.4" opacity=".55"/>
+
+  <!-- Marker-like highlight ticks -->
+  <path d="M33 22 L39 19            M87 108 L93 103" stroke="#FFD65A" stroke-width="2.4"/>
+
+</svg>

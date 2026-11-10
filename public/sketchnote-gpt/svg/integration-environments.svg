@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Integration Environments (sketch)</title>
+  
+  <desc>Six colorful interlocking hexagonal petals forming an integration wheel, with organic marker outlines and a transparent background.</desc>
+
+  <!-- Top yellow petal -->
+  <path d="M55 8 Q58 5 62 6            L72 7 Q75 8 77 12            L84 25 Q86 28 83 33            L72 52 Q69 57 64 57            Q59 57 56 52            L45 33 Q42 28 45 24 Z" fill="#FFD400" stroke="#B88E08" stroke-width="3.2"/>
+
+  <!-- Upper-left green petal -->
+  <path d="M17 28 Q19 25 23 25            L41 25 Q46 25 49 30            L59 48 Q62 53 59 57            Q57 60 52 60            L20 60 Q16 60 14 56            L8 46 Q6 42 9 38 Z" fill="#86D633" stroke="#579B20" stroke-width="3.2"/>
+
+  <!-- Upper-right orange petal -->
+  <path d="M87 25 L105 25 Q109 25 111 29            L119 40 Q121 43 119 47            L113 57 Q111 60 107 60            L76 60 Q71 60 69 56            Q67 52 70 48            L80 30 Q83 25 87 25 Z" fill="#FAA21D" stroke="#C47B16" stroke-width="3.2"/>
+
+  <!-- Lower-left Azure-blue petal -->
+  <path d="M20 68 L52 68 Q57 68 59 72            Q62 76 59 81            L49 99 Q46 103 41 103            L23 103 Q19 103 17 99            L9 88 Q7 84 9 80            L14 71 Q16 68 20 68 Z" fill="#5EA0EF" stroke="#2676C9" stroke-width="3.2"/>
+
+  <!-- Lower-right red petal -->
+  <path d="M76 68 L107 68 Q111 68 113 72            L119 82 Q121 85 119 89            L112 100 Q110 103 106 103            L87 103 Q82 103 80 99            L70 81 Q67 76 70 72            Q72 68 76 68 Z" fill="#F04049" stroke="#B92837" stroke-width="3.2"/>
+
+  <!-- Bottom purple petal -->
+  <path d="M56 76 Q59 71 64 71            Q69 71 72 76            L83 95 Q86 100 83 104            L77 116 Q75 121 71 121            L57 121 Q53 121 51 117            L45 105 Q42 100 45 95 Z" fill="#A67AF4" stroke="#7942C4" stroke-width="3.2"/>
+
+  <!-- Inner overlapping connector segments -->
+  <path d="M56 34 L64 29 L72 34            L72 48 Q69 55 64 55            Q59 55 56 48 Z" fill="#FBE981" stroke="#BDAA36" stroke-width="2"/>
+
+  <path d="M43 44 L55 37 L62 49            Q65 54 61 60            L54 65 L43 59 Z" fill="#C4EA8B" stroke="#70A944" stroke-width="2"/>
+
+  <path d="M85 44 L73 37 L66 49            Q63 54 67 60            L74 65 L85 59 Z" fill="#F7CC88" stroke="#D39A42" stroke-width="2"/>
+
+  <path d="M43 69 L54 63            Q60 65 62 72            L55 85 L43 79 Z" fill="#B7D2F9" stroke="#6D9ED8" stroke-width="2"/>
+
+  <path d="M85 69 L74 63            Q68 65 66 72            L73 85 L85 79 Z" fill="#F6A9AF" stroke="#DE7B84" stroke-width="2"/>
+
+  <path d="M55 81 Q59 75 64 75            Q69 75 73 81            L76 90 L64 97 L52 90 Z" fill="#D2BFF9" stroke="#A48ADC" stroke-width="2"/>
+
+  <!-- Central integration hub -->
+  <path d="M64 50            Q69 50 72 55            L79 60            Q82 64 79 68            L72 73            Q68 78 64 78            Q59 78 56 73            L49 68            Q46 64 49 60            L56 55            Q60 50 64 50 Z" fill="#FFFFFF" stroke="#555555" stroke-width="3.2"/>
+
+  <!-- Central connected nodes -->
+  <g stroke="#555555" stroke-width="2.8">
+    <path d="M57 64 Q64 56 71 64 Q64 72 57 64 Z" fill="#EAF5FF"/>
+    <circle cx="57" cy="64" r="3" fill="#5EA0EF"/>
+    <circle cx="71" cy="64" r="3" fill="#FFD400"/>
+    <circle cx="64" cy="58" r="2.5" fill="#86D633"/>
+    <path d="M64 60 L64 67" stroke="#555555"/>
+  </g>
+
+  <!-- Hand-drawn highlight strokes -->
+  <g fill="none" stroke-width="2.5" opacity=".75">
+    <path d="M53 21 Q59 12 69 15" stroke="#FFF5A6"/>
+    <path d="M16 43 Q24 33 37 34" stroke="#D9F8AE"/>
+    <path d="M90 33 Q101 30 109 41" stroke="#FFE0A2"/>
+    <path d="M16 84 Q22 75 36 76" stroke="#C8E4FF"/>
+    <path d="M91 77 Q104 76 112 85" stroke="#FFD1D3"/>
+    <path d="M53 104 Q56 113 64 115" stroke="#E9D9FF"/>
+  </g>
+
+  <!-- Small sketchnote accent marks -->
+  <g fill="none" stroke="#D6A320" stroke-width="2.4">
+    <path d="M92 12 L94 17"/>
+    <path d="M99 15 L96 20"/>
+    <path d="M27 112 L24 117"/>
+    <path d="M33 114 L34 120"/>
+  </g>
+</svg>

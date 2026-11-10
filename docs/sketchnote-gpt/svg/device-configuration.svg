@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Device Configuration (sketch)</title>
+  
+  <desc>Azure-blue mobile device with a pale screen and an overlapping grey configuration gear, illustrated using uneven hand-drawn marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="deviceBlue" x1="12" y1="8" x2="82" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#3990E4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="screenPale" x1="20" y1="19" x2="73" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0FFFD"/>
+      <stop offset="1" stop-color="#D2EBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn mobile device silhouette -->
+  <path d="M15 8            Q15 5 19 5            L78 6            Q82 6 82 11            L81 117            Q81 122 77 122            L18 121            Q14 121 14 117Z" fill="url(#deviceBlue)" stroke="#075A9C" stroke-width="3.5"/>
+
+  <!-- Light device screen -->
+  <path d="M21 18            Q21 16 23 16            L73 17            Q75 17 75 20            L74 108            Q74 110 72 110            L23 109            Q21 109 21 107Z" fill="url(#screenPale)" stroke="#67B6EA" stroke-width="2.3"/>
+
+  <!-- Slightly uneven inner screen highlight -->
+  <path d="M26 23 L69 23 M26 27 L26 97" stroke="#FFFFFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Speaker slot -->
+  <path d="M39 11 Q47 10 56 11" stroke="#F2F2F2" stroke-width="3"/>
+
+  <!-- Home button -->
+  <path d="M45 115            Q49 113 52 115            Q54 119 50 120            Q46 121 45 118Z" fill="#F2F2F2" stroke="#B7DFFF" stroke-width="1.2"/>
+
+  <!-- Subtle screen configuration marks -->
+  <g stroke="#81BDEB" stroke-width="2.4" opacity=".7">
+    <path d="M31 39 L61 39"/>
+    <path d="M31 49 L55 49"/>
+    <path d="M31 59 L48 59"/>
+  </g>
+
+  <!-- Gear teeth: hand-drawn editable vector path -->
+  <path d="M96 61            L105 61            L109 72            Q112 73 115 75            L125 71            L127 77            L121 87            Q122 90 123 93            L133 97            L132 105            L121 108            Q120 111 118 114            L122 123            L115 129            L105 124            Q102 126 99 127            L96 137            L87 137            L84 126            Q81 125 78 123            L69 128            L63 122            L68 113            Q66 110 65 107            L55 104            L55 96            L65 93            Q66 90 68 87            L63 78            L69 72            L79 77            Q82 75 85 74            L88 63Z" transform="translate(10 12) scale(.77)" fill="#949494" stroke="#666666" stroke-width="4"/>
+
+  <!-- Gear inner opening -->
+  <path d="M96 88            C106 88 113 96 113 105            C113 115 106 122 96 122            C86 122 79 115 79 105            C79 95 86 88 96 88Z" transform="translate(10 12) scale(.77)" fill="#FFFFFF" stroke="#777777" stroke-width="3.5"/>
+
+  <!-- Small blue inner gear accent -->
+  <path d="M84 93 Q91 87 100 90" stroke="#5EA0EF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Hand-drawn rim highlight -->
+  <path d="M73 82 Q77 77 83 75" stroke="#D7D7D7" stroke-width="2.5"/>
+
+  <!-- Restrained yellow sketchnote emphasis -->
+  <g stroke="#F4C542" stroke-width="3">
+    <path d="M98 42 L101 34"/>
+    <path d="M108 48 L115 42"/>
+    <path d="M112 58 L121 56"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M104 15            L106 21            L112 23            L106 25            L104 31            L102 25            L96 23            L102 21Z" fill="#F4C542" stroke="#C48B17" stroke-width="1.5"/>
+
+  <!-- Loose marker accent around device -->
+  <g stroke="#0078D4" stroke-width="2" opacity=".65">
+    <path d="M9 28 L9 45"/>
+    <path d="M9 51 L9 58"/>
+    <path d="M27 125 L44 125"/>
+  </g>
+</svg>

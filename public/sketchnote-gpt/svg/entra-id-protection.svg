@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra ID Protection (sketch)</title>
+  
+  <desc>Hand-drawn sketchnote illustration of the Entra ID Protection icon featuring an orange Entra ribbon mark and a blue protection shield.</desc>
+
+  <defs>
+    <linearGradient id="entraOrange" x1="78" y1="34" x2="86" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0.085" stop-color="#EF7100"/>
+      <stop offset="1" stop-color="#F78D1E"/>
+    </linearGradient>
+    <linearGradient id="entraBlue" x1="98" y1="73" x2="98" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="0.06" stop-color="#0A7CD7"/>
+      <stop offset="0.34" stop-color="#2E8CE1"/>
+      <stop offset="0.59" stop-color="#4897E9"/>
+      <stop offset="0.82" stop-color="#589EED"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+    <linearGradient id="warmFill" x1="34" y1="42" x2="71" y2="79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFB34D"/>
+      <stop offset="1" stop-color="#FAA21D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Entra ribbon mark -->
+  <path d="M63 17            C59 12 53 10 47 10            C41 10 35 12 31 17            L13 38            C7 45 8 55 16 60            L43 77            C50 82 58 81 64 77            L64 46            L35 79            C33 81 28 81 25 79            L13 71            C7 67 6 59 10 54            Z" fill="#FAA21D" stroke="#CC6B00" stroke-width="3.2"/>
+
+  <path d="M64 46            L64 77            L95 58            L64 23            Z" fill="url(#warmFill)" stroke="#E28614" stroke-width="3"/>
+
+  <path d="M64 23            L95 58            L66 76            C70 79 76 79 82 76            L114 56            C121 51 122 42 117 36            L100 17            C95 12 89 10 83 10            C77 10 72 12 68 17            Z" fill="url(#entraOrange)" stroke="#D96E00" stroke-width="3.2"/>
+
+  <!-- Hand-drawn inner seams -->
+  <path d="M63 22            C68 17 75 15 82 15            C88 15 93 17 97 22" stroke="#FFB34D" stroke-width="2.3"/>
+
+  <path d="M18 40            L43 70" stroke="#FFCC73" stroke-width="2.1" opacity=".9"/>
+
+  <path d="M88 61            L70 72" stroke="#FFCC73" stroke-width="2.1" opacity=".9"/>
+
+  <!-- Small sketchnote accent lines -->
+  <path d="M24 24 L20 20 M18 30 L12 29 M100 24 L106 20 M108 31 L114 29" stroke="#F6B21A" stroke-width="3"/>
+
+  <!-- Protection shield -->
+  <path d="M118 83            C118 97 103 107 99 110            C98 111 97 111 96 110            C92 107 77 97 77 83            L77 66            C77 64 79 63 81 63            C90 63 88 57 98 57            C108 57 106 63 115 63            C117 63 118 64 118 66            Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.2"/>
+
+  <path d="M115 84            C115 95 103 103 99 106            C98 106.8 97 106.8 96 106            C92 103 80 95 80 84            L80 69            C86 69 88 63 98 63            C108 63 110 69 115 69            Z" fill="url(#entraBlue)" stroke="#1E6DB2" stroke-width="2.4"/>
+
+  <!-- Shield highlight -->
+  <path d="M84 72            C88 71 91 68 95 67            C100 66 105 69 111 70" stroke="#9ED7FF" stroke-width="2" opacity=".9"/>
+
+  <!-- Marker-style protection tick -->
+  <path d="M89 86            L95 93            L107 79" stroke="#FFFFFF" stroke-width="6"/>
+
+  <!-- Subtle handwritten-style emphasis -->
+  <path d="M45 84            Q54 88 63 84" stroke="#D96E00" stroke-width="1.8" opacity=".55"/>
+
+  <path d="M72 83            Q78 80 84 84" stroke="#D96E00" stroke-width="1.8" opacity=".45"/>
+</svg>

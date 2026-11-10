@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Disks Snapshots (sketch)</title>
+  
+  <desc>Two vertically stacked disk snapshots, Azure blue above and green below, framed by four hand-drawn gray snapshot corners.</desc>
+
+  <defs>
+    <linearGradient id="diskBlue" x1="64" y1="19" x2="64" y2="75" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".54" stop-color="#358EE3"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="diskGreen" x1="64" y1="73" x2="64" y2="106" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#87CA39"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Snapshot framing corners -->
+  <path d="M29 9 L10 9 Q7 9 7 13 L7 31" stroke="#949494" stroke-width="7"/>
+  <path d="M99 9 L118 9 Q121 9 121 13 L121 31" stroke="#949494" stroke-width="7"/>
+  <path d="M7 97 L7 115 Q7 119 11 119 L29 119" stroke="#949494" stroke-width="7"/>
+  <path d="M121 97 L121 115 Q121 119 117 119 L99 119" stroke="#949494" stroke-width="7"/>
+
+  <!-- Marker highlights on frame -->
+  <path d="M12 26 L12 15 L25 15            M103 15 L116 15 L116 26            M12 101 L12 113 L25 113            M103 113 L116 113 L116 101" stroke="#C0C0C0" stroke-width="2.5"/>
+
+  <!-- Lower green snapshot disk -->
+  <path d="M24 79            L24 91            C24 102 42 109 64 109            C86 109 104 102 104 91            L104 79" fill="url(#diskGreen)" stroke="#4D801E" stroke-width="3.5"/>
+
+  <path d="M24 79            C24 69 42 62 64 62            C86 62 104 69 104 79            C104 89 86 96 64 96            C42 96 24 89 24 79Z" fill="#76BC2D" stroke="#4D801E" stroke-width="3.5"/>
+
+  <!-- Lower disk spindle -->
+  <path d="M51 79            C52 75 76 75 77 79            C78 83 52 84 51 79Z" fill="#5E9624"/>
+
+  <!-- Green cylinder sketch lines -->
+  <path d="M29 94 Q42 104 62 104            M86 102 Q97 99 100 94" stroke="#A2D768" stroke-width="2.5"/>
+
+  <!-- Upper Azure disk body -->
+  <path d="M24 41            L24 53            C24 64 42 71 64 71            C86 71 104 64 104 53            L104 41" fill="#0078D4" stroke="#175A94" stroke-width="3.5"/>
+
+  <!-- Upper Azure disk surface -->
+  <path d="M24 41            C24 31 42 24 64 24            C86 24 104 31 104 41            C104 51 86 58 64 58            C42 58 24 51 24 41Z" fill="url(#diskBlue)" stroke="#24699D" stroke-width="3.5"/>
+
+  <!-- Azure spindle -->
+  <path d="M51 41            C52 37 76 37 77 41            C78 45 52 46 51 41Z" fill="#005BA1"/>
+
+  <!-- Upper cylinder highlights -->
+  <path d="M30 55 Q44 64 63 65            M85 63 Q96 60 99 55" stroke="#83B9F9" stroke-width="2.5"/>
+
+  <!-- Sketchy highlights on disk surfaces -->
+  <path d="M37 35 Q44 30 54 30            M76 31 Q88 33 94 38" stroke="#B9DDFF" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M36 74 Q46 69 55 69            M78 70 Q89 72 95 77" stroke="#B5DF7F" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Snapshot separation strokes -->
+  <path d="M34 65 L39 68            M89 68 L94 65" stroke="#5EA0EF" stroke-width="2.5"/>
+
+  <!-- Small yellow snapshot accent -->
+  <path d="M108 46            L111 51            L116 54            L111 57            L108 62            L105 57            L100 54            L105 51Z" fill="#FFCF45" stroke="#B8861B" stroke-width="1.7"/>
+
+  <!-- Handwritten-style motion marks -->
+  <path d="M34 16 L39 12            M45 13 L49 10            M79 12 L83 16" stroke="#5EA0EF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Subtle disk snapshot detail -->
+  <path d="M44 115 Q64 118 84 115" stroke="#76BC2D" stroke-width="2.5" stroke-dasharray="5 5" opacity=".7"/>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Machine Learning (sketch)</title>
+
+  
+  <desc>Hand-drawn Azure Machine Learning icon preserving the original angular cyan ribbon, vertical stem, diagonal folds, and dark teal base, with uneven marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="mlCyan" x1="8" y1="6" x2="82" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50C7E8"/>
+      <stop offset=".28" stop-color="#4CC3E4"/>
+      <stop offset=".55" stop-color="#41B6DA"/>
+      <stop offset=".8" stop-color="#2FA2C8"/>
+      <stop offset="1" stop-color="#1989B2"/>
+    </linearGradient>
+    <linearGradient id="mlSide" x1="68" y1="57" x2="119" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main angular machine learning ribbon -->
+  <path d="M49 7            Q50 5 53 6            L78 6            Q81 6 81 10            L81 49            Q81 51 79 54            L18 119            L10 91            L49 49Z" fill="url(#mlCyan)" stroke="#176F99" stroke-width="3.8"/>
+
+  <!-- Vertical ribbon face -->
+  <path d="M49 7            L49 49            L10 91" stroke="#177FA8" stroke-width="3" fill="none"/>
+
+  <!-- Hand-drawn vertical highlight -->
+  <path d="M54 13            Q55 28 54 43" stroke="#A6EDFF" stroke-width="2.5"/>
+
+  <!-- Diagonal fold highlight -->
+  <path d="M45 59            L17 91            L21 102" stroke="#87DDF2" stroke-width="2.5"/>
+
+  <!-- Dark teal lower base -->
+  <path d="M10 91            L118 91            L110 120            Q109 122 106 122            L18 122Z" fill="#198AB3" stroke="#126C91" stroke-width="3.8"/>
+
+  <!-- Subtle marker line on base -->
+  <path d="M22 116            Q63 118 103 116" stroke="#50C7E8" stroke-width="2" opacity=".7"/>
+
+  <!-- Right diagonal cyan ribbon -->
+  <path d="M86 56            L118 91            L110 120            L68 77Z" fill="url(#mlSide)" stroke="#1685AF" stroke-width="3.6"/>
+
+  <!-- Fold separating right ribbon -->
+  <path d="M68 77            L86 56" stroke="#087BA7" stroke-width="3"/>
+
+  <!-- Cyan fold highlight -->
+  <path d="M89 65            L110 91" stroke="#B2F2FF" stroke-width="2.8"/>
+
+  <!-- Main diagonal crossing -->
+  <path d="M18 119            L81 49" stroke="#147DA5" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Small hand-drawn shine marks -->
+  <path d="M36 17 L42 13            M34 26 L40 25" stroke="#FFCC4D" stroke-width="3.2"/>
+
+  <!-- Azure-blue emphasis strokes -->
+  <path d="M88 17 L95 13            M90 27 L100 27" stroke="#0078D4" stroke-width="2.8"/>
+
+  <!-- Yellow sketchnote accent -->
+  <path d="M118 68 L123 63            M119 78 L125 77" stroke="#F4BE39" stroke-width="2.8"/>
+
+</svg>

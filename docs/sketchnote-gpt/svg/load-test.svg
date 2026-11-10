@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Load Test (sketch)</title>
+  
+  <desc>A cyan laboratory Erlenmeyer flask containing bubbling turquoise liquid, with irregular marker outlines and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="flaskCyan" x1="64" y1="5" x2="64" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".45" stop-color="#31D1F3"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="liquidTeal" x1="64" y1="85" x2="64" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42E8CA"/>
+      <stop offset="1" stop-color="#37C2B1"/>
+    </linearGradient>
+    <clipPath id="flaskInterior">
+      <path d="M54 39 Q54 36 57 36                L71 36 Q74 36 74 39                L74 57 Q74 60 77 64                L108 108 Q111 113 105 113                L23 113 Q17 113 20 108                L51 64 Q54 60 54 57 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main laboratory flask silhouette -->
+  <path d="M48 13 L80 13            L80 55            Q80 59 83 63            L121 116            Q125 122 117 123            L11 123            Q3 122 7 116            L45 63            Q48 59 48 55 Z" fill="url(#flaskCyan)" stroke="#147FA6" stroke-width="3.6"/>
+
+  <!-- Flask opening -->
+  <path d="M41 7            Q41 4 45 4            L83 4 Q87 4 87 8            L87 12 Q87 16 83 16            L45 16 Q41 16 41 12 Z" fill="#32D4F5" stroke="#168AAC" stroke-width="3.2"/>
+
+  <!-- White flask interior -->
+  <path d="M54 39 Q54 36 57 36            L71 36 Q74 36 74 39            L74 57 Q74 60 77 64            L108 108 Q111 113 105 113            L23 113 Q17 113 20 108            L51 64 Q54 60 54 57 Z" fill="#FFFFFF" stroke="#B9EDF5" stroke-width="2.4"/>
+
+  <!-- Liquid fill with hand-drawn wave -->
+  <g clip-path="url(#flaskInterior)">
+    <path d="M14 91              Q34 80 48 87              Q62 94 76 89              Q90 85 103 89              Q111 92 117 86              L125 125 L5 125 Z" fill="url(#liquidTeal)"/>
+
+    <path d="M15 91              Q34 80 48 87              Q62 94 76 89              Q90 85 103 89              Q111 92 117 86" stroke="#259E98" stroke-width="3.2"/>
+
+    <!-- Liquid marker highlights -->
+    <path d="M29 105 Q45 101 57 106              M76 102 Q87 99 99 103" stroke="#A3F7E8" stroke-width="2.8" opacity=".85"/>
+  </g>
+
+  <!-- Large floating bubble -->
+  <path d="M66 65            Q66 57 74 57            Q82 57 82 65            Q82 73 74 73            Q66 73 66 65 Z" fill="#42E8CA" stroke="#259E98" stroke-width="2.7"/>
+
+  <!-- Small floating bubble -->
+  <circle cx="63" cy="49" r="5" fill="#42E8CA" stroke="#259E98" stroke-width="2.3"/>
+
+  <!-- Tiny bubbles -->
+  <circle cx="55" cy="76" r="2.7" fill="#A5F4E6" stroke="#37C2B1" stroke-width="1.6"/>
+  <circle cx="89" cy="79" r="2.3" fill="#A5F4E6" stroke="#37C2B1" stroke-width="1.5"/>
+
+  <!-- Bubble highlights -->
+  <g stroke="#D9FFF7" stroke-width="2.3">
+    <path d="M70 62 Q73 59 76 61"/>
+    <path d="M61 47 L63 46"/>
+  </g>
+
+  <!-- Hand-drawn flask highlights -->
+  <g stroke="#B7F2FF" stroke-width="2.7" opacity=".8">
+    <path d="M51 21 L51 31"/>
+    <path d="M42 75 L25 101"/>
+    <path d="M86 73 L105 101"/>
+  </g>
+
+  <!-- Small yellow sketchnote accents -->
+  <g stroke="#E8B72A" stroke-width="2.5">
+    <path d="M91 30 L95 25"/>
+    <path d="M97 36 L103 34"/>
+    <path d="M30 42 L25 38"/>
+    <path d="M27 49 L21 50"/>
+  </g>
+
+  <!-- Subtle hand-drawn base accent -->
+  <path d="M18 126 Q64 124 110 126" stroke="#198AB3" stroke-width="1.8" opacity=".6"/>
+</svg>

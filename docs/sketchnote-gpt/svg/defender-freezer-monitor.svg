@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Freezer Monitor (sketch)</title>
+  
+  <desc>Hand-drawn Azure Defender Freezer Monitor icon featuring a cyan outlined monitoring device, a temperature gauge, blue snowflake and yellow thermometer indicator.</desc>
+
+  <defs>
+    <linearGradient id="frostBlue" x1="88" y1="18" x2="88" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="warmGold" x1="60" y1="52" x2="60" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Freezer monitoring enclosure -->
+  <path d="M34 7            Q23 7 23 19            L23 110            Q23 122 35 122            L96 122            Q108 122 108 110            L108 19            Q108 7 96 7Z" fill="#9CEBFF" fill-opacity=".07" stroke="#9CEBFF" stroke-width="4.5"/>
+
+  <!-- Loose inner marker contour -->
+  <path d="M32 23 L32 105            Q32 114 40 114            M91 114 Q100 114 100 105            L100 25" stroke="#9CEBFF" stroke-width="2.4" opacity=".65"/>
+
+  <!-- Thermometer outer housing -->
+  <path d="M50 28            Q50 17 60 17            Q71 17 71 28            L71 73            C79 77 84 85 84 94            C84 108 73 117 60 117            C47 117 36 108 36 94            C36 85 41 77 50 73Z" fill="#9CEBFF" fill-opacity=".16" stroke="#9CEBFF" stroke-width="4"/>
+
+  <!-- Thermometer glass -->
+  <path d="M56 30            Q56 24 60 24            Q65 24 65 30            L65 79            C73 81 78 87 78 95            C78 105 70 111 60 111            C50 111 43 104 43 95            C43 87 48 81 56 79Z" fill="#E9FBFF" fill-opacity=".13" stroke="#63C5EA" stroke-width="2.4"/>
+
+  <!-- Warm yellow temperature column -->
+  <path d="M57 55            Q57 52 60 52            Q63 52 63 55            L63 87            C69 89 72 92 72 97            C72 104 67 108 60 108            C53 108 48 104 48 97            C48 92 51 88 57 87Z" fill="url(#warmGold)" stroke="#D58C16" stroke-width="2.2"/>
+
+  <!-- Thermometer glass highlight -->
+  <path d="M53 31 L53 68            M47 88 Q43 96 48 102" stroke="#FFFFFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Status indicators -->
+  <path d="M87 23            C93 23 97 27 97 33            C97 39 93 43 87 43            C81 43 77 39 77 33            C77 27 81 23 87 23Z" fill="#9CEBFF" fill-opacity=".12" stroke="#9CEBFF" stroke-width="2.8"/>
+
+  <circle cx="87" cy="33" r="5.5" fill="url(#frostBlue)" stroke="#176B96" stroke-width="1.6"/>
+
+  <path d="M87 47            C93 47 97 51 97 57            C97 63 93 67 87 67            C81 67 77 63 77 57            C77 51 81 47 87 47Z" fill="#9CEBFF" fill-opacity=".12" stroke="#9CEBFF" stroke-width="2.8"/>
+
+  <circle cx="87" cy="57" r="5.5" fill="url(#frostBlue)" stroke="#176B96" stroke-width="1.6"/>
+
+  <!-- Snowflake: six branches -->
+  <path d="M89 76 L89 100            M77 88 L101 88            M80.5 79.5 L97.5 96.5            M97.5 79.5 L80.5 96.5" stroke="url(#frostBlue)" stroke-width="3.3"/>
+
+  <!-- Snowflake branch tips -->
+  <path d="M84 79 L89 84 L94 79            M84 97 L89 92 L94 97            M78 83 L83 88 L78 93            M100 83 L95 88 L100 93" stroke="#0078D4" stroke-width="2.2"/>
+
+  <!-- Sketchnote emphasis marks -->
+  <path d="M15 29 L9 25            M15 39 L7 39            M16 49 L10 54" stroke="#5EA0EF" stroke-width="3.1"/>
+
+  <path d="M112 70 L119 66            M114 80 L122 80" stroke="#F6C84B" stroke-width="3"/>
+
+  <!-- Small hand-drawn cold-air marks -->
+  <path d="M113 98 Q119 94 123 98            M113 106 Q119 102 123 106" stroke="#9CEBFF" stroke-width="2.5"/>
+
+  <!-- Subtle temperature scale -->
+  <path d="M43 40 L47 40            M43 49 L47 49            M43 58 L47 58" stroke="#9CEBFF" stroke-width="2.2"/>
+
+  <!-- Marker accent dots -->
+  <circle cx="16" cy="85" r="2.1" fill="#F6C84B"/>
+  <circle cx="116" cy="35" r="2.2" fill="#5EA0EF"/>
+</svg>

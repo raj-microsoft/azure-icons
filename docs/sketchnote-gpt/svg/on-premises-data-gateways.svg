@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>On Premises Data Gateways (sketch)</title>
+  
+  <desc>Azure-blue cloud with a cyan foreground lobe and opposing upload and download arrows, illustrated with uneven marker outlines, subtle yellow accents, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="8" x2="72" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".82" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="foregroundCyan" x1="11" y1="51" x2="69" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="downloadBlue" x1="67" y1="87" x2="67" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2996E3"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cloud -->
+  <path d="M35 94            C20 96 9 85 9 70            Q8 57 17 48            Q23 42 34 40            C40 23 53 11 69 11            Q87 10 98 23            Q105 31 106 44            C119 46 126 57 126 69            Q126 83 116 90            Q111 94 101 94Z" fill="url(#cloudBlue)" stroke="#176BAD" stroke-width="3.3"/>
+
+  <!-- Hand-drawn cloud highlights -->
+  <path d="M17 65 Q19 51 34 48            M44 35 Q52 20 68 19            M77 19 Q94 23 99 41" stroke="#B6E3FF" stroke-width="2.6" opacity=".85"/>
+
+  <path d="M111 50 Q121 56 120 69            M113 83 Q108 88 101 89" stroke="#91D1FF" stroke-width="2.1" opacity=".8"/>
+
+  <!-- Foreground cyan cloud lobe -->
+  <path d="M35 94            C20 96 9 85 9 70            C9 53 22 42 37 42            Q54 42 62 53            Q68 60 68 69            L68 94Z" fill="url(#foregroundCyan)" stroke="#168FB5" stroke-width="2.8"/>
+
+  <!-- Cyan cloud marker details -->
+  <path d="M17 67 Q20 54 33 50            M40 49 Q54 51 59 64" stroke="#D0FAFF" stroke-width="2.3" opacity=".9"/>
+
+  <path d="M15 78 Q19 87 31 90" stroke="#159BB8" stroke-width="1.7" opacity=".65"/>
+
+  <!-- Upload arrow: white, pointing into cloud -->
+  <path d="M67 54            Q66 53 65 54            L50 69            Q48 71 51 71            L59 71            L59 93            Q59 95 61 95            L73 95            Q75 95 75 93            L75 71            L83 71            Q86 71 84 69            L69 54            Q68 53 67 54Z" fill="#FFFFFF" stroke="#287BC4" stroke-width="2.8"/>
+
+  <!-- Upload arrow sketch highlight -->
+  <path d="M55 67 L67 57 L79 67            M63 77 L63 89" stroke="#D5F2FF" stroke-width="2" opacity=".85"/>
+
+  <!-- Download arrow: blue, pointing down -->
+  <path d="M61 87            L73 87            Q75 87 75 89            L75 106            L84 106            Q87 106 85 109            L69 125            Q67 127 65 125            L49 109            Q47 106 50 106            L59 106            L59 89            Q59 87 61 87Z" fill="url(#downloadBlue)" stroke="#145FA3" stroke-width="2.8"/>
+
+  <!-- Download marker highlight -->
+  <path d="M63 94 L63 110            M55 111 L67 122 L79 111" stroke="#85C9F6" stroke-width="2" opacity=".85"/>
+
+  <!-- Small yellow sketchnote accents -->
+  <path d="M108 19 L113 14            M116 27 L123 25            M17 27 L22 32" stroke="#FFD65A" stroke-width="2.8"/>
+
+  <!-- Hand-drawn data sparkle -->
+  <path d="M25 17 L25 25            M21 21 L29 21" stroke="#FFD65A" stroke-width="2.5"/>
+
+  <circle cx="25" cy="21" r="1.6" fill="#FFE58A"/>
+
+  <!-- Small annotation strokes -->
+  <path d="M89 111 L94 115            M91 120 L98 122" stroke="#FFD65A" stroke-width="2.4"/>
+
+  <!-- Loose finishing contours -->
+  <path d="M21 94 Q33 100 45 96            M89 96 Q103 99 113 92" stroke="#147BAE" stroke-width="1.6" opacity=".6"/>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Managed Instance Apache Cassandra (sketch)</title>
+
+  
+  <desc>Three interconnected Azure-blue database cylinders with dark navy connection lines and the Apache Cassandra eye symbol, illustrated with uneven marker outlines on a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="dbBlue" x1="0" y1="0" x2="0" y2="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#258BDC"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="eyeCyan" x1="73" y1="92" x2="112" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2FAFF"/>
+      <stop offset="1" stop-color="#C3F1FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Database connection network -->
+  <path d="M28 31            Q53 42 85 54" stroke="#003067" stroke-width="6"/>
+
+  <path d="M28 34            Q29 58 28 76" stroke="#003067" stroke-width="6"/>
+
+  <path d="M28 83            Q56 73 85 61" stroke="#003067" stroke-width="6"/>
+
+  <!-- Top-left database cylinder -->
+  <path d="M8 14            L48 14            L48 33            C48 40 8 40 8 33Z" fill="url(#dbBlue)" stroke="#1766A5" stroke-width="3"/>
+
+  <path d="M8 14            C8 5 48 5 48 14            C48 23 8 23 8 14Z" fill="#83B9F9" stroke="#1766A5" stroke-width="3"/>
+
+  <path d="M13 23            Q28 30 43 23" stroke="#B9DEFF" stroke-width="2.3"/>
+
+  <!-- Lower-left database cylinder -->
+  <path d="M8 76            L48 76            L48 96            C48 103 8 103 8 96Z" fill="url(#dbBlue)" stroke="#1766A5" stroke-width="3"/>
+
+  <path d="M8 76            C8 67 48 67 48 76            C48 85 8 85 8 76Z" fill="#83B9F9" stroke="#1766A5" stroke-width="3"/>
+
+  <path d="M13 86 Q28 92 43 86" stroke="#B9DEFF" stroke-width="2.3"/>
+
+  <!-- Right database cylinder -->
+  <path d="M68 44            L110 44            L110 64            C110 72 68 72 68 64Z" fill="url(#dbBlue)" stroke="#1766A5" stroke-width="3"/>
+
+  <path d="M68 44            C68 35 110 35 110 44            C110 53 68 53 68 44Z" fill="#83B9F9" stroke="#1766A5" stroke-width="3"/>
+
+  <path d="M74 54 Q89 60 104 54" stroke="#B9DEFF" stroke-width="2.3"/>
+
+  <!-- Network connection points -->
+  <path d="M22 27            C25 22 32 22 35 27            C38 32 35 38 29 39            C23 39 19 33 22 27Z" fill="#C3F1FF" stroke="#1688B8" stroke-width="2.5"/>
+
+  <path d="M22 90            C25 85 32 85 35 90            C38 95 35 101 29 102            C23 102 19 96 22 90Z" fill="#C3F1FF" stroke="#1688B8" stroke-width="2.5"/>
+
+  <path d="M83 55            C86 50 93 50 96 55            C99 60 96 66 90 67            C84 67 80 61 83 55Z" fill="#C3F1FF" stroke="#1688B8" stroke-width="2.5"/>
+
+  <!-- Cassandra eye symbol -->
+  <path d="M72 110            Q89 88 107 95            Q116 98 122 105            Q111 119 95 122            Q82 123 72 110Z" fill="#003067" stroke="#003067" stroke-width="3"/>
+
+  <!-- Cyan iris -->
+  <path d="M84 108            C84 99 91 94 99 96            C107 98 111 105 108 112            C105 119 96 121 90 117            C86 115 84 112 84 108Z" fill="url(#eyeCyan)" stroke="#003067" stroke-width="2.5"/>
+
+  <!-- Pupil with characteristic highlight -->
+  <path d="M94 103            C99 101 104 105 104 110            C104 115 100 118 95 117            C90 116 88 111 90 107            Q91 109 94 108            Q97 107 94 103Z" fill="#003067"/>
+
+  <path d="M91 100            Q94 98 97 99" stroke="#FFFFFF" stroke-width="2.3"/>
+
+  <!-- Cassandra antenna-like arcs -->
+  <path d="M73 94            Q96 76 120 94" stroke="#003067" stroke-width="5"/>
+
+  <path d="M87 87 L81 78            M99 83 L99 73            M112 87 L118 78" stroke="#003067" stroke-width="4"/>
+
+  <!-- Sketchnote highlights -->
+  <path d="M13 12 Q24 7 34 10            M73 42 Q84 38 96 41" stroke="#D9EEFF" stroke-width="2.3"/>
+
+  <!-- Azure-blue marker accents -->
+  <path d="M53 26 L60 23            M55 34 L62 34" stroke="#0078D4" stroke-width="2.8"/>
+
+  <!-- Restrained yellow emphasis -->
+  <path d="M112 19 L117 13            M119 27 L125 25            M114 33 L121 37" stroke="#FFCC4D" stroke-width="3.2"/>
+
+  <!-- Small hand-drawn annotation strokes -->
+  <path d="M52 108 L58 105            M55 116 L62 115" stroke="#50C7E8" stroke-width="2.6"/>
+
+</svg>

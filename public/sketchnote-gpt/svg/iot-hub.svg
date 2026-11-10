@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>IoT Hub (sketch)</title>
+  
+  <desc>Five connected cyan IoT nodes with gray network links and opposing corner brackets, illustrated with organic marker strokes.</desc>
+
+  <defs>
+    <linearGradient id="iotCyan" x1="45" y1="10" x2="88" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".58" stop-color="#29BADE"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-right framing bracket -->
+  <path d="M91 8            Q89 8 89 11            L89 18            Q89 21 92 21            L108 21            L108 36            Q108 39 111 39            L119 39            Q122 39 122 36            L122 12            Q122 6 116 6            Z" fill="#A0A0A0" stroke="#686868" stroke-width="3.3"/>
+
+  <!-- Lower-left framing bracket -->
+  <path d="M9 89            Q6 89 6 92            L6 116            Q6 122 12 122            L36 122            Q39 122 39 119            L39 111            Q39 108 36 108            L21 108            L21 92            Q21 89 18 89 Z" fill="#A0A0A0" stroke="#686868" stroke-width="3.3"/>
+
+  <!-- Hand-drawn bracket highlights -->
+  <g stroke="#D2D2D2" stroke-width="2.5">
+    <path d="M94 12 Q106 11 116 12 L116 31"/>
+    <path d="M12 96 L12 114 Q12 116 16 116 L32 116"/>
+  </g>
+
+  <!-- Network connections -->
+  <g stroke="#858585" stroke-width="5.2">
+    <path d="M54 25 Q65 39 76 55"/>
+    <path d="M25 65 Q49 63 76 61"/>
+    <path d="M76 68 Q68 83 62 94"/>
+    <path d="M84 70 Q95 85 103 100"/>
+  </g>
+
+  <!-- Slightly uneven secondary ink strokes -->
+  <g stroke="#B7B7B7" stroke-width="1.8" opacity=".75">
+    <path d="M59 30 L72 49"/>
+    <path d="M32 60 Q51 58 68 57"/>
+    <path d="M72 75 L65 87"/>
+    <path d="M89 76 L100 94"/>
+  </g>
+
+  <!-- Upper IoT node -->
+  <path d="M66 23            Q66 35 55 36            Q43 36 43 24            Q43 12 55 12            Q66 12 66 23 Z" fill="url(#iotCyan)" stroke="#147FAD" stroke-width="3.6"/>
+
+  <!-- Left IoT node -->
+  <path d="M33 65            Q33 74 23 75            Q13 75 13 65            Q13 55 23 55            Q33 55 33 65 Z" fill="url(#iotCyan)" stroke="#147FAD" stroke-width="3.4"/>
+
+  <!-- Central hub node -->
+  <path d="M97 60            Q97 76 81 77            Q65 77 65 61            Q65 45 81 45            Q97 45 97 60 Z" fill="url(#iotCyan)" stroke="#117FA9" stroke-width="4"/>
+
+  <!-- Lower-middle IoT node -->
+  <path d="M72 95            Q72 105 62 106            Q52 106 52 96            Q52 86 62 86            Q72 86 72 95 Z" fill="url(#iotCyan)" stroke="#147FAD" stroke-width="3.4"/>
+
+  <!-- Lower-right IoT node -->
+  <path d="M116 103            Q116 114 105 115            Q94 115 94 104            Q94 93 105 93            Q116 93 116 103 Z" fill="url(#iotCyan)" stroke="#147FAD" stroke-width="3.5"/>
+
+  <!-- White node highlights -->
+  <g stroke="#D8F8FF" stroke-width="2.6" opacity=".9">
+    <path d="M48 19 Q53 15 59 19"/>
+    <path d="M18 62 Q20 59 25 60"/>
+    <path d="M72 55 Q77 49 85 52"/>
+    <path d="M57 94 Q60 90 64 92"/>
+    <path d="M99 101 Q102 97 107 99"/>
+  </g>
+
+  <!-- Small hub indicator -->
+  <circle cx="81" cy="61" r="5.5" fill="#E9FCFF" stroke="#147FAD" stroke-width="2.2"/>
+
+  <!-- Yellow sketchnote signal accents -->
+  <g stroke="#E9B82A" stroke-width="2.6">
+    <path d="M75 31 L78 25"/>
+    <path d="M83 33 L89 30"/>
+    <path d="M39 81 L35 86"/>
+    <path d="M45 85 L44 91"/>
+  </g>
+
+  <!-- Small radiating connectivity marks -->
+  <g stroke="#32BEDD" stroke-width="2.4">
+    <path d="M98 48 L103 45"/>
+    <path d="M100 55 L107 54"/>
+    <path d="M83 82 L86 88"/>
+  </g>
+</svg>

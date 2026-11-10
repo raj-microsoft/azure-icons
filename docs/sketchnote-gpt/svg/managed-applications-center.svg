@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Managed Applications Center (sketch)</title>
+
+  
+  <desc>Four interlocking isometric Azure application cubes surrounded by a sweeping purple management orbit, with hand-drawn marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="orbitPurple" x1="122" y1="19" x2="22" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#552F99"/>
+      <stop offset=".28" stop-color="#7C53C5"/>
+      <stop offset=".58" stop-color="#9C71E9"/>
+      <stop offset="1" stop-color="#A67AF4"/>
+    </linearGradient>
+    <linearGradient id="topCyan" x1="30" y1="18" x2="99" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Four interconnected isometric application modules -->
+
+  <!-- Back/top cube -->
+  <path d="M64 13            L82 23            L64 33            L46 23Z" fill="url(#topCyan)" stroke="#168BAF" stroke-width="2.6"/>
+
+  <path d="M46 23 L64 33 L64 53 L46 43Z" fill="#32BEDD" stroke="#137F9F" stroke-width="2.6"/>
+
+  <path d="M64 33 L82 23 L82 43 L64 53Z" fill="#198AB3" stroke="#126F95" stroke-width="2.6"/>
+
+  <!-- Left cube -->
+  <path d="M40 36            L58 46            L40 56            L22 46Z" fill="url(#topCyan)" stroke="#168BAF" stroke-width="2.6"/>
+
+  <path d="M22 46 L40 56 L40 76 L22 66Z" fill="#32BEDD" stroke="#137F9F" stroke-width="2.6"/>
+
+  <path d="M40 56 L58 46 L58 66 L40 76Z" fill="#198AB3" stroke="#126F95" stroke-width="2.6"/>
+
+  <!-- Right cube -->
+  <path d="M88 36            L106 46            L88 56            L70 46Z" fill="url(#topCyan)" stroke="#168BAF" stroke-width="2.6"/>
+
+  <path d="M70 46 L88 56 L88 76 L70 66Z" fill="#32BEDD" stroke="#137F9F" stroke-width="2.6"/>
+
+  <path d="M88 56 L106 46 L106 66 L88 76Z" fill="#198AB3" stroke="#126F95" stroke-width="2.6"/>
+
+  <!-- Central lower cube -->
+  <path d="M64 59            L82 69            L64 79            L46 69Z" fill="#50E6FF" stroke="#168BAF" stroke-width="2.8"/>
+
+  <path d="M46 69 L64 79 L64 102 L46 92Z" fill="#32BEDD" stroke="#137F9F" stroke-width="2.8"/>
+
+  <path d="M64 79 L82 69 L82 92 L64 102Z" fill="#198AB3" stroke="#126F95" stroke-width="2.8"/>
+
+  <!-- Marker highlights on upper surfaces -->
+  <path d="M55 22 L64 17 L72 22            M30 45 L40 40            M78 45 L88 40            M54 68 L64 63" stroke="#FFFFFF" stroke-width="2.1" opacity=".85"/>
+
+  <!-- Subtle hand-drawn cube face details -->
+  <path d="M27 54 L27 61            M51 76 L51 85            M75 76 L75 85            M94 57 L94 65" stroke="#B6F4FF" stroke-width="2.1" opacity=".8"/>
+
+  <!-- Purple management orbit behind and around cubes -->
+  <path d="M105 27            C115 27 121 31 123 38            C128 51 111 74 88 91            C65 108 38 119 20 117            C12 117 7 114 5 109            C1 101 5 90 14 79" stroke="url(#orbitPurple)" stroke-width="7"/>
+
+  <!-- Uneven secondary marker accent on orbit -->
+  <path d="M117 33            C123 44 114 58 103 71            M14 112            C27 120 48 113 63 106" stroke="#C6A2FA" stroke-width="2.5"/>
+
+  <!-- Short orbital continuation -->
+  <path d="M18 77            C10 88 7 98 11 105" stroke="#8F64DA" stroke-width="3" stroke-dasharray="6 5"/>
+
+  <!-- Purple sweep in front of the lower cubes -->
+  <path d="M112 67            C101 84 81 99 62 109            C44 118 27 122 16 119" stroke="#A67AF4" stroke-width="4.5"/>
+
+  <!-- Hand-drawn orbit endpoint -->
+  <path d="M103 24            C109 22 115 24 119 28" stroke="#552F99" stroke-width="3"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M111 12 L116 6            M119 17 L125 15            M112 19 L117 22" stroke="#FFCC4D" stroke-width="3.1"/>
+
+  <!-- Azure-blue emphasis marks -->
+  <path d="M9 43 L15 39            M8 53 L14 52" stroke="#0078D4" stroke-width="2.6"/>
+
+  <!-- Tiny handwritten-style connection marks -->
+  <path d="M61 55 L64 58 L67 55" stroke="#FFCC4D" stroke-width="2.2"/>
+
+  <path d="M85 106 L91 104            M92 112 L98 110" stroke="#8F64DA" stroke-width="2.4"/>
+
+</svg>

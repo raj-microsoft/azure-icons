@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Digital Twins (sketch)</title>
+  
+  <desc>Two overlapping cyan and teal hexagonal digital twins connected by a white triangular network, with uneven hand-drawn marker outlines and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="twinTeal" x1="30" y1="5" x2="66" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+
+    <linearGradient id="twinCyan" x1="77" y1="42" x2="101" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="linkWhite" x1="18" y1="25" x2="94" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9CEBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Primary digital twin: large teal hexagon -->
+  <path d="M47 5            Q55 2 62 7            L100 29            Q107 33 107 41            L107 85            Q107 93 100 97            L62 119            Q55 123 48 119            L10 97            Q3 93 3 85            L3 41            Q3 34 10 29Z" fill="url(#twinTeal)" stroke="#126D92" stroke-width="4.5"/>
+
+  <!-- Subtle irregular marker contour -->
+  <path d="M14 35            L49 14            Q55 11 61 15            L96 35            Q100 38 100 44            M10 53 L10 82            Q10 89 16 92" stroke="#8CE4F1" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Secondary digital twin: overlapping cyan hexagon -->
+  <path d="M81 42            Q87 39 93 43            L119 58            Q125 62 125 69            L125 98            Q125 104 119 108            L93 124            Q87 128 81 124            L55 109            Q49 105 49 98            L49 69            Q49 62 55 58Z" fill="url(#twinCyan)" stroke="#168BAE" stroke-width="4"/>
+
+  <!-- Hand-drawn inset on second twin -->
+  <path d="M57 67            L83 51            Q87 49 92 52            L115 66            M118 74 L118 96            Q118 101 113 104" stroke="#D2FAFF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- White triangular digital-link structure -->
+  <path d="M56 20            L86 82            L21 82            Z" fill="url(#linkWhite)" fill-opacity=".92" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <!-- Hand-drawn connection tracing -->
+  <path d="M57 27 L81 76            M28 78 L76 78" stroke="#78D7ED" stroke-width="2" opacity=".7"/>
+
+  <!-- Three prominent network endpoints -->
+  <path d="M56 11            Q62 11 65 17            Q68 23 63 28            Q58 33 51 30            Q45 27 45 21            Q45 14 51 12Z" fill="#FFFFFF" stroke="#168BAE" stroke-width="3"/>
+
+  <path d="M21 71            Q27 70 31 75            Q35 80 31 86            Q27 91 21 89            Q15 88 13 82            Q12 76 17 73Z" fill="#FFFFFF" stroke="#168BAE" stroke-width="3"/>
+
+  <path d="M86 68            Q97 66 103 75            Q109 84 102 93            Q95 101 85 97            Q76 94 75 84            Q75 74 86 68Z" fill="#FFFFFF" stroke="#168BAE" stroke-width="3.5"/>
+
+  <!-- Small center dots emphasize linked twin nodes -->
+  <circle cx="56" cy="21" r="2.5" fill="#BDEFFF"/>
+  <circle cx="23" cy="80" r="2.5" fill="#BDEFFF"/>
+  <circle cx="91" cy="83" r="4" fill="#9CEBFF"/>
+
+  <!-- Yellow sketchnote synchronization accent -->
+  <path d="M109 25            L112 31            L118 34            L112 37            L109 43            L106 37            L100 34            L106 31Z" fill="#FFCF45" stroke="#B98920" stroke-width="1.8"/>
+
+  <!-- Subtle hand-drawn motion marks -->
+  <path d="M116 19 L120 15            M119 44 L124 46            M13 107 L8 112            M23 116 L20 122" stroke="#32BEDD" stroke-width="2.5"/>
+
+  <!-- Small connection annotations -->
+  <path d="M38 48 L43 45            M41 54 L46 51            M68 106 L72 109" stroke="#D5F8FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Sketchy edge highlights -->
+  <path d="M34 11 L41 7            M105 113 L111 109            M115 117 L121 113" stroke="#50E6FF" stroke-width="2.5" opacity=".8"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Intune (sketch)</title>
+  
+  <desc>Azure-blue desktop monitor connected to a cyan mobile device, with a synchronization arrow and organic marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="monitor" x1="12" y1="14" x2="92" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="stand" x1="50" y1="81" x2="50" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F56A3"/>
+      <stop offset="1" stop-color="#1490DF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Desktop monitor: slightly uneven sketched silhouette -->
+  <path d="M9 14            Q10 10 15 11            L106 12            Q110 12 110 17            L109 77            Q109 82 105 82            L14 81            Q9 81 9 76 Z" fill="url(#monitor)" stroke="#1768AE" stroke-width="3.6"/>
+
+  <!-- White desktop display -->
+  <path d="M16 19            Q16 17 20 18            L101 19            Q103 19 103 22            L102 73            Q102 75 99 75            L19 74            Q16 74 16 71 Z" fill="#FFFFFF" stroke="#B7DCF7" stroke-width="2.5"/>
+
+  <!-- Desktop monitor stand -->
+  <path d="M46 82            L65 82            Q64 93 68 99            Q70 102 77 103            Q81 104 82 110            L31 110            Q31 105 36 103            Q44 102 45 96            Q47 90 46 82 Z" fill="url(#stand)" stroke="#165B9E" stroke-width="3.2"/>
+
+  <!-- Hand-drawn stand highlight -->
+  <path d="M51 86 Q52 95 48 101" stroke="#81C6F4" stroke-width="2.5"/>
+
+  <!-- Monitor management connection node -->
+  <circle cx="56" cy="48" r="11" fill="#D2EBFF" stroke="#0078D4" stroke-width="3"/>
+
+  <circle cx="56" cy="48" r="4" fill="#5EA0EF" stroke="#FFFFFF" stroke-width="1.8"/>
+
+  <!-- Connected-device line -->
+  <path d="M67 48            Q83 44 94 48            L110 48" stroke="#0078D4" stroke-width="5"/>
+
+  <path d="M70 44 Q84 40 92 44" stroke="#78BDF1" stroke-width="2" opacity=".8"/>
+
+  <!-- Mobile phone: cyan original coloring -->
+  <path d="M79 42            Q79 39 83 39            L118 39            Q122 39 122 43            L122 117            Q122 121 118 121            L83 121            Q79 121 79 117 Z" fill="#32BEDD" stroke="#168AA9" stroke-width="3.8"/>
+
+  <!-- Mobile screen -->
+  <path d="M85 47            Q85 45 87 45            L114 45            Q116 45 116 47            L116 108            Q116 110 114 110            L87 110            Q85 110 85 108 Z" fill="#FFFFFF" stroke="#A8E7F2" stroke-width="2.2"/>
+
+  <!-- Device-management transfer arrow -->
+  <path d="M88 72            L101 72            L101 65            Q101 63 103 65            L113 76            Q115 78 113 80            L103 91            Q101 93 101 90            L101 83            L88 83 Z" fill="#0078D4" stroke="#155B9D" stroke-width="2.6"/>
+
+  <!-- Arrow marker highlight -->
+  <path d="M92 76 L104 76            M105 71 L110 77" stroke="#8DCCF7" stroke-width="2" opacity=".85"/>
+
+  <!-- Mobile bottom navigation detail -->
+  <path d="M94 116 Q101 117 108 116" stroke="#E2F9FC" stroke-width="2.6"/>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <g stroke="#F2C230" stroke-width="2.5">
+    <path d="M64 25 L67 19"/>
+    <path d="M71 29 L77 26"/>
+    <path d="M38 31 L34 26"/>
+  </g>
+
+  <!-- Organic blue marker accents -->
+  <g stroke="#5EA0EF" stroke-width="2.3" opacity=".7">
+    <path d="M23 24 Q35 22 44 24"/>
+    <path d="M21 68 L32 68"/>
+    <path d="M17 86 L25 86"/>
+  </g>
+
+  <!-- Small sketch motion strokes -->
+  <g stroke="#32BEDD" stroke-width="2.2">
+    <path d="M73 57 L77 59"/>
+    <path d="M73 63 L77 64"/>
+  </g>
+</svg>

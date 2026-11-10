@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Oracle Database (sketch)</title>
+  
+  <desc>Azure cyan cloud behind a terracotta-red three-tier Oracle database cylinder, with playful uneven marker outlines and subtle yellow highlights.</desc>
+
+  <defs>
+    <linearGradient id="cloudFill" x1="9" y1="12" x2="71" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="databaseFill" x1="45" y1="43" x2="118" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C74634"/>
+      <stop offset=".52" stop-color="#DB897D"/>
+      <stop offset="1" stop-color="#C74634"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Freehand cloud silhouette -->
+  <path d="M43 18            C29 16 20 25 18 39            C8 41 5 49 8 59            C10 69 19 74 30 73            L47 73            L47 54            C47 46 59 41 78 40            C75 32 68 28 60 27            C56 21 50 18 43 18 Z" fill="url(#cloudFill)" stroke="#087EAD" stroke-width="3.5"/>
+
+  <!-- Loose marker echo lines -->
+  <path d="M13 51 C10 61 17 68 27 69" stroke="#087EAD" stroke-width="1.7" opacity=".65"/>
+  <path d="M25 37 C28 27 34 23 44 24" stroke="#E9FBFF" stroke-width="3.5" opacity=".85"/>
+  <path d="M53 26 C59 29 63 33 65 37" stroke="#E9FBFF" stroke-width="2.2"/>
+
+  <!-- Yellow hand-drawn cloud accent -->
+  <path d="M21 16 L25 22 M32 10 L33 18 M11 28 L18 31" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Database body -->
+  <path d="M46 55            L46 105            C46 114 62 119 82 119            C103 119 118 114 118 105            L118 55            C118 63 103 69 82 69            C61 69 46 63 46 55 Z" fill="url(#databaseFill)" stroke="#92382E" stroke-width="3.7"/>
+
+  <!-- Top elliptical opening -->
+  <path d="M118 55            C118 64 102 69 82 69            C62 69 46 64 46 55            C46 46 62 41 82 41            C102 41 118 46 118 55 Z" fill="#E8A69B" stroke="#92382E" stroke-width="3.7"/>
+
+  <!-- Inner top ellipse, sketchy -->
+  <path d="M54 55            C61 47 103 46 111 55            C103 63 62 64 54 55 Z" fill="#C74634" stroke="#A54134" stroke-width="2.1"/>
+
+  <!-- First tier seam -->
+  <path d="M46 73            C49 82 65 86 82 86            C102 86 115 81 118 73" stroke="#92382E" stroke-width="3.4"/>
+  <path d="M49 76 C62 88 99 90 115 78" stroke="#F4C4BB" stroke-width="1.4" opacity=".8"/>
+
+  <!-- Second tier seam -->
+  <path d="M46 91            C49 99 64 103 82 103            C101 103 115 98 118 91" stroke="#92382E" stroke-width="3.4"/>
+  <path d="M50 94 C65 105 99 107 114 96" stroke="#F4C4BB" stroke-width="1.4" opacity=".7"/>
+
+  <!-- Hand-rendered cylinder highlights -->
+  <path d="M53 67 L53 76            M53 85 L53 93            M53 103 L53 110" stroke="#FFD2C6" stroke-width="3" opacity=".8"/>
+  <path d="M109 69 L109 75            M109 87 L109 93            M109 105 L109 110" stroke="#A43B30" stroke-width="2" opacity=".65"/>
+
+  <!-- Small curved database status strokes -->
+  <path d="M93 77 Q101 76 106 73" stroke="#FFE0D8" stroke-width="2.4"/>
+  <path d="M93 94 Q101 93 106 90" stroke="#FFE0D8" stroke-width="2.4"/>
+  <path d="M93 111 Q101 110 106 107" stroke="#FFE0D8" stroke-width="2.4"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M120 33 L120 42            M115 37 L125 37" stroke="#F4C542" stroke-width="3"/>
+  <path d="M108 26 L111 29            M124 47 L127 49" stroke="#F4C542" stroke-width="2"/>
+
+  <!-- Loose handwritten-style underline -->
+  <path d="M66 124 Q85 127 105 123" stroke="#C74634" stroke-width="1.8" opacity=".65"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Power (sketch)</title>
+  
+  <desc>Golden-yellow lightning bolt with a recognizable angular silhouette, uneven hand-drawn marker outlines, warm orange shading, and subtle Azure-blue energy accents on a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="powerGold" x1="40" y1="9" x2="91" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".4" stop-color="#FFCB12"/>
+      <stop offset=".8" stop-color="#FEAC19"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main lightning bolt -->
+  <path d="M62 9            Q63 7 66 8            L103 8            Q107 8 104 12            L60 55            L103 55            Q108 55 104 59            L31 121            Q25 126 28 118            L54 72            L23 72            Q19 72 21 68            L61 11 Z" fill="url(#powerGold)" stroke="#C47A16" stroke-width="3.8"/>
+
+  <!-- Hand-drawn inner marker highlight -->
+  <path d="M65 17            L93 16            L49 62            L92 62" stroke="#FFF2A6" stroke-width="3.2" opacity=".9"/>
+
+  <!-- Warm orange edge shading -->
+  <path d="M99 59            L35 112            L62 68" stroke="#E38A14" stroke-width="3" opacity=".75"/>
+
+  <!-- Irregular sketch accents -->
+  <path d="M56 23 L29 64" stroke="#FFE66D" stroke-width="2.5"/>
+
+  <path d="M35 116 L73 85" stroke="#FFD65D" stroke-width="2.2"/>
+
+  <!-- Uneven secondary outline -->
+  <path d="M18 65            Q14 75 25 76            L46 76" stroke="#D68B1D" stroke-width="1.7" opacity=".6"/>
+
+  <path d="M98 5            Q108 4 110 11            M108 51            Q114 56 109 63" stroke="#D68B1D" stroke-width="1.7" opacity=".6"/>
+
+  <!-- Azure-blue energy accents -->
+  <path d="M16 33 L9 29            M18 43 L8 43            M109 81 L119 78" stroke="#0078D4" stroke-width="3" opacity=".85"/>
+
+  <path d="M109 89 L117 92" stroke="#32BEDD" stroke-width="2.5"/>
+
+  <!-- Yellow sketchnote energy sparks -->
+  <path d="M111 23 L111 34            M105 28 L117 28" stroke="#F4C542" stroke-width="3.2"/>
+
+  <path d="M15 91 L12 99            M23 96 L20 105" stroke="#F4C542" stroke-width="2.5"/>
+
+  <!-- Subtle hand-drawn motion marks -->
+  <path d="M47 119 Q55 116 62 109" stroke="#E8A020" stroke-width="1.8" opacity=".7"/>
+
+  <path d="M73 13 Q80 12 86 13" stroke="#FFF6C4" stroke-width="2.2"/>
+</svg>

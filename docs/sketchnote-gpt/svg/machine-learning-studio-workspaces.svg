@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Machine Learning Studio Workspaces (sketch)</title>
+
+  
+  <desc>Hand-drawn Azure Machine Learning Studio workspace with a blue six-tile dashboard behind a cyan laboratory flask, preserving the original icon's colors and symbolism.</desc>
+
+  <defs>
+    <linearGradient id="flaskCyan" x1="19" y1="48" x2="72" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".35" stop-color="#31D1F3"/>
+      <stop offset=".7" stop-color="#29BADE"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="flaskLiquid" x1="29" y1="82" x2="65" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DDF8FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Workspace dashboard background -->
+  <path d="M43 6            Q42 5 46 5            L119 5            Q123 5 123 9            L123 68            Q123 71 120 71            L43 71            Q40 71 40 68            L40 9            Q40 6 43 6Z" fill="#E6E6E6" stroke="#4C7097" stroke-width="3.5"/>
+
+  <!-- Azure-blue title bar -->
+  <path d="M43 6            Q44 5 47 5            L119 5            Q123 5 123 9            L123 17            L40 17            L40 9            Q40 6 43 6Z" fill="#5EA0EF" stroke="#286CA8" stroke-width="2.5"/>
+
+  <!-- Hand-drawn title bar highlight -->
+  <path d="M47 10 L91 10" stroke="#B9DDFF" stroke-width="2.2"/>
+
+  <!-- Top row dashboard tiles -->
+  <path d="M41 18            L68 18            L68 44            L41 44Z" fill="#83B9F9" stroke="#377EB8" stroke-width="2.2"/>
+
+  <path d="M68 18            L95 18            L95 44            L68 44Z" fill="#0078D4" stroke="#075AAB" stroke-width="2.2"/>
+
+  <path d="M95 18            L122 18            L122 44            L95 44Z" fill="#83B9F9" stroke="#377EB8" stroke-width="2.2"/>
+
+  <!-- Bottom row dashboard tiles -->
+  <path d="M41 44            L68 44            L68 70            L41 70Z" fill="#0078D4" stroke="#075AAB" stroke-width="2.2"/>
+
+  <path d="M68 44            L95 44            L95 70            L68 70Z" fill="#83B9F9" stroke="#377EB8" stroke-width="2.2"/>
+
+  <path d="M95 44            L122 44            L122 70            L95 70Z" fill="#0078D4" stroke="#075AAB" stroke-width="2.2"/>
+
+  <!-- Subtle sketchnote dashboard marks -->
+  <path d="M47 25 L60 25            M47 31 L56 31" stroke="#D9EEFF" stroke-width="2.2" opacity=".8"/>
+
+  <path d="M74 25 L87 25" stroke="#8CCBFF" stroke-width="2.2"/>
+
+  <path d="M102 25 L115 25            M102 31 L110 31" stroke="#D9EEFF" stroke-width="2.2"/>
+
+  <path d="M75 52 L87 52" stroke="#E3F3FF" stroke-width="2.2"/>
+
+  <!-- Flask neck and rounded rim -->
+  <path d="M28 50            Q28 47 32 47            L57 47            Q61 47 61 50            L61 52            Q61 55 57 55            L55 55            L55 77            Q55 79 57 82            L79 112            Q84 119 76 121            L12 121            Q5 120 9 113            L31 82            Q33 79 33 77            L33 55            L31 55            Q28 55 28 52Z" fill="url(#flaskCyan)" stroke="#137B9F" stroke-width="3.8"/>
+
+  <!-- Rim definition -->
+  <path d="M32 53            Q44 55 57 53" stroke="#8CEBFA" stroke-width="2.4"/>
+
+  <!-- Hand-drawn flask edge highlight -->
+  <path d="M37 60            L37 77            Q37 82 34 86            L17 112" stroke="#A2F0FF" stroke-width="2.8"/>
+
+  <!-- White reagent inside the flask -->
+  <path d="M39 70            Q39 68 42 68            L47 68            Q50 68 50 71            L50 81            Q50 84 52 87            L70 112            Q72 115 68 115            L19 115            Q16 115 19 111            L37 87            Q39 84 39 81Z" fill="url(#flaskLiquid)" stroke="#E5FBFF" stroke-width="2"/>
+
+  <!-- Soft reagent reflection -->
+  <path d="M32 107            Q43 103 55 108" stroke="#BDEFFF" stroke-width="2.2"/>
+
+  <!-- Cyan experimental bubbles -->
+  <path d="M46 97            C49 97 51 99 51 102            C51 105 49 107 46 107            C43 107 41 105 41 102            C41 99 43 97 46 97Z" fill="#32BEDD" stroke="#168DB6" stroke-width="1.5"/>
+
+  <path d="M57 109            C59 109 60 110 60 112            C60 114 59 115 57 115            C55 115 54 114 54 112            C54 110 55 109 57 109Z" fill="#83DFF2"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M16 53 L10 49            M18 62 L10 62            M17 70 L12 74" stroke="#FFCC4D" stroke-width="3.2"/>
+
+  <!-- Azure-blue emphasis marks -->
+  <path d="M87 85 L94 82            M90 94 L99 94" stroke="#0078D4" stroke-width="2.8"/>
+
+  <!-- Hand-drawn workspace annotation -->
+  <path d="M103 81            Q110 78 117 81" stroke="#F4BE39" stroke-width="2.7"/>
+
+  <!-- Small flask base highlight -->
+  <path d="M20 125            Q44 127 68 125" stroke="#32BEDD" stroke-width="2.4"/>
+
+</svg>

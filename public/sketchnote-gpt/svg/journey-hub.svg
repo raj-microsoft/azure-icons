@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Journey Hub (sketch)</title>
+  
+  <desc>Three tall parallel journey columns in golden yellow, green and Azure blue, each with a contrasting top cap, illustrated using slightly irregular hand-drawn marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="journeyYellow" x1="25" y1="29" x2="25" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD70F"/>
+      <stop offset=".55" stop-color="#FFCB12"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+    <linearGradient id="journeyGreen" x1="64" y1="29" x2="64" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76BC2D"/>
+      <stop offset=".55" stop-color="#6DAD2A"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+    <linearGradient id="journeyBlue" x1="103" y1="29" x2="103" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6BB9F2"/>
+      <stop offset="1" stop-color="#1B93EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Golden journey column -->
+  <path d="M12 28            Q12 25 16 25            L35 26            Q39 26 39 30            L39 113            Q39 117 35 117            L16 116            Q12 116 12 112 Z" fill="url(#journeyYellow)" stroke="#C98A16" stroke-width="3.4"/>
+
+  <!-- Green journey column -->
+  <path d="M51 28            Q51 25 55 25            L74 26            Q78 26 78 30            L78 113            Q78 117 74 117            L55 116            Q51 116 51 112 Z" fill="url(#journeyGreen)" stroke="#4D8926" stroke-width="3.4"/>
+
+  <!-- Azure-blue journey column -->
+  <path d="M90 28            Q90 25 94 25            L113 26            Q117 26 117 30            L117 113            Q117 117 113 117            L94 116            Q90 116 90 112 Z" fill="url(#journeyBlue)" stroke="#1675BF" stroke-width="3.4"/>
+
+  <!-- Golden-orange top cap -->
+  <path d="M12 11            Q12 8 16 8            L35 8            Q39 8 39 12            L39 29            L12 29 Z" fill="#FAA21D" stroke="#C77D16" stroke-width="3.2"/>
+
+  <!-- Bright green top cap -->
+  <path d="M51 11            Q51 8 55 8            L74 8            Q78 8 78 12            L78 29            L51 29 Z" fill="#86D633" stroke="#579B20" stroke-width="3.2"/>
+
+  <!-- Azure-blue top cap -->
+  <path d="M90 11            Q90 8 94 8            L113 8            Q117 8 117 12            L117 29            L90 29 Z" fill="#5EA0EF" stroke="#1675BF" stroke-width="3.2"/>
+
+  <!-- Hand-drawn vertical marker highlights -->
+  <g stroke-width="2.8" opacity=".82">
+    <path d="M19 37 Q18 56 19 76 T19 107" stroke="#FFF1A5"/>
+    <path d="M58 37 Q57 56 58 76 T58 107" stroke="#B8ED83"/>
+    <path d="M97 37 Q96 56 97 76 T97 107" stroke="#C7E9FF"/>
+  </g>
+
+  <!-- Small top-cap marker highlights -->
+  <g stroke-width="2.2" opacity=".8">
+    <path d="M18 15 Q25 13 32 15" stroke="#FFE1A0"/>
+    <path d="M57 15 Q64 13 71 15" stroke="#D9F7AA"/>
+    <path d="M96 15 Q103 13 110 15" stroke="#D8F0FF"/>
+  </g>
+
+  <!-- Subtle sketched cap separation lines -->
+  <g stroke-width="1.8" opacity=".65">
+    <path d="M15 33 Q25 32 36 33" stroke="#D78E18"/>
+    <path d="M54 33 Q64 32 75 33" stroke="#4F8E27"/>
+    <path d="M93 33 Q103 32 114 33" stroke="#147DC8"/>
+  </g>
+
+  <!-- Tiny sketchnote accents -->
+  <g stroke="#E6B52C" stroke-width="2.3">
+    <path d="M43 14 L46 10"/>
+    <path d="M82 14 L85 10"/>
+  </g>
+
+  <!-- Hand-drawn baseline accents -->
+  <g stroke-width="2" opacity=".55">
+    <path d="M17 122 Q26 124 36 122" stroke="#FAA21D"/>
+    <path d="M56 122 Q65 124 75 122" stroke="#76BC2D"/>
+    <path d="M95 122 Q104 124 114 122" stroke="#1B93EB"/>
+  </g>
+</svg>

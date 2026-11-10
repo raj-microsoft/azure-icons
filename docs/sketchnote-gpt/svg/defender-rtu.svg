@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender RTU (sketch)</title>
+  <defs>
+    <linearGradient id="azure" x1="30" y1="116" x2="103" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0078D4"/>
+      <stop offset=".52" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear RTU module -->
+  <path d="M26 35 L26 17 Q26 10 34 10            L116 11 Q122 11 122 18            L121 87 Q121 94 114 94            L105 94" stroke="#174F82" stroke-width="5.5"/>
+
+  <path d="M30 35 L30 18 Q30 14 35 14            L115 15 Q118 15 118 20            L117 86 Q117 90 112 90            L106 90" stroke="#5EA0EF" stroke-width="3.5"/>
+
+  <!-- Front RTU enclosure -->
+  <path d="M17 35            Q9 35 9 43            L9 110            Q9 118 17 118            L94 118            Q102 118 102 110            L102 94" fill="none" stroke="#174F82" stroke-width="6"/>
+
+  <path d="M17 39            Q13 39 13 45            L13 109            Q13 114 19 114            L93 114            Q98 114 98 108            L98 95" stroke="url(#azure)" stroke-width="4"/>
+
+  <!-- Main diagonal: characteristic RTU interlock -->
+  <path d="M55 37            L103 37            Q110 37 113 43            L65 96            L25 96            Q19 96 17 90            Z" fill="#D9EEFF" fill-opacity=".65" stroke="#174F82" stroke-width="5.5"/>
+
+  <path d="M56 41            L103 41            Q106 41 108 44            L63 92            L27 92            Q24 92 22 89            Z" fill="url(#azure)" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Sketched highlight along diagonal -->
+  <path d="M32 86            Q47 69 62 53            T76 42" stroke="#FFFFFF" stroke-width="3.5" opacity=".9"/>
+
+  <path d="M68 87 L102 49" stroke="#174F82" stroke-width="2" stroke-dasharray="3 6" opacity=".45"/>
+
+  <!-- Hand-drawn technical accent lines -->
+  <path d="M37 25 L46 25            M39 29 L51 29" stroke="#5EA0EF" stroke-width="2.5"/>
+
+  <path d="M106 102 L115 102            M108 107 L118 107" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Small yellow status light -->
+  <path d="M111 24            Q115 21 118 25            Q120 29 116 32            Q112 34 109 30            Q107 27 111 24Z" fill="#FFCF45" stroke="#B77C13" stroke-width="2"/>
+
+  <path d="M112 20 L111 17            M121 33 L124 35            M120 20 L122 17" stroke="#FFCF45" stroke-width="2.5"/>
+
+  <!-- Sketchnote corner detailing -->
+  <path d="M5 50 L5 59            M5 64 L5 70            M27 122 L39 122            M44 122 L50 122" stroke="#0078D4" stroke-width="2.5" opacity=".65"/>
+
+  <!-- Hand-drawn motion / communication ticks -->
+  <path d="M52 14 L58 9            M60 16 L65 10            M68 16 L72 12" stroke="#5EA0EF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Marker-style endpoint dots -->
+  <circle cx="17" cy="44" r="2.5" fill="#0078D4"/>
+  <circle cx="93" cy="109" r="2.5" fill="#0078D4"/>
+  <circle cx="35" cy="19" r="2" fill="#5EA0EF"/>
+</svg>

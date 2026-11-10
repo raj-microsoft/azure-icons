@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Launch Portal (sketch)</title>
+  
+  <desc>An Azure-blue arrow launching diagonally from a gray portal window, with organic marker outlines and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="launchBlue" x1="55" y1="92" x2="119" y2="10" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B93EB"/>
+      <stop offset="1" stop-color="#6BB9F2"/>
+    </linearGradient>
+    <linearGradient id="portalGray" x1="12" y1="31" x2="102" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D1D1D1"/>
+      <stop offset="1" stop-color="#999999"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn portal frame -->
+  <path d="M54 29            L10 29            Q6 29 6 34            L6 117            Q6 121 11 121            L100 121            Q105 121 105 116            L105 77            Q105 74 102 74            L96 74            Q93 74 93 77            L93 108            Q93 110 90 110            L19 110            Q17 110 17 107            L17 42            Q17 40 20 40            L54 40            Q57 40 57 37            L57 32            Q57 29 54 29 Z" fill="url(#portalGray)" stroke="#7F7F7F" stroke-width="3.4"/>
+
+  <!-- Portal interior remains transparent -->
+  <path d="M20 43 L52 43            M20 46 L20 101            M24 106 L86 106" stroke="#D9D9D9" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Main launch arrow -->
+  <path d="M42 72            Q40 70 43 67            L88 22            Q90 20 88 18            L78 8            Q76 5 80 5            L118 5            Q122 5 122 9            L122 47            Q122 51 119 48            L108 37            Q106 35 104 37            L59 82            Q56 85 54 82 Z" fill="url(#launchBlue)" stroke="#0878C5" stroke-width="3.6"/>
+
+  <!-- Uneven hand-drawn arrow highlight -->
+  <path d="M49 68            Q70 46 95 22            M88 12 L112 12            Q115 12 115 16            L115 37" stroke="#C6E8FF" stroke-width="3" opacity=".88"/>
+
+  <!-- Secondary marker stroke -->
+  <path d="M61 79            Q83 56 104 35" stroke="#005FA8" stroke-width="2" opacity=".5"/>
+
+  <!-- Portal edge sketch accents -->
+  <g stroke="#EEEEEE" stroke-width="2.5" opacity=".85">
+    <path d="M11 48 L11 92"/>
+    <path d="M22 115 Q48 116 71 115"/>
+    <path d="M99 85 L99 101"/>
+  </g>
+
+  <!-- Small Azure motion lines -->
+  <g stroke="#5EA0EF" stroke-width="2.6">
+    <path d="M36 62 L47 51"/>
+    <path d="M32 70 L39 63"/>
+    <path d="M61 89 L72 78"/>
+  </g>
+
+  <!-- Yellow sketchnote spark accents -->
+  <g stroke="#EAB928" stroke-width="2.6">
+    <path d="M98 9 L98 2"/>
+    <path d="M125 56 L120 61"/>
+    <path d="M110 53 L113 59"/>
+  </g>
+
+  <!-- Hand-drawn baseline -->
+  <path d="M19 125 Q59 123 99 125" stroke="#A8A8A8" stroke-width="1.8" opacity=".6"/>
+</svg>

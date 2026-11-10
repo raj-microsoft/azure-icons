@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Identity Risky Signins (sketch)</title>
+  
+  <desc>Azure-blue circular sign-in identity ring, green inward-pointing login arrow, and orange warning triangle with exclamation mark. Editable hand-drawn vector illustration.</desc>
+
+  <!-- Azure-blue circular identity ring -->
+  <path d="M17 37            C29 21 46 12 65 12            C91 11 112 29 117 53            C119 62 118 70 115 78" stroke="#0072C6" stroke-width="15" fill="none"/>
+
+  <path d="M17 37            C29 21 46 12 65 12            C91 11 112 29 117 53" stroke="#5EA0EF" stroke-width="3.2" opacity=".65"/>
+
+  <!-- Rounded lower arc -->
+  <path d="M17 90            C29 108 48 117 67 117            C72 117 76 116 81 115" stroke="#0072C6" stroke-width="15" fill="none"/>
+
+  <!-- Small hand-drawn arc accents -->
+  <path d="M25 33 Q39 19 54 17            M24 97 Q38 109 51 111" stroke="#9BD6FF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Arrow shaft -->
+  <path d="M11 60            Q10 59 12 58            L63 58            L49 45            L65 45            L91 64            L65 84            L49 84            L63 71            L12 71            Q9 71 9 68            L9 62            Q9 60 11 60 Z" fill="#57A300" stroke="#397600" stroke-width="3.2"/>
+
+  <!-- Arrowhead marker highlight -->
+  <path d="M56 49 L83 64 L58 80" stroke="#9BD94B" stroke-width="2.8"/>
+
+  <!-- Sign-in motion accents -->
+  <path d="M4 52 L17 52            M4 78 L17 78" stroke="#57A300" stroke-width="2.8"/>
+
+  <!-- Orange risk warning triangle -->
+  <path d="M99 77            Q101 74 104 77            L124 115            Q127 121 121 121            L79 121            Q73 121 76 115 Z" fill="#FF8C00" stroke="#C76B00" stroke-width="3.5"/>
+
+  <!-- Inner warning highlight -->
+  <path d="M99 85            L83 115            L117 115 Z" fill="#FFB34D" opacity=".35"/>
+
+  <!-- Exclamation stem -->
+  <path d="M97 94            L104 94            L103 108            L98 108 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- Exclamation dot -->
+  <path d="M100.5 111            C103 111 105 113 105 115            C105 118 103 119 100.5 119            C98 119 96 117 96 115            C96 113 98 111 100.5 111 Z" fill="#FFFFFF"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M110 75 L116 70            M118 84 L125 82" stroke="#FFCA28" stroke-width="3"/>
+
+  <!-- Uneven hand-drawn detail marks -->
+  <path d="M69 7 L73 4            M79 8 L83 5" stroke="#0078D4" stroke-width="2.2"/>
+
+  <path d="M29 113 Q36 118 44 120" stroke="#005BA1" stroke-width="2" opacity=".55"/>
+</svg>

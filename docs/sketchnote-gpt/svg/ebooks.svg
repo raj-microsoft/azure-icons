@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>eBooks (sketch)</title>
+  
+  <desc>Open digital book with Azure-blue cover, gently uneven white pages, grey handwritten lines and a yellow bookmark.</desc>
+
+  <!-- Azure-blue digital book cover -->
+  <path d="M10 29 Q10 25 15 25 L113 25            Q119 25 119 31 L119 111            Q118 116 113 116 L15 116            Q9 116 9 110 Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.5"/>
+
+  <!-- Darker right cover -->
+  <path d="M64 26 L113 26 Q118 26 118 31            L118 110 Q118 115 113 115            L64 115 Z" fill="#005BA1"/>
+
+  <!-- Cover marker accents -->
+  <path d="M14 108 Q37 105 61 111            M68 111 Q90 105 113 108" stroke="#32BEDD" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Left page -->
+  <path d="M64 30            Q59 20 49 20            L23 20            Q19 20 19 24            L19 97            Q19 101 23 101            L49 101            Q59 101 64 111 Z" fill="#F2F2F2" stroke="#606B75" stroke-width="3.2"/>
+
+  <!-- Right page -->
+  <path d="M64 30            Q69 20 79 20            L105 20            Q109 20 109 24            L109 97            Q109 101 105 101            L79 101            Q69 101 64 111 Z" fill="#E5E5E5" stroke="#606B75" stroke-width="3.2"/>
+
+  <!-- Subtle right-page highlight -->
+  <path d="M70 29 Q75 25 81 25 L103 25            L103 96 L80 96            Q73 96 68 101 Z" fill="#F0F0F0"/>
+
+  <!-- Hand-drawn central book fold -->
+  <path d="M64 30            Q62 53 64 76            Q65 94 64 111" stroke="#005BA1" stroke-width="3.5"/>
+
+  <path d="M59 34 Q57 68 60 99" stroke="#B3B3B3" stroke-width="1.6" opacity=".8"/>
+
+  <!-- Left-page handwritten text strokes -->
+  <g stroke="#A3A3A3" stroke-width="3.1">
+    <path d="M28 34 Q39 33 53 34"/>
+    <path d="M28 45 Q40 43 53 45"/>
+    <path d="M28 56 Q42 55 53 57"/>
+    <path d="M28 67 Q40 66 52 67"/>
+    <path d="M28 78 Q41 77 53 79"/>
+    <path d="M28 89 Q34 88 41 89"/>
+  </g>
+
+  <!-- Right-page handwritten text strokes -->
+  <g stroke="#B3B3B3" stroke-width="3">
+    <path d="M75 38 Q88 36 100 38"/>
+    <path d="M75 49 Q87 48 100 50"/>
+    <path d="M75 60 Q87 58 99 60"/>
+    <path d="M75 71 Q89 70 100 72"/>
+    <path d="M75 82 Q85 81 94 82"/>
+  </g>
+
+  <!-- Yellow sketchnote bookmark -->
+  <path d="M92 20            L92 45            L98 40            L104 45            L104 20 Z" fill="#FFCA28" stroke="#D99A00" stroke-width="2.4"/>
+
+  <!-- Small sketch details -->
+  <path d="M13 17 L18 12            M115 17 L121 12            M121 48 L125 45" stroke="#FFCA28" stroke-width="2.5"/>
+
+  <!-- Light hand-drawn book-edge details -->
+  <path d="M22 106 Q39 104 54 108            M74 108 Q89 104 106 106" stroke="#B3B3B3" stroke-width="1.8"/>
+
+  <!-- Final marker outline -->
+  <path d="M9 33 Q8 28 13 27            M118 98 L118 110 Q118 116 112 116            M10 99 L10 110 Q10 116 16 116" stroke="#004578" stroke-width="2.2"/>
+</svg>

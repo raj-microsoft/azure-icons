@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Monitor Health Models (sketch)</title>
+  
+  <desc>Azure-blue heart with a white ECG pulse, connected to a green health-model hierarchy. Organic marker outlines and subtle yellow accents on a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="heartBlue" x1="15" y1="10" x2="103" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#54AEF0"/>
+      <stop offset=".44" stop-color="#379CE5"/>
+      <stop offset=".78" stop-color="#218DDC"/>
+      <stop offset="1" stop-color="#1988D9"/>
+    </linearGradient>
+
+    <linearGradient id="nodeGreen" x1="90" y1="70" x2="90" y2="126" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8DE971"/>
+      <stop offset="1" stop-color="#4AA647"/>
+    </linearGradient>
+
+    <linearGradient id="connectorGrey" x1="91" y1="85" x2="91" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D9D9D6"/>
+      <stop offset="1" stop-color="#B1B3B3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main organic heart silhouette -->
+  <path d="M58 110            C47 102 30 88 20 75            C10 63 7 51 8 39            C9 23 18 12 32 10            C45 8 54 15 58 28            C63 15 74 8 87 10            C101 12 110 23 110 39            C111 57 102 72 89 85            C80 95 69 103 58 110Z" fill="url(#heartBlue)" stroke="#176DAE" stroke-width="3.5"/>
+
+  <!-- Loose marker-style heart highlights -->
+  <path d="M16 37            Q19 20 34 17            Q47 15 54 33" stroke="#BCE7FF" stroke-width="2.8" opacity=".9"/>
+
+  <path d="M65 27            Q73 15 86 17            Q100 19 103 35" stroke="#A5D9FF" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M14 55 Q18 73 37 90            M42 95 Q49 102 57 107" stroke="#105EAB" stroke-width="1.7" opacity=".6"/>
+
+  <!-- ECG monitoring waveform -->
+  <path d="M13 62            L28 62            L38 43            L49 78            L62 29            L76 69            L87 51            L99 51            L106 51" stroke="#FFFFFF" stroke-width="5.2"/>
+
+  <!-- Fine hand-inked ECG detail -->
+  <path d="M28 58 L35 46            M48 72 L60 31            M77 65 L85 54" stroke="#DDF4FF" stroke-width="1.4" opacity=".8"/>
+
+  <!-- Subtle yellow sketchnote ticks -->
+  <path d="M13 15 L18 20            M23 8 L25 15            M111 19 L116 14" stroke="#FFD65A" stroke-width="2.7"/>
+
+  <!-- Health-model hierarchy connectors -->
+  <path d="M96 78            L96 94            M73 94            L119 94            M73 94 L73 114            M96 94 L96 114            M119 94 L119 114" stroke="#909899" stroke-width="6"/>
+
+  <!-- Inner metallic connector strokes -->
+  <path d="M96 79 L96 93            M73 94 L119 94            M73 95 L73 113            M96 95 L96 113            M119 95 L119 113" stroke="url(#connectorGrey)" stroke-width="3.3"/>
+
+  <!-- Parent health-model node -->
+  <path d="M96 69            C101 69 105 73 105 78            C105 83 101 87 96 87            C91 87 87 83 87 78            C87 73 91 69 96 69Z" fill="url(#nodeGreen)" stroke="#378C3C" stroke-width="2.7"/>
+
+  <!-- Green child model nodes -->
+  <path d="M73 112            C78 112 82 116 82 121            C82 126 78 127 73 127            C68 127 64 126 64 121            C64 116 68 112 73 112Z" fill="url(#nodeGreen)" stroke="#378C3C" stroke-width="2.7"/>
+
+  <path d="M96 112            C101 112 105 116 105 121            C105 126 101 127 96 127            C91 127 87 126 87 121            C87 116 91 112 96 112Z" fill="url(#nodeGreen)" stroke="#378C3C" stroke-width="2.7"/>
+
+  <path d="M119 112            C124 112 127 116 127 121            C127 126 124 127 119 127            C114 127 110 126 110 121            C110 116 114 112 119 112Z" fill="url(#nodeGreen)" stroke="#378C3C" stroke-width="2.7"/>
+
+  <!-- Tiny handwritten-style node highlights -->
+  <path d="M92 75 Q96 72 100 76            M69 119 Q72 116 76 119            M92 119 Q96 116 99 119            M115 119 Q118 116 122 119" stroke="#D8FFC8" stroke-width="1.8" opacity=".9"/>
+
+  <!-- Yellow annotations around hierarchy -->
+  <path d="M109 72 L114 67            M112 80 L119 80" stroke="#FFD65A" stroke-width="2.5"/>
+
+  <!-- Small sketchnote sparkle -->
+  <path d="M118 48 L118 57            M114 52 L122 52" stroke="#FFD65A" stroke-width="2.5"/>
+
+  <circle cx="118" cy="52" r="1.6" fill="#FFE58A"/>
+
+</svg>

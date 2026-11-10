@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Disk Pool (sketch)</title>
+  
+  <desc>Two overlapping Azure-blue disk stacks enclosed by sketchy gray storage-pool brackets, with subtle marker highlights and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="diskTop" x1="35" y1="22" x2="86" y2="75" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".45" stop-color="#83B9F9"/>
+      <stop offset=".8" stop-color="#83B9F9"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+    <linearGradient id="diskFront" x1="47" y1="48" x2="95" y2="107" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83B9F9"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left storage-pool bracket -->
+  <path d="M28 10            L9 21            L9 105            L28 116" stroke="#949494" stroke-width="9"/>
+
+  <path d="M27 14 L13 23            L13 102 L27 111" stroke="#B3B2B3" stroke-width="3"/>
+
+  <!-- Right storage-pool bracket -->
+  <path d="M100 10            L119 21            L119 105            L100 116" stroke="#949494" stroke-width="9"/>
+
+  <path d="M101 14 L115 23            L115 102 L101 111" stroke="#B3B2B3" stroke-width="3"/>
+
+  <!-- Rear disk: lower cylindrical wall -->
+  <path d="M25 36            L25 65            C25 73 39 79 54 79            C70 79 84 73 84 65            L84 36" fill="#0078D4" stroke="#175A94" stroke-width="3.5"/>
+
+  <!-- Rear disk top -->
+  <path d="M25 36            C25 27 39 22 54 22            C70 22 84 28 84 36            C84 45 70 50 54 50            C39 50 25 45 25 36Z" fill="url(#diskTop)" stroke="#24699D" stroke-width="3.5"/>
+
+  <!-- Rear disk spindle -->
+  <path d="M46 35            C47 32 62 32 64 35            C65 39 48 40 46 36Z" fill="#005BA1"/>
+
+  <!-- Rear disk division -->
+  <path d="M25 49            C25 57 39 63 54 63            C70 63 84 57 84 49" stroke="#5EA0EF" stroke-width="3"/>
+
+  <!-- Rear disk hand-drawn highlight -->
+  <path d="M30 52 Q37 58 48 59            M30 66 Q35 70 44 72" stroke="#A6D0FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Front disk: bottom cylinder -->
+  <path d="M45 77            L45 94            C45 105 60 111 75 111            C92 111 106 105 106 94            L106 77" fill="#0078D4" stroke="#175A94" stroke-width="4"/>
+
+  <!-- Bottom disk top surface -->
+  <path d="M45 78            C45 68 60 62 75 62            C92 62 106 68 106 78            C106 87 92 93 75 93            C60 93 45 87 45 78Z" fill="url(#diskFront)" stroke="#24699D" stroke-width="3.5"/>
+
+  <!-- Lower disk spindle -->
+  <path d="M67 77            C68 74 83 74 85 77            C86 81 69 82 67 78Z" fill="#005BA1"/>
+
+  <!-- Front disk upper cylinder -->
+  <path d="M45 57            L45 78            C45 88 60 94 75 94            C92 94 106 88 106 78            L106 57" fill="#0078D4" stroke="#175A94" stroke-width="3.5"/>
+
+  <!-- Front disk upper surface -->
+  <path d="M45 57            C45 47 60 42 75 42            C92 42 106 48 106 57            C106 67 92 73 75 73            C60 73 45 67 45 57Z" fill="url(#diskTop)" stroke="#24699D" stroke-width="3.5"/>
+
+  <!-- Upper disk spindle -->
+  <path d="M67 56            C68 53 83 53 85 56            C86 60 69 61 67 57Z" fill="#005BA1"/>
+
+  <!-- Marker-style cylinder highlights -->
+  <path d="M50 68 Q60 75 73 76            M50 87 Q60 94 72 95            M51 99 Q60 105 71 106" stroke="#83B9F9" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Sketchy right-side reflection -->
+  <path d="M100 67 L100 73            M100 88 L100 96" stroke="#5EA0EF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Yellow pool status indicator -->
+  <path d="M110 37            L113 42            L118 45            L113 48            L110 53            L107 48            L102 45            L107 42Z" fill="#FFCF45" stroke="#B8861B" stroke-width="1.7"/>
+
+  <!-- Subtle hand-drawn motion accents -->
+  <path d="M33 13 L40 9            M88 10 L95 14            M18 76 L18 85            M110 84 L110 93" stroke="#A3A3A3" stroke-width="2.5"/>
+
+  <!-- Small sketchnote marks -->
+  <path d="M31 117 L38 121            M90 121 L97 117" stroke="#5EA0EF" stroke-width="2.5" opacity=".7"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Management Portal (sketch)</title>
+
+  
+  <desc>Hand-drawn Azure Management Portal interface with a dark teal header, pale cyan navigation sidebar, bright cyan workspace, and turquoise footer, preserving the original icon's layout and colors.</desc>
+
+  <defs>
+    <linearGradient id="portalCyan" x1="64" y1="43" x2="64" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#32D2F2"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="headerTeal" x1="13" y1="17" x2="116" y2="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#198AB3"/>
+      <stop offset="1" stop-color="#137A9F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main portal window -->
+  <path d="M14 18            Q14 15 18 15            L110 15            Q115 15 115 20            L115 103            Q115 108 110 108            L18 108            Q13 108 13 103            L13 21            Q13 19 14 18Z" fill="url(#portalCyan)" stroke="#167F9F" stroke-width="3.8"/>
+
+  <!-- Dark teal management header -->
+  <path d="M18 15            L110 15            Q115 15 115 20            L115 43            L13 43            L13 21            Q13 16 18 15Z" fill="url(#headerTeal)" stroke="#126F91" stroke-width="3.2"/>
+
+  <!-- Hand-drawn header highlight -->
+  <path d="M21 21            Q63 19 104 21" stroke="#70C8E5" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Sidebar -->
+  <path d="M13 43            L40 43            L40 108            L18 108            Q13 108 13 103Z" fill="#9CEBFF" stroke="#168BAF" stroke-width="2.8"/>
+
+  <!-- Cyan content workspace -->
+  <path d="M40 43            L115 43            L115 94            L40 94Z" fill="url(#portalCyan)"/>
+
+  <!-- Bottom horizontal status panel -->
+  <path d="M40 94            L115 94            L115 103            Q115 108 110 108            L40 108Z" fill="#32BEDD" stroke="#168BAF" stroke-width="2.5"/>
+
+  <!-- Marker-style sidebar divider -->
+  <path d="M40 46            Q39 66 40 89            L40 105" stroke="#168BAF" stroke-width="2.5"/>
+
+  <!-- Sidebar navigation strokes -->
+  <path d="M20 54 L32 54            M20 64 L33 64            M20 74 L29 74            M20 84 L33 84" stroke="#35BBD9" stroke-width="2.8" opacity=".8"/>
+
+  <!-- Small portal dashboard details -->
+  <path d="M49 53 L70 53            M49 60 L63 60" stroke="#E2FAFF" stroke-width="3" opacity=".85"/>
+
+  <path d="M80 52 L105 52            M80 60 L98 60" stroke="#B8F3FF" stroke-width="2.7" opacity=".7"/>
+
+  <!-- Dashboard marker chart -->
+  <path d="M51 83            L62 73            L73 78            L85 65            L99 71" stroke="#0078D4" stroke-width="3.5"/>
+
+  <path d="M99 71 L95 70            M99 71 L98 76" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Subtle chart baseline -->
+  <path d="M49 88            Q76 89 105 88" stroke="#A5EFFF" stroke-width="2.2"/>
+
+  <!-- Bottom status indicator -->
+  <path d="M49 101 L79 101            M89 101 L103 101" stroke="#B1F2FF" stroke-width="2.6"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M107 9 L111 4            M117 12 L124 10            M119 20 L125 23" stroke="#FFCC4D" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Azure-blue handwritten-style emphasis -->
+  <path d="M5 55 L9 52            M5 64 L9 64" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Subtle hand-drawn underline -->
+  <path d="M28 115            Q64 119 100 115" stroke="#32BEDD" stroke-width="2.8"/>
+
+</svg>

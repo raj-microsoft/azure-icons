@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Edge Actions (sketch)</title>
+  
+  <desc>Azure-blue cloud with three orange action arrows pointing upward, down-left and down-right, drawn with uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="28" y1="23" x2="102" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#268CE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="actionOrange" x1="43" y1="32" x2="93" y2="113" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB045"/>
+      <stop offset=".55" stop-color="#F79424"/>
+      <stop offset="1" stop-color="#EF7100"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Uneven Azure cloud silhouette -->
+  <path d="M37 106            C19 107 10 94 11 80            C12 65 23 55 38 53            C45 35 59 25 76 26            C94 26 108 39 109 57            C123 60 129 72 126 85            C124 98 114 105 101 106            Z" fill="url(#cloudBlue)" stroke="#165A99" stroke-width="3.5"/>
+
+  <!-- Loosely drawn cloud highlights -->
+  <path d="M19 76 C23 67 30 63 41 62" stroke="#B8E2FF" stroke-width="3.2" opacity=".9"/>
+  <path d="M47 52 C54 38 65 33 77 34" stroke="#C7E7FF" stroke-width="3" opacity=".9"/>
+  <path d="M113 67 Q120 73 119 81" stroke="#B7DFFF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Downward orange action arrow -->
+  <path d="M59 48            L59 20            Q59 16 63 16            L72 16            Q76 16 76 20            L76 48            L83 48            L68 65            L52 48 Z" fill="url(#actionOrange)" stroke="#B95A0B" stroke-width="3.2"/>
+
+  <!-- Inner highlight for upward stem -->
+  <path d="M64 22 L64 44" stroke="#FFD58C" stroke-width="2.8" opacity=".95"/>
+
+  <!-- White central control panel -->
+  <path d="M51 74            Q51 71 54 71            L84 71            Q87 71 87 74            L87 105            L51 105 Z" fill="#F2F2F2" stroke="#36658A" stroke-width="2.7"/>
+
+  <!-- Sketched panel details -->
+  <path d="M58 80 L79 80" stroke="#B2C1CC" stroke-width="2.1"/>
+  <path d="M58 87 L74 87" stroke="#C7D2DA" stroke-width="2"/>
+  <path d="M58 94 L68 94" stroke="#C7D2DA" stroke-width="2"/>
+
+  <!-- Down-left action arrow -->
+  <path d="M42 89            L24 89            L30 95            L12 113            Q10 115 12 117            L18 123            Q20 125 22 123            L40 105            L46 111            L46 93            Q46 89 42 89 Z" fill="url(#actionOrange)" stroke="#B95A0B" stroke-width="3"/>
+
+  <!-- Orange hand-drawn accent -->
+  <path d="M18 116 L31 103" stroke="#FFD18B" stroke-width="2.6"/>
+
+  <!-- Down-right action arrow -->
+  <path d="M95 87            L113 87            L107 93            L125 111            Q127 113 125 115            L119 121            Q117 123 115 121            L97 103            L91 109            L91 91            Q91 87 95 87 Z" fill="url(#actionOrange)" stroke="#B95A0B" stroke-width="3"/>
+
+  <!-- Orange directional highlight -->
+  <path d="M109 101 L120 112" stroke="#FFD18B" stroke-width="2.6"/>
+
+  <!-- Small sketchnote movement strokes -->
+  <g stroke="#E88A22" stroke-width="2.2">
+    <path d="M49 22 L45 18"/>
+    <path d="M84 22 L88 18"/>
+    <path d="M6 102 L3 105"/>
+    <path d="M110 80 L114 77"/>
+  </g>
+
+  <!-- Marker-style secondary contour -->
+  <path d="M17 85 C18 96 26 101 37 101" stroke="#075BA6" stroke-width="1.8" opacity=".6"/>
+  <path d="M94 101 L102 101" stroke="#075BA6" stroke-width="1.8" opacity=".55"/>
+</svg>

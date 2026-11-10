@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Relay (sketch)</title>
+  
+  <desc>Azure-blue relay controller with an inner rounded switch symbol and two right-pointing signal arrows, drawn with slightly uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="relayBlue" x1="64" y1="29" x2="64" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".53" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Incoming signal arrow -->
+  <path d="M5 54            L25 54            L18 46            L24 41            L40 59            L24 78            L18 73            L25 65            L5 65Z" fill="url(#relayBlue)" stroke="#174E83" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Outgoing signal arrow -->
+  <path d="M88 54            L108 54            L101 46            L107 41            L123 59            L107 78            L101 73            L108 65            L88 65Z" fill="url(#relayBlue)" stroke="#174E83" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Central relay housing -->
+  <path d="M49 32            Q49 29 53 29            L75 29            Q79 29 79 33            L79 84            Q79 89 74 89            L53 89            Q49 89 49 84Z" fill="url(#relayBlue)" stroke="#174E83" stroke-width="3.8"/>
+
+  <!-- Uneven hand-drawn housing highlight -->
+  <path d="M54 38 L54 76            Q54 83 59 84            M60 34 L71 34" stroke="#BDEAFF" stroke-width="2.4" opacity=".75"/>
+
+  <!-- Inner relay switch / elongated contact symbol -->
+  <path d="M63 37            C57 37 54 43 54 49            L54 69            C54 77 58 82 64 82            C70 82 74 77 74 69            L74 49            C74 42 70 37 63 37Z" fill="#E6F6FF" stroke="#176B96" stroke-width="3.2"/>
+
+  <!-- Inner blue channel -->
+  <path d="M64 43            C60 43 59 47 59 51            L59 67            C59 72 61 76 64 76            C68 76 69 72 69 67            L69 51            C69 47 68 43 64 43Z" fill="#5EA0EF" stroke="#FFFFFF" stroke-width="2.2"/>
+
+  <!-- Small contact indication -->
+  <path d="M64 49 L64 68" stroke="#D9F4FF" stroke-width="2.4"/>
+
+  <!-- Subtle hand-drawn signal marks -->
+  <path d="M11 36 L17 32            M19 34 L22 27" stroke="#F6C84B" stroke-width="3.1"/>
+
+  <path d="M106 31 L112 26            M115 36 L122 34" stroke="#F6C84B" stroke-width="3.1"/>
+
+  <!-- Signal continuity accent -->
+  <path d="M35 89 Q46 94 55 93            M73 93 Q82 94 93 89" stroke="#1988D9" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Marker-style emphasis strokes -->
+  <path d="M43 22 L47 17            M53 20 L54 12            M76 21 L81 16" stroke="#5EA0EF" stroke-width="2.6"/>
+
+  <!-- Tiny yellow accent marks -->
+  <path d="M48 101 L54 106            M80 106 L86 101" stroke="#F6C84B" stroke-width="2.8"/>
+
+  <!-- Hand-drawn directional underline -->
+  <path d="M45 112            Q64 116 83 112" stroke="#1988D9" stroke-width="2.5"/>
+
+  <!-- Marker dots -->
+  <circle cx="33" cy="33" r="2.1" fill="#F6C84B"/>
+  <circle cx="96" cy="84" r="2.1" fill="#32BEDD"/>
+</svg>

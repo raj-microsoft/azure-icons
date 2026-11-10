@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Edge Storage Accelerator (sketch)</title>
+  
+  <desc>Hand-drawn sketchnote illustration of an Azure Edge Storage Accelerator icon with a cyan edge-cloud shape and stacked blue storage disks.</desc>
+
+  <!-- edge / cloud form -->
+  <path d="M22 78            C15 77 10 71 10 63            C10 54 16 46 25 44            C28 31 40 22 54 22            C67 21 80 27 87 38            C90 43 91 49 91 49            L91 50            L101 50            C101 44 99 38 96 33            C87 19 71 11 54 12            C35 11 18 23 12 41            C0 46 -6 61 -2 76            C1 90 12 100 26 103            C29 104 32 104 36 104            L82 104            C88 104 92 101 94 96            C96 91 94 84 90 80            C86 76 81 75 76 75            L24 75            C23 75 22 76 22 78 Z" fill="#50E6FF" stroke="#1BAED1" stroke-width="3"/>
+
+  <!-- subtle hand-drawn emphasis on cloud -->
+  <path d="M20 77            C13 75 10 70 10 63            C10 55 15 48 24 45" stroke="#7FEFFF" stroke-width="2.2"/>
+  <path d="M32 31            C38 25 46 22 54 22            C64 21 73 24 80 30" stroke="#7FEFFF" stroke-width="2.2"/>
+
+  <!-- storage stack: bottom -->
+  <path d="M63 89            C63 84 76 80 93 80            C110 80 123 84 123 89            L123 103            C123 109 110 113 93 113            C76 113 63 109 63 103 Z" fill="#0078D4" stroke="#005BA1" stroke-width="3"/>
+  <path d="M63 89            C63 94 76 98 93 98            C110 98 123 94 123 89            C123 84 110 80 93 80            C76 80 63 84 63 89 Z" fill="#83B9F9" stroke="#005BA1" stroke-width="3"/>
+
+  <!-- storage stack: middle -->
+  <path d="M63 69            C63 64 76 60 93 60            C110 60 123 64 123 69            L123 83            C123 89 110 93 93 93            C76 93 63 89 63 83 Z" fill="#0078D4" stroke="#005BA1" stroke-width="3"/>
+  <path d="M63 69            C63 74 76 78 93 78            C110 78 123 74 123 69            C123 64 110 60 93 60            C76 60 63 64 63 69 Z" fill="#83B9F9" stroke="#005BA1" stroke-width="3"/>
+
+  <!-- storage stack: top -->
+  <path d="M63 49            C63 44 76 40 93 40            C110 40 123 44 123 49            L123 63            C123 69 110 73 93 73            C76 73 63 69 63 63 Z" fill="#0078D4" stroke="#005BA1" stroke-width="3"/>
+  <path d="M63 49            C63 54 76 58 93 58            C110 58 123 54 123 49            C123 44 110 40 93 40            C76 40 63 44 63 49 Z" fill="#83B9F9" stroke="#005BA1" stroke-width="3"/>
+
+  <!-- quick sketch storage hints -->
+  <path d="M72 50 C77 52 84 53 93 53 C101 53 109 52 115 49" stroke="#D8ECFF" stroke-width="2"/>
+  <path d="M72 70 C77 72 84 73 93 73 C101 73 109 72 115 69" stroke="#D8ECFF" stroke-width="2"/>
+  <path d="M72 90 C77 92 84 93 93 93 C101 93 109 92 115 89" stroke="#D8ECFF" stroke-width="2"/>
+
+  <!-- accelerator badge -->
+  <path d="M81 65            C81 59 85 54 91 53            C98 51 104 55 106 61            C108 68 104 74 98 76            C91 79 84 75 82 69            C81 68 81 66 81 65 Z" fill="#F7FBFF" stroke="#0078D4" stroke-width="3"/>
+  <path d="M88 66            L95 59            L95 64            L100 64            L92 72            L92 67            L88 67 Z" fill="#0078D4" stroke="#005BA1" stroke-width="1.8"/>
+
+  <!-- restrained yellow sketchnote accents -->
+  <path d="M104 28 L108 23 M111 31 L117 29 M108 37 L113 40" stroke="#FFC83D" stroke-width="3"/>
+  <path d="M76 30 Q79 26 83 24" stroke="#FFC83D" stroke-width="2.4"/>
+
+  <!-- small hand-drawn detail lines -->
+  <path d="M27 87 Q32 89 37 88" stroke="#149EC3" stroke-width="2"/>
+  <path d="M31 95 Q39 97 48 95" stroke="#149EC3" stroke-width="2"/>
+  <path d="M41 52 Q46 50 51 52" stroke="#149EC3" stroke-width="2"/>
+</svg>

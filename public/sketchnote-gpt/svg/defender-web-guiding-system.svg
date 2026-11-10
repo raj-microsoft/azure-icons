@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Web Guiding System (sketch)</title>
+  <defs>
+    <linearGradient id="azure" x1="64" y1="43" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".5" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="roller" x1="0" y1="-13" x2="0" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#1380DA"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Web-guiding frame -->
+  <path d="M27 70 L27 57            Q27 43 41 43            L87 43            Q101 43 101 57            L101 70" stroke="#004C87" stroke-width="7"/>
+
+  <path d="M31 69 L31 57            Q31 47 42 47            L86 47            Q97 47 97 57            L97 69" stroke="#5EA0EF" stroke-width="3" stroke-dasharray="8 4"/>
+
+  <!-- Curved side support arms -->
+  <path d="M27 68            Q27 85 13 85            L9 84            M101 68            Q101 85 115 85            L119 84" stroke="#004C87" stroke-width="5.5"/>
+
+  <path d="M23 72 Q22 80 15 80            M105 72 Q106 80 113 80" stroke="#5EA0EF" stroke-width="2.5"/>
+
+  <!-- Center control / guiding plate -->
+  <path d="M36 63            Q36 60 40 60            L88 60            Q92 60 92 64            L92 86            Q92 90 88 90            L40 90            Q36 90 36 86 Z" fill="url(#azure)" stroke="#004C87" stroke-width="4.5"/>
+
+  <!-- Sketched panel highlight -->
+  <path d="M40 65            Q41 63 45 63            L85 63" stroke="#B9DEFF" stroke-width="2.5"/>
+
+  <path d="M40 86 L87 86" stroke="#005A9E" stroke-width="2" opacity=".6"/>
+
+  <!-- Panel fasteners -->
+  <g fill="#D8EDFF" stroke="#004C87" stroke-width="1">
+    <circle cx="43" cy="67" r="2"/>
+    <circle cx="85" cy="67" r="2"/>
+    <circle cx="43" cy="84" r="2"/>
+    <circle cx="85" cy="84" r="2"/>
+  </g>
+
+  <!-- Three sensor / guide lines -->
+  <path d="M49 69 L49 81            M54 69 L54 81            M59 69 L59 81" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <!-- Subtle sketchnote guide marks -->
+  <path d="M68 72 L78 72            M68 77 L82 77            M68 82 L75 82" stroke="#D9EEFF" stroke-width="2" opacity=".85"/>
+
+  <!-- Left roller -->
+  <g transform="translate(14 73)">
+    <circle r="13" fill="url(#roller)" stroke="#004C87" stroke-width="4"/>
+    <path d="M-3-10 Q-10-4-9 3              L-3 3 Q-2-3 3-8 Z" fill="#8CC5F5"/>
+    <path d="M5-8 Q11-4 10 4              L4 2 Q2-3 5-8Z" fill="#0078D4"/>
+    <path d="M-9 6 Q-4 12 4 10              L2 4 Q-4 7-9 6Z" fill="#3C91E5"/>
+    <circle r="4.5" fill="#D9EEFF" stroke="#004C87" stroke-width="2.5"/>
+    <circle r="1.4" fill="#004C87"/>
+  </g>
+
+  <!-- Right roller -->
+  <g transform="translate(114 73)">
+    <circle r="13" fill="url(#roller)" stroke="#004C87" stroke-width="4"/>
+    <path d="M-3-10 Q-10-4-9 3              L-3 3 Q-2-3 3-8 Z" fill="#8CC5F5"/>
+    <path d="M5-8 Q11-4 10 4              L4 2 Q2-3 5-8Z" fill="#0078D4"/>
+    <path d="M-9 6 Q-4 12 4 10              L2 4 Q-4 7-9 6Z" fill="#3C91E5"/>
+    <circle r="4.5" fill="#D9EEFF" stroke="#004C87" stroke-width="2.5"/>
+    <circle r="1.4" fill="#004C87"/>
+  </g>
+
+  <!-- Yellow alignment indicator -->
+  <path d="M64 51 L64 57            M60 54 L64 58 L68 54" stroke="#FFCF45" stroke-width="3"/>
+
+  <!-- Hand-drawn calibration ticks -->
+  <path d="M45 36 L45 32            M54 36 L54 30            M64 35 L64 28            M74 36 L74 30            M83 36 L83 32" stroke="#5EA0EF" stroke-width="2.5"/>
+
+  <!-- Web movement marks -->
+  <path d="M46 96 Q64 99 82 96            M52 102 Q64 104 76 102" stroke="#0078D4" stroke-width="2.5" stroke-dasharray="7 4"/>
+
+  <!-- Sketchnote accent sparks -->
+  <path d="M18 49 L14 44            M10 54 L5 52            M110 49 L114 44            M118 54 L123 52" stroke="#FFCF45" stroke-width="2.5"/>
+
+  <!-- Small marker details -->
+  <path d="M32 94 L38 98            M96 94 L90 98" stroke="#5EA0EF" stroke-width="2.5"/>
+</svg>

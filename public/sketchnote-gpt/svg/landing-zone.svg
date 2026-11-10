@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Landing Zone (sketch)</title>
+  
+  <desc>Azure-blue cloud above a converging gray landing runway, preserving the original Landing Zone icon with organic marker outlines and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="8" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="runwayLeft" x1="40" y1="64" x2="40" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D0D0CD"/>
+      <stop offset="1" stop-color="#A7A9A9"/>
+    </linearGradient>
+    <linearGradient id="runwayRight" x1="88" y1="64" x2="88" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D0D0CD"/>
+      <stop offset="1" stop-color="#A7A9A9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure cloud silhouette -->
+  <path d="M31 91            C18 89 8 78 7 64            C6 49 16 37 31 35            C36 19 49 8 66 8            C84 8 99 22 100 41            C113 43 121 53 121 65            C121 80 111 91 97 92            L84 65            Q82 61 77 61            L51 61            Q46 61 44 66            Z" fill="url(#cloudBlue)" stroke="#1769B3" stroke-width="3.8"/>
+
+  <!-- Hand-drawn cloud highlight -->
+  <path d="M17 57            Q20 44 36 43            Q41 20 62 18            Q80 16 90 33" stroke="#B9DFFF" stroke-width="3" opacity=".85"/>
+
+  <!-- Left landing runway -->
+  <path d="M51 66            L60 66            L60 121            L23 121            Z" fill="url(#runwayLeft)" stroke="#858989" stroke-width="3.3"/>
+
+  <!-- Right landing runway -->
+  <path d="M68 66            L77 66            L105 121            L68 121            Z" fill="url(#runwayRight)" stroke="#858989" stroke-width="3.3"/>
+
+  <!-- Central runway gap -->
+  <path d="M60 66 L68 66 L68 121 L60 121 Z" fill="none"/>
+
+  <!-- Sketchy runway highlights -->
+  <g stroke="#F1F1EE" stroke-width="2.5" opacity=".8">
+    <path d="M49 78 L32 114"/>
+    <path d="M78 78 L96 114"/>
+  </g>
+
+  <!-- Subtle perspective marker strokes -->
+  <g stroke="#8D9191" stroke-width="2" opacity=".65">
+    <path d="M43 94 L51 94"/>
+    <path d="M35 110 L48 110"/>
+    <path d="M78 94 L86 94"/>
+    <path d="M80 110 L93 110"/>
+  </g>
+
+  <!-- Small sketchnote accents -->
+  <g stroke="#F2BE32" stroke-width="2.6">
+    <path d="M102 25 L106 20"/>
+    <path d="M109 30 L115 28"/>
+    <path d="M17 26 L13 21"/>
+  </g>
+
+  <!-- Light Azure-blue marker flourishes -->
+  <g stroke="#5EA0EF" stroke-width="2.3" opacity=".75">
+    <path d="M13 82 L19 87"/>
+    <path d="M109 87 L115 82"/>
+  </g>
+</svg>

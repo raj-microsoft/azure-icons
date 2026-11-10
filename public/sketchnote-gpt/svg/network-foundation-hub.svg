@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Network Foundation Hub (sketch)</title>
+  
+  <desc>Azure-blue rounded square containing a hand-drawn white network globe with latitude and longitude lines, subtle marker accents, and a transparent exterior.</desc>
+
+  <defs>
+    <linearGradient id="hubBlue" x1="22" y1="9" x2="109" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0FAFFF"/>
+      <stop offset="1" stop-color="#2764E7"/>
+    </linearGradient>
+    <linearGradient id="globeWhite" x1="64" y1="31" x2="64" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D8F7FF"/>
+      <stop offset="1" stop-color="#D8F7FF" stop-opacity=".72"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Organic rounded-square foundation -->
+  <path d="M24 7            Q14 7 10 17            Q7 23 7 34            L7 94            Q7 109 17 117            Q23 121 35 121            L94 121            Q109 121 117 111            Q121 105 121 94            L121 34            Q121 20 111 12            Q104 7 94 7Z" fill="url(#hubBlue)" stroke="#2052CB" stroke-width="3.5"/>
+
+  <!-- Uneven inner marker contour -->
+  <path d="M27 14            Q15 15 14 29            L14 95            Q15 112 31 114            M96 114 Q113 112 114 96            L114 31            Q113 16 98 14" stroke="#87D8FF" stroke-width="2" opacity=".75"/>
+
+  <!-- Main network globe -->
+  <path d="M64 25            C86 25 103 42 103 64            C103 86 86 103 64 103            C42 103 25 86 25 64            C25 42 42 25 64 25Z" stroke="url(#globeWhite)" stroke-width="4"/>
+
+  <!-- Hand-drawn meridian curves -->
+  <path d="M64 26            C52 35 45 49 45 64            C45 80 52 94 64 102" stroke="url(#globeWhite)" stroke-width="3.2"/>
+
+  <path d="M64 26            C76 35 83 49 83 64            C83 80 76 94 64 102" stroke="url(#globeWhite)" stroke-width="3.2"/>
+
+  <!-- Central longitude -->
+  <path d="M64 26            Q62 46 64 64            Q66 84 64 102" stroke="#E8FAFF" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Latitude lines -->
+  <path d="M35 47            Q64 54 93 47" stroke="url(#globeWhite)" stroke-width="3.2"/>
+
+  <path d="M26 64            Q45 62 64 64            Q84 66 102 64" stroke="#E8FAFF" stroke-width="3.4"/>
+
+  <path d="M35 81            Q64 74 93 81" stroke="url(#globeWhite)" stroke-width="3.2"/>
+
+  <!-- Loose sketchnote globe details -->
+  <path d="M32 50 Q28 57 29 65            M75 29 Q88 33 95 45            M89 90 Q80 99 69 100" stroke="#FFFFFF" stroke-width="1.5" opacity=".65"/>
+
+  <!-- Small network junction highlights -->
+  <circle cx="45" cy="64" r="2.4" fill="#E8FAFF"/>
+  <circle cx="83" cy="64" r="2.4" fill="#E8FAFF"/>
+  <circle cx="64" cy="47" r="2.2" fill="#E8FAFF"/>
+  <circle cx="64" cy="81" r="2.2" fill="#E8FAFF"/>
+
+  <!-- Restrained yellow annotation accents -->
+  <path d="M104 18 L109 13            M111 25 L117 23" stroke="#FFD65A" stroke-width="2.6"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M18 19 L18 27            M14 23 L22 23" stroke="#FFD65A" stroke-width="2.4"/>
+
+  <circle cx="18" cy="23" r="1.5" fill="#FFE58A"/>
+
+  <!-- Corner marker ticks -->
+  <path d="M15 104 L20 109            M106 109 L112 103" stroke="#FFD65A" stroke-width="2.4"/>
+
+  <!-- Light organic finishing strokes -->
+  <path d="M38 117 Q64 119 90 117            M118 43 Q119 63 117 83" stroke="#7DCBFF" stroke-width="1.4" opacity=".55"/>
+</svg>

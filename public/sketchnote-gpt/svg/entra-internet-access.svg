@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Internet Access (sketch)</title>
+  
+  <desc>Azure-blue internet globe with hand-drawn latitude and longitude lines, overlapped by a smaller blue cloud representing Entra Internet Access.</desc>
+
+  <defs>
+    <linearGradient id="globeBlue" x1="18" y1="16" x2="96" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#44DBF9"/>
+      <stop offset=".52" stop-color="#0294E4"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+    <linearGradient id="cloudBlue" x1="65" y1="82" x2="119" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3A88EF"/>
+      <stop offset="1" stop-color="#275B98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main internet globe -->
+  <path d="M107 54            C107 83 84 107 55 107            C26 107 9 84 9 55            C9 27 29 9 56 9            C84 9 107 27 107 54 Z" fill="url(#globeBlue)" stroke="#225086" stroke-width="3.5"/>
+
+  <!-- Hand-drawn longitude curves -->
+  <path d="M56 10            C43 24 37 40 37 56            C37 75 44 94 56 106" stroke="#D7F8FF" stroke-width="2.8" opacity=".95"/>
+
+  <path d="M56 10            C69 24 75 40 75 56            C75 75 68 94 56 106" stroke="#D7F8FF" stroke-width="2.8" opacity=".95"/>
+
+  <!-- Center meridian -->
+  <path d="M56 12            Q54 35 56 56            Q58 81 56 104" stroke="#B4EFFF" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Upper latitude -->
+  <path d="M18 40            Q55 48 99 40" stroke="#D7F8FF" stroke-width="3" opacity=".95"/>
+
+  <!-- Equator -->
+  <path d="M10 59            Q55 65 106 59" stroke="#D7F8FF" stroke-width="3" opacity=".95"/>
+
+  <!-- Lower latitude -->
+  <path d="M20 79            Q55 73 96 80" stroke="#D7F8FF" stroke-width="3" opacity=".95"/>
+
+  <!-- Small sketch highlight on globe -->
+  <path d="M22 28            Q34 16 49 15" stroke="#A7F2FF" stroke-width="3" opacity=".9"/>
+
+  <!-- Globe rim marker accent -->
+  <path d="M13 66            Q17 86 35 98" stroke="#0055C5" stroke-width="2.3" opacity=".55"/>
+
+  <!-- Small Azure cloud overlapping lower right -->
+  <path d="M83 119            C73 119 66 112 66 103            C66 94 72 87 80 85            C84 76 92 71 102 72            C113 71 122 79 123 89            C131 91 135 98 134 105            C133 113 127 119 119 120            L85 120 Z" fill="url(#cloudBlue)" stroke="#225086" stroke-width="3.5"/>
+
+  <!-- Cloud highlight -->
+  <path d="M72 101            Q74 92 84 91            Q89 78 101 79            Q113 78 118 91" stroke="#8BCBFF" stroke-width="2.8" opacity=".9"/>
+
+  <!-- Cloud lower marker detail -->
+  <path d="M79 114            Q94 117 112 115" stroke="#144A83" stroke-width="2" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M107 19 L113 13            M115 27 L122 25            M110 34 L117 37" stroke="#FFCA28" stroke-width="3"/>
+
+  <!-- Small handwritten-style annotation marks -->
+  <path d="M11 104 L16 108            M19 110 L24 113" stroke="#0078D4" stroke-width="2.3"/>
+
+  <!-- Final hand-drawn emphasis -->
+  <path d="M64 123            Q78 126 88 124" stroke="#275B98" stroke-width="1.8" opacity=".55"/>
+</svg>

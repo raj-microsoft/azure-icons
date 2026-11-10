@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Outbound Connection (sketch)</title>
+  
+  <desc>Hand-drawn purple isometric cube with an Azure-cyan outbound connection arrow, irregular marker outlines, subtle yellow highlights, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="topPurple" x1="24" y1="12" x2="103" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5A8FF"/>
+      <stop offset="1" stop-color="#B796F9"/>
+    </linearGradient>
+    <linearGradient id="leftPurple" x1="23" y1="37" x2="65" y2="97" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B796F9"/>
+      <stop offset="1" stop-color="#A67AF4"/>
+    </linearGradient>
+    <linearGradient id="rightPurple" x1="64" y1="43" x2="107" y2="93" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8952E8"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Isometric cube: top -->
+  <path d="M24 36            L63 13            Q65 12 67 14            L105 36            L65 60 Z" fill="url(#topPurple)" stroke="#6331B5" stroke-width="3.4"/>
+
+  <!-- Left face -->
+  <path d="M24 36            L65 60            L65 106            L24 83 Z" fill="url(#leftPurple)" stroke="#6331B5" stroke-width="3.4"/>
+
+  <!-- Right face -->
+  <path d="M65 60            L105 36            L105 82            L65 106 Z" fill="url(#rightPurple)" stroke="#6331B5" stroke-width="3.4"/>
+
+  <!-- Sketch-marker accent lines -->
+  <path d="M30 36 L65 17 L98 36" stroke="#E4D3FF" stroke-width="2.3" opacity=".9"/>
+  <path d="M29 43 L29 70" stroke="#E4D3FF" stroke-width="2.4" opacity=".85"/>
+  <path d="M99 44 L99 68" stroke="#C5A8FF" stroke-width="2" opacity=".8"/>
+  <path d="M69 65 L69 91" stroke="#C4A0FF" stroke-width="1.8" opacity=".75"/>
+
+  <!-- Connection port on cube -->
+  <path d="M44 58            C38 54 34 57 34 64            C34 71 39 78 45 81            C51 84 55 81 55 74            C55 67 50 61 44 58 Z" fill="#773ADC" stroke="#5630A3" stroke-width="2.5"/>
+  <path d="M43 63            C40 62 39 65 40 69            C41 73 44 76 47 76" stroke="#D9C4FF" stroke-width="2.2"/>
+
+  <!-- Yellow marker detail -->
+  <path d="M14 23 L20 29            M25 13 L27 21            M13 39 L20 40" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Outbound connection cable -->
+  <path d="M41 77            C30 77 21 79 17 88            C10 102 20 113 35 113            L102 113" stroke="#087EAD" stroke-width="12"/>
+
+  <path d="M41 77            C30 77 21 79 17 88            C10 102 20 113 35 113            L102 113" stroke="#32BEDD" stroke-width="8"/>
+
+  <!-- Connection arrow -->
+  <path d="M97 99            L119 113            L97 127            L97 119            L85 119            L85 107            L97 107 Z" fill="#32BEDD" stroke="#087EAD" stroke-width="3.2"/>
+
+  <!-- Arrow highlight -->
+  <path d="M98 105 L111 113 L98 121" stroke="#B7F5FF" stroke-width="2.5"/>
+
+  <!-- Hand-drawn motion accents -->
+  <path d="M58 102 L72 102            M64 96 L78 96" stroke="#32BEDD" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Yellow directional spark -->
+  <path d="M114 90 L114 98            M110 94 L118 94" stroke="#F4C542" stroke-width="2.8"/>
+
+  <!-- Freehand secondary strokes -->
+  <path d="M24 94 Q25 105 38 106" stroke="#B7F5FF" stroke-width="1.7" opacity=".8"/>
+  <path d="M52 118 Q66 120 80 118" stroke="#087EAD" stroke-width="1.5" opacity=".6"/>
+</svg>
