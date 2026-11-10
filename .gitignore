@@ -5,3 +5,10 @@ src/raw/
 .impeccable/review/
 .impeccable/mocks/
 verification/
+variants/sketchnote/README.md
+variants/sketchnote/BRIEF.md
+variants/sketchnote/PILOT-REPORT.md
+variants/sketchnote/raw/
+variants/sketchnote/sheets/
+variants/sketchnote/progress.json
+variants/sketchnote/qa/

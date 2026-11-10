@@ -1,0 +1,9 @@
+// Publication review corrections: preserve original geometry/colors; no letterforms.
+import fs from 'node:fs/promises';
+import {validate} from './validate.mjs';
+const dir='raw/publish-review';await fs.mkdir(dir,{recursive:true});
+// Cost Analysis lost its entire dominant green shape when the dollar was omitted.
+// A stack of blank green coins restores a non-text financial symbol, behind the original loupe.
+const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" stroke="#1B1B1F" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 37 Q35 29 60 37 L59 85 Q35 98 12 86Z" fill="#75BA2D"/><path d="M12 62 Q34 75 60 62 M12 49 Q35 61 60 49" fill="none"/><path d="M12 36 C12 20 60 20 61 36 C60 50 12 51 12 36Z" fill="#86D633"/><path d="M94 96 L114 117 Q118 119 121 114 L101 91Z" fill="#198AB3"/><path d="M106 80 C106 116 49 116 49 80 C48 44 106 44 106 80Z" fill="#32BEDD"/><path d="M98 80 C98 106 57 107 57 80 C56 54 99 54 98 80Z" fill="#FFFFFF"/></svg>`;
+const id='cost-analysis',file=`svg/${id}.svg`;await fs.copyFile(file,`${dir}/${id}-before.svg`);await fs.writeFile(`${dir}/${id}.svg`,svg);const r=await validate(svg,'Cost Analysis');await fs.writeFile(file,r.normalized);for(const n of [64,256])await fs.writeFile(`png/${n}/${id}.png`,r.pngs[n]);
+await fs.writeFile(`${dir}/review.json`,JSON.stringify({reviewed:643,pages:17,fixed:[{id,reason:'Original green financial shape entirely absent; restored green financial imagery as blank coins, keeping no-text rule and blue magnifier.'}],caveats:['Letterform-only symbols (Information, SQL/MySQL, currency signs, QnA, Redis mark, function annotations) intentionally omitted under no-text house style; these rely more heavily on visible service labels.','No blank or unsafe SVGs found; recognizability is a visual judgment, not a validator guarantee.']},null,2));console.log('Repaired and validated Cost Analysis');
