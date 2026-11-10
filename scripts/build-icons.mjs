@@ -36,6 +36,6 @@ for (const category of (await readdir(root)).sort()) {
 }
 const icons=[...byName.values()].sort((a,b)=>a.name.localeCompare(b.name));
 for(const icon of icons) icon.keywords=[...new Set([...icon.keywords,...icon.categories])];
-await writeFile(path.join(out,'icons.json'),JSON.stringify({version:'V25',updated:'November 2026',sourceCount,icons}));
+await writeFile(path.join(out,'icons.json'),JSON.stringify({version:'V25',updated:'November 2026',synced:'2026-11-10',sourceCount,icons}));
 await writeFile('scripts/provenance.json',JSON.stringify({source:'https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V25.zip',retrieved:'2026-11-10',rasterization:'resvg and sharp; transparent contain; full original viewBox; SVG files copied byte-for-byte',sourceCount,uniqueCount:icons.length,files:provenance},null,2));
 console.log(JSON.stringify({sourceCount,uniqueCount:icons.length,categories:new Set(icons.flatMap(i=>i.categories)).size,newIcons:icons.filter(i=>i.isNew).map(i=>i.name)},null,2));
