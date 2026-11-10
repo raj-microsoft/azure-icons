@@ -1,101 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Fileshares (sketch)</title>
-  
-  <desc>Hand-drawn Azure file folder with overlapping file tab, three connected sharing nodes, cyan gradient, blue marker outlines, and subtle yellow highlights.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Fileshares (sketch)</title>
   <defs>
-    <linearGradient id="folderFill" x1="42" y1="35" x2="90" y2="106" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32D4F5"/>
-      <stop offset=".48" stop-color="#2CC3E6"/>
-      <stop offset="1" stop-color="#198AB3"/>
-    </linearGradient>
-    <linearGradient id="folderShade" x1="40" y1="52" x2="107" y2="105" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#50E5FF" stop-opacity=".36"/>
-      <stop offset="1" stop-color="#005BA1" stop-opacity=".18"/>
+    <linearGradient id="folder" x1="-1267.23" y1="3.07" x2="-1267.52" y2="14.64" gradientTransform="matrix(-1 0 0 1 -1256.13 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32d4f5"/>
+      <stop offset=".23" stop-color="#31d0f1"/>
+      <stop offset=".46" stop-color="#2cc3e6"/>
+      <stop offset=".7" stop-color="#25afd4"/>
+      <stop offset=".94" stop-color="#1c92ba"/>
+      <stop offset="1" stop-color="#198ab3"/>
     </linearGradient>
   </defs>
 
-  <!-- Shared-file connector network -->
-  <g stroke="#005BA1" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path d="M91 41 Q99 31 108 16" stroke-width="5.2"/>
-    <path d="M99 95 Q107 106 114 116" stroke-width="5.2"/>
-    <path d="M41 78 Q27 83 13 88" stroke-width="5.2"/>
+  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
 
-    <!-- Loose marker echoes -->
-    <path d="M94 40 Q102 29 109 20" stroke="#0078D4" stroke-width="1.5" stroke-dasharray="5 5"/>
-    <path d="M102 97 Q109 108 112 113" stroke="#0078D4" stroke-width="1.5"/>
-  </g>
+    <!-- Original upper dark-blue folder backing -->
+    <path d="M17.28 3.9h-.91a4.16 4.16 0 0 0-.55 0              .68.68 0 0 1-.59-1l.39-.7              a1.83 1.83 0 0 0-.51-.29l-.93 1.66              a.7.7 0 0 1-.6.35h-.83              a.66.66 0 0 0-.32.08h0L10.86 5              a.25.25 0 0 1-.16 0H5.27              A.29.29 0 0 0 5 5.32v4.82l-1.75.54              .13.56L5 11v2.9a.29.29 0 0 0 .29.29h9.37              l1.15 1.49.49-.31-.68-1.18h1.68              a.29.29 0 0 0 .3-.29V4.2a.3.3 0 0 0-.32-.3Z" fill="#005ba1"/>
 
-  <!-- Back file sheet -->
-  <path d="M52 43            L55 30            Q56 25 62 26            L105 33            Q111 34 110 40            L107 56            L49 55 Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.8" stroke-linejoin="round"/>
+    <!-- Original three external connection circles -->
+    <circle cx="15.88" cy="1.08" r="1.09" fill="#50e5ff"/>
+    <circle cx="16.58" cy="16.59" r="1.42" fill="#50e5ff"/>
+    <circle cx="1.77" cy="11.44" r="1.77" fill="#50e5ff"/>
 
-  <path d="M58 43            L60 33            Q60 31 64 32            L102 38            Q105 38 104 42            L102 51            L56 50 Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2.1" stroke-linejoin="round"/>
+    <!-- Original folder tab and white highlight -->
+    <path d="M15.17 4.75l-6.91-1H8.12a1 1 0 0 0-1 .87              L6.86 6.31H16l0-.41a1 1 0 0 0-.83-1.15Z" fill="#0078d4"/>
+    <path d="M15.1 5.18l-6.9-1H8.11a.58.58 0 0 0-.57.5              L7.3 6.31h8.22l.07-.47a.58.58 0 0 0-.49-.66Z" fill="#fff"/>
 
-  <!-- Small handwritten-style document strokes -->
-  <g stroke="#32D4F5" stroke-width="2.5" stroke-linecap="round">
-    <path d="M67 39 Q76 40 85 42"/>
-    <path d="M66 45 Q73 45 80 47"/>
-  </g>
+    <!-- Original plain folder face: no network symbol or added details -->
+    <path d="M5.26 5h6.05a.33.33 0 0 1 .21.09l1 1              a.29.29 0 0 0 .21.09h4.6              a.3.3 0 0 1 .3.29V13.9              a.3.3 0 0 1-.3.29h-12              A.29.29 0 0 1 5 13.9V5.32              A.3.3 0 0 1 5.26 5Z" fill="url(#folder)" stroke="#198ab3" stroke-width=".045"/>
 
-  <!-- Rear folder silhouette -->
-  <path d="M36 36            Q36 32 41 32            L75 33            Q78 33 81 36            L88 43            L106 43            Q112 43 112 50            L112 99            Q112 105 105 105            L39 105            Q34 105 34 100            Z" fill="#005BA1" stroke="#005BA1" stroke-width="4" stroke-linejoin="round"/>
-
-  <!-- Main sketched folder -->
-  <path d="M36 39            Q36 35 41 35            L73 36            Q76 36 79 39            L86 47            Q87 48 90 48            L108 48            Q112 48 112 53            L111 99            Q111 104 106 104            L39 104            Q35 104 35 99            Z" fill="url(#folderFill)" stroke="#005BA1" stroke-width="4.3" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <path d="M39 52            Q53 50 66 51            L86 53            Q96 54 108 52            L107 97            Q86 100 64 99            L40 99 Z" fill="url(#folderShade)"/>
-
-  <!-- Folder tab seam -->
-  <path d="M41 39            Q57 38 72 40            Q75 40 78 44            L83 49" stroke="#50E5FF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Organic marker accents -->
-  <path d="M42 59 Q41 75 42 90" stroke="#B3F4FF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
-
-  <path d="M48 97 Q71 100 94 97" stroke="#005BA1" stroke-width="1.7" stroke-linecap="round" opacity=".45"/>
-
-  <!-- File-sharing symbol -->
-  <g stroke="#005BA1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M62 71 Q73 63 86 72" stroke-dasharray="3 5"/>
-    <path d="M62 72 L86 84"/>
-    <path d="M86 72 L62 84"/>
-  </g>
-
-  <g fill="#FFFFFF" stroke="#005BA1" stroke-width="2.5">
-    <circle cx="61" cy="72" r="4.5"/>
-    <circle cx="87" cy="72" r="4.5"/>
-    <circle cx="74" cy="87" r="5"/>
-  </g>
-
-  <path d="M73 84 L75 86" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Sharing nodes -->
-  <circle cx="110" cy="13" r="8" fill="#50E5FF" stroke="#005BA1" stroke-width="3.5"/>
-
-  <circle cx="115" cy="116" r="9" fill="#50E5FF" stroke="#005BA1" stroke-width="3.5"/>
-
-  <circle cx="14" cy="89" r="10" fill="#50E5FF" stroke="#005BA1" stroke-width="3.5"/>
-
-  <!-- Marker glints -->
-  <g stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity=".9">
-    <path d="M107 10 L110 8"/>
-    <path d="M111 113 L114 111"/>
-    <path d="M9 86 Q11 83 14 83"/>
-  </g>
-
-  <!-- Subtle yellow sketchnote flourishes -->
-  <g stroke="#F4C542" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path d="M22 55 L27 52" stroke-width="3"/>
-    <path d="M19 63 L25 62" stroke-width="2.7"/>
-    <path d="M25 47 L27 43" stroke-width="2.4"/>
-
-    <path d="M91 20 L95 18" stroke-width="2.7"/>
-    <path d="M92 25 L98 25" stroke-width="2.3"/>
-
-    <path d="M20 111 Q27 115 34 112" stroke-width="2.5"/>
-  </g>
-
-  <!-- Freehand corner details -->
-  <g stroke="#0078D4" fill="none" stroke-linecap="round" opacity=".85">
-    <path d="M38 29 Q52 26 65 29" stroke-width="1.8"/>
-    <path d="M115 65 Q118 73 115 84" stroke-width="2" stroke-dasharray="4 5"/>
   </g>
 </svg>

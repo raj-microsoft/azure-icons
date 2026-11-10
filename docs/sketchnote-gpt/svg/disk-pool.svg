@@ -1,75 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Disk Pool (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Disk Pool (sketch)</title>
   
-  <desc>Two overlapping Azure-blue disk stacks enclosed by sketchy gray storage-pool brackets, with subtle marker highlights and a transparent background.</desc>
-
   <defs>
-    <linearGradient id="diskTop" x1="35" y1="22" x2="86" y2="75" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#5EA0EF"/>
-      <stop offset=".45" stop-color="#83B9F9"/>
-      <stop offset=".8" stop-color="#83B9F9"/>
-      <stop offset="1" stop-color="#5EA0EF"/>
+    <linearGradient id="disk-upper" x1="5.368" y1="2.599" x2="9.681" y2="7.232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset=".2" stop-color="#83b9f9"/>
+      <stop offset=".5" stop-color="#83b9f9"/>
+      <stop offset=".75" stop-color="#83b9f9"/>
+      <stop offset=".9" stop-color="#6facf4"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
     </linearGradient>
-    <linearGradient id="diskFront" x1="47" y1="48" x2="95" y2="107" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#83B9F9"/>
-      <stop offset="1" stop-color="#5EA0EF"/>
+    <linearGradient id="disk-lower" x1="8.32" y1="6.332" x2="12.637" y2="10.969" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset=".2" stop-color="#83b9f9"/>
+      <stop offset=".5" stop-color="#83b9f9"/>
+      <stop offset=".75" stop-color="#83b9f9"/>
+      <stop offset=".9" stop-color="#6facf4"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
     </linearGradient>
   </defs>
 
-  <!-- Left storage-pool bracket -->
-  <path d="M28 10            L9 21            L9 105            L28 116" stroke="#949494" stroke-width="9"/>
+  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
 
-  <path d="M27 14 L13 23            L13 102 L27 111" stroke="#B3B2B3" stroke-width="3"/>
+    <!-- Original upper disk and left-side body -->
+    <path d="M6.218,10.879a1.615,1.615,0,0,1-.7-1.265V8.887A1.313,1.313,0,0,1,5.5,8.638c0-.927.88-1.591,2.108-1.979-.039,0-.074,0-.113,0-2.42,0-4.381.806-4.381,1.8a.791.791,0,0,0,.023.187v.789c0,.767,1.205,1.419,2.846,1.677A2.145,2.145,0,0,1,6.218,10.879Z" fill="#0078d4"/>
 
-  <!-- Right storage-pool bracket -->
-  <path d="M100 10            L119 21            L119 105            L100 116" stroke="#949494" stroke-width="9"/>
+    <path d="M10.386,6.254c.919-.33,1.51-.809,1.51-1.349,0-.994-1.961-1.8-4.381-1.8s-4.382.805-4.382,1.8S5.07,6.692,7.468,6.7A9.54,9.54,0,0,1,10.386,6.254Z" fill="url(#disk-upper)"/>
 
-  <path d="M101 14 L115 23            L115 102 L101 111" stroke="#B3B2B3" stroke-width="3"/>
+    <ellipse cx="7.626" cy="4.882" rx="1.455" ry="0.397" fill="#005ba1"/>
 
-  <!-- Rear disk: lower cylindrical wall -->
-  <path d="M25 36            L25 65            C25 73 39 79 54 79            C70 79 84 73 84 65            L84 36" fill="#0078D4" stroke="#175A94" stroke-width="3.5"/>
+    <path d="M10.467,6.253a10.79,10.79,0,0,1,1.29.085.845.845,0,0,0,.137-.407V4.868c0,.564-.619,1.058-1.61,1.388C10.345,6.255,10.406,6.253,10.467,6.253Z" fill="#5ea0ef"/>
 
-  <!-- Rear disk top -->
-  <path d="M25 36            C25 27 39 22 54 22            C70 22 84 28 84 36            C84 45 70 50 54 50            C39 50 25 45 25 36Z" fill="url(#diskTop)" stroke="#24699D" stroke-width="3.5"/>
+    <path d="M7.6,6.661l-.061,0c-2.442,0-4.4-.806-4.381-1.8V5.881c0,.764,1.194,1.413,2.824,1.674A3.943,3.943,0,0,1,7.6,6.661Z" fill="#5ea0ef"/>
 
-  <!-- Rear disk spindle -->
-  <path d="M46 35            C47 32 62 32 64 35            C65 39 48 40 46 36Z" fill="#005BA1"/>
+    <!-- Original foreground lower disk: exact position and geometry -->
+    <path d="M14.828,12.187c0-.994-1.962-1.8-4.382-1.8s-4.381.806-4.381,1.8a.783.783,0,0,0,.023.186v.789c0,.993,2.01,1.8,4.382,1.8s4.3-.789,4.381-1.753l-.023-.748Z" fill="#0078d4"/>
 
-  <!-- Rear disk division -->
-  <path d="M25 49            C25 57 39 63 54 63            C70 63 84 57 84 49" stroke="#5EA0EF" stroke-width="3"/>
+    <ellipse cx="10.557" cy="12.163" rx="1.455" ry="0.397" fill="#005ba1"/>
 
-  <!-- Rear disk hand-drawn highlight -->
-  <path d="M30 52 Q37 58 48 59            M30 66 Q35 70 44 72" stroke="#A6D0FF" stroke-width="2.5" opacity=".85"/>
+    <!-- Original middle disk -->
+    <ellipse cx="10.467" cy="8.638" rx="4.382" ry="1.799" fill="url(#disk-lower)"/>
 
-  <!-- Front disk: bottom cylinder -->
-  <path d="M45 77            L45 94            C45 105 60 111 75 111            C92 111 106 105 106 94            L106 77" fill="#0078D4" stroke="#175A94" stroke-width="4"/>
+    <ellipse cx="10.578" cy="8.615" rx="1.455" ry="0.397" fill="#005ba1"/>
 
-  <!-- Bottom disk top surface -->
-  <path d="M45 78            C45 68 60 62 75 62            C92 62 106 68 106 78            C106 87 92 93 75 93            C60 93 45 87 45 78Z" fill="url(#diskFront)" stroke="#24699D" stroke-width="3.5"/>
+    <path d="M10.465,10.431c2.425,0,4.382-.806,4.382-1.8h0V9.7h0c-.082.964-2.01,1.753-4.382,1.753s-4.381-.807-4.381-1.8V8.632C6.06,9.625,8.023,10.431,10.465,10.431Z" fill="#5ea0ef"/>
 
-  <!-- Lower disk spindle -->
-  <path d="M67 77            C68 74 83 74 85 77            C86 81 69 82 67 78Z" fill="#005BA1"/>
+    <!-- Original left filled bracket -->
+    <path d="M0,15.587a.174.174,0,0,0,.086.15l1.221.708,2.075,1.2a.169.169,0,0,0,.232-.061l0,0,.7-1.215a.175.175,0,0,0-.063-.236l-2.428-1.4a.169.169,0,0,1-.086-.149V3.422a.169.169,0,0,1,.086-.149L4.251,1.864a.175.175,0,0,0,.063-.235L3.616.414A.172.172,0,0,0,3.383.349h0L1.349,1.53.086,2.263A.172.172,0,0,0,0,2.412Z" fill="#949494"/>
 
-  <!-- Front disk upper cylinder -->
-  <path d="M45 57            L45 78            C45 88 60 94 75 94            C92 94 106 88 106 78            L106 57" fill="#0078D4" stroke="#175A94" stroke-width="3.5"/>
+    <path d="M4.314,1.629,3.616.414A.171.171,0,0,0,3.442.33a.161.161,0,0,0-.086.021L1.324,1.53.061,2.263A.175.175,0,0,0,0,2.323l.02.012A.173.173,0,0,0,0,2.412l1.739,1.01a.167.167,0,0,1,.086-.149L4.251,1.864A.175.175,0,0,0,4.314,1.629Z" fill="#a3a3a3"/>
 
-  <!-- Front disk upper surface -->
-  <path d="M45 57            C45 47 60 42 75 42            C92 42 106 48 106 57            C106 67 92 73 75 73            C60 73 45 67 45 57Z" fill="url(#diskTop)" stroke="#24699D" stroke-width="3.5"/>
+    <path d="M4.314,16.372l-.7,1.215a.172.172,0,0,1-.174.084.161.161,0,0,1-.086-.021L1.322,16.47.061,15.738A.178.178,0,0,1,0,15.677l.02-.011A.165.165,0,0,1,0,15.588l1.739-1.009a.169.169,0,0,0,.086.149l2.426,1.408A.175.175,0,0,1,4.314,16.372Z" fill="#a3a3a3"/>
 
-  <!-- Upper disk spindle -->
-  <path d="M67 56            C68 53 83 53 85 56            C86 60 69 61 67 57Z" fill="#005BA1"/>
+    <!-- Original right filled bracket -->
+    <path d="M18,2.413a.174.174,0,0,0-.086-.15l-1.221-.708L14.616.351a.169.169,0,0,0-.232.061l0,0-.7,1.215a.175.175,0,0,0,.063.236l2.426,1.408a.169.169,0,0,1,.086.149V14.578a.169.169,0,0,1-.086.149l-2.426,1.409a.175.175,0,0,0-.063.235l.7,1.215a.172.172,0,0,0,.233.065h0l2.033-1.18,1.263-.733A.172.172,0,0,0,18,15.588Z" fill="#949494"/>
 
-  <!-- Marker-style cylinder highlights -->
-  <path d="M50 68 Q60 75 73 76            M50 87 Q60 94 72 95            M51 99 Q60 105 71 106" stroke="#83B9F9" stroke-width="2.5" opacity=".9"/>
+    <path d="M13.684,16.371l.7,1.215a.171.171,0,0,0,.174.084.161.161,0,0,0,.086-.021l2.032-1.179,1.263-.733a.175.175,0,0,0,.061-.06l-.02-.012a.173.173,0,0,0,.02-.077l-1.739-1.01a.167.167,0,0,1-.086.149l-2.426,1.409A.174.174,0,0,0,13.684,16.371Z" fill="#a3a3a3"/>
 
-  <!-- Sketchy right-side reflection -->
-  <path d="M100 67 L100 73            M100 88 L100 96" stroke="#5EA0EF" stroke-width="2.5" opacity=".75"/>
-
-  <!-- Yellow pool status indicator -->
-  <path d="M110 37            L113 42            L118 45            L113 48            L110 53            L107 48            L102 45            L107 42Z" fill="#FFCF45" stroke="#B8861B" stroke-width="1.7"/>
-
-  <!-- Subtle hand-drawn motion accents -->
-  <path d="M33 13 L40 9            M88 10 L95 14            M18 76 L18 85            M110 84 L110 93" stroke="#A3A3A3" stroke-width="2.5"/>
-
-  <!-- Small sketchnote marks -->
-  <path d="M31 117 L38 121            M90 121 L97 117" stroke="#5EA0EF" stroke-width="2.5" opacity=".7"/>
+    <path d="M13.684,1.628l.7-1.215a.172.172,0,0,1,.174-.084.161.161,0,0,1,.086.021l2.032,1.18,1.263.732A.172.172,0,0,1,18,2.323l-.02.011a.165.165,0,0,1,.02.078L16.259,3.421a.169.169,0,0,0-.086-.149L13.747,1.864A.175.175,0,0,1,13.684,1.628Z" fill="#a3a3a3"/>
+  </g>
 </svg>

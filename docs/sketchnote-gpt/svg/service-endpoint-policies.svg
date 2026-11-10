@@ -1,52 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Service Endpoint Policies (sketch)</title>
+  
+
   <defs>
-    <linearGradient id="endpointBlue" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="1" stop-color="#5EA0EF"/>
+    <linearGradient id="document-blue" x1="9.19" y1="17.5" x2="9.19" y2=".5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".82" stop-color="#5ea0ef"/>
     </linearGradient>
   </defs>
 
-  <!-- Policy document -->
-  <path d="M30 13     Q30 9 35 9     L83 9     Q88 9 88 14     L88 107     Q88 113 82 113     L29 113     Q23 113 23 107     L23 23     Q23 16 30 13Z" fill="url(#endpointBlue)" stroke="#075A9E" stroke-width="4" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
 
-  <!-- Document top edge and marker detail -->
-  <path d="M35 17 L79 17" fill="none" stroke="#BDE5FF" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Original upper scroll attachment -->
+    <path d="M13.35 2.88A2.31 2.31 0 0 1 15.65.56h0a1.86 1.86 0 0 1 1.59 1.88 1.86 1.86 0 0 1-.41 1.18.71.71 0 0 1-.55.26h-3Z" fill="#0078d4"/>
 
-  <!-- Network policy connection lines -->
-  <path d="M39 48 L52 35 L66 48 L78 35" fill="none" stroke="#F2F2F2" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original vertical scroll body -->
+    <path d="M13.56.51h-9A2.29 2.29 0 0 0 2.29 2.8V17.49a0 0 0 0 0 0 0h9a2.29 2.29 0 0 0 2.29-2.29l0-2.43V5.29a25.76 25.76 0 0 1 0-3C13.94.3 16.09.65 16.09.65A11.13 11.13 0 0 0 13.56.51Z" fill="url(#document-blue)"/>
 
-  <path d="M39 48 L52 61 L66 48 L78 61" fill="none" stroke="#B3B3B3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original branching code: central vertical connector -->
+    <path d="M8 11.64V6.94a.53.53 0 0 0 .27-.46.54.54 0 0 0-.54-.54.54.54 0 0 0-.26 1v4.7a.55.55 0 0 0-.27.47.54.54 0 1 0 1.07 0 .55.55 0 0 0-.27-.47Z" fill="#f2f2f2"/>
 
-  <!-- Network nodes -->
-  <circle cx="39" cy="48" r="5" fill="#F2F2F2"/>
-  <circle cx="52" cy="35" r="5" fill="#F2F2F2"/>
-  <circle cx="66" cy="48" r="5" fill="#F2F2F2"/>
-  <circle cx="78" cy="35" r="5" fill="#F2F2F2"/>
-  <circle cx="52" cy="61" r="5" fill="#F2F2F2"/>
-  <circle cx="78" cy="61" r="5" fill="#F2F2F2"/>
+    <!-- Original lower scroll attachment -->
+    <path d="M11.45 17.43h0a1.84 1.84 0 0 1-.89-3.24.23.23 0 0 0-.15-.41l-7.82 0-.29 0h0a1.85 1.85 0 0 0 0 3.64h0a1.36 1.36 0 0 0 .29 0Z" fill="#5ea0ef"/>
 
-  <!-- Policy document text -->
-  <path d="M39 78 L72 78     M39 87 L72 87     M39 96 L63 96" fill="none" stroke="#D7EDFF" stroke-width="3" stroke-linecap="round"/>
+    <!-- Original three upper branch nodes -->
+    <circle cx="9.44" cy="6.49" r=".55" fill="#f2f2f2"/>
+    <circle cx="7.69" cy="6.49" r=".55" fill="#f2f2f2"/>
+    <circle cx="5.95" cy="6.49" r=".55" fill="#f2f2f2"/>
 
-  <!-- Endpoint connector -->
-  <path d="M88 76 L103 76     Q108 76 108 81     L108 91" fill="none" stroke="#0078D4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original left lower branch -->
+    <path d="M6 9l.32-.32a.15.15 0 0 0 0-.2L3.83 6l-.32.32a.28.28 0 0 0 0 .4L5.83 9A.15.15 0 0 0 6 9Z" fill="#b3b3b3"/>
 
-  <!-- Endpoint terminal -->
-  <path d="M96 88 L108 101 L120 88" fill="none" stroke="#50E6FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original left upper branch -->
+    <path d="M6.3 4.3 6 4a.15.15 0 0 0-.2 0L3.51 6.27a.28.28 0 0 0 0 .4L3.82 7 6.3 4.5a.13.13 0 0 0 0-.2Z" fill="#f2f2f2"/>
 
-  <path d="M108 100 L108 111" fill="none" stroke="#0078D4" stroke-width="4" stroke-linecap="round"/>
+    <!-- Original right lower branch -->
+    <path d="M9.32 9 9 8.67a.13.13 0 0 1 0-.2L11.53 6l.31.32a.28.28 0 0 1 0 .4L9.52 9a.15.15 0 0 1-.2 0Z" fill="#b3b3b3"/>
 
-  <!-- Yellow sketchnote accents -->
-  <path d="M16 34 L11 29 L16 24" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original right upper branch -->
+    <path d="M9.05 4.3 9.37 4a.15.15 0 0 1 .2 0l2.27 2.28a.28.28 0 0 1 0 .4L11.53 7 9.05 4.5a.15.15 0 0 1 0-.2Z" fill="#f2f2f2"/>
 
-  <path d="M94 23 L99 18 L104 23" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <path d="M91 113 L97 116" fill="none" stroke="#FFCA28" stroke-width="2.5" stroke-linecap="round"/>
-
-  <!-- Hand-drawn outline accents -->
-  <path d="M29 26 Q27 40 28 54" fill="none" stroke="#A8D9FF" stroke-width="2" stroke-linecap="round"/>
-
-  <path d="M81 103 Q82 108 77 109" fill="none" stroke="#BDE5FF" stroke-width="2" stroke-linecap="round"/>
-
-  <path d="M14 72 L19 68     M113 43 L118 39" fill="none" stroke="#50E6FF" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
 </svg>

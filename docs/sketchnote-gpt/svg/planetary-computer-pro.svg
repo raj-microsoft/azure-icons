@@ -1,68 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Planetary Computer Pro (sketch)</title>
-  
   <defs>
-    <linearGradient id="planet" x1="20" y1="112" x2="108" y2="16" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="1" stop-color="#49C5B1"/>
+    <linearGradient id="planet-gradient" x1="6.776" y1="17.763" x2="11.691" y2=".784" gradientUnits="userSpaceOnUse">
+      <stop offset=".003" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#49c5b1"/>
     </linearGradient>
-    <linearGradient id="orbitLeft" x1="12" y1="112" x2="70" y2="65" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="1" stop-color="#49C5B1"/>
+    <linearGradient id="orbit-left" x1="8.255" y1="11.469" x2=".622" y2="16.014" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#49c5b1"/>
+      <stop offset=".198" stop-color="#43beb3"/>
+      <stop offset=".469" stop-color="#32adbb"/>
+      <stop offset=".781" stop-color="#1790c8"/>
+      <stop offset="1" stop-color="#0078d4"/>
     </linearGradient>
-    <linearGradient id="orbitRight" x1="120" y1="12" x2="66" y2="64" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="1" stop-color="#49C5B1"/>
+    <linearGradient id="orbit-right" x1="17.917" y1="2.371" x2="10.078" y2="7.039" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".219" stop-color="#1790c8"/>
+      <stop offset=".531" stop-color="#32adbb"/>
+      <stop offset=".802" stop-color="#43beb3"/>
+      <stop offset="1" stop-color="#49c5b1"/>
     </linearGradient>
   </defs>
 
-  <g stroke-linecap="round" stroke-linejoin="round">
+  <g transform="scale(7.111111)">
+    <!-- Original filled planetary grid and orbital body -->
+    <path d="M3.145,10.961c-.302-1.108-.302-2.4,0-3.508h2.4c-.051.467-.077.953-.086,1.447.372-.219.835-.337,1.276-.261.015-.407.041-.807.086-1.187h2.998c.187-.602.613-1.072,1.151-1.315h-3.923c.167-.734.39-1.384.65-1.923,1.12-2.122,1.989-2.124,3.109,0,.242.503.45,1.104.613,1.776.435-.088.904-.018,1.299.187.015-.014.027-.026.042-.039h-.005c-.239-1.176-.612-2.206-1.078-3.009.914.393,1.715,1.006,2.354,1.769.304-.318.574-.624.858-.972C9.079-2.627-1.1,4.184,2.312,12.419c.686-.583,1.34-1.097,1.815-1.458h-.982ZM6.827,3.129c-.466.803-.839,1.833-1.078,3.009h-2.102c.687-1.349,1.812-2.42,3.18-3.009ZM16.059,5.709c-.607.666-1.214,1.279-1.691,1.745h.991c.302,1.108.302,2.4,0,3.508h-2.4c.038-.348.061-.706.076-1.07-.362.278-.82.448-1.294.425-.016.218-.033.435-.058.644h-3.124c-.032.477-.252.974-.579,1.315h3.476c-.167.734-.39,1.384-.65,1.923-1.12,2.122-1.989,2.124-3.109,0-.195-.405-.369-.871-.514-1.389-.408.157-.881.171-1.3.027.236.94.554,1.776.944,2.447-.984-.424-1.839-1.1-2.5-1.947-.342.257-.611.483-.978.839,5.805,7.144,16.56.054,12.71-8.469ZM11.677,15.285c.466-.803.839-1.833,1.078-3.009h2.102c-.687,1.349-1.812,2.42-3.18,3.009Z" fill="url(#planet-gradient)" fill-rule="evenodd"/>
 
-    <!-- Planetary globe -->
-    <path d="M22 75       C17 54 27 31 46 20       C64 9 88 13 103 29       C116 43 119 66 108 85       C98 105 77 116 55 110       C39 106 27 93 22 75Z" fill="url(#planet)" stroke="#0065A8" stroke-width="3.5"/>
+    <!-- Original left orbital path -->
+    <path d="M5.056,10.191c-.105.276-.129.564-.086.837-1.086.868-4.299,2.997-4.704,5.014-.161,2.581,3.707,1.571,4.801.924-.267-.217-.519-.448-.756-.694-6.162,2.101-1.59-2.828,1.068-4.39.733.833,2.158.55,2.537-.518.709-1.965-2.083-3.109-2.859-1.173ZM7.069,11.017c-.306.791-1.466.315-1.168-.479.299-.799,1.48-.29,1.168.479Z" fill="url(#orbit-left)"/>
 
-    <!-- Globe highlight -->
-    <path d="M34 40 Q48 21 68 20" fill="none" stroke="#A4F0DF" stroke-width="3"/>
-
-    <!-- Continents -->
-    <path d="M35 42 L49 34 L59 39 L65 48       L58 56 L48 57 L43 67 L32 63 L27 53Z" fill="#B8F1D9" stroke="#168EAA" stroke-width="2"/>
-
-    <path d="M70 57 L81 49 L94 53 L101 64       L94 72 L89 83 L78 86 L73 76 L65 70Z" fill="#B8F1D9" stroke="#168EAA" stroke-width="2"/>
-
-    <path d="M48 81 L57 77 L65 84 L63 98       L55 103 L48 93Z" fill="#B8F1D9" stroke="#168EAA" stroke-width="1.8"/>
-
-    <!-- Subtle planetary latitude -->
-    <path d="M25 70 Q65 84 111 67" fill="none" stroke="#83DCCB" stroke-width="2" opacity=".8"/>
-
-    <!-- Left orbital sweep -->
-    <path d="M61 75       C45 87 25 103 12 115       C8 119 12 123 19 120       C40 111 62 97 75 84" fill="none" stroke="url(#orbitLeft)" stroke-width="8"/>
-
-    <path d="M14 116 Q37 101 57 88" fill="none" stroke="#A3E8DC" stroke-width="2"/>
-
-    <!-- Right orbital sweep -->
-    <path d="M67 54       C84 39 103 22 116 12       C120 8 124 12 120 18       C108 39 91 57 77 69" fill="none" stroke="url(#orbitRight)" stroke-width="8"/>
-
-    <path d="M79 58 Q102 36 116 17" fill="none" stroke="#A3E8DC" stroke-width="2"/>
-
-    <!-- Orbital connection nodes -->
-    <circle cx="17" cy="117" r="6" fill="#49C5B1" stroke="#0078D4" stroke-width="2.5"/>
-    <circle cx="119" cy="13" r="6" fill="#49C5B1" stroke="#0078D4" stroke-width="2.5"/>
-
-    <!-- Satellite / data connection -->
-    <path d="M55 64 L72 64 L81 73" fill="none" stroke="#42E8CA" stroke-width="3.5"/>
-    <circle cx="55" cy="64" r="4" fill="#FFCA28" stroke="#D99B00" stroke-width="1.5"/>
-    <circle cx="81" cy="73" r="4" fill="#FFCA28" stroke="#D99B00" stroke-width="1.5"/>
-
-    <!-- Small planetary data sparkles -->
-    <path d="M91 91 L95 83 L99 91 L107 95 L99 99 L95 107 L91 99 L83 95Z" fill="#FFCA28" stroke="#D99B00" stroke-width="1.5"/>
-
-    <path d="M22 26 L25 20 L28 26 L34 29 L28 32 L25 38 L22 32 L16 29Z" fill="#FFCA28" stroke="#D99B00" stroke-width="1.3"/>
-
-    <!-- Hand-drawn sketchnote accents -->
-    <g fill="none" stroke-linecap="round">
-      <path d="M4 63 L10 60 M5 70 L11 69" stroke="#49C5B1" stroke-width="2.5"/>
-      <path d="M102 110 L108 107 M105 115 L111 113" stroke="#0078D4" stroke-width="2"/>
-      <path d="M42 10 L46 6 M49 10 L52 7" stroke="#FFCA28" stroke-width="2.5"/>
-    </g>
-
+    <!-- Original right orbital path -->
+    <path d="M15.952.255c-1.038.015-2.536.796-3.072,1.144.289.184.565.384.828.599.693-.36,2.75-1.428,3.15-.314-.141.969-.738,1.541-1.334,2.382-.827,1.045-1.442,1.652-2.75,2.864-2.009-1.515-3.731,1.943-1.376,2.77,1.114.345,2.22-.828,1.876-1.971,1.107-1.149,4.425-3.892,4.474-6.181-.085-.887-1.007-1.365-1.795-1.293ZM11.633,8.788c-.792-.225-.469-1.476.325-1.259.792.225.469,1.476-.325,1.259Z" fill="url(#orbit-right)"/>
   </g>
 </svg>

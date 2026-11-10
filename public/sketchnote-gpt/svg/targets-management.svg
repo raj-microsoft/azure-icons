@@ -1,57 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Targets Management (sketch)</title>
-  
-  <desc>Azure-blue circular target with four radial markers and a warm golden center, illustrated with uneven marker outlines and subtle sketchnote accents.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Targets Management (sketch)</title>
   <defs>
-    <linearGradient id="targetBlue" x1="64" y1="26" x2="64" y2="102" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0F0"/>
-      <stop offset=".55" stop-color="#2589E0"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="centerGradient" x1="-51.062" y1="349.229" x2="-51.062" y2="345.247" gradientTransform="translate(-120.372 -317.22) rotate(-30)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eeaa45"/>
+      <stop offset="1" stop-color="#f4cf97"/>
     </linearGradient>
 
-    <linearGradient id="targetGold" x1="64" y1="50" x2="64" y2="78" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F4CF97"/>
-      <stop offset="1" stop-color="#EEAA45"/>
+    <linearGradient id="ringGradient" x1="9.026" y1="14.515" x2="9.026" y2="3.541" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#5ea0f0"/>
     </linearGradient>
   </defs>
 
-  <!-- Top radial target marker -->
-  <path d="M60 5            Q60 2 64 2            Q68 2 68 5            L68 31            Q68 35 64 35            Q60 35 60 31 Z" fill="#82BBFF" stroke="#247CC5" stroke-width="2.8"/>
+  <g transform="scale(7.111111)">
 
-  <!-- Bottom radial target marker -->
-  <path d="M60 97            Q60 93 64 93            Q68 93 68 97            L68 123            Q68 126 64 126            Q60 126 60 123 Z" fill="#82BBFF" stroke="#247CC5" stroke-width="2.8"/>
+    <!-- Four original directional markers -->
+    <rect x="8.209" y=".013" width="1.634" height="4.658" rx=".817" fill="#82bbff" stroke="#579ce8" stroke-width=".025"/>
 
-  <!-- Left radial target marker -->
-  <path d="M5 60            L31 60            Q35 60 35 64            Q35 68 31 68            L5 68            Q2 68 2 64            Q2 60 5 60 Z" fill="#82BBFF" stroke="#247CC5" stroke-width="2.8"/>
+    <rect x="8.209" y="13.329" width="1.634" height="4.658" rx=".817" fill="#82bbff" stroke="#579ce8" stroke-width=".025"/>
 
-  <!-- Right radial target marker -->
-  <path d="M97 60            L123 60            Q126 60 126 64            Q126 68 123 68            L97 68            Q93 68 93 64            Q93 60 97 60 Z" fill="#82BBFF" stroke="#247CC5" stroke-width="2.8"/>
+    <rect x="14.597" y="6.699" width="1.634" height="4.658" rx=".817" transform="translate(24.442 -6.386) rotate(90)" fill="#82bbff" stroke="#579ce8" stroke-width=".025"/>
 
-  <!-- Hand-drawn highlights on radial markers -->
-  <path d="M63 8 L63 25            M63 104 L63 120            M8 63 L26 63            M103 63 L120 63" stroke="#C6E5FF" stroke-width="1.8" opacity=".85"/>
+    <rect x="1.769" y="6.699" width="1.634" height="4.658" rx=".817" transform="translate(11.614 6.442) rotate(90)" fill="#82bbff" stroke="#579ce8" stroke-width=".025"/>
 
-  <!-- Outer circular Azure target ring -->
-  <path d="M64 26            C85 25 102 42 102 63            C103 85 86 102 64 102            C42 103 26 85 26 64            C25 43 42 27 64 26 Z             M64 36            C48 36 36 48 36 64            C36 80 48 92 64 92            C80 92 92 80 92 64            C92 48 80 36 64 36 Z" fill="url(#targetBlue)" fill-rule="evenodd" stroke="#155D9C" stroke-width="3.2"/>
+    <!-- Original single circular target boundary -->
+    <path d="M9.026 14.515a5.487 5.487 0 1 1 5.487-5.487 5.493 5.493 0 0 1-5.487 5.487Zm0-9.553a4.066 4.066 0 1 0 4.066 4.066 4.071 4.071 0 0 0-4.066-4.066Z" fill="url(#ringGradient)" stroke="#0877ca" stroke-width=".035" stroke-linejoin="round"/>
 
-  <!-- Irregular sketched outer-ring highlight -->
-  <path d="M35 49            Q42 34 58 32            M75 33            Q92 39 96 56            M94 77            Q88 94 72 97" stroke="#B8DCFF" stroke-width="2.2" opacity=".85"/>
+    <!-- Plain central disk: exactly one filled circle -->
+    <circle cx="9.026" cy="9.028" r="1.991" fill="url(#centerGradient)" stroke="#d99a3e" stroke-width=".035"/>
 
-  <!-- Inner target guide circle -->
-  <path d="M64 43            C76 43 85 52 85 64            C85 76 76 85 64 85            C52 85 43 76 43 64            C43 52 52 43 64 43 Z" stroke="#82BBFF" stroke-width="2.2" stroke-dasharray="3 5" opacity=".8"/>
-
-  <!-- Golden target center -->
-  <path d="M64 50            C72 50 78 56 78 64            C78 72 72 78 64 78            C56 78 50 72 50 64            C50 56 56 50 64 50 Z" fill="url(#targetGold)" stroke="#C78932" stroke-width="3"/>
-
-  <!-- Warm center marker highlight -->
-  <path d="M56 61            Q58 55 65 55            M69 72            Q73 70 73 66" stroke="#FFF0C9" stroke-width="2.3" opacity=".9"/>
-
-  <!-- Tiny central bullseye -->
-  <path d="M64 60            Q68 60 68 64            Q68 68 64 68            Q60 68 60 64            Q60 60 64 60 Z" fill="#F4CF97" stroke="#D99A42" stroke-width="1.5"/>
-
-  <!-- Subtle sketchnote emphasis marks -->
-  <path d="M35 32 L30 27            M29 38 L23 35            M93 32 L98 27            M99 38 L105 35" stroke="#F4CF97" stroke-width="2.5"/>
-
-  <!-- Bottom decorative marker strokes -->
-  <path d="M33 96 L28 101            M39 101 L36 107            M95 96 L100 101            M89 101 L92 107" stroke="#82BBFF" stroke-width="2.2"/>
-
+  </g>
 </svg>

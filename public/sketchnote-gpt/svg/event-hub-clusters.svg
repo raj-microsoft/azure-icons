@@ -1,79 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Event Hub Clusters (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Event Hub Clusters (sketch)</title>
   
-  <desc>Three overlapping, staggered Event Hub clusters with hand-drawn grey connector frames, green event tiles, and subtle Azure-blue and yellow accents.</desc>
+  <g transform="scale(7.111111)">
+    <g fill="#949494" stroke="#777777" stroke-width="0.055" stroke-linejoin="round" stroke-linecap="round">
+      <!-- Upper-left open bracket -->
+      <path d="M9.11 2.36h0a.29.29 0 0 0-.29-.29h-8a.29.29 0 0 0-.29.29h0V3.89A.14.14 0 0 0 .64 4H1.3a.14.14 0 0 0 .14-.14V3h6.72v.91A.15.15 0 0 0 8.31 4H9a.15.15 0 0 0 .15-.14V2.36Z"/>
+      <path d="M1.44 7.88a.15.15 0 0 0-.14-.15H.64a.15.15 0 0 0-.14.15V9.4h0c0 .15.1.28.21.28H4.19V8.78H1.44Z"/>
 
-  <!-- Rear cluster -->
-  <path d="M9 32 Q9 29 12 29 L65 29 Q68 29 68 32 L68 44" stroke="#727B82" stroke-width="4.2"/>
-  <path d="M12 36 L12 72 Q12 75 15 75 L35 75" stroke="#949494" stroke-width="4.2"/>
-  <path d="M17 34 Q36 32 61 34" stroke="#BBC0C2" stroke-width="1.5"/>
+      <!-- Middle-left open bracket -->
+      <path d="M13.31 5.8h0a.28.28 0 0 0-.29-.28H5a.28.28 0 0 0-.29.28h0V7.33a.15.15 0 0 0 .15.14H5.5a.14.14 0 0 0 .14-.14v-.9h6.72v.9a.15.15 0 0 0 .15.14h.65a.15.15 0 0 0 .15-.14V5.8Z"/>
+      <path d="M5.64 11.32a.14.14 0 0 0-.14-.14H4.85a.15.15 0 0 0-.15.14v1.53h0a.25.25 0 0 0 .21.28H8.39v-.91H5.64Z"/>
+    </g>
 
-  <!-- Rear event tiles -->
-  <path d="M24 41 L34 40 L35 50 L24 51 Z" fill="#86D633" stroke="#47791F" stroke-width="2.1"/>
-  <path d="M24 56 L35 55 L34 65 L25 66 Z" fill="#76BC2D" stroke="#47791F" stroke-width="2.1"/>
-  <path d="M41 41 L51 42 L50 51 L40 50 Z" fill="#76BC2D" stroke="#47791F" stroke-width="2.1"/>
-  <path d="M40 56 L51 55 L52 65 L41 66 Z" fill="#5E9624" stroke="#47791F" stroke-width="2.1"/>
+    <!-- Original connector bars -->
+    <g fill="#b3b3b3" stroke="#858585" stroke-width="0.035" stroke-linejoin="round">
+      <path d="M9.18 8.24h.65v1.81a.14.14 0 0 1-.14.14H9a.14.14 0 0 1-.14-.14V8.53a.29.29 0 0 1 .32-.29Z"/>
+      <path d="M16.56 8.24h.65a.29.29 0 0 1 .29.29v1.53a.14.14 0 0 1-.14.14H16.7a.14.14 0 0 1-.14-.14V8.24Z"/>
+      <path d="M13 4.4h.63V13H13a.29.29 0 0 1-.29-.29v-8A.29.29 0 0 1 13 4.4Z" transform="translate(21.9 -4.5) rotate(90)"/>
+      <path d="M9 14h.65a.14.14 0 0 1 .14.14v1.81h-.61a.29.29 0 0 1-.29-.29v-1.55A.14.14 0 0 1 9 14Z"/>
+      <path d="M16.7 14h.65a.14.14 0 0 1 .14.14v1.53a.29.29 0 0 1-.29.29h-.65v-1.85a.14.14 0 0 1 .15-.11Z"/>
+      <path d="M13 11.17h.63v8.61H13a.29.29 0 0 1-.29-.29v-8a.29.29 0 0 1 .29-.32Z" transform="translate(-2.27 28.67) rotate(-90)"/>
+    </g>
 
-  <!-- Middle cluster frame -->
-  <path d="M36 56 Q36 53 39 53 L91 53 Q95 53 95 57 L95 69" stroke="#737B80" stroke-width="4.5"/>
-  <path d="M39 62 L39 94 Q39 97 43 97 L65 97" stroke="#949494" stroke-width="4.5"/>
-  <path d="M44 58 Q66 56 89 58" stroke="#C5C8CA" stroke-width="1.4"/>
+    <!-- Original green cluster nodes -->
+    <g stroke-linejoin="round" stroke-width="0.045" stroke="#477e20">
+      <path fill="#76bc2d" d="M14.09 11.74a.13.13 0 0 1-.11.13H13a.12.12 0 0 1-.13-.12V11a.14.14 0 0 1 .11-.13h1a.12.12 0 0 1 .13.12Z"/>
+      <path fill="#5e9624" d="M15.88 12.5a.13.13 0 0 1-.11.13h-1a.12.12 0 0 1-.13-.12v-.74a.11.11 0 0 1 .11-.12h1a.11.11 0 0 1 .13.11Z"/>
+      <path fill="#5e9624" d="M14.09 13.26a.12.12 0 0 1-.11.13H13a.12.12 0 0 1-.13-.11v-.75a.12.12 0 0 1 .13-.13h1a.11.11 0 0 1 .13.11Z"/>
+      <path fill="#86d633" d="M12.3 11a.11.11 0 0 1-.11.12h-1a.11.11 0 0 1-.12-.12v-.77a.11.11 0 0 1 .11-.12h1c.1 0 .15.05.15.12Z"/>
+      <path fill="#76bc2d" d="M12.3 12.5a.12.12 0 0 1-.11.13h-1a.12.12 0 0 1-.12-.12v-.76a.12.12 0 0 1 .11-.13h1c.1 0 .15.05.15.13Z"/>
+      <path fill="#5e9624" d="M12.3 14a.11.11 0 0 1-.11.13h-1a.12.12 0 0 1-.12-.13v-.78a.12.12 0 0 1 .11-.13h1a.13.13 0 0 1 .15.13Z"/>
+    </g>
 
-  <!-- Middle event tiles -->
-  <path d="M49 67 L59 66 L60 76 L49 77 Z" fill="#86D633" stroke="#47791F" stroke-width="2.1"/>
-  <path d="M49 82 L60 81 L59 91 L49 92 Z" fill="#76BC2D" stroke="#47791F" stroke-width="2.1"/>
-  <path d="M66 67 L76 68 L75 77 L65 76 Z" fill="#76BC2D" stroke="#47791F" stroke-width="2.1"/>
-  <path d="M65 82 L76 81 L77 91 L66 92 Z" fill="#5E9624" stroke="#47791F" stroke-width="2.1"/>
-
-  <!-- Front cluster grey frame -->
-  <path d="M69 75 Q69 72 72 72 L116 72 Q119 72 119 76 L119 112" stroke="#8B9398" stroke-width="5"/>
-  <path d="M72 80 L72 113 Q72 117 76 117 L115 117 Q119 117 119 113" stroke="#949494" stroke-width="5"/>
-  <path d="M78 77 Q95 75 113 77" stroke="#C7CACC" stroke-width="1.5"/>
-  <path d="M77 112 Q96 114 114 112" stroke="#B8BEC0" stroke-width="1.5"/>
-
-  <!-- Front cluster grid -->
-  <path d="M80 83 L91 82 L92 93 L81 94 Z" fill="#86D633" stroke="#47791F" stroke-width="2.2"/>
-  <path d="M97 83 L108 84 L107 94 L96 93 Z" fill="#76BC2D" stroke="#47791F" stroke-width="2.2"/>
-  <path d="M80 99 L91 98 L92 109 L81 110 Z" fill="#76BC2D" stroke="#47791F" stroke-width="2.2"/>
-  <path d="M97 99 L108 98 L109 109 L97 110 Z" fill="#5E9624" stroke="#47791F" stroke-width="2.2"/>
-
-  <!-- Subtle marker strokes inside event tiles -->
-  <g stroke="#D7F4AB" stroke-width="1.5" opacity=".8">
-    <path d="M27 44 L31 43"/>
-    <path d="M27 59 L31 58"/>
-    <path d="M52 70 L56 69"/>
-    <path d="M52 85 L56 84"/>
-    <path d="M83 86 L88 85"/>
-    <path d="M99 86 L104 87"/>
-    <path d="M83 102 L88 101"/>
-  </g>
-
-  <!-- Hand-drawn Azure-blue cluster connections -->
-  <path d="M64 38 Q75 40 79 49" stroke="#0078D4" stroke-width="2.7" stroke-dasharray="4 5"/>
-  <path d="M75 46 L79 50 L81 43" stroke="#0078D4" stroke-width="2.5"/>
-  <path d="M93 61 Q105 62 109 69" stroke="#0078D4" stroke-width="2.7" stroke-dasharray="4 5"/>
-  <path d="M105 67 L110 70 L111 63" stroke="#0078D4" stroke-width="2.5"/>
-
-  <!-- Yellow sketchnote accents -->
-  <g stroke="#F2B827" stroke-width="2.6">
-    <path d="M15 17 L18 23"/>
-    <path d="M24 14 L23 21"/>
-    <path d="M30 23 L36 20"/>
-    <path d="M106 48 L109 54"/>
-    <path d="M115 47 L115 54"/>
-    <path d="M120 56 L125 53"/>
-  </g>
-
-  <!-- Azure marker annotations -->
-  <g stroke="#0078D4" stroke-width="2" opacity=".85">
-    <path d="M7 84 Q11 87 16 85"/>
-    <path d="M18 89 L22 91"/>
-    <path d="M53 108 Q58 111 63 108"/>
-  </g>
-
-  <!-- Small hand-drawn event sparks -->
-  <g fill="#F2B827">
-    <path d="M58 17 L60 22 L65 24 L60 26 L58 31 L56 26 L51 24 L56 22 Z"/>
-    <circle cx="123" cy="36" r="2.3"/>
-    <circle cx="29" cy="111" r="2"/>
+    <!-- Original left-side green nodes -->
+    <g fill="#76bc2d" stroke="#477e20" stroke-width="0.045" stroke-linejoin="round">
+      <path d="M7.82 8.32a.11.11 0 0 1-.11.12h-1a.11.11 0 0 1-.13-.11v-.77a.11.11 0 0 1 .11-.13h1c.1 0 .15.05.15.13Z"/>
+      <path d="M7.82 9.08c0-.08-.05-.12-.15-.12h-1a.12.12 0 0 0-.11.13v.78a.12.12 0 0 0 .13.11h1a.12.12 0 0 0 .11-.13Z"/>
+      <path d="M7.82 10.6c0-.07-.05-.12-.15-.12h-1a.11.11 0 0 0-.11.12v.78a.11.11 0 0 0 .13.11h1a.11.11 0 0 0 .11-.13Z"/>
+      <path d="M3.62 4.11A.13.13 0 0 0 3.47 4h-1a.12.12 0 0 0-.11.13v.78A.12.12 0 0 0 2.47 5h1a.11.11 0 0 0 .11-.13Z"/>
+      <path d="M3.62 5.63c0-.07-.05-.12-.15-.12h-1a.11.11 0 0 0-.11.12v.77a.11.11 0 0 0 .12.11h1a.11.11 0 0 0 .11-.12Z"/>
+      <path d="M3.62 7.16c0-.08-.05-.13-.15-.13h-1a.12.12 0 0 0-.11.13v.76a.12.12 0 0 0 .12.12h1a.12.12 0 0 0 .11-.13Z"/>
+    </g>
   </g>
 </svg>

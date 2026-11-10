@@ -1,37 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Managed Identities (sketch)</title>
-  <g stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <linearGradient id="diamondRight" x1="13.18" y1="13.01" x2="8.63" y2="4.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1988d9"/>
+      <stop offset=".9" stop-color="#54aef0"/>
+    </linearGradient>
+    <linearGradient id="diamondBase" x1="11.22" y1="10.5" x2="14.37" y2="15.93" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#54aef0"/>
+      <stop offset=".29" stop-color="#4fabee"/>
+      <stop offset=".51" stop-color="#41a2e9"/>
+      <stop offset=".74" stop-color="#2a93e0"/>
+      <stop offset=".88" stop-color="#1988d9"/>
+    </linearGradient>
+  </defs>
 
-    <!-- Azure identity diamond -->
-    <path d="M15 54 L63 10 L111 54 L63 84 Z" fill="#54AEF0" stroke="#0078D4" stroke-width="4.5"/>
-    <path d="M15 54 L63 84 L63 112 L15 81 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3.5"/>
-    <path d="M63 84 L111 54 L111 81 L63 112 Z" fill="#1988D9" stroke="#0078D4" stroke-width="3.5"/>
+  <g transform="scale(7.111111)">
 
-    <!-- Faceted identity geometry -->
-    <path d="M63 10 L63 84 L15 54 Z" fill="#9CEBFF" stroke="none"/>
-    <path d="M63 10 L111 54 L63 84 Z" fill="#54AEF0" stroke="none"/>
-    <path d="M63 61 L111 54 L63 84 Z" fill="#53B1E0" stroke="none"/>
-    <path d="M63 61 L15 54 L63 84 Z" fill="#B4ECF9" stroke="none"/>
+    <!-- Original faceted diamond -->
+    <polygon points="1.15 10.22 8.93 15.27 16.85 10.21 17.85 11.36 8.93 17.11 .15 11.37" fill="#50e6ff"/>
+    <polygon points="1.73 9.58 8.93 1 16.28 9.59 8.93 14.23" fill="#fff"/>
+    <polygon points="8.93 1 8.93 14.23 1.73 9.58" fill="#50e6ff"/>
+    <polygon points="8.93 1 8.93 14.23 16.28 9.59" fill="url(#diamondRight)"/>
+    <polygon points="8.93 7.83 16.28 9.59 8.93 14.23" fill="#53b1e0"/>
+    <polygon points="8.93 14.23 1.73 9.58 8.93 7.83" fill="#9cebff"/>
+    <polygon points="8.93 17.11 17.85 11.36 16.85 10.21 8.93 15.27" fill="url(#diamondBase)"/>
 
-    <!-- Lower layered identity base -->
-    <path d="M8 83 L63 117 L120 83" fill="none" stroke="#50E6FF" stroke-width="7"/>
-    <path d="M8 91 L63 124 L120 91" fill="none" stroke="#1988D9" stroke-width="4"/>
+    <!-- Original compound key path with transparent circular hole -->
+    <path fill="#ffca00" fill-rule="evenodd" d="       M16.32,11.88       a1.16,1.16 0 0 0 0-1.65       l-2-2       a1.16,1.16 0 0 0-1.64,0       l-2,2       a1.18,1.18 0 0 0 0,1.65       l1.67,1.67       a.32,.32 0 0 1 .09,.23       v3.1       a.36,.36 0 0 0 .12,.28       l.76,.76       a.25,.25 0 0 0 .37,0       l.73,-.73       h0       l.44,-.44       a.15,.15 0 0 0 0-.21       l-.31,-.31       a.16,.16 0 0 1 0-.24       l.31,-.31       a.16,.16 0 0 0 0-.22       l-.31,-.31       a.15,.15 0 0 1 0-.23       l.31,-.32       a.15,.15 0 0 0 0-.21       l-.44,-.44       v-.16       Z        M13.5,8.71       a.66,.66 0 1 1 -.66,.66       a.66,.66 0 0 1 .66,-.66       Z"/>
 
-    <!-- Managed identity key / security symbol -->
-    <path d="M83 49              C88 43 98 43 103 49              C108 54 106 63 101 67              C97 71 91 71 87 68              L76 80 L69 73 L80 62              C77 57 78 53 83 49 Z" fill="#FFCA00" stroke="#C58B00" stroke-width="3.5"/>
+    <!-- Original orange details -->
+    <path d="M13,17h0a.14,.14 0 0 0 .24-.11v-2.56a.16,.16 0 0 0-.06-.13h0a.14,.14 0 0 0-.22,.13v2.51a.15,.15 0 0 0 .04,.16Z" fill="#ff9300" opacity=".75"/>
 
-    <!-- Key head -->
-    <circle cx="94" cy="56" r="5" fill="#FFF3B0" stroke="#FF9300" stroke-width="2.5"/>
-    <circle cx="94" cy="56" r="1.8" fill="#FF9300"/>
-
-    <!-- Key shaft details -->
-    <path d="M79 72 L85 78 M73 78 L78 83" fill="none" stroke="#FF9300" stroke-width="3"/>
-
-    <!-- Yellow identity highlights -->
-    <path d="M110 38 L117 32 M115 47 L122 45" fill="none" stroke="#FFCA00" stroke-width="3.5"/>
-
-    <!-- Hand-drawn marker accents -->
-    <path d="M12 69 L19 73 M105 98 L113 93" fill="none" stroke="#50E6FF" stroke-width="2.5"/>
-    <path d="M31 17 L37 12 M42 12 L47 10" fill="none" stroke="#0078D4" stroke-width="2.5"/>
+    <rect x="11.9" y="10.9" width="3.29" height=".39" rx=".18" fill="#ff9300" opacity=".75"/>
+    <rect x="11.9" y="11.53" width="3.29" height=".39" rx=".18" fill="#ff9300" opacity=".75"/>
 
   </g>
 </svg>

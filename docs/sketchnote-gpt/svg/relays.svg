@@ -1,82 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc"><title>Relays (sketch)</title>
-
-  
-  <desc id="desc">Hand-drawn relay network with three connected nodes, green upper node, purple lower nodes and grey connection terminals.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Relays (sketch)</title>
   <defs>
-    <linearGradient id="relayPurple" x1="0" y1="1" x2="0" y2="0">
+    <linearGradient id="relay-left" x1="6.11" y1="12.5" x2="6.11" y2="9.42" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6f4bb2"/>
       <stop offset="1" stop-color="#c69aeb"/>
     </linearGradient>
-    <linearGradient id="relayGreen" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#64bd27"/>
-      <stop offset="1" stop-color="#9be94d"/>
+    <linearGradient id="relay-right" x1="12.06" y1="12.5" x2="12.06" y2="9.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f4bb2"/>
+      <stop offset="1" stop-color="#c69aeb"/>
     </linearGradient>
   </defs>
 
-  <!-- Outer relay terminals -->
-  <g fill="#999999" stroke="#777777" stroke-width="1.2" stroke-linejoin="round">
-    <path d="M13 10 L24 10 L24 35 Q24 39 20 39 L12 39 Q8 39 8 35 L8 15 Q8 10 13 10Z"/>
-    <path d="M104 10 L115 10 Q120 10 120 15 L120 35 Q120 39 116 39 L108 39 Q104 39 104 35Z"/>
+  <g transform="scale(7.111111)">
 
-    <path d="M8 89 L24 89 L24 116 L12 116 Q8 116 8 112Z"/>
-    <path d="M104 89 L120 89 L120 112 Q120 116 116 116 L104 116Z"/>
+    <!-- Original open upper and lower bracket assemblies -->
+    <g fill="#999" stroke="#858585" stroke-width=".035" stroke-linejoin="round">
+      <path d="M1.15,1.27H2.44V4.87H.87V1.84a.57.57,0,0,1,.28-.57Z"/>
+      <path d="M15.72,1.27H17a.57.57,0,0,1,.57.57v3H15.72Z"/>
+      <path d="M.87,12.52H2.45v3.89H1.15a.57.57,0,0,1-.57-.57v-3.03a.29.29,0,0,1,.29-.29Z"/>
+      <path d="M15.72,12.52H17.3a.29.29,0,0,1,.29.29v3a.57.57,0,0,1-.57.57h-1.3Z"/>
+    </g>
+
+    <!-- Original horizontal bracket bars; deliberately open at both ends -->
+    <path d="M8.74-6.32H10V10.68H8.74a.57.57,0,0,1-.57-.57V-5.75a.57.57,0,0,1,.57-.57Z" transform="translate(11.26 -6.9) rotate(90)" fill="#949494" stroke="#858585" stroke-width=".035" stroke-linejoin="round"/>
+
+    <path d="M8.74,7H10V24H8.74a.57.57,0,0,1-.57-.57V7.57A.57.57,0,0,1,8.74,7Z" transform="translate(-6.42 24.59) rotate(-90)" fill="#949494" stroke="#858585" stroke-width=".035" stroke-linejoin="round"/>
+
+    <!-- Original three-way relay connections -->
+    <path d="M12.38 10.79 L9.4 6.01 L9.13 6.18 L8.87 6.01 L5.88 10.79 L6.49 11.16 L9.13 6.93 L11.78 11.17 Z" fill="#949494" stroke="#858585" stroke-width=".045" stroke-linejoin="round"/>
+
+    <!-- Central relay -->
+    <circle cx="9.08" cy="6.21" r="1.54" fill="#86d633" stroke="#6fae2c" stroke-width=".045"/>
+
+    <!-- Left relay -->
+    <circle cx="6.11" cy="10.96" r="1.54" fill="url(#relay-left)" stroke="#8060b4" stroke-width=".045"/>
+
+    <!-- Right relay -->
+    <circle cx="12.06" cy="10.96" r="1.54" fill="url(#relay-right)" stroke="#8060b4" stroke-width=".045"/>
+
   </g>
-
-  <!-- Terminal highlights -->
-  <g fill="none" stroke="#d5d5d5" stroke-width="2" stroke-linecap="round" opacity=".8">
-    <path d="M13 15 L18 15"/>
-    <path d="M110 15 L115 15"/>
-    <path d="M13 110 L18 110"/>
-    <path d="M110 110 L115 110"/>
-  </g>
-
-  <!-- Main horizontal relay bus -->
-  <path d="M19 31            Q64 29 109 31            L109 97            Q64 99 19 97            Z" fill="none" stroke="#949494" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <path d="M19 31 Q64 29 109 31" fill="none" stroke="#c1c1c1" stroke-width="2.2" stroke-linecap="round"/>
-
-  <path d="M19 97 Q64 99 109 97" fill="none" stroke="#c1c1c1" stroke-width="2.2" stroke-linecap="round"/>
-
-  <!-- Central triangular connections -->
-  <g fill="none" stroke="#888888" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M64 43 Q52 63 43 83"/>
-    <path d="M64 43 Q76 63 85 83"/>
-  </g>
-
-  <!-- Connection highlight strokes -->
-  <g fill="none" stroke="#c4c4c4" stroke-width="1.7" stroke-linecap="round">
-    <path d="M61 49 Q53 66 46 79"/>
-    <path d="M67 49 Q76 66 82 79"/>
-  </g>
-
-  <!-- Upper relay node -->
-  <circle cx="64" cy="43" r="13.2" fill="url(#relayGreen)" stroke="#4f9d22" stroke-width="2.2"/>
-
-  <path d="M56 38 Q61 32 68 35" fill="none" stroke="#c8f49b" stroke-width="2.3" stroke-linecap="round"/>
-
-  <!-- Lower left relay node -->
-  <circle cx="43" cy="84" r="13.2" fill="url(#relayPurple)" stroke="#6f4bb2" stroke-width="2.2"/>
-
-  <path d="M35 79 Q40 73 47 76" fill="none" stroke="#e2c8fa" stroke-width="2.3" stroke-linecap="round"/>
-
-  <!-- Lower right relay node -->
-  <circle cx="85" cy="84" r="13.2" fill="url(#relayPurple)" stroke="#6f4bb2" stroke-width="2.2"/>
-
-  <path d="M77 79 Q82 73 89 76" fill="none" stroke="#e2c8fa" stroke-width="2.3" stroke-linecap="round"/>
-
-  <!-- Small yellow sketchnote emphasis -->
-  <g fill="none" stroke="#f2c94c" stroke-width="2.5" stroke-linecap="round">
-    <path d="M89 23 Q94 19 99 21"/>
-    <path d="M30 104 Q25 108 21 106"/>
-    <path d="M102 109 L106 105"/>
-  </g>
-
-  <!-- Hand-drawn outline accents -->
-  <g fill="none" stroke="#555555" stroke-width="1.2" stroke-linecap="round" opacity=".45">
-    <path d="M51 42 Q64 39 77 43"/>
-    <path d="M31 83 Q29 91 37 95"/>
-    <path d="M76 89 Q84 97 93 89"/>
-  </g>
-
 </svg>

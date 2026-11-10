@@ -1,72 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Tenant Properties (sketch)</title>
-  
-  <desc>Azure-blue tenant properties book with a darker spine, pale page edges and a large cyan settings gear, illustrated with irregular marker outlines and subtle yellow accents.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Tenant Properties (sketch)</title>
   <defs>
-    <linearGradient id="tenantBlue" x1="35" y1="28" x2="35" y2="112" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#54AEF0"/>
-      <stop offset=".9" stop-color="#1988D9"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="gearGradient" x1="11.972" y1="14.787" x2="11.972" y2="2.782" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32bedd"/>
+      <stop offset=".576" stop-color="#32ceef"/>
+      <stop offset="1" stop-color="#32d4f5"/>
     </linearGradient>
-
-    <linearGradient id="tenantSpine" x1="10" y1="29" x2="10" y2="112" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="1" stop-color="#005BA1"/>
+    <linearGradient id="bookGradient" x1="4.699" y1="15.352" x2="4.699" y2="3.839" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1988d9"/>
+      <stop offset=".9" stop-color="#54aef0"/>
     </linearGradient>
-
-    <linearGradient id="tenantGear" x1="86" y1="20" x2="86" y2="106" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32D4F5"/>
-      <stop offset=".58" stop-color="#32CEEF"/>
-      <stop offset="1" stop-color="#32BEDD"/>
+    <linearGradient id="spineGradient" x1="1.31" y1="15.346" x2="1.31" y2="3.839" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005ba1"/>
+      <stop offset="1" stop-color="#0078d4"/>
     </linearGradient>
   </defs>
 
-  <!-- Book's dark rear cover -->
-  <path d="M8 29            L15 21            Q17 19 20 19            L68 19            Q75 19 75 25            L75 102            L65 112            L8 112 Z" fill="#005BA1" stroke="#124F86" stroke-width="3.2"/>
+  <g transform="scale(7.111111)">
 
-  <!-- Pale stacked page edges -->
-  <path d="M15 30            L20 24            L69 24            L69 100            L64 106            L15 106 Z" fill="#FFFFFF" stroke="#9AC9E5" stroke-width="2.4"/>
+    <!-- Gear first, so it sits behind the book -->
+    <path d="M17.975 9.225V8.269a.3.3 0 0 0-.192-.277h0l-1.335-.438a.3.3 0 0 1-.182-.169L15.983 6.7a.3.3 0 0 1 .006-.238l.6-1.279a.3.3 0 0 0-.059-.335l-.662-.663a.3.3 0 0 0-.342-.055h0l-1.248.635a.294.294 0 0 1-.246.01l-.69-.283a.3.3 0 0 1-.166-.173l-.485-1.338a.3.3 0 0 0-.278-.195h-.956a.3.3 0 0 0-.277.192h0l-.438 1.335a.3.3 0 0 1-.169.181l-.688.283a.3.3 0 0 1-.24-.007l-1.254-.6a.3.3 0 0 0-.336.058l-.662.662a.3.3 0 0 0-.056.342h0l.635 1.247a.3.3 0 0 1 .01.247L7.7 7.414a.3.3 0 0 1-.174.166l-1.36.486a.3.3 0 0 0-.2.279V9.3a.3.3 0 0 0 .193.277h0l1.334.437a.3.3 0 0 1 .182.169l.283.69a.3.3 0 0 1-.006.238l-.6 1.279a.3.3 0 0 0 .059.335l.663.663a.3.3 0 0 0 .341.055h0l1.247-.635a.3.3 0 0 1 .247-.01l.689.283a.289.289 0 0 1 .166.173l.485 1.338a.3.3 0 0 0 .279.2h.955a.3.3 0 0 0 .278-.192h0L13.2 13.26a.294.294 0 0 1 .169-.181l.69-.283a.29.29 0 0 1 .238.006l1.279.6a.3.3 0 0 0 .335-.058l.663-.663a.3.3 0 0 0 .055-.342h0L16 11.09a.294.294 0 0 1-.01-.246l.282-.69a.3.3 0 0 1 .173-.166L17.78 9.5a.3.3 0 0 0 .195-.275ZM12.24 11.406a2.635 2.635 0 1 1 2.354-2.353 2.635 2.635 0 0 1-2.354 2.353Z" fill="url(#gearGradient)" stroke="#20a9c9" stroke-width=".025" stroke-linejoin="round"/>
 
-  <!-- Hand-drawn page edge detail -->
-  <path d="M19 27 L65 27            M68 31 L68 97            M65 101 L59 106" stroke="#C6E1F2" stroke-width="1.8"/>
+    <!-- Book paths drawn on top -->
+    <path d="M.049 3.85.954 2.8a.441.441 0 0 1 .332-.151H9.964a.608.608 0 0 1 .664.621V14.041a.24.24 0 0 1-.083.182L9.282 15.316H.636l-.6-.252Z" fill="#005ba1" stroke="#004b86" stroke-width=".035" stroke-linejoin="round"/>
 
-  <!-- Main Azure-blue book cover -->
-  <path d="M8 29            L64 29            Q67 29 67 32            L67 109            Q67 112 64 112            L10 112            Q8 112 8 109 Z" fill="url(#tenantBlue)" stroke="#155D9C" stroke-width="3.5"/>
+    <path d="M.777 3.846l.555-.633a.392.392 0 0 1 .294-.133h8.1a.39.39 0 0 1 .39.39v10.3a.391.391 0 0 1-.127.289l-.866.788Z" fill="#fff" stroke="#d7eaf8" stroke-width=".025" stroke-linejoin="round"/>
 
-  <!-- Dark blue spine -->
-  <path d="M8 29            L25 29            L25 112            L10 112            Q8 112 8 109 Z" fill="url(#tenantSpine)" stroke="#15558F" stroke-width="2.5"/>
+    <path d="M9.139 3.839H.1A.058.058 0 0 0 .036 3.9V15.13a.222.222 0 0 0 .222.222H9.139a.223.223 0 0 0 .223-.222V4.061a.222.222 0 0 0-.223-.222Z" fill="url(#bookGradient)" stroke="#268edb" stroke-width=".035"/>
 
-  <!-- Marker highlight along book cover -->
-  <path d="M30 35            L59 35            M31 42 L31 99" stroke="#A8DCFF" stroke-width="2.1" opacity=".75"/>
-
-  <!-- Book spine detail -->
-  <path d="M14 36 L14 103            M20 35 L20 106" stroke="#66B4F0" stroke-width="2" opacity=".65"/>
-
-  <!-- Tenant properties settings gear -->
-  <path d="M81 20            L91 20            L95 30            Q99 31 103 33            L113 29            L121 37            L116 47            Q118 51 119 55            L128 59            L128 69            L119 73            Q118 77 116 81            L121 91            L113 99            L103 94            Q99 97 95 98            L91 108            L81 108            L77 98            Q73 97 69 94            L59 99            L51 91            L56 81            Q54 77 53 73            L44 69            L44 59            L53 55            Q54 51 56 47            L51 37            L59 29            L69 33            Q73 31 77 30 Z" fill="url(#tenantGear)" stroke="#1584AD" stroke-width="3" stroke-linejoin="round"/>
-
-  <!-- Inner gear opening -->
-  <path d="M86 45            C97 45 105 53 105 64            C105 75 97 83 86 83            C75 83 67 75 67 64            C67 53 75 45 86 45 Z" fill="#FFFFFF" stroke="#1488B4" stroke-width="3.2"/>
-
-  <!-- Uneven sketched ring highlight -->
-  <path d="M72 57            Q76 49 85 49            M98 67            Q96 75 89 78" stroke="#B3EFFF" stroke-width="2.3" opacity=".9"/>
-
-  <!-- Small settings hub center -->
-  <path d="M86 56            C91 56 94 59 94 64            C94 69 91 72 86 72            C81 72 78 69 78 64            C78 59 81 56 86 56 Z" fill="#D7F7FF" stroke="#32BEDD" stroke-width="2.1"/>
-
-  <!-- Gear marker highlights -->
-  <path d="M82 25 L89 25            M109 37 L114 39            M116 62 L122 62            M109 92 L113 89" stroke="#B4F4FF" stroke-width="2.2" opacity=".85"/>
-
-  <!-- Subtle document detail on visible cover -->
-  <path d="M34 87 L49 87            M34 94 L48 94            M34 101 L43 101" stroke="#B8E3FF" stroke-width="2.4" opacity=".85"/>
-
-  <!-- Restrained yellow sketchnote accents -->
-  <path d="M109 17 L113 12            M117 23 L123 21            M39 17 L39 12            M34 19 L30 15" stroke="#F4C542" stroke-width="2.5"/>
-
-  <!-- Hand-drawn exterior marker strokes -->
-  <path d="M3 58 L5 54            M3 67 L5 65            M71 115 L76 118" stroke="#1988D9" stroke-width="2.1"/>
-
-  <!-- Tiny yellow corner flourish -->
-  <path d="M119 108 L123 112            M115 113 L118 118" stroke="#F4C542" stroke-width="2.3"/>
-
+    <path d="M.071 3.839H2.594V15.346H.213a.188.188 0 0 1-.188-.188V3.885a.046.046 0 0 1 .046-.046Z" fill="url(#spineGradient)" stroke="#005ba1" stroke-width=".025"/>
+  </g>
 </svg>

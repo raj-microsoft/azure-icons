@@ -1,33 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Maintenance Configuration (sketch)</title>
-  <g stroke-linecap="round" stroke-linejoin="round">
-    <!-- Blue maintenance clock -->
-    <circle cx="47" cy="47" r="38" fill="#5EA0EF" stroke="#0078D4" stroke-width="4.5"/>
-    <circle cx="47" cy="47" r="31" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+  <defs>
+    <radialGradient id="blueField" cx="5.614" cy="6.147" r="7.443" gradientTransform="translate(1.878 1.801) scale(.944)" gradientUnits="userSpaceOnUse">
+      <stop offset=".183" stop-color="#5ea0ef"/>
+      <stop offset=".555" stop-color="#5c9fee"/>
+      <stop offset=".689" stop-color="#559ced"/>
+      <stop offset=".785" stop-color="#4a97e9"/>
+      <stop offset=".862" stop-color="#3990e4"/>
+      <stop offset=".928" stop-color="#2387de"/>
+      <stop offset=".985" stop-color="#087bd6"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </radialGradient>
+    <radialGradient id="hub" cx="6.45" cy="6.92" r="1.041" gradientTransform="translate(1.124 1.09) scale(.943)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7f7f7f"/>
+      <stop offset="1" stop-color="#5e5e5e"/>
+    </radialGradient>
+  </defs>
 
-    <!-- Clock markings -->
-    <path d="M47 20 L47 25 M47 69 L47 74              M20 47 L25 47 M69 47 L74 47" fill="none" stroke="#7A7A7A" stroke-width="3"/>
-    <path d="M29 29 L33 33 M61 61 L65 65              M65 29 L61 33" fill="none" stroke="#7A7A7A" stroke-width="2.5"/>
+  <g transform="scale(7.111111)">
+    <!-- Blue circular field and white inner dial -->
+    <circle cx="7.18" cy="7.607" r="7.03" fill="url(#blueField)"/>
+    <circle cx="7.208" cy="7.607" r="6.121" fill="#fff"/>
+
+    <!-- Clock ticks -->
+    <g fill="#7a7a7a">
+      <path d="M7.038 11.73h.338v1.05h-.338z"/>
+      <path d="M3.338 3.98l.24-.24.742.742-.24.24z"/>
+      <path d="M3.39 11.18l.742-.742.24.24-.742.742z"/>
+      <path d="M1.945 7.43h1.05v.338h-1.05z"/>
+    </g>
 
     <!-- Clock hands -->
-    <path d="M47 29 L47 47 L61 57" fill="none" stroke="#7A7A7A" stroke-width="5"/>
-    <circle cx="47" cy="47" r="5" fill="#5E5E5E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path d="M9.745 9.484L7.957 7.706a.43.43 0 0 0-.291-.123.411.411 0 0 0 .054-.2V2.858a.431.431 0 0 0-.43-.43h-.082a.431.431 0 0 0-.431.43v4.53a.431.431 0 0 0 .431.43h.048a.427.427 0 0 0 .035.555l1.78 1.777a.432.432 0 0 0 .608 0l.058-.058a.432.432 0 0 0 0-.608z" fill="#7a7a7a"/>
 
-    <!-- Maintenance wrench -->
-    <path d="M75 80 L94 58              Q88 44 98 34              Q106 26 117 31              L106 43 L109 52 L119 54              Q123 41 117 34              Q130 45 120 59              Q111 69 98 64              L79 87" fill="#949494" stroke="#686868" stroke-width="4"/>
+    <circle cx="7.212" cy="7.596" r=".996" fill="url(#hub)"/>
 
-    <!-- Wrench handle -->
-    <path d="M77 83 L42 119              Q37 125 31 119              Q25 113 31 107              L67 72" fill="#949494" stroke="#686868" stroke-width="5"/>
-    <path d="M35 112 L43 120" fill="none" stroke="#D9D9D9" stroke-width="2.5"/>
+    <!-- Original open-jaw wrench: jaw opening and proportions preserved -->
+    <path d="M8.855 16.582       L14.39 10.258       A2.9 2.9 0 0 0 17.153 9.383       A2.691 2.691 0 0 0 17.711 6.722       L16.246 8.367       L14.679 8.077       L14.159 6.59       L15.625 4.97       A2.866 2.866 0 0 0 12.982 5.855       A2.647 2.647 0 0 0 12.442 8.506       L6.542 15.251       A1.309 1.309 0 0 0 8.512 16.975Z" fill="#949494" stroke="#858585" stroke-width=".045" stroke-linejoin="round"/>
 
-    <!-- Yellow maintenance accent -->
-    <path d="M96 17 L101 10 M108 20 L115 17" fill="none" stroke="#FFD447" stroke-width="3.5"/>
-
-    <!-- Small sketchnote marks -->
-    <path d="M12 86 L19 83 M13 96 L20 95" fill="none" stroke="#0078D4" stroke-width="2.5"/>
-    <path d="M91 104 L96 99" fill="none" stroke="#FFD447" stroke-width="3"/>
-
-    <!-- Hand-drawn finishing strokes -->
-    <path d="M20 17 Q26 12 32 14" fill="none" stroke="#0078D4" stroke-width="2"/>
-    <path d="M26 125 Q42 129 53 124" fill="none" stroke="#686868" stroke-width="2"/>
+    <!-- Subtle hand-drawn edge accents without changing the wrench jaw -->
+    <path d="M8.855 16.582L14.39 10.258       M12.442 8.506L6.542 15.251" fill="none" stroke="#777" stroke-width=".025" opacity=".55"/>
   </g>
 </svg>

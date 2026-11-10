@@ -1,32 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Logic Apps Template (sketch)</title>
-  <g stroke-linecap="round" stroke-linejoin="round">
-    <!-- Template page and outer outline -->
-    <path d="M17 22 Q17 18 22 18 L91 18 Q96 18 96 24              L96 31 L105 31 Q111 31 111 37              L111 105 Q111 111 105 111              L23 111 Q17 111 17 105 Z" fill="#32D4F5" stroke="#087FAE" stroke-width="4"/>
+  <defs>
+    <linearGradient id="frameGradient" x1="8.994" y1="18" x2="8.994" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#119fc5"/>
+      <stop offset=".873" stop-color="#36dff1"/>
+    </linearGradient>
+    <linearGradient id="blueNode" x1="63.781" y1="638.899" x2="63.781" y2="636.46" gradientTransform="translate(-56 645.516) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9cebff"/>
+      <stop offset="1" stop-color="#50e6ff"/>
+    </linearGradient>
+    <linearGradient id="greenNode" x1="7.781" y1="14.804" x2="7.781" y2="11.436" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86d633"/>
+      <stop offset=".999" stop-color="#b4ec36"/>
+    </linearGradient>
+  </defs>
 
-    <!-- Page corner / template tabs -->
-    <path d="M96 19 L96 31 L108 31" fill="none" stroke="#087FAE" stroke-width="3.5"/>
-    <path d="M24 27 L88 27" stroke="#9CEBFF" stroke-width="2.5" fill="none"/>
+  <g transform="scale(7.111111)">
 
-    <!-- Workflow connector -->
-    <path d="M64 49 L64 62              M42 62 L86 62              M42 62 L42 72              M86 62 L86 72" fill="none" stroke="#0078D4" stroke-width="4"/>
+    <!-- Original overlapping document sheets and frame -->
+    <path d="M16.429 14.999h-.881V3.711c0-.703-.57-1.273-1.273-1.273H3.001V1.274a.281.281 0 0 0-.562 0v1.164H1.261C.557 2.438-.013 3.008-.013 3.711v13.016c0 .703.57 1.273 1.273 1.273h13.016c.703 0 1.273-.57 1.273-1.273v-1.165h.881a.281.281 0 0 0 0-.562Z" fill="url(#frameGradient)" stroke="#159fc4" stroke-width=".025" stroke-linejoin="round"/>
 
-    <!-- Top workflow node -->
-    <rect x="51" y="38" width="26" height="24" rx="5" fill="#9CEBFF" stroke="#0078D4" stroke-width="3.5"/>
-    <path d="M57 44 L70 44 M57 50 L67 50" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <path d="M16.808.003c-.006 0-.012 0-.018 0h-1.563a.281.281 0 0 0 0 .562h1.536c.152 0 .28-.121.288-.274a.28.28 0 0 0-.243-.288ZM7.727.563h1.5a.281.281 0 0 0 0-.563h-1.5a.281.281 0 0 0 0 .563ZM11.477.563h1.5a.281.281 0 0 0 0-.563h-1.5a.281.281 0 0 0 0 .563ZM3.977.563h1.5a.281.281 0 0 0 0-.563h-1.5a.281.281 0 0 0 0 .563ZM17.719 1.305a.281.281 0 0 0-.281.281v1.5a.281.281 0 0 0 .563 0v-1.5a.281.281 0 0 0-.281-.281ZM17.719 5.055a.281.281 0 0 0-.281.281v1.5a.281.281 0 0 0 .563 0v-1.5a.281.281 0 0 0-.281-.281ZM17.719 8.805a.281.281 0 0 0-.281.281v1.5a.281.281 0 0 0 .563 0v-1.5a.281.281 0 0 0-.281-.281ZM17.719 12.555a.281.281 0 0 0-.281.281v1.453H18v-1.453a.281.281 0 0 0-.281-.281Z" fill="url(#frameGradient)"/>
 
-    <!-- Left and right workflow nodes -->
-    <rect x="27" y="72" width="30" height="29" rx="5" fill="#A7E637" stroke="#68A91F" stroke-width="3.5"/>
-    <rect x="71" y="72" width="30" height="29" rx="5" fill="#A7E637" stroke="#68A91F" stroke-width="3.5"/>
+    <!-- Front document sheet -->
+    <path d="M14.276 3.001c.392 0 .71.319.71.71v13.016c0 .392-.319.71-.71.71H1.26c-.392 0-.71-.319-.71-.71V3.711c0-.392.319-.71.71-.71h13.016Z" fill="#fff" stroke="#d7f3fa" stroke-width=".025"/>
 
-    <!-- Node details -->
-    <path d="M34 81 L50 81 M34 88 L47 88 M78 81 L94 81 M78 88 L91 88" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <!-- Central workflow connector -->
+    <path d="M10.367 10.483H8.815c-.447 0-.809-.362-.809-.809V7.969h-.449v1.706c0 .447-.363.809-.809.809H5.196c-.353 0-.64.286-.64.64v1.246h.448v-1.248c0-.105.085-.189.189-.189h1.554c.353 0 .689-.147.927-.407a.15.15 0 0 1 .217 0c.238.259.573.407.925.407h1.552c.104 0 .189.084.189.188v1.247h.448v-1.246c0-.353-.287-.638-.64-.638Z" fill="#0078d4" stroke="#0068b9" stroke-width=".025" stroke-linejoin="round"/>
 
-    <!-- Yellow sketchnote accents -->
-    <path d="M11 44 L15 40 M11 52 L15 50" stroke="#FFD447" stroke-width="3.5" fill="none"/>
-    <path d="M108 17 L113 13 M114 22 L119 20" stroke="#FFD447" stroke-width="3.5" fill="none"/>
+    <!-- Upper blue document node -->
+    <rect x="5.982" y="5.649" width="3.597" height="3.597" rx=".322" fill="url(#blueNode)" stroke="#36c5e8" stroke-width=".025"/>
 
-    <!-- Hand-drawn finishing marks -->
-    <path d="M25 116 Q49 119 72 116" stroke="#087FAE" stroke-width="2" fill="none"/>
-    <path d="M104 42 L104 48" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <!-- Lower-left green document node -->
+    <rect x="2.983" y="11.669" width="3.597" height="3.597" rx=".322" fill="url(#greenNode)" stroke="#77c52c" stroke-width=".025"/>
+
+    <!-- Lower-right green document node -->
+    <rect x="8.982" y="11.669" width="3.597" height="3.597" rx=".322" fill="url(#greenNode)" stroke="#77c52c" stroke-width=".025"/>
+
   </g>
 </svg>

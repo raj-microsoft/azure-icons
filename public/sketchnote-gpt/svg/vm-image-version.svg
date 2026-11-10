@@ -1,64 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>VM Image Version (sketch)</title>
-  
-  <desc>Hand-drawn sketchnote illustration of a blue virtual machine image document with a grey circular version symbol and a purple version badge.</desc>
-
   <defs>
-    <linearGradient id="doc" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="1" stop-color="#005BA1"/>
+    <linearGradient id="deltaGradient" x1="13.689" y1="9.249" x2="13.689" y2="17.97" gradientUnits="userSpaceOnUse">
+      <stop offset=".131" stop-color="#b796f9"/>
+      <stop offset="1" stop-color="#773adc"/>
     </linearGradient>
-    <linearGradient id="metal" x1="0" y1="0" x2="0.9" y2="1">
-      <stop offset="0" stop-color="#999999"/>
-      <stop offset="1" stop-color="#767676"/>
+    <linearGradient id="discGradient" x1="9.949" y1=".702" x2="9.949" y2="15.185" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset=".999" stop-color="#767676"/>
     </linearGradient>
-    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#B796F9"/>
-      <stop offset="1" stop-color="#773ADC"/>
+    <linearGradient id="discCenter" x1="9.949" y1="4.513" x2="9.949" y2="11.352" gradientUnits="userSpaceOnUse">
+      <stop offset=".001" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="tileGradient" x1="5.139" y1="-.223" x2="5.139" y2="16.194" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#005ba1"/>
     </linearGradient>
   </defs>
 
-  <!-- Document silhouette -->
-  <path d="M16 15 Q15 10 21 10 L79 10 Q84 10 84 16            L84 104 Q84 109 79 109 L20 109            Q15 109 15 104 Z" fill="url(#doc)" stroke="#004B87" stroke-width="3.5" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)">
 
-  <!-- Hand-drawn document edge -->
-  <path d="M23 17 Q47 15 75 17 M22 102 Q49 105 76 102" fill="none" stroke="#50B8EF" stroke-width="1.7" stroke-linecap="round"/>
+    <!-- Purple delta badge, preserving original triangle symbol -->
+    <rect x="9.379" y="9.379" width="8.621" height="8.621" rx="4.311" fill="url(#deltaGradient)" stroke="#8050d5" stroke-width=".025"/>
 
-  <!-- Folded corner -->
-  <path d="M68 11 L68 27 Q68 31 73 31 L83 31" fill="#005BA1" stroke="#004B87" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M70 13 L70 26 L81 26" fill="none" stroke="#50B8EF" stroke-width="1.8"/>
+    <path d="M15.9 16.209h-4.419l.01-.026.9-2.054q.64-1.458 1.278-2.918a.057.057 0 0 1 .063-.041c.082 0 .082 0 .112.075q.738 1.781 1.474 3.561l.57 1.379Zm-.87-.31-1.47-3.614L11.969 15.9Z" fill="#fff"/>
 
-  <!-- Azure cube / VM image symbol -->
-  <g stroke-linejoin="round" stroke-linecap="round">
-    <path d="M31 49 L51 37 L72 49 L51 62 Z" fill="#C3F1FF" stroke="#E1FAFF" stroke-width="2"/>
-    <path d="M31 49 L51 62 L51 85 L31 72 Z" fill="#9CEBFF" stroke="#D0F6FF" stroke-width="2"/>
-    <path d="M51 62 L72 49 L72 72 L51 85 Z" fill="#50E6FF" stroke="#D0F6FF" stroke-width="2"/>
-    <path d="M51 62 L51 85" fill="none" stroke="#0078D4" stroke-width="2"/>
-    <path d="M31 49 L51 62 L72 49" fill="none" stroke="#0078D4" stroke-width="1.7"/>
-    <path d="M37 50 L51 42 L65 50" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    <!-- Optical disk: original outer geometry -->
+    <path d="M16.952 7.912a7.059 7.059 0 0 1-.2 1.681.281.281 0 0 1-.427.167 4.733 4.733 0 0 0-7.368 3.925 4.778 4.778 0 0 0 .152 1.192 7.012 7.012 0 0 1-5.816-4.786 7.009 7.009 0 0 1-.345-2.178 6.958 6.958 0 0 1 .1-1.19 6.862 6.862 0 0 1 .231-.953A7.008 7.008 0 0 1 9.949.9c.111 0 .221 0 .329.007a7.011 7.011 0 0 1 6.674 7.005Z" fill="url(#discGradient)" stroke="#737373" stroke-width=".035" stroke-linejoin="round"/>
+
+    <!-- Optical disk central surface -->
+    <path d="M13.251 7.912A3.242 3.242 0 0 1 13.068 9 4.747 4.747 0 0 0 9.66 11.207 3.3 3.3 0 0 1 7.307 9.9a3.248 3.248 0 0 1-.518-1.025 3.313 3.313 0 0 1 0-1.919A3.3 3.3 0 0 1 9.949 4.606a3.249 3.249 0 0 1 .329.017 3.3 3.3 0 0 1 2.973 3.289Z" fill="url(#discCenter)" stroke="#888" stroke-width=".025"/>
+
+    <!-- Blue VM image tile, drawn over the disk -->
+    <path d="M10.278.5V10.41a4.733 4.733 0 0 0-1.323 3.275 4.778 4.778 0 0 0 .152 1.192 4.864 4.864 0 0 0 .2.587.28.28 0 0 1-.262.382H.5a.5.5 0 0 1-.5-.5V.5A.5.5 0 0 1 .5 0h9.283a.5.5 0 0 1 .495.5Z" fill="url(#tileGradient)" stroke="#0065ae" stroke-width=".035" stroke-linejoin="round"/>
+
+    <!-- Original isometric cube -->
+    <polygon points="7.909 6.286 7.928 9.526 5.163 11.17 5.143 7.923 7.909 6.286" fill="#50e6ff"/>
+    <polygon points="7.909 6.286 5.143 7.93 2.35 6.32 5.123 4.676 7.909 6.286" fill="#c3f1ff"/>
+    <polygon points="5.143 7.93 5.163 11.17 2.37 9.56 2.35 6.32 5.143 7.93" fill="#9cebff"/>
+    <polygon points="2.37 9.56 5.143 7.923 5.163 11.17 2.37 9.56" fill="#c3f1ff"/>
+    <polygon points="7.928 9.526 5.143 7.923 5.163 11.17 7.928 9.526" fill="#9cebff"/>
+
   </g>
-
-  <!-- Circular version / history symbol -->
-  <path d="M103 38            C115 38 124 47 124 59            C124 71 115 80 103 80            C91 80 82 71 82 59            C82 47 91 38 103 38 Z" fill="url(#metal)" stroke="#666666" stroke-width="3" stroke-linejoin="round"/>
-
-  <path d="M103 42            C112 42 120 50 120 59            C120 69 112 76 103 76            C94 76 86 69 86 59            C86 50 94 42 103 42 Z" fill="none" stroke="#BDBDBD" stroke-width="1.5"/>
-
-  <!-- Circular refresh arrow -->
-  <path d="M96 53 Q99 47 106 49 Q113 51 113 58" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-  <path d="M109 53 L113 59 L117 53" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M111 65 Q107 72 100 68 Q94 66 94 60" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M98 65 L94 59 L90 65" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Purple version badge -->
-  <path d="M91 82 Q91 78 96 78 L119 78            Q124 78 124 83 L124 107            Q124 112 119 112 L96 112            Q91 112 91 107 Z" fill="url(#purple)" stroke="#6831C3" stroke-width="3" stroke-linejoin="round"/>
-
-  <path d="M99 86 L116 86 M98 91 L115 91" fill="none" stroke="#DCCAFF" stroke-width="1.3" stroke-linecap="round"/>
-
-  <!-- Version mark as vector geometry -->
-  <path d="M99 99 L104 105 L115 95" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Sketchnote marker accents -->
-  <path d="M11 35 L8 39 M12 43 L9 46            M78 113 L82 116 M84 111 L88 114" fill="none" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
-  <path d="M117 28 L120 24 M123 33 L126 30" fill="none" stroke="#E6B93F" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M13 88 L10 91 M15 95 L12 98" fill="none" stroke="#E6B93F" stroke-width="2" stroke-linecap="round"/>
-  <path d="M30 94 Q39 97 47 94" fill="none" stroke="#C3F1FF" stroke-width="1.5" stroke-linecap="round"/>
 </svg>

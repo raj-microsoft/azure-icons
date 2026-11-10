@@ -1,60 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Internet Access (sketch)</title>
-  
-  <desc>Azure-blue internet globe with hand-drawn latitude and longitude lines, overlapped by a smaller blue cloud representing Entra Internet Access.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Entra Internet Access (sketch)</title>
   <defs>
-    <linearGradient id="globeBlue" x1="18" y1="16" x2="96" y2="106" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#44DBF9"/>
-      <stop offset=".52" stop-color="#0294E4"/>
-      <stop offset="1" stop-color="#225086"/>
+    <linearGradient id="globe" x1="0" y1="7.566" x2="10.155" y2="7.566" gradientUnits="userSpaceOnUse">
+      <stop offset=".446" stop-color="#44dbf9"/>
+      <stop offset=".543" stop-color="#43d7f6"/>
+      <stop offset=".622" stop-color="#40cded"/>
+      <stop offset=".696" stop-color="#3cbcdf"/>
+      <stop offset=".767" stop-color="#36a4cb"/>
+      <stop offset=".834" stop-color="#2e84b1"/>
+      <stop offset=".899" stop-color="#255f92"/>
+      <stop offset=".922" stop-color="#225086"/>
     </linearGradient>
-    <linearGradient id="cloudBlue" x1="65" y1="82" x2="119" y2="124" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3A88EF"/>
-      <stop offset="1" stop-color="#275B98"/>
+    <linearGradient id="leftGrid" x1="7.568" y1="15.133" x2="7.568" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#225086"/>
+      <stop offset="1" stop-color="#0055c5"/>
+    </linearGradient>
+    <linearGradient id="rightGlobe" x1="11.352" y1="15.133" x2="11.352" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#225086"/>
+      <stop offset=".508" stop-color="#0294e4"/>
+      <stop offset="1" stop-color="#6df"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="-550.536" y1="1007.526" x2="-550.536" y2="1013.879" gradientTransform="translate(564 1025.516) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#275b98"/>
+      <stop offset="1" stop-color="#3a88ef"/>
     </linearGradient>
   </defs>
 
-  <!-- Main internet globe -->
-  <path d="M107 54            C107 83 84 107 55 107            C26 107 9 84 9 55            C9 27 29 9 56 9            C84 9 107 27 107 54 Z" fill="url(#globeBlue)" stroke="#225086" stroke-width="3.5"/>
+  <g transform="scale(7.111111)">
+    <!-- Original globe silhouette -->
+    <path d="M8.954 13.124c.395-.427.883-.747 1.428-.938.272-.424.63-.79 1.052-1.074.621-.418 1.346-.639 2.097-.639h.031c.028 0 .055 0 .083 0 .295 0 .584.038.865.106.402-.923.626-1.941.626-3.012C15.136 3.388 11.748 0 7.568 0S0 3.388 0 7.566s3.388 7.566 7.568 7.566c.16 0 .318-.006.475-.016.083-.741.4-1.44.911-1.993Z" fill="url(#globe)"/>
 
-  <!-- Hand-drawn longitude curves -->
-  <path d="M56 10            C43 24 37 40 37 56            C37 75 44 94 56 106" stroke="#D7F8FF" stroke-width="2.8" opacity=".95"/>
+    <!-- Original partial grid: restricted to left hemisphere -->
+    <path d="M8.954 13.124c.395-.427.883-.747 1.428-.938.112-.174.241-.335.38-.487.074-.235.144-.476.205-.728h.694c.568-.326 1.209-.498 1.87-.498h.031c.028 0 .055 0 .083 0 .295 0 .584.038.865.106.402-.923.626-1.941.626-3.012C15.136 3.388 11.748 0 7.568 0S0 3.388 0 7.566s3.388 7.566 7.568 7.566c.16 0 .318-.006.475-.016.083-.741.4-1.44.911-1.993Zm1.082-3.288H5.1c-.116-.704-.181-1.468-.181-2.27 0-.522.028-1.029.079-1.513h5.141c.051.484.079.991.079 1.513 0 .802-.065 1.566-.181 2.27Zm3.965-2.27c0 .799-.146 1.564-.412 2.27h-2.401c.108-.718.165-1.481.165-2.27 0-.517-.025-1.024-.072-1.514h2.541c.117.485.179.992.179 1.514Zm-3.852-5.893c1.455.638 2.629 1.799 3.283 3.245h-2.306c-.225-1.259-.61-2.363-1.116-3.205l-.081-.132.22.092ZM7.48 1.138l.088-.004.096.005c.955.095 1.876 1.607 2.304 3.779h-4.799c.43-2.177 1.355-3.692 2.312-3.78ZM5.19 1.587l.017-.007c-.547.857-.961 2.011-1.198 3.337H1.704c.685-1.513 1.938-2.714 3.487-3.33ZM1.135 7.566c0-.517.061-1.019.176-1.5l.004-.013h2.541c-.047.49-.072.996-.072 1.514 0 .789.057 1.551.165 2.269H1.547c-.266-.706-.412-1.47-.412-2.269Zm.974 3.404h2.06l.077.299c.24.885.566 1.661.961 2.281-1.288-.508-2.373-1.42-3.098-2.58Zm3.235 0h4.448c-.493 1.826-1.351 3.027-2.224 3.027s-1.73-1.201-2.224-3.027Z" fill="url(#leftGrid)"/>
 
-  <path d="M56 10            C69 24 75 40 75 56            C75 75 68 94 56 106" stroke="#D7F8FF" stroke-width="2.8" opacity=".95"/>
+    <!-- Original right hemisphere remains ungridded -->
+    <path d="M8.043 15.116c.083-.741.4-1.44.911-1.993.395-.427.883-.747 1.428-.938.272-.424.63-.79 1.052-1.074.621-.418 1.346-.639 2.097-.639h.031c.028 0 .055 0 .083 0 .292 0 .578.038.857.104.407-.924.635-1.942.635-3.01C15.136 3.388 11.748 0 7.568 0c.581 1.7 1.258 4.318 1.258 7.566s-.676 5.867-1.258 7.566c.16 0 .318-.006.475-.016Z" fill="url(#rightGlobe)"/>
 
-  <!-- Center meridian -->
-  <path d="M56 12            Q54 35 56 56            Q58 81 56 104" stroke="#B4EFFF" stroke-width="2.5" opacity=".9"/>
+    <!-- Original cloud silhouette -->
+    <path d="M18 15.773v-.015s0-.015 0-.015c-.016-.538-.226-1.053-.59-1.451-.282-.308-.643-.532-1.04-.649-.104-.586-.399-1.126-.844-1.533-.531-.486-1.232-.747-1.954-.728-.58-.008-1.149.161-1.629.484-.409.275-.737.651-.952 1.09-.524.117-1.002.389-1.368.785-.427.462-.673 1.06-.692 1.687v.016s0 .016 0 .016c.028.701.337 1.362.856 1.837.517.473 1.202.725 1.905.702.072 0 .144-.003.212-.009h3.713c.049-.001.097-.006.144-.015.575-.017 1.124-.245 1.539-.643.427-.41.679-.968.701-1.559Z" fill="url(#cloud)"/>
 
-  <!-- Upper latitude -->
-  <path d="M18 40            Q55 48 99 40" stroke="#D7F8FF" stroke-width="3" opacity=".95"/>
-
-  <!-- Equator -->
-  <path d="M10 59            Q55 65 106 59" stroke="#D7F8FF" stroke-width="3" opacity=".95"/>
-
-  <!-- Lower latitude -->
-  <path d="M20 79            Q55 73 96 80" stroke="#D7F8FF" stroke-width="3" opacity=".95"/>
-
-  <!-- Small sketch highlight on globe -->
-  <path d="M22 28            Q34 16 49 15" stroke="#A7F2FF" stroke-width="3" opacity=".9"/>
-
-  <!-- Globe rim marker accent -->
-  <path d="M13 66            Q17 86 35 98" stroke="#0055C5" stroke-width="2.3" opacity=".55"/>
-
-  <!-- Small Azure cloud overlapping lower right -->
-  <path d="M83 119            C73 119 66 112 66 103            C66 94 72 87 80 85            C84 76 92 71 102 72            C113 71 122 79 123 89            C131 91 135 98 134 105            C133 113 127 119 119 120            L85 120 Z" fill="url(#cloudBlue)" stroke="#225086" stroke-width="3.5"/>
-
-  <!-- Cloud highlight -->
-  <path d="M72 101            Q74 92 84 91            Q89 78 101 79            Q113 78 118 91" stroke="#8BCBFF" stroke-width="2.8" opacity=".9"/>
-
-  <!-- Cloud lower marker detail -->
-  <path d="M79 114            Q94 117 112 115" stroke="#144A83" stroke-width="2" opacity=".65"/>
-
-  <!-- Restrained yellow sketchnote accents -->
-  <path d="M107 19 L113 13            M115 27 L122 25            M110 34 L117 37" stroke="#FFCA28" stroke-width="3"/>
-
-  <!-- Small handwritten-style annotation marks -->
-  <path d="M11 104 L16 108            M19 110 L24 113" stroke="#0078D4" stroke-width="2.3"/>
-
-  <!-- Final hand-drawn emphasis -->
-  <path d="M64 123            Q78 126 88 124" stroke="#275B98" stroke-width="1.8" opacity=".55"/>
+    <!-- Subtle marker edge treatment, preserving original dark grid colours -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M.08 7.56C.08 3.42 3.43.08 7.57.08c4.13 0 7.49 3.34 7.49 7.48" stroke="#0055a8" stroke-width=".035" opacity=".55"/>
+      <path d="M1.14 7.57c0 3.55 2.87 6.42 6.43 6.42" stroke="#225086" stroke-width=".035" opacity=".6"/>
+      <path d="M1.7 5.08h8.45M1.14 10.97h8.45M3.85 5.08c-.2 1.7-.2 3.4 0 5.89m3.63-9.8c-.95 2.1-1.42 4.25-1.42 6.4 0 2.15.47 4.3 1.42 6.42" stroke="#225086" stroke-width=".035" opacity=".65"/>
+      <path d="M9.02 13.14c.4-.43.88-.75 1.43-.94.27-.42.63-.79 1.05-1.07.62-.42 1.35-.64 2.1-.64" stroke="#174f91" stroke-width=".045" opacity=".55"/>
+    </g>
+  </g>
 </svg>

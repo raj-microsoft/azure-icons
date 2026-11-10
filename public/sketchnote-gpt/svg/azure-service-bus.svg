@@ -1,90 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Azure Service Bus (sketch)</title>
-  
-  <desc id="desc">A cyan message envelope with folded blue facets, centered between two hand-drawn gray horizontal bus rails and four terminal posts, with subtle Azure-blue and yellow sketch accents.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Service Bus (sketch)</title>
   <defs>
-    <linearGradient id="bus-bottom" x1="64" y1="71" x2="64" y2="96" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#005BA1"/>
-      <stop offset=".55" stop-color="#004F90"/>
+    <linearGradient id="busBottom" x1="8.995" y1="10.299" x2="8.995" y2="13.199" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005ba1"/>
+      <stop offset=".258" stop-color="#00589d"/>
+      <stop offset=".525" stop-color="#004f90"/>
+      <stop offset=".796" stop-color="#003f7c"/>
       <stop offset="1" stop-color="#003067"/>
     </linearGradient>
   </defs>
 
-  <!-- Upper bus rail -->
-  <path d="M13 18            Q13 15 17 15            L111 15            Q115 15 115 18            L115 25            Q115 28 111 28            L17 28            Q13 28 13 25Z" fill="#949494" stroke="#626A71" stroke-width="2.6"/>
+  <g transform="scale(7.111111)">
 
-  <!-- Lower bus rail -->
-  <path d="M13 101            Q13 98 17 98            L111 98            Q115 98 115 101            L115 108            Q115 111 111 111            L17 111            Q13 111 13 108Z" fill="#949494" stroke="#626A71" stroke-width="2.6"/>
+    <!-- Original four open corner brackets -->
+    <g fill="#999" stroke="#858585" stroke-width=".025">
+      <path d="M1.072 1.43h1.29v3.6a.286.286 0 0 1-.286.286H.786A.286.286 0 0 1 .5 5.035V2a.572.572 0 0 1 .572-.57Z"/>
+      <path d="M15.638 1.43h1.29A.572.572 0 0 1 17.5 2v3.035a.286.286 0 0 1-.286.286h-1.29a.286.286 0 0 1-.286-.286Z"/>
+      <path d="M.786 12.679h1.29a.286.286 0 0 1 .286.286v3.6H1.072A.572.572 0 0 1 .5 16v-3.035a.286.286 0 0 1 .286-.286Z"/>
+      <path d="M15.924 12.679h1.29a.286.286 0 0 1 .286.286V16a.572.572 0 0 1-.572.572h-1.29v-3.607a.286.286 0 0 1 .286-.286Z"/>
+    </g>
+    <g fill="#999" opacity=".5">
+      <path d="M1.072 1.43h1.29v3.6a.286.286 0 0 1-.286.286H.786A.286.286 0 0 1 .5 5.035V2a.572.572 0 0 1 .572-.57Z"/>
+      <path d="M15.638 1.43h1.29A.572.572 0 0 1 17.5 2v3.035a.286.286 0 0 1-.286.286h-1.29a.286.286 0 0 1-.286-.286Z"/>
+      <path d="M.786 12.679h1.29a.286.286 0 0 1 .286.286v3.6H1.072A.572.572 0 0 1 .5 16v-3.035a.286.286 0 0 1 .286-.286Z"/>
+      <path d="M15.924 12.679h1.29a.286.286 0 0 1 .286.286V16a.572.572 0 0 1-.572.572h-1.29v-3.607a.286.286 0 0 1 .286-.286Z"/>
+    </g>
 
-  <!-- Four hand-drawn terminal posts -->
-  <g fill="#999999" stroke="#606970" stroke-width="2.8">
-    <path d="M9 11              Q9 8 12 8              L20 8              Q22 8 22 11              L22 34              Q22 37 19 37              L11 37              Q8 37 8 34              Z"/>
+    <!-- Original open top and bottom horizontal bars, exact transforms -->
+    <path d="M8.66-6.163H9.907v17H8.66a.567.567 0 0 1-.567-.567V-5.6a.567.567 0 0 1 .567-.563Z" transform="translate(11.337 -6.663) rotate(90)" fill="#949494"/>
 
-    <path d="M108 11              Q108 8 111 8              L119 8              Q122 8 122 11              L122 34              Q122 37 119 37              L111 37              Q108 37 108 34              Z"/>
+    <path d="M8.66 7.163H9.907v17H8.66a.567.567 0 0 1-.567-.567V7.73a.567.567 0 0 1 .567-.567Z" transform="translate(-6.663 24.663) rotate(-90)" fill="#949494"/>
 
-    <path d="M11 90              L19 90              Q22 90 22 93              L22 117              Q22 120 19 120              L12 120              Q9 120 9 117              L9 93              Q9 90 11 90Z"/>
+    <!-- Original three-dimensional Service Bus envelope -->
+    <polygon points="13.387 7.4 13.382 7.396 13.382 7.384 13.363 7.384 8.997 4.405 4.631 7.384 4.612 7.384 4.612 7.396 4.606 7.4 4.612 7.4 4.612 13.201 13.382 13.201 13.382 7.4 13.387 7.4" fill="#50e6ff"/>
 
-    <path d="M111 90              L119 90              Q122 90 122 93              L122 117              Q122 120 119 120              L111 120              Q108 120 108 117              L108 93              Q108 90 111 90Z"/>
-  </g>
+    <path d="M4.606 7.4c0-.1.008 5.681.008 5.8L8.995 10.3Z" fill="#32bedd"/>
 
-  <!-- Terminal marker highlights -->
-  <g stroke="#D7D7D7" stroke-width="2.2" opacity=".85">
-    <path d="M13 15 L13 30"/>
-    <path d="M113 15 L113 30"/>
-    <path d="M14 96 L14 112"/>
-    <path d="M113 96 L113 112"/>
-  </g>
+    <path d="M13.384 7.4L8.995 10.3l4.381 2.9c0-.117.008-5.8.008-5.8Z" fill="#198ab3"/>
 
-  <!-- Subtle uneven rail highlights -->
-  <g stroke="#D0D0D0" stroke-width="1.8" opacity=".85">
-    <path d="M28 19 Q55 18 82 19"/>
-    <path d="M45 105 Q75 104 101 105"/>
-  </g>
+    <polygon points="8.995 10.299 4.614 13.194 4.614 13.199 13.376 13.199 13.376 13.194" fill="url(#busBottom)"/>
 
-  <!-- Central message envelope silhouette -->
-  <path d="M33 53            L62 34            Q64 32 67 34            L95 53            Q97 54 97 57            L97 94            Q97 97 94 97            L34 97            Q31 97 31 94            L31 57            Q31 55 33 53Z" fill="#50E6FF" stroke="#087FAE" stroke-width="3.2"/>
-
-  <!-- Left folded envelope facet -->
-  <path d="M32 56            Q31 73 32 96            L64 75            Z" fill="#32BEDD" stroke="#168DB6" stroke-width="1.6"/>
-
-  <!-- Right folded envelope facet -->
-  <path d="M96 56            Q97 75 96 96            L64 75            Z" fill="#198AB3" stroke="#087FAE" stroke-width="1.6"/>
-
-  <!-- Lower envelope fold -->
-  <path d="M32 96            L64 75            L96 96            Q95 98 92 98            L36 98            Q33 98 32 96Z" fill="url(#bus-bottom)" stroke="#003F7C" stroke-width="2.2"/>
-
-  <!-- Front-fold sketchnote highlights -->
-  <path d="M40 92            L64 77            L88 92" stroke="#77D9F5" stroke-width="2" opacity=".9"/>
-
-  <!-- Subtle hand-drawn envelope creases -->
-  <g stroke="#B9F5FF" stroke-width="1.8" opacity=".85">
-    <path d="M40 54 L59 42"/>
-    <path d="M71 42 L87 53"/>
-    <path d="M37 64 L38 76"/>
-  </g>
-
-  <!-- Small Azure-blue routing marks -->
-  <g stroke="#0078D4" stroke-width="2.6">
-    <path d="M43 43 L47 39"/>
-    <path d="M50 37 L53 33"/>
-    <path d="M80 37 L84 41"/>
-    <path d="M87 43 L91 47"/>
-  </g>
-
-  <!-- Restrained yellow motion accents -->
-  <g stroke="#FFCC4D" stroke-width="2.6">
-    <path d="M26 52 L21 49"/>
-    <path d="M25 60 L19 59"/>
-    <path d="M102 52 L107 49"/>
-    <path d="M103 60 L109 59"/>
-  </g>
-
-  <!-- Mini hand-drawn sparkle -->
-  <path d="M104 39            Q105 45 111 46            Q105 47 104 53            Q103 47 97 46            Q103 45 104 39Z" fill="#FFCC4D" stroke="#D9A427" stroke-width="1.3"/>
-
-  <!-- Tiny marker dots -->
-  <g fill="#0078D4">
-    <circle cx="28" cy="42" r="1.6"/>
-    <circle cx="99" cy="77" r="1.6"/>
   </g>
 </svg>

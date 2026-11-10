@@ -1,84 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Workflow (sketch)</title>
-  
-  <desc>Hand-drawn Azure workflow diagram with a central blue starting node connected to three green process nodes through cyan branching paths.</desc>
-
   <defs>
-    <linearGradient id="azureBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#50A8EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="green-left" x1="2.624" y1="15.969" x2="2.624" y2="11.167" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bc2d"/>
+      <stop offset=".601" stop-color="#81ce31"/>
+      <stop offset=".822" stop-color="#86d633"/>
     </linearGradient>
-    <linearGradient id="greenNode" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#86D633"/>
-      <stop offset=".6" stop-color="#81CE31"/>
-      <stop offset="1" stop-color="#76BC2D"/>
+    <linearGradient id="green-center" x1="9.026" y1="18" x2="9.026" y2="13.198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bc2d"/>
+      <stop offset=".601" stop-color="#81ce31"/>
+      <stop offset=".822" stop-color="#86d633"/>
+    </linearGradient>
+    <linearGradient id="green-right" x1="15.376" y1="16.001" x2="15.376" y2="11.199" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bc2d"/>
+      <stop offset=".601" stop-color="#81ce31"/>
+      <stop offset=".822" stop-color="#86d633"/>
     </linearGradient>
   </defs>
 
-  <!-- Main branching workflow connector -->
-  <g fill="none" stroke="#0078D4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M64 43 L64 57"/>
-    <path d="M64 57 Q64 66 54 66 L23 66 Q18 66 18 76"/>
-    <path d="M64 57 L64 88"/>
-    <path d="M64 66 L105 66 Q110 66 110 76"/>
-  </g>
+  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
 
-  <!-- Cyan connector highlights -->
-  <g fill="none" stroke="#50E6FF" stroke-width="2" stroke-linecap="round">
-    <path d="M68 45 L68 56"/>
-    <path d="M64 61 Q56 70 46 70 L23 70"/>
-    <path d="M68 69 L68 87"/>
-    <path d="M78 70 L104 70"/>
-  </g>
+    <!-- Original workflow connector -->
+    <path d="M15.509 7.868H10.052a.293.293 0 0 1-.293-.293V5.491H8.293              V7.575A.294.294 0 0 1 8 7.868H2.479              a.587.587 0 0 0-.587.587v2.7h1.466v-1.5              a.294.294 0 0 1 .294-.293H8.293v3.918h1.466V9.368h4.577              a.293.293 0 0 1 .293.293v1.53H16.1V8.455              a.587.587 0 0 0-.591-.587Z" fill="#50e6ff" stroke="#32c8ed" stroke-width=".035"/>
 
-  <!-- Top workflow trigger node -->
-  <rect x="41" y="7" width="46" height="43" rx="6" fill="url(#azureBlue)" stroke="#005BA1" stroke-width="3" transform="rotate(-1 64 28)"/>
+    <!-- Original top blue node -->
+    <rect x="6.029" y="0" width="5.881" height="5.881" rx=".532" fill="#0078d4" stroke="#006cbd" stroke-width=".045"/>
 
-  <rect x="49" y="15" width="30" height="27" rx="3" fill="#FFFFFF" stroke="#D5F0FF" stroke-width="2"/>
+    <!-- Original white inset -->
+    <rect x="7.158" y="1.13" width="3.622" height="3.622" rx=".328" fill="#fff"/>
 
-  <!-- Trigger symbol -->
-  <path d="M57 22 L57 35 L70 28 Z" fill="#0078D4" stroke="#005BA1" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Original lower-left green node -->
+    <rect x=".223" y="11.167" width="4.802" height="4.802" rx=".435" fill="url(#green-left)" stroke="#76bc2d" stroke-width=".04"/>
 
-  <path d="M46 11 L52 10 M75 11 L81 12" fill="none" stroke="#BDEAFF" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Original lower-center green node -->
+    <rect x="6.624" y="13.198" width="4.802" height="4.802" rx=".435" fill="url(#green-center)" stroke="#76bc2d" stroke-width=".04"/>
 
-  <!-- Left process node -->
-  <rect x="5" y="76" width="38" height="38" rx="5" fill="url(#greenNode)" stroke="#589E24" stroke-width="3" transform="rotate(-2 24 95)"/>
+    <!-- Original lower-right green node -->
+    <rect x="12.975" y="11.199" width="4.802" height="4.802" rx=".435" fill="url(#green-right)" stroke="#76bc2d" stroke-width=".04"/>
 
-  <rect x="12" y="83" width="24" height="24" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
-
-  <path d="M17 95 L22 100 L31 89" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Center process node -->
-  <rect x="45" y="88" width="38" height="38" rx="5" fill="url(#greenNode)" stroke="#589E24" stroke-width="3" transform="rotate(1 64 107)"/>
-
-  <rect x="52" y="95" width="24" height="24" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
-
-  <path d="M57 107 L62 112 L71 101" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Right process node -->
-  <rect x="91" y="76" width="38" height="38" rx="5" fill="url(#greenNode)" stroke="#589E24" stroke-width="3" transform="rotate(2 110 95)"/>
-
-  <rect x="98" y="83" width="24" height="24" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
-
-  <path d="M103 95 L108 100 L117 89" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Connector junction -->
-  <circle cx="64" cy="66" r="5" fill="#50E6FF" stroke="#0078D4" stroke-width="2"/>
-
-  <!-- Yellow sketchnote accents -->
-  <g fill="none" stroke="#E6B93F" stroke-width="2.5" stroke-linecap="round">
-    <path d="M29 20 L25 16"/>
-    <path d="M97 43 L102 39"/>
-    <path d="M45 56 L41 52"/>
-    <path d="M84 79 L89 75"/>
-    <path d="M8 121 L14 123"/>
-    <path d="M113 120 L119 117"/>
-  </g>
-
-  <!-- Hand-drawn marker details -->
-  <g fill="none" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round">
-    <path d="M36 8 L40 6"/>
-    <path d="M88 14 L92 16"/>
-    <path d="M48 119 L54 121"/>
-    <path d="M75 127 L81 125"/>
   </g>
 </svg>

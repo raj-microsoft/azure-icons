@@ -1,84 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc"><title>Restore Points (sketch)</title>
-
-  
-  <desc id="desc">Azure restore points represented by a blue circular recovery arrow surrounding a cyan isometric resource cube.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Restore Points (sketch)</title>
   <defs>
-    <linearGradient id="recoveryBlue" x1="0" y1="1" x2="0" y2="0">
+    <linearGradient id="field" x1="9.8894" y1="15.8246" x2="9.8894" y2="1.0402" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0078d4"/>
       <stop offset="1" stop-color="#5ea0ef"/>
     </linearGradient>
-    <linearGradient id="cubeLeft" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#9cebff"/>
-      <stop offset="1" stop-color="#32bedd"/>
-    </linearGradient>
-    <linearGradient id="cubeRight" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="cubeRight" x1="13.0867" y1="10.3311" x2="10.2737" y2="8.4273" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#32bedd"/>
-      <stop offset="1" stop-color="#1490df"/>
+      <stop offset="1" stop-color="#9cebff"/>
     </linearGradient>
-    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#c3f1ff"/>
+    <linearGradient id="cubeLeft" x1="8.277" y1="12.0802" x2="8.277" y2="6.4367" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32bedd"/>
+      <stop offset="1" stop-color="#9cebff"/>
     </linearGradient>
   </defs>
 
-  <!-- Circular recovery arrow -->
-  <path d="M49 103            C25 94 14 68 23 44            C31 21 54 10 77 17            C99 23 113 45 108 68            C104 88 88 101 69 105" fill="none" stroke="#86d633" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="scale(7.1111111111)">
+    <!-- Green restoration arc -->
+    <path d="M8.1465 .87A7.6263 7.6263 0 0 0 5.4131 14.7234l.2622-.6583a.1443.1443 0 0 1 .2489-.0364l1.884 2.4318a.1488.1488 0 0 1-.0238.2069.1443.1443 0 0 1-.0718.0307l-3.0248.4311a.1464.1464 0 0 1-.164-.1274.15.15 0 0 1 .009-.0738l.3831-.9741A8.8733 8.8733 0 0 1 .9743 10.5948a7.7593 7.7593 0 0 1 5.423-9.4691A7.5337 7.5337 0 0 1 8.1465.87Z" fill="#86d633"/>
 
-  <!-- Arrowhead -->
-  <path d="M43 94 L52 116 L74 106" fill="none" stroke="#86d633" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Blue circular field -->
+    <path d="M9.8894 1.04A7.3859 7.3859 0 0 0 4.5488 13.5346a7.08 7.08 0 0 0 .6884.6l.0836-.21a.5285.5285 0 0 1 .5014-.3336.5257.5257 0 0 1 .4033.2038l1.255 1.62A7.39 7.39 0 1 0 9.8894 1.04Z" fill="url(#field)"/>
 
-  <path d="M44 94 L51 111" fill="none" stroke="#b5ee78" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Original three-sided cube -->
+    <g stroke="#218fbd" stroke-width=".035" stroke-linejoin="round">
+      <polygon points="13.114 6.437 13.114 10.188 9.889 12.08 9.889 8.318" fill="url(#cubeRight)"/>
+      <polygon points="13.114 6.437 9.9 8.329 6.665 6.437 9.9 4.556" fill="#c3f1ff"/>
+      <polygon points="9.889 8.329 9.889 12.08 6.665 10.188 6.665 6.437" fill="url(#cubeLeft)"/>
+    </g>
 
-  <!-- Blue circular recovery body -->
-  <path d="M65 17            C88 12 109 30 111 54            C114 78 97 98 75 102            C66 104 57 102 50 99            C44 96 39 91 35 85" fill="none" stroke="url(#recoveryBlue)" stroke-width="10" stroke-linecap="round"/>
-
-  <!-- Recovery arrow marker detail -->
-  <path d="M103 27 Q110 40 108 53" fill="none" stroke="#8bc3f5" stroke-width="2.5" stroke-linecap="round"/>
-
-  <!-- Central resource cube: top -->
-  <path d="M64 34            L91 50            L64 66            L37 50Z" fill="url(#cubeTop)" stroke="#168dbb" stroke-width="2.5" stroke-linejoin="round"/>
-
-  <!-- Left cube face -->
-  <path d="M37 50            L64 66            L64 98            L37 82Z" fill="url(#cubeLeft)" stroke="#168dbb" stroke-width="2.5" stroke-linejoin="round"/>
-
-  <!-- Right cube face -->
-  <path d="M91 50            L64 66            L64 98            L91 82Z" fill="url(#cubeRight)" stroke="#0878b9" stroke-width="2.5" stroke-linejoin="round"/>
-
-  <!-- Cube highlights -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M44 50 L64 62 L84 50" stroke="#ffffff" stroke-width="2.5"/>
-
-    <path d="M44 59 L57 67" stroke="#c3f1ff" stroke-width="2"/>
-
-    <path d="M71 67 L84 59" stroke="#a5edfa" stroke-width="2"/>
-
-    <path d="M43 65 L43 79" stroke="#b8f4ff" stroke-width="2"/>
+    <!-- Four original white corner brackets -->
+    <g fill="#fff">
+      <path d="M7.7484 3.809H5.4635a.5483.5483 0 0 0-.5483.5483V6.6505a.2742.2742 0 0 0 .2741.2742h.1828a.2742.2742 0 0 0 .2742-.2742V4.5318H7.7484a.2741.2741 0 0 0 .2658-.2742V4.0831a.2741.2741 0 0 0-.2658-.2741Z"/>
+      <path d="M7.7484 12.2748H5.638V10.1727a.2742.2742 0 0 0-.2742-.2742H5.1893a.2742.2742 0 0 0-.2741.2742v2.3264a.5483.5483 0 0 0 .54.5566l.0083 0H7.7484A.2825.2825 0 0 0 8.017 12.76l-.0028-.0284V12.549a.2741.2741 0 0 0-.2658-.2742Z"/>
+      <path d="M14.2738 3.8347H12.0222a.2741.2741 0 0 0-.2742.2742v.1744a.2742.2742 0 0 0 .2481.298.2531.2531 0 0 0 .0261.0011h2.102V6.6679a.2742.2742 0 0 0 .2742.2742H14.59a.2742.2742 0 0 0 .2742-.2742V4.383a.5485.5485 0 0 0-.5468-.55c-.0149 0-.0293.0005-.0436.0017Z"/>
+      <path d="M14.5563 9.9159h-.1745a.2742.2742 0 0 0-.2742.2742v2.11H12.0222a.2741.2741 0 0 0-.2742.2742v.1828a.2741.2741 0 0 0 .2742.2741H14.307a.5566.5566 0 0 0 .5567-.5483V10.19a.2743.2743 0 0 0-.3074-.2742Z"/>
+    </g>
   </g>
-
-  <!-- Cube central edge -->
-  <path d="M64 66 L64 98" fill="none" stroke="#168dbb" stroke-width="2.2" stroke-linecap="round"/>
-
-  <!-- White restore-point corner markers -->
-  <g fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M31 38 L31 27 Q31 24 35 24 L46 24"/>
-    <path d="M82 24 L94 24 Q98 24 98 28 L98 39"/>
-    <path d="M98 83 L98 94 Q98 98 94 98 L83 98"/>
-    <path d="M46 98 L35 98 Q31 98 31 94 L31 83"/>
-  </g>
-
-  <!-- Yellow sketchnote accents -->
-  <g fill="none" stroke="#f2c94c" stroke-width="2.5" stroke-linecap="round">
-    <path d="M93 12 L99 8"/>
-    <path d="M105 17 L111 16"/>
-    <path d="M18 75 L13 78"/>
-  </g>
-
-  <!-- Subtle hand-drawn outline details -->
-  <g fill="none" stroke-linecap="round" opacity=".45">
-    <path d="M21 48 Q17 63 22 77" stroke="#0078d4" stroke-width="1.5"/>
-    <path d="M64 32 Q78 40 92 49" stroke="#168dbb" stroke-width="1.2"/>
-    <path d="M39 82 L62 96" stroke="#ffffff" stroke-width="1.5"/>
-  </g>
-
 </svg>

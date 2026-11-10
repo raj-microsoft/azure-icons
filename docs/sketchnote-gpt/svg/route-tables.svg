@@ -1,63 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc"><title>Route Tables (sketch)</title>
-
-  
-  <desc id="desc">Hand-drawn Azure networking icon showing a blue routing arrow pointing toward a cyan network destination node.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Route Tables (sketch)</title>
   <defs>
-    <linearGradient id="routeBlue" x1="0" y1="0" x2="0.8" y2="1">
+    <linearGradient id="route-body" x1="10.56" y1="7.77" x2="10.56" y2="19.24" gradientUnits="userSpaceOnUse">
       <stop offset=".22" stop-color="#32d4f5"/>
       <stop offset="1" stop-color="#198ab3"/>
     </linearGradient>
-    <linearGradient id="nodeBlue" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="route-head" x1="10.23" y1="1.63" x2="11.07" y2="12.04" gradientUnits="userSpaceOnUse">
       <stop offset=".22" stop-color="#32d4f5"/>
       <stop offset="1" stop-color="#198ab3"/>
     </linearGradient>
   </defs>
 
-  <!-- Route destination base -->
-  <path d="M42 119            Q45 83 64 76            Q84 69 105 78            Q123 88 125 117            Q126 122 120 123            L48 123            Q40 123 42 119Z" fill="url(#routeBlue)" stroke="#147da3" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
 
-  <!-- Base highlight -->
-  <path d="M49 115 Q52 91 69 86" fill="none" stroke="#8ceaff" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+    <!-- Original lower person silhouette -->
+    <path d="M16.23 17.17A1.21 1.21 0 0 0 17.46 16V15.8              c-.49-3.86-2.69-7-6.89-7s-6.48 2.66-6.91 7              a1.24 1.24 0 0 0 1.1 1.36H16.23Z" fill="url(#route-body)" stroke="#198ab3" stroke-width=".045"/>
 
-  <!-- Central routing path -->
-  <path d="M75 81 L64 111 L53 81" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+    <!-- Original white neck detail -->
+    <path d="M10.57 9.71a3.86 3.86 0 0 1-2.1-.61              l2.08 5.42 2.06-5.39              a3.83 3.83 0 0 1-2.04.58Z" fill="#fff" opacity=".8"/>
 
-  <!-- Destination node -->
-  <circle cx="75" cy="43" r="27" fill="url(#nodeBlue)" stroke="#087da8" stroke-width="2.5"/>
+    <!-- Original upper circular head -->
+    <circle cx="10.57" cy="5.84" r="3.87" fill="url(#route-head)" stroke="#198ab3" stroke-width=".045"/>
 
-  <path d="M57 29 Q66 17 81 19" fill="none" stroke="#a8efff" stroke-width="3" stroke-linecap="round"/>
+    <!-- Original left-pointing turn arrow.
+         Direction, position and geometry preserved. -->
+    <path d="M6 5.88V1A.16.16 0 0 0 5.84.83H4.57              A.17.17 0 0 0 4.39 1v4.71              a.18.18 0 0 1-.17.17H3.1              A.12.12 0 0 1 3 5.76V4.45              a.11.11 0 0 0-.19-.08L.59 6.57              a.16.16 0 0 0 0 .24L2.79 9              A.11.11 0 0 0 3 8.93V7.61              A.11.11 0 0 1 3.1 7.5h2.74              A.17.17 0 0 0 6 7.33V5.88Z" fill="#0078d4" stroke="#0068b7" stroke-width=".045"/>
 
-  <!-- Route connection between node and base -->
-  <path d="M75 70 L75 83" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
-
-  <!-- Routing arrow shaft -->
-  <path d="M17 44            L17 12            Q17 9 20 9            L36 9" fill="none" stroke="#0078d4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Arrow head -->
-  <path d="M29 1 L44 9 L29 18" fill="none" stroke="#0078d4" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Route table connection -->
-  <path d="M17 44            Q17 58 33 58            L49 58" fill="none" stroke="#0078d4" stroke-width="9" stroke-linecap="round"/>
-
-  <!-- Connection into destination -->
-  <path d="M49 58 L57 58" fill="none" stroke="#0078d4" stroke-width="8" stroke-linecap="round"/>
-
-  <!-- Small route direction marker -->
-  <path d="M45 49 L56 58 L45 67" fill="none" stroke="#0078d4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Yellow sketchnote accents -->
-  <g fill="none" stroke="#f2c94c" stroke-width="2.5" stroke-linecap="round">
-    <path d="M99 16 L105 11"/>
-    <path d="M108 23 L114 21"/>
-    <path d="M29 94 L24 98"/>
   </g>
-
-  <!-- Hand-drawn contour details -->
-  <g fill="none" stroke-linecap="round" opacity=".55">
-    <path d="M49 86 Q39 97 41 113" stroke="#198ab3" stroke-width="1.5"/>
-    <path d="M94 88 Q113 94 116 112" stroke="#198ab3" stroke-width="1.5"/>
-    <path d="M59 45 Q60 56 72 59" stroke="#b5f2ff" stroke-width="1.5"/>
-  </g>
-
 </svg>

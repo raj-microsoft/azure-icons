@@ -1,81 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure DevOps (sketch)</title>
-
-  
-  <desc>
-    Hand-drawn sketchnote version of the Azure DevOps icon.
-    Preserves the recognizable angular looping ribbon silhouette
-    using Azure blue gradients, uneven marker outlines,
-    subtle handwritten sketch details, restrained yellow accents,
-    and a transparent background.
-  </desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure DevOps (sketch)</title>
   <defs>
-    <linearGradient id="devopsBlue" x1="64" y1="10" x2="64" y2="118" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="0.18" stop-color="#559CEC"/>
-      <stop offset="0.53" stop-color="#3C91E5"/>
-      <stop offset="0.82" stop-color="#1380DA"/>
-      <stop offset="1" stop-color="#0078D4"/>
-    </linearGradient>
-
-    <linearGradient id="devopsBlueLight" x1="22" y1="24" x2="108" y2="102" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#8FCCFF"/>
-      <stop offset="1" stop-color="#2A86DF"/>
+    <linearGradient id="azdoGradient" x1="9" y1="16.97" x2="9" y2="1.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="0.16" stop-color="#1380da"/>
+      <stop offset="0.53" stop-color="#3c91e5"/>
+      <stop offset="0.82" stop-color="#559cec"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
     </linearGradient>
   </defs>
 
-  <!-- Main Azure DevOps ribbon silhouette -->
-  <path d="M100 24            Q102 24 104 26            Q106 27 106 31            L106 89            Q106 93 103 95            L82 112            Q79 115 75 113            L44 102            Q40 101 40 97            L40 88            L24 67            Q22 64 22 61            L22 40            Q22 37 24 35            L34 22            Q35 20 38 19            L52 15            L52 10            Q52 6 56 8            L96 32            Q99 34 100 37            Z" fill="url(#devopsBlue)" stroke="#005BA1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)">
+    <!-- Main Azure DevOps logo component -->
+    <path d="M17,4          V13.74          L13,17.02          L6.8,14.76          V17          L3.29,12.41          L13.52,13.21          V4.44          Z" fill="url(#azdoGradient)"/>
 
-  <!-- Inner cut / hand-drawn separation to define the DevOps loop -->
-  <path d="M89 36            L89 87            L73 100            L49 91            L49 82            Q49 79 47 76            L35 61            L35 45            L41 37            L61 31            L61 26            Z" fill="rgba(255,255,255,0.0)"/>
+    <!-- Original upper-left disconnected logo component -->
+    <path d="M13.59,4.49          L7.85,1          V3.29          L2.58,4.84          L1,6.87          V11.48          L3.26,12.48          V6.57          Z" fill="url(#azdoGradient)"/>
 
-  <!-- Left prong / entry arm contour -->
-  <path d="M54 17            L54 29            L39 34            Q37 35 35 37            L30 44            L30 58            L41 63            L41 47            L48 38            L67 33            L67 24            Z" fill="url(#devopsBlueLight)" stroke="#005BA1" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Right main body / loop -->
-  <path d="M67 31            L98 49            L98 87            L80 102            L47 90            L47 81            L88 84            L88 38            Z" fill="url(#devopsBlue)" stroke="#005BA1" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Lower link / connector arm -->
-  <path d="M24 66            L42 71            L42 95            L29 78            L24 73            Z" fill="#2E8EE3" stroke="#005BA1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Soft highlight strokes -->
-  <g stroke="#BFE3FF" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".8">
-    <path d="M58 18 L88 36"/>
-    <path d="M72 37 L89 47"/>
-    <path d="M92 54 L92 81"/>
-    <path d="M52 88 L74 96"/>
-    <path d="M31 43 L35 38 L47 34"/>
+    <!-- Subtle hand-drawn contour; follows existing logo geometry -->
+    <path d="M17.015,4.015          L16.99,13.745          L12.995,17.035          L6.79,14.775          L6.805,16.99          L3.275,12.395          L13.535,13.225          L13.515,4.425          Z          M13.575,4.505          L7.865,0.985          L7.835,3.305          L2.565,4.855          L0.985,6.855          L1.015,11.495          L3.275,12.465          L3.245,6.555          Z" fill="none" stroke="#1678c5" stroke-width="0.045" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-
-  <!-- Sketchy marker reinforcement lines -->
-  <g stroke="#0D6BC0" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".65">
-    <path d="M26 40 Q27 37 30 34"/>
-    <path d="M47 98 Q59 101 72 105"/>
-    <path d="M101 31 Q101 36 100 40"/>
-    <path d="M40 71 Q43 74 44 78"/>
-  </g>
-
-  <!-- Subtle handwritten/sketchnote details -->
-  <g stroke="#005BA1" stroke-width="1.7" stroke-linecap="round" fill="none" opacity=".6">
-    <path d="M18 85 Q23 88 28 87"/>
-    <path d="M101 104 Q106 102 109 98"/>
-    <path d="M77 15 Q83 14 88 17"/>
-  </g>
-
-  <!-- Restrained yellow sketchnote accents -->
-  <g stroke="#F4C542" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <!-- sparkle near top-right -->
-    <path d="M110 18 L110 26"/>
-    <path d="M106 22 L114 22"/>
-
-    <!-- small emphasis marks -->
-    <path d="M17 31 L22 28"/>
-    <path d="M15 38 L21 38"/>
-
-    <!-- lower-right accent -->
-    <path d="M88 114 L93 110"/>
-    <path d="M94 117 L99 113"/>
-  </g>
-
 </svg>

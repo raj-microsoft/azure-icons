@@ -1,89 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Web Jobs (sketch)</title>
   
-  <desc>Hand-drawn sketchnote Azure Web Jobs icon featuring a blue connected workflow network, three processing nodes and two cyan gears representing automated background jobs.</desc>
-
   <defs>
-    <radialGradient id="webBlue" cx=".4" cy=".3" r=".8">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <radialGradient id="globe" cx="4649.515" cy="3578.357" r="48.597" gradientTransform="translate(-689.641 -529.326) scale(.15)" gradientUnits="userSpaceOnUse">
+      <stop offset=".183" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
     </radialGradient>
-    <linearGradient id="nodeSilver" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FCFCFC"/>
-      <stop offset="1" stop-color="#CCCCCC"/>
+    <linearGradient id="silver" x1="3.844" y1="9.561" x2="3.817" y2="6.165" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset=".123" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
     </linearGradient>
-    <linearGradient id="gearCyan" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#32D4F5"/>
-      <stop offset="1" stop-color="#32B4D5"/>
+    <linearGradient id="silver2" x1="8.763" y1="12.958" x2="8.763" y2="9.913" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset=".123" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+    <linearGradient id="gear" x1="-105.292" y1="373.011" x2="-105.292" y2="364.165" gradientTransform="matrix(.949 -.314 .314 .949 -2.714 -371.496)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32bedd"/>
+      <stop offset=".576" stop-color="#32ceef"/>
+      <stop offset="1" stop-color="#32d4f5"/>
     </linearGradient>
   </defs>
 
-  <!-- Main Azure circular workflow -->
-  <path d="M81 91            C67 111 39 112 22 95            C3 76 11 45 31 29            C49 13 79 15 96 32            C109 45 113 65 105 81" fill="none" stroke="#005BA1" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <g transform="scale(7.111111)">
+    <!-- Globe -->
+    <path d="M12.257 13.19A7.289 7.289 0 1 1 3.323 1.67L3.4 1.614A7.289 7.289 0 0 1 12.257 13.19Z" fill="url(#globe)" stroke="#006bbd" stroke-width=".045"/>
 
-  <path d="M78 92            C62 108 39 105 25 90            C10 73 16 47 33 32            C51 17 76 20 93 34" fill="none" stroke="#5EA0EF" stroke-width="2" stroke-dasharray="3 4" stroke-linecap="round"/>
+    <!-- Globe surface highlights -->
+    <g fill="#fff" opacity=".6">
+      <path d="M5.808 5.913A11.162 11.162 0 0 1 13.45 2.842 7.185 7.185 0 0 0 12.176 1.6a12.386 12.386 0 0 0-4.026.95 10.628 10.628 0 0 0-3.5 2.414 2.348 2.348 0 0 1 1.158.949Z"/>
+      <path d="M2.2 8.841a16.236 16.236 0 0 0-.717 2.25 7.7 7.7 0 0 0 .534.791 6.782 6.782 0 0 0 .475.555A15.3 15.3 0 0 1 3.42 9.462a2.332 2.332 0 0 1-1.22-.621Z"/>
+    </g>
+    <path d="M3.039 4.952a10.239 10.239 0 0 1-.591-2.526A7.277 7.277 0 0 0 1.5 3.676 11.361 11.361 0 0 0 1.991 5.7a2.33 2.33 0 0 1 1.048-.748Z" fill="#f2f2f2" opacity=".55"/>
 
-  <!-- Workflow connections -->
-  <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M35 49 Q56 32 79 49"/>
-    <path d="M35 49 L55 82"/>
-    <path d="M79 49 L55 82"/>
-  </g>
-  <g fill="none" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round">
-    <path d="M35 49 Q56 32 79 49"/>
-    <path d="M35 49 L55 82"/>
-    <path d="M79 49 L55 82"/>
-  </g>
+    <!-- Large globe gear -->
+    <path d="M17.5 10.571l-.317-.958-.151 0-1.136 0-.485-.566.154-1.281-.895-.45-.112.112-.8.8-.744-.052-.8-1.02-.958.317-.006.151 0 1.136-.566.485L9.424 9.088l-.449.894.112.112.8.8-.051.743-1.037.81.317.957.151.006 1.136 0 .485.566-.154 1.281.895.449.112-.112.8-.8.744.052.8 1.02.958-.317.006-.151 0-1.135.566-.486 1.281.154.45-.894-.112-.113-.8-.8.052-.744ZM13.761 13.35A1.941 1.941 0 1 1 14.994 10.9a1.94 1.94 0 0 1-1.233 2.45Z" fill="url(#gear)" stroke="#159dbd" stroke-width=".045" stroke-linejoin="round"/>
 
-  <!-- Top processing node -->
-  <circle cx="56" cy="32" r="16" fill="url(#nodeSilver)" stroke="#777777" stroke-width="2.5"/>
-  <circle cx="56" cy="32" r="11" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
-  <circle cx="56" cy="32" r="5" fill="#5EA0EF" stroke="#0078D4" stroke-width="1.5"/>
+    <!-- Smaller lower-left gear -->
+    <path d="M7.613 14.753v-.794L7.5 13.918l-.85-.279-.223-.543.432-.919L6.3 11.619l-.112.056-.794.4-.543-.223L4.507 10.9H3.713l-.042.111-.278.85-.544.223-.905-.432-.557.557.055.112.4.794-.222.543L.649 14V14.8l.111.042.85.279.223.543-.432.919.557.557.111-.056.794-.4.543.222.349.962h.794l.041-.112.279-.85.543-.222.92.431.557-.557-.056-.111-.4-.794.223-.543ZM4.131 15.906a1.529 1.529 0 1 1 1.528-1.529 1.528 1.528 0 0 1-1.528 1.529Z" fill="#50e6ff" stroke="#159fc1" stroke-width=".045" stroke-linejoin="round"/>
 
-  <!-- Left processing node -->
-  <circle cx="27" cy="51" r="16" fill="url(#nodeSilver)" stroke="#777777" stroke-width="2.5"/>
-  <circle cx="27" cy="51" r="10" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
-  <circle cx="27" cy="51" r="5" fill="#5EA0EF" stroke="#0078D4" stroke-width="1.5"/>
+    <!-- Original circular globe details -->
+    <circle cx="3.825" cy="7.157" r="2.343" fill="url(#silver)"/>
+    <circle cx="8.763" cy="11.435" r="1.522" fill="url(#silver2)"/>
 
-  <!-- Bottom processing node -->
-  <circle cx="56" cy="86" r="14" fill="url(#nodeSilver)" stroke="#777777" stroke-width="2.5"/>
-  <circle cx="56" cy="86" r="8" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
-  <circle cx="56" cy="86" r="4" fill="#5EA0EF" stroke="#0078D4" stroke-width="1.3"/>
+    <g fill="#f2f2f2" opacity=".55">
+      <path d="M7.241 11.435A1.515 1.515 0 0 1 7.7 10.347a10.307 10.307 0 0 1-2.165-1.592 2.336 2.336 0 0 1-1.28.7 10.213 10.213 0 0 0 1.245 1.1 10.6 10.6 0 0 0 1.755 1.07 1.4 1.4 0 0 1-.014-.19Z"/>
+      <path d="M12.642 11.617a10.288 10.288 0 0 1-2.362-.275c0 .031.005.062.005.093A1.515 1.515 0 0 1 9.852 12.5a11.879 11.879 0 0 0 2.925.209 7.185 7.185 0 0 0 .987-1.152 10.517 10.517 0 0 1-1.122.06Z"/>
+    </g>
 
-  <!-- Right processing node -->
-  <circle cx="86" cy="51" r="13" fill="url(#nodeSilver)" stroke="#777777" stroke-width="2.5"/>
-  <circle cx="86" cy="51" r="7" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
-  <circle cx="86" cy="51" r="3.5" fill="#5EA0EF" stroke="#0078D4" stroke-width="1.3"/>
+    <path d="M10.635 7.368a1.588 1.588 0 0 1 .525-.848A21.663 21.663 0 0 1 7.333 2.962 14.576 14.576 0 0 1 5.632.457 7.227 7.227 0 0 0 4.7.816a15.211 15.211 0 0 0 1.829 2.732 22.61 22.61 0 0 0 4.106 3.82Z" fill="#f2f2f2" opacity=".7"/>
 
-  <!-- Main automation gear -->
-  <path d="M108 57     L114 58 L117 64 L123 64     L125 71 L120 75 L121 81     L115 85 L110 82 L105 86     L99 82 L100 76 L95 72     L98 65 L104 65 Z" fill="url(#gearCyan)" stroke="#0078D4" stroke-width="2.8" stroke-linejoin="round"/>
+    <circle cx="12.232" cy="7.66" r="1.617" fill="#f2f2f2"/>
+    <path d="M14.948 8.75c-.1-.05-.18-.094-.275-.145l-.026-.014c-.086-.045-.17-.091-.254-.137l-.047-.026-.229-.128-.056-.032c-.091-.051-.181-.1-.27-.154a1.536 1.536 0 0 1-.546.793c.105.062.212.123.321.184l.072.041.3.165.029.016c.241.131.487.262.739.391h0a7.107 7.107 0 0 0 .243-.955Z" fill="#f2f2f2" opacity=".55"/>
 
-  <circle cx="110" cy="72" r="8" fill="#FFFFFF" stroke="#0078D4" stroke-width="2"/>
-  <circle cx="110" cy="72" r="3" fill="#32BEDD"/>
-
-  <!-- Secondary small gear -->
-  <path d="M79 91     L84 91 L87 95 L91 95     L93 100 L89 104 L90 109     L85 112 L81 109 L76 112     L72 108 L74 103 L70 100     L73 95 L77 95 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.3" stroke-linejoin="round"/>
-
-  <circle cx="81" cy="101" r="5" fill="#FFFFFF" stroke="#0078D4" stroke-width="1.8"/>
-
-  <!-- Workflow directional indicators -->
-  <path d="M89 30 Q99 38 102 48" fill="none" stroke="#32BEDD" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M96 43 L102 49 L104 40" fill="none" stroke="#32BEDD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Yellow sketchnote accents -->
-  <g fill="none" stroke="#E6B93F" stroke-width="2.5" stroke-linecap="round">
-    <path d="M15 27 L10 23"/>
-    <path d="M21 17 L19 12"/>
-    <path d="M94 18 L99 14"/>
-    <path d="M116 39 L121 36"/>
-    <path d="M60 116 L64 121"/>
-  </g>
-
-  <!-- Hand-drawn marker details -->
-  <g fill="none" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round">
-    <path d="M37 17 L42 15"/>
-    <path d="M12 68 L9 72"/>
-    <path d="M66 100 L70 103"/>
-    <path d="M96 91 L100 87"/>
-    <path d="M45 110 Q51 113 57 112"/>
+    <!-- White gear centres -->
+    <circle cx="13.151" cy="11.507" r="1.941" fill="#fff"/>
+    <circle cx="4.131" cy="14.377" r="1.528" fill="#fff"/>
   </g>
 </svg>

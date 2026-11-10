@@ -1,85 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Device Provisioning Services (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Device Provisioning Services (sketch)</title>
   <defs>
-    <linearGradient id="orbitGray" x1="64" y1="8" x2="64" y2="120" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#B3B2B3"/>
-      <stop offset=".54" stop-color="#9E9E9E"/>
-      <stop offset="1" stop-color="#949494"/>
-    </linearGradient>
-    <linearGradient id="nodeCyan" x1="45" y1="30" x2="85" y2="90" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#59D8EA"/>
-      <stop offset="1" stop-color="#32BEDD"/>
+    <linearGradient id="dps-ring" x1="8.992" y1="16.975" x2="8.992" y2="0.242" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b3b2b3"/>
+      <stop offset="0.31" stop-color="#9e9e9e"/>
+      <stop offset="0.54" stop-color="#949494"/>
     </linearGradient>
   </defs>
 
-  <!-- Hand-drawn circular provisioning network -->
-  <path d="M35 22            C51 10 75 9 94 21" stroke="#777777" stroke-width="7"/>
+  <g transform="scale(7.111111)">
 
-  <path d="M109 37            C120 56 116 81 102 98            Q92 109 76 114" stroke="url(#orbitGray)" stroke-width="7"/>
+    <!-- Original network connections and ring intersections -->
+    <path d="M12.76,12.08          L10.34,7.85          L10.10,7.98          L10.30,7.84          L7.56,3.94          L7.06,4.30          L9.49,7.75          L4.11,8.20          L4.16,8.82          L9.49,8.37          L7.72,11.31          L8.25,11.63          L10.07,8.61          L12.23,12.38          Z" fill="#989898" stroke="#898989" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/>
 
-  <path d="M51 115            C29 109 15 91 13 69            Q11 51 20 37" stroke="url(#orbitGray)" stroke-width="7"/>
+    <!-- Original network node positions -->
+    <g fill="#32bedd">
+      <circle cx="10.09" cy="8.06" r="1.42"/>
+      <circle cx="7.35" cy="4.18" r="1.2"/>
+      <circle cx="4.13" cy="8.59" r=".97"/>
+      <circle cx="8.04" cy="11.54" r=".97"/>
+      <circle cx="12.5" cy="12.31" r="1.12"/>
+    </g>
 
-  <!-- Secondary irregular marker strokes -->
-  <path d="M41 18 Q64 7 88 18            M114 52 Q122 77 105 98            M17 84 Q25 106 47 112" stroke="#C3C3C3" stroke-width="2.5" opacity=".8"/>
+    <!-- Outer three network nodes -->
+    <g fill="#198ab3">
+      <circle cx="15.05" cy="3.85" r="1.42"/>
+      <circle cx="3.17" cy="3.85" r="1.42"/>
+      <circle cx="9.01" cy="16.33" r="1.42"/>
+    </g>
 
-  <!-- Outer provisioning anchor points -->
-  <path d="M13 21            Q17 16 22 19            Q28 21 28 28            Q27 35 21 37            Q14 38 10 32            Q7 26 13 21Z" fill="#198AB3" stroke="#075D82" stroke-width="3.5"/>
+    <!-- Original connecting circular network ring -->
+    <path d="M4.94,3.12          A6.881,6.881 0 0 1 13.23,3.24          A1.918,1.918 0 0 1 14.23,2.09          A8.431,8.431 0 0 0 3.81,2          A1.941,1.941 0 0 1 4.94,3.12Z" fill="url(#dps-ring)"/>
 
-  <path d="M99 21            Q105 17 111 21            Q117 25 114 32            Q112 37 105 37            Q98 36 96 30            Q95 25 99 21Z" fill="#198AB3" stroke="#075D82" stroke-width="3.5"/>
+    <path d="M16.6,5          A1.91,1.91 0 0 1 15.26,5.76          A6.842,6.842 0 0 1 15.93,8.76          A6.92,6.92 0 0 1 10.71,15.46          A1.871,1.871 0 0 1 10.95,16.37          A1.765,1.765 0 0 1 10.82,17.02          A8.45,8.45 0 0 0 16.59,5Z" fill="url(#dps-ring)"/>
 
-  <path d="M59 108            Q64 104 70 108            Q76 111 75 118            Q73 125 66 125            Q59 125 56 119            Q54 113 59 108Z" fill="#198AB3" stroke="#075D82" stroke-width="3.5"/>
+    <path d="M7.1,16.32          A1.95,1.95 0 0 1 7.33,15.42          A6.909,6.909 0 0 1 2.77,5.73          A2,2 0 0 1 1.77,5.20          A1.676,1.676 0 0 1 1.47,4.80          A8.47,8.47 0 0 0 7.21,17          A1.926,1.926 0 0 1 7.1,16.32Z" fill="url(#dps-ring)"/>
 
-  <!-- Network topology: sketchy gray connectors -->
-  <g stroke="#989898" stroke-width="4">
-    <path d="M51 34 Q59 43 69 56"/>
-    <path d="M30 65 Q48 62 67 61"/>
-    <path d="M69 65 Q62 76 57 84"/>
-    <path d="M77 68 Q85 82 92 91"/>
+    <!-- Subtle hand-drawn edge treatment, retaining original geometry -->
+    <g fill="none" stroke="#858585" stroke-width=".035" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4.94 3.12 Q9 .05 13.23 3.24"/>
+      <path d="M16.6 5 Q19 12.8 10.82 17.02"/>
+      <path d="M7.21 17 Q-1 13 1.47 4.8"/>
+    </g>
+
   </g>
-
-  <!-- Slight hand-drawn offset lines -->
-  <g stroke="#C5C5C5" stroke-width="1.7" opacity=".8">
-    <path d="M54 39 L65 54"/>
-    <path d="M35 68 L55 66"/>
-    <path d="M76 73 L86 88"/>
-  </g>
-
-  <!-- Upper network device -->
-  <path d="M46 25            Q51 22 56 27            Q60 32 55 37            Q51 41 45 37            Q41 32 46 25Z" fill="url(#nodeCyan)" stroke="#087C9D" stroke-width="3.5"/>
-
-  <!-- Left network device -->
-  <path d="M24 58            Q29 55 34 59            Q38 64 33 69            Q28 73 23 68            Q20 63 24 58Z" fill="#32BEDD" stroke="#087C9D" stroke-width="3.5"/>
-
-  <!-- Central provisioning hub -->
-  <path d="M62 51            Q70 46 78 52            Q86 58 82 68            Q78 77 68 76            Q58 75 56 66            Q54 57 62 51Z" fill="url(#nodeCyan)" stroke="#087C9D" stroke-width="4.5"/>
-
-  <!-- Central hub highlight -->
-  <path d="M62 59 Q67 53 74 57" stroke="#DDF9FF" stroke-width="3" opacity=".95"/>
-
-  <!-- Lower-left network device -->
-  <path d="M52 81            Q57 78 62 82            Q66 87 62 92            Q57 96 52 92            Q48 87 52 81Z" fill="#32BEDD" stroke="#087C9D" stroke-width="3.5"/>
-
-  <!-- Lower-right network device -->
-  <path d="M87 87            Q93 83 99 88            Q104 94 99 100            Q93 105 87 100            Q82 94 87 87Z" fill="#32BEDD" stroke="#087C9D" stroke-width="3.5"/>
-
-  <!-- Small hand-drawn node glints -->
-  <g fill="#E7FCFF">
-    <circle cx="49" cy="29" r="2"/>
-    <circle cx="27" cy="62" r="1.8"/>
-    <circle cx="55" cy="85" r="1.8"/>
-    <circle cx="91" cy="91" r="2"/>
-  </g>
-
-  <!-- Yellow sketchnote provisioning accent -->
-  <path d="M83 39 L87 44 L82 48" stroke="#FFCF45" stroke-width="3.5"/>
-
-  <path d="M87 44 Q92 48 93 54" stroke="#FFCF45" stroke-width="2.5" stroke-dasharray="3 5"/>
-
-  <!-- Subtle hand-drawn orbit motion marks -->
-  <path d="M42 7 L45 3            M52 5 L53 1            M83 7 L86 3            M119 64 L124 65            M118 76 L123 79            M28 111 L25 116            M37 118 L35 123" stroke="#A7A7A7" stroke-width="2.5"/>
-
-  <!-- Cyan communication accents -->
-  <path d="M38 48 Q42 44 48 43            M86 77 Q91 79 95 83" stroke="#32BEDD" stroke-width="2.5" stroke-dasharray="4 4"/>
-
-  <!-- Small yellow status spark -->
-  <path d="M105 46 L107 50            L111 52 L107 54            L105 58 L103 54            L99 52 L103 50Z" fill="#FFCF45" stroke="#C28D19" stroke-width="1.5"/>
 </svg>

@@ -1,99 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Blob Page (sketch)</title>
-
-  
-  <desc>
-    Hand-drawn Azure Blob Page icon featuring a cyan storage
-    container, dark teal header, and two folded-corner page
-    documents. Uneven marker outlines, subtle yellow highlights,
-    and a transparent background.
-  </desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Blob Page (sketch)</title>
   <defs>
-    <linearGradient id="blobBody" x1="64" y1="44" x2="64" y2="112" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32D4F5"/>
-      <stop offset="1" stop-color="#32BEDD"/>
-    </linearGradient>
-    <linearGradient id="blobHeader" x1="12" y1="19" x2="115" y2="44" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#198AB3"/>
-      <stop offset="1" stop-color="#137FA8"/>
+    <linearGradient id="base" x1="9" y1="15.834" x2="9" y2="5.788" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32bedd"/>
+      <stop offset=".775" stop-color="#32d4f5"/>
     </linearGradient>
   </defs>
 
-  <!-- Loose sketched accent strokes -->
-  <g stroke="#198AB3" stroke-width="2.3" stroke-linecap="round" opacity=".65">
-    <path d="M7 31 Q5 35 6 39"/>
-    <path d="M120 87 Q122 92 121 98"/>
-    <path d="M18 117 Q25 119 34 117"/>
+  <g transform="scale(7.111111)">
+    <!-- Main horizontal page container -->
+    <path d="M.5 5.788h17v9.478a.568.568 0 0 1-.568.568H1.068A.568.568 0 0 1 .5 15.266Z" fill="url(#base)"/>
+
+    <!-- Top header band -->
+    <path d="M1.071 2.166h15.858a.568.568 0 0 1 .568.568v3.054H.5V2.734a.568.568 0 0 1 .571-.568Z" fill="#198ab3"/>
+
+    <!-- Right blank page silhouette -->
+    <path d="M12.818 6.945H9.737a.243.243 0 0 0-.243.243v6.646a.243.243 0 0 0 .243.243h5.34a.243.243 0 0 0 .244-.243v-4.4a.244.244 0 0 0-.244-.244H13.305a.243.243 0 0 1-.243-.244V7.188a.243.243 0 0 0-.244-.243Z" fill="#fff"/>
+    <path d="M12.706 7.256V8.925a.613.613 0 0 0 .612.612H15v4.229H9.815V7.256Z" fill="none" stroke="#c3f1ff" stroke-width=".05"/>
+    <path d="M12.986 6.945V8.8a.418.418 0 0 0 .416.421H15Z" fill="#50e6ff"/>
+
+    <!-- Left blank page silhouette -->
+    <path d="M6.251 6.945H3.169a.243.243 0 0 0-.243.243v6.646a.243.243 0 0 0 .243.243H8.51a.243.243 0 0 0 .243-.243v-4.4a.243.243 0 0 0-.243-.244H6.737a.243.243 0 0 1-.243-.244V7.188a.243.243 0 0 0-.243-.243Z" fill="#fff"/>
+    <path d="M6.138 7.256V8.925a.613.613 0 0 0 .612.612H8.432v4.229H3.248V7.256Z" fill="none" stroke="#c3f1ff" stroke-width=".05"/>
+    <path d="M6.418 6.945V8.8a.418.418 0 0 0 .416.421H8.7Z" fill="#50e6ff"/>
+
+    <!-- Subtle hand-drawn contour treatment, preserving original geometry -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M.55 5.83v9.42c0 .3.23.53.53.53h15.84c.3 0 .53-.23.53-.53V5.83" stroke="#007da8" stroke-width=".045" opacity=".65"/>
+      <path d="M.55 5.75V2.75c0-.3.23-.53.53-.53h15.84c.3 0 .53.23.53.53v3" stroke="#126f98" stroke-width=".045" opacity=".6"/>
+      <path d="M3.18 7.02h3.02M9.75 7.02h3.02" stroke="#c3f1ff" stroke-width=".035" opacity=".65"/>
+    </g>
   </g>
-
-  <!-- Storage container body -->
-  <path d="M13 43            Q11 43 11 47            L12 107            Q12 112 17 112            Q63 114 111 112            Q116 112 116 107            L117 44            Q65 46 13 43Z" fill="url(#blobBody)" stroke="#147DA6" stroke-width="3.2" stroke-linejoin="round"/>
-
-  <!-- Cyan hand-marker texture -->
-  <g stroke="#87E9FA" stroke-width="2.2" stroke-linecap="round" opacity=".65">
-    <path d="M18 53 Q17 69 18 82"/>
-    <path d="M21 96 L21 103"/>
-    <path d="M110 59 Q111 69 110 76"/>
-  </g>
-
-  <!-- Dark teal storage header -->
-  <path d="M17 18            Q48 17 80 19            L111 18            Q116 18 116 23            L117 44            Q90 46 63 44            Q38 43 11 45            L11 23            Q11 18 17 18Z" fill="url(#blobHeader)" stroke="#125B79" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Header sketch highlights -->
-  <path d="M20 24 Q43 22 66 24" stroke="#76DAEE" stroke-width="2.3" stroke-linecap="round" opacity=".8"/>
-  <path d="M84 24 Q96 23 106 25" stroke="#76DAEE" stroke-width="2" stroke-linecap="round" opacity=".65"/>
-
-  <!-- Hand-drawn separation line -->
-  <path d="M13 45 Q39 44 65 45 T115 45" stroke="#126E91" stroke-width="2.2" stroke-linecap="round"/>
-
-  <!-- Left document shadow -->
-  <path d="M29 52            L54 52            L72 70            L72 99            Q72 102 69 102            L29 102            Q26 102 26 99            L26 56            Q26 52 29 52Z" fill="#087FA5" opacity=".17"/>
-
-  <!-- Left document -->
-  <path d="M31 49            Q29 49 29 52            L29 96            Q29 99 32 99            L66 99            Q69 99 69 96            L69 67            L52 49Z" fill="#FFFFFF" stroke="#167FA8" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Left folded corner -->
-  <path d="M52 49            L52 64            Q52 67 55 67            L69 67Z" fill="#50E6FF" stroke="#167FA8" stroke-width="2.6" stroke-linejoin="round"/>
-
-  <path d="M55 53 L64 62" stroke="#B8F4FF" stroke-width="2" stroke-linecap="round"/>
-
-  <!-- Left page handwritten strokes -->
-  <g stroke="#A8DCEB" stroke-width="2.5" stroke-linecap="round">
-    <path d="M37 74 Q45 73 56 74"/>
-    <path d="M37 81 Q48 80 61 81"/>
-    <path d="M37 88 Q43 87 51 88"/>
-  </g>
-
-  <!-- Right document shadow -->
-  <path d="M77 52            L101 52            L117 68            L117 99            Q117 102 114 102            L77 102            Q74 102 74 99            L74 55            Q74 52 77 52Z" fill="#087FA5" opacity=".16"/>
-
-  <!-- Right document -->
-  <path d="M79 49            Q76 49 76 52            L76 96            Q76 99 79 99            L110 99            Q113 99 113 96            L113 67            L96 49Z" fill="#FFFFFF" stroke="#167FA8" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Right folded corner -->
-  <path d="M96 49            L96 64            Q96 67 99 67            L113 67Z" fill="#50E6FF" stroke="#167FA8" stroke-width="2.6" stroke-linejoin="round"/>
-
-  <path d="M99 53 L108 62" stroke="#B8F4FF" stroke-width="2" stroke-linecap="round"/>
-
-  <!-- Right page handwritten strokes -->
-  <g stroke="#A8DCEB" stroke-width="2.5" stroke-linecap="round">
-    <path d="M84 74 Q93 73 102 74"/>
-    <path d="M84 81 Q94 80 105 81"/>
-    <path d="M84 88 Q90 87 98 88"/>
-  </g>
-
-  <!-- Restrained yellow sketchnote accents -->
-  <g stroke="#F4BE46" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M20 12 L23 7"/>
-    <path d="M29 13 L33 10"/>
-    <path d="M119 52 L123 49"/>
-    <path d="M120 61 L125 61"/>
-  </g>
-
-  <!-- Small marker sparkle -->
-  <path d="M64 105 L64 110            M61.5 107.5 L66.5 107.5" stroke="#F4BE46" stroke-width="2.3" stroke-linecap="round"/>
-
-  <!-- Loose underline for sketchnote character -->
-  <path d="M40 118 Q63 120 88 118" stroke="#198AB3" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
-
 </svg>

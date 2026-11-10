@@ -1,48 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Subnet (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Subnet (sketch)</title>
   
-  <desc>Four cyan and Azure-blue diagonal network segments forming an open diamond around a central green node, with uneven hand-drawn marker outlines.</desc>
-
   <defs>
-    <linearGradient id="nodeGreen" x1="64" y1="52" x2="64" y2="76" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#86D633"/>
-      <stop offset=".5" stop-color="#7CC52F"/>
-      <stop offset="1" stop-color="#5E9624"/>
+    <linearGradient id="green" x1="9.033" y1="10.305" x2="9.033" y2="7.695" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5e9624"/>
+      <stop offset=".241" stop-color="#6fb02a"/>
+      <stop offset=".501" stop-color="#7cc52f"/>
+      <stop offset=".756" stop-color="#83d232"/>
+      <stop offset="1" stop-color="#86d633"/>
     </linearGradient>
   </defs>
 
-  <!-- Upper-left Azure network segment -->
-  <path d="M13 62            Q10 59 13 56            L52 17            Q55 14 58 17            L63 22            Q66 25 63 28            L24 67            Q21 70 18 67 Z" fill="#1490DF" stroke="#1166A5" stroke-width="3.3"/>
+  <g transform="scale(7.111111)">
+    <!-- Central green node -->
+    <path d="M9.031 7.7A1.305 1.305 0 1 0 10.338 9 1.305 1.305 0 0 0 9.031 7.7Z" fill="url(#green)" stroke="#579426" stroke-width=".045" stroke-linejoin="round"/>
 
-  <!-- Upper-right Azure network segment -->
-  <path d="M65 22            L70 17            Q73 14 76 17            L115 56            Q118 59 115 62            L110 67            Q107 70 104 67            L65 28            Q62 25 65 22 Z" fill="#1490DF" stroke="#1166A5" stroke-width="3.3"/>
+    <!-- Four independent diagonal bracket segments -->
+    <g stroke-linejoin="round" stroke-linecap="round" stroke-width=".065">
+      <!-- Upper-left to lower-right bracket -->
+      <path d="M2.961 7.374h.888a.284.284 0 0 1 .284.284v6.551a.568.568 0 0 1-.568.568H2.677V7.659a.284.284 0 0 1 .284-.285Z" transform="translate(13.653 16.485) rotate(134.919)" fill="#50e6ff" stroke="#168fc3"/>
 
-  <!-- Lower-left cyan network segment -->
-  <path d="M18 61            Q21 58 24 61            L63 100            Q66 103 63 106            L58 111            Q55 114 52 111            L13 72            Q10 69 13 66 Z" fill="#50E6FF" stroke="#168FB7" stroke-width="3.3"/>
+      <!-- Upper-right to lower-left bracket -->
+      <path d="M2.913 3.244H3.8a.284.284 0 0 1 .284.284v7.015H3.2a.568.568 0 0 1-.568-.568V3.528a.284.284 0 0 1 .281-.284Z" transform="translate(5.847 -.358) rotate(44.919)" fill="#1490df" stroke="#0878b9"/>
 
-  <!-- Lower-right cyan network segment -->
-  <path d="M104 61            Q107 58 110 61            L115 66            Q118 69 115 72            L76 111            Q73 114 70 111            L65 106            Q62 103 65 100 Z" fill="#50E6FF" stroke="#168FB7" stroke-width="3.3"/>
+      <!-- Lower-right to upper-left bracket -->
+      <path d="M13.867 7.374h.888a.568.568 0 0 1 .568.568v6.551a.284.284 0 0 1-.284.284h-.888a.284.284 0 0 1-.284-.284V7.374Z" transform="translate(12.132 -7.079) rotate(45.081)" fill="#50e6ff" stroke="#168fc3"/>
 
-  <!-- Uneven marker highlights -->
-  <path d="M20 56 L51 25            M77 25 L108 56" stroke="#B5E5FF" stroke-width="2.3" opacity=".85"/>
-
-  <path d="M20 72 L52 104            M76 104 L108 72" stroke="#D8FAFF" stroke-width="2.3" opacity=".9"/>
-
-  <!-- Central green network node -->
-  <path d="M64 52            C71 52 76 57 76 64            C76 71 71 76 64 76            C57 76 52 71 52 64            C52 57 57 52 64 52 Z" fill="url(#nodeGreen)" stroke="#4E861F" stroke-width="3.4"/>
-
-  <!-- Node highlight -->
-  <path d="M57 61            Q59 56 65 56" stroke="#C7F48A" stroke-width="2.6"/>
-
-  <!-- Small central node glint -->
-  <path d="M68 68 L70 66" stroke="#D9F7A6" stroke-width="2" opacity=".85"/>
-
-  <!-- Sketchnote yellow accents -->
-  <path d="M64 39 L64 44            M57 42 L54 38            M71 42 L74 38" stroke="#F4C542" stroke-width="2.5"/>
-
-  <!-- Subtle outer marker details -->
-  <path d="M6 45 L11 41            M117 43 L122 47            M8 85 L13 89            M116 89 L121 85" stroke="#1490DF" stroke-width="2.1"/>
-
-  <!-- Hand-drawn accent below central node -->
-  <path d="M59 83 Q64 85 69 83" stroke="#F4C542" stroke-width="2.2"/>
-
+      <!-- Lower-left to upper-right bracket -->
+      <path d="M14.483 3.244h.888v7.015a.284.284 0 0 1-.284.284H14.2a.284.284 0 0 1-.284-.284V3.812a.568.568 0 0 1 .567-.568Z" transform="translate(29.879 1.435) rotate(135.081)" fill="#1490df" stroke="#0878b9"/>
+    </g>
+  </g>
 </svg>
