@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Shared Image Galleries (sketch)</title>
+  <defs>
+    <linearGradient id="galleryBase" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear gallery image -->
+  <rect x="39" y="7" width="66" height="78" rx="5" fill="#005BA1" stroke="#004578" stroke-width="3.5" transform="rotate(5 72 46)"/>
+
+  <!-- Middle gallery image -->
+  <rect x="29" y="16" width="66" height="78" rx="5" fill="#0078D4" stroke="#075A9E" stroke-width="3.5" transform="rotate(2 62 55)"/>
+
+  <!-- Front gallery image -->
+  <rect x="19" y="25" width="66" height="78" rx="5" fill="#32BEDD" stroke="#087FA4" stroke-width="3.5" transform="rotate(-2 52 64)"/>
+
+  <!-- Mountain / image symbol -->
+  <path d="M33 53 L52 42 L71 53 L52 65 Z" fill="#C3F1FF" stroke="#0078D4" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <path d="M33 53 L52 65 L52 86 L33 74 Z" fill="#9CEBFF" stroke="#0078D4" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <path d="M52 65 L71 53 L71 74 L52 86 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <path d="M33 74 L52 63 L52 86 Z" fill="#C3F1FF"/>
+  <path d="M52 63 L71 74 L52 86 Z" fill="#9CEBFF"/>
+
+  <!-- Small image highlight -->
+  <circle cx="42" cy="48" r="3" fill="#FFFFFF"/>
+
+  <!-- Gallery base / platform -->
+  <path d="M12 86     Q12 83 16 83     L112 83     Q116 83 116 87     L116 111     Q116 115 112 115     L16 115     Q12 115 12 111 Z" fill="url(#galleryBase)" stroke="#075A9E" stroke-width="3.5"/>
+
+  <!-- Platform top highlight -->
+  <path d="M17 88 Q64 85 111 88" fill="none" stroke="#BDE5FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Platform center detail -->
+  <rect x="47" y="95" width="34" height="7" rx="3.5" fill="#F2F2F2" stroke="#0078D4" stroke-width="1"/>
+
+  <!-- Platform lower edge -->
+  <path d="M21 108 Q64 111 107 108" fill="none" stroke="#005BA1" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M96 20 L103 14 L110 20" fill="none" stroke="#FFCA28" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M13 38 L7 33 L13 28" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M93 69 L99 65" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn marker details -->
+  <path d="M26 30 L31 27 M35 23 L40 22     M91 31 L95 29" fill="none" stroke="#D8F5FF" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M8 119 Q25 123 39 120     M88 121 L102 119" fill="none" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+</svg>

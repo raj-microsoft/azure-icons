@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Storage Azure Files (sketch)</title>
+  <defs>
+    <linearGradient id="filesBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#32d4f5"/>
+      <stop offset="1" stop-color="#32bedd"/>
+    </linearGradient>
+    <linearGradient id="filesTab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#005ba1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure Files storage container -->
+  <path d="M12 40     Q12 36 17 36     L111 36     Q116 36 116 41     L116 103     Q116 109 110 109     L18 109     Q12 109 12 103 Z" fill="url(#filesBody)" stroke="#00649b" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Folder tab -->
+  <path d="M12 40     L12 25     Q12 20 17 20     L52 20     Q56 20 59 24     L66 32     L111 32     Q116 32 116 38     L116 45     L12 45 Z" fill="url(#filesTab)" stroke="#005ba1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Folder inner highlight -->
+  <path d="M20 25 L49 25 Q53 25 56 30" fill="none" stroke="#50e6ff" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Open file folder -->
+  <path d="M37 53     Q37 50 41 50     L65 50     Q68 50 71 54     L77 59     L99 59     Q103 59 103 63     L103 91     Q103 95 99 95     L37 95 Z" fill="#5ea0ef" stroke="#0078d4" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- File sheet -->
+  <path d="M43 57     Q43 54 46 54     L68 54     Q70 54 70 57     L70 88     Q70 91 67 91     L46 91     Q43 91 43 88 Z" fill="#ffffff" stroke="#168ac0" stroke-width="1.8"/>
+
+  <!-- File markings -->
+  <path d="M49 64 L64 64     M49 72 L64 72     M49 80 L60 80" fill="none" stroke="#5ea0ef" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Folder front edge -->
+  <path d="M31 99 Q62 102 98 99" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Storage sparkle -->
+  <path d="M104 15 L108 24 L117 27     L108 30 L105 39 L101 30     L93 27 L101 24 Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <path d="M85 17 L88 21 M120 47 L123 49" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn marker accents -->
+  <path d="M8 49 Q6 66 8 82" fill="none" stroke="#32bedd" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M17 114 Q49 118 76 115" fill="none" stroke="#0078d4" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M109 76 L111 83" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

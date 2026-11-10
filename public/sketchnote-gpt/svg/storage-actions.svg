@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>Storage Actions (sketch)</title>
+  <defs>
+    <linearGradient id="storageTop" x1="28" y1="12" x2="95" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9D8FF"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+    <linearGradient id="storageBody" x1="30" y1="37" x2="90" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2995EA"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="actionPurple" x1="84" y1="70" x2="111" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#552F99"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Storage cylinder -->
+  <path d="M18 29     C18 20 38 14 63 14     C88 14 108 20 108 29     L108 91     C108 100 88 107 63 107     C38 107 18 100 18 91 Z" fill="url(#storageBody)" stroke="#005A9E" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Top ellipse -->
+  <path d="M18 29     C18 20 38 14 63 14     C88 14 108 20 108 29     C108 38 88 44 63 44     C38 44 18 38 18 29 Z" fill="url(#storageTop)" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Storage layer separators -->
+  <path d="M19 49     C23 59 44 64 63 64     C84 64 103 59 107 49" stroke="#B9D8FF" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M19 72     C24 82 44 87 63 87     C79 87 96 84 105 77" stroke="#B9D8FF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Marker highlights -->
+  <path d="M28 27 C36 21 48 19 59 19     M26 51 C34 57 44 59 54 60     M27 75 C36 81 47 82 57 83" stroke="#E7F5FF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Storage action arrows -->
+  <path d="M79 68     L98 68     Q102 68 102 73     L102 82     L111 82     L96 97     L81 82     L90 82     L90 78     L79 78 Z" fill="url(#actionPurple)" stroke="#552F99" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M96 96     L111 111     L102 111     L102 119     Q102 123 98 123     L79 123     Q75 123 75 119     L75 111     L66 111     Z" fill="#B796F9" stroke="#773ADC" stroke-width="3" stroke-linejoin="round" transform="translate(0 -12)"/>
+
+  <!-- Directional motion accents -->
+  <path d="M113 58 L119 54     M117 66 L122 65     M62 113 L57 118" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small action sparkle -->
+  <path d="M112 34 L115 28     M115 39 L121 39     M109 24 L106 20" stroke="#FFB900" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

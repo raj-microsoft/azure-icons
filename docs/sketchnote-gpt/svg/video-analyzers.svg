@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Video Analyzers (sketch)</title>
+  <defs>
+    <linearGradient id="videoCloud" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset=".35" stop-color="#4595e8"/>
+      <stop offset=".7" stop-color="#087cd6"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="videoScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e5f8ff"/>
+      <stop offset="1" stop-color="#c3f1ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud silhouette -->
+  <path d="M27 91     C15 90 9 81 10 69     C11 57 21 48 35 47     C40 29 55 20 72 23     C88 25 98 36 100 52     C113 53 120 62 120 75     C120 86 111 93 99 94     L29 94 Z" fill="url(#videoCloud)" stroke="#005ba1" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Cloud highlights -->
+  <path d="M27 54 Q38 43 50 46 M66 29 Q83 28 90 43" fill="none" stroke="#b8dcff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Video analysis frame -->
+  <path d="M31 47     Q31 44 35 44     L94 44     Q98 44 98 48     L98 82     Q98 86 94 86     L35 86     Q31 86 31 82 Z" fill="url(#videoScreen)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Play button -->
+  <path d="M54 53     Q53 51 56 53     L76 63     Q79 65 76 67     L56 78     Q53 80 53 77 Z" fill="#5ea0ef" stroke="#198ab3" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Analysis connection graph -->
+  <g fill="none" stroke="#83b9f9" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 103 L48 96 L65 103 L83 95 L101 102"/>
+    <path d="M48 96 L54 110"/>
+    <path d="M83 95 L78 110"/>
+  </g>
+
+  <!-- Analysis nodes -->
+  <g fill="#9cebff" stroke="#0078d4" stroke-width="2">
+    <circle cx="29" cy="103" r="5"/>
+    <circle cx="48" cy="96" r="5"/>
+    <circle cx="65" cy="103" r="5"/>
+    <circle cx="83" cy="95" r="5"/>
+    <circle cx="101" cy="102" r="5"/>
+    <circle cx="54" cy="110" r="4"/>
+    <circle cx="78" cy="110" r="4"/>
+  </g>
+
+  <!-- Yellow detection accents -->
+  <g fill="none" stroke="#ffca28" stroke-width="3.5" stroke-linecap="round">
+    <path d="M17 35 L12 30"/>
+    <path d="M104 31 L110 26"/>
+    <path d="M113 47 L120 45"/>
+    <path d="M17 95 L11 99"/>
+  </g>
+
+  <!-- Sketchnote motion marks -->
+  <g fill="none" stroke="#c3f1ff" stroke-width="2" stroke-linecap="round">
+    <path d="M39 39 Q48 34 57 36"/>
+    <path d="M106 81 Q111 77 109 70"/>
+  </g>
+
+  <!-- Hand-drawn outline details -->
+  <g fill="none" stroke="#005ba1" stroke-width="1.8" stroke-linecap="round">
+    <path d="M16 73 Q15 82 23 86"/>
+    <path d="M94 91 Q103 92 109 87"/>
+    <path d="M34 89 Q64 93 94 89"/>
+  </g>
+</svg>

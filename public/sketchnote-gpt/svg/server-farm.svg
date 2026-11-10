@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Server Farm (sketch)</title>
+  <defs>
+    <linearGradient id="serverGray" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#B3B2B3"/>
+      <stop offset="0.45" stop-color="#AFAEAF"/>
+      <stop offset="1" stop-color="#979797"/>
+    </linearGradient>
+    <linearGradient id="serverBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.5" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear server rack -->
+  <path d="M15 12 Q15 9 19 9 L80 9 Q85 9 85 14     L85 111 Q85 115 81 115 L19 115     Q15 115 15 111 Z" fill="url(#serverGray)" stroke="#686868" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Rack side highlight -->
+  <path d="M22 17 L76 16 L77 106" fill="none" stroke="#E1E1E1" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Upper server slot -->
+  <path d="M27 28 Q27 23 33 23 L67 23 Q74 23 74 29     Q74 35 67 35 L33 35 Q27 35 27 28Z" fill="#003067"/>
+  <circle cx="37" cy="29" r="5" fill="#50E6FF"/>
+  <path d="M49 28 L67 28" stroke="#7CBCEB" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Lower server slot -->
+  <path d="M27 57 Q27 51 33 51 L67 51 Q74 51 74 57     Q74 63 67 63 L33 63 Q27 63 27 57Z" fill="#003067"/>
+  <circle cx="37" cy="57" r="5" fill="#50E6FF"/>
+  <path d="M49 56 L67 56" stroke="#7CBCEB" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Front server / network node -->
+  <path d="M57 76 L84 64 L112 77     L115 82 L115 113     Q115 117 111 117 L56 117     Q53 117 53 113 L53 83Z" fill="url(#serverBlue)" stroke="#005A9E" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Cyan network connection -->
+  <path d="M53 83 L84 98 L115 82" fill="none" stroke="#50E6FF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top server connection -->
+  <path d="M76 78 L84 82 L92 78" fill="none" stroke="#BDEEFF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Status indicator -->
+  <rect x="77" y="89" width="14" height="15" rx="2.5" fill="#005BA1" stroke="#004A83" stroke-width="1.5"/>
+  <circle cx="84" cy="96.5" r="2.5" fill="#50E6FF"/>
+
+  <!-- Network base / connected node -->
+  <path d="M71 111 L84 102 L97 111     L97 117 L71 117Z" fill="#005BA1" stroke="#004A83" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M84 103 L84 116" stroke="#50E6FF" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn yellow accents -->
+  <path d="M100 53 L105 47 L110 52" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39 78 L43 74 L47 78" fill="none" stroke="#FFCA28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Sketch marker details -->
+  <path d="M12 37 L12 64 M88 13 L91 17" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 120 Q35 123 48 120" fill="none" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M101 122 L110 120" fill="none" stroke="#50E6FF" stroke-width="2" stroke-linecap="round"/>
+</svg>

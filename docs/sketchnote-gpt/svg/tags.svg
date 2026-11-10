@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Tags (sketch)</title>
+  <defs>
+    <linearGradient id="tagFront" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c69aeb"/>
+      <stop offset="1" stop-color="#6f4bb2"/>
+    </linearGradient>
+    <linearGradient id="tagBack" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a67af4"/>
+      <stop offset="1" stop-color="#773adc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear tag -->
+  <path d="M21 52     L73 12     Q76 10 80 12     L108 28     Q111 30 110 34     L105 66     Q105 69 102 71     L53 111     Q49 114 46 110     L16 76     Q13 72 17 68 Z" fill="url(#tagBack)" stroke="#552f99" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Rear tag hole -->
+  <circle cx="91" cy="33" r="7" fill="#ffffff" stroke="#341a6e" stroke-width="2.5"/>
+  <circle cx="91" cy="33" r="2.5" fill="#a67af4"/>
+
+  <!-- Front tag silhouette -->
+  <path d="M12 38     L65 10     Q68 8 72 11     L105 32     Q109 34 108 38     L102 73     Q102 76 99 79     L48 119     Q44 122 41 118     L10 82     Q7 78 11 74 Z" fill="url(#tagFront)" stroke="#552f99" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Tag upper highlight -->
+  <path d="M17 41 L66 15 Q69 13 72 16 L98 32" fill="none" stroke="#e1c7fa" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Tag hole -->
+  <circle cx="88" cy="37" r="8" fill="#ffffff" stroke="#341a6e" stroke-width="2.5"/>
+  <circle cx="88" cy="37" r="3" fill="#c69aeb"/>
+
+  <!-- Tag stitching / marker detail -->
+  <path d="M18 79 L44 110     M48 112 L96 74" fill="none" stroke="#e1c7fa" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="3 5"/>
+
+  <!-- Azure-blue accent -->
+  <path d="M13 96 L19 102 M103 88 L109 83" fill="none" stroke="#50e6ff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M108 12 L112 21 L122 24     L113 29 L110 39 L105 30     L96 26 L105 21 Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <path d="M19 25 L23 21 M117 52 L122 50" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Test Base (sketch)</title>
+  <defs>
+    <linearGradient id="cloudBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="flaskCyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9cebff"/>
+      <stop offset="1" stop-color="#50e6ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud silhouette -->
+  <path d="M23 91     C12 87 9 77 13 67     C16 57 25 52 36 53     C40 37 52 29 67 30     C82 30 94 40 97 54     C109 54 118 63 119 75     C120 87 111 96 99 97     L31 97     Q26 96 23 91Z" fill="url(#cloudBlue)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Cloud highlight -->
+  <path d="M37 52 Q44 37 60 37 Q75 35 85 47" fill="none" stroke="#9edbff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Test flask neck -->
+  <path d="M55 49     L73 49     L73 58     Q73 62 77 68     L94 91     Q98 97 91 99     L37 99     Q30 97 35 91     L52 68     Q55 63 55 58Z" fill="url(#flaskCyan)" stroke="#0078d4" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Flask opening -->
+  <path d="M52 49 L76 49" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M57 44 L72 44" fill="none" stroke="#0078d4" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Flask liquid -->
+  <path d="M47 82     Q57 77 66 82     Q77 87 84 81     L92 93     Q95 97 89 97     L39 97     Q34 96 39 90Z" fill="#ffffff" opacity=".9"/>
+
+  <!-- Testing bubbles -->
+  <circle cx="52" cy="85" r="3" fill="#50e6ff"/>
+  <circle cx="66" cy="90" r="2.5" fill="#50e6ff"/>
+  <circle cx="76" cy="84" r="2" fill="#50e6ff"/>
+
+  <!-- Flask glass highlights -->
+  <path d="M54 69 L42 87 M74 69 L84 82" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Yellow test sparkle -->
+  <path d="M99 19     L104 29     L114 33     L105 38     L102 48     L97 39     L87 35     L97 30Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <path d="M22 37 L26 32 M110 56 L116 54" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn marker details -->
+  <path d="M16 80 Q14 88 20 93     M103 103 Q111 101 115 95" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+</svg>

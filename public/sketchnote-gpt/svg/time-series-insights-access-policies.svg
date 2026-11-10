@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Time Series Insights Access Policies (sketch)</title>
+  <defs>
+    <radialGradient id="gold" cx="42%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#ffd70f"/>
+      <stop offset=".49" stop-color="#ffcb12"/>
+      <stop offset=".88" stop-color="#feac19"/>
+      <stop offset="1" stop-color="#fea11b"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Hand-drawn access-policy key -->
+  <g stroke="#9a650b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M68 12       C62 7 54 9 49 14       L25 38       C19 44 20 53 26 59       L47 80       C50 83 52 87 52 91       L52 111       C52 114 54 117 57 120       L66 127       C68 129 71 129 73 126       L84 115       C86 113 86 111 84 109       L79 104       C77 102 77 100 79 98       L84 93       C86 91 86 89 84 87       L79 82       C77 80 78 78 80 76       L87 69       L106 50       C112 44 112 35 106 29       Z" fill="url(#gold)" transform="translate(0 0)"/>
+
+    <!-- Inner key details -->
+    <path d="M50 26 L91 67" fill="none" stroke="#ff9300" stroke-width="2.5" opacity=".8"/>
+    <path d="M43 43 L85 85" fill="none" stroke="#ff9300" stroke-width="2.5" opacity=".8"/>
+    <path d="M52 91 L52 111 Q52 115 57 120" fill="none" stroke="#ff9300" stroke-width="2" opacity=".8"/>
+
+    <!-- Key head -->
+    <circle cx="64" cy="28" r="9" fill="#fff1a3" stroke="#c27b0a" stroke-width="2.5"/>
+    <circle cx="64" cy="28" r="3.5" fill="#ffb400" stroke="none"/>
+
+    <!-- Sketchnote marker accents -->
+    <path d="M35 42 Q39 36 45 33" fill="none" stroke="#fff0a0" stroke-width="2.5"/>
+    <path d="M43 57 L63 77" fill="none" stroke="#fff0a0" stroke-width="2" opacity=".8"/>
+    <path d="M59 96 L59 113" fill="none" stroke="#fff0a0" stroke-width="2" opacity=".8"/>
+  </g>
+
+  <!-- Small access-policy signal marks -->
+  <g fill="none" stroke="#0078d4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M94 17 Q108 25 111 39"/>
+    <path d="M103 10 Q120 21 123 39"/>
+    <path d="M94 17 L90 24"/>
+    <path d="M111 39 L104 39"/>
+  </g>
+
+  <!-- Blue marker details -->
+  <g fill="#0078d4">
+    <circle cx="107" cy="53" r="3"/>
+    <circle cx="116" cy="62" r="2.3"/>
+  </g>
+</svg>

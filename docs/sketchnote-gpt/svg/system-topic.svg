@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>System Topic (sketch)</title>
+  <defs>
+    <linearGradient id="systemGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#76bc2d"/>
+      <stop offset="1" stop-color="#5e9624"/>
+    </linearGradient>
+    <linearGradient id="systemPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a67af4"/>
+      <stop offset="1" stop-color="#773adc"/>
+    </linearGradient>
+    <linearGradient id="systemMetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9b9b9"/>
+      <stop offset="1" stop-color="#949494"/>
+    </linearGradient>
+  </defs>
+
+  <!-- System topic frame -->
+  <path d="M13 17     Q13 12 19 12     L109 12     Q115 12 115 18     L115 110     Q115 116 109 116     L19 116     Q13 116 13 110 Z" fill="none" stroke="url(#systemMetal)" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Frame corner supports -->
+  <path d="M8 34 L8 17 Q8 7 19 7 L36 7     M92 7 L109 7 Q120 7 120 18 L120 34     M120 94 L120 110 Q120 121 109 121 L92 121     M36 121 L19 121 Q8 121 8 110 L8 94" fill="none" stroke="#949494" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Four system processing blocks -->
+  <g fill="url(#systemGreen)" stroke="#5e9624" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M30 36 L57 36 L57 57 L30 57 Z"/>
+    <path d="M70 36 L98 36 L98 57 L70 57 Z"/>
+    <path d="M30 71 L57 71 L57 94 L30 94 Z"/>
+    <path d="M70 71 L98 71 L98 94 L70 94 Z"/>
+  </g>
+
+  <!-- Block highlights -->
+  <g fill="none" stroke="#a5df63" stroke-width="2" stroke-linecap="round">
+    <path d="M35 41 L51 41"/>
+    <path d="M75 41 L92 41"/>
+    <path d="M35 76 L51 76"/>
+    <path d="M75 76 L92 76"/>
+  </g>
+
+  <!-- Central message routing line -->
+  <path d="M15 65     L34 65     Q40 65 43 65     L85 65     Q90 65 94 65     L112 65" fill="none" stroke="#773adc" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Message transfer arrow -->
+  <path d="M92 56 L104 65 L92 74" fill="none" stroke="#773adc" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central message node -->
+  <circle cx="64" cy="65" r="10" fill="#ffffff" stroke="#773adc" stroke-width="3"/>
+  <circle cx="64" cy="65" r="4" fill="#a67af4"/>
+
+  <!-- Yellow activity spark -->
+  <path d="M106 20 L110 29 L119 32     L111 36 L108 45 L104 37     L96 33 L104 29 Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn accent strokes -->
+  <path d="M21 25 Q28 21 35 23     M92 106 Q100 109 107 105" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M5 52 L8 48 M120 79 L124 76" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

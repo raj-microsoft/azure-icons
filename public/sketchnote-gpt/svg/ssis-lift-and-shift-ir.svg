@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>SSIS Lift And Shift IR (sketch)</title>
+  <defs>
+    <linearGradient id="dbBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#005ba1"/>
+      <stop offset=".48" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#005ba1"/>
+    </linearGradient>
+    <linearGradient id="dbTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f8ff"/>
+      <stop offset="1" stop-color="#50e6ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Database body -->
+  <path d="M12 28     C12 19 29 13 51 13     C70 13 87 18 90 25     L90 91     C90 101 72 108 51 108     C29 108 12 101 12 91 Z" fill="url(#dbBody)" stroke="#004578" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Database top -->
+  <path d="M12 28     C12 19 29 13 51 13     C72 13 90 19 90 28     C90 37 72 43 51 43     C29 43 12 37 12 28 Z" fill="#e8e8e8" stroke="#004578" stroke-width="2.8"/>
+
+  <path d="M20 27     C23 21 37 17 51 17     C67 17 81 21 84 27     C81 33 67 37 51 37     C36 37 23 33 20 27 Z" fill="url(#dbTop)" stroke="#168ac0" stroke-width="1.8"/>
+
+  <path d="M27 28 C40 33 64 33 77 27" fill="none" stroke="#198ab3" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Database horizontal layers -->
+  <path d="M13 51 C28 64 73 65 89 51" fill="none" stroke="#50e6ff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M13 76 C29 89 72 90 89 76" fill="none" stroke="#50e6ff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M19 57 C21 60 23 61 27 63" fill="none" stroke="#8edfff" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M18 82 C22 85 24 86 28 87" fill="none" stroke="#8edfff" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Subtle marker highlights -->
+  <path d="M17 39 L17 46 M17 66 L17 72 M84 40 L84 46" fill="none" stroke="#8edfff" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Lift-and-shift circular badge -->
+  <circle cx="91" cy="87" r="29" fill="#ffffff" stroke="#003067" stroke-width="3.2"/>
+  <circle cx="91" cy="87" r="24.5" fill="#f8fcff" stroke="#0078d4" stroke-width="1.8" stroke-dasharray="3 3"/>
+
+  <!-- Upper/right transfer arrow -->
+  <path d="M91 65     L91 73     L96 73     L96 69     L104 69     L104 84     L99 84     L99 89     L112 89     L112 84     L109 84     L109 66     Q109 63 106 63     L96 63     L96 59 Z" fill="#76bc2d" stroke="#397d16" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Lower/left transfer arrow -->
+  <path d="M91 109     L91 101     L86 101     L86 105     L78 105     L78 90     L83 90     L83 85     L70 85     L70 90     L73 90     L73 108     Q73 111 76 111     L86 111     L86 115 Z" fill="#76bc2d" stroke="#397d16" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Directional motion accents -->
+  <path d="M68 72 Q65 76 67 80" fill="none" stroke="#f2c811" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M113 96 Q115 91 113 87" fill="none" stroke="#f2c811" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn accent strokes -->
+  <path d="M9 30 Q7 47 9 58" fill="none" stroke="#0078d4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M48 111 Q61 113 70 109" fill="none" stroke="#005ba1" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

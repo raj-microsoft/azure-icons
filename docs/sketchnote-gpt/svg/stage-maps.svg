@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>Stage Maps (sketch)</title>
+  <defs>
+    <linearGradient id="stageBlue" x1="64" y1="105" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#0094F0"/>
+    </linearGradient>
+    <linearGradient id="stageLight" x1="64" y1="91" x2="64" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C3F1FF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+    <linearGradient id="mapBlue" x1="91" y1="12" x2="91" y2="55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8CD0FF"/>
+      <stop offset="1" stop-color="#0087D4"/>
+    </linearGradient>
+    <linearGradient id="mapBlue2" x1="35" y1="53" x2="35" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8CD0FF"/>
+      <stop offset="1" stop-color="#0087D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stage platform -->
+  <path d="M8 108.5 Q8 105.5 11 105.5 L117 105.5 Q120 105.5 120 108.5 L120 120.5 L8 120.5 Z" fill="url(#stageBlue)" stroke="#0078D4" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M19 92.5 Q19 90 22 90 L106 90 Q109 90 109 93 L109 105.5 L19 105.5 Z" fill="url(#stageLight)" stroke="#0094D4" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M13 113 Q37 111 61 113 T115 113" stroke="#DDF8FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Stage connection path -->
+  <path d="M51 65            C55 66 61 64 65 58            C69 51 68 42 74 36            C79 30 87 29 91 30" stroke="#AAB5BF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M51 65            C55 66 61 64 65 58            C69 51 68 42 74 36            C79 30 87 29 91 30" stroke="#E9F0F5" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="3 4"/>
+
+  <!-- Upper stage map marker -->
+  <path d="M91 9            C78 9 69 19 69 32            C69 44 91 61 91 61            C91 61 113 44 113 32            C113 19 104 9 91 9 Z" fill="url(#mapBlue)" stroke="#0067AC" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M91 17            C83 17 77 23 77 31            C77 39 83 45 91 45            C99 45 105 39 105 31            C105 23 99 17 91 17 Z" fill="#EAF9FF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <circle cx="91" cy="31" r="5" fill="#50E6FF"/>
+
+  <!-- Lower stage map marker -->
+  <path d="M36 48            C23 48 14 58 14 71            C14 83 36 100 36 100            C36 100 58 83 58 71            C58 58 49 48 36 48 Z" fill="url(#mapBlue2)" stroke="#0067AC" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M36 56            C28 56 22 62 22 70            C22 78 28 84 36 84            C44 84 50 78 50 70            C50 62 44 56 36 56 Z" fill="#EAF9FF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <circle cx="36" cy="70" r="5" fill="#50E6FF"/>
+
+  <!-- Yellow sketchnote highlights -->
+  <path d="M62 22 L66 17 M65 28 L71 26            M109 56 L115 52            M12 43 L17 40 M57 41 L62 38" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Marker accents -->
+  <path d="M77 13 Q84 7 94 8            M16 72 Q15 81 22 88            M101 95 L107 94" stroke="#DDF8FF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Small route waypoint -->
+  <circle cx="64" cy="58" r="4" fill="#FFB900" stroke="#FFFFFF" stroke-width="1.5"/>
+</svg>

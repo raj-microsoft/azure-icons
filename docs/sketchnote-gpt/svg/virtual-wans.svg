@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual WANs (sketch)</title>
+  <defs>
+    <linearGradient id="wanCloud" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#198ab3"/>
+      <stop offset=".35" stop-color="#29bade"/>
+      <stop offset=".7" stop-color="#31d1f3"/>
+      <stop offset="1" stop-color="#32d4f5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud representing the virtual WAN -->
+  <path d="M18 76     C9 74 6 66 9 57     C12 48 20 43 31 43     C36 26 50 17 67 19     C83 20 94 31 97 45     C109 44 119 53 119 65     C120 75 111 82 100 82     L24 82 Z" fill="url(#wanCloud)" stroke="#087ca7" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Cloud highlights -->
+  <path d="M25 48 Q36 35 48 37 M64 25 Q81 25 88 39" fill="none" stroke="#baf4ff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- WAN globe -->
+  <circle cx="64" cy="86" r="34" fill="#f2f2f2" stroke="#0078d4" stroke-width="3.5"/>
+
+  <circle cx="64" cy="86" r="29" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Globe latitude lines -->
+  <path d="M36 86 Q64 78 92 86            M39 73 Q64 66 89 73            M39 99 Q64 106 89 99" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Globe longitude lines -->
+  <path d="M64 57     C46 67 46 105 64 115     M64 57     C82 67 82 105 64 115     M64 57 L64 115" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- WAN network arcs -->
+  <path d="M37 73 Q23 67 23 55 Q24 46 33 42" fill="none" stroke="#e6e6e6" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M91 73 Q105 67 105 55 Q104 46 95 42" fill="none" stroke="#e6e6e6" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Network endpoint nodes -->
+  <g fill="#ce74b6" stroke="#fff" stroke-width="2">
+    <circle cx="24" cy="55" r="6"/>
+    <circle cx="104" cy="55" r="6"/>
+  </g>
+
+  <!-- Cloud connection points -->
+  <g fill="#f2f2f2" stroke="#198ab3" stroke-width="2">
+    <circle cx="33" cy="42" r="5"/>
+    <circle cx="95" cy="42" r="5"/>
+  </g>
+
+  <!-- Yellow global network activity accents -->
+  <g fill="none" stroke="#ffca28" stroke-width="3" stroke-linecap="round">
+    <path d="M14 91 L8 96"/>
+    <path d="M111 91 L118 96"/>
+    <path d="M64 12 L64 7"/>
+    <path d="M43 112 L38 117"/>
+    <path d="M85 112 L90 117"/>
+  </g>
+
+  <!-- Marker-style sketch details -->
+  <g fill="none" stroke="#005ba1" stroke-width="1.7" stroke-linecap="round">
+    <path d="M35 79 Q31 85 35 94"/>
+    <path d="M94 81 Q98 89 93 96"/>
+    <path d="M50 117 Q64 121 77 117"/>
+  </g>
+</svg>

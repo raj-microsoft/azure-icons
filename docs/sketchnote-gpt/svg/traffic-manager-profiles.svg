@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Traffic Manager Profiles (sketch)</title>
+  <defs>
+    <linearGradient id="trafficPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c69aeb"/>
+      <stop offset=".48" stop-color="#9a72ce"/>
+      <stop offset="1" stop-color="#6f4bb2"/>
+    </linearGradient>
+    <linearGradient id="trafficLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b990e2"/>
+      <stop offset="1" stop-color="#8059bd"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hexagonal traffic manager profile -->
+  <path d="M46 9     Q48 7 51 7     L78 7     Q81 7 83 9     L119 45     Q121 47 121 50     L121 78     Q121 81 119 83     L83 119     Q81 121 78 121     L50 121     Q47 121 45 119     L9 83     Q7 81 7 78     L7 50     Q7 47 9 45 Z" fill="url(#trafficPurple)" stroke="#604099" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Inner hexagonal outline -->
+  <path d="M49 17 L79 17 L111 49 L111 79 L79 111 L49 111 L17 79 L17 49 Z" fill="none" stroke="#e8d6ff" stroke-width="2.5" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Traffic routing paths -->
+  <g fill="none" stroke="#f2f2f2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 38 L57 59"/>
+    <path d="M57 59 L57 35"/>
+    <path d="M57 59 L82 59"/>
+    <path d="M57 59 L57 88"/>
+    <path d="M57 59 L91 91"/>
+  </g>
+
+  <!-- Direction arrows -->
+  <g fill="#f2f2f2">
+    <path d="M49 35 L65 35 L57 25 Z"/>
+    <path d="M82 51 L96 59 L82 67 Z"/>
+    <path d="M49 88 L65 88 L57 102 Z"/>
+    <path d="M84 84 L99 99 L83 99 Z"/>
+  </g>
+
+  <!-- Central routing hub -->
+  <circle cx="57" cy="59" r="11" fill="#50e6ff" stroke="#f2f2f2" stroke-width="3.5"/>
+  <circle cx="57" cy="59" r="4" fill="#198ab3"/>
+
+  <!-- Yellow traffic endpoint markers -->
+  <g fill="#ffca28" stroke="#fff2bd" stroke-width="2">
+    <circle cx="57" cy="25" r="5"/>
+    <circle cx="96" cy="59" r="5"/>
+    <circle cx="57" cy="102" r="5"/>
+    <circle cx="99" cy="99" r="5"/>
+    <circle cx="36" cy="38" r="5"/>
+  </g>
+
+  <!-- Small network connection details -->
+  <g fill="none" stroke="#e8d6ff" stroke-width="2.5" stroke-linecap="round">
+    <path d="M27 62 L35 62"/>
+    <path d="M93 30 L99 24"/>
+    <path d="M30 94 L24 100"/>
+  </g>
+
+  <!-- Sketchnote marker highlights -->
+  <g fill="none" stroke="#f2d5ff" stroke-width="2.5" stroke-linecap="round">
+    <path d="M48 12 Q61 10 75 12"/>
+    <path d="M12 52 L12 73"/>
+    <path d="M83 114 Q96 104 110 82"/>
+  </g>
+
+  <!-- Yellow motion accents -->
+  <g fill="none" stroke="#ffca28" stroke-width="3" stroke-linecap="round">
+    <path d="M17 31 L22 26"/>
+    <path d="M105 31 L110 36"/>
+    <path d="M105 104 L111 109"/>
+  </g>
+</svg>

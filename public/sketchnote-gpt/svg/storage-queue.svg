@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>Storage Queue (sketch)</title>
+  <defs>
+    <linearGradient id="queueBody" x1="64" y1="39" x2="64" y2="115" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B796F9"/>
+      <stop offset="1" stop-color="#A67AF4"/>
+    </linearGradient>
+    <linearGradient id="queueHeader" x1="64" y1="15" x2="64" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#914FE8"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Queue container -->
+  <path d="M9 37     Q9 34 13 34     L115 34     Q119 34 119 38     L119 108     Q119 113 114 113     L14 113     Q9 113 9 108 Z" fill="url(#queueBody)" stroke="#773ADC" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Header strip -->
+  <path d="M13 15     Q9 15 9 20     L9 37     Q9 40 13 40     L115 40     Q119 40 119 37     L119 20     Q119 15 115 15 Z" fill="url(#queueHeader)" stroke="#552F99" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Queue message slots -->
+  <rect x="21" y="47" width="25" height="53" rx="4" fill="#FFFFFF" stroke="#773ADC" stroke-width="2.5"/>
+  <rect x="52" y="47" width="25" height="53" rx="4" fill="#FFFFFF" fill-opacity=".78" stroke="#773ADC" stroke-width="2.5"/>
+  <rect x="83" y="47" width="25" height="53" rx="4" fill="#FFFFFF" fill-opacity=".55" stroke="#773ADC" stroke-width="2.5"/>
+
+  <!-- Message details -->
+  <g stroke="#A67AF4" stroke-width="2.5" stroke-linecap="round">
+    <path d="M27 57 L40 57 M27 64 L38 64 M27 71 L40 71"/>
+    <path d="M58 57 L71 57 M58 64 L69 64 M58 71 L71 71"/>
+    <path d="M89 57 L102 57 M89 64 L100 64 M89 71 L102 71"/>
+  </g>
+
+  <!-- Queue header details -->
+  <path d="M19 26 Q43 22 64 25     M79 25 L105 25" stroke="#CDB5FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Azure-blue and yellow sketchnote accents -->
+  <path d="M17 88 L12 91     M116 83 L121 80     M110 118 L115 121" stroke="#50E6FF" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M34 11 L39 7     M43 13 L48 12     M87 12 L91 7     M96 13 L101 12" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M14 43 Q13 72 14 103     M115 44 Q117 73 115 101     M23 117 Q63 120 103 117" stroke="#552F99" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+</svg>

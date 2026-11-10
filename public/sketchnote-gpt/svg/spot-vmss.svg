@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Spot VMSS (sketch)</title>
+  <defs>
+    <linearGradient id="panelFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="panelMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F8FDF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="panelBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A72C7"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="standGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.15" stop-color="#CCCCCC"/>
+      <stop offset="1" stop-color="#707070"/>
+    </linearGradient>
+    <linearGradient id="badgeBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- back panel -->
+  <rect x="13" y="18" width="67" height="44" rx="6" fill="url(#panelBack)" stroke="#0B4E85" stroke-width="3.2"/>
+  <path d="M20 24c14-2 35-2 53 0" fill="none" stroke="#79C2FF" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- middle panel -->
+  <rect x="25" y="31" width="67" height="44" rx="6" fill="url(#panelMid)" stroke="#1067B5" stroke-width="3.2"/>
+  <path d="M32 37c14-2 35-2 53 0" fill="none" stroke="#B7E4FF" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- front panel -->
+  <rect x="37" y="45" width="67" height="44" rx="6" fill="url(#panelFront)" stroke="#0F6AB8" stroke-width="3.2"/>
+  <path d="M44 51c14-2 35-2 53 0" fill="none" stroke="#D9F4FF" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- stand -->
+  <path d="M70 89c0 10 0 18-4 23h-8c-2.5 0-4.6 2.2-4.8 4.8h35.6c-.2-2.6-2.3-4.8-4.8-4.8h-8c-4-5-4-13-4-23z" fill="url(#standGrad)" stroke="#6F6F6F" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- circular VMSS / spot badge -->
+  <circle cx="80" cy="72" r="22" fill="url(#badgeBlue)" stroke="#08538F" stroke-width="3.2"/>
+
+  <!-- cube inside badge -->
+  <polygon points="80,58 93,66 80,74 67,66" fill="#C3F1FF" stroke="#C3F1FF" stroke-width="1.2" stroke-linejoin="round"/>
+  <polygon points="93,66 93,81 80,89 80,74" fill="#50E6FF" stroke="#50E6FF" stroke-width="1.2" stroke-linejoin="round"/>
+  <polygon points="80,74 80,89 67,81 67,66" fill="#9CEBFF" stroke="#9CEBFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- refresh / spot arrow -->
+  <path d="M90.5 58.5c-3.7-4.3-9.4-6.8-15.3-6.5-10.7.5-19 9.7-18.4 20.3.1 1.2.3 2.3.6 3.4" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M73.5 54.8l.7 3.8c.2.8-.6 1.5-1.4 1.2l-7-2.8c-1.1-.4-1.2-1.9-.2-2.5l5.9-4.2c.7-.5 1.8 0 1.7.9l-.1 1.5" fill="#FFFFFF"/>
+  <path d="M69.2 86.1c3.3 2.5 7.5 4 11.8 4 11 0 19.9-8.9 19.9-19.9 0-1.2-.1-2.4-.3-3.6" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M85.9 88.9l-3.8-.3c-.8-.1-1.2-.9-.8-1.7l3.8-6.5c.6-1 2.1-.8 2.5.3l2.5 6.1c.3.8-.3 1.6-1.1 1.5l-1.5-.1" fill="#FFFFFF"/>
+
+  <!-- sketchnote accents -->
+  <path d="M107 35l5-4 5 5" fill="none" stroke="#FFCA28" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17 74l-6 4 6 4" fill="none" stroke="#FFCA28" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M99 103l6 2" fill="none" stroke="#FFCA28" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M34 101l4-5" fill="none" stroke="#FFCA28" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- subtle hand-drawn details -->
+  <path d="M16 22l3-2M27 85l4 1M102 50l3-2M58 117l10 0" fill="none" stroke="#1A7BD3" stroke-width="2.1" stroke-linecap="round" opacity=".7"/>
+</svg>

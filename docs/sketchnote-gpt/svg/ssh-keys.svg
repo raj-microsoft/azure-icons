@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>SSH Keys (sketch)</title>
+  <defs>
+    <linearGradient id="cloudFill" x1="30" y1="18" x2="96" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B8E6FF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="keyFill" x1="62" y1="38" x2="76" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn cloud silhouette -->
+  <path d="M37 99     C22 100 12 89 13 74     C13 60 23 50 38 48     C39 30 52 18 68 18     C84 17 98 28 101 44     C115 47 121 59 119 73     C118 88 108 98 94 99     Z" fill="url(#cloudFill)" stroke="#0078D4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cloud contour accents -->
+  <path d="M24 58 C27 54 32 52 37 52     M45 29 C50 23 58 21 65 22     M103 52 C111 55 115 62 114 70" stroke="#DDF5FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- SSH key head -->
+  <path d="M85 49     C85 43 80 38 74 38     C68 38 63 43 63 49     C63 53 65 57 69 59     L69 69     L62 76     L62 83     L69 89     L69 98     L77 98     L77 89     L84 82     L84 69     L84 59     C88 56 90 52 89 48" fill="url(#keyFill)" stroke="#0078D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Key ring detail -->
+  <path d="M73 44     C69 44 67 47 67 50     C67 54 70 56 73 56     C77 56 79 53 79 50     C79 47 76 44 73 44Z" fill="#EAFBFF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Key shaft -->
+  <path d="M73 59 L73 95     M73 77 L81 77     M73 86 L79 86" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M47 72 L52 69     M42 81 L48 80     M94 31 L98 26     M101 34 L107 33" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M48 91 L51 89     M94 91 L97 94" stroke="#50E6FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Marker-style finishing details -->
+  <path d="M19 76 C18 84 22 90 28 93     M91 104 C98 103 104 100 108 95" stroke="#005A9E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

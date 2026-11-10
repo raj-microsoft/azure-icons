@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>Tag (sketch)</title>
+  <defs>
+    <linearGradient id="tagPurple" x1="65" y1="9" x2="65" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C69AEB"/>
+      <stop offset=".25" stop-color="#A77DD7"/>
+      <stop offset=".65" stop-color="#926BC9"/>
+      <stop offset="1" stop-color="#6F4BB2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main tilted tag silhouette -->
+  <path d="M75 10     L108 8     Q112 8 115 11     L120 16     Q123 19 122 23     L118 54     Q118 57 115 60     L44 119     Q40 123 36 119     L9 92     Q5 88 9 84     L68 13     Q71 10 75 10 Z" fill="url(#tagPurple)" stroke="#552F99" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Inner marker highlight -->
+  <path d="M72 17 L108 15     Q112 15 115 19     L116 22     M14 85 L43 113     M48 107 L108 57" stroke="#DCC2F5" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Tag hole -->
+  <circle cx="103" cy="27" r="12" fill="#EAD9FA" stroke="#552F99" stroke-width="3.5"/>
+
+  <circle cx="103" cy="27" r="5" fill="#926BC9" stroke="#552F99" stroke-width="2"/>
+
+  <!-- Small tag detail -->
+  <path d="M23 88 L41 106     M34 77 L52 95     M46 66 L64 84" stroke="#7854B8" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Azure-blue sketchnote accents -->
+  <path d="M84 5 L87 1     M96 6 L100 2     M124 39 L128 36     M5 104 L1 108     M24 120 L21 125" stroke="#0078D4" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Yellow marker sparkles -->
+  <path d="M57 18 L62 14     M51 28 L56 24     M15 68 L10 72" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing contour -->
+  <path d="M11 88 Q9 91 14 96     M113 13 Q119 17 118 23     M42 116 Q38 120 34 115" stroke="#552F99" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+</svg>

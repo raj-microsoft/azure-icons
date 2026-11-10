@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>Template Specs (sketch)</title>
+  <defs>
+    <linearGradient id="templateBody" x1="64" y1="15" x2="64" y2="115" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".62" stop-color="#31D0F1"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Four corner template brackets -->
+  <g stroke="#32BEDD" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M43 10 H22 Q16 10 16 17 V38"/>
+    <path d="M85 10 H106 Q112 10 112 17 V38"/>
+    <path d="M112 88 V109 Q112 116 105 116 H85"/>
+    <path d="M16 88 V109 Q16 116 23 116 H43"/>
+  </g>
+
+  <!-- Main template sheet -->
+  <path d="M34 15     Q30 15 30 20     L30 107     Q30 112 35 112     L93 112     Q98 112 98 107     L98 20     Q98 15 93 15 Z" fill="url(#templateBody)" stroke="#198AB3" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Inner white document -->
+  <path d="M40 23     Q38 23 38 26     L38 101     Q38 104 41 104     L87 104     Q90 104 90 101     L90 26     Q90 23 87 23 Z" fill="#FFFFFF" stroke="#198AB3" stroke-width="2.5"/>
+
+  <!-- Template specification rows -->
+  <rect x="48" y="36" width="32" height="12" rx="3" fill="#86D633" stroke="#5E9624" stroke-width="2"/>
+  <rect x="48" y="55" width="32" height="12" rx="3" fill="#76BC2D" stroke="#5E9624" stroke-width="2"/>
+  <rect x="48" y="74" width="32" height="12" rx="3" fill="#5E9624" stroke="#4B7D1B" stroke-width="2"/>
+
+  <!-- Hand-drawn highlights -->
+  <g stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round">
+    <path d="M53 41 L75 41"/>
+    <path d="M53 60 L75 60"/>
+    <path d="M53 79 L75 79"/>
+  </g>
+
+  <!-- Corner marker accents -->
+  <g stroke="#0078D4" stroke-width="3" stroke-linecap="round">
+    <path d="M25 25 L20 20 M103 25 L108 20"/>
+    <path d="M25 101 L20 106 M103 101 L108 106"/>
+  </g>
+
+  <!-- Yellow sketchnote sparkles -->
+  <g stroke="#FFB900" stroke-width="3" stroke-linecap="round">
+    <path d="M52 8 L56 3"/>
+    <path d="M72 8 L76 3"/>
+    <path d="M119 52 L124 48"/>
+    <path d="M9 72 L4 76"/>
+  </g>
+
+  <!-- Subtle marker contour -->
+  <path d="M33 20 Q32 60 33 102     M95 24 Q96 60 95 100     M41 109 Q64 111 87 109" stroke="#DDF9FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+</svg>

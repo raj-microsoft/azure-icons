@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Storage Functions (sketch)</title>
+  <defs>
+    <linearGradient id="storageBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83b9f9"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
+    </linearGradient>
+    <linearGradient id="functionBadge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a67af4"/>
+      <stop offset="1" stop-color="#773adc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Storage database -->
+  <g stroke="#005ba1" stroke-width="3" stroke-linejoin="round">
+    <path d="M12 29       C12 19 30 13 53 13       C76 13 94 19 94 29       L94 92       C94 102 76 109 53 109       C30 109 12 102 12 92 Z" fill="url(#storageBody)"/>
+
+    <!-- Top ellipse -->
+    <path d="M94 29       C94 39 76 45 53 45       C30 45 12 39 12 29       C12 19 30 13 53 13       C76 13 94 19 94 29 Z" fill="#e8f5ff"/>
+
+    <path d="M20 28       C24 22 38 19 53 19       C69 19 83 22 87 28       C82 34 68 38 53 38       C37 38 24 34 20 28 Z" fill="#83b9f9" stroke="#0078d4" stroke-width="1.8"/>
+
+    <!-- Database layers -->
+    <path d="M13 51 C30 63 76 63 93 51" fill="none" stroke="#0078d4" stroke-width="2.5"/>
+    <path d="M13 75 C30 87 76 87 93 75" fill="none" stroke="#0078d4" stroke-width="2.5"/>
+  </g>
+
+  <!-- Database highlights -->
+  <path d="M20 43 Q22 46 27 48     M19 68 Q23 72 28 73     M20 92 Q24 96 29 97" fill="none" stroke="#d9f7ff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Azure Functions circular badge -->
+  <circle cx="91" cy="88" r="29" fill="#ffffff" stroke="#005ba1" stroke-width="3.2"/>
+  <circle cx="91" cy="88" r="24.5" fill="url(#functionBadge)" stroke="#773adc" stroke-width="1.8"/>
+
+  <!-- Function symbol: stylized f -->
+  <path d="M82 108     L86 91     L79 91     L80.5 85     L87.5 85     L89 78     Q91 69 100 69     Q103 69 105 71     L102 77     Q99 75 97 76     Q95 77 94 85     L104 85     L102.5 91     L92.5 91     L88.5 108 Z" fill="#ffffff" stroke="#e6e6e6" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Function symbol detail -->
+  <path d="M85 83 Q91 80 97 81" fill="none" stroke="#e6e6e6" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M108 47 L111 53 L118 55 L112 59 L110 66 L106 60 L100 57 L106 54 Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <path d="M103 16 L106 21 M119 76 L123 78" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn marker details -->
+  <path d="M8 34 Q6 49 8 62" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M37 115 Q57 118 74 114" fill="none" stroke="#005ba1" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

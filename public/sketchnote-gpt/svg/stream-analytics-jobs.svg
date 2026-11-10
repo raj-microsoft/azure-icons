@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Stream Analytics Jobs (sketch)</title>
+  <defs>
+    <linearGradient id="gearMetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b6b8b9"/>
+      <stop offset=".55" stop-color="#aeafb0"/>
+      <stop offset="1" stop-color="#949494"/>
+    </linearGradient>
+    <linearGradient id="gearInner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eeeeee"/>
+      <stop offset="1" stop-color="#b9b9b9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Analytics gear -->
+  <path d="M57 9     L70 9 L75 22     Q81 24 86 27     L99 21 L108 30     L102 44     Q105 50 106 56     L119 61 L119 74     L106 79     Q104 85 101 90     L107 103 L98 112     L85 106     Q79 109 73 110     L68 123 L55 123     L50 110     Q44 108 39 105     L26 111 L17 102     L23 89     Q20 83 19 77     L7 72 L7 59     L20 54     Q22 48 25 43     L19 30 L28 21     L41 27     Q47 24 53 22 Z" fill="url(#gearMetal)" stroke="#747779" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Gear highlight -->
+  <path d="M58 15 L67 15 L72 27     Q80 28 87 34     L98 29 L101 33 L96 45" fill="none" stroke="#e4e4e4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central analytics hub -->
+  <circle cx="63" cy="66" r="31" fill="url(#gearInner)" stroke="#777b7e" stroke-width="2.8"/>
+
+  <circle cx="63" cy="66" r="24" fill="#ffffff" stroke="#b6b8b9" stroke-width="1.5"/>
+
+  <!-- Streaming wave 1 -->
+  <path d="M17 67     C28 55 39 55 49 67     C59 79 69 79 79 67     C89 55 100 55 111 67" fill="none" stroke="#50e6ff" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Streaming wave 2 -->
+  <path d="M17 79     C28 67 39 67 49 79     C59 91 69 91 79 79     C89 67 100 67 111 79" fill="none" stroke="#32bedd" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Streaming wave 3 -->
+  <path d="M22 54     C31 45 40 45 49 54     C58 63 68 63 77 54     C86 45 95 45 104 54" fill="none" stroke="#50e6ff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Analytics data points -->
+  <circle cx="29" cy="67" r="3" fill="#ffffff"/>
+  <circle cx="63" cy="79" r="3" fill="#ffffff"/>
+  <circle cx="96" cy="67" r="3" fill="#ffffff"/>
+
+  <!-- Yellow activity accents -->
+  <path d="M105 15 L109 23 L118 26     L110 30 L107 39 L103 31     L95 27 L103 23 Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <path d="M13 42 L17 38 M112 91 L117 94" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn marker details -->
+  <path d="M8 82 Q7 91 12 96     M88 116 Q98 114 103 108" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Storage Sync Services (sketch)</title>
+  <defs>
+    <linearGradient id="cloudBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset=".55" stop-color="#3990e4"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="serverSilver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#ececec"/>
+      <stop offset="1" stop-color="#949494"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud silhouette -->
+  <path d="M20 70     C13 66 10 58 12 50     C14 41 22 35 32 35     C35 21 47 13 62 14     C77 14 88 24 91 38     C104 37 115 46 117 58     C119 71 109 82 96 83     L35 83     C29 82 23 78 20 70Z" fill="url(#cloudBlue)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Cloud highlight -->
+  <path d="M31 38     C36 25 48 20 60 21     C70 21 78 26 82 34" fill="none" stroke="#8ed8ff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Server / sync service -->
+  <path d="M42 48     L85 48     Q89 48 89 53     L89 108     Q89 113 84 113     L43 113     Q39 113 39 108     L39 53     Q39 48 42 48Z" fill="url(#serverSilver)" stroke="#666666" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Server front panel -->
+  <path d="M47 57     L81 57     Q84 57 84 61     L84 100     Q84 104 81 104     L47 104     Q44 104 44 100     L44 61     Q44 57 47 57Z" fill="#ffffff" stroke="#b9b9b9" stroke-width="1.5"/>
+
+  <!-- Server status lights -->
+  <rect x="50" y="64" width="27" height="10" rx="4" fill="#003067"/>
+  <circle cx="55" cy="69" r="2.2" fill="#50e6ff"/>
+  <path d="M62 69 H72" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+
+  <rect x="50" y="80" width="27" height="10" rx="4" fill="#003067"/>
+  <circle cx="55" cy="85" r="2.2" fill="#50e6ff"/>
+  <path d="M62 85 H72" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Sync arrows -->
+  <path d="M30 59     L20 59     L20 53     L11 62     L20 71     L20 65     L30 65Z" fill="#50e6ff" stroke="#0078d4" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <path d="M97 94     L107 94     L107 88     L117 97     L107 106     L107 100     L97 100Z" fill="#50e6ff" stroke="#0078d4" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Lower synchronization return arrow -->
+  <path d="M50 119     Q64 125 78 119" fill="none" stroke="#0078d4" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M73 115 L80 119 L74 124" fill="none" stroke="#0078d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow motion accents -->
+  <path d="M104 28 L107 34 L114 36 L108 40 L106 47 L102 41 L96 38 L102 35Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.3" stroke-linejoin="round"/>
+
+  <path d="M23 91 L27 95 M101 16 L104 20" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn marker details -->
+  <path d="M34 44 Q30 48 31 53" fill="none" stroke="#8ed8ff" stroke-width="2" stroke-linecap="round"/>
+  <path d="M91 73 Q94 78 91 83" fill="none" stroke="#8ed8ff" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

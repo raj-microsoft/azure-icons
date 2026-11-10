@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Time Series Insights Event Sources (sketch)</title>
+  <defs>
+    <linearGradient id="eventBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#32d4f5"/>
+      <stop offset=".48" stop-color="#25aed3"/>
+      <stop offset="1" stop-color="#198ab3"/>
+    </linearGradient>
+    <linearGradient id="eventLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8fbff"/>
+      <stop offset="1" stop-color="#c3f1ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer event source frame -->
+  <path d="M20 13     Q19 10 23 10     L105 10     Q109 10 109 14     L109 39     L116 44     L110 49     L110 102     L116 107     L109 112     L109 115     Q109 119 105 119     L23 119     Q19 119 19 115     L19 14 Z" fill="#f1f1f1" stroke="#777" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Frame inner border -->
+  <path d="M28 20 L100 20 L100 108 L28 108 Z" fill="none" stroke="#949494" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Right frame tabs -->
+  <path d="M108 20 L108 38 L117 44 L108 50" fill="none" stroke="#767676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M108 78 L108 96 L117 102 L108 108" fill="none" stroke="#767676" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Event source tile -->
+  <path d="M36 36     Q36 32 40 32     L88 32     Q92 32 92 36     L92 91     Q92 95 88 95     L40 95     Q36 95 36 91 Z" fill="url(#eventBlue)" stroke="#006b9c" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Tile highlight -->
+  <path d="M42 39 L42 86" fill="none" stroke="#8be9ff" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Event direction arrow -->
+  <path d="M54 61     L76 61     L76 48     L99 65     L76 82     L76 69     L54 69 Z" fill="url(#eventLight)" stroke="#e7faff" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Yellow event pulse -->
+  <path d="M47 103 L55 103 L60 97 L66 108 L72 99 L80 103 L89 103" fill="none" stroke="#ffca28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="60" cy="97" r="2.5" fill="#ffca28"/>
+  <circle cx="66" cy="108" r="2.5" fill="#ffca28"/>
+
+  <!-- Sketchnote marker accents -->
+  <path d="M30 26 Q42 22 53 25" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M14 46 L20 46 M13 56 L18 56" fill="none" stroke="#ffca28" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M119 58 L124 55 M120 69 L125 69" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M25 115 Q42 121 60 117" fill="none" stroke="#777" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

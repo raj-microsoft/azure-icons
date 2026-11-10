@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>User Settings (sketch)</title>
+  <defs>
+    <linearGradient id="userBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#32d4f5"/>
+      <stop offset=".48" stop-color="#31d1f3"/>
+      <stop offset=".88" stop-color="#22a5cb"/>
+      <stop offset="1" stop-color="#198ab3"/>
+    </linearGradient>
+    <linearGradient id="gearBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#32d4f5"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- User silhouette: shoulders and torso -->
+  <path d="M15 112     C18 88 31 70 55 68     C79 65 98 83 105 111     Q106 118 98 119     L22 119     Q14 118 15 112Z" fill="url(#userBlue)" stroke="#006b91" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Head -->
+  <circle cx="57" cy="43" r="25" fill="url(#userBlue)" stroke="#006b91" stroke-width="3.5"/>
+
+  <!-- Head highlight -->
+  <path d="M39 29 Q48 18 62 20" fill="none" stroke="#baf4ff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Neck / shoulder separation -->
+  <path d="M41 67 Q57 79 74 66" fill="none" stroke="#c3f1ff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- User silhouette highlight -->
+  <path d="M25 105 Q33 81 51 78" fill="none" stroke="#a4efff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Settings gear -->
+  <path d="M91 24     L99 24     L103 34     L112 38     L122 34     L128 40     L124 50     L128 59     L124 68     L128 78     L121 84     L111 80     L102 84     L98 94     L89 94     L85 84     L76 80     L66 84     L60 77     L64 67     L60 58     L64 49     L60 39     L67 33     L77 37     L86 33Z" fill="#0078d4" stroke="#005ba1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Gear inner face -->
+  <circle cx="94" cy="59" r="22" fill="#dff8ff" stroke="#005ba1" stroke-width="3"/>
+
+  <!-- Gear centre -->
+  <circle cx="94" cy="59" r="11" fill="url(#gearBlue)" stroke="#198ab3" stroke-width="2.5"/>
+
+  <!-- Gear centre highlight -->
+  <circle cx="90" cy="55" r="3" fill="#fff" opacity=".85"/>
+
+  <!-- Yellow adjustment accents -->
+  <g fill="none" stroke="#ffca28" stroke-width="3" stroke-linecap="round">
+    <path d="M116 19 L121 14"/>
+    <path d="M119 99 L124 104"/>
+    <path d="M54 11 L57 6"/>
+  </g>
+
+  <!-- Marker-style sketch details -->
+  <g fill="none" stroke="#005ba1" stroke-width="1.8" stroke-linecap="round">
+    <path d="M17 114 Q17 108 20 103"/>
+    <path d="M96 116 Q104 114 107 108"/>
+    <path d="M30 48 Q29 57 35 63"/>
+  </g>
+</svg>

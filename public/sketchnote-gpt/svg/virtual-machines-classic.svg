@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Machines (Classic) (sketch)</title>
+  <defs>
+    <linearGradient id="vmFrame" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="vmStand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1490df"/>
+      <stop offset="1" stop-color="#1f56a3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monitor outer frame -->
+  <path d="M14 13     Q13 10 17 10     L111 10     Q115 10 115 14     L115 81     Q115 85 111 85     L17 85     Q13 85 13 81 Z" fill="url(#vmFrame)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Screen -->
+  <path d="M21 19     Q21 17 24 17     L104 17     Q107 17 107 20     L107 75     L21 75 Z" fill="#ffffff" stroke="#c3f1ff" stroke-width="2"/>
+
+  <!-- Isometric virtual machine cube -->
+  <path d="M64 34 L88 48 L64 62 L40 48 Z" fill="#83b9f9" stroke="#0078d4" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M40 48 L64 62 L64 83 L40 69 Z" fill="#5ea0ef" stroke="#0078d4" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M64 62 L88 48 L88 69 L64 83 Z" fill="#0078d4" stroke="#005ba1" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Cube top highlight -->
+  <path d="M47 48 L64 38 L81 48 L64 58 Z" fill="#b9dcff" opacity=".55"/>
+
+  <!-- Cube edge details -->
+  <path d="M64 62 L64 82 M40 48 L64 62 L88 48" fill="none" stroke="#c3f1ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Screen corner details -->
+  <g fill="none" stroke="#83b9f9" stroke-width="2" stroke-linecap="round">
+    <path d="M27 25 L36 25"/>
+    <path d="M92 68 L101 68"/>
+  </g>
+
+  <!-- Monitor stand -->
+  <path d="M52 85     L76 85     L76 99     Q76 108 87 111     L94 113     Q97 114 97 118     L31 118     Q31 114 35 113     L43 111     Q52 108 52 99 Z" fill="url(#vmStand)" stroke="#005ba1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Stand highlight -->
+  <path d="M57 88 L71 88 L71 101 Q71 108 77 110" fill="none" stroke="#5ea0ef" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Base -->
+  <path d="M31 118     Q64 114 97 118     L99 121     Q99 124 95 124     L34 124     Q30 124 31 118Z" fill="#1490df" stroke="#1f56a3" stroke-width="2.5"/>
+
+  <!-- Yellow compute activity accents -->
+  <g fill="none" stroke="#ffca28" stroke-width="3" stroke-linecap="round">
+    <path d="M19 92 L12 92"/>
+    <path d="M109 94 L116 94"/>
+    <path d="M24 103 L19 108"/>
+    <path d="M103 103 L108 108"/>
+  </g>
+
+  <!-- Hand-drawn marker details -->
+  <g fill="none" stroke="#005ba1" stroke-width="1.7" stroke-linecap="round">
+    <path d="M17 29 Q15 48 17 68"/>
+    <path d="M111 25 Q113 43 111 61"/>
+    <path d="M39 127 Q64 129 88 126"/>
+  </g>
+
+  <!-- Screen shine -->
+  <path d="M26 20 L46 20" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

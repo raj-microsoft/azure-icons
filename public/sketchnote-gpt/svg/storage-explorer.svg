@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>Storage Explorer (sketch)</title>
+  <defs>
+    <linearGradient id="explorerPanel" x1="24" y1="35" x2="108" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F7FC"/>
+      <stop offset="1" stop-color="#B3B3B3"/>
+    </linearGradient>
+    <linearGradient id="explorerBlue" x1="25" y1="12" x2="63" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83B9F9"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Explorer background panel -->
+  <path d="M13 48 Q13 44 18 44     L48 44 L59 54 L111 54     Q116 54 116 59 L116 111     Q116 116 111 116 L18 116     Q13 116 13 111 Z" fill="url(#explorerPanel)" stroke="#667D91" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Folder and hierarchy silhouette -->
+  <path d="M13 48 L13 104     Q13 109 18 109     L45 109 L45 91     Q45 87 49 87 L80 87     L80 72 Q80 68 84 68     L111 68 L111 59     Q111 54 106 54     L59 54 L48 44 L18 44     Q13 44 13 48 Z" fill="#E6E6E6" opacity=".85"/>
+
+  <!-- Top-level explorer nodes -->
+  <rect x="10" y="10" width="37" height="25" rx="4" fill="#83B9F9" stroke="#005BA1" stroke-width="3"/>
+  <path d="M17 18 Q28 14 40 18" stroke="#DDF1FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="10" y="39" width="37" height="25" rx="4" fill="#0078D4" stroke="#005BA1" stroke-width="3"/>
+  <path d="M17 47 Q28 43 40 47" stroke="#83B9F9" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="48" y="29" width="37" height="25" rx="4" fill="#5EA0EF" stroke="#005BA1" stroke-width="3"/>
+  <path d="M55 37 Q66 33 78 37" stroke="#DDF1FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hierarchy connectors -->
+  <path d="M47 51 L57 51 L57 63     M57 63 L57 76 L76 76" stroke="#0078D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+
+  <!-- Explorer data grid -->
+  <g stroke="#005BA1" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="84" y="73" width="27" height="18" rx="3" fill="#FFFFFF"/>
+    <rect x="84" y="95" width="27" height="18" rx="3" fill="#005BA1"/>
+    <rect x="51" y="95" width="27" height="18" rx="3" fill="#FFFFFF"/>
+    <rect x="18" y="95" width="27" height="18" rx="3" fill="#005BA1"/>
+    <rect x="51" y="73" width="27" height="18" rx="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Grid details -->
+  <g stroke="#83B9F9" stroke-width="2" stroke-linecap="round">
+    <path d="M90 81 L105 81 M90 85 L101 85"/>
+    <path d="M57 103 L72 103 M57 107 L68 107"/>
+  </g>
+  <g stroke="#DDF1FF" stroke-width="2" stroke-linecap="round">
+    <path d="M24 103 L39 103 M24 107 L35 107"/>
+    <path d="M90 103 L105 103 M90 107 L101 107"/>
+  </g>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M94 29 L99 24     M101 34 L108 32     M89 38 L93 36     M37 77 L42 73" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M17 68 Q15 82 17 88     M119 63 Q121 76 119 88     M17 119 Q48 123 77 119" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+</svg>

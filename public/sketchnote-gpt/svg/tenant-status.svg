@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>Tenant Status (sketch)</title>
+  <defs>
+    <linearGradient id="tenantBlue" x1="64" y1="48" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="personBlue" x1="53" y1="9" x2="65" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tenant/person silhouette -->
+  <path d="M57 56     C32 56 15 73 11 106     Q10 114 18 116     L91 116     Q99 114 98 106     C94 74 79 56 57 56 Z" fill="url(#tenantBlue)" stroke="#087CA8" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Person head -->
+  <circle cx="57" cy="34" r="26" fill="url(#personBlue)" stroke="#087CA8" stroke-width="3.5"/>
+
+  <!-- Head highlights -->
+  <path d="M39 22 C43 14 51 11 58 11" stroke="#BDF5FF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Neck and body highlight -->
+  <path d="M44 57 L57 91 L70 57" fill="#FFFFFF" fill-opacity=".75" stroke="#DDF9FF" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Tenant status heart badge -->
+  <path d="M94 79     C94 70 105 67 111 75     C117 67 129 70 128 81     C127 91 111 105 111 105     C111 105 94 90 94 79 Z" fill="#B31B1B" stroke="#7F1111" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Heart pulse line -->
+  <path d="M98 83     L104 83     L108 76     L113 91     L118 80     L121 83     L127 83" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Azure marker accents -->
+  <path d="M19 69 L13 64     M25 59 L21 53     M82 59 L87 54     M89 68 L95 64" stroke="#50E6FF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Yellow status highlights -->
+  <path d="M104 59 L107 54     M116 61 L120 58     M91 99 L96 103" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M14 107 Q15 112 22 112     M92 106 Q90 111 85 112     M37 20 Q42 12 50 11" stroke="#087CA8" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+</svg>

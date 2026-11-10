@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>StorSimple Device Managers (sketch)</title>
+  <defs>
+    <linearGradient id="cloudBlue" x1="63" y1="12" x2="63" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".53" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="deviceCyan" x1="91" y1="78" x2="91" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud silhouette -->
+  <path d="M37 99     C21 101 11 89 12 74     C12 60 22 50 37 48     C39 29 52 17 69 17     C85 17 98 28 102 45     C116 47 122 59 120 73     C119 88 108 99 94 99     Z" fill="url(#cloudBlue)" stroke="#005A9E" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Cloud highlights -->
+  <path d="M23 61 C27 55 32 53 38 52     M48 27 C54 22 61 21 68 21     M104 52 C112 56 115 63 114 70" stroke="#B9DEFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Device manager rack -->
+  <path d="M63 70     Q63 67 67 67     L105 67     Q109 67 109 71     L109 113     Q109 117 105 117     L67 117     Q63 117 63 113 Z" fill="#EAF8FF" stroke="#0078D4" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Rack server units -->
+  <rect x="68" y="74" width="29" height="8" rx="2" fill="#50E6FF" stroke="#198AB3" stroke-width="1.8"/>
+  <rect x="68" y="88" width="29" height="8" rx="2" fill="#32BEDD" stroke="#198AB3" stroke-width="1.8"/>
+  <rect x="68" y="102" width="29" height="8" rx="2" fill="url(#deviceCyan)" stroke="#198AB3" stroke-width="1.8"/>
+
+  <!-- Server status lights -->
+  <g fill="#FFFFFF">
+    <circle cx="73" cy="78" r="1.4"/>
+    <circle cx="73" cy="92" r="1.4"/>
+    <circle cx="73" cy="106" r="1.4"/>
+  </g>
+
+  <g stroke="#0078D4" stroke-width="1.7" stroke-linecap="round">
+    <path d="M80 78 L92 78"/>
+    <path d="M80 92 L92 92"/>
+    <path d="M80 106 L92 106"/>
+  </g>
+
+  <!-- Cloud data connection -->
+  <path d="M48 83 L59 83     Q63 83 63 87" stroke="#DDF5FF" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 4"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M40 68 L44 64     M49 61 L54 59     M104 30 L108 25     M112 35 L118 34     M53 105 L57 102" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M18 77 Q18 88 27 93     M99 121 Q108 120 114 115     M66 63 L77 62" stroke="#005A9E" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+</svg>

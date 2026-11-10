@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>VNet Appliance (sketch)</title>
+  
+  <desc>Hand-drawn Azure VNet appliance icon showing a blue network appliance with four directional routing arrows and a green network connectivity symbol.</desc>
+
+  <defs>
+    <linearGradient id="applianceBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1595E8"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="networkGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8AD96E"/>
+      <stop offset="1" stop-color="#62BE55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Network boundary -->
+  <path d="M13 17 Q13 13 18 13 L110 13 Q115 13 115 18            L115 108 Q115 114 110 114 L18 114 Q13 114 13 108 Z" fill="none" stroke="#0078D4" stroke-width="3" stroke-dasharray="2 5" stroke-linecap="round"/>
+
+  <!-- Four directional network arrows -->
+  <g fill="none" stroke="#62BE55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Top-left to bottom-right -->
+    <path d="M35 35 L53 53"/>
+    <path d="M43 53 L53 53 L53 43"/>
+
+    <!-- Top-right to bottom-left -->
+    <path d="M93 35 L75 53"/>
+    <path d="M75 43 L75 53 L85 53"/>
+
+    <!-- Bottom-left to top-right -->
+    <path d="M35 93 L53 75"/>
+    <path d="M43 75 L53 75 L53 85"/>
+
+    <!-- Bottom-right to top-left -->
+    <path d="M93 93 L75 75"/>
+    <path d="M75 85 L75 75 L85 75"/>
+  </g>
+
+  <!-- Central appliance body -->
+  <path d="M36 34 Q35 31 39 31            L89 31 Q92 31 92 35            L92 93 Q92 97 88 97            L39 97 Q35 97 35 93 Z" fill="url(#applianceBlue)" stroke="#004F91" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Appliance highlight -->
+  <path d="M41 37 Q62 35 86 37" fill="none" stroke="#55B7F0" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Inner screen -->
+  <path d="M43 44 Q43 42 46 42            L81 42 Q84 42 84 45            L84 84 Q84 87 81 87            L46 87 Q43 87 43 84 Z" fill="#EAF8FF" stroke="#004F91" stroke-width="2.5"/>
+
+  <!-- Network appliance connection diagram -->
+  <g stroke="#0078D4" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M63 55 L52 65 L63 75 L75 65 Z"/>
+    <path d="M63 55 L63 65"/>
+    <path d="M52 65 L63 65 L75 65"/>
+    <path d="M63 65 L63 75"/>
+  </g>
+
+  <g fill="#62BE55" stroke="#378D36" stroke-width="1.5">
+    <circle cx="63" cy="54" r="5"/>
+    <circle cx="51" cy="65" r="5"/>
+    <circle cx="75" cy="65" r="5"/>
+    <circle cx="63" cy="76" r="5"/>
+  </g>
+
+  <!-- Appliance status indicator -->
+  <circle cx="48" cy="92" r="2.5" fill="#62BE55"/>
+  <path d="M56 92 L72 92" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Green network accents -->
+  <g fill="none" stroke="#E6B93F" stroke-width="2.5" stroke-linecap="round">
+    <path d="M19 28 L24 23"/>
+    <path d="M104 23 L109 28"/>
+    <path d="M19 103 L24 108"/>
+    <path d="M104 108 L109 103"/>
+  </g>
+
+  <!-- Marker-style hand-drawn details -->
+  <path d="M31 19 L39 18 M90 18 L97 20            M111 43 L112 49 M15 77 L16 84            M47 105 L56 106" fill="none" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M96 55 Q99 52 102 55            M26 70 Q29 67 31 70" fill="none" stroke="#62BE55" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Time Series Data Sets (sketch)</title>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#005ba1"/>
+      <stop offset=".48" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#005ba1"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2=".2" y2="1">
+      <stop offset="0" stop-color="#e8fbff"/>
+      <stop offset=".65" stop-color="#50e6ff"/>
+      <stop offset="1" stop-color="#198ab3"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#004578"/>
+      <stop offset=".5" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#005ba1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn database body -->
+  <path d="M23 35     C23 42 40 47 64 47     C88 47 105 42 105 35     L104 89     C104 97 86 103 64 103     C41 103 23 97 23 89 Z" fill="url(#body)" stroke="#004578" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Left highlight -->
+  <path d="M27 42 L27 87     C28 93 34 95 39 97     L39 45 C34 44 30 43 27 42Z" fill="#50e6ff" opacity=".2"/>
+
+  <!-- Top database ellipse -->
+  <path d="M23 35     C23 27 41 21 64 21     C87 21 105 27 105 35     C105 43 87 48 64 48     C41 48 23 43 23 35Z" fill="url(#top)" stroke="#005ba1" stroke-width="3.2"/>
+
+  <!-- Inner top ellipse -->
+  <path d="M33 35     C33 30 47 26 64 26     C81 26 95 30 95 35     C95 40 81 44 64 44     C47 44 33 40 33 35Z" fill="#dff9ff" stroke="#198ab3" stroke-width="1.8"/>
+
+  <!-- Data timeline on cylinder -->
+  <path d="M33 73     L43 73     L49 64     L56 80     L64 57     L72 73     L79 67     L86 73     L96 73" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow time-series data points -->
+  <g fill="#ffca28" stroke="#fff4c2" stroke-width="1.3">
+    <circle cx="43" cy="73" r="3"/>
+    <circle cx="56" cy="80" r="3"/>
+    <circle cx="64" cy="57" r="3.5"/>
+    <circle cx="79" cy="67" r="3"/>
+    <circle cx="96" cy="73" r="3"/>
+  </g>
+
+  <!-- Database layer separators -->
+  <path d="M24 88 C34 99 89 101 104 88" fill="none" stroke="#50e6ff" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Small sketchnote time-series accents -->
+  <g fill="none" stroke="#ffca28" stroke-width="3" stroke-linecap="round">
+    <path d="M14 56 L18 56 M12 66 L17 66"/>
+    <path d="M110 52 L115 49 M112 62 L118 62"/>
+  </g>
+
+  <!-- Marker-style outline accents -->
+  <g fill="none" stroke="#004578" stroke-width="1.5" stroke-linecap="round" opacity=".7">
+    <path d="M25 47 Q22 64 24 83"/>
+    <path d="M102 48 Q106 65 103 83"/>
+    <path d="M38 106 Q64 114 89 106"/>
+  </g>
+
+  <!-- Hand-drawn shine -->
+  <path d="M36 31 Q43 26 51 26" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+</svg>

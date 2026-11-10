@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>SQL Server (sketch)</title>
+  
+  <desc>Blue SQL database cylinder with cyan database top, vector lettering and a grey configuration gear.</desc>
+
+  <defs>
+    <linearGradient id="sqlBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="sqlGear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B3B3B3"/>
+      <stop offset="1" stop-color="#707070"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Database cylinder -->
+  <path d="M12 32 C12 18 35 11 59 11 C83 11 106 18 106 32     L106 98 C106 111 84 118 59 118 C34 118 12 111 12 98Z" fill="url(#sqlBlue)" stroke="#064B83" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Database top -->
+  <ellipse cx="59" cy="32" rx="47" ry="20" fill="#E8E8E8" stroke="#075B9A" stroke-width="3.5"/>
+  <ellipse cx="59" cy="32" rx="37" ry="13" fill="#50E6FF"/>
+  <path d="M31 32 Q59 43 87 32" fill="none" stroke="#198AB3" stroke-width="2.5"/>
+
+  <!-- Database horizontal bands -->
+  <path d="M14 62 Q59 84 104 62 M14 91 Q59 112 104 91" fill="none" stroke="#50E6FF" stroke-width="3"/>
+
+  <!-- SQL lettering: S -->
+  <path d="M43 55     Q39 52 34 53     Q27 53 27 59     Q27 64 34 66     L39 68     Q43 70 42 74     Q41 79 34 79     Q29 79 25 76" fill="none" stroke="#F2F2F2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- SQL lettering: Q -->
+  <path d="M65 66     C65 58 61 54 55 54     C49 54 46 59 46 66     C46 74 49 79 55 79     C61 79 65 74 65 66Z     M59 74 L66 82" fill="none" stroke="#F2F2F2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- SQL lettering: L -->
+  <path d="M71 54 L71 79 L87 79" fill="none" stroke="#F2F2F2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Configuration gear -->
+  <path d="M88 63 L96 63 L99 70     Q103 71 106 74 L113 71 L119 79     L114 85 Q116 90 114 94     L121 100 L116 108 L108 106     Q105 110 101 111 L98 118 L89 118     L86 111 Q82 110 79 107     L72 110 L66 102 L71 95     Q69 91 71 87 L64 81     L69 73 L77 75     Q81 71 85 70Z" fill="url(#sqlGear)" stroke="#626262" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Gear centre -->
+  <circle cx="93" cy="91" r="12" fill="#E6E6E6" stroke="#707070" stroke-width="3"/>
+  <circle cx="93" cy="91" r="6" fill="#949494"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M8 48 L3 44 M9 57 L3 57     M109 27 L115 22 M113 39 L120 39" fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn highlights -->
+  <path d="M25 32 Q59 47 91 32     M20 65 Q29 71 38 73" fill="none" stroke="#B8F4FF" stroke-width="2" stroke-linecap="round"/>
+</svg>

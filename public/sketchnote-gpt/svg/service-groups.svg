@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Service Groups (sketch)</title>
+  <defs>
+    <linearGradient id="rack" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B3B3B3"/>
+      <stop offset="1" stop-color="#858585"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer service group enclosure -->
+  <path d="M14 29 L14 99 Q14 103 18 105 L35 115     M114 29 L114 99 Q114 103 110 105 L93 115" fill="none" stroke="#929292" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M14 29 L35 17 L44 22     M114 29 L93 17 L84 22" fill="none" stroke="#A3A3A3" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central top service node -->
+  <path d="M64 9 L87 22 L87 47     Q87 52 82 55 L64 66     L41 53 Q39 51 40 46     L40 22 Z" fill="#76D45E" stroke="#438C43" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M42 23 L64 36 L85 23" fill="none" stroke="#D7FFD0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M64 36 L64 62" fill="none" stroke="#438C43" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Left service group -->
+  <path d="M10 48 L31 60 L31 84     Q31 89 27 91 L10 101     L-1 94 L-1 59 Z" fill="#36DFF1" stroke="#087FA4" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M1 60 L15 69 L29 60" fill="none" stroke="#C4F9FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M15 69 L15 95" fill="none" stroke="#087FA4" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right service group -->
+  <path d="M118 48 L139 60 L139 94     L128 101 L107 89 L107 60 Z" fill="#9C6CFE" stroke="#6938C4" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M109 60 L123 69 L137 60" fill="none" stroke="#E8D8FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M123 69 L123 95" fill="none" stroke="#6938C4" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Lower left service group -->
+  <path d="M35 75 L57 87 L57 111     Q57 115 53 118 L35 128     L14 116 L14 87 Z" fill="#16BBDA" stroke="#087FA4" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M16 88 L35 99 L55 88" fill="none" stroke="#B8F5FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M35 99 L35 124" fill="none" stroke="#087FA4" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Lower right service group -->
+  <path d="M93 75 L114 87 L114 116     L93 128 L71 116 L71 87 Z" fill="#8B52F4" stroke="#6335B7" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M73 88 L93 99 L112 88" fill="none" stroke="#E4D2FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M93 99 L93 124" fill="none" stroke="#6335B7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Group connectivity -->
+  <path d="M64 65 L64 74 M31 60 L42 53     M87 53 L107 60 M57 87 L64 74     M71 87 L64 74" fill="none" stroke="#A3A3A3" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 3"/>
+
+  <!-- Central connection hub -->
+  <circle cx="64" cy="74" r="7" fill="#FFFFFF" stroke="#0078D4" stroke-width="3"/>
+  <circle cx="64" cy="74" r="2.5" fill="#0078D4"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M96 12 L101 7 L106 12     M22 40 L17 35 L12 40" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M59 4 L64 1 L69 4" fill="none" stroke="#FFCA28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn marker details -->
+  <path d="M20 30 L25 27 M103 30 L108 27     M5 109 L10 112 M118 109 L123 112" fill="none" stroke="#B3B3B3" stroke-width="2" stroke-linecap="round"/>
+</svg>

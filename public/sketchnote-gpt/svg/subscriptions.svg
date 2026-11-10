@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="128" height="128"><title>Subscriptions (sketch)</title>
+  <defs>
+    <radialGradient id="subscriptionGold" cx="40%" cy="25%" r="85%">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".49" stop-color="#FFCB12"/>
+      <stop offset=".88" stop-color="#FEAC19"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Subscription document / key emblem -->
+  <path d="M65 12     C58 5 47 5 40 12     L20 32     C13 39 13 50 20 57     L39 76     Q42 79 42 84     L42 111     Q42 115 45 118     L56 128     Q60 131 64 127     L75 116     L75 115     L83 107     Q86 104 83 101     L78 96     Q75 93 78 90     L83 85     Q86 82 83 79     L75 71     L75 66     L94 47     C101 40 101 29 94 22     Z" fill="url(#subscriptionGold)" stroke="#D98200" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Inner document/key detail -->
+  <path d="M46 80     L46 111     Q46 114 49 117     L57 125     Q60 128 63 125     L74 114     L80 108     Q82 106 80 104     L76 100     Q72 96 76 92     L80 88     Q82 86 80 84     L73 77" stroke="#FF9300" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subscription key head -->
+  <path d="M46 36     L65 17     C70 12 78 12 83 17     L90 24     C95 29 95 37 90 42     L70 62     C65 67 57 67 52 62     L46 56     C40 51 40 42 46 36 Z" fill="#FFD84D" opacity=".55"/>
+
+  <!-- Central keyhole -->
+  <circle cx="66" cy="36" r="9" fill="#FFF4B8" stroke="#FF9300" stroke-width="3"/>
+
+  <path d="M66 44 L66 62" stroke="#FF9300" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Horizontal subscription lines -->
+  <path d="M46 43 L85 43     M46 51 L82 51" stroke="#FF9300" stroke-width="3.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Lower vertical detail -->
+  <path d="M48 83 L48 116" stroke="#FF9300" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Azure-blue sketchnote accents -->
+  <path d="M23 29 L17 23     M16 43 L9 42     M30 69 L24 75     M94 17 L100 11     M101 27 L108 26" stroke="#0078D4" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Yellow marker sparkles -->
+  <path d="M99 61 L105 57     M106 69 L113 69     M92 76 L96 82" stroke="#FFB900" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M38 17 Q45 10 52 11     M19 51 Q20 57 26 62     M58 122 Q63 126 68 120" stroke="#D98200" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+</svg>

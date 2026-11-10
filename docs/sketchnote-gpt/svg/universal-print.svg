@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Universal Print (sketch)</title>
+  <defs>
+    <linearGradient id="cloud" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a67af4"/>
+      <stop offset="1" stop-color="#773adc"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3f1ff"/>
+      <stop offset="1" stop-color="#9cebff"/>
+    </linearGradient>
+    <linearGradient id="printer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83b9f9"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud silhouette -->
+  <path d="M42 79     C27 79 17 68 17 53     C17 39 28 29 42 29     C48 12 64 7 78 12     C91 16 98 27 99 39     C108 39 115 45 117 53     C129 59 124 77 108 79     Z" fill="url(#cloud)" stroke="#6530b5" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Cloud highlight -->
+  <path d="M37 33 Q49 22 60 25 M72 18 Q85 20 90 31" fill="none" stroke="#d9c5ff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Printer paper -->
+  <path d="M59 27     Q59 25 62 25     L106 25     Q109 25 109 28     L109 62     L59 62 Z" fill="url(#paper)" stroke="#198ab3" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Paper content lines -->
+  <g fill="none" stroke="#50a9d8" stroke-width="2.5" stroke-linecap="round">
+    <path d="M69 35 L99 35"/>
+    <path d="M69 43 L96 43"/>
+    <path d="M69 51 L90 51"/>
+  </g>
+
+  <!-- Printer body -->
+  <path d="M43 54     Q43 50 47 50     L113 50     Q117 50 117 55     L117 91     L42 91     Z" fill="url(#printer)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Printer upper edge -->
+  <path d="M47 55 Q79 52 113 55" fill="none" stroke="#c3f1ff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Printer output slot -->
+  <path d="M48 82 Q79 80 111 82" fill="none" stroke="#005ba1" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Printer status light -->
+  <circle cx="105" cy="68" r="4" fill="#c3f1ff" stroke="#0078d4" stroke-width="1.5"/>
+
+  <!-- Printed document -->
+  <path d="M56 75     L56 105     Q56 108 59 108     L103 108     Q106 108 106 105     L106 75 Z" fill="url(#paper)" stroke="#198ab3" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Document lines -->
+  <g fill="none" stroke="#5ea0ef" stroke-width="2.5" stroke-linecap="round">
+    <path d="M67 85 L95 85"/>
+    <path d="M67 93 L95 93"/>
+    <path d="M67 101 L88 101"/>
+  </g>
+
+  <!-- Yellow print activity indicators -->
+  <g fill="none" stroke="#ffca28" stroke-width="3.5" stroke-linecap="round">
+    <path d="M28 84 L21 84"/>
+    <path d="M33 96 L26 102"/>
+    <path d="M112 105 L119 111"/>
+  </g>
+
+  <!-- Sketchnote marker accents -->
+  <g fill="none" stroke="#004578" stroke-width="1.8" stroke-linecap="round" opacity=".8">
+    <path d="M45 93 Q44 98 47 101"/>
+    <path d="M113 91 Q116 94 114 98"/>
+    <path d="M61 112 Q80 115 100 112"/>
+  </g>
+
+  <!-- Small paper shine -->
+  <path d="M64 29 L75 29" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+</svg>

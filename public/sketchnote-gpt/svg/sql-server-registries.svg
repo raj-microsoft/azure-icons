@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>SQL Server Registries (sketch)</title>
+  <defs>
+    <linearGradient id="sqlBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".36" stop-color="#0071C8"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <radialGradient id="sqlTop" cx=".5" cy=".4" r=".7">
+      <stop offset="0" stop-color="#F2F2F2"/>
+      <stop offset="1" stop-color="#E6E6E6"/>
+    </radialGradient>
+  </defs>
+
+  <!-- SQL database cylinder -->
+  <path d="M12 39     C12 27 31 20 53 20     C76 20 94 27 94 39     L94 104     C94 116 75 123 53 123     C30 123 12 116 12 104 Z" fill="url(#sqlBlue)" stroke="#004E89" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Database top -->
+  <ellipse cx="53" cy="39" rx="41" ry="16" fill="url(#sqlTop)" stroke="#005BA1" stroke-width="3.5"/>
+
+  <ellipse cx="53" cy="39" rx="31" ry="10" fill="#50E6FF" stroke="#0078D4" stroke-width="2"/>
+
+  <path d="M29 39 Q53 48 77 39" fill="none" stroke="#198AB3" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Database layer divisions -->
+  <path d="M12 63 C12 75 31 82 53 82     C76 82 94 75 94 63" fill="none" stroke="#50E6FF" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M12 84 C12 96 31 103 53 103     C76 103 94 96 94 84" fill="none" stroke="#50E6FF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- SQL lettering represented by vector-like strokes -->
+  <path d="M29 55     C25 51 18 52 18 58     C18 62 28 62 28 68     C28 74 21 76 16 71" fill="none" stroke="#F2F2F2" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M49 72     C49 65 45 58 38 58     C31 58 28 65 28 72     C28 79 32 84 38 84     C44 84 49 79 49 72Z" fill="none" stroke="#F2F2F2" stroke-width="4.5"/>
+
+  <path d="M44 80 L51 87" fill="none" stroke="#F2F2F2" stroke-width="4.5" stroke-linecap="round"/>
+
+  <path d="M57 59 L57 84 L75 84" fill="none" stroke="#F2F2F2" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Registry document -->
+  <path d="M75 12     L101 12 L119 30     L119 83 Q119 87 115 87     L75 87 Q71 87 71 83     L71 16 Q71 12 75 12Z" fill="#FFFFFF" stroke="#0078D4" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Folded document corner -->
+  <path d="M101 13 L101 27     Q101 31 105 31 L118 31" fill="#32BEDD" stroke="#0078D4" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M102 15 L116 29" fill="none" stroke="#50E6FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Registry document records -->
+  <path d="M81 44 L109 44     M81 55 L109 55     M81 66 L109 66     M81 77 L96 77" fill="none" stroke="#32BEDD" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Document status dots -->
+  <circle cx="78" cy="44" r="2" fill="#50E6FF"/>
+  <circle cx="78" cy="55" r="2" fill="#50E6FF"/>
+  <circle cx="78" cy="66" r="2" fill="#50E6FF"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M105 6 L111 2 L117 7" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M7 30 L3 25 L8 20     M106 97 L112 101" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn details -->
+  <path d="M18 44 Q20 48 26 49     M17 108 Q34 119 52 119     M83 35 L91 35     M83 91 L105 91" fill="none" stroke="#BDE5FF" stroke-width="2" stroke-linecap="round"/>
+</svg>

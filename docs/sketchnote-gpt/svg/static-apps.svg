@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Static Apps (sketch)</title>
+  <defs>
+    <linearGradient id="staticBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#005ba1"/>
+    </linearGradient>
+    <linearGradient id="staticPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#76baff"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Browser / static app window -->
+  <path d="M15 35     Q15 29 21 29     L108 29     Q114 29 114 35     L114 105     Q114 111 108 111     L21 111     Q15 111 15 105 Z" fill="url(#staticBody)" stroke="#004578" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Browser top bar -->
+  <path d="M15 35     Q15 29 21 29     L108 29     Q114 29 114 35     L114 51     L15 51 Z" fill="#005ba1" stroke="#004578" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Main application panel -->
+  <path d="M24 59     Q24 56 28 56     L101 56     Q105 56 105 60     L105 100     Q105 103 101 103     L28 103     Q24 103 24 100 Z" fill="url(#staticPanel)" stroke="#3b87ce" stroke-width="1.8"/>
+
+  <!-- Browser control dots -->
+  <circle cx="29" cy="40" r="3.8" fill="#ffffff"/>
+  <circle cx="43" cy="40" r="3.8" fill="#ffffff"/>
+  <circle cx="57" cy="40" r="3.8" fill="#ffffff"/>
+
+  <!-- Code brackets -->
+  <path d="M53 76 L41 86 L53 96" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M75 76 L87 86 L75 96" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Code slash -->
+  <path d="M68 71 L59 101" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn emphasis -->
+  <path d="M11 40 Q9 61 11 77" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M19 22 Q35 19 47 21" fill="none" stroke="#50e6ff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Yellow deployment spark -->
+  <path d="M104 15 L108 23 L117 25 L109 29 L107 38 L103 30 L95 27 L103 24 Z" fill="#ffca28" stroke="#d99b00" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <path d="M88 19 L91 23 M119 43 L123 45" fill="none" stroke="#ffca28" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Bottom marker detail -->
+  <path d="M29 117 Q60 120 91 116" fill="none" stroke="#005ba1" stroke-width="2" stroke-linecap="round"/>
+</svg>
