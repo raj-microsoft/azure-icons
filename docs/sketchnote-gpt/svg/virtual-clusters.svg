@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Clusters (sketch)</title>
+  <defs>
+    <linearGradient id="serverGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3b2b3"/>
+      <stop offset=".55" stop-color="#a2a2a2"/>
+      <stop offset="1" stop-color="#858585"/>
+    </linearGradient>
+    <linearGradient id="clusterBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset=".55" stop-color="#3c91e5"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear server rack -->
+  <g stroke="#666" stroke-width="3" stroke-linejoin="round">
+    <path d="M9 12 Q9 9 13 9 L51 9 Q55 9 55 13 L55 78 Q55 82 51 82 L13 82 Q9 82 9 78 Z" fill="url(#serverGray)"/>
+    <path d="M73 12 Q73 9 77 9 L115 9 Q119 9 119 13 L119 78 Q119 82 115 82 L77 82 Q73 82 73 78 Z" fill="url(#serverGray)"/>
+  </g>
+
+  <!-- Left server slots -->
+  <g fill="#003067">
+    <rect x="16" y="25" width="32" height="9" rx="4"/>
+    <rect x="16" y="42" width="32" height="9" rx="4"/>
+  </g>
+  <g fill="#50e6ff">
+    <circle cx="21" cy="29.5" r="3"/>
+    <circle cx="21" cy="46.5" r="3"/>
+  </g>
+
+  <!-- Right server slots -->
+  <g fill="#003067">
+    <rect x="80" y="25" width="32" height="9" rx="4"/>
+    <rect x="80" y="42" width="32" height="9" rx="4"/>
+  </g>
+  <g fill="#50e6ff">
+    <circle cx="85" cy="29.5" r="3"/>
+    <circle cx="85" cy="46.5" r="3"/>
+  </g>
+
+  <!-- Front server rack -->
+  <path d="M20 59     Q20 56 24 56     L63 56 Q67 56 67 60     L67 113 Q67 117 63 117     L24 117 Q20 117 20 113 Z" fill="url(#serverGray)" stroke="#666" stroke-width="3" stroke-linejoin="round"/>
+
+  <g fill="#003067">
+    <rect x="27" y="75" width="33" height="9" rx="4"/>
+    <rect x="27" y="92" width="33" height="9" rx="4"/>
+  </g>
+  <g fill="#50e6ff">
+    <circle cx="32" cy="79.5" r="3"/>
+    <circle cx="32" cy="96.5" r="3"/>
+  </g>
+
+  <!-- Cloud representing virtual cluster -->
+  <path d="M103 106     C113 106 119 100 119 92     C119 85 114 79 107 78     C104 68 96 62 86 62     C76 62 68 69 65 78     C56 79 50 86 50 95     C50 103 57 109 66 109     L102 109 Z" fill="url(#clusterBlue)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Cloud highlight -->
+  <path d="M72 78 Q79 66 89 68 Q97 68 103 77" fill="none" stroke="#9bd1ff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cluster connection nodes -->
+  <g fill="none" stroke="#d8f3ff" stroke-width="2.5" stroke-linecap="round">
+    <path d="M85 82 L85 96"/>
+    <path d="M75 90 L95 90"/>
+    <path d="M75 90 L85 82 L95 90"/>
+  </g>
+  <g fill="#50e6ff" stroke="#005ba1" stroke-width="1.5">
+    <circle cx="85" cy="81" r="4"/>
+    <circle cx="74" cy="91" r="4"/>
+    <circle cx="96" cy="91" r="4"/>
+    <circle cx="85" cy="99" r="4"/>
+  </g>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
+    <path d="M12 88 L7 84"/>
+    <path d="M111 57 L116 52"/>
+    <path d="M110 114 L116 117"/>
+    <path d="M44 120 L51 122"/>
+  </g>
+
+  <!-- Marker details -->
+  <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M14 16 L46 16"/>
+    <path d="M78 16 L110 16"/>
+    <path d="M26 64 L59 64"/>
+  </g>
+</svg>

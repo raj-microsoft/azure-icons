@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Website Staging (sketch)</title>
+  
+  <desc>Hand-drawn Azure cloud with three horizontal staging environment layers representing deployment stages.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="25" y1="8" x2="90" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".45" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="stageOne" x1="20" y1="78" x2="112" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud silhouette -->
+  <path d="M39 70     C24 72 14 63 14 49     C14 36 24 26 38 25     C44 10 57 5 71 9     C84 12 92 22 94 34     C109 35 117 46 115 59     C114 70 105 76 94 76     L39 76 Z" fill="url(#cloudBlue)" stroke="#005BA1" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cloud upper highlights -->
+  <path d="M29 30     Q40 18 54 19     Q65 9 78 18" fill="none" stroke="#BCE4FF" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M20 46     Q20 36 29 32" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M85 24 Q92 31 92 39" fill="none" stroke="#83B9F9" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cloud base contour -->
+  <path d="M27 67 Q38 74 49 70     M96 70 Q106 68 109 60" fill="none" stroke="#83B9F9" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Staging layer 1 -->
+  <path d="M17 82     Q17 79 21 79     L107 79     Q111 79 111 82     L111 89     Q111 92 107 92     L21 92     Q17 92 17 89 Z" fill="url(#stageOne)" stroke="#005BA1" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <path d="M23 84 L105 84" fill="none" stroke="#50E6FF" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Staging layer 2 -->
+  <path d="M17 98     Q17 95 21 95     L93 95     Q97 95 97 98     L97 105     Q97 108 93 108     L21 108     Q17 108 17 105 Z" fill="#32BEDD" stroke="#198AB3" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <path d="M23 100 L91 100" fill="none" stroke="#C5F7FF" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- Staging layer 3 -->
+  <path d="M17 114     Q17 111 21 111     L79 111     Q83 111 83 114     L83 121     Q83 124 79 124     L21 124     Q17 124 17 121 Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <path d="M23 116 L77 116" fill="none" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Yellow deployment accents -->
+  <path d="M101 17 L107 12     M108 25 L115 23     M12 74 L7 71" fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Azure-blue sketchnote marks -->
+  <path d="M116 75 L121 72     M112 81 L119 80" fill="none" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M8 94 L12 92     M8 102 L12 102" fill="none" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing details -->
+  <path d="M87 112 L91 109     M91 118 L96 116" fill="none" stroke="#F2C94C" stroke-width="2.4" stroke-linecap="round"/>
+
+  <path d="M20 127 Q47 129 72 127" fill="none" stroke="#0078D4" stroke-width="1.5" stroke-linecap="round" opacity=".6"/>
+</svg>

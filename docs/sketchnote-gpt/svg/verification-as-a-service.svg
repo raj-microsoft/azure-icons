@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Verification As A Service (sketch)</title>
+  <defs>
+    <linearGradient id="azure" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5e9eee"/>
+      <stop offset="1" stop-color="#0078d2"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#9cebff"/>
+      <stop offset="1" stop-color="#50e6ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Verification document -->
+  <path d="M18 9     Q13 9 13 15     L13 109     Q13 116 20 117     L78 117     Q84 116 84 110     L84 17     Q83 10 77 10 Z" fill="url(#azure)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Document top highlight -->
+  <path d="M23 17 Q48 14 74 17" fill="none" stroke="#9bd1ff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- User identity symbol -->
+  <circle cx="48" cy="39" r="15" fill="url(#cyan)" stroke="#0878b9" stroke-width="2.5"/>
+
+  <path d="M39 38     Q39 30 48 30     Q57 30 57 38     Q57 43 48 47     Q39 43 39 38Z" fill="#f2f2f2" opacity=".9"/>
+
+  <path d="M34 62     Q36 53 48 53     Q60 53 62 62" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Verification record lines -->
+  <g fill="#8ec1fa">
+    <rect x="27" y="76" width="45" height="7" rx="3"/>
+    <rect x="27" y="91" width="45" height="7" rx="3"/>
+    <rect x="27" y="106" width="35" height="6" rx="3"/>
+  </g>
+
+  <!-- Verification seal -->
+  <circle cx="91" cy="82" r="29" fill="#86d633" stroke="#4d9b22" stroke-width="3.5"/>
+
+  <circle cx="91" cy="82" r="23" fill="none" stroke="#d4ff9d" stroke-width="2" stroke-dasharray="3 4"/>
+
+  <!-- Check mark -->
+  <path d="M76 82     L87 93     Q89 95 91 92     L108 72" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M76 82 L87 93 L108 72" fill="none" stroke="#f0fff0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Seal sparkle accents -->
+  <g fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
+    <path d="M112 48 L112 56"/>
+    <path d="M108 52 L116 52"/>
+    <path d="M117 103 L123 107"/>
+    <path d="M69 54 L64 49"/>
+  </g>
+
+  <!-- Sketchnote marker details -->
+  <g fill="none" stroke="#9cebff" stroke-width="2" stroke-linecap="round">
+    <path d="M20 69 L17 74"/>
+    <path d="M70 115 L77 113"/>
+    <path d="M31 23 Q40 19 48 20"/>
+  </g>
+</svg>

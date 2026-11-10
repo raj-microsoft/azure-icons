@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Web Slots (sketch)</title>
+  
+  <desc>Three vertical web application slots connected to a horizontal platform, with a curved teal routing arrow indicating workload distribution.</desc>
+
+  <defs>
+    <linearGradient id="routeTeal" x1="35" y1="8" x2="96" y2="53" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42E8CA"/>
+      <stop offset=".55" stop-color="#3FDDC3"/>
+      <stop offset="1" stop-color="#37C2B1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Platform support feet -->
+  <path d="M13 91 L22 91 Q24 91 24 94 L24 112 L11 112 L11 94 Q11 91 13 91Z" fill="#767676" stroke="#555555" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M105 91 L116 91 Q118 91 118 94 L118 112 L103 112 L103 94 Q103 91 105 91Z" fill="#767676" stroke="#555555" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Horizontal platform -->
+  <path d="M13 84 Q14 80 19 80 L110 80 Q115 80 116 84            L116 92 Q115 96 110 96 L18 96 Q13 96 13 92Z" fill="#949494" stroke="#666666" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M20 86 L108 86" fill="none" stroke="#D7D7D7" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Left application slot -->
+  <rect x="23" y="51" width="21" height="39" rx="4" fill="#0078D4" stroke="#005BA1" stroke-width="2.8" transform="rotate(-1 33 70)"/>
+
+  <path d="M29 58 L38 58 M29 65 L38 65" fill="none" stroke="#BCE4FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Middle application slot -->
+  <rect x="53" y="51" width="21" height="39" rx="4" fill="#0078D4" stroke="#005BA1" stroke-width="2.8" transform="rotate(.5 63 70)"/>
+
+  <path d="M59 58 L68 58 M59 65 L68 65" fill="none" stroke="#BCE4FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Right application slot -->
+  <rect x="84" y="51" width="21" height="39" rx="4" fill="#37C2B1" stroke="#168F86" stroke-width="2.8" transform="rotate(-.8 94 70)"/>
+
+  <path d="M90 58 L99 58 M90 65 L99 65" fill="none" stroke="#D5FFF5" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Slot highlights -->
+  <path d="M27 72 L27 85 M57 72 L57 85" fill="none" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M88 72 L88 85" fill="none" stroke="#80F1DC" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Routing arrow: curved distribution path -->
+  <path d="M23 48            C30 31 51 25 75 26            L75 14            Q75 11 78 13            L102 34            Q104 36 102 38            L78 58            Q75 60 75 56            L75 44            C54 43 37 46 23 58" fill="url(#routeTeal)" stroke="#168F86" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Arrow highlight -->
+  <path d="M31 43 Q48 29 69 31" fill="none" stroke="#B7FFF0" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M14 31 L9 27 M18 24 L16 18" fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M108 49 L114 45 M112 56 L119 54" fill="none" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M47 104 L51 101 M77 104 L81 101" fill="none" stroke="#F2C94C" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Hand-drawn movement marks -->
+  <path d="M8 69 Q12 66 16 68" fill="none" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M112 72 Q117 69 121 72" fill="none" stroke="#37C2B1" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Platform finishing details -->
+  <path d="M18 91 Q31 94 42 91 M87 92 Q101 94 111 91" fill="none" stroke="#C7C7C7" stroke-width="1.5" stroke-linecap="round"/>
+
+  <path d="M16 116 L31 116 M98 116 L114 116" fill="none" stroke="#767676" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

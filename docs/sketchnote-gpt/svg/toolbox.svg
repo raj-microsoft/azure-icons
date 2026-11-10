@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Toolbox (sketch)</title>
+  <defs>
+    <linearGradient id="toolboxBlue" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".5" stop-color="#3c91e5"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
+    </linearGradient>
+    <linearGradient id="handleGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9b9b9"/>
+      <stop offset="1" stop-color="#858585"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Handle -->
+  <path d="M38 36 L38 23     Q38 17 45 17     L83 17     Q90 17 90 23     L90 36" fill="none" stroke="#858585" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M43 34 L43 24 Q43 22 46 22 L82 22 Q85 22 85 24 L85 34" fill="none" stroke="#d0d0d0" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Toolbox body -->
+  <path d="M13 37     Q13 33 18 33     L110 33     Q115 33 115 38     L115 104     Q115 109 110 111     L18 111     Q13 109 13 104 Z" fill="url(#toolboxBlue)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Top highlight -->
+  <path d="M19 39 Q62 35 109 39" fill="none" stroke="#9cebff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Lid seam -->
+  <path d="M13 57 Q62 59 115 57" fill="none" stroke="#9cebff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Central latch -->
+  <path d="M47 55 L81 55 L81 70     Q81 73 78 73 L50 73 Q47 73 47 70 Z" fill="#005ba1" stroke="#004b87" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M53 61 L75 61" stroke="#9cebff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Left side panel -->
+  <path d="M14 78 L14 99 L43 108 L48 88 Z" fill="#83b9f9" stroke="#005ba1" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M19 84 L39 91" stroke="#c5e4ff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right side detail -->
+  <path d="M114 77     C123 81 124 92 119 101     Q117 105 113 107     L113 78 Z" fill="#5ea0ef" stroke="#005ba1" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M118 84 Q123 91 118 99" fill="none" stroke="#9cebff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hand-drawn accents -->
+  <g fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
+    <path d="M25 47 L36 47"/>
+    <path d="M92 47 L103 47"/>
+    <path d="M29 102 L38 105"/>
+    <path d="M91 105 L101 104"/>
+  </g>
+
+  <!-- Marker sketch strokes -->
+  <g fill="none" stroke="#004b87" stroke-width="1.8" stroke-linecap="round" opacity=".7">
+    <path d="M17 67 Q16 83 17 96"/>
+    <path d="M109 64 Q111 82 109 97"/>
+    <path d="M24 114 Q60 118 101 114"/>
+  </g>
+</svg>

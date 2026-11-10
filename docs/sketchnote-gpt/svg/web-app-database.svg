@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Web App + Database (sketch)</title>
+  
+  <desc>Hand-drawn Azure globe and connected database cylinder representing a web application with its database.</desc>
+
+  <defs>
+    <linearGradient id="globe" x1="20" y1="12" x2="75" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="database" x1="75" y1="65" x2="119" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".5" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="databaseTop" x1="80" y1="50" x2="117" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8E8E8"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Globe / web application -->
+  <path d="M62 20     C49 10 31 13 21 24     C9 36 10 54 20 66     C30 79 49 82 63 72     C76 63 81 47 73 33     C70 28 66 24 62 20Z" fill="url(#globe)" stroke="#005BA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Globe latitude and longitude -->
+  <path d="M17 43 Q41 32 72 43     M16 54 Q43 66 76 53" fill="none" stroke="#BCE8FF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <path d="M42 16     C28 30 27 56 43 76     M51 16     C65 31 66 57 51 76" fill="none" stroke="#BCE8FF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Globe highlights -->
+  <path d="M23 30 Q36 17 52 18" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M17 47 Q15 56 21 64" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Database body -->
+  <path d="M73 57     Q73 49 94 48     Q116 48 117 57     L117 101     Q116 110 95 112     Q74 111 73 102 Z" fill="url(#database)" stroke="#005BA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Database top -->
+  <path d="M73 57     C73 48 93 45 105 49     C116 52 120 58 115 63     C107 71 80 69 74 62     Q72 60 73 57Z" fill="url(#databaseTop)" stroke="#005BA1" stroke-width="2.8"/>
+
+  <!-- Database top inner ellipse -->
+  <path d="M81 57     C86 52 105 52 111 57     C115 61 106 65 96 65     C86 65 77 61 81 57Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.8"/>
+
+  <path d="M84 57 Q97 53 108 57" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Database data layers -->
+  <path d="M74 76     C82 84 108 85 116 76" fill="none" stroke="#50E6FF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <path d="M74 91     C83 100 108 100 116 91" fill="none" stroke="#50E6FF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <path d="M75 102     Q78 109 95 110     Q110 109 115 102" fill="none" stroke="#83B9F9" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Database side highlight -->
+  <path d="M80 71 L80 96" fill="none" stroke="#83B9F9" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Connection between web app and database -->
+  <path d="M61 72 Q68 77 76 77" fill="none" stroke="#0078D4" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 4"/>
+
+  <circle cx="68" cy="77" r="4" fill="#F2C94C" stroke="#B8860B" stroke-width="1.3"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M13 19 L8 14 M18 13 L16 7" fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M91 32 L96 26 M99 35 L106 33" fill="none" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M119 41 L123 37" fill="none" stroke="#F2C94C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Azure-blue hand-drawn movement marks -->
+  <path d="M6 82 Q11 79 15 82" fill="none" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M105 119 L111 116 M114 119 L119 117" fill="none" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Subtle hand-drawn finishing strokes -->
+  <path d="M29 82 Q44 89 58 79" fill="none" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M72 58 Q71 62 75 65" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

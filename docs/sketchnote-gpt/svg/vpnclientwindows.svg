@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>VPNClientWindows (sketch)</title>
+  
+  <desc>Hand-drawn red security shield with four white directional VPN arrows representing secure network connectivity.</desc>
+
+  <defs>
+    <linearGradient id="shieldRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E5484D"/>
+      <stop offset="0.5" stop-color="#BA141A"/>
+      <stop offset="1" stop-color="#850D16"/>
+    </linearGradient>
+    <linearGradient id="shieldHighlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield silhouette -->
+  <path d="M18 17            Q34 18 47 9            Q64 -1 81 9            Q94 18 111 17            L110 54            Q111 87 85 106            L65 121            Q63 123 60 121            L40 106            Q15 87 16 54            Z" fill="url(#shieldRed)" stroke="#790D14" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Inner shield contour -->
+  <path d="M24 25            Q39 25 50 17            Q64 8 78 17            Q91 25 104 24            L103 55            Q104 83 82 100            L63 115            L44 100            Q22 83 23 55 Z" fill="none" stroke="#F47778" stroke-width="2" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Shield highlight -->
+  <path d="M19 20            Q37 21 50 12            Q63 4 78 12            Q87 18 94 20            L46 99            Q21 81 20 54 Z" fill="url(#shieldHighlight)"/>
+
+  <!-- Top directional arrow -->
+  <path d="M48 36 L64 20 L80 36            L68 36 L68 54            Q68 56 66 56            L62 56 Q60 56 60 54            L60 36 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Bottom directional arrow -->
+  <path d="M48 91 L64 107 L80 91            L68 91 L68 73            Q68 71 66 71            L62 71 Q60 71 60 73            L60 91 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Right directional arrow -->
+  <path d="M84 48 L100 64 L84 80            L84 68 L68 68            Q66 68 66 66            L66 62 Q66 60 68 60            L84 60 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Left directional arrow -->
+  <path d="M44 48 L28 64 L44 80            L44 68 L60 68            Q62 68 62 66            L62 62 Q62 60 60 60            L44 60 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Central secure connection -->
+  <circle cx="64" cy="64" r="5.5" fill="#BA141A" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Blue sketchnote accents -->
+  <path d="M8 43 L12 39 M9 51 L14 49" fill="none" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M115 42 L120 38 M116 50 L121 48" fill="none" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Yellow emphasis marks -->
+  <path d="M91 9 L96 5 M98 15 L104 13" fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M24 99 L19 104 M31 106 L28 112" fill="none" stroke="#F2C94C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M13 55 Q12 80 28 94" fill="none" stroke="#790D14" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M110 55 Q111 79 96 94" fill="none" stroke="#790D14" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M53 119 Q64 126 75 119" fill="none" stroke="#E5484D" stroke-width="2" stroke-linecap="round"/>
+</svg>

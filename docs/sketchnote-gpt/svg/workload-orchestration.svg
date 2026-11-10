@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Workload Orchestration (sketch)</title>
+  
+  <desc>Three interconnected orchestration nodes surrounding a central crossed-tools symbol, representing coordinated workloads and automated operations.</desc>
+
+  <defs>
+    <linearGradient id="nodeBlue" x1="20" y1="30" x2="55" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="nodePurple" x1="55" y1="5" x2="80" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="nodeTeal" x1="90" y1="65" x2="120" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3CD4C2"/>
+      <stop offset="1" stop-color="#258277"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular orchestration path -->
+  <path d="M64 20     C91 20 110 40 110 65     C110 91 90 110 64 110     C39 110 19 91 19 65     C19 40 38 20 64 20Z" fill="none" stroke="#9B9C9C" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+
+  <!-- Directional flow indicators -->
+  <path d="M94 30 L103 32 L100 41" fill="none" stroke="#9B9C9C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M106 91 L98 98 L89 94" fill="none" stroke="#9B9C9C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M26 43 L21 34 L30 31" fill="none" stroke="#9B9C9C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top purple orchestration node -->
+  <circle cx="64" cy="20" r="12" fill="url(#nodePurple)" stroke="#6330B5" stroke-width="2.5"/>
+  <circle cx="64" cy="20" r="4" fill="#FFFFFF"/>
+  <path d="M59 13 Q64 10 69 14" fill="none" stroke="#DCCAFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Left blue workload node -->
+  <circle cx="20" cy="65" r="12" fill="url(#nodeBlue)" stroke="#005BA1" stroke-width="2.5"/>
+  <circle cx="20" cy="65" r="4" fill="#FFFFFF"/>
+  <path d="M14 61 Q18 55 24 57" fill="none" stroke="#BCE4FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Right teal workload node -->
+  <circle cx="108" cy="65" r="12" fill="url(#nodeTeal)" stroke="#187A70" stroke-width="2.5"/>
+  <circle cx="108" cy="65" r="4" fill="#FFFFFF"/>
+  <path d="M102 60 Q107 55 113 59" fill="none" stroke="#B7FFF0" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Bottom blue workload node -->
+  <circle cx="64" cy="110" r="12" fill="url(#nodeBlue)" stroke="#005BA1" stroke-width="2.5"/>
+  <circle cx="64" cy="110" r="4" fill="#FFFFFF"/>
+  <path d="M58 106 Q63 101 69 105" fill="none" stroke="#BCE4FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Central orchestration hub -->
+  <circle cx="64" cy="65" r="27" fill="#FFFFFF" stroke="#0078D4" stroke-width="3.5"/>
+
+  <circle cx="64" cy="65" r="22" fill="#EAF5FF" stroke="#5EA0EF" stroke-width="1.8"/>
+
+  <!-- Central crossed tools: wrench -->
+  <path d="M48 49     C44 44 46 36 52 34     L58 40 L56 46 L62 52     L57 57 L51 51     L45 53 Z" fill="#5EA0EF" stroke="#005BA1" stroke-width="2.5" stroke-linejoin="round" transform="translate(5 7) scale(.78)"/>
+
+  <!-- Central crossed tools: screwdriver / automation lever -->
+  <path d="M75 48     L81 42     Q84 40 86 43     Q88 46 85 48     L79 54     L69 68     L65 64 Z" fill="#9B9C9C" stroke="#666666" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <path d="M65 65 L75 55" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Central gear / automation detail -->
+  <circle cx="64" cy="69" r="8" fill="#0078D4" stroke="#005BA1" stroke-width="2"/>
+  <circle cx="64" cy="69" r="3" fill="#FFFFFF"/>
+
+  <!-- Yellow emphasis marks -->
+  <path d="M85 14 L90 9 M94 19 L100 17" fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M113 43 L119 39 M116 51 L122 50" fill="none" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M13 91 L7 95 M22 101 L17 107" fill="none" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Azure marker accents -->
+  <path d="M43 10 L38 6 M35 17 L29 16" fill="none" stroke="#5EA0EF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M85 108 L91 111 M82 116 L87 121" fill="none" stroke="#5EA0EF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M42 75 Q44 79 48 80" fill="none" stroke="#83B9F9" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M80 79 Q84 77 85 73" fill="none" stroke="#3CD4C2" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

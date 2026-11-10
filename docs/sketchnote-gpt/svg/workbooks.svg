@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Workbooks (sketch)</title>
+  
+  <desc>Hand-drawn blue workbook with a white page, blue binding, and highlighted spreadsheet cells.</desc>
+
+  <defs>
+    <linearGradient id="bookBlue" x1="35" y1="15" x2="100" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".817" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="pageBlue" x1="25" y1="15" x2="110" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCEEFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Workbook rear cover -->
+  <path d="M30 17 L39 8 Q42 5 46 5 L106 5            Q112 5 112 11 L112 109            Q112 112 109 115 L99 123            L31 123 Q27 122 27 118 L27 22 Z" fill="#005BA1" stroke="#004578" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- White workbook pages -->
+  <path d="M37 15 L104 15 Q108 15 108 20            L108 108 Q108 112 104 112            L37 112 Z" fill="url(#pageBlue)" stroke="#0078D4" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Page upper highlight -->
+  <path d="M43 20 L100 20" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Main blue workbook cover -->
+  <path d="M27 19 Q27 16 31 16            L98 16 Q102 16 102 20            L102 116 Q102 120 98 120            L30 120 Q26 119 26 115 Z" fill="url(#bookBlue)" stroke="#005BA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Workbook spine -->
+  <path d="M27 19 Q24 18 22 21            L15 29 L15 112 Q15 116 19 116            L27 119" fill="#005BA1" stroke="#004578" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Binding tabs -->
+  <g fill="#005BA1" stroke="#004578" stroke-width="1.8">
+    <rect x="12" y="29" width="19" height="10" rx="3"/>
+    <rect x="12" y="47" width="19" height="10" rx="3"/>
+    <rect x="12" y="65" width="19" height="10" rx="3"/>
+    <rect x="12" y="83" width="19" height="10" rx="3"/>
+    <rect x="12" y="101" width="19" height="10" rx="3"/>
+  </g>
+
+  <!-- Workbook page content -->
+  <path d="M39 29 L88 29" fill="none" stroke="#BCE4FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Spreadsheet header -->
+  <rect x="42" y="40" width="47" height="18" rx="3" fill="#FFFFFF" stroke="#005BA1" stroke-width="1.8"/>
+
+  <path d="M57.5 40 L57.5 58 M73 40 L73 58" fill="none" stroke="#5EA0EF" stroke-width="1.5"/>
+
+  <path d="M42 49 L89 49" fill="none" stroke="#5EA0EF" stroke-width="1.5"/>
+
+  <!-- Workbook data rows -->
+  <g fill="#FFFFFF" stroke="#BCE4FF" stroke-width="1.4">
+    <rect x="42" y="64" width="14" height="12" rx="1.5"/>
+    <rect x="59" y="64" width="14" height="12" rx="1.5"/>
+    <rect x="76" y="64" width="13" height="12" rx="1.5"/>
+    <rect x="42" y="80" width="14" height="12" rx="1.5"/>
+    <rect x="59" y="80" width="14" height="12" rx="1.5"/>
+    <rect x="76" y="80" width="13" height="12" rx="1.5"/>
+  </g>
+
+  <!-- Selected workbook cells -->
+  <rect x="59" y="64" width="14" height="12" rx="1.5" fill="#50E6FF" stroke="#0078D4" stroke-width="1.5"/>
+  <rect x="76" y="80" width="13" height="12" rx="1.5" fill="#50E6FF" stroke="#0078D4" stroke-width="1.5"/>
+
+  <!-- Small workbook content lines -->
+  <path d="M43 101 L65 101 M43 106 L78 106" fill="none" stroke="#BCE4FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Yellow marker accents -->
+  <path d="M94 34 L100 29 M100 39 L106 37" fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M35 8 L39 4 M44 11 L48 7" fill="none" stroke="#F2C94C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Blue sketchnote emphasis -->
+  <path d="M7 48 L10 45 M7 73 L10 70" fill="none" stroke="#5EA0EF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M109 94 L116 91" fill="none" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M34 117 Q60 121 91 117" fill="none" stroke="#83B9F9" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M104 16 Q110 17 110 23" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

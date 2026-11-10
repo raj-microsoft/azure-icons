@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Visits Builder (sketch)</title>
+  <defs>
+    <linearGradient id="visitPurple" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#773adc"/>
+      <stop offset=".5" stop-color="#864ee4"/>
+      <stop offset="1" stop-color="#a67af4"/>
+    </linearGradient>
+    <linearGradient id="videoCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#50e6ff"/>
+      <stop offset="1" stop-color="#32bedd"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Virtual visit calendar window -->
+  <path d="M12 30     Q12 25 18 25     L103 25     Q109 25 109 31     L109 91     Q109 97 103 97     L18 97     Q12 97 12 91 Z" fill="url(#visitPurple)" stroke="#5924b5" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Calendar header -->
+  <path d="M13 30 Q13 25 19 25 L102 25 Q108 25 108 31 L108 49 L13 49 Z" fill="#773adc"/>
+
+  <path d="M30 18 L30 35 M89 18 L89 35" stroke="#c3a5fa" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Calendar content -->
+  <rect x="24" y="57" width="43" height="28" rx="3" fill="#f2f2f2" stroke="#d5c5f7" stroke-width="2"/>
+
+  <path d="M31 64 L59 64 M31 72 L59 72 M31 80 L48 80" stroke="#b796f9" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Calendar information lines -->
+  <path d="M77 61 L98 61 M77 73 L98 73 M77 85 L92 85" stroke="#d9c5ff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Video camera panel -->
+  <rect x="53" y="78" width="52" height="42" rx="5" fill="url(#videoCyan)" stroke="#087da5" stroke-width="3"/>
+
+  <!-- Camera lens / play symbol -->
+  <path d="M70 88     Q70 84 74 86     L85 92     L96 98     Q99 100 96 102     L85 108     L74 114     Q70 116 70 112 Z" fill="#c3f1ff" stroke="#168eaf" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Video camera side lens -->
+  <path d="M105 91 L120 83     Q124 81 124 87     L124 110     Q124 115 120 112     L105 104 Z" fill="#32bedd" stroke="#087da5" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Purple marker accents -->
+  <g fill="none" stroke="#c3a5fa" stroke-width="2.5" stroke-linecap="round">
+    <path d="M19 40 L27 40"/>
+    <path d="M95 40 L102 40"/>
+    <path d="M19 89 L19 94"/>
+  </g>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#ffd43b" stroke-width="3" stroke-linecap="round">
+    <path d="M113 30 L120 24"/>
+    <path d="M117 42 L124 42"/>
+    <path d="M43 110 L37 116"/>
+    <path d="M43 18 L43 12"/>
+  </g>
+
+  <!-- Hand-drawn connection marks -->
+  <g fill="none" stroke="#9cebff" stroke-width="2" stroke-linecap="round">
+    <path d="M58 119 L65 122"/>
+    <path d="M108 116 L113 120"/>
+  </g>
+</svg>

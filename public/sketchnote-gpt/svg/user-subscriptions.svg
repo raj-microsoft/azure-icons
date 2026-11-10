@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>User Subscriptions (sketch)</title>
+  <defs>
+    <linearGradient id="userBlue" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#32d4f5"/>
+      <stop offset="1" stop-color="#198ab3"/>
+    </linearGradient>
+    <radialGradient id="subscriptionGold" cx="35%" cy="25%" r="80%">
+      <stop offset="0" stop-color="#ffd70f"/>
+      <stop offset="1" stop-color="#fea11b"/>
+    </radialGradient>
+  </defs>
+
+  <!-- User profile: shoulders and torso -->
+  <path d="M16 111     C19 84 36 68 61 67     C87 66 106 84 111 110     Q113 119 104 119     L21 119     Q13 118 16 111Z" fill="url(#userBlue)" stroke="#0878a5" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Shoulder highlight -->
+  <path d="M27 96 Q42 79 61 80 Q82 79 97 96" fill="none" stroke="#9cebff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Neck and collar detail -->
+  <path d="M46 69 L61 92 L76 69" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <path d="M53 75 L61 94 L69 75" fill="none" stroke="#198ab3" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- User head -->
+  <circle cx="61" cy="37" r="29" fill="url(#userBlue)" stroke="#0878a5" stroke-width="4"/>
+
+  <!-- Face highlight -->
+  <path d="M42 21 Q54 9 69 12" fill="none" stroke="#9cebff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Subscription/access key -->
+  <g stroke="#a86a08" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M105 65       C96 65 90 72 90 81       C90 90 97 97 106 97       C115 97 122 90 122 81       C122 76 119 71 115 68       L108 61       L101 68       L94 75       L101 82       L107 76       L113 82       L119 76       L113 70Z" fill="url(#subscriptionGold)"/>
+  </g>
+
+  <!-- Keyhole -->
+  <circle cx="106" cy="80" r="5" fill="#fff0a0" stroke="#c27b0a" stroke-width="2"/>
+  <path d="M106 84 L106 91" stroke="#c27b0a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Key shaft and teeth -->
+  <path d="M99 96 L99 111 L105 117 L111 111 L111 103" fill="none" stroke="#c27b0a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M100 105 L107 105 M100 111 L105 111" stroke="#ff9300" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
+    <path d="M18 72 L12 67"/>
+    <path d="M25 61 L21 55"/>
+    <path d="M115 49 L121 44"/>
+    <path d="M119 57 L125 55"/>
+  </g>
+
+  <!-- Marker sketch details -->
+  <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M29 108 Q42 103 49 105"/>
+    <path d="M73 107 Q85 103 94 109"/>
+  </g>
+</svg>
