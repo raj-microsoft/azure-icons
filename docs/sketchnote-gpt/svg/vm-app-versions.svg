@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>VM App Versions (sketch)</title>
+  
+  <desc>Hand-drawn Azure virtual machine monitor with layered application version squares and a purple application version badge.</desc>
+
+  <defs>
+    <linearGradient id="screenBlue" x1="18" y1="12" x2="91" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="standBlue" x1="45" y1="79" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F56A3"/>
+      <stop offset="1" stop-color="#1490DF"/>
+    </linearGradient>
+    <linearGradient id="badgePurple" x1="92" y1="66" x2="110" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B796F9"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monitor silhouette -->
+  <path d="M13 13            Q12 11 17 11            L115 12            Q119 12 119 17            L118 71            Q117 74 114 71            C99 57 77 64 70 82            L16 82            Q11 82 11 78            Z" fill="url(#screenBlue)" stroke="#15549A" stroke-width="3.4"/>
+
+  <!-- Loose marker edge -->
+  <path d="M17 17 Q47 15 77 17 L112 17            M16 23 L16 70" stroke="#9CEBFF" stroke-width="2.3" opacity=".7"/>
+
+  <!-- Screen highlights -->
+  <path d="M23 27 L39 27            M23 33 L32 33" stroke="#9CEBFF" stroke-width="2" opacity=".65"/>
+
+  <!-- Application version symbol: layered squares -->
+  <path d="M55 34 L74 34            Q76 34 76 36            L76 53" stroke="#773ADC" stroke-width="5"/>
+
+  <path d="M55 34 L74 34            M76 39 L76 48" stroke="#B796F9" stroke-width="1.5" opacity=".65"/>
+
+  <!-- Outer version container -->
+  <path d="M35 40            Q35 38 38 38            L52 38            M66 59 L66 66            Q66 68 63 68            L36 68            Q33 68 33 65            L33 40" stroke="#FFFFFF" stroke-width="4.2"/>
+
+  <!-- Inner version tile -->
+  <path d="M45 46            L62 45            Q64 45 64 48            L64 62            L46 62            Q44 62 44 60            Z" fill="#9CEBFF" stroke="#176CA8" stroke-width="2.4"/>
+
+  <path d="M48 49 L58 49            M48 53 L54 53" stroke="#FFFFFF" stroke-width="1.8" opacity=".85"/>
+
+  <!-- Tiny hand-drawn revision marks -->
+  <path d="M82 30 L85 26            M89 33 L94 31            M82 40 L87 42" stroke="#FFD34D" stroke-width="2.8"/>
+
+  <!-- Monitor stand -->
+  <path d="M48 82            L66 82            C64 91 64 101 71 106            Q74 108 74 112            L31 112            Q31 108 37 106            C45 102 48 94 48 82Z" fill="url(#standBlue)" stroke="#15549A" stroke-width="3"/>
+
+  <path d="M39 107 Q52 104 66 108" stroke="#5EA0EF" stroke-width="2.5"/>
+
+  <!-- Version badge: circular purple marker -->
+  <path d="M97 66            C115 65 125 78 124 94            C124 111 112 123 97 123            C80 123 68 112 68 95            C68 79 80 66 97 66Z" fill="url(#badgePurple)" stroke="#6533B4" stroke-width="3.4"/>
+
+  <!-- Sketch accent around badge -->
+  <path d="M78 78 Q91 66 105 72            M117 81 Q122 90 118 101" stroke="#DDC6FF" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Original application-version glyph -->
+  <path d="M82 111            L96 78            Q97 76 99 79            L113 111            Z" fill="none" stroke="#FFFFFF" stroke-width="3.2"/>
+
+  <path d="M88 106            L97 86            L106 106Z" fill="none" stroke="#FFFFFF" stroke-width="2.3"/>
+
+  <!-- Small yellow sketchnote spark -->
+  <path d="M119 57 L122 52            M113 55 L114 49            M123 62 L127 60" stroke="#FFD34D" stroke-width="2.8"/>
+
+  <!-- Underline detail -->
+  <path d="M31 118 Q46 120 63 118" stroke="#1490DF" stroke-width="2" opacity=".65"/>
+</svg>

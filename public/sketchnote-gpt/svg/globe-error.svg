@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Globe Error (sketch)</title>
+  
+  <desc>Red warning globe with a white exclamation mark, mounted on a loosely sketched gray globe stand, with subtle Azure-blue and yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="errorRed" x1="25" y1="8" x2="83" y2="93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E62323"/>
+      <stop offset="0.82" stop-color="#CF2020"/>
+      <stop offset="1" stop-color="#B31B1B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Globe stand: loosely drawn supporting arc -->
+  <path d="M93 12        C113 29 118 55 108 76        C98 99 77 108 55 103        C44 101 35 96 29 88" stroke="#A3A3A3" stroke-width="7"/>
+
+  <!-- Subtle uneven second marker stroke -->
+  <path d="M96 17        C112 35 113 57 104 75        M96 91        Q77 108 55 99" stroke="#D0D0D0" stroke-width="2.5"/>
+
+  <!-- Central globe: irregular hand-drawn circle -->
+  <path d="M56 8        C78 7 96 24 99 45        C102 68 89 87 69 92        C47 98 25 85 19 65        C12 43 24 20 43 12        Q50 9 56 8Z" fill="url(#errorRed)" stroke="#921B1B" stroke-width="3.5"/>
+
+  <!-- Subtle internal marker highlight -->
+  <path d="M31 30        Q42 16 57 16        M25 46        Q23 55 27 65" stroke="#F46868" stroke-width="3" opacity="0.8"/>
+
+  <!-- White exclamation-mark stem -->
+  <path d="M48 27        Q48 25 51 25        L65 25        Q68 25 68 28        L66 61        Q66 64 63 64        L53 64        Q50 64 50 61        Z" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- Hand-drawn inner edge of exclamation mark -->
+  <path d="M54 31 L55 55" stroke="#DADADA" stroke-width="1.7" opacity="0.7"/>
+
+  <!-- Exclamation dot -->
+  <path d="M58 70        C64 69 68 73 68 79        C68 85 63 88 58 87        C52 87 49 83 49 78        C49 73 53 70 58 70Z" fill="#F2F2F2" stroke="#FFFFFF" stroke-width="1.4"/>
+
+  <!-- Stand neck -->
+  <path d="M61 105        Q67 111 65 118        L83 118        Q76 112 79 105" fill="#999999" stroke="#777777" stroke-width="2.5"/>
+
+  <!-- Stand base -->
+  <path d="M51 118        Q49 118 49 121        Q49 124 53 124        L91 124        Q95 124 95 121        Q95 118 91 118Z" fill="#A3A3A3" stroke="#777777" stroke-width="2.5"/>
+
+  <!-- Gray marker highlights -->
+  <path d="M56 120 L88 120        M67 109 L75 110" stroke="#D9D9D9" stroke-width="2" opacity="0.8"/>
+
+  <!-- Restrained yellow sketchnote warning accents -->
+  <path d="M104 23 L111 18        M109 32 L117 29        M111 42 L119 42" stroke="#F4C542" stroke-width="3.2"/>
+
+  <!-- Small Azure-blue sketch accent -->
+  <path d="M18 86 Q22 93 29 97" stroke="#32BEDD" stroke-width="2.5"/>
+
+  <!-- Hand-drawn emphasis sparkle -->
+  <path d="M14 20 L14 12        M10 16 L18 16" stroke="#F4C542" stroke-width="2.6"/>
+</svg>

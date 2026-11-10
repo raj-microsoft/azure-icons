@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Metrics (sketch)</title>
+  
+  <desc>Purple connected data points forming an upward trend above four Azure-blue analytics bars, with hand-drawn marker outlines and yellow highlights.</desc>
+
+  <defs>
+    <linearGradient id="metricPurple" x1="20" y1="12" x2="112" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B77AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="8" y1="75" x2="30" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Analytics bars -->
+  <path d="M12 91            Q12 89 15 89            L31 89            Q34 89 34 92            L34 119            Q34 122 31 122            L15 122            Q12 122 12 119 Z" fill="url(#barBlue)" stroke="#005BA1" stroke-width="3"/>
+
+  <path d="M43 73            Q43 70 46 70            L62 70            Q65 70 65 73            L65 119            Q65 122 62 122            L46 122            Q43 122 43 119 Z" fill="#0078D4" stroke="#005BA1" stroke-width="3"/>
+
+  <path d="M74 91            Q74 88 77 88            L93 88            Q96 88 96 91            L96 119            Q96 122 93 122            L77 122            Q74 122 74 119 Z" fill="#005BA1" stroke="#00477F" stroke-width="3"/>
+
+  <path d="M105 57            Q105 54 108 54            L124 54            Q127 54 127 57            L127 119            Q127 122 124 122            L108 122            Q105 122 105 119 Z" fill="#005BA1" stroke="#00477F" stroke-width="3"/>
+
+  <!-- Bar highlights -->
+  <path d="M17 96 L17 115            M48 77 L48 114            M79 95 L79 115            M110 61 L110 115" stroke="#80BBF5" stroke-width="2" opacity=".8"/>
+
+  <!-- Upward-trending data connection -->
+  <path d="M20 70            L46 42            L78 70            L110 19" stroke="#B796F9" stroke-width="7"/>
+
+  <path d="M20 70            L46 42            L78 70            L110 19" stroke="#773ADC" stroke-width="3.2"/>
+
+  <!-- Trend arrow -->
+  <path d="M97 21 L111 16 L115 31" stroke="#773ADC" stroke-width="4"/>
+
+  <!-- Data point: first -->
+  <path d="M20 58            C27 58 32 63 32 70            C32 77 27 82 20 82            C13 82 8 77 8 70            C8 63 13 58 20 58 Z" fill="url(#metricPurple)" stroke="#6333A6" stroke-width="3"/>
+
+  <!-- Data point: second -->
+  <path d="M46 30            C53 30 58 35 58 42            C58 49 53 54 46 54            C39 54 34 49 34 42            C34 35 39 30 46 30 Z" fill="url(#metricPurple)" stroke="#6333A6" stroke-width="3"/>
+
+  <!-- Data point: third -->
+  <path d="M78 58            C85 58 90 63 90 70            C90 77 85 82 78 82            C71 82 66 77 66 70            C66 63 71 58 78 58 Z" fill="url(#metricPurple)" stroke="#6333A6" stroke-width="3"/>
+
+  <!-- Data point: fourth -->
+  <path d="M110 7            C117 7 122 12 122 19            C122 26 117 31 110 31            C103 31 98 26 98 19            C98 12 103 7 110 7 Z" fill="url(#metricPurple)" stroke="#6333A6" stroke-width="3"/>
+
+  <!-- Hand-drawn node highlights -->
+  <path d="M14 66 Q18 62 23 64            M40 38 Q44 34 49 36            M72 66 Q76 62 81 64            M104 15 Q108 11 113 13" stroke="#E2CCFF" stroke-width="2.5"/>
+
+  <!-- Yellow data emphasis -->
+  <path d="M34 20 L38 14            M41 24 L47 23            M87 39 L93 34" stroke="#F5C542" stroke-width="2.8"/>
+
+  <!-- Azure-blue sketch flourish -->
+  <path d="M8 43 L3 39            M11 36 L9 29" stroke="#0078D4" stroke-width="2.7"/>
+
+  <!-- Small handwritten marker accents -->
+  <path d="M96 43 Q102 39 106 41" stroke="#50E6FF" stroke-width="2.5"/>
+
+  <!-- Baseline -->
+  <path d="M8 126 Q63 128 125 126" stroke="#0078D4" stroke-width="1.8" opacity=".5"/>
+</svg>

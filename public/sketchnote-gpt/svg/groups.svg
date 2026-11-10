@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Groups (sketch)</title>
+  
+  <desc>Two overlapping Azure-blue people icons, with irregular marker outlines, cyan gradients, white collar details, and subtle yellow sketch accents.</desc>
+
+  <defs>
+    <linearGradient id="frontCyan" x1="48" y1="55" x2="48" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="headCyan" x1="48" y1="12" x2="50" y2="71" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear group member: Azure-blue head -->
+  <path d="M96 30        C107 30 115 39 115 50        C115 61 107 69 96 69        C85 69 77 60 77 50        C77 39 85 30 96 30Z" fill="#0078D4" stroke="#075A98" stroke-width="3.2"/>
+
+  <!-- Rear member: hand-drawn shoulder silhouette -->
+  <path d="M96 64        C116 63 124 78 126 94        Q127 100 121 101        L73 101        Q68 101 68 95        C70 77 79 65 96 64Z" fill="#0078D4" stroke="#075A98" stroke-width="3.2"/>
+
+  <!-- Rear white shirt detail -->
+  <path d="M86 68        Q96 76 106 68        L96 92Z" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- Rear collar marker accents -->
+  <path d="M85 72 L96 92 L107 72" stroke="#D7F1FF" stroke-width="1.7"/>
+
+  <!-- Rear head highlight -->
+  <path d="M86 45 Q89 36 98 36" stroke="#64B9F2" stroke-width="2.6"/>
+
+  <!-- Front member: cyan head -->
+  <path d="M48 12        C63 11 75 23 75 38        C76 53 64 66 49 66        C34 67 22 55 22 40        C21 25 32 13 48 12Z" fill="url(#headCyan)" stroke="#087DA8" stroke-width="3.5"/>
+
+  <!-- Front head hand-marker highlight -->
+  <path d="M33 30        Q38 20 50 20        M29 39 Q28 45 32 51" stroke="#B3F1FA" stroke-width="2.7" opacity="0.85"/>
+
+  <!-- Front member: wide shoulders and torso -->
+  <path d="M48 61        C73 59 87 76 91 102        L93 111        Q94 120 85 120        L11 120        Q3 120 4 112        C6 87 18 62 48 61Z" fill="url(#frontCyan)" stroke="#087DA8" stroke-width="3.5"/>
+
+  <!-- White shirt collar, preserving original symbolism -->
+  <path d="M33 64        Q47 75 63 64        L48 103Z" fill="#FFFFFF" opacity="0.86"/>
+
+  <!-- Slightly uneven collar outlines -->
+  <path d="M32 68        Q39 74 48 77        Q57 73 64 68        M48 78 L48 101" stroke="#D5F4FA" stroke-width="2"/>
+
+  <!-- Front torso loose marker highlights -->
+  <path d="M16 102 Q19 82 31 74        M72 77 Q82 87 84 104" stroke="#8AEAFF" stroke-width="2.8" opacity="0.78"/>
+
+  <!-- Hand-drawn hatching along the shoulder -->
+  <path d="M13 110 L21 113        M17 103 L24 106        M78 110 L85 107" stroke="#087DA8" stroke-width="1.8" opacity="0.55"/>
+
+  <!-- Restrained yellow sketchnote accent strokes -->
+  <path d="M79 17 L84 11        M88 21 L94 16        M112 74 L119 70" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Small hand-drawn group sparkle -->
+  <path d="M10 30 L10 22        M6 26 L14 26" stroke="#F4C542" stroke-width="2.5"/>
+
+  <!-- Cyan accent at base -->
+  <path d="M26 124 Q47 126 68 124" stroke="#32D4F5" stroke-width="2" opacity="0.75"/>
+</svg>

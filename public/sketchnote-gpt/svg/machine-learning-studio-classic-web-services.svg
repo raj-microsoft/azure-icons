@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Machine Learning Studio (Classic) Web Services (sketch)</title>
+  
+  <desc>Azure-blue hand-drawn globe behind a cyan machine-learning laboratory flask, with uneven marker outlines, subtle yellow accents, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="flaskCyan" x1="15" y1="51" x2="80" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".5" stop-color="#2EC9EB"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="globeBlue" x1="46" y1="8" x2="114" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0098E8"/>
+      <stop offset="1" stop-color="#0062B3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear global web-services globe -->
+  <path d="M79 8            C96 7 110 16 116 30            C123 46 119 64 107 76            C95 88 76 91 61 83            C46 76 39 63 39 47            C38 30 47 17 61 11            C67 9 73 8 79 8 Z" fill="#F2F2F2" stroke="#0078D4" stroke-width="3.8"/>
+
+  <!-- Globe latitude curves -->
+  <path d="M48 32            Q79 37 110 32            M43 48            Q79 52 117 48            M49 65            Q79 60 111 65" stroke="url(#globeBlue)" stroke-width="3.1"/>
+
+  <!-- Globe meridians -->
+  <path d="M79 11            C60 24 60 69 79 84            M79 11            C98 24 98 69 79 84            M79 10            Q77 44 79 85" stroke="#0078D4" stroke-width="3.1"/>
+
+  <!-- Globe sketch highlights -->
+  <path d="M56 21 Q65 15 72 15" stroke="#32D4F5" stroke-width="2.6"/>
+
+  <path d="M105 25 Q113 34 113 42" stroke="#0078D4" stroke-width="1.8" opacity=".65"/>
+
+  <!-- Small web-service sparkle -->
+  <path d="M113 11 l2 -6            M119 17 l6 -2            M117 8 l4 -4" stroke="#F5C542" stroke-width="2.8"/>
+
+  <!-- Flask neck -->
+  <path d="M28 51            L28 78            Q28 81 26 84            L8 113            Q4 119 8 122            Q10 124 15 124            L77 124            Q83 124 85 121            Q88 118 84 113            L65 83            Q63 80 63 77            L63 51" fill="url(#flaskCyan)" stroke="#08749F" stroke-width="3.8"/>
+
+  <!-- Flask rim -->
+  <path d="M25 50            Q23 50 23 53            L23 56            Q23 59 27 59            L65 59            Q69 59 69 56            L69 53            Q69 50 65 50 Z" fill="#32D4F5" stroke="#08749F" stroke-width="3.4"/>
+
+  <path d="M29 54 Q46 53 63 54" stroke="#B4F4FF" stroke-width="2.1"/>
+
+  <!-- White laboratory liquid inside flask -->
+  <path d="M35 80            Q36 78 39 78            L53 78            Q56 78 56 81            L56 86            Q56 88 58 91            L74 114            Q77 118 72 118            L20 118            Q16 118 19 114            L34 91            Q35 89 35 86 Z" fill="#FFFFFF" stroke="#D6F3FA" stroke-width="1.8"/>
+
+  <!-- Hand-drawn liquid surface -->
+  <path d="M36 84            Q43 81 49 84            Q53 86 56 83" stroke="#32D4F5" stroke-width="2.6"/>
+
+  <!-- Subtle marker reflections -->
+  <path d="M32 64 L32 75            M19 111 L27 98" stroke="#B4F4FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Small machine-learning molecule motif -->
+  <path d="M37 104 L47 96 L57 105" stroke="#0078D4" stroke-width="2.5"/>
+
+  <path d="M37 104 L47 111 L57 105" stroke="#0078D4" stroke-width="2.1" opacity=".8"/>
+
+  <path d="M37 104            m-3 0            a3 3 0 1 0 6 0            a3 3 0 1 0 -6 0            M47 96            m-3 0            a3 3 0 1 0 6 0            a3 3 0 1 0 -6 0            M57 105            m-3 0            a3 3 0 1 0 6 0            a3 3 0 1 0 -6 0" fill="#F5C542" stroke="#C79422" stroke-width="1.4"/>
+
+  <path d="M47 111            m-3 0            a3 3 0 1 0 6 0            a3 3 0 1 0 -6 0" fill="#32D4F5" stroke="#0078D4" stroke-width="1.4"/>
+
+  <!-- Cyan sketch flourishes -->
+  <path d="M10 79 l-5 -4            M13 73 l-2 -6" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Yellow sketchnote highlights -->
+  <path d="M89 106 l7 -3            M92 113 l7 1            M86 111 l2 6" stroke="#F5C542" stroke-width="2.8"/>
+
+  <!-- Hand-drawn grounding stroke -->
+  <path d="M15 126 Q46 127 77 126" stroke="#0078D4" stroke-width="1.7" opacity=".45"/>
+</svg>

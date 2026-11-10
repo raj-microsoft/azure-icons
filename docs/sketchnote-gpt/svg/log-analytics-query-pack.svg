@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Log Analytics Query Pack (sketch)</title>
+  
+  <desc>Three overlapping purple query cards with hand-drawn outlines, white query rows, and subtle Azure-blue and yellow marker accents.</desc>
+
+  <defs>
+    <linearGradient id="rearPurple" x1="43" y1="10" x2="118" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B796F9"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="middlePurple" x1="26" y1="27" x2="105" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B796F9"/>
+      <stop offset=".65" stop-color="#945BEA"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="frontPurple" x1="10" y1="43" x2="91" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AD87F5"/>
+      <stop offset=".55" stop-color="#9054E4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear query card -->
+  <path d="M46 10            Q42 10 41 15            L41 82            Q41 87 46 88            L114 88            Q119 88 119 83            L119 15            Q118 10 113 10 Z" fill="url(#rearPurple)" stroke="#58309A" stroke-width="3.3"/>
+
+  <path d="M47 15 Q79 13 112 15" stroke="#D9C5FF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Rear card sketch accent -->
+  <path d="M106 20 l5 4 -5 4" stroke="#F7CC4B" stroke-width="2.7"/>
+
+  <!-- Middle query card -->
+  <path d="M28 28            Q24 28 23 33            L23 100            Q23 105 28 106            L96 106            Q101 106 101 101            L101 33            Q100 28 95 28 Z" fill="url(#middlePurple)" stroke="#6034AC" stroke-width="3.5"/>
+
+  <path d="M29 33 Q60 31 94 33" stroke="#E2D2FF" stroke-width="2" opacity=".75"/>
+
+  <!-- Small handwritten-style query mark -->
+  <path d="M84 42 l-5 5 5 5            M90 42 l5 5 -5 5" stroke="#F5D15C" stroke-width="2.8"/>
+
+  <!-- Foreground query pack -->
+  <path d="M12 46            Q8 46 8 51            L8 113            Q8 119 14 119            L82 119            Q88 119 88 113            L88 51            Q87 45 81 45 Z" fill="url(#frontPurple)" stroke="#50248F" stroke-width="3.8"/>
+
+  <!-- Uneven marker-edge highlight -->
+  <path d="M15 51 Q39 49 78 50" stroke="#D4B9FF" stroke-width="2.3" opacity=".85"/>
+
+  <path d="M13 57 L13 110" stroke="#C49BFA" stroke-width="1.8" opacity=".55"/>
+
+  <!-- Query row 1 -->
+  <path d="M21 66            Q20 65 21 63            L28 63            Q30 63 30 65            L30 72            Q29 74 27 74            L22 74            Q20 73 21 71 Z" fill="#FFFFFF"/>
+
+  <path d="M38 65            Q39 63 42 64            L76 64            Q79 64 79 67            L79 70            Q79 73 76 73            L41 73            Q38 73 38 70 Z" fill="#FFFFFF"/>
+
+  <!-- Query row 2 -->
+  <path d="M21 84            Q20 82 22 81            L28 81            Q30 81 30 84            L30 90            Q30 92 27 92            L22 92            Q20 91 21 89 Z" fill="#FFFFFF"/>
+
+  <path d="M39 82            Q41 81 44 82            L76 82            Q79 82 79 85            L79 88            Q79 91 76 91            L42 91            Q38 91 38 88 Z" fill="#FFFFFF"/>
+
+  <!-- Query row 3 -->
+  <path d="M21 101            Q20 99 22 99            L28 99            Q30 99 30 101            L30 108            Q29 110 27 110            L22 110            Q20 109 21 107 Z" fill="#FFFFFF"/>
+
+  <path d="M39 100            Q41 99 44 100            L76 100            Q79 100 79 103            L79 106            Q79 109 76 109            L42 109            Q38 109 38 106 Z" fill="#FFFFFF"/>
+
+  <!-- Subtle hand-drawn Azure-blue query details -->
+  <path d="M45 69 Q54 68 62 69" stroke="#0078D4" stroke-width="1.7" opacity=".7"/>
+  <path d="M45 87 Q53 86 60 87" stroke="#0078D4" stroke-width="1.7" opacity=".7"/>
+  <path d="M45 105 Q53 104 60 105" stroke="#0078D4" stroke-width="1.7" opacity=".7"/>
+
+  <!-- Yellow sketchnote spark accents -->
+  <path d="M103 110 l7 -4            M108 116 l8 1            M99 116 l2 7" stroke="#F5C542" stroke-width="3"/>
+
+  <!-- Small blue marker flourish -->
+  <path d="M12 38 Q17 34 22 36" stroke="#0078D4" stroke-width="2.8"/>
+  <path d="M16 32 l2 5 5 -2" stroke="#0078D4" stroke-width="2.2"/>
+
+  <!-- Hand-drawn secondary edge -->
+  <path d="M92 36 Q96 36 96 41 L96 96" stroke="#D6BCFF" stroke-width="1.6" opacity=".65"/>
+
+</svg>

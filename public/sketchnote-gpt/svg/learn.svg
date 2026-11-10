@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Learn (sketch)</title>
+  
+  <desc>Azure-blue learning book with white 101 lettering, dark blue page edges and a green ribbon bookmark, illustrated with uneven marker strokes.</desc>
+
+  <defs>
+    <linearGradient id="bookBlue" x1="20" y1="12" x2="96" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#54AEF0"/>
+      <stop offset="1" stop-color="#1988D9"/>
+    </linearGradient>
+    <linearGradient id="ribbonGreen" x1="37" y1="91" x2="56" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark blue book spine and backing -->
+  <path d="M20 13            L29 3            Q31 1 35 1            L104 2            Q110 2 110 8            L110 93            Q110 97 107 100            L99 107            L23 108            L19 104            Z" fill="#005BA1" stroke="#004578" stroke-width="3.5"/>
+
+  <!-- Exposed white pages -->
+  <path d="M27 14            L34 7            L103 7            L103 92            L96 100            L27 101            Z" fill="#FFFFFF" stroke="#B8DAEC" stroke-width="2.5"/>
+
+  <!-- Sketched page-edge details -->
+  <path d="M99 13 L99 89            M95 96 L101 90" stroke="#C4DDEB" stroke-width="2.1"/>
+
+  <!-- Main Azure-blue book cover -->
+  <path d="M20 12            Q20 10 24 10            L94 11            Q98 11 98 15            L98 102            Q98 106 94 106            L24 105            Q20 105 20 101            Z" fill="url(#bookBlue)" stroke="#075A9C" stroke-width="3.7"/>
+
+  <!-- Hand-drawn book cover highlights -->
+  <path d="M27 18 L89 18            M27 22 L27 44            M27 92 L27 99" stroke="#B9E1FF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- 101 learning symbol: editable vector paths -->
+  <g stroke="#FFFFFF" stroke-width="5.8">
+    <!-- 1 -->
+    <path d="M37 51              L46 45              L46 74"/>
+
+    <!-- 0 -->
+    <path d="M64 44              C55 44 54 53 54 60              C54 69 57 75 64 75              C72 75 74 67 74 59              C74 51 71 44 64 44Z"/>
+
+    <!-- 1 -->
+    <path d="M80 51              L89 45              L89 74"/>
+  </g>
+
+  <!-- Subtle handwritten-style underline -->
+  <path d="M37 83 Q61 85 88 82" stroke="#D2EBFF" stroke-width="2.3" opacity=".75"/>
+
+  <!-- Green bookmark ribbon -->
+  <path d="M31 94            Q31 91 34 91            L54 91            Q57 91 57 95            L57 123            Q57 126 54 124            L44 116            L34 124            Q31 126 31 122Z" fill="url(#ribbonGreen)" stroke="#4F8C24" stroke-width="3.2"/>
+
+  <!-- Bookmark fold detail -->
+  <path d="M44 116 L57 124            L57 111" fill="#76BC2D" stroke="#4F8C24" stroke-width="2"/>
+
+  <!-- Ribbon marker highlight -->
+  <path d="M37 97 L37 114" stroke="#C9F5A0" stroke-width="2.3" opacity=".9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M109 25 L114 20            M113 34 L120 32            M108 43 L115 44" stroke="#F7C948" stroke-width="3"/>
+
+  <!-- Small hand-drawn finishing marks -->
+  <path d="M15 80 L11 83            M15 88 L9 90" stroke="#5EA0EF" stroke-width="2.2" opacity=".8"/>
+</svg>

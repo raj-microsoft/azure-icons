@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Local Network Gateways (sketch)</title>
+  
+  <desc>Teal-green diamond-shaped network gateway with four white directional arrows pointing outward, representing local network connectivity and routing.</desc>
+
+  <defs>
+    <linearGradient id="gatewayTeal" x1="64" y1="7" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#68C2B5"/>
+      <stop offset=".42" stop-color="#49A498"/>
+      <stop offset="1" stop-color="#258277"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Diamond-shaped gateway body -->
+  <path d="M63 7            Q65 5 68 8            L120 60            Q124 64 120 68            L68 120            Q64 124 60 120            L8 68            Q4 64 8 60            Z" fill="url(#gatewayTeal)" stroke="#176D65" stroke-width="3.5"/>
+
+  <!-- Inner diamond highlight -->
+  <path d="M64 15 L113 64 L64 113 L15 64 Z" stroke="#9AE0D5" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Top directional arrow -->
+  <path d="M64 56            L64 27            M49 42 L64 27 L79 42" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Bottom directional arrow -->
+  <path d="M64 72            L64 101            M49 86 L64 101 L79 86" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Left directional arrow -->
+  <path d="M56 64            L27 64            M42 49 L27 64 L42 79" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Right directional arrow -->
+  <path d="M72 64            L101 64            M86 49 L101 64 L86 79" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Central network junction -->
+  <circle cx="64" cy="64" r="8" fill="#258277" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <circle cx="64" cy="64" r="2.8" fill="#D7FFF4"/>
+
+  <!-- Hand-drawn marker highlights -->
+  <path d="M17 60 L57 20" stroke="#B2E8DE" stroke-width="2.5" opacity=".7"/>
+
+  <path d="M71 108 L108 71" stroke="#176D65" stroke-width="2" opacity=".45"/>
+
+  <!-- Restrained yellow emphasis marks -->
+  <path d="M91 21 L98 14" stroke="#FFCA00" stroke-width="3"/>
+
+  <path d="M102 31 L110 28" stroke="#FFCA00" stroke-width="2.7"/>
+
+  <path d="M23 99 L16 106" stroke="#FFCA00" stroke-width="2.7"/>
+
+  <!-- Small network connection accents -->
+  <circle cx="64" cy="14" r="2.5" fill="#FFFFFF"/>
+  <circle cx="64" cy="114" r="2.5" fill="#FFFFFF"/>
+  <circle cx="14" cy="64" r="2.5" fill="#FFFFFF"/>
+  <circle cx="114" cy="64" r="2.5" fill="#FFFFFF"/>
+</svg>

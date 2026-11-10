@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Managed Service Fabric (sketch)</title>
+  
+  <desc>Orange connected fabric nodes forming a pentagonal network, with an overlapping purple management gear and subtle Azure-blue and yellow marker accents.</desc>
+
+  <defs>
+    <linearGradient id="fabricOrange" x1="18" y1="12" x2="104" y2="109" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FAA21D"/>
+      <stop offset="1" stop-color="#EF7100"/>
+    </linearGradient>
+    <linearGradient id="gearPurple" x1="63" y1="72" x2="111" y2="126" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset=".52" stop-color="#864FE4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Connected Service Fabric network -->
+  <path d="M19 53            Q36 41 62 22            Q83 37 109 54            L98 83            M19 53            L34 106            L45 106" stroke="#E27908" stroke-width="11"/>
+
+  <!-- Hand-drawn lighter connector strokes -->
+  <path d="M20 51 Q42 36 61 20            Q84 36 108 51" stroke="#FAA21D" stroke-width="3" opacity=".8"/>
+
+  <path d="M23 61 L37 99" stroke="#FBC263" stroke-width="2.6" opacity=".8"/>
+
+  <!-- Top network node -->
+  <path d="M62 4            C72 4 80 12 80 22            C80 32 72 40 62 40            C52 40 44 32 44 22            C44 12 52 4 62 4 Z" fill="url(#fabricOrange)" stroke="#C76505" stroke-width="3.6"/>
+
+  <path d="M53 17 Q59 11 67 14" stroke="#FFD27C" stroke-width="3"/>
+
+  <!-- Left network node -->
+  <path d="M19 35            C29 35 37 43 37 53            C37 63 29 71 19 71            C9 71 2 63 2 53            C2 43 9 35 19 35 Z" fill="url(#fabricOrange)" stroke="#C76505" stroke-width="3.6"/>
+
+  <path d="M10 49 Q13 43 20 43" stroke="#FFD27C" stroke-width="2.8"/>
+
+  <!-- Right network node -->
+  <path d="M109 35            C119 35 126 43 126 53            C126 63 119 71 109 71            C99 71 91 63 91 53            C91 43 99 35 109 35 Z" fill="url(#fabricOrange)" stroke="#C76505" stroke-width="3.6"/>
+
+  <path d="M101 48 Q105 43 112 44" stroke="#FFD27C" stroke-width="2.8"/>
+
+  <!-- Lower-left fabric node -->
+  <path d="M35 88            C45 88 53 96 53 106            C53 116 45 124 35 124            C25 124 17 116 17 106            C17 96 25 88 35 88 Z" fill="url(#fabricOrange)" stroke="#C76505" stroke-width="3.6"/>
+
+  <path d="M27 102 Q31 96 38 97" stroke="#FFD27C" stroke-width="2.8"/>
+
+  <!-- Managed services gear -->
+  <path d="M81 72            L89 72            L92 81            Q95 82 98 84            L106 80            L113 87            L109 95            Q111 98 112 101            L121 104            L121 113            L112 116            Q111 119 109 121            L113 126            L101 126            L98 123            Q95 125 92 126            L89 128            L81 128            L78 122            Q75 121 72 120            L65 124            L59 117            L63 110            Q61 107 62 104            L54 101            L54 92            L63 89            Q64 86 66 84            L62 77            L69 71            L77 75 Z" fill="url(#gearPurple)" stroke="#6333A6" stroke-width="3.3"/>
+
+  <!-- Uneven gear marker highlight -->
+  <path d="M69 82            Q74 78 79 79            M97 86 Q104 91 105 97" stroke="#C9ACFF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Gear central opening -->
+  <path d="M87 91            C95 91 101 97 101 105            C101 113 95 119 87 119            C79 119 73 113 73 105            C73 97 79 91 87 91 Z" fill="#FFFFFF" stroke="#6333A6" stroke-width="3.2"/>
+
+  <path d="M87 99            C90 99 93 102 93 105            C93 109 90 111 87 111            C83 111 81 108 81 105            C81 102 83 99 87 99 Z" fill="#A67AF4" stroke="#773ADC" stroke-width="2.1"/>
+
+  <!-- Azure-blue marker accent -->
+  <path d="M69 51 Q75 48 81 52" stroke="#0078D4" stroke-width="2.7"/>
+
+  <path d="M75 46 L80 52 L74 57" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Yellow sketchnote spark -->
+  <path d="M48 57 L52 51            M54 61 L61 59            M44 53 L43 47" stroke="#F5C542" stroke-width="2.7"/>
+
+  <!-- Small blue sketch flourish -->
+  <path d="M8 84 Q14 80 20 83" stroke="#0078D4" stroke-width="2.4"/>
+
+  <!-- Orange handwritten-style underline -->
+  <path d="M50 118 Q55 120 60 119" stroke="#EF7100" stroke-width="2" opacity=".65"/>
+</svg>

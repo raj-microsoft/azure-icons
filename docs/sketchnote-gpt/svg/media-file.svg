@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Media File (sketch)</title>
+  
+  <desc>Azure-blue outlined document with a folded upper-right corner, turquoise play symbol and three handwritten-style metadata lines.</desc>
+
+  <defs>
+    <linearGradient id="fileBlue" x1="26" y1="7" x2="104" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".82" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#0068BB"/>
+    </linearGradient>
+    <linearGradient id="foldBlue" x1="73" y1="9" x2="111" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main document silhouette -->
+  <path d="M24 7            Q19 7 19 13            L19 115            Q19 121 25 121            L103 121            Q109 121 109 115            L109 43            L72 7 Z" fill="#FFFFFF" stroke="url(#fileBlue)" stroke-width="5"/>
+
+  <!-- Folded upper-right document corner -->
+  <path d="M72 7            L72 36            Q72 43 79 43            L109 43            Z" fill="url(#foldBlue)" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Fold marker highlight -->
+  <path d="M78 16 L78 34            Q78 37 83 37            L98 37" stroke="#A5D0FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Uneven hand-drawn page outline accent -->
+  <path d="M25 15            Q24 52 25 85            L25 112" stroke="#9AC7FA" stroke-width="2" opacity=".65"/>
+
+  <path d="M31 115 Q64 117 100 115" stroke="#5EA0EF" stroke-width="2" opacity=".5"/>
+
+  <!-- Turquoise media play symbol -->
+  <path d="M39 37            Q39 34 42 35            L67 49            Q71 51 67 54            L43 69            Q39 71 39 67 Z" fill="#32BEDD" stroke="#087FA6" stroke-width="3.2"/>
+
+  <!-- Play symbol highlight -->
+  <path d="M44 42 L44 61" stroke="#A4F4FF" stroke-width="2.6" opacity=".9"/>
+
+  <!-- Media metadata line 1 -->
+  <path d="M39 82            Q40 79 44 80            L82 80            Q86 80 86 83            Q86 86 82 86            L43 86            Q39 86 39 82 Z" fill="#5EA0EF"/>
+
+  <!-- Media metadata line 2 -->
+  <path d="M39 94            Q40 91 44 92            L82 92            Q86 92 86 95            Q86 98 82 98            L43 98            Q39 98 39 94 Z" fill="#5EA0EF"/>
+
+  <!-- Media metadata line 3 -->
+  <path d="M39 106            Q40 103 44 104            L67 104            Q71 104 71 107            Q71 110 67 110            L43 110            Q39 110 39 106 Z" fill="#5EA0EF"/>
+
+  <!-- Subtle handwritten-style highlights -->
+  <path d="M46 82 Q60 81 74 82            M46 94 Q58 93 72 94" stroke="#B8D9FF" stroke-width="1.4" opacity=".75"/>
+
+  <!-- Azure-blue sketchnote accent -->
+  <path d="M113 59 Q119 64 113 69            M117 55 Q126 64 117 73" stroke="#0078D4" stroke-width="2.8"/>
+
+  <!-- Yellow marker emphasis -->
+  <path d="M12 38 L6 34            M12 46 L4 46            M14 31 L13 25" stroke="#F5C542" stroke-width="2.8"/>
+
+  <!-- Small turquoise sketch flourish -->
+  <path d="M112 94 L118 90            M114 101 L123 100" stroke="#32BEDD" stroke-width="2.5"/>
+
+  <!-- Yellow document accent -->
+  <path d="M87 107 L91 110 L97 103" stroke="#F5C542" stroke-width="2.5"/>
+
+  <!-- Hand-drawn baseline -->
+  <path d="M29 125 Q66 127 101 125" stroke="#0078D4" stroke-width="1.7" opacity=".45"/>
+</svg>

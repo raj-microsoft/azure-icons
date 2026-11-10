@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>HDI AKS Cluster (sketch)</title>
+  
+  <desc>Hand-drawn purple hexagonal cluster boundary enclosing three Azure-blue interconnected nodes, preserving the original HDI AKS Cluster icon symbolism.</desc>
+
+  <defs>
+    <linearGradient id="purple" x1="20" y1="12" x2="108" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="azure" x1="38" y1="36" x2="92" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Irregular, hand-drawn hexagonal cluster boundary -->
+  <path d="M64 7        Q66 7 69 9        L111 33        Q115 35 115 40        L115 88        Q115 92 111 95        L69 119        Q65 122 61 119        L17 94        Q13 92 13 87        L13 40        Q13 36 17 33        L59 9        Q62 7 64 7Z" stroke="#773ADC" stroke-width="5"/>
+
+  <!-- Secondary loose marker contour -->
+  <path d="M23 35 L61 13        M74 13 L107 33        M110 47 L110 83        M103 96 L69 115        M54 114 L20 94        M18 78 L18 45" stroke="#A67AF4" stroke-width="2.2" opacity="0.75"/>
+
+  <!-- Three connecting Azure service components -->
+  <path d="M51 45        Q64 52 77 45        L89 65        Q81 72 81 82        L47 82        Q47 72 39 65Z" fill="url(#azure)" stroke="#075A98" stroke-width="3.2"/>
+
+  <!-- Left branch -->
+  <path d="M45 49        Q35 52 29 65        L34 73        Q41 68 49 69        L57 55Z" fill="url(#azure)" stroke="#075A98" stroke-width="2.8"/>
+
+  <!-- Right branch -->
+  <path d="M83 49        Q94 53 100 65        L94 74        Q87 69 79 69        L71 55Z" fill="url(#azure)" stroke="#075A98" stroke-width="2.8"/>
+
+  <!-- Lower cluster connection -->
+  <path d="M47 85        Q51 97 59 103        L70 103        Q79 97 82 85        L75 79        L53 79Z" fill="url(#azure)" stroke="#075A98" stroke-width="3"/>
+
+  <!-- Central negative space -->
+  <path d="M56 65        Q64 68 72 65        L77 76        Q73 81 72 88        L56 88        Q55 80 51 76Z" fill="#FFFFFF" stroke="#087DA8" stroke-width="2"/>
+
+  <!-- Upper cluster node -->
+  <path d="M64 22        C72 22 79 29 79 37        C79 45 72 52 64 52        C56 52 49 45 49 37        C49 29 56 22 64 22Z" fill="url(#purple)" stroke="#6130B8" stroke-width="3.2"/>
+
+  <!-- Lower-left node -->
+  <path d="M35 73        C43 72 50 79 50 87        C50 95 44 102 36 102        C28 102 21 95 21 87        C21 79 27 73 35 73Z" fill="url(#purple)" stroke="#6130B8" stroke-width="3.2"/>
+
+  <!-- Lower-right node -->
+  <path d="M93 73        C101 72 108 79 108 87        C108 95 102 102 94 102        C86 102 79 95 79 87        C79 79 85 73 93 73Z" fill="url(#purple)" stroke="#6130B8" stroke-width="3.2"/>
+
+  <!-- Hand-drawn node highlights -->
+  <path d="M56 34 Q59 28 65 28        M27 85 Q29 79 36 79        M85 85 Q88 79 95 79" stroke="#DCCAFF" stroke-width="2.8"/>
+
+  <!-- Subtle internal Azure highlights -->
+  <path d="M61 56 L67 56        M39 62 L44 57        M86 57 L91 63        M59 98 L69 98" stroke="#A9DBFF" stroke-width="2.3" opacity="0.9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M85 15 L90 10        M93 21 L99 17        M9 101 L15 105" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M117 19 L117 11        M113 15 L121 15" stroke="#F4C542" stroke-width="2.5"/>
+</svg>

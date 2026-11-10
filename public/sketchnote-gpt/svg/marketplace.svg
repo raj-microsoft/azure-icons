@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Marketplace (sketch)</title>
+  
+  <desc>Hand-drawn cyan shopping bag with two grey loop handles, a white cloud emblem, subtle Azure-blue and yellow marker accents, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="bagCyan" x1="12" y1="36" x2="101" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".48" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#1598C1"/>
+    </linearGradient>
+    <linearGradient id="cloudWhite" x1="51" y1="58" x2="56" y2="103" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#F5F5F5"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear shopping-bag side panel -->
+  <path d="M99 34            L108 34            L111 105            L101 112            Z" fill="#32BEDD" stroke="#087FA6" stroke-width="3.1"/>
+
+  <!-- Cyan folded side highlight -->
+  <path d="M102 39            L103 111            L111 105            L109 39 Z" fill="#50E6FF" opacity=".85"/>
+
+  <!-- Left shopping handle -->
+  <path d="M39 36            L39 22            C39 12 46 7 55 7            C64 7 71 14 71 23            L71 36" stroke="#767676" stroke-width="6.4"/>
+
+  <path d="M43 35 L43 23            Q43 11 55 11" stroke="#B5B5B5" stroke-width="2" opacity=".9"/>
+
+  <!-- Right shopping handle -->
+  <path d="M56 36            L56 22            C56 12 63 7 72 7            C81 7 88 14 88 23            L88 36" stroke="#A3A3A3" stroke-width="6.4"/>
+
+  <path d="M60 34 L60 23            Q60 12 72 11" stroke="#D0D0D0" stroke-width="2" opacity=".85"/>
+
+  <!-- Main shopping bag silhouette -->
+  <path d="M14 35            Q14 32 18 32            L99 32            Q102 32 102 36            L102 116            Q102 120 98 120            L15 114            Q11 114 11 110            Z" fill="url(#bagCyan)" stroke="#087FA6" stroke-width="3.7"/>
+
+  <!-- Bag top marker highlight -->
+  <path d="M19 38 Q52 37 95 38" stroke="#A1F3FF" stroke-width="2.8" opacity=".9"/>
+
+  <!-- Hand-drawn left edge -->
+  <path d="M17 44            Q15 73 17 105" stroke="#77E8F8" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Subtle bottom fold -->
+  <path d="M21 109 Q56 113 94 115" stroke="#0078D4" stroke-width="2" opacity=".45"/>
+
+  <!-- Azure Marketplace cloud emblem -->
+  <path d="M40 97            C30 96 25 89 25 80            C25 70 32 64 42 63            C47 52 57 48 67 51            C77 54 82 62 83 71            C93 73 99 81 98 89            C97 98 90 103 80 103            L43 99            Q41 99 40 97 Z" fill="url(#cloudWhite)" stroke="#D5D5D5" stroke-width="2.7"/>
+
+  <!-- Cloud sketch contour -->
+  <path d="M32 78 Q34 69 44 69            M51 62 Q58 55 67 59" stroke="#FFFFFF" stroke-width="3" opacity=".95"/>
+
+  <!-- Cloud lower marker accent -->
+  <path d="M40 93 Q57 95 78 97" stroke="#BABABA" stroke-width="1.9" opacity=".75"/>
+
+  <!-- Subtle Azure-blue sketchnote accent -->
+  <path d="M108 48 L116 44            M111 56 L121 56" stroke="#0078D4" stroke-width="2.7"/>
+
+  <!-- Yellow handwritten-style sparkle -->
+  <path d="M5 45 L2 40            M5 52 L1 53            M8 39 L9 34" stroke="#F5C542" stroke-width="2.7"/>
+
+  <!-- Small marker flourish -->
+  <path d="M109 91 Q115 86 121 89" stroke="#F5C542" stroke-width="2.5"/>
+
+  <!-- Hand-drawn grounding stroke -->
+  <path d="M22 119 Q51 123 88 123" stroke="#0078D4" stroke-width="1.8" opacity=".5"/>
+</svg>

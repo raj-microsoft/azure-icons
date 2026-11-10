@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Web Test (sketch)</title>
+  
+  <desc>Azure-blue network globe with white connected nodes and an overlapping cyan laboratory flask containing turquoise test liquid.</desc>
+
+  <defs>
+    <radialGradient id="globeBlue" cx="40%" cy="32%" r="75%">
+      <stop offset=".18" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </radialGradient>
+    <linearGradient id="flaskCyan" x1="92" y1="65" x2="96" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".45" stop-color="#31D1F3"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="nodeWhite" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FCFCFC"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure network globe -->
+  <path d="M57 7            C84 6 106 26 108 53            C111 79 96 101 74 109            C52 117 28 108 16 89            C3 69 7 43 23 25            C32 14 44 8 57 7Z" fill="url(#globeBlue)" stroke="#15549A" stroke-width="3.4"/>
+
+  <!-- Loose marker highlights -->
+  <path d="M22 35 Q35 15 57 14            M83 17 Q99 29 102 44" stroke="#9CEBFF" stroke-width="2.4" opacity=".75"/>
+
+  <!-- Curved web connections -->
+  <g stroke="#D9F1FF" stroke-width="4.4" opacity=".75">
+    <path d="M27 23 Q30 38 36 51"/>
+    <path d="M16 78 Q22 64 36 51"/>
+    <path d="M36 51 Q55 28 85 27"/>
+    <path d="M36 51 Q47 74 71 86"/>
+    <path d="M51 10 Q63 36 87 53"/>
+    <path d="M87 53 Q100 62 105 72"/>
+    <path d="M71 86 Q86 92 100 88"/>
+  </g>
+
+  <!-- Large web node -->
+  <path d="M36 36            C45 35 53 43 53 52            C53 62 45 69 35 69            C26 69 19 62 19 52            C19 43 26 36 36 36Z" fill="url(#nodeWhite)" stroke="#80B6D9" stroke-width="2.5"/>
+
+  <!-- Upper-right web node -->
+  <path d="M87 42            C94 42 100 47 100 54            C100 61 94 66 87 66            C80 66 75 61 75 54            C75 47 80 42 87 42Z" fill="#F2F2F2" stroke="#80B6D9" stroke-width="2.4"/>
+
+  <!-- Lower network node -->
+  <path d="M70 76            C77 76 83 81 83 88            C83 95 77 101 70 101            C63 101 58 95 58 88            C58 81 63 76 70 76Z" fill="#F2F2F2" stroke="#80B6D9" stroke-width="2.4"/>
+
+  <!-- Sketched node highlights -->
+  <path d="M27 47 Q30 42 36 43            M81 50 Q84 47 88 48            M64 85 Q67 82 71 83" stroke="#FFFFFF" stroke-width="2.2"/>
+
+  <!-- Laboratory flask neck -->
+  <path d="M83 63            L104 63            Q107 63 107 67            Q107 70 104 70            L102 70            L102 87            L122 116            Q126 122 120 123            L68 123            Q62 122 66 116            L86 87            L86 70            L83 70            Q80 70 80 67            Q80 63 83 63Z" fill="url(#flaskCyan)" stroke="#167EAB" stroke-width="3.3"/>
+
+  <!-- Flask rim -->
+  <path d="M82 66 Q93 64 105 66" stroke="#B6F5FF" stroke-width="2.2"/>
+
+  <!-- Inner white flask silhouette -->
+  <path d="M90 79            L98 79            L98 89            Q98 91 100 94            L115 115            Q117 118 113 118            L75 118            Q71 118 74 114            L89 93            Q90 91 90 88Z" fill="#FFFFFF" stroke="#D9F7FF" stroke-width="2"/>
+
+  <!-- Turquoise testing liquid -->
+  <path d="M79 109            Q86 104 94 106            C103 108 106 112 111 107            L117 116            Q118 120 114 120            L74 120            Q71 120 74 116Z" fill="#3CD4C2" stroke="#1C9D9A" stroke-width="1.8"/>
+
+  <!-- Liquid surface -->
+  <path d="M81 109            Q89 104 97 108            Q105 112 111 108" stroke="#8CF5E6" stroke-width="2.2"/>
+
+  <!-- Tiny test bubbles -->
+  <circle cx="92" cy="101" r="2.2" fill="#3CD4C2"/>
+  <circle cx="99" cy="96" r="1.6" fill="#3CD4C2"/>
+  <circle cx="96" cy="113" r="1.6" fill="#FFFFFF" opacity=".85"/>
+
+  <!-- Hand-drawn flask glint -->
+  <path d="M89 84 L89 92            M81 110 L84 106" stroke="#FFFFFF" stroke-width="2" opacity=".85"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M113 53 L117 47            M119 58 L125 56            M113 61 L119 65" stroke="#FFD34D" stroke-width="2.8"/>
+
+  <!-- Small handwritten-style marks -->
+  <path d="M14 109 L20 105            M19 115 L26 112" stroke="#FFD34D" stroke-width="2.4"/>
+
+  <!-- Sketch underline -->
+  <path d="M70 126 Q94 127 118 125" stroke="#198AB3" stroke-width="1.7" opacity=".65"/>
+</svg>

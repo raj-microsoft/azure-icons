@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Managed Database (sketch)</title>
+  
+  <desc>Azure-blue cylindrical database with a cyan top and an overlapping turquoise managed cloud containing a white M symbol, drawn with uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="databaseBlue" x1="5" y1="64" x2="89" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#005BA1"/>
+      <stop offset=".48" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="cloudCyan" x1="79" y1="64" x2="81" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".5" stop-color="#2EC9EB"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Database cylinder -->
+  <path d="M5 22            C5 12 24 7 46 7            C69 7 89 13 89 22            L89 103            C88 113 70 119 47 119            C24 119 6 113 5 104 Z" fill="url(#databaseBlue)" stroke="#004C88" stroke-width="3.6"/>
+
+  <!-- Top database ellipse -->
+  <path d="M5 22            C5 12 24 7 46 7            C69 7 89 13 89 22            C89 32 70 38 47 38            C24 38 5 32 5 22 Z" fill="#EAEAEA" stroke="#005BA1" stroke-width="3.3"/>
+
+  <!-- Cyan database opening -->
+  <path d="M15 21            C15 15 29 12 47 12            C65 12 79 16 79 21            C79 27 65 31 47 31            C29 31 15 27 15 21 Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2.2"/>
+
+  <!-- Inner database shadow -->
+  <path d="M21 27            C29 23 39 22 47 22            C58 22 67 24 73 27            C65 30 56 31 47 31            C36 31 28 30 21 27 Z" fill="#198AB3"/>
+
+  <!-- Hand-drawn cylindrical edges -->
+  <path d="M11 38 Q12 63 11 94            M83 39 Q82 55 83 66" stroke="#50B5F0" stroke-width="2.2" opacity=".7"/>
+
+  <path d="M12 54            Q30 62 49 61            Q68 61 82 55" stroke="#50E6FF" stroke-width="2.4" opacity=".65"/>
+
+  <!-- Database lower sketch edge -->
+  <path d="M12 104            Q28 113 46 113" stroke="#43B7EC" stroke-width="2" opacity=".7"/>
+
+  <!-- Overlapping managed cloud -->
+  <path d="M65 120            C52 120 43 111 43 100            C43 89 51 81 62 79            C67 66 78 61 90 63            C102 65 109 73 110 84            C120 86 125 94 124 102            C124 113 116 120 105 120            Z" fill="url(#cloudCyan)" stroke="#087DA4" stroke-width="3.6"/>
+
+  <!-- Cloud marker highlights -->
+  <path d="M51 96            Q53 86 63 86            M70 76            Q78 67 88 70" stroke="#A3F3FF" stroke-width="2.7" opacity=".9"/>
+
+  <path d="M114 92            Q120 97 118 105" stroke="#0078D4" stroke-width="2" opacity=".7"/>
+
+  <!-- Managed database M glyph -->
+  <path d="M69 110            L69 84            L78 84            L85 102            L92 84            L101 84            L101 110            L95 110            L95 91            L88 110            L82 110            L75 91            L75 110 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.1"/>
+
+  <!-- Azure-blue sketchnote accent -->
+  <path d="M103 56            Q109 61 112 67" stroke="#0078D4" stroke-width="2.7"/>
+
+  <!-- Yellow handwritten-style emphasis -->
+  <path d="M113 53 L117 47            M119 59 L125 56            M108 49 L109 43" stroke="#F5C542" stroke-width="2.8"/>
+
+  <!-- Small database marker flourish -->
+  <path d="M18 77 L23 80 L28 75" stroke="#F5C542" stroke-width="2.6"/>
+
+  <!-- Subtle sketch underline -->
+  <path d="M52 124 Q81 126 108 124" stroke="#0078D4" stroke-width="1.7" opacity=".45"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Language (sketch)</title>
+  
+  <desc>Overlapping orange and cyan language panels with conversational text lines, framed by four golden corner markers.</desc>
+
+  <defs>
+    <linearGradient id="orangePanel" x1="50" y1="17" x2="112" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB34D"/>
+      <stop offset="1" stop-color="#FAA21D"/>
+    </linearGradient>
+    <linearGradient id="cyanBubble" x1="12" y1="53" x2="72" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Four hand-drawn language scanning corners -->
+  <g stroke="#FAA21D" stroke-width="4.5">
+    <path d="M22 7 L7 7 L7 23"/>
+    <path d="M106 7 L121 7 L121 23"/>
+    <path d="M7 105 L7 121 L22 121"/>
+    <path d="M106 121 L121 121 L121 105"/>
+  </g>
+
+  <!-- Loose yellow marker highlights -->
+  <g stroke="#FFD16A" stroke-width="2.2" opacity=".9">
+    <path d="M11 12 L11 19"/>
+    <path d="M109 11 L117 11"/>
+    <path d="M11 109 L11 117"/>
+    <path d="M110 117 L117 117"/>
+  </g>
+
+  <!-- Rear orange language panel -->
+  <path d="M49 22            Q49 17 54 17            L112 18            Q117 18 117 23            L116 92            Q116 96 112 96            L75 96            L75 61            Q75 54 68 54            L49 54            Z" fill="url(#orangePanel)" stroke="#D98213" stroke-width="3.5"/>
+
+  <!-- Orange panel edge highlight -->
+  <path d="M55 24 L108 24            M110 31 L110 48" stroke="#FFE0A0" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Rear panel handwritten-style lines -->
+  <g stroke="#FFFFFF" stroke-width="4.1">
+    <path d="M61 43 Q72 42 84 43"/>
+    <path d="M91 43 L105 43"/>
+    <path d="M83 55 Q94 56 105 55"/>
+    <path d="M83 67 L104 67"/>
+  </g>
+
+  <!-- Short secondary orange detail -->
+  <path d="M98 34 L106 34" stroke="#F78D1E" stroke-width="2.7"/>
+
+  <!-- Foreground cyan speech panel -->
+  <path d="M12 56            Q12 52 17 52            L68 52            Q73 52 73 57            L73 98            Q73 102 68 102            L44 102            L30 113            Q27 115 27 111            L27 102            L17 102            Q12 102 12 97            Z" fill="url(#cyanBubble)" stroke="#087C9C" stroke-width="3.5"/>
+
+  <!-- Cyan speech panel marker highlight -->
+  <path d="M19 59 L64 59            M19 65 L19 79" stroke="#BDF5FF" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Main conversational text strokes -->
+  <g stroke="#FFFFFF" stroke-width="4.3">
+    <path d="M24 72 Q37 71 49 72"/>
+    <path d="M24 86 L34 86"/>
+    <path d="M42 86 Q51 85 62 86"/>
+  </g>
+
+  <!-- Cyan handwritten accent -->
+  <path d="M24 94 L39 94" stroke="#9CEBFF" stroke-width="2.6"/>
+
+  <!-- Subtle Azure-blue sketchnote accents -->
+  <path d="M82 103 L88 107            M92 101 L98 105" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Minimal yellow emphasis marks -->
+  <path d="M81 13 L84 9            M91 14 L97 11" stroke="#F7C948" stroke-width="2.8"/>
+
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Information (sketch)</title>
+  
+  <desc>Azure-blue circular information icon with an uneven marker outline, bold white lowercase information symbol, and subtle yellow sketch accents.</desc>
+
+  <defs>
+    <linearGradient id="infoBlue" x1="64" y1="9" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54AEF0"/>
+      <stop offset="0.44" stop-color="#379CE5"/>
+      <stop offset="0.78" stop-color="#218DDC"/>
+      <stop offset="1" stop-color="#1988D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn circular information badge -->
+  <path d="M64 8        C79 7 94 14 104 25        C115 37 121 51 120 66        C119 82 113 96 102 106        C91 117 77 121 62 120        C46 120 32 114 22 103        C12 92 7 78 8 63        C8 47 14 33 25 22        C36 12 49 8 64 8Z" fill="url(#infoBlue)" stroke="#126DAE" stroke-width="3.5"/>
+
+  <!-- Loose secondary marker contour -->
+  <path d="M29 22        C40 14 52 12 64 12        M94 21        Q112 35 115 55        M114 78        Q109 96 96 105        M31 106        Q17 94 13 78" stroke="#8CD0FF" stroke-width="2.6" opacity="0.85"/>
+
+  <!-- Upper-left curved highlight -->
+  <path d="M24 49        Q31 29 49 23" stroke="#B5E4FF" stroke-width="3.2" opacity="0.7"/>
+
+  <!-- Information dot -->
+  <path d="M64 31        C70 31 74 35 74 41        C74 47 70 51 64 51        C58 51 54 47 54 41        C54 35 58 31 64 31Z" fill="#FFFFFF"/>
+
+  <!-- Information stem -->
+  <path d="M59 60        Q56 60 56 64        L56 98        Q56 102 60 102        L68 102        Q72 102 72 98        L72 64        Q72 60 68 60Z" fill="#FFFFFF"/>
+
+  <!-- Slight hand-drawn highlight on lettering -->
+  <path d="M60 66 L60 94" stroke="#D9F3FF" stroke-width="2" opacity="0.8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M106 17 L112 11        M113 25 L121 21        M17 105 L11 111" stroke="#F4C542" stroke-width="3.2"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M17 19 L17 11        M13 15 L21 15" stroke="#F4C542" stroke-width="2.6"/>
+
+  <!-- Subtle cyan sketch details -->
+  <path d="M45 116 L53 119        M78 115 L86 112" stroke="#32BEDD" stroke-width="2.4" opacity="0.8"/>
+</svg>

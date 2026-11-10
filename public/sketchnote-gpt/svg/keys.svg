@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Keys (sketch)</title>
+  
+  <desc>Two overlapping Azure-blue and cyan keys beneath a luminous cloud, with uneven marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="cloudCyan" x1="30" y1="9" x2="88" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="keyBlue" x1="42" y1="101" x2="97" y2="29" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0078D4"/>
+      <stop offset=".55" stop-color="#3990E4"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+    <linearGradient id="keyCyan" x1="53" y1="122" x2="114" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud silhouette -->
+  <path d="M37 84            C20 84 9 74 9 59            C9 45 19 34 33 32            C39 15 54 7 69 9            C87 10 99 22 101 40            C115 42 123 52 123 65            C123 77 113 85 99 85            Z" fill="url(#cloudCyan)" stroke="#087C9C" stroke-width="3.5"/>
+
+  <!-- Hand-inked cloud highlights -->
+  <path d="M17 53 Q21 40 35 39            M46 25 Q54 15 68 16            M105 47 Q116 53 116 65" stroke="#D6FAFF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Rear Azure-blue key -->
+  <path d="M62 39            Q62 30 71 30            L91 30            Q101 30 101 40            L101 64            Q101 74 91 74            L72 74            L63 83            L63 91            Q63 94 60 94            L55 94            L55 99            Q55 102 52 102            L47 102            L47 107            Q47 110 44 110            L29 110            Q26 110 26 107            L26 97            Q26 94 28 92            L61 59            Z" fill="url(#keyBlue)" stroke="#075A9C" stroke-width="3.8"/>
+
+  <!-- Rear keyhole -->
+  <path d="M83 39            C88 36 94 40 94 46            C94 52 89 56 83 54            C77 53 75 46 79 42            Q81 40 83 39Z" fill="#D2EBFF" stroke="#075A9C" stroke-width="2.6"/>
+
+  <!-- Rear key shaft sketch -->
+  <path d="M34 100 L64 70" stroke="#B9E1FF" stroke-width="2.2" opacity=".9"/>
+
+  <!-- Foreground cyan key -->
+  <path d="M82 52            Q82 49 86 49            L108 49            Q118 49 118 59            L118 87            Q118 97 108 97            L87 97            L79 105            L79 111            Q79 114 76 114            L71 114            L71 119            Q71 122 68 122            L63 122            L63 125            Q63 127 60 127            L46 127            Q43 127 43 124            L43 113            Q43 111 45 109            L82 72            Z" fill="url(#keyCyan)" stroke="#087C9C" stroke-width="3.7"/>
+
+  <!-- Foreground keyhole -->
+  <path d="M100 57            C106 55 112 60 112 66            C112 72 107 76 101 75            C95 74 92 68 95 62            Q97 59 100 57Z" fill="#FFFFFF" stroke="#087C9C" stroke-width="2.7"/>
+
+  <!-- Keyhole diagonal marker detail -->
+  <path d="M99 64 L106 71" stroke="#50E6FF" stroke-width="2.4"/>
+
+  <!-- Key shaft highlight -->
+  <path d="M49 115 L80 84" stroke="#FFFFFF" stroke-width="2.7" opacity=".9"/>
+
+  <!-- Minimal marker hatching -->
+  <path d="M86 81 L93 88            M92 79 L99 86" stroke="#E9FDFF" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M110 28 L114 22            M117 34 L124 31            M22 90 L16 94" stroke="#F7C948" stroke-width="3"/>
+
+  <!-- Small hand-drawn motion marks -->
+  <path d="M18 109 L23 112            M29 116 L33 119" stroke="#0078D4" stroke-width="2.1" opacity=".75"/>
+</svg>

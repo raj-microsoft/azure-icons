@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Load Balancer Hub (sketch)</title>
+  
+  <desc>Hand-drawn sketchnote version of the Azure Load Balancer Hub icon, featuring a blue hub panel, internal directional load-balancing arrows, a central circular node, and a small green connector tab.</desc>
+
+  <defs>
+    <linearGradient id="panelBlue" x1="61" y1="16" x2="61" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+    <linearGradient id="greenTab" x1="24" y1="94" x2="24" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset=".72" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#6AAA27"/>
+    </linearGradient>
+    <linearGradient id="iconWhite" x1="64" y1="33" x2="64" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EAF4FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Small green hub tab -->
+  <path d="M12 94            Q12 91 15 91            L31 91            Q34 91 34 94            L34 111            L23 120            L23 113            L12 121            Z" fill="url(#greenTab)" stroke="#5F9D22" stroke-width="3"/>
+
+  <path d="M23 113 L34 105" stroke="#C8F18B" stroke-width="2.2"/>
+
+  <!-- Main outer frame -->
+  <path d="M18 18            L28 7            Q29 6 32 6            L108 6            Q115 6 116 12            L116 92            Q116 96 113 99            L101 110            L24 110            L18 107            Z" fill="#0078D4" stroke="#005A9E" stroke-width="3.5"/>
+
+  <!-- Inner white border/paper -->
+  <path d="M27 19            L34 12            Q35 11 37 11            L104 11            Q108 11 108 15            L108 87            Q108 90 106 92            L96 101            L27 101            Z" fill="#FFFFFF" stroke="#B7D9F6" stroke-width="2.2"/>
+
+  <!-- Main blue display area -->
+  <path d="M20 21            Q20 19 22 19            L96 19            Q100 19 100 23            L100 98            Q100 101 97 101            L23 101            Q20 101 20 98            Z" fill="url(#panelBlue)" stroke="#005A9E" stroke-width="2.8"/>
+
+  <!-- Display highlight -->
+  <path d="M24 28 L24 85" stroke="#BFE5FF" stroke-width="2.5"/>
+  <path d="M33 23 L63 23" stroke="#BFE5FF" stroke-width="2"/>
+
+  <!-- Central load-balancer hub icon -->
+  <!-- hub ring -->
+  <circle cx="64" cy="78" r="11.5" fill="none" stroke="#FFFFFF" stroke-width="5"/>
+  <circle cx="64" cy="78" r="5.5" fill="none" stroke="#DDEFFF" stroke-width="2.3"/>
+
+  <!-- vertical branch -->
+  <path d="M64 35            L64 62" stroke="url(#iconWhite)" stroke-width="5"/>
+
+  <path d="M58 41 L64 35 L70 41" stroke="#FFFFFF" stroke-width="4"/>
+
+  <!-- left branch -->
+  <path d="M64 65            Q62 58 56 52            L43 39" stroke="url(#iconWhite)" stroke-width="5"/>
+  <path d="M38 40 L45 40 L45 33" stroke="#FFFFFF" stroke-width="4"/>
+
+  <!-- right branch -->
+  <path d="M64 65            Q66 58 72 52            L85 39" stroke="url(#iconWhite)" stroke-width="5"/>
+  <path d="M83 33 L83 40 L90 40" stroke="#FFFFFF" stroke-width="4"/>
+
+  <!-- subtle inner join accents -->
+  <path d="M58 67 Q64 63 70 67" stroke="#DDEFFF" stroke-width="2.2"/>
+
+  <!-- page corner / right edge hint -->
+  <path d="M100 88 L93 94" stroke="#D9EEFF" stroke-width="2"/>
+
+  <!-- restrained yellow sketchnote accents -->
+  <path d="M76 30 L83 26" stroke="#FFCA00" stroke-width="2.8"/>
+  <path d="M83 34 L91 33" stroke="#FFCA00" stroke-width="2.6"/>
+  <path d="M42 28 L39 21" stroke="#FFCA00" stroke-width="2.4"/>
+
+  <!-- tiny handwritten-style emphasis -->
+  <path d="M44 86 Q50 83 56 85" stroke="#EAF4FF" stroke-width="2" opacity=".75"/>
+</svg>

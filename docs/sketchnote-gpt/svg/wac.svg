@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>WAC (sketch)</title>
+  
+  <desc>Windows Admin Center inspired icon with a gray server tower, two dark-blue server slots with cyan indicators, and an overlapping Azure-blue administrator toolbox.</desc>
+
+  <defs>
+    <linearGradient id="serverGray" x1="12" y1="7" x2="76" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B2B3"/>
+      <stop offset=".55" stop-color="#A2A2A2"/>
+      <stop offset="1" stop-color="#979797"/>
+    </linearGradient>
+    <linearGradient id="caseBlue" x1="56" y1="78" x2="111" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="handleDark" x1="67" y1="65" x2="103" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B3B3B"/>
+      <stop offset="1" stop-color="#212121"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Server tower silhouette -->
+  <path d="M12 10            Q12 7 16 7            L72 8            Q76 8 76 12            L75 103            Q75 107 71 107            L16 107            Q12 107 12 103 Z" fill="url(#serverGray)" stroke="#777777" stroke-width="3.3"/>
+
+  <!-- Uneven marker highlights -->
+  <path d="M18 14 Q38 12 67 14            M18 19 L18 95" stroke="#E5E5E5" stroke-width="2.4" opacity=".85"/>
+
+  <!-- Upper server slot -->
+  <path d="M26 23            Q23 23 23 27            L23 34            Q23 38 27 38            L61 38            Q66 38 66 34            L66 27            Q66 23 62 23 Z" fill="#003067" stroke="#164B78" stroke-width="2.5"/>
+
+  <!-- Upper status indicator -->
+  <path d="M34 27            C39 27 41 31 39 35            C36 39 31 36 31 32            C31 29 32 28 34 27Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.8"/>
+
+  <path d="M47 29 L58 29" stroke="#9CEBFF" stroke-width="2.1" opacity=".65"/>
+
+  <!-- Lower server slot -->
+  <path d="M26 47            Q23 47 23 51            L23 58            Q23 62 27 62            L61 62            Q66 62 66 58            L66 51            Q66 47 62 47 Z" fill="#003067" stroke="#164B78" stroke-width="2.5"/>
+
+  <!-- Lower status indicator -->
+  <path d="M34 51            C39 51 41 55 39 59            C36 63 31 60 31 56            C31 53 32 52 34 51Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.8"/>
+
+  <path d="M47 53 L58 53" stroke="#9CEBFF" stroke-width="2.1" opacity=".65"/>
+
+  <!-- Minimal server details -->
+  <path d="M24 76 L42 76            M24 82 L36 82" stroke="#777777" stroke-width="2" opacity=".65"/>
+
+  <!-- Toolbox handle -->
+  <path d="M68 80 L68 72            Q68 65 75 65            L96 65            Q103 65 103 72            L103 80            L96 80            L96 73            Q96 71 93 71            L78 71            Q75 71 75 74            L75 80 Z" fill="url(#handleDark)" stroke="#212121" stroke-width="2.6"/>
+
+  <!-- Toolbox body -->
+  <path d="M55 80            Q55 77 59 77            L113 77            Q117 77 117 81            L117 119            L55 119 Z" fill="url(#caseBlue)" stroke="#15549A" stroke-width="3.5"/>
+
+  <!-- Hand-drawn case highlight -->
+  <path d="M61 83 Q84 81 110 83            M61 88 L61 109" stroke="#9CEBFF" stroke-width="2" opacity=".65"/>
+
+  <!-- White horizontal toolbox seam -->
+  <path d="M56 95            Q81 96 116 95" stroke="#FFFFFF" stroke-width="3.6"/>
+
+  <!-- Central toolbox latch -->
+  <path d="M81 95            L81 100            Q81 102 84 102            L91 102            Q94 102 94 99            L94 95" fill="#FFFFFF" stroke="#D7F4FF" stroke-width="1.6"/>
+
+  <!-- Bottom sketch highlight -->
+  <path d="M63 114 Q85 116 108 114" stroke="#50E6FF" stroke-width="1.8" opacity=".65"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M107 57 L110 51            M114 61 L121 58            M109 66 L115 70" stroke="#FFD34D" stroke-width="2.7"/>
+
+  <!-- Subtle server annotation -->
+  <path d="M20 114 Q32 116 46 114" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+</svg>

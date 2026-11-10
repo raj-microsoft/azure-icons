@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Load Testing (sketch)</title>
+  
+  <desc>Azure-blue hexagonal enclosure surrounding a laboratory testing flask with cyan glass, white interior and turquoise liquid, illustrated using irregular marker strokes.</desc>
+
+  <defs>
+    <linearGradient id="hexBlue" x1="64" y1="5" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="flaskCyan" x1="64" y1="28" x2="64" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".65" stop-color="#31D1F3"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="liquidTeal" x1="48" y1="72" x2="85" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5CE8D7"/>
+      <stop offset="1" stop-color="#3CD4C2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Azure hexagonal frame -->
+  <path d="M64 5            Q66 5 68 7            L117 35            Q120 37 120 41            L120 92            Q120 95 117 97            L68 125            Q64 127 61 125            L11 97            Q8 95 8 91            L8 40            Q8 37 11 35            Z" fill="url(#hexBlue)" stroke="#004F91" stroke-width="3.3"/>
+
+  <!-- Open interior of hexagon -->
+  <path d="M64 17            L109 43            L109 87            L64 113            L19 87            L19 43            Z" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Hand-drawn upper hexagonal facet -->
+  <path d="M8 39 L64 5 L120 39            L109 43 L64 17 L19 43 Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.5"/>
+
+  <!-- Hexagonal marker highlights -->
+  <path d="M17 39 L61 13            M114 47 L114 85            M69 118 L105 97" stroke="#7CC6F4" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Flask neck and rim -->
+  <path d="M52 29            Q52 27 55 27            L73 27            Q76 27 76 30            L76 32            Q76 35 73 35            L72 35            L72 55            Q72 57 74 60            L94 89            Q97 94 91 94            L37 94            Q31 94 34 89            L54 60            Q56 57 56 55            L56 35            L55 35            Q52 35 52 32Z" fill="url(#flaskCyan)" stroke="#087C9C" stroke-width="3.4"/>
+
+  <!-- White translucent glass interior -->
+  <path d="M60 42            Q60 40 62 40            L66 40            Q68 40 68 42            L68 57            Q68 60 70 63            L87 87            Q89 90 85 90            L43 90            Q39 90 41 87            L58 63            Q60 60 60 57Z" fill="#FFFFFF" stroke="#D2EBFF" stroke-width="1.8"/>
+
+  <!-- Turquoise testing liquid -->
+  <path d="M48 78            Q58 71 68 75            Q76 79 82 74            L91 87            Q94 91 89 91            L39 91            Q35 91 38 87Z" fill="url(#liquidTeal)" stroke="#169E9D" stroke-width="2.3"/>
+
+  <!-- Liquid surface, loose marker stroke -->
+  <path d="M48 78            Q58 71 68 75            Q76 79 82 74" stroke="#168F9A" stroke-width="2.5"/>
+
+  <!-- Flask glass highlights -->
+  <path d="M59 37 L59 54            M56 65 L47 77" stroke="#DDFBFF" stroke-width="2.6" opacity=".9"/>
+
+  <!-- Small laboratory bubbles -->
+  <circle cx="61" cy="84" r="2.5" fill="#C8FFF7" stroke="#159D9C" stroke-width="1.2"/>
+  <circle cx="72" cy="83" r="1.8" fill="#C8FFF7"/>
+  <circle cx="65" cy="69" r="2" fill="#9CEBFF" stroke="#32BEDD" stroke-width="1.1"/>
+
+  <!-- Subtle hand-drawn yellow accents -->
+  <path d="M90 35 L95 30            M97 42 L104 39            M33 60 L28 58" stroke="#F7C948" stroke-width="3"/>
+
+  <!-- Small sketchnote finishing strokes -->
+  <path d="M25 99 L31 103            M34 105 L39 108" stroke="#5EA0EF" stroke-width="2.1" opacity=".8"/>
+
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Managed File Shares (sketch)</title>
+  
+  <desc>Layered purple file-share folder with a visible document, three connected network nodes, uneven marker outlines, and restrained Azure-blue and yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="folderPurple" x1="38" y1="39" x2="90" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B796F9"/>
+      <stop offset=".45" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="rearPurple" x1="42" y1="22" x2="105" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear file-sharing container -->
+  <path d="M35 35            Q35 32 39 32            L62 32            Q65 32 68 35            L76 42            L116 42            Q120 42 120 46            L120 99            Q120 103 116 103            L36 103            Q32 103 32 99            L32 39            Q32 36 35 35 Z" fill="url(#rearPurple)" stroke="#6333A6" stroke-width="3.4"/>
+
+  <!-- Rear folder marker detail -->
+  <path d="M39 37 Q49 36 60 37" stroke="#D8BEFF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Visible document behind folder -->
+  <path d="M49 37            Q50 31 56 32            L104 39            Q110 40 109 46            L106 72            L45 69 Z" fill="#A67AF4" stroke="#7040BF" stroke-width="3"/>
+
+  <path d="M54 41            Q55 39 58 40            L101 46            Q104 47 103 50            L101 65            L51 61 Z" fill="#FFFFFF" stroke="#D9C7F3" stroke-width="1.8"/>
+
+  <!-- Subtle document strokes -->
+  <path d="M61 48 L93 52            M60 55 L87 59" stroke="#B796F9" stroke-width="2.1"/>
+
+  <!-- Foreground folder tab -->
+  <path d="M36 43            Q36 39 41 39            L75 39            Q78 39 80 42            L87 49            L116 49            Q120 49 120 53            L120 58            L36 58 Z" fill="#B796F9" stroke="#7040BF" stroke-width="3.2"/>
+
+  <!-- Main folder body -->
+  <path d="M36 53            Q36 49 40 49            L77 49            Q79 49 81 51            L88 57            L117 57            Q121 57 121 61            L121 99            Q121 103 117 103            L38 103            Q35 103 35 99            Z" fill="url(#folderPurple)" stroke="#6633AD" stroke-width="3.8"/>
+
+  <!-- Hand-drawn folder highlights -->
+  <path d="M42 56 Q56 54 73 56" stroke="#E2D0FF" stroke-width="2.6" opacity=".9"/>
+
+  <path d="M41 64            Q40 78 41 94" stroke="#C6A4FC" stroke-width="2.1" opacity=".7"/>
+
+  <path d="M48 97 Q78 99 111 97" stroke="#8551D9" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Shared-network connection lines -->
+  <path d="M32 56            L18 68" stroke="#773ADC" stroke-width="4"/>
+
+  <path d="M108 42            L113 22" stroke="#773ADC" stroke-width="4"/>
+
+  <path d="M108 103            L116 115" stroke="#773ADC" stroke-width="4"/>
+
+  <!-- Network node: left -->
+  <path d="M18 61            C25 61 30 66 30 73            C30 80 24 85 17 85            C10 85 5 80 5 73            C5 66 11 61 18 61 Z" fill="#B796F9" stroke="#7040BF" stroke-width="3.2"/>
+
+  <path d="M12 68 Q16 65 20 67" stroke="#E4D3FF" stroke-width="2.2"/>
+
+  <!-- Network node: top right -->
+  <path d="M113 9            C118 9 122 13 122 18            C122 23 118 27 113 27            C108 27 104 23 104 18            C104 13 108 9 113 9 Z" fill="#B796F9" stroke="#7040BF" stroke-width="3"/>
+
+  <path d="M109 15 Q112 13 115 15" stroke="#E4D3FF" stroke-width="2"/>
+
+  <!-- Network node: bottom right -->
+  <path d="M116 109            C122 109 126 113 126 119            C126 124 122 127 116 127            C110 127 106 123 106 118            C106 113 110 109 116 109 Z" fill="#B796F9" stroke="#7040BF" stroke-width="3"/>
+
+  <path d="M112 115 Q115 113 118 115" stroke="#E4D3FF" stroke-width="2"/>
+
+  <!-- Small sharing symbol on folder -->
+  <path d="M66 80 L79 73            M66 80 L79 87" stroke="#FFFFFF" stroke-width="3.2"/>
+
+  <path d="M66 75            C69 75 71 77 71 80            C71 83 69 85 66 85            C63 85 61 83 61 80            C61 77 63 75 66 75 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.7"/>
+
+  <path d="M81 68            C84 68 86 70 86 73            C86 76 84 78 81 78            C78 78 76 76 76 73            C76 70 78 68 81 68 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.7"/>
+
+  <path d="M81 82            C84 82 86 84 86 87            C86 90 84 92 81 92            C78 92 76 90 76 87            C76 84 78 82 81 82 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.7"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M12 48 L8 43            M20 45 L20 39            M27 48 L32 44" stroke="#F5C542" stroke-width="2.8"/>
+
+  <!-- Azure-blue marker flourish -->
+  <path d="M93 111 Q98 114 103 112" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Hand-drawn underline -->
+  <path d="M40 108 Q70 110 98 108" stroke="#773ADC" stroke-width="1.8" opacity=".45"/>
+</svg>

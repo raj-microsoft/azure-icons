@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Kubernetes Fleet Manager (sketch)</title>
+  
+  <desc>Six purple Kubernetes fleet containers arranged in a symmetric formation above three Azure-blue ships floating on a light-blue wave, recreated with uneven hand-drawn vector outlines.</desc>
+
+  <defs>
+    <linearGradient id="fleetPurple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="fleetBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1490DF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top fleet container -->
+  <path d="M45 4 Q45 2 48 2            L80 2 Q83 2 83 5            L83 37 Q83 40 80 40            L48 40 Q45 40 45 37 Z" fill="#A67AF4" stroke="#6331B5" stroke-width="2.5"/>
+  <path d="M49 7 L79 7 L79 35 L49 35 Z" fill="#773ADC"/>
+  <path d="M54 10 L54 32 M70 10 L70 32" stroke="#B796F9" stroke-width="7"/>
+
+  <!-- Left upper fleet container -->
+  <path d="M5 19 Q5 17 8 17            L40 17 L40 54            L8 54 Q5 54 5 51 Z" fill="#A67AF4" stroke="#6331B5" stroke-width="2.5"/>
+  <path d="M9 22 L40 22 L40 50 L9 50 Z" fill="#773ADC"/>
+  <path d="M15 25 L15 47 M32 25 L32 47" stroke="#B796F9" stroke-width="6.5"/>
+
+  <!-- Right upper fleet container -->
+  <path d="M88 17 L120 17            Q123 17 123 20            L123 51 Q123 54 120 54            L88 54 Z" fill="#A67AF4" stroke="#6331B5" stroke-width="2.5"/>
+  <path d="M88 22 L119 22 L119 50 L88 50 Z" fill="#773ADC"/>
+  <path d="M96 25 L96 47 M112 25 L112 47" stroke="#B796F9" stroke-width="6.5"/>
+
+  <!-- Left lower fleet container -->
+  <path d="M5 59 Q5 57 8 57            L40 57 L40 83            Q30 77 23 79            L5 86 Z" fill="#A67AF4" stroke="#6331B5" stroke-width="2.5"/>
+  <path d="M9 62 L40 62 L40 79            Q30 74 23 76 L9 81 Z" fill="#773ADC"/>
+  <path d="M15 65 L15 78 M32 65 L32 75" stroke="#B796F9" stroke-width="6.5"/>
+
+  <!-- Center lower fleet container -->
+  <path d="M45 48 Q45 46 48 46            L80 46 Q83 46 83 49            L83 82 L70 77            Q64 74 58 77            L45 82 Z" fill="#A67AF4" stroke="#6331B5" stroke-width="2.5"/>
+  <path d="M49 51 L79 51 L79 77            L69 73 Q64 71 59 73 L49 77 Z" fill="#773ADC"/>
+  <path d="M55 55 L55 72 M71 55 L71 72" stroke="#B796F9" stroke-width="7"/>
+
+  <!-- Right lower fleet container -->
+  <path d="M88 57 L120 57            Q123 57 123 60            L123 86 L105 79            Q98 77 88 83 Z" fill="#A67AF4" stroke="#6331B5" stroke-width="2.5"/>
+  <path d="M88 62 L119 62 L119 81            L105 76 Q98 74 88 79 Z" fill="#773ADC"/>
+  <path d="M96 65 L96 75 M112 65 L112 78" stroke="#B796F9" stroke-width="6.5"/>
+
+  <!-- Central ship hull -->
+  <path d="M36 94 L58 85            Q64 83 70 85            L92 94 L83 113            Q78 114 73 111            Q64 105 55 111            Q50 114 45 113 Z" fill="url(#fleetBlue)" stroke="#005A9E" stroke-width="2.8"/>
+
+  <!-- Left ship hull -->
+  <path d="M3 98 L17 92            Q23 90 29 92            L40 97 L33 113            Q27 109 22 111            Q15 115 9 112 Z" fill="#0078D4" stroke="#005A9E" stroke-width="2.6"/>
+
+  <!-- Right ship hull -->
+  <path d="M88 97 L100 92            Q106 90 112 92            L125 98 L119 112            Q113 115 106 111            Q101 109 95 113 Z" fill="#0078D4" stroke="#005A9E" stroke-width="2.6"/>
+
+  <!-- Ship marker highlights -->
+  <path d="M46 96 L61 90 M69 90 L81 95" stroke="#5EA0EF" stroke-width="2.2"/>
+  <path d="M11 99 L23 95 M103 95 L116 99" stroke="#5EA0EF" stroke-width="2"/>
+
+  <!-- Fleet waterline and hand-drawn waves -->
+  <path d="M0 120            Q8 123 16 118            Q23 114 31 119            Q39 124 47 119            Q55 114 63 119            Q71 124 79 119            Q87 114 95 119            Q103 124 111 119            Q119 115 128 119            L128 127 L0 127 Z" fill="#83B9F9"/>
+
+  <path d="M0 119            Q8 122 16 118            Q23 114 31 119            Q39 123 47 119            Q55 114 63 119            Q71 123 79 119            Q87 114 95 119            Q103 123 111 119            Q119 115 128 119" stroke="#0078D4" stroke-width="2.4"/>
+
+  <!-- Subtle sketchnote highlights -->
+  <path d="M36 8 L40 5 M88 8 L92 5" stroke="#FFCA00" stroke-width="2.5"/>
+  <path d="M60 43 L64 40 L68 43" stroke="#FFCA00" stroke-width="2.3"/>
+</svg>

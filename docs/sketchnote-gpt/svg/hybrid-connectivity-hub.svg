@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Hybrid Connectivity Hub (sketch)</title>
+  
+  <desc>Azure-blue hybrid connectivity building with network nodes, a white doorway, and an overlapping light-blue cloud, illustrated with uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="hubBlue" x1="77" y1="12" x2="17" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0FAFFF"/>
+      <stop offset="1" stop-color="#2764E7"/>
+    </linearGradient>
+    <linearGradient id="cloudBlue" x1="82" y1="69" x2="85" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D8F7FF"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hybrid connectivity building -->
+  <path d="M14 6        Q10 6 10 12        L10 115        Q10 122 17 122        L80 122        Q88 122 88 115        L88 52        Q88 45 81 45        L67 45        L67 13        Q67 6 60 6Z" fill="url(#hubBlue)" stroke="#2052CB" stroke-width="3.5"/>
+
+  <!-- Hand-drawn inner building contour -->
+  <path d="M17 14        Q17 12 20 12        L59 12        L59 49        Q59 53 64 53        L80 53        L80 108" stroke="#89D9FF" stroke-width="2.5" opacity="0.85"/>
+
+  <!-- Offset structural marker details -->
+  <path d="M14 110 L14 116        M23 118 L43 118        M63 17 L63 39" stroke="#154DAF" stroke-width="2.2" opacity="0.65"/>
+
+  <!-- Network node indicators -->
+  <g fill="#D8F7FF" stroke="#087DA8" stroke-width="1.8">
+    <path d="M26 22 C30 21 33 24 33 28 C33 32 30 35 26 35 C22 35 19 32 19 28 C19 24 22 22 26 22Z"/>
+    <path d="M50 22 C54 22 57 25 57 28 C57 32 54 35 50 35 C46 35 43 32 43 28 C43 24 46 22 50 22Z"/>
+    <path d="M26 46 C30 46 33 49 33 53 C33 57 30 60 26 60 C22 60 19 57 19 53 C19 49 22 46 26 46Z"/>
+    <path d="M50 46 C54 46 57 49 57 53 C57 57 54 60 50 60 C46 60 43 57 43 53 C43 49 46 46 50 46Z"/>
+    <path d="M26 71 C30 71 33 74 33 78 C33 82 30 85 26 85 C22 85 19 82 19 78 C19 74 22 71 26 71Z"/>
+    <path d="M50 71 C54 71 57 74 57 78 C57 82 54 85 50 85 C46 85 43 82 43 78 C43 74 46 71 50 71Z"/>
+    <path d="M74 71 C78 71 81 74 81 78 C81 82 78 85 74 85 C70 85 67 82 67 78 C67 74 70 71 74 71Z"/>
+  </g>
+
+  <!-- Small marker highlights on nodes -->
+  <path d="M23 27 L26 25        M47 27 L50 25        M23 52 L26 50        M47 52 L50 50        M23 77 L26 75        M47 77 L50 75" stroke="#FFFFFF" stroke-width="1.8" opacity="0.85"/>
+
+  <!-- White entrance, partially behind cloud -->
+  <path d="M34 122        L34 100        Q34 95 39 95        L59 95        Q64 95 64 100        L64 122Z" fill="#FFFFFF" stroke="#087DA8" stroke-width="2.5"/>
+
+  <!-- Cloud connection: front overlay -->
+  <path d="M55 121        C46 120 40 113 40 104        C40 95 46 88 54 86        C57 72 69 64 82 65        C95 65 105 73 108 86        C118 88 124 95 124 105        C124 114 117 121 107 122        Z" fill="url(#cloudBlue)" stroke="#438FD7" stroke-width="3.5"/>
+
+  <!-- Loose cloud contour and highlights -->
+  <path d="M48 102        Q49 94 59 93        Q62 75 79 73        M87 72 Q100 75 102 90        M110 93 Q118 97 118 105" stroke="#FFFFFF" stroke-width="2.8" opacity="0.9"/>
+
+  <!-- Short Azure-blue connector symbol -->
+  <path d="M70 103        Q82 94 94 103        M74 109        Q82 103 90 109" stroke="#0078D4" stroke-width="3.5"/>
+
+  <path d="M82 114        C84 114 85 116 85 118        C85 120 83 121 82 121        C80 121 79 119 79 117        C79 115 80 114 82 114Z" fill="#0078D4"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M75 16 L81 11        M83 22 L90 17        M115 71 L121 67" stroke="#F4C542" stroke-width="3" opacity="0.95"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M105 24 L105 15        M101 19 L110 19" stroke="#F4C542" stroke-width="2.6"/>
+
+  <!-- Subtle sketch hatching -->
+  <path d="M17 96 L21 92        M20 102 L24 98        M68 116 L73 113" stroke="#087DA8" stroke-width="1.8" opacity="0.55"/>
+</svg>

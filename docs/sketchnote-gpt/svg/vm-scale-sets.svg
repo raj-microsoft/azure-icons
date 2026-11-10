@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>VM Scale Sets (sketch)</title>
+  
+  <desc>Three overlapping Azure virtual machine screens with cyan isometric cubes and a gray monitor stand, drawn with irregular marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="vmBlue" x1="55" y1="57" x2="112" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".82" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#0069BC"/>
+    </linearGradient>
+    <linearGradient id="standGray" x1="89" y1="105" x2="89" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#707070"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear VM -->
+  <path d="M9 11 Q9 8 13 8            L73 9 Q76 9 76 13            L76 49 Q75 52 72 52            L12 51 Q8 51 8 47 Z" fill="#005BA1" stroke="#174D80" stroke-width="3.3"/>
+
+  <path d="M14 14 Q35 12 57 14" stroke="#5EA0EF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Rear isometric cube -->
+  <path d="M30 24 L42 17 L54 24 L42 31 Z" fill="#C3F1FF" stroke="#237CA8" stroke-width="2.3"/>
+  <path d="M30 24 L42 31 L42 45 L30 38 Z" fill="#9CEBFF" stroke="#237CA8" stroke-width="2.3"/>
+  <path d="M42 31 L54 24 L54 38 L42 45 Z" fill="#50E6FF" stroke="#237CA8" stroke-width="2.3"/>
+  <path d="M34 24 L42 20 M46 33 L50 30" stroke="#FFFFFF" stroke-width="1.7" opacity=".7"/>
+
+  <!-- Middle VM -->
+  <path d="M34 36 Q34 33 38 33            L98 34 Q101 34 101 38            L101 74 Q101 77 97 77            L38 76 Q34 76 34 72 Z" fill="#0078D4" stroke="#15549A" stroke-width="3.5"/>
+
+  <path d="M40 39 Q61 37 87 39" stroke="#9CEBFF" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Middle isometric cube -->
+  <path d="M56 49 L68 42 L80 49 L68 56 Z" fill="#C3F1FF" stroke="#237CA8" stroke-width="2.3"/>
+  <path d="M56 49 L68 56 L68 70 L56 63 Z" fill="#9CEBFF" stroke="#237CA8" stroke-width="2.3"/>
+  <path d="M68 56 L80 49 L80 63 L68 70 Z" fill="#50E6FF" stroke="#237CA8" stroke-width="2.3"/>
+  <path d="M60 49 L68 45 M72 58 L76 55" stroke="#FFFFFF" stroke-width="1.7" opacity=".75"/>
+
+  <!-- Front VM -->
+  <path d="M54 61 Q54 58 58 58            L119 59 Q122 59 122 63            L121 100 Q121 103 117 103            L58 102 Q54 102 54 98 Z" fill="url(#vmBlue)" stroke="#15549A" stroke-width="3.6"/>
+
+  <path d="M60 64 Q82 62 111 65" stroke="#C3F1FF" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Front isometric cube -->
+  <path d="M76 74 L89 66 L102 74 L89 82 Z" fill="#C3F1FF" stroke="#237CA8" stroke-width="2.5"/>
+  <path d="M76 74 L89 82 L89 97 L76 89 Z" fill="#9CEBFF" stroke="#237CA8" stroke-width="2.5"/>
+  <path d="M89 82 L102 74 L102 89 L89 97 Z" fill="#50E6FF" stroke="#237CA8" stroke-width="2.5"/>
+
+  <!-- Hand-drawn cube facets -->
+  <path d="M80 74 L89 69            M93 84 L98 81            M80 80 L80 86" stroke="#FFFFFF" stroke-width="1.9" opacity=".8"/>
+
+  <!-- Front VM stand -->
+  <path d="M83 103 L96 103            C96 110 96 114 102 116            Q106 117 106 122            L73 122            Q73 118 77 116            C83 114 83 110 83 103 Z" fill="url(#standGray)" stroke="#666666" stroke-width="2.7"/>
+
+  <path d="M78 119 Q89 117 101 119" stroke="#E0E0E0" stroke-width="1.8"/>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <path d="M111 44 L114 38            M118 48 L124 45            M112 52 L118 55" stroke="#FFD34D" stroke-width="3"/>
+
+  <!-- Small scale indicator -->
+  <path d="M15 66 L15 78 L27 78            M20 73 L27 66            M22 66 L27 66 L27 71" stroke="#FFD34D" stroke-width="2.7"/>
+
+  <!-- Sketch underline -->
+  <path d="M61 125 Q89 127 115 125" stroke="#1490DF" stroke-width="1.7" opacity=".6"/>
+</svg>

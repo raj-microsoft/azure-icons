@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>MachinesAzureArc (sketch)</title>
+  
+  <desc>Hand-drawn purple Azure Arc machine tower with two recessed server slots and glowing cyan status lights.</desc>
+
+  <defs>
+    <linearGradient id="machinePurple" x1="34" y1="8" x2="98" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset=".55" stop-color="#9357E9"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="slotPurple" x1="40" y1="30" x2="88" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6335AD"/>
+      <stop offset="1" stop-color="#552F99"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main machine enclosure -->
+  <path d="M34 7            Q30 7 29 12            L29 116            Q29 121 34 122            L96 122            Q101 121 101 116            L101 12            Q101 7 96 7 Z" fill="url(#machinePurple)" stroke="#6333A6" stroke-width="4"/>
+
+  <!-- Uneven marker highlights -->
+  <path d="M35 13 Q36 11 40 12 L91 12" stroke="#CBB0FF" stroke-width="2.8" opacity=".8"/>
+
+  <path d="M35 18            Q34 49 35 80            L35 111" stroke="#BA94FA" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Upper recessed server slot -->
+  <path d="M45 23            Q40 23 40 29            L40 34            Q40 40 46 40            L83 40            Q89 40 89 34            L89 29            Q89 23 83 23 Z" fill="url(#slotPurple)" stroke="#47277F" stroke-width="3.2"/>
+
+  <!-- Upper slot marker highlight -->
+  <path d="M47 27 Q60 26 72 27" stroke="#8D61D2" stroke-width="2" opacity=".8"/>
+
+  <!-- Upper cyan status light -->
+  <path d="M78 27            C82 26 85 29 85 32            C85 36 82 38 79 38            C75 38 73 35 73 32            C73 29 75 27 78 27 Z" fill="#50E6FF" stroke="#087EA9" stroke-width="1.8"/>
+
+  <path d="M77 30 Q79 28 81 30" stroke="#D0FAFF" stroke-width="1.6"/>
+
+  <!-- Lower recessed server slot -->
+  <path d="M45 51            Q40 51 40 57            L40 62            Q40 68 46 68            L83 68            Q89 68 89 62            L89 57            Q89 51 83 51 Z" fill="url(#slotPurple)" stroke="#47277F" stroke-width="3.2"/>
+
+  <!-- Lower slot marker highlight -->
+  <path d="M47 55 Q60 54 72 55" stroke="#8D61D2" stroke-width="2" opacity=".8"/>
+
+  <!-- Lower cyan status light -->
+  <path d="M78 55            C82 54 85 57 85 60            C85 64 82 66 79 66            C75 66 73 63 73 60            C73 57 75 55 78 55 Z" fill="#50E6FF" stroke="#087EA9" stroke-width="1.8"/>
+
+  <path d="M77 58 Q79 56 81 58" stroke="#D0FAFF" stroke-width="1.6"/>
+
+  <!-- Subtle hand-drawn lower chassis detail -->
+  <path d="M43 82 Q64 80 87 82" stroke="#B58CF6" stroke-width="2.4" opacity=".55"/>
+
+  <path d="M44 109 Q64 111 87 109" stroke="#6634B0" stroke-width="2.1" opacity=".6"/>
+
+  <!-- Azure-blue connectivity accent -->
+  <path d="M109 38            Q117 45 109 52" stroke="#0078D4" stroke-width="3"/>
+
+  <path d="M114 32            Q126 45 114 58" stroke="#0078D4" stroke-width="2.7"/>
+
+  <!-- Yellow sketchnote spark -->
+  <path d="M17 24 L22 28            M13 33 L20 34            M21 17 L24 23" stroke="#F5C542" stroke-width="2.8"/>
+
+  <!-- Small cyan marker flourish -->
+  <path d="M108 87 l5 -4            M112 94 l7 -1" stroke="#50E6FF" stroke-width="2.5"/>
+
+  <!-- Hand-drawn grounding stroke -->
+  <path d="M36 125 Q64 127 94 125" stroke="#773ADC" stroke-width="1.8" opacity=".45"/>
+</svg>

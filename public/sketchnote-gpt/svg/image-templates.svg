@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Image Templates (sketch)</title>
+  
+  <desc>Azure-blue monitor displaying a cyan isometric image-template cube with white framing corners, a dark blue stand, and a teal dashed template outline.</desc>
+
+  <defs>
+    <linearGradient id="screenBlue" x1="54" y1="23" x2="54" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="cubeBlue" x1="38" y1="40" x2="70" y2="73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C3F1FF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Teal dashed template boundary -->
+  <path d="M20 12        Q20 10 24 10        L119 10        Q123 10 123 14        L123 80        Q123 84 119 84        L81 84        L81 91        Q81 99 88 101        Q94 103 94 109        L94 113        L46 113        L46 109        Q46 103 52 101        Q59 98 59 91        L59 84        L24 84        Q20 84 20 80Z" stroke="#37C2B1" stroke-width="2.5" stroke-dasharray="6 6"/>
+
+  <!-- Main monitor silhouette -->
+  <path d="M7 22        Q7 19 11 19        L99 19        Q103 19 103 23        L103 88        Q103 92 99 92        L11 92        Q7 92 7 88Z" fill="url(#screenBlue)" stroke="#175BA7" stroke-width="3.5"/>
+
+  <!-- Uneven secondary screen outline -->
+  <path d="M13 27 L13 83        Q13 87 18 87        L95 87        M18 24 L93 24" stroke="#B2D9FF" stroke-width="2" opacity="0.65"/>
+
+  <!-- Screen marker highlight -->
+  <path d="M18 31 Q17 51 18 68" stroke="#8DC8FF" stroke-width="2.5" opacity="0.8"/>
+
+  <!-- White image framing corners -->
+  <path d="M20 45 L20 34 Q20 31 23 31 L35 31        M74 31 L87 31 Q90 31 90 34 L90 45        M20 68 L20 80 Q20 83 23 83 L35 83        M74 83 L87 83 Q90 83 90 80 L90 68" stroke="#FFFFFF" stroke-width="4.2"/>
+
+  <!-- Central isometric cube: top face -->
+  <path d="M55 37        L72 47        L55 57        L38 47Z" fill="#C3F1FF" stroke="#087DA8" stroke-width="2.5"/>
+
+  <!-- Cube left face -->
+  <path d="M38 47        L55 57        L55 77        L38 67Z" fill="#9CEBFF" stroke="#087DA8" stroke-width="2.5"/>
+
+  <!-- Cube right face -->
+  <path d="M55 57        L72 47        L72 67        L55 77Z" fill="url(#cubeBlue)" stroke="#087DA8" stroke-width="2.5"/>
+
+  <!-- Cube handwritten-style marker highlights -->
+  <path d="M46 46 L55 41 L64 46        M43 55 L43 63        M65 56 L65 65" stroke="#FFFFFF" stroke-width="2.1" opacity="0.85"/>
+
+  <!-- Subtle cube construction marks -->
+  <path d="M55 57 L55 74        M41 48 L53 55" stroke="#32BEDD" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Monitor stand stem -->
+  <path d="M44 92        L66 92        Q65 107 73 113        L37 113        Q45 107 44 92Z" fill="#1F56A3" stroke="#164B8C" stroke-width="3"/>
+
+  <!-- Stand shading -->
+  <path d="M55 94 L63 94        Q62 106 67 110        L55 110Z" fill="#0078D4" opacity="0.5"/>
+
+  <!-- Stand base -->
+  <path d="M36 113        Q30 114 29 120        L81 120        Q80 114 74 113Z" fill="#1F56A3" stroke="#164B8C" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Base marker highlight -->
+  <path d="M37 116 L72 116" stroke="#5EA0EF" stroke-width="2"/>
+
+  <!-- Teal template connector details -->
+  <path d="M70 92 L70 99        M70 105 L70 109" stroke="#37C2B1" stroke-width="2" stroke-dasharray="3 4"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M109 19 L114 14        M114 27 L120 24        M109 94 L116 98" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M11 9 L11 3        M8 6 L14 6" stroke="#F4C542" stroke-width="2.3"/>
+
+  <!-- Loose sketch hatching -->
+  <path d="M13 76 L17 73        M94 77 L98 74" stroke="#D8F7FF" stroke-width="1.7" opacity="0.8"/>
+</svg>

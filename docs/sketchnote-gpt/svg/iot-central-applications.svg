@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>IoT Central Applications (sketch)</title>
+  
+  <desc>Hand-drawn gray hexagonal IoT enclosure surrounding a luminous cyan isometric cube, with uneven marker outlines and subtle Azure-blue and yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="cubeTop" x1="35" y1="29" x2="94" y2="67" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C6F6FF"/>
+      <stop offset="1" stop-color="#9CEBFF"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="34" y1="49" x2="67" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="67" y1="59" x2="96" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer gray IoT hexagonal enclosure -->
+  <path d="M64 7            L119 38            Q121 39 121 42            L121 94            Q121 96 119 97            L65 127            Q64 128 62 127            L8 96            L8 84            L64 115            L110 89            L110 45            L64 19            L18 45            L18 53            L29 60            L29 73            L8 61            L8 39            Z" fill="#A3A3A3" stroke="#686868" stroke-width="3.3"/>
+
+  <!-- Upper enclosure facet -->
+  <path d="M8 39 L64 7 L121 39            L110 45 L64 19 L18 45 Z" fill="#949494" stroke="#686868" stroke-width="2.6"/>
+
+  <!-- Sketch contour on enclosure -->
+  <path d="M13 38 L61 11            M114 49 L114 85            M68 119 L102 100" stroke="#E0E0E0" stroke-width="2.1" opacity=".8"/>
+
+  <!-- Cyan central isometric cube: top -->
+  <path d="M64 30            L94 47            Q96 48 94 50            L65 67            Q64 68 62 67            L34 50            Q32 49 34 47            Z" fill="url(#cubeTop)" stroke="#168EAC" stroke-width="3.5"/>
+
+  <!-- Left cube face -->
+  <path d="M34 49            L64 67            L64 101            L34 84            Q33 83 33 81            Z" fill="url(#cubeLeft)" stroke="#168EAC" stroke-width="3.5"/>
+
+  <!-- Right cube face -->
+  <path d="M64 67            L94 49            L94 82            Q94 84 92 85            L64 101            Z" fill="url(#cubeRight)" stroke="#087C9C" stroke-width="3.5"/>
+
+  <!-- Cube's characteristic crossing facets -->
+  <path d="M34 84 L64 67 L94 84" stroke="#B7F3FF" stroke-width="2.7" opacity=".95"/>
+
+  <path d="M34 84 L64 101 L94 84" stroke="#087C9C" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Hand-drawn surface highlights -->
+  <path d="M43 48 L63 36 L83 48            M40 58 L40 75            M87 59 L87 76" stroke="#E2FBFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Loose marker edge details -->
+  <path d="M29 54 L34 57            M98 52 L103 49            M55 105 L61 109" stroke="#0078D4" stroke-width="2" opacity=".75"/>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <path d="M25 22 L21 17            M32 18 L31 12            M103 24 L108 19" stroke="#F7C948" stroke-width="3"/>
+
+  <!-- Tiny hand-drawn emphasis marks -->
+  <path d="M99 72 L104 69            M26 91 L30 94" stroke="#F7C948" stroke-width="2.4"/>
+
+</svg>

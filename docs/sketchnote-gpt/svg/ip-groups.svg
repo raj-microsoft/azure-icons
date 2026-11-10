@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>IP Groups (sketch)</title>
+  
+  <desc>Three overlapping Azure-blue network group panels arranged diagonally, with dark blue headers, white label strokes, and three circular IP indicators on the foreground panel.</desc>
+
+  <defs>
+    <linearGradient id="frontCyan" x1="91" y1="71" x2="91" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".65" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear IP group -->
+  <path d="M8 18            Q8 16 11 16            L68 16            Q71 16 71 19            L71 68            Q71 71 68 71            L11 71            Q8 71 8 68 Z" fill="#83B9F9" stroke="#1F56A3" stroke-width="3.2"/>
+
+  <!-- Rear dark-blue header -->
+  <path d="M11 16            L68 16            Q71 16 71 19            L71 32            L8 32            L8 19            Q8 16 11 16 Z" fill="#1F56A3" stroke="#164682" stroke-width="2.5"/>
+
+  <!-- Rear white header label -->
+  <path d="M17 24            Q31 23 43 24            L61 24" stroke="#F2F2F2" stroke-width="4.5"/>
+
+  <!-- Subtle rear marker highlight -->
+  <path d="M12 39 L12 59" stroke="#C9E6FF" stroke-width="2.2"/>
+
+  <!-- Middle IP group -->
+  <path d="M34 38            Q34 36 37 36            L94 36            Q97 36 97 39            L97 87            Q97 90 94 90            L37 90            Q34 90 34 87 Z" fill="#83B9F9" stroke="#1F56A3" stroke-width="3.2"/>
+
+  <!-- Middle dark-blue header -->
+  <path d="M37 36            L94 36            Q97 36 97 39            L97 51            L34 51            L34 39            Q34 36 37 36 Z" fill="#1F56A3" stroke="#164682" stroke-width="2.5"/>
+
+  <!-- Middle white label stroke -->
+  <path d="M43 44            Q57 43 69 44            L87 44" stroke="#F2F2F2" stroke-width="4.5"/>
+
+  <!-- Middle panel marker accent -->
+  <path d="M39 58 L39 75" stroke="#C9E6FF" stroke-width="2"/>
+
+  <!-- Foreground IP group -->
+  <path d="M60 58            Q60 56 63 56            L117 56            Q120 56 120 59            L120 110            Q120 113 117 113            L63 113            Q60 113 60 110 Z" fill="url(#frontCyan)" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Foreground Azure-blue header -->
+  <path d="M63 56            L117 56            Q120 56 120 59            L120 71            L60 71            L60 59            Q60 56 63 56 Z" fill="#0078D4" stroke="#005A9E" stroke-width="2.6"/>
+
+  <!-- Foreground white header label -->
+  <path d="M69 64            Q82 63 94 64            L111 64" stroke="#F2F2F2" stroke-width="4.4"/>
+
+  <!-- Three prominent IP address indicators -->
+  <circle cx="77" cy="91" r="5.5" fill="#0078D4" stroke="#005A9E" stroke-width="1.7"/>
+
+  <circle cx="91" cy="91" r="5.5" fill="#0078D4" stroke="#005A9E" stroke-width="1.7"/>
+
+  <circle cx="105" cy="91" r="5.5" fill="#0078D4" stroke="#005A9E" stroke-width="1.7"/>
+
+  <!-- Tiny hand-drawn highlights on indicators -->
+  <path d="M75 89 L77 88            M89 89 L91 88            M103 89 L105 88" stroke="#A9ECFF" stroke-width="1.5"/>
+
+  <!-- Foreground marker highlight -->
+  <path d="M65 78 L65 100" stroke="#A9F0FF" stroke-width="2.4"/>
+
+  <!-- Restrained sketchnote yellow accents -->
+  <path d="M17 8 L20 12            M26 6 L26 11" stroke="#FFCA00" stroke-width="2.8"/>
+
+  <path d="M105 42 L111 36            M114 47 L121 45" stroke="#FFCA00" stroke-width="2.7"/>
+
+  <!-- Small freehand grouping emphasis -->
+  <path d="M17 80            Q26 88 39 88" stroke="#0078D4" stroke-width="2.4" stroke-dasharray="4 4"/>
+
+  <path d="M35 84 L40 89 L34 93" stroke="#0078D4" stroke-width="2.4"/>
+
+  <!-- Hand-drawn finishing strokes -->
+  <path d="M71 118 Q91 120 110 118" stroke="#32BEDD" stroke-width="2" opacity=".65"/>
+</svg>

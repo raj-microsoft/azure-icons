@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Workspace Gateway (sketch)</title>
+  
+  <desc>Azure cyan cloud connected to a blue circular gateway network with purple central node, illustrated using uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="cloudCyan" x1="13" y1="12" x2="92" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#28B5D9"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="gatewayBlue" x1="67" y1="54" x2="124" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+    <linearGradient id="nodePurple" x1="83" y1="72" x2="108" y2="97" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6F4BB2"/>
+      <stop offset="1" stop-color="#C69AEB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main cloud silhouette -->
+  <path d="M35 91            C19 92 9 80 9 66            C9 53 18 43 31 41            C36 24 50 14 67 14            C86 14 100 28 101 46            C110 48 117 54 119 63            C113 61 106 62 100 66            C91 72 86 82 87 91            L35 91Z" fill="#E8FAFE" stroke="url(#cloudCyan)" stroke-width="6.5"/>
+
+  <!-- Secondary hand-drawn cloud outline -->
+  <path d="M17 64            Q18 49 35 47            Q41 21 65 21            M74 21 Q94 27 94 47" stroke="#83E3F5" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Cloud interior accent -->
+  <path d="M25 77 Q30 84 40 84            M47 85 L72 85" stroke="#32D4F5" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Gateway circular connection, upper arc -->
+  <path d="M82 75            C90 61 109 58 120 70" stroke="url(#gatewayBlue)" stroke-width="6"/>
+
+  <!-- Gateway circular connection, lower arc -->
+  <path d="M117 98            C108 112 89 115 78 103" stroke="url(#gatewayBlue)" stroke-width="6"/>
+
+  <!-- Upper-right gateway connector -->
+  <path d="M120 70 L124 65" stroke="#0078D4" stroke-width="5"/>
+
+  <!-- Lower-left gateway connector -->
+  <path d="M78 103 L73 108" stroke="#0078D4" stroke-width="5"/>
+
+  <!-- Upper endpoint -->
+  <path d="M117 60            Q120 57 123 60            Q126 63 123 66            Q120 69 117 66            Q114 63 117 60Z" fill="#83B9F9" stroke="#0078D4" stroke-width="2.3"/>
+
+  <!-- Lower endpoint -->
+  <path d="M70 106            Q73 103 76 106            Q79 109 76 112            Q73 115 70 112            Q67 109 70 106Z" fill="#83B9F9" stroke="#0078D4" stroke-width="2.3"/>
+
+  <!-- Purple gateway core -->
+  <path d="M92 76            Q97 70 103 76            Q109 82 103 88            Q97 94 91 88            Q85 82 92 76Z" fill="url(#nodePurple)" stroke="#6F4BB2" stroke-width="3"/>
+
+  <!-- Gateway hub sketch highlight -->
+  <path d="M92 80 Q95 76 99 78" stroke="#E6D4FF" stroke-width="2.2"/>
+
+  <!-- Hand-drawn linking strokes -->
+  <path d="M83 69 Q88 65 94 64            M109 101 Q104 106 98 107" stroke="#5EA0EF" stroke-width="2" opacity=".8"/>
+
+  <!-- Small Azure marker accents -->
+  <path d="M49 36 L55 33            M58 29 L63 28" stroke="#32D4F5" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M109 48 L113 42            M117 49 L123 46            M112 55 L119 56" stroke="#FFD34D" stroke-width="2.8"/>
+
+  <!-- Small handwritten-style motion marks -->
+  <path d="M34 101 L40 97            M38 107 L45 104" stroke="#0078D4" stroke-width="2.2"/>
+
+  <!-- Minimal underline -->
+  <path d="M49 117 Q64 119 78 117" stroke="#198AB3" stroke-width="1.8" opacity=".6"/>
+</svg>

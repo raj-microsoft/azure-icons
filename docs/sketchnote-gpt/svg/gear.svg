@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Gear (sketch)</title>
+  
+  <desc>Azure cyan gear with a white circular refresh arrow, irregular hand-drawn marker outlines, and subtle yellow highlights.</desc>
+
+  <defs>
+    <linearGradient id="gearCyan" x1="28" y1="16" x2="100" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="0.55" stop-color="#32C9E9"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn eight-tooth gear silhouette -->
+  <path d="M57 7        Q64 5 71 7        L77 23        Q82 25 88 28        L103 20        Q109 24 114 31        L106 46        Q109 52 111 57        L121 61        Q123 68 120 74        L108 79        Q106 85 102 90        L110 105        Q105 112 98 116        L83 108        Q77 111 71 113        L67 122        Q60 124 54 121        L49 109        Q43 107 38 103        L23 111        Q16 106 12 99        L20 84        Q17 78 15 72        L6 68        Q5 61 8 55        L20 50        Q22 44 26 39        L18 24        Q23 17 30 13        L45 21        Q51 18 55 17        Z" fill="url(#gearCyan)" stroke="#087DA8" stroke-width="3.5"/>
+
+  <!-- Light secondary marker line along exposed teeth -->
+  <path d="M59 11 L68 10 L74 27        M90 32 L102 26 L109 32        M115 63 L117 71 L105 76        M97 110 L84 103        M55 115 L63 119        M17 96 L25 83        M11 59 L23 54        M25 25 L31 19 L44 26" stroke="#A5EEFA" stroke-width="2.2" opacity="0.85"/>
+
+  <!-- Central recessed circular opening -->
+  <path d="M64 35        C80 34 93 47 93 63        C94 80 81 94 64 94        C47 95 34 81 34 65        C33 48 47 36 64 35Z" fill="#087DA8" fill-opacity="0.16" stroke="#087DA8" stroke-width="2.6" stroke-dasharray="3 5"/>
+
+  <!-- White hand-drawn circular refresh arrow -->
+  <path d="M84 47        C94 57 94 72 85 83        C75 95 57 96 46 86        C34 76 33 60 42 49" stroke="#FFFFFF" stroke-width="8.5"/>
+
+  <!-- Small cyan shadow to emphasize the arrow -->
+  <path d="M85 49        C94 61 91 75 82 84        M46 87        C36 78 34 65 40 55" stroke="#087DA8" stroke-width="1.7" opacity="0.55"/>
+
+  <!-- Arrow head: curled back toward the center -->
+  <path d="M42 49        L39 39        Q49 35 60 37        L57 43        L61 49        Q51 47 42 49Z" fill="#FFFFFF" stroke="#087DA8" stroke-width="1.9"/>
+
+  <!-- Small handwritten marker accents -->
+  <path d="M79 14 L83 9        M88 18 L95 13        M109 87 L117 90" stroke="#F4C542" stroke-width="3.2"/>
+
+  <!-- Yellow sketch sparkle -->
+  <path d="M17 39 L17 32        M13.5 35.5 L20.5 35.5" stroke="#F4C542" stroke-width="2.5"/>
+
+  <!-- Loose hand-drawn interior highlights -->
+  <path d="M28 56 Q26 64 29 71        M49 27 Q55 24 61 25        M96 57 Q99 63 97 70" stroke="#E0FAFF" stroke-width="2.4" opacity="0.85"/>
+
+  <!-- Subtle marker hatching -->
+  <path d="M30 93 L35 98        M35 91 L40 96        M89 30 L94 35" stroke="#087DA8" stroke-width="1.8" opacity="0.6"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Immersive Readers (sketch)</title>
+  
+  <desc>Open book on an Azure-blue background with gray text lines, overlapping mint-green audio circle, and a white speaker with sound waves.</desc>
+
+  <defs>
+    <linearGradient id="bookBlue" x1="12" y1="20" x2="111" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="rightPage" x1="61" y1="8" x2="104" y2="93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0F0F0"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+    <linearGradient id="audioMint" x1="99" y1="69" x2="99" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42E8CA"/>
+      <stop offset="1" stop-color="#3CD4C2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure-blue book backing -->
+  <path d="M9 21 Q9 17 14 17        L114 17 Q119 17 119 22        L119 103 Q119 108 114 108        L14 108 Q9 108 9 103Z" fill="url(#bookBlue)" stroke="#1462AB" stroke-width="3.5"/>
+
+  <!-- Subtle marker highlight -->
+  <path d="M15 25 L15 99        M21 103 L63 103" stroke="#A6D5FF" stroke-width="2.3" opacity="0.7"/>
+
+  <!-- Left book page -->
+  <path d="M23 7        L50 7        Q59 7 64 16        L64 107        Q60 99 51 99        L23 99 Q21 99 21 96        L21 10 Q21 7 23 7Z" fill="#F2F2F2" stroke="#9EA9B5" stroke-width="3"/>
+
+  <!-- Right book page -->
+  <path d="M105 7        L78 7        Q69 7 64 16        L64 107        Q68 99 77 99        L105 99 Q107 99 107 96        L107 10 Q107 7 105 7Z" fill="url(#rightPage)" stroke="#9EA9B5" stroke-width="3"/>
+
+  <!-- Center fold -->
+  <path d="M64 16        Q62 55 64 105" stroke="#8F9CA8" stroke-width="2.5"/>
+
+  <!-- Left page handwritten-style reading lines -->
+  <path d="M30 19 Q41 18 54 19        M30 31 Q42 30 54 31        M30 43 Q42 42 54 43        M30 55 Q42 54 54 55        M30 67 Q42 66 54 67        M30 79 Q42 78 54 79        M30 90 L44 90" stroke="#B3B3B3" stroke-width="3.2"/>
+
+  <!-- Right page reading lines -->
+  <path d="M74 19 Q86 18 99 19        M74 31 Q86 30 99 31        M74 43 Q86 42 99 43        M74 55 Q86 54 99 55        M74 67 L91 67" stroke="#B3B3B3" stroke-width="3" opacity="0.85"/>
+
+  <!-- Loose page highlights -->
+  <path d="M26 14 L26 91        M101 14 L101 62" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+
+  <!-- Mint-green immersive audio badge -->
+  <path d="M99 69        C114 69 125 81 125 96        C125 111 114 123 99 123        C84 123 72 111 72 96        C72 81 84 69 99 69Z" fill="url(#audioMint)" stroke="#209D92" stroke-width="3.5"/>
+
+  <!-- Badge highlight -->
+  <path d="M82 85 Q88 75 100 76" stroke="#B7FFF0" stroke-width="2.8"/>
+
+  <!-- Speaker body -->
+  <path d="M83 91        L89 91        L99 82        Q101 80 101 84        L101 108        Q101 111 98 109        L89 101        L83 101        Q81 101 81 99        L81 93 Q81 91 83 91Z" fill="#FFFFFF" stroke="#D7FFF8" stroke-width="1.5"/>
+
+  <!-- Inner sound wave -->
+  <path d="M105 88        Q111 96 105 104" stroke="#FFFFFF" stroke-width="3.3"/>
+
+  <!-- Outer sound wave -->
+  <path d="M111 83        Q121 96 111 109" stroke="#FFFFFF" stroke-width="3.3"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M110 12 L115 7        M117 19 L123 16" stroke="#F4C542" stroke-width="2.8"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M10 10 L10 3        M6 6 L14 6" stroke="#F4C542" stroke-width="2.4"/>
+
+  <!-- Subtle Azure-blue marker accents -->
+  <path d="M12 114 L20 117        M24 116 L30 119" stroke="#32BEDD" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Worker Container App (sketch)</title>
+  
+  <desc>Layered purple container panels with turquoise worker-cycle arrows and circular status nodes, preserving the original Azure icon symbolism.</desc>
+
+  <defs>
+    <linearGradient id="panelPurple" x1="18" y1="29" x2="65" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="sidePurple" x1="65" y1="38" x2="108" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#773ADC"/>
+      <stop offset="1" stop-color="#552F99"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Worker-cycle arc, upper segment -->
+  <path d="M10 42            C24 16 54 8 80 18" stroke="#32BEDD" stroke-width="6.5"/>
+
+  <!-- Upper-right cycle segment -->
+  <path d="M107 32 Q116 42 119 51" stroke="#32BEDD" stroke-width="6.5"/>
+
+  <!-- Lower cycle segment -->
+  <path d="M117 85            C104 110 75 124 48 115" stroke="#32BEDD" stroke-width="6.5"/>
+
+  <!-- Lower-left cycle segment -->
+  <path d="M23 106 Q14 97 10 88" stroke="#32BEDD" stroke-width="6.5"/>
+
+  <!-- Rear container edge -->
+  <path d="M7 42 L20 39 L20 87 L7 84 Z" fill="#A67AF4" stroke="#6533B4" stroke-width="2.7"/>
+
+  <!-- Main left container panel -->
+  <path d="M20 33            L62 25            Q65 24 65 28            L65 99            Q65 102 62 101            L20 92            Q18 92 18 89            L18 37            Q18 34 20 33Z" fill="url(#panelPurple)" stroke="#6533B4" stroke-width="3.5"/>
+
+  <!-- First translucent container rib -->
+  <path d="M27 39 L39 37            L39 93 L27 90Z" fill="#B796F9" opacity=".6"/>
+
+  <!-- Second translucent container rib -->
+  <path d="M44 36 L58 33            L58 97 L44 94Z" fill="#B796F9" opacity=".55"/>
+
+  <!-- Hand-drawn panel detailing -->
+  <path d="M23 39 L23 85            M30 44 L35 43            M47 41 L54 40" stroke="#DCC8FF" stroke-width="2.1" opacity=".75"/>
+
+  <!-- Central connecting container side -->
+  <path d="M65 25            L95 36            L73 41            Q70 42 70 46            L70 78            Q70 82 73 83            L93 88            L65 101Z" fill="url(#sidePurple)" stroke="#552F99" stroke-width="3"/>
+
+  <!-- Front-right container panel -->
+  <path d="M73 43            L100 38            Q103 38 103 41            L103 88            Q103 91 100 90            L73 84            Q71 84 71 81            L71 47            Q71 44 73 43Z" fill="#A67AF4" stroke="#6533B4" stroke-width="3.2"/>
+
+  <!-- Container panel marker highlights -->
+  <path d="M78 49 L97 45            M77 54 L77 77            M82 81 L95 84" stroke="#D7B8FF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Rightmost container side -->
+  <path d="M103 38            L123 46            Q125 47 125 49            L125 75            Q125 77 123 78            L103 90Z" fill="#773ADC" stroke="#552F99" stroke-width="3.2"/>
+
+  <path d="M109 48 L119 52            M119 57 L119 70" stroke="#B796F9" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Upper worker-status node -->
+  <path d="M88 7            C95 6 101 12 101 19            C101 26 95 32 88 32            C81 32 75 26 75 19            C75 12 81 7 88 7Z" fill="#32BEDD" stroke="#178FAE" stroke-width="3"/>
+
+  <!-- Lower worker-status node -->
+  <path d="M34 102            C42 102 48 108 48 115            C48 122 42 127 35 127            C27 127 22 122 22 115            C22 108 27 102 34 102Z" fill="#32BEDD" stroke="#178FAE" stroke-width="3"/>
+
+  <!-- Node highlights -->
+  <path d="M82 16 Q85 12 90 13            M29 112 Q32 108 36 109" stroke="#B4F3FF" stroke-width="2.4"/>
+
+  <!-- Subtle Azure-blue cycle annotation -->
+  <path d="M12 31 L17 24            M109 101 L115 95" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M113 20 L116 14            M120 23 L126 20            M114 28 L120 31" stroke="#FFD34D" stroke-width="2.7"/>
+
+  <!-- Small hand-drawn emphasis marks -->
+  <path d="M7 107 L12 104            M10 114 L16 112" stroke="#FFD34D" stroke-width="2.2"/>
+</svg>

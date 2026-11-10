@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>IoT Edge (sketch)</title>
+  
+  <desc>Hand-drawn cyan Azure IoT cloud with a white connection node, vertical gray link, and small cyan edge device below.</desc>
+
+  <defs>
+    <linearGradient id="iotCloud" x1="64" y1="8" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".56" stop-color="#28B7DB"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+
+    <linearGradient id="iotEdgeDevice" x1="64" y1="100" x2="64" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#28B7DB"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Organic hand-drawn cloud silhouette -->
+  <path d="M35 91            C19 92 7 81 7 66            C6 50 17 38 32 36            C38 18 51 9 66 9            C84 9 98 22 100 40            C114 42 122 52 122 65            C122 80 111 90 97 91            Z" fill="url(#iotCloud)" stroke="#147FA5" stroke-width="3.5"/>
+
+  <!-- Uneven marker highlights -->
+  <path d="M14 62            Q16 45 33 41" stroke="#A7F1FF" stroke-width="2.6"/>
+
+  <path d="M43 29            Q51 15 66 15" stroke="#B6F5FF" stroke-width="2.8"/>
+
+  <path d="M104 47            Q115 53 116 64" stroke="#0D789E" stroke-width="2.2" opacity=".55"/>
+
+  <path d="M20 77            Q26 85 37 85" stroke="#7BE4F7" stroke-width="2.3" opacity=".7"/>
+
+  <!-- Vertical connection cable behind node -->
+  <path d="M64 57            Q63 68 64 80            L64 103" stroke="#8C969D" stroke-width="6"/>
+
+  <path d="M62.5 69            Q62 84 62.5 99" stroke="#D6DADF" stroke-width="1.8"/>
+
+  <!-- Central white IoT connection node -->
+  <path d="M64 32            C73 32 79 39 79 47            C79 56 72 63 64 63            C55 63 49 56 49 47            C49 39 55 32 64 32            Z" fill="#F2F2F2" stroke="#147FA5" stroke-width="3.2"/>
+
+  <!-- Soft node highlight -->
+  <path d="M55 45            Q57 37 65 37" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- Small connection-center dot -->
+  <circle cx="64" cy="47" r="3.2" fill="#B3B3B3"/>
+
+  <!-- Edge device: small rounded cyan square -->
+  <path d="M54 101            L74 101            Q78 101 78 105            L78 119            Q78 123 74 123            L54 123            Q50 123 50 119            L50 105            Q50 101 54 101            Z" fill="url(#iotEdgeDevice)" stroke="#147FA5" stroke-width="3.2"/>
+
+  <!-- Device's sketchy top edge -->
+  <path d="M55 105 L71 105" stroke="#B4F5FF" stroke-width="2.5"/>
+
+  <!-- Tiny edge-device status light -->
+  <circle cx="64" cy="113" r="2.6" fill="#FFCA00" stroke="#D49B00" stroke-width="1"/>
+
+  <!-- Restrained yellow sketchnote emphasis -->
+  <path d="M82 33 L88 27" stroke="#FFCA00" stroke-width="2.7"/>
+
+  <path d="M86 41 L94 38" stroke="#FFCA00" stroke-width="2.5"/>
+
+  <!-- Handwritten-style connection annotation -->
+  <path d="M73 82            Q82 79 89 83            M76 88 L87 88" stroke="#147FA5" stroke-width="2" opacity=".6"/>
+
+  <!-- Small directional marker -->
+  <path d="M60 94 L64 98 L68 94" stroke="#FFCA00" stroke-width="2.2"/>
+</svg>

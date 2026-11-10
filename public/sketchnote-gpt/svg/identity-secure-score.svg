@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Identity Secure Score (sketch)</title>
+  
+  <desc>Golden security score trophy with orange handles, a rounded cup, narrow stem, and pedestal, using irregular marker outlines and subtle sketch highlights.</desc>
+
+  <defs>
+    <linearGradient id="cupGold" x1="36" y1="7" x2="91" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE45C"/>
+      <stop offset="0.55" stop-color="#FCD116"/>
+      <stop offset="1" stop-color="#E8A900"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="25" y1="20" x2="105" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFAD25"/>
+      <stop offset="0.65" stop-color="#FF8C00"/>
+      <stop offset="1" stop-color="#DD5900"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left trophy handle -->
+  <path d="M38 19        L20 19        Q10 19 11 30        Q12 36 18 45        L24 57        Q29 64 40 64" stroke="#DD5900" stroke-width="9"/>
+
+  <path d="M37 21        L20 21        Q14 21 14 28        Q15 36 23 51        Q27 59 38 60" stroke="#FF8C00" stroke-width="5"/>
+
+  <!-- Right trophy handle -->
+  <path d="M90 19        L108 19        Q118 19 117 30        Q116 36 110 45        L104 57        Q99 64 88 64" stroke="#DD5900" stroke-width="9"/>
+
+  <path d="M91 21        L108 21        Q114 21 114 28        Q113 36 105 51        Q101 59 90 60" stroke="#FF8C00" stroke-width="5"/>
+
+  <!-- Main trophy cup silhouette -->
+  <path d="M34 7        Q31 7 32 12        Q38 22 38 49        C38 68 47 79 63 80        C80 81 90 68 90 49        Q90 22 96 12        Q98 7 93 7Z" fill="url(#cupGold)" stroke="#C47A00" stroke-width="3.5"/>
+
+  <!-- Warm orange shading on right side -->
+  <path d="M68 13        L91 13        Q85 33 85 49        C85 64 79 73 68 76Z" fill="#DD5900" opacity="0.22"/>
+
+  <!-- Hand-drawn upper rim -->
+  <path d="M34 12        Q63 15 94 12" stroke="#FF8C00" stroke-width="3"/>
+
+  <!-- Irregular marker highlights -->
+  <path d="M43 21        Q46 32 45 46        M47 53        Q50 66 60 69" stroke="#FFF3A3" stroke-width="3.5" opacity="0.95"/>
+
+  <path d="M82 25        Q80 37 81 47        M78 61        Q74 68 69 70" stroke="#C47A00" stroke-width="2.2" opacity="0.65"/>
+
+  <!-- Small Azure-blue security check -->
+  <path d="M51 42        L61 52        L78 34" stroke="#0078D4" stroke-width="5.5"/>
+
+  <path d="M52 39 L57 44" stroke="#32BEDD" stroke-width="2.2"/>
+
+  <!-- Trophy stem -->
+  <path d="M55 80        Q64 83 73 80        L73 100        Q65 104 55 100Z" fill="#FCD116" stroke="#C47A00" stroke-width="3"/>
+
+  <!-- Stem shading -->
+  <path d="M65 84        L72 83        L72 98        Q68 100 65 100Z" fill="#DD5900" opacity="0.25"/>
+
+  <!-- Slightly uneven base pedestal -->
+  <path d="M43 100        Q45 97 49 97        L79 97        Q83 97 85 101        L94 119        Q96 124 90 124        L38 124        Q32 124 34 119Z" fill="url(#orange)" stroke="#B85A00" stroke-width="3.5"/>
+
+  <!-- Pedestal top marker line -->
+  <path d="M47 103        Q64 105 81 103" stroke="#FFD16A" stroke-width="2.8"/>
+
+  <!-- Base highlight -->
+  <path d="M43 115        L40 120        L64 120" stroke="#FFC15C" stroke-width="2.5" opacity="0.85"/>
+
+  <!-- Subtle orange sketch hatching -->
+  <path d="M82 110 L87 115        M78 115 L83 120" stroke="#B85A00" stroke-width="1.8" opacity="0.6"/>
+
+  <!-- Hand-drawn yellow emphasis accents -->
+  <path d="M18 9 L12 4        M110 9 L116 4        M105 70 L113 74" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Small sketchnote sparkles -->
+  <path d="M12 77 L12 68        M8 73 L16 73" stroke="#F4C542" stroke-width="2.5"/>
+
+  <path d="M112 89 L112 82        M108 85 L116 85" stroke="#32BEDD" stroke-width="2.3"/>
+</svg>
