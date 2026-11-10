@@ -1,31 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Log Analytics Workspaces (sketch)</title>
-  <g stroke="#176FAE" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Lower workspace tiles -->
-    <path d="M9 89 L39 89 L39 119 L11 119 Q8 119 8 116 Z" fill="#54AEF0"/>
-    <path d="M46 89 L76 89 L76 119 L46 119 Z" fill="#1988D9"/>
-    <path d="M9 48 L39 48 L39 79 L9 79 Z" fill="#54AEF0"/>
+  <defs>
+    <linearGradient id="workspaceBlue" x1="5.23" y1="17.45" x2="5.23" y2="8.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1988d9"/>
+      <stop offset=".9" stop-color="#54aef0"/>
+    </linearGradient>
+    <linearGradient id="workspaceCyan" x1="11.5" y1="12.45" x2="11.5" y2=".55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#198ab3"/>
+      <stop offset=".01" stop-color="#198bb4"/>
+      <stop offset=".44" stop-color="#27b2d7"/>
+      <stop offset=".79" stop-color="#2fcbed"/>
+      <stop offset="1" stop-color="#32d4f5"/>
+    </linearGradient>
+  </defs>
 
-    <!-- Hand-drawn tile details -->
-    <path d="M14 94 L34 94 M14 100 L34 100 M14 106 L29 106" fill="none" stroke="#BDE6FF" stroke-width="2.2" opacity=".8"/>
-    <path d="M52 96 L70 96 M52 103 L70 103" fill="none" stroke="#BDE6FF" stroke-width="2" opacity=".7"/>
+  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
 
-    <!-- Analytics circular workspace -->
-    <path d="M80 84              L80 48              C80 22 98 8 118 8              C143 8 157 27 157 48              C157 69 141 84 118 84 Z" transform="translate(-31 0) scale(.88 1)" fill="#32D4F5" stroke="#167EA9"/>
+    <!-- Workspace tiles -->
+    <path d="       M5.61 13.16       L9.89 13.12       L9.92 17.43       L5.58 17.46 Z       M1.13 17.44       Q.56 17.42 .56 16.85       L.54 13.15       L4.85 13.12       L4.88 17.43 Z       M.56 8.11       L4.85 8.08       L4.88 12.43       L.54 12.47 Z" fill="url(#workspaceBlue)" stroke="#086cae" stroke-width=".31"/>
 
-    <!-- Slightly irregular chart bars -->
-    <path d="M82 59 L82 77" stroke="#FFFFFF" stroke-width="7" fill="none"/>
-    <path d="M99 66 L99 77" stroke="#FFFFFF" stroke-width="7" fill="none"/>
-    <path d="M116 49 L116 77" stroke="#FFFFFF" stroke-width="7" fill="none"/>
+    <!-- Circular analytics speech-bubble shape -->
+    <path d="       M11.49 .57       C14.78 .53 17.43 3.22 17.46 6.53       C17.47 9.81 14.78 12.48 11.51 12.48       L5.57 12.51       L5.54 6.52       C5.53 3.23 8.19 .57 11.49 .57 Z" fill="url(#workspaceCyan)" stroke="#087c9d" stroke-width=".32" fill-rule="evenodd"/>
 
-    <!-- Chart baseline -->
-    <path d="M76 81 Q98 82 122 81" fill="none" stroke="#FFFFFF" stroke-width="2.2"/>
+    <!-- Three original white analytics bars -->
+    <path d="       M7.61 5.66       L8.94 5.64       L8.96 9.72       L7.58 9.74 Z" fill="#fff"/>
 
-    <!-- Yellow sketchnote accent -->
-    <path d="M124 17 Q129 12 135 16" fill="none" stroke="#FFD447" stroke-width="3.5"/>
-    <path d="M128 27 L133 23" fill="none" stroke="#FFD447" stroke-width="3"/>
+    <path d="       M10.32 7.03       L11.66 7.00       L11.68 9.72       L10.30 9.74 Z" fill="#fff"/>
 
-    <!-- Marker-style finishing details -->
-    <path d="M43 54 L47 50 M43 74 L47 78" fill="none" stroke="#176FAE" stroke-width="2.5"/>
-    <path d="M13 114 Q22 117 33 114" fill="none" stroke="#176FAE" stroke-width="1.8"/>
+    <path d="       M13.05 4.30       L14.38 4.28       L14.40 9.72       L13.02 9.74 Z" fill="#fff"/>
+
   </g>
 </svg>
