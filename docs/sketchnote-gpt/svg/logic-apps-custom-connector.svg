@@ -1,61 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Logic Apps Custom Connector (sketch)</title>
-  
-  <desc>Hand-drawn Azure Logic Apps connector with two green square nodes, a blue diamond, and a grey L-shaped connection path.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Logic Apps Custom Connector (sketch)</title>
   <defs>
-    <linearGradient id="blueDiamond" x1="14" y1="69" x2="61" y2="121" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#008BF1"/>
-      <stop offset="1" stop-color="#004DAE"/>
+    <linearGradient id="blueNode" x1="4.76" y1="9.66" x2="4.76" y2="17.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#008bf1"/>
+      <stop offset="1" stop-color="#004dae"/>
     </linearGradient>
-    <linearGradient id="greenTop" x1="17" y1="9" x2="56" y2="47" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#76BC2D"/>
-      <stop offset="1" stop-color="#5E9624"/>
+    <linearGradient id="greenTop" x1="4.83" y1="1.06" x2="4.83" y2="6.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bc2d"/>
+      <stop offset="1" stop-color="#5e9624"/>
     </linearGradient>
-    <linearGradient id="greenRight" x1="86" y1="77" x2="121" y2="113" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#76BC2D"/>
-      <stop offset="1" stop-color="#5E9624"/>
+    <linearGradient id="greenRight" x1="14.4" y1="10.64" x2="14.4" y2="15.95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bc2d"/>
+      <stop offset="1" stop-color="#5e9624"/>
     </linearGradient>
   </defs>
 
-  <!-- L-shaped connector backbone -->
-  <path d="M34 46            Q35 57 34 69            L34 94            Q35 97 39 97            L87 97" stroke="#777777" stroke-width="9"/>
+  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
 
-  <path d="M37 48            Q37 64 37 78            M46 93 Q66 94 85 93" stroke="#B0B0B0" stroke-width="2.3" opacity=".85"/>
+    <!-- Original connecting path -->
+    <polygon points="5.36 12.77 5.36 6.38 4.31 6.38 4.31 12.77 4.31 13.36 4.31 13.82 12.65 13.82 12.65 12.77 5.36 12.77" fill="#949494" stroke="#858585" stroke-width="0.10"/>
 
-  <!-- Top green connector node -->
-  <path d="M20 9            Q17 9 16 13            L16 42            Q16 46 21 46            L51 46            Q56 46 56 41            L56 13            Q55 9 51 9 Z" fill="url(#greenTop)" stroke="#426D1D" stroke-width="3.8"/>
+    <!-- Lower-left blue diamond: blank node -->
+    <path d="M4.38,9.82 L1.22,13 a.55.55 0 0 0 0,.77 L4.38,16.9 a.55.55 0 0 0 .77,0 L8.31,13.74 a.55.55 0 0 0 0-.77 L5.15,9.82 a.55.55 0 0 0-.77,0 Z" fill="url(#blueNode)" stroke="#0875cf" stroke-width="0.13"/>
 
-  <!-- Hand-drawn edge highlights -->
-  <path d="M21 15 Q35 13 49 15" stroke="#A6DA67" stroke-width="2.4"/>
-  <path d="M21 20 L21 37" stroke="#A6DA67" stroke-width="1.8" opacity=".65"/>
+    <!-- Upper-left green square: blank node -->
+    <path d="M7.49,5.84 V1.6 A.54.54 0 0 0 7,1.06 H2.71 a.54.54 0 0 0-.54.54 V5.84 a.54.54 0 0 0 .54.54 H7 a.54.54 0 0 0 .49-.54 Z" fill="url(#greenTop)" stroke="#639d27" stroke-width="0.13"/>
 
-  <!-- Small yellow marker detail -->
-  <path d="M28 29 l6 6 10 -12" stroke="#F7D25B" stroke-width="3.4"/>
+    <!-- Lower-right green square: blank node -->
+    <path d="M11.74,11.18 v4.23 a.54.54 0 0 0 .54.54 h4.24 a.54.54 0 0 0 .54-.54 v-4.23 a.54.54 0 0 0-.54-.54 h-4.24 a.54.54 0 0 0-.54.54 Z" fill="url(#greenRight)" stroke="#639d27" stroke-width="0.13"/>
 
-  <!-- Right green connector node -->
-  <path d="M89 77            Q85 77 85 82            L85 109            Q85 114 90 114            L117 114            Q122 114 122 109            L122 82            Q122 77 117 77 Z" fill="url(#greenRight)" stroke="#426D1D" stroke-width="3.8"/>
-
-  <path d="M91 83 Q103 81 116 83" stroke="#A6DA67" stroke-width="2.3"/>
-
-  <!-- Subtle connector glyph -->
-  <path d="M95 95 l5 5 10 -11" stroke="#F7D25B" stroke-width="3.2"/>
-
-  <!-- Front blue diamond -->
-  <path d="M34 69            Q37 67 40 70            L60 91            Q63 94 60 98            L40 119            Q36 123 32 119            L12 99            Q8 95 12 91 Z" fill="url(#blueDiamond)" stroke="#003C87" stroke-width="4"/>
-
-  <!-- Uneven marker highlight -->
-  <path d="M17 93 L33 76 Q35 74 38 77" stroke="#65C7FF" stroke-width="2.8" opacity=".9"/>
-
-  <!-- Diamond internal custom connector glyph -->
-  <path d="M29 91 l-6 5 6 5            M43 91 l6 5 -6 5" stroke="#FFFFFF" stroke-width="3.3"/>
-
-  <path d="M39 87 l-6 18" stroke="#F7D25B" stroke-width="3.1"/>
-
-  <!-- Hand-drawn emphasis strokes -->
-  <path d="M9 61 l-4 -5            M14 58 l-1 -7" stroke="#0078D4" stroke-width="2.5"/>
-
-  <path d="M69 109 l5 3            M71 116 l7 1" stroke="#F5C542" stroke-width="2.6"/>
-
-  <!-- Small sketch accent near destination -->
-  <path d="M111 68 l3 -6            M119 70 l5 -3" stroke="#0078D4" stroke-width="2.5"/>
+  </g>
 </svg>

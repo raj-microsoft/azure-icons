@@ -1,57 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Route Filters (sketch)</title>
-
   <defs>
-    <linearGradient id="filterGreen" x1="24" y1="108" x2="80" y2="12" gradientUnits="userSpaceOnUse">
+    <linearGradient id="filterGreen" x1="5.82" y1="14.64" x2="5.82" y2="25.68" gradientTransform="translate(0 -11.41) scale(1 1.01)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#5e9624"/>
-      <stop offset="0.35" stop-color="#6cab29"/>
-      <stop offset="0.68" stop-color="#73b82c"/>
+      <stop offset=".01" stop-color="#5f9724"/>
+      <stop offset=".35" stop-color="#6cab29"/>
+      <stop offset=".68" stop-color="#73b82c"/>
       <stop offset="1" stop-color="#76bc2d"/>
     </linearGradient>
   </defs>
 
-  <g stroke-linecap="round" stroke-linejoin="round">
+  <g transform="scale(7.111111)">
+    <!-- Original straight branching and directional arrows -->
+    <path d="M18,9.16l-2.12,2.12a.1.1,0,0,1-.18-.08V10a.11.11,0,0,0-.11-.1H12.09L14.27,12a.09.09,0,0,0,.12,0l0,0,.61-.62a.08.08,0,0,1,.14.06v2.19a.12.12,0,0,1-.12.12H12.87a.08.08,0,0,1-.06-.14l.62-.61,0,0a.09.09,0,0,0,0-.12L11.64,11V7.17l1.83-1.82a.08.08,0,0,0,0-.11l0,0-.62-.61a.08.08,0,0,1,.06-.14h2.19a.13.13,0,0,1,.12.13V6.75a.08.08,0,0,1-.14.06l-.61-.61,0,0a.09.09,0,0,0-.12,0L12.12,8.31h3.43a.11.11,0,0,0,.11-.11V7a.1.1,0,0,1,.18-.08L18,9A.1.1,0,0,1,18,9.16Z" fill="#0078d4"/>
 
-    <!-- Main filter panel -->
-    <rect x="7" y="12" width="76" height="102" rx="7" fill="url(#filterGreen)" stroke="#477b27" stroke-width="4"/>
+    <!-- Green filter panel -->
+    <rect y="3.41" width="11.64" height="11.18" rx=".58" fill="url(#filterGreen)"/>
 
-    <!-- Subtle panel highlight -->
-    <path d="M14 23 Q14 18 20 18 L70 18" fill="none" stroke="#b4ec36" stroke-width="3" opacity="0.8"/>
-
-    <!-- Filter item: upper left -->
-    <rect x="22" y="29" width="21" height="21" rx="3" fill="#ffffff" stroke="#e7f7dc" stroke-width="2"/>
-
-    <!-- Filter item: center right -->
-    <rect x="49" y="55" width="21" height="21" rx="3" fill="#ffffff" stroke="#e7f7dc" stroke-width="2"/>
-
-    <!-- Filter item: lower left -->
-    <rect x="22" y="82" width="21" height="21" rx="3" fill="#ffffff" stroke="#e7f7dc" stroke-width="2"/>
-
-    <!-- Small filter selection marks -->
-    <path d="M27 39 L31 43 L38 35          M54 65 L58 69 L65 61          M27 92 L31 96 L38 88" fill="none" stroke="#76bc2d" stroke-width="2.5"/>
-
-    <!-- Route direction: upper horizontal segment -->
-    <path d="M76 39          L101 39          C105 39 107 42 107 46          L107 53" fill="none" stroke="#0078d4" stroke-width="7"/>
-
-    <!-- Route direction: central vertical segment -->
-    <path d="M107 76 L107 87" fill="none" stroke="#0078d4" stroke-width="7"/>
-
-    <!-- Route arrow, forward -->
-    <path d="M95 49 L107 61 L119 49" fill="none" stroke="#0078d4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <!-- Route arrow, reverse -->
-    <path d="M119 79 L107 91 L95 79" fill="none" stroke="#0078d4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <!-- Right-side routing connectors -->
-    <path d="M107 18 L107 28          M96 28 L107 18 L118 28" fill="none" stroke="#0078d4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <!-- Yellow route emphasis -->
-    <path d="M92 12 L98 7          M119 99 L124 104          M88 112 L94 117" fill="none" stroke="#ffca00" stroke-width="3" stroke-linecap="round"/>
-
-    <!-- Hand-drawn panel accents -->
-    <path d="M13 107 L13 99          M77 22 L77 31          M16 53 L16 67" fill="none" stroke="#b4ec36" stroke-width="2" opacity="0.8"/>
-
-    <!-- Sketchnote marker details -->
-    <path d="M84 44 L91 44          M113 64 L119 64          M88 91 L94 91" fill="none" stroke="#50e6ff" stroke-width="2.5"/>
-
+    <!-- Three original blank checkbox squares: no ticks -->
+    <g fill="#fff">
+      <rect x="2.27" y="4.78" width="2.73" height="2.61" rx=".29"/>
+      <rect x="6.92" y="7.77" width="2.73" height="2.61" rx=".29"/>
+      <rect x="2.27" y="10.61" width="2.73" height="2.61" rx=".29"/>
+    </g>
   </g>
 </svg>

@@ -1,79 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none"><title>Modular Data Center (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Modular Data Center (sketch)</title>
   <defs>
-    <linearGradient id="dcMain" x1="83" y1="8" x2="83" y2="111" gradientUnits="userSpaceOnUse">
+    <linearGradient id="building" x1="12.764" y1="-0.269" x2="12.764" y2="16.422" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset=".2" stop-color="#328de2"/>
       <stop offset=".4" stop-color="#0078d4"/>
       <stop offset=".7" stop-color="#006abb"/>
       <stop offset="1" stop-color="#005ba1"/>
     </linearGradient>
-    <linearGradient id="dcFront" x1="48" y1="74" x2="48" y2="119" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#9cebff"/>
+    <linearGradient id="gateway" x1="9.367" y1="20.932" x2="9.367" y2="9.35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#198ab3"/>
       <stop offset=".4" stop-color="#29b8dc"/>
-      <stop offset="1" stop-color="#198ab3"/>
+      <stop offset=".7" stop-color="#38d5f6"/>
+      <stop offset="1" stop-color="#9cebff"/>
     </linearGradient>
   </defs>
 
-  <g stroke-linecap="round" stroke-linejoin="round">
-    <!-- Rear modular data-centre cabinet -->
-    <path d="M58 9.5h52c3 0 5 2 5 5v82c0 3-2 5-5 5H58c-3 0-5-2-5-5v-82c0-3 2-5 5-5Z" fill="url(#dcMain)" stroke="#005ba1" stroke-width="3"/>
-    <path d="M59 14h50v82H59Z" stroke="#8bcaff" stroke-width="1.4" opacity=".65"/>
+  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Original building silhouette -->
+    <path d="M17.407.055H8.132a.6.6 0 0 0-.6.593V13.917h.179a1.75 1.75 0 0 1 1.574-1.059h.013a1.74 1.74 0 1 1-.789 3.3 1.723 1.723 0 0 1-.773-.746h-.2v.737a.6.6 0 0 0 .6.593h9.275a.592.592 0 0 0 .593-.593V.648a.592.592 0 0 0-.597-.593Z" fill="url(#building)" stroke="#005ba1" stroke-width=".055"/>
 
-    <!-- Server rack ventilation / modules -->
-    <g fill="#f2f2f2" opacity=".4">
-      <rect x="66" y="24" width="36" height="12" rx="2"/>
-      <rect x="66" y="45" width="36" height="12" rx="2"/>
-      <rect x="66" y="66" width="36" height="12" rx="2"/>
-      <rect x="66" y="87" width="36" height="5" rx="1.5"/>
-    </g>
-    <g stroke="#ffffff" stroke-width="1.8" opacity=".8">
-      <path d="M72 30h19M72 51h19M72 72h19"/>
-      <path d="M95 29h2M95 50h2M95 71h2"/>
-    </g>
+    <!-- Nine original rectangular building windows -->
+    <path d="M8.915 1.908H10.62a.148.148 0 0 1 .148.148v2.2a.148.148 0 0 1-.148.148h-1.7a.148.148 0 0 1-.148-.148v-2.2a.148.148 0 0 1 .148-.148Zm3 0h1.705a.148.148 0 0 1 .148.148v2.2a.148.148 0 0 1-.148.148h-1.7a.148.148 0 0 1-.148-.148v-2.2a.148.148 0 0 1 .148-.148Zm3.007 0h1.7a.148.148 0 0 1 .148.148v2.2a.148.148 0 0 1-.148.148h-1.7a.148.148 0 0 1-.148-.148v-2.2a.148.148 0 0 1 .148-.148Zm-6 3.981H10.62a.148.148 0 0 1 .148.148V8.26a.149.149 0 0 1-.148.149h-1.7a.149.149 0 0 1-.148-.149v-2.2a.149.149 0 0 1 .126-.168Zm3 0h1.705a.148.148 0 0 1 .148.148V8.26a.149.149 0 0 1-.148.149h-1.7a.149.149 0 0 1-.148-.149v-2.2a.148.148 0 0 1 .125-.168Zm3.007 0h1.7a.148.148 0 0 1 .148.148V8.26a.149.149 0 0 1-.148.149h-1.7a.149.149 0 0 1-.148-.149v-2.2A.148.148 0 0 1 14.9 5.89Zm-6 3.469H10.62a.148.148 0 0 1 .148.148v2.224a.148.148 0 0 1-.148.148h-1.7a.148.148 0 0 1-.148-.148v-2.2a.148.148 0 0 1 .126-.167Zm3 0h1.705a.148.148 0 0 1 .148.148v2.224a.148.148 0 0 1-.148.148h-1.7a.148.148 0 0 1-.148-.148v-2.2a.146.146 0 0 1 .125-.167Zm3.007 0h1.7a.148.148 0 0 1 .148.148v2.224a.148.148 0 0 1-.148.148h-1.7a.148.148 0 0 1-.148-.148v-2.2A.146.146 0 0 1 14.9 9.36Z" fill="#f2f2f2" opacity=".4"/>
 
-    <!-- Front modular container -->
-    <path d="M21 72h63c3 0 5 2 5 5v38c0 3-2 5-5 5H21c-3 0-5-2-5-5V77c0-3 2-5 5-5Z" fill="url(#dcFront)" stroke="#00658e" stroke-width="3"/>
-    <path d="M21 76h63" stroke="#d4faff" stroke-width="2"/>
-    <path d="M21 72h63c3 0 5 2 5 5v38c0 3-2 5-5 5H21c-3 0-5-2-5-5V77c0-3 2-5 5-5Z" stroke="#0078d4" stroke-width="1.3"/>
+    <!-- Original foreground gateway, not a server rack -->
+    <path d="M15.181 11H3.553a.587.587 0 0 0-.588.587v2.327h4.742a1.75 1.75 0 0 1 1.574-1.059h.013a1.74 1.74 0 1 1-.789 3.3 1.723 1.723 0 0 1-.773-.746H2.965v1.943a.587.587 0 0 0 .588.587h11.628a.588.588 0 0 0 .588-.587V11.59a.588.588 0 0 0-.588-.59Z" fill="url(#gateway)" stroke="#198ab3" stroke-width=".055"/>
 
-    <!-- Front module bays -->
-    <rect x="27" y="82" width="12" height="29" rx="1.8" fill="#ffffff" opacity=".82"/>
-    <rect x="45" y="82" width="12" height="29" rx="1.8" fill="#ffffff" opacity=".82"/>
-    <rect x="63" y="82" width="12" height="29" rx="1.8" fill="#ffffff" opacity=".82"/>
+    <!-- Gateway's original white vertical details -->
+    <rect x="12.07" y="11.892" width="1.866" height="5.166" rx=".238" fill="#fff" opacity=".8"/>
 
-    <!-- Cabinet bay details -->
-    <g stroke="#0078d4" stroke-width="1.5">
-      <path d="M30 88h6M30 94h6M30 100h6"/>
-      <path d="M48 88h6M48 94h6M48 100h6"/>
-      <path d="M66 88h6M66 94h6M66 100h6"/>
-    </g>
-    <g fill="#32bedd">
-      <circle cx="33" cy="106" r="1.4"/>
-      <circle cx="51" cy="106" r="1.4"/>
-      <circle cx="69" cy="106" r="1.4"/>
-    </g>
+    <path d="M6.6 13.917V12.13a.238.238 0 0 0-.238-.238H4.973a.237.237 0 0 0-.238.238v1.787Z" fill="#fff" opacity=".8"/>
 
-    <!-- Cloud outline: modular cloud infrastructure -->
-    <path d="M17 69c-5-1-8-5-8-10 0-6 4-10 10-11 2-8 9-13 17-13 8 0 15 5 17 13" stroke="#32bedd" stroke-width="5" fill="none"/>
-    <path d="M17 69c-5-1-8-5-8-10 0-6 4-10 10-11 2-8 9-13 17-13 8 0 15 5 17 13" stroke="#0078d4" stroke-width="1.8" fill="none"/>
-    <path d="M25 41c3-3 7-4 11-4" stroke="#b8f4ff" stroke-width="1.7"/>
+    <path d="M4.735 15.415V16.82a.237.237 0 0 0 .238.237h1.39A.238.238 0 0 0 6.6 16.82v-1.405Z" fill="#fff" opacity=".8"/>
 
-    <!-- Connection between modules -->
-    <path d="M89 90h10" stroke="#005ba1" stroke-width="2.5"/>
-    <path d="m95 85 5 5-5 5" stroke="#50e6ff" stroke-width="2.2" fill="none"/>
+    <path d="M9.281 12.858h.013a1.742 1.742 0 0 1 .975.323V12.13a.238.238 0 0 0-.238-.238H8.64a.238.238 0 0 0-.238.238v.995a1.745 1.745 0 0 1 .879-.267Z" fill="#fff" opacity=".8"/>
 
-    <!-- Base and structure -->
-    <path d="M12 120h105" stroke="#005ba1" stroke-width="3"/>
-    <path d="M20 123h91" stroke="#32bedd" stroke-width="1.5"/>
-    <path d="M27 117v3M80 117v3M107 99v21" stroke="#005ba1" stroke-width="2"/>
+    <path d="M9.833 16.242a1.736 1.736 0 0 1-1.328-.081c-.039-.019-.066-.034-.1-.055v.714a.238.238 0 0 0 .238.237h1.391a.238.238 0 0 0 .238-.237v-.811a1.753 1.753 0 0 1-.439.233Z" fill="#fff" opacity=".8"/>
 
-    <!-- Yellow sketchnote accents -->
-    <path d="m108 12 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z" fill="#ffd84d" stroke="#d49b20" stroke-width="1.2"/>
-    <path d="M94 106h6" stroke="#ffca3a" stroke-width="2.5"/>
-    <path d="M12 85l3-2M12 92l3-2" stroke="#ffd84d" stroke-width="2"/>
-
-    <!-- Hand-drawn marker details -->
-    <path d="M61 17h43" stroke="#b5e4ff" stroke-width="1.2" opacity=".65"/>
-    <path d="M116 42v30" stroke="#50e6ff" stroke-width="1.4" opacity=".7"/>
-    <path d="M18 114c2 2 4 2.5 7 2.5" stroke="#ffffff" stroke-width="1.3" opacity=".7"/>
+    <!-- Original cyan cloud connector and circular terminal -->
+    <path d="M10.571 14.211a1.352 1.352 0 0 0-2.616.095H3.182a2.318 2.318 0 0 1-.5-.063 2.4 2.4 0 0 1 .265-4.752h.233l.074-.212a2.716 2.716 0 0 1 2.61-1.814 2.792 2.792 0 0 1 1.656.527v-.876a3.5 3.5 0 0 0-1.624-.4A3.478 3.478 0 0 0 2.62 8.78a3.12 3.12 0 0 0-.244 6.11 2.129 2.129 0 0 0 .774.127h4.805a1.369 1.369 0 0 0 2.616-.806Z" fill="#32bedd"/>
   </g>
 </svg>

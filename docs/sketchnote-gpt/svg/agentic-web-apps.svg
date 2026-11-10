@@ -1,53 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Agentic Web Apps (sketch)</title>
-
-  
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Agentic Web Apps (sketch)</title>
   <defs>
-    <linearGradient id="agentBlue" x1="15" y1="10" x2="80" y2="92" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#4894FE"/>
-      <stop offset=".55" stop-color="#3F87F8"/>
-      <stop offset="1" stop-color="#2764E7"/>
+    <linearGradient id="chatBlue" x1="6.26" y1="13.7" x2="6.26" y2="1.18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2764e7"/>
+      <stop offset=".19" stop-color="#3478f0"/>
+      <stop offset=".4" stop-color="#3f87f8"/>
+      <stop offset=".65" stop-color="#4591fc"/>
+      <stop offset="1" stop-color="#4894fe"/>
     </linearGradient>
 
-    <linearGradient id="webGreen" x1="87" y1="34" x2="94" y2="116" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#4AA647"/>
-      <stop offset=".55" stop-color="#318B35"/>
-      <stop offset="1" stop-color="#197123"/>
+    <linearGradient id="globeGreen" x1="12.32" y1="16.75" x2="12.32" y2="4.07" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#197123"/>
+      <stop offset=".24" stop-color="#318b35"/>
+      <stop offset=".51" stop-color="#4aa647"/>
+    </linearGradient>
+
+    <linearGradient id="dots" x1="0" y1="7.9" x2="0" y2="6.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfcfcf"/>
+      <stop offset=".33" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
     </linearGradient>
   </defs>
 
-  <!-- Hand-drawn agent conversation bubble -->
-  <path d="M46 12            C26 12 10 27 9 47            C8 57 11 65 15 72            L10 91            Q9 95 14 94            L34 90            C42 94 52 95 61 92            C82 87 92 70 91 51            C90 30 72 13 51 12            Q48 11 46 12Z" fill="url(#agentBlue)" stroke="#174F85" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
 
-  <!-- Loose marker highlight -->
-  <path d="M22 37            C27 26 39 20 52 20            M17 49            Q16 57 21 65" stroke="#B9DCFF" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+    <!-- Original blue chat bubble silhouette -->
+    <path d="M6.26,1.18C2.8,1.18,0,3.99,0,7.44          c0,.95.21,1.84.59,2.65          -.25,1.02-.47,2.11-.57,2.62          -.11.58.39,1.08.96.98          .52-.09,1.65-.3,2.7-.54          .79.36,1.66.55,2.58.55          3.46,0,6.26-2.8,6.26-6.26          S9.72,1.18,6.26,1.18Z" fill="url(#chatBlue)" stroke="#2764e7" stroke-width=".075"/>
 
-  <!-- Three conversation dots -->
-  <path d="M27 49            C27 45 30 42 34 42            C38 42 41 45 41 49            C41 53 38 56 34 56            C30 56 27 53 27 49Z" fill="#F2F2F2" stroke="#174F85" stroke-width="2.2"/>
+    <!-- Original open-background globe:
+         exact filled lattice geometry, no solid circle -->
+    <path d="M12.38,4.13          c.41.75.68,1.58.78,2.46          .2.47.37,1.02.49,1.63          h-.48          c-.04.33-.09.64-.17.95          h.8          c.04.41.07.83.07,1.27          0,.67-.06,1.32-.15,1.91          h-2.54          c-.36.36-.76.68-1.19.95          h3.53          c-.42,1.54-1.14,2.55-1.87,2.55          s-1.42-.96-1.84-2.44          c-.28.17-.57.31-.87.44          .19.62.43,1.17.72,1.62          -.72-.28-1.35-.72-1.88-1.26          -.37.08-.75.14-1.13.16          1.17,1.48,2.97,2.43,5,2.43          3.51,0,6.36-2.85,6.36-6.36          0-3.26-2.46-5.95-5.62-6.32Z           M13.69,5.53          l-.07-.11.18.08          c1.22.54,2.21,1.51,2.76,2.73          h-1.94          c-.19-1.06-.51-1.99-.94-2.7Z           M16.11,13.5          c-.61.89-1.47,1.59-2.49,1.99          .37-.58.67-1.32.87-2.17          h1.73          l-.12.18Z           M14.68,12.36          c.09-.6.14-1.25.14-1.91          0-.43-.02-.86-.06-1.27          h2.14          c.1.41.15.84.15,1.27          0,.67-.12,1.32-.35,1.91          h-2.02Z" fill="url(#globeGreen)" fill-rule="nonzero" stroke="#318b35" stroke-width=".045"/>
 
-  <path d="M46 49            C46 45 49 42 53 42            C57 42 60 45 60 49            C60 53 57 56 53 56            C49 56 46 53 46 49Z" fill="#F2F2F2" stroke="#174F85" stroke-width="2.2"/>
+    <!-- Three original light-grey conversation dots -->
+    <path d="M6.26,6.23          c.46,0,.83.37.83.83          s-.37.83-.83.83          -.83-.37-.83-.83          .37-.83.83-.83Z" fill="url(#dots)"/>
 
-  <path d="M65 49            C65 45 68 42 72 42            C76 42 79 45 79 49            C79 53 76 56 72 56            C68 56 65 53 65 49Z" fill="#F2F2F2" stroke="#174F85" stroke-width="2.2"/>
+    <path d="M3.74,6.23          c.46,0,.83.37.83.83          s-.37.83-.83.83          -.83-.37-.83-.83          .37-.83.83-.83Z" fill="url(#dots)"/>
 
-  <!-- Overlapping web globe -->
-  <path d="M90 37            C109 37 122 53 122 73            C122 94 108 112 89 115            C70 117 54 103 51 84            C48 65 59 45 77 39            Q84 36 90 37Z" fill="url(#webGreen)" stroke="#185C2C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8.76,6.23          c.46,0,.83.37.83.83          s-.37.83-.83.83          -.83-.37-.83-.83          .37-.83.83-.83Z" fill="url(#dots)"/>
 
-  <!-- Globe longitude curves -->
-  <path d="M89 44            C77 50 72 62 72 76            C72 91 78 103 89 110            M92 44            C104 52 108 63 108 76            C108 90 103 103 92 110" stroke="#D8F4D5" stroke-width="2.8" stroke-linecap="round" fill="none"/>
-
-  <!-- Equator and latitude lines -->
-  <path d="M57 76            Q89 81 117 76            M64 57            Q90 64 114 57            M64 96            Q89 90 114 96" stroke="#D8F4D5" stroke-width="2.8" stroke-linecap="round" fill="none"/>
-
-  <!-- Globe meridian -->
-  <path d="M90 43            Q88 76 90 110" stroke="#F0FFF0" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
-
-  <!-- Small sketchnote spark -->
-  <path d="M112 25            L112 34            M108 29            L116 29" stroke="#FFD34E" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Yellow hand-drawn emphasis strokes -->
-  <path d="M20 102            Q29 106 38 104            M40 110            L46 109" stroke="#FFD34E" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Agent-to-web connection accent -->
-  <path d="M55 96            Q58 105 65 109" stroke="#FFD34E" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 6"/>
-
+  </g>
 </svg>

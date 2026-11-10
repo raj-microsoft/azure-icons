@@ -1,63 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>FHIR Service (sketch)</title>
-  
-  <desc>Hand-drawn Azure FHIR Service icon with a blue service panel, grey mounting bracket, and orange heart motif with white clinical connection details.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>FHIR Service (sketch)</title>
   <defs>
-    <linearGradient id="panelBlue" x1="64" y1="34" x2="64" y2="118" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="0.18" stop-color="#559CEC"/>
-      <stop offset="0.5" stop-color="#3C91E5"/>
-      <stop offset="0.84" stop-color="#1380DA"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="panel" x1="9" y1="17" x2="9" y2="4.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".156" stop-color="#1380da"/>
+      <stop offset=".528" stop-color="#3c91e5"/>
+      <stop offset=".822" stop-color="#559cec"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
     </linearGradient>
-    <linearGradient id="heartOrange" x1="64" y1="49" x2="64" y2="94" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FAA21D"/>
-      <stop offset="1" stop-color="#EF7100"/>
+    <linearGradient id="heart" x1="9" y1="15" x2="9" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef7100"/>
+      <stop offset="1" stop-color="#faa21d"/>
     </linearGradient>
   </defs>
 
-  <!-- Top bracket / hanger -->
-  <path d="M36 29            L36 15            Q36 10 42 10            L86 10            Q92 10 92 15            L92 29            L84 29            L84 18            L44 18            L44 29Z" fill="#A3A3A3" stroke="#6F6F6F" stroke-width="3.4"/>
+  <g transform="scale(7.111111)">
+    <!-- Grey handle -->
+    <path d="M13.378,4.4h-.9V2.035a.122.122,0,0,0-.027,0H5.659a.122.122,0,0,0-.027,0V4.4h-.9V1.99a.9.9,0,0,1,.927-.858h6.792a.9.9,0,0,1,.927.858Z" fill="#a3a3a3"/>
 
-  <!-- Loose sketchnote bracket accents -->
-  <path d="M41 18 Q63 16 86 18            M40 23 L40 28            M88 22 L88 28" stroke="#D4D4D4" stroke-width="2.2" opacity=".85"/>
+    <!-- Blue case -->
+    <rect y="4.298" width="18" height="12.57" rx="0.6" fill="url(#panel)"/>
 
-  <!-- Main blue service panel -->
-  <path d="M10 33            Q10 27 16 27            L112 27            Q118 27 118 33            L118 112            Q118 118 112 118            L16 118            Q10 118 10 112Z" fill="url(#panelBlue)" stroke="#155F98" stroke-width="3.8"/>
+    <!-- Exact original rounded heart silhouette -->
+    <path d="M11.359,6.235a2.307,2.307,0,0,0-2.366,1.55A2.317,2.317,0,0,0,6.612,6.251c-2.138.175-2.244,2.291-2.206,3.1.018.578.137,2.4,4.565,5.56l.038.027.038-.027c4.428-3.187,4.536-5.044,4.55-5.645C13.624,8.479,13.5,6.4,11.359,6.235Z" fill="url(#heart)"/>
 
-  <!-- Panel inner marker highlights -->
-  <path d="M18 39            L18 107            Q18 111 22 111            L103 111" stroke="#BFE3FF" stroke-width="2.6" opacity=".75"/>
+    <!-- White stethoscope tubing -->
+    <path d="M13.483,8.07a3.447,3.447,0,0,1-.323,1.883,5.379,5.379,0,0,1-3.167,2.412.728.728,0,0,0-.529-.264.742.742,0,1,0,.691.8A7.412,7.412,0,0,0,13,11.075a3.326,3.326,0,0,0,.592-1.8A4.141,4.141,0,0,0,13.483,8.07Z" fill="#fff" opacity=".9"/>
 
-  <path d="M28 36 Q62 34 97 36" stroke="#D8EEFF" stroke-width="2.2" opacity=".8"/>
-
-  <!-- Center heart motif -->
-  <path d="M64 91            C64 91 31 69 31 49            C31 39 38 31 49 31            C57 31 63 36 64 44            C66 36 72 31 80 31            C91 31 98 39 98 49            C98 69 64 91 64 91Z" fill="url(#heartOrange)" stroke="#AF5600" stroke-width="3.5"/>
-
-  <!-- Heart highlight -->
-  <path d="M40 46            C42 39 47 36 53 37            C58 38 61 41 62 45" stroke="#FFD08A" stroke-width="2.5" opacity=".9"/>
-
-  <!-- White clinical/FHIR link overlay - right arc and node -->
-  <path d="M94 47            C96 53 95 60 90 67            C84 75 75 80 65 83" stroke="#FFFFFF" stroke-width="3.2" opacity=".92"/>
-
-  <circle cx="65" cy="83" r="4.8" fill="#FFFFFF" opacity=".95"/>
-  <circle cx="65" cy="83" r="2.2" fill="#8CC8F5" opacity=".9"/>
-
-  <!-- White clinical/FHIR link overlay - left braided path -->
-  <path d="M51 79            C43 70 37 61 35 54            C33 46 35 40 40 37            C47 33 56 38 66 48" stroke="#FFFFFF" stroke-width="3.2" opacity=".92"/>
-
-  <!-- Small connector capsules -->
-  <path d="M49 76            L43 81            M66 48            L71 43" stroke="#FFFFFF" stroke-width="3.2" opacity=".92"/>
-
-  <!-- Little detached pill-like connector marks -->
-  <path d="M40 82            Q38 80 40 78            L45 73            Q47 71 49 73            Q51 75 49 77            L44 82            Q42 84 40 82Z" fill="#FFFFFF" opacity=".95"/>
-
-  <path d="M69 46            Q67 44 69 42            L74 37            Q76 35 78 37            Q80 39 78 41            L73 46            Q71 48 69 46Z" fill="#FFFFFF" opacity=".95"/>
-
-  <!-- Tiny sketchnote details -->
-  <path d="M23 46 L27 42            M23 55 L29 52            M101 43 L106 39            M103 52 L109 50" stroke="#0078D4" stroke-width="2.3"/>
-
-  <path d="M48 99 L52 94            M59 96 L64 93            M79 96 L83 101" stroke="#FFBD02" stroke-width="2.3" opacity=".95"/>
-
-  <!-- Hand-drawn panel wobble accents -->
-  <path d="M13 66 L13 79            M115 70 L115 83            M35 115 L48 115" stroke="#0E5B95" stroke-width="1.8" opacity=".6"/>
+    <!-- White inner stethoscope curve and earpiece -->
+    <path d="M7.107,12.472l.188.216a.286.286,0,0,0,.4.023l.428-.382a.287.287,0,0,0,.023-.4.281.281,0,0,0-.393-.063.3.3,0,0,0-.027.023l-.223.2C6.1,10.543,5.7,9.355,6.346,8.785S8.121,8.751,9.513,10.3l-.223.2a.282.282,0,0,0-.025.4h0a.276.276,0,0,0,.388.033h0l.012-.009.422-.377a.287.287,0,0,0,.023-.4L9.921,9.94c-.943-1.062-2.576-2.375-3.7-1.717a1.756,1.756,0,0,1-.477-1.112,1.242,1.242,0,0,1,.2-.726,1.911,1.911,0,0,0-.738.437A1.917,1.917,0,0,0,5.814,8.6C5.051,9.644,6.164,11.41,7.107,12.472Z" fill="#fff" opacity=".9"/>
+  </g>
 </svg>
