@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Power BI Embedded (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="bar1" x1="90" y1="12" x2="90" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E6AD10"/>
+      <stop offset="1" stop-color="#C87E0E"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="62" y1="40" x2="62" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F6D751"/>
+      <stop offset="1" stop-color="#E6AD10"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="34" y1="67" x2="34" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F9E589"/>
+      <stop offset="1" stop-color="#F6D751"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Tallest Power BI column -->
+    <path d="M69 14 Q69 10 74 10 L104 10 Q109 10 109 15       L109 113 Q109 117 105 117 L69 117 Z" fill="url(#bar1)" stroke="#A96B0A" stroke-width="3.5"/>
+
+    <!-- Middle column -->
+    <path d="M42 43 Q42 39 47 39 L73 39       Q77 39 77 44 L77 114 Q77 117 73 117       L42 117 Z" fill="url(#bar2)" stroke="#D19B16" stroke-width="3.2"/>
+
+    <!-- Shortest column -->
+    <path d="M15 71 Q15 67 19 67 L45 67       Q49 67 49 72 L49 113 Q49 117 45 117       L19 117 Q15 117 15 113 Z" fill="url(#bar3)" stroke="#D8AE35" stroke-width="3.2"/>
+
+    <!-- Marker-style highlights -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M77 17 Q89 15 101 17" stroke="#FFEBA1" stroke-width="3"/>
+      <path d="M49 46 Q59 44 69 46" stroke="#FFF1B9" stroke-width="2.8"/>
+      <path d="M22 74 Q31 72 40 74" stroke="#FFF5CD" stroke-width="2.5"/>
+    </g>
+
+    <!-- Hand-drawn column details -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="1.8" opacity=".55">
+      <path d="M83 30 L83 100"/>
+      <path d="M56 57 L56 104"/>
+      <path d="M29 84 L29 104"/>
+    </g>
+
+    <!-- Shared baseline -->
+    <path d="M12 120 Q59 123 116 119" fill="none" stroke="#A96B0A" stroke-width="3.5"/>
+    <path d="M17 124 Q63 126 111 123" fill="none" stroke="#E6AD10" stroke-width="1.8"/>
+
+    <!-- Analytics trend accent -->
+    <path d="M20 56 L43 44 L65 28 L91 19" fill="none" stroke="#0078D4" stroke-width="3" stroke-dasharray="4 5"/>
+
+    <path d="M83 17 L92 18 L89 27" fill="none" stroke="#0078D4" stroke-width="3"/>
+
+    <!-- Data points -->
+    <circle cx="20" cy="56" r="4" fill="#0078D4" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="43" cy="44" r="4" fill="#0078D4" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="65" cy="28" r="4" fill="#0078D4" stroke="#FFFFFF" stroke-width="1.5"/>
+
+    <!-- Sketchnote emphasis marks -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M7 45 L11 40 M7 45 L13 47" stroke="#0078D4" stroke-width="2.5"/>
+      <path d="M112 37 L119 33 M114 43 L121 42" stroke="#E6AD10" stroke-width="2.5"/>
+      <path d="M55 8 L59 4 M63 8 L66 4" stroke="#E6AD10" stroke-width="2.5"/>
+    </g>
+
+  </g>
+</svg>

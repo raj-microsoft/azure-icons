@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Logic Apps Template (sketch)</title>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Template page and outer outline -->
+    <path d="M17 22 Q17 18 22 18 L91 18 Q96 18 96 24              L96 31 L105 31 Q111 31 111 37              L111 105 Q111 111 105 111              L23 111 Q17 111 17 105 Z" fill="#32D4F5" stroke="#087FAE" stroke-width="4"/>
+
+    <!-- Page corner / template tabs -->
+    <path d="M96 19 L96 31 L108 31" fill="none" stroke="#087FAE" stroke-width="3.5"/>
+    <path d="M24 27 L88 27" stroke="#9CEBFF" stroke-width="2.5" fill="none"/>
+
+    <!-- Workflow connector -->
+    <path d="M64 49 L64 62              M42 62 L86 62              M42 62 L42 72              M86 62 L86 72" fill="none" stroke="#0078D4" stroke-width="4"/>
+
+    <!-- Top workflow node -->
+    <rect x="51" y="38" width="26" height="24" rx="5" fill="#9CEBFF" stroke="#0078D4" stroke-width="3.5"/>
+    <path d="M57 44 L70 44 M57 50 L67 50" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+
+    <!-- Left and right workflow nodes -->
+    <rect x="27" y="72" width="30" height="29" rx="5" fill="#A7E637" stroke="#68A91F" stroke-width="3.5"/>
+    <rect x="71" y="72" width="30" height="29" rx="5" fill="#A7E637" stroke="#68A91F" stroke-width="3.5"/>
+
+    <!-- Node details -->
+    <path d="M34 81 L50 81 M34 88 L47 88 M78 81 L94 81 M78 88 L91 88" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+
+    <!-- Yellow sketchnote accents -->
+    <path d="M11 44 L15 40 M11 52 L15 50" stroke="#FFD447" stroke-width="3.5" fill="none"/>
+    <path d="M108 17 L113 13 M114 22 L119 20" stroke="#FFD447" stroke-width="3.5" fill="none"/>
+
+    <!-- Hand-drawn finishing marks -->
+    <path d="M25 116 Q49 119 72 116" stroke="#087FAE" stroke-width="2" fill="none"/>
+    <path d="M104 42 L104 48" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+  </g>
+</svg>

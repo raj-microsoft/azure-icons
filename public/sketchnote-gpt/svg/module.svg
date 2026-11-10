@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Module (sketch)</title>
+  <defs>
+    <linearGradient id="moduleBlue" x1="64" y1="8" x2="64" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main module tile -->
+  <path d="M17 13     Q17 10 21 10     L106 10     Q115 10 115 19     L115 106     Q115 115 106 115     L21 115     Q13 115 13 107     L13 19     Q13 13 17 13Z" fill="url(#moduleBlue)" stroke="#005A9E" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Subtle hand-drawn outer highlights -->
+  <path d="M23 17 L104 17 Q109 17 109 23" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+  <path d="M19 28 L19 97" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+
+  <!-- Top row: three module components -->
+  <g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round">
+    <rect x="23" y="25" width="25" height="24" rx="2.5"/>
+    <rect x="53" y="25" width="25" height="24" rx="2.5"/>
+    <rect x="83" y="25" width="25" height="24" rx="2.5"/>
+  </g>
+
+  <!-- Component details -->
+  <g stroke="#5EA0EF" stroke-width="2" stroke-linecap="round">
+    <path d="M29 32 L42 32 M29 39 L39 39"/>
+    <path d="M59 32 L72 32 M59 39 L69 39"/>
+    <path d="M89 32 L102 32 M89 39 L99 39"/>
+  </g>
+
+  <!-- Middle row: unequal module blocks -->
+  <rect x="23" y="57" width="52" height="23" rx="2.5" fill="#D2EBFF" opacity=".65" stroke="#FFFFFF" stroke-width="1.5"/>
+  <rect x="83" y="57" width="25" height="23" rx="2.5" fill="#FFFFFF" opacity=".95" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round">
+    <path d="M30 65 L67 65 M30 72 L58 72"/>
+    <path d="M89 65 L102 65 M89 72 L98 72"/>
+  </g>
+
+  <!-- Bottom row: full-width module -->
+  <rect x="23" y="88" width="85" height="17" rx="2.5" fill="#FFFFFF" opacity=".82" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <g stroke="#5EA0EF" stroke-width="2" stroke-linecap="round">
+    <path d="M30 95 L100 95"/>
+    <path d="M30 100 L82 100"/>
+  </g>
+
+  <!-- Yellow modular connection accents -->
+  <g fill="#FFCA28" stroke="#D99A00" stroke-width="1.2">
+    <circle cx="50" cy="53" r="3"/>
+    <circle cx="80" cy="53" r="3"/>
+    <circle cx="50" cy="84" r="3"/>
+    <circle cx="80" cy="84" r="3"/>
+  </g>
+
+  <!-- Hand-drawn connector lines -->
+  <g stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".8">
+    <path d="M50 49 L50 53"/>
+    <path d="M80 49 L80 53"/>
+    <path d="M50 80 L50 84"/>
+    <path d="M80 80 L80 84"/>
+  </g>
+
+  <!-- Sketchnote emphasis marks -->
+  <g stroke="#FFCA28" stroke-width="2.5" stroke-linecap="round">
+    <path d="M117 30 L122 26"/>
+    <path d="M119 38 L124 36"/>
+    <path d="M7 84 L11 82"/>
+  </g>
+
+  <!-- Small marker-style finishing strokes -->
+  <g stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".7">
+    <path d="M27 19 L39 19"/>
+    <path d="M101 109 L106 109"/>
+    <path d="M18 103 L18 108"/>
+  </g>
+</svg>

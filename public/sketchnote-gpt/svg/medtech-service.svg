@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>MedTech Service (sketch)</title>
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Connected healthcare cloud -->
+    <path d="M13 75              C8 71 7 62 11 56              C15 49 23 46 31 47              C34 30 49 18 66 19              C83 19 96 30 100 47              L100 87              L29 87              C20 87 15 83 13 75Z" fill="#5EA0EF" stroke="#0078D4" stroke-width="4.5"/>
+
+    <!-- Cloud highlights -->
+    <path d="M20 62 Q24 53 36 54              M43 35 Q55 24 69 26" fill="none" stroke="#B8DDFB" stroke-width="3"/>
+
+    <!-- Medical device / monitoring panel -->
+    <rect x="67" y="40" width="49" height="67" rx="6" fill="#0078D4" stroke="#005BA1" stroke-width="4"/>
+    <rect x="72" y="45" width="39" height="56" rx="3" fill="#005BA1" stroke="#1988D9" stroke-width="2"/>
+
+    <!-- Heart symbol -->
+    <path d="M91 65              C87 57 76 60 78 69              C79 76 91 83 91 83              C91 83 103 76 104 69              C106 60 95 57 91 65Z" fill="#FAA21D" stroke="#F78D1E" stroke-width="2.5"/>
+
+    <!-- Medical heartbeat waveform -->
+    <path d="M75 89 L82 89 L86 82 L91 96              L96 84 L100 89 L108 89" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+
+    <!-- Monitor frame details -->
+    <path d="M75 52 L108 52" fill="none" stroke="#32D4F5" stroke-width="2"/>
+    <circle cx="91" cy="96" r="1.5" fill="#FFFFFF"/>
+
+    <!-- Medical cross on cloud -->
+    <path d="M35 58 L35 77 M26 67.5 L44 67.5" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+    <path d="M35 58 L35 77 M26 67.5 L44 67.5" fill="none" stroke="#B8DDFB" stroke-width="2"/>
+
+    <!-- Yellow clinical accent -->
+    <path d="M115 30 L121 24 M119 41 L125 39" fill="none" stroke="#FFD447" stroke-width="3.5"/>
+
+    <!-- Sketchnote connection marks -->
+    <path d="M9 94 L15 91 M15 102 L21 101" fill="none" stroke="#50E6FF" stroke-width="3"/>
+    <path d="M63 108 Q78 113 93 109" fill="none" stroke="#1988D9" stroke-width="2"/>
+
+    <!-- Hand-drawn finishing details -->
+    <path d="M19 31 Q27 25 35 27" fill="none" stroke="#0078D4" stroke-width="2.5"/>
+    <path d="M72 116 Q91 119 110 114" fill="none" stroke="#005BA1" stroke-width="2"/>
+
+  </g>
+</svg>

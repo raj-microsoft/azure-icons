@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Management Groups (sketch)</title>
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Management group boundary rails -->
+    <path d="M12 25 L12 17 Q12 13 17 13 L34 13              M94 13 L111 13 Q116 13 116 18 L116 110              Q116 115 111 115 L94 115" fill="none" stroke="#949494" stroke-width="5"/>
+    <path d="M12 103 L12 110 Q12 115 17 115 L34 115" fill="none" stroke="#949494" stroke-width="5"/>
+
+    <!-- Rail highlights -->
+    <path d="M15 22 L15 19 Q15 17 19 17 L32 17              M96 17 L109 17 Q112 17 112 20              L112 108 Q112 111 109 111 L96 111" fill="none" stroke="#BDBDBD" stroke-width="1.8"/>
+
+    <!-- Hierarchical connectors -->
+    <path d="M64 43 L64 57              M43 70 L64 57 L85 70              M43 70 L43 83              M85 70 L85 83              M43 83 L30 96              M43 83 L56 96              M85 83 L72 96              M85 83 L98 96" fill="none" stroke="#858585" stroke-width="3.5"/>
+
+    <!-- Root management group -->
+    <circle cx="64" cy="35" r="13" fill="#C69AEB" stroke="#6F4BB2" stroke-width="3.5"/>
+    <circle cx="64" cy="35" r="5" fill="#E8D4FA" stroke="#8D68C5" stroke-width="2"/>
+
+    <!-- Intermediate groups -->
+    <circle cx="43" cy="70" r="10" fill="#54AEF0" stroke="#1988D9" stroke-width="3"/>
+    <circle cx="85" cy="70" r="10" fill="#54AEF0" stroke="#1988D9" stroke-width="3"/>
+
+    <!-- Subordinate management groups -->
+    <g fill="#37C2B1" stroke="#168E83" stroke-width="2.5">
+      <circle cx="30" cy="99" r="7"/>
+      <circle cx="56" cy="99" r="7"/>
+      <circle cx="72" cy="99" r="7"/>
+      <circle cx="98" cy="99" r="7"/>
+    </g>
+
+    <!-- Node highlights -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".9">
+      <path d="M60 32 Q64 28 68 32"/>
+      <path d="M40 67 Q43 64 46 67"/>
+      <path d="M82 67 Q85 64 88 67"/>
+      <path d="M27 97 L30 94 M53 97 L56 94 M69 97 L72 94 M95 97 L98 94"/>
+    </g>
+
+    <!-- Yellow sketchnote accents -->
+    <path d="M76 25 L82 19 M85 31 L92 28" fill="none" stroke="#FFD447" stroke-width="3.5"/>
+    <path d="M19 76 L24 72 M104 77 L110 73" fill="none" stroke="#FFD447" stroke-width="3"/>
+
+    <!-- Hand-drawn finishing marks -->
+    <path d="M20 121 Q36 124 49 121              M79 121 Q94 124 107 121" fill="none" stroke="#949494" stroke-width="2"/>
+
+  </g>
+</svg>

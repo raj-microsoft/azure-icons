@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none"><title>Network Security Hub (sketch)</title>
+  <defs>
+    <linearGradient id="hubShield" x1="25" y1="9" x2="101" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0fafff"/>
+      <stop offset="1" stop-color="#2764e7"/>
+    </linearGradient>
+    <linearGradient id="hubOutline" x1="25" y1="9" x2="101" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0094f0"/>
+      <stop offset="1" stop-color="#2052cb"/>
+    </linearGradient>
+    <linearGradient id="hubNetwork" x1="64" y1="43" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d8f7ff"/>
+      <stop offset="1" stop-color="#6ab2ff"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main security shield -->
+    <path d="M64 8c-3-1-5 0-8 2l-13 8c-8 5-17 7-27 7v38c0 17 7 32 19 42 8 7 17 12 27 16 2 1 4 1 6 0 10-4 19-9 27-16 12-10 19-25 19-42V25c-10 0-19-2-27-7L73 10c-3-2-6-3-9-2Z" fill="url(#hubShield)" stroke="#2052cb" stroke-width="4"/>
+
+    <!-- Hand-drawn outer contour -->
+    <path d="M64 11c-3-1-5 0-8 2l-13 8c-8 5-17 7-24 7v35c0 16 7 29 18 39 8 7 17 12 27 16 2 1 4 1 6 0 10-4 19-9 27-16 11-10 18-23 18-39V28c-8 0-16-2-24-7l-14-8c-4-2-9-3-13-2Z" stroke="#74cfff" stroke-width="1.7" opacity=".8"/>
+
+    <!-- Shield interior highlight -->
+    <path d="M64 22c-3 0-5 1-8 3l-10 6c-7 4-15 6-23 7v32c0 13 6 25 16 34 7 6 15 10 24 14 1 .5 2 .5 3 0 9-4 17-8 24-14 10-9 16-21 16-34V38c-8-1-16-3-23-7l-10-6c-3-2-6-3-9-3Z" stroke="#b8eaff" stroke-width="1.5" opacity=".7"/>
+
+    <!-- Network hub structure: central node and four connections -->
+    <path d="M64 64 42 45M64 64l22-19M64 64 42 84M64 64l22 20" stroke="url(#hubNetwork)" stroke-width="5"/>
+    <path d="M64 64 42 45M64 64l22-19M64 64 42 84M64 64l22 20" stroke="#ffffff" stroke-width="1.5" opacity=".65"/>
+
+    <!-- Central hub -->
+    <circle cx="64" cy="64" r="12" fill="#d8f7ff" stroke="#2764e7" stroke-width="2.5"/>
+    <circle cx="64" cy="64" r="5" fill="#0078d4"/>
+    <circle cx="64" cy="64" r="2" fill="#ffffff"/>
+
+    <!-- Network endpoint nodes -->
+    <g fill="#d8f7ff" stroke="#2764e7" stroke-width="2.5">
+      <circle cx="40" cy="43" r="8"/>
+      <circle cx="88" cy="43" r="8"/>
+      <circle cx="40" cy="86" r="8"/>
+      <circle cx="88" cy="86" r="8"/>
+    </g>
+
+    <!-- Endpoint internal indicators -->
+    <g fill="#0078d4">
+      <circle cx="40" cy="43" r="2.5"/>
+      <circle cx="88" cy="43" r="2.5"/>
+      <circle cx="40" cy="86" r="2.5"/>
+      <circle cx="88" cy="86" r="2.5"/>
+    </g>
+
+    <!-- Additional network branches -->
+    <path d="M40 43V32M88 43V32M40 86v11M88 86v11" stroke="#d8f7ff" stroke-width="2.5"/>
+    <path d="M40 32h-7M88 32h7M40 97h-7M88 97h7" stroke="#6ab2ff" stroke-width="2"/>
+
+    <!-- Small perimeter connection points -->
+    <circle cx="33" cy="32" r="3" fill="#50c9ff"/>
+    <circle cx="95" cy="32" r="3" fill="#50c9ff"/>
+    <circle cx="33" cy="97" r="3" fill="#50c9ff"/>
+    <circle cx="95" cy="97" r="3" fill="#50c9ff"/>
+
+    <!-- Yellow security accent -->
+    <path d="M99 15l2.5 6.5L108 24l-6.5 2.5L99 33l-2.5-6.5L90 24l6.5-2.5Z" fill="#ffca00" stroke="#d49b20" stroke-width="1.4"/>
+    <path d="M22 73h7M25.5 69.5v7" stroke="#ffca00" stroke-width="2.5"/>
+    <path d="M103 75l3 3M106 72l3 3" stroke="#ffca00" stroke-width="2"/>
+
+    <!-- Sketchnote marker details -->
+    <path d="M49 18c4-3 9-4 13-4" stroke="#a7e7ff" stroke-width="2"/>
+    <path d="M79 109c-5 4-10 7-15 9" stroke="#50b6ff" stroke-width="2"/>
+    <path d="M108 47c1 5 1 10 0 15" stroke="#a7e7ff" stroke-width="1.8"/>
+    <path d="M19 48c-1 5-1 10 0 14" stroke="#50b6ff" stroke-width="1.8"/>
+  </g>
+</svg>

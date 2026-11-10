@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Maintenance Configuration (sketch)</title>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Blue maintenance clock -->
+    <circle cx="47" cy="47" r="38" fill="#5EA0EF" stroke="#0078D4" stroke-width="4.5"/>
+    <circle cx="47" cy="47" r="31" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+
+    <!-- Clock markings -->
+    <path d="M47 20 L47 25 M47 69 L47 74              M20 47 L25 47 M69 47 L74 47" fill="none" stroke="#7A7A7A" stroke-width="3"/>
+    <path d="M29 29 L33 33 M61 61 L65 65              M65 29 L61 33" fill="none" stroke="#7A7A7A" stroke-width="2.5"/>
+
+    <!-- Clock hands -->
+    <path d="M47 29 L47 47 L61 57" fill="none" stroke="#7A7A7A" stroke-width="5"/>
+    <circle cx="47" cy="47" r="5" fill="#5E5E5E" stroke="#FFFFFF" stroke-width="1.5"/>
+
+    <!-- Maintenance wrench -->
+    <path d="M75 80 L94 58              Q88 44 98 34              Q106 26 117 31              L106 43 L109 52 L119 54              Q123 41 117 34              Q130 45 120 59              Q111 69 98 64              L79 87" fill="#949494" stroke="#686868" stroke-width="4"/>
+
+    <!-- Wrench handle -->
+    <path d="M77 83 L42 119              Q37 125 31 119              Q25 113 31 107              L67 72" fill="#949494" stroke="#686868" stroke-width="5"/>
+    <path d="M35 112 L43 120" fill="none" stroke="#D9D9D9" stroke-width="2.5"/>
+
+    <!-- Yellow maintenance accent -->
+    <path d="M96 17 L101 10 M108 20 L115 17" fill="none" stroke="#FFD447" stroke-width="3.5"/>
+
+    <!-- Small sketchnote marks -->
+    <path d="M12 86 L19 83 M13 96 L20 95" fill="none" stroke="#0078D4" stroke-width="2.5"/>
+    <path d="M91 104 L96 99" fill="none" stroke="#FFD447" stroke-width="3"/>
+
+    <!-- Hand-drawn finishing strokes -->
+    <path d="M20 17 Q26 12 32 14" fill="none" stroke="#0078D4" stroke-width="2"/>
+    <path d="M26 125 Q42 129 53 124" fill="none" stroke="#686868" stroke-width="2"/>
+  </g>
+</svg>

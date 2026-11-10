@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none"><title>Microsoft Discovery (sketch)</title>
+  <defs>
+    <linearGradient id="discoveryMain" x1="20" y1="12" x2="91" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ad1ff"/>
+      <stop offset=".32" stop-color="#2092f2"/>
+      <stop offset=".68" stop-color="#27518a"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="discoveryBlue" x1="15" y1="75" x2="111" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7cecff"/>
+      <stop offset=".42" stop-color="#40c4f5"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="discoveryPurple" x1="20" y1="12" x2="88" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#731b9c"/>
+      <stop offset=".45" stop-color="#5249bd"/>
+      <stop offset="1" stop-color="#2092f2"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main upright discovery ribbon -->
+    <path d="M43 10.5h13.5c7.5 0 13.5 6 13.5 13.5v60c0 7.6-6 13.5-13.5 13.5H22c7.4 0 13.4-6 13.4-13.5V24c0-7.5 3.1-13.5 7.6-13.5Z" fill="url(#discoveryPurple)" stroke="#27518a" stroke-width="3"/>
+    <path d="M43 10.5h13.5c7.5 0 13.5 6 13.5 13.5v60c0 7.6-6 13.5-13.5 13.5H22c7.4 0 13.4-6 13.4-13.5V24c0-7.5 3.1-13.5 7.6-13.5Z" stroke="#3ad1ff" stroke-width="1.5" opacity=".8"/>
+
+    <!-- Inner light streak -->
+    <path d="M43 15.5c-3.5 2.1-5.1 5.1-5.1 10v59.1c0 4.7-2.1 8.4-5.8 10.5" stroke="#a7f2ff" stroke-width="3" opacity=".8"/>
+    <path d="M61 19c3 2.1 4.4 5.3 4.4 9.2v53.1" stroke="#7cecff" stroke-width="2" opacity=".8"/>
+
+    <!-- Left discovery ribbon -->
+    <path d="M34 35H21c-5.8 0-9.5 3.7-9.5 9.5v27c0 5.7 3.8 9.5 9.5 9.5 5.3 0 9.5-4.2 9.5-9.5V35Z" fill="url(#discoveryBlue)" stroke="#27518a" stroke-width="3"/>
+    <path d="M30.5 39H20.8c-3.5 0-5.3 2.2-5.3 5.7v26.1c0 3.5 2 5.8 5.5 5.8" stroke="#b5f5ff" stroke-width="2" opacity=".9"/>
+
+    <!-- Bottom flowing connector -->
+    <path d="M75 83 96 83c6.4 0 10.5-3.9 13.8-9.5l8.2-14.2c3-5.3 3-11.5 0-16.7l-12.5-21.4c-2.7-4.6-7.2-7.3-12.4-7.3H75" fill="url(#discoveryMain)" stroke="#27518a" stroke-width="3"/>
+    <path d="M76 87.5h20c8.3 0 13.6-4.5 17.8-11.6l7.2-12.7c3.8-6.4 3.6-13.4-.1-19.7" stroke="#0078d4" stroke-width="2.2"/>
+
+    <!-- Blue illuminated upper ribbon -->
+    <path d="M75 14h17.2c5.4 0 9.5 2.6 12.1 7.1l12.4 21.4c3 5.2 3 11.4 0 16.6l-8.3 14.3" stroke="url(#discoveryBlue)" stroke-width="7"/>
+    <path d="M77 13.8h15.5c5.2 0 9.4 2.6 12 7.1l12.4 21.4" stroke="#a7f2ff" stroke-width="1.8" opacity=".85"/>
+
+    <!-- Lower extension -->
+    <path d="M29 84.5H20c-6.1 0-9.5 3.8-9.5 9.5v8c0 5.8 3.8 9.5 9.5 9.5h28c4.5 0 8.2-2.4 10.5-6.4l12.4-21.5" fill="url(#discoveryMain)" stroke="#27518a" stroke-width="3"/>
+    <path d="M16 97.5v4.2c0 3.1 1.7 5.2 4.8 5.2h27.3" stroke="#50e6ff" stroke-width="2.2"/>
+
+    <!-- Hand-drawn structure accents -->
+    <path d="M78 91.5h15.5c3.6 0 6.6-1.4 8.9-4.2" stroke="#50e6ff" stroke-width="2"/>
+    <path d="M79 98h10" stroke="#27518a" stroke-width="1.8"/>
+    <path d="M28 17.5h5" stroke="#ffca3a" stroke-width="2.5"/>
+    <path d="M85 7.5l2.3 5.1 5.1 2.3-5.1 2.3-2.3 5.1-2.3-5.1-5.1-2.3 5.1-2.3Z" fill="#ffca3a" stroke="#d49b20" stroke-width="1.3"/>
+
+    <!-- Small discovery spark -->
+    <path d="m108 89 1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5Z" fill="#ffd84d" stroke="#d49b20" stroke-width="1.2"/>
+
+    <!-- Marker-style hand details -->
+    <path d="M18 47c.8-2.3 2.4-3.4 4.8-3.7" stroke="#d7faff" stroke-width="1.8"/>
+    <path d="M51 105c3.1-.9 5.1-2.9 6.4-5.6" stroke="#7cecff" stroke-width="1.8"/>
+    <path d="M102 32c2.2 2.4 3.9 5.2 5 8.1" stroke="#b5f5ff" stroke-width="1.7"/>
+  </g>
+</svg>

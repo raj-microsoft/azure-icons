@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Microsoft Defender for IoT (sketch)</title>
+  <defs>
+    <linearGradient id="shieldFill" x1="64" y1="10" x2="64" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+    <linearGradient id="shieldInner" x1="64" y1="19" x2="64" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C7F5FF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn shield silhouette -->
+  <path d="M64 8.5     C78 17 91 19 111 20     C113 20 114 22 114 25     L114 61     C113 87 85 108 66 120     C64 122 62 121 59 119     C38 106 14 86 14 61     L14 25     C14 22 16 20 19 20     C38 19 51 16 64 8.5Z" fill="#50E6FF" stroke="#0078D4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <path d="M64 16     C78 23 91 25 106 26     L106 61     C105 83 82 101 65 112     C46 100 22 82 22 61     L22 26     C38 25 51 22 64 16Z" fill="url(#shieldFill)" stroke="#FFFFFF" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Subtle sketchnote marker accents -->
+  <path d="M24 31 Q39 29 49 25 M79 26 Q91 30 101 30" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".6"/>
+  <path d="M20 62 Q21 82 36 94 M107 62 Q105 82 91 94" stroke="#0078D4" stroke-width="1.6" stroke-linecap="round" opacity=".45"/>
+
+  <!-- IoT network connections -->
+  <g stroke="#0078D4" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M67 54 L44 69 L76 82 L91 59 L67 54"/>
+    <path d="M44 69 L49 96 L76 82"/>
+    <path d="M76 82 L84 102"/>
+    <path d="M91 59 L97 43 L67 54"/>
+    <path d="M67 54 L65 32"/>
+    <path d="M44 69 L31 52"/>
+  </g>
+
+  <!-- Network nodes -->
+  <g>
+    <circle cx="67" cy="54" r="9" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+    <circle cx="44" cy="69" r="7" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+    <circle cx="76" cy="82" r="8" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+    <circle cx="91" cy="59" r="7" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+    <circle cx="49" cy="96" r="5.5" fill="#FFFFFF" stroke="#0078D4" stroke-width="2"/>
+    <circle cx="84" cy="102" r="5.5" fill="#FFFFFF" stroke="#0078D4" stroke-width="2"/>
+    <circle cx="97" cy="43" r="5" fill="#FFFFFF" stroke="#0078D4" stroke-width="2"/>
+    <circle cx="65" cy="32" r="5" fill="#FFFFFF" stroke="#0078D4" stroke-width="2"/>
+    <circle cx="31" cy="52" r="5" fill="#FFFFFF" stroke="#0078D4" stroke-width="2"/>
+  </g>
+
+  <!-- Central IoT security hub -->
+  <circle cx="67" cy="54" r="3" fill="#50E6FF"/>
+  <path d="M62 51 L67 48 L72 51 L72 57 L67 60 L62 57Z" fill="#0078D4" stroke="#005A9E" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Yellow security / threat detection highlights -->
+  <path d="M98 29 L100 35 L106 37 L100 39 L98 45 L96 39 L90 37 L96 35Z" fill="#FFCA28" stroke="#D99A00" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M35 83 L37 87 L41 89 L37 91 L35 95 L33 91 L29 89 L33 87Z" fill="#FFCA28" stroke="#D99A00" stroke-width="1.1" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn signal marks -->
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round">
+    <path d="M81 39 Q86 34 91 39" opacity=".8"/>
+    <path d="M84 43 Q87 40 90 43" opacity=".8"/>
+    <path d="M35 38 Q39 34 43 38" opacity=".7"/>
+    <path d="M38 42 Q40 40 42 42" opacity=".7"/>
+  </g>
+
+  <!-- Marker-style finishing strokes -->
+  <path d="M18 27 Q21 25 24 26 M103 24 Q106 25 108 27" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M56 106 Q62 111 66 113 M72 109 Q78 105 81 102" stroke="#0078D4" stroke-width="1.6" stroke-linecap="round" opacity=".6"/>
+</svg>

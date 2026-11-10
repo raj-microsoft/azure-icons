@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>OS Images (Classic) (sketch)</title>
+  
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Monitor outer frame -->
+    <path d="M10.5 12.5 Q10 9 14 9 L113 9 Q118 9 118 14              L117.5 85 Q118 90 113 90 L14 90              Q10 90 10 86 Z" fill="#0078D4" stroke="#005A9E" stroke-width="3.2"/>
+
+    <!-- Hand-drawn highlight -->
+    <path d="M16 13 Q63 11 111 13" fill="none" stroke="#83B9F9" stroke-width="2.5"/>
+
+    <!-- Screen -->
+    <path d="M17 17 Q16 16 19 16 L109 16              Q112 16 112 19 L111.5 81              Q112 84 109 84 L18 84              Q16 84 16 81 Z" fill="#FFFFFF" stroke="#5EA0EF" stroke-width="1.8"/>
+
+    <!-- Screen corner registration marks -->
+    <g fill="none" stroke="#5EA0EF" stroke-width="2.8">
+      <path d="M25 29 L25 23 Q25 21 28 21 L36 21"/>
+      <path d="M92 21 L101 21 Q104 21 104 24 L104 30"/>
+      <path d="M25 70 L25 76 Q25 78 28 78 L36 78"/>
+      <path d="M93 78 L101 78 Q104 78 104 75 L104 70"/>
+    </g>
+
+    <!-- Isometric OS image cube -->
+    <g stroke="#005A9E" stroke-width="2.6">
+      <!-- Top face -->
+      <path d="M64 32 L91 47 L64 63 L37 47 Z" fill="#83B9F9"/>
+      <!-- Right face -->
+      <path d="M64 63 L91 47 L91 78 L64 94 Z" fill="#0078D4"/>
+      <!-- Left face -->
+      <path d="M37 47 L64 63 L64 94 L37 78 Z" fill="#5EA0EF"/>
+    </g>
+
+    <!-- Cube facet highlights -->
+    <g fill="none" stroke-linecap="round" stroke-width="2">
+      <path d="M42 47 L64 35 L85 47" stroke="#D8EBFF"/>
+      <path d="M42 52 L42 75 L59 85" stroke="#A9D3FF"/>
+      <path d="M70 87 L86 77 L86 53" stroke="#50E6FF"/>
+    </g>
+
+    <!-- Small yellow OS/image marker -->
+    <path d="M64 26 L67 30 L64 34 L61 30 Z" fill="#FFCA28" stroke="#E5A900" stroke-width="1.4"/>
+
+    <!-- Monitor stand -->
+    <path d="M57 90 Q57 103 53 107              Q50 111 42 113              Q39 114 40 117              Q40 119 44 119              L85 119 Q89 119 89 116              Q89 114 85 113              Q72 110 71 90 Z" fill="#1F56A3" stroke="#005A9E" stroke-width="3"/>
+
+    <!-- Stand highlights -->
+    <path d="M60 95 Q60 105 55 110" fill="none" stroke="#50E6FF" stroke-width="2.5"/>
+    <path d="M47 115 Q65 113 82 115" fill="none" stroke="#5EA0EF" stroke-width="2"/>
+
+    <!-- Base -->
+    <path d="M40 119 Q64 116 88 119" fill="none" stroke="#005A9E" stroke-width="2.8"/>
+
+    <!-- Hand-drawn sketchnote accents -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M6 36 L3 32 M6 36 L11 35" stroke="#0078D4" stroke-width="2.2"/>
+      <path d="M119 40 L124 36 M119 40 L125 42" stroke="#0078D4" stroke-width="2.2"/>
+      <path d="M96 99 L100 96 M100 99 L103 102" stroke="#FFCA28" stroke-width="2.5"/>
+      <path d="M27 99 L31 96" stroke="#5EA0EF" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

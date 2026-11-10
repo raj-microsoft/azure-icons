@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Network Managers (sketch)</title>
+  <defs>
+    <linearGradient id="managerBlue" x1="88" y1="49" x2="88" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Network manager connections -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 35 L52 59 M28 35 L28 17" stroke="#1490DF" stroke-width="5"/>
+    <path d="M52 59 L91 35 M91 35 L91 17" stroke="#50E6FF" stroke-width="5"/>
+    <path d="M52 59 L28 83" stroke="#1490DF" stroke-width="5"/>
+    <path d="M52 59 L76 83" stroke="#50E6FF" stroke-width="5"/>
+  </g>
+
+  <!-- Top network endpoints -->
+  <g fill="#76BC2D" stroke="#FFFFFF" stroke-width="2.5">
+    <circle cx="28" cy="17" r="8"/>
+    <circle cx="49" cy="17" r="8"/>
+    <circle cx="70" cy="17" r="8"/>
+  </g>
+
+  <!-- Connection branches -->
+  <g fill="#1490DF" stroke="#0078D4" stroke-width="2">
+    <circle cx="28" cy="83" r="7"/>
+    <circle cx="76" cy="83" r="7"/>
+    <circle cx="52" cy="59" r="9"/>
+  </g>
+
+  <!-- Central network hub -->
+  <circle cx="52" cy="59" r="4" fill="#FFFFFF"/>
+
+  <!-- Main management gear -->
+  <path d="M83 53     L91 50     L96 54     L103 52     L108 44     L118 44     L122 54     L119 61     L123 69     L120 76     L124 83     L120 92     L111 93     L107 101     L109 110     L101 116     L93 111     L85 114     L80 121     L70 119     L67 110     L60 106     L51 108     L45 100     L49 91     L46 83     L38 79     L40 69     L49 66     L53 58     L50 49     L58 43     L67 48     L75 45     L78 37     L88 37     Z" transform="translate(0 0) scale(.86) translate(13 10)" fill="url(#managerBlue)" stroke="#005A9E" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Gear central opening -->
+  <circle cx="89" cy="86" r="24" fill="#D2EBFF" stroke="#0078D4" stroke-width="3"/>
+
+  <circle cx="89" cy="86" r="16" fill="#FFFFFF" stroke="#5EA0EF" stroke-width="2.5"/>
+
+  <!-- Inner management hub -->
+  <circle cx="89" cy="86" r="6" fill="#50E6FF"/>
+  <circle cx="89" cy="86" r="2.5" fill="#0078D4"/>
+
+  <!-- Gear detail marks -->
+  <g stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85">
+    <path d="M89 62 L89 68"/>
+    <path d="M89 104 L89 110"/>
+    <path d="M65 86 L71 86"/>
+    <path d="M107 86 L113 86"/>
+  </g>
+
+  <!-- Yellow management emphasis -->
+  <path d="M108 22 L112 31 L121 35 L112 39 L108 48 L104 39 L95 35 L104 31Z" fill="#FFCA28" stroke="#D99A00" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Sketchnote connection highlights -->
+  <g stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round">
+    <path d="M19 34 L24 39"/>
+    <path d="M75 30 L81 25"/>
+    <path d="M29 92 L34 87"/>
+  </g>
+
+  <!-- Small marker strokes -->
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round">
+    <path d="M14 104 L20 100"/>
+    <path d="M112 117 L118 113"/>
+  </g>
+</svg>

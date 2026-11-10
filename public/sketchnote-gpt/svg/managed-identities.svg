@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Managed Identities (sketch)</title>
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Azure identity diamond -->
+    <path d="M15 54 L63 10 L111 54 L63 84 Z" fill="#54AEF0" stroke="#0078D4" stroke-width="4.5"/>
+    <path d="M15 54 L63 84 L63 112 L15 81 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3.5"/>
+    <path d="M63 84 L111 54 L111 81 L63 112 Z" fill="#1988D9" stroke="#0078D4" stroke-width="3.5"/>
+
+    <!-- Faceted identity geometry -->
+    <path d="M63 10 L63 84 L15 54 Z" fill="#9CEBFF" stroke="none"/>
+    <path d="M63 10 L111 54 L63 84 Z" fill="#54AEF0" stroke="none"/>
+    <path d="M63 61 L111 54 L63 84 Z" fill="#53B1E0" stroke="none"/>
+    <path d="M63 61 L15 54 L63 84 Z" fill="#B4ECF9" stroke="none"/>
+
+    <!-- Lower layered identity base -->
+    <path d="M8 83 L63 117 L120 83" fill="none" stroke="#50E6FF" stroke-width="7"/>
+    <path d="M8 91 L63 124 L120 91" fill="none" stroke="#1988D9" stroke-width="4"/>
+
+    <!-- Managed identity key / security symbol -->
+    <path d="M83 49              C88 43 98 43 103 49              C108 54 106 63 101 67              C97 71 91 71 87 68              L76 80 L69 73 L80 62              C77 57 78 53 83 49 Z" fill="#FFCA00" stroke="#C58B00" stroke-width="3.5"/>
+
+    <!-- Key head -->
+    <circle cx="94" cy="56" r="5" fill="#FFF3B0" stroke="#FF9300" stroke-width="2.5"/>
+    <circle cx="94" cy="56" r="1.8" fill="#FF9300"/>
+
+    <!-- Key shaft details -->
+    <path d="M79 72 L85 78 M73 78 L78 83" fill="none" stroke="#FF9300" stroke-width="3"/>
+
+    <!-- Yellow identity highlights -->
+    <path d="M110 38 L117 32 M115 47 L122 45" fill="none" stroke="#FFCA00" stroke-width="3.5"/>
+
+    <!-- Hand-drawn marker accents -->
+    <path d="M12 69 L19 73 M105 98 L113 93" fill="none" stroke="#50E6FF" stroke-width="2.5"/>
+    <path d="M31 17 L37 12 M42 12 L47 10" fill="none" stroke="#0078D4" stroke-width="2.5"/>
+
+  </g>
+</svg>

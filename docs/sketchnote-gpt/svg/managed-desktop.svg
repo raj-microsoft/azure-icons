@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Managed Desktop (sketch)</title>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Desktop monitor frame -->
+    <rect x="12" y="13" width="104" height="70" rx="7" fill="#5EA0EF" stroke="#0078D4" stroke-width="5"/>
+    <rect x="19" y="20" width="90" height="56" rx="3" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+
+    <!-- Managed desktop interface -->
+    <path d="M25 29 L103 29" fill="none" stroke="#B8DDFB" stroke-width="3"/>
+    <circle cx="31" cy="25" r="2" fill="#0078D4"/>
+    <circle cx="38" cy="25" r="2" fill="#32D4F5"/>
+    <circle cx="45" cy="25" r="2" fill="#86D633"/>
+
+    <!-- Central management symbol -->
+    <path d="M64 35 L80 51 L64 67 L48 51 Z" fill="#86D633" stroke="#5E9624" stroke-width="3.5"/>
+    <path d="M64 42 L73 51 L64 60 L55 51 Z" fill="#B4EC36" stroke="#5E9624" stroke-width="2"/>
+    <path d="M64 46 L64 56 M59 51 L69 51" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+
+    <!-- Monitor stand -->
+    <path d="M55 84 L55 99              Q55 105 46 107              L42 109 L86 109              L82 107 Q73 105 73 99 L73 84" fill="#1490DF" stroke="#1F56A3" stroke-width="4"/>
+    <path d="M48 109 Q64 106 80 109" fill="none" stroke="#1F56A3" stroke-width="3"/>
+
+    <!-- Base -->
+    <path d="M34 111 Q64 107 94 111              L103 117 Q105 121 99 121              L29 121 Q23 121 26 117 Z" fill="#0078D4" stroke="#1F56A3" stroke-width="4"/>
+    <path d="M39 115 Q64 112 89 115" fill="none" stroke="#5EA0EF" stroke-width="2.5"/>
+
+    <!-- Yellow sketchnote accents -->
+    <path d="M108 35 L115 29 M112 45 L120 43" fill="none" stroke="#FFD447" stroke-width="3.5"/>
+    <path d="M15 91 L21 87 M17 99 L24 98" fill="none" stroke="#FFD447" stroke-width="3"/>
+
+    <!-- Hand-drawn finishing details -->
+    <path d="M27 15 Q41 10 53 13" fill="none" stroke="#0078D4" stroke-width="2"/>
+    <path d="M49 126 Q64 129 79 126" fill="none" stroke="#1F56A3" stroke-width="2"/>
+  </g>
+</svg>

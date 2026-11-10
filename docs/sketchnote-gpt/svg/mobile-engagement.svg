@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Mobile Engagement (sketch)</title>
+  <defs>
+    <linearGradient id="phoneBody" x1="64" y1="8" x2="64" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="screenFill" x1="64" y1="19" x2="64" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0FFFD"/>
+      <stop offset="1" stop-color="#D2EBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Smartphone outer body -->
+  <path d="M42 8.5     Q42 6 46 6     L82 6     Q87 6 87 11     L87 117     Q87 122 82 122     L46 122     Q41 122 41 117     L41 11     Q41 8 42 8.5Z" fill="url(#phoneBody)" stroke="#005A9E" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Screen -->
+  <path d="M49 20     Q49 18 52 18     L77 18     Q80 18 80 21     L80 105     Q80 107 77 107     L52 107     Q49 107 49 105Z" fill="url(#screenFill)" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Speaker and front camera -->
+  <path d="M58 12 L70 12" stroke="#F2F2F2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="75" cy="12" r="1.5" fill="#F2F2F2"/>
+
+  <!-- Message notification -->
+  <path d="M56 30     Q56 27 59 27     L72 27     Q75 27 75 30     L75 48     Q75 51 72 51     L67 51     L62 56     L62 51     L59 51     Q56 51 56 48Z" fill="#5EA0EF" stroke="#0078D4" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <path d="M61 35 L70 35 M61 41 L68 41" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Engagement analytics bars -->
+  <g stroke-linejoin="round">
+    <rect x="56" y="73" width="9" height="24" rx="2" fill="#5EA0EF" stroke="#0078D4" stroke-width="1.8"/>
+    <rect x="68" y="66" width="9" height="31" rx="2" fill="#0078D4" stroke="#005BA1" stroke-width="1.8"/>
+    <rect x="80" y="57" width="0" height="0" fill="none"/>
+  </g>
+
+  <!-- Bar chart baseline -->
+  <path d="M53 99 L77 99" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Rising engagement trend -->
+  <path d="M57 69 L65 62 L72 65 L80 54" stroke="#005BA1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M74 54 L80 54 L80 60" stroke="#005BA1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow engagement notification -->
+  <path d="M91 25     L94 33 L102 36     L94 39 L91 47     L88 39 L80 36     L88 33Z" fill="#FFCA28" stroke="#D99A00" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Floating interaction bubbles -->
+  <circle cx="96" cy="72" r="10" fill="#50E6FF" stroke="#0078D4" stroke-width="2.5"/>
+  <path d="M91 72 Q96 65 101 72 Q96 79 91 72Z" fill="#FFFFFF" stroke="#0078D4" stroke-width="1.3"/>
+  <circle cx="96" cy="72" r="2" fill="#0078D4"/>
+
+  <!-- Small message indicator -->
+  <path d="M23 46     Q23 42 27 42     L35 42     Q39 42 39 46     L39 54     Q39 58 35 58     L31 58 L26 63     L26 58 L27 58     Q23 58 23 54Z" fill="#D2EBFF" stroke="#0078D4" stroke-width="2" stroke-linejoin="round"/>
+
+  <circle cx="29" cy="50" r="1.5" fill="#0078D4"/>
+  <circle cx="33" cy="50" r="1.5" fill="#0078D4"/>
+  <circle cx="37" cy="50" r="1.5" fill="#0078D4"/>
+
+  <!-- Home button -->
+  <circle cx="64" cy="115" r="3" fill="#F2F2F2" stroke="#0078D4" stroke-width="1.2"/>
+
+  <!-- Hand-drawn signal strokes -->
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round">
+    <path d="M98 91 Q104 85 110 91"/>
+    <path d="M102 96 Q106 92 110 96"/>
+    <path d="M18 79 L23 75"/>
+    <path d="M19 86 L25 83"/>
+  </g>
+
+  <!-- Marker-style highlights -->
+  <g stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".85">
+    <path d="M45 15 L45 29"/>
+    <path d="M45 36 L45 42"/>
+    <path d="M53 22 L63 22"/>
+  </g>
+
+  <!-- Yellow accent marks -->
+  <path d="M30 22 L32 27 L37 29 L32 31 L30 36 L28 31 L23 29 L28 27Z" fill="#FFCA28" stroke="#D99A00" stroke-width="1.2"/>
+</svg>

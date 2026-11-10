@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Partner Namespace (sketch)</title>
+  
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Namespace container -->
+    <path d="M13 19 Q13 14 19 14 L109 14 Q115 14 115 20              L115 108 Q115 114 109 114 L19 114              Q13 114 13 108 Z" fill="none" stroke="#949494" stroke-width="5"/>
+
+    <!-- Top and bottom container rails -->
+    <path d="M15 25 Q63 23 113 25" fill="none" stroke="#777777" stroke-width="4"/>
+    <path d="M15 103 Q64 105 113 103" fill="none" stroke="#777777" stroke-width="4"/>
+
+    <!-- Rail highlights -->
+    <path d="M21 17 L107 17 M21 111 L107 111" fill="none" stroke="#B5B5B5" stroke-width="2"/>
+
+    <!-- Left connector brackets -->
+    <path d="M17 29 L17 44 Q17 47 21 47 L28 47" fill="none" stroke="#A3A3A3" stroke-width="5"/>
+    <path d="M17 83 L17 98 Q17 101 21 101 L28 101" fill="none" stroke="#A3A3A3" stroke-width="5"/>
+
+    <!-- Right connector brackets -->
+    <path d="M111 29 L111 44 Q111 47 107 47 L100 47" fill="none" stroke="#A3A3A3" stroke-width="5"/>
+    <path d="M111 83 L111 98 Q111 101 107 101 L100 101" fill="none" stroke="#A3A3A3" stroke-width="5"/>
+
+    <!-- Central namespace network -->
+    <g fill="none" stroke="#0078D4" stroke-width="5">
+      <path d="M31 64 L60 64 L60 40 L91 40"/>
+      <path d="M60 64 L60 88 L91 88"/>
+      <path d="M60 64 L91 64"/>
+    </g>
+
+    <!-- Uneven marker overlays -->
+    <g fill="none" stroke="#5EA0EF" stroke-width="2">
+      <path d="M34 62 Q46 60 58 62"/>
+      <path d="M62 42 Q74 40 88 42"/>
+      <path d="M62 86 Q75 84 88 86"/>
+    </g>
+
+    <!-- Partner node -->
+    <circle cx="28" cy="64" r="12" fill="#A67AF4" stroke="#773ADC" stroke-width="3.5"/>
+    <path d="M22 64 Q28 57 34 64 Q28 71 22 64 Z" fill="#D9C3FF" opacity="0.65"/>
+
+    <!-- Upper endpoint -->
+    <circle cx="94" cy="40" r="9" fill="#5EA0EF" stroke="#0078D4" stroke-width="2.8"/>
+    <circle cx="94" cy="40" r="3" fill="#D8EBFF"/>
+
+    <!-- Middle endpoint -->
+    <circle cx="94" cy="64" r="9" fill="#5EA0EF" stroke="#0078D4" stroke-width="2.8"/>
+    <circle cx="94" cy="64" r="3" fill="#D8EBFF"/>
+
+    <!-- Lower endpoint -->
+    <circle cx="94" cy="88" r="9" fill="#5EA0EF" stroke="#0078D4" stroke-width="2.8"/>
+    <circle cx="94" cy="88" r="3" fill="#D8EBFF"/>
+
+    <!-- Yellow partnership accent -->
+    <path d="M43 47 L47 41 L51 47" fill="none" stroke="#FFCA28" stroke-width="3"/>
+    <path d="M43 81 L47 87 L51 81" fill="none" stroke="#FFCA28" stroke-width="3"/>
+
+    <!-- Small sketchnote details -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M5 38 L9 34 M5 38 L10 40" stroke="#A67AF4" stroke-width="2.5"/>
+      <path d="M119 54 L124 50 M119 54 L124 56" stroke="#0078D4" stroke-width="2.5"/>
+      <path d="M46 116 L50 120 L54 116" stroke="#FFCA28" stroke-width="2.5"/>
+    </g>
+
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Powershell (sketch)</title>
+  
+  <defs>
+    <linearGradient id="terminal" x1="64" y1="43" x2="64" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="0.45" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Terminal window -->
+    <path d="M14 29 Q13 24 19 24       L109 24 Q115 24 115 30       L114 108 Q114 114 108 114       L20 114 Q14 114 14 108 Z" fill="url(#terminal)" stroke="#0078D4" stroke-width="4"/>
+
+    <!-- Blue title bar -->
+    <path d="M19 17 Q14 17 14 23       L14 43 Q14 47 19 47       L109 47 Q114 47 114 43       L114 23 Q114 17 109 17 Z" fill="#0078D4" stroke="#005A9E" stroke-width="3"/>
+
+    <!-- Title bar highlight -->
+    <path d="M22 23 Q65 21 106 23" fill="none" stroke="#50B8F0" stroke-width="2.5"/>
+
+    <!-- Window controls -->
+    <g fill="#BCEBFF" stroke="#D8F5FF" stroke-width="1">
+      <circle cx="27" cy="32" r="3"/>
+      <circle cx="39" cy="32" r="3"/>
+      <circle cx="51" cy="32" r="3"/>
+    </g>
+
+    <!-- PowerShell command prompt chevron -->
+    <path d="M34 58 L61 77 L34 96" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+    <path d="M35 58 L61 77 L35 96" fill="none" stroke="#E6F8FF" stroke-width="3"/>
+
+    <!-- Command output cursor -->
+    <path d="M72 97 L96 97" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+    <path d="M74 96 Q84 95 96 96" fill="none" stroke="#E6F8FF" stroke-width="2"/>
+
+    <!-- Terminal screen details -->
+    <path d="M24 53 Q22 78 24 103" fill="none" stroke="#83E5F7" stroke-width="2" opacity=".7"/>
+
+    <!-- Hand-drawn emphasis -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M7 57 L11 52 M7 57 L12 60" stroke="#0078D4" stroke-width="2.5"/>
+      <path d="M117 61 L122 57 M117 61 L123 63" stroke="#32BEDD" stroke-width="2.5"/>
+      <path d="M48 11 L53 7 M57 12 L61 8" stroke="#FFCA28" stroke-width="2.5"/>
+      <path d="M102 119 L108 116" stroke="#FFCA28" stroke-width="2.5"/>
+    </g>
+
+    <!-- Small command sparkle -->
+    <path d="M91 54 L94 49 L97 54 L102 57 L97 60 L94 65 L91 60 L86 57 Z" fill="#FFCA28" stroke="#D99B00" stroke-width="1.5"/>
+
+    <!-- Outer sketch accents -->
+    <path d="M18 110 Q61 116 110 109" fill="none" stroke="#83E5F7" stroke-width="1.8"/>
+
+  </g>
+</svg>

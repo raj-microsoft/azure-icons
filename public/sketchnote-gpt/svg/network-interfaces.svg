@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none"><title>Network Interfaces (sketch)</title>
+  <defs>
+    <linearGradient id="networkGreen" x1="64" y1="10" x2="64" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bb43"/>
+      <stop offset=".34" stop-color="#73b743"/>
+      <stop offset=".67" stop-color="#6baa42"/>
+      <stop offset="1" stop-color="#5e9641"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Network interface central chassis -->
+    <rect x="21" y="10" width="86" height="108" rx="7" fill="url(#networkGreen)" stroke="#426d27" stroke-width="3.5"/>
+    <path d="M27 17h73v94H27Z" stroke="#b4ec36" stroke-width="1.7" opacity=".8"/>
+
+    <!-- Left-side connection port -->
+    <path d="M8 47h12v35H8c-2 0-3-1.5-3-3V50c0-1.5 1-3 3-3Z" fill="#3b3b3b" stroke="#252525" stroke-width="2"/>
+    <path d="M8 55h8M8 74h8" stroke="#858585" stroke-width="1.5"/>
+
+    <!-- Right-side network connectors -->
+    <path d="M107 22h11c2 0 3 1.5 3 3v18c0 1.5-1 3-3 3h-11Z" fill="#ffca00" stroke="#b78e00" stroke-width="1.8"/>
+    <path d="M107 67h11c2 0 3 1.5 3 3v31c0 1.5-1 3-3 3h-11Z" fill="#ffca00" stroke="#b78e00" stroke-width="1.8"/>
+    <path d="M111 29h6M111 36h6M111 75h6M111 84h6M111 93h6" stroke="#fff0a0" stroke-width="1.5"/>
+
+    <!-- Upper network controller -->
+    <rect x="43" y="20" width="43" height="19" rx="3" fill="#365615" stroke="#294410" stroke-width="1.8"/>
+    <path d="M49 26h29M49 32h19" stroke="#b4ec36" stroke-width="1.5"/>
+    <circle cx="80" cy="32" r="2" fill="#ffca00"/>
+
+    <!-- Internal circuit traces -->
+    <path d="M42 48H31v35h14M42 48v-4h12" stroke="#b4ec36" stroke-width="2.5"/>
+    <path d="M86 48h10v24H84v10h12" stroke="#b4ec36" stroke-width="2.5"/>
+    <path d="M51 91h27v-9" stroke="#b4ec36" stroke-width="2.2"/>
+    <path d="M36 89v14h13M87 91h11" stroke="#b4ec36" stroke-width="2"/>
+
+    <!-- Circuit connection points -->
+    <g fill="#365615" stroke="#b4ec36" stroke-width="1.5">
+      <circle cx="31" cy="48" r="3"/>
+      <circle cx="45" cy="83" r="3"/>
+      <circle cx="84" cy="48" r="3"/>
+      <circle cx="96" cy="72" r="3"/>
+      <circle cx="78" cy="91" r="3"/>
+      <circle cx="49" cy="103" r="3"/>
+    </g>
+
+    <!-- Network interface indicator -->
+    <circle cx="57" cy="63" r="8" fill="#f2f2f2" stroke="#365615" stroke-width="2"/>
+    <circle cx="57" cy="63" r="3" fill="#76bb43"/>
+    <path d="M57 59v8M53 63h8" stroke="#365615" stroke-width="1.4"/>
+
+    <!-- Three port indicators -->
+    <rect x="39" y="91" width="7" height="19" rx="2" fill="#365615"/>
+    <rect x="53" y="91" width="7" height="19" rx="2" fill="#365615"/>
+    <rect x="67" y="91" width="7" height="19" rx="2" fill="#f2f2f2" stroke="#365615" stroke-width="1"/>
+
+    <!-- Interface activity lights -->
+    <circle cx="42.5" cy="95" r="1.5" fill="#b4ec36"/>
+    <circle cx="56.5" cy="95" r="1.5" fill="#ffca00"/>
+    <circle cx="70.5" cy="95" r="1.5" fill="#32d4f5"/>
+
+    <!-- Sketchnote network signal accents -->
+    <path d="M9 34c5-4 9-4 13-1" stroke="#0078d4" stroke-width="2.5"/>
+    <path d="M8 28c7-6 15-7 22-3" stroke="#32d4f5" stroke-width="2"/>
+    <path d="M109 12l2 5 5 2-5 2-2 5-2-5-5-2 5-2Z" fill="#ffca00" stroke="#b78e00" stroke-width="1.3"/>
+    <path d="M101 108l3 3M105 104l3 3" stroke="#ffca00" stroke-width="2"/>
+
+    <!-- Hand-drawn marker details -->
+    <path d="M28 15c2-1 5-1 8-1" stroke="#d9f99d" stroke-width="1.5"/>
+    <path d="M94 112c-3 2-7 2-10 2" stroke="#365615" stroke-width="1.6"/>
+    <path d="M24 60h-3M24 67h-3" stroke="#ffffff" stroke-width="1.6"/>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Notification Hubs (sketch)</title>
+  <defs>
+    <linearGradient id="notificationGold" x1="64" y1="12" x2="64" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".34" stop-color="#EEB309"/>
+      <stop offset=".77" stop-color="#DC8C03"/>
+      <stop offset="1" stop-color="#D57D01"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main notification message bubble -->
+  <path d="M15 16     Q15 11 21 11     L108 11     Q115 11 115 18     L115 87     Q115 93 109 93     L91 93     L91 111     Q91 116 87 113     L65 94     L21 94     Q14 94 14 87     Z" fill="url(#notificationGold)" stroke="#B87500" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Bubble highlights -->
+  <path d="M23 18 L104 18 Q109 18 109 24" stroke="#FFF4A8" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Notification message / communication arrows -->
+  <path d="M24 43     L42 30     Q46 27 46 32     L46 38     L99 38     L99 46     L46 46     L46 52     Q46 57 42 54     Z" fill="#FFFFFF" stroke="#D57D01" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M104 64     L86 77     Q82 80 82 75     L82 69     L29 69     L29 61     L82 61     L82 55     Q82 50 86 53     Z" fill="#FFE452" stroke="#D57D01" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Notification hub signal indicator -->
+  <circle cx="64" cy="82" r="4" fill="#FFFFFF" opacity=".95"/>
+
+  <!-- Broadcast signal waves -->
+  <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+    <path d="M54 82 Q47 75 54 68"/>
+    <path d="M74 82 Q81 75 74 68"/>
+  </g>
+
+  <g stroke="#FFF4A8" stroke-width="2.5" stroke-linecap="round">
+    <path d="M44 82 Q32 70 44 58"/>
+    <path d="M84 82 Q96 70 84 58"/>
+  </g>
+
+  <!-- Yellow notification alert accent -->
+  <path d="M106 14     L110 23     L119 27     L110 31     L106 40     L102 31     L93 27     L102 23Z" fill="#FFD70F" stroke="#D57D01" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <!-- Sketchnote marker details -->
+  <g stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round">
+    <path d="M24 25 L34 25"/>
+    <path d="M24 31 L29 31"/>
+    <path d="M70 87 L77 87"/>
+  </g>
+
+  <!-- Hand-drawn emphasis marks -->
+  <g stroke="#D57D01" stroke-width="2" stroke-linecap="round">
+    <path d="M12 105 L18 101"/>
+    <path d="M110 105 L116 101"/>
+    <path d="M119 51 L123 48"/>
+  </g>
+</svg>

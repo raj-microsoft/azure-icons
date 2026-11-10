@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none"><title>Microsoft Defender for Cloud (sketch)</title>
+  <defs>
+    <linearGradient id="shieldGrad" x1="64" y1="16" x2="64" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5e9624"/>
+      <stop offset="0.34" stop-color="#639d26"/>
+      <stop offset="0.79" stop-color="#6fb12a"/>
+      <stop offset="1" stop-color="#76bc2d"/>
+    </linearGradient>
+    <linearGradient id="blueAccent" x1="24" y1="22" x2="104" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50e6ff"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- outer shield -->
+    <path d="M64 7c-12 0-14 13-42 16-2.8.3-5 2.6-5 5.4v37.4c0 31.7 33 53.2 45 60.3 1.3.8 2.9.8 4.2 0 12-7.1 45-28.6 45-60.3V28.4c0-2.8-2.2-5.1-5-5.4C78 20 76 7 64 7Z" fill="#76bc2d"/>
+    <path d="M64 13c-10.7 0-12.8 11.1-36.1 13.8-2.2.3-3.9 2.1-3.9 4.4v34.6c0 26.9 28 45.2 38.4 51.6 1 .6 2.2.6 3.2 0C76 111 104 92.7 104 65.8V31.2c0-2.3-1.7-4.1-3.9-4.4C76.8 24.1 74.7 13 64 13Z" fill="url(#shieldGrad)"/>
+
+    <!-- sketchnote shield outlines -->
+    <path d="M63.2 9.6c-10.8 0-13.5 11.8-40.8 14.9-2.1.2-3.8 2.2-3.8 4.1v37.1c0 30.5 31.7 51.3 43.6 58.4 1 .6 2.6.7 3.8 0 11.9-7.1 43.5-27.9 43.5-58.4V28.6c0-1.9-1.7-3.9-3.8-4.1C78.5 21.4 75.6 9.6 63.2 9.6Z" stroke="#4f7d1c" stroke-width="3"/>
+    <path d="M66.2 11.1c-10 1-13.8 10.7-35.9 14.2" stroke="url(#blueAccent)" stroke-width="2.2" opacity=".8"/>
+    <path d="M26.8 34.4v29.1c0 22.5 18 36.3 28.1 42.8" stroke="#63b6ff" stroke-width="2" opacity=".7"/>
+    <path d="M71.8 106.7c10.2-6.6 29.3-21.6 29.3-43.2V34.8" stroke="#2f8ae5" stroke-width="2" opacity=".65"/>
+
+    <!-- lock shackle -->
+    <path d="M45.7 54.5v-8.6c0-10.5 8.2-18.8 18.3-18.8s18.3 8.3 18.3 18.8v8.6" stroke="#ffffff" stroke-width="5.5"/>
+    <path d="M45.7 54.5v-8.6c0-10.5 8.2-18.8 18.3-18.8s18.3 8.3 18.3 18.8v8.6" stroke="#e6eef2" stroke-width="2" opacity=".55"/>
+
+    <!-- lock body -->
+    <path d="M40.5 52.8h47c2.7 0 4.8 2.2 4.8 4.8v27.3c0 2.7-2.1 4.8-4.8 4.8h-47c-2.7 0-4.8-2.1-4.8-4.8V57.6c0-2.6 2.1-4.8 4.8-4.8Z" fill="#ffffff"/>
+    <path d="M40.5 52.8h47c2.7 0 4.8 2.2 4.8 4.8v27.3c0 2.7-2.1 4.8-4.8 4.8h-47c-2.7 0-4.8-2.1-4.8-4.8V57.6c0-2.6 2.1-4.8 4.8-4.8Z" stroke="#5e6a71" stroke-width="2.3"/>
+
+    <!-- soft hand-drawn shading -->
+    <path d="M40.1 54.8 87.6 87.9" stroke="#a3a3a3" stroke-width="2.2" opacity=".14"/>
+    <path d="M87.9 54.7 41 87.5" stroke="#b3b3b3" stroke-width="1.8" opacity=".12"/>
+
+    <!-- keyhole -->
+    <path d="M64 63.7c-3.5 0-6.2 2.6-6.2 6.1 0 2.4 1.4 4.5 3.4 5.5l-1.5 7.4h8.5l-1.5-7.4c2-1 3.4-3.1 3.4-5.5 0-3.5-2.7-6.1-6.1-6.1Z" fill="#76bc2d" stroke="#4f7d1c" stroke-width="1.4"/>
+
+    <!-- blue/yellow sketchnote accents -->
+    <path d="M94.7 32.8c3.1 1 5.4 3.2 6.5 6.2" stroke="#0078d4" stroke-width="2.6"/>
+    <path d="M97.8 28.9c4.6 1.5 8 4.9 9.5 9.3" stroke="#50e6ff" stroke-width="1.8" opacity=".9"/>
+    <path d="M27.2 95.4c3-1.8 6.5-2.7 10.1-2.6" stroke="#0078d4" stroke-width="2.2" opacity=".85"/>
+    <path d="M91.7 99.8c2.8.2 5.4 1.3 7.4 3.3" stroke="#ffca3a" stroke-width="2.4"/>
+
+    <!-- small sparkle -->
+    <path d="M102.5 19.5 104 25l5.5 1.5-5.5 1.5-1.5 5.5-1.5-5.5-5.5-1.5 5.5-1.5 1.5-5.5Z" fill="#ffd84d" stroke="#d4a514" stroke-width="1.5"/>
+
+    <!-- tiny scribble details -->
+    <path d="M31.6 33.4c1.9-.4 3.7-.3 5.4.3" stroke="#ffca3a" stroke-width="1.8"/>
+    <path d="M83.8 106.6c1.7.8 3.1 2 4.2 3.5" stroke="#2f8ae5" stroke-width="1.8"/>
+  </g>
+</svg>

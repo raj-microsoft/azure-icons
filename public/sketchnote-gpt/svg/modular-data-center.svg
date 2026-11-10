@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none"><title>Modular Data Center (sketch)</title>
+  <defs>
+    <linearGradient id="dcMain" x1="83" y1="8" x2="83" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset=".4" stop-color="#0078d4"/>
+      <stop offset=".7" stop-color="#006abb"/>
+      <stop offset="1" stop-color="#005ba1"/>
+    </linearGradient>
+    <linearGradient id="dcFront" x1="48" y1="74" x2="48" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9cebff"/>
+      <stop offset=".4" stop-color="#29b8dc"/>
+      <stop offset="1" stop-color="#198ab3"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Rear modular data-centre cabinet -->
+    <path d="M58 9.5h52c3 0 5 2 5 5v82c0 3-2 5-5 5H58c-3 0-5-2-5-5v-82c0-3 2-5 5-5Z" fill="url(#dcMain)" stroke="#005ba1" stroke-width="3"/>
+    <path d="M59 14h50v82H59Z" stroke="#8bcaff" stroke-width="1.4" opacity=".65"/>
+
+    <!-- Server rack ventilation / modules -->
+    <g fill="#f2f2f2" opacity=".4">
+      <rect x="66" y="24" width="36" height="12" rx="2"/>
+      <rect x="66" y="45" width="36" height="12" rx="2"/>
+      <rect x="66" y="66" width="36" height="12" rx="2"/>
+      <rect x="66" y="87" width="36" height="5" rx="1.5"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="1.8" opacity=".8">
+      <path d="M72 30h19M72 51h19M72 72h19"/>
+      <path d="M95 29h2M95 50h2M95 71h2"/>
+    </g>
+
+    <!-- Front modular container -->
+    <path d="M21 72h63c3 0 5 2 5 5v38c0 3-2 5-5 5H21c-3 0-5-2-5-5V77c0-3 2-5 5-5Z" fill="url(#dcFront)" stroke="#00658e" stroke-width="3"/>
+    <path d="M21 76h63" stroke="#d4faff" stroke-width="2"/>
+    <path d="M21 72h63c3 0 5 2 5 5v38c0 3-2 5-5 5H21c-3 0-5-2-5-5V77c0-3 2-5 5-5Z" stroke="#0078d4" stroke-width="1.3"/>
+
+    <!-- Front module bays -->
+    <rect x="27" y="82" width="12" height="29" rx="1.8" fill="#ffffff" opacity=".82"/>
+    <rect x="45" y="82" width="12" height="29" rx="1.8" fill="#ffffff" opacity=".82"/>
+    <rect x="63" y="82" width="12" height="29" rx="1.8" fill="#ffffff" opacity=".82"/>
+
+    <!-- Cabinet bay details -->
+    <g stroke="#0078d4" stroke-width="1.5">
+      <path d="M30 88h6M30 94h6M30 100h6"/>
+      <path d="M48 88h6M48 94h6M48 100h6"/>
+      <path d="M66 88h6M66 94h6M66 100h6"/>
+    </g>
+    <g fill="#32bedd">
+      <circle cx="33" cy="106" r="1.4"/>
+      <circle cx="51" cy="106" r="1.4"/>
+      <circle cx="69" cy="106" r="1.4"/>
+    </g>
+
+    <!-- Cloud outline: modular cloud infrastructure -->
+    <path d="M17 69c-5-1-8-5-8-10 0-6 4-10 10-11 2-8 9-13 17-13 8 0 15 5 17 13" stroke="#32bedd" stroke-width="5" fill="none"/>
+    <path d="M17 69c-5-1-8-5-8-10 0-6 4-10 10-11 2-8 9-13 17-13 8 0 15 5 17 13" stroke="#0078d4" stroke-width="1.8" fill="none"/>
+    <path d="M25 41c3-3 7-4 11-4" stroke="#b8f4ff" stroke-width="1.7"/>
+
+    <!-- Connection between modules -->
+    <path d="M89 90h10" stroke="#005ba1" stroke-width="2.5"/>
+    <path d="m95 85 5 5-5 5" stroke="#50e6ff" stroke-width="2.2" fill="none"/>
+
+    <!-- Base and structure -->
+    <path d="M12 120h105" stroke="#005ba1" stroke-width="3"/>
+    <path d="M20 123h91" stroke="#32bedd" stroke-width="1.5"/>
+    <path d="M27 117v3M80 117v3M107 99v21" stroke="#005ba1" stroke-width="2"/>
+
+    <!-- Yellow sketchnote accents -->
+    <path d="m108 12 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z" fill="#ffd84d" stroke="#d49b20" stroke-width="1.2"/>
+    <path d="M94 106h6" stroke="#ffca3a" stroke-width="2.5"/>
+    <path d="M12 85l3-2M12 92l3-2" stroke="#ffd84d" stroke-width="2"/>
+
+    <!-- Hand-drawn marker details -->
+    <path d="M61 17h43" stroke="#b5e4ff" stroke-width="1.2" opacity=".65"/>
+    <path d="M116 42v30" stroke="#50e6ff" stroke-width="1.4" opacity=".7"/>
+    <path d="M18 114c2 2 4 2.5 7 2.5" stroke="#ffffff" stroke-width="1.3" opacity=".7"/>
+  </g>
+</svg>

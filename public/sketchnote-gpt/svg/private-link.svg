@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Private Link (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="linkBlue" x1="38" y1="43" x2="82" y2="87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#127FD9"/>
+    </linearGradient>
+    <linearGradient id="linkBlue2" x1="90" y1="51" x2="55" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#127FD9"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Network connection arrows -->
+    <path d="M12 43 L39 16 L58 35 L31 62 Z" fill="#1490DF" stroke="#0875C1" stroke-width="3"/>
+    <path d="M16 43 L39 20 L53 35 L31 56 Z" fill="none" stroke="#50E6FF" stroke-width="2"/>
+
+    <path d="M70 93 L97 66 L116 85 L89 112 Z" fill="#50E6FF" stroke="#1490DF" stroke-width="3"/>
+    <path d="M76 93 L97 72 L110 85 L89 106 Z" fill="none" stroke="#D2F8FF" stroke-width="2"/>
+
+    <!-- Opposing network connection -->
+    <path d="M14 86 L39 111 L58 92 L33 67 Z" fill="#50E6FF" stroke="#1490DF" stroke-width="3"/>
+    <path d="M20 86 L39 105 L53 92 L33 72 Z" fill="none" stroke="#D2F8FF" stroke-width="2"/>
+
+    <path d="M70 35 L95 10 L116 31 L91 56 Z" fill="#1490DF" stroke="#0875C1" stroke-width="3"/>
+    <path d="M76 35 L95 16 L110 31 L91 50 Z" fill="none" stroke="#50E6FF" stroke-width="2"/>
+
+    <!-- Central private-link chain -->
+    <path d="M45 53              C45 42 53 35 64 35              L78 35              C89 35 96 43 96 53              C96 64 89 71 78 71              L70 71" fill="none" stroke="url(#linkBlue)" stroke-width="12"/>
+
+    <path d="M83 75              C83 86 75 93 64 93              L50 93              C39 93 32 85 32 75              C32 64 39 57 50 57              L58 57" fill="none" stroke="url(#linkBlue2)" stroke-width="12"/>
+
+    <!-- Link highlights -->
+    <path d="M53 43 Q61 38 72 40" fill="none" stroke="#A9D4FF" stroke-width="2.5"/>
+    <path d="M75 85 Q66 91 55 88" fill="none" stroke="#A9D4FF" stroke-width="2.5"/>
+
+    <!-- Central interlocking connection -->
+    <path d="M57 58 L72 73" fill="none" stroke="#50E6FF" stroke-width="5"/>
+    <path d="M72 58 L57 73" fill="none" stroke="#1490DF" stroke-width="5"/>
+
+    <!-- Endpoint nodes -->
+    <circle cx="64" cy="14" r="7" fill="#1490DF" stroke="#005BA1" stroke-width="2.5"/>
+    <circle cx="64" cy="114" r="7" fill="#50E6FF" stroke="#1490DF" stroke-width="2.5"/>
+
+    <!-- Small lock / privacy indicator -->
+    <rect x="54" y="49" width="20" height="19" rx="4" fill="#FFFFFF" stroke="#0875C1" stroke-width="2.5"/>
+    <path d="M58 49 V44 Q58 37 64 37 Q70 37 70 44 V49" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+    <path d="M58 49 V44 Q58 37 64 37 Q70 37 70 44 V49" fill="none" stroke="#0875C1" stroke-width="2.5"/>
+    <circle cx="64" cy="57" r="2.5" fill="#1490DF"/>
+    <path d="M64 59 L64 63" stroke="#1490DF" stroke-width="2.2"/>
+
+    <!-- Yellow security accents -->
+    <path d="M101 52 L106 47 L111 52" fill="none" stroke="#FFCA28" stroke-width="3"/>
+    <path d="M17 67 L22 62 L27 67" fill="none" stroke="#FFCA28" stroke-width="3"/>
+
+    <!-- Sketchnote movement marks -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M7 27 L3 23 M8 34 L3 33" stroke="#1490DF" stroke-width="2.5"/>
+      <path d="M119 97 L124 93 M118 104 L124 104" stroke="#50E6FF" stroke-width="2.5"/>
+      <path d="M43 9 L47 5 M51 11 L54 7" stroke="#FFCA28" stroke-width="2.5"/>
+      <path d="M80 117 L84 121 M88 114 L92 118" stroke="#1490DF" stroke-width="2.5"/>
+    </g>
+
+  </g>
+</svg>

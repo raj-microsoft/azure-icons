@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>NAT (sketch)</title>
+  <defs>
+    <linearGradient id="natBlue" x1="64" y1="9" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ED3F2"/>
+      <stop offset=".78" stop-color="#2DA4C8"/>
+      <stop offset="1" stop-color="#238AB0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Central NAT gateway diamond -->
+  <path d="M64 9     L115 64     L64 115     L13 64     Z" fill="url(#natBlue)" stroke="#16799E" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Inner hand-drawn diamond highlight -->
+  <path d="M64 19 L105 64 L64 105 L23 64 Z" stroke="#9CEBFF" stroke-width="2" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Bidirectional routing paths -->
+  <path d="M37 65 L91 65" stroke="#9CEBFF" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M80 54 L92 65 L80 76" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M48 54 L36 65 L48 76" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Downward translation / routing arrow -->
+  <path d="M64 29 L64 93" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M53 81 L64 94 L75 81" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Network connection nodes -->
+  <g>
+    <circle cx="28" cy="65" r="11" fill="#FFFFFF" stroke="#238AB0" stroke-width="2.5"/>
+    <circle cx="28" cy="65" r="5.5" fill="#86D633"/>
+
+    <circle cx="100" cy="65" r="11" fill="#FFFFFF" stroke="#238AB0" stroke-width="2.5"/>
+    <circle cx="100" cy="65" r="5.5" fill="#86D633"/>
+
+    <circle cx="64" cy="101" r="11" fill="#FFFFFF" stroke="#238AB0" stroke-width="2.5"/>
+    <circle cx="64" cy="101" r="5.5" fill="#86D633"/>
+  </g>
+
+  <!-- Top gateway entry -->
+  <path d="M64 23 L64 39" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+
+  <path d="M57 32 L64 24 L71 32" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow routing emphasis -->
+  <path d="M103 27 L106 34 L113 37 L106 40 L103 47 L100 40 L93 37 L100 34Z" fill="#FFCA28" stroke="#D99A00" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Small network signal marks -->
+  <g stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round">
+    <path d="M17 35 Q24 28 31 35"/>
+    <path d="M20 41 Q24 37 28 41"/>
+    <path d="M97 91 Q104 84 111 91"/>
+    <path d="M100 97 Q104 93 108 97"/>
+  </g>
+
+  <!-- Marker-style finishing strokes -->
+  <g stroke="#9CEBFF" stroke-width="2" stroke-linecap="round">
+    <path d="M37 19 L43 15"/>
+    <path d="M84 111 L90 107"/>
+    <path d="M18 83 L23 87"/>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Proximity Placement Groups (sketch)</title>
+  
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Outer placement boundary -->
+    <path d="M13 20 L23 14 L105 14 L115 20              L115 108 L105 114 L23 114 L13 108 Z" fill="none" stroke="#949494" stroke-width="5"/>
+
+    <!-- Boundary highlights -->
+    <path d="M19 24 L27 19 L101 19 L109 24              M19 104 L27 109 L101 109 L109 104" fill="none" stroke="#A3A3A3" stroke-width="2.5"/>
+
+    <!-- Left proximity boundary markers -->
+    <path d="M14 29 L24 35 L24 93 L14 99" fill="none" stroke="#A3A3A3" stroke-width="3"/>
+    <path d="M9 36 L15 40 M9 92 L15 88" fill="none" stroke="#949494" stroke-width="2.5"/>
+
+    <!-- Right proximity boundary markers -->
+    <path d="M114 29 L104 35 L104 93 L114 99" fill="none" stroke="#A3A3A3" stroke-width="3"/>
+    <path d="M119 36 L113 40 M119 92 L113 88" fill="none" stroke="#949494" stroke-width="2.5"/>
+
+    <!-- Left virtual machine -->
+    <path d="M29 39 Q29 36 33 36 L57 36 Q60 36 60 40              L60 88 Q60 91 56 91 L33 91 Q29 91 29 88 Z" fill="#999999" stroke="#666666" stroke-width="2.5"/>
+
+    <!-- Left VM screen -->
+    <path d="M34 43 L55 43 L55 84 L34 84 Z" fill="#003067" stroke="#005A9E" stroke-width="1.5"/>
+
+    <!-- Left VM indicators -->
+    <g fill="#50E6FF">
+      <circle cx="39" cy="51" r="2.5"/>
+      <circle cx="39" cy="61" r="2.5"/>
+    </g>
+    <g stroke="#50E6FF" stroke-width="2">
+      <path d="M45 51 L51 51 M45 61 L51 61"/>
+    </g>
+
+    <!-- Right virtual machine -->
+    <path d="M68 39 Q68 36 72 36 L96 36 Q99 36 99 40              L99 88 Q99 91 95 91 L72 91 Q68 91 68 88 Z" fill="#999999" stroke="#666666" stroke-width="2.5"/>
+
+    <!-- Right VM screen -->
+    <path d="M73 43 L94 43 L94 84 L73 84 Z" fill="#003067" stroke="#005A9E" stroke-width="1.5"/>
+
+    <!-- Right VM indicators -->
+    <g fill="#50E6FF">
+      <circle cx="78" cy="51" r="2.5"/>
+      <circle cx="78" cy="61" r="2.5"/>
+    </g>
+    <g stroke="#50E6FF" stroke-width="2">
+      <path d="M84 51 L90 51 M84 61 L90 61"/>
+    </g>
+
+    <!-- Shared proximity connection -->
+    <path d="M60 64 L68 64" fill="none" stroke="#0078D4" stroke-width="4"/>
+    <circle cx="64" cy="64" r="5" fill="#50E6FF" stroke="#0078D4" stroke-width="2"/>
+
+    <!-- Yellow placement indicator -->
+    <path d="M64 23 L69 30 L64 37 L59 30 Z" fill="#FFCA28" stroke="#D99B00" stroke-width="1.8"/>
+
+    <!-- Placement alignment marks -->
+    <g fill="none" stroke="#0078D4" stroke-width="2.5">
+      <path d="M47 26 L47 31 M81 26 L81 31"/>
+      <path d="M47 96 L47 101 M81 96 L81 101"/>
+    </g>
+
+    <!-- Sketchnote emphasis -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M5 51 L9 46 M5 51 L10 53" stroke="#50E6FF" stroke-width="2.5"/>
+      <path d="M119 51 L124 46 M119 51 L125 53" stroke="#50E6FF" stroke-width="2.5"/>
+      <path d="M33 119 L38 115 M41 120 L45 117" stroke="#FFCA28" stroke-width="2.5"/>
+      <path d="M87 119 L92 115 M96 120 L100 117" stroke="#0078D4" stroke-width="2.5"/>
+    </g>
+
+  </g>
+</svg>

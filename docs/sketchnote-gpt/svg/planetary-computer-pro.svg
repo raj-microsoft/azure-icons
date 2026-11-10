@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Planetary Computer Pro (sketch)</title>
+  
+  <defs>
+    <linearGradient id="planet" x1="20" y1="112" x2="108" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#49C5B1"/>
+    </linearGradient>
+    <linearGradient id="orbitLeft" x1="12" y1="112" x2="70" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#49C5B1"/>
+    </linearGradient>
+    <linearGradient id="orbitRight" x1="120" y1="12" x2="66" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#49C5B1"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Planetary globe -->
+    <path d="M22 75       C17 54 27 31 46 20       C64 9 88 13 103 29       C116 43 119 66 108 85       C98 105 77 116 55 110       C39 106 27 93 22 75Z" fill="url(#planet)" stroke="#0065A8" stroke-width="3.5"/>
+
+    <!-- Globe highlight -->
+    <path d="M34 40 Q48 21 68 20" fill="none" stroke="#A4F0DF" stroke-width="3"/>
+
+    <!-- Continents -->
+    <path d="M35 42 L49 34 L59 39 L65 48       L58 56 L48 57 L43 67 L32 63 L27 53Z" fill="#B8F1D9" stroke="#168EAA" stroke-width="2"/>
+
+    <path d="M70 57 L81 49 L94 53 L101 64       L94 72 L89 83 L78 86 L73 76 L65 70Z" fill="#B8F1D9" stroke="#168EAA" stroke-width="2"/>
+
+    <path d="M48 81 L57 77 L65 84 L63 98       L55 103 L48 93Z" fill="#B8F1D9" stroke="#168EAA" stroke-width="1.8"/>
+
+    <!-- Subtle planetary latitude -->
+    <path d="M25 70 Q65 84 111 67" fill="none" stroke="#83DCCB" stroke-width="2" opacity=".8"/>
+
+    <!-- Left orbital sweep -->
+    <path d="M61 75       C45 87 25 103 12 115       C8 119 12 123 19 120       C40 111 62 97 75 84" fill="none" stroke="url(#orbitLeft)" stroke-width="8"/>
+
+    <path d="M14 116 Q37 101 57 88" fill="none" stroke="#A3E8DC" stroke-width="2"/>
+
+    <!-- Right orbital sweep -->
+    <path d="M67 54       C84 39 103 22 116 12       C120 8 124 12 120 18       C108 39 91 57 77 69" fill="none" stroke="url(#orbitRight)" stroke-width="8"/>
+
+    <path d="M79 58 Q102 36 116 17" fill="none" stroke="#A3E8DC" stroke-width="2"/>
+
+    <!-- Orbital connection nodes -->
+    <circle cx="17" cy="117" r="6" fill="#49C5B1" stroke="#0078D4" stroke-width="2.5"/>
+    <circle cx="119" cy="13" r="6" fill="#49C5B1" stroke="#0078D4" stroke-width="2.5"/>
+
+    <!-- Satellite / data connection -->
+    <path d="M55 64 L72 64 L81 73" fill="none" stroke="#42E8CA" stroke-width="3.5"/>
+    <circle cx="55" cy="64" r="4" fill="#FFCA28" stroke="#D99B00" stroke-width="1.5"/>
+    <circle cx="81" cy="73" r="4" fill="#FFCA28" stroke="#D99B00" stroke-width="1.5"/>
+
+    <!-- Small planetary data sparkles -->
+    <path d="M91 91 L95 83 L99 91 L107 95 L99 99 L95 107 L91 99 L83 95Z" fill="#FFCA28" stroke="#D99B00" stroke-width="1.5"/>
+
+    <path d="M22 26 L25 20 L28 26 L34 29 L28 32 L25 38 L22 32 L16 29Z" fill="#FFCA28" stroke="#D99B00" stroke-width="1.3"/>
+
+    <!-- Hand-drawn sketchnote accents -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M4 63 L10 60 M5 70 L11 69" stroke="#49C5B1" stroke-width="2.5"/>
+      <path d="M102 110 L108 107 M105 115 L111 113" stroke="#0078D4" stroke-width="2"/>
+      <path d="M42 10 L46 6 M49 10 L52 7" stroke="#FFCA28" stroke-width="2.5"/>
+    </g>
+
+  </g>
+</svg>

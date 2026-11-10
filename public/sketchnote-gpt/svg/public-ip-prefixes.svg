@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Public IP Prefixes (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="ip1" x1="20" y1="28" x2="20" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="ip2" x1="64" y1="48" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="ip3" x1="108" y1="69" x2="108" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- First IP prefix block -->
+    <path d="M10 30 Q10 26 14 26 L62 26 Q66 26 66 30       L65 69 Q65 73 61 73 L14 73 Q10 73 10 69 Z" fill="url(#ip1)" stroke="#0875A9" stroke-width="3"/>
+
+    <!-- First server header -->
+    <path d="M10 30 Q10 26 14 26 L62 26 Q66 26 66 30       L66 39 L10 39 Z" fill="#767676" stroke="#666666" stroke-width="2.5"/>
+
+    <path d="M19 32 L56 32" stroke="#F2F2F2" stroke-width="3.5"/>
+
+    <!-- Second IP prefix block -->
+    <path d="M32 51 Q32 47 36 47 L84 47 Q88 47 88 51       L87 90 Q87 94 83 94 L36 94 Q32 94 32 90 Z" fill="url(#ip2)" stroke="#0875A9" stroke-width="3"/>
+
+    <!-- Second server header -->
+    <path d="M32 51 Q32 47 36 47 L84 47 Q88 47 88 51       L88 60 L32 60 Z" fill="#767676" stroke="#666666" stroke-width="2.5"/>
+
+    <path d="M41 53 L78 53" stroke="#F2F2F2" stroke-width="3.5"/>
+
+    <!-- Third IP prefix block -->
+    <path d="M54 72 Q54 68 58 68 L106 68 Q110 68 110 72       L109 111 Q109 115 105 115 L58 115 Q54 115 54 111 Z" fill="url(#ip3)" stroke="#0875A9" stroke-width="3"/>
+
+    <!-- Third server header -->
+    <path d="M54 72 Q54 68 58 68 L106 68 Q110 68 110 72       L110 81 L54 81 Z" fill="#767676" stroke="#666666" stroke-width="2.5"/>
+
+    <path d="M63 74 L100 74" stroke="#F2F2F2" stroke-width="3.5"/>
+
+    <!-- IP allocation indicators -->
+    <g fill="#F2F2F2" stroke="#0875A9" stroke-width="1.5">
+      <circle cx="72" cy="98" r="4.5"/>
+      <circle cx="85" cy="98" r="4.5"/>
+      <circle cx="98" cy="98" r="4.5"/>
+    </g>
+
+    <!-- Network address connection -->
+    <path d="M18 82 Q36 94 52 99" fill="none" stroke="#0078D4" stroke-width="3" stroke-dasharray="4 5"/>
+
+    <path d="M38 104 L52 99 L45 90" fill="none" stroke="#0078D4" stroke-width="2.5"/>
+
+    <!-- Yellow allocation highlights -->
+    <path d="M19 43 L25 43 M41 64 L47 64 M63 85 L69 85" fill="none" stroke="#FFCA28" stroke-width="3"/>
+
+    <!-- Sketchnote emphasis marks -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M5 20 L9 15 M5 20 L11 22" stroke="#32BEDD" stroke-width="2.5"/>
+      <path d="M114 55 L120 51 M114 55 L121 57" stroke="#0078D4" stroke-width="2.5"/>
+      <path d="M113 119 L119 116 M119 122 L123 119" stroke="#FFCA28" stroke-width="2.5"/>
+      <path d="M25 113 L30 117 M34 111 L38 115" stroke="#32BEDD" stroke-width="2.5"/>
+    </g>
+
+  </g>
+</svg>
