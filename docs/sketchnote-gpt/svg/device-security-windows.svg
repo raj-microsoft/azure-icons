@@ -1,69 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Device Security Windows (sketch)</title>
-  
-  <desc>Azure-blue security shield protecting a Windows device panel, with uneven marker outlines, handwritten-style details and a transparent background.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Device Security Windows (sketch)</title>
   <defs>
-    <linearGradient id="shieldBlue" x1="13" y1="8" x2="88" y2="104" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#83B9F9"/>
-      <stop offset=".48" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
-    </linearGradient>
-    <linearGradient id="windowBlue" x1="43" y1="60" x2="123" y2="124" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#A5CDFF"/>
-      <stop offset="1" stop-color="#83B9F9"/>
+    <linearGradient id="shieldBlue" x1="11.202" y1="13.906" x2="2.831" y2="-0.576" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="0.998" stop-color="#83b9f9"/>
     </linearGradient>
   </defs>
 
-  <!-- Original shield silhouette -->
-  <path d="M45 6            C52 6 55 9 60 12            Q68 16 85 16            Q89 16 89 21            L89 51            Q89 73 69 92            Q58 102 46 110            Q43 112 40 110            C24 100 10 87 5 70            Q2 61 2 50            L2 21            Q2 16 7 16            C24 16 30 12 36 9            Q40 6 45 6Z" fill="url(#shieldBlue)" stroke="#175A94" stroke-width="4.5"/>
+  <g transform="scale(7.111111)">
+    <!-- Original shield silhouette -->
+    <path d="M12.574,7.01       C12.574,11.046 7.605,14.296 6.525,14.955       A.4,.4 0 0 1 6.113,14.955       C5.032,14.3 .064,11.046 .064,7.01       V2.153       A.39,.39 0 0 1 .448,1.768       C4.312,1.666 3.423,0 6.319,0       S8.325,1.666 12.19,1.768       A.39,.39 0 0 1 12.574,2.153Z" fill="#5ea0ef" stroke="#387fc4" stroke-width=".12" stroke-linejoin="round" stroke-linecap="round"/>
 
-  <!-- Uneven inset shield border -->
-  <path d="M45 12            Q53 12 60 18            Q69 23 82 23            L82 51            Q82 75 62 92            Q54 99 43 104            Q17 88 11 68            Q8 58 9 25            Q29 24 38 16            Q42 12 45 12Z" stroke="#D6EBFF" stroke-width="2.5" opacity=".8"/>
+    <path d="M12.055,7.051       C12.055,10.751 7.499,13.733 6.508,14.337       A.366,.366 0 0 1 6.13,14.337       C5.139,13.733 .583,10.751 .583,7.051       V2.6       A.357,.357 0 0 1 .935,2.247       C4.479,2.15 3.663,.623 6.319,.623       S8.159,2.15 11.7,2.244       A.357,.357 0 0 1 12.055,2.597Z" fill="url(#shieldBlue)" stroke="#2878c0" stroke-width=".075" stroke-linejoin="round" stroke-linecap="round"/>
 
-  <!-- Hand-drawn shield sheen -->
-  <path d="M16 31            Q15 53 19 65            M21 71 Q26 83 36 91" stroke="#BDE1FF" stroke-width="3" opacity=".8"/>
+    <!-- Original Windows device panel -->
+    <path d="M6.13,8.631       H17.548       A.369,.369 0 0 1 17.936,8.978       V17.653       A.369,.369 0 0 1 17.548,18       H6.13       A.369,.369 0 0 1 5.742,17.653       V8.978       A.37,.37 0 0 1 6.13,8.631Z" fill="#83b9f9" stroke="#4389d0" stroke-width=".09" stroke-linejoin="round"/>
 
-  <!-- Security accent -->
-  <path d="M34 49            L42 57            L58 38" stroke="#FFFFFF" stroke-width="5.5" opacity=".9"/>
+    <!-- Panel header -->
+    <path d="M6.108,8.631H17.571       A.348,.348 0 0 1 17.936,8.958       V10.265H5.742V8.958       A.349,.349 0 0 1 6.108,8.631Z" fill="#fff" opacity=".7"/>
 
-  <!-- Windows device panel -->
-  <path d="M43 61            Q43 58 48 58            L121 58            Q125 58 125 62            L125 123            Q125 126 121 126            L47 126            Q43 126 43 122Z" fill="url(#windowBlue)" stroke="#24699D" stroke-width="4"/>
+    <!-- Original device panel indicators -->
+    <g fill="#fff" opacity=".7">
+      <path d="M16.275,13.673H8.749         C8.582,13.673 8.446,13.749 8.446,13.843         V14.263         C8.446,14.357 8.582,14.433 8.749,14.433         H16.275         C16.443,14.433 16.578,14.357 16.578,14.263         V13.843         C16.578,13.749 16.443,13.673 16.275,13.673Z"/>
 
-  <!-- Browser / device header -->
-  <path d="M47 63            Q47 61 50 61            L119 61            Q122 61 122 64            L122 71            L47 71Z" fill="#EAF5FF" stroke="#5EA0EF" stroke-width="1.5"/>
+      <path d="M16.275,11.759H8.749         C8.582,11.759 8.446,11.835 8.446,11.929         V12.349         C8.446,12.443 8.582,12.519 8.749,12.519         H16.275         C16.443,12.519 16.578,12.443 16.578,12.349         V11.929         C16.578,11.835 16.443,11.759 16.275,11.759Z"/>
 
-  <!-- Header marker accent -->
-  <path d="M52 66 L70 66            M77 66 L85 66" stroke="#83B9F9" stroke-width="2.5" opacity=".8"/>
+      <path d="M16.76,16.272H8.733         C8.554,16.272 8.409,16.354 8.409,16.454         V16.902         C8.409,17.002 8.554,17.083 8.733,17.083         H16.76         C16.939,17.083 17.084,17.002 17.084,16.902         V16.454         C17.084,16.354 16.939,16.272 16.76,16.272Z"/>
 
-  <!-- Device security status rows -->
-  <g fill="#F6FBFF" opacity=".9">
-    <path d="M64 80 Q64 78 67 78              L113 78 Q116 78 116 81              Q116 84 113 84              L67 84 Q64 84 64 81Z"/>
-    <path d="M64 93 Q64 91 67 91              L113 91 Q116 91 116 94              Q116 97 113 97              L67 97 Q64 97 64 94Z"/>
-    <path d="M64 110 Q64 107 67 107              L116 107 Q119 107 119 110              Q119 113 116 113              L67 113 Q64 113 64 110Z"/>
+      <circle cx="7.198" cy="12.139" r=".498"/>
+      <circle cx="7.198" cy="14.053" r=".498"/>
+      <circle cx="7.078" cy="16.678" r=".531"/>
+    </g>
   </g>
-
-  <!-- Status bullets -->
-  <g fill="#F6FBFF" stroke="#5EA0EF" stroke-width="1">
-    <path d="M54 78 Q58 77 59 81              Q59 85 55 85              Q51 84 51 81              Q51 79 54 78Z"/>
-    <path d="M54 91 Q58 90 59 94              Q59 98 55 98              Q51 97 51 94              Q51 92 54 91Z"/>
-    <path d="M54 107 Q59 106 59 111              Q59 115 55 115              Q50 114 51 110              Q51 108 54 107Z"/>
-  </g>
-
-  <!-- Sketch highlights -->
-  <path d="M68 81 L91 81            M68 94 L99 94            M68 110 L104 110" stroke="#FFFFFF" stroke-width="1.5" opacity=".75"/>
-
-  <!-- Yellow security verification spark -->
-  <path d="M100 36            L103 43            L110 46            L103 49            L100 56            L97 49            L90 46            L97 43Z" fill="#FFCF45" stroke="#C28D19" stroke-width="1.8"/>
-
-  <!-- Hand-drawn annotation marks -->
-  <path d="M111 35 L116 30            M113 46 L121 46            M108 55 L112 59" stroke="#FFCF45" stroke-width="2.5"/>
-
-  <!-- Sketchnote motion details -->
-  <path d="M5 83 L10 88            M9 95 L14 99            M28 113 L36 117" stroke="#5EA0EF" stroke-width="2.5" opacity=".75"/>
-
-  <!-- Device-edge marker strokes -->
-  <path d="M38 69 L38 79            M38 84 L38 90            M73 123 L88 123" stroke="#0078D4" stroke-width="2" opacity=".55"/>
-
-  <!-- Tiny handwritten-style security ticks -->
-  <path d="M17 8 L22 12            M29 4 L32 9            M73 6 L70 11" stroke="#5EA0EF" stroke-width="2.5"/>
 </svg>

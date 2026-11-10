@@ -1,32 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Security (sketch)</title>
   <defs>
-    <linearGradient id="securityBlue" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="0.45" stop-color="#2E8CE1"/>
-      <stop offset="1" stop-color="#5EA0EF"/>
+    <linearGradient id="shieldBlue" x1="64" y1="119.25" x2="64" y2="8.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".064" stop-color="#0a7cd7"/>
+      <stop offset=".338" stop-color="#2e8ce1"/>
+      <stop offset=".594" stop-color="#4897e9"/>
+      <stop offset=".822" stop-color="#589eed"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
     </linearGradient>
   </defs>
 
-  <!-- Shield silhouette -->
-  <path d="M64 9     C76 9 82 22 112 23     Q116 23 116 28     L116 59     C116 86 85 108 66 120     Q63 122 60 120     C40 108 12 86 12 59     L12 28     Q12 23 17 23     C45 22 51 9 64 9Z" fill="url(#securityBlue)" stroke="#075A9E" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Original filled shield -->
+  <path d="M110.22 60.34        C110.18 90.12 73.52 114.12 65.18 119.05        A.412.412 0 0 1 62.75 119.05        C54.06 114.12 17.78 90.12 17.78 60.34        V24.47        A.4.4 0 0 1 18.18 24.07        C49.19 21.2 42.61 8.57 64 8.57        C85.39 8.57 78.81 21.2 109.82 24.07        A.4.4 0 0 1 110.22 24.47        Z" fill="url(#shieldBlue)"/>
 
-  <!-- Hand-drawn secondary outline -->
-  <path d="M64 15     C76 15 85 27 108 28     L109 59     C108 83 81 103 64 114     C46 103 19 82 19 59     L19 28     C43 27 53 15 64 15Z" fill="none" stroke="#B9E4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 3" opacity="0.75"/>
+  <!-- Left half of the original outer contour -->
+  <path d="M64 9        C42.61 8.57 49.19 21.2 18.18 24.07        A.4.4 0 0 0 17.78 24.47        V60.34        C17.78 90.12 54.06 114.12 62.75 119.05" fill="none" stroke="#0063b1" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Central security emblem -->
-  <path d="M64 39     C73 39 79 45 79 53     L79 62     L85 62     L85 84     Q85 88 81 88     L47 88     Q43 88 43 84     L43 62     L49 62     L49 53     C49 45 55 39 64 39Z" fill="#D8F1FF" stroke="#075A9E" stroke-width="3.5" stroke-linejoin="round"/>
-
-  <path d="M56 62 L56 53     C56 48 59 45 64 45     C69 45 72 48 72 53     L72 62" fill="none" stroke="#0078D4" stroke-width="4" stroke-linecap="round"/>
-
-  <circle cx="64" cy="72" r="4" fill="#0078D4"/>
-  <path d="M64 75 L64 80" stroke="#0078D4" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Yellow sketchnote accents -->
-  <path d="M27 42 L31 39 L35 42" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M91 35 L95 31 L99 35" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M91 97 L96 93" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Marker-style hand-drawn details -->
-  <path d="M24 57 Q23 70 30 79" fill="none" stroke="#A8D9FF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
-  <path d="M99 65 Q97 78 91 83" fill="none" stroke="#A8D9FF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <!-- Right half of the original outer contour -->
+  <path d="M64 9        C85.39 8.57 78.81 21.2 109.82 24.07        A.4.4 0 0 1 110.22 24.47        V60.34        C110.18 90.12 73.52 114.12 65.18 119.05" fill="none" stroke="#0063b1" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

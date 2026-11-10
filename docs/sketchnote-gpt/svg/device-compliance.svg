@@ -1,59 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Device Compliance (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Device Compliance (sketch)</title>
   <defs>
-    <linearGradient id="deviceBlue" x1="45" y1="5" x2="45" y2="122" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#5EA0EF"/>
-      <stop offset=".5" stop-color="#3990E4"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="deviceBlue" x1="6.36" y1="22.03" x2="6.36" y2="-1.85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".17" stop-color="#1c84dc"/>
+      <stop offset=".38" stop-color="#3990e4"/>
+      <stop offset=".59" stop-color="#4d99ea"/>
+      <stop offset=".8" stop-color="#5a9eee"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
     </linearGradient>
-    <linearGradient id="screen" x1="45" y1="17" x2="45" y2="107" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F0FFFD"/>
-      <stop offset="1" stop-color="#D2EBFF"/>
+    <linearGradient id="deviceScreen" x1="6.36" y1="15.59" x2="6.36" y2="1.94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d2ebff"/>
+      <stop offset="1" stop-color="#f0fffd"/>
     </linearGradient>
   </defs>
 
-  <!-- Hand-drawn smartphone silhouette -->
-  <path d="M14 5            Q14 3 19 3            L77 4            Q81 4 81 9            L81 117            Q81 122 76 122            L18 122            Q13 122 13 117            L13 10            Q13 6 14 5Z" fill="url(#deviceBlue)" stroke="#174F82" stroke-width="4.5"/>
+  <g transform="scale(7.111111)">
+    <!-- Original device outer body -->
+    <rect x="1.28" y=".5" width="10.17" height="16.99" rx=".51" fill="url(#deviceBlue)" stroke="#0063ad" stroke-width=".1" stroke-linejoin="round"/>
 
-  <!-- Slightly uneven inner marker line -->
-  <path d="M18 10 L18 115            Q18 118 22 118" stroke="#8CC5F5" stroke-width="2" opacity=".8"/>
+    <!-- Bottom speaker / button -->
+    <rect x="5.79" y="16.17" width="1.14" height=".97" rx=".27" fill="#f2f2f2"/>
 
-  <!-- Display -->
-  <path d="M21 15            Q21 13 24 13            L70 14            Q73 14 73 17            L73 105            Q73 108 70 108            L24 108            Q21 108 21 105Z" fill="url(#screen)" stroke="#0078D4" stroke-width="2.5"/>
+    <!-- Top earpiece -->
+    <rect x="5.19" y="1.07" width="2.34" height=".31" rx=".15" fill="#f2f2f2"/>
 
-  <!-- Screen highlight -->
-  <path d="M26 20 L26 89            M30 20 L65 20" stroke="#FFFFFF" stroke-width="2" opacity=".75"/>
+    <!-- Blank device display: intentionally no text or lines -->
+    <rect x="2.23" y="1.94" width="8.26" height="13.65" rx=".19" opacity=".9" fill="url(#deviceScreen)" stroke="#b9d9f2" stroke-width=".045"/>
 
-  <!-- Earpiece -->
-  <path d="M40 9 Q47 8 55 9" stroke="#EAF6FF" stroke-width="3.5"/>
+    <!-- Original green compliance badge -->
+    <rect x="9.2" y="9.98" width="7.52" height="7.52" rx=".28" fill="#76bc2d" stroke="#579c20" stroke-width=".09" stroke-linejoin="round"/>
 
-  <!-- Home button -->
-  <path d="M44 112            Q48 110 52 113            L52 117            Q48 119 44 116Z" fill="#F2F2F2" stroke="#174F82" stroke-width="1.5"/>
+    <!-- Original white checkmark -->
+    <path d="M10.9 13.22h.61a.19.19 0 0 1 .19.19v2.44a.19.19 0 0 1-.19.19h-.43a.19.19 0 0 1-.19-.19v-2.63Z" transform="translate(29.63 16.98) rotate(135)" fill="#fff"/>
 
-  <!-- Compliance status panel -->
-  <path d="M68 68            Q68 66 72 66            L114 67            Q118 67 118 71            L118 115            Q118 119 114 119            L72 119            Q68 119 68 115Z" fill="#76BC2D" stroke="#356B16" stroke-width="4.5"/>
-
-  <!-- Marker-style secondary outline -->
-  <path d="M73 72 L111 72            Q114 72 114 76            L114 110" stroke="#A7D966" stroke-width="2.5" opacity=".85"/>
-
-  <!-- Large hand-drawn compliance check -->
-  <path d="M79 92            Q84 97 89 102            Q91 104 94 101            L109 82" stroke="#356B16" stroke-width="11"/>
-
-  <path d="M79 90            Q84 95 90 101            Q92 102 94 99            L109 80" stroke="#FFFFFF" stroke-width="8"/>
-
-  <!-- Subtle hand-drawn check highlight -->
-  <path d="M82 89 L90 97            M98 94 L107 82" stroke="#F6FFF0" stroke-width="2" opacity=".75"/>
-
-  <!-- Sketchnote status rays -->
-  <path d="M91 60 L91 54            M102 62 L106 56            M115 63 L120 59" stroke="#76BC2D" stroke-width="2.5"/>
-
-  <!-- Small yellow verification accent -->
-  <path d="M104 49 L106 54            L111 56            L106 58            L104 63            L102 58            L97 56            L102 54Z" fill="#FFCF45" stroke="#C28D19" stroke-width="1.5"/>
-
-  <!-- Hand-drawn device interface details -->
-  <path d="M32 39 L59 39            M32 46 L54 46            M32 53 L61 53" stroke="#5EA0EF" stroke-width="2.5" opacity=".65"/>
-
-  <path d="M32 72 L51 72            M32 79 L57 79" stroke="#0078D4" stroke-width="2" stroke-dasharray="5 4" opacity=".45"/>
-
-  <!-- Marker accent strokes -->
-  <path d="M7 32 L7 43            M7 49 L7 55            M25 126 L38 126            M43 126 L50 126" stroke="#5EA0EF" stroke-width="2.5" opacity=".7"/>
+    <path d="M13.61 10.66h.61v5.6a.19.19 0 0 1-.19.19h-.43a.19.19 0 0 1-.19-.19v-5.41a.19.19 0 0 1 .19-.19Z" transform="translate(14 32.92) rotate(-135)" fill="#fff"/>
+  </g>
 </svg>

@@ -1,84 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Batch AI (sketch)</title>
-  
-  <desc>Hand-drawn Azure-blue light bulb with branching neural-network connections, white circuit details, a grey metallic base, and subtle yellow marker accents. Transparent background.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Batch AI (sketch)</title>
   <defs>
-    <radialGradient id="batchBulb" cx="60" cy="40" r="57" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6BB9F2"/>
-      <stop offset=".45" stop-color="#55AEF0"/>
-      <stop offset="1" stop-color="#1B93EB"/>
+    <radialGradient id="bulb" cx="8.95" cy="6.18" r="5.51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6bb9f2"/>
+      <stop offset=".2" stop-color="#65b6f1"/>
+      <stop offset=".45" stop-color="#55aef0"/>
+      <stop offset=".74" stop-color="#3aa2ee"/>
+      <stop offset="1" stop-color="#1b93eb"/>
     </radialGradient>
-    <linearGradient id="batchBase" x1="64" y1="96" x2="64" y2="125" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#CCCCCC"/>
-      <stop offset=".55" stop-color="#A3A3A3"/>
-      <stop offset="1" stop-color="#777777"/>
+    <linearGradient id="branch-white" x1="5.67" y1="0" x2="5.67" y2="12.53" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ccc"/>
     </linearGradient>
   </defs>
 
-  <!-- Main hand-drawn light-bulb silhouette -->
-  <path d="M64 8            C43 7 27 19 23 39            C18 59 27 72 37 84            C43 91 47 99 48 103            Q49 107 53 107            L75 107            Q79 107 80 103            C83 91 91 83 98 73            C107 61 108 44 101 29            C94 15 80 8 64 8Z" fill="url(#batchBulb)" stroke="#1769AE" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
 
-  <!-- Irregular inner marker reflection -->
-  <path d="M32 41            C35 25 46 17 61 16            Q72 14 82 21" stroke="#C4EAFF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+    <!-- Original bulb silhouette -->
+    <path d="M9 .5       A5.85 5.85 0 0 0 3.13 7       C3.40 9.45 5.74 10.59 6.40 13.70       A.48 .48 0 0 0 6.87 14.08       H11.13       A.48 .48 0 0 0 11.60 13.70       C12.26 10.59 14.60 9.45 14.87 7       A5.85 5.85 0 0 0 9 .5 Z" fill="url(#bulb)" stroke="#238dcc" stroke-width=".09"/>
 
-  <path d="M29 49 Q27 61 35 72" stroke="#B4E3FF" stroke-width="2.3" stroke-linecap="round" opacity=".7"/>
+    <!-- Original screw/base -->
+    <path d="M10.86 16.49       L10.01 17.38       A.4 .4 0 0 1 9.72 17.5       H8.28       A.4 .4 0 0 1 7.99 17.38       L7.14 16.49       A.42 .42 0 0 1 7.02 16.19       V14.1 H10.98 V16.19       A.42 .42 0 0 1 10.86 16.49 Z" fill="#a3a3a3" stroke="#888" stroke-width=".07"/>
 
-  <!-- Central AI neural stem -->
-  <path d="M64 16            Q63 38 64 57            L64 104" stroke="#F2F2F2" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original upper-right branching neural path -->
+    <path d="M13.33 2.58       L12.33 3.58       A.14 .14 0 0 1 12.18 3.60       L10.89 3.17       A.16 .16 0 0 0 10.71 3.26       L10.58 3.65       A.15 .15 0 0 0 10.67 3.83       L12 4.30       A.16 .16 0 0 1 12.09 4.39       L12.54 5.74       A.15 .15 0 0 0 12.72 5.83       L13.11 5.70       A.16 .16 0 0 0 13.20 5.52       L12.77 4.23       A.14 .14 0 0 1 12.80 4.08       L13.80 3.08       A.15 .15 0 0 0 13.80 2.89       Z" fill="#f2f2f2"/>
 
-  <!-- Left neural branches -->
-  <path d="M64 51            L48 43            L40 43            M64 73            L48 65            L39 76" stroke="#F2F2F2" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Central branching neural structure: exact original connected paths -->
+    <path d="M10.70 11.79       L10.64 11.67       A.28 .28 0 0 0 10.26 11.55       L9.43 12 V7       L10.58 6.43       A.28 .28 0 0 0 10.70 6.05       L10.64 5.93       A.28 .28 0 0 0 10.26 5.80       L9.43 6.23       V.91       A.42 .42 0 0 1 9.65 .54       A5.3 5.3 0 0 0 8.35 .54       A.42 .42 0 0 1 8.57 .91       V6.23       L7.74 5.81       A.28 .28 0 0 0 7.36 5.94       L7.30 6.06       A.28 .28 0 0 0 7.42 6.44       L8.57 7 V12       L7.74 11.58       A.28 .28 0 0 0 7.36 11.70       L7.30 11.82       A.28 .28 0 0 0 7.42 12.20       L8.57 12.77       V13.77       A.42 .42 0 0 1 8.36 14.14       H9.64       A.42 .42 0 0 1 9.43 13.77       V12.77       L10.58 12.20       A.28 .28 0 0 0 10.70 11.79 Z" fill="#f2f2f2"/>
 
-  <!-- Right neural branches -->
-  <path d="M64 51            L80 43            L88 33            M64 73            L81 64            L89 73" stroke="#F2F2F2" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original upper-left branching path -->
+    <path d="M6.79 3.24       L5.71 3.60       A.31 .31 0 0 1 5.42 3.53       L4.69 2.80       A.28 .28 0 0 0 4.27 2.80       L4.19 2.90       A.29 .29 0 0 0 4.19 3.27       L4.93 4       A.29 .29 0 0 1 5 4.31       L4.64 5.38       A.28 .28 0 0 0 4.82 5.74       L4.94 5.78       A.29 .29 0 0 0 5.30 5.61       L5.68 4.46       A.29 .29 0 0 1 5.86 4.28       L7 3.90       A.28 .28 0 0 0 7.18 3.54       L7.14 3.42       A.28 .28 0 0 0 6.79 3.24 Z" fill="url(#branch-white)"/>
 
-  <!-- Upper-left neural network junction -->
-  <path d="M40 43            L34 33            M40 43            L32 52" stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round"/>
+    <!-- Original right-side branch -->
+    <path d="M12.57 8.64       L12.43 7.09       L11.74 7.16       L11.88 8.78       L10.67 9.87       L11.14 10.39       L12.35 9.30       L13.62 9.79       C13.76 9.59 13.89 9.39 14.02 9.19       Z" fill="#f2f2f2"/>
 
-  <!-- Upper-right neural network junction -->
-  <path d="M88 33            L98 28            M88 33            L97 42" stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round"/>
+    <!-- Original left-side branch -->
+    <path d="M7.12 9.68       L6.22 8.88       A.27 .27 0 0 1 6.13 8.64       L6.23 7.44       A.28 .28 0 0 0 5.97 7.13       H5.85       A.28 .28 0 0 0 5.54 7.39       L5.44 8.47       A.27 .27 0 0 1 5.26 8.71       L4.26 9.08       A.27 .27 0 0 0 4.13 9.50       L4.20 9.61       A.30 .30 0 0 0 4.54 9.72       L5.44 9.37       A.26 .26 0 0 1 5.73 9.43       L6.60 10.21       A.27 .27 0 0 0 7 10.20       L7.09 10.10       A.28 .28 0 0 0 7.12 9.68 Z" fill="#f2f2f2"/>
 
-  <!-- Lower-left neural network junction -->
-  <path d="M39 76            L29 81            M39 76            L38 63" stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round"/>
+    <!-- Original base adjustment marks -->
+    <path d="M11 15.31 L7 16.13 V16.19       A.42 .42 0 0 0 7.12 16.49       L7.15 16.52 L11 15.74 Z" fill="#e6e6e6"/>
+    <path d="M7.01 15.57 L10.98 14.75 V14.32 L7.01 15.14 Z" fill="#e6e6e6"/>
 
-  <!-- Lower-right neural network junction -->
-  <path d="M89 73            L100 80            M89 73            L90 59" stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round"/>
-
-  <!-- AI circuit nodes -->
-  <circle cx="64" cy="51" r="4" fill="#FFFFFF" stroke="#278DD8" stroke-width="2"/>
-
-  <circle cx="64" cy="73" r="4" fill="#FFFFFF" stroke="#278DD8" stroke-width="2"/>
-
-  <circle cx="40" cy="43" r="3.6" fill="#FFFFFF" stroke="#278DD8" stroke-width="1.8"/>
-
-  <circle cx="88" cy="33" r="3.6" fill="#FFFFFF" stroke="#278DD8" stroke-width="1.8"/>
-
-  <circle cx="39" cy="76" r="3.6" fill="#FFFFFF" stroke="#278DD8" stroke-width="1.8"/>
-
-  <circle cx="89" cy="73" r="3.6" fill="#FFFFFF" stroke="#278DD8" stroke-width="1.8"/>
-
-  <!-- Small hand-drawn AI signal accents -->
-  <path d="M49 29 L53 24            M76 85 L82 90" stroke="#E3F6FF" stroke-width="2.4" stroke-linecap="round" opacity=".85"/>
-
-  <!-- Metallic bulb socket -->
-  <path d="M48 105            L80 105            L80 116            Q80 119 77 121            L72 125            Q71 126 68 126            L60 126            Q57 126 56 125            L51 121            Q48 119 48 116Z" fill="url(#batchBase)" stroke="#777777" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Hand-drawn socket threads -->
-  <path d="M51 109            Q64 107 78 109            M50 115            Q64 113 78 115            M55 121            Q64 119 73 121" stroke="#E6E6E6" stroke-width="2.6" stroke-linecap="round"/>
-
-  <!-- Socket shadow details -->
-  <path d="M76 107 L76 115" stroke="#777777" stroke-width="2" stroke-linecap="round" opacity=".65"/>
-
-  <path d="M54 108 L54 115" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" opacity=".75"/>
-
-  <!-- Yellow sketchnote sparkle -->
-  <path d="M111 30 L117 23            M114 40 L124 38            M105 24 L105 16" stroke="#F5C84C" stroke-width="3.3" stroke-linecap="round"/>
-
-  <!-- Left-side handwritten emphasis -->
-  <path d="M13 34 L7 29            M12 44 L4 44" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
-
-  <!-- Small sketch underline -->
-  <path d="M84 113 Q96 109 104 103" stroke="#F5C84C" stroke-width="2.7" stroke-linecap="round"/>
-
-  <path d="M99 102            L105 103            L103 109" stroke="#F5C84C" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>

@@ -1,65 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azurite (sketch)</title>
-  
-  <desc>Hand-drawn Azure-blue application window with an overlapping cyan terminal, white command prompt symbols, uneven marker outlines, and subtle yellow accents. Transparent background.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azurite (sketch)</title>
   <defs>
-    <linearGradient id="azuriteBlue" x1="56" y1="26" x2="56" y2="93" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="browserBlue" x1="7.955" y1="3.547" x2="7.955" y2="12.614" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
     </linearGradient>
-    <linearGradient id="azuriteCyan" x1="92" y1="68" x2="92" y2="119" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#50E6FF"/>
-      <stop offset="1" stop-color="#32BEDD"/>
+    <linearGradient id="cacheCyan" x1="13.499" y1="8.479" x2="13.499" y2="18.277" gradientUnits="userSpaceOnUse">
+      <stop offset=".232" stop-color="#50e6ff"/>
+      <stop offset="1" stop-color="#32bedd"/>
     </linearGradient>
   </defs>
 
-  <!-- Main Azure application window -->
-  <path d="M9 12            Q9 9 13 9            L106 9            Q111 9 111 14            L111 85            Q111 89 106 89            L13 89            Q8 89 8 85Z" fill="url(#azuriteBlue)" stroke="#1767A8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)">
+    <!-- Original browser body -->
+    <path d="M15.91 3.547v8.558a.52.52 0 0 1-.531.5H.531A.514.514 0 0 1 0 12.093V3.547Z" fill="url(#browserBlue)"/>
 
-  <!-- Dark Azure title bar -->
-  <path d="M9 14            Q9 9 14 9            L106 9            Q111 9 111 14            L111 32            Q60 33 9 32Z" fill="#0078D4" stroke="#1767A8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original browser header -->
+    <path d="M15.91 3.547H0V.791A.514.514 0 0 1 .531.279h14.835a.513.513 0 0 1 .53.512Z" fill="#0078d4"/>
 
-  <!-- Uneven toolbar divider -->
-  <path d="M13 33 Q59 34 107 32" stroke="#B7DEFF" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+    <!-- Original white right edge -->
+    <path d="M15.91 7.6v4.619a.519.519 0 0 1-.531.5h.531Z" fill="#fff"/>
 
-  <!-- White address / toolbar field -->
-  <path d="M25 17            Q25 15 28 15            L94 15            Q97 15 97 18            L97 24            Q97 27 94 27            L28 27            Q25 27 25 24Z" fill="#F2F2F2" stroke="#CDE9FF" stroke-width="1.8" stroke-linejoin="round"/>
+    <!-- Original cyan terminal square -->
+    <path d="M17.022 17.72H9.975A.983.983 0 0 1 9 16.742V9.711a.983.983 0 0 1 .978-.978H17.025A.978.978 0 0 1 18 9.711v7.032a.978.978 0 0 1-.978.977Z" fill="url(#cacheCyan)"/>
 
-  <!-- Subtle toolbar marker reflection -->
-  <path d="M31 19 L69 19" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".85"/>
-
-  <!-- Hand-drawn left screen highlight -->
-  <path d="M15 40            L15 78            Q15 83 21 83" stroke="#B9E1FF" stroke-width="2.6" stroke-linecap="round" opacity=".75"/>
-
-  <!-- Slightly imperfect window contour -->
-  <path d="M22 85 Q42 87 62 85" stroke="#D8F0FF" stroke-width="2" stroke-linecap="round" opacity=".55"/>
-
-  <!-- Minimal application sketch details -->
-  <path d="M24 48 L49 48            M24 57 L60 57            M24 66 L42 66" stroke="#C9E7FF" stroke-width="2.8" stroke-linecap="round" opacity=".55"/>
-
-  <!-- Overlapping cyan terminal panel -->
-  <path d="M68 62            Q68 57 73 57            L117 57            Q122 57 122 62            L122 115            Q122 120 117 120            L73 120            Q68 120 68 115Z" fill="url(#azuriteCyan)" stroke="#168DAF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Terminal inner marker contour -->
-  <path d="M74 66            L74 111            Q74 114 78 114            L114 114" stroke="#B8F5FF" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
-
-  <!-- Command prompt chevron -->
-  <path d="M81 78            L94 91            L81 104" stroke="#FFFFFF" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Terminal underscore -->
-  <path d="M99 105            Q107 104 115 105" stroke="#FFFFFF" stroke-width="5.3" stroke-linecap="round"/>
-
-  <!-- Small hand-inked command highlights -->
-  <path d="M83 81 L90 88            M100 101 L109 101" stroke="#E8FCFF" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
-
-  <!-- Restrained yellow sketchnote sparkle -->
-  <path d="M116 29 L120 21            M118 37 L125 34            M110 27 L108 21" stroke="#F5C84C" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Handwritten-style emphasis arrow -->
-  <path d="M15 104            Q32 113 52 105" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
-
-  <path d="M45 101            L53 105            L47 111" stroke="#F5C84C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Subtle lower sketch underline -->
-  <path d="M81 124 Q99 126 115 123" stroke="#2A80C2" stroke-width="1.9" stroke-linecap="round" opacity=".5"/>
+    <!-- Original white compound detail: address bar and terminal prompt -->
+    <path d="M13.5 2.563H2.409a.269.269 0 0 1-.272-.263V1.5a.268.268 0 0 1 .272-.262H13.5a.268.268 0 0 1 .272.262v.814a.267.267 0 0 1-.272.249Z       M12.756 13.037l-1.9-1.9a.117.117 0 0 0-.165 0l-.257.258a.117.117 0 0 0 0 .165l1.65 1.645-1.614 1.619a.116.116 0 0 0 0 .164l.259.258a.115.115 0 0 0 .164 0l1.87-1.875a.245.245 0 0 0-.007-.334Z       M16.396 14.646h-2.92a.2.2 0 0 0-.2.2v.3a.2.2 0 0 0 .2.2h2.92a.2.2 0 0 0 .2-.2v-.3a.2.2 0 0 0-.2-.2Z" fill="#fff"/>
+  </g>
 </svg>

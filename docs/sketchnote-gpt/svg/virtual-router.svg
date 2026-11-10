@@ -1,55 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Router (sketch)</title>
   <defs>
-    <linearGradient id="routerBlue" x1="0" y1="1" x2="1" y2="0">
+    <linearGradient id="router-blue" x1="9" y1="17.329" x2="9" y2=".671" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#005ba1"/>
-      <stop offset=".45" stop-color="#006fc3"/>
+      <stop offset=".15" stop-color="#0063af"/>
+      <stop offset=".439" stop-color="#006fc3"/>
+      <stop offset=".724" stop-color="#0076d0"/>
       <stop offset="1" stop-color="#0078d4"/>
     </linearGradient>
   </defs>
 
-  <!-- Circular router body -->
-  <circle cx="64" cy="64" r="55" fill="url(#routerBlue)" stroke="#004578" stroke-width="4" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
 
-  <!-- Inner circular highlight -->
-  <circle cx="64" cy="64" r="47" fill="none" stroke="#50e6ff" stroke-width="2" opacity=".65"/>
+    <!-- Original circular silhouette -->
+    <circle cx="9" cy="9" r="8.329" fill="url(#router-blue)" stroke="#005ba1" stroke-width=".16"/>
 
-  <!-- Top directional arrow -->
-  <path d="M64 18     L82 36     Q84 39 80 39     L70 39     L70 57     Q70 60 67 60     L61 60     Q58 60 58 57     L58 39     L48 39     Q44 39 47 36 Z" fill="#9cebff" stroke="#d8f7ff" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Top inward-pointing arrow -->
+    <path d="M6.6,4.138l2.3-2.3a.273.273,0,0,1,.387,0l2.3,2.3a.122.122,0,0,1-.086.209H10.086a.122.122,0,0,0-.122.123V7.343a.1.1,0,0,1-.1,.1H8.321a.1.1,0,0,1-.1-.1V4.47A.122.122,0,0,0,8.1,4.347H6.687A.123.123,0,0,1,6.6,4.138Z" fill="#9cebff" stroke="#8bdcf5" stroke-width=".09"/>
 
-  <!-- Bottom directional arrow -->
-  <path d="M64 110     L46 92     Q44 89 48 89     L58 89     L58 71     Q58 68 61 68     L67 68     Q70 68 70 71     L70 89     L80 89     Q84 89 81 92 Z" fill="#9cebff" stroke="#d8f7ff" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Bottom inward-pointing arrow -->
+    <path d="M11.586,13.862l-2.3,2.3a.273.273,0,0,1-.387,0l-2.3-2.3a.123.123,0,0,1,.087-.209H8.1a.122.122,0,0,0,.122-.123V10.657a.1.1,0,0,1,.1-.1H9.866a.1.1,0,0,1,.1.1V13.53a.122.122,0,0,0,.122.123H11.5A.122.122,0,0,1,11.586,13.862Z" fill="#9cebff" stroke="#8bdcf5" stroke-width=".09"/>
 
-  <!-- Right directional arrow -->
-  <path d="M110 64     L92 46     Q89 44 89 48     L89 58     L71 58     Q68 58 68 61     L68 67     Q68 70 71 70     L89 70     L89 80     Q89 84 92 81 Z" fill="#f2f2f2" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Right inward-pointing arrow -->
+    <path d="M12.884,11.513l-2.3-2.3a.273.273,0,0,1,0-.387l2.3-2.3a.122.122,0,0,1,.209.086V8.027a.123.123,0,0,0,.122.123h2.874a.1.1,0,0,1,.1,.1V9.792a.1.1,0,0,1-.1,.1H13.215a.122.122,0,0,0-.122.122v1.414A.123.123,0,0,1,12.884,11.513Z" fill="#f2f2f2" stroke="#ffffff" stroke-width=".09"/>
 
-  <!-- Left directional arrow -->
-  <path d="M18 64     L36 82     Q39 84 39 80     L39 70     L57 70     Q60 70 60 67     L60 61     Q60 58 57 58     L39 58     L39 48     Q39 44 36 47 Z" fill="#f2f2f2" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round"/>
-
-  <!-- Central routing hub -->
-  <circle cx="64" cy="64" r="12" fill="#005ba1" stroke="#c3f1ff" stroke-width="3"/>
-
-  <circle cx="64" cy="64" r="5" fill="#ffca28" stroke="#fff2bd" stroke-width="1.5"/>
-
-  <!-- Network activity accents -->
-  <g fill="none" stroke="#ffca28" stroke-width="3" stroke-linecap="round">
-    <path d="M25 26 L19 20"/>
-    <path d="M103 25 L109 19"/>
-    <path d="M104 103 L110 109"/>
-    <path d="M24 104 L18 110"/>
-  </g>
-
-  <!-- Marker-style sketch details -->
-  <g fill="none" stroke="#c3f1ff" stroke-width="2" stroke-linecap="round">
-    <path d="M42 17 Q54 12 67 13"/>
-    <path d="M111 58 Q114 69 109 80"/>
-    <path d="M49 112 Q64 117 79 111"/>
-  </g>
-
-  <!-- Small connection marks -->
-  <g fill="#50e6ff">
-    <circle cx="64" cy="10" r="2"/>
-    <circle cx="118" cy="64" r="2"/>
-    <circle cx="64" cy="118" r="2"/>
-    <circle cx="10" cy="64" r="2"/>
+    <!-- Left inward-pointing arrow -->
+    <path d="M5.116,6.527l2.3,2.3a.273.273,0,0,1,0,.387l-2.3,2.3a.123.123,0,0,1-.209-.087V10.012a.122.122,0,0,0-.122-.122H1.911a.1.1,0,0,1-.1-.1V8.247a.1.1,0,0,1,.1-.1H4.785a.123.123,0,0,0,.122-.123V6.613A.122.122,0,0,1,5.116,6.527Z" fill="#f2f2f2" stroke="#ffffff" stroke-width=".09"/>
   </g>
 </svg>

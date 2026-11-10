@@ -1,71 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>pubsub (sketch)</title>
   <defs>
-    <linearGradient id="pubBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#168FE0"/>
-      <stop offset="1" stop-color="#0067B9"/>
+    <linearGradient id="nodeTL" x1="4.27" y1="1.31" x2="4.27" y2="7.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset=".12" stop-color="#d7d7d7"/>
+      <stop offset=".42" stop-color="#ebebeb"/>
+      <stop offset=".72" stop-color="#f8f8f8"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
     </linearGradient>
-    <linearGradient id="pubNode" x1="0" y1="0" x2=".8" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset=".55" stop-color="#EBEBEB"/>
-      <stop offset="1" stop-color="#CCCCCC"/>
+    <linearGradient id="nodeTR" x1="13.73" y1="2.5" x2="13.73" y2="6.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset=".12" stop-color="#d7d7d7"/>
+      <stop offset=".42" stop-color="#ebebeb"/>
+      <stop offset=".72" stop-color="#f8f8f8"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+    <linearGradient id="nodeBL" x1="4.27" y1="11.96" x2="4.27" y2="15.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset=".12" stop-color="#d7d7d7"/>
+      <stop offset=".42" stop-color="#ebebeb"/>
+      <stop offset=".72" stop-color="#f8f8f8"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+    <linearGradient id="nodeBR" x1="13.73" y1="11.96" x2="13.73" y2="15.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset=".12" stop-color="#d7d7d7"/>
+      <stop offset=".42" stop-color="#ebebeb"/>
+      <stop offset=".72" stop-color="#f8f8f8"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
     </linearGradient>
   </defs>
 
-  <!-- Main messaging fabric square -->
-  <rect x="9" y="9" width="110" height="110" rx="9" fill="url(#pubBlue)" stroke="#005A9E" stroke-width="3.5"/>
+  <g transform="scale(7.111111)">
+    <!-- Original square blue field -->
+    <path d="M1.31 .12h15.38c.65 0 1.18.53 1.18 1.19v15.38c0 .65-.53 1.18-1.18 1.18H1.31c-.65 0-1.18-.53-1.18-1.18V1.31C.12.65.65.12 1.31.12Z" fill="#0078d7" stroke="#0068b8" stroke-width=".09" stroke-linejoin="round"/>
 
-  <!-- Central publish-subscribe distribution lines -->
-  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M64 12 L64 116" stroke-width="7" opacity=".9"/>
-    <path d="M12 64 L116 64" stroke-width="7" opacity=".9"/>
-    <path d="M30 30 L98 98" stroke-width="6" opacity=".9"/>
-    <path d="M30 98 L98 30" stroke-width="6" opacity=".9"/>
-  </g>
+    <!-- Original asymmetric four-node branching paths -->
+    <path d="M9.59 8.41V.12H8.41v8.28H.12v1.18h8.28v8.28h1.18v-8.28h8.28V8.41Z" fill="#fff" opacity=".8"/>
 
-  <!-- Central message exchange point -->
-  <circle cx="64" cy="64" r="13" fill="#FFFFFF" stroke="#005A9E" stroke-width="3"/>
-  <circle cx="64" cy="64" r="6" fill="#32BEDD"/>
+    <path d="M3.68 14.33V3.68h1.18v10.65Z" fill="#fff"/>
+    <path d="M4.14 4.98l.84-.84 8.88 8.88-.84.84Z" fill="#fff"/>
+    <path d="M14.33 4.86H4.86V3.68h9.47Z" fill="#fff"/>
 
-  <!-- Publisher and subscriber nodes -->
-  <g stroke="#005A9E" stroke-width="3">
-    <circle cx="30" cy="30" r="18" fill="url(#pubNode)"/>
-    <circle cx="98" cy="30" r="12" fill="url(#pubNode)"/>
-    <circle cx="30" cy="98" r="12" fill="url(#pubNode)"/>
-    <circle cx="98" cy="98" r="12" fill="url(#pubNode)"/>
-  </g>
-
-  <!-- Node inner highlights -->
-  <g fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round">
-    <path d="M21 23 Q28 17 36 22"/>
-    <path d="M93 25 Q98 21 103 25"/>
-    <path d="M25 94 Q29 90 34 94"/>
-    <path d="M93 94 Q98 90 103 94"/>
-  </g>
-
-  <!-- Directional message arrows -->
-  <g fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M43 64 L54 64 M49 59 L54 64 L49 69"/>
-    <path d="M85 64 L74 64 M79 59 L74 64 L79 69"/>
-    <path d="M64 43 L64 54 M59 49 L64 54 L69 49"/>
-    <path d="M64 85 L64 74 M59 79 L64 74 L69 79"/>
-  </g>
-
-  <!-- Yellow message activity accents -->
-  <g fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round">
-    <path d="M15 20 L10 15"/>
-    <path d="M110 17 L116 12"/>
-    <path d="M112 108 L118 113"/>
-    <path d="M17 111 L12 116"/>
-    <path d="M64 3 L64 7"/>
-  </g>
-
-  <!-- Hand-drawn sketchnote finishing details -->
-  <g fill="none" stroke-linecap="round">
-    <path d="M17 45 Q20 48 23 49" stroke="#A9DEFF" stroke-width="2"/>
-    <path d="M104 48 Q109 45 112 42" stroke="#A9DEFF" stroke-width="2"/>
-    <path d="M18 82 Q22 79 25 82" stroke="#50E6FF" stroke-width="2"/>
-    <path d="M103 83 Q108 80 112 83" stroke="#50E6FF" stroke-width="2"/>
-    <path d="M43 111 Q49 115 54 113" stroke="#50E6FF" stroke-width="2"/>
-    <path d="M76 13 Q82 10 87 13" stroke="#A9DEFF" stroke-width="2"/>
+    <!-- Four original nodes, retaining their unequal sizes and positions -->
+    <circle cx="4.27" cy="4.27" r="2.96" fill="url(#nodeTL)" stroke="#d0d0d0" stroke-width=".055"/>
+    <circle cx="13.73" cy="4.27" r="1.77" fill="url(#nodeTR)" stroke="#d0d0d0" stroke-width=".055"/>
+    <circle cx="4.27" cy="13.73" r="1.77" fill="url(#nodeBL)" stroke="#d0d0d0" stroke-width=".055"/>
+    <circle cx="13.73" cy="13.73" r="1.77" fill="url(#nodeBR)" stroke="#d0d0d0" stroke-width=".055"/>
   </g>
 </svg>

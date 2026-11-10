@@ -1,58 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Support Center Blue (sketch)</title>
-  
-  <desc>Hand-drawn three-dimensional Azure Support Center puzzle cube with a violet top, Azure-blue side panels, interlocking puzzle tabs, irregular marker outlines and subtle yellow accents.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Support Center Blue (sketch)</title>
   <defs>
-    <linearGradient id="supportPurple" x1="64" y1="7" x2="64" y2="67" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#A67AF4"/>
-      <stop offset="1" stop-color="#773ADC"/>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".225" stop-color="#a67af4"/>
+      <stop offset="1" stop-color="#773adc"/>
     </linearGradient>
-    <linearGradient id="supportLeft" x1="15" y1="44" x2="69" y2="120" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
-    </linearGradient>
-    <linearGradient id="supportRight" x1="76" y1="48" x2="114" y2="117" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="lower" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".215" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
     </linearGradient>
   </defs>
 
-  <!-- Left face: blue puzzle panel -->
-  <path d="M12 38            L30 49            C25 51 23 55 24 60            C25 66 32 69 37 66            C40 64 42 61 42 57            L59 67            L59 87            C62 84 66 83 70 85            C75 87 77 93 74 98            C71 103 65 104 60 101            L60 121            Q60 125 56 123            L13 98            Q10 97 10 93            L10 41            Q10 37 12 38Z" fill="url(#supportLeft)" stroke="#175E9D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
 
-  <!-- Right face: complementary puzzle panel -->
-  <path d="M68 67            L85 57            C82 54 81 50 83 46            C86 41 93 40 97 44            C100 47 101 50 100 53            L114 44            Q118 42 118 47            L118 94            Q118 98 115 100            L69 125            Q65 127 65 122            L65 101            C70 104 76 102 79 98            C82 93 80 87 75 85            C71 83 68 84 65 87            L65 72            Q65 69 68 67Z" fill="url(#supportRight)" stroke="#175E9D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Upper puzzle piece: original outer contour and interlocking edge -->
+    <path d="M13.755 5.992       C13.710 5.817 13.648 5.650 13.568 5.492       C13.122 4.706 12.119 4.433 11.333 4.879       C10.548 5.325 10.274 6.328 10.720 7.113       C10.802 7.260 10.913 7.392 11.133 7.506       L9.106 8.676       C9.018 8.728 8.929 8.728 8.821 8.676       L6.242 7.181       C6.155 7.130 6.048 7.116 5.953 7.139       C5.760 7.192 5.645 7.391 5.698 7.584       C5.863 8.167 5.523 8.774 4.940 8.939       C4.357 9.104 3.750 8.764 3.585 8.181       C3.420 7.598 3.760 6.991 4.343 6.826       C4.480 6.787 4.566 6.693 4.591 6.603       C4.644 6.412 4.559 6.205 4.386 6.104       L1.753 4.579       C1.563 4.469 1.563 4.689 1.753 4.579       L8.700 .076       C8.877 -.026 9.093 -.026 9.270 .076       L16.200 4.091       C16.390 4.201 16.390 4.384 16.200 4.493       Z" fill="url(#top)" stroke="#6732c5" stroke-width=".095"/>
 
-  <!-- Purple top with interlocking puzzle-piece detail -->
-  <path d="M13 32            L59 6            Q64 3 69 6            L115 32            Q118 34 114 37            L98 46            C97 42 94 39 90 39            C84 38 80 43 80 48            C80 52 82 55 85 57            L67 67            Q64 69 61 67            L43 56            C46 53 47 49 45 45            C43 40 37 38 32 41            C28 43 27 46 28 49            L13 40            Q8 36 13 32Z" fill="url(#supportPurple)" stroke="#6532B1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Lower puzzle piece: preserve original left notch and right interlocking edge -->
+    <path d="M9.851 12.530       C9.606 12.530 9.380 12.624 9.224 12.791       L9.217 12.798       C9.077 12.936 8.851 12.933 8.714 12.793       C8.643 12.721 8.604 12.625 8.605 12.530       L8.600 9.546       C8.600 9.441 8.545 9.346 8.460 9.300       L6.428 8.122       C6.383 8.297 6.320 8.465 6.242 8.622       C5.797 9.406 4.795 9.678 4.010 9.233       C3.224 8.787 2.952 7.785 3.398 7.000       C3.505 6.823 3.643 6.689 3.800 6.600       L1.433 5.227       C1.243 5.117 1.006 5.254 1.006 5.474       L1.014 10.563       L1.015 13.433       C1.015 13.637 1.123 13.826 1.298 13.925       L8.183 17.914       C8.373 18.024 8.611 17.887 8.611 17.667       L8.611 16.279       L8.611 14.296       C8.611 14.003 8.964 13.857 9.171 14.064       C9.513 14.407 10.069 14.407 10.411 14.064       C10.754 13.722 10.754 13.166 10.411 12.823       C10.258 12.671 10.054 12.530 9.851 12.530 Z        M13.559 6.936       C13.389 6.837 13.194 6.846 13.036 6.938       C12.724 7.119 12.325 7.011 12.144 6.699       C11.963 6.387 12.071 5.988 12.383 5.807       C12.695 5.626 13.094 5.734 13.275 6.046       C13.367 6.204 13.383 6.391 13.324 6.561       C13.268 6.719 13.328 6.883 13.467 6.963       C13.593 7.036 13.758 6.991 13.837 6.868       L16.200 5.501       C16.390 5.391 16.627 5.528 16.627 5.748       L16.618 11.299       L16.618 13.751       C16.618 13.957 16.509 14.146 16.331 14.248       L9.384 18.258       C9.194 18.368 8.957 18.231 8.957 18.011       L8.957 15.230       C9.128 15.289 9.314 15.321 9.501 15.321       C10.386 15.321 11.100 14.606 11.100 13.721       C11.100 12.836 10.386 12.121 9.501 12.121       C9.314 12.121 9.128 12.153 8.957 12.212       L8.957 9.547       C8.957 9.442 9.012 9.347 9.106 9.300       L12.029 7.612       C12.196 7.516 12.245 7.296 12.149 7.129       C12.053 6.962 11.833 6.913 11.666 7.009       L9.106 8.676       C9.018 8.728 8.929 8.728 8.821 8.676" fill="url(#lower)" stroke="#0069bd" stroke-width=".095"/>
 
-  <!-- Top marker highlight -->
-  <path d="M22 33            L60 12            Q64 10 69 13" stroke="#D9C5FF" stroke-width="2.6" stroke-linecap="round" opacity=".8"/>
+    <!-- Subtle marker-style contour accents, following the original edges -->
+    <path d="M1.72 4.65 L8.70 .16       Q8.98 .01 9.24 .16 L16.10 4.14" fill="none" stroke="#c6a7ff" stroke-width=".16" opacity=".55"/>
 
-  <!-- Top facet sketch -->
-  <path d="M53 29            Q64 22 76 29" stroke="#CBAAFB" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+    <path d="M1.18 5.50 L1.19 10.54       M1.34 13.47 L8.10 17.39       M9.50 17.87 L16.25 13.96" fill="none" stroke="#70b6fa" stroke-width=".13" opacity=".65"/>
 
-  <!-- Hand-drawn cube spine -->
-  <path d="M64 70            Q63 78 64 85" stroke="#D9F3FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
-
-  <!-- Left face marker accents -->
-  <path d="M17 48            L17 89            Q17 93 23 96" stroke="#B6E2FF" stroke-width="2.8" stroke-linecap="round" opacity=".7"/>
-
-  <path d="M27 81            Q36 88 44 92" stroke="#D6F1FF" stroke-width="2.3" stroke-linecap="round" opacity=".65"/>
-
-  <!-- Right face marker accents -->
-  <path d="M110 65            L110 90            Q110 93 106 95" stroke="#B8E7FF" stroke-width="2.7" stroke-linecap="round" opacity=".75"/>
-
-  <path d="M87 108            L102 99" stroke="#D9F4FF" stroke-width="2" stroke-linecap="round" opacity=".65"/>
-
-  <!-- Yellow sketchnote sparkle -->
-  <path d="M104 13 L107 5            M113 19 L122 15            M111 9 L116 3" stroke="#F5C84C" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Small hand-drawn emphasis strokes -->
-  <path d="M5 66 L2 61            M5 75 L1 75" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
-
-  <!-- Tiny marker underline -->
-  <path d="M25 112            Q37 120 49 124" stroke="#F5C84C" stroke-width="2.5" stroke-linecap="round"/>
-
-  <path d="M44 119            L50 124            L42 125" stroke="#F5C84C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>

@@ -1,60 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Integration Service Environments (sketch)</title>
-  
-  <desc>Hand-drawn Azure-blue circular environment containing a purple integration node connected to two green service nodes, with subtle yellow marker accents.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Integration Service Environments (sketch)</title>
   <defs>
-    <radialGradient id="azureRing" cx="50%" cy="46%" r="65%">
-      <stop offset=".18" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <radialGradient id="background" cx="9.044" cy="8.913" r="10.514" gradientUnits="userSpaceOnUse">
+      <stop offset=".183" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
     </radialGradient>
-    <linearGradient id="greenNode" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#76BC2D"/>
-      <stop offset="1" stop-color="#5E9624"/>
+    <linearGradient id="green-left" x1="5.344" y1="10.72" x2="5.344" y2="13.464" gradientUnits="userSpaceOnUse">
+      <stop offset=".001" stop-color="#76bc2d"/>
+      <stop offset="1" stop-color="#5e9624"/>
+    </linearGradient>
+    <linearGradient id="green-right" x1="12.646" y1="10.72" x2="12.646" y2="13.464" gradientUnits="userSpaceOnUse">
+      <stop offset=".001" stop-color="#76bc2d"/>
+      <stop offset="1" stop-color="#5e9624"/>
     </linearGradient>
   </defs>
 
-  <!-- Azure environment boundary -->
-  <path d="M64 7            C95 6 120 31 121 62            C123 94 99 120 67 122            C35 124 9 102 7 70            C4 37 30 9 64 7Z" fill="url(#azureRing)" stroke="#075A9C" stroke-width="3.6"/>
+  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
 
-  <!-- White environment interior -->
-  <path d="M64 17            C90 16 111 37 111 63            C112 89 92 110 65 111            C39 112 18 92 17 66            C16 40 37 18 64 17Z" fill="#FFFFFF" stroke="#D7EAF9" stroke-width="2.6"/>
+    <!-- Outer blue circle -->
+    <circle cx="9" cy="9" r="8.863" fill="url(#background)" stroke="#0872c5" stroke-width=".12"/>
 
-  <!-- Subtle hand-drawn inner contour -->
-  <path d="M25 47 Q34 27 54 23            M83 25 Q101 35 105 52" stroke="#B9DDF8" stroke-width="2.1" opacity=".85"/>
+    <!-- White inner circle -->
+    <circle cx="9" cy="9" r="7.386" fill="#fff" stroke="#e7f3ff" stroke-width=".10"/>
 
-  <!-- Central connection structure -->
-  <path d="M64 52            Q65 59 64 66            L64 69            Q64 72 60 72            L38 72            Q35 72 35 76            L35 82" stroke="#0078D4" stroke-width="6"/>
+    <!-- Central connecting structure -->
+    <path d="M9.432 8.665V7.475H8.594V8.665              a.168.168 0 0 1-.168.168H5.272              a.335.335 0 0 0-.335.335v1.545h.838              V9.857a.167.167 0 0 1 .167-.167h6.105              a.167.167 0 0 1 .167.167v.874h.838V9.168              a.335.335 0 0 0-.335-.335H9.6              a.168.168 0 0 1-.168-.168Z" fill="#0078d4" stroke="#006bbd" stroke-width=".055"/>
 
-  <path d="M64 69            Q65 72 69 72            L91 72            Q94 72 94 76            L94 82" stroke="#0078D4" stroke-width="6"/>
+    <!-- Upper blank node with original purple outline -->
+    <path d="M10.551 3.862H7.41              a.347.347 0 0 0-.347.347V7.35              a.347.347 0 0 0 .347.35h3.141              a.347.347 0 0 0 .349-.35V4.209              a.347.347 0 0 0-.349-.347Z" fill="#a67af4" stroke="#9565e9" stroke-width=".055"/>
 
-  <!-- Marker highlight on connectors -->
-  <path d="M62 56 L62 65            M41 69 L54 69            M73 69 L86 69" stroke="#5EA0EF" stroke-width="1.8"/>
+    <!-- Original empty white inset: no symbols or markings -->
+    <path d="M10.251 6.822              a.23.23 0 0 1-.23.23H7.938              a.23.23 0 0 1-.23-.23V4.737              a.23.23 0 0 1 .23-.23h2.085              a.23.23 0 0 1 .23.23Z" fill="#fff"/>
 
-  <!-- Top integration service node -->
-  <path d="M51 30            Q51 27 55 27            L74 28            Q78 28 78 32            L77 53            Q77 56 73 56            L55 56            Q51 56 51 52Z" fill="#FFFFFF" stroke="#8653D3" stroke-width="4.5"/>
+    <!-- Lower-left blank green node -->
+    <path d="M6.715 13.185V11              a.279.279 0 0 0-.279-.279H4.251              a.279.279 0 0 0-.279.279v2.186              a.279.279 0 0 0 .279.279h2.185              a.279.279 0 0 0 .279-.279Z" fill="url(#green-left)" stroke="#659c2d" stroke-width=".055"/>
 
-  <!-- Purple inset -->
-  <path d="M57 34            L71 34            Q73 34 73 36            L72 48            Q72 50 70 50            L58 50            Q56 50 56 48            L56 36Z" fill="#F0E7FF" stroke="#A67AF4" stroke-width="3"/>
+    <!-- Lower-right blank green node -->
+    <path d="M14.018 13.185V11              a.279.279 0 0 0-.279-.279h-2.186              a.279.279 0 0 0-.279.279v2.186              a.279.279 0 0 0 .279.279h2.186              a.279.279 0 0 0 .279-.279Z" fill="url(#green-right)" stroke="#659c2d" stroke-width=".055"/>
 
-  <!-- Small hand-drawn integration indicator -->
-  <path d="M60 42 L68 42            M65 39 L68 42 L65 45" stroke="#8653D3" stroke-width="2.2"/>
-
-  <!-- Left service node -->
-  <path d="M25 83            Q25 79 29 79            L43 80            Q47 80 47 84            L47 99            Q47 103 43 103            L29 102            Q25 102 25 98Z" fill="url(#greenNode)" stroke="#487C1B" stroke-width="3.4"/>
-
-  <!-- Right service node -->
-  <path d="M82 83            Q82 79 86 79            L100 80            Q104 80 104 84            L103 99            Q103 103 99 103            L86 102            Q82 102 82 98Z" fill="url(#greenNode)" stroke="#487C1B" stroke-width="3.4"/>
-
-  <!-- Service node highlights -->
-  <path d="M31 85 L40 85            M88 85 L97 85" stroke="#C6EF95" stroke-width="2.4" opacity=".9"/>
-
-  <!-- Minimal hand-drawn service symbols -->
-  <path d="M33 92 L36 95 L41 89            M90 92 L93 95 L98 89" stroke="#FFFFFF" stroke-width="2.8"/>
-
-  <!-- Hand-drawn yellow accents -->
-  <path d="M83 32 L87 28            M87 38 L93 36            M39 35 L35 31" stroke="#F7C948" stroke-width="3.1"/>
-
-  <!-- Small sketchnote motion marks -->
-  <path d="M19 73 L16 77            M109 76 L113 79" stroke="#0078D4" stroke-width="2" opacity=".65"/>
-
+  </g>
 </svg>

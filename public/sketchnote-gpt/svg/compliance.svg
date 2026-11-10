@@ -1,56 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Compliance (sketch)</title>
-
-  
-  <desc>
-    Hand-drawn Azure Compliance document with a folded corner
-    and red-and-gold certification seal. Original Azure blue,
-    red and yellow palette, uneven marker outlines, editable
-    vector paths and transparent background.
-  </desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Compliance (sketch)</title>
   <defs>
-    <linearGradient id="paperBlue" x1="24" y1="9" x2="105" y2="119" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="documentBlue" x1="64" y1="124" x2="64" y2="4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".82" stop-color="#5ea0ef"/>
     </linearGradient>
   </defs>
 
-  <!-- Hand-drawn document silhouette -->
-  <path d="M24 9            Q22 10 22 14            L21 112            Q21 118 27 118            L105 119            Q110 119 110 113            L109 43            L76 9            Z" fill="#FFFFFF" stroke="url(#paperBlue)" stroke-width="4.4"/>
+  <!-- Original document body and blue outline -->
+  <path d="M71.1 4.5H19.4            Q15.4 4.5 15.4 8.5            V119.5            Q15.4 123.5 19.4 123.5            H108.6            Q112.6 123.5 112.6 119.5            V46            Q112.6 42 108.6 42            H79.2            Q75.2 42 75.2 38            V8.5            Q75.2 4.5 71.1 4.5Z" fill="url(#documentBlue)" stroke="#0078d4" stroke-width="1.2" stroke-linejoin="round"/>
 
-  <!-- Slight offset marker accent -->
-  <path d="M18 22            Q17 65 18 100            M30 122            Q65 124 99 122" stroke="#5EA0EF" stroke-width="1.8" opacity=".6"/>
+  <!-- White inset, preserving folded-corner geometry -->
+  <path d="M69.2 9.7            H20.8            V118.3            H107.2            V47.8            H79.2            Q69.2 47.8 69.2 37.8Z" fill="#fff"/>
 
-  <!-- Folded document corner -->
-  <path d="M76 10            Q76 24 76 37            Q76 43 83 43            L109 43            Z" fill="#D9EDFF" stroke="#0078D4" stroke-width="3.8"/>
+  <!-- Folded blue corner -->
+  <path d="M71.1 4.5            L112.6 46            H79.2            Q75.2 46 75.2 42            V8.5            Q75.2 4.5 71.1 4.5Z" fill="#0078d4"/>
 
-  <path d="M81 17            Q91 28 102 39" stroke="#5EA0EF" stroke-width="2.3"/>
+  <!-- Red ribbon -->
+  <path d="M74.1 76.2            Q64.3 83.8 53.7 76.2            L51.9 102.8            Q51.8 105.4 54.3 104.1            L63.9 94.3            L74.5 104.1            Q77 105.4 76.9 102.8Z" fill="#b31b1b"/>
 
-  <!-- Subtle handwritten document lines -->
-  <path d="M34 28            Q45 26 59 28            M34 39            Q47 37 62 39            M34 50            Q44 49 53 50" stroke="#5EA0EF" stroke-width="3" opacity=".85"/>
+  <!-- Red seal -->
+  <ellipse cx="63.9" cy="66.2" rx="18.6" ry="18.7" fill="#e62323"/>
 
-  <!-- Certification ribbon tails -->
-  <path d="M55 79            L51 105            Q51 109 55 107            L64 99            L73 108            Q77 110 77 105            L73 79" fill="#B31B1B" stroke="#922020" stroke-width="3.4"/>
+  <!-- Plain yellow seal center -->
+  <ellipse cx="63.9" cy="66.2" rx="14.1" ry="14.2" fill="#ffd400"/>
 
-  <!-- Ribbon crease details -->
-  <path d="M59 86            L56 100            M69 87            L72 100" stroke="#E62323" stroke-width="2" opacity=".85"/>
-
-  <!-- Red certification seal: imperfect circular marker shape -->
-  <path d="M64 54            C78 53 89 64 89 77            C90 91 78 101 64 101            C50 101 40 90 40 77            C40 64 50 54 64 54            Z" fill="#E62323" stroke="#B31B1B" stroke-width="3.3"/>
-
-  <!-- Irregular golden certificate center -->
-  <path d="M64 61            C74 60 82 68 82 77            C82 87 74 94 64 94            C54 94 47 87 47 77            C47 68 54 61 64 61            Z" fill="#FFD400" stroke="#B31B1B" stroke-width="2.8"/>
-
-  <!-- Hand-drawn inner gold ring -->
-  <path d="M64 66            C72 66 77 71 77 77            C77 84 71 89 64 89            C57 89 52 84 52 77            C52 70 57 66 64 66" stroke="#E2A600" stroke-width="1.7" stroke-dasharray="3 3" opacity=".8"/>
-
-  <!-- Compliance approval checkmark -->
-  <path d="M57 77            L62 82            L72 71" stroke="#B31B1B" stroke-width="4.2"/>
-
-  <!-- Sketchnote marker accents -->
-  <path d="M92 59            L99 55            M95 67            L103 66            M36 62            L30 59" stroke="#FFD400" stroke-width="3"/>
-
-  <!-- Tiny hand-drawn sparkle -->
-  <path d="M99 91            L99 101            M94 96            L104 96" stroke="#5EA0EF" stroke-width="2.3"/>
-
+  <!-- Subtle hand-drawn edge character, without altering geometry -->
+  <path d="M15.7 8.8            Q15.4 5 19.4 4.8            M15.7 119            Q15.5 123 19.4 123.2            M108.4 123.2            Q112.3 123 112.3 119.2" fill="none" stroke="#5ea0ef" stroke-width=".65" stroke-linecap="round"/>
 </svg>
