@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Quickstart Center (sketch)</title>
+
+  <defs>
+    <linearGradient id="gMain" x1="36" y1="76" x2="116" y2="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6be00"/>
+      <stop offset="0.55" stop-color="#ffca00"/>
+      <stop offset="1" stop-color="#dfa500"/>
+    </linearGradient>
+
+    <linearGradient id="gTail" x1="4" y1="121" x2="42" y2="83" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef7100"/>
+      <stop offset="0.45" stop-color="#f17905"/>
+      <stop offset="1" stop-color="#faa21d"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <!-- Main diagonal body -->
+    <path d="M36 74          C50 57 66 42 83 28          C95 18 107 11 118 8          C119 8 121 9 120 11          C117 22 109 34 98 46          C84 63 68 79 52 92 Z" fill="url(#gMain)" stroke="#29445f" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Blue nose accent -->
+    <path d="M85 28          C95 20 106 13 118 8          C117 16 113 24 108 32          L97 43 Z" fill="#0078d4" stroke="#29445f" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Lower-left tail -->
+    <path d="M8 118          C14 100 28 84 36 74          L52 92          C41 101 24 113 10 120          C8 120 7 119 8 118 Z" fill="url(#gTail)" stroke="#29445f" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Left warm flare -->
+    <path d="M28 76          C21 70 13 66 7 65          C10 59 14 54 20 51          C30 46 41 47 49 53 Z" fill="#f78d1e" stroke="#29445f" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Lower warm flare -->
+    <path d="M55 96          C60 103 64 111 65 119          C71 116 76 111 79 105          C83 96 82 86 77 78 Z" fill="#f78d1e" stroke="#29445f" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Central lens -->
+    <circle cx="81" cy="47" r="13.5" fill="#dfa500" stroke="#29445f" stroke-width="3.6"/>
+
+    <circle cx="81" cy="47" r="9.2" fill="#f4f5f7" stroke="#29445f" stroke-width="2.2"/>
+
+    <!-- Lens details -->
+    <path d="M81 41.5v3.5          M81 49v3.5          M75.5 47h3.5          M83.8 47h3.5" fill="none" stroke="#29445f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Decorative marker details -->
+    <path d="M89.5 34.5l4-2.5          M94 39l4-1          M69.5 58.5l-4 2.5" fill="none" stroke="#29445f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Pencil nib detail -->
+    <path d="M31 102          C36 101 41 99 45 95          L59 82          L64 87          L51 101          C47 105 41 108 34 109          C31 109 29 107 31 102 Z" fill="#d15900" stroke="#29445f" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Hand-drawn edge echoes -->
+    <path d="M40 77          C53 61 68 47 84 34          C94 26 103 20 111 16" fill="none" stroke="#29445f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+    <path d="M13 114          C20 105 30 98 42 90" fill="none" stroke="#29445f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+    <path d="M56 99          C60 104 63 109 64 115" fill="none" stroke="#29445f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+    <!-- Small sketchnote flicks -->
+    <path d="M22 45c2-2 4-3 7-4          M87 18c2-1 4-2 6-2          M96 56c3 0 5 1 7 2" fill="none" stroke="#29445f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  </g>
+</svg>

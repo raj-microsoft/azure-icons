@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Savings Plans (sketch)</title>
+
+  <defs>
+    <linearGradient id="savingClock" x1="40" y1="8" x2="65" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0.163" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#e6e6e6"/>
+    </linearGradient>
+    <linearGradient id="savingBadge" x1="94" y1="61" x2="94" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86d633"/>
+      <stop offset="1" stop-color="#76bc2d"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Circular savings cycle -->
+    <path d="M65 12          C39 9 16 28 13 54          C9 82 29 105 55 108          C59 109 64 109 68 108          L63 94          C45 97 29 85 26 67          C21 46 37 26 58 25          C81 23 98 40 98 62          C98 65 97 69 96 72          L109 78          C118 47 98 17 65 12Z" fill="url(#savingClock)" stroke="#76bc2d" stroke-width="4"/>
+
+    <!-- Circular arrowhead -->
+    <path d="M13 27          L18 12          L33 17          M95 69          L109 78          L115 61" fill="none" stroke="#76bc2d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Clock center -->
+    <circle cx="59" cy="58" r="9" fill="#4f4f4f" stroke="#333333" stroke-width="2"/>
+
+    <!-- Clock hands -->
+    <path d="M59 25          L59 58          L79 76" fill="none" stroke="#7a7a7a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="59" cy="58" r="4" fill="#f2f2f2"/>
+
+    <!-- Savings coin badge -->
+    <circle cx="94" cy="92" r="29" fill="url(#savingBadge)" stroke="#528c20" stroke-width="3.5"/>
+
+    <!-- Coin highlight -->
+    <path d="M76 77          C82 69 91 66 100 67" fill="none" stroke="#b4ec36" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Dollar symbol -->
+    <path d="M106 81          C102 78 97 77 93 79          C87 81 88 87 94 90          L100 93          C107 96 105 103 99 105          C94 107 88 105 84 102" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M95 72 L95 111" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Small coin sparkle -->
+    <path d="M113 68 L117 63          M120 82 L125 80          M67 99 L63 104" fill="none" stroke="#ffca00" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Hand-drawn clock markings -->
+    <path d="M59 16 L59 22          M92 58 L98 58          M59 94 L59 99          M26 58 L31 58" fill="none" stroke="#7a7a7a" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Sketchnote marker details -->
+    <path d="M21 39 L25 33          M37 16 L43 13          M76 111 L81 115" fill="none" stroke="#86d633" stroke-width="2.5" stroke-linecap="round"/>
+
+  </g>
+</svg>

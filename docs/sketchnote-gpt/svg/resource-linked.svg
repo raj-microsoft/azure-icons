@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Resource Linked (sketch)</title>
+  
+  <desc>Hand-drawn green diamond containing a white settings gear and interlocking chain links.</desc>
+
+  <defs>
+    <linearGradient id="greenDiamond" x1="25" y1="18" x2="105" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bc2d"/>
+      <stop offset="0.55" stop-color="#6dad2a"/>
+      <stop offset="1" stop-color="#5e9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn diamond silhouette -->
+  <path d="M60 7        Q64 3 68 8        L119 59        Q124 64 119 69        L69 120        Q64 125 59 120        L8 69        Q3 64 8 59 Z" fill="url(#greenDiamond)" stroke="#477b27" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle sketched inner edge -->
+  <path d="M18 58 L59 17        Q64 12 69 17        L111 59        M111 71 L69 113" fill="none" stroke="#a9dc64" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+  <!-- Resource settings gear -->
+  <path d="M60 24        L68 24 L70 30        L76 33 L82 30        L88 36 L85 42        L88 48 L94 50        L94 58 L88 60        L85 66 L88 72        L82 78 L76 75        L70 78 L68 84        L60 84 L58 78        L52 75 L46 78        L40 72 L43 66        L40 60 L34 58        L34 50 L40 48        L43 42 L40 36        L46 30 L52 33        L58 30 Z" fill="#ffffff" stroke="#477b27" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Gear central opening -->
+  <circle cx="64" cy="54" r="13" fill="#b4ec36" stroke="#477b27" stroke-width="2.8"/>
+
+  <circle cx="64" cy="54" r="6" fill="#76bc2d" stroke="#477b27" stroke-width="1.5"/>
+
+  <!-- Gear marker accent -->
+  <path d="M47 45 Q52 35 62 35" fill="none" stroke="#9ff2e4" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Rear chain link -->
+  <path d="M47 83        L65 83        C74 83 80 89 80 97        C80 105 74 111 65 111        L47 111        C38 111 32 105 32 97        C32 89 38 83 47 83 Z" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Green depth line on rear link -->
+  <path d="M44 88 L64 88        M44 106 L64 106" fill="none" stroke="#b4ec36" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Foreground interlocking chain link -->
+  <path d="M62 90        L81 90        C90 90 96 96 96 104        C96 112 90 118 81 118        L62 118        C53 118 47 112 47 104        C47 96 53 90 62 90 Z" fill="none" stroke="#b4ec36" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White link highlights -->
+  <path d="M62 94 L79 94        M63 114 L81 114" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Connection overlap detail -->
+  <path d="M54 94        C51 97 50 101 51 104        M76 107        C78 104 79 100 78 97" fill="none" stroke="#477b27" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Sketchnote emphasis marks -->
+  <path d="M100 38 L107 32        M105 46 L115 43        M23 82 L16 87" fill="none" stroke="#ffca00" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn marker strokes -->
+  <path d="M29 49 L38 40        M91 75 L100 66" fill="none" stroke="#d8f7a4" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+</svg>

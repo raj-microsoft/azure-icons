@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Resources Provider (sketch)</title>
+
+  <defs>
+    <linearGradient id="providerBlue" x1="64" y1="4" x2="64" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- Outer hexagonal provider boundary -->
+    <path d="M64 7          Q67 6 70 8          L112 32          Q117 34 117 40          L117 88          Q117 94 112 97          L70 120          Q64 124 59 120          L16 97          Q11 94 11 88          L11 40          Q11 34 16 32          L59 8          Q62 6 64 7Z" fill="none" stroke="url(#providerBlue)" stroke-width="5"/>
+
+    <!-- Inner hexagonal highlight -->
+    <path d="M64 14          L108 39          L108 88          L64 113          L20 88          L20 39 Z" fill="none" stroke="#83b9f9" stroke-width="1.8" opacity="0.7"/>
+
+    <!-- Upper-left resource cube -->
+    <g>
+      <polygon points="64 26 81 36 64 46 47 36" fill="#5ea0ef" stroke="#176ba9" stroke-width="2.5"/>
+
+      <polygon points="64 46 81 36 81 56 64 66" fill="#0078d4" stroke="#176ba9" stroke-width="2.5"/>
+
+      <polygon points="64 46 47 36 47 56 64 66" fill="#83b9f9" stroke="#176ba9" stroke-width="2.5"/>
+    </g>
+
+    <!-- Lower-left resource cube -->
+    <g>
+      <polygon points="40 57 57 67 40 77 23 67" fill="#5ea0ef" stroke="#176ba9" stroke-width="2.5"/>
+
+      <polygon points="40 77 57 67 57 87 40 97" fill="#0078d4" stroke="#176ba9" stroke-width="2.5"/>
+
+      <polygon points="40 77 23 67 23 87 40 97" fill="#83b9f9" stroke="#176ba9" stroke-width="2.5"/>
+    </g>
+
+    <!-- Right resource cube -->
+    <g>
+      <polygon points="88 57 105 67 88 77 71 67" fill="#50e6ff" stroke="#087eaa" stroke-width="2.5"/>
+
+      <polygon points="88 77 105 67 105 87 88 97" fill="#32bedd" stroke="#087eaa" stroke-width="2.5"/>
+
+      <polygon points="88 77 71 67 71 87 88 97" fill="#9cebff" stroke="#087eaa" stroke-width="2.5"/>
+    </g>
+
+    <!-- Central connection lines -->
+    <path d="M64 66 L64 84          M57 70 L48 77          M71 70 L80 77" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+
+    <!-- Yellow provider emphasis -->
+    <path d="M64 17 L64 22          M99 29 L103 26          M113 64 L119 64          M24 103 L20 106" fill="none" stroke="#ffca00" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Hand-drawn highlights -->
+    <path d="M53 31 L63 37          M29 63 L38 68          M77 63 L87 69" fill="none" stroke="#d8f0ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- Small marker strokes -->
+    <path d="M13 45 L13 55          M114 78 L114 87          M60 119 L68 122" fill="none" stroke="#0078d4" stroke-width="2" stroke-linecap="round"/>
+
+  </g>
+</svg>

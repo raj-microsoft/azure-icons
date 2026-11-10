@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc"><title>Recent (sketch)</title>
+
+  
+  <desc id="desc">Hand-drawn blue clock with grey clock hands and yellow sketchnote accents.</desc>
+
+  <defs>
+    <radialGradient id="ringBlue" cx="36%" cy="30%" r="78%">
+      <stop offset="0%" stop-color="#5ea0ef"/>
+      <stop offset="56%" stop-color="#5c9fee"/>
+      <stop offset="69%" stop-color="#559ced"/>
+      <stop offset="78%" stop-color="#4a97e9"/>
+      <stop offset="86%" stop-color="#3990e4"/>
+      <stop offset="93%" stop-color="#2387de"/>
+      <stop offset="100%" stop-color="#0078d4"/>
+    </radialGradient>
+
+    <radialGradient id="hubGray" cx="42%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#7f7f7f"/>
+      <stop offset="100%" stop-color="#5e5e5e"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#f2c94c" stroke-linecap="round">
+    <path d="M96 19 Q102 21 105 25" stroke-width="3.2"/>
+    <path d="M101 15 Q104 15 107 17" stroke-width="2.4"/>
+    <path d="M26 92 Q30 97 35 98" stroke-width="2.6"/>
+  </g>
+
+  <!-- Outer blue clock ring -->
+  <circle cx="64" cy="64" r="60" fill="url(#ringBlue)"/>
+
+  <path d="M21 28 Q37 12 64 13 Q83 12 95 19" fill="none" stroke="#8fc2f5" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+
+  <!-- White clock face -->
+  <circle cx="64" cy="64" r="52.4" fill="#fff"/>
+
+  <!-- Clock markings -->
+  <g fill="#7a7a7a">
+    <rect x="61.2" y="17" width="5.8" height="22.5" rx="2.6"/>
+
+    <path d="M89 28.5 Q92 26 95 30 L96 33 Q94 37 91 40 L88 37 Q86 34 89 28.5Z"/>
+
+    <rect x="100.2" y="61.2" width="14.2" height="5.8" rx="2.2"/>
+
+    <path d="M88 89 Q91 86 94 89 L97 92 Q94 97 91 100 L87 96 Q85 93 88 89Z"/>
+
+    <rect x="61.2" y="100.6" width="5.8" height="14.2" rx="2.2"/>
+
+    <path d="M28 89 L32 86 Q36 89 40 93 L36 97 Q32 96 28 93Z"/>
+
+    <rect x="13.6" y="61.2" width="14.2" height="5.8" rx="2.2"/>
+
+    <path d="M28 31 L32 27 Q36 30 40 34 L36 38 Q32 37 28 34Z"/>
+  </g>
+
+  <!-- Minute hand -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64.2 63.8              Q64 48 64.1 35              L64.2 23" stroke="#707070" stroke-width="8.2"/>
+
+    <path d="M63 63.8              Q62.9 48 63 35              L63.1 25" stroke="#5f5f5f" stroke-width="1.8" opacity=".45"/>
+
+    <!-- Hour hand -->
+    <path d="M64.3 64.2              Q77 76 91.2 89" stroke="#707070" stroke-width="8.2"/>
+
+    <path d="M63.4 63.6              Q76 75 89.5 87.1" stroke="#5f5f5f" stroke-width="1.8" opacity=".45"/>
+  </g>
+
+  <!-- Clock centre -->
+  <circle cx="64" cy="64" r="8.6" fill="url(#hubGray)"/>
+
+  <!-- Hand-drawn outline details -->
+  <circle cx="64" cy="64" r="59" fill="none" stroke="#1b1b1b" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="0.01 5.4" opacity=".2"/>
+
+  <circle cx="64" cy="64" r="52.2" fill="none" stroke="#1b1b1b" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="0.01 6" opacity=".16"/>
+
+</svg>

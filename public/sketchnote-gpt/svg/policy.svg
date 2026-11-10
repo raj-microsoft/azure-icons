@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Policy (sketch)</title>
+  <defs>
+    <linearGradient id="policyCore" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".5" stop-color="#29BADE"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="policyMesh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Policy structure: layered isometric framework -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 40 L60 15 Q63 13 66 15 L107 39" fill="none" stroke="#858585" stroke-width="6"/>
+    <path d="M18 40 L18 92 Q18 95 21 97 L60 119 Q63 121 66 119 L106 96" fill="none" stroke="#AFAFAF" stroke-width="7"/>
+    <path d="M18 40 L18 91 Q18 94 21 96 L60 119" fill="none" stroke="#D0D0D0" stroke-width="2.5"/>
+    <path d="M62 119 L107 93 L107 40" fill="none" stroke="#949494" stroke-width="6"/>
+  </g>
+
+  <!-- Central policy control -->
+  <g stroke="#147E9E" stroke-width="3" stroke-linejoin="round">
+    <path d="M61 39       Q63 37 66 39       L86 51       Q89 53 88 56       L88 79       Q88 82 85 84       L66 96       Q63 98 60 96       L40 84       Q37 82 38 79       L38 56       Q38 53 41 51 Z" fill="url(#policyCore)"/>
+    <path d="M42 55 L63 43 L84 55 L63 68 Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2"/>
+    <path d="M42 55 L42 78 L63 90 L63 68 Z" fill="#29BADE" stroke="#198AB3" stroke-width="2"/>
+    <path d="M63 68 L84 55 L84 78 L63 90 Z" fill="#198AB3" stroke="#147E9E" stroke-width="2"/>
+  </g>
+
+  <!-- Policy distribution nodes -->
+  <g stroke="#087CA8" stroke-width="2.2">
+    <path d="M94 30 L109 21" fill="none" stroke="#32BEDD" stroke-width="3"/>
+    <path d="M92 51 L111 41" fill="none" stroke="#32BEDD" stroke-width="3"/>
+    <path d="M92 77 L111 67" fill="none" stroke="#32BEDD" stroke-width="3"/>
+    <path d="M91 98 L111 87" fill="none" stroke="#32BEDD" stroke-width="3"/>
+
+    <circle cx="111" cy="21" r="7" fill="#32BEDD"/>
+    <circle cx="111" cy="41" r="7" fill="#32BEDD"/>
+    <circle cx="111" cy="67" r="7" fill="#32BEDD"/>
+    <circle cx="111" cy="87" r="7" fill="#32BEDD"/>
+
+    <circle cx="94" cy="30" r="6" fill="#50E6FF"/>
+    <circle cx="94" cy="51" r="6" fill="#50E6FF"/>
+    <circle cx="94" cy="77" r="6" fill="#50E6FF"/>
+    <circle cx="94" cy="98" r="6" fill="#50E6FF"/>
+  </g>
+
+  <!-- Small policy verification mark -->
+  <path d="M52 65 L60 73 L75 56" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow emphasis accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round">
+    <path d="M27 25 L32 20"/>
+    <path d="M38 17 L42 13"/>
+    <path d="M20 66 L14 63"/>
+    <path d="M73 110 L79 107"/>
+    <path d="M116 105 L120 101"/>
+  </g>
+
+  <!-- Hand-drawn marker details -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M17 39 Q20 36 23 38" stroke="#C7C7C7" stroke-width="2"/>
+    <path d="M19 96 Q25 100 29 101" stroke="#D0D0D0" stroke-width="2"/>
+    <path d="M61 15 Q64 12 68 16" stroke="#B3B3B3" stroke-width="2"/>
+    <path d="M105 94 Q110 91 113 89" stroke="#B3B3B3" stroke-width="2"/>
+    <path d="M45 103 Q50 106 54 108" stroke="#32BEDD" stroke-width="2"/>
+    <path d="M119 51 L123 48" stroke="#50E6FF" stroke-width="2"/>
+  </g>
+</svg>

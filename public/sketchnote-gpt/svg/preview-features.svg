@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Preview Features (sketch)</title>
+  <defs>
+    <linearGradient id="tileGreen" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+    <linearGradient id="sparkGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left feature tile -->
+  <path d="M9 7     Q10 5 14 5     L48 6     Q52 6 53 10     L52 45     Q52 50 48 51     L13 50     Q8 50 8 46     Z" fill="url(#tileGreen)" stroke="#5E9624" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner tile highlight -->
+  <path d="M16 14     Q16 12 19 12     L42 13     Q45 13 45 16     L44 40     Q44 43 41 43     L18 42     Q15 42 15 39     Z" fill="none" stroke="#B4E879" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Lower-left feature tile -->
+  <path d="M13 70     L48 69     Q52 69 53 74     L52 115     Q52 120 47 120     L13 119     Q8 119 8 114     L9 75     Q9 71 13 70 Z" fill="url(#tileGreen)" stroke="#5E9624" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M17 79     L43 79     L43 110     L17 110     Z" fill="none" stroke="#B4E879" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower-right feature tile -->
+  <path d="M78 70     L114 69     Q119 69 119 74     L120 114     Q120 119 115 120     L79 119     Q74 119 74 115     L74 75     Q74 71 78 70 Z" fill="url(#tileGreen)" stroke="#5E9624" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M82 79     L110 79     L111 109     L82 110     Z" fill="none" stroke="#B4E879" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Preview sparkle: dominant distinguishing symbol -->
+  <path d="M100 5     Q102 5 103 10     Q106 24 114 30     Q119 34 125 35     Q127 36 125 39     Q109 42 105 55     L102 64     Q101 67 99 64     Q96 49 86 43     Q82 40 75 39     Q72 38 75 36     Q93 32 97 15     L98 9     Q98 5 100 5 Z" fill="url(#sparkGreen)" stroke="#4E8121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sparkle inner marker stroke -->
+  <path d="M100 19     Q101 32 112 37     Q102 42 100 52     Q97 41 87 37     Q98 33 100 19 Z" fill="#A8E46B" stroke="#76BC2D" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Sketchnote highlights -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M62 16 L65 12" stroke="#F2C94C" stroke-width="3"/>
+    <path d="M64 29 L70 27" stroke="#F2C94C" stroke-width="3"/>
+    <path d="M66 49 L70 53" stroke="#0078D4" stroke-width="2.5"/>
+    <path d="M24 61 Q30 58 36 61" stroke="#76BC2D" stroke-width="2.5"/>
+    <path d="M87 61 Q92 58 98 61" stroke="#76BC2D" stroke-width="2.5"/>
+    <path d="M58 92 L65 92" stroke="#F2C94C" stroke-width="3"/>
+    <path d="M58 101 L63 105" stroke="#0078D4" stroke-width="2.5"/>
+    <path d="M18 125 Q24 127 30 125" stroke="#76BC2D" stroke-width="2"/>
+    <path d="M98 125 Q105 127 111 124" stroke="#76BC2D" stroke-width="2"/>
+  </g>
+</svg>

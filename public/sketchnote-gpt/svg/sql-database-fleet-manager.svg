@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>SQL Database Fleet Manager (sketch)</title>
+  
+  <desc>Three clustered blue SQL database cylinders arranged around a cyan management gear.</desc>
+
+  <defs>
+    <linearGradient id="dbBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="gearCyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left database cylinder -->
+  <g stroke="#075B9A" stroke-width="3" stroke-linejoin="round">
+    <path d="M10 48 Q10 40 34 40 Q58 40 58 48 L58 88       Q58 97 34 97 Q10 97 10 88Z" fill="url(#dbBlue)"/>
+    <ellipse cx="34" cy="48" rx="24" ry="8" fill="#E8E8E8"/>
+    <ellipse cx="34" cy="48" rx="19" ry="5.5" fill="#50E6FF" stroke="none"/>
+    <path d="M15 69 Q34 79 53 69" fill="none" stroke="#50E6FF" stroke-width="2"/>
+    <path d="M15 85 Q34 95 53 85" fill="none" stroke="#50E6FF" stroke-width="2"/>
+  </g>
+
+  <!-- Right database cylinder -->
+  <g stroke="#075B9A" stroke-width="3" stroke-linejoin="round">
+    <path d="M70 48 Q70 40 94 40 Q118 40 118 48 L118 88       Q118 97 94 97 Q70 97 70 88Z" fill="url(#dbBlue)"/>
+    <ellipse cx="94" cy="48" rx="24" ry="8" fill="#E8E8E8"/>
+    <ellipse cx="94" cy="48" rx="19" ry="5.5" fill="#50E6FF" stroke="none"/>
+    <path d="M75 69 Q94 79 113 69" fill="none" stroke="#50E6FF" stroke-width="2"/>
+    <path d="M75 85 Q94 95 113 85" fill="none" stroke="#50E6FF" stroke-width="2"/>
+  </g>
+
+  <!-- Central lower database cylinder -->
+  <g stroke="#075B9A" stroke-width="3" stroke-linejoin="round">
+    <path d="M40 83 Q40 75 64 75 Q88 75 88 83 L88 111       Q88 120 64 120 Q40 120 40 111Z" fill="url(#dbBlue)"/>
+    <ellipse cx="64" cy="83" rx="24" ry="8" fill="#E8E8E8"/>
+    <ellipse cx="64" cy="83" rx="19" ry="5.5" fill="#50E6FF" stroke="none"/>
+    <path d="M45 100 Q64 110 83 100" fill="none" stroke="#50E6FF" stroke-width="2"/>
+  </g>
+
+  <!-- Management gear -->
+  <path d="M59 9 L69 9 L72 17     Q76 18 79 21 L87 18 L93 27 L87 34     Q89 39 88 43 L95 49 L90 58 L81 56     Q77 60 73 61 L70 69 L59 69     L56 61 Q52 60 48 56 L39 58     L34 49 L41 43 Q40 38 42 34     L36 27 L42 18 L51 21 Q54 18 57 17Z" fill="url(#gearCyan)" stroke="#087DAF" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Gear center -->
+  <circle cx="64" cy="39" r="15" fill="#005BA1" stroke="#075B9A" stroke-width="2.5"/>
+  <circle cx="64" cy="39" r="8" fill="#50E6FF" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Yellow management accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round">
+    <path d="M13 28 L7 23"/>
+    <path d="M115 28 L121 23"/>
+    <path d="M64 3 L64 0"/>
+    <path d="M104 108 L111 112"/>
+  </g>
+
+  <!-- Hand-drawn database highlights -->
+  <g fill="none" stroke="#B8F4FF" stroke-width="2" stroke-linecap="round">
+    <path d="M20 48 Q34 54 48 48"/>
+    <path d="M80 48 Q94 54 108 48"/>
+    <path d="M50 83 Q64 89 78 83"/>
+  </g>
+</svg>

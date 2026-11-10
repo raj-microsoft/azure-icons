@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Reservations (sketch)</title>
+
+  <defs>
+    <radialGradient id="reservationPurple" cx="63" cy="62" r="59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7956ba"/>
+      <stop offset="0.69" stop-color="#724eb4"/>
+      <stop offset="0.87" stop-color="#6f4bb2"/>
+      <stop offset="1" stop-color="#6542a8"/>
+    </radialGradient>
+    <radialGradient id="reservationCenter" cx="63" cy="64" r="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#858585"/>
+      <stop offset="1" stop-color="#505050"/>
+    </radialGradient>
+  </defs>
+
+  <g>
+    <!-- Outer clock casing -->
+    <circle cx="63" cy="65" r="59" fill="#b0b0b0" stroke="#555555" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Inner clock face -->
+    <circle cx="63" cy="65" r="50" fill="#ffffff" stroke="#777777" stroke-width="2.5"/>
+
+    <!-- Clock tick marks -->
+    <path d="M91 25 L96 20          M111 63 L120 63          M96 105 L101 110          M63 111 L63 120          M25 100 L20 105          M12 63 L21 63          M29 25 L24 20" fill="none" stroke="#777777" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Purple circular reservation arrow -->
+    <path d="M63 7          C94 7 119 32 121 62          C124 93 102 119 72 122          C43 126 16 105 8 77          C2 55 9 34 23 20          L17 12          L41 9          L31 33          L27 26          C13 40 8 59 13 77          C20 103 43 119 70 115          C96 112 115 91 114 65          C113 38 91 16 64 15          C60 15 57 13 57 10          C57 8 60 7 63 7Z" fill="url(#reservationPurple)" stroke="#553b8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Clock hand: vertical -->
+    <path d="M62 25          C65 24 67 26 67 29          L67 64          C67 67 65 69 63 69          C61 69 59 67 59 64          L59 30          C59 27 60 25 62 25Z" fill="#777777" stroke="#555555" stroke-width="1.8" stroke-linejoin="round"/>
+
+    <!-- Clock hand: diagonal -->
+    <path d="M68 65          C70 63 73 64 75 66          L91 82          C93 84 93 87 91 89          C89 91 86 91 84 89          L68 73          C66 71 66 67 68 65Z" fill="#777777" stroke="#555555" stroke-width="1.8" stroke-linejoin="round"/>
+
+    <!-- Central pivot -->
+    <circle cx="63" cy="65" r="8" fill="url(#reservationCenter)" stroke="#555555" stroke-width="1.8"/>
+
+    <circle cx="63" cy="65" r="3" fill="#d9d9d9"/>
+
+    <!-- Sketchnote marker accents -->
+    <path d="M29 40          C35 29 46 21 57 19          M84 106          C96 99 104 88 108 76" fill="none" stroke="#9a7bd0" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- Small highlight strokes -->
+    <path d="M17 49 L14 58          M43 113 L50 116          M108 41 L112 49" fill="none" stroke="#d1baff" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Yellow reservation emphasis -->
+    <path d="M102 17 L110 10          M112 25 L119 22" fill="none" stroke="#ffca00" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

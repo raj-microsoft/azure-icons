@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc"><title>SCVMM Management Servers (sketch)</title>
+
+  
+  <desc id="desc">Three stacked Azure-blue management server units with white status indicators and a cloud connection badge.</desc>
+
+  <defs>
+    <linearGradient id="serverTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="cloudBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".18" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="serverBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#50e6ff"/>
+      <stop offset="1" stop-color="#198ab3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Server stack: top unit -->
+  <g stroke="#005ba1" stroke-width="2.2" stroke-linejoin="round">
+    <rect x="12" y="9" width="82" height="25" rx="4" fill="url(#serverTop)"/>
+    <rect x="12" y="37" width="82" height="25" rx="4" fill="#0078d4"/>
+    <rect x="12" y="65" width="82" height="25" rx="4" fill="#005ba1"/>
+  </g>
+
+  <!-- Server face highlights -->
+  <g fill="none" stroke="#a9d7ff" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M17 14 Q18 12 22 12 L83 12"/>
+    <path d="M17 42 Q18 40 22 40 L83 40"/>
+    <path d="M17 70 Q18 68 22 68 L83 68"/>
+  </g>
+
+  <!-- Server status lights -->
+  <g fill="#ffffff">
+    <circle cx="23" cy="21" r="4"/>
+    <circle cx="23" cy="49" r="4"/>
+    <circle cx="23" cy="77" r="4"/>
+  </g>
+
+  <!-- Server indicator lines -->
+  <g fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+    <path d="M37 21 L66 21"/>
+    <path d="M37 49 L66 49"/>
+    <path d="M37 77 L66 77"/>
+  </g>
+
+  <g fill="#b9e8ff">
+    <rect x="72" y="18" width="12" height="5" rx="2"/>
+    <rect x="72" y="46" width="12" height="5" rx="2"/>
+    <rect x="72" y="74" width="12" height="5" rx="2"/>
+  </g>
+
+  <!-- Lower server platform -->
+  <path d="M8 93            Q51 103 96 93            L96 105            Q52 120 8 105Z" fill="url(#serverBase)" stroke="#198ab3" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <path d="M12 97 Q51 107 92 97" fill="none" stroke="#b5f4ff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cloud badge -->
+  <path d="M84 87            C77 87 73 82 73 76            C73 70 78 65 84 65            C86 57 93 52 101 53            C109 53 115 59 117 67            C123 68 127 73 127 79            C127 85 122 90 116 90            L85 90Z" fill="url(#cloudBlue)" stroke="#005ba1" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Cloud highlight -->
+  <path d="M84 68 Q88 59 98 59" fill="none" stroke="#b9dcff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Cloud connection indicator -->
+  <path d="M94 73 L101 80 L109 70" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#f2c94c" stroke-width="2.5" stroke-linecap="round">
+    <path d="M104 29 L110 24"/>
+    <path d="M113 36 L119 34"/>
+    <path d="M15 113 L9 117"/>
+  </g>
+
+  <!-- Hand-drawn outline details -->
+  <g fill="none" stroke="#004f8c" stroke-width="1.4" stroke-linecap="round" opacity=".55">
+    <path d="M10 10 Q8 47 10 88"/>
+    <path d="M95 12 Q97 48 95 88"/>
+    <path d="M12 107 Q48 119 88 109"/>
+  </g>
+
+</svg>

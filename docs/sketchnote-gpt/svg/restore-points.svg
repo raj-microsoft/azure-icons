@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc"><title>Restore Points (sketch)</title>
+
+  
+  <desc id="desc">Azure restore points represented by a blue circular recovery arrow surrounding a cyan isometric resource cube.</desc>
+
+  <defs>
+    <linearGradient id="recoveryBlue" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9cebff"/>
+      <stop offset="1" stop-color="#32bedd"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#32bedd"/>
+      <stop offset="1" stop-color="#1490df"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c3f1ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular recovery arrow -->
+  <path d="M49 103            C25 94 14 68 23 44            C31 21 54 10 77 17            C99 23 113 45 108 68            C104 88 88 101 69 105" fill="none" stroke="#86d633" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrowhead -->
+  <path d="M43 94 L52 116 L74 106" fill="none" stroke="#86d633" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M44 94 L51 111" fill="none" stroke="#b5ee78" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Blue circular recovery body -->
+  <path d="M65 17            C88 12 109 30 111 54            C114 78 97 98 75 102            C66 104 57 102 50 99            C44 96 39 91 35 85" fill="none" stroke="url(#recoveryBlue)" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Recovery arrow marker detail -->
+  <path d="M103 27 Q110 40 108 53" fill="none" stroke="#8bc3f5" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Central resource cube: top -->
+  <path d="M64 34            L91 50            L64 66            L37 50Z" fill="url(#cubeTop)" stroke="#168dbb" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Left cube face -->
+  <path d="M37 50            L64 66            L64 98            L37 82Z" fill="url(#cubeLeft)" stroke="#168dbb" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Right cube face -->
+  <path d="M91 50            L64 66            L64 98            L91 82Z" fill="url(#cubeRight)" stroke="#0878b9" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Cube highlights -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 50 L64 62 L84 50" stroke="#ffffff" stroke-width="2.5"/>
+
+    <path d="M44 59 L57 67" stroke="#c3f1ff" stroke-width="2"/>
+
+    <path d="M71 67 L84 59" stroke="#a5edfa" stroke-width="2"/>
+
+    <path d="M43 65 L43 79" stroke="#b8f4ff" stroke-width="2"/>
+  </g>
+
+  <!-- Cube central edge -->
+  <path d="M64 66 L64 98" fill="none" stroke="#168dbb" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- White restore-point corner markers -->
+  <g fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31 38 L31 27 Q31 24 35 24 L46 24"/>
+    <path d="M82 24 L94 24 Q98 24 98 28 L98 39"/>
+    <path d="M98 83 L98 94 Q98 98 94 98 L83 98"/>
+    <path d="M46 98 L35 98 Q31 98 31 94 L31 83"/>
+  </g>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#f2c94c" stroke-width="2.5" stroke-linecap="round">
+    <path d="M93 12 L99 8"/>
+    <path d="M105 17 L111 16"/>
+    <path d="M18 75 L13 78"/>
+  </g>
+
+  <!-- Subtle hand-drawn outline details -->
+  <g fill="none" stroke-linecap="round" opacity=".45">
+    <path d="M21 48 Q17 63 22 77" stroke="#0078d4" stroke-width="1.5"/>
+    <path d="M64 32 Q78 40 92 49" stroke="#168dbb" stroke-width="1.2"/>
+    <path d="M39 82 L62 96" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+
+</svg>

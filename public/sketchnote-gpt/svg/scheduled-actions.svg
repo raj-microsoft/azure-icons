@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc"><title>Scheduled Actions (sketch)</title>
+
+  
+  <desc id="desc">Azure blue calendar with a clock overlay and green circular scheduling arrow.</desc>
+
+  <defs>
+    <linearGradient id="calendarBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#005ba1"/>
+    </linearGradient>
+    <linearGradient id="calendarTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Calendar body -->
+  <path d="M15 28            Q15 24 20 24            L84 24            Q89 24 89 29            L89 105            Q89 110 84 110            L19 110            Q15 110 15 105Z" fill="url(#calendarBlue)" stroke="#005ba1" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Calendar header -->
+  <path d="M15 29            Q15 24 20 24            L84 24            Q89 24 89 29            L89 43            L15 43Z" fill="url(#calendarTop)"/>
+
+  <!-- Calendar binding rings -->
+  <g fill="#5ea0ef" stroke="#005ba1" stroke-width="1.8">
+    <rect x="29" y="12" width="9" height="24" rx="4.5"/>
+    <rect x="67" y="12" width="9" height="24" rx="4.5"/>
+  </g>
+
+  <g fill="none" stroke="#b9dcff" stroke-width="2" stroke-linecap="round">
+    <path d="M32 17 L32 25"/>
+    <path d="M70 17 L70 25"/>
+  </g>
+
+  <!-- Calendar grid -->
+  <g fill="#ffffff">
+    <rect x="27" y="53" width="11" height="9" rx="2" opacity=".85"/>
+    <rect x="46" y="53" width="11" height="9" rx="2"/>
+    <rect x="65" y="53" width="11" height="9" rx="2"/>
+
+    <rect x="27" y="71" width="11" height="9" rx="2" opacity=".85"/>
+    <rect x="46" y="71" width="11" height="9" rx="2" opacity=".85"/>
+    <rect x="65" y="71" width="11" height="9" rx="2" opacity=".85"/>
+
+    <rect x="27" y="89" width="11" height="9" rx="2" opacity=".85"/>
+    <rect x="46" y="89" width="11" height="9" rx="2" opacity=".85"/>
+  </g>
+
+  <!-- Selected calendar date -->
+  <rect x="63" y="87" width="15" height="13" rx="3" fill="#32d4f5"/>
+
+  <!-- Clock outer ring -->
+  <circle cx="91" cy="87" r="32" fill="#0078d4" stroke="#005ba1" stroke-width="2.5"/>
+
+  <circle cx="91" cy="87" r="27.5" fill="#ffffff"/>
+
+  <!-- Clock markers -->
+  <g fill="#7a7a7a">
+    <rect x="89.5" y="63" width="3" height="6" rx="1.5"/>
+    <rect x="89.5" y="105" width="3" height="6" rx="1.5"/>
+    <rect x="67" y="85.5" width="6" height="3" rx="1.5"/>
+    <rect x="109" y="85.5" width="6" height="3" rx="1.5"/>
+  </g>
+
+  <!-- Clock hands -->
+  <g fill="none" stroke="#7a7a7a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 87 L91 71"/>
+    <path d="M91 87 L105 96"/>
+  </g>
+
+  <circle cx="91" cy="87" r="4" fill="#5e5f60"/>
+
+  <!-- Green scheduling arrow -->
+  <path d="M96 55            C110 52 122 61 125 74            C128 88 119 102 107 106" fill="none" stroke="#86d633" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="M108 96 L105 109 L120 105" fill="none" stroke="#86d633" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#f2c94c" stroke-width="2.5" stroke-linecap="round">
+    <path d="M104 18 L110 13"/>
+    <path d="M115 24 L120 22"/>
+    <path d="M13 87 L8 91"/>
+  </g>
+
+  <!-- Hand-drawn details -->
+  <g fill="none" stroke-linecap="round" opacity=".55">
+    <path d="M20 45 Q47 43 81 45" stroke="#8bc3f5" stroke-width="1.5"/>
+    <path d="M69 112 Q91 117 110 105" stroke="#005ba1" stroke-width="1.5"/>
+    <path d="M83 61 Q91 56 100 61" stroke="#b5dfff" stroke-width="1.5"/>
+  </g>
+
+</svg>

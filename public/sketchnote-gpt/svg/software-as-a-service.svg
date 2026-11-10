@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Software as a Service (sketch)</title>
+  
+  <desc>Azure-blue cloud surrounding a grey software server with a white application grid.</desc>
+
+  <defs>
+    <linearGradient id="saasCloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="saasServer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B3B3B3"/>
+      <stop offset="1" stop-color="#949494"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud silhouette -->
+  <path d="M26 77     C16 75 11 67 12 57     C12 46 21 37 33 36     C37 22 50 14 65 15     C81 15 94 26 96 42     C110 44 118 54 117 68     C116 80 106 87 94 88     L32 88     C29 85 27 82 26 77Z" fill="url(#saasCloud)" stroke="#075B9A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cloud highlights -->
+  <path d="M25 54 C27 44 35 40 43 41     M53 24 C66 19 81 25 86 36" fill="none" stroke="#A8D7FF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Software server body -->
+  <path d="M43 48     Q43 45 47 45     L81 45     Q85 45 85 49     L85 105     Q85 109 81 109     L47 109     Q43 109 43 105Z" fill="url(#saasServer)" stroke="#666666" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Server top highlight -->
+  <path d="M49 51 L78 51" stroke="#E2E2E2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Application grid -->
+  <g fill="#FFFFFF">
+    <rect x="49" y="56" width="8" height="8" rx="1"/>
+    <rect x="61" y="56" width="8" height="8" rx="1"/>
+    <rect x="73" y="56" width="7" height="8" rx="1"/>
+
+    <rect x="49" y="69" width="8" height="8" rx="1"/>
+    <rect x="61" y="69" width="8" height="8" rx="1"/>
+    <rect x="73" y="69" width="7" height="8" rx="1"/>
+
+    <rect x="49" y="82" width="8" height="8" rx="1"/>
+    <rect x="61" y="82" width="8" height="8" rx="1"/>
+    <rect x="73" y="82" width="7" height="8" rx="1"/>
+
+    <rect x="61" y="95" width="8" height="9" rx="1"/>
+  </g>
+
+  <!-- Server base -->
+  <path d="M49 114 L79 114" fill="none" stroke="#777777" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round">
+    <path d="M17 28 L11 23"/>
+    <path d="M26 17 L23 10"/>
+    <path d="M105 30 L112 25"/>
+    <path d="M113 39 L120 39"/>
+  </g>
+
+  <!-- Hand-drawn detail marks -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M33 69 L37 67"/>
+    <path d="M91 72 L96 74"/>
+  </g>
+</svg>

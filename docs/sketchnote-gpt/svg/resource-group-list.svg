@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Resource Group List (sketch)</title>
+
+  <defs>
+    <linearGradient id="gridBlue" x1="28" y1="5" x2="100" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset="0.25" stop-color="#4897e9"/>
+      <stop offset="0.65" stop-color="#2e8ce1"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <!-- Resource group grid: top-left -->
+    <path d="M25 10          Q25 7 29 7          L53 7          L53 35          L25 35 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Top-center -->
+    <path d="M59 7 L87 7 L87 35 L59 35 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Top-right -->
+    <path d="M93 7 L117 7          Q120 7 120 11          L120 35 L93 35 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Middle-left -->
+    <path d="M25 42 L53 42 L53 70 L25 70 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Middle-center -->
+    <path d="M59 42 L87 42 L87 70 L59 70 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Middle-right -->
+    <path d="M93 42 L120 42 L120 70 L93 70 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Bottom-left -->
+    <path d="M25 77 L53 77 L53 105 L29 105          Q25 105 25 101 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Bottom-center -->
+    <path d="M59 77 L87 77 L87 105 L59 105 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Bottom-right -->
+    <path d="M93 77 L120 77 L120 101          Q120 105 116 105 L93 105 Z" fill="url(#gridBlue)" stroke="#176ba9" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Grid hand-drawn highlights -->
+    <path d="M30 12 L48 12          M64 12 L82 12          M98 12 L113 12          M30 47 L48 47          M64 47 L82 47          M98 47 L113 47" fill="none" stroke="#b8e3ff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Search handle -->
+    <path d="M36 84          L12 108          Q8 112 12 116          Q16 120 20 116          L44 92" fill="#198ab3" stroke="#12658a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Magnifying glass outer ring -->
+    <circle cx="43" cy="82" r="27" fill="#50e6ff" stroke="#087eaa" stroke-width="3.5"/>
+
+    <!-- Magnifying glass inner lens -->
+    <circle cx="43" cy="82" r="20" fill="#ffffff" stroke="#168ab5" stroke-width="2.5"/>
+
+    <!-- Lens reflection -->
+    <path d="M30 73          Q35 66 43 65" fill="none" stroke="#d7f8ff" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Yellow sketchnote accents -->
+    <path d="M10 68 L4 64          M17 54 L12 48          M63 115 L68 120          M77 112 L81 117" fill="none" stroke="#ffca00" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Additional marker details -->
+    <path d="M13 111 L17 115          M39 58 Q49 56 57 64" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>

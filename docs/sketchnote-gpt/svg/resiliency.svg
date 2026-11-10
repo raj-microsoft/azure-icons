@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Resiliency (sketch)</title>
+
+  <defs>
+    <linearGradient id="shieldTeal" x1="90" y1="116" x2="35" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0.08" stop-color="#136c6c"/>
+      <stop offset="1" stop-color="#22918b"/>
+    </linearGradient>
+    <linearGradient id="shieldHighlight" x1="18" y1="18" x2="64" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.54" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shieldShade" x1="64" y1="95" x2="112" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#438380" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#08494e" stop-opacity="0.7"/>
+      <stop offset="0.53" stop-color="#08494e"/>
+      <stop offset="1" stop-color="#43837f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <!-- Main protective shield -->
+    <path d="M64 8          C49 20 34 25 17 25          C14 25 12 28 12 31          L12 59          C12 87 27 107 62 121          C64 122 66 122 68 121          C101 107 116 87 116 59          L116 31          C116 28 114 25 111 25          C94 25 79 20 64 8Z" fill="url(#shieldTeal)" stroke="#104f52" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Upper shield highlight -->
+    <path d="M17 30          C34 30 49 24 64 13          C79 24 94 30 111 30" fill="none" stroke="#8be6d6" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Resilience pillars: left -->
+    <path d="M39 42          C39 42 50 66 39 91" fill="none" stroke="#45e5c6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Resilience pillars: center -->
+    <path d="M64 37          L64 91" fill="none" stroke="#9ff2e4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Resilience pillars: right -->
+    <path d="M89 42          C89 42 78 66 89 91" fill="none" stroke="#45e5c6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Inner marker highlights -->
+    <path d="M37 45          C42 59 43 72 39 85          M64 41 L64 85          M91 45          C86 59 85 72 89 85" fill="none" stroke="#c4fff3" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- Shield contour accent -->
+    <path d="M20 34          C34 33 49 27 64 17          C79 27 94 33 108 34" fill="none" stroke="#a2f5e8" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Bottom shield shading -->
+    <path d="M22 77          C27 95 41 108 64 117          C87 108 101 95 106 77" fill="none" stroke="url(#shieldShade)" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Sketchnote yellow resilience accents -->
+    <path d="M19 48 L13 45          M109 47 L115 43          M64 5 L64 1" fill="none" stroke="#ffca00" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Hand-drawn edge details -->
+    <path d="M16 57          C15 75 21 91 33 103          M95 104          C106 93 112 78 112 60" fill="none" stroke="#a1eee0" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+  </g>
+</svg>

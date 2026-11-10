@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Service Group Relationships (sketch)</title>
+  
+  <desc>Three connected hexagonal service-group nodes in cyan and Azure blue, linked by a branching relationship line.</desc>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Relationship connectors -->
+    <g fill="none" stroke="#929292" stroke-width="5">
+      <path d="M65 91 L92 91 Q99 91 99 83 L99 38"/>
+      <path d="M36 65 L36 49 Q36 43 42 43 L64 43"/>
+    </g>
+    <g fill="none" stroke="#B5B5B5" stroke-width="2">
+      <path d="M66 88 L92 88 Q96 88 96 82 L96 39"/>
+      <path d="M39 64 L39 49 Q39 46 43 46 L64 46"/>
+    </g>
+
+    <!-- Left lower service group -->
+    <g stroke="#075B9A" stroke-width="3">
+      <path d="M14 67 L36 55 L58 67 L58 94 L36 107 L14 94 Z" fill="#66C0FF"/>
+      <path d="M14 67 L36 80 L36 107 L14 94 Z" fill="#58AAFE"/>
+      <path d="M36 80 L58 67 L58 94 L36 107 Z" fill="#4894FE"/>
+      <path d="M14 67 L36 80 L58 67" fill="none" stroke="#D4F1FF" stroke-width="2"/>
+    </g>
+
+    <!-- Upper service group -->
+    <g stroke="#087C9E" stroke-width="3">
+      <path d="M64 12 L87 25 L87 52 L64 65 L41 52 L41 25 Z" fill="#36DFF1"/>
+      <path d="M41 25 L64 38 L64 65 L41 52 Z" fill="#16BBDA"/>
+      <path d="M64 38 L87 25 L87 52 L64 65 Z" fill="#26CFE8"/>
+      <path d="M41 25 L64 38 L87 25" fill="none" stroke="#B9F8FC" stroke-width="2"/>
+    </g>
+
+    <!-- Right lower service group -->
+    <g stroke="#075B9A" stroke-width="3">
+      <path d="M70 67 L93 55 L115 67 L115 94 L93 107 L70 94 Z" fill="#66C0FF"/>
+      <path d="M70 67 L93 80 L93 107 L70 94 Z" fill="#58AAFE"/>
+      <path d="M93 80 L115 67 L115 94 L93 107 Z" fill="#4894FE"/>
+      <path d="M70 67 L93 80 L115 67" fill="none" stroke="#D4F1FF" stroke-width="2"/>
+    </g>
+
+    <!-- Connection points -->
+    <g fill="#FFFFFF" stroke="#929292" stroke-width="2.5">
+      <circle cx="99" cy="38" r="4"/>
+      <circle cx="36" cy="49" r="4"/>
+    </g>
+
+    <!-- Sketchnote highlights -->
+    <g fill="none" stroke="#F2C94C" stroke-width="3">
+      <path d="M17 57 L22 53 L27 55"/>
+      <path d="M101 17 L106 13 L111 17"/>
+      <path d="M61 111 L67 115 L73 111"/>
+    </g>
+
+    <!-- Hand-drawn detail strokes -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".85">
+      <path d="M48 29 L60 36"/>
+      <path d="M21 73 L31 79"/>
+      <path d="M77 73 L88 79"/>
+    </g>
+  </g>
+</svg>

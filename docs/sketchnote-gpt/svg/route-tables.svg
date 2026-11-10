@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc"><title>Route Tables (sketch)</title>
+
+  
+  <desc id="desc">Hand-drawn Azure networking icon showing a blue routing arrow pointing toward a cyan network destination node.</desc>
+
+  <defs>
+    <linearGradient id="routeBlue" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset=".22" stop-color="#32d4f5"/>
+      <stop offset="1" stop-color="#198ab3"/>
+    </linearGradient>
+    <linearGradient id="nodeBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset=".22" stop-color="#32d4f5"/>
+      <stop offset="1" stop-color="#198ab3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Route destination base -->
+  <path d="M42 119            Q45 83 64 76            Q84 69 105 78            Q123 88 125 117            Q126 122 120 123            L48 123            Q40 123 42 119Z" fill="url(#routeBlue)" stroke="#147da3" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Base highlight -->
+  <path d="M49 115 Q52 91 69 86" fill="none" stroke="#8ceaff" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Central routing path -->
+  <path d="M75 81 L64 111 L53 81" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Destination node -->
+  <circle cx="75" cy="43" r="27" fill="url(#nodeBlue)" stroke="#087da8" stroke-width="2.5"/>
+
+  <path d="M57 29 Q66 17 81 19" fill="none" stroke="#a8efff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Route connection between node and base -->
+  <path d="M75 70 L75 83" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Routing arrow shaft -->
+  <path d="M17 44            L17 12            Q17 9 20 9            L36 9" fill="none" stroke="#0078d4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrow head -->
+  <path d="M29 1 L44 9 L29 18" fill="none" stroke="#0078d4" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Route table connection -->
+  <path d="M17 44            Q17 58 33 58            L49 58" fill="none" stroke="#0078d4" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Connection into destination -->
+  <path d="M49 58 L57 58" fill="none" stroke="#0078d4" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Small route direction marker -->
+  <path d="M45 49 L56 58 L45 67" fill="none" stroke="#0078d4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#f2c94c" stroke-width="2.5" stroke-linecap="round">
+    <path d="M99 16 L105 11"/>
+    <path d="M108 23 L114 21"/>
+    <path d="M29 94 L24 98"/>
+  </g>
+
+  <!-- Hand-drawn contour details -->
+  <g fill="none" stroke-linecap="round" opacity=".55">
+    <path d="M49 86 Q39 97 41 113" stroke="#198ab3" stroke-width="1.5"/>
+    <path d="M94 88 Q113 94 116 112" stroke="#198ab3" stroke-width="1.5"/>
+    <path d="M59 45 Q60 56 72 59" stroke="#b5f2ff" stroke-width="1.5"/>
+  </g>
+
+</svg>

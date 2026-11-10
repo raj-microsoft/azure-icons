@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Service Providers (sketch)</title>
+  
+  <desc>Blue service provider user avatar with a green nine-cell service grid.</desc>
+
+  <defs>
+    <linearGradient id="providerBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#54AEF0"/>
+      <stop offset="1" stop-color="#1988D9"/>
+    </linearGradient>
+    <linearGradient id="providerGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Provider avatar and body -->
+  <g stroke="#075B9A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Body silhouette -->
+    <path d="M14 111       Q16 75 42 65       Q58 59 75 67       Q88 73 94 88       L103 111       Q104 116 98 117       L17 117       Q12 116 14 111Z" fill="url(#providerBlue)"/>
+
+    <!-- Head -->
+    <circle cx="52" cy="37" r="26" fill="url(#providerBlue)"/>
+
+    <!-- Hairline / face highlight -->
+    <path d="M34 22 Q43 10 58 13 Q72 15 77 29" fill="none" stroke="#A8D9FA" stroke-width="3"/>
+
+    <!-- Neck and shoulder detail -->
+    <path d="M42 64 L52 85 L64 65" fill="none" stroke="#D7F0FF" stroke-width="3"/>
+  </g>
+
+  <!-- Green service grid -->
+  <g stroke="#4D9421" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="url(#providerGreen)">
+
+    <!-- Grid backing -->
+    <path d="M76 68 L112 68 Q117 68 117 73 L117 111              Q117 116 112 116 L76 116 Q72 116 72 112              L72 73 Q72 68 76 68Z" fill="#76BC2D" stroke="#4D9421" stroke-width="3"/>
+
+    <!-- Nine individual cells -->
+    <path d="M78 75 L89 75 L89 86 L78 86Z"/>
+    <path d="M94 75 L105 75 L105 86 L94 86Z"/>
+    <path d="M78 91 L89 91 L89 102 L78 102Z"/>
+    <path d="M94 91 L105 91 L105 102 L94 102Z"/>
+    <path d="M78 107 L89 107 L89 111 L78 111Z"/>
+    <path d="M94 107 L105 107 L105 111 L94 111Z"/>
+  </g>
+
+  <!-- Grid highlights -->
+  <g fill="none" stroke="#D5F5AE" stroke-width="1.8" stroke-linecap="round">
+    <path d="M80 78 L86 78"/>
+    <path d="M96 78 L102 78"/>
+    <path d="M80 94 L86 94"/>
+    <path d="M96 94 L102 94"/>
+  </g>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round">
+    <path d="M12 49 L6 45"/>
+    <path d="M15 58 L8 58"/>
+    <path d="M100 53 L106 48 L112 52"/>
+    <path d="M116 60 L121 60"/>
+  </g>
+</svg>

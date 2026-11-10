@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Scheduler Job Collections (sketch)</title>
+
+  <defs>
+    <radialGradient id="schedulerBlue" cx="66" cy="60" r="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0.18" stop-color="#5ea0ef"/>
+      <stop offset="0.56" stop-color="#5c9fee"/>
+      <stop offset="0.69" stop-color="#559ced"/>
+      <stop offset="0.78" stop-color="#4a97e9"/>
+      <stop offset="0.86" stop-color="#3990e4"/>
+      <stop offset="0.93" stop-color="#2387de"/>
+      <stop offset="1" stop-color="#0078d4"/>
+    </radialGradient>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Left collection bracket -->
+    <path d="M27 18          L13 27          Q10 29 10 33          L10 95          Q10 99 13 101          L27 110" fill="none" stroke="#949494" stroke-width="8"/>
+
+    <path d="M26 23 L15 30          M15 98 L26 105" fill="none" stroke="#b5b5b5" stroke-width="3"/>
+
+    <!-- Right collection bracket -->
+    <path d="M101 18          L115 27          Q118 29 118 33          L118 95          Q118 99 115 101          L101 110" fill="none" stroke="#949494" stroke-width="8"/>
+
+    <path d="M102 23 L113 30          M113 98 L102 105" fill="none" stroke="#b5b5b5" stroke-width="3"/>
+
+    <!-- Scheduler circular clock -->
+    <circle cx="64" cy="63" r="43" fill="url(#schedulerBlue)" stroke="#176ba9" stroke-width="3.5"/>
+
+    <circle cx="64" cy="63" r="36" fill="#ffffff" stroke="#e2e2e2" stroke-width="2.5"/>
+
+    <!-- Clock markings -->
+    <path d="M64 29 L64 35          M98 63 L92 63          M64 97 L64 91          M30 63 L36 63          M88 39 L84 43          M88 87 L84 83          M40 87 L44 83" fill="none" stroke="#7a7a7a" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Clock hands -->
+    <path d="M64 40 L64 63          L82 79" fill="none" stroke="#7a7a7a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="64" cy="63" r="6" fill="#4f4f4f" stroke="#ffffff" stroke-width="1.5"/>
+
+    <!-- Green circular scheduling arrow -->
+    <path d="M52 20          C35 25 23 40 21 57          C18 77 29 96 46 105" fill="none" stroke="#76bc2d" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M36 103 L47 108 L50 95" fill="none" stroke="#76bc2d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Yellow scheduling accents -->
+    <path d="M64 12 L64 5          M106 49 L115 45          M23 79 L15 83" fill="none" stroke="#ffca00" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Marker highlights -->
+    <path d="M40 43          C46 34 54 29 63 28          M81 91          C88 85 92 77 94 69" fill="none" stroke="#d5eaff" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Small sketchnote details -->
+    <path d="M13 42 L13 53          M115 76 L115 87          M30 115 L37 119          M91 115 L98 111" fill="none" stroke="#a3a3a3" stroke-width="2.5" stroke-linecap="round"/>
+
+  </g>
+</svg>

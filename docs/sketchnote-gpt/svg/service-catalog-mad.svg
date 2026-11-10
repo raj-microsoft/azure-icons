@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Service Catalog MAD (sketch)</title>
+  
+  <desc>Hand-drawn purple service catalog document featuring a geometric service map and a supporting hand symbol.</desc>
+
+  <defs>
+    <linearGradient id="catalog" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#B77AF4"/>
+      <stop offset=".48" stop-color="#9255E6"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Document silhouette -->
+  <g stroke="#5425A5" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M20 17 L30 9 Q32 7 36 7 L103 7 Q110 7 110 15              L110 107 L101 118 L25 118 Q19 117 19 111 Z" fill="#773ADC"/>
+    <path d="M29 17 L36 12 L101 12 Q104 12 104 16              L104 108 L97 113 L25 113 L25 21 Z" fill="#FFFFFF" stroke="#9255E6" stroke-width="2.5"/>
+    <path d="M25 22 Q25 19 29 19 L99 19 Q103 19 103 23              L103 108 L97 114 L25 114 Z" fill="url(#catalog)" stroke="#773ADC" stroke-width="2.5"/>
+  </g>
+
+  <!-- Service catalog geometric structure -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Upper service blocks -->
+    <path d="M43 40 L55 33 L67 40 L55 47 Z" fill="#B77AF4"/>
+    <path d="M55 47 L55 61 L43 54 L43 40"/>
+    <path d="M55 61 L67 54 L67 40"/>
+
+    <path d="M67 40 L79 33 L91 40 L79 47 Z" fill="#9255E6"/>
+    <path d="M79 47 L79 61 L67 54 L67 40"/>
+    <path d="M79 61 L91 54 L91 40"/>
+
+    <!-- Lower service blocks -->
+    <path d="M43 68 L55 61 L67 68 L55 75 Z" fill="#A669EE"/>
+    <path d="M55 75 L55 89 L43 82 L43 68"/>
+    <path d="M55 89 L67 82 L67 68"/>
+
+    <path d="M67 68 L79 61 L91 68 L79 75 Z" fill="#773ADC"/>
+    <path d="M79 75 L79 89 L67 82 L67 68"/>
+    <path d="M79 89 L91 82 L91 68"/>
+  </g>
+
+  <!-- Supporting hand / service assistance symbol -->
+  <g stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 99 L45 99 Q48 99 51 103              Q55 106 59 106 L68 105              Q71 104 70 101              Q69 99 65 99 L59 99              Q56 96 52 95              Q47 93 43 96 L38 96 Z" fill="#B77AF4"/>
+    <path d="M70 101 L84 95 Q89 93 91 96              Q92 99 87 102 L72 110              Q68 112 63 112 L52 112              Q47 112 43 108" fill="none"/>
+  </g>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round">
+    <path d="M16 39 L11 35 M14 47 L8 47"/>
+    <path d="M112 34 L118 29 M115 43 L121 43"/>
+    <path d="M88 119 L97 119"/>
+  </g>
+
+  <!-- Hand-drawn document details -->
+  <g fill="none" stroke="#E8CFFF" stroke-width="1.8" stroke-linecap="round">
+    <path d="M33 25 L40 24"/>
+    <path d="M94 24 L98 24"/>
+    <path d="M31 108 L36 108"/>
+  </g>
+</svg>

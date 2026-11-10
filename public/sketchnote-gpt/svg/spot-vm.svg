@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Spot VM (sketch)</title>
+  
+  <desc>Azure-blue virtual machine monitor with a central three-dimensional cube and circular refresh arrow, mounted on a grey stand.</desc>
+
+  <defs>
+    <linearGradient id="spotScreen" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="spotStand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CCCCCC"/>
+      <stop offset="1" stop-color="#707070"/>
+    </linearGradient>
+    <linearGradient id="spotBlue" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monitor frame -->
+  <path d="M12 13 Q12 10 16 10 L112 10 Q116 10 116 14     L116 80 Q116 84 112 84 L16 84 Q12 84 12 80Z" fill="url(#spotScreen)" stroke="#075B9A" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Inner display -->
+  <path d="M17 17 Q17 15 20 15 L108 15     Q111 15 111 18 L111 76 Q111 79 108 79 L20 79     Q17 79 17 76Z" fill="#0078D4" stroke="#A8D7FF" stroke-width="1.5"/>
+
+  <!-- Central VM emblem background -->
+  <circle cx="64" cy="47" r="27" fill="url(#spotBlue)" stroke="#004B87" stroke-width="2.5"/>
+
+  <!-- Three-dimensional cube -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 34 L82 44 L64 55 L46 44Z" fill="#C3F1FF" stroke="#D9F7FF" stroke-width="2.5"/>
+    <path d="M46 44 L64 55 L64 75 L46 64Z" fill="#9CEBFF" stroke="#D9F7FF" stroke-width="2.5"/>
+    <path d="M64 55 L82 44 L82 64 L64 75Z" fill="#50E6FF" stroke="#D9F7FF" stroke-width="2.5"/>
+    <path d="M64 55 L64 75" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <!-- Circular refresh arrow -->
+  <path d="M79 29     A21 21 0 1 1 46 29" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M72 27 L80 27 L80 35" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Monitor stand -->
+  <path d="M54 85 L54 99     Q54 108 44 110     Q40 111 40 117     L88 117     Q88 111 84 110     Q74 108 74 99 L74 85Z" fill="url(#spotStand)" stroke="#777777" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Stand highlights -->
+  <path d="M59 90 L59 101 Q59 106 53 108" fill="none" stroke="#EEEEEE" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M45 114 L83 114" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round">
+    <path d="M22 94 L16 89"/>
+    <path d="M105 94 L111 89"/>
+    <path d="M64 5 L64 1"/>
+    <path d="M95 15 L100 10"/>
+  </g>
+
+  <!-- Hand-drawn marker details -->
+  <g fill="none" stroke="#A8D7FF" stroke-width="2" stroke-linecap="round">
+    <path d="M24 23 L29 23"/>
+    <path d="M98 72 L104 72"/>
+  </g>
+</svg>

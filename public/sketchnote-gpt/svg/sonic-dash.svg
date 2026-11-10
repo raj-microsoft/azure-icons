@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Sonic Dash (sketch)</title>
+  
+  <desc>Layered three-dimensional Azure-blue and cyan geometric speed emblem with stacked diamond-shaped layers.</desc>
+
+  <defs>
+    <linearGradient id="sonic-cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="sonic-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset="1" stop-color="#003067"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper cyan diamond layer -->
+  <path d="M64 8     L112 35     Q116 38 112 41     L64 69     L16 41     Q12 38 16 35     L60 9     Q62 7 64 8Z" fill="url(#sonic-cyan)" stroke="#087DAF" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Upper left blue facet -->
+  <path d="M64 8 L16 35 Q12 38 16 41 L64 69 L64 40 Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2"/>
+
+  <!-- Dark blue right facet -->
+  <path d="M64 40 L112 35 Q116 38 112 41 L64 69 Z" fill="#32BEDD" stroke="#087DAF" stroke-width="2"/>
+
+  <!-- Middle diamond layer -->
+  <path d="M16 51 L64 78 L112 51     L112 64 L64 92 L16 64 Z" fill="#0078D4" stroke="#075B9A" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M16 51 L64 78 L64 92 L16 64 Z" fill="#005BA1"/>
+
+  <path d="M64 78 L112 51 L112 64 L64 92 Z" fill="#003E78"/>
+
+  <!-- Lower diamond layer -->
+  <path d="M16 75 L64 102 L112 75     L112 88 Q112 91 109 93     L66 118 Q64 120 61 118     L17 93 Q14 91 16 88 Z" fill="#E6E6E6" stroke="#777777" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Lower left and right facets -->
+  <path d="M16 75 L64 102 L64 119 L17 93 Q14 91 16 88 Z" fill="#B3B3B3"/>
+
+  <path d="M64 102 L112 75 L112 88 Q112 91 109 93 L64 119 Z" fill="#999999"/>
+
+  <!-- Cyan and blue geometric highlights -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 37 L64 57 L98 37" stroke="#B8F4FF" stroke-width="2.5"/>
+    <path d="M27 54 L64 75 L101 54" stroke="#50E6FF" stroke-width="2"/>
+    <path d="M27 78 L64 99 L101 78" stroke="#FFFFFF" stroke-width="2" opacity=".8"/>
+  </g>
+
+  <!-- Sketchnote motion accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round">
+    <path d="M9 28 L3 24"/>
+    <path d="M12 48 L4 46"/>
+    <path d="M116 25 L122 20"/>
+    <path d="M119 45 L125 43"/>
+  </g>
+
+  <!-- Hand-drawn marker details -->
+  <g fill="none" stroke="#075B9A" stroke-width="1.8" stroke-linecap="round">
+    <path d="M22 40 L28 44"/>
+    <path d="M101 42 L106 39"/>
+    <path d="M23 90 L30 94"/>
+  </g>
+</svg>

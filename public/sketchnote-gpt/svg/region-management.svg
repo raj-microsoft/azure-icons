@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Region Management (sketch)</title>
+
+  <defs>
+    <radialGradient id="regionBlue" cx="57" cy="46" r="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#0078d4"/>
+      <stop offset="0.42" stop-color="#0075cf"/>
+      <stop offset="0.67" stop-color="#006dc0"/>
+      <stop offset="0.94" stop-color="#005ea7"/>
+      <stop offset="1" stop-color="#005ba1"/>
+    </radialGradient>
+  </defs>
+
+  <g>
+    <!-- Central region globe / circular form -->
+    <path d="M61 8          C82 7 99 22 103 42          C107 61 98 80 82 90          C66 101 44 97 29 83          C14 69 10 48 20 30          C28 16 44 8 61 8Z" fill="url(#regionBlue)" stroke="#174d72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Light-blue upper region -->
+    <path d="M61 9          C75 11 86 20 94 32          C85 29 78 31 72 37          L62 47          C57 52 49 52 45 46          L34 35          C30 31 29 26 31 22          C39 13 49 9 61 9Z" fill="#9cebff" stroke="#174d72" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Region connection / branching shapes -->
+    <path d="M31 22          L43 34          C47 38 47 44 43 48          L37 54          C33 58 33 64 37 68          L49 80          C53 84 59 84 63 80          L73 70          C77 66 83 66 87 70          L95 78          C100 68 104 58 102 46          L90 34          C85 29 78 30 73 35          L62 46          C57 51 51 51 46 46          L34 34" fill="none" stroke="#b4edff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Central region marker -->
+    <circle cx="63" cy="48" r="13" fill="#0078d4" stroke="#e5f8ff" stroke-width="3.5"/>
+
+    <circle cx="63" cy="48" r="5" fill="#ffffff"/>
+
+    <!-- Lower region details -->
+    <path d="M21 56          C24 70 33 82 46 89          M47 93          C57 97 70 96 80 91" fill="none" stroke="#9cebff" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Orange circular management arrow -->
+    <path d="M91 16          C106 29 113 47 109 66          C106 83 95 97 79 105          C63 113 43 111 28 100" fill="none" stroke="#faa21d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Arrowhead -->
+    <path d="M29 89          L27 101          L39 100" fill="none" stroke="#ef7100" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Orange management stand -->
+    <path d="M58 98          L69 98          C67 105 68 109 75 110          L84 111          L84 119          L39 119          L39 111          L49 110          C56 109 59 105 58 98Z" fill="#ef7100" stroke="#9a4d12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M43 123          C54 121 70 122 81 123" fill="none" stroke="#faa21d" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Hand-drawn marker details -->
+    <path d="M19 43          C17 53 19 64 24 72          M36 17          C44 12 51 10 59 10          M85 88          C78 94 70 97 61 97" fill="none" stroke="#b4edff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- Small sketchnote accents -->
+    <path d="M105 19 L111 13          M112 31 L119 28          M110 78 L117 81          M17 91 L12 96" fill="none" stroke="#faa21d" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
