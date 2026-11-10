@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>external id modified (sketch)</title>
+  
+  <desc>Azure Entra-inspired blue identity diamond with two overlapping user silhouettes and a bidirectional exchange arrow, illustrated with uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="identityBlue" x1="12" y1="12" x2="108" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0055C5"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+
+    <linearGradient id="identityCyan" x1="20" y1="12" x2="68" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0294E4"/>
+      <stop offset="1" stop-color="#66DDFF"/>
+    </linearGradient>
+
+    <linearGradient id="facetLight" x1="43" y1="29" x2="79" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#44DBF9"/>
+    </linearGradient>
+
+    <linearGradient id="personBlue" x1="95" y1="67" x2="95" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0055C5"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+
+    <linearGradient id="personCyan" x1="70" y1="80" x2="70" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66DDFF"/>
+      <stop offset="1" stop-color="#0294E4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Entra identity diamond -->
+  <path d="M58 8            Q63 4 68 10            L119 68            Q123 74 117 79            L65 112            Q60 115 55 112            L8 81            Q2 77 7 70            L55 11            Q56 9 58 8 Z" fill="url(#identityBlue)" stroke="#174A86" stroke-width="3.7"/>
+
+  <!-- Cyan folded identity facet -->
+  <path d="M59 8            Q63 5 68 11            L85 31            Q71 25 61 37            L29 73            L59 92            L47 101            Q39 105 30 100            L8 82            Q2 77 8 70            L55 11            Q57 9 59 8 Z" fill="url(#identityCyan)" stroke="#0078D4" stroke-width="3.1"/>
+
+  <!-- Inner light-blue geometric facet -->
+  <path d="M60 36            L87 69            L60 91            L29 73 Z" fill="url(#facetLight)" stroke="#008FCB" stroke-width="2.8"/>
+
+  <!-- Facet marker details -->
+  <path d="M61 43 L79 67 L61 83" stroke="#E2FAFF" stroke-width="2.5" opacity=".9"/>
+
+  <path d="M15 73 Q31 54 48 34" stroke="#B5EFFF" stroke-width="2.6" opacity=".8"/>
+
+  <path d="M18 81 Q30 89 41 95" stroke="#0078D4" stroke-width="2" opacity=".75"/>
+
+  <!-- Dark translucent right facet -->
+  <path d="M61 8            Q65 6 69 11            L118 68            Q121 72 119 76            L61 113 Z" fill="#041642" opacity=".18"/>
+
+  <!-- Rear external user - shoulders -->
+  <path d="M95 88            C110 88 118 98 121 114            Q122 119 117 120            L75 120            Q71 119 73 114            C76 97 83 88 95 88 Z" fill="url(#personBlue)" stroke="#174A86" stroke-width="3.2"/>
+
+  <!-- Rear user head -->
+  <path d="M95 66            C103 66 109 72 109 80            C109 88 103 94 95 94            C87 94 81 88 81 80            C81 72 87 66 95 66 Z" fill="url(#personBlue)" stroke="#174A86" stroke-width="3.1"/>
+
+  <!-- Rear user identity highlight -->
+  <path d="M88 75 Q93 70 99 73" stroke="#71BDFF" stroke-width="2.4" opacity=".85"/>
+
+  <path d="M83 103 Q88 98 93 98" stroke="#71BDFF" stroke-width="2.1" opacity=".75"/>
+
+  <!-- Rear user collar -->
+  <path d="M88 93 L95 109 L102 93" fill="#D9F6FF" opacity=".85"/>
+
+  <!-- Front external user shoulders -->
+  <path d="M69 99            C84 99 92 110 94 121            Q95 126 90 126            L46 126            Q42 126 43 121            C46 107 54 99 69 99 Z" fill="url(#personCyan)" stroke="#0078D4" stroke-width="3.2"/>
+
+  <!-- Front user head -->
+  <path d="M69 77            C77 77 83 83 83 91            C83 99 77 105 69 105            C61 105 55 99 55 91            C55 83 61 77 69 77 Z" fill="url(#personCyan)" stroke="#0078D4" stroke-width="3.1"/>
+
+  <!-- Front user light marker highlight -->
+  <path d="M62 86 Q67 81 73 84" stroke="#D8FAFF" stroke-width="2.5"/>
+
+  <path d="M51 116 Q57 108 62 108" stroke="#D8FAFF" stroke-width="2.1" opacity=".85"/>
+
+  <!-- Front user collar -->
+  <path d="M62 104 L69 119 L76 104" fill="#E0FAFF" opacity=".88"/>
+
+  <!-- Bidirectional external identity exchange -->
+  <path d="M82 112            L91 103            L91 108            L109 108            L109 103            L118 112            L109 121            L109 116            L91 116            L91 121 Z" fill="#66DDFF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Small white arrow highlight -->
+  <path d="M93 111 L108 111" stroke="#E8FCFF" stroke-width="1.8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F2B827" stroke-width="2.7">
+    <path d="M14 22 L19 27"/>
+    <path d="M24 15 L25 22"/>
+    <path d="M33 13 L30 20"/>
+    <path d="M109 37 L115 34"/>
+    <path d="M114 45 L121 44"/>
+  </g>
+
+  <!-- Hand-drawn Azure-blue annotation strokes -->
+  <g stroke="#0078D4" stroke-width="2.4">
+    <path d="M9 96 Q13 101 19 103"/>
+    <path d="M15 108 L21 111"/>
+    <path d="M103 56 Q108 59 111 64"/>
+  </g>
+
+  <!-- Tiny yellow identity sparkle -->
+  <path d="M91 13            L94 19            L100 22            L94 25            L91 31            L88 25            L82 22            L88 19 Z" fill="#F2B827"/>
+
+  <!-- Subtle hand-drawn finishing strokes -->
+  <g stroke="#BEEFFF" stroke-width="2" opacity=".8">
+    <path d="M39 50 L46 42"/>
+    <path d="M35 57 L41 50"/>
+    <path d="M107 84 Q111 80 112 75"/>
+  </g>
+</svg>

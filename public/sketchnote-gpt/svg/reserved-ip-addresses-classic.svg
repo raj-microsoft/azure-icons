@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Reserved IP Addresses (Classic) (sketch)</title>
+  
+  <desc>Azure-blue and cyan rectangular network address panel with a white header slot and three blue circular indicators, drawn with irregular marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="panelCyan" x1="64" y1="40" x2="64" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#32D2F2"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="headerBlue" x1="13" y1="17" x2="115" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1689DE"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main cyan address panel -->
+  <path d="M12 42            L116 42            L117 109            Q117 112 113 112            L15 113            Q11 113 11 109            Z" fill="url(#panelCyan)" stroke="#087EA9" stroke-width="3.5"/>
+
+  <!-- Blue upper header -->
+  <path d="M15 16            Q12 16 12 20            L11 43            L117 43            L116 20            Q116 17 112 17            Z" fill="url(#headerBlue)" stroke="#155C99" stroke-width="3.5"/>
+
+  <!-- Hand-drawn white horizontal header slot -->
+  <path d="M28 26            Q43 25 59 26            L101 26            Q103 26 103 29            L103 34            Q103 36 100 36            L28 36            Q26 36 26 33            L26 29            Q26 27 28 26Z" fill="#F2F2F2" stroke="#D5EFFF" stroke-width="2"/>
+
+  <!-- Marker highlight on header -->
+  <path d="M17 22 L17 38            M31 29 L94 29" stroke="#B9DEFF" stroke-width="1.8" opacity=".65"/>
+
+  <!-- Three large Azure-blue address indicators -->
+  <path d="M37 69            C44 67 50 73 50 81            C50 89 44 95 36 94            C28 94 23 89 24 81            C24 74 29 69 37 69Z" fill="#0078D4" stroke="#155C99" stroke-width="2.8"/>
+
+  <path d="M65 69            C73 68 79 74 79 82            C79 90 73 95 65 94            C57 94 52 89 52 81            C52 74 58 69 65 69Z" fill="#0078D4" stroke="#155C99" stroke-width="2.8"/>
+
+  <path d="M94 69            C102 68 108 74 108 82            C108 90 102 95 94 94            C86 94 81 89 81 81            C81 74 87 69 94 69Z" fill="#0078D4" stroke="#155C99" stroke-width="2.8"/>
+
+  <!-- Imperfect hand-drawn circular highlights -->
+  <path d="M30 78 Q33 73 39 74            M58 78 Q62 73 68 74            M87 78 Q91 73 97 74" stroke="#A8DFFF" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Subtle panel sketch highlights -->
+  <path d="M17 51 L17 101            M22 106 Q47 108 73 106            M85 106 L108 106" stroke="#C0F5FF" stroke-width="2" opacity=".75"/>
+
+  <!-- Thin uneven boundary detail -->
+  <path d="M15 46 Q63 47 113 46" stroke="#087EA9" stroke-width="1.7" opacity=".45"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M4 29 L1 23            M6 18 L6 11" stroke="#FFCA45" stroke-width="3"/>
+
+  <path d="M120 51 L126 47            M121 60 L127 61" stroke="#FFCA45" stroke-width="3"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M109 5 L109 13            M105 9 L113 9" stroke="#FFCA45" stroke-width="2.7"/>
+
+  <!-- Minimal grounding strokes -->
+  <path d="M32 120 Q54 123 76 120            M84 120 L98 119" stroke="#198AB3" stroke-width="2" opacity=".45"/>
+</svg>

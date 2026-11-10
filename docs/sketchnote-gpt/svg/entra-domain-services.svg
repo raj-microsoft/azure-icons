@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Domain Services (sketch)</title>
+  
+  <desc>Hand-drawn Microsoft Entra blue and cyan diamond with a purple faceted domain services emblem at the lower right.</desc>
+
+  <defs>
+    <linearGradient id="entraBlue" x1="34" y1="18" x2="111" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055C5"/>
+      <stop offset=".55" stop-color="#225086"/>
+      <stop offset="1" stop-color="#041642"/>
+    </linearGradient>
+
+    <linearGradient id="entraCyan" x1="22" y1="17" x2="76" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0294E4"/>
+      <stop offset=".55" stop-color="#44DBF9"/>
+      <stop offset="1" stop-color="#66DDFF"/>
+    </linearGradient>
+
+    <linearGradient id="innerCyan" x1="64" y1="34" x2="64" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#44DBF9"/>
+    </linearGradient>
+
+    <linearGradient id="domainPurple" x1="94" y1="65" x2="94" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A67AF4"/>
+      <stop offset=".5" stop-color="#8B55E6"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Entra diamond silhouette -->
+  <path d="M58 11            Q64 5 70 11            L121 69            Q127 76 119 82            L72 112            Q64 117 57 112            L9 82            Q2 77 8 70 Z" fill="url(#entraBlue)" stroke="#174B86" stroke-width="3.6"/>
+
+  <!-- Cyan folded ribbon -->
+  <path d="M58 11            Q64 5 70 11            L88 32            Q78 27 70 32            Q65 35 60 41            L34 72            L64 91            L50 101            Q43 106 34 101            L9 84            Q2 79 8 72 Z" fill="url(#entraCyan)" stroke="#087DB7" stroke-width="3.2"/>
+
+  <!-- Central faceted Entra diamond -->
+  <path d="M64 38            L96 72            L64 94            L34 72 Z" fill="url(#innerCyan)" stroke="#157EB7" stroke-width="3.1"/>
+
+  <!-- Dark translucent right fold -->
+  <path d="M64 38 L96 72 L64 94 Z" fill="#225086" opacity=".32"/>
+
+  <!-- Sketchy cyan ribbon highlight -->
+  <path d="M17 73            L56 28            Q63 20 70 25" stroke="#C7F6FF" stroke-width="3" opacity=".85"/>
+
+  <path d="M43 72 L64 47 L85 71" stroke="#D5FAFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Fold edge details -->
+  <path d="M17 84            L36 97            Q43 102 49 97" stroke="#7CEAFF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M75 18 L113 63" stroke="#428AD7" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Domain Services faceted emblem -->
+  <path d="M94 64            Q96 64 98 67            L124 104            Q126 107 123 109            L96 121            Q94 122 92 121            L65 109            Q62 107 64 104            L91 67            Q92 65 94 64 Z" fill="url(#domainPurple)" stroke="#6530BD" stroke-width="3.5"/>
+
+  <!-- Pale left facet -->
+  <path d="M94 67            L67 106            L94 118 Z" fill="#F9F9F9" opacity=".52"/>
+
+  <!-- Facet boundary -->
+  <path d="M94 69 L94 118" stroke="#D6B9FF" stroke-width="2.4" opacity=".85"/>
+
+  <!-- Faceted lower edges -->
+  <path d="M68 107 L94 118 L121 107" stroke="#5930A3" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Hand-drawn facets and highlights -->
+  <path d="M87 79 L93 70 L99 79" stroke="#F0E3FF" stroke-width="2.6" opacity=".85"/>
+
+  <path d="M72 104 L89 81" stroke="#FFFFFF" stroke-width="2.2" opacity=".65"/>
+
+  <path d="M102 82 L117 103" stroke="#C9A5FF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Subtle marker-style accents -->
+  <g stroke="#E6B94B" stroke-width="2.5">
+    <path d="M29 22 L26 16"/>
+    <path d="M37 18 L39 12"/>
+    <path d="M115 44 L120 40"/>
+  </g>
+
+  <!-- Hand-drawn secondary contours -->
+  <path d="M12 90 L24 98" stroke="#44DBF9" stroke-width="2.2" opacity=".8"/>
+
+  <path d="M49 114 L58 119" stroke="#0078D4" stroke-width="2.2" opacity=".7"/>
+
+  <path d="M105 122 L114 118" stroke="#A67AF4" stroke-width="2.1" opacity=".75"/>
+</svg>

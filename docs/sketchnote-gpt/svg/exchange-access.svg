@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Exchange Access (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue security shield with a golden padlock, uneven marker outlines and subtle sketch accents.</desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="25" y1="12" x2="101" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#258CE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="lockGold" x1="48" y1="46" x2="85" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE452"/>
+      <stop offset=".54" stop-color="#FFD400"/>
+      <stop offset="1" stop-color="#FFBD02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Uneven hand-drawn shield silhouette -->
+  <path d="M64 10            C75 9 79 22 108 23            Q112 23 112 28            L112 61            C112 86 86 106 66 118            Q64 120 61 118            C40 105 16 87 16 61            L16 28            Q16 23 21 23            C49 22 53 9 64 10Z" fill="#0078D4" stroke="#174F87" stroke-width="3.8"/>
+
+  <!-- Inner blue shield -->
+  <path d="M64 16            C76 16 81 28 105 29            L105 61            C105 82 82 101 64 112            C45 101 23 83 23 61            L23 29            C47 28 53 16 64 16Z" fill="url(#shieldBlue)" stroke="#B4DCFF" stroke-width="2.3"/>
+
+  <!-- Loose marker contour -->
+  <path d="M29 35 Q49 33 58 24            M99 36 L99 60            Q98 80 83 94            M31 76 Q40 93 54 101" stroke="#D5EDFF" stroke-width="2.4" opacity=".75"/>
+
+  <!-- Slight irregularity along shield edge -->
+  <path d="M14 37 L14 51            M114 42 L114 57            M47 110 L54 115" stroke="#174F87" stroke-width="2.1" opacity=".75"/>
+
+  <!-- Hand-drawn golden padlock shackle -->
+  <path d="M46 57 L46 45            C46 31 53 25 64 25            C75 25 82 33 82 45            L82 57            L73 57            L73 45            C73 38 70 34 64 34            C58 34 55 39 55 45            L55 57Z" fill="#FFBD02" stroke="#80560A" stroke-width="3.4"/>
+
+  <!-- Shackle illumination -->
+  <path d="M50 47 Q49 31 61 30            M77 39 Q79 44 78 49" stroke="#FFE452" stroke-width="2.8"/>
+
+  <!-- Padlock body -->
+  <path d="M43 55            Q42 53 47 53            L82 53            Q87 53 87 58            L87 86            Q87 91 82 91            L46 91            Q41 91 41 86            L41 59            Q41 56 43 55Z" fill="url(#lockGold)" stroke="#80560A" stroke-width="3.6"/>
+
+  <!-- Original icon's diagonal yellow facets -->
+  <path d="M43 59 L82 55            L46 88            Q43 88 43 84Z" fill="#FFE452" opacity=".83"/>
+
+  <path d="M83 57 L47 88 L83 88Z" fill="#FFBD02" opacity=".42"/>
+
+  <!-- Marker-style upper edge -->
+  <path d="M47 58 Q63 56 81 58" stroke="#FFF2A1" stroke-width="2.5"/>
+
+  <!-- Subtle hand-drawn lock keyhole -->
+  <path d="M64 67            C59 67 58 73 62 76            L60 83            L68 83            L66 76            C70 73 69 67 64 67Z" fill="#9B650B" stroke="#80560A" stroke-width="1.6"/>
+
+  <!-- Small sketch highlights -->
+  <path d="M49 64 L49 72            M79 79 L79 84" stroke="#FFF1A0" stroke-width="2.2" opacity=".9"/>
+
+  <!-- Restrained sketchnote accent strokes -->
+  <path d="M29 15 L24 9            M20 20 L12 17            M99 15 L104 9            M109 20 L117 17" stroke="#0078D4" stroke-width="2.5"/>
+
+  <path d="M59 5 Q64 3 69 5" stroke="#FFBD02" stroke-width="2.5"/>
+
+  <!-- Tiny hand-inked emphasis marks -->
+  <path d="M31 49 L34 45            M94 72 L97 68" stroke="#D5EDFF" stroke-width="2" opacity=".8"/>
+</svg>

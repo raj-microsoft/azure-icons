@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Connect (sketch)</title>
+  
+  <desc>Hand-drawn Microsoft Entra diamond in Azure-blue and cyan, with a purple synchronization badge containing two white circular arrows.</desc>
+
+  <defs>
+    <linearGradient id="entraBlue" x1="28" y1="20" x2="106" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055C5"/>
+      <stop offset=".55" stop-color="#225086"/>
+      <stop offset="1" stop-color="#041642"/>
+    </linearGradient>
+
+    <linearGradient id="entraCyan" x1="24" y1="16" x2="76" y2="99" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0294E4"/>
+      <stop offset=".55" stop-color="#44DBF9"/>
+      <stop offset="1" stop-color="#66DDFF"/>
+    </linearGradient>
+
+    <linearGradient id="innerCyan" x1="64" y1="30" x2="64" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#44DBF9"/>
+    </linearGradient>
+
+    <linearGradient id="syncPurple" x1="95" y1="63" x2="95" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A67AF4"/>
+      <stop offset=".45" stop-color="#8B55E6"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Entra diamond silhouette -->
+  <path d="M58 8            Q64 2 70 8            L122 66            Q128 73 120 79            L72 109            Q64 114 57 109            L8 79            Q1 74 7 67 Z" fill="url(#entraBlue)" stroke="#174B86" stroke-width="3.6"/>
+
+  <!-- Cyan folded left ribbon -->
+  <path d="M58 8            Q64 3 70 8            L88 29            Q78 24 70 29            Q65 32 60 38            L33 69            L64 88            L50 98            Q43 103 34 98            L8 81            Q1 76 7 69 Z" fill="url(#entraCyan)" stroke="#087DB7" stroke-width="3.2"/>
+
+  <!-- Central faceted diamond -->
+  <path d="M64 35            L96 69            L64 91            L33 69 Z" fill="url(#innerCyan)" stroke="#157EB7" stroke-width="3.1"/>
+
+  <!-- Dark right-side fold -->
+  <path d="M64 35            L96 69            L64 91 Z" fill="#225086" opacity=".33"/>
+
+  <!-- Sketchy cyan highlights -->
+  <path d="M16 70            L56 24            Q63 16 70 22" stroke="#C7F6FF" stroke-width="3" opacity=".85"/>
+
+  <path d="M43 69 L64 44 L85 68" stroke="#D5FAFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Fold edge details -->
+  <path d="M16 81            L36 94            Q43 99 49 94" stroke="#7CEAFF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M74 15 L113 60" stroke="#428AD7" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Purple Entra Connect synchronization badge -->
+  <path d="M95 62            C112 62 125 75 125 93            C125 110 112 124 95 124            C78 124 64 110 64 93            C64 76 78 62 95 62 Z" fill="url(#syncPurple)" stroke="#6530BD" stroke-width="3.5"/>
+
+  <!-- Badge hand-drawn highlight -->
+  <path d="M73 84            Q79 69 94 69            Q103 68 109 74" stroke="#D7BBFF" stroke-width="2.8" opacity=".9"/>
+
+  <!-- Clockwise synchronization arrow -->
+  <path d="M78 88            C80 80 87 76 95 76            C104 76 111 81 114 89" stroke="#FFFFFF" stroke-width="4.6"/>
+
+  <path d="M105 87            L115 91            L115 80" stroke="#FFFFFF" stroke-width="4.6"/>
+
+  <!-- Counterclockwise synchronization arrow -->
+  <path d="M112 98            C110 106 103 111 95 111            C86 111 79 106 76 99" stroke="#FFFFFF" stroke-width="4.6"/>
+
+  <path d="M85 100            L75 96            L75 107" stroke="#FFFFFF" stroke-width="4.6"/>
+
+  <!-- Small sketch accents -->
+  <g stroke="#E6B94B" stroke-width="2.5">
+    <path d="M30 19 L27 13"/>
+    <path d="M37 15 L39 9"/>
+    <path d="M117 43 L122 39"/>
+  </g>
+
+  <!-- Secondary marker flourishes -->
+  <path d="M12 88 L24 96" stroke="#44DBF9" stroke-width="2.2" opacity=".8"/>
+
+  <path d="M51 111 L59 116" stroke="#0078D4" stroke-width="2.2" opacity=".7"/>
+
+  <path d="M114 115 Q109 121 102 123" stroke="#B38AF4" stroke-width="2" opacity=".75"/>
+</svg>

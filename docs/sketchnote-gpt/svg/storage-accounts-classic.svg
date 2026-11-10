@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Storage Accounts (Classic) (sketch)</title>
+  
+  <desc>Classic Azure storage account represented by a cyan rectangular storage unit with a dark teal header and three horizontal storage slots, illustrated with uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="storageCyan" x1="64" y1="40" x2="64" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main storage body -->
+  <path d="M8 40            L120 40            L120 109            Q120 115 114 115            L14 116            Q8 116 8 110 Z" fill="url(#storageCyan)" stroke="#147FAD" stroke-width="3.5"/>
+
+  <!-- Hand-drawn teal top header -->
+  <path d="M14 14            Q8 14 8 20            L8 40            L120 40            L120 20            Q120 14 114 14 Z" fill="#198AB3" stroke="#11658B" stroke-width="3.5"/>
+
+  <!-- Loose marker highlights on header -->
+  <path d="M16 20 L109 19            M15 25 L15 34" stroke="#9CEBFF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Header underline -->
+  <path d="M12 43 Q65 44 116 42" stroke="#087FA9" stroke-width="2" opacity=".65"/>
+
+  <!-- First storage slot -->
+  <path d="M25 50            L103 50            Q107 50 107 54            L107 63            Q107 66 103 66            L25 66            Q21 66 21 62            L21 54            Q21 50 25 50 Z" fill="#FFFFFF" stroke="#1689B5" stroke-width="2.8"/>
+
+  <!-- Second storage slot -->
+  <path d="M25 71            L103 71            Q107 71 107 75            L107 84            Q107 87 103 87            L25 87            Q21 87 21 83            L21 75            Q21 71 25 71 Z" fill="#9CEBFF" stroke="#1689B5" stroke-width="2.8"/>
+
+  <!-- Third storage slot -->
+  <path d="M25 92            L103 92            Q107 92 107 96            L107 105            Q107 108 103 108            L25 108            Q21 108 21 104            L21 96            Q21 92 25 92 Z" fill="#50E6FF" stroke="#1689B5" stroke-width="2.8"/>
+
+  <!-- Subtle irregular slot highlights -->
+  <path d="M28 54 L94 54            M28 75 L94 75            M28 96 L94 96" stroke="#FFFFFF" stroke-width="1.7" opacity=".75"/>
+
+  <!-- Marker-style edge details -->
+  <path d="M13 50 L13 103            M115 49 L115 101" stroke="#B7F5FF" stroke-width="2" opacity=".75"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M112 7 L112 11            M107 9 L104 6            M118 9 L121 6" stroke="#F4C542" stroke-width="2.5"/>
+
+  <!-- Small hand-drawn accent strokes -->
+  <path d="M3 59 L6 56            M3 67 L6 65            M122 78 L125 75" stroke="#198AB3" stroke-width="2.2"/>
+
+  <!-- Tiny corner highlight -->
+  <path d="M111 107 L115 103" stroke="#F4C542" stroke-width="2.3"/>
+
+</svg>

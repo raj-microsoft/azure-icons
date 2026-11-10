@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Search (sketch)</title>
+  
+  <desc>Hand-drawn Azure Search magnifying glass with cyan-blue lens, white center, light-blue reflections and a dark Azure-blue handle.</desc>
+
+  <defs>
+    <radialGradient id="lensBlue" cx="58%" cy="38%" r="68%">
+      <stop offset="0.22" stop-color="#32D4F5"/>
+      <stop offset="0.60" stop-color="#32D2F2"/>
+      <stop offset="0.83" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </radialGradient>
+    <linearGradient id="handleBlue" x1="17" y1="111" x2="54" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#198AB3"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Slightly irregular hand-drawn handle -->
+  <path d="M48 79            L55 86            L26 115            Q22 119 18 115            L13 110            Q10 106 14 102            Z" fill="url(#handleBlue)" stroke="#176B91" stroke-width="3.2"/>
+
+  <!-- Marker-style handle edge -->
+  <path d="M17 107            Q30 94 45 79" stroke="#65C7E8" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M24 114            Q38 101 52 87" stroke="#125F8D" stroke-width="2" opacity=".65"/>
+
+  <!-- Handle-to-lens connection -->
+  <path d="M47 77            Q50 73 55 76            L60 82            L53 89            Z" fill="#198AB3" stroke="#176B91" stroke-width="2.5"/>
+
+  <!-- Cyan magnifying glass body -->
+  <path d="M111 52            C111 76 91 96 67 97            C43 98 23 80 22 56            C21 32 39 12 63 10            C88 8 109 27 111 52            Z" fill="url(#lensBlue)" stroke="#198AB3" stroke-width="3.5"/>
+
+  <!-- Deliberately uneven sketch contour -->
+  <path d="M26 43            C31 23 49 13 66 13            M92 20            C104 29 109 42 108 56            M103 77            C95 89 82 94 68 94" stroke="#0078D4" stroke-width="1.8" opacity=".55"/>
+
+  <!-- White open center -->
+  <path d="M99 53            C100 73 85 86 67 86            C48 87 34 73 34 55            C34 37 48 23 66 22            C84 21 98 35 99 53            Z" fill="#FFFFFF" stroke="#1E9FC6" stroke-width="2.3"/>
+
+  <!-- Original light-cyan reflection -->
+  <path d="M35 65            C33 47 42 33 54 27            C65 21 78 23 86 28            C72 24 60 28 51 37            C42 46 38 56 35 65            Z" fill="#C3F1FF" opacity=".95"/>
+
+  <!-- Fine handwritten highlight strokes -->
+  <path d="M39 49            Q45 34 58 30" stroke="#8BDFF7" stroke-width="3" opacity=".9"/>
+
+  <path d="M43 42            Q48 35 54 33" stroke="#FFFFFF" stroke-width="2.3"/>
+
+  <!-- Small sketchnote accent marks -->
+  <path d="M111 22 L117 16            M116 34 L123 32            M101 12 L104 5" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Subtle lower-left ink details -->
+  <path d="M12 95 L17 90            M8 104 L11 101" stroke="#198AB3" stroke-width="2" opacity=".65"/>
+</svg>

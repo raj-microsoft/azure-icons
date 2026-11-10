@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Virtual Instance for SAP (sketch)</title>
+  
+  <desc>Hand-drawn Azure virtual machine monitor displaying the blue SAP logo, with an uneven marker outline, grey stand, subtle highlights, and transparent background.</desc>
+
+  <defs>
+    <linearGradient id="monitorBlue" x1="64" y1="9" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".48" stop-color="#005194"/>
+      <stop offset="1" stop-color="#003067"/>
+    </linearGradient>
+
+    <linearGradient id="sapBlue" x1="18" y1="25" x2="103" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00AEEF"/>
+      <stop offset=".45" stop-color="#007CC5"/>
+      <stop offset="1" stop-color="#0066B3"/>
+    </linearGradient>
+
+    <linearGradient id="standGrey" x1="64" y1="88" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monitor body -->
+  <path d="M9 9            Q6 9 6 14            L6 84            Q6 89 11 89            L117 89            Q122 89 122 84            L122 14            Q122 9 117 9Z" fill="url(#monitorBlue)" stroke="#003067" stroke-width="3.5"/>
+
+  <!-- Loose marker highlight on monitor frame -->
+  <path d="M12 18            Q12 13 18 13            L109 13" stroke="#5EA0EF" stroke-width="2.5" opacity=".65"/>
+
+  <path d="M117 26            Q118 54 117 79" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+
+  <!-- SAP blue diagonal banner -->
+  <path d="M18 26            Q18 24 21 24            L109 24            L65 73            L18 73Z" fill="url(#sapBlue)" stroke="#005BA1" stroke-width="2.8"/>
+
+  <!-- Banner marker edge -->
+  <path d="M22 29            L101 29            L64 68" stroke="#50E6FF" stroke-width="2" opacity=".55"/>
+
+  <!-- Hand-drawn SAP lettering -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- S -->
+    <path d="M41 39              Q35 35 29 39              Q25 43 32 47              L37 49              Q44 53 39 59              Q34 64 26 58"/>
+
+    <!-- A -->
+    <path d="M45 61              L54 38              L63 61              M49 53              L59 53"/>
+
+    <!-- P -->
+    <path d="M69 61              L69 38              L79 38              Q88 38 88 45              Q88 52 79 52              L69 52"/>
+  </g>
+
+  <!-- Subtle freehand lettering highlights -->
+  <g stroke="#D9F7FF" stroke-width="1.4" opacity=".75">
+    <path d="M29 35 Q36 32 42 36"/>
+    <path d="M52 35 L55 32"/>
+    <path d="M73 35 L81 35"/>
+  </g>
+
+  <!-- Monitor bottom reflection -->
+  <path d="M15 83            Q63 85 113 83" stroke="#5EA0EF" stroke-width="2" opacity=".5"/>
+
+  <!-- Stand neck -->
+  <path d="M52 89            L76 89            Q75 104 81 111            L47 111            Q53 104 52 89Z" fill="url(#standGrey)" stroke="#777777" stroke-width="2.8"/>
+
+  <!-- Stand base -->
+  <path d="M47 110            Q42 113 37 115            Q33 117 33 121            L95 121            Q95 117 91 115            Q86 113 81 110Z" fill="url(#standGrey)" stroke="#777777" stroke-width="3"/>
+
+  <!-- Stand sketch highlights -->
+  <g stroke="#EEEEEE" stroke-width="2.2" opacity=".8">
+    <path d="M57 94 Q58 104 53 108"/>
+    <path d="M43 117 Q64 115 85 117"/>
+  </g>
+
+  <!-- Small Azure-blue sketchnote accents -->
+  <g stroke="#0078D4" stroke-width="2.2" opacity=".8">
+    <path d="M3 35 L1 40"/>
+    <path d="M3 47 L1 52"/>
+    <path d="M124 45 L127 41"/>
+  </g>
+
+  <!-- Restrained yellow accent -->
+  <path d="M108 95            L111 89            L114 95            L120 98            L114 101            L111 107            L108 101            L102 98Z" fill="#FFD966" stroke="#D49A20" stroke-width="1.6"/>
+</svg>

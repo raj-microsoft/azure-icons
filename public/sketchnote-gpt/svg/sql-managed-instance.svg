@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>SQL Managed Instance (sketch)</title>
+  
+  <desc>Gray SQL server tower with two dark-blue status slots and cyan indicators, partially overlapped by an Azure-blue cloud containing white SQL lettering.</desc>
+
+  <defs>
+    <linearGradient id="serverGray" x1="39" y1="5" x2="39" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B3B3"/>
+      <stop offset=".53" stop-color="#A2A2A2"/>
+      <stop offset="1" stop-color="#949494"/>
+    </linearGradient>
+    <linearGradient id="cloudBlue" x1="69" y1="46" x2="69" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gray managed server tower -->
+  <path d="M10 5            Q7 5 7 9            L7 119            Q7 123 11 123            L69 123            Q73 123 73 119            L73 9            Q73 5 69 5 Z" fill="url(#serverGray)" stroke="#727272" stroke-width="3.2"/>
+
+  <!-- Subtle hand-drawn server highlights -->
+  <path d="M12 12 Q11 28 12 45            M17 10 Q37 9 58 10            M12 102 L12 115" stroke="#DEDEDE" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Upper server status slot -->
+  <path d="M23 21            L56 21            Q63 21 63 28            Q63 35 56 35            L23 35            Q16 35 16 28            Q16 21 23 21 Z" fill="#003067" stroke="#164D7B" stroke-width="2"/>
+
+  <!-- Lower server status slot -->
+  <path d="M23 43            L56 43            Q63 43 63 50            Q63 57 56 57            L23 57            Q16 57 16 50            Q16 43 23 43 Z" fill="#003067" stroke="#164D7B" stroke-width="2"/>
+
+  <!-- Cyan status indicators -->
+  <circle cx="25" cy="28" r="5" fill="#50E6FF" stroke="#B9F5FF" stroke-width="1.4"/>
+  <circle cx="25" cy="50" r="5" fill="#50E6FF" stroke="#B9F5FF" stroke-width="1.4"/>
+
+  <!-- Indicator highlights -->
+  <path d="M23 26 L25 25            M23 48 L25 47" stroke="#FFFFFF" stroke-width="1.7"/>
+
+  <!-- Marker details on server slots -->
+  <path d="M36 25 L54 25            M36 47 L54 47" stroke="#3975A7" stroke-width="1.8" opacity=".7"/>
+
+  <!-- Azure managed SQL cloud -->
+  <path d="M100 76            C99 59 86 47 70 47            C55 47 43 56 39 68            C25 70 16 82 17 96            C18 112 30 123 47 123            L98 123            C113 123 124 112 124 99            C124 87 114 77 100 76 Z" fill="url(#cloudBlue)" stroke="#176EAE" stroke-width="3.5"/>
+
+  <!-- Organic sketch contour on cloud -->
+  <path d="M22 89            Q26 74 42 73            M46 65            Q55 51 70 52            M82 55            Q95 63 95 80            M104 81            Q118 86 119 97" stroke="#A5D5FF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Subtle marker highlight -->
+  <path d="M25 100 Q28 112 40 116            M55 57 Q64 51 73 54" stroke="#D0EAFF" stroke-width="2.2" opacity=".65"/>
+
+  <!-- SQL lettering: S -->
+  <path d="M49 84            C45 81 39 81 36 84            C32 88 35 92 41 95            C49 98 51 103 47 108            C43 112 36 111 32 108" stroke="#F2F2F2" stroke-width="5.5"/>
+
+  <!-- SQL lettering: Q -->
+  <path d="M78 96            C78 105 73 111 65 111            C57 111 52 105 52 96            C52 87 57 81 65 81            C73 81 78 87 78 96 Z" stroke="#F2F2F2" stroke-width="5.5"/>
+
+  <path d="M71 105 L83 117" stroke="#F2F2F2" stroke-width="5.5"/>
+
+  <!-- SQL lettering: L -->
+  <path d="M90 83            L90 110            L109 110" stroke="#F2F2F2" stroke-width="5.5"/>
+
+  <!-- Fine white marker reinforcement -->
+  <path d="M36 86 Q39 83 43 85            M57 91 Q60 85 65 85            M94 86 L94 102" stroke="#FFFFFF" stroke-width="1.5" opacity=".85"/>
+
+  <!-- Azure-blue hand-drawn accent marks -->
+  <path d="M8 72 L3 77            M8 83 L3 85" stroke="#0078D4" stroke-width="2.4" opacity=".7"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M103 53 L109 46            M112 62 L120 59            M88 45 L89 38" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Small handwritten-style flourish -->
+  <path d="M18 125 Q26 127 33 125" stroke="#0078D4" stroke-width="1.8" opacity=".55"/>
+</svg>

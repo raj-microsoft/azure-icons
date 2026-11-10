@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>ExpressRoute Circuits (sketch)</title>
+  
+  <desc>Three green network nodes connected in a triangular circuit by purple hand-drawn links, preserving the original Azure ExpressRoute Circuits icon colors.</desc>
+
+  <defs>
+    <linearGradient id="nodeGreen" x1="0" y1="-16" x2="17" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A4E85C"/>
+      <stop offset=".5" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left diagonal circuit connection -->
+  <path d="M62 25            Q59 34 54 43            L28 93            Q26 97 31 99            L37 102            Q40 103 42 99            L73 43            Q76 39 72 36Z" fill="#A67AF4" stroke="#6734AA" stroke-width="3.4"/>
+
+  <!-- Right diagonal circuit connection -->
+  <path d="M65 25            Q69 35 74 44            L103 99            Q105 103 100 105            L94 107            Q90 108 88 104            L57 44            Q55 40 59 37Z" fill="#A67AF4" stroke="#6734AA" stroke-width="3.4"/>
+
+  <!-- Lower horizontal circuit connection -->
+  <path d="M26 96            Q45 94 64 95            Q84 94 102 96            L102 108            Q83 109 64 108            Q44 109 26 108Z" fill="#773ADC" stroke="#51239B" stroke-width="3.4"/>
+
+  <!-- Marker-style line details -->
+  <path d="M64 43 Q52 65 40 86" stroke="#D4BCFF" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M72 48 Q84 68 93 86" stroke="#D4BCFF" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M44 100 Q63 99 84 100" stroke="#C1A0FA" stroke-width="2.4" opacity=".9"/>
+
+  <!-- Subtle hand-inked circuit marks -->
+  <path d="M47 70 L50 67            M81 68 L84 72" stroke="#6734AA" stroke-width="2" opacity=".65"/>
+
+  <!-- Top green network node -->
+  <path d="M64 8            C77 7 84 17 83 29            C82 41 73 47 63 46            C52 45 45 37 46 27            C46 16 53 9 64 8Z" fill="url(#nodeGreen)" stroke="#47751E" stroke-width="3.6"/>
+
+  <!-- Top node highlight -->
+  <path d="M54 26            Q55 17 64 16            Q69 15 73 19" stroke="#D9F8A2" stroke-width="3.2"/>
+
+  <!-- Left green network node -->
+  <path d="M19 87            C30 84 40 91 43 101            C46 113 39 122 28 124            C17 126 8 119 6 108            C4 98 9 90 19 87Z" fill="url(#nodeGreen)" stroke="#47751E" stroke-width="3.6"/>
+
+  <!-- Left node highlight -->
+  <path d="M13 106            Q13 97 22 94            Q27 93 31 96" stroke="#D9F8A2" stroke-width="3.1"/>
+
+  <!-- Right green network node -->
+  <path d="M104 87            C115 85 123 93 125 103            C128 115 119 123 109 124            C98 125 89 118 87 108            C85 97 93 89 104 87Z" fill="url(#nodeGreen)" stroke="#47751E" stroke-width="3.6"/>
+
+  <!-- Right node highlight -->
+  <path d="M95 106            Q96 96 105 94            Q110 93 114 97" stroke="#D9F8A2" stroke-width="3.1"/>
+
+  <!-- Tiny sketchnote accents -->
+  <path d="M39 17 L34 12            M43 11 L41 5            M88 13 L93 8            M91 21 L98 19" stroke="#773ADC" stroke-width="2.4"/>
+
+  <path d="M52 55 L46 53            M80 55 L86 52" stroke="#A67AF4" stroke-width="2.2"/>
+
+  <!-- Hand-drawn node glints -->
+  <path d="M69 39 L73 36            M33 116 L36 113            M113 117 L116 114" stroke="#D9F8A2" stroke-width="2.2" opacity=".85"/>
+</svg>

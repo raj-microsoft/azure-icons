@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Feature Previews (sketch)</title>
+  
+  <desc>Green bookmark-shaped feature preview icon with an asymmetric folded ribbon, uneven marker outlines, subtle Azure-blue details, and restrained yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="previewGreen" x1="64" y1="8" x2="64" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset=".58" stop-color="#84D332"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+    <linearGradient id="foldGreen" x1="70" y1="65" x2="108" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main bookmark silhouette -->
+  <path d="M30 9            Q27 9 27 13            L27 117            Q27 122 32 119            L63 95            Q64 94 66 93            L105 62            L105 13            Q105 9 101 9            Z" fill="url(#previewGreen)" stroke="#528E25" stroke-width="3.5"/>
+
+  <!-- Asymmetric lower bookmark fold -->
+  <path d="M65 93            L105 62            L105 117            Q105 122 101 119            Z" fill="url(#foldGreen)" stroke="#528E25" stroke-width="3.2"/>
+
+  <!-- Hand-drawn diagonal fold emphasis -->
+  <path d="M65 93 Q82 79 105 62" stroke="#477F20" stroke-width="2.1"/>
+
+  <path d="M70 94 Q85 83 101 70" stroke="#B9EA7E" stroke-width="2" opacity=".85"/>
+
+  <!-- Subtle green marker highlights -->
+  <path d="M35 17 Q55 15 76 17" stroke="#D8F4AC" stroke-width="3" opacity=".85"/>
+
+  <path d="M34 24 Q33 57 34 87" stroke="#C9EE96" stroke-width="2.7" opacity=".8"/>
+
+  <path d="M38 108 L59 91" stroke="#D7F3AB" stroke-width="2" opacity=".8"/>
+
+  <!-- Minimal feature-preview sparkle -->
+  <path d="M68 35            L72 45            L82 49            L72 53            L68 63            L64 53            L54 49            L64 45 Z" fill="#E4F8C6" stroke="#5E9624" stroke-width="2.2"/>
+
+  <!-- Small Azure-blue handwritten marker accent -->
+  <path d="M83 31 Q90 35 91 43" stroke="#0078D4" stroke-width="2.5"/>
+
+  <path d="M87 42 L91 46 L94 40" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Restrained yellow sketchnote strokes -->
+  <g stroke="#F2B827" stroke-width="2.8">
+    <path d="M13 25 L19 29"/>
+    <path d="M15 15 L20 21"/>
+    <path d="M24 11 L25 17"/>
+    <path d="M112 26 L118 22"/>
+    <path d="M113 35 L121 34"/>
+  </g>
+
+  <!-- Small hand-drawn corner annotation -->
+  <path d="M114 83 Q119 86 121 92" stroke="#0078D4" stroke-width="2.3"/>
+
+  <path d="M116 97 L122 96" stroke="#0078D4" stroke-width="2.3"/>
+
+  <!-- Tiny yellow accent -->
+  <path d="M114 57            L116 62            L121 64            L116 66            L114 71            L112 66            L107 64            L112 62 Z" fill="#F2B827"/>
+
+  <!-- Loose marker details -->
+  <g stroke="#D9F4B6" stroke-width="2" opacity=".8">
+    <path d="M42 29 L49 28"/>
+    <path d="M43 35 L53 34"/>
+    <path d="M83 101 L96 111"/>
+  </g>
+</svg>

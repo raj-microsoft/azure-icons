@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Event Grid Domains (sketch)</title>
+  
+  <desc>Grey open domain frame containing branching cyan event routes with turquoise and purple endpoint nodes, rendered as editable hand-drawn vector shapes.</desc>
+
+  <defs>
+    <linearGradient id="purpleTop" x1="91" y1="49" x2="91" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C69AEB"/>
+      <stop offset="1" stop-color="#6F4BB2"/>
+    </linearGradient>
+    <linearGradient id="purpleBottom" x1="85" y1="81" x2="85" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C69AEB"/>
+      <stop offset="1" stop-color="#6F4BB2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Grey domain boundary: top and bottom rails -->
+  <path d="M15 18 Q43 17 65 18 Q88 19 113 18" stroke="#949494" stroke-width="8"/>
+  <path d="M15 110 Q42 109 64 110 Q91 111 113 110" stroke="#949494" stroke-width="8"/>
+
+  <!-- Four corner mounting brackets -->
+  <path d="M12 18 L23 18 L23 40            Q23 43 20 43 L12 43            Q9 43 9 40 L9 23            Q9 19 12 18 Z" fill="#999999" stroke="#707070" stroke-width="2.7"/>
+  <path d="M105 18 L116 18            Q119 19 119 23 L119 40            Q119 43 116 43 L108 43            Q105 43 105 40 Z" fill="#999999" stroke="#707070" stroke-width="2.7"/>
+  <path d="M12 85 L20 85            Q23 85 23 88 L23 110 L12 110            Q9 109 9 106 L9 88            Q9 85 12 85 Z" fill="#999999" stroke="#707070" stroke-width="2.7"/>
+  <path d="M108 85 L116 85            Q119 85 119 88 L119 106            Q119 109 116 110 L105 110            L105 88 Q105 85 108 85 Z" fill="#999999" stroke="#707070" stroke-width="2.7"/>
+
+  <!-- Hand-drawn highlights on frame -->
+  <path d="M14 23 L14 35            M110 23 L110 35            M14 91 L14 103            M110 91 L110 103" stroke="#C7C7C7" stroke-width="2.2"/>
+  <path d="M28 15 Q46 14 61 15            M67 113 Q85 114 101 113" stroke="#B3B3B3" stroke-width="2"/>
+
+  <!-- Event Grid branching network -->
+  <g stroke="#32BEDD" stroke-width="5">
+    <!-- Main entry spine -->
+    <path d="M27 70 L35 70              L60 45 L76 45"/>
+
+    <!-- Upper branch -->
+    <path d="M44 70 L59 55 L90 55"/>
+
+    <!-- Central branch -->
+    <path d="M35 70 L70 70"/>
+
+    <!-- Lower branch -->
+    <path d="M36 70 L52 86 L84 86"/>
+
+    <!-- Cross-route -->
+    <path d="M60 45 L75 45              M70 70 L84 70"/>
+  </g>
+
+  <!-- Uneven marker overlays -->
+  <g stroke="#7FE9F5" stroke-width="1.8" opacity=".9">
+    <path d="M30 67 L57 42"/>
+    <path d="M48 67 L60 53 L83 53"/>
+    <path d="M40 73 L53 84 L75 84"/>
+  </g>
+
+  <!-- Central cyan endpoint -->
+  <path d="M70 62            C75 62 79 66 79 71            C79 76 75 80 70 80            C65 80 61 76 61 71            C61 66 65 62 70 62 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.8"/>
+
+  <!-- Upper cyan endpoint -->
+  <path d="M77 34            C82 34 86 38 86 43            C86 48 82 52 77 52            C72 52 68 48 68 43            C68 38 72 34 77 34 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.8"/>
+
+  <!-- Upper-right purple endpoint -->
+  <path d="M92 49            C97 49 101 53 101 58            C101 63 97 67 92 67            C87 67 83 63 83 58            C83 53 87 49 92 49 Z" fill="url(#purpleTop)" stroke="#6F4BB2" stroke-width="2.8"/>
+
+  <!-- Lower-right purple endpoint -->
+  <path d="M85 80            C90 80 94 84 94 89            C94 94 90 98 85 98            C80 98 76 94 76 89            C76 84 80 80 85 80 Z" fill="url(#purpleBottom)" stroke="#6F4BB2" stroke-width="2.8"/>
+
+  <!-- Endpoint highlights -->
+  <path d="M73 40 Q76 37 80 39            M66 68 Q69 65 73 67" stroke="#D8FCFF" stroke-width="2.3"/>
+  <path d="M88 55 Q91 52 95 54            M81 86 Q84 83 88 85" stroke="#E7D2FF" stroke-width="2.3"/>
+
+  <!-- Small sketchnote event-flow accents -->
+  <path d="M30 61 L35 56            M53 38 L58 33            M100 72 L105 69" stroke="#FFCA28" stroke-width="2.8"/>
+
+  <!-- Tiny handwritten-style emphasis marks -->
+  <path d="M48 96 Q55 99 62 97            M32 49 L37 46" stroke="#0078D4" stroke-width="2" opacity=".7"/>
+</svg>

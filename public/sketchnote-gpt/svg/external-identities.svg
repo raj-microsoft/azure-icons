@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>External Identities (sketch)</title>
+  
+  <desc>Two blue identity buildings connected by orange circular exchange arrows, preserving the original Azure External Identities symbolism.</desc>
+
+  <defs>
+    <linearGradient id="leftBlue" x1="10" y1="31" x2="55" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#168BD8"/>
+      <stop offset="1" stop-color="#0072C6"/>
+    </linearGradient>
+    <linearGradient id="rightCyan" x1="75" y1="32" x2="119" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#75C8E6"/>
+      <stop offset="1" stop-color="#59B4D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left identity building -->
+  <path d="M12 32            Q12 28 17 28            L48 28            Q53 28 53 33            L53 92            Q53 97 48 97            L17 97            Q12 97 12 92Z" fill="url(#leftBlue)" stroke="#14578B" stroke-width="3.5"/>
+
+  <!-- Left building marker highlight -->
+  <path d="M18 36 L18 87            M23 34 L45 34" stroke="#6CC3F0" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Left windows -->
+  <path d="M21 41 L32 41 L32 54 L21 54Z            M37 41 L47 41 L47 54 L37 54Z            M21 63 L32 63 L32 76 L21 76Z            M37 63 L47 63 L47 76 L37 76Z" fill="#59B4D9" stroke="#D2F1FF" stroke-width="1.6"/>
+
+  <!-- Right identity building -->
+  <path d="M80 32            Q80 28 85 28            L113 28            Q118 28 118 33            L118 92            Q118 97 113 97            L85 97            Q80 97 80 92Z" fill="url(#rightCyan)" stroke="#247EAA" stroke-width="3.5"/>
+
+  <!-- Right building highlight -->
+  <path d="M86 35 L109 35            M86 41 L86 48" stroke="#C8F3FF" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Right windows -->
+  <path d="M88 41 L99 41 L99 54 L88 54Z            M104 41 L112 41 L112 54 L104 54Z            M88 63 L99 63 L99 76 L88 76Z            M104 63 L112 63 L112 76 L104 76Z" fill="#FFFFFF" stroke="#D7F3FF" stroke-width="1.5"/>
+
+  <!-- Upper orange identity exchange arc -->
+  <path d="M44 24            C48 10 58 5 68 7            C76 8 81 12 85 18" stroke="#FF8C00" stroke-width="6.5"/>
+
+  <!-- Upper arrowhead -->
+  <path d="M77 15            L91 15            L91 3            M91 15 L79 27" stroke="#C96600" stroke-width="3.2"/>
+
+  <path d="M77 15 L91 15 L91 3            L98 12 L91 27 L79 27Z" fill="#FF8C00" stroke="#C96600" stroke-width="2.5"/>
+
+  <!-- Lower orange identity exchange arc -->
+  <path d="M84 103            C81 116 72 122 62 122            C52 122 45 117 40 110" stroke="#FF8C00" stroke-width="6.5"/>
+
+  <!-- Lower arrowhead -->
+  <path d="M49 101            L36 101            L36 115            L29 106            L36 92            L49 92Z" fill="#FF8C00" stroke="#C96600" stroke-width="2.5"/>
+
+  <!-- Loose marker accents on exchange arcs -->
+  <path d="M51 17 Q61 8 72 14            M76 114 Q65 125 53 115" stroke="#FFBD52" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Subtle hand-drawn building details -->
+  <path d="M8 44 L8 56            M56 46 L56 57            M76 45 L76 56            M121 74 L121 85" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+
+  <!-- Small sketchnote emphasis marks -->
+  <path d="M22 20 L18 15            M29 17 L27 11            M105 20 L109 15            M113 23 L119 20" stroke="#0078D4" stroke-width="2.3"/>
+
+  <!-- Hand-drawn yellow accents -->
+  <path d="M60 28 L60 33            M57 30 L63 30            M67 94 L67 99" stroke="#FFBD02" stroke-width="2.4"/>
+
+  <!-- Tiny marker texture details -->
+  <path d="M24 84 L29 80            M41 87 L45 83            M91 85 L96 81            M106 85 L110 81" stroke="#D5F1FF" stroke-width="1.9" opacity=".7"/>
+</svg>

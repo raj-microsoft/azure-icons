@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Endpoint Analytics (sketch)</title>
+  
+  <desc>Azure-blue endpoint monitor with a bright green analytics lightbulb, illustrated using uneven marker outlines and editable vector paths.</desc>
+
+  <defs>
+    <linearGradient id="screenBlue" x1="22" y1="4" x2="83" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83B9F9"/>
+      <stop offset=".55" stop-color="#3298E8"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <radialGradient id="bulbGreen" cx="98" cy="72" r="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B4EC36"/>
+      <stop offset=".8" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#69BE28"/>
+    </radialGradient>
+
+    <linearGradient id="bulbShine" x1="89" y1="57" x2="112" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F2F2"/>
+      <stop offset="1" stop-color="#B4EC36" stop-opacity=".12"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Endpoint display housing -->
+  <path d="M8 5            Q5 5 5 9            L5 79            Q5 83 9 83            L67 83            Q64 75 66 66            Q70 43 94 40            Q106 38 118 45            L118 9            Q118 5 114 5 Z" fill="#0078D4" stroke="#165A99" stroke-width="3.4"/>
+
+  <!-- Inner Azure display -->
+  <path d="M13 13            Q13 11 16 11            L107 11            Q110 11 110 14            L110 40            Q99 35 88 40            Q65 48 63 72            L14 76            Q12 76 12 73 Z" fill="url(#screenBlue)" stroke="#B5DFFF" stroke-width="2.2"/>
+
+  <!-- Monitor top detail -->
+  <path d="M49 8 L73 8" stroke="#F2F2F2" stroke-width="2.8"/>
+
+  <!-- Subtle sketched reflection -->
+  <path d="M19 20 L42 20            M19 26 L31 26" stroke="#D7EEFF" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Small analytics chart -->
+  <path d="M23 62            L23 44            M23 62            L56 62" stroke="#D8EEFF" stroke-width="2.6" opacity=".8"/>
+
+  <path d="M28 55            L37 48            L44 52            L56 37" stroke="#EAF7FF" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <circle cx="37" cy="48" r="2.5" fill="#F2F2F2"/>
+  <circle cx="56" cy="37" r="2.5" fill="#F2F2F2"/>
+
+  <!-- Green lightbulb silhouette -->
+  <path d="M98 45            C79 45 68 59 68 74            C68 89 76 95 82 105            Q85 110 86 113            L109 113            Q111 103 118 94            C125 85 127 77 124 66            C121 53 111 45 98 45 Z" fill="url(#bulbGreen)" stroke="#4E9B28" stroke-width="3.5"/>
+
+  <!-- Hand-drawn luminous highlight -->
+  <path d="M80 70            Q84 55 97 53            Q105 52 111 57" stroke="#E4FF9B" stroke-width="3.5" opacity=".9"/>
+
+  <!-- Lightbulb filament -->
+  <path d="M91 108            L91 75            L102 75            L102 108" stroke="#F2F2F2" stroke-width="3.4"/>
+
+  <path d="M91 75            Q83 75 83 68            Q83 62 88 62            Q92 62 92 68            L92 75            M102 75            L102 68            Q102 62 107 62            Q113 62 113 68            Q113 75 105 75 Z" stroke="url(#bulbShine)" stroke-width="3.1"/>
+
+  <!-- Lightbulb metallic base -->
+  <path d="M85 111            L110 111            L110 121            L105 126            L91 126            L85 121 Z" fill="#CECECE" stroke="#777777" stroke-width="2.8"/>
+
+  <!-- Diagonal base ridges -->
+  <path d="M86 117 L109 113            M87 122 L109 118            M94 125 L106 122" stroke="#999999" stroke-width="2.8"/>
+
+  <!-- Small sketchnote energy marks -->
+  <g stroke="#E4B83F" stroke-width="2.6">
+    <path d="M76 43 L72 37"/>
+    <path d="M89 38 L88 31"/>
+    <path d="M118 44 L123 39"/>
+  </g>
+
+  <!-- Secondary marker contours -->
+  <path d="M72 78            Q73 90 82 99" stroke="#D0F36C" stroke-width="2.3" opacity=".75"/>
+
+  <path d="M10 85 L60 85" stroke="#0078D4" stroke-width="2" opacity=".55"/>
+</svg>

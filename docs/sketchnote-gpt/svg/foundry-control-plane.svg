@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Foundry Control Plane (sketch)</title>
+  
+  <desc>Hand-drawn Azure Foundry Control Plane icon featuring an interwoven violet diamond-shaped control loop surrounding a central geometric knot, preserving the original purple and indigo color palette.</desc>
+
+  <defs>
+    <linearGradient id="outerLeft" x1="8" y1="55" x2="76" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2C08AC"/>
+      <stop offset=".3" stop-color="#4F42FD"/>
+      <stop offset=".65" stop-color="#7274FF"/>
+    </linearGradient>
+
+    <linearGradient id="outerBottom" x1="65" y1="123" x2="124" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2C08AC"/>
+      <stop offset=".35" stop-color="#4F42FD"/>
+      <stop offset=".75" stop-color="#7274FF"/>
+    </linearGradient>
+
+    <linearGradient id="outerRight" x1="65" y1="8" x2="124" y2="73" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#7274FF"/>
+      <stop offset=".55" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#2C08AC"/>
+    </linearGradient>
+
+    <linearGradient id="outerTop" x1="8" y1="72" x2="74" y2="7" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#7274FF"/>
+      <stop offset=".55" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#2C08AC"/>
+    </linearGradient>
+
+    <linearGradient id="innerUpper" x1="36" y1="74" x2="90" y2="39" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2C08AC"/>
+      <stop offset=".4" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#7274FF"/>
+    </linearGradient>
+
+    <linearGradient id="innerLower" x1="37" y1="74" x2="91" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7274FF"/>
+      <stop offset=".55" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#2C08AC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left flowing ribbon -->
+  <path d="M9 78            L9 49            Q9 40 16 33            L34 15            Q41 8 50 8            L79 8            Q68 8 60 16            L18 58            Q9 67 9 78Z" fill="url(#outerTop)" stroke="#301B91" stroke-width="2.8"/>
+
+  <!-- Upper-right flowing ribbon -->
+  <path d="M50 8            L79 8            Q88 8 95 15            L113 33            Q120 40 120 49            L120 78            Q120 67 112 59            L70 17            Q61 8 50 8Z" fill="url(#outerRight)" stroke="#302092" stroke-width="2.8"/>
+
+  <!-- Lower-right flowing ribbon -->
+  <path d="M120 50            L120 79            Q120 88 113 95            L95 113            Q88 120 79 120            L50 120            Q61 120 69 112            L112 69            Q120 61 120 50Z" fill="url(#outerBottom)" stroke="#302092" stroke-width="2.8"/>
+
+  <!-- Lower-left flowing ribbon -->
+  <path d="M9 50            Q9 61 17 69            L59 111            Q68 120 79 120            L50 120            Q41 120 34 113            L16 95            Q9 88 9 79Z" fill="url(#outerLeft)" stroke="#301B91" stroke-width="2.8"/>
+
+  <!-- Hand-inked outer ribbon highlights -->
+  <path d="M16 52            Q16 44 22 38            L40 20            Q45 15 52 15" stroke="#A8A6FF" stroke-width="2.6" opacity=".8"/>
+
+  <path d="M79 15            Q87 15 92 21            L107 36            Q113 42 113 48" stroke="#B3ADFF" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M113 82            Q112 89 107 94            L92 109            Q86 114 78 114" stroke="#9698FF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M16 80            Q17 88 23 94            L39 110            Q44 114 52 114" stroke="#A8A6FF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Central upper interlocking geometry -->
+  <path d="M36 48            Q36 44 39 41            L42 38            Q45 35 49 35            L80 35            Q84 35 87 38            L90 41            Q93 44 93 48            L93 79            Q93 70 86 63            L68 45            Q64 41 60 45            L42 63            Q36 69 36 78Z" fill="url(#innerUpper)" stroke="#3325A0" stroke-width="2.8"/>
+
+  <!-- Central lower interlocking geometry -->
+  <path d="M36 48            Q36 57 43 64            L60 81            Q64 85 68 81            L86 63            Q93 70 93 79            L93 82            Q93 86 90 89            L87 92            Q84 95 80 95            L49 95            Q45 95 42 92            L39 89            Q36 86 36 82Z" fill="url(#innerLower)" stroke="#3325A0" stroke-width="2.8"/>
+
+  <!-- Central crossing highlights -->
+  <path d="M44 46            Q47 43 51 43            L77 43" stroke="#AAA8FF" stroke-width="2.4" opacity=".85"/>
+
+  <path d="M43 77            Q44 84 50 87            L76 87" stroke="#9698FF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Inner hand-drawn joint details -->
+  <path d="M58 52 L64 46 L70 52            M57 77 L64 84 L71 77" stroke="#C2BBFF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Subtle marker strokes -->
+  <path d="M27 31 L32 26            M100 29 L105 34            M101 99 L96 104            M27 97 L32 102" stroke="#A7A5FF" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Restrained sketchnote accents -->
+  <path d="M64 2 L64 5            M2 63 L5 63            M123 63 L126 63            M64 123 L64 126" stroke="#7274FF" stroke-width="2.3"/>
+
+  <!-- Small yellow emphasis accent -->
+  <path d="M99 21 L102 17            M105 24 L109 22" stroke="#FFBD02" stroke-width="2.2"/>
+
+  <!-- Slightly irregular marker contour -->
+  <path d="M12 70 L12 79            M117 50 L117 58            M53 117 L61 117" stroke="#241477" stroke-width="1.7" opacity=".55"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Resource Mover (sketch)</title>
+  
+  <desc>An isometric cyan resource cube with a sweeping purple movement arrow, preserving the original Azure Resource Mover symbolism.</desc>
+
+  <defs>
+    <linearGradient id="topCyan" x1="64" y1="8" x2="64" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C3F1FF"/>
+      <stop offset="1" stop-color="#9CEBFF"/>
+    </linearGradient>
+    <linearGradient id="leftCyan" x1="20" y1="40" x2="65" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="rightCyan" x1="65" y1="45" x2="110" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="movePurple" x1="15" y1="74" x2="94" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B77AF4"/>
+      <stop offset=".55" stop-color="#9250E8"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Isometric cube: upper face -->
+  <path d="M19 34            L64 8            L109 34            L64 60Z" fill="url(#topCyan)" stroke="#168EAF" stroke-width="3.5"/>
+
+  <!-- Isometric cube: left face -->
+  <path d="M19 34            L64 60            L64 112            L19 86Z" fill="url(#leftCyan)" stroke="#168EAF" stroke-width="3.5"/>
+
+  <!-- Isometric cube: right face -->
+  <path d="M64 60            L109 34            L109 86            L64 112Z" fill="url(#rightCyan)" stroke="#168EAF" stroke-width="3.5"/>
+
+  <!-- Facet highlights preserving original cube geometry -->
+  <path d="M19 86            L64 60            L64 112Z" fill="#9CEBFF" fill-opacity=".82"/>
+
+  <path d="M109 86            L64 60            L64 112Z" fill="#50E6FF" fill-opacity=".7"/>
+
+  <!-- Reinforced hand-drawn cube edges -->
+  <path d="M20 35 Q42 47 64 60            Q87 47 108 35            M64 61 Q65 85 64 110" stroke="#E3FBFF" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Uneven marker highlights -->
+  <path d="M30 33 L61 15            M69 15 L98 32            M25 45 L25 76            M103 46 L103 76" stroke="#FFFFFF" stroke-width="2.3" opacity=".72"/>
+
+  <!-- Subtle cube sketch details -->
+  <path d="M32 48 L52 59            M77 61 L97 49            M72 101 L97 87" stroke="#087EA9" stroke-width="1.8" opacity=".35"/>
+
+  <!-- Sweeping movement arrow shadow -->
+  <path d="M12 68            C17 93 40 104 66 105            L66 94            L94 116            L66 126            L66 116            C35 115 12 100 12 68Z" fill="#6530BA" fill-opacity=".2"/>
+
+  <!-- Hand-drawn purple resource movement arrow -->
+  <path d="M12 66            C20 82 38 91 65 92            L65 81            Q65 78 68 81            L94 108            Q96 110 94 112            L67 126            Q64 128 64 124            L64 114            C34 113 10 97 12 66Z" fill="url(#movePurple)" stroke="#6530BA" stroke-width="2.8"/>
+
+  <!-- Marker highlight on arrow -->
+  <path d="M19 83            C30 97 46 102 66 102            M72 91 L87 108" stroke="#D5B4FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Small arrow sketch contour -->
+  <path d="M70 117 L83 110" stroke="#5D2BAF" stroke-width="1.8" opacity=".55"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M12 18 L7 12            M22 14 L22 5            M9 27 L2 25" stroke="#FFCA45" stroke-width="3.2"/>
+
+  <path d="M115 53 L123 50            M116 64 L125 65" stroke="#FFCA45" stroke-width="3.2"/>
+
+  <!-- Tiny hand-drawn sparkle -->
+  <path d="M110 12 L110 21            M106 16 L114 16" stroke="#FFCA45" stroke-width="2.8"/>
+</svg>

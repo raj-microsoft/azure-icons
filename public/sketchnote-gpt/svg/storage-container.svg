@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Storage Container (sketch)</title>
+  
+  <desc>Azure Storage Container with a cyan storage enclosure, blue header and an orange-and-white folder, illustrated using uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="containerCyan" x1="64" y1="38" x2="64" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".775" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main storage enclosure -->
+  <path d="M8 38            L120 38            L120 109            Q120 115 114 115            L14 116            Q8 116 8 110 Z" fill="url(#containerCyan)" stroke="#147FA9" stroke-width="3.5"/>
+
+  <!-- Azure-blue header -->
+  <path d="M14 15            Q8 15 8 21            L8 38            L120 38            L120 21            Q120 15 114 15 Z" fill="#0078D4" stroke="#155B98" stroke-width="3.5"/>
+
+  <!-- Loose hand-drawn header highlights -->
+  <path d="M17 21 L109 20            M15 25 L15 33" stroke="#8CCBFA" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Sketchy header separation -->
+  <path d="M12 42 Q64 43 116 41" stroke="#087EAC" stroke-width="2" opacity=".75"/>
+
+  <!-- Orange folder back and tab -->
+  <path d="M34 54            Q34 52 37 52            L60 52            Q62 52 64 54            L72 59            L94 59            Q97 59 97 62            L97 101            L34 101 Z" fill="#F78D1E" stroke="#B85B0D" stroke-width="3.2"/>
+
+  <!-- Orange folder side highlights -->
+  <path d="M39 57 L59 57            M39 64 L39 94" stroke="#FFC16A" stroke-width="2" opacity=".85"/>
+
+  <!-- Small folder tab -->
+  <path d="M40 58            Q40 57 42 57            L54 57            Q56 57 56 59            L56 61            L40 61 Z" fill="#FFFFFF" stroke="#D15900" stroke-width="1.8"/>
+
+  <!-- Tab marker -->
+  <path d="M42 58 L45 58 L45 61 L42 61 Z" fill="#D15900"/>
+
+  <!-- White folder front -->
+  <path d="M34 69            Q34 67 37 67            L58 67            Q60 67 62 65            L68 60            Q69 59 72 59            L94 59            Q97 59 97 62            L97 100            Q97 103 94 103            L37 103            Q34 103 34 100 Z" fill="#FFFFFF" stroke="#C16B19" stroke-width="3.2"/>
+
+  <!-- Subtle hand-drawn folder face detail -->
+  <path d="M40 74            Q57 73 88 74            M40 80 L40 94" stroke="#E8EDF1" stroke-width="2.1"/>
+
+  <!-- Folder corner shadow -->
+  <path d="M89 98 L93 98 L93 93" stroke="#B7CBD7" stroke-width="2" opacity=".8"/>
+
+  <!-- Orange backing visible along bottom -->
+  <path d="M37 106            Q65 108 94 106" stroke="#F78D1E" stroke-width="2.5"/>
+
+  <!-- Storage enclosure marker accents -->
+  <path d="M15 49 L15 103            M113 48 L113 102" stroke="#B8F5FF" stroke-width="2.1" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote highlights -->
+  <path d="M101 55 L106 51            M104 63 L110 62            M26 65 L22 62" stroke="#F4C542" stroke-width="2.7"/>
+
+  <!-- Small hand-drawn emphasis marks -->
+  <path d="M4 58 L7 55            M4 67 L7 65            M122 82 L125 79" stroke="#198AB3" stroke-width="2.1"/>
+
+  <!-- Tiny marker sparkle -->
+  <path d="M109 7 L109 12            M106 10 L112 10" stroke="#F4C542" stroke-width="2.3"/>
+
+</svg>

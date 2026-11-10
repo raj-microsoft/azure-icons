@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Express Route Traffic Collector (sketch)</title>
+  
+  <desc>Hand-drawn purple document with a folded corner, connected green traffic nodes, and a prominent green right-arrow badge.</desc>
+
+  <defs>
+    <linearGradient id="paperPurple" x1="18" y1="7" x2="108" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="nodeGreen" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn document silhouette -->
+  <path d="M20 8            Q17 8 17 12            L16 113            Q16 119 22 119            L103 120            Q109 120 109 114            L109 47            Q109 44 106 41            L72 8            Q70 6 66 7            Z" fill="url(#paperPurple)" stroke="#6536C1" stroke-width="3.5"/>
+
+  <!-- Folded document corner -->
+  <path d="M70 8            L70 37            Q70 44 77 44            L108 44            Z" fill="#773ADC" stroke="#6536C1" stroke-width="3.2"/>
+
+  <!-- Loose sketchnote highlight on fold -->
+  <path d="M74 15 L74 35 Q74 40 79 40 L99 40" stroke="#C7A8FF" stroke-width="2" opacity=".8"/>
+
+  <!-- Subtle hand-drawn document edge highlights -->
+  <path d="M22 17 Q21 43 22 65" stroke="#D2BAFF" stroke-width="2.4" opacity=".7"/>
+  <path d="M25 13 Q40 12 58 13" stroke="#D2BAFF" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Traffic flow connector lines -->
+  <path d="M60 51            Q57 61 49 74            T31 103" stroke="#6536C1" stroke-width="10"/>
+
+  <path d="M65 53            Q72 68 81 81            T93 101" stroke="#6536C1" stroke-width="10"/>
+
+  <path d="M34 104            Q54 105 74 104            L88 104" stroke="#6536C1" stroke-width="10"/>
+
+  <!-- Marker-like accents on network links -->
+  <g stroke="#B895F4" stroke-width="2.2" opacity=".8">
+    <path d="M55 62 L47 76"/>
+    <path d="M70 68 L79 83"/>
+    <path d="M47 100 L66 100"/>
+  </g>
+
+  <!-- Top collection node -->
+  <path d="M62 40            C69 40 74 45 74 52            C74 59 69 64 62 64            C55 64 50 59 50 52            C50 45 55 40 62 40 Z" fill="url(#nodeGreen)" stroke="#477E20" stroke-width="3"/>
+
+  <!-- Lower-left traffic node -->
+  <path d="M29 94            C36 93 42 98 42 105            C42 113 36 118 29 118            C22 118 17 112 17 105            C17 99 22 94 29 94 Z" fill="url(#nodeGreen)" stroke="#477E20" stroke-width="3"/>
+
+  <!-- Soft handwritten node highlights -->
+  <g stroke="#DDF6B8" stroke-width="2.3" opacity=".9">
+    <path d="M56 49 Q59 45 64 46"/>
+    <path d="M23 103 Q25 99 30 99"/>
+  </g>
+
+  <!-- Foreground traffic direction badge -->
+  <path d="M95 79            C109 79 120 90 120 104            C120 117 109 126 96 126            C82 126 72 116 72 103            C72 90 82 79 95 79 Z" fill="#76BC2D" stroke="#477E20" stroke-width="3.5"/>
+
+  <!-- Inner badge marker contour -->
+  <path d="M83 91            Q92 82 103 88            Q111 92 114 101" stroke="#B9EC85" stroke-width="2.2" opacity=".85"/>
+
+  <!-- White rightward traffic arrow -->
+  <path d="M99 89            L112 102            Q113 103 112 104            L99 117            L99 109            L82 109            Q80 109 80 107            L80 99            Q80 97 82 97            L99 97            Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- Subtle hand-drawn Azure-blue motion strokes -->
+  <g stroke="#0078D4" stroke-width="2.6">
+    <path d="M116 69 Q121 73 123 79"/>
+    <path d="M120 64 L124 67"/>
+    <path d="M7 84 Q10 88 13 90"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F2B827" stroke-width="2.7">
+    <path d="M7 29 L12 33"/>
+    <path d="M5 40 L11 41"/>
+    <path d="M15 23 L17 28"/>
+    <path d="M117 24 L120 19"/>
+    <path d="M122 31 L127 29"/>
+  </g>
+
+  <!-- Tiny hand-drawn sparkle -->
+  <path d="M97 14            L99 19            L104 21            L99 23            L97 28            L95 23            L90 21            L95 19 Z" fill="#F2B827"/>
+
+  <!-- Loose pen marks -->
+  <g stroke="#D6C1FF" stroke-width="2" opacity=".8">
+    <path d="M29 31 Q37 29 44 31"/>
+    <path d="M29 37 L39 37"/>
+    <path d="M29 43 L36 43"/>
+  </g>
+</svg>

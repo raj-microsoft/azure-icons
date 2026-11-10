@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Identity Risky Users (sketch)</title>
+  
+  <desc>Azure-cyan user silhouette with a white V-shaped collar and an overlapping orange warning triangle containing an exclamation mark.</desc>
+
+  <defs>
+    <linearGradient id="userCyan" x1="24" y1="8" x2="73" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83D4EE"/>
+      <stop offset=".55" stop-color="#59B4D9"/>
+      <stop offset="1" stop-color="#298EBC"/>
+    </linearGradient>
+    <linearGradient id="warningOrange" x1="93" y1="69" x2="93" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB34D"/>
+      <stop offset=".5" stop-color="#FF9B19"/>
+      <stop offset="1" stop-color="#FF8C00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded user head -->
+  <path d="M48 7            C62 7 73 18 73 32            C73 46 62 57 48 57            C34 57 23 46 23 32            C23 18 34 7 48 7 Z" fill="url(#userCyan)" stroke="#287EA8" stroke-width="3.5"/>
+
+  <!-- Sketchy head highlight -->
+  <path d="M31 29            Q33 17 44 14            Q51 12 58 17" stroke="#C7F1FF" stroke-width="3" opacity=".9"/>
+
+  <!-- User torso, preserving flat rectangular silhouette -->
+  <path d="M7 63            L30 63            L48 88            L66 63            L92 63            L92 69            Q88 71 85 77            L67 107            Q62 116 64 123            L7 123            Q5 123 5 120            L5 66            Q5 63 7 63 Z" fill="url(#userCyan)" stroke="#287EA8" stroke-width="3.5"/>
+
+  <!-- White V-shaped collar -->
+  <path d="M31 64 L48 88 L65 64" stroke="#F3FBFF" stroke-width="5"/>
+
+  <!-- Torso hand-drawn marker accents -->
+  <path d="M13 73 L13 113            M20 116 L41 116" stroke="#B9E8F6" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Orange risk warning triangle -->
+  <path d="M89 70            Q93 63 98 70            L124 115            Q129 123 121 125            L69 125            Q62 124 67 116 Z" fill="url(#warningOrange)" stroke="#C46A08" stroke-width="3.8"/>
+
+  <!-- Hand-drawn warning highlight -->
+  <path d="M92 76 L74 111" stroke="#FFE1A2" stroke-width="3" opacity=".95"/>
+
+  <path d="M102 85 L119 115" stroke="#FFD083" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Risk exclamation mark -->
+  <path d="M90 88            L98 88            L96 108            L92 108 Z" fill="#FFFFFF" stroke="#B8640C" stroke-width="1.4"/>
+
+  <path d="M94 114            C97 114 99 116 99 119            C99 122 97 123 94 123            C91 123 89 121 89 118            C89 116 91 114 94 114 Z" fill="#FFFFFF" stroke="#B8640C" stroke-width="1.2"/>
+
+  <!-- Small sketchnote alert strokes -->
+  <g stroke="#E9B944" stroke-width="2.5">
+    <path d="M105 67 L110 62"/>
+    <path d="M114 75 L121 72"/>
+  </g>
+
+  <!-- Cyan motion and marker details -->
+  <g stroke="#0078D4" stroke-width="2.3">
+    <path d="M15 17 L11 12"/>
+    <path d="M19 11 L20 5"/>
+    <path d="M77 25 L82 21"/>
+  </g>
+
+  <!-- Secondary hand-drawn contours -->
+  <path d="M28 49 Q39 58 51 58" stroke="#A5E2F4" stroke-width="2" opacity=".75"/>
+
+  <path d="M72 127 L83 127" stroke="#D9790A" stroke-width="2" opacity=".65"/>
+</svg>

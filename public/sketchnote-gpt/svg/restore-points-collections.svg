@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Restore Points Collections (sketch)</title>
+  
+  <desc>Azure-blue circular restore point with a cyan isometric resource cube, white selection brackets and a green recovery arrow, rendered with uneven marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="restoreBlue" x1="58" y1="13" x2="62" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".5" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="60" y1="48" x2="82" y2="85" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="45" y1="54" x2="65" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Azure circular backing, offset to the right -->
+  <path d="M81 14            C106 14 122 33 122 59            C122 85 104 104 79 106            C55 108 35 90 35 64            C35 38 55 15 81 14Z" fill="#005BA1" stroke="#064D89" stroke-width="3"/>
+
+  <!-- Main Azure restore-point circle -->
+  <path d="M59 14            C85 14 106 35 106 61            C106 87 86 109 60 109            C34 109 14 89 14 63            C14 36 33 15 59 14Z" fill="url(#restoreBlue)" stroke="#155C99" stroke-width="3.5"/>
+
+  <!-- Uneven circular marker highlights -->
+  <path d="M25 49            C30 32 43 23 60 22            M69 23            C86 28 97 43 98 60            M96 74            C91 90 78 100 63 101" stroke="#B9DEFF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- White selection brackets, upper left -->
+  <path d="M44 36            L30 36            Q27 36 27 39            L27 53" stroke="#FFFFFF" stroke-width="5"/>
+
+  <!-- Upper right -->
+  <path d="M75 36            L90 36            Q93 36 93 39            L93 53" stroke="#FFFFFF" stroke-width="5"/>
+
+  <!-- Lower left -->
+  <path d="M27 74            L27 88            Q27 91 30 91            L44 91" stroke="#FFFFFF" stroke-width="5"/>
+
+  <!-- Lower right -->
+  <path d="M93 74            L93 88            Q93 91 90 91            L75 91" stroke="#FFFFFF" stroke-width="5"/>
+
+  <!-- Cyan resource cube: top face -->
+  <path d="M39 55            L60 43            L81 55            L60 68Z" fill="#C3F1FF" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Cube left face -->
+  <path d="M39 55            L60 68            L60 92            L39 80Z" fill="url(#cubeLeft)" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Cube right face -->
+  <path d="M60 68            L81 55            L81 80            L60 92Z" fill="url(#cubeRight)" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Cube marker details -->
+  <path d="M43 57 L58 66            M63 66 L78 57            M44 78 L57 86            M64 87 L77 79" stroke="#E3FBFF" stroke-width="1.7" opacity=".85"/>
+
+  <!-- Green circular restoration arrow -->
+  <path d="M45 12            C23 17 9 34 8 55            C6 77 16 96 32 109" stroke="#86D633" stroke-width="7"/>
+
+  <!-- Recovery arrowhead -->
+  <path d="M28 99            L34 115            L17 118" stroke="#86D633" stroke-width="7"/>
+
+  <!-- Hand-drawn green highlight -->
+  <path d="M40 16            C22 23 13 39 13 55            M13 76            Q18 92 29 102" stroke="#C1EE86" stroke-width="2" opacity=".9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M112 20 L118 14            M116 30 L124 27" stroke="#FFCA45" stroke-width="3.2"/>
+
+  <path d="M110 108 L116 114            M101 115 L102 123" stroke="#FFCA45" stroke-width="3"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M109 5 L109 13            M105 9 L113 9" stroke="#FFCA45" stroke-width="2.6"/>
+</svg>

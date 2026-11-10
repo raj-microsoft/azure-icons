@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Security Baselines (sketch)</title>
+  
+  <desc>Hand-drawn green security shield behind a light-cyan policy checklist with Azure-blue header, three baseline rows, and subtle yellow marker accents.</desc>
+
+  <defs>
+    <linearGradient id="shieldGreen" x1="16" y1="10" x2="83" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B4EC36"/>
+      <stop offset=".42" stop-color="#9FD732"/>
+      <stop offset=".74" stop-color="#70A828"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+    <linearGradient id="panelCyan" x1="44" y1="61" x2="119" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7F8FF"/>
+      <stop offset="1" stop-color="#9CEBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Protective shield with an uneven marker silhouette -->
+  <path d="M46 8            C36 8 37 20 12 20            Q8 20 8 25            L8 51            C8 74 30 94 44 103            Q47 105 50 103            C64 94 87 74 87 51            L87 25            Q87 20 83 20            C58 20 59 8 49 8            Z" fill="#86D633" stroke="#4F8524" stroke-width="3.4"/>
+
+  <!-- Inner green shield face -->
+  <path d="M47 13            C38 13 39 25 15 25            L15 51            C15 70 34 88 47 96            C60 88 80 70 80 51            L80 25            C56 25 57 13 47 13            Z" fill="url(#shieldGreen)" stroke="#B4EC36" stroke-width="2"/>
+
+  <!-- Rough hand-drawn shield contour -->
+  <path d="M12 30            Q13 49 13 55            C16 71 30 84 40 92            M55 15            Q63 24 76 27" stroke="#4E8E25" stroke-width="2.1" opacity=".65"/>
+
+  <!-- Subtle marker highlights -->
+  <path d="M20 33            Q35 32 42 22            M22 60            Q25 72 34 81" stroke="#D9F98B" stroke-width="3" opacity=".85"/>
+
+  <!-- Security policy baseline document -->
+  <path d="M45 60            Q45 57 49 57            L117 57            Q121 57 121 61            L121 118            Q121 122 117 122            L48 122            Q44 122 44 118            Z" fill="url(#panelCyan)" stroke="#167EAA" stroke-width="3.2"/>
+
+  <!-- Azure-blue header -->
+  <path d="M49 57            L117 57            Q121 57 121 61            L121 69            Q91 70 67 69            L44 70            L44 61            Q44 57 49 57            Z" fill="#0078D4" stroke="#0066AE" stroke-width="2.5"/>
+
+  <!-- Small header ink highlight -->
+  <path d="M51 61 Q74 60 94 61" stroke="#69C8FF" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Three checklist bullets -->
+  <circle cx="54" cy="82" r="3.3" fill="#0078D4" stroke="#0065AB" stroke-width="1.2"/>
+  <circle cx="54" cy="96" r="3.3" fill="#0078D4" stroke="#0065AB" stroke-width="1.2"/>
+  <circle cx="54" cy="111" r="3.3" fill="#0078D4" stroke="#0065AB" stroke-width="1.2"/>
+
+  <!-- Three uneven baseline rules -->
+  <path d="M65 82            Q85 81 110 82" stroke="#0078D4" stroke-width="5.2"/>
+
+  <path d="M65 96            Q87 97 110 96" stroke="#0078D4" stroke-width="5.2"/>
+
+  <path d="M65 111            Q88 110 110 111" stroke="#0078D4" stroke-width="5.2"/>
+
+  <!-- Delicate marker texture through vector strokes -->
+  <path d="M67 80            L86 80            M68 94            L81 94            M72 109            L94 109" stroke="#72C9F5" stroke-width="1.3" opacity=".75"/>
+
+  <!-- Hand-inked paper edge -->
+  <path d="M47 74            Q46 95 47 115            M115 73            Q117 92 116 115" stroke="#FFFFFF" stroke-width="1.7" opacity=".7"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M95 43 L100 36            M105 48 L114 45            M85 40 L85 33" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn flourish -->
+  <path d="M19 104            Q25 108 31 107            M25 113            Q30 116 36 114" stroke="#5E9624" stroke-width="2" opacity=".65"/>
+</svg>

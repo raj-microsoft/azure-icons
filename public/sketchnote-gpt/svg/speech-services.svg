@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Speech Services (sketch)</title>
+  
+  <desc>Two overlapping Azure-blue and cyan speech bubbles. The foreground blue bubble contains a white speaker and sound waves, while the cyan bubble contains three white conversation dots.</desc>
+
+  <defs>
+    <linearGradient id="speechBlue" x1="9" y1="5" x2="81" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#298DDF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="speechCyan" x1="48" y1="52" x2="122" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#71EEFF"/>
+      <stop offset=".55" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#2BCBEA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear conversation bubble -->
+  <path d="M51 50            Q51 47 55 47            L117 47            Q122 47 122 52            L122 109            Q122 114 117 114            L94 114            L77 126            Q73 129 73 123            L73 114            L55 114            Q51 114 51 110 Z" fill="url(#speechCyan)" stroke="#1597BD" stroke-width="3.2"/>
+
+  <!-- Cyan bubble marker highlight -->
+  <path d="M86 52 Q101 51 115 52            M118 60 Q119 77 118 94            M81 118 L81 121" stroke="#D3FAFF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Cyan bubble inner contour -->
+  <path d="M112 110            Q101 111 92 110            L78 121" stroke="#139FC5" stroke-width="1.8" opacity=".65"/>
+
+  <!-- Foreground speech bubble -->
+  <path d="M11 5            L76 5            Q81 5 81 10            L81 62            Q81 67 76 67            L52 67            L52 78            Q52 82 48 79            L33 67            L11 67            Q6 67 6 62            L6 10            Q6 5 11 5 Z" fill="url(#speechBlue)" stroke="#1669AD" stroke-width="3.5"/>
+
+  <!-- Loose hand-drawn outline -->
+  <path d="M12 10            Q29 9 46 10            M75 13            Q77 28 76 42            M12 61            Q22 63 32 62" stroke="#9BD4FF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Speaker body -->
+  <path d="M23 29            L31 29            L43 20            Q46 18 46 22            L46 51            Q46 54 43 52            L31 43            L23 43            Q20 43 20 40            L20 32            Q20 29 23 29 Z" fill="#FFFFFF" stroke="#D7F0FF" stroke-width="1.8"/>
+
+  <!-- Speaker hand-ink detail -->
+  <path d="M31 32 L31 40            M42 25 L42 47" stroke="#A1D5F7" stroke-width="1.6" opacity=".7"/>
+
+  <!-- Inner sound wave -->
+  <path d="M51 29            Q59 36 51 44" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <!-- Middle sound wave -->
+  <path d="M56 24            Q68 36 56 49" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <!-- Outer sound wave -->
+  <path d="M61 19            Q77 36 61 54" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <!-- Subtle marker wave reinforcement -->
+  <path d="M53 30 Q57 36 53 42            M63 23 Q72 36 63 49" stroke="#C6EAFF" stroke-width="1.4" opacity=".8"/>
+
+  <!-- Three white conversation dots -->
+  <path d="M70 78            C75 78 79 82 79 87            C79 92 75 96 70 96            C65 96 61 92 61 87            C61 82 65 78 70 78 Z" fill="#FFFFFF" stroke="#C6F7FF" stroke-width="1.5"/>
+
+  <path d="M89 78            C94 78 98 82 98 87            C98 92 94 96 89 96            C84 96 80 92 80 87            C80 82 84 78 89 78 Z" fill="#FFFFFF" stroke="#C6F7FF" stroke-width="1.5"/>
+
+  <path d="M108 78            C113 78 117 82 117 87            C117 92 113 96 108 96            C103 96 99 92 99 87            C99 82 103 78 108 78 Z" fill="#FFFFFF" stroke="#C6F7FF" stroke-width="1.5"/>
+
+  <!-- Dot highlights -->
+  <path d="M67 83 L69 82            M86 83 L88 82            M105 83 L107 82" stroke="#9DE6F7" stroke-width="1.8" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M88 17 L94 10            M94 28 L102 26            M15 80 L10 86" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Small hand-drawn motion strokes -->
+  <path d="M22 83 Q29 87 36 85            M26 90 Q33 93 40 91" stroke="#0078D4" stroke-width="2" opacity=".55"/>
+</svg>

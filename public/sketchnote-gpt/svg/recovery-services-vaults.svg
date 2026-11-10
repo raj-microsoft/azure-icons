@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Recovery Services Vaults (sketch)</title>
+  
+  <desc>Two overlapping Azure-blue and cyan clouds with a white curved recovery arrow, illustrated using irregular marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="vaultBlue" x1="45" y1="8" x2="102" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".52" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="vaultCyan" x1="20" y1="48" x2="73" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#2EC7EA"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear Azure cloud -->
+  <path d="M34 54            C34 40 44 30 57 29            C62 13 76 7 89 10            C104 12 114 24 115 39            C127 42 132 52 128 63            C125 73 117 78 106 78            L57 78            C43 81 31 70 34 54Z" fill="url(#vaultBlue)" stroke="#155C99" stroke-width="3.5"/>
+
+  <!-- Irregular inner marker highlights -->
+  <path d="M41 51            C43 41 48 36 59 35            M65 28            C73 16 88 14 98 22            M119 47            C126 56 121 66 114 69" stroke="#A8D5FF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Hand-drawn recovery arrow -->
+  <path d="M61 64            C62 46 72 36 88 35            L95 35" stroke="#FFFFFF" stroke-width="7"/>
+
+  <path d="M85 25            L98 35            L85 46" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Sketch echo for arrow -->
+  <path d="M65 61            C67 47 76 40 88 39" stroke="#D9F3FF" stroke-width="1.8" opacity=".75"/>
+
+  <!-- Foreground cyan cloud -->
+  <path d="M27 71            C28 55 41 45 57 46            C64 32 79 29 91 35            C102 40 108 48 109 60            C121 63 126 73 124 84            C122 95 114 101 102 103            L30 103            C16 103 7 95 7 83            C7 72 15 64 27 63            Q26 67 27 71Z" fill="url(#vaultCyan)" stroke="#087EA9" stroke-width="3.8"/>
+
+  <!-- Subtle sketch highlights on front cloud -->
+  <path d="M17 80            C19 73 23 70 31 69            M35 61            C40 52 50 50 59 52            M67 45            C79 37 94 44 98 57" stroke="#B7F4FF" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Light interior hand-drawn cloud contours -->
+  <path d="M38 92            Q57 95 77 92            M84 92            Q94 94 102 90" stroke="#087EA9" stroke-width="2" opacity=".35"/>
+
+  <!-- Yellow sketchnote accent strokes -->
+  <path d="M18 37 L13 30            M27 30 L26 20            M19 46 L9 43" stroke="#FFCA45" stroke-width="3.5"/>
+
+  <path d="M111 107 L117 113            M101 111 L103 120" stroke="#FFCA45" stroke-width="3"/>
+
+  <!-- Small marker-style sparkle -->
+  <path d="M113 18 L113 27            M109 22 L117 22" stroke="#FFCA45" stroke-width="2.7"/>
+
+  <!-- Minimal hand-drawn grounding marks -->
+  <path d="M31 110            Q48 113 66 110            M72 110 L82 109" stroke="#198AB3" stroke-width="2" opacity=".4"/>
+</svg>

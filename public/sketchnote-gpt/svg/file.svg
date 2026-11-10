@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>File (sketch)</title>
+  
+  <desc>White document with an Azure-blue marker outline, folded upper-right corner, three handwritten-style blue text lines, and restrained yellow sketchnote accents.</desc>
+
+  <defs>
+    <linearGradient id="fileBlue" x1="12" y1="4" x2="114" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="foldBlue" x1="75" y1="8" x2="111" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main document silhouette -->
+  <path d="M22 7            Q18 7 18 12            L17 116            Q17 121 22 121            L107 122            Q112 122 112 117            L112 43            L76 7            Z" fill="#FFFFFF" stroke="url(#fileBlue)" stroke-width="4.5"/>
+
+  <!-- Folded upper-right corner -->
+  <path d="M76 7            L76 36            Q76 43 83 43            L112 43            Z" fill="url(#foldBlue)" stroke="#0078D4" stroke-width="3.2"/>
+
+  <!-- Fold highlight -->
+  <path d="M81 14            L81 35            Q81 38 86 38            L103 38" stroke="#C5E5FF" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Hand-drawn document border highlights -->
+  <path d="M24 16            Q23 38 24 62" stroke="#A6D6FA" stroke-width="2.1" opacity=".85"/>
+
+  <path d="M25 115            Q58 117 103 116" stroke="#B8DEFC" stroke-width="1.8" opacity=".8"/>
+
+  <!-- First handwritten-style file line -->
+  <path d="M35 60            Q52 59 68 60            T94 60" stroke="#5EA0EF" stroke-width="8"/>
+
+  <!-- Second handwritten-style file line -->
+  <path d="M35 77            Q55 76 73 77            T94 77" stroke="#5EA0EF" stroke-width="8"/>
+
+  <!-- Third shorter file line -->
+  <path d="M35 94            Q50 93 64 94            L76 94" stroke="#5EA0EF" stroke-width="8"/>
+
+  <!-- Marker texture through editable vector strokes -->
+  <g stroke="#BFE3FF" stroke-width="1.7" opacity=".85">
+    <path d="M40 57 L61 57"/>
+    <path d="M45 74 L68 74"/>
+    <path d="M40 91 L55 91"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F2B827" stroke-width="2.8">
+    <path d="M8 23 L13 27"/>
+    <path d="M12 13 L17 19"/>
+    <path d="M25 2 L25 5"/>
+    <path d="M115 16 L119 12"/>
+    <path d="M120 26 L125 25"/>
+  </g>
+
+  <!-- Small Azure-blue annotation marks -->
+  <g stroke="#0078D4" stroke-width="2.3">
+    <path d="M8 80 Q10 85 14 87"/>
+    <path d="M10 93 L14 96"/>
+    <path d="M115 89 Q120 92 122 97"/>
+  </g>
+
+  <!-- Tiny hand-drawn yellow sparkle -->
+  <path d="M114 57            L117 63            L123 66            L117 69            L114 75            L111 69            L105 66            L111 63 Z" fill="#F2B827"/>
+
+  <!-- Subtle pen strokes -->
+  <g stroke="#9BCFF6" stroke-width="2" opacity=".8">
+    <path d="M35 37 Q45 35 55 37"/>
+    <path d="M35 43 L47 43"/>
+  </g>
+</svg>

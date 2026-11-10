@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>FTP (sketch)</title>
+  
+  <desc>Hand-drawn Azure FTP folder icon with a deep-blue header, cyan body, and two white diagonal transfer marks.</desc>
+
+  <defs>
+    <linearGradient id="ftpBody" x1="64" y1="43" x2="64" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="ftpHeader" x1="12" y1="18" x2="116" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#168DE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main cyan FTP panel -->
+  <path d="M10 43            Q35 42 64 43            Q91 44 118 42            L118 106            Q118 111 113 111            Q87 112 62 111            L15 111            Q10 111 10 106 Z" fill="url(#ftpBody)" stroke="#176A91" stroke-width="3.5"/>
+
+  <!-- Uneven hand-drawn header -->
+  <path d="M10 43            L10 23            Q10 18 16 18            Q42 17 65 18            Q93 19 112 18            Q118 18 118 24            L118 43            Q91 44 64 43            Q35 42 10 43 Z" fill="url(#ftpHeader)" stroke="#145B96" stroke-width="3.5"/>
+
+  <!-- Header highlight -->
+  <path d="M15 23 Q15 21 20 21 L107 21" stroke="#65BAF1" stroke-width="1.8" opacity=".65"/>
+
+  <!-- White address strip -->
+  <path d="M27 26            Q26 26 26 29            L26 34            Q26 36 29 36            L99 36            Q102 36 102 33            L102 29            Q102 26 99 26 Z" fill="#F2F2F2" stroke="#D4EAF3" stroke-width="1.6"/>
+
+  <!-- Subtle address-strip reflection -->
+  <path d="M31 29 Q60 28 95 29" stroke="#FFFFFF" stroke-width="1.5" opacity=".9"/>
+
+  <!-- Two distinctive diagonal FTP slashes -->
+  <path d="M45 57            Q46 55 49 55            L57 55            Q60 55 59 58            L45 98            Q44 100 41 100            L32 100            Q29 100 30 97 Z" fill="#F2F2F2" stroke="#166E9C" stroke-width="2.5"/>
+
+  <path d="M76 57            Q77 55 80 55            L88 55            Q91 55 90 58            L76 98            Q75 100 72 100            L63 100            Q60 100 61 97 Z" fill="#F2F2F2" stroke="#166E9C" stroke-width="2.5"/>
+
+  <!-- Sketched white highlights -->
+  <path d="M48 60 L35 95" stroke="#FFFFFF" stroke-width="2" opacity=".85"/>
+
+  <path d="M79 60 L66 95" stroke="#FFFFFF" stroke-width="2" opacity=".85"/>
+
+  <!-- Loose marker details -->
+  <path d="M15 50 L15 82" stroke="#83EAF8" stroke-width="2" opacity=".7"/>
+
+  <path d="M113 65 L113 98" stroke="#087DAE" stroke-width="1.8" opacity=".45"/>
+
+  <path d="M19 106 Q47 108 73 106" stroke="#FFFFFF" stroke-width="1.5" opacity=".45"/>
+
+  <!-- Restrained sketchnote accents -->
+  <path d="M5 35 L2 32 M5 29 L1 28" stroke="#0078D4" stroke-width="2.5"/>
+
+  <path d="M121 49 L126 46 M122 55 L127 55" stroke="#0078D4" stroke-width="2.5"/>
+
+  <path d="M109 116 L113 120 L120 112" stroke="#F2C94C" stroke-width="3.2"/>
+
+  <!-- Tiny hand-drawn underline -->
+  <path d="M49 119 Q64 121 80 119" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+</svg>

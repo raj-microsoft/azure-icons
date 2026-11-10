@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>RTOS (sketch)</title>
+  
+  <desc>A silver-gray system document with a folded corner, dark-gray gear and white lightning bolt, backed by a tilted cyan panel. Hand-drawn vector illustration preserving the original Azure RTOS colors.</desc>
+
+  <defs>
+    <linearGradient id="rtosPaper" x1="55" y1="16" x2="55" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CCCCCB"/>
+      <stop offset=".55" stop-color="#BFC0BF"/>
+      <stop offset="1" stop-color="#B3B4B4"/>
+    </linearGradient>
+    <linearGradient id="rtosGear" x1="65" y1="39" x2="65" y2="99" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B6B8BA"/>
+      <stop offset=".55" stop-color="#888A8B"/>
+      <stop offset="1" stop-color="#616261"/>
+    </linearGradient>
+    <linearGradient id="rtosCyan" x1="47" y1="30" x2="88" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#74CFEB"/>
+      <stop offset="1" stop-color="#33BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tilted cyan backing panel -->
+  <path d="M42 8            Q46 5 51 8            L118 39            Q123 42 120 48            L91 116            Q88 122 82 119            L10 87            Q5 84 8 78            Z" fill="url(#rtosCyan)" stroke="#198AB3" stroke-width="3.5"/>
+
+  <!-- Cyan backing highlights -->
+  <path d="M45 13 L113 44            M13 78 L42 13            M89 111 L114 53" stroke="#C3F1FF" stroke-width="2" opacity=".75"/>
+
+  <!-- Main gray document silhouette -->
+  <path d="M22 15            Q22 10 28 10            L87 10            Q91 10 95 14            L113 33            Q116 36 116 41            L116 106            Q116 112 110 112            L25 112            Q19 112 19 106            L19 21            Q19 17 22 15Z" fill="url(#rtosPaper)" stroke="#777B7D" stroke-width="3.6"/>
+
+  <!-- Folded document corner -->
+  <path d="M88 11            L88 35            Q88 39 93 39            L115 39Z" fill="#E3E4E4" stroke="#929698" stroke-width="3"/>
+
+  <!-- Fold highlight -->
+  <path d="M92 17 L92 34 L109 34" stroke="#FFFFFF" stroke-width="2" opacity=".8"/>
+
+  <!-- Imperfect document outline highlights -->
+  <path d="M26 27 L26 99            M32 17 L80 17            M32 105 L104 105" stroke="#F2F2F2" stroke-width="2" opacity=".7"/>
+
+  <!-- Gear shadow -->
+  <path d="M68 41            L77 41            L81 51            L87 54            L97 50            L104 57            L99 67            L102 73            L112 77            L112 86            L102 90            L99 96            L103 106            L94 112            L85 107            L79 110            L75 120            L65 120            L61 110            L55 107            L45 112            L39 104            L44 95            L41 89            L31 86            L31 77            L41 73            L44 67            L39 57            L46 50            L56 54            L62 51Z" fill="#616261" opacity=".13" transform="translate(-3 -7)"/>
+
+  <!-- Hand-drawn mechanical gear -->
+  <path d="M65 34            L74 34            L78 45            Q81 46 85 49            L95 44            L102 52            L97 62            Q99 65 100 69            L110 73            L110 83            L100 87            Q99 91 96 94            L101 104            L93 111            L83 106            Q80 108 76 109            L72 119            L62 119            L58 109            Q54 108 51 106            L41 111            L34 103            L39 93            Q37 90 36 86            L26 82            L26 73            L36 69            Q37 65 39 62            L34 52            L42 45            L52 49            Q56 46 60 45Z" fill="url(#rtosGear)" stroke="#55585A" stroke-width="3.2"/>
+
+  <!-- Gear interior circle -->
+  <path d="M68 53            C82 53 92 64 92 78            C92 92 82 102 68 102            C54 102 44 92 44 78            C44 64 54 53 68 53Z" fill="#85888A" stroke="#D0D2D3" stroke-width="2.5"/>
+
+  <!-- Gear sketch details -->
+  <path d="M49 70 Q53 59 65 58            M84 67 Q89 76 86 84            M56 95 Q65 101 75 96" stroke="#D1D3D4" stroke-width="2" opacity=".65"/>
+
+  <!-- White lightning bolt -->
+  <path d="M73 58            L55 81            Q54 83 57 83            L67 83            L61 101            Q60 105 64 101            L83 75            Q85 72 81 72            L70 72            L76 60            Q77 56 73 58Z" fill="#FFFFFF" stroke="#F0FAFF" stroke-width="1.8"/>
+
+  <!-- Lightning highlight -->
+  <path d="M70 65 L61 78            M75 79 L66 92" stroke="#C3F1FF" stroke-width="1.5" opacity=".8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M7 25 L2 20            M9 34 L2 34            M15 17 L15 9" stroke="#FFCA45" stroke-width="3.2"/>
+
+  <path d="M119 77 L125 74            M120 88 L126 90" stroke="#FFCA45" stroke-width="3"/>
+
+  <!-- Small marker-style sparkle -->
+  <path d="M108 6 L108 14            M104 10 L112 10" stroke="#FFCA45" stroke-width="2.7"/>
+
+  <!-- Subtle grounding sketch -->
+  <path d="M35 122 Q52 125 69 122            M77 122 L91 121" stroke="#198AB3" stroke-width="2" opacity=".45"/>
+</svg>

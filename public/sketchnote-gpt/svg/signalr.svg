@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>SignalR (sketch)</title>
+  
+  <desc>Azure SignalR icon with an organic blue circular background, a hand-drawn white stylized R, subtle marker highlights, and restrained yellow accents.</desc>
+
+  <defs>
+    <radialGradient id="signalBlue" cx="50%" cy="48%" r="68%">
+      <stop offset=".18" stop-color="#5EA0EF"/>
+      <stop offset=".65" stop-color="#238BDD"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Organic circular Azure background -->
+  <path d="M64 5            C81 4 99 12 110 25            C122 39 125 55 123 70            C121 88 113 103 99 114            C85 124 68 126 52 123            C34 120 19 111 11 97            C3 83 2 65 6 49            C10 31 21 18 37 10            C46 6 55 5 64 5 Z" fill="url(#signalBlue)" stroke="#126AB1" stroke-width="3.4"/>
+
+  <!-- Uneven marker contour -->
+  <path d="M14 47            C20 25 39 12 59 10            M78 11            C95 15 109 28 116 44            M119 76            C115 95 103 109 86 116            M47 117            C28 112 16 101 11 84" stroke="#87C7FF" stroke-width="2.5" opacity=".65"/>
+
+  <!-- Soft circular ink highlight -->
+  <path d="M22 43            Q32 22 53 18" stroke="#C1E7FF" stroke-width="3.2" opacity=".8"/>
+
+  <!-- Stylized SignalR upper character -->
+  <path d="M31 50            L51 29            Q53 27 55 30            L55 38            L76 38            C93 38 105 50 105 66            C105 83 94 95 80 98            L76 99            L100 123            Q83 129 68 124            L48 103            Q46 101 47 98            L53 84            Q54 81 58 81            L75 81            C83 81 88 75 88 67            C88 59 82 54 75 54            L33 54            Q28 54 31 50 Z" fill="#F2F2F2" stroke="#186EB2" stroke-width="2.8"/>
+
+  <!-- Inner R opening -->
+  <path d="M55 54            L75 54            C83 54 88 59 88 67            C88 75 83 81 75 81            L58 81" stroke="#FFFFFF" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Sketch reinforcement on the upper arm -->
+  <path d="M36 49            L50 35            M59 42            Q78 41 84 44" stroke="#FFFFFF" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Hand-drawn lower diagonal R stroke -->
+  <path d="M58 99            L79 119            M67 91            Q71 94 75 98" stroke="#D9EEFF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Subtle marker outline details -->
+  <path d="M96 56            Q101 66 97 75            M94 83            Q90 89 84 91" stroke="#DCEFFF" stroke-width="2" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M101 17 L106 10            M112 26 L120 23            M13 108 L8 114" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Small handwritten-style motion marks -->
+  <path d="M15 67            Q13 75 17 82            M21 91            Q25 98 31 101" stroke="#B6E1FF" stroke-width="2.1" opacity=".55"/>
+</svg>

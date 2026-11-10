@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Verified ID (sketch)</title>
+  
+  <desc>Azure-blue identity credential card featuring a cyan user profile, two information lines, and an overlapping cyan verification seal with a white checkmark and ribbon tails.</desc>
+
+  <defs>
+    <linearGradient id="cardBlue" x1="54" y1="9" x2="54" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055C5"/>
+      <stop offset=".55" stop-color="#1263B0"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+
+    <linearGradient id="sealCyan" x1="104" y1="57" x2="104" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#66DDFF"/>
+      <stop offset=".45" stop-color="#55D0FA"/>
+      <stop offset="1" stop-color="#0294E4"/>
+    </linearGradient>
+
+    <linearGradient id="profileCyan" x1="32" y1="31" x2="32" y2="77" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#66DDFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Identity credential card -->
+  <path d="M8 9            Q5 9 5 13            L5 90            Q5 94 9 94            L88 94            Q85 87 86 79            Q88 59 107 55            L123 55            L123 13            Q123 9 119 9 Z" fill="url(#cardBlue)" stroke="#174B86" stroke-width="3.5"/>
+
+  <!-- Hand-drawn card edge highlight -->
+  <path d="M12 18 L12 84" stroke="#5EA0EF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M17 15 L111 15" stroke="#83B9F9" stroke-width="2.5" opacity=".7"/>
+
+  <!-- Identity profile head -->
+  <path d="M32 32            C38 32 43 37 43 43            C43 50 38 55 32 55            C25 55 21 50 21 44            C21 37 26 32 32 32 Z" fill="url(#profileCyan)" stroke="#178CB9" stroke-width="2.5"/>
+
+  <!-- Head highlight -->
+  <path d="M26 41 Q28 36 33 36" stroke="#FFFFFF" stroke-width="2" opacity=".8"/>
+
+  <!-- User shoulders and torso -->
+  <path d="M31 57            C18 57 13 66 12 77            Q12 80 16 80            L48 80            Q52 80 52 77            C51 65 45 57 33 57 Z" fill="url(#profileCyan)" stroke="#178CB9" stroke-width="2.5"/>
+
+  <!-- White identity collar -->
+  <path d="M25 58 L32 72 L39 58" stroke="#F2F2F2" stroke-width="3" opacity=".95"/>
+
+  <!-- Credential information line one -->
+  <path d="M61 34            Q60 32 63 32            L106 32            Q110 32 110 36            Q110 40 106 40            L63 40            Q60 40 61 37 Z" fill="#66DDFF" stroke="#35B7E8" stroke-width="1.5"/>
+
+  <!-- Credential information line two -->
+  <path d="M61 60            Q61 57 64 57            L91 57            Q94 57 94 61            Q93 65 90 65            L64 65            Q60 65 61 62 Z" fill="#66DDFF" stroke="#35B7E8" stroke-width="1.5"/>
+
+  <!-- Subtle handwritten-style underline -->
+  <path d="M63 45 Q76 47 91 45" stroke="#83DFFF" stroke-width="2" opacity=".65"/>
+
+  <!-- Verification ribbon tails -->
+  <path d="M94 91            L91 120            Q91 124 95 122            L105 116            L114 123            Q118 125 118 120            L115 90 Z" fill="url(#sealCyan)" stroke="#087DB7" stroke-width="3"/>
+
+  <!-- Ribbon center fold -->
+  <path d="M105 94 L105 116" stroke="#B7F1FF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Verified seal -->
+  <path d="M105 56            C119 56 126 67 126 80            C126 93 117 103 105 103            C92 103 83 93 83 80            C83 67 92 56 105 56 Z" fill="url(#sealCyan)" stroke="#087DB7" stroke-width="3.5"/>
+
+  <!-- Hand-drawn seal highlight -->
+  <path d="M91 72            Q95 62 105 62            Q113 62 118 68" stroke="#D8FAFF" stroke-width="3" opacity=".9"/>
+
+  <!-- White verification checkmark -->
+  <path d="M93 79            L102 88            L117 71" stroke="#FFFFFF" stroke-width="6"/>
+
+  <!-- Slightly offset marker detail -->
+  <path d="M95 78 L102 85" stroke="#EAFBFF" stroke-width="1.8" opacity=".8"/>
+
+  <!-- Small sketchnote accent strokes -->
+  <g stroke="#E6B94B" stroke-width="2.5">
+    <path d="M111 50 L115 44"/>
+    <path d="M121 54 L126 51"/>
+    <path d="M78 61 L74 57"/>
+  </g>
+
+  <!-- Azure-blue marker flourishes -->
+  <g stroke="#0078D4" stroke-width="2.2" opacity=".8">
+    <path d="M12 101 L20 101"/>
+    <path d="M24 105 L35 105"/>
+    <path d="M49 98 L58 98"/>
+  </g>
+
+  <!-- Secondary sketched outlines -->
+  <path d="M88 83 Q89 95 99 98" stroke="#CBF8FF" stroke-width="2" opacity=".65"/>
+
+  <path d="M9 87 L9 91 L19 91" stroke="#83B9F9" stroke-width="2" opacity=".6"/>
+</svg>

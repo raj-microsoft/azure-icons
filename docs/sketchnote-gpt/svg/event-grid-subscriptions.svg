@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Event Grid Subscriptions (sketch)</title>
+  
+  <desc>Sketch-style Event Grid subscription icon with a gray open frame, branching cyan event routes, and four cyan and violet endpoint nodes.</desc>
+
+  <defs>
+    <linearGradient id="nodePurple" x1="84" y1="47" x2="104" y2="67" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C69AEB"/>
+      <stop offset="1" stop-color="#6F4BB2"/>
+    </linearGradient>
+    <linearGradient id="nodePurple2" x1="79" y1="77" x2="97" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C69AEB"/>
+      <stop offset="1" stop-color="#6F4BB2"/>
+    </linearGradient>
+    <linearGradient id="nodeCyan" x1="59" y1="35" x2="83" y2="75" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Open gray subscription frame -->
+  <path d="M17 15 Q17 12 21 12 L107 12 Q111 12 111 15" stroke="#949494" stroke-width="6"/>
+
+  <path d="M17 113 Q17 116 21 116 L107 116 Q111 116 111 113" stroke="#949494" stroke-width="6"/>
+
+  <!-- Four corner brackets -->
+  <path d="M8 12 L17 12 L17 38 Q17 40 15 40 L8 40 Q6 40 6 37 L6 17 Q6 12 8 12 Z" fill="#B3B3B3" stroke="#777777" stroke-width="2.5"/>
+
+  <path d="M111 12 L120 12 Q123 12 123 16 L123 37 Q123 40 120 40 L113 40 Q111 40 111 37 Z" fill="#B3B3B3" stroke="#777777" stroke-width="2.5"/>
+
+  <path d="M8 88 L15 88 Q17 88 17 91 L17 116 L8 116 Q6 116 6 112 L6 91 Q6 88 8 88 Z" fill="#B3B3B3" stroke="#777777" stroke-width="2.5"/>
+
+  <path d="M113 88 L120 88 Q123 88 123 91 L123 112 Q123 116 119 116 L111 116 L111 91 Q111 88 113 88 Z" fill="#B3B3B3" stroke="#777777" stroke-width="2.5"/>
+
+  <!-- Frame marker highlights -->
+  <g stroke="#E4E4E4" stroke-width="2" opacity=".9">
+    <path d="M22 10 L51 10"/>
+    <path d="M77 10 L105 10"/>
+    <path d="M22 113 L48 113"/>
+    <path d="M81 113 L106 113"/>
+    <path d="M10 18 L10 29"/>
+    <path d="M118 95 L118 108"/>
+  </g>
+
+  <!-- Event routing network -->
+  <g stroke="#148EAE" stroke-width="5.5">
+    <path d="M22 68 L35 68 L64 40 L76 40"/>
+    <path d="M36 68 L59 68 L73 54 L91 54"/>
+    <path d="M35 68 L51 84 L83 84"/>
+    <path d="M51 84 L76 84"/>
+  </g>
+
+  <!-- Cyan loose marker overlays -->
+  <g stroke="#32BEDD" stroke-width="3.5">
+    <path d="M23 66 L34 66 L63 38 L76 38"/>
+    <path d="M38 66 L57 66 L72 52 L90 52"/>
+    <path d="M38 70 L52 86 L81 86"/>
+    <path d="M58 68 L69 57"/>
+  </g>
+
+  <!-- Cyan subscription node: top -->
+  <path d="M77 33            C83 33 87 37 87 42            C87 48 83 52 77 52            C72 52 68 48 68 42            C68 37 72 33 77 33 Z" fill="url(#nodeCyan)" stroke="#168DAD" stroke-width="2.7"/>
+
+  <!-- Purple endpoint: upper right -->
+  <path d="M93 48            C99 48 103 52 103 58            C103 63 99 67 93 67            C88 67 84 63 84 58            C84 52 88 48 93 48 Z" fill="url(#nodePurple)" stroke="#65429C" stroke-width="2.7"/>
+
+  <!-- Cyan subscription node: middle -->
+  <path d="M70 63            C76 63 80 67 80 72            C80 78 76 82 70 82            C64 82 60 78 60 72            C60 67 64 63 70 63 Z" fill="url(#nodeCyan)" stroke="#168DAD" stroke-width="2.7"/>
+
+  <!-- Purple endpoint: lower right -->
+  <path d="M86 79            C92 79 96 83 96 89            C96 94 92 99 86 99            C81 99 77 94 77 89            C77 83 81 79 86 79 Z" fill="url(#nodePurple2)" stroke="#65429C" stroke-width="2.7"/>
+
+  <!-- Hand-drawn node glints -->
+  <g stroke="#FFFFFF" stroke-width="2.2" opacity=".9">
+    <path d="M73 40 Q75 37 79 38"/>
+    <path d="M89 56 Q91 53 95 54"/>
+    <path d="M66 70 Q68 67 72 68"/>
+    <path d="M82 87 Q84 84 88 85"/>
+  </g>
+
+  <!-- Small sketchnote accents -->
+  <g stroke="#E6B94B" stroke-width="2.5">
+    <path d="M44 31 L41 25"/>
+    <path d="M52 28 L54 22"/>
+    <path d="M103 72 L109 70"/>
+  </g>
+
+  <!-- Subtle hand-drawn motion marks -->
+  <g stroke="#32BEDD" stroke-width="2.1" opacity=".85">
+    <path d="M26 77 L32 77"/>
+    <path d="M41 92 L47 96"/>
+    <path d="M55 47 L61 41"/>
+  </g>
+</svg>

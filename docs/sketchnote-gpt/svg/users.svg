@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Users (sketch)</title>
+  
+  <desc>Hand-drawn Azure cyan user silhouette with a rounded head, broad shoulders, white V-shaped collar, and subtle marker accents on a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="bodyCyan" x1="64" y1="49" x2="64" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset=".22" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="headCyan" x1="61" y1="0" x2="67" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset=".22" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Broad shoulders and torso -->
+  <path d="M64 57            C29 56 13 80 6 114            Q4 126 15 126            L112 126            Q123 126 122 115            C116 80 98 57 64 57Z" fill="url(#bodyCyan)" stroke="#08799F" stroke-width="3.6"/>
+
+  <!-- White V-shaped collar -->
+  <path d="M46 59            Q64 69 82 59            L64 105Z" fill="#FFFFFF" fill-opacity=".82" stroke="#D6F6FC" stroke-width="1.8"/>
+
+  <!-- Rounded user head -->
+  <path d="M64 3            C82 2 98 17 98 35            C98 54 83 69 64 69            C45 69 30 54 30 35            C30 17 45 4 64 3Z" fill="url(#headCyan)" stroke="#08799F" stroke-width="3.8"/>
+
+  <!-- Uneven marker-style highlights -->
+  <g stroke="#A4F0FC" stroke-width="2.8" opacity=".85">
+    <path d="M40 24 Q46 12 59 11"/>
+    <path d="M77 12 Q88 19 90 31"/>
+    <path d="M16 104 Q21 82 35 72"/>
+    <path d="M94 72 Q108 85 112 104"/>
+  </g>
+
+  <!-- Subtle hand-ink contours -->
+  <g stroke="#0078D4" stroke-width="2" opacity=".55">
+    <path d="M12 117 Q23 122 35 122"/>
+    <path d="M91 122 Q104 123 115 118"/>
+    <path d="M39 51 Q47 63 60 64"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M106 23            L109 17            L112 23            L118 26            L112 29            L109 35            L106 29            L100 26Z" fill="#FFD966" stroke="#D49A20" stroke-width="1.6"/>
+
+  <!-- Small hand-drawn emphasis ticks -->
+  <g stroke="#0078D4" stroke-width="2.2" opacity=".8">
+    <path d="M13 43 L19 47"/>
+    <path d="M9 50 L16 53"/>
+    <path d="M112 45 L119 42"/>
+  </g>
+</svg>

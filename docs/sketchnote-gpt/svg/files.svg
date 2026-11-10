@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Files (sketch)</title>
+  
+  <desc>Three overlapping Azure-blue documents, with a white foreground file, folded blue corner, and hand-drawn text lines.</desc>
+
+  <defs>
+    <linearGradient id="fileBlue" x1="42" y1="26" x2="105" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#328CDE"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear document -->
+  <path d="M9 5            Q9 3 12 3            L76 3            Q79 3 79 7            L79 83            Q79 86 75 86            L12 86            Q9 86 9 82Z" fill="#5EA0EF" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Rear page sketch highlight -->
+  <path d="M15 11 L15 75            M20 9 L69 9" stroke="#B8DCFF" stroke-width="2.4" opacity=".75"/>
+
+  <!-- Middle document -->
+  <path d="M23 16            Q23 13 26 13            L90 13            Q93 13 93 17            L93 95            Q93 98 89 98            L26 98            Q23 98 23 94Z" fill="#83B9F9" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Middle page marker line -->
+  <path d="M29 22 L82 22            M29 28 L29 89" stroke="#D0E7FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Foreground document with folded corner -->
+  <path d="M39 26            Q39 23 43 23            L87 23            L121 57            L121 120            Q121 124 117 124            L43 124            Q39 124 39 120Z" fill="#FFFFFF" stroke="#0078D4" stroke-width="4"/>
+
+  <!-- Soft inner paper highlight -->
+  <path d="M45 34 L45 115            Q45 118 49 118            L111 118" stroke="#D7EBFF" stroke-width="2.4" opacity=".95"/>
+
+  <!-- Folded corner -->
+  <path d="M87 23            L87 52            Q87 57 92 57            L121 57Z" fill="url(#fileBlue)" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Fold highlight -->
+  <path d="M93 33 L109 49            M94 52 L110 52" stroke="#A7D5FF" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Hand-drawn text lines -->
+  <path d="M53 73            Q76 72 105 73" stroke="#5EA0EF" stroke-width="6.5"/>
+
+  <path d="M53 87            Q79 86 105 87" stroke="#5EA0EF" stroke-width="6.5"/>
+
+  <path d="M53 101            Q67 100 85 101" stroke="#5EA0EF" stroke-width="6.5"/>
+
+  <!-- Subtle marker highlights -->
+  <path d="M56 70 L77 70            M56 84 L79 84            M56 98 L72 98" stroke="#B8DCFF" stroke-width="2" opacity=".75"/>
+
+  <!-- Small sketchnote emphasis marks -->
+  <path d="M104 20 L108 14            M114 26 L121 23            M123 34 L127 31" stroke="#0078D4" stroke-width="2.4"/>
+
+  <!-- Restrained yellow accent -->
+  <path d="M30 105 L30 112            M26 108 L34 108" stroke="#FFBD02" stroke-width="2.7"/>
+
+  <!-- Loose hand-inked edge details -->
+  <path d="M6 28 L6 43            M20 49 L20 61            M36 65 L36 80" stroke="#0078D4" stroke-width="1.8" opacity=".55"/>
+
+  <!-- Tiny paper sparkle -->
+  <path d="M108 107 L108 113            M105 110 L111 110" stroke="#FFBD02" stroke-width="2.1" opacity=".85"/>
+</svg>

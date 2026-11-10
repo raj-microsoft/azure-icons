@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Form Recognizers (sketch)</title>
+  
+  <desc>Hand-drawn sketchnote illustration of the Azure Form Recognizers icon: a blue document with a folded corner, white text lines, and a cyan recognition lens with a 2 by 2 grid.</desc>
+
+  <defs>
+    <linearGradient id="docStroke" x1="56" y1="8" x2="56" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".82" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main document -->
+  <path d="M18 8            Q18 5 22 5            L62 5            L92 35            L92 112            Q92 116 88 116            L22 116            Q18 116 18 112Z" fill="#83B9F9" stroke="url(#docStroke)" stroke-width="4"/>
+
+  <!-- Folded corner -->
+  <path d="M62 5            L62 28            Q62 36 70 36            L92 36Z" fill="#0078D4" stroke="#0078D4" stroke-width="3.2"/>
+
+  <!-- Paper highlight / uneven marker feel -->
+  <path d="M24 16 L24 106            M30 12 L54 12            M68 15 L81 28" stroke="#D6EBFF" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Text lines -->
+  <path d="M30 56 H76" stroke="#FFFFFF" stroke-width="7"/>
+  <path d="M30 73 H76" stroke="#FFFFFF" stroke-width="7" opacity=".82"/>
+  <path d="M30 90 H76" stroke="#FFFFFF" stroke-width="7" opacity=".62"/>
+
+  <!-- Cyan recognizer swoosh behind lens -->
+  <path d="M53 62            C68 62 82 62 87 63            C101 66 111 80 111 93            C111 107 99 119 85 119            C72 119 61 109 56 94            C53 84 47 71 42 62            C45 62 49 62 53 62Z" fill="#50E6FF" stroke="#38CFEA" stroke-width="3.2"/>
+
+  <!-- Recognition lens -->
+  <circle cx="86" cy="94" r="28" fill="#FFFFFF" stroke="#50E6FF" stroke-width="4"/>
+
+  <!-- Inner 2x2 recognizer grid -->
+  <rect x="72" y="80" width="10" height="10" rx="1.8" fill="#50E6FF"/>
+  <rect x="88" y="80" width="10" height="10" rx="1.8" fill="#50E6FF"/>
+  <rect x="72" y="96" width="10" height="10" rx="1.8" fill="#50E6FF"/>
+  <rect x="88" y="96" width="10" height="10" rx="1.8" fill="#50E6FF"/>
+
+  <!-- Lens sketch highlights -->
+  <path d="M73 77            Q80 72 89 73            M66 94 Q66 80 74 73" stroke="#C8FAFF" stroke-width="2.2" opacity=".9"/>
+
+  <!-- Hand-drawn accent details -->
+  <path d="M95 53 L100 48            M103 58 L110 56            M108 66 L114 66" stroke="#0078D4" stroke-width="2.3"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M105 23 V30            M101.5 26.5 H108.5" stroke="#FFBD02" stroke-width="2.6"/>
+
+  <!-- Small wobble accents -->
+  <path d="M15 34 L15 47            M95 42 L95 53            M40 118 L52 118" stroke="#0E5C97" stroke-width="1.8" opacity=".55"/>
+</svg>

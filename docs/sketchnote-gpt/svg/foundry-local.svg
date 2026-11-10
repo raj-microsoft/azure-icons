@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Foundry Local (sketch)</title>
+  
+  <desc>Three nested, descending purple Foundry ribbons with rounded right-angle bends, irregular marker contours, subtle violet highlights, and restrained Azure-blue and yellow sketch accents.</desc>
+
+  <defs>
+    <linearGradient id="foundryDark" x1="5" y1="12" x2="108" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#2C08AC"/>
+    </linearGradient>
+    <linearGradient id="foundryLight" x1="59" y1="34" x2="125" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#7274FF"/>
+      <stop offset="1" stop-color="#4F42FD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Largest Foundry ribbon: upper horizontal arm -->
+  <path d="M7 8            Q5 8 5 11            L5 27            Q5 30 8 30            L96 30            Q101 30 103 35            C103 22 95 8 81 8            Z" fill="url(#foundryDark)" stroke="#3020B8" stroke-width="2.8"/>
+
+  <!-- Largest ribbon: descending vertical arm -->
+  <path d="M95 17            Q103 25 103 35            L103 119            Q103 122 106 122            L122 122            Q125 122 125 119            L125 48            Q125 42 121 38 Z" fill="url(#foundryLight)" stroke="#4335DB" stroke-width="2.8"/>
+
+  <!-- Largest ribbon edge highlight -->
+  <path d="M12 13 Q41 12 76 13" stroke="#A9A5FF" stroke-width="2.5" opacity=".85"/>
+  <path d="M110 50 Q111 74 110 109" stroke="#ADADFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Middle Foundry ribbon: horizontal arm -->
+  <path d="M7 38            Q5 38 5 41            L5 57            Q5 60 8 60            L70 60            Q75 60 77 65            C77 52 69 38 55 38            Z" fill="url(#foundryDark)" stroke="#3020B8" stroke-width="2.8"/>
+
+  <!-- Middle ribbon: descending vertical arm -->
+  <path d="M69 47            Q77 55 77 65            L77 119            Q77 122 80 122            L96 122            Q99 122 99 119            L99 79            Q99 73 95 69 Z" fill="url(#foundryLight)" stroke="#4335DB" stroke-width="2.8"/>
+
+  <!-- Middle ribbon marker highlights -->
+  <path d="M12 43 Q31 42 51 43" stroke="#A9A5FF" stroke-width="2.3" opacity=".85"/>
+  <path d="M84 79 Q85 96 84 111" stroke="#B8B6FF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Smallest Foundry ribbon: horizontal arm -->
+  <path d="M7 65            Q5 65 5 68            L5 84            Q5 87 8 87            L44 87            Q49 87 51 92            C51 79 43 65 29 65            Z" fill="url(#foundryDark)" stroke="#3020B8" stroke-width="2.8"/>
+
+  <!-- Smallest ribbon: descending vertical arm -->
+  <path d="M43 74            Q51 82 51 92            L51 119            Q51 122 54 122            L70 122            Q73 122 73 119            L73 105            Q73 99 69 95 Z" fill="url(#foundryLight)" stroke="#4335DB" stroke-width="2.8"/>
+
+  <!-- Smallest ribbon marker highlights -->
+  <path d="M12 70 Q21 69 28 70" stroke="#A9A5FF" stroke-width="2.2" opacity=".9"/>
+  <path d="M58 103 L58 114" stroke="#B8B6FF" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Hand-drawn bend contours -->
+  <g stroke="#9189F7" stroke-width="2" opacity=".8">
+    <path d="M86 17 Q96 23 97 33"/>
+    <path d="M60 47 Q70 53 71 63"/>
+    <path d="M34 74 Q44 80 45 90"/>
+  </g>
+
+  <!-- Restrained Azure-blue annotation marks -->
+  <g stroke="#0078D4" stroke-width="2.5">
+    <path d="M113 8 Q120 12 122 19"/>
+    <path d="M118 5 L124 9"/>
+    <path d="M9 98 Q13 102 18 104"/>
+    <path d="M11 110 L17 113"/>
+  </g>
+
+  <!-- Yellow sketchnote accent strokes -->
+  <g stroke="#F2B827" stroke-width="2.7">
+    <path d="M5 2 L9 5"/>
+    <path d="M23 2 L23 6"/>
+    <path d="M114 26 L120 24"/>
+  </g>
+
+  <!-- Tiny hand-drawn sparkle -->
+  <path d="M110 57            L112 62            L117 64            L112 66            L110 71            L108 66            L103 64            L108 62 Z" fill="#F2B827"/>
+
+  <!-- Loose handwritten-style finishing details -->
+  <g stroke="#BDBAFF" stroke-width="1.8" opacity=".75">
+    <path d="M16 23 L31 23"/>
+    <path d="M17 53 L28 53"/>
+    <path d="M16 81 L23 81"/>
+  </g>
+</svg>

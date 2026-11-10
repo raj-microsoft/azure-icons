@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Folder Website (sketch)</title>
+  
+  <desc>Golden-yellow Azure folder with a raised tab, overlapping blue website globe, connected white network nodes, and subtle hand-drawn marker accents.</desc>
+
+  <defs>
+    <linearGradient id="folderGold" x1="64" y1="18" x2="64" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD400"/>
+      <stop offset="1" stop-color="#FFBD02"/>
+    </linearGradient>
+    <radialGradient id="globeBlue" cx="42%" cy="34%" r="75%">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Rear folder and tab -->
+  <path d="M7 18            Q7 14 12 14            L47 14            Q50 14 53 16            L69 27            Q71 29 75 29            L116 29            Q121 29 121 34            L121 109            Q121 115 116 115            L12 115            Q7 115 7 110 Z" fill="#DFA500" stroke="#B98200" stroke-width="3.5"/>
+
+  <!-- Small white label on folder tab -->
+  <path d="M18 22 Q29 21 39 22" stroke="#FFFFFF" stroke-width="5"/>
+
+  <!-- Front folder panel -->
+  <path d="M7 40            Q7 36 12 36            L45 36            Q49 36 52 33            L59 27            Q61 25 65 25            L116 25            Q121 25 121 30            L121 111            Q121 116 116 116            L12 116            Q7 116 7 111 Z" fill="url(#folderGold)" stroke="#C38B00" stroke-width="3.7"/>
+
+  <!-- Uneven marker highlights -->
+  <path d="M14 46 Q32 45 47 45" stroke="#FFF2A1" stroke-width="3" opacity=".9"/>
+  <path d="M14 54 Q13 75 14 101" stroke="#FFE875" stroke-width="2.6" opacity=".85"/>
+  <path d="M23 109 Q65 111 110 109" stroke="#FFE56A" stroke-width="2" opacity=".75"/>
+
+  <!-- Main website globe -->
+  <path d="M64 45            C84 44 99 60 99 79            C99 98 84 113 65 113            C46 113 31 98 31 79            C31 60 45 45 64 45 Z" fill="url(#globeBlue)" stroke="#005A9E" stroke-width="3.5"/>
+
+  <!-- Sketchnote globe highlight -->
+  <path d="M42 61 Q50 49 64 50" stroke="#C7E8FF" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Globe network connections -->
+  <g stroke="#EAF7FF" stroke-width="2.8" opacity=".85">
+    <path d="M48 75 Q49 59 57 51"/>
+    <path d="M54 84 Q66 76 80 65"/>
+    <path d="M55 88 Q64 98 70 99"/>
+    <path d="M70 99 Q84 100 91 91"/>
+    <path d="M80 65 Q87 76 91 91"/>
+    <path d="M48 75 Q50 84 55 88"/>
+    <path d="M57 51 Q66 59 80 65"/>
+  </g>
+
+  <!-- Website network nodes -->
+  <path d="M48 66            C53 66 57 70 57 75            C57 80 53 84 48 84            C43 84 39 80 39 75            C39 70 43 66 48 66 Z" fill="#FFFFFF" stroke="#C9DCEB" stroke-width="2"/>
+
+  <path d="M80 59            C84 59 87 62 87 66            C87 70 84 73 80 73            C76 73 73 70 73 66            C73 62 76 59 80 59 Z" fill="#FFFFFF" stroke="#C9DCEB" stroke-width="1.8"/>
+
+  <path d="M70 92            C74 92 77 95 77 99            C77 103 74 106 70 106            C66 106 63 103 63 99            C63 95 66 92 70 92 Z" fill="#FFFFFF" stroke="#C9DCEB" stroke-width="1.8"/>
+
+  <!-- Marker-style node highlights -->
+  <g stroke="#D0E9FF" stroke-width="1.6">
+    <path d="M44 72 Q47 69 50 71"/>
+    <path d="M77 64 L80 62"/>
+    <path d="M67 98 L70 95"/>
+  </g>
+
+  <!-- Azure-blue handwritten motion marks -->
+  <g stroke="#0078D4" stroke-width="2.4">
+    <path d="M108 53 Q112 57 114 62"/>
+    <path d="M111 47 L116 51"/>
+    <path d="M19 122 Q26 125 33 123"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M106 8            L109 14            L115 17            L109 20            L106 26            L103 20            L97 17            L103 14 Z" fill="#F2B827"/>
+
+  <!-- Hand-drawn accent rays -->
+  <g stroke="#F2B827" stroke-width="2.7">
+    <path d="M5 7 L10 11"/>
+    <path d="M17 3 L18 9"/>
+    <path d="M124 76 L127 74"/>
+  </g>
+
+  <!-- Loose marker finishing strokes -->
+  <g stroke="#FFF3A6" stroke-width="2" opacity=".8">
+    <path d="M22 57 L32 56"/>
+    <path d="M22 63 L28 62"/>
+    <path d="M101 103 L113 102"/>
+  </g>
+</svg>

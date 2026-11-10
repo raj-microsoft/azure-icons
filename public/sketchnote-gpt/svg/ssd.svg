@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>SSD (sketch)</title>
+  
+  <desc>Azure SSD drive with a hand-drawn blue enclosure, pale inset panel, lightning bolt and bottom connector slots.</desc>
+
+  <defs>
+    <linearGradient id="ssdBlue" x1="64" y1="9" x2="64" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sketched outer drive enclosure -->
+  <path d="M18 94            L25 20            Q26 12 35 11            L94 10            Q103 11 104 19            L111 94 Z" fill="url(#ssdBlue)" stroke="#155D99" stroke-width="3.5"/>
+
+  <!-- Slightly irregular marker contour -->
+  <path d="M22 86 L29 22            Q30 16 36 15            M94 14 Q100 15 101 22            L107 85" stroke="#B8DEFF" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Inner SSD label panel -->
+  <path d="M39 24            Q37 24 37 28            L30 80            Q30 84 35 84            L94 83            Q99 83 98 79            L91 28            Q91 24 87 24 Z" fill="#F2F2F2" stroke="#1C659C" stroke-width="3.2"/>
+
+  <!-- Loose hand-drawn panel edge -->
+  <path d="M40 29 L85 28            M35 77 L39 36            M91 36 L95 76" stroke="#A7C5DA" stroke-width="1.7" opacity=".8"/>
+
+  <!-- SSD lightning symbol -->
+  <path d="M67 34            L51 57            L64 57            L52 76            L80 51            L65 51            L81 34 Z" fill="#5EA0EF" stroke="#176DAE" stroke-width="3.2"/>
+
+  <!-- Subtle yellow sketchnote highlights -->
+  <path d="M84 37 L89 33            M86 44 L92 43            M45 65 L40 69" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Bottom connector housing -->
+  <path d="M18 94            L111 94            L111 109            Q111 117 103 117            L25 118            Q17 117 17 110 Z" fill="#5EA0EF" stroke="#155D99" stroke-width="3.5"/>
+
+  <!-- Connector slots -->
+  <path d="M38 100 L38 109 L46 109            L46 100            M62 100 L62 109 L70 109            L70 100            M86 100 L86 109 L94 109            L94 100" stroke="#F2F2F2" stroke-width="4"/>
+
+  <!-- Marker accents on connector -->
+  <path d="M23 98 L105 98            M26 113 L33 113            M99 112 L104 112" stroke="#B8DEFF" stroke-width="2" opacity=".8"/>
+
+  <!-- Small hand-drawn motion marks -->
+  <path d="M12 47 L15 42            M113 52 L117 48            M11 58 L14 55" stroke="#0078D4" stroke-width="2.2"/>
+
+  <!-- Tiny sketchnote sparkle -->
+  <path d="M106 21 L106 29            M102 25 L110 25" stroke="#F4C542" stroke-width="2.4"/>
+</svg>

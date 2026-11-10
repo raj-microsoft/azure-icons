@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Service Fabric Clusters (sketch)</title>
+  
+  <desc>Five warm orange cluster nodes connected in a hand-drawn pentagonal fabric, preserving the original Azure Service Fabric Clusters icon.</desc>
+
+  <defs>
+    <linearGradient id="nodeOrange" x1="0" y1="-17" x2="0" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FAA21D"/>
+      <stop offset=".52" stop-color="#F58C12"/>
+      <stop offset="1" stop-color="#EF7100"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn pentagonal cluster connections -->
+  <path d="M64 23            Q85 38 108 55            Q100 79 91 105            Q64 106 37 105            Q28 80 20 55            Q41 38 64 23 Z" stroke="#E27908" stroke-width="8"/>
+
+  <!-- Slightly uneven secondary marker strokes -->
+  <path d="M66 27 Q86 42 104 56            M105 62 Q98 83 89 101            M83 108 Q64 109 44 107            M33 99 Q26 79 23 62            M25 52 Q44 37 60 26" stroke="#FAA21D" stroke-width="2.6" opacity=".7"/>
+
+  <!-- Inner pentagonal fabric outline -->
+  <path d="M64 36            L96 60            L84 95            L44 95            L32 60 Z" stroke="#F2A33D" stroke-width="2" stroke-dasharray="3 7" opacity=".55"/>
+
+  <!-- Top cluster node -->
+  <path d="M64 5            C75 5 83 13 83 23            C83 34 75 42 64 42            C53 42 45 34 45 23            C45 13 53 5 64 5 Z" fill="url(#nodeOrange)" stroke="#C96508" stroke-width="3.4"/>
+
+  <!-- Upper-right cluster node -->
+  <path d="M108 40            C119 40 126 48 126 59            C126 70 118 78 108 78            C97 78 89 70 89 59            C89 49 97 40 108 40 Z" fill="url(#nodeOrange)" stroke="#C96508" stroke-width="3.4"/>
+
+  <!-- Lower-right cluster node -->
+  <path d="M91 89            C102 89 110 97 110 108            C110 119 102 126 91 126            C80 126 72 118 72 108            C72 98 80 89 91 89 Z" fill="url(#nodeOrange)" stroke="#C96508" stroke-width="3.4"/>
+
+  <!-- Lower-left cluster node -->
+  <path d="M37 89            C48 89 56 97 56 108            C56 119 48 126 37 126            C26 126 18 118 18 108            C18 98 26 89 37 89 Z" fill="url(#nodeOrange)" stroke="#C96508" stroke-width="3.4"/>
+
+  <!-- Upper-left cluster node -->
+  <path d="M20 40            C31 40 39 48 39 59            C39 70 31 78 20 78            C9 78 2 70 2 59            C2 49 10 40 20 40 Z" fill="url(#nodeOrange)" stroke="#C96508" stroke-width="3.4"/>
+
+  <!-- Subtle hand-drawn node highlights -->
+  <path d="M54 21 Q56 13 64 13            M98 56 Q100 48 108 48            M81 106 Q83 98 91 98            M27 106 Q29 98 37 98            M10 57 Q12 49 20 49" stroke="#FFD36B" stroke-width="3.2" opacity=".9"/>
+
+  <!-- Small marker glints -->
+  <path d="M69 12 L72 15            M113 47 L116 50            M96 96 L99 99            M42 96 L45 99            M25 47 L28 50" stroke="#FFE6A0" stroke-width="2" opacity=".85"/>
+
+  <!-- Restrained sketchnote accents -->
+  <path d="M88 13 L93 8            M96 22 L103 20            M8 86 L3 91" stroke="#F4C542" stroke-width="2.5"/>
+
+  <!-- Small Azure-blue contrast accents -->
+  <path d="M60 52 Q64 49 68 52            M60 57 Q64 54 68 57" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Resource Graph Explorer (sketch)</title>
+  
+  <desc>Three connected purple graph nodes arranged in a triangular network, preserving the original Azure Resource Graph Explorer symbol with sketchy marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="nodePurple" x1="0" y1="-20" x2="0" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B77AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="largePurple" x1="0" y1="-25" x2="0" y2="25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B77AF4"/>
+      <stop offset=".55" stop-color="#9457E8"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Connected graph edges -->
+  <path d="M23 29            Q55 27 103 28            M23 32            Q54 33 101 31" stroke="#B796F9" stroke-width="7"/>
+
+  <path d="M24 34            Q53 63 84 96            M20 38            Q52 69 80 100" stroke="#B796F9" stroke-width="7"/>
+
+  <!-- Soft sketch line along the links -->
+  <path d="M35 26 Q62 25 88 26            M31 43 Q52 64 72 85" stroke="#D9C2FF" stroke-width="2" opacity=".85"/>
+
+  <!-- Small upper-left graph node -->
+  <path d="M33 29            C33 38 27 44 18 44            C9 44 4 38 4 29            C4 20 10 14 19 14            C27 14 34 21 33 29Z" fill="url(#nodePurple)" stroke="#6530BA" stroke-width="3.5"/>
+
+  <!-- Hand-drawn highlight -->
+  <path d="M11 26 Q13 20 20 20" stroke="#E4D1FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Upper-right graph node -->
+  <path d="M122 27            C122 39 113 48 102 48            C90 48 82 39 82 27            C82 16 90 8 102 8            C113 8 122 16 122 27Z" fill="url(#nodePurple)" stroke="#6530BA" stroke-width="3.8"/>
+
+  <path d="M91 23            Q94 15 103 15            M111 17 Q115 20 116 25" stroke="#E4D1FF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Large lower-right graph node -->
+  <path d="M114 96            C114 112 103 122 87 122            C71 122 61 111 61 96            C61 80 72 70 87 70            C103 70 114 81 114 96Z" fill="url(#largePurple)" stroke="#6530BA" stroke-width="4"/>
+
+  <!-- Uneven marker highlights -->
+  <path d="M70 91            Q73 79 86 78            M96 79 Q104 83 107 91" stroke="#E4D1FF" stroke-width="2.8" opacity=".8"/>
+
+  <!-- Subtle internal sketch curves -->
+  <path d="M75 108            Q86 114 99 107" stroke="#D6B8FF" stroke-width="2" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M45 12 L49 6            M52 16 L60 13" stroke="#FFCA45" stroke-width="3.2"/>
+
+  <path d="M119 68 L125 63            M120 78 L127 77" stroke="#FFCA45" stroke-width="3"/>
+
+  <!-- Tiny marker sparkle -->
+  <path d="M44 105 L44 114            M40 109 L48 109" stroke="#FFCA45" stroke-width="2.8"/>
+
+  <!-- Small secondary annotation marks -->
+  <path d="M34 53 Q39 59 43 62            M51 70 L55 75" stroke="#A67CEB" stroke-width="2" opacity=".65"/>
+</svg>

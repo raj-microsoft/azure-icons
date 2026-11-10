@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Time Series Insights Environments (sketch)</title>
+  
+  <desc>Hand-drawn circular environment with a bright cyan time-series waveform, preserving the original grey circular frame and Azure cyan accents.</desc>
+
+  <defs>
+    <linearGradient id="frameGrey" x1="22" y1="8" x2="103" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B2B3"/>
+      <stop offset=".55" stop-color="#A2A2A2"/>
+      <stop offset="1" stop-color="#979797"/>
+    </linearGradient>
+    <linearGradient id="waveCyan" x1="8" y1="55" x2="120" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".65" stop-color="#38D9F5"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper circular environment arc -->
+  <path d="M8 47            C15 24 37 9 63 8            C90 7 113 23 120 47            L108 47            C101 30 84 20 64 20            C43 20 26 30 20 47Z" fill="url(#frameGrey)" stroke="#777777" stroke-width="2.8"/>
+
+  <!-- Lower circular environment arc -->
+  <path d="M8 81            C15 104 37 120 64 120            C91 120 113 104 120 81            L108 81            C101 98 84 108 64 108            C43 108 26 98 20 81Z" fill="url(#frameGrey)" stroke="#777777" stroke-width="2.8"/>
+
+  <!-- Loose hand-ink contours -->
+  <g stroke="#777777" stroke-width="1.6" opacity=".55">
+    <path d="M12 42 Q25 12 56 11"/>
+    <path d="M74 11 Q105 15 116 41"/>
+    <path d="M12 87 Q26 114 55 116"/>
+    <path d="M76 116 Q104 111 116 87"/>
+  </g>
+
+  <!-- Main time-series waveform -->
+  <path d="M9 65            Q12 64 16 65            L39 65            L54 39            L70 83            L83 64            L112 64            Q116 64 119 65" stroke="#0078D4" stroke-width="14" opacity=".22"/>
+
+  <path d="M9 65            Q12 64 16 65            L39 65            L54 39            L70 83            L83 64            L112 64            Q116 64 119 65" stroke="url(#waveCyan)" stroke-width="10"/>
+
+  <!-- Slightly imperfect marker highlight -->
+  <path d="M17 62            L37 62            L53 35            M73 78 L82 60            M89 61 L110 61" stroke="#B5F5FF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Cyan handwritten-style ticks -->
+  <g stroke="#0078D4" stroke-width="2" opacity=".65">
+    <path d="M48 28 l-3 -5"/>
+    <path d="M55 27 l1 -7"/>
+    <path d="M62 30 l4 -5"/>
+    <path d="M66 94 l-3 6"/>
+    <path d="M74 94 l2 7"/>
+  </g>
+
+  <!-- Small yellow accent spark -->
+  <path d="M105 25            L108 19            L111 25            L117 28            L111 31            L108 37            L105 31            L99 28Z" fill="#FFD966" stroke="#D49A20" stroke-width="1.6"/>
+
+  <!-- Tiny sketched cyan motion lines -->
+  <g stroke="#50E6FF" stroke-width="2" opacity=".8">
+    <path d="M4 55 l5 -2"/>
+    <path d="M5 75 l5 2"/>
+    <path d="M119 55 l5 -2"/>
+    <path d="M119 75 l5 2"/>
+  </g>
+</svg>

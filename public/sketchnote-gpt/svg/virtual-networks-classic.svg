@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Virtual Networks (Classic) (sketch)</title>
+  
+  <desc>Four diagonal Azure-blue and cyan network links forming an open diamond around three connected blue nodes, with uneven marker outlines and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="nodeBlue" x1="64" y1="56" x2="64" y2="77" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".82" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="linkCyan" x1="16" y1="70" x2="112" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left diagonal network link -->
+  <path d="M15 24            Q12 21 16 17            L20 13            Q23 10 26 13            L58 46            Q61 49 58 52            L54 56            Q51 59 48 56Z" fill="#1490DF" stroke="#086FB4" stroke-width="3.2"/>
+
+  <!-- Upper-right diagonal network link -->
+  <path d="M113 24            Q116 21 112 17            L108 13            Q105 10 102 13            L70 46            Q67 49 70 52            L74 56            Q77 59 80 56Z" fill="#1490DF" stroke="#086FB4" stroke-width="3.2"/>
+
+  <!-- Lower-left diagonal network link -->
+  <path d="M16 104            Q13 107 16 110            L20 114            Q23 117 26 114            L58 82            Q61 79 58 76            L54 72            Q51 69 48 72Z" fill="url(#linkCyan)" stroke="#0C9EC5" stroke-width="3.2"/>
+
+  <!-- Lower-right diagonal network link -->
+  <path d="M112 104            Q115 107 112 110            L108 114            Q105 117 102 114            L70 82            Q67 79 70 76            L74 72            Q77 69 80 72Z" fill="url(#linkCyan)" stroke="#0C9EC5" stroke-width="3.2"/>
+
+  <!-- Uneven marker highlights -->
+  <g stroke-width="2.5" opacity=".8">
+    <path d="M22 20 L48 46" stroke="#86C5FA"/>
+    <path d="M106 20 L80 46" stroke="#86C5FA"/>
+    <path d="M22 107 L48 81" stroke="#E1FBFF"/>
+    <path d="M106 107 L80 81" stroke="#E1FBFF"/>
+  </g>
+
+  <!-- Three central network nodes -->
+  <path d="M38 55            C45 54 51 59 51 66            C51 73 45 79 38 79            C31 79 25 73 25 66            C25 59 31 55 38 55Z" fill="url(#nodeBlue)" stroke="#086FB4" stroke-width="3"/>
+
+  <path d="M64 55            C71 54 77 59 77 66            C77 73 71 79 64 79            C57 79 51 73 51 66            C51 59 57 55 64 55Z" fill="url(#nodeBlue)" stroke="#086FB4" stroke-width="3"/>
+
+  <path d="M90 55            C97 54 103 59 103 66            C103 73 97 79 90 79            C83 79 77 73 77 66            C77 59 83 55 90 55Z" fill="url(#nodeBlue)" stroke="#086FB4" stroke-width="3"/>
+
+  <!-- Hand-drawn node highlights -->
+  <g stroke="#B8E3FF" stroke-width="2.4" opacity=".9">
+    <path d="M32 63 Q34 59 38 59"/>
+    <path d="M58 63 Q60 59 64 59"/>
+    <path d="M84 63 Q86 59 90 59"/>
+  </g>
+
+  <!-- Subtle connecting marker strokes -->
+  <g stroke="#0078D4" stroke-width="2" opacity=".65">
+    <path d="M52 64 L50 64"/>
+    <path d="M78 64 L76 64"/>
+    <path d="M9 61 L16 61"/>
+    <path d="M112 61 L119 61"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M64 13            L67 7            L70 13            L76 16            L70 19            L67 25            L64 19            L58 16Z" fill="#FFD966" stroke="#D49A20" stroke-width="1.5"/>
+
+  <!-- Small handwritten-style accents -->
+  <g stroke="#0078D4" stroke-width="2.2" opacity=".75">
+    <path d="M13 83 L8 87"/>
+    <path d="M18 88 L13 92"/>
+    <path d="M110 86 L115 90"/>
+  </g>
+</svg>

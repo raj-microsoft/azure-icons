@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Identity Governance (sketch)</title>
+  
+  <desc>Central purple identity silhouette surrounded by four cyan governance nodes and a broken Azure-blue circular orbit, drawn with slightly irregular marker strokes.</desc>
+
+  <defs>
+    <linearGradient id="identityPurple" x1="64" y1="25" x2="64" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset=".55" stop-color="#8055CE"/>
+      <stop offset="1" stop-color="#552F99"/>
+    </linearGradient>
+    <linearGradient id="governanceCyan" x1="0" y1="-12" x2="0" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Four broken Azure-blue governance arcs -->
+  <g stroke="#0078D4" stroke-width="6">
+    <path d="M42 12              Q64 2 88 13"/>
+    <path d="M115 40              Q126 64 115 88"/>
+    <path d="M88 115              Q64 126 40 114"/>
+    <path d="M13 88              Q2 64 13 40"/>
+  </g>
+
+  <!-- Subtle secondary marker highlights -->
+  <g stroke="#5EA0EF" stroke-width="2" opacity=".85">
+    <path d="M46 9 Q66 3 83 10"/>
+    <path d="M119 46 Q124 65 118 81"/>
+    <path d="M82 119 Q63 125 46 118"/>
+    <path d="M9 82 Q4 64 10 47"/>
+  </g>
+
+  <!-- Central identity torso -->
+  <path d="M64 55            C45 55 33 65 30 84            L28 91            Q27 98 34 99            Q64 101 94 99            Q101 98 100 91            L98 84            C95 65 83 55 64 55 Z" fill="url(#identityPurple)" stroke="#55318F" stroke-width="3.5"/>
+
+  <!-- White shirt collar -->
+  <path d="M53 57            Q64 65 75 57            L64 82 Z" fill="#F7F5FC" stroke="#8764BD" stroke-width="2"/>
+
+  <path d="M56 62 L64 79 L72 62" stroke="#FFFFFF" stroke-width="2" opacity=".8"/>
+
+  <!-- Central identity head -->
+  <path d="M64 26            C76 25 84 34 84 46            C84 58 75 66 64 66            C53 66 44 58 44 46            C44 34 52 26 64 26 Z" fill="url(#identityPurple)" stroke="#55318F" stroke-width="3.5"/>
+
+  <!-- Hand-drawn head highlights -->
+  <path d="M51 40 Q54 32 62 31" stroke="#C3A5FA" stroke-width="2.8" opacity=".85"/>
+
+  <path d="M77 49 Q74 57 68 60" stroke="#6740AA" stroke-width="2" opacity=".6"/>
+
+  <!-- Upper-left governance node -->
+  <path d="M29 10            C38 9 45 16 45 25            C45 34 38 41 29 41            C20 41 13 34 13 25            C13 16 20 10 29 10 Z" fill="url(#governanceCyan)" stroke="#087DAE" stroke-width="3"/>
+
+  <!-- Upper-right governance node -->
+  <path d="M99 10            C108 9 115 16 115 25            C115 34 108 41 99 41            C90 41 83 34 83 25            C83 16 90 10 99 10 Z" fill="url(#governanceCyan)" stroke="#087DAE" stroke-width="3"/>
+
+  <!-- Lower-left governance node -->
+  <path d="M29 87            C38 86 45 93 45 102            C45 111 38 118 29 118            C20 118 13 111 13 102            C13 93 20 87 29 87 Z" fill="url(#governanceCyan)" stroke="#087DAE" stroke-width="3"/>
+
+  <!-- Lower-right governance node -->
+  <path d="M99 87            C108 86 115 93 115 102            C115 111 108 118 99 118            C90 118 83 111 83 102            C83 93 90 87 99 87 Z" fill="url(#governanceCyan)" stroke="#087DAE" stroke-width="3"/>
+
+  <!-- White identity indicators inside nodes -->
+  <g fill="#FFFFFF" stroke="#E4FAFF" stroke-width="1">
+    <circle cx="29" cy="25" r="7"/>
+    <circle cx="99" cy="25" r="7"/>
+    <circle cx="29" cy="102" r="7"/>
+    <circle cx="99" cy="102" r="7"/>
+  </g>
+
+  <!-- Small node highlights -->
+  <g stroke="#C5F8FF" stroke-width="2" opacity=".9">
+    <path d="M19 22 Q21 16 27 15"/>
+    <path d="M89 22 Q91 16 97 15"/>
+    <path d="M19 99 Q21 93 27 92"/>
+    <path d="M89 99 Q91 93 97 92"/>
+  </g>
+
+  <!-- Minimal sketchnote yellow accents -->
+  <g stroke="#F4B83F" stroke-width="2.8">
+    <path d="M57 13 L57 18"/>
+    <path d="M64 11 L64 17"/>
+    <path d="M71 13 L71 18"/>
+    <path d="M57 110 L57 115"/>
+    <path d="M64 111 L64 117"/>
+    <path d="M71 110 L71 115"/>
+  </g>
+
+  <!-- Small hand-drawn emphasis marks -->
+  <g stroke="#0078D4" stroke-width="2.3">
+    <path d="M6 16 L2 12"/>
+    <path d="M122 16 L126 12"/>
+    <path d="M6 113 L2 117"/>
+    <path d="M122 113 L126 117"/>
+  </g>
+</svg>

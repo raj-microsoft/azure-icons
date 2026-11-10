@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>StorSimple Data Managers (sketch)</title>
+  
+  <desc>Azure-blue cylindrical storage database with a cyan elliptical top and a white management gear containing circular arrows, rendered with irregular marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="dataBlue" x1="18" y1="65" x2="110" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".36" stop-color="#0071C8"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset=".82" stop-color="#006ABB"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="topCyan" x1="64" y1="13" x2="64" y2="39" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cylindrical storage body -->
+  <path d="M19 21            C19 34 40 41 64 41            C89 41 109 34 109 21            L109 106            C109 118 89 124 64 124            C39 124 19 117 19 106 Z" fill="url(#dataBlue)" stroke="#15558F" stroke-width="3.5"/>
+
+  <!-- Loose marker-style side reflections -->
+  <path d="M25 41 L25 103            Q26 112 39 115            M102 42 L102 102" stroke="#68B8F4" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Sketchy bottom ellipse -->
+  <path d="M24 108            C40 123 88 125 104 108" stroke="#004D89" stroke-width="2.3" opacity=".7"/>
+
+  <!-- Pale top storage rim -->
+  <path d="M19 21            C19 10 39 5 64 5            C89 5 109 11 109 21            C109 32 89 39 64 39            C39 39 19 32 19 21 Z" fill="#F2F2F2" stroke="#15558F" stroke-width="3.2"/>
+
+  <!-- Cyan inset ellipse -->
+  <path d="M29 20            C29 13 45 10 64 10            C83 10 99 14 99 21            C99 28 83 33 64 33            C45 33 29 27 29 20 Z" fill="url(#topCyan)" stroke="#198AB3" stroke-width="2.5"/>
+
+  <!-- Inner dark teal elliptical detail -->
+  <path d="M37 26            C44 22 54 21 64 21            C75 21 86 23 92 27            C85 31 74 33 64 33            C53 33 43 30 37 26 Z" fill="#198AB3" stroke="#087CA5" stroke-width="1.8"/>
+
+  <!-- Top marker highlight -->
+  <path d="M36 18            C46 12 75 12 88 17" stroke="#FFFFFF" stroke-width="2.1" opacity=".85"/>
+
+  <!-- White management gear -->
+  <path d="M59 51            L69 51            L72 59            Q75 60 78 62            L86 59            L93 66            L89 74            Q91 77 92 80            L100 83            L100 93            L92 96            Q91 99 89 102            L93 110            L86 117            L78 113            Q75 115 72 116            L69 123            L59 123            L56 116            Q53 115 50 113            L42 117            L35 110            L39 102            Q37 99 36 96            L28 93            L28 83            L36 80            Q37 77 39 74            L35 66            L42 59            L50 62            Q53 60 56 59 Z" fill="#FFFFFF" stroke="#D6EDFA" stroke-width="2.6"/>
+
+  <!-- Gear inner circular opening -->
+  <path d="M64 67            C76 67 85 76 85 88            C85 100 76 109 64 109            C52 109 43 100 43 88            C43 76 52 67 64 67 Z" fill="#0078D4" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- Circular management arrows -->
+  <path d="M52 84            C53 77 59 73 66 74            C72 74 77 78 79 83" stroke="#FFFFFF" stroke-width="4"/>
+
+  <path d="M72 79            L80 84            L81 75" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <path d="M76 92            C74 99 68 103 61 102            C55 101 51 97 49 92" stroke="#FFFFFF" stroke-width="4"/>
+
+  <path d="M56 96            L48 91            L47 100" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <!-- Hand-drawn gear highlights -->
+  <path d="M47 65 L51 67            M76 65 L80 67            M32 87 L35 87            M94 87 L97 87" stroke="#C7E9FC" stroke-width="1.8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M112 52 L118 48            M114 61 L121 61            M12 71 L7 68" stroke="#F4C542" stroke-width="2.7"/>
+
+  <!-- Small marker sparkle -->
+  <path d="M112 15 L112 23            M108 19 L116 19" stroke="#F4C542" stroke-width="2.3"/>
+
+</svg>

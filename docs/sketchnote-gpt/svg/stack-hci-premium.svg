@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Stack HCI Premium (sketch)</title>
+  
+  <desc>Three stacked Azure-blue server modules with white status indicators and a cyan premium award ribbon, drawn with irregular marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="serverBlue" x1="64" y1="8" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#1684D3"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="ribbonCyan" x1="20" y1="65" x2="36" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32BEDD"/>
+      <stop offset=".6" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top stacked server -->
+  <path d="M17 8            Q13 8 13 13            L13 35            Q14 39 18 39            L119 39            Q123 39 123 35            L123 13            Q123 8 119 8 Z" fill="url(#serverBlue)" stroke="#174F80" stroke-width="3.3"/>
+
+  <!-- Top server marker highlight -->
+  <path d="M20 13 L113 12            M18 17 L18 29" stroke="#A9D9FF" stroke-width="2.1" opacity=".85"/>
+
+  <!-- Top status indicators -->
+  <path d="M108 16 L115 16 L115 23 L108 23 Z            M108 28 L115 28 L115 35 L108 35 Z" fill="#FFFFFF" stroke="#D7EDFF" stroke-width="1.4"/>
+
+  <!-- Middle stacked server -->
+  <path d="M18 44            Q13 44 13 48            L13 56            Q22 52 31 56            Q44 61 46 75            L119 75            Q123 75 123 71            L123 48            Q123 44 119 44 Z" fill="url(#serverBlue)" stroke="#174F80" stroke-width="3.3"/>
+
+  <!-- Middle module hand-drawn reflection -->
+  <path d="M47 49 L112 49            M52 70 L102 70" stroke="#92D1FA" stroke-width="2" opacity=".65"/>
+
+  <!-- Middle status indicators -->
+  <path d="M108 52 L115 52 L115 59 L108 59 Z            M108 64 L115 64 L115 71 L108 71 Z" fill="#FFFFFF" stroke="#D7EDFF" stroke-width="1.4"/>
+
+  <!-- Bottom stacked server -->
+  <path d="M46 80            L119 80            Q123 80 123 84            L123 107            Q123 111 119 111            L36 111            L35 96            Q44 91 46 80 Z" fill="url(#serverBlue)" stroke="#174F80" stroke-width="3.3"/>
+
+  <!-- Bottom server reflected highlight -->
+  <path d="M52 85 L112 85            M49 106 L102 106" stroke="#91D2FF" stroke-width="2" opacity=".7"/>
+
+  <!-- Bottom status indicators -->
+  <path d="M108 88 L115 88 L115 95 L108 95 Z            M108 100 L115 100 L115 107 L108 107 Z" fill="#FFFFFF" stroke="#D7EDFF" stroke-width="1.4"/>
+
+  <!-- Premium ribbon tails -->
+  <path d="M14 88            L12 118            Q12 122 16 119            L25 111            L34 120            Q38 123 38 118            L36 88 Z" fill="url(#ribbonCyan)" stroke="#087DA4" stroke-width="3"/>
+
+  <!-- Ribbon fold marker details -->
+  <path d="M18 96 L17 111            M32 97 L33 110" stroke="#B5F6FF" stroke-width="2" opacity=".85"/>
+
+  <!-- Premium medallion -->
+  <path d="M25 57            C36 57 45 66 45 77            C45 88 36 97 25 97            C14 97 5 88 5 77            C5 66 14 57 25 57 Z" fill="#198AB3" stroke="#075F87" stroke-width="3.4"/>
+
+  <!-- Cyan inner medallion -->
+  <path d="M25 62            C34 62 40 68 40 77            C40 86 34 92 25 92            C16 92 10 86 10 77            C10 68 16 62 25 62 Z" fill="#50E6FF" stroke="#1686AD" stroke-width="2.5"/>
+
+  <!-- Hand-drawn premium emblem -->
+  <path d="M25 66            L28 73            L36 74            L30 80            L32 88            L25 84            L18 88            L20 80            L14 74            L22 73 Z" fill="#F4C542" stroke="#126D91" stroke-width="2.2"/>
+
+  <!-- Medallion highlight -->
+  <path d="M13 73            Q16 65 23 65            M35 83 Q33 87 29 89" stroke="#D5FAFF" stroke-width="2" opacity=".85"/>
+
+  <!-- Subtle sketchnote accent marks -->
+  <path d="M7 48 L11 44            M7 54 L3 52            M48 60 L53 57            M49 66 L55 66" stroke="#F4C542" stroke-width="2.5"/>
+
+  <!-- Tiny decorative marker sparkle -->
+  <path d="M102 2 L102 7            M99 5 L105 5" stroke="#F4C542" stroke-width="2.1"/>
+
+</svg>

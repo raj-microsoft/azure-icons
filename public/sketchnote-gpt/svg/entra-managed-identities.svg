@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Entra Managed Identities (sketch)</title>
+  
+  <desc>Azure-blue and cyan Microsoft Entra diamond with an overlapping golden managed-identity key, illustrated with irregular marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="entraBlue" x1="32" y1="14" x2="111" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055C5"/>
+      <stop offset=".55" stop-color="#225086"/>
+      <stop offset="1" stop-color="#041642"/>
+    </linearGradient>
+
+    <linearGradient id="entraCyan" x1="21" y1="14" x2="76" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0294E4"/>
+      <stop offset=".55" stop-color="#44DBF9"/>
+      <stop offset="1" stop-color="#66DDFF"/>
+    </linearGradient>
+
+    <linearGradient id="innerCyan" x1="64" y1="33" x2="64" y2="95" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#44DBF9"/>
+    </linearGradient>
+
+    <linearGradient id="keyGold" x1="95" y1="47" x2="95" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE16B"/>
+      <stop offset=".4" stop-color="#FFCA00"/>
+      <stop offset="1" stop-color="#F4A900"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Entra diamond silhouette -->
+  <path d="M58 9            Q64 3 70 9            L121 67            Q127 74 119 80            L72 110            Q64 115 57 110            L9 80            Q2 75 8 68 Z" fill="url(#entraBlue)" stroke="#174B86" stroke-width="3.5"/>
+
+  <!-- Cyan folded left ribbon -->
+  <path d="M58 9            Q64 3 70 9            L88 30            Q78 25 70 30            Q65 33 60 39            L34 70            L64 89            L50 99            Q43 104 34 99            L9 82            Q2 77 8 70 Z" fill="url(#entraCyan)" stroke="#087DB7" stroke-width="3.1"/>
+
+  <!-- Central faceted Entra diamond -->
+  <path d="M64 36            L96 70            L64 92            L34 70 Z" fill="url(#innerCyan)" stroke="#157EB7" stroke-width="3"/>
+
+  <!-- Translucent right fold -->
+  <path d="M64 36 L96 70 L64 92 Z" fill="#225086" opacity=".32"/>
+
+  <!-- Hand-drawn cyan highlights -->
+  <path d="M17 71            L56 26            Q63 18 70 23" stroke="#C7F6FF" stroke-width="3" opacity=".85"/>
+
+  <path d="M43 70 L64 45 L85 69" stroke="#D5FAFF" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Ribbon sketch contours -->
+  <path d="M17 82            L36 95            Q43 100 49 95" stroke="#7CEAFF" stroke-width="2.4" opacity=".8"/>
+
+  <path d="M75 16 L113 61" stroke="#428AD7" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Managed identity key silhouette -->
+  <path d="M92 48            Q97 43 102 48            L117 63            Q122 68 117 74            L104 87            Q102 89 102 92            L102 106            L106 110            Q108 112 106 114            L102 118            L106 122            Q108 124 105 126            L99 126            L95 122            L92 125            Q90 127 88 125            L83 120            Q81 118 81 115            L81 91            Q81 88 79 86            L68 75            Q63 70 68 64 Z" fill="url(#keyGold)" stroke="#D18A00" stroke-width="3.4"/>
+
+  <!-- Key head opening -->
+  <path d="M88 56            C92 56 95 59 95 63            C95 67 92 70 88 70            C84 70 81 67 81 63            C81 59 84 56 88 56 Z" fill="#225086" stroke="#D18A00" stroke-width="2.3"/>
+
+  <!-- Key head marker highlights -->
+  <path d="M75 64            L89 51            Q95 46 100 52" stroke="#FFF1AB" stroke-width="2.8" opacity=".95"/>
+
+  <!-- Key decorative horizontal grooves -->
+  <path d="M79 75 L105 75            M82 81 L101 81" stroke="#FF9300" stroke-width="2.8" opacity=".8"/>
+
+  <!-- Key stem highlight -->
+  <path d="M88 90            L88 114" stroke="#FFF0A0" stroke-width="3" opacity=".9"/>
+
+  <!-- Hand-drawn key teeth -->
+  <path d="M102 105 L96 105            M102 116 L97 116" stroke="#D98B00" stroke-width="2.5"/>
+
+  <!-- Small sketchnote accents -->
+  <g stroke="#E6B94B" stroke-width="2.5">
+    <path d="M29 20 L26 14"/>
+    <path d="M37 16 L39 10"/>
+    <path d="M112 37 L117 33"/>
+  </g>
+
+  <!-- Secondary hand-drawn contours -->
+  <path d="M12 88 L24 96" stroke="#44DBF9" stroke-width="2.2" opacity=".8"/>
+
+  <path d="M48 113 L57 118" stroke="#0078D4" stroke-width="2.1" opacity=".7"/>
+
+  <path d="M110 87 L115 84" stroke="#FFCA00" stroke-width="2.2" opacity=".75"/>
+</svg>

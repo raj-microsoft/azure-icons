@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Storage Hubs (sketch)</title>
+  
+  <desc>Three stacked Azure-blue storage server modules inside a rounded square enclosure, with glowing cyan indicators, green status lights, and subtle yellow marker accents.</desc>
+
+  <defs>
+    <linearGradient id="hubBlue" x1="64" y1="18" x2="64" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0094F0"/>
+      <stop offset="1" stop-color="#1072DD"/>
+    </linearGradient>
+    <linearGradient id="hubLight" x1="43" y1="64" x2="101" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D8F7FF"/>
+      <stop offset="1" stop-color="#0094F0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Azure-blue rounded enclosure -->
+  <path d="M23 6            L105 7            Q121 7 121 23            L121 105            Q121 121 105 121            L23 121            Q7 121 7 105            L7 23            Q7 6 23 6 Z" fill="#1072DD" stroke="#15559E" stroke-width="3.5"/>
+
+  <!-- Pale inner frame -->
+  <path d="M24 14            L104 14            Q113 14 113 24            L113 104            Q113 113 104 113            L24 113            Q15 113 15 104            L15 24            Q15 14 24 14 Z" fill="#D0F1FD" stroke="#1B79C2" stroke-width="2.8"/>
+
+  <!-- Loose marker highlight on frame -->
+  <path d="M22 37 L22 24 Q22 21 27 21            M101 19 Q107 20 108 27            M20 100 Q21 107 28 108" stroke="#FFFFFF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Dark blue interior behind storage modules -->
+  <path d="M28 35            L100 35            L100 94            L28 94 Z" fill="#1072DD" stroke="#15559E" stroke-width="2"/>
+
+  <!-- Top storage module -->
+  <path d="M28 25            L100 25            Q106 25 106 31            L106 42            Q106 48 100 48            L28 48            Q22 48 22 42            L22 31            Q22 25 28 25 Z" fill="url(#hubBlue)" stroke="#15559E" stroke-width="3"/>
+
+  <!-- Top module sketch highlight -->
+  <path d="M29 30 L98 30" stroke="#80CDFF" stroke-width="2" opacity=".75"/>
+
+  <!-- Top module green status light -->
+  <path d="M35 35            C39 35 40 38 40 41            C40 44 37 45 35 45            C32 45 30 43 30 40            C30 37 32 35 35 35 Z" fill="#98F0B0" stroke="#197D79" stroke-width="1.7"/>
+
+  <!-- Top module cyan status light -->
+  <path d="M49 35            C53 35 55 38 55 40            C55 43 52 45 49 45            C46 45 44 43 44 40            C44 37 46 35 49 35 Z" fill="url(#hubLight)" stroke="#087FB5" stroke-width="1.7"/>
+
+  <!-- Top module horizontal indicator -->
+  <path d="M65 36            L94 36            Q98 36 98 40            Q98 44 94 44            L65 44            Q61 44 61 40            Q61 36 65 36 Z" fill="url(#hubLight)" stroke="#087FB5" stroke-width="1.6"/>
+
+  <!-- Middle storage module -->
+  <path d="M28 54            L100 54            Q106 54 106 60            L106 71            Q106 77 100 77            L28 77            Q22 77 22 71            L22 60            Q22 54 28 54 Z" fill="url(#hubBlue)" stroke="#15559E" stroke-width="3"/>
+
+  <!-- Middle module sketch highlight -->
+  <path d="M29 59 L98 59" stroke="#80CDFF" stroke-width="2" opacity=".75"/>
+
+  <!-- Middle module cyan status light -->
+  <path d="M35 64            C39 64 40 67 40 69            C40 72 37 74 35 74            C32 74 30 72 30 69            C30 66 32 64 35 64 Z" fill="url(#hubLight)" stroke="#087FB5" stroke-width="1.7"/>
+
+  <!-- Middle module green status light -->
+  <path d="M49 64            C53 64 55 67 55 69            C55 72 52 74 49 74            C46 74 44 72 44 69            C44 66 46 64 49 64 Z" fill="#98F0B0" stroke="#197D79" stroke-width="1.7"/>
+
+  <!-- Middle module horizontal indicator -->
+  <path d="M65 65            L94 65            Q98 65 98 69            Q98 73 94 73            L65 73            Q61 73 61 69            Q61 65 65 65 Z" fill="url(#hubLight)" stroke="#087FB5" stroke-width="1.6"/>
+
+  <!-- Bottom storage module -->
+  <path d="M28 83            L100 83            Q106 83 106 89            L106 100            Q106 106 100 106            L28 106            Q22 106 22 100            L22 89            Q22 83 28 83 Z" fill="url(#hubBlue)" stroke="#15559E" stroke-width="3"/>
+
+  <!-- Bottom module sketch highlight -->
+  <path d="M29 88 L98 88" stroke="#80CDFF" stroke-width="2" opacity=".75"/>
+
+  <!-- Bottom module green status light -->
+  <path d="M35 93            C39 93 40 96 40 98            C40 101 37 103 35 103            C32 103 30 101 30 98            C30 95 32 93 35 93 Z" fill="#98F0B0" stroke="#197D79" stroke-width="1.7"/>
+
+  <!-- Bottom module cyan status light -->
+  <path d="M49 93            C53 93 55 96 55 98            C55 101 52 103 49 103            C46 103 44 101 44 98            C44 95 46 93 49 93 Z" fill="url(#hubLight)" stroke="#087FB5" stroke-width="1.7"/>
+
+  <!-- Bottom module horizontal indicator -->
+  <path d="M65 94            L94 94            Q98 94 98 98            Q98 102 94 102            L65 102            Q61 102 61 98            Q61 94 65 94 Z" fill="url(#hubLight)" stroke="#087FB5" stroke-width="1.6"/>
+
+  <!-- Subtle handwritten-style marker accents -->
+  <path d="M4 43 L4 51            M124 58 L124 66" stroke="#0094F0" stroke-width="2.2"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M112 3 L116 7            M119 2 L120 7            M3 109 L7 113" stroke="#F4C542" stroke-width="2.5"/>
+
+  <!-- Tiny hand-drawn sparkle -->
+  <path d="M117 16 L117 22            M114 19 L120 19" stroke="#F4C542" stroke-width="2.1"/>
+
+</svg>

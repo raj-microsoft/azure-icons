@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Hosts (sketch)</title>
+  
+  <desc>Two stacked cyan Azure host servers with lime-green status indicators, a central connecting line, and a circular endpoint, rendered with uneven marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="hostCyan" x1="64" y1="8" x2="64" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="hostCyan2" x1="64" y1="55" x2="64" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="hostEndpoint" x1="64" y1="101" x2="64" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Central network connection, behind server units -->
+  <path d="M64 39            Q63 48 64 57            L64 103" stroke="#087DAE" stroke-width="9"/>
+
+  <path d="M64 39            Q65 48 64 57            L64 103" stroke="#32BEDD" stroke-width="6"/>
+
+  <!-- Upper host server -->
+  <path d="M18 8            Q15 8 15 12            L15 38            Q15 42 19 42            Q43 43 64 42            L109 42            Q113 42 113 38            L113 12            Q113 8 109 8            Q64 7 18 8 Z" fill="url(#hostCyan)" stroke="#087DAE" stroke-width="3.6"/>
+
+  <!-- Uneven top marker highlight -->
+  <path d="M21 13 Q62 11 104 13" stroke="#9CEFFF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M20 19 L20 34" stroke="#C5F7FF" stroke-width="2" opacity=".6"/>
+
+  <!-- Upper server status indicators -->
+  <path d="M96 15            Q96 14 98 14            L103 14            Q105 14 105 16            L105 21            Q105 23 103 23            L98 23            Q96 23 96 21 Z" fill="#B4EC36" stroke="#699A16" stroke-width="1.5"/>
+
+  <path d="M96 28            Q96 27 98 27            L103 27            Q105 27 105 29            L105 34            Q105 36 103 36            L98 36            Q96 36 96 34 Z" fill="#B4EC36" stroke="#699A16" stroke-width="1.5"/>
+
+  <!-- Lower host server -->
+  <path d="M18 55            Q15 55 15 59            L15 85            Q15 89 19 89            Q43 90 64 89            L109 89            Q113 89 113 85            L113 59            Q113 55 109 55            Q64 54 18 55 Z" fill="url(#hostCyan2)" stroke="#087DAE" stroke-width="3.6"/>
+
+  <!-- Lower server highlights -->
+  <path d="M21 60 Q62 58 104 60" stroke="#9CEFFF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M20 65 L20 81" stroke="#C5F7FF" stroke-width="2" opacity=".6"/>
+
+  <!-- Lower server status indicators -->
+  <path d="M96 62            Q96 61 98 61            L103 61            Q105 61 105 63            L105 68            Q105 70 103 70            L98 70            Q96 70 96 68 Z" fill="#B4EC36" stroke="#699A16" stroke-width="1.5"/>
+
+  <path d="M96 75            Q96 74 98 74            L103 74            Q105 74 105 76            L105 81            Q105 83 103 83            L98 83            Q96 83 96 81 Z" fill="#B4EC36" stroke="#699A16" stroke-width="1.5"/>
+
+  <!-- Circular host/network endpoint -->
+  <path d="M64 101            C70 100 76 105 76 112            C77 119 71 124 64 124            C57 124 52 119 52 112            C52 106 57 101 64 101 Z" fill="url(#hostEndpoint)" stroke="#087DAE" stroke-width="3.2"/>
+
+  <!-- Endpoint gloss -->
+  <path d="M58 109 Q60 105 64 105" stroke="#B6F3FF" stroke-width="2.4" opacity=".9"/>
+
+  <!-- Subtle hand-drawn connector annotations -->
+  <g stroke="#0078D4" stroke-width="2.3">
+    <path d="M6 18 L2 15"/>
+    <path d="M6 26 L1 26"/>
+    <path d="M121 65 L126 62"/>
+    <path d="M121 73 L127 73"/>
+  </g>
+
+  <!-- Restrained yellow marker accents -->
+  <g stroke="#F4B83F" stroke-width="2.6">
+    <path d="M46 108 L42 105"/>
+    <path d="M45 115 L40 116"/>
+    <path d="M81 108 L86 105"/>
+  </g>
+
+  <!-- Small sketchnote marker dots -->
+  <circle cx="8" cy="103" r="2.2" fill="#0078D4"/>
+  <circle cx="119" cy="103" r="2.2" fill="#F4B83F"/>
+</svg>

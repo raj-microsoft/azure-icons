@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Globe Warning (sketch)</title>
+  
+  <desc>Hand-drawn orange warning globe with a white caution triangle, curved gray meridian support, and a small desktop stand.</desc>
+
+  <defs>
+    <linearGradient id="globeOrange" x1="24" y1="9" x2="96" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F9A12A"/>
+      <stop offset=".55" stop-color="#F78D1E"/>
+      <stop offset="1" stop-color="#EF7100"/>
+    </linearGradient>
+    <linearGradient id="standGray" x1="38" y1="19" x2="105" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C0C0C0"/>
+      <stop offset="1" stop-color="#888888"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Globe outer meridian / mounting arc -->
+  <path d="M96 12            C119 33 119 67 97 89            C76 111 44 111 23 91" stroke="#777777" stroke-width="6.5"/>
+
+  <path d="M96 12            C119 33 119 67 97 89            C76 111 44 111 23 91" stroke="url(#standGray)" stroke-width="4"/>
+
+  <!-- Globe body: slightly irregular hand-drawn circle -->
+  <path d="M55 7            C77 6 96 23 99 44            C103 65 89 87 68 93            C47 100 24 88 18 67            C11 45 23 21 43 11            Q49 8 55 7 Z" fill="url(#globeOrange)" stroke="#A95617" stroke-width="3.5"/>
+
+  <!-- Subtle orange marker highlights -->
+  <path d="M31 26 Q40 17 52 15" stroke="#FFD17D" stroke-width="3" opacity=".85"/>
+
+  <path d="M24 53 Q24 68 35 79" stroke="#FFBF60" stroke-width="2.2" opacity=".55"/>
+
+  <path d="M78 82 Q89 72 92 58" stroke="#CB650B" stroke-width="2" opacity=".55"/>
+
+  <!-- Large white warning triangle -->
+  <path d="M55 23            Q57 21 60 26            L84 69            Q87 74 82 75            L30 75            Q25 75 28 69            L52 27            Q54 24 55 23 Z" fill="#F7F7F7" stroke="#995019" stroke-width="2.8"/>
+
+  <!-- Hand-drawn triangle highlight -->
+  <path d="M54 30 L33 69" stroke="#FFFFFF" stroke-width="2.3" opacity=".9"/>
+
+  <!-- Exclamation mark -->
+  <path d="M52 40            Q52 38 54 38            L59 38            Q61 38 61 41            L59 58            Q59 60 57 60            L55 60            Q53 60 53 58 Z" fill="#F78D1E" stroke="#D87412" stroke-width="1.2"/>
+
+  <path d="M56 43 L56 53" stroke="#FFB84B" stroke-width="1.6" opacity=".6"/>
+
+  <path d="M56 64            C59 64 61 66 61 69            C61 72 59 73 56 73            C53 73 51 71 51 69            C51 66 53 64 56 64 Z" fill="#F78D1E" stroke="#D87412" stroke-width="1"/>
+
+  <!-- Globe stand stem -->
+  <path d="M61 106            Q63 112 59 117            L82 117            Q77 112 79 106 Z" fill="#A3A3A3" stroke="#777777" stroke-width="2.5"/>
+
+  <!-- Hand-drawn base -->
+  <path d="M46 117            Q44 117 44 120            L44 123            Q44 125 48 125            L93 125            Q97 125 97 122            L97 120            Q97 117 94 117 Z" fill="#A3A3A3" stroke="#777777" stroke-width="2.5"/>
+
+  <path d="M50 120 Q70 119 91 120" stroke="#E2E2E2" stroke-width="1.8" opacity=".8"/>
+
+  <!-- Restrained Azure-blue sketchnote accent marks -->
+  <g stroke="#0078D4" stroke-width="2.5">
+    <path d="M8 27 L3 23"/>
+    <path d="M7 35 L2 34"/>
+    <path d="M107 18 L112 14"/>
+    <path d="M112 25 L118 24"/>
+  </g>
+
+  <!-- Tiny golden emphasis marks -->
+  <g stroke="#F4B83F" stroke-width="2.5">
+    <path d="M105 71 L112 74"/>
+    <path d="M104 79 L109 84"/>
+  </g>
+
+  <!-- Small marker dots -->
+  <circle cx="12" cy="101" r="2.4" fill="#0078D4"/>
+  <circle cx="115" cy="95" r="2.6" fill="#F4B83F"/>
+</svg>

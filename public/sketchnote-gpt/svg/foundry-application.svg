@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Foundry Application (sketch)</title>
+  
+  <desc>Rounded purple-blue Foundry Application icon with its recognizable white stylized application symbol, uneven marker outlines, and restrained Azure-blue and yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="foundryPurple" x1="8" y1="7" x2="120" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9189F7"/>
+      <stop offset="1" stop-color="#4135E9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Foundry application tile -->
+  <path d="M38 7            Q64 6 90 8            C108 8 120 20 120 39            Q121 64 120 90            C120 108 108 120 90 120            Q64 121 38 120            C19 120 8 108 8 90            Q7 64 8 38            C8 20 20 8 38 7 Z" fill="url(#foundryPurple)" stroke="#3930BC" stroke-width="3.5"/>
+
+  <!-- Subtle marker highlight on tile -->
+  <path d="M20 39            Q20 21 39 20            Q61 18 82 20" stroke="#C6C0FF" stroke-width="2.8" opacity=".75"/>
+
+  <path d="M19 49 Q17 64 20 79" stroke="#B0A9FF" stroke-width="2" opacity=".65"/>
+
+  <!-- Main Foundry symbol: sweeping left application form -->
+  <path d="M70 28            L59 28            Q54 28 50 35            C44 46 33 76 28 91            Q26 98 33 99            L58 99            C70 99 77 91 77 80            L77 49            Q76 35 70 28 Z" fill="none" stroke="#FFFFFF" stroke-width="4.3"/>
+
+  <!-- Inner left contour -->
+  <path d="M69 32            Q67 43 67 55            L67 81            C67 89 63 94 56 94            L34 94            Q41 75 47 59            Q53 43 57 35            Q59 32 63 32 Z" fill="none" stroke="#FFFFFF" stroke-width="3.1"/>
+
+  <!-- Foundry upper curved stroke -->
+  <path d="M70 28            Q78 29 82 42            L87 58" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+
+  <!-- Central transition and loop -->
+  <path d="M77 57            Q79 48 88 47            L98 47            Q103 47 103 53            L103 65            C103 74 96 77 88 77            L80 77            Q76 77 75 72" stroke="#FFFFFF" stroke-width="4.2" fill="none"/>
+
+  <!-- Inner loop contour -->
+  <path d="M80 56            Q82 52 88 52            L98 52            L98 65            Q98 72 88 72            L81 72 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Main symbol's hand-drawn finishing strokes -->
+  <path d="M36 89 Q45 65 53 46" stroke="#E1DEFF" stroke-width="2.2" opacity=".75"/>
+
+  <path d="M59 88 Q63 84 63 77" stroke="#E1DEFF" stroke-width="2" opacity=".7"/>
+
+  <!-- Azure-blue annotation strokes -->
+  <g stroke="#5EA0EF" stroke-width="2.6">
+    <path d="M108 31 Q113 36 114 42"/>
+    <path d="M112 25 L116 29"/>
+    <path d="M14 102 Q19 109 25 112"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F2B827" stroke-width="2.8">
+    <path d="M10 20 L15 24"/>
+    <path d="M20 11 L23 17"/>
+    <path d="M30 5 L31 11"/>
+    <path d="M110 91 L116 94"/>
+    <path d="M108 100 L113 105"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M105 9            L108 15            L114 18            L108 21            L105 27            L102 21            L96 18            L102 15 Z" fill="#F2B827"/>
+
+  <!-- Subtle marker details -->
+  <g stroke="#C9C5FF" stroke-width="2" opacity=".7">
+    <path d="M25 33 L30 28"/>
+    <path d="M24 41 L28 36"/>
+    <path d="M83 112 Q92 112 98 108"/>
+  </g>
+</svg>

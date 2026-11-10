@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Foundry Models (sketch)</title>
+  
+  <desc>Hand-drawn Azure Foundry Models icon featuring three interwoven violet and indigo ribbons forming a triangular loop, with uneven marker outlines, subtle highlights and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="leftRibbon" x1="43" y1="16" x2="13" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7274FF"/>
+      <stop offset=".42" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#2C08AC"/>
+    </linearGradient>
+
+    <linearGradient id="topRibbon" x1="37" y1="8" x2="106" y2="77" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2C08AC"/>
+      <stop offset=".5" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#7274FF"/>
+    </linearGradient>
+
+    <linearGradient id="bottomRibbon" x1="42" y1="82" x2="111" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7274FF"/>
+      <stop offset=".5" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#2C08AC"/>
+    </linearGradient>
+
+    <linearGradient id="lowerFold" x1="11" y1="104" x2="48" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7274FF"/>
+      <stop offset="1" stop-color="#4F42FD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left folded ribbon tip -->
+  <path d="M27 9            Q30 5 36 5            L55 5            Q46 5 42 13            L26 41            Q23 45 21 43            C11 37 9 25 15 15            Q19 9 27 9Z" fill="#7274FF" stroke="#3927A6" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Left descending ribbon -->
+  <path d="M42 13            Q48 4 55 5            Q47 8 43 18            L18 63            L7 83            Q3 91 8 99            Q12 106 22 106            L46 106            Q49 106 49 109            Q46 123 31 125            Q20 126 16 118            L5 99            Q0 91 5 82Z" fill="url(#leftRibbon)" stroke="#302092" stroke-width="3.4"/>
+
+  <!-- Upper descending ribbon -->
+  <path d="M42 13            Q47 5 55 5            Q61 5 65 12            L101 74            Q104 79 99 81            Q88 85 79 78            Q76 76 73 71            L42 17            Q40 14 42 13Z" fill="url(#topRibbon)" stroke="#302092" stroke-width="3.4"/>
+
+  <!-- Upper-right turned ribbon -->
+  <path d="M94 57            Q106 51 116 59            Q122 63 125 69            Q129 76 125 83            L112 106            Q116 98 111 90            L94 61            Q92 58 94 57Z" fill="#7274FF" stroke="#3927A6" stroke-width="3"/>
+
+  <!-- Lower horizontal ribbon -->
+  <path d="M111 77            Q116 84 111 92            Q107 99 99 99            L54 99            Q45 99 39 105            Q34 110 32 119            Q31 122 34 122            L99 122            Q111 122 117 112            L125 98            Q129 91 125 83            L116 67            Q119 75 111 77Z" fill="url(#bottomRibbon)" stroke="#302092" stroke-width="3.4"/>
+
+  <!-- Lower-left return fold -->
+  <path d="M22 106            L49 106            Q43 110 40 116            Q37 124 28 125            Q20 126 16 118            L8 104            Q14 108 22 106Z" fill="url(#lowerFold)" stroke="#3927A6" stroke-width="2.8"/>
+
+  <!-- Ribbon overlap definition -->
+  <path d="M42 15            Q46 9 51 9            M21 41            Q15 35 16 27            M83 74            Q90 81 99 78            M45 107            Q38 112 36 119" stroke="#A9A5FF" stroke-width="2.6" opacity=".85"/>
+
+  <!-- Hand-drawn upper edge highlights -->
+  <path d="M34 12            Q29 12 25 17            M48 17            L64 45            M70 55 L79 70" stroke="#B9B4FF" stroke-width="2.4" opacity=".85"/>
+
+  <!-- Left ribbon marker texture -->
+  <path d="M35 34            L18 64            M16 70            L10 82            M10 88            Q8 93 13 99" stroke="#A29BFF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Lower ribbon marker highlights -->
+  <path d="M56 105            Q77 104 98 105            M61 115            L100 115" stroke="#A5A0FF" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Fold hatching -->
+  <path d="M21 112 L26 117            M27 110 L32 114            M103 84 L108 80" stroke="#2C08AC" stroke-width="2" opacity=".55"/>
+
+  <!-- Subtle sketch accents -->
+  <path d="M11 44 L6 40            M15 49 L10 47            M109 49 L114 45            M117 53 L123 50" stroke="#7274FF" stroke-width="2.3"/>
+
+  <!-- Restrained Azure-blue accent -->
+  <path d="M69 4 L72 10            M76 9 L80 13" stroke="#32BEDD" stroke-width="2.2"/>
+
+  <!-- Small sketchnote yellow sparkle -->
+  <path d="M88 42 L88 49            M84.5 45.5 L91.5 45.5" stroke="#FFBD02" stroke-width="2.5"/>
+
+  <!-- Tiny handwritten-style marker strokes -->
+  <path d="M7 72 L4 76            M119 116 L123 112            M54 125 L65 125" stroke="#4F42FD" stroke-width="1.8" opacity=".65"/>
+</svg>

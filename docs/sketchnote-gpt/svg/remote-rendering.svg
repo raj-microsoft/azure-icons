@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Remote Rendering (sketch)</title>
+  
+  <desc>Azure-blue cloud containing a translucent cyan 3D cube and a light-blue rendering cone, illustrated with irregular marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="60" y1="19" x2="65" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".52" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="renderCone" x1="78" y1="37" x2="78" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C3F1FF"/>
+      <stop offset=".45" stop-color="#BEEFFE"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cloud silhouette -->
+  <path d="M36 110            C18 110 8 100 8 85            C8 70 19 58 33 57            C37 39 51 26 69 26            C88 26 102 39 105 56            C119 58 126 70 126 83            C126 98 116 109 102 110            Z" fill="url(#cloudBlue)" stroke="#155C99" stroke-width="3.8"/>
+
+  <!-- Uneven hand-drawn cloud highlights -->
+  <path d="M17 78            C20 68 27 63 37 63            M42 50            C48 36 59 32 70 33            M78 32            C91 35 98 46 99 58            M113 65            C121 72 122 85 117 92" stroke="#B9DEFF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Subtle cloud interior sketch -->
+  <path d="M19 96 Q26 103 37 103            M103 103 Q114 101 118 92" stroke="#075A9A" stroke-width="2" opacity=".35"/>
+
+  <!-- Rendering cone behind the cube -->
+  <path d="M75 73            L92 37            Q94 34 96 38            L113 72            Q116 78 111 82            Q105 87 94 87            Q82 87 76 82            Q72 78 75 73Z" fill="url(#renderCone)" stroke="#DDF8FF" stroke-width="2.5"/>
+
+  <!-- Cone's hand-drawn elliptical base -->
+  <path d="M76 76            C80 66 108 65 113 76            C116 85 103 89 94 89            C82 89 74 84 76 76Z" fill="#72DCF2" fill-opacity=".45" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Light sketch line on cone -->
+  <path d="M94 42 L82 70            M98 47 L108 70" stroke="#FFFFFF" stroke-width="1.8" opacity=".65"/>
+
+  <!-- 3D cube: upper face -->
+  <path d="M31 69            L52 56            L74 69            L52 82Z" fill="#C3F1FF" fill-opacity=".93" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- 3D cube: left face -->
+  <path d="M31 69            L52 82            L52 106            L31 94Z" fill="#9CEBFF" fill-opacity=".94" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- 3D cube: right face -->
+  <path d="M52 82            L74 69            L74 94            L52 106Z" fill="#64D8F2" fill-opacity=".92" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- Slightly uneven cube edge details -->
+  <path d="M34 71 L50 80            M55 83 L71 73            M35 91 L48 99" stroke="#DFFFFF" stroke-width="1.5" opacity=".8"/>
+
+  <!-- Small hand-drawn rendering rays -->
+  <path d="M79 48 L73 43            M105 40 L110 34" stroke="#FFFFFF" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M16 44 L10 38            M25 39 L23 29            M13 53 L5 51" stroke="#FFCA45" stroke-width="3.2"/>
+
+  <path d="M109 24 L114 18            M118 30 L125 28" stroke="#FFCA45" stroke-width="3"/>
+
+  <!-- Tiny hand-drawn sparkle -->
+  <path d="M91 14 L91 22            M87 18 L95 18" stroke="#FFCA45" stroke-width="2.7"/>
+
+  <!-- Minimal grounding strokes -->
+  <path d="M41 116 Q59 119 79 116            M86 116 L96 115" stroke="#198AB3" stroke-width="2" opacity=".42"/>
+</svg>

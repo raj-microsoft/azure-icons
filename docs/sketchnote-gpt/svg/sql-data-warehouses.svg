@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>SQL Data Warehouses (sketch)</title>
+  
+  <desc>Hand-drawn gray data warehouse with a pitched roof, four cyan windows, and an overlapping Azure-blue SQL database cylinder.</desc>
+
+  <defs>
+    <linearGradient id="warehouseGray" x1="53" y1="7" x2="53" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B2B3"/>
+      <stop offset=".45" stop-color="#AFAEAF"/>
+      <stop offset="1" stop-color="#979797"/>
+    </linearGradient>
+
+    <linearGradient id="databaseBlue" x1="65" y1="92" x2="122" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".5" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="windowCyan" x1="30" y1="45" x2="73" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8FF2FF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Warehouse pitched roof -->
+  <path d="M53 7            Q54 7 56 9            L100 34            Q102 35 102 38            L102 44            L92 44            L92 91            L84 91            L84 44            L22 44            L22 91            L14 91            L14 44            L6 44            L6 37            Z" fill="url(#warehouseGray)" stroke="#777777" stroke-width="3.3"/>
+
+  <!-- Hand-drawn roof ridge -->
+  <path d="M12 37            Q32 26 53 13            Q73 25 94 37" stroke="#E1E1E1" stroke-width="2.8" opacity=".85"/>
+
+  <!-- Uneven marker detailing along warehouse structure -->
+  <path d="M18 49 Q17 67 18 86            M26 40 Q52 39 79 40            M88 49 Q89 61 88 72" stroke="#777777" stroke-width="1.8" opacity=".65"/>
+
+  <!-- Upper-left cyan window -->
+  <path d="M31 53            L48 53            L48 70            L31 70 Z" fill="url(#windowCyan)" stroke="#159DBD" stroke-width="2.3"/>
+
+  <!-- Upper-right cyan window -->
+  <path d="M57 53            L74 53            L74 70            L57 70 Z" fill="url(#windowCyan)" stroke="#159DBD" stroke-width="2.3"/>
+
+  <!-- Lower-left cyan window -->
+  <path d="M31 78            L48 78            L48 95            L31 95 Z" fill="url(#windowCyan)" stroke="#159DBD" stroke-width="2.3"/>
+
+  <!-- Lower-right cyan window -->
+  <path d="M57 78            L74 78            L74 95            L57 95 Z" fill="url(#windowCyan)" stroke="#159DBD" stroke-width="2.3"/>
+
+  <!-- Window marker highlights -->
+  <path d="M35 57 L43 57            M61 57 L69 57            M35 82 L43 82            M61 82 L69 82" stroke="#D7FCFF" stroke-width="2" opacity=".9"/>
+
+  <!-- Database body, behind its top ellipse -->
+  <path d="M65 65            C65 59 78 55 94 55            C110 55 123 59 123 65            L123 116            C123 123 110 126 94 126            C78 126 65 123 65 116            Z" fill="url(#databaseBlue)" stroke="#005BA1" stroke-width="3.2"/>
+
+  <!-- Subtle curved database side highlight -->
+  <path d="M71 76            Q70 96 71 114            M117 77            Q119 96 117 114" stroke="#4BA6E9" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Database top rim -->
+  <path d="M123 65            C123 72 110 76 94 76            C78 76 65 72 65 65            C65 58 78 54 94 54            C110 54 123 58 123 65 Z" fill="#E8E8E8" stroke="#7B858C" stroke-width="2.8"/>
+
+  <!-- Cyan database top surface -->
+  <path d="M116 65            C116 69 106 72 94 72            C82 72 72 69 72 65            C72 61 82 58 94 58            C106 58 116 61 116 65 Z" fill="#50E6FF" stroke="#159FCE" stroke-width="1.8"/>
+
+  <!-- Darker cyan inner ellipse -->
+  <path d="M77 69            Q94 63 111 69            Q94 74 77 69 Z" fill="#32BEDD" opacity=".9"/>
+
+  <!-- Freehand rim strokes -->
+  <path d="M74 61            Q84 56 99 57            M105 59            Q114 61 118 65" stroke="#FFFFFF" stroke-width="2" opacity=".75"/>
+
+  <!-- Subtle database lower contour -->
+  <path d="M69 115            Q80 123 94 122            Q109 123 119 115" stroke="#59B4F0" stroke-width="2.2" opacity=".55"/>
+
+  <!-- Restrained sketchnote accents -->
+  <path d="M107 27 L113 20            M115 37 L123 34            M6 102 L12 98" stroke="#F4C542" stroke-width="3"/>
+
+  <!-- Small hand-drawn details -->
+  <path d="M27 108 Q35 111 43 109            M31 115 Q39 117 46 114" stroke="#0078D4" stroke-width="2" opacity=".55"/>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>ExtendedSecurityUpdates (sketch)</title>
+  
+  <desc>Azure-blue protective shield with an overlapping green circular update badge and white rotating arrows, rendered with uneven hand-drawn marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="55" y1="7" x2="55" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="updateGreen" x1="67" y1="60" x2="116" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main protective shield silhouette -->
+  <path d="M55 8            C47 8 43 17 14 19            Q10 19 10 24            L10 61            C10 85 28 103 53 119            Q55 121 58 119            C83 103 101 85 101 61            L101 24            Q101 19 97 19            C68 17 64 8 55 8 Z" fill="url(#shieldBlue)" stroke="#005A9E" stroke-width="4.2"/>
+
+  <!-- Inner shield marker contour -->
+  <path d="M55 15            C46 17 39 24 18 25            L18 61            C18 81 33 97 55 111            C78 97 93 81 93 61            L93 25            C72 24 64 17 55 15 Z" stroke="#A8D2FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Light hand-drawn shield highlights -->
+  <g stroke="#D1E8FF" stroke-width="2.6" opacity=".8">
+    <path d="M25 31 Q37 29 43 25"/>
+    <path d="M20 39 Q20 51 21 61"/>
+    <path d="M25 73 Q30 85 39 92"/>
+  </g>
+
+  <!-- Subtle security check symbol -->
+  <path d="M34 59            L48 73            L76 43" stroke="#D6ECFF" stroke-width="6" opacity=".9"/>
+
+  <path d="M35 57 L48 70 L73 44" stroke="#FFFFFF" stroke-width="2.4" opacity=".75"/>
+
+  <!-- Green security update badge -->
+  <path d="M88 59            C107 59 121 73 121 92            C121 111 107 125 88 125            C69 125 55 111 55 92            C55 73 69 59 88 59 Z" fill="url(#updateGreen)" stroke="#4F8D22" stroke-width="4"/>
+
+  <!-- Inner badge sketchnote contour -->
+  <path d="M88 65            C103 65 115 77 115 92            C115 107 103 119 88 119" stroke="#C6EE9F" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Upper clockwise update arrow -->
+  <path d="M86 74            C97 73 105 81 105 91            Q105 95 103 99" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+
+  <path d="M96 94            L103 104            L113 96" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+
+  <!-- Lower counterclockwise update arrow -->
+  <path d="M91 110            C80 112 71 103 71 93            Q71 89 73 85" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+
+  <path d="M64 88            L73 80            L81 89" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+
+  <!-- Marker-style motion annotations -->
+  <g stroke="#0078D4" stroke-width="2.5">
+    <path d="M117 55 Q123 59 125 65"/>
+    <path d="M120 48 L124 52"/>
+    <path d="M43 122 Q48 125 53 126"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F2B827" stroke-width="2.8">
+    <path d="M5 11 L10 15"/>
+    <path d="M15 5 L17 11"/>
+    <path d="M24 4 L23 10"/>
+    <path d="M112 30 L117 27"/>
+    <path d="M115 38 L122 37"/>
+  </g>
+
+  <!-- Small security sparkle -->
+  <path d="M108 8            L111 14            L117 17            L111 20            L108 26            L105 20            L99 17            L105 14 Z" fill="#F2B827"/>
+
+  <!-- Tiny hand-drawn annotations -->
+  <g stroke="#D3EAFF" stroke-width="2" opacity=".8">
+    <path d="M38 37 Q44 34 49 33"/>
+    <path d="M35 43 L43 40"/>
+  </g>
+</svg>

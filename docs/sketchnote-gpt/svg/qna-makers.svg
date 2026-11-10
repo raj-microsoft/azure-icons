@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>QnA Makers (sketch)</title>
+  
+  <desc>Two overlapping Azure-blue and cyan conversation bubbles, with a white hand-drawn question mark and small yellow accent marks.</desc>
+
+  <defs>
+    <linearGradient id="questionBlue" x1="8" y1="10" x2="76" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#258CE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="answerCyan" x1="55" y1="46" x2="119" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear cyan answer bubble -->
+  <path d="M56 48            Q57 45 62 45            L113 44            Q119 45 119 51            L120 105            Q120 111 114 112            L91 112            L73 125            Q69 128 69 121            L69 112            L56 112            Q51 112 51 106            L51 54            Q51 49 56 48Z" fill="url(#answerCyan)" stroke="#087EAA" stroke-width="3.5"/>
+
+  <!-- Subtle imperfect marker echo -->
+  <path d="M60 49 Q84 47 111 48            M115 58 L116 101            M61 108 L66 108" stroke="#B4F5FF" stroke-width="1.8" opacity=".75"/>
+
+  <!-- Answer bubble sketch marks -->
+  <path d="M83 76 Q90 69 97 76            M82 88 Q90 94 99 87" stroke="#087EAA" stroke-width="3" opacity=".48"/>
+
+  <!-- Foreground blue question bubble -->
+  <path d="M13 8            Q9 8 8 14            L8 63            Q8 69 14 69            L36 69            L52 82            Q57 86 57 79            L57 69            L77 69            Q83 69 83 63            L83 14            Q83 8 77 8            Z" fill="url(#questionBlue)" stroke="#155B9A" stroke-width="3.5"/>
+
+  <!-- Hand-drawn interior highlight -->
+  <path d="M14 18 L14 59            M20 13 Q44 11 73 13" stroke="#A9D7FF" stroke-width="2" opacity=".65"/>
+
+  <!-- Large irregular white question mark -->
+  <path d="M33 32            Q34 23 44 22            Q56 20 60 28            Q65 36 57 43            L49 50            Q46 53 46 58" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Secondary marker stroke -->
+  <path d="M35 31 Q37 24 45 24            M49 49 Q45 53 45 57" stroke="#D7F1FF" stroke-width="1.7" opacity=".8"/>
+
+  <!-- Question mark dot -->
+  <path d="M42 65 Q45 61 49 64            Q52 68 48 71            Q43 73 41 69            Q40 67 42 65Z" fill="#FFFFFF"/>
+
+  <!-- Small sketchnote yellow accents -->
+  <path d="M88 18 L94 12            M94 27 L102 25            M91 9 L92 4" stroke="#FFCA45" stroke-width="3.5"/>
+
+  <path d="M25 82 L20 88            M33 87 L30 94" stroke="#FFCA45" stroke-width="2.8"/>
+
+  <!-- Conversational underline strokes -->
+  <path d="M83 100 Q92 102 103 99" stroke="#087EAA" stroke-width="2.5" opacity=".7"/>
+</svg>

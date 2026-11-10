@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>User Privacy (sketch)</title>
+  
+  <desc>Hand-drawn cyan user silhouette with a white collar and overlapping Azure-blue privacy shield, preserving the original icon's symbolism and colours.</desc>
+
+  <defs>
+    <linearGradient id="userCyan" x1="57" y1="5" x2="57" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset=".15" stop-color="#32D4F5"/>
+      <stop offset=".58" stop-color="#25AFD4"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="shieldBlue" x1="96" y1="64" x2="96" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54AEF0"/>
+      <stop offset=".9" stop-color="#1988D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- User's shoulders and torso -->
+  <path d="M56 53            C28 53 13 72 8 104            Q6 114 15 115            L99 115            Q108 114 107 105            C103 74 86 53 56 53Z" fill="url(#userCyan)" stroke="#08799F" stroke-width="3.5"/>
+
+  <!-- White V-shaped collar -->
+  <path d="M42 55            Q56 65 72 55            L57 94Z" fill="#FFFFFF" fill-opacity=".86" stroke="#D8F6FC" stroke-width="1.6"/>
+
+  <!-- User's head -->
+  <path d="M56 5            C72 4 84 17 84 33            C84 49 72 61 56 61            C40 61 28 49 28 33            C28 17 40 6 56 5Z" fill="url(#userCyan)" stroke="#08799F" stroke-width="3.5"/>
+
+  <!-- Loose hand-drawn highlights -->
+  <g stroke="#9CEBFA" stroke-width="2.5" opacity=".85">
+    <path d="M37 23 Q43 12 54 12"/>
+    <path d="M17 91 Q22 71 35 65"/>
+    <path d="M69 15 Q77 21 78 30"/>
+  </g>
+
+  <!-- Small marker accents -->
+  <g stroke="#0078D4" stroke-width="2" opacity=".6">
+    <path d="M20 117 L36 118"/>
+    <path d="M42 118 L49 118"/>
+  </g>
+
+  <!-- Privacy shield's darker rear edge -->
+  <path d="M96 64            C106 64 106 71 120 72            Q123 72 123 76            L123 94            C123 109 108 120 97 125            Q95 126 93 125            C82 119 68 108 68 94            L68 76            Q68 72 72 72            C85 71 86 64 96 64Z" fill="#005BA1" stroke="#004D89" stroke-width="3"/>
+
+  <!-- Shield foreground -->
+  <path d="M96 68            C104 68 106 75 118 76            L118 94            C118 106 106 116 96 121            C86 116 73 106 73 94            L73 76            C85 75 87 68 96 68Z" fill="url(#shieldBlue)" stroke="#1479C1" stroke-width="2.4"/>
+
+  <!-- Hand-drawn shield highlight -->
+  <path d="M80 83            L80 94            Q81 102 87 108" stroke="#B7E6FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Subtle shield centre detail -->
+  <path d="M88 95            L94 101            L106 87" stroke="#D9F4FF" stroke-width="4" opacity=".9"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M110 53            L113 47            L116 53            L122 56            L116 59            L113 65            L110 59            L104 56Z" fill="#FFD966" stroke="#D49A20" stroke-width="1.5"/>
+
+  <!-- Hand-drawn emphasis ticks -->
+  <g stroke="#0078D4" stroke-width="2.2" opacity=".8">
+    <path d="M114 39 L118 34"/>
+    <path d="M120 44 L125 42"/>
+    <path d="M9 53 L15 57"/>
+  </g>
+</svg>
