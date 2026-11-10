@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Dedicated HSM (sketch)</title>
+  
+  <desc>Hand-drawn Azure Dedicated HSM icon featuring a golden security key inserted into a blue hardware security module.</desc>
+
+  <defs>
+    <linearGradient id="hsmBlue" x1="64" y1="72" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="keyGold" x1="62" y1="7" x2="62" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".72" stop-color="#FFC21A"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hardware security module -->
+  <path d="M9 73            Q9 70 14 70            L114 70            Q119 70 119 75            L119 114            Q119 119 114 119            L14 119            Q9 119 9 114Z" fill="url(#hsmBlue)" stroke="#174E83" stroke-width="3.8"/>
+
+  <!-- Loose hand-drawn chassis highlight -->
+  <path d="M15 79 L15 109            Q15 114 21 114            L108 114            M113 109 L113 83" stroke="#B8EAFF" stroke-width="2.5" opacity=".65"/>
+
+  <!-- Top panel sketch line -->
+  <path d="M18 76 L43 76            M83 76 L109 76" stroke="#C3F1FF" stroke-width="2.4" opacity=".65"/>
+
+  <!-- Hardware indicator lights -->
+  <path d="M81 82            Q81 80 84 80            L89 80            Q91 80 91 83            L91 88            Q91 90 88 90            L83 90            Q81 90 81 87Z" fill="#C3F1FF" stroke="#176B96" stroke-width="1.8"/>
+
+  <path d="M96 82            Q96 80 99 80            L104 80            Q106 80 106 83            L106 88            Q106 90 103 90            L98 90            Q96 90 96 87Z" fill="#C3F1FF" stroke="#176B96" stroke-width="1.8"/>
+
+  <path d="M110 82 L115 82 L115 90 L110 90Z" fill="#C3F1FF" stroke="#176B96" stroke-width="1.5"/>
+
+  <!-- Golden security key silhouette -->
+  <path d="M62 7            C47 7 35 19 35 34            C35 47 43 57 55 61            L55 86            L45 86            Q42 86 42 90            L42 100            Q42 103 46 103            L55 103            L55 110            Q55 113 59 113            L69 113            Q73 113 73 109            L73 61            C85 57 93 46 93 34            C93 19 80 7 65 7Z            M64 20            C72 20 79 26 79 34            C79 42 72 49 64 49            C56 49 49 42 49 34            C49 26 56 20 64 20Z" fill="url(#keyGold)" fill-rule="evenodd" stroke="#B87516" stroke-width="3.6"/>
+
+  <!-- Inner key-ring highlight -->
+  <path d="M52 31            C54 24 61 22 67 24" stroke="#FFF1A2" stroke-width="2.8"/>
+
+  <!-- Shaft marker highlights -->
+  <path d="M60 63 L60 81            M60 89 L60 105" stroke="#FFE774" stroke-width="2.6" opacity=".85"/>
+
+  <!-- Sketchy key contour -->
+  <path d="M42 29            Q44 18 55 14            M78 15            Q87 21 88 32" stroke="#FFF1A2" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Keyhole insertion detail -->
+  <path d="M49 119 Q64 123 78 119" stroke="#174E83" stroke-width="2.5" opacity=".65"/>
+
+  <!-- Subtle hand-drawn security accents -->
+  <path d="M27 22 L21 17            M25 33 L17 32            M29 44 L23 49" stroke="#F6C84B" stroke-width="3.2"/>
+
+  <path d="M101 24 L107 19            M103 35 L112 34" stroke="#1988D9" stroke-width="3"/>
+
+  <!-- Hardware marker details -->
+  <path d="M23 97 L34 97            M23 103 L30 103" stroke="#C3F1FF" stroke-width="2.4"/>
+
+  <!-- Small sketch accents -->
+  <path d="M85 125 L99 125" stroke="#1988D9" stroke-width="2.6"/>
+
+  <circle cx="19" cy="65" r="2.1" fill="#F6C84B"/>
+  <circle cx="109" cy="64" r="2" fill="#32BEDD"/>
+</svg>

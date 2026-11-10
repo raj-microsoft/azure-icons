@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Meter (sketch)</title>
+  
+  <desc>Azure Defender Meter illustrated as a cyan square instrument with a pale-blue display, semicircular measurement scale, diagonal needle, and grey pivot.</desc>
+
+  <defs>
+    <linearGradient id="meterBody" x1="64" y1="6" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="meterScreen" x1="64" y1="14" x2="64" y2="83" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C3F1FF"/>
+      <stop offset="1" stop-color="#9CEBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Uneven square instrument housing -->
+  <path d="M17 7            Q8 7 8 17            L7 111            Q7 120 17 120            L111 121            Q121 120 121 111            L120 17            Q120 7 111 7 Z" fill="url(#meterBody)" stroke="#14648A" stroke-width="3.5"/>
+
+  <!-- Inner glass measurement display -->
+  <path d="M17 16            L111 16            L112 81            L16 82 Z" fill="url(#meterScreen)" stroke="#005BA1" stroke-width="3"/>
+
+  <!-- Hand-drawn dial arc -->
+  <path d="M27 46            C43 20 87 20 102 46" stroke="#005BA1" stroke-width="4"/>
+
+  <!-- Dial graduations -->
+  <g stroke="#005BA1" stroke-width="3">
+    <path d="M29 47 L34 53"/>
+    <path d="M40 36 L44 42"/>
+    <path d="M53 29 L56 36"/>
+    <path d="M64 27 L64 35"/>
+    <path d="M77 29 L74 36"/>
+    <path d="M90 36 L85 42"/>
+    <path d="M101 47 L96 53"/>
+  </g>
+
+  <!-- Small intermediate dial ticks -->
+  <g stroke="#0078D4" stroke-width="2">
+    <path d="M35 41 L39 45"/>
+    <path d="M47 32 L50 37"/>
+    <path d="M83 32 L80 37"/>
+    <path d="M96 41 L92 45"/>
+  </g>
+
+  <!-- Pointer: diagonally from lower center to upper left -->
+  <path d="M65 84            L43 49            Q40 45 37 47            Q34 49 37 54            L59 88 Z" fill="#0078D4" stroke="#164F84" stroke-width="2.5"/>
+
+  <!-- Pointer pivot -->
+  <path d="M76 83            C76 90 71 95 64 95            C57 95 52 90 52 83            C52 76 57 71 64 71            C71 71 76 76 76 83 Z" fill="#767676" stroke="#4F5B65" stroke-width="3"/>
+
+  <!-- Pivot reflection -->
+  <path d="M58 79 Q62 75 67 78" stroke="#D9D9D9" stroke-width="2.5"/>
+
+  <!-- Lower control panel divider -->
+  <path d="M17 100 Q63 101 111 100" stroke="#1CA1C5" stroke-width="2" opacity=".65"/>
+
+  <!-- Bottom-left indicator -->
+  <path d="M20 109 L30 109 L30 113 L20 113 Z" fill="#005BA1"/>
+
+  <!-- Bottom-right indicator -->
+  <path d="M99 109 L109 109 L109 113 L99 113 Z" fill="#005BA1"/>
+
+  <!-- Sketch-style housing highlights -->
+  <path d="M13 22 L13 45            M16 114 Q30 117 45 116" stroke="#D7FAFF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M115 22 L115 39" stroke="#B9F4FF" stroke-width="2.5" opacity=".7"/>
+
+  <!-- Subtle handwritten-style annotation -->
+  <path d="M42 109 Q51 107 60 109            M66 109 Q75 107 85 109" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M109 3 L113 1            M121 8 L125 6" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <path d="M3 64 L1 69            M4 76 L1 79" stroke="#FFCC4D" stroke-width="2.5"/>
+</svg>

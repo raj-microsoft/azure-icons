@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Industrial Robot (sketch)</title>
+  
+  <desc>Hand-drawn Azure industrial robotic arm with articulated joints, an open mechanical gripper and a sturdy pedestal base.</desc>
+
+  <defs>
+    <linearGradient id="armBlue" x1="19" y1="14" x2="99" y2="103" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="baseBlue" x1="64" y1="101" x2="64" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper robotic arm segment -->
+  <path d="M62 16            L49 33            Q46 37 50 41            L61 51            Q65 54 69 50            L84 32            Q87 28 83 24            L73 16            Q67 11 62 16 Z" fill="url(#armBlue)" stroke="#164F84" stroke-width="3.5"/>
+
+  <!-- Shoulder / upper joint -->
+  <path d="M55 12            Q64 4 73 12            L82 20            Q89 27 83 35            L71 49            Q67 53 62 49            L52 40            Q42 30 50 19 Z" fill="#0078D4" stroke="#164F84" stroke-width="3.5"/>
+
+  <path d="M55 22 Q61 14 69 18" stroke="#B8DFFF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Forearm: downward-left diagonal -->
+  <path d="M50 39            L20 71            Q16 76 21 81            L31 89            Q36 92 40 88            L70 55            Q73 51 69 47            L58 38            Q54 35 50 39 Z" fill="url(#armBlue)" stroke="#164F84" stroke-width="3.5"/>
+
+  <!-- Forearm marker highlight -->
+  <path d="M51 47 L29 72" stroke="#D5ECFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Elbow articulation -->
+  <path d="M54 16            C62 9 73 9 81 17            L88 23            Q92 27 88 32            L73 49            Q69 53 64 49            L53 39            C47 33 47 23 54 16 Z" fill="url(#armBlue)" stroke="#164F84" stroke-width="3.5"/>
+
+  <!-- Elbow joint detail -->
+  <circle cx="67" cy="28" r="7" fill="#83B9F9" stroke="#164F84" stroke-width="2.5"/>
+  <circle cx="67" cy="28" r="2.7" fill="#DDF4FF"/>
+
+  <!-- Upper gripper connector -->
+  <path d="M85 29 L96 37" stroke="#005BA1" stroke-width="9"/>
+  <path d="M85 29 L96 37" stroke="#5EA0EF" stroke-width="4.5"/>
+
+  <!-- Mechanical gripper: upper finger -->
+  <path d="M91 36            L106 30            L117 39            L118 48" stroke="#164F84" stroke-width="8"/>
+  <path d="M91 36            L106 30            L117 39            L118 48" stroke="#0078D4" stroke-width="4.5"/>
+
+  <!-- Mechanical gripper: lower finger -->
+  <path d="M91 43            L102 53            L112 52" stroke="#164F84" stroke-width="8"/>
+  <path d="M91 43            L102 53            L112 52" stroke="#0078D4" stroke-width="4.5"/>
+
+  <!-- Gripper hinge -->
+  <circle cx="92" cy="39" r="5" fill="#5EA0EF" stroke="#164F84" stroke-width="2.5"/>
+
+  <!-- Lower arm linkage -->
+  <path d="M25 48            Q34 44 42 51            L84 87            Q89 91 85 97            L76 108            Q72 112 67 108            L20 67            Q13 60 18 53 Z" fill="url(#armBlue)" stroke="#164F84" stroke-width="3.8"/>
+
+  <!-- Lower arm marker highlight -->
+  <path d="M28 54 Q48 71 67 88" stroke="#D2E9FF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Wrist / lower articulation -->
+  <circle cx="27" cy="59" r="9" fill="#5EA0EF" stroke="#164F84" stroke-width="3"/>
+  <circle cx="27" cy="59" r="3.5" fill="#DDF4FF" stroke="#0078D4" stroke-width="1.5"/>
+
+  <!-- Robot pedestal -->
+  <path d="M58 91            Q61 84 69 83            L77 83            Q87 84 90 94            L90 109            L54 109            L54 98            Q54 94 58 91 Z" fill="url(#armBlue)" stroke="#164F84" stroke-width="3.5"/>
+
+  <!-- Pedestal engineering detail -->
+  <path d="M61 100 L82 100" stroke="#B4DEFF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Wide industrial base -->
+  <path d="M47 105            L96 105            Q108 106 110 117            L110 121            L33 121            L33 117            Q36 107 47 105 Z" fill="url(#baseBlue)" stroke="#164F84" stroke-width="3.5"/>
+
+  <!-- Base marker highlight -->
+  <path d="M44 113 Q69 110 98 113" stroke="#D9EEFF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Restrained sketchnote motion accents -->
+  <path d="M105 18 L110 12            M112 22 L120 20" stroke="#FFCC4D" stroke-width="2.8"/>
+
+  <path d="M10 79 L5 84            M15 87 L10 93" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Subtle grounding flourish -->
+  <path d="M43 125 Q69 127 97 125" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+</svg>

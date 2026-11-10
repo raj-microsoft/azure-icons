@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Host Pools (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="hostPoolBlue" x1="64" y1="7" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset=".58" stop-color="#0072CA"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Organic Azure-blue circular background -->
+  <path d="M64 7            C94 6 119 29 121 59            C124 89 102 117 72 121            C41 125 13 104 8 74            C3 45 23 15 53 9            Q59 7 64 7 Z" fill="url(#hostPoolBlue)" stroke="#004F91" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven marker highlight around circle -->
+  <path d="M23 39            Q33 19 56 14            M76 13            Q102 20 113 45            M115 78            Q107 105 82 114" stroke="#55A9EF" stroke-width="2.6" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Top face of central host cube -->
+  <path d="M37 48            L63 32            Q64 31 66 32            L92 47            Q94 49 92 50            L65 66            Q64 67 62 66            L37 51            Q35 50 37 48 Z" fill="#9CEBFF" stroke="#006C99" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left cyan cube face -->
+  <path d="M36 49            L64 66            L64 98            Q64 100 62 99            L37 84            Q35 83 35 81            L35 52            Q35 50 36 49 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right cyan cube face -->
+  <path d="M64 66            L92 49            L93 81            Q93 83 91 84            L66 99            Q64 100 64 98 Z" fill="#32BEDD" stroke="#006C99" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Original icon's folded facet geometry -->
+  <path d="M36 83            L64 66            L64 99 Z" fill="#9CEBFF" stroke="#0078D4" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <path d="M93 83            L64 66            L64 99 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <!-- Sketched cube edges -->
+  <path d="M40 49            L64 35            L88 49            M40 56 L60 68            M69 68 L88 56" stroke="#E2FAFF" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Slightly imperfect marker detailing -->
+  <path d="M41 77 L57 88            M72 90 L87 81" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M100 30 L107 24            M104 39 L114 37            M94 25 L96 17" stroke="#FFCC33" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn finishing marks -->
+  <path d="M17 84 Q22 96 32 103            M95 108 Q103 102 108 94" stroke="#50E6FF" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+</svg>

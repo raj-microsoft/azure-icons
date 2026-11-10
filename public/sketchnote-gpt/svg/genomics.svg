@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Genomics (sketch)</title>
+
+  
+
+  <defs>
+    <linearGradient id="genomicsOrange" x1="64" y1="8" x2="64" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FAA21D"/>
+      <stop offset="0.55" stop-color="#F69113"/>
+      <stop offset="1" stop-color="#EF7100"/>
+    </linearGradient>
+  </defs>
+
+  <!-- First strand: Azure-blue DNA helix -->
+  <path d="M39 9            C35 28 51 35 65 43            C80 52 89 61 88 70            C87 84 72 90 57 99            C43 107 37 115 39 121" stroke="#0078D4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven marker edge -->
+  <path d="M35 15            C35 29 50 39 63 46            M84 58            Q93 68 84 79            M54 102            Q37 112 43 122" stroke="#005A9E" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Second strand: Cyan DNA helix -->
+  <path d="M89 9            C93 28 77 35 63 43            C48 52 39 61 40 70            C41 84 56 90 71 99            C85 107 91 115 89 121" stroke="#32BEDD" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn cyan contour -->
+  <path d="M93 15            Q94 29 78 39            M45 56            Q35 69 44 80            M74 102            Q91 113 85 121" stroke="#087EAD" stroke-width="2.1" stroke-linecap="round" opacity=".8"/>
+
+  <!-- DNA ladder rungs -->
+  <g stroke="#0078D4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M42 19 Q64 17 86 19"/>
+    <path d="M47 29 Q64 31 81 29"/>
+    <path d="M55 39 Q64 41 73 39"/>
+
+    <path d="M47 52 Q64 55 81 52"/>
+    <path d="M42 62 Q64 60 86 62"/>
+    <path d="M40 72 Q64 74 88 72"/>
+    <path d="M46 82 Q64 80 82 82"/>
+
+    <path d="M55 93 Q64 95 73 93"/>
+    <path d="M47 104 Q64 102 81 104"/>
+    <path d="M42 115 Q64 117 86 115"/>
+
+  </g>
+
+  <!-- Subtle orange genomic accent -->
+  <path d="M56 47 Q64 49 72 47            M53 87 Q64 89 75 87" stroke="url(#genomicsOrange)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Yellow hand-sketched highlight -->
+  <path d="M97 37 L104 31            M101 44 L110 43            M97 51 L104 57" stroke="#FAA21D" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn molecular detail -->
+  <circle cx="108" cy="43" r="2.5" fill="#FFD44A" stroke="#EF7100" stroke-width="1.4"/>
+
+  <!-- Marker-style finishing accents -->
+  <path d="M22 73 Q24 65 28 62            M101 93 Q105 89 106 84" stroke="#32BEDD" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+
+</svg>

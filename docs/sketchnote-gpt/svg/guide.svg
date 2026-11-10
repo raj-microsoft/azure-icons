@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Guide (sketch)</title>
+  
+
+  <defs>
+    <radialGradient id="guideCyan" cx="50%" cy="43%" r="65%">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".55" stop-color="#49DDF7"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Hand-drawn outer compass circle -->
+  <path d="M64 7            C94 6 119 31 121 61            C123 91 101 119 70 121            C40 124 11 103 7 72            C3 43 25 13 54 8            Q59 7 64 7 Z" fill="url(#guideCyan)" stroke="#0078D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose sketched outer highlight -->
+  <path d="M22 37            Q36 15 60 13            M78 14            Q106 22 114 49            M114 83            Q105 109 78 115" stroke="#B5F5FF" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Inner compass face -->
+  <path d="M64 19            C89 18 108 37 109 62            C110 86 91 108 66 109            C42 111 21 93 19 68            C17 43 36 22 60 20 Z" fill="#198AB3" stroke="#006C99" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle inner circular marker -->
+  <path d="M34 43            Q45 27 62 26            M86 33            Q101 45 102 63            M97 84            Q85 100 66 102" stroke="#50E6FF" stroke-width="2.1" stroke-linecap="round" opacity=".45"/>
+
+  <!-- White directional compass needle -->
+  <path d="M45 61            L73 32            Q75 30 76 34            L80 70            Z" fill="#FFFFFF" stroke="#EAFBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan opposing compass needle -->
+  <path d="M45 61            L80 70            L53 96            Q51 98 50 94            Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn needle accents -->
+  <path d="M50 61 L73 38            M54 88 L76 72" stroke="#B8F5FF" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Small compass pivot -->
+  <path d="M61 63            Q63 60 66 62            Q69 64 66 67            Q63 69 61 66 Z" fill="#0078D4" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- Minimal sketchnote cardinal marks -->
+  <path d="M64 22 L64 28            M64 100 L64 106            M22 64 L28 64            M100 64 L106 64" stroke="#B6F2FF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Restrained yellow directional accent -->
+  <path d="M101 21 L108 15            M107 30 L116 28            M94 16 L96 9" stroke="#FFCC33" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sketch flourish -->
+  <path d="M13 89            Q18 100 28 107" stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+
+</svg>

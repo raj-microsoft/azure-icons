@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Programable Board (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue microchip with twelve connector pins and white programming code symbols.</desc>
+
+  <defs>
+    <linearGradient id="chipBlue" x1="28" y1="20" x2="98" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".52" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Microchip connector pins -->
+  <g stroke="#164F84" stroke-width="3.5">
+    <path d="M43 25 L43 8              M64 25 L64 8              M85 25 L85 8              M43 103 L43 120              M64 103 L64 120              M85 103 L85 120              M25 43 L8 43              M25 64 L8 64              M25 85 L8 85              M103 43 L120 43              M103 64 L120 64              M103 85 L120 85"/>
+  </g>
+
+  <g stroke="#5EA0EF" stroke-width="7">
+    <path d="M43 25 L43 9              M64 25 L64 9              M85 25 L85 9              M43 103 L43 119              M64 103 L64 119              M85 103 L85 119              M25 43 L9 43              M25 64 L9 64              M25 85 L9 85              M103 43 L119 43              M103 64 L119 64              M103 85 L119 85"/>
+  </g>
+
+  <!-- Main processor body -->
+  <path d="M42 25            L85 24            Q101 24 103 42            L104 85            Q104 102 86 104            L42 103            Q25 102 24 85            L25 42            Q26 26 42 25 Z" fill="url(#chipBlue)" stroke="#164F84" stroke-width="4"/>
+
+  <!-- Inner chip border -->
+  <path d="M42 32            L85 32            Q95 33 96 43            L96 85            Q95 95 85 96            L43 96            Q33 95 32 85            L32 43            Q33 33 42 32 Z" stroke="#B7DFFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Left programming bracket -->
+  <path d="M51 49            L39 64            L51 79" stroke="#FFFFFF" stroke-width="6"/>
+
+  <!-- Right programming bracket -->
+  <path d="M77 49            L89 64            L77 79" stroke="#FFFFFF" stroke-width="6"/>
+
+  <!-- Programming slash -->
+  <path d="M69 44            L57 84" stroke="#FFFFFF" stroke-width="6"/>
+
+  <!-- Subtle marker highlights -->
+  <path d="M35 42            Q36 35 44 35            L59 35" stroke="#D9EEFF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M91 84            Q91 91 84 92" stroke="#B7DFFF" stroke-width="2" opacity=".7"/>
+
+  <!-- Sketchnote circuit accents -->
+  <path d="M111 17 L115 11            M117 22 L123 20" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <path d="M12 106 L7 111            M18 111 L15 118" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Small handwritten-style circuit detail -->
+  <path d="M48 109 Q64 112 80 109" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+</svg>

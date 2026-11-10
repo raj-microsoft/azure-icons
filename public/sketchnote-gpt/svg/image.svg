@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Image (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="imageSky" x1="64" y1="21" x2="64" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".46" stop-color="#2CC3E6"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn rectangular image frame -->
+  <path d="M11 23            Q11 20 15 20            L113 21            Q117 21 117 25            L118 103            Q118 108 114 108            L14 107            Q10 107 10 103            Z" fill="url(#imageSky)" stroke="#087AA6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven marker highlight around frame -->
+  <path d="M17 26            L109 26            M15 32 L15 48            M112 85 L112 100" stroke="#8BE9FA" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Distant green mountain -->
+  <path d="M61 107            L95 64            Q98 61 101 64            L118 79            L118 103            Q118 108 114 108            Z" fill="#86D633" stroke="#4F9F2A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Mountain highlight -->
+  <path d="M95 70            L101 66            L113 78" stroke="#C7F275" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Foreground lime-green mountain -->
+  <path d="M34 107            L64 76            Q68 72 72 76            L109 108            Z" fill="#B4EC36" stroke="#74B72D" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Sketched mountain ridge -->
+  <path d="M43 103            L65 80            Q68 77 71 80            L84 91" stroke="#DDFB83" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White cloud: recognizable original silhouette -->
+  <path d="M30 68            C22 68 18 62 19 55            C19 48 24 43 31 42            C34 33 42 29 50 30            C60 30 66 36 67 45            C74 46 79 51 79 58            C79 64 74 68 68 68            Z" fill="#FFFFFF" stroke="#E3F6FC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose cloud pencil detail -->
+  <path d="M26 51            Q29 46 35 46            M39 37            Q47 32 54 36            M69 50            Q75 54 73 60" stroke="#B6EAF6" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Subtle hand-drawn landscape marks -->
+  <path d="M19 98 L27 98            M91 99 L101 99" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Restrained yellow sketchnote spark -->
+  <path d="M91 35 L95 28            M99 40 L107 38            M86 30 L86 24" stroke="#FFCC33" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Minimal outer marker flourish -->
+  <path d="M18 114            Q35 119 52 116            M89 115 Q105 118 116 113" stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Import Export Jobs (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="8" x2="64" y2="93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".82" stop-color="#258BE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Organic Azure cloud silhouette -->
+  <path d="M33 87            C19 88 9 79 8 66            C7 52 16 41 30 39            C35 20 49 10 67 10            C87 9 100 23 102 40            C115 42 122 52 121 64            C120 77 110 86 97 87            Z" fill="url(#cloudBlue)" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose marker highlights -->
+  <path d="M14 55            Q19 43 32 44            M37 33            Q47 15 65 15            M79 16            Q96 24 98 41            M110 46            Q119 54 116 66" stroke="#B9DEFF" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Import arrow: upward -->
+  <path d="M37 62            L54 45            Q56 43 58 45            L75 62            Q77 65 73 65            L65 65            L65 87            L49 87            L49 65            L39 65            Q35 65 37 62 Z" fill="#FFFFFF" stroke="#0067B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle import-arrow marker detail -->
+  <path d="M44 61            L57 49            L69 61            M54 70 L54 82" stroke="#C4ECFF" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Export arrow: downward -->
+  <path d="M75 83            L75 104            L66 104            Q63 104 65 107            L82 124            Q84 126 86 124            L103 107            Q105 104 102 104            L93 104            L93 83 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn export-arrow highlight -->
+  <path d="M80 89            L80 108            M72 109            L84 120            L97 109" stroke="#B5F5FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+
+  <!-- Small directional motion marks -->
+  <path d="M25 73 L31 73            M28 79 L34 79            M102 94 L109 94" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M105 21 L111 14            M112 30 L121 28            M98 17 L99 9" stroke="#FFCC33" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Subtle sketch finishing marks -->
+  <path d="M12 90 Q19 97 29 99            M106 78 Q114 75 118 69" stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Image Versions (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="versionCyan" x1="57" y1="18" x2="57" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".65" stop-color="#41D2EE"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear image version: Azure-blue sheet -->
+  <path d="M9 9            Q9 6 13 6            L82 7            Q85 7 85 11            L85 104            Q85 107 81 107            L12 106            Q8 106 8 102            Z" fill="#0078D4" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Rear sheet marker highlight -->
+  <path d="M15 13 L77 13            M14 20 L14 94" stroke="#5EA0EF" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Front image version: cyan sheet -->
+  <path d="M22 20            Q22 17 26 17            L95 18            Q99 18 99 22            L99 115            Q99 119 95 119            L26 118            Q22 118 22 114            Z" fill="url(#versionCyan)" stroke="#087FA8" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose sketched front-sheet contour -->
+  <path d="M28 25 L91 25            M29 32 L29 49            M92 94 L92 110" stroke="#B2F4FF" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Cube top face -->
+  <path d="M39 49            L62 35            Q64 34 66 35            L89 49            L64 64 Z" fill="#C3F1FF" stroke="#0078D4" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cube left face -->
+  <path d="M39 49            L64 64            L64 92            L39 78 Z" fill="#9CEBFF" stroke="#0078D4" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Cube right face -->
+  <path d="M64 64            L89 49            L89 78            L64 92 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Original folded cube facets -->
+  <path d="M39 78 L64 64 L64 92 Z" fill="#C3F1FF" stroke="#0078D4" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M89 78 L64 64 L64 92 Z" fill="#9CEBFF" stroke="#0078D4" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn cube highlights -->
+  <path d="M45 49 L64 39 L82 49            M44 58 L59 67            M70 67 L83 59" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Purple version-forward arrow -->
+  <path d="M57 116            C65 97 84 89 105 88            L105 76            Q105 73 108 76            L124 93            Q126 95 124 97            L108 114            Q105 117 105 113            L105 103            C84 103 68 108 57 116 Z" fill="#773ADC" stroke="#5524AB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketched directional highlight -->
+  <path d="M72 105            Q87 97 109 97            M110 83 L120 94" stroke="#B89AF5" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M107 28 L113 21            M113 37 L122 35            M100 23 L101 15" stroke="#FFCC33" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Minimal handwritten-style version marks -->
+  <path d="M34 104            Q42 101 49 104            M35 109 L46 109" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+</svg>

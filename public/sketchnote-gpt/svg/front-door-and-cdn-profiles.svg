@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Front Door and CDN Profiles (sketch)</title>
+
+  
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="22" y1="18" x2="104" y2="103" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.82" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#0067B8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn cloud silhouette -->
+  <path d="M35 95            C20 97 9 86 10 72            C10 58 21 47 34 46            C39 27 54 17 72 18            C90 18 103 31 105 47            C117 49 124 59 123 72            C122 85 112 94 99 95            Z" fill="url(#cloudBlue)" stroke="#005A9E" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Loose marker contour -->
+  <path d="M15 61            Q20 49 34 49            M38 40            Q47 22 66 22            M83 23            Q100 30 102 46            M111 52            Q122 60 119 74" stroke="#A9D8FF" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="10 6 17 5" opacity=".85"/>
+
+  <!-- Front Door back panel -->
+  <path d="M47 49            Q47 47 50 47            L78 48            Q81 48 81 51            L81 95            L47 95 Z" fill="#F2F2F2" stroke="#164F85" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn panel edges -->
+  <path d="M52 52 L74 52            M52 91 L75 91" stroke="#C4D5E5" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cyan front-door profile -->
+  <path d="M64 36            Q65 35 67 37            L91 51            Q93 52 93 55            L93 100            Q93 102 91 103            L67 117            Q64 119 64 115 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Door depth and sketched highlight -->
+  <path d="M69 43            L87 54            L87 98            L69 109" stroke="#BDF7FF" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+
+  <path d="M64 36            Q63 65 64 88            L64 115" stroke="#0067B8" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Small handwritten-style door detail -->
+  <path d="M78 73            Q80 72 81 74            Q82 77 79 79            Q76 79 76 76            Q76 74 78 73 Z" fill="#FFD44A" stroke="#B78212" stroke-width="1.4"/>
+
+  <!-- CDN movement marks -->
+  <path d="M98 61 Q104 64 106 69            M99 81 Q105 78 107 73" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Yellow sketchnote accent -->
+  <path d="M21 39 L17 32            M29 35 L29 27            M35 37 L40 31" stroke="#FFCC33" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Subtle marker underline -->
+  <path d="M43 121            Q62 124 83 120" stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+</svg>

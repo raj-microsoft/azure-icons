@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>IcM Troubleshooting (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="bulbGlass" x1="29" y1="12" x2="83" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.7" stop-color="#F2F2F2"/>
+      <stop offset="1" stop-color="#D5EAF5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Organic lightbulb silhouette -->
+  <path d="M57 8            C35 7 17 23 14 44            C10 65 23 78 32 91            Q36 97 37 104            L76 104            Q77 96 83 88            C93 74 99 63 96 45            C93 23 77 9 57 8 Z" fill="url(#bulbGlass)" stroke="#8C969E" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose sketched glass contour -->
+  <path d="M20 42            Q25 21 45 15            Q58 11 70 17            M80 23            Q93 36 91 53            M88 65            Q84 76 77 85" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" opacity=".95"/>
+
+  <!-- Azure-blue filament support wires -->
+  <path d="M44 103            L44 46            C44 39 35 38 32 44            C29 51 36 56 44 55            L66 55            C75 55 80 50 77 44            C74 37 65 39 65 46            L65 103" stroke="#0078D4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small filament highlights -->
+  <path d="M48 59 L48 94            M69 59 L69 94" stroke="#50E6FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Bulb socket -->
+  <path d="M38 104            L76 104            L76 116            L69 124            L45 124            L38 116 Z" fill="#CECECE" stroke="#888888" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn socket grooves -->
+  <path d="M39 110 L75 105            M40 117 L75 112            M47 123 L70 119" stroke="#999999" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Troubleshooting gear behind bulb -->
+  <path d="M91 67            L97 64            L101 69            L108 68            L110 75            L117 78            L114 85            L120 90            L116 96            L118 103            L111 106            L108 113            L101 111            L96 117            L90 113            L83 115            L80 108            L73 105            L76 98            L71 92            L76 86            L74 79            L81 76            L84 69 Z" fill="#B3B3B3" stroke="#777777" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Gear center -->
+  <path d="M95 79            C105 78 112 86 111 96            C110 106 101 110 92 107            C83 104 80 96 84 87            Q88 80 95 79 Z" fill="#E6E6E6" stroke="#888888" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Success check mark -->
+  <path d="M88 94            L95 101            L106 88" stroke="#0078D4" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Fine hand-drawn check highlight -->
+  <path d="M90 92 L95 97 L104 87" stroke="#50E6FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow idea accents -->
+  <path d="M15 15 L9 9            M25 10 L23 3            M10 27 L3 24" stroke="#FFCC33" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- Sketched troubleshooting spark -->
+  <path d="M104 22 L108 14            M113 28 L121 25" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

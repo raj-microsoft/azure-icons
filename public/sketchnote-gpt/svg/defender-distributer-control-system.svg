@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Distributer Control System (sketch)</title>
+  
+  <desc>Hand-drawn Azure Defender icon with a blue diamond, white three-way distribution arrows, and a circular control endpoint.</desc>
+
+  <defs>
+    <linearGradient id="defenderBlue" x1="64" y1="7" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn diamond silhouette -->
+  <path d="M59 8            Q64 3 69 9            L119 59            Q124 64 119 69            L69 119            Q64 124 59 119            L9 69            Q4 64 9 59Z" fill="url(#defenderBlue)" stroke="#174E83" stroke-width="3.8"/>
+
+  <!-- Loose marker contour -->
+  <path d="M16 61 L60 16            Q64 12 68 16            M109 61 L113 65            L67 112            Q64 115 60 112" stroke="#C3F1FF" stroke-width="2.5" opacity=".65"/>
+
+  <!-- Central distribution system -->
+  <path d="M64 76            L64 35" stroke="#FFFFFF" stroke-width="8"/>
+
+  <!-- Upward distribution arrow -->
+  <path d="M52 40            L64 27            L76 40" stroke="#FFFFFF" stroke-width="7.5"/>
+
+  <!-- Left branch -->
+  <path d="M61 77            Q58 71 52 65            L39 52" stroke="#FFFFFF" stroke-width="7.5"/>
+
+  <!-- Left branch arrowhead -->
+  <path d="M39 65            L39 52            L52 52" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Right branch -->
+  <path d="M67 77            Q70 71 76 65            L89 52" stroke="#FFFFFF" stroke-width="7.5"/>
+
+  <!-- Right branch arrowhead -->
+  <path d="M76 52            L89 52            L89 65" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Hand-drawn inner shaft highlights -->
+  <path d="M61 45 L61 58            M48 61 L55 68            M80 61 L73 68" stroke="#D8F4FF" stroke-width="1.8" opacity=".8"/>
+
+  <!-- Circular control endpoint -->
+  <path d="M64 80            C56 80 49 87 49 95            C49 104 56 111 64 111            C73 111 80 104 80 95            C80 87 73 80 64 80Z" fill="#FFFFFF" fill-opacity=".95" stroke="#174E83" stroke-width="3"/>
+
+  <!-- Inner control indicator -->
+  <path d="M64 86            C59 86 55 90 55 95            C55 100 59 105 64 105            C70 105 74 100 74 95            C74 90 70 86 64 86Z" fill="#5EA0EF" stroke="#FFFFFF" stroke-width="2.8"/>
+
+  <!-- Small marker highlight -->
+  <path d="M58 91 Q61 87 65 88" stroke="#FFFFFF" stroke-width="2" opacity=".9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M27 25 L22 19            M35 20 L35 12            M43 23 L47 17" stroke="#F6C84B" stroke-width="3.2"/>
+
+  <path d="M105 85 L112 89            M100 92 L104 99" stroke="#F6C84B" stroke-width="3"/>
+
+  <!-- Handwritten-style emphasis strokes -->
+  <path d="M25 76 Q31 82 38 84" stroke="#C3F1FF" stroke-width="2.3" opacity=".8"/>
+
+  <path d="M90 35 L96 29            M96 42 L104 38" stroke="#C3F1FF" stroke-width="2.5"/>
+
+  <!-- Tiny marker dots -->
+  <circle cx="20" cy="91" r="2" fill="#F6C84B"/>
+  <circle cx="107" cy="49" r="2.2" fill="#C3F1FF"/>
+</svg>
