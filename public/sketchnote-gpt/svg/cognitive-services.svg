@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Cognitive Services (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure Cognitive Services cloud with five
+    interconnected circuit nodes. Original Azure-blue gradient,
+    pale cyan and white circuitry, irregular marker outlines,
+    restrained yellow accents, and transparent background.
+    Fully editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="cognitiveCloud" x1="64" y1="17" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".18" stop-color="#559CEC"/>
+      <stop offset=".47" stop-color="#3C91E5"/>
+      <stop offset=".84" stop-color="#1380DA"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cognitive cloud silhouette -->
+  <path d="M36 111            C19 113 7 101 7 85            C6 70 16 58 31 55            C38 36 52 23 73 23            C95 22 110 38 111 58            C123 61 127 72 126 84            C125 100 113 111 98 111            Z" fill="url(#cognitiveCloud)" stroke="#075A9E" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Loose sketchnote outer contour -->
+  <path d="M12 68            Q19 57 31 54            M38 45            Q51 20 75 20            M100 34            Q113 45 114 58            M121 96            Q114 107 101 110" stroke="#1678C8" stroke-width="2.1" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Hand-drawn upper cloud highlights -->
+  <path d="M18 76            Q22 64 35 61            M44 45            Q55 29 73 29            M89 32            Q102 39 105 54" stroke="#B8E2FF" stroke-width="2.8" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Left cognitive circuit: lower vertical branch -->
+  <path d="M25 82            L39 82            Q43 82 43 86            L43 110" stroke="#075A9E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".4"/>
+
+  <path d="M25 82            L39 82            Q43 82 43 86            L43 110" stroke="#9CEBFF" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper-left cognitive circuit -->
+  <path d="M46 35            L46 67            Q46 71 50 71            L61 71            Q65 71 65 75            L65 80" stroke="#075A9E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".4"/>
+
+  <path d="M46 35            L46 67            Q46 71 50 71            L61 71            Q65 71 65 75            L65 80" stroke="#F2F2F2" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right upper circuit -->
+  <path d="M70 51            L80 51            Q84 51 84 55            L84 110" stroke="#075A9E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".4"/>
+
+  <path d="M70 51            L80 51            Q84 51 84 55            L84 110" stroke="#9CEBFF" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right branching cognitive circuit -->
+  <path d="M84 87            L100 87            Q104 87 104 83            L104 78" stroke="#075A9E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".4"/>
+
+  <path d="M84 87            L100 87            Q104 87 104 83            L104 78" stroke="#9CEBFF" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left terminal node -->
+  <path d="M25 75            C29 75 32 78 32 82            C32 86 29 89 25 89            C21 89 18 86 18 82            C18 78 21 75 25 75Z" fill="#0078D4" stroke="#9CEBFF" stroke-width="3"/>
+
+  <path d="M22 80 Q24 78 26 79" stroke="#E6FBFF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Center circuit terminal node -->
+  <path d="M65 80            C69 80 72 83 72 87            C72 91 69 94 65 94            C61 94 58 91 58 87            C58 83 61 80 65 80Z" fill="#0078D4" stroke="#F2F2F2" stroke-width="3"/>
+
+  <path d="M62 85 Q64 83 66 84" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Upper-right inner terminal node -->
+  <path d="M64 44            C68 44 71 47 71 51            C71 55 68 58 64 58            C60 58 57 55 57 51            C57 47 60 44 64 44Z" fill="#0078D4" stroke="#9CEBFF" stroke-width="3"/>
+
+  <path d="M61 49 Q63 47 65 48" stroke="#E6FBFF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Right cognitive terminal node -->
+  <path d="M104 71            C108 71 111 74 111 78            C111 82 108 85 104 85            C100 85 97 82 97 78            C97 74 100 71 104 71Z" fill="#0078D4" stroke="#9CEBFF" stroke-width="3"/>
+
+  <path d="M101 76 Q103 74 105 75" stroke="#E6FBFF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Small marker highlights on circuit connections -->
+  <path d="M39 89 L39 102            M50 64 L50 68            M88 96 L88 104" stroke="#D1F6FF" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Lower cloud edge sketch -->
+  <path d="M25 104            Q30 108 37 107            M91 106            Q101 108 110 103" stroke="#80C8F4" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M112 12 L115 5            M120 18 L125 16            M115 23 L120 27" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn accent marks -->
+  <path d="M9 42 L4 39            M14 36 L13 30" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Minimal marker dots -->
+  <circle cx="23" cy="15" r="2" fill="#32BEDD"/>
+  <circle cx="117" cy="115" r="2" fill="#F4C542"/>
+  <circle cx="9" cy="119" r="1.8" fill="#0078D4"/>
+</svg>

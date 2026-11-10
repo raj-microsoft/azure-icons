@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Device Security Google (sketch)</title>
+  
+  <desc>
+    Hand-drawn green security shield partially covered by a
+    lime-green device security panel with three status rows.
+    Original green palette, uneven marker outlines, subtle
+    Azure-blue and yellow accents, transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="shieldGreen" x1="18" y1="8" x2="78" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B4EC36"/>
+      <stop offset=".55" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+
+    <linearGradient id="panelGreen" x1="42" y1="62" x2="121" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C4F16B"/>
+      <stop offset="1" stop-color="#B4EC36"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main security shield silhouette -->
+  <path d="     M45 8     Q47 7 49 9     C58 18 69 19 85 20     Q89 20 89 25     L89 49     Q89 73 73 91     Q61 105 47 113     Q44 115 41 113     C23 102 8 86 8 57     L8 25     Q8 21 13 20     C29 19 36 17 45 8     Z" fill="#86D633" stroke="#4F8F1D" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner shield with original green gradient -->
+  <path d="     M45 15     C55 24 65 26 81 27     L81 50     Q81 71 67 86     Q57 97 45 105     Q30 96 20 82     Q15 72 15 56     L15 27     C30 26 37 24 45 15     Z" fill="url(#shieldGreen)" stroke="#B4EC36" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn shield reflection -->
+  <path d="     M24 34     Q23 49 24 61     M27 70 Q31 79 37 84" stroke="#D9FF9C" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Sketch highlight on upper shield -->
+  <path d="     M34 25     Q42 22 46 18     M54 23 Q60 27 67 28" stroke="#E8FFBE" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Device security overlay panel -->
+  <path d="     M43 61     Q43 58 47 58     L117 58     Q122 58 122 63     L122 117     Q122 122 117 122     L47 122     Q43 122 43 118     Z" fill="url(#panelGreen)" stroke="#5E9624" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pale top header -->
+  <path d="     M47 59     L118 59     Q121 59 121 63     L121 70     Q81 71 44 70     L44 63     Q44 59 47 59     Z" fill="#FFFFFF" fill-opacity=".72"/>
+
+  <!-- Hand-drawn header separator -->
+  <path d="     M46 71     Q81 70 119 71" stroke="#76BC2D" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- First status indicator -->
+  <circle cx="53" cy="82" r="3.2" fill="#FFFFFF" fill-opacity=".9"/>
+
+  <path d="     M64 82     Q83 81 108 82" stroke="#FFFFFF" stroke-opacity=".9" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Second status indicator -->
+  <circle cx="53" cy="96" r="3.2" fill="#FFFFFF" fill-opacity=".9"/>
+
+  <path d="     M64 96     Q84 95 108 96" stroke="#FFFFFF" stroke-opacity=".9" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Third status indicator -->
+  <circle cx="53" cy="111" r="3.2" fill="#FFFFFF" fill-opacity=".9"/>
+
+  <path d="     M64 111     Q86 110 112 111" stroke="#FFFFFF" stroke-opacity=".9" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Subtle marker texture expressed as vector strokes -->
+  <path d="     M49 75 L57 75     M49 89 L57 89     M49 104 L57 104" stroke="#76BC2D" stroke-width="1.3" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="     M93 23 L98 18     M99 30 L106 28     M96 37 L102 41" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Azure-blue annotation marks -->
+  <path d="     M18 91 L13 96     M23 98 L19 104" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Loose hand-drawn bottom accent -->
+  <path d="     M49 125     Q81 127 115 125" stroke="#5E9624" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 5" opacity=".65"/>
+
+</svg>

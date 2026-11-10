@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>ABS Member (sketch)</title>
+  
+  <desc>Hand-drawn isometric purple cube with a circular member symbol, preserving the original Azure ABS Member icon.</desc>
+
+  <defs>
+    <linearGradient id="memberPurple" x1="83" y1="70" x2="108" y2="97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#403457"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top face: soft lavender -->
+  <path d="M12 36            Q11 34 15 32            L61 5            Q64 3 67 5            L115 32            Q119 34 116 37            L65 66            Z" fill="#B796F9" stroke="#403457" stroke-width="3.2"/>
+
+  <!-- Left face: light violet -->
+  <path d="M12 36            L65 66            L65 123            Q64 126 61 123            L14 96            Q11 95 11 92            Z" fill="#A67AF4" stroke="#403457" stroke-width="3.2"/>
+
+  <!-- Right face: vivid purple -->
+  <path d="M65 66            L116 36            L116 92            Q116 95 113 97            L65 124            Z" fill="#773ADC" stroke="#403457" stroke-width="3.2"/>
+
+  <!-- Organic marker seam -->
+  <path d="M65 68            Q64 83 65.5 96            L65 120" stroke="#403457" stroke-width="1.8" opacity=".55"/>
+
+  <!-- Subtle top-face sketch strokes -->
+  <path d="M29 34 L58 17            M36 39 L43 35" stroke="#F1E5FF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M82 19 L105 32" stroke="#773ADC" stroke-width="2" opacity=".48"/>
+
+  <!-- Member emblem: hand-drawn elliptical mark -->
+  <path d="M94 69            C101 65 106 69 106 78            C106 87 101 96 94 100            C87 104 82 100 82 92            C82 83 87 73 94 69 Z" fill="url(#memberPurple)" stroke="#332847" stroke-width="2.8"/>
+
+  <!-- Inner member highlight -->
+  <path d="M91 75            C87 80 85 85 85 90" stroke="#B796F9" stroke-width="2.5" opacity=".9"/>
+
+  <path d="M101 79            C101 85 98 91 94 94" stroke="#C5A8FF" stroke-width="2" opacity=".65"/>
+
+  <!-- Small marker accent strokes -->
+  <path d="M73 75 L78 72            M110 57 L113 55" stroke="#E3CF52" stroke-width="2.8"/>
+
+  <!-- Left-face hand-drawn light accents -->
+  <path d="M20 49 L20 64            M24 51 L24 58" stroke="#DCC7FF" stroke-width="2.7" opacity=".8"/>
+
+  <path d="M22 91 L39 101" stroke="#773ADC" stroke-width="2" opacity=".55"/>
+
+  <!-- Small yellow sketchnote sparkle -->
+  <path d="M110 17 L110 24            M106.5 20.5 L113.5 20.5" stroke="#E8BD45" stroke-width="2.8"/>
+
+  <!-- Tiny hand-drawn motion ticks -->
+  <path d="M5 43 L5 49            M7 54 L9 57" stroke="#773ADC" stroke-width="2" opacity=".65"/>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Code Optimization (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure-blue code editor containing white
+    code brackets and a diagonal slash, with an overlapping
+    green optimization lightbulb, subtle yellow highlights,
+    uneven marker outlines, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="editorBlue" x1="48" y1="8" x2="48" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#268BDF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <radialGradient id="bulbGreen" cx="99" cy="79" r="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset=".75" stop-color="#76BC2D"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main Azure code editor panel -->
+  <path d="M11 9            Q11 6 16 6            L94 7            Q99 7 99 12            L99 55            Q78 57 73 79            Q70 91 79 101            L16 101            Q10 101 10 96            Z" fill="url(#editorBlue)" stroke="#145B91" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven upper marker highlight -->
+  <path d="M17 12 Q49 11 88 13            M16 20 L16 42" stroke="#A9D9FF" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Left code chevron -->
+  <path d="M39 35            L23 51            Q21 53 23 55            L39 71" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right code chevron -->
+  <path d="M68 35            L84 51            Q86 53 84 55            L68 71" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central code slash -->
+  <path d="M59 28            Q56 39 52 51            L43 78" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Freehand code stroke accents -->
+  <path d="M25 52 L37 40            M70 40 L81 52            M55 37 L47 67" stroke="#DDF3FF" stroke-width="1.7" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Small editor annotation strokes -->
+  <g stroke="#C3E7FF" stroke-width="2" stroke-linecap="round" opacity=".7">
+    <path d="M23 87 L37 87"/>
+    <path d="M43 87 L55 87"/>
+    <path d="M61 87 L66 87"/>
+  </g>
+
+  <!-- Optimization lightbulb silhouette -->
+  <path d="M103 55            C89 54 78 62 75 75            C72 87 78 96 85 103            Q89 107 90 114            L90 115            Q90 118 94 118            L112 118            Q116 118 116 114            Q117 107 122 101            C127 94 129 86 126 76            C123 64 115 56 103 55Z" fill="url(#bulbGreen)" stroke="#477C22" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lightbulb glass highlight -->
+  <path d="M83 79            Q86 65 99 63            M106 63 Q117 65 120 77" stroke="#C7F29A" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Hand-drawn filament -->
+  <path d="M96 111            L96 83            C91 84 89 80 91 76            C94 72 99 75 99 80            L107 80            C107 75 112 73 115 77            C118 82 113 85 108 83            L108 111" stroke="#F2F2F2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Filament support -->
+  <path d="M96 85 L108 85" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Metallic lightbulb base -->
+  <path d="M91 114            L115 114            L115 122            Q115 124 112 124            L94 124            Q91 124 91 121            Z" fill="#BABABA" stroke="#737373" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Base hand-drawn ridges -->
+  <path d="M94 118 Q103 119 112 118            M96 122 L109 122" stroke="#F2F2F2" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- Yellow idea and optimization accents -->
+  <g stroke="#FFD45A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M103 47 L103 40"/>
+    <path d="M116 50 L120 44"/>
+    <path d="M88 49 L84 43"/>
+    <path d="M124 58 L127 54"/>
+  </g>
+
+  <!-- Subtle cyan sketch annotations -->
+  <g stroke="#32D4F5" stroke-width="2.3" stroke-linecap="round">
+    <path d="M9 110 L16 114"/>
+    <path d="M21 114 L28 114"/>
+    <path d="M35 109 L40 105"/>
+  </g>
+
+  <!-- Marker edge irregularities -->
+  <path d="M15 96 Q25 99 37 98            M69 104 L77 104" stroke="#145B91" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Small handwritten-style spark -->
+  <path d="M65 111 L69 115 L76 107" stroke="#FFD45A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

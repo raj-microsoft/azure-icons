@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Computer Vision (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Computer Vision icon featuring an
+    imperfect concentric camera eye, cyan viewfinder corners,
+    Azure-blue iris, navy pupil, white reflections and
+    restrained yellow sketchnote accents.
+    Transparent background and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="visionBlue" x1="64" y1="22" x2="64" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn cyan viewfinder corners -->
+  <g stroke="#50E6FF" stroke-width="6">
+    <path d="M35 9              Q24 8 12 10              Q9 11 10 15              L10 35"/>
+
+    <path d="M93 10              Q105 9 116 10              Q119 11 118 15              L118 35"/>
+
+    <path d="M10 93              L10 114              Q10 118 15 118              L35 118"/>
+
+    <path d="M118 93              L118 113              Q118 119 113 118              L93 118"/>
+  </g>
+
+  <!-- Slight offset sketch strokes on corners -->
+  <g stroke="#0078D4" stroke-width="1.7" opacity=".65">
+    <path d="M15 31 L15 15 L30 15"/>
+    <path d="M98 15 L113 15 L113 31"/>
+    <path d="M15 98 L15 113 L30 113"/>
+    <path d="M98 113 L113 113 L113 98"/>
+  </g>
+
+  <!-- Outer camera eye ring -->
+  <path d="M64 18            C90 17 110 36 111 63            C112 90 92 110 65 111            C38 112 18 92 17 65            C16 39 37 19 64 18            Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.8"/>
+
+  <!-- Middle blue iris -->
+  <path d="M64 25            C87 24 104 41 104 64            C105 86 87 104 65 104            C42 105 25 87 25 64            C24 42 42 26 64 25            Z" fill="url(#visionBlue)" stroke="#50E6FF" stroke-width="2.8"/>
+
+  <!-- Inner lighter iris -->
+  <path d="M64 33            C83 32 96 46 96 64            C96 82 82 96 64 96            C46 96 32 82 32 64            C32 46 46 33 64 33            Z" fill="#5EA0EF" stroke="#0078D4" stroke-width="3"/>
+
+  <!-- Subtle sketched concentric contour -->
+  <path d="M43 43            Q54 33 69 36            M88 49            Q94 61 89 75            M47 89            Q37 81 36 68" stroke="#BCEFFF" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Dark central pupil -->
+  <path d="M64 44            C77 43 86 53 86 65            C86 77 77 86 64 86            C52 86 43 77 43 65            C43 53 52 44 64 44            Z" fill="#005BA1" stroke="#003F78" stroke-width="3.5"/>
+
+  <!-- White lens reflections -->
+  <path d="M55 50            C60 49 64 53 64 58            C64 63 60 66 55 66            C50 66 47 62 47 58            C47 53 50 50 55 50            Z" fill="#FFFFFF"/>
+
+  <path d="M64 62            C67 62 69 64 69 67            C69 70 67 72 64 72            C61 72 59 70 59 67            C59 64 61 62 64 62            Z" fill="#FFFFFF"/>
+
+  <!-- Minimal hand-drawn iris highlights -->
+  <path d="M73 48            Q81 54 82 61" stroke="#50E6FF" stroke-width="2.4" opacity=".9"/>
+
+  <path d="M53 80            Q62 85 72 81" stroke="#50E6FF" stroke-width="1.8" opacity=".7"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#FFD400" stroke-width="3">
+    <path d="M96 28 L101 23"/>
+    <path d="M101 36 L108 34"/>
+    <path d="M25 96 L20 101"/>
+  </g>
+
+  <!-- Tiny hand-drawn vision sparkle -->
+  <g stroke="#FFD400" stroke-width="2.4">
+    <path d="M104 88 L104 98"/>
+    <path d="M99 93 L109 93"/>
+  </g>
+
+</svg>

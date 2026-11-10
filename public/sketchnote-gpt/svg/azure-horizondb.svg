@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure HorizonDB (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure HorizonDB icon featuring a cylindrical
+    database with layered geometric blue and cyan diamond
+    forms, uneven marker outlines, subtle yellow highlights,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="bodyBlue" x1="20" y1="19" x2="108" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#003067"/>
+      <stop offset=".48" stop-color="#0064B1"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="lowerBlue" x1="27" y1="55" x2="101" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0064B1"/>
+      <stop offset=".55" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+
+    <linearGradient id="cyanCore" x1="42" y1="88" x2="85" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0699BA"/>
+      <stop offset=".55" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+
+    <clipPath id="databaseClip">
+      <path d="M17 20                C17 9 38 5 64 5                C90 5 111 10 111 20                L111 107                C111 119 90 124 64 124                C38 124 17 119 17 107 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Hand-inked database cylinder -->
+  <path d="M17 20            C17 9 38 5 64 5            C90 5 111 10 111 20            L111 107            C111 119 90 124 64 124            C38 124 17 119 17 107 Z" fill="#EAF7FF" stroke="#003067" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <g clip-path="url(#databaseClip)">
+
+    <!-- Upper angular Horizon geometry -->
+    <path d="M-1 41              L43 -3              Q64 -24 85 -3              L129 41              Q140 54 129 69              L112 89              L72 48              Q64 40 56 48              L16 89              L-1 69              Q-12 54 -1 41 Z" fill="url(#bodyBlue)"/>
+
+    <!-- Left blue facet -->
+    <path d="M-2 43              L43 -2              Q55 -14 64 -14              L64 43              Q58 43 53 49              L16 88              L-2 67 Z" fill="#0078D4" opacity=".46"/>
+
+    <!-- Right deep-blue facet -->
+    <path d="M64 -14              Q76 -14 86 -2              L130 43              L130 68              L112 88              L74 49              Q69 44 64 43 Z" fill="#003067" opacity=".35"/>
+
+    <!-- Main Horizon diamond ribbon -->
+    <path d="M59 46              Q64 41 69 46              L120 97              Q126 103 120 110              L69 161              Q64 166 59 161              L8 110              Q2 103 8 97 Z               M57 87              L31 113              Q28 117 32 121              L59 148              Q64 153 69 148              L96 121              Q100 117 96 113              L70 87              Q64 81 57 87 Z" fill="url(#lowerBlue)" fill-rule="evenodd" stroke="#003F7A" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Cyan lower central diamond -->
+    <path d="M59 88              Q64 83 69 88              L96 115              Q100 119 96 123              L69 150              Q64 155 59 150              L32 123              Q28 119 32 115 Z" fill="url(#cyanCore)" stroke="#0064B1" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Subtle cyan core facet -->
+    <path d="M64 89              L94 119              L64 149              Z" fill="#50E6FF" opacity=".38"/>
+
+    <!-- Marker-style blue rim accents -->
+    <path d="M23 57              Q38 42 53 28" stroke="#5EA0EF" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+
+    <path d="M78 30              Q92 43 103 55" stroke="#50E6FF" stroke-width="2.6" stroke-linecap="round" opacity=".65"/>
+
+    <!-- Short hand-drawn highlights -->
+    <path d="M26 93              L39 80              M88 81              L99 92" stroke="#B9E9FF" stroke-width="2.3" stroke-linecap="round" opacity=".8"/>
+
+    <path d="M39 117              L55 101" stroke="#E2FBFF" stroke-width="2.6" stroke-linecap="round" opacity=".8"/>
+
+  </g>
+
+  <!-- Database top ellipse -->
+  <path d="M17 20            C17 10 38 5 64 5            C90 5 111 10 111 20            C111 30 90 35 64 35            C38 35 17 30 17 20 Z" fill="#0667C3" fill-opacity=".72" stroke="#003067" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Top ellipse hand-drawn depth -->
+  <path d="M24 19            C31 11 46 10 60 10" stroke="#80D7FF" stroke-width="2.8" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M75 11            Q96 13 103 19" stroke="#003F7A" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Organic ink contour along the cylinder -->
+  <path d="M17 33            Q16 55 17.5 77            M111 34            Q112 55 111 75" stroke="#003067" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Lower cylinder sketch contour -->
+  <path d="M19 108            Q25 119 49 122            M79 122            Q102 119 109 108" stroke="#003067" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <g stroke="#FFD70F" stroke-width="2.5" stroke-linecap="round">
+    <path d="M116 36 L116 46"/>
+    <path d="M111 41 L121 41"/>
+    <path d="M9 79 L13 83"/>
+    <path d="M13 79 L9 83"/>
+  </g>
+
+  <!-- Loose Azure-blue marker accents -->
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M4 53 Q7 48 11 46"/>
+    <path d="M117 73 Q121 77 123 82"/>
+    <path d="M5 102 Q8 106 12 108"/>
+  </g>
+
+  <!-- Tiny handwritten-style emphasis marks -->
+  <g stroke="#FFD70F" stroke-width="2" stroke-linecap="round">
+    <path d="M90 3 L94 1"/>
+    <path d="M99 6 L103 3"/>
+  </g>
+
+</svg>

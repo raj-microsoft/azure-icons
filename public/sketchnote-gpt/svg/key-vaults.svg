@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Key Vaults (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue circular vault outline enclosing a golden key with an ornamental head, keyhole, and notched shaft.</desc>
+
+  <defs>
+    <radialGradient id="vaultBlue" cx="42%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".65" stop-color="#3990E4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </radialGradient>
+    <linearGradient id="keyGold" x1="43" y1="12" x2="82" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".48" stop-color="#FFCB12"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Uneven hand-drawn blue vault ring -->
+  <path d="M64 6            C94 5 120 30 122 61            C125 91 99 119 67 122            C34 124 8 101 6 69            C4 36 29 8 64 6 Z" stroke="#12649C" stroke-width="3.2"/>
+
+  <path d="M64 9            C94 8 118 32 119 62            C121 92 97 116 66 119            C35 121 10 97 9 66            C8 35 33 10 64 9 Z            M64 18            C39 18 19 38 19 64            C19 89 39 109 65 109            C91 109 110 89 110 64            C110 39 91 19 64 18 Z" fill="url(#vaultBlue)" fill-rule="evenodd"/>
+
+  <!-- Subtle freehand ring accents -->
+  <path d="M25 40 Q37 20 58 17" stroke="#A5D7FF" stroke-width="2.5" opacity=".85"/>
+  <path d="M103 88 Q94 106 73 111" stroke="#12649C" stroke-width="2" opacity=".7"/>
+  <path d="M15 66 Q15 78 21 89" stroke="#50E6FF" stroke-width="2" opacity=".8"/>
+
+  <!-- Central golden key silhouette -->
+  <path d="M61 15            Q64 12 68 16            L92 39            Q97 44 93 49            L75 68            Q74 70 74 73            L74 108            Q74 111 72 113            L66 119            Q64 121 62 119            L54 112            Q52 110 52 107            L52 73            Q52 70 50 68            L33 50            Q28 45 33 40            L57 17            Q59 15 61 15 Z" fill="url(#keyGold)" stroke="#A96813" stroke-width="3.1"/>
+
+  <!-- Keyhole: hand-drawn circular opening -->
+  <path d="M64 24            C70 24 75 29 75 35            C75 41 70 46 64 46            C58 46 53 41 53 35            C53 29 58 24 64 24 Z" fill="none" stroke="#A96813" stroke-width="2.5"/>
+
+  <path d="M64 28            C68 28 71 31 71 35            C71 39 68 42 64 42            C60 42 57 39 57 35            C57 31 60 28 64 28 Z" fill="#FFF8DF" stroke="#D88913" stroke-width="1.8"/>
+
+  <!-- Hand-drawn key head grooves -->
+  <path d="M45 49 Q64 47 83 49" stroke="#EA8F14" stroke-width="3"/>
+  <path d="M46 56 Q64 54 82 56" stroke="#EA8F14" stroke-width="3"/>
+
+  <!-- Shaft highlight -->
+  <path d="M58 73 Q57 89 58 107" stroke="#FFF1A3" stroke-width="4" opacity=".9"/>
+
+  <!-- Sketchy key teeth -->
+  <path d="M74 78            L82 85            L74 92            L82 99            L74 106" fill="none" stroke="#A96813" stroke-width="3.2"/>
+
+  <path d="M74 79 L82 85 L74 91            L82 98 L74 105" fill="none" stroke="#FFBC22" stroke-width="2.4"/>
+
+  <!-- Thin handwritten-style shaft detail -->
+  <path d="M65 75            Q66 91 65 108" stroke="#D98510" stroke-width="1.7" opacity=".8"/>
+
+  <!-- Small sketchnote sparkle marks -->
+  <path d="M31 25 L27 20            M25 31 L19 28" stroke="#1490DF" stroke-width="2.4"/>
+
+  <path d="M99 24 L104 19            M104 31 L110 28" stroke="#50E6FF" stroke-width="2.3"/>
+
+  <path d="M94 99 L99 104            M102 96 L108 98" stroke="#FEA11B" stroke-width="2.2"/>
+
+  <!-- Small decorative marker dashes -->
+  <path d="M28 89 Q32 96 39 100" stroke="#50E6FF" stroke-width="2"/>
+  <path d="M87 21 Q94 25 99 32" stroke="#1490DF" stroke-width="2"/>
+</svg>

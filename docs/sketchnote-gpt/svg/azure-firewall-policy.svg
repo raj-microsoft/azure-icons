@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Firewall Policy (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn red Azure firewall brick wall with an overlapping
+    grey policy document. Uneven marker outlines, original crimson
+    and coral colours, subtle Azure-blue and yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="brickRed" x1="15" y1="20" x2="104" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF7381"/>
+      <stop offset="0.55" stop-color="#E62323"/>
+      <stop offset="1" stop-color="#C91D28"/>
+    </linearGradient>
+
+    <linearGradient id="paperGrey" x1="70" y1="61" x2="113" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E6E6E6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Loose marker accent strokes -->
+  <g stroke="#0078D4" stroke-width="2.5" stroke-linecap="round" opacity="0.75">
+    <path d="M13 17L9 13"/>
+    <path d="M20 13L19 8"/>
+    <path d="M27 15L31 11"/>
+  </g>
+
+  <!-- Firewall wall silhouette -->
+  <path d="M12 21            Q11 18 16 18            L107 19            Q111 19 111 24            L110 78            Q110 82 106 82            L15 81            Q11 81 11 77            Z" fill="#821010" stroke="#651018" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- First row of bricks -->
+  <g stroke="#821010" stroke-width="2.6" stroke-linejoin="round">
+    <path d="M16 24L43 24L43 38L16 38Z" fill="#E62323"/>
+    <path d="M46 24L75 25L75 38L46 38Z" fill="#FF7381"/>
+    <path d="M78 24L105 24L105 38L78 38Z" fill="#E62323"/>
+
+    <!-- Second row -->
+    <path d="M16 41L29 41L29 55L16 55Z" fill="#E62323"/>
+    <path d="M32 41L60 41L60 55L32 55Z" fill="#FF7381"/>
+    <path d="M63 41L91 41L91 55L63 55Z" fill="#E62323"/>
+    <path d="M94 41L105 41L105 55L94 55Z" fill="#FF7381"/>
+
+    <!-- Third row -->
+    <path d="M16 58L43 58L43 75L16 75Z" fill="#E62323"/>
+    <path d="M46 58L75 58L75 75L46 75Z" fill="#FF7381"/>
+    <path d="M78 58L105 58L105 75L78 75Z" fill="#E62323"/>
+  </g>
+
+  <!-- Imperfect hand-drawn brick texture -->
+  <g stroke="#821010" stroke-width="1.6" stroke-linecap="round" opacity="0.5">
+    <path d="M20 28L35 28"/>
+    <path d="M50 29L64 29"/>
+    <path d="M82 29L97 29"/>
+    <path d="M37 46L48 46"/>
+    <path d="M67 46L82 46"/>
+    <path d="M20 63L34 63"/>
+    <path d="M50 63L64 63"/>
+  </g>
+
+  <!-- Light marker highlights -->
+  <g stroke="#FFD166" stroke-width="2.2" stroke-linecap="round" opacity="0.85">
+    <path d="M19 26L27 26"/>
+    <path d="M49 26L58 26"/>
+    <path d="M35 43L44 43"/>
+    <path d="M19 60L27 60"/>
+  </g>
+
+  <!-- Overlapping policy document -->
+  <path d="M65 60            Q65 57 69 57            L113 58            Q117 58 117 62            L116 111            Q116 115 112 115            L69 114            Q65 114 65 110            Z" fill="url(#paperGrey)" stroke="#555555" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Document header -->
+  <path d="M66 61            Q66 58 70 58            L112 59            Q116 59 116 62            L116 69            L66 69Z" fill="#666666" stroke="#444444" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn document binding line -->
+  <path d="M69 72Q89 73 113 72" stroke="#B5B5B5" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Three policy rules -->
+  <g stroke="#666666" stroke-linecap="round">
+    <path d="M79 81Q92 80 109 81" stroke-width="3.3"/>
+    <path d="M79 94Q94 93 109 94" stroke-width="3.3"/>
+    <path d="M79 107Q93 106 109 107" stroke-width="3.3"/>
+  </g>
+
+  <!-- Policy rule bullets -->
+  <g fill="#666666">
+    <circle cx="72" cy="81" r="2.6"/>
+    <circle cx="72" cy="94" r="2.6"/>
+    <circle cx="72" cy="107" r="2.6"/>
+  </g>
+
+  <!-- Azure-blue rule annotations -->
+  <g stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity="0.9">
+    <path d="M80 85L99 85"/>
+    <path d="M80 98L95 98"/>
+  </g>
+
+  <!-- Yellow handwritten-style policy check -->
+  <path d="M101 75L105 79L112 72" stroke="#F4B400" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small sketchnote emphasis marks -->
+  <g stroke="#F4B400" stroke-width="2.4" stroke-linecap="round">
+    <path d="M119 54L123 50"/>
+    <path d="M121 62L126 61"/>
+    <path d="M118 47L119 42"/>
+  </g>
+
+  <!-- Subtle bottom marker underline -->
+  <path d="M19 89Q37 91 54 88" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="14 5 6 5" opacity="0.65"/>
+
+</svg>

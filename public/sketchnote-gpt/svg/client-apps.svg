@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Client Apps (sketch)</title>
+
+  
+  <desc>
+    A hand-drawn three-by-three grid of nine Azure-blue
+    application tiles, preserving the recognizable Client Apps
+    silhouette. Uneven marker outlines, subtle cyan highlights,
+    restrained yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="clientBlue" x1="64" y1="9" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top-left application tile -->
+  <path d="M12 14            Q12 10 16 10            L42 10            Q44 10 44 13            L44 43            L10 44            L10 17            Q10 14 12 14Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Top-center application tile -->
+  <path d="M49 10            L80 10            Q82 10 82 13            L82 43            Q66 44 48 43            L48 13            Q48 10 49 10Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Top-right application tile -->
+  <path d="M88 10            L113 10            Q118 10 118 15            L118 43            L86 43            L86 13            Q86 10 88 10Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Middle-left application tile -->
+  <path d="M10 48            L44 48            L44 80            Q28 81 10 80Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Middle-center application tile -->
+  <path d="M48 48            Q65 47 82 48            L82 80            L48 80Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Middle-right application tile -->
+  <path d="M86 48            L118 48            L118 80            Q102 81 86 80Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Bottom-left application tile -->
+  <path d="M10 86            L44 86            L44 118            L16 118            Q10 118 10 112Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Bottom-center application tile -->
+  <path d="M48 86            L82 86            L82 118            Q65 119 48 118Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Bottom-right application tile -->
+  <path d="M86 86            L118 86            L118 112            Q118 118 112 118            L86 118Z" fill="url(#clientBlue)" stroke="#1769A8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn marker highlights -->
+  <g stroke="#B8E4FF" stroke-width="2.4" stroke-linecap="round" opacity=".85" fill="none">
+    <path d="M16 17 L36 17"/>
+    <path d="M54 17 Q64 16 76 17"/>
+    <path d="M92 17 L111 17"/>
+
+    <path d="M16 54 L36 54"/>
+    <path d="M54 54 L76 54"/>
+    <path d="M92 54 L111 54"/>
+
+    <path d="M16 92 L36 92"/>
+    <path d="M54 92 L76 92"/>
+    <path d="M92 92 L111 92"/>
+  </g>
+
+  <!-- Subtle sketch-style edge accents -->
+  <g stroke="#005BA1" stroke-width="1.8" stroke-linecap="round" opacity=".55" fill="none">
+    <path d="M15 37 L15 41"/>
+    <path d="M53 36 L53 40"/>
+    <path d="M91 36 L91 40"/>
+
+    <path d="M15 73 L15 77"/>
+    <path d="M53 73 L53 77"/>
+    <path d="M91 73 L91 77"/>
+
+    <path d="M15 109 L15 113"/>
+    <path d="M53 109 L53 113"/>
+    <path d="M91 109 L91 113"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4BE46" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M5 8 L2 5"/>
+    <path d="M122 8 L126 4"/>
+    <path d="M122 119 L126 123"/>
+  </g>
+
+</svg>

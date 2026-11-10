@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Ceres (sketch)</title>
+  
+  <desc>
+    Two overlapping human figures representing Ceres,
+    with cyan foreground and Azure-blue background,
+    a partial circular arc, uneven marker outlines,
+    restrained yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="ceresCyan" x1="13" y1="49" x2="72" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="ceresBlue" x1="57" y1="24" x2="114" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular relationship arc -->
+  <path d="M52 13            C61 5 71 4 80 5            C99 6 113 20 119 37            C125 55 120 73 108 85" stroke="#0078D4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn outer arc definition -->
+  <path d="M52 13            C65 2 81 2 95 10            C115 21 125 39 122 59            C120 70 115 79 108 85" stroke="#005BA1" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner arc marker highlight -->
+  <path d="M64 13            C79 7 95 15 105 27            C116 42 116 58 110 70" stroke="#6BB9F2" stroke-width="2.7" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Rear figure: Azure-blue head -->
+  <path d="M78 25            C87 24 95 30 96 39            C98 49 91 57 82 58            C72 59 65 52 65 43            C64 34 69 27 78 25Z" fill="url(#ceresBlue)" stroke="#004E91" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Rear head sketch highlight -->
+  <path d="M72 34            Q77 29 83 31" stroke="#78C2F3" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Rear figure: shoulders and body -->
+  <path d="M79 67            C96 66 108 79 108 96            L108 120            Q108 124 104 124            L48 124            L48 96            C48 79 61 67 79 67Z" fill="url(#ceresBlue)" stroke="#004E91" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Rear body marker details -->
+  <path d="M91 75            Q102 82 102 97            L102 114" stroke="#64B9ED" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M56 95            Q58 83 66 78" stroke="#6BB9F2" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Foreground figure: cyan head -->
+  <path d="M39 17            C48 16 55 23 56 32            C57 41 50 49 41 50            C31 51 24 44 24 35            C23 26 30 18 39 17Z" fill="url(#ceresCyan)" stroke="#087FA6" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Foreground head marker highlight -->
+  <path d="M31 27            Q36 22 42 24" stroke="#D6FAFF" stroke-width="2.7" stroke-linecap="round" opacity=".95"/>
+
+  <!-- Foreground body: cyan silhouette -->
+  <path d="M40 59            C56 58 69 70 70 87            L70 119            Q70 124 65 124            L15 124            Q10 124 10 119            L10 88            C10 72 23 59 40 59Z" fill="url(#ceresCyan)" stroke="#087FA6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Foreground body sketch highlights -->
+  <path d="M20 85            Q22 72 32 67" stroke="#D5FAFF" stroke-width="2.8" stroke-linecap="round" opacity=".9"/>
+
+  <path d="M17 96 L17 114            M64 91 L64 113" stroke="#A6F1FC" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Irregular hand-drawn base accents -->
+  <path d="M17 119            Q37 118 58 119            M78 119            Q89 118 101 119" stroke="#D5FAFF" stroke-width="1.8" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M111 8 L114 3            M119 13 L125 11            M114 18 L119 22" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small sketch motion marks -->
+  <path d="M8 48 L3 51            M12 54 L8 59" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Minimal marker dots -->
+  <circle cx="10" cy="13" r="2" fill="#32BEDD"/>
+  <circle cx="116" cy="101" r="2" fill="#F4C542"/>
+  <circle cx="122" cy="112" r="1.8" fill="#0078D4"/>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Container Apps Sandboxes (sketch)</title>
+  
+  <desc>
+    Hand-drawn sketchnote illustration of Azure Container Apps Sandboxes:
+    a cluster of purple isometric container blocks with uneven marker outlines,
+    subtle Azure-style sketch accents, and a green sandbox shield badge.
+    Transparent background, standalone editable SVG.
+  </desc>
+
+  <defs>
+    <linearGradient id="purpleTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9C6CFE"/>
+      <stop offset="1" stop-color="#B796F9"/>
+    </linearGradient>
+    <linearGradient id="purpleLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9765EC"/>
+      <stop offset="1" stop-color="#6635BB"/>
+    </linearGradient>
+    <linearGradient id="purpleRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8650E4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="shieldOuter" x1="94" y1="76" x2="118" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8DE971"/>
+      <stop offset="1" stop-color="#4AA647"/>
+    </linearGradient>
+    <linearGradient id="shieldInner" x1="96" y1="82" x2="116" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A3F58A"/>
+      <stop offset="1" stop-color="#62BF55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- loose sketchnote accents -->
+  <path d="M19 31c3-5 7-8 13-9" stroke="#F4C542" stroke-width="2.6" stroke-linecap="round" opacity=".95"/>
+  <path d="M24 24l1-6M20 26l-5-1M26 29l6 1" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M107 24c4 2 7 5 9 9" stroke="#50E6FF" stroke-width="2.4" stroke-linecap="round" opacity=".7"/>
+  <path d="M13 73c1 6 4 10 9 13" stroke="#0078D4" stroke-width="1.9" stroke-linecap="round" opacity=".45"/>
+  <path d="M27 110c9 4 19 5 27 3" stroke="#773ADC" stroke-width="1.8" stroke-linecap="round" opacity=".38"/>
+
+  <!-- cube 1 top -->
+  <path d="M64 13L82 23L64 34L46 23L64 13Z" fill="url(#purpleTop)" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M46 23L64 34V55L46 45V23Z" fill="url(#purpleLeft)" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M82 23L64 34V55L82 45V23Z" fill="url(#purpleRight)" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M53 23.5l11 6 11-6" stroke="#EADFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- cube 2 left -->
+  <path d="M35 31L53 41L35 52L17 41L35 31Z" fill="url(#purpleTop)" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M17 41L35 52V73L17 63V41Z" fill="#9462EB" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M53 41L35 52V73L53 63V41Z" fill="#773ADC" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M24 41.5l11 6 11-6" stroke="#EADFFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity=".78"/>
+
+  <!-- cube 3 center -->
+  <path d="M64 43L82 53L64 64L46 53L64 43Z" fill="#9C6CFE" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M46 53L64 64V85L46 75V53Z" fill="#9462EB" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M82 53L64 64V85L82 75V53Z" fill="#773ADC" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M53 53.5l11 6 11-6" stroke="#EADFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".82"/>
+
+  <!-- cube 4 right -->
+  <path d="M93 31L111 41L93 52L75 41L93 31Z" fill="url(#purpleTop)" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M75 41L93 52V73L75 63V41Z" fill="#9462EB" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M111 41L93 52V73L111 63V41Z" fill="#773ADC" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M82 41.5l11 6 11-6" stroke="#EADFFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity=".78"/>
+
+  <!-- cube 5 bottom-left -->
+  <path d="M35 67L53 77L35 88L17 77L35 67Z" fill="#9C6CFE" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M17 77L35 88V109L17 99V77Z" fill="#9462EB" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M53 77L35 88V109L53 99V77Z" fill="#773ADC" stroke="#5B2DA6" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M24 77.5l11 6 11-6" stroke="#EADFFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity=".78"/>
+
+  <!-- small internal seams / sketchnote details -->
+  <path d="M64 34v21M35 52v21M64 64v21M93 52v21M35 88v21" stroke="#C7B2F8" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+  <path d="M46 45l7 4M46 75l7 4M17 63l7 4M75 63l7 4M17 99l7 4" stroke="#C7B2F8" stroke-width="1.5" stroke-linecap="round" opacity=".55"/>
+
+  <!-- subtle handwritten-style container connector -->
+  <path d="M57 92c4 2 10 2 14 0" stroke="#50E6FF" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+  <path d="M59 97c3 1 7 1 10 0" stroke="#50E6FF" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+
+  <!-- sandbox shield -->
+  <path d="M96 77c0-1.1.9-2 2-2 10.2-.25 8-4.15 15.7-4.15s5.5 3.9 15.7 4.15c1.1 0 2 .9 2 2v12.9c0 10.8-11.3 19.1-16.7 22.3-.75.45-1.7.45-2.45 0-5.35-3.2-16.65-11.5-16.65-22.3V77Z" transform="translate(-17 0)" fill="url(#shieldOuter)" stroke="#2F7D32" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M98 81c0-.9.7-1.6 1.6-1.6 8.6-.2 6.8-3.4 13.8-3.4 7 0 5.2 3.2 13.8 3.4.9 0 1.6.7 1.6 1.6v10.5c0 8.9-9.3 15.7-13.7 18.4-.65.4-1.45.4-2.1 0-4.4-2.65-13.7-9.5-13.7-18.4V81Z" transform="translate(-17 0)" fill="url(#shieldInner)" opacity=".92"/>
+
+  <!-- inner sandbox mark -->
+  <path d="M94 93l5 5 9-10" stroke="#F5FFF1" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 86c6 1 11 1 16 0" stroke="#D9FFD0" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- tiny handwritten hints around shield -->
+  <path d="M109 74c4 0 7 1 10 4" stroke="#F4C542" stroke-width="2.1" stroke-linecap="round" opacity=".9"/>
+  <path d="M88 109c2 2 5 4 8 5" stroke="#4AA647" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
+</svg>

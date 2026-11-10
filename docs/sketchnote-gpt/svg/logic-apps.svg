@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Logic Apps (sketch)</title>
+
+  
+  <desc>Hand-drawn Azure Logic Apps workflow with a cyan trigger, branching blue connectors, and two lime-green action blocks.</desc>
+
+  <defs>
+    <linearGradient id="logicCyan" x1="44" y1="5" x2="84" y2="47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+
+    <linearGradient id="logicGreen" x1="0" y1="77" x2="0" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B4EC36"/>
+      <stop offset="1" stop-color="#86D633"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Central workflow stem -->
+  <path d="M64 45            Q63 54 64 61            L64 66" stroke="#12649C" stroke-width="8"/>
+
+  <path d="M64 45            Q63 55 64 65" stroke="#0078D4" stroke-width="5.5"/>
+
+  <!-- Left branching connector -->
+  <path d="M64 64            Q63 69 57 69            L32 69            Q23 69 23 78            L23 82" stroke="#12649C" stroke-width="8"/>
+
+  <path d="M64 64            Q63 69 57 69            L32 69            Q23 69 23 78            L23 82" stroke="#0078D4" stroke-width="5.5"/>
+
+  <!-- Right branching connector -->
+  <path d="M64 64            Q65 69 71 69            L96 69            Q105 69 105 78            L105 82" stroke="#12649C" stroke-width="8"/>
+
+  <path d="M64 64            Q65 69 71 69            L96 69            Q105 69 105 78            L105 82" stroke="#0078D4" stroke-width="5.5"/>
+
+  <!-- Top cyan trigger block -->
+  <path d="M44 6            Q44 4 48 4            L80 5            Q84 5 84 9            L85 42            Q85 46 81 46            L47 45            Q43 45 43 41            Z" fill="url(#logicCyan)" stroke="#087AB5" stroke-width="3.2"/>
+
+  <!-- Hand-drawn cyan highlights -->
+  <path d="M49 11            Q60 9 78 11" stroke="#D7F8FF" stroke-width="3.4"/>
+
+  <path d="M49 16 L49 36" stroke="#B8F3FF" stroke-width="2.3"/>
+
+  <!-- Small trigger symbol -->
+  <path d="M57 19            L70 25            L57 32 Z" fill="#1490DF" stroke="#087AB5" stroke-width="2"/>
+
+  <!-- Left green action block -->
+  <path d="M5 83            Q5 80 9 80            L38 81            Q42 81 42 85            L43 119            Q43 123 39 123            L8 122            Q4 122 4 118            Z" fill="url(#logicGreen)" stroke="#5E9624" stroke-width="3.2"/>
+
+  <!-- Left block marker highlights -->
+  <path d="M11 87 Q22 85 36 87" stroke="#E1FF83" stroke-width="3"/>
+
+  <path d="M10 93 L10 113" stroke="#D3F66B" stroke-width="2.2"/>
+
+  <!-- Left action check -->
+  <path d="M14 102            L21 109            L33 95" stroke="#4F8420" stroke-width="4"/>
+
+  <!-- Right green action block -->
+  <path d="M87 83            Q87 80 91 80            L120 81            Q124 81 124 85            L125 119            Q125 123 121 123            L90 122            Q86 122 86 118            Z" fill="url(#logicGreen)" stroke="#5E9624" stroke-width="3.2"/>
+
+  <!-- Right block marker highlights -->
+  <path d="M93 87 Q104 85 118 87" stroke="#E1FF83" stroke-width="3"/>
+
+  <path d="M92 93 L92 113" stroke="#D3F66B" stroke-width="2.2"/>
+
+  <!-- Right action check -->
+  <path d="M96 102            L103 109            L115 95" stroke="#4F8420" stroke-width="4"/>
+
+  <!-- Freehand workflow accents -->
+  <path d="M55 54 L50 58            M73 54 L78 58" stroke="#50E6FF" stroke-width="2.4"/>
+
+  <!-- Small sketchnote sparkle -->
+  <path d="M98 15 L98 23            M94 19 L102 19" stroke="#1490DF" stroke-width="2.3"/>
+
+  <!-- Hand-drawn movement marks -->
+  <path d="M13 58 Q17 54 23 53" stroke="#0078D4" stroke-width="2.2"/>
+
+  <path d="M105 53 Q111 54 115 59" stroke="#0078D4" stroke-width="2.2"/>
+
+  <!-- Tiny marker dots -->
+  <circle cx="42" cy="60" r="1.8" fill="#50E6FF"/>
+  <circle cx="86" cy="60" r="1.8" fill="#50E6FF"/>
+
+</svg>

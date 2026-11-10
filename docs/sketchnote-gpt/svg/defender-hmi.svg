@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender HMI (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue industrial human-machine interface with a light-blue display, white control indicators, and a circular gauge.</desc>
+
+  <defs>
+    <linearGradient id="hmiBody" x1="12" y1="14" x2="116" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1689DD"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="hmiDisplay" x1="19" y1="45" x2="109" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Industrial HMI housing: gently irregular silhouette -->
+  <path d="M21 17            Q15 18 12 26            C3 52 4 77 13 102            Q16 112 25 113            L104 113            Q113 112 116 103            C124 78 125 53 116 27            Q113 17 104 17            Z" fill="url(#hmiBody)" stroke="#164F84" stroke-width="3.8"/>
+
+  <!-- Hand-drawn outer housing highlight -->
+  <path d="M19 31            Q12 57 16 78            M20 98 Q22 105 30 106" stroke="#A9D9FF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Main HMI display -->
+  <path d="M22 31            Q22 28 26 28            L102 29            Q106 29 106 33            L106 68            Q106 72 102 72            L25 72            Q21 72 21 68            Z" fill="url(#hmiDisplay)" stroke="#174F83" stroke-width="3"/>
+
+  <!-- Display marker highlight -->
+  <path d="M28 35            Q56 33 84 35            L99 35" stroke="#DCEEFF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Minimal process visualization -->
+  <path d="M32 60            L43 53            L53 57            L65 43            L77 49            L91 39" stroke="#FFFFFF" stroke-width="3.2"/>
+
+  <!-- Small display data nodes -->
+  <circle cx="43" cy="53" r="2.8" fill="#FFFFFF"/>
+  <circle cx="65" cy="43" r="2.8" fill="#FFFFFF"/>
+  <circle cx="77" cy="49" r="2.8" fill="#FFFFFF"/>
+
+  <!-- Display baseline -->
+  <path d="M31 65 Q62 64 96 65" stroke="#DCEEFF" stroke-width="2" opacity=".7"/>
+
+  <!-- Lower horizontal status indicator -->
+  <path d="M22 94            Q22 91 25 91            L42 91            Q45 91 45 94            Q45 97 42 97            L25 97            Q22 97 22 94 Z" fill="#FFFFFF"/>
+
+  <!-- Small control indicators -->
+  <circle cx="54" cy="94" r="4" fill="#FFFFFF" stroke="#D7EDFF" stroke-width="1"/>
+
+  <circle cx="68" cy="94" r="4" fill="#FFFFFF" stroke="#D7EDFF" stroke-width="1"/>
+
+  <!-- Circular HMI control gauge -->
+  <path d="M99 81            C107 81 113 87 113 95            C113 103 107 109 99 109            C91 109 85 103 85 95            C85 87 91 81 99 81 Z" fill="#FFFFFF" stroke="#164F84" stroke-width="3"/>
+
+  <!-- Gauge pointer -->
+  <path d="M99 95 L107 87" stroke="#00188F" stroke-width="3.5"/>
+
+  <circle cx="99" cy="95" r="2.5" fill="#00188F"/>
+
+  <!-- Small gauge markers -->
+  <path d="M90 98 L93 97            M99 85 L99 88            M107 101 L105 99" stroke="#5EA0EF" stroke-width="2"/>
+
+  <!-- Hand-drawn interface annotation -->
+  <path d="M49 83 Q61 81 72 83" stroke="#D4ECFF" stroke-width="2" opacity=".75"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M116 18 L120 12            M120 24 L125 22" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <path d="M8 89 L4 93            M10 97 L6 100" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Subtle lower housing flourish -->
+  <path d="M37 118 Q64 121 88 118" stroke="#0078D4" stroke-width="2.5" opacity=".65"/>
+</svg>

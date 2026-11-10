@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Database MariaDB Server (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure SQL-style database cylinder with the
+    recognizable MariaDB sea-lion silhouette, Azure-blue
+    gradients, cyan elliptical top, uneven marker outlines,
+    subtle yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="dbBlue" x1="18" y1="68" x2="110" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".35" stop-color="#0071C8"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset=".78" stop-color="#006ABB"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="dbTop" x1="64" y1="14" x2="64" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8E8E8"/>
+      <stop offset="1" stop-color="#D1EAF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Loose sketchnote accent marks -->
+  <path d="M12 34 Q9 40 10 48" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+  <path d="M116 39 Q120 45 118 51" stroke="#50E6FF" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+  <path d="M16 112 Q23 119 35 121" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".4"/>
+
+  <!-- Database cylinder body -->
+  <path d="M18 29            C18 42 38 48 64 48            C90 48 110 42 110 29            L110 107            C110 118 89 123 64 123            C39 123 18 118 18 107            Z" fill="url(#dbBlue)" stroke="#124E83" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn side highlights -->
+  <path d="M25 52 Q24 77 25 105" stroke="#54AEF0" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+  <path d="M103 52 Q104 78 102 103" stroke="#003F78" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+
+  <!-- Bottom curved marker contour -->
+  <path d="M22 107            Q29 118 64 119            Q98 118 106 107" stroke="#50E6FF" stroke-width="1.8" stroke-linecap="round" opacity=".4"/>
+
+  <!-- Elliptical top -->
+  <path d="M110 29            C110 39 90 46 64 46            C38 46 18 39 18 29            C18 19 38 12 64 12            C90 12 110 19 110 29            Z" fill="url(#dbTop)" stroke="#647F91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan inner top -->
+  <path d="M100 28            C100 35 84 40 64 40            C44 40 28 35 28 28            C28 21 44 17 64 17            C84 17 100 21 100 28            Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Inner top depth -->
+  <path d="M36 33            Q48 28 64 28            Q80 28 92 33            Q80 40 64 40            Q48 40 36 33Z" fill="#198AB3" opacity=".85"/>
+
+  <!-- Hand-drawn top reflection -->
+  <path d="M42 23 Q57 18 75 22" stroke="#E8FFFF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- MariaDB sea-lion silhouette -->
+  <path d="M101 55            Q98 55 96 57            Q92 58 87 59            Q81 59 77 64            Q71 71 65 79            Q58 86 46 88            Q37 90 32 98            Q29 102 26 103            L21 104            Q18 105 18 107            Q22 109 28 107            Q24 112 21 114            Q28 115 34 112            Q40 108 46 106            Q53 103 61 105            Q68 107 72 105            Q77 101 80 94            Q81 102 75 111            Q84 110 89 103            Q92 99 95 92            Q97 87 98 79            Q99 74 104 70            Q108 67 108 63            Q105 62 104 60            Q107 58 105 56            Q103 55 101 55Z" fill="#F2F2F2" stroke="#D5E8F1" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sea-lion snout -->
+  <path d="M104 60            Q107 61 109 63            Q108 66 104 68            Q101 70 99 72" stroke="#E5F4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Eye -->
+  <path d="M94 65            Q97 62 100 64            Q98 67 95 67Z" fill="#005BA1"/>
+
+  <!-- Ear and facial marker details -->
+  <path d="M99 59 Q101 61 103 61" stroke="#8BCDEB" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M103 66 L106 67" stroke="#0078D4" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Curved body highlight -->
+  <path d="M43 96            Q56 94 65 87            Q76 78 82 68" stroke="#C7E7F6" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Front flipper -->
+  <path d="M87 92            Q83 101 80 108            Q85 106 89 101" stroke="#C7E7F6" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Rear flipper -->
+  <path d="M93 99            Q91 106 95 109            Q98 112 102 110            Q99 107 98 102" fill="#F2F2F2" stroke="#D5E8F1" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Small sketchnote spark accents -->
+  <path d="M112 72 L116 68            M115 78 L120 77" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M33 66 L29 62            M38 63 L37 58" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Subtle handwritten-style decorative strokes -->
+  <path d="M39 116 Q50 119 60 119" stroke="#B7E8FF" stroke-width="1.6" stroke-linecap="round" opacity=".6"/>
+</svg>

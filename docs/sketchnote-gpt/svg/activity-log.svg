@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Activity Log (sketch)</title>
+
+  
+
+  <defs>
+    <linearGradient id="pageBlue" x1="20" y1="18" x2="105" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54AEF0"/>
+      <stop offset="1" stop-color="#1988D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Offset paper stack -->
+  <path d="M29 20            Q30 16 35 16            L109 17            Q114 17 114 23            L114 106            Q114 110 110 113            L101 121            L29 121            Q24 120 24 115            Z" fill="#005BA1" stroke="#174F78" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Exposed white sheet -->
+  <path d="M35 23            L105 23            Q108 23 108 27            L108 105            L98 115            L35 115            Z" fill="#FFFFFF" stroke="#174F78" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <!-- Main blue activity log -->
+  <path d="M20 29            Q20 25 25 25            L96 24            Q101 24 101 29            L102 113            Q102 119 97 119            L25 120            Q20 120 20 115            Z" fill="url(#pageBlue)" stroke="#164D75" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn inner border -->
+  <path d="M27 34            L27 110            Q27 113 31 113            M33 32            Q58 30 91 32" stroke="#B9E5FF" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Original white log entry -->
+  <path d="M43 52            Q43 49 47 49            L79 48            Q83 49 83 52            L83 64            Q83 67 79 67            L47 67            Q43 67 43 64            Z" fill="#FFFFFF" stroke="#174F78" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Subtle sketchnote activity pulse -->
+  <path d="M49 58            L55 58            L59 53            L64 63            L68 57            L77 57" stroke="#1988D9" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Short handwritten-style log marks -->
+  <path d="M43 79            Q57 78 72 79            M43 88            Q53 87 62 88            M43 97            Q60 96 79 97" stroke="#E8F7FF" stroke-width="3.1" stroke-linecap="round" opacity=".92"/>
+
+  <!-- Yellow annotation accent -->
+  <path d="M84 76            L87 81            L96 70" stroke="#FFD34E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketched margin ticks -->
+  <path d="M33 52 L37 51            M33 62 L37 62            M33 79 L37 78            M33 88 L37 88" stroke="#D8F0FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Small marker-style sparkle -->
+  <path d="M109 38 L109 46            M105 42 L113 42" stroke="#FFD34E" stroke-width="2.7" stroke-linecap="round"/>
+
+</svg>

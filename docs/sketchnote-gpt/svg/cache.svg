@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Cache (sketch)</title>
+  
+  <desc>
+    Two overlapping cylindrical cache containers with
+    irregular hand-drawn outlines, Azure-blue and cyan
+    fills, elliptical openings, a white lightning symbol,
+    restrained yellow highlights, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cacheBlue" x1="8" y1="45" x2="91" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".48" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="cacheCyan" x1="65" y1="78" x2="120" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32BEDD"/>
+      <stop offset=".52" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear cache cylinder -->
+  <path d="M9 22            C9 34 27 40 47 40            C67 40 86 34 86 22            L86 97            C86 109 67 115 47 115            C27 115 9 109 9 97            Z" fill="url(#cacheBlue)" stroke="#164E82" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper elliptical rim -->
+  <path d="M9 22            C9 10 27 6 47 6            C68 6 86 12 86 23            C86 34 67 40 47 40            C27 40 9 34 9 22Z" fill="#E6E6E6" stroke="#164E82" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Cyan interior -->
+  <path d="M18 22            C18 14 31 12 47 12            C63 12 77 16 77 23            C77 30 63 34 47 34            C31 34 18 29 18 22Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2.6"/>
+
+  <!-- Inner elliptical shading -->
+  <path d="M26 29            C37 21 58 21 69 30            C57 35 38 35 26 29Z" fill="#198AB3" opacity=".88"/>
+
+  <!-- Rough marker highlights -->
+  <path d="M15 42 Q14 66 16 89            M22 102 Q36 110 50 109" stroke="#87D7FF" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M79 43 Q81 55 80 65" stroke="#004D8B" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Sketchy cylinder construction lines -->
+  <path d="M16 63            Q39 72 62 66" stroke="#BDEEFF" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="8 5" opacity=".55"/>
+
+  <!-- Front cache cylinder -->
+  <path d="M64 67            C64 76 76 81 92 81            C108 81 120 76 120 67            L120 111            C120 119 108 124 92 124            C76 124 64 119 64 111            Z" fill="url(#cacheCyan)" stroke="#14799B" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front cylinder top -->
+  <path d="M64 67            C64 58 76 54 92 54            C108 54 120 59 120 67            C120 76 108 81 92 81            C76 81 64 76 64 67Z" fill="#E6E6E6" stroke="#14799B" stroke-width="3.3" stroke-linejoin="round"/>
+
+  <!-- Cyan top opening -->
+  <path d="M72 67            C72 61 81 59 92 59            C103 59 112 62 112 67            C112 72 103 75 92 75            C81 75 72 72 72 67Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2.3"/>
+
+  <!-- Inner elliptical shadow -->
+  <path d="M78 72            Q92 65 106 73            Q92 78 78 72Z" fill="#198AB3" opacity=".9"/>
+
+  <!-- Lightning symbol -->
+  <path d="M96 84            L82 102            Q81 104 84 104            L91 104            L87 116            Q87 118 90 116            L105 96            Q107 93 104 93            L96 93            L100 85            Q101 82 98 82            Z" fill="#F2F2F2" stroke="#176D93" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Hand-drawn lightning highlight -->
+  <path d="M94 89 L87 100            M98 99 L94 105" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Cyan cylinder marker strokes -->
+  <path d="M69 85 Q68 96 70 107            M74 116 Q81 121 88 121" stroke="#B8F6FF" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M115 85 Q117 98 115 108" stroke="#168DB0" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g stroke="#FFD45A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 40 L99 33              M105 44 L112 39              M105 50 L115 49"/>
+
+    <path d="M45 119 L42 124              M53 119 L55 125"/>
+  </g>
+
+  <!-- Small hand-drawn annotation marks -->
+  <g stroke="#32D4F5" stroke-width="2.2" stroke-linecap="round">
+    <path d="M3 49 L7 45              M3 58 L7 55"/>
+  </g>
+
+  <!-- Irregular sketch accents -->
+  <path d="M26 8 Q44 2 60 8            M13 111 Q23 118 35 119" stroke="#145B91" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M122 81 L125 77            M123 89 L126 86" stroke="#FFD45A" stroke-width="2" stroke-linecap="round"/>
+</svg>

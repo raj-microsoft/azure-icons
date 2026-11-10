@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Exchange On Premises Access (sketch)</title>
+  
+  <desc>Hand-drawn blue on-premises office building with three columns of windows, a central entrance, irregular marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="buildingBlue" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".5" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main building silhouette -->
+  <path d="M30 9            Q29 7 34 7            L94 8            Q98 8 98 13            L99 115            Q99 120 94 120            L34 119            Q29 119 29 115            L29 14            Q29 11 30 9Z" fill="url(#buildingBlue)" stroke="#165A96" stroke-width="4.2"/>
+
+  <!-- Uneven marker reinforcement -->
+  <path d="M34 12 Q33 34 34 57 L33 91 34 114" stroke="#8BC4F7" stroke-width="2.2" opacity=".8"/>
+  <path d="M94 15 Q95 41 94 66 L95 112" stroke="#005AAB" stroke-width="2" opacity=".65"/>
+
+  <!-- Top row of windows -->
+  <g fill="#F2F2F2" stroke="#165A96" stroke-width="2.7">
+    <path d="M39 20 L51 19 Q53 19 53 22 L53 35 39 35Z"/>
+    <path d="M58 20 L70 19 71 35 58 35Z"/>
+    <path d="M76 19 L89 20 89 35 76 35Z"/>
+  </g>
+
+  <!-- Middle row -->
+  <g fill="#F2F2F2" stroke="#165A96" stroke-width="2.7">
+    <path d="M39 46 L53 45 53 61 39 61Z"/>
+    <path d="M58 46 L71 46 71 61 58 61Z"/>
+    <path d="M76 45 L89 46 89 61 76 61Z"/>
+  </g>
+
+  <!-- Lower row -->
+  <g fill="#F2F2F2" stroke="#165A96" stroke-width="2.7">
+    <path d="M39 73 L53 72 53 88 39 88Z"/>
+    <path d="M58 73 L71 72 71 88 58 88Z"/>
+    <path d="M76 72 L89 73 89 88 76 88Z"/>
+  </g>
+
+  <!-- Door: central access point -->
+  <path d="M58 101            Q58 99 61 99            L69 99            Q71 99 71 102            L71 119            L58 119Z" fill="#EAF6FF" stroke="#165A96" stroke-width="3"/>
+
+  <!-- Door marker detail -->
+  <path d="M64 102 L64 118" stroke="#5EA0EF" stroke-width="2"/>
+  <circle cx="68" cy="111" r="1.6" fill="#FFCB3D"/>
+
+  <!-- Slight handmade window highlights -->
+  <g stroke="#B8DCFF" stroke-width="2" opacity=".95">
+    <path d="M42 24 L48 23"/>
+    <path d="M61 24 L66 23"/>
+    <path d="M79 24 L85 24"/>
+    <path d="M42 50 L48 49"/>
+    <path d="M61 50 L67 49"/>
+    <path d="M79 50 L85 49"/>
+    <path d="M42 77 L48 76"/>
+    <path d="M61 77 L67 76"/>
+    <path d="M79 77 L85 76"/>
+  </g>
+
+  <!-- Sketch-style base line -->
+  <path d="M21 122 Q48 120 65 122 T107 122" stroke="#165A96" stroke-width="2.8"/>
+
+  <!-- Azure marker motion strokes -->
+  <g stroke="#5EA0EF" stroke-width="2.5">
+    <path d="M18 38 L23 35"/>
+    <path d="M17 47 L23 46"/>
+    <path d="M106 74 L112 72"/>
+    <path d="M106 82 L113 84"/>
+  </g>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <g stroke="#FFCB3D" stroke-width="3">
+    <path d="M102 17 L107 13"/>
+    <path d="M106 24 L113 23"/>
+    <path d="M20 99 L25 95"/>
+    <path d="M19 106 L25 107"/>
+  </g>
+
+  <!-- Minimal hand-drawn access indicator -->
+  <path d="M77 104 Q84 100 90 104" stroke="#FFCB3D" stroke-width="2.2" stroke-dasharray="2 4"/>
+</svg>

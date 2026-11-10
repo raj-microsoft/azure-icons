@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Monitor Dashboard (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure monitoring dashboard featuring a blue
+    analytics panel with a white line chart and an overlapping
+    performance gauge. Original Azure blues, cyan gauge segments,
+    red needle, organic marker outlines, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="dashboardBlue" x1="56" y1="8" x2="56" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.55" stop-color="#268CE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main dashboard panel -->
+  <path d="     M10 10     Q10 6 15 6     L107 7     Q112 7 112 12     L112 93     Q112 98 107 98     L15 98     Q10 98 10 93     Z" fill="url(#dashboardBlue)" stroke="#005BA1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Soft hand-drawn panel highlight -->
+  <path d="     M17 14     Q46 12 76 14     L103 14" stroke="#B9EAFF" stroke-width="2.7" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <path d="     M17 22     Q16 48 17 77" stroke="#B9EAFF" stroke-width="2" stroke-linecap="round" fill="none" opacity=".65"/>
+
+  <!-- White analytics trend line -->
+  <path d="     M34 68     L53 40     L75 55     L96 27" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Hand-drawn secondary chart stroke -->
+  <path d="     M35 72     L53 44     M76 59     L96 31" stroke="#DDF5FF" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".7"/>
+
+  <!-- Chart data point 1 -->
+  <path d="     M34 61     C38 61 41 64 41 68     C41 72 38 75 34 75     C30 75 27 72 27 68     C27 64 30 61 34 61     Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2.2"/>
+
+  <!-- Chart data point 2 -->
+  <path d="     M53 33     C57 33 60 36 60 40     C60 44 57 47 53 47     C49 47 46 44 46 40     C46 36 49 33 53 33     Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2.2"/>
+
+  <!-- Chart data point 3 -->
+  <path d="     M75 48     C79 48 82 51 82 55     C82 59 79 62 75 62     C71 62 68 59 68 55     C68 51 71 48 75 48     Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2.2"/>
+
+  <!-- Chart data point 4 -->
+  <path d="     M96 20     C100 20 103 23 103 27     C103 31 100 34 96 34     C92 34 89 31 89 27     C89 23 92 20 96 20     Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2.2"/>
+
+  <!-- Light marker reflections on chart nodes -->
+  <g stroke="#9CEBFF" stroke-width="1.6" stroke-linecap="round">
+    <path d="M32 65 L35 64"/>
+    <path d="M51 37 L54 36"/>
+    <path d="M73 52 L76 51"/>
+    <path d="M94 24 L97 23"/>
+  </g>
+
+  <!-- Performance gauge white background -->
+  <path d="     M49 113     C49 88 65 70 88 70     C111 70 126 88 126 113     Q126 120 119 120     L56 120     Q49 120 49 113     Z" fill="#FFFFFF" stroke="#0078D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Gauge background inner contour -->
+  <path d="     M55 112     C55 91 68 77 88 77     C108 77 120 92 120 112" stroke="#DDEEFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Gauge segment: far left -->
+  <path d="     M60 107     Q61 96 68 88     L77 97     Q73 101 72 107     Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Gauge segment: upper left -->
+  <path d="     M69 87     Q76 80 85 79     L85 93     Q80 94 77 98     Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Gauge segment: upper right -->
+  <path d="     M89 79     Q99 80 106 87     L97 98     Q94 94 89 93     Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Gauge segment: far right -->
+  <path d="     M107 88     Q114 96 116 107     L103 107     Q102 102 98 98     Z" fill="#32BEDD" stroke="#0078D4" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Gauge segment marker highlights -->
+  <g stroke="#D8FBFF" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M64 101 Q66 95 70 92"/>
+    <path d="M74 86 Q78 83 82 83"/>
+    <path d="M93 83 Q98 85 101 89"/>
+  </g>
+
+  <!-- Gauge needle -->
+  <path d="     M86 110     L108 95     Q111 93 112 96     Q113 98 110 100     L91 116     Z" fill="#E62323" stroke="#A91C1C" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Needle pivot -->
+  <path d="     M88 105     C92 105 95 108 95 112     C95 116 92 119 88 119     C84 119 81 116 81 112     C81 108 84 105 88 105     Z" fill="#4F4F4F" stroke="#333333" stroke-width="2"/>
+
+  <!-- Pivot reflection -->
+  <path d="M85 109 L88 108" stroke="#9B9B9B" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Hand-drawn yellow annotations -->
+  <g stroke="#F4C542" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M7 34 L3 31" stroke-width="2.8"/>
+
+    <path d="M5 43 L1 43" stroke-width="2.4"/>
+
+    <path d="M115 21 L121 18" stroke-width="2.7"/>
+
+    <path d="M117 30 L124 30" stroke-width="2.4"/>
+
+    <path d="M35 109 L40 104" stroke-width="2.8"/>
+
+    <path d="M33 117 L40 115" stroke-width="2.4"/>
+  </g>
+
+  <!-- Loose sketch accents -->
+  <g stroke="#0078D4" stroke-linecap="round" fill="none">
+    <path d="M12 104 Q19 107 27 106" stroke-width="1.8"/>
+
+    <path d="M25 3 Q40 1 53 3" stroke-width="1.8"/>
+
+    <path d="M115 61 Q120 66 122 72" stroke-width="1.9"/>
+  </g>
+
+  <!-- Small marker dots -->
+  <circle cx="22" cy="114" r="1.8" fill="#50E6FF"/>
+  <circle cx="119" cy="48" r="1.8" fill="#F4C542"/>
+  <circle cx="106" cy="124" r="1.6" fill="#50E6FF"/>
+
+</svg>

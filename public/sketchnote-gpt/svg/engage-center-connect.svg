@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Engage Center Connect (sketch)</title>
+  
+  <desc>
+    Two overlapping Azure-blue and cyan people representing
+    customer engagement and connection. A larger foreground person,
+    smaller background person, and curved connection arc retain
+    the original Azure icon's symbolism and colours.
+  </desc>
+
+  <defs>
+    <linearGradient id="personCyan" x1="47" y1="12" x2="47" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="headCyan" x1="43" y1="12" x2="48" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Connection arc surrounding the smaller person -->
+  <path d="M78 24            C85 13 96 9 106 12            C119 15 125 27 124 40            C124 47 121 53 116 59" stroke="#0078D4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose marker echo on connection arc -->
+  <path d="M82 17            Q99 3 115 17            Q128 30 121 49" stroke="#5EA0EF" stroke-width="2.4" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Background person body -->
+  <path d="M94 61            C112 61 121 74 124 94            Q125 99 119 101            L68 101            Q64 99 66 94            C69 74 77 61 94 61Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Background person's white collar -->
+  <path d="M84 62            Q94 69 104 62            L94 87            Z" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- Background person's head -->
+  <path d="M94 31            C104 31 112 39 112 49            C112 59 104 67 94 67            C84 67 76 59 76 49            C76 39 84 31 94 31Z" fill="#0078D4" stroke="#005BA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Background head highlight -->
+  <path d="M83 45 Q87 36 96 36" stroke="#8AD8FF" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Foreground person body -->
+  <path d="M46 60            C68 60 83 75 89 96            Q91 103 93 111            Q94 119 85 120            L9 120            Q2 119 4 111            C7 83 21 60 46 60Z" fill="url(#personCyan)" stroke="#147A9D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White shirt / collar detail -->
+  <path d="M31 63            Q46 73 61 63            L47 104            Q46 106 45 103            Z" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- Collar sketch accents -->
+  <path d="M32 65 L45 78            M60 65 L48 78" stroke="#B8EFFF" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Foreground person's head -->
+  <path d="M46 14            C62 13 73 26 73 41            C73 56 61 68 46 68            C31 68 19 56 19 41            C19 26 31 14 46 14Z" fill="url(#headCyan)" stroke="#147A9D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn head highlight -->
+  <path d="M28 35            Q31 22 44 20" stroke="#B9F5FF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Subtle marker body strokes -->
+  <path d="M16 98 Q20 80 30 73" stroke="#8BE7F7" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+
+  <path d="M66 74 Q81 88 83 108" stroke="#0D7EA8" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Small connection emphasis -->
+  <path d="M111 70 L116 66" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M116 76 L122 73" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Sketchnote yellow accents -->
+  <path d="M12 18 L7 13" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M9 27 L3 25" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M67 8 L70 3" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M113 6 L113 12            M110 9 L116 9" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Uneven baseline marker accent -->
+  <path d="M15 124 Q44 126 74 124" stroke="#32D4F5" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+</svg>

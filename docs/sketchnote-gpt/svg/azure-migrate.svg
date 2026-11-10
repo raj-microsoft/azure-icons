@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Migrate (sketch)</title>
+
+  
+  <desc>
+    Two overlapping Azure clouds in cyan and blue with three
+    white migration chevrons. Organic marker outlines, subtle
+    yellow emphasis strokes, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="migrateBack" x1="49" y1="26" x2="112" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.55" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="migrateFront" x1="18" y1="36" x2="86" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="0.5" stop-color="#2EC9EB"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sketchnote accent marks -->
+  <g stroke="#F4B400" stroke-width="3" stroke-linecap="round">
+    <path d="M24 35L19 29"/>
+    <path d="M34 29L32 21"/>
+    <path d="M103 30L108 24"/>
+    <path d="M111 38L119 35"/>
+  </g>
+
+  <!-- Rear Azure cloud -->
+  <path d="M45 81            C35 79 30 71 32 61            C34 50 42 43 53 43            C58 29 70 21 84 23            C99 24 109 35 110 49            C120 52 125 61 123 72            C122 83 114 90 103 91            L51 91            Q45 90 45 81Z" fill="url(#migrateBack)" stroke="#1764A5" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Rear cloud highlight -->
+  <path d="M56 42            C64 29 79 27 88 30" stroke="#B5DEFF" stroke-width="2.8" stroke-linecap="round" opacity="0.85"/>
+
+  <path d="M112 56            Q119 61 117 70" stroke="#B5DEFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Front cyan cloud -->
+  <path d="M30 101            C18 101 10 93 10 81            C10 69 19 60 31 59            C35 43 48 34 63 35            C79 36 90 47 92 62            C103 64 111 73 110 85            C109 96 101 103 90 104            L33 104            Q30 104 30 101Z" fill="url(#migrateFront)" stroke="#127EAA" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Organic front-cloud highlight -->
+  <path d="M19 77            Q22 66 34 66            M40 54            Q49 40 63 42" stroke="#C4F5FF" stroke-width="2.7" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Migration chevron one -->
+  <path d="M38 73            L49 73            L65 89            Q67 91 65 93            L48 109            L37 109            L55 91Z" fill="#FFFFFF" stroke="#137FA8" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0 -7)"/>
+
+  <!-- Migration chevron two -->
+  <path d="M66 54            L77 54            L89 67            Q91 69 89 71            L75 85            L64 85            L80 69Z" fill="#FFFFFF" stroke="#137FA8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 -7)"/>
+
+  <!-- Migration chevron three -->
+  <path d="M79 79            L89 79            L102 92            Q104 94 102 96            L88 110            L78 110            L94 94Z" fill="#FFFFFF" stroke="#137FA8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 -12)"/>
+
+  <!-- Small hand-drawn motion marks -->
+  <g stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.9">
+    <path d="M24 83L33 83"/>
+    <path d="M27 89L35 89"/>
+    <path d="M54 58L61 58"/>
+  </g>
+
+  <!-- Subtle migration direction accents -->
+  <g stroke="#F4B400" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M114 96L121 91"/>
+    <path d="M117 103L124 101"/>
+  </g>
+
+  <!-- Loose sketchnote underline -->
+  <path d="M31 114            Q61 119 94 114" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="15 5 7 5" opacity="0.65"/>
+
+</svg>

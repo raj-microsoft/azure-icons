@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Data Box (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure cloud with a cyan inner cloud
+    and bidirectional data-transfer arrows.
+    Original Azure blue and cyan palette,
+    uneven marker outlines, yellow sketch accents,
+    and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="azureCloud" x1="28" y1="18" x2="104" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.65" stop-color="#208DDC"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="cyanCloud" x1="23" y1="53" x2="70" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86F1FF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn Azure cloud -->
+  <path d="     M35 94     C21 96 11 87 11 74     C10 61 19 51 32 49     C36 30 51 20 68 21     C85 21 97 32 99 47     C113 48 122 59 121 72     C121 86 111 94 98 95     Z" fill="url(#azureCloud)" stroke="#19548B" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Uneven sketch contour -->
+  <path d="     M17 61 Q22 53 32 52     M39 39 Q50 23 66 25     M84 28 Q95 35 96 48     M108 54 Q119 61 117 73" stroke="#B5E4FF" stroke-width="2.2" stroke-linecap="round" opacity="0.82"/>
+
+  <!-- Cyan inner cloud, preserving original silhouette -->
+  <path d="     M67 94     L35 94     C23 94 16 85 16 74     C16 63 25 55 35 55     C39 43 49 38 58 41     C68 44 73 52 73 62     C73 68 71 72 67 76     Z" fill="url(#cyanCloud)" stroke="#087CB2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Inner cloud marker highlights -->
+  <path d="     M25 68 Q28 61 37 60     M43 50 Q52 43 61 49" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Upward transfer arrow: white like original -->
+  <path d="     M57 79     L69 67     Q70 66 71 67     L83 79     L75 79     L75 97     L65 97     L65 79     Z" fill="#FFFFFF" stroke="#19548B" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Hand-drawn arrow interior -->
+  <path d="M70 91 L70 78" stroke="#66C8F4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Downward transfer arrow -->
+  <path d="     M65 96     L75 96     L75 108     L83 108     L70 121     L57 108     L65 108     Z" fill="#0078D4" stroke="#174E86" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Downward arrow sketch highlight -->
+  <path d="M70 101 L70 112" stroke="#91DCFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 101 L100 97"/>
+    <path d="M95 109 L105 109"/>
+    <path d="M91 116 L98 121"/>
+    <path d="M9 44 L16 49"/>
+    <path d="M17 35 L20 43"/>
+  </g>
+
+  <!-- Small marker-style data motion strokes -->
+  <g stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.75">
+    <path d="M89 63 L96 63"/>
+    <path d="M91 69 L101 69"/>
+    <path d="M89 75 L95 75"/>
+  </g>
+
+  <!-- Deliberately imperfect sketch dots -->
+  <circle cx="106" cy="37" r="2.3" fill="#F4C542"/>
+  <circle cx="113" cy="32" r="1.5" fill="#F4C542"/>
+  <circle cx="24" cy="105" r="2" fill="#50E6FF"/>
+</svg>

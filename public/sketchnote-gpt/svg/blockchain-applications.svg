@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Blockchain Applications (sketch)</title>
+  
+  <desc>
+    Hand-drawn isometric purple blockchain cube with a white
+    upward arrow and an overlapping cyan application code panel.
+    Uneven marker outlines, original Azure-inspired colors,
+    subtle yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="appCyan" x1="40" y1="83" x2="87" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".55" stop-color="#3CCBE8"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="40" y1="9" x2="87" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C5ABFF"/>
+      <stop offset="1" stop-color="#B796F9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Isometric blockchain cube: top face -->
+  <path d="M18 31            Q18 29 21 28            L62 5            Q64 4 67 6            L109 29            Q112 31 109 33            L66 58            Q64 59 61 57            Z" fill="url(#cubeTop)" stroke="#6633B9" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Left cube face -->
+  <path d="M18 31            Q19 48 18 68            L19 82            Q19 84 22 86            L63 109            L64 57            Z" fill="#A67AF4" stroke="#6633B9" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Right cube face -->
+  <path d="M64 57            L110 31            Q109 55 110 80            Q110 83 107 85            L64 109            Z" fill="#773ADC" stroke="#5426A5" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Loose marker strokes along cube edges -->
+  <path d="M24 29 L61 9            M70 10 L104 29" stroke="#E2D3FF" stroke-width="2.1" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M23 40            Q24 57 23 72            M104 43            Q105 59 104 72" stroke="#E1CCFF" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Central upward application/deployment arrow -->
+  <path d="M44 68            Q42 68 44 65            L61 47            Q64 44 67 47            L85 65            Q88 69 83 69            L74 69            L74 86            Q74 89 71 89            L57 89            Q54 89 54 86            L54 69            Z" fill="#FFFFFF" stroke="#6032AA" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Arrow marker detailing -->
+  <path d="M49 65 L63 51            M60 83 L60 72" stroke="#D9C5FA" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Cyan application/code panel -->
+  <path d="M40 84            Q40 81 44 81            L85 80            Q90 80 90 85            L91 119            Q91 123 87 123            L43 124            Q39 124 39 120            Z" fill="url(#appCyan)" stroke="#087FAD" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Slightly offset hand-drawn border -->
+  <path d="M44 85            Q62 84 85 84            M44 119            Q62 120 85 119" stroke="#B1F5FF" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Left code bracket -->
+  <path d="M57 94            L48 102            Q47 103 49 105            L57 112" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right code bracket -->
+  <path d="M72 94            L81 102            Q83 104 81 105            L72 112" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle handwritten slash inside code -->
+  <path d="M68 93            Q65 102 61 113" stroke="#EFFFFF" stroke-width="2.7" stroke-linecap="round" opacity=".95"/>
+
+  <!-- Small yellow sketchnote accents -->
+  <path d="M112 16 L115 10            M118 21 L124 19            M113 25 L118 29" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M11 96 L6 101            M16 101 L13 108" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Hand-drawn sparkle -->
+  <path d="M28 11 L29 17            M25 14 L33 14" stroke="#F4C542" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Loose annotation marks -->
+  <path d="M96 103            Q105 101 110 96            M105 106 L111 109" stroke="#087FAD" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Tiny marker dots -->
+  <circle cx="116" cy="36" r="2" fill="#F4C542"/>
+  <circle cx="14" cy="20" r="1.8" fill="#32BEDD"/>
+  <circle cx="103" cy="116" r="1.8" fill="#773ADC"/>
+</svg>

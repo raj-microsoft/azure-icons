@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Foundry Labs (sketch)</title>
+  
+  <desc>Three curved violet ribbons arranged in a triangular swirl around a central hexagon, preserving the Foundry Labs symbol with expressive marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7274FF"/>
+      <stop offset="1" stop-color="#4F42FD"/>
+    </linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#2C08AC"/>
+    </linearGradient>
+    <linearGradient id="bright" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#7274FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left sweeping ribbon -->
+  <path d="M12 36            Q9 27 20 20            L49 5            Q58 0 66 5            L78 12            Q84 16 80 22            Q78 25 74 25            L48 24            Q42 24 39 30            L31 43            Q27 51 20 53            Q14 53 13 46Z" fill="url(#violet)" stroke="#3120A6" stroke-width="3.5"/>
+
+  <!-- Upper folded section -->
+  <path d="M20 20            L49 5            Q58 0 66 5            L78 12            Q84 16 80 22            Q77 26 72 25            L47 24            Q42 24 39 30            L33 40            Q39 24 51 17            Q63 12 76 19" fill="url(#indigo)" stroke="#2C08AC" stroke-width="2.5"/>
+
+  <!-- Left descending ribbon -->
+  <path d="M12 36            Q10 29 17 25            Q19 24 20 29            L23 57            Q24 66 29 73            L44 98            Q47 103 54 103            L59 103            L59 121            L25 101            Q14 95 12 83            L8 47            Q7 40 12 36Z" fill="url(#bright)" stroke="#3928B8" stroke-width="3.5"/>
+
+  <!-- Lower-left folded ribbon -->
+  <path d="M23 70            Q28 80 34 90            L43 105            Q47 112 56 112            L60 112            L60 122            L25 102            Q15 96 12 85            L10 73            Q14 77 19 74Z" fill="url(#indigo)" stroke="#2C08AC" stroke-width="3"/>
+
+  <!-- Bottom sweeping ribbon -->
+  <path d="M20 101            Q16 96 15 89            Q22 103 38 105            L65 106            Q81 106 99 102            Q105 101 110 104            Q113 108 108 112            L83 126            Q76 130 69 125            L26 103Z" fill="url(#violet)" stroke="#3928B8" stroke-width="3.5"/>
+
+  <!-- Right descending ribbon -->
+  <path d="M91 25            L115 36            Q124 41 123 51            L120 85            Q119 96 110 102            L101 108            Q94 113 89 108            Q85 105 89 99            L103 76            Q107 69 107 62            Q105 53 101 46            L89 29            Q87 25 91 25Z" fill="url(#bright)" stroke="#3928B8" stroke-width="3.5"/>
+
+  <!-- Right folded section -->
+  <path d="M104 47            Q111 56 111 65            Q111 75 106 84            L96 102            Q93 108 99 110            Q104 111 110 104            L118 94            Q122 87 122 77            L123 51            Q124 43 117 38            L103 31Z" fill="url(#indigo)" stroke="#2C08AC" stroke-width="2.8"/>
+
+  <!-- Upper-right angled ribbon -->
+  <path d="M91 25            L115 36            Q123 40 123 49            L122 58            Q120 55 117 51            L97 43            Q91 40 87 33            L80 23            Q78 20 82 19            Q87 19 91 25Z" fill="url(#violet)" stroke="#3928B8" stroke-width="3"/>
+
+  <!-- Central hexagonal Foundry core -->
+  <path d="M54 46            Q55 44 58 44            L74 44            Q77 44 79 47            L88 62            Q90 65 88 68            L79 84            Q77 87 74 87            L57 87            Q54 87 52 84            L43 68            Q41 65 43 62Z" fill="url(#bright)" stroke="#2C08AC" stroke-width="4"/>
+
+  <!-- Inner hexagonal highlight -->
+  <path d="M56 51 L73 51 L81 65 L73 79 L57 79 L49 65Z" stroke="#A7A3FF" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Hand-drawn marker highlights -->
+  <g stroke="#B8B5FF" stroke-width="2.5" opacity=".9">
+    <path d="M20 31 Q18 40 21 50"/>
+    <path d="M27 78 Q32 88 39 96"/>
+    <path d="M42 109 Q57 113 72 111"/>
+    <path d="M110 46 Q117 52 117 61"/>
+    <path d="M110 78 Q108 88 102 96"/>
+    <path d="M37 18 L50 11"/>
+  </g>
+
+  <!-- Irregular marker reinforcement -->
+  <g stroke="#2C08AC" stroke-width="2" opacity=".65">
+    <path d="M16 58 L19 76"/>
+    <path d="M58 116 L73 117"/>
+    <path d="M94 34 L106 41"/>
+    <path d="M114 70 L112 82"/>
+  </g>
+
+  <!-- Restrained Azure-blue sketchnote accents -->
+  <g stroke="#5EA0EF" stroke-width="2.6">
+    <path d="M91 10 L96 6"/>
+    <path d="M99 15 L106 13"/>
+    <path d="M7 108 L12 112"/>
+  </g>
+
+  <!-- Yellow emphasis marks -->
+  <g stroke="#FFCB3D" stroke-width="3">
+    <path d="M6 18 L11 14"/>
+    <path d="M13 11 L16 6"/>
+    <path d="M115 113 L120 117"/>
+    <path d="M109 120 L112 125"/>
+  </g>
+
+  <!-- Tiny hand-drawn core spark -->
+  <g stroke="#FFCB3D" stroke-width="2.4">
+    <path d="M65 56 L65 61"/>
+    <path d="M62.5 58.5 L67.5 58.5"/>
+  </g>
+</svg>

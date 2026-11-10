@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Azure Machine Learning (sketch)</title>
+  
+  <desc id="desc">Hand-drawn sketchnote illustration of the Azure Machine Learning icon using purple gradients with subtle Azure-blue and yellow accent marks.</desc>
+
+  <defs>
+    <linearGradient id="gTop" x1="64" y1="13" x2="64" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#7274FF"/>
+    </linearGradient>
+    <linearGradient id="gLeft" x1="17" y1="90" x2="60" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#7274FF"/>
+    </linearGradient>
+    <linearGradient id="gRight" x1="68" y1="68" x2="112" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9189F7"/>
+      <stop offset="1" stop-color="#4135E9"/>
+    </linearGradient>
+    <linearGradient id="gCenter" x1="49" y1="55" x2="81" y2="73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7274FF"/>
+      <stop offset="1" stop-color="#4F42FD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- top arm -->
+  <path d="M56 17            H72            Q75 17 75 21            V43            Q75 52 80 61            L72 66            Q68 58 64 53            Q60 58 56 66            L48 61            Q53 52 53 43            V21            Q53 17 56 17Z" fill="url(#gTop)" stroke="#2C08AC" stroke-width="3.2"/>
+
+  <!-- left arm -->
+  <path d="M13 92            L21 78            Q23 75 26 77            L45 88            Q53 93 63 93            L63 103            Q53 103 45 108            L26 119            Q23 121 21 118            L13 105            Q11 102 14 100            L31 90            Q36 87 41 87            Q36 86 31 83            L14 73            Q11 71 13 68            L21 55            Q23 52 26 54            L45 65            Q53 70 63 70            V80            Q53 80 45 85            L26 96            Q23 98 21 95            Z" transform="translate(0 -8)" fill="url(#gLeft)" stroke="#3B20D6" stroke-width="3"/>
+
+  <!-- right arm -->
+  <path d="M115 84            L107 70            Q105 67 102 69            L83 80            Q75 85 65 85            V95            Q75 95 83 100            L102 111            Q105 113 107 110            L115 97            Q117 94 114 92            L97 82            Q92 79 87 79            Q92 78 97 75            L114 65            Q117 63 115 60            L107 47            Q105 44 102 46            L83 57            Q75 62 65 62            V72            Q75 72 83 77            L102 88            Q105 90 107 87            Z" transform="translate(0 0)" fill="url(#gRight)" stroke="#4135E9" stroke-width="3"/>
+
+  <!-- central hub -->
+  <path d="M64 51            C71 51 78 55 82 62            C78 69 71 73 64 73            C57 73 50 69 46 62            C50 55 57 51 64 51Z" fill="url(#gCenter)" stroke="#2C08AC" stroke-width="3.2"/>
+
+  <!-- inner hand-drawn seams -->
+  <g stroke="#D8D5FF" stroke-width="2" opacity=".75">
+    <path d="M58 25 V41"/>
+    <path d="M70 24 V40"/>
+    <path d="M26 72 L41 80"/>
+    <path d="M24 86 L40 95"/>
+    <path d="M102 63 L87 72"/>
+    <path d="M101 78 L86 87"/>
+  </g>
+
+  <!-- center scribble -->
+  <g stroke="#F4F3FF" stroke-width="2.1" opacity=".9">
+    <path d="M56 61 Q64 56 72 61"/>
+    <path d="M56 64 Q64 69 72 64"/>
+  </g>
+
+  <!-- subtle uneven marker echo lines -->
+  <g stroke="#6F63FF" stroke-width="1.6" opacity=".7">
+    <path d="M52 20 H58"/>
+    <path d="M76 28 V34"/>
+    <path d="M21 66 L27 69"/>
+    <path d="M19 95 L25 91"/>
+    <path d="M103 51 L98 54"/>
+    <path d="M110 92 L104 89"/>
+  </g>
+
+  <!-- restrained Azure-blue accent marks -->
+  <g stroke="#0078D4" stroke-width="2.4">
+    <path d="M83 22 L88 18"/>
+    <path d="M89 28 L95 26"/>
+    <path d="M18 42 L14 37"/>
+    <path d="M12 48 L8 47"/>
+  </g>
+
+  <!-- restrained yellow accent marks -->
+  <g stroke="#FFCC4D" stroke-width="2.4">
+    <path d="M96 101 L101 106"/>
+    <path d="M90 106 L94 112"/>
+    <path d="M44 111 L39 116"/>
+    <path d="M50 115 L48 121"/>
+  </g>
+
+  <!-- tiny sparkle -->
+  <g stroke="#FFCC4D" stroke-width="2">
+    <path d="M101 14 V22"/>
+    <path d="M97 18 H105"/>
+  </g>
+</svg>

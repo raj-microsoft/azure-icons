@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Content Moderators (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure Content Moderators monitor with three
+    vertical review panels, two approved checkmarks, and
+    one amber warning panel. Original Azure-blue, orange,
+    white, and grey palette with irregular marker outlines,
+    subtle yellow highlights, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="screenBlue" x1="20" y1="12" x2="100" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.55" stop-color="#378FE4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="standGrey" x1="64" y1="91" x2="64" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="0.55" stop-color="#A3A3A3"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+
+    <linearGradient id="warningOrange" x1="88" y1="25" x2="111" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD45A"/>
+      <stop offset="0.45" stop-color="#FAA21D"/>
+      <stop offset="1" stop-color="#E88D12"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main monitor silhouette -->
+  <path d="M10 10            Q10 7 15 7            L113 8            Q118 8 119 13            L119 90            Q119 95 114 95            L14 95            Q9 95 9 90            Z" fill="url(#screenBlue)" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven monitor highlight -->
+  <path d="M16 18            L16 86            M19 13 Q56 12 108 14" stroke="#B9E1FF" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Lower monitor edge -->
+  <path d="M15 89            Q64 91 113 89" stroke="#005BA1" stroke-width="2.2" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- First content review panel -->
+  <path d="M22 23            Q22 21 25 21            L43 22            Q45 22 45 25            L45 80            Q45 83 42 83            L25 83            Q22 83 22 80Z" fill="#FFFFFF" fill-opacity="0.3" stroke="#E6F5FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Second content review panel -->
+  <path d="M54 23            Q54 21 57 21            L75 22            Q78 22 78 25            L78 80            Q78 83 75 83            L57 83            Q54 83 54 80Z" fill="#FFFFFF" fill-opacity="0.3" stroke="#E6F5FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Third content review: warning panel -->
+  <path d="M88 23            Q88 21 91 21            L109 22            Q112 22 112 25            L112 80            Q112 83 109 83            L91 83            Q88 83 88 80Z" fill="url(#warningOrange)" stroke="#C7790B" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle panel sketch highlights -->
+  <g stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.55">
+    <path d="M26 28 L26 74"/>
+    <path d="M58 28 L58 74"/>
+    <path d="M92 28 L92 69"/>
+  </g>
+
+  <!-- First approved content check -->
+  <path d="M27 54            Q31 58 34 62            Q40 52 43 48" stroke="#FFFFFF" stroke-width="5.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Second approved content check -->
+  <path d="M59 54            Q63 58 66 62            Q72 52 76 47" stroke="#FFFFFF" stroke-width="5.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Fine marker accents on checks -->
+  <path d="M28 52 L34 59 L42 47            M60 52 L66 59 L75 46" stroke="#DFF4FF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Warning exclamation mark -->
+  <path d="M97 37            Q97 35 100 35            L102 35            Q104 35 104 38            L103 59            Q103 62 100 62            Q97 62 97 59Z" fill="#FFFFFF" stroke="#D88A11" stroke-width="1.3" stroke-linejoin="round"/>
+
+  <path d="M100 67            C104 67 106 70 106 73            C106 77 103 79 100 79            C96 79 94 76 94 73            C94 70 97 67 100 67Z" fill="#FFFFFF" stroke="#D88A11" stroke-width="1.2"/>
+
+  <!-- Small handwritten-style review accents -->
+  <path d="M27 73 Q33 75 40 73            M59 73 Q66 75 73 73" stroke="#D7F0FF" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Monitor stand neck -->
+  <path d="M52 95            L76 95            C76 105 77 113 81 116            L47 116            C51 113 52 105 52 95Z" fill="url(#standGrey)" stroke="#707070" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Stand base -->
+  <path d="M46 115            Q41 116 39 121            Q38 124 42 125            L86 125            Q90 124 89 121            Q87 116 82 115Z" fill="#CCCCCC" stroke="#707070" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Stand sketch highlight -->
+  <path d="M57 99 L57 110            M47 120 Q64 118 80 120" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Small yellow sketchnote emphasis -->
+  <g stroke="#FFD45A" stroke-width="2.7" stroke-linecap="round">
+    <path d="M103 5 L105 1"/>
+    <path d="M113 5 L118 2"/>
+    <path d="M122 21 L126 19"/>
+  </g>
+
+  <!-- Restrained Azure-blue outer annotation strokes -->
+  <g stroke="#0078D4" stroke-width="2.3" stroke-linecap="round" opacity="0.8">
+    <path d="M4 34 L2 39"/>
+    <path d="M4 46 L1 48"/>
+    <path d="M122 72 L126 75"/>
+  </g>
+
+</svg>

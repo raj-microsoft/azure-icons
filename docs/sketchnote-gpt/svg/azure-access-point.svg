@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Access Point (sketch)</title>
+
+  
+  <desc>
+    Two overlapping Azure-blue and cyan clouds above three
+    stacked diamond-shaped access layers in orange, green,
+    and purple, connected by grey curved paths.
+    Hand-drawn marker outlines and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="azureCloud" x1="16" y1="8" x2="76" y2="67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="cyanCloud" x1="49" y1="26" x2="115" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#36DFF1"/>
+      <stop offset="1" stop-color="#119FC5"/>
+    </linearGradient>
+
+    <linearGradient id="connectorGrey" x1="0" y1="40" x2="0" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFBFBF"/>
+      <stop offset="1" stop-color="#E0E0E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Azure cloud silhouette -->
+  <path d="M30 65        C18 65 10 56 11 45        C11 34 19 26 30 25        C33 13 43 7 54 8        C68 8 76 18 77 31        C86 35 91 42 90 51        C89 60 81 65 71 65Z" fill="url(#azureCloud)" stroke="#0067B8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Organic cloud highlight -->
+  <path d="M18 43        C20 36 26 32 35 32        C38 20 46 15 55 16" stroke="#A8D9FF" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Right cyan cloud silhouette -->
+  <path d="M56 81        C45 81 38 72 39 62        C39 52 46 44 56 43        C60 30 70 23 83 24        C97 24 106 34 107 46        C116 49 121 56 120 65        C120 75 113 81 103 81Z" fill="url(#cyanCloud)" stroke="#087FA8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan cloud marker highlight -->
+  <path d="M46 60        C48 53 53 49 61 49        C65 37 73 31 84 32" stroke="#BDF6FF" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Cloud sketch details -->
+  <path d="M96 35 L101 39        M105 43 L110 45" stroke="#79E9F6" stroke-width="1.9" stroke-linecap="round"/>
+
+  <!-- Left descending access connection -->
+  <path d="M24 65        L24 86        C24 97 33 105 45 105        L53 105" stroke="url(#connectorGrey)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M26 69        L26 86        C26 96 35 102 45 102" stroke="#F2F2F2" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Right descending access connection -->
+  <path d="M108 82        L108 88        C108 98 100 105 89 105        L82 105" stroke="url(#connectorGrey)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M110 84        L110 89        C110 99 102 108 92 108" stroke="#E8E8E8" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Bottom purple access layer -->
+  <path d="M43 105        L63 93        Q65 92 67 93        L89 106        Q91 108 88 110        L68 122        Q65 124 62 122        L42 110        Q39 108 43 105Z" fill="#A67AF4" stroke="#773ADC" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Purple layer inner diamond -->
+  <path d="M51 107        L65 99        L80 108        L65 116Z" fill="#FFFFFF" stroke="#8E5BE5" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <!-- Purple side sketch strokes -->
+  <path d="M46 110 L62 119        M70 119 L85 110" stroke="#D7B9FF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Middle green access layer -->
+  <path d="M43 92        L63 80        Q65 79 67 80        L89 93        Q91 95 88 97        L68 109        Q65 111 62 109        L42 97        Q39 95 43 92Z" fill="#76BC2D" fill-opacity="0.88" stroke="#568C20" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Green layer white inset -->
+  <path d="M51 94        L65 86        L80 95        L65 103Z" fill="#FFFFFF" stroke="#76BC2D" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Top orange access layer -->
+  <path d="M43 79        L63 67        Q65 66 67 67        L89 80        Q91 82 88 84        L68 96        Q65 98 62 96        L42 84        Q39 82 43 79Z" fill="#F78D1E" fill-opacity="0.82" stroke="#D77712" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Orange layer inner diamond -->
+  <path d="M51 81        L65 73        L80 82        L65 90Z" fill="#FFF4E7" stroke="#F6B064" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Stacked layer alignment accents -->
+  <path d="M65 91 L65 96        M65 104 L65 109        M65 117 L65 121" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Sketchnote-style yellow emphasis -->
+  <path d="M95 88 L100 85        M96 94 L103 92" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M31 78 L35 74        M33 84 L39 81" stroke="#F4C542" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Subtle handwritten marker flourishes -->
+  <path d="M14 20 L18 16        M22 17 L24 12" stroke="#5EA0EF" stroke-width="2.1" stroke-linecap="round"/>
+
+  <path d="M110 20 L115 17        M115 27 L121 25" stroke="#36DFF1" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

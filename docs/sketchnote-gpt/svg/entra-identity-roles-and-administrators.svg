@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Entra Identity Roles and Administrators (sketch)</title>
+  
+  <desc>Hand-drawn green administrator identity with a white collar and a cyan three-dimensional role cube, preserving the original Azure icon colours and symbolism.</desc>
+
+  <defs>
+    <linearGradient id="adminGreen" x1="55" y1="38" x2="55" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B4EC36"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+    <linearGradient id="headGreen" x1="54" y1="8" x2="54" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B4EC36"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Administrator body -->
+  <path d="M56 57            C82 57 99 74 104 99            Q106 106 107 112            Q108 120 100 121            L12 121            Q4 120 6 112            C10 79 27 57 56 57Z" fill="url(#adminGreen)" stroke="#477B1C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White identity collar -->
+  <path d="M39 61            Q56 73 73 61            L57 104            Q56 107 54 103            Z" fill="#FFFFFF" opacity="0.92"/>
+
+  <!-- Collar marker outlines -->
+  <path d="M40 64 L54 78            M72 64 L58 78" stroke="#E5FFC0" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Administrator head -->
+  <path d="M56 9            C74 8 87 22 87 40            C87 58 73 71 56 71            C38 71 25 57 25 40            C25 23 38 9 56 9Z" fill="url(#headGreen)" stroke="#477B1C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn head highlight -->
+  <path d="M34 34 Q37 20 53 16" stroke="#E4FFA5" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Loose marker strokes -->
+  <path d="M17 99 Q22 80 35 71" stroke="#D5FA88" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M76 73 Q91 87 95 103" stroke="#477B1C" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Three-dimensional role cube: top -->
+  <path d="M99 65            L122 78            L99 92            L76 78            Z" fill="#9CEBFF" stroke="#168FAD" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cube left face -->
+  <path d="M76 78            L99 92            L99 120            L76 107            Z" fill="#50E6FF" stroke="#168FAD" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cube right face -->
+  <path d="M99 92            L122 78            L122 107            L99 120            Z" fill="#32BEDD" stroke="#168FAD" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Hand-drawn cube edge highlights -->
+  <path d="M82 78 L99 69 L115 78" stroke="#E5FAFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+
+  <path d="M81 86 L81 102" stroke="#D1F8FF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M116 86 L116 103" stroke="#007C9D" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Sketchy cube construction lines -->
+  <path d="M99 94 L99 116" stroke="#D1F8FF" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 4" opacity="0.8"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M111 52 L116 46" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M120 60 L126 57" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M17 18 L12 13" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M14 27 L8 25" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M105 13 L105 21            M101 17 L109 17" stroke="#F4C542" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Loose baseline sketch -->
+  <path d="M15 125 Q42 127 68 125" stroke="#93CF41" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

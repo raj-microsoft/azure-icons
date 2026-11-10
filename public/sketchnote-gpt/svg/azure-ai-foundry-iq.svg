@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Azure AI Foundry IQ (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure AI Foundry IQ icon with four interlocking
+    violet ribbon corners, a distinctive square spiral opening,
+    uneven marker outlines, and subtle cyan and yellow accents.
+    Transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="iqViolet" x1="20" y1="12" x2="108" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7274FF"/>
+      <stop offset=".55" stop-color="#605BFF"/>
+      <stop offset="1" stop-color="#4F42FD"/>
+    </linearGradient>
+
+    <linearGradient id="iqDeep" x1="30" y1="24" x2="100" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F42FD"/>
+      <stop offset="1" stop-color="#2C08AC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-right ribbon: outer corner -->
+  <path d="     M56 5     Q57 3 61 3     L93 3     Q98 3 102 7     L109 14     Q111 16 109 18     L97 30     Q95 32 93 30     L82 19     Q74 10 64 8     Q60 7 56 7Z" fill="url(#iqViolet)" stroke="#4537D6" stroke-width="2.6"/>
+
+  <!-- Upper-left ribbon folding inward -->
+  <path d="     M20 14     L27 7     Q31 3 36 3     L55 3     Q66 3 73 10     L80 17     Q83 20 80 23     L75 28     Q73 30 73 34     L73 45     Q73 48 70 48     L54 48     Q51 48 51 45     L51 18     Q51 15 48 15     Q46 15 44 17     L34 27     Q32 29 30 27     L19 17     Q17 16 20 14Z" fill="url(#iqDeep)" stroke="#3720B8" stroke-width="2.7"/>
+
+  <!-- Left-upper outward ribbon -->
+  <path d="     M14 20     Q17 17 20 20     L31 31     Q33 33 31 35     L22 44     Q10 55 8 65     Q7 69 7 73     L5 73     L5 36     Q5 31 9 27Z" fill="url(#iqViolet)" stroke="#4537D6" stroke-width="2.7"/>
+
+  <!-- Left-lower ribbon turning toward centre -->
+  <path d="     M8 65     Q10 57 17 50     L21 46     Q23 44 25 47     L30 52     Q32 54 36 54     L45 54     Q48 54 48 57     L48 72     Q48 75 45 75     L18 75     Q15 75 15 78     Q15 80 17 82     L27 92     Q29 94 27 96     L16 109     Q14 111 12 109     L8 105     Q4 101 4 96     L4 73     Q4 69 8 65Z" fill="url(#iqDeep)" stroke="#3720B8" stroke-width="2.7"/>
+
+  <!-- Lower-left outer ribbon -->
+  <path d="     M19 98     Q21 96 23 98     L34 109     Q45 120 56 121     Q63 123 72 123     L72 125     L36 125     Q31 125 27 121     L19 113     Q17 111 19 109Z" fill="url(#iqViolet)" stroke="#4537D6" stroke-width="2.7"/>
+
+  <!-- Lower-right ribbon folding inward -->
+  <path d="     M30 97     Q32 95 34 97     L44 107     Q46 109 49 109     Q52 109 52 106     L52 83     Q52 80 55 80     L72 80     Q75 80 75 83     L75 110     Q75 113 78 113     Q80 113 82 111     L93 100     Q95 98 97 100     L109 111     Q111 113 109 115     L102 122     Q98 125 93 125     L72 125     Q60 125 52 118     L44 110Z" fill="url(#iqDeep)" stroke="#3720B8" stroke-width="2.7"/>
+
+  <!-- Right-lower outward ribbon -->
+  <path d="     M109 109     Q107 107 109 105     L118 96     Q120 94 120 91     L120 55     L123 55     L123 92     Q123 98 119 102     L112 109     Q110 111 109 109Z" fill="url(#iqViolet)" stroke="#4537D6" stroke-width="2.7"/>
+
+  <!-- Right-upper ribbon turning inward -->
+  <path d="     M111 19     L119 27     Q123 31 123 36     L123 56     Q123 67 116 74     L109 81     Q106 84 103 81     L98 76     Q96 74 93 74     L83 74     Q80 74 80 71     L80 55     Q80 52 83 52     L110 52     Q113 52 113 49     Q113 47 111 45     L101 35     Q99 33 101 31     L112 19     Q114 17 116 19Z" fill="url(#iqDeep)" stroke="#3720B8" stroke-width="2.7"/>
+
+  <!-- Marker highlights along purple ribbons -->
+  <path d="     M63 7 Q80 6 94 9     M11 36 Q9 48 9 58     M8 86 Q8 98 15 104     M37 120 Q49 124 60 124     M117 87 Q121 76 120 66     M116 34 Q120 39 120 44" stroke="#B6B0FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Hand-drawn inner folding details -->
+  <path d="     M53 20 L53 43     M22 72 L43 72     M73 87 L73 107     M85 54 L106 54" stroke="#A39AFF" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Short irregular violet crease lines -->
+  <path d="     M31 31 L38 24     M31 97 L39 105     M97 97 L89 105     M97 31 L89 23" stroke="#2C08AC" stroke-width="2" opacity=".7"/>
+
+  <!-- Restrained Azure-blue sketchnote ticks -->
+  <path d="     M24 5 L20 1     M3 82 L1 88     M105 123 L110 127" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Subtle yellow insight sparkle -->
+  <path d="     M64 57 L64 69     M58 63 L70 63" stroke="#F7C64A" stroke-width="3" opacity=".95"/>
+
+  <!-- Tiny hand-drawn surrounding marks -->
+  <path d="     M108 5 L113 2     M125 105 L127 110     M5 116 L2 121" stroke="#F7C64A" stroke-width="2.5"/>
+
+</svg>

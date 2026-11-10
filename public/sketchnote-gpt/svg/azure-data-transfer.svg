@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Data Transfer (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Data Transfer icon featuring a cyan
+    protective shield, overlapping Azure-blue cloud, and
+    opposing data-transfer arrows. Original blue and cyan
+    palette, irregular marker contours, subtle yellow
+    highlights, and transparent background.
+    Standalone editable vector illustration.
+  </desc>
+
+  <defs>
+    <linearGradient id="transferShield" x1="12" y1="55" x2="62" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16BBDA"/>
+      <stop offset=".55" stop-color="#109BC5"/>
+      <stop offset="1" stop-color="#0C74A1"/>
+    </linearGradient>
+
+    <linearGradient id="transferCloud" x1="46" y1="30" x2="115" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="transferCloudLight" x1="61" y1="38" x2="122" y2="83" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#29C3FF"/>
+      <stop offset=".45" stop-color="#79DEFF"/>
+      <stop offset="1" stop-color="#9DEAFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear Azure cloud silhouette -->
+  <path d="     M 22 63     C 22 48 33 36 47 34     C 52 18 67 10 82 12     C 99 13 110 27 111 43     C 120 45 125 53 125 62     C 125 73 116 82 104 82     L 62 82     C 54 82 48 79 44 74     Z" fill="url(#transferCloud)" stroke="#075A9E" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Foreground cloud: luminous cyan lobe -->
+  <path d="     M 65 45     C 68 31 81 22 95 27     C 106 30 113 39 114 49     C 123 51 125 58 124 65     C 123 74 115 81 104 81     L 63 81     C 54 81 48 74 48 65     C 48 55 55 47 65 45     Z" fill="url(#transferCloudLight)" stroke="#168CB8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cloud sketchnote highlights -->
+  <path d="     M 68 39     Q 75 27 88 29     M 100 32     Q 108 37 109 46     M 115 55     Q 121 60 118 67" stroke="#E0FAFF" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Azure cloud secondary marker contour -->
+  <path d="     M 44 29     Q 58 10 76 9     M 95 13     Q 111 22 114 39" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="16 5 7 5" opacity=".7"/>
+
+  <!-- Main protective shield -->
+  <path d="     M 5 57     Q 5 53 10 53     C 23 53 35 49 47 40     Q 50 38 53 40     C 65 49 77 53 90 53     Q 95 53 95 58     L 95 78     C 95 98 81 113 52 124     Q 50 125 47 124     C 18 113 5 98 5 78     Z" fill="url(#transferShield)" stroke="#08618C" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Shield upper edge marker -->
+  <path d="     M 12 60     Q 30 60 49 47     Q 66 60 87 60" stroke="#A4F0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Shield side highlight -->
+  <path d="     M 12 68     L 12 78     Q 13 96 30 107" stroke="#75E7F8" stroke-width="2.8" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Shield bottom contour -->
+  <path d="     M 22 110     Q 35 119 49 126     Q 66 120 79 110" stroke="#0A719E" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="13 5 8 5" opacity=".7"/>
+
+  <!-- Left-pointing white transfer arrow -->
+  <path d="     M 52 69     L 41 82     L 52 95     L 52 87     L 69 87     L 69 77     L 52 77     Z" fill="#FFFFFF" stroke="#075A9E" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Left arrow sketch highlight -->
+  <path d="     M 47 82     L 54 82     M 58 82     L 65 82" stroke="#A8E9FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Right-pointing dark Azure transfer arrow -->
+  <path d="     M 78 66     L 90 79     L 78 92     L 78 84     L 60 84     L 60 74     L 78 74     Z" fill="#005BA1" stroke="#053E71" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Right arrow marker highlight -->
+  <path d="     M 65 78     L 81 78     M 82 73     L 87 79" stroke="#74CFFF" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Hand-drawn movement dashes -->
+  <path d="     M 35 75     L 29 75     M 33 82     L 25 82     M 96 86     L 102 86" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Small yellow data-transfer sparks -->
+  <path d="     M 101 90     L 105 85     M 105 94     L 111 94     M 32 40     L 36 35     M 27 37     L 31 35" stroke="#F3B82D" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Sketch annotation curves -->
+  <path d="     M 104 103     Q 113 97 115 88     M 19 46     Q 25 39 32 37" stroke="#159DCE" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 5" opacity=".8"/>
+
+</svg>

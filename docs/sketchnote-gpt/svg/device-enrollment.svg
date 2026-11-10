@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Device Enrollment (sketch)</title>
+  
+  <desc>Hand-drawn Azure device enrollment icon featuring a desktop monitor, overlapping mobile device, and green enrollment plus symbol. Original Azure blue, pale cyan, and green palette with subtle yellow accents and transparent background.</desc>
+
+  <defs>
+    <linearGradient id="screen" x1="12" y1="18" x2="93" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0FFFD"/>
+      <stop offset="1" stop-color="#D2EBFF"/>
+    </linearGradient>
+    <linearGradient id="phoneBlue" x1="99" y1="29" x2="99" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#3990E4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="99" y1="39" x2="99" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0FFFD"/>
+      <stop offset="1" stop-color="#D2EBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Desktop display outer frame -->
+  <path d="M8 12            Q8 8 13 8            L108 9            Q112 9 112 14            L112 88            Q112 92 107 92            L13 92            Q8 92 8 87 Z" fill="#0078D4" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pale cyan desktop screen -->
+  <path d="M15 18            Q15 16 18 16            L102 17            Q105 17 105 20            L104 82            Q104 85 101 85            L18 85            Q15 85 15 82 Z" fill="url(#screen)" stroke="#5EA0EF" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Screen reflection -->
+  <path d="M21 26            Q20 39 21 52            M25 22 L48 22" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Small display indicator -->
+  <path d="M54 12 L65 12.5" stroke="#F2F2F2" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Mobile device overlapping desktop -->
+  <path d="M77 30            Q77 27 81 27            L117 28            Q121 28 121 32            L121 115            Q121 120 117 120            L81 120            Q77 120 77 116 Z" fill="url(#phoneBlue)" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Mobile screen -->
+  <path d="M83 39            Q83 37 85 37            L113 38            Q115 38 115 40            L115 107            Q115 109 113 109            L85 109            Q83 109 83 107 Z" fill="url(#phoneScreen)" stroke="#5EA0EF" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <!-- Mobile earpiece -->
+  <path d="M94 33 L104 33.5" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Mobile home indicator -->
+  <path d="M96 115            Q99 114 102 115" stroke="#F2F2F2" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- Enrollment badge -->
+  <path d="M48 59            C65 59 78 72 78 89            C78 106 65 119 48 119            C31 119 18 106 18 89            C18 72 31 59 48 59 Z" fill="#76BC2D" stroke="#4F8F1D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn badge highlight -->
+  <path d="M29 76            Q35 65 47 65" stroke="#B9E981" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- White enrollment plus -->
+  <path d="M48 73            Q49 73 49 76            L49 87            L61 87            Q64 87 64 90            Q64 93 61 93            L49 93            L49 105            Q49 108 46 108            Q43 108 43 105            L43 93            L32 93            Q29 93 29 90            Q29 87 32 87            L43 87            L43 76            Q43 73 46 73 Z" fill="#FFFFFF" stroke="#F2F2F2" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M15 102 L10 106            M18 109 L14 115            M82 18 L86 13            M90 20 L96 16" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small marker details -->
+  <path d="M24 48 L33 48            M24 54 L29 54" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Bottom sketch accents -->
+  <path d="M27 123 Q48 126 68 123            M88 124 Q101 126 115 124" stroke="#A19F9D" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 5" opacity=".7"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure SQL (sketch)</title>
+  
+  <desc>Hand-drawn Azure SQL cloud with original blue gradient, bold white SQL lettering, irregular marker outlines and subtle yellow sketch accents. Transparent background.</desc>
+
+  <defs>
+    <linearGradient id="sqlBlue" x1="63" y1="17" x2="73" y2="109" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#83B9F9"/>
+      <stop offset=".3" stop-color="#5EA0EF"/>
+      <stop offset=".85" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main irregular Azure cloud silhouette -->
+  <path d="M34 108            C17 109 7 98 7 83            C6 68 16 55 31 52            C36 32 51 19 72 18            C93 17 108 32 110 51            C124 55 127 67 126 80            C125 96 115 107 101 108            Z" fill="url(#sqlBlue)" stroke="#1769AD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Deliberately uneven inner cloud highlight -->
+  <path d="M15 78            C16 66 24 59 36 58            C41 39 54 27 71 26            C86 25 99 35 103 50" stroke="#B9DDFF" stroke-width="3.2" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M113 61            Q122 69 119 82" stroke="#D1E9FF" stroke-width="2.5" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Small hand-drawn cloud contour detail -->
+  <path d="M27 64            Q33 60 39 61" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- SQL lettering: S -->
+  <path d="M48 65            C43 61 34 62 31 67            C27 73 33 78 40 81            C48 84 51 89 47 95            C43 101 34 101 28 96" stroke="#F2F2F2" stroke-width="6.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- SQL lettering: Q -->
+  <path d="M72 63            C60 62 55 71 55 81            C55 92 61 100 72 100            C83 100 88 92 88 81            C88 70 82 63 72 63Z" stroke="#F2F2F2" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Q diagonal tail -->
+  <path d="M77 93 L91 106" stroke="#F2F2F2" stroke-width="6.5" stroke-linecap="round"/>
+
+  <!-- SQL lettering: L -->
+  <path d="M99 65            L99 98            L117 98" stroke="#F2F2F2" stroke-width="6.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle marker highlights on lettering -->
+  <path d="M34 68 Q38 65 43 67" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M64 70 Q69 66 75 69" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M105 19 L108 10            M113 24 L121 19            M99 17 L95 11" stroke="#F5C84C" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small handwritten-style accent -->
+  <path d="M16 113            Q27 117 39 114" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M34 110            L40 114            L34 119" stroke="#F5C84C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketch underline -->
+  <path d="M57 117            Q77 120 99 116" stroke="#2A80C2" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+</svg>

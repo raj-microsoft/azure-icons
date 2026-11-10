@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>DNS Private Resolver (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure DNS Private Resolver icon featuring a blue
+    globe with latitude and longitude lines, a central keyhole,
+    and two cyan directional resolution arrows. Original Azure
+    blue and cyan palette with subtle yellow accents.
+    Transparent background and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="dnsGlobe" x1="37" y1="20" x2="91" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset=".55" stop-color="#0069BA"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main globe -->
+  <path d="     M64 17     C90 17 111 38 111 64     C111 90 90 111 64 111     C38 111 17 90 17 64     C17 38 38 17 64 17     Z" fill="url(#dnsGlobe)" stroke="#004B87" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Globe vertical longitude curves -->
+  <path d="     M64 20     C49 30 44 46 44 64     C44 82 50 98 64 108     M64 20     C79 30 84 46 84 64     C84 82 78 98 64 108" stroke="#5EA0EF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Globe central meridian -->
+  <path d="     M64 20     Q62 41 64 64     Q66 88 64 108" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5" opacity=".85"/>
+
+  <!-- Upper latitude -->
+  <path d="     M30 35     Q64 55 98 35" stroke="#5EA0EF" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Equatorial latitude -->
+  <path d="     M20 64     Q42 60 64 61     Q88 60 108 64" stroke="#5EA0EF" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Lower latitude -->
+  <path d="     M30 93     Q64 74 98 93" stroke="#5EA0EF" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Hand-drawn globe rim highlight -->
+  <path d="     M29 45     Q36 29 51 25     M91 88     Q84 101 73 105" stroke="#91D8FF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Private resolver keyhole -->
+  <path d="     M64 57     C69 57 73 61 73 66     C73 70 71 73 68 75     L73 89     Q74 92 71 92     L57 92     Q54 92 55 89     L60 75     C57 73 55 70 55 66     C55 61 59 57 64 57     Z" fill="#003067" stroke="#00264F" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Keyhole highlight -->
+  <path d="     M61 62     Q64 60 67 63" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Clockwise resolution arrow -->
+  <path d="     M103 27     C116 37 123 50 123 65     C123 85 113 103 99 114" stroke="#50E6FF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Arrowhead pointing toward upper right -->
+  <path d="     M96 30     L100 10     L120 14     L112 23     L103 33     Z" fill="#50E6FF" stroke="#0099BC" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Counterclockwise resolution arrow -->
+  <path d="     M25 101     C12 91 5 78 5 63     C5 43 15 25 29 14" stroke="#50E6FF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Lower directional arrowhead -->
+  <path d="     M32 98     L28 118     L8 114     L16 105     L25 95     Z" fill="#50E6FF" stroke="#0099BC" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn arrow highlights -->
+  <path d="     M115 45 Q119 53 119 60     M12 81 Q16 91 21 96" stroke="#C3F8FF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="     M112 101 L118 105     M108 108 L112 115     M40 12 L43 6" stroke="#F2C94C" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Small freehand annotation marks -->
+  <path d="     M36 118 Q50 122 61 120     M76 120 Q85 119 91 116" stroke="#5EA0EF" stroke-width="1.6" stroke-dasharray="4 5" stroke-linecap="round" opacity=".7"/>
+
+</svg>

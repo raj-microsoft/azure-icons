@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Diagnostics Settings (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn green diagnostics settings document with a
+    white heartbeat monitoring waveform. Preserves the original
+    layered document silhouette, green gradient, and diagnostic
+    symbolism with uneven marker outlines, subtle Azure-blue
+    and yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="diagnosticsGreen" x1="58" y1="16" x2="58" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset=".55" stop-color="#69A828"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear document layer -->
+  <path d="     M27 4     Q25 4 23 7     L13 17     L25 28     L99 122     L109 122     Q112 122 115 119     L123 112     Q125 110 125 106     L125 11     Q125 4 119 4     Z" fill="#5E9624" stroke="#477B1B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Folded paper backing -->
+  <path d="     M22 17     L30 10     Q32 8 35 8     L115 8     Q119 8 119 12     L119 107     Q119 110 116 113     L108 120" fill="#FFFFFF" stroke="#5E9624" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main diagnostic settings panel -->
+  <path d="     M16 16     Q12 16 12 21     L12 116     Q12 121 17 121     L99 121     Q104 121 104 116     L104 22     Q104 17 99 17     L16 16     Z" fill="url(#diagnosticsGreen)" stroke="#477B1B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn upper panel highlight -->
+  <path d="     M19 23     Q18 45 19 65     M24 22     Q52 21 82 22" stroke="#B4EC36" stroke-width="2.8" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Diagnostic heartbeat waveform -->
+  <path d="     M25 71     L32 71     L40 56     L49 78     L58 49     L67 88     L76 63     L84 74     L91 60     L96 60" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Light marker trace for hand-drawn effect -->
+  <path d="     M26 67     L34 67     M43 54     L49 70     M60 53     L65 76" stroke="#E9FFD6" stroke-width="1.6" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Small handwritten-style diagnostic marks -->
+  <path d="     M25 101     Q37 100 49 101     M25 108     Q32 107 39 108" stroke="#D6F3B2" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Restrained yellow annotation accents -->
+  <path d="     M110 35 L116 31     M111 43 L119 43     M110 51 L116 55" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small Azure-blue sketchnote accents -->
+  <path d="     M7 80 L3 84     M7 88 L2 89" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Loose bottom marker stroke -->
+  <path d="     M22 125     Q57 127 94 125" stroke="#5E9624" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 5" opacity=".65"/>
+
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>App Service Domains (sketch)</title>
+  
+  <desc>Hand-drawn browser window with a dark Azure-blue address bar, turquoise page and three white W symbols representing a web domain.</desc>
+
+  <defs>
+    <linearGradient id="domainPage" x1="64" y1="43" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".6" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="domainHeader" x1="10" y1="23" x2="118" y2="47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main browser silhouette -->
+  <path d="M12 16            Q9 16 9 21            L9 106            Q9 112 15 112            L113 112            Q119 112 119 106            L119 22            Q119 16 113 16 Z" fill="url(#domainPage)" stroke="#087DA4" stroke-width="3.5"/>
+
+  <!-- Browser header -->
+  <path d="M12 16            L113 16            Q119 16 119 22            L119 47            L9 47            L9 22            Q9 17 12 16 Z" fill="url(#domainHeader)" stroke="#004E88" stroke-width="3.2"/>
+
+  <!-- Hand-drawn header separator -->
+  <path d="M11 47            Q38 48 64 47            Q91 46 117 47" stroke="#004E88" stroke-width="2.2"/>
+
+  <!-- Address bar -->
+  <path d="M25 25            Q23 25 23 28            L23 37            Q23 40 27 40            L101 40            Q105 40 105 37            L105 28            Q105 25 102 25 Z" fill="#F2F2F2" stroke="#D6EAF5" stroke-width="2.4"/>
+
+  <!-- Address bar sketch highlight -->
+  <path d="M30 30 L91 30" stroke="#FFFFFF" stroke-width="2" opacity=".9"/>
+
+  <!-- Three hand-drawn W glyphs -->
+  <g stroke="#FFFFFF" stroke-width="5.8">
+    <path d="M22 69              L28 91              L35 75              L42 91              L48 69"/>
+
+    <path d="M50 69              L56 91              L63 75              L70 91              L76 69"/>
+
+    <path d="M78 69              L84 91              L91 75              L98 91              L104 69"/>
+  </g>
+
+  <!-- Subtle doubled marker strokes -->
+  <g stroke="#E7FCFF" stroke-width="1.8" opacity=".75">
+    <path d="M25 70 L29 85"/>
+    <path d="M53 70 L57 85"/>
+    <path d="M81 70 L85 85"/>
+  </g>
+
+  <!-- Page highlights -->
+  <path d="M17 55 L33 55            M18 101 L39 101" stroke="#A6F1FC" stroke-width="2.5" opacity=".75"/>
+
+  <path d="M106 57 L111 57            M107 101 L112 101" stroke="#A6F1FC" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Azure-blue annotation marks -->
+  <path d="M3 64 L3 77            M2 83 L5 87" stroke="#0078D4" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M117 5 L117 13            M113 9 L121 9" stroke="#F2C94C" stroke-width="2.8"/>
+
+  <path d="M106 7 L103 4            M123 18 L126 21" stroke="#F2C94C" stroke-width="2.1"/>
+
+  <!-- Small hand-drawn finishing ticks -->
+  <path d="M17 119 L23 122            M29 120 L34 120" stroke="#0078D4" stroke-width="2.2" opacity=".65"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Chaos Studio (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn interpretation of the Azure Chaos Studio icon.
+    Two interlocking angular red ribbons form a dynamic
+    opposing-motion symbol. Uneven marker contours, original
+    crimson and deep-red colors, with subtle Azure-blue and
+    golden-yellow sketch accents. Transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="chaosTop" x1="18" y1="13" x2="88" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F04A43"/>
+      <stop offset=".55" stop-color="#E83231"/>
+      <stop offset="1" stop-color="#CE1817"/>
+    </linearGradient>
+
+    <linearGradient id="chaosBottom" x1="27" y1="37" x2="114" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#480805"/>
+      <stop offset=".38" stop-color="#790A05"/>
+      <stop offset=".75" stop-color="#A30302"/>
+      <stop offset="1" stop-color="#A80000"/>
+    </linearGradient>
+
+    <linearGradient id="chaosFold" x1="80" y1="55" x2="112" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#510804"/>
+      <stop offset=".55" stop-color="#910F08"/>
+      <stop offset="1" stop-color="#A80000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper ribbon: original angular silhouette -->
+  <path d="     M 72 64     L 72 25     L 8 88     L 8 30     Q 9 18 18 12     Q 24 7 35 8     L 96 8     L 120 32     L 96 63     Z" fill="url(#chaosTop)" stroke="#81201D" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Imperfect top marker highlights -->
+  <path d="     M 13 47     L 13 30     Q 15 17 29 14     L 55 14" stroke="#FFAAA0" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <path d="     M 78 14     L 94 14     L 112 32     L 96 56" stroke="#FF7771" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Freehand diagonal upper ribbon detail -->
+  <path d="     M 20 70     Q 38 51 54 36     L 65 25" stroke="#FFB0A1" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="23 6 12 5" opacity=".75"/>
+
+  <!-- Lower ribbon: interlocking opposite direction -->
+  <path d="     M 56 64     L 56 103     L 120 32     L 120 96     Q 119 109 110 115     Q 104 121 93 120     L 32 120     L 8 88     L 32 64     Z" fill="url(#chaosBottom)" stroke="#4F0907" stroke-width="3.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Folded lower diagonal, preserving original depth -->
+  <path d="     M 56 103     L 120 32     L 120 96     Q 119 109 110 115     Q 104 121 93 120     Z" fill="url(#chaosFold)" opacity=".9"/>
+
+  <!-- Dark hand-drawn fold line -->
+  <path d="     M 56 103     Q 77 82 94 63     L 120 32" stroke="#510604" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Lower marker highlight -->
+  <path d="     M 114 76     L 114 96     Q 113 109 99 113     L 76 113" stroke="#E85B50" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <path d="     M 17 89     L 34 70     M 37 114     L 60 114" stroke="#D84C43" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Subtle hand-sketched contour imperfections -->
+  <path d="     M 5 57     L 5 76     M 23 5     Q 29 3 37 4     M 100 5     L 124 29     M 124 39     L 124 51     M 125 85     L 125 96" stroke="#B62B28" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Chaos energy: Azure-blue accent strokes -->
+  <path d="     M 45 46     L 50 39     M 83 81     L 89 74" stroke="#159DCE" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Small golden sketchnote sparks -->
+  <path d="     M 60 48     L 63 42     M 56 43     L 62 44     M 65 47     L 69 51" stroke="#F3B82D" stroke-width="2.4" stroke-linecap="round" opacity=".95"/>
+
+  <path d="     M 70 85     L 67 91     M 74 89     L 80 91" stroke="#F3B82D" stroke-width="2.3" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Delicate freehand motion marks -->
+  <path d="     M 39 26     Q 48 23 55 25     M 86 104     Q 92 106 99 103" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+
+</svg>

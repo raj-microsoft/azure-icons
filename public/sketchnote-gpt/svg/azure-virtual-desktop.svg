@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Virtual Desktop (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Virtual Desktop icon with a circular
+    cyan-to-blue outer ring, deep Azure-blue center, and
+    two white interlocking chevrons. Uneven marker outlines,
+    subtle yellow sketch accents, and transparent background.
+    Fully editable vector paths.
+  </desc>
+
+  <defs>
+    <radialGradient id="avdRing" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#198AB3"/>
+      <stop offset=".55" stop-color="#21A1C8"/>
+      <stop offset=".85" stop-color="#2FC3E8"/>
+      <stop offset="1" stop-color="#32D4F5"/>
+    </radialGradient>
+
+    <linearGradient id="avdCenter" x1="24" y1="22" x2="106" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0067AD"/>
+      <stop offset="1" stop-color="#004B91"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer hand-drawn circular Azure ring -->
+  <path d="M64 8        C94 7 119 31 120 62        C122 91 99 118 68 120        C38 123 10 101 8 70        C5 40 28 11 59 8        Q62 7 64 8Z" fill="url(#avdRing)" stroke="#168BAF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle outer marker highlight -->
+  <path d="M20 43        C28 25 44 15 62 14        C84 13 103 27 112 45" stroke="#A6F2FF" stroke-width="3" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <path d="M113 82        C105 103 86 114 65 115" stroke="#087EAB" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".7"/>
+
+  <!-- Deep Azure-blue central disk -->
+  <path d="M64 17        C90 16 110 36 111 62        C113 88 94 109 68 111        C42 113 20 94 18 68        C16 42 36 19 62 17        Q63 17 64 17Z" fill="url(#avdCenter)" stroke="#003F7E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner circular marker texture -->
+  <path d="M28 48        C35 31 49 24 65 24" stroke="#258FCA" stroke-width="2" stroke-linecap="round" fill="none" opacity=".55"/>
+
+  <path d="M101 82        C95 96 82 103 69 104" stroke="#003E78" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".7"/>
+
+  <!-- Upper-right white interlocking chevron -->
+  <path d="M64 54        L83 35        Q86 32 89 35        L92 38        Q95 41 92 44        L78 58        L94 74        Q97 77 94 80        L91 83        Q88 86 85 83        L64 62        Q60 58 64 54Z" fill="#F2F2F2" stroke="#D5EAF2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White marker highlight -->
+  <path d="M69 54 L86 38" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".95"/>
+
+  <!-- Lower-left white interlocking chevron -->
+  <path d="M63 66        L43 46        Q40 43 37 46        L34 49        Q31 52 34 55        L49 70        L33 86        Q30 89 33 92        L36 95        Q39 98 42 95        L63 74        Q67 70 63 66Z" fill="#F2F2F2" stroke="#D5EAF2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower chevron marker highlight -->
+  <path d="M38 49 L56 67" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".95"/>
+
+  <path d="M38 91 L54 75" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Small hand-drawn crossing accents -->
+  <g stroke="#C5ECF7" stroke-width="1.6" stroke-linecap="round" opacity=".6">
+    <path d="M60 58 L65 63"/>
+    <path d="M59 72 L64 67"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#E9BF4B" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <path d="M25 20 L20 14"/>
+    <path d="M33 15 L30 8"/>
+    <path d="M41 12 L41 5"/>
+
+    <path d="M109 24 L115 19"/>
+    <path d="M114 32 L122 29"/>
+
+    <path d="M12 96 L6 100"/>
+    <path d="M18 106 L14 112"/>
+
+    <path d="M91 116 L95 123"/>
+    <path d="M101 111 L107 116"/>
+
+  </g>
+
+  <!-- Tiny sketchnote sparkle marks -->
+  <g fill="#F1CB5B">
+    <path d="M13 31 L15 27 L17 31 L15 35Z"/>
+    <path d="M116 97 L118 93 L120 97 L118 101Z"/>
+    <circle cx="104" cy="12" r="1.8"/>
+    <circle cx="26" cy="119" r="1.7"/>
+  </g>
+
+  <!-- Organic pen imperfections -->
+  <g stroke="#168BAF" stroke-width="1.6" stroke-linecap="round" opacity=".7">
+    <path d="M15 55 L13 61"/>
+    <path d="M24 91 L27 97"/>
+    <path d="M104 45 L107 51"/>
+    <path d="M80 112 L86 110"/>
+  </g>
+
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Spring Apps (sketch)</title>
+
+  
+  <desc>
+    Four hand-drawn Azure-blue application tiles surrounding
+    a green Spring leaf emblem. Uneven marker outlines,
+    organic curves, subtle yellow highlights, and a
+    transparent background. Fully editable vector artwork.
+  </desc>
+
+  <defs>
+    <linearGradient id="azureBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0086EC"/>
+      <stop offset="1" stop-color="#004DAE"/>
+    </linearGradient>
+
+    <linearGradient id="springGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#78CA45"/>
+      <stop offset=".55" stop-color="#5FB832"/>
+      <stop offset="1" stop-color="#388B29"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left Azure application tile -->
+  <path d="M10 9        Q9 8 12 8        L54 9        Q57 9 57 12        L56 54        Q56 57 53 57        L11 56        Q8 56 9 53Z" fill="url(#azureBlue)" fill-opacity=".10" stroke="#006CCB" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M18 18        L47 18        Q49 18 49 21        L48 47        L18 48        Q17 47 17 45Z" stroke="#0086EC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper-right Azure application tile -->
+  <path d="M71 10        Q71 8 74 9        L116 8        Q119 9 119 12        L119 53        Q119 56 116 56        L72 57        Q70 56 70 53Z" fill="url(#azureBlue)" fill-opacity=".10" stroke="#0059BB" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M79 19        Q79 17 82 18        L110 18        L110 47        L79 47Z" stroke="#0086EC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower-left Azure application tile -->
+  <path d="M10 71        Q9 70 12 70        L53 71        Q56 71 56 74        L57 116        Q56 119 53 119        L11 119        Q9 118 9 115Z" fill="url(#azureBlue)" fill-opacity=".10" stroke="#0059BB" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M18 80        L47 79        L48 110        L18 110        Q17 109 18 107Z" stroke="#0086EC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower-right Azure application tile -->
+  <path d="M71 71        L116 70        Q119 70 119 73        L119 116        Q119 119 116 119        L74 119        Q71 118 71 115Z" fill="url(#azureBlue)" fill-opacity=".10" stroke="#006CCB" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M80 80        L110 79        L110 109        Q109 111 107 110        L80 110Z" stroke="#0086EC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle marker accents on Azure tiles -->
+  <g stroke="#4DA6F5" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M14 13 L28 13"/>
+    <path d="M75 13 L87 13"/>
+    <path d="M13 75 L26 75"/>
+    <path d="M75 75 L89 75"/>
+  </g>
+
+  <!-- Spring Apps central circular emblem -->
+  <path d="M104 58        C103 45 96 35 87 29        C88 36 85 41 81 45        C70 37 56 36 44 42        C30 49 24 64 28 79        C32 96 48 105 64 105        C84 105 99 92 103 75        C105 68 104 63 104 58Z" fill="url(#springGreen)" stroke="#347E2C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Organic hand-drawn circular motion -->
+  <path d="M34 61        C39 46 54 40 68 43        C73 44 77 46 81 49" stroke="#A2DF78" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <path d="M91 83        C83 97 67 101 53 96" stroke="#287B29" stroke-width="2.3" stroke-linecap="round" fill="none" opacity=".7"/>
+
+  <!-- Spring leaf silhouette -->
+  <path d="M43 79        C37 73 39 62 46 57        C54 51 64 54 74 51        C83 49 89 43 92 36        C95 49 100 68 92 77        C85 87 71 85 61 86        C52 87 46 84 43 79Z" fill="#FFFFFF" stroke="#E9F7E5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Leaf interior negative-space vein -->
+  <path d="M45 83        C58 79 72 76 81 64        C85 59 88 53 90 48" stroke="#3D962F" stroke-width="4.4" stroke-linecap="round" fill="none"/>
+
+  <path d="M54 78        C63 77 72 73 78 67" stroke="#80C858" stroke-width="1.7" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <!-- Spring signature dot -->
+  <circle cx="40" cy="90" r="3.7" fill="#FFFFFF" stroke="#347E2C" stroke-width="1.2"/>
+
+  <!-- Sketchnote marker details -->
+  <g stroke="#E8BD46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <path d="M60 17 L60 10"/>
+    <path d="M65 19 L68 13"/>
+
+    <path d="M16 62 L9 62"/>
+    <path d="M17 67 L12 70"/>
+
+    <path d="M110 62 L119 62"/>
+    <path d="M109 67 L116 71"/>
+
+    <path d="M62 110 L62 118"/>
+    <path d="M68 110 L72 116"/>
+
+  </g>
+
+  <!-- Small handwritten-style sketch flourishes -->
+  <g fill="#F2C95B">
+    <path d="M24 24 L26 20 L28 24 L26 28Z"/>
+    <path d="M103 24 L105 20 L107 24 L105 28Z"/>
+    <path d="M25 103 L27 99 L29 103 L27 107Z"/>
+    <path d="M101 104 L103 100 L105 104 L103 108Z"/>
+  </g>
+
+  <!-- Tiny offset pen strokes -->
+  <g stroke="#0068C9" stroke-width="1.5" stroke-linecap="round" opacity=".65">
+    <path d="M12 51 L12 46"/>
+    <path d="M116 15 L116 21"/>
+    <path d="M13 113 L19 114"/>
+    <path d="M112 115 L116 112"/>
+  </g>
+
+</svg>

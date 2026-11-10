@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Cognitive Services Decisions (sketch)</title>
+  
+  <desc>
+    Hand-drawn decision workflow with a cyan input tile,
+    grey branching connectors, green upper decision node
+    and arrow, orange lower decision node, and green
+    corner framing marks. Transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="decisionCyan" x1="16" y1="44" x2="47" y2="87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+
+    <linearGradient id="decisionGreen" x1="65" y1="18" x2="65" y2="53" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+
+    <linearGradient id="decisionOrange" x1="66" y1="75" x2="66" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FAA21D"/>
+      <stop offset="1" stop-color="#F78D1E"/>
+    </linearGradient>
+
+    <linearGradient id="decisionGrey" x1="20" y1="35" x2="72" y2="35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E6E6E6"/>
+      <stop offset="1" stop-color="#999999"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn green corner frames -->
+  <g stroke="#76BC2D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 7 L7 7 L7 23"/>
+    <path d="M106 7 L121 7 L121 23"/>
+    <path d="M7 105 L7 121 L22 121"/>
+    <path d="M106 121 L121 121 L121 105"/>
+  </g>
+
+  <!-- Subtle frame marker accents -->
+  <g stroke="#B8E87B" stroke-width="1.8" stroke-linecap="round">
+    <path d="M10 12 L10 19"/>
+    <path d="M110 10 L118 10"/>
+    <path d="M10 111 L10 118"/>
+    <path d="M111 118 L118 118"/>
+  </g>
+
+  <!-- Upper decision connector -->
+  <path d="M26 67            L26 34            Q26 28 33 28            L67 28" stroke="#8D8D8D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M26 67            L26 34            Q26 28 33 28            L67 28" stroke="url(#decisionGrey)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower decision connector -->
+  <path d="M26 67            L26 94            Q26 100 33 100            L67 100" stroke="#8D8D8D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M26 67            L26 94            Q26 100 33 100            L67 100" stroke="url(#decisionGrey)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper green decision route -->
+  <path d="M67 28            Q83 27 98 28            L98 22            Q98 19 102 22            L119 33            Q122 35 119 37            L102 48            Q98 51 98 47            L98 41            L67 41Z" fill="url(#decisionGreen)" stroke="#5E9624" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Upper decision node -->
+  <path d="M68 16            C78 16 86 24 86 34            C86 44 78 52 68 52            C57 52 50 44 50 34            C50 24 58 16 68 16Z" fill="url(#decisionGreen)" stroke="#5E9624" stroke-width="3.7" stroke-linejoin="round"/>
+
+  <!-- Upper node gloss -->
+  <path d="M58 29 Q60 21 69 21" stroke="#CBF29A" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Lower orange decision node -->
+  <path d="M68 77            C79 77 87 85 87 95            C87 106 79 114 68 114            C58 114 50 106 50 95            C50 85 58 77 68 77Z" fill="url(#decisionOrange)" stroke="#B96913" stroke-width="3.7" stroke-linejoin="round"/>
+
+  <!-- Lower node marker highlight -->
+  <path d="M58 90 Q61 82 69 83" stroke="#FFE0A0" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Central cyan decision input tile -->
+  <path d="M18 45            Q18 42 22 42            L43 42            Q47 42 46 47            L42 83            Q42 87 38 87            L15 87            Q11 87 12 83            Z" fill="url(#decisionCyan)" stroke="#198AB3" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Input tile irregular highlight -->
+  <path d="M23 48 L40 48            M18 53 L16 77" stroke="#E0FAFF" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Sketched decision branching symbol -->
+  <g stroke="#0078D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 54 L28 75"/>
+    <path d="M28 62 L36 56"/>
+    <path d="M28 67 L35 73"/>
+  </g>
+
+  <!-- Small cyan input junction -->
+  <path d="M25 52            Q28 49 31 52            Q34 55 31 58            Q28 61 25 58            Q22 55 25 52Z" fill="#FFFFFF" stroke="#198AB3" stroke-width="1.8"/>
+
+  <!-- Hand-drawn decision marks -->
+  <g stroke="#FFFFFF" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 34 L66 40 L76 28"/>
+    <path d="M61 90 L75 103"/>
+    <path d="M75 90 L61 103"/>
+  </g>
+
+  <!-- White sketch detailing -->
+  <path d="M92 34 L107 34" stroke="#E5FFD1" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <g stroke="#FFD45A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M93 16 L96 10"/>
+    <path d="M102 17 L108 13"/>
+    <path d="M94 54 L100 58"/>
+  </g>
+
+  <!-- Subtle Azure-blue annotation strokes -->
+  <g stroke="#32D4F5" stroke-width="2.1" stroke-linecap="round">
+    <path d="M15 94 L20 97"/>
+    <path d="M17 35 L21 39"/>
+    <path d="M38 94 L44 91"/>
+  </g>
+
+  <!-- Extra hand-drawn flow indicators -->
+  <path d="M39 25 L44 22            M39 103 L44 106" stroke="#B3B3B3" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Small yellow marker flourish -->
+  <path d="M96 112 L100 116 L107 108" stroke="#FFD45A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Disk Encryption Sets (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure disk encryption icon with stacked blue and
+    green storage disks, a prominent Azure-blue encryption key,
+    and a dashed selection boundary. Original Azure and green
+    palette with subtle yellow accents and transparent background.
+  </desc>
+
+  <defs>
+    <radialGradient id="diskBlue" cx="48%" cy="25%" r="80%">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".5" stop-color="#2588DF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </radialGradient>
+    <linearGradient id="diskGreen" x1="20" y1="62" x2="88" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset=".65" stop-color="#76BC2D"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+    <linearGradient id="keyBlue" x1="78" y1="50" x2="110" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#1685DC"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dashed encryption-set boundary -->
+  <path d="M9 8 L119 8 Q122 8 122 12            L122 116 Q122 120 118 120            L10 120 Q7 120 7 116            L7 12 Q7 8 9 8 Z" stroke="#0078D4" stroke-width="2.6" stroke-dasharray="8 7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower green storage disk -->
+  <path d="M23 73            C23 61 39 54 59 54            C79 54 95 61 95 73            L95 84            C95 97 79 104 59 104            C39 104 23 97 23 84 Z" fill="#5E9624" stroke="#477B1B" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M23 73            C23 61 39 54 59 54            C79 54 95 61 95 73            C95 86 79 92 59 92            C39 92 23 86 23 73 Z" fill="url(#diskGreen)" stroke="#4F8F1D" stroke-width="2.6"/>
+
+  <!-- Green layer division -->
+  <path d="M24 83            C29 94 43 99 59 99            C75 99 87 95 94 85" stroke="#B4EC36" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Middle storage disk -->
+  <path d="M23 47            C23 35 39 29 59 29            C79 29 95 35 95 47            L95 61            C95 73 79 80 59 80            C39 80 23 73 23 61 Z" fill="#0078D4" stroke="#005A9E" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M24 59            C31 69 44 73 59 73            C76 73 88 69 94 59" stroke="#5EA0EF" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Top disk -->
+  <path d="M23 36            C23 22 39 15 59 15            C79 15 95 22 95 36            L95 46            C95 59 79 66 59 66            C39 66 23 59 23 46 Z" fill="#0078D4" stroke="#005A9E" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M23 36            C23 22 39 15 59 15            C79 15 95 22 95 36            C95 49 79 56 59 56            C39 56 23 49 23 36 Z" fill="url(#diskBlue)" stroke="#005A9E" stroke-width="2.7"/>
+
+  <!-- Top disk center -->
+  <path d="M47 35            C47 32 52 30 59 30            C66 30 71 32 71 35            C71 38 66 40 59 40            C52 40 47 38 47 35 Z" fill="#005BA1" stroke="#004A87" stroke-width="1.8"/>
+
+  <!-- Hand-drawn disk highlights -->
+  <path d="M32 29 Q39 22 49 22" stroke="#C3F1FF" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M28 48 Q33 54 43 57" stroke="#C3F1FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M30 86 Q39 93 49 94" stroke="#C7F19A" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Green disk center indication -->
+  <path d="M46 74 Q59 69 71 74" stroke="#4F8F1D" stroke-width="2.3" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Encryption key, overlapping the disks -->
+  <path d="M96 51            Q99 48 103 51            L116 64            Q119 67 116 71            L108 79            L108 98            L104 103            L109 108            L103 114            L98 109            L94 113            L88 107            L88 81            L78 71            Q74 67 78 63 Z" fill="url(#keyBlue)" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Key bow opening -->
+  <path d="M95 59            C98 56 102 57 104 60            C107 63 106 67 103 69            C100 72 96 71 94 68            C92 65 92 62 95 59 Z" fill="#FFFFFF" stroke="#005A9E" stroke-width="2"/>
+
+  <!-- Key bow sketch highlights -->
+  <path d="M83 66 L91 58            M85 72 L92 79" stroke="#C3F1FF" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Key shaft highlights -->
+  <path d="M94 86 L94 103" stroke="#C3F1FF" stroke-width="2.4" stroke-linecap="round"/>
+
+  <path d="M99 88 L99 94" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Small hand-drawn encryption accents -->
+  <path d="M110 44 L114 38            M117 49 L123 46            M117 56 L124 58" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Supporting marker accents -->
+  <path d="M17 67 L12 70            M18 75 L13 78" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Sketched baseline -->
+  <path d="M25 110 Q48 113 75 110" stroke="#A19F9D" stroke-width="1.5" stroke-dasharray="4 5" stroke-linecap="round" opacity=".7"/>
+
+</svg>

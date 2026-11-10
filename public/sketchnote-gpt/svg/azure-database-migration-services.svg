@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Database Migration Services (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure blue cloud containing an upward migration arrow,
+    with a cyan database cylinder in the foreground.
+    Preserves the original Azure Database Migration Services symbolism,
+    blue and cyan gradients, subtle yellow sketch accents,
+    and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="12" x2="64" y2="87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".53" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="databaseCyan" x1="33" y1="91" x2="95" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32BEDD"/>
+      <stop offset=".45" stop-color="#50E6FF"/>
+      <stop offset=".55" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cloud silhouette -->
+  <path d="M37 83            C20 83 9 71 9 55            C9 40 20 28 34 26            C40 11 52 5 66 6            C83 7 95 19 97 34            C112 36 121 48 121 61            C121 74 111 83 97 83            Z" fill="url(#cloudBlue)" stroke="#005BA1" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Soft irregular cloud highlight -->
+  <path d="M18 48            Q22 34 38 33            Q45 15 63 14            Q75 13 83 22" stroke="#A9D5FF" stroke-width="2.8" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <path d="M104 42            Q114 48 114 60" stroke="#82C5FF" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Migration arrow inside cloud -->
+  <path d="M45 42            L61 25            Q64 22 67 25            L83 42            Q85 45 82 46            L73 46            L73 67            Q73 70 70 70            L58 70            Q55 70 55 67            L55 46            L47 46            Q43 46 45 42Z" fill="#F2F2F2" stroke="#D9EBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrow sketch contour -->
+  <path d="M60 65            L60 42            L53 42            L64 31" stroke="#A9CFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Database cylinder body -->
+  <path d="M33 65            L95 65            L95 115            C95 123 81 127 64 127            C47 127 33 123 33 115            Z" fill="url(#databaseCyan)" stroke="#087FAE" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Database top ellipse -->
+  <path d="M33 65            C33 58 47 54 64 54            C81 54 95 58 95 65            C95 72 81 76 64 76            C47 76 33 72 33 65Z" fill="#E8E8E8" stroke="#087FAE" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Cyan inner database surface -->
+  <path d="M41 65            C41 61 51 59 64 59            C77 59 87 61 87 65            C87 69 77 71 64 71            C51 71 41 69 41 65Z" fill="#50E6FF" stroke="#32BEDD" stroke-width="1.8"/>
+
+  <!-- Inner data reflection -->
+  <path d="M46 67            Q64 62 82 67            Q64 73 46 67Z" fill="#32BEDD" opacity=".9"/>
+
+  <!-- Hand-drawn database layer divisions -->
+  <g stroke="#168DBB" stroke-width="2.5" stroke-linecap="round" fill="none">
+
+    <path d="M34 87              C42 95 85 98 94 87"/>
+
+    <path d="M34 104              C43 113 85 115 94 104"/>
+
+  </g>
+
+  <!-- Cylinder sketch highlights -->
+  <g stroke="#D1FAFF" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".85">
+
+    <path d="M40 78 L40 88"/>
+    <path d="M40 96 L40 104"/>
+    <path d="M40 113 L40 116"/>
+
+    <path d="M48 80 Q58 83 69 82"/>
+
+  </g>
+
+  <!-- Small storage layer details -->
+  <g fill="#0078D4">
+
+    <circle cx="84" cy="86" r="2.1"/>
+    <circle cx="84" cy="103" r="2.1"/>
+    <circle cx="84" cy="117" r="2.1"/>
+
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <!-- Migration sparkle -->
+    <path d="M101 16 L101 25"/>
+    <path d="M97 20 L106 20"/>
+
+    <!-- Cloud emphasis marks -->
+    <path d="M15 19 L20 24"/>
+    <path d="M10 26 L16 29"/>
+
+    <!-- Data movement emphasis -->
+    <path d="M103 95 L108 91"/>
+    <path d="M106 101 L112 98"/>
+
+  </g>
+
+  <!-- Subtle handwritten-style motion details -->
+  <g stroke="#0078D4" stroke-width="1.7" stroke-linecap="round" fill="none" opacity=".65">
+
+    <path d="M21 88 Q26 91 30 91"/>
+    <path d="M102 79 Q108 77 112 73"/>
+
+    <path d="M25 116 Q28 120 32 121"/>
+    <path d="M99 122 Q104 119 106 115"/>
+
+  </g>
+
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Foundry Project (sketch)</title>
+  
+  <desc>A lavender-purple project folder with a raised tab and a white stylized Foundry project symbol, drawn with uneven marker outlines and subtle Azure-blue and yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="folderLavender" x1="0" y1="0" x2=".16" y2="1">
+      <stop offset="0" stop-color="#B6B6E1"/>
+      <stop offset=".55" stop-color="#9998DE"/>
+      <stop offset="1" stop-color="#7372D8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear folder and raised tab -->
+  <path d="M9 22            Q9 17 15 17            L49 18            Q52 18 55 20            L70 30            Q72 32 76 32            L113 32            Q119 32 119 38            L119 110            L9 110Z" fill="#4846DF" stroke="#3735AC" stroke-width="4"/>
+
+  <!-- Small white tab label -->
+  <path d="M23 25            Q24 24 26 24            L46 24            Q48 24 48 26            L48 30            L23 30Z" fill="#FFFFFF" stroke="#7372D8" stroke-width="1.8"/>
+
+  <!-- Front folder silhouette -->
+  <path d="M9 46            Q9 42 15 42            L48 42            Q51 42 54 39            L62 31            Q65 28 69 28            L113 28            Q119 28 119 34            L119 110            Q119 116 113 116            L15 116            Q9 116 9 110Z" fill="url(#folderLavender)" stroke="#4846A9" stroke-width="4.2"/>
+
+  <!-- Hand-drawn top-edge highlight -->
+  <path d="M16 48            Q32 47 47 47            Q53 47 57 43            L65 35            Q68 33 73 33            L111 33" stroke="#DDDDF8" stroke-width="3" opacity=".95"/>
+
+  <!-- Foundry project symbol: stylized A-like monogram -->
+  <g fill="#FFFFFF" stroke="#5452AC" stroke-width="2.4">
+    <path d="M40 93              Q39 90 41 85              L55 49              Q59 40 66 40              L78 40              Q82 40 84 45              L91 66              L83 66              Q79 66 77 62              L73 49              Q72 46 70 46              Q68 46 67 49              L52 91              Q50 97 45 97              Q40 97 40 93Z"/>
+
+    <!-- Central projecting loop -->
+    <path d="M73 65              L91 65              Q97 65 97 71              L97 81              Q97 91 87 91              L76 91              Q73 91 73 88              L73 79              Q73 76 76 76              L87 76              L87 72              L73 72Z"/>
+  </g>
+
+  <!-- Hand-drawn monogram highlights -->
+  <g stroke="#E4E3FF" stroke-width="2.2">
+    <path d="M49 84 L61 52"/>
+    <path d="M80 69 L91 69"/>
+  </g>
+
+  <!-- Imperfect marker reinforcement on folder -->
+  <g stroke="#6866C5" stroke-width="2.2" opacity=".65">
+    <path d="M15 57 Q14 77 15 105"/>
+    <path d="M113 43 Q114 70 113 106"/>
+    <path d="M22 110 Q38 111 51 110"/>
+    <path d="M99 110 L108 109"/>
+  </g>
+
+  <!-- Subtle lavender sketch strokes -->
+  <g stroke="#D4D3F4" stroke-width="2.5">
+    <path d="M21 56 L37 55"/>
+    <path d="M22 62 L31 62"/>
+    <path d="M100 99 L106 97"/>
+  </g>
+
+  <!-- Restrained Azure-blue accents -->
+  <g stroke="#5EA0EF" stroke-width="2.6">
+    <path d="M121 50 L125 47"/>
+    <path d="M121 58 L126 58"/>
+    <path d="M4 85 L7 82"/>
+  </g>
+
+  <!-- Yellow sketchnote emphasis -->
+  <g stroke="#FFCB3D" stroke-width="3">
+    <path d="M87 17 L91 11"/>
+    <path d="M95 20 L102 17"/>
+    <path d="M21 120 L25 125"/>
+  </g>
+
+  <!-- Tiny hand-drawn project sparkle -->
+  <g stroke="#FFCB3D" stroke-width="2.5">
+    <path d="M103 78 L103 86"/>
+    <path d="M99 82 L107 82"/>
+  </g>
+</svg>

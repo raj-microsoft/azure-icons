@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Edge Management (sketch)</title>
+  
+  <desc>Azure-blue cloud containing a white management gear, connected through hand-drawn branching lines to three blue edge devices, with subtle yellow marker accents and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="9" x2="64" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="deviceBlue" x1="64" y1="96" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn cloud silhouette -->
+  <path d="M39 84            C24 85 12 74 12 59            C11 44 22 33 36 32            C42 17 54 10 67 10            C84 9 98 21 100 38            C113 40 120 50 120 62            C120 75 110 84 97 85            Z" fill="url(#cloudBlue)" stroke="#1F56A3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose secondary marker strokes -->
+  <path d="M17 57 C17 45 25 38 36 37" stroke="#B6D9FF" stroke-width="2.3" stroke-linecap="round" opacity="0.85"/>
+
+  <path d="M48 22 C58 12 73 13 84 21" stroke="#B6D9FF" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+
+  <path d="M106 46 C115 51 117 61 113 69" stroke="#B6D9FF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- White management gear -->
+  <path d="M59 30            L69 30            L72 37            Q75 38 78 40            L85 37            L92 44            L88 51            Q90 54 91 57            L98 60            L98 69            L90 72            Q89 76 87 78            L91 85            L84 91            L77 87            Q74 89 70 90            L68 97            L59 97            L56 90            Q53 89 50 87            L43 91            L37 84            L41 77            Q39 74 38 71            L31 68            L31 59            L38 56            Q39 53 41 50            L37 43            L44 37            L51 41            Q54 39 57 38            Z" fill="#FFFFFF" stroke="#1F56A3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 -10)"/>
+
+  <!-- Gear interior -->
+  <path d="M75 54            C80 60 78 69 72 73            C66 77 58 75 54 69            C50 63 52 55 58 51            C64 47 71 49 75 54Z" fill="#5EA0EF" stroke="#1F56A3" stroke-width="2.6" stroke-linejoin="round" transform="translate(0 -10)"/>
+
+  <path d="M57 55 Q63 49 70 54" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.75" transform="translate(0 -10)"/>
+
+  <!-- Cloud to edge-device connection -->
+  <path d="M64 85            L64 94            M64 94            L31 94            Q29 94 29 97            L29 102            M64 94            L64 102            M64 94            L99 94            Q101 94 101 97            L101 102" stroke="#949494" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketch offset on branching lines -->
+  <path d="M34 97 L52 97            M76 97 L94 97" stroke="#B7B7B7" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Left edge device -->
+  <path d="M19 102            Q19 100 22 100            L37 100            Q40 100 40 103            L40 117            Q40 120 37 120            L22 120            Q19 120 19 117            Z" fill="url(#deviceBlue)" stroke="#1F56A3" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Center edge device -->
+  <path d="M54 102            Q54 100 57 100            L72 100            Q75 100 75 103            L75 117            Q75 120 72 120            L57 120            Q54 120 54 117            Z" fill="url(#deviceBlue)" stroke="#1F56A3" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Right edge device -->
+  <path d="M89 102            Q89 100 92 100            L107 100            Q110 100 110 103            L110 117            Q110 120 107 120            L92 120            Q89 120 89 117            Z" fill="url(#deviceBlue)" stroke="#1F56A3" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Device face markings -->
+  <path d="M24 106 L35 106            M59 106 L70 106            M94 106 L105 106" stroke="#D8EDFF" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+  <path d="M24 114 L28 114            M59 114 L63 114            M94 114 L98 114" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small device indicator lights -->
+  <circle cx="35" cy="114" r="1.6" fill="#FFFFFF"/>
+  <circle cx="70" cy="114" r="1.6" fill="#FFFFFF"/>
+  <circle cx="105" cy="114" r="1.6" fill="#FFFFFF"/>
+
+  <!-- Yellow sketchnote accent strokes -->
+  <path d="M103 19 L107 14" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M110 26 L117 23" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M16 27 L11 22" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M12 35 L6 34" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M108 8 L108 14            M105 11 L111 11" stroke="#F4C542" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Subtle floating sketch marks -->
+  <path d="M9 69 Q10 77 16 82" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+
+  <path d="M119 73 Q116 81 111 85" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Network Function Manager Functions (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn purple network globe with curved latitude and
+    longitude lines, overlapping stacked turquoise function
+    modules, subtle yellow marker accents, and a transparent
+    background. All elements use editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="globePurple" x1="13" y1="15" x2="88" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B796F9"/>
+      <stop offset="0.52" stop-color="#9D79EB"/>
+      <stop offset="1" stop-color="#7548D6"/>
+    </linearGradient>
+
+    <linearGradient id="moduleTeal" x1="48" y1="70" x2="118" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3CD4C2"/>
+      <stop offset="1" stop-color="#37C2B1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sketchnote emphasis strokes -->
+  <g stroke="#F4B400" stroke-width="2.7" stroke-linecap="round">
+    <path d="M18 23L12 17"/>
+    <path d="M27 18L25 10"/>
+    <path d="M35 17L38 11"/>
+  </g>
+
+  <!-- Purple network globe -->
+  <path d="M47 14            C67 13 84 29 87 49            C90 69 77 88 58 94            C38 100 18 89 12 70            C5 50 13 30 30 20            Q38 15 47 14Z" fill="url(#globePurple)" stroke="#6640B5" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn meridian curves -->
+  <g stroke="#E4D4FF" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M48 16              C35 26 30 39 30 54              C30 70 37 85 48 94"/>
+
+    <path d="M49 16              C62 27 67 41 67 54              C67 69 60 84 49 94"/>
+
+    <path d="M48 17              Q49 53 48 93"/>
+
+  </g>
+
+  <!-- Horizontal globe grid -->
+  <g stroke="#DCC7FF" stroke-width="2.5" stroke-linecap="round" opacity="0.95">
+
+    <path d="M19 34              Q48 41 78 34"/>
+
+    <path d="M12 54              Q48 57 86 54"/>
+
+    <path d="M19 74              Q48 68 78 74"/>
+
+  </g>
+
+  <!-- Marker-style network highlights -->
+  <g stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <path d="M19 43Q24 30 34 24"/>
+    <path d="M16 62Q19 76 29 83"/>
+  </g>
+
+  <!-- Small network intersection nodes -->
+  <g fill="#E9DCFF" stroke="#7852C9" stroke-width="1.3">
+    <circle cx="30" cy="54" r="2.7"/>
+    <circle cx="48" cy="35" r="2.7"/>
+    <circle cx="67" cy="54" r="2.7"/>
+    <circle cx="48" cy="74" r="2.7"/>
+  </g>
+
+  <!-- Upper network function module -->
+  <path d="M51 75            Q51 71 56 71            L116 71            Q121 71 121 76            L121 91            Q121 95 116 95            L56 95            Q51 95 51 91Z" fill="url(#moduleTeal)" stroke="#168F85" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Upper module marker highlight -->
+  <path d="M57 76Q83 75 108 76" stroke="#A9FFF0" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Upper module function lines -->
+  <g stroke="#168F85" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <path d="M60 83L91 83"/>
+    <path d="M60 88L84 88"/>
+  </g>
+
+  <!-- Upper module indicator lights -->
+  <g fill="#FFFFFF" stroke="#1E9E91" stroke-width="1.3">
+    <path d="M106 78              Q106 77 108 77              L112 77              Q114 77 114 79              L114 82              Q114 84 112 84              L108 84              Q106 84 106 82Z"/>
+
+    <path d="M106 87              Q106 86 108 86              L112 86              Q114 86 114 88              L114 90              Q114 92 112 92              L108 92              Q106 92 106 90Z" opacity="0.7"/>
+  </g>
+
+  <!-- Lower network function module -->
+  <path d="M51 100            Q51 96 56 96            L116 96            Q121 96 121 101            L121 116            Q121 120 116 120            L56 120            Q51 120 51 116Z" fill="url(#moduleTeal)" stroke="#168F85" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Lower module marker highlight -->
+  <path d="M57 101Q83 100 108 101" stroke="#A9FFF0" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Lower module function lines -->
+  <g stroke="#168F85" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <path d="M60 108L91 108"/>
+    <path d="M60 113L84 113"/>
+  </g>
+
+  <!-- Lower module indicator lights -->
+  <g fill="#FFFFFF" stroke="#1E9E91" stroke-width="1.3">
+    <path d="M106 103              Q106 102 108 102              L112 102              Q114 102 114 104              L114 107              Q114 109 112 109              L108 109              Q106 109 106 107Z"/>
+
+    <path d="M106 112              Q106 111 108 111              L112 111              Q114 111 114 113              L114 115              Q114 117 112 117              L108 117              Q106 117 106 115Z" opacity="0.7"/>
+  </g>
+
+  <!-- Subtle connection between globe and functions -->
+  <path d="M48 91            Q47 96 51 99" stroke="#0078D4" stroke-width="2.7" stroke-linecap="round" stroke-dasharray="4 4"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <g stroke="#F4B400" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112 60L117 54"/>
+    <path d="M117 66L124 63"/>
+    <path d="M43 113L37 118"/>
+  </g>
+
+</svg>

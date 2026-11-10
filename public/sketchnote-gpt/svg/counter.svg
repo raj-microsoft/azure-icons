@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Counter (sketch)</title>
+  
+  <desc>Hand-drawn sketchnote version of the Azure Counter icon with a blue counter body, three number panels, and subtle Azure-blue and yellow accents on a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="counterBlue" x1="64" y1="12" x2="64" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2390E6"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer counter body -->
+  <path d="M15 24            Q15 18 21 18            L107 18            Q113 18 113 24            L113 40            L113 106            Q113 111 108 111            L20 111            Q15 111 15 106            L15 40            Z" fill="url(#counterBlue)" stroke="#155EA1" stroke-width="4"/>
+
+  <!-- Top lip / header sketch -->
+  <path d="M18 39            Q38 37 61 38            Q86 38 110 39" stroke="#8DC8E8" stroke-width="2.6" opacity=".8"/>
+
+  <!-- Inner panels -->
+  <g>
+    <path d="M25 43              Q25 40 28 40              L49 40              Q52 40 52 43              L52 95              Q52 98 49 98              L28 98              Q25 98 25 95              Z" fill="#FFFFFF" stroke="#DDEFFC" stroke-width="2.2"/>
+
+    <path d="M55 43              Q55 40 58 40              L79 40              Q82 40 82 43              L82 95              Q82 98 79 98              L58 98              Q55 98 55 95              Z" fill="#FFFFFF" fill-opacity=".78" stroke="#DDEFFC" stroke-width="2.2"/>
+
+    <path d="M85 43              Q85 40 88 40              L109 40              Q112 40 112 43              L112 95              Q112 98 109 98              L88 98              Q85 98 85 95              Z" fill="#FFFFFF" fill-opacity=".56" stroke="#DDEFFC" stroke-width="2.2"/>
+  </g>
+
+  <!-- Hand-drawn panel highlights -->
+  <g stroke="#FFFFFF" stroke-width="1.7" opacity=".65">
+    <path d="M29 46 L29 92"/>
+    <path d="M59 46 L59 92"/>
+    <path d="M89 46 L89 92"/>
+  </g>
+
+  <!-- Digits -->
+  <!-- Left 0 -->
+  <path d="M38 83            Q31 83 31 69            Q31 54 38 54            Q46 54 46 69            Q46 83 38 83 Z" fill="none" stroke="#0078D4" stroke-width="4.8"/>
+
+  <!-- Middle 0 -->
+  <path d="M68 83            Q61 83 61 69            Q61 54 68 54            Q76 54 76 69            Q76 83 68 83 Z" fill="none" stroke="#0078D4" stroke-width="4.8"/>
+
+  <!-- Right 1 -->
+  <path d="M97 56            Q100 54 103 51            L103 83" fill="none" stroke="#F2F2F2" stroke-width="5"/>
+  <path d="M95 61            Q99 59 103 56" fill="none" stroke="#F2F2F2" stroke-width="3.2"/>
+
+  <!-- Subtle sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="2.7">
+    <path d="M100 12 L105 8"/>
+    <path d="M107 18 L114 17"/>
+    <path d="M12 84 L8 88"/>
+  </g>
+
+  <g stroke="#0078D4" stroke-width="2.2" opacity=".9">
+    <path d="M21 15 L26 13"/>
+    <path d="M116 76 L120 73"/>
+    <path d="M33 105 L40 107"/>
+  </g>
+
+  <!-- Small marker imperfections -->
+  <g stroke="#C3E8FF" stroke-width="1.5" opacity=".75">
+    <path d="M44 48 L47 47"/>
+    <path d="M74 49 L77 48"/>
+    <path d="M103 48 L106 47"/>
+  </g>
+</svg>

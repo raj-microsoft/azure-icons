@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Storage Mover (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn sketchnote illustration of Azure Storage Mover:
+    a magenta cloud with crossed cyan transfer paths and circular
+    endpoints, rendered with uneven marker outlines, subtle yellow
+    sketch accents, transparent background, and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudGrad" x1="20" y1="26" x2="108" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#CE74B6"/>
+      <stop offset="1" stop-color="#A33A85"/>
+    </linearGradient>
+
+    <linearGradient id="pathGrad" x1="24" y1="14" x2="102" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="dotGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud body -->
+  <path d="M33 93        C21 93 12 84 12 72        C12 61 20 52 31 50        C35 35 49 25 65 26        C84 25 100 39 104 57        C114 59 121 68 121 79        C121 92 110 102 97 102        H34        C33 102 33 102 33 102        C33 102 33 102 33 102        Z" fill="url(#cloudGrad)" stroke="#8F2E72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner cloud wobble -->
+  <path d="M29 90        C22 89 17 82 17 74        C17 65 24 57 33 56        C37 41 50 32 64 32        C80 31 94 42 98 57        C107 59 114 66 114 76        C114 87 106 95 95 95" stroke="#E5A4D2" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Main transfer path: top-left to bottom-right -->
+  <path d="M24 18        L59 53        Q63 57 67 61        L110 104" stroke="url(#pathGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main transfer path: bottom-left to upper-right -->
+  <path d="M18 109        L58 69        Q62 65 66 61        L104 23" stroke="url(#pathGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketch outline overlays for hand-drawn feel -->
+  <path d="M23 20        L58 55        L109 105" stroke="#1DAFCC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+
+  <path d="M19 108        L57 70        L105 22" stroke="#1DAFCC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+
+  <!-- Endpoint nodes -->
+  <circle cx="24" cy="18" r="8.5" fill="url(#dotGrad)" stroke="#249FBC" stroke-width="2.8"/>
+  <circle cx="18" cy="109" r="8.5" fill="url(#dotGrad)" stroke="#249FBC" stroke-width="2.8"/>
+  <circle cx="110" cy="104" r="8.5" fill="url(#dotGrad)" stroke="#249FBC" stroke-width="2.8"/>
+
+  <!-- Node highlights -->
+  <path d="M20 15 C22 13 25 13 27 15" stroke="#CFFBFF" stroke-width="2" stroke-linecap="round" opacity=".95"/>
+  <path d="M14 106 C16 104 19 104 21 106" stroke="#CFFBFF" stroke-width="2" stroke-linecap="round" opacity=".95"/>
+  <path d="M106 101 C108 99 111 99 113 101" stroke="#CFFBFF" stroke-width="2" stroke-linecap="round" opacity=".95"/>
+
+  <!-- Small central emphasis where paths meet -->
+  <path d="M61 61        C63 58 66 58 69 61        C67 64 64 66 61 67        C59 65 59 63 61 61Z" fill="#7EEFFF" stroke="#1DAFCC" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Subtle sketch hatching inside cloud -->
+  <g stroke="#B34D93" stroke-width="1.8" stroke-linecap="round" opacity=".45">
+    <path d="M43 52 L52 48"/>
+    <path d="M55 47 L64 44"/>
+    <path d="M71 46 L79 46"/>
+    <path d="M39 69 L48 66"/>
+    <path d="M54 65 L64 62"/>
+    <path d="M70 63 L81 62"/>
+    <path d="M43 83 L53 81"/>
+    <path d="M59 80 L69 79"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#E8C24D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 17 L96 11"/>
+    <path d="M99 20 L106 18"/>
+    <path d="M101 29 L108 31"/>
+    <path d="M8 40 L14 37"/>
+    <path d="M7 49 L13 49"/>
+    <path d="M84 112 L89 118"/>
+    <path d="M74 116 L77 123"/>
+  </g>
+
+  <!-- Small yellow sparkle marks -->
+  <g fill="#F1D36A">
+    <path d="M14 24 L16 20 L18 24 L16 28Z"/>
+    <path d="M113 44 L115 40 L117 44 L115 48Z"/>
+    <circle cx="99" cy="116" r="1.8"/>
+  </g>
+
+  <!-- Tiny pen imperfections -->
+  <g stroke="#7C2D66" stroke-width="1.5" stroke-linecap="round" opacity=".6">
+    <path d="M26 62 L30 60"/>
+    <path d="M89 54 L93 55"/>
+    <path d="M52 97 L56 98"/>
+    <path d="M107 82 L111 80"/>
+  </g>
+
+</svg>

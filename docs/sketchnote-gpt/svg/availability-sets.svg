@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Availability Sets (sketch)</title>
+
+  
+  <desc>
+    Two overlapping Azure virtual machine monitors with cyan
+    compute cubes, enclosed by a hand-drawn dashed availability
+    boundary. Original Azure blues, subtle grey stand,
+    restrained yellow highlights, and transparent background.
+    All shapes are explicit editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="monitorBlue" x1="33" y1="27" x2="103" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="standGrey" x1="73" y1="92" x2="73" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer availability set boundary -->
+  <path d="M7 8        L121 8        L121 120        L7 120Z" stroke="#0078D4" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="13 8" opacity="0.95"/>
+
+  <!-- Hand-drawn corner brackets -->
+  <path d="M7 23 L7 8 L22 8        M106 8 L121 8 L121 23        M7 105 L7 120 L22 120        M106 120 L121 120 L121 105" stroke="#005BA1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Rear virtual machine monitor shadow -->
+  <path d="M27 26        L83 27        Q87 27 87 31        L87 69        Q87 73 83 73        L27 73        Q23 73 23 69        L23 30        Q23 26 27 26Z" fill="#005BA1" opacity="0.2"/>
+
+  <!-- Rear virtual machine monitor -->
+  <path d="M26 25        L82 26        Q86 26 86 30        L86 67        Q86 71 82 71        L26 71        Q22 71 22 67        L22 29        Q22 25 26 25Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Rear display marker highlight -->
+  <path d="M28 31 L79 31        M28 31 L28 64" stroke="#83B9F9" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Rear monitor compute cube: explicit vector faces -->
+  <g stroke="#0078D4" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- Top face -->
+    <path d="M54 32          L68 40          L54 48          L40 40Z" fill="#C3F1FF"/>
+
+    <!-- Left/front face -->
+    <path d="M40 40          L54 48          L54 64          L40 56Z" fill="#9CEBFF"/>
+
+    <!-- Right face -->
+    <path d="M54 48          L68 40          L68 56          L54 64Z" fill="#50E6FF"/>
+
+    <!-- White top-face marker highlight -->
+    <path d="M45 40 L54 45 L63 40" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity="0.8"/>
+
+    <!-- Hand-drawn cube details -->
+    <path d="M44 46 L44 54          M59 52 L64 49" fill="none" stroke="#FFFFFF" stroke-width="1.3" opacity="0.8"/>
+  </g>
+
+  <!-- Rear monitor subtle lower edge -->
+  <path d="M30 66 L77 66" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Front monitor shadow -->
+  <path d="M45 48        L102 49        Q106 49 106 53        L106 90        Q106 94 102 94        L45 94        Q41 94 41 90        L41 52        Q41 48 45 48Z" fill="#005BA1" opacity="0.22"/>
+
+  <!-- Front monitor -->
+  <path d="M44 47        L101 48        Q105 48 105 52        L105 88        Q105 92 101 92        L44 92        Q40 92 40 88        L40 51        Q40 47 44 47Z" fill="url(#monitorBlue)" stroke="#005BA1" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner monitor sketchnote outline -->
+  <path d="M46 53        L98 53        M46 53 L46 84        M48 86 L96 86" stroke="#A7D8FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+  <!-- Front monitor compute cube: explicit vector faces -->
+  <g stroke="#0078D4" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- Top face -->
+    <path d="M73 55          L87 63          L73 71          L59 63Z" fill="#C3F1FF"/>
+
+    <!-- Left/front face -->
+    <path d="M59 63          L73 71          L73 87          L59 79Z" fill="#9CEBFF"/>
+
+    <!-- Right face -->
+    <path d="M73 71          L87 63          L87 79          L73 87Z" fill="#50E6FF"/>
+
+    <!-- White top-face marker highlight -->
+    <path d="M64 63 L73 68 L82 63" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity="0.8"/>
+
+    <!-- Hand-drawn cube details -->
+    <path d="M63 69 L63 77          M78 75 L83 72" fill="none" stroke="#FFFFFF" stroke-width="1.3" opacity="0.8"/>
+  </g>
+
+  <!-- Monitor stand neck -->
+  <path d="M67 92        L79 92        L80 103        Q81 106 86 107        L60 107        Q65 106 66 103Z" fill="url(#standGrey)" stroke="#707070" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Monitor stand base -->
+  <path d="M60 106        Q61 104 65 104        L81 104        Q85 104 86 106        L89 110        Q89 112 86 112        L60 112        Q57 112 57 110Z" fill="#CCCCCC" stroke="#707070" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Stand highlight -->
+  <path d="M63 108 L83 108" stroke="#F2F2F2" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote highlights -->
+  <path d="M96 36 L101 32        M101 41 L108 39" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M28 82 L23 86        M32 87 L29 92" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Freehand availability annotations -->
+  <path d="M14 44 L18 40        M14 52 L18 48" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M110 73 L114 69        M110 81 L114 77" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Small sketch emphasis marks -->
+  <path d="M51 17 L55 14        M60 17 L63 13" stroke="#83B9F9" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M93 108 L98 104" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Edge Hardware Center (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure Edge Hardware Center icon featuring
+    a blue hardware server panel with two white status rows
+    and an overlapping cyan isometric hardware cube.
+    Original Azure colors, irregular marker outlines,
+    subtle yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="edgePanel" x1="43" y1="9" x2="43" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Loose exterior sketch accents -->
+  <path d="M10 26Q7 35 9 44" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+
+  <path d="M16 112Q25 116 37 114" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".4"/>
+
+  <!-- Main hardware panel -->
+  <path d="M15 9            Q12 9 12 13            L12 103            Q12 107 16 107            L65 107            L65 75            Q65 72 68 70            L85 60            L85 13            Q85 9 81 9            Z" fill="url(#edgePanel)" stroke="#125B9B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle hand-drawn hardware panel edge -->
+  <path d="M19 16Q18 40 19 59" stroke="#A9D7FF" stroke-width="2.1" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M78 16Q79 35 78 51" stroke="#005BA1" stroke-width="1.8" stroke-linecap="round" opacity=".4"/>
+
+  <!-- First hardware status square -->
+  <path d="M24 27            Q24 25 26 25            L34 25            Q36 25 36 27            L36 35            Q36 37 34 37            L26 37            Q24 37 24 35            Z" fill="#FFFFFF" stroke="#D7F1FF" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- First hardware status bar -->
+  <path d="M45 27            Q45 25 47 25            L74 25            Q76 25 76 27            L76 35            Q76 37 74 37            L47 37            Q45 37 45 35            Z" fill="#FFFFFF" stroke="#D7F1FF" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Second hardware status square -->
+  <path d="M24 46            Q24 44 26 44            L34 44            Q36 44 36 46            L36 54            Q36 56 34 56            L26 56            Q24 56 24 54            Z" fill="#FFFFFF" stroke="#D7F1FF" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Second hardware status bar -->
+  <path d="M45 46            Q45 44 47 44            L74 44            Q76 44 76 46            L76 54            Q76 56 74 56            L47 56            Q45 56 45 54            Z" fill="#FFFFFF" stroke="#D7F1FF" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn highlights on status bars -->
+  <path d="M49 29L67 29" stroke="#A8DFFF" stroke-width="1.5" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M49 48L67 48" stroke="#A8DFFF" stroke-width="1.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Small hardware status details -->
+  <path d="M26 30L31 30            M26 49L31 49" stroke="#50E6FF" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- Overlapping hardware cube: top face -->
+  <path d="M94 55            L122 71            L94 87            L66 71            Z" fill="#C3F1FF" stroke="#1787B7" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cube left face -->
+  <path d="M66 71            L94 87            L94 120            L66 104            Z" fill="#9CEBFF" stroke="#1787B7" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cube right face -->
+  <path d="M122 71            L94 87            L94 120            L122 104            Z" fill="#50E6FF" stroke="#1787B7" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Top face sketch highlights -->
+  <path d="M76 71            L94 61            L111 71" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Left cube face highlight -->
+  <path d="M72 79            L72 99" stroke="#E5FCFF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Right cube face highlight -->
+  <path d="M116 79            L116 99" stroke="#B6F7FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Diagonal label strip on top of cube -->
+  <path d="M74 76            L106 58            L116 64            L84 82            Z" fill="#FFFFFF" opacity=".43"/>
+
+  <!-- Hand-drawn label line -->
+  <path d="M83 75L108 61" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Cube center edge reinforcement -->
+  <path d="M94 87Q93 103 94 120" stroke="#168CBF" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <path d="M109 40L113 35            M114 46L120 44" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M49 115L46 120            M55 117L55 123" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Loose handwritten-style finishing strokes -->
+  <path d="M24 96Q35 99 45 97" stroke="#B3E2FF" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
+
+  <path d="M101 124Q112 125 120 120" stroke="#0078D4" stroke-width="1.7" stroke-linecap="round" opacity=".4"/>
+</svg>

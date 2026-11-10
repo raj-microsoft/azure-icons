@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>AKS Automatic (sketch)</title>
+  
+  <desc>Hand-drawn Azure Kubernetes Service Automatic icon featuring blue automation arrows and seven purple Kubernetes cubes, with subtle yellow sketchnote accents and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="autoBlue1" x1="18" y1="18" x2="64" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#46A0DE"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="autoBlue2" x1="10" y1="34" x2="38" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8DC8E8"/>
+      <stop offset="1" stop-color="#46A0DE"/>
+    </linearGradient>
+    <linearGradient id="autoBlue3" x1="58" y1="34" x2="78" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#155EA1"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A58BDA"/>
+      <stop offset="1" stop-color="#8661C5"/>
+    </linearGradient>
+    <linearGradient id="cubeSide" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7A5AB6"/>
+      <stop offset="1" stop-color="#56407F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Automatic cycle arrows -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M54 15c-10-6-23-8-34-4l6 7c8-2 16-1 23 3 5 3 10 8 13 14l-8 1 13 10 2-16-6 5c-2-8-7-15-15-20Z" fill="url(#autoBlue1)" stroke="#145A96" stroke-width="2.6"/>
+
+    <path d="M18 20 31 21 25 27c-5 4-9 10-11 17-2 8-1 16 2 23l10-2c-2-6-2-12 0-18 2-5 5-10 10-14l6-5-16-1-8-1Z" fill="url(#autoBlue2)" stroke="#3E88BE" stroke-width="2.6"/>
+
+    <path d="M64 46c1 7 0 13-3 19-3 5-8 10-14 13l-2-8-12 11 16 3-2-8c9-3 16-9 21-17 4-7 6-16 5-24l-9 3Z" fill="url(#autoBlue3)" stroke="#145A96" stroke-width="2.6"/>
+  </g>
+
+  <!-- Hand-drawn motion accents -->
+  <g fill="none" stroke="#FFD34E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M69 18c4 3 7 7 9 11"/>
+    <path d="M9 72c1 4 3 8 6 12"/>
+    <path d="M47 89c4-1 8-3 12-6"/>
+  </g>
+
+  <!-- Kubernetes cube cluster -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Cube 1: upper left -->
+    <g transform="translate(52 38)">
+      <polygon points="0 9 11 2 22 9 11 15" fill="url(#cubeTop)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="0 9 0 24 11 30 11 15" fill="url(#cubeSide)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="22 9 22 24 11 30 11 15" fill="#8661C5" stroke="#4E3B74" stroke-width="2.2"/>
+      <path d="M5 12v10M11 15v13M17 12v10" fill="none" stroke="#DCCFFC" stroke-width="1.4" opacity=".55"/>
+    </g>
+
+    <!-- Cube 2: upper right -->
+    <g transform="translate(84 38)">
+      <polygon points="0 9 11 2 22 9 11 15" fill="url(#cubeTop)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="0 9 0 24 11 30 11 15" fill="url(#cubeSide)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="22 9 22 24 11 30 11 15" fill="#8661C5" stroke="#4E3B74" stroke-width="2.2"/>
+      <path d="M5 12v10M11 15v13M17 12v10" fill="none" stroke="#DCCFFC" stroke-width="1.4" opacity=".55"/>
+    </g>
+
+    <!-- Cube 3: middle left -->
+    <g transform="translate(20 66)">
+      <polygon points="0 9 11 2 22 9 11 15" fill="url(#cubeTop)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="0 9 0 24 11 30 11 15" fill="url(#cubeSide)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="22 9 22 24 11 30 11 15" fill="#8661C5" stroke="#4E3B74" stroke-width="2.2"/>
+      <path d="M5 12v10M11 15v13M17 12v10" fill="none" stroke="#DCCFFC" stroke-width="1.4" opacity=".55"/>
+    </g>
+
+    <!-- Cube 4: middle center -->
+    <g transform="translate(52 66)">
+      <polygon points="0 9 11 2 22 9 11 15" fill="url(#cubeTop)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="0 9 0 24 11 30 11 15" fill="url(#cubeSide)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="22 9 22 24 11 30 11 15" fill="#8661C5" stroke="#4E3B74" stroke-width="2.2"/>
+      <path d="M5 12v10M11 15v13M17 12v10" fill="none" stroke="#DCCFFC" stroke-width="1.4" opacity=".55"/>
+    </g>
+
+    <!-- Cube 5: middle right -->
+    <g transform="translate(84 66)">
+      <polygon points="0 9 11 2 22 9 11 15" fill="url(#cubeTop)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="0 9 0 24 11 30 11 15" fill="url(#cubeSide)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="22 9 22 24 11 30 11 15" fill="#8661C5" stroke="#4E3B74" stroke-width="2.2"/>
+      <path d="M5 12v10M11 15v13M17 12v10" fill="none" stroke="#DCCFFC" stroke-width="1.4" opacity=".55"/>
+    </g>
+
+    <!-- Cube 6: bottom left -->
+    <g transform="translate(52 94)">
+      <polygon points="0 9 11 2 22 9 11 15" fill="url(#cubeTop)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="0 9 0 24 11 30 11 15" fill="url(#cubeSide)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="22 9 22 24 11 30 11 15" fill="#8661C5" stroke="#4E3B74" stroke-width="2.2"/>
+      <path d="M5 12v10M11 15v13M17 12v10" fill="none" stroke="#DCCFFC" stroke-width="1.4" opacity=".55"/>
+    </g>
+
+    <!-- Cube 7: bottom right -->
+    <g transform="translate(84 94)">
+      <polygon points="0 9 11 2 22 9 11 15" fill="url(#cubeTop)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="0 9 0 24 11 30 11 15" fill="url(#cubeSide)" stroke="#4E3B74" stroke-width="2.2"/>
+      <polygon points="22 9 22 24 11 30 11 15" fill="#8661C5" stroke="#4E3B74" stroke-width="2.2"/>
+      <path d="M5 12v10M11 15v13M17 12v10" fill="none" stroke="#DCCFFC" stroke-width="1.4" opacity=".55"/>
+    </g>
+
+  </g>
+
+  <!-- Sketchnote finishing accents -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M111 35v8M107 39h8" stroke="#FFD34E" stroke-width="3"/>
+    <path d="M27 104c4 2 9 3 13 2" stroke="#FFD34E" stroke-width="3"/>
+    <path d="M114 123c-4 1-8 1-12 0" stroke="#4894FE" stroke-width="2.4" opacity=".7"/>
+  </g>
+</svg>

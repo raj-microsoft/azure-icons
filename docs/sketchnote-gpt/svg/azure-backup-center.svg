@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Azure Backup Center (sketch)</title>
+
+  <defs>
+    <linearGradient id="backupAzure" x1="76" y1="8" x2="76" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#378FE4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="backupCyan" x1="43" y1="47" x2="70" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear Azure cloud -->
+  <path d="M35 47            Q37 32 51 27            Q58 24 65 26            C71 12 83 7 96 11            C109 14 116 26 116 39            C125 42 129 50 125 61            Q121 72 109 73            L52 73            Q37 72 32 61            Q29 54 35 47Z" fill="url(#backupAzure)" stroke="#16568B" stroke-width="3.5"/>
+
+  <!-- Loose hand-drawn Azure cloud highlights -->
+  <path d="M43 43 Q46 32 58 32            M76 24 Q84 13 96 17            M116 48 Q123 54 119 61" stroke="#B8DFFF" stroke-width="2.6" opacity=".8"/>
+
+  <!-- Small marker-style cloud contour -->
+  <path d="M71 29 Q75 35 75 42" stroke="#C6E5FF" stroke-width="2" opacity=".6"/>
+
+  <!-- Front backup cloud -->
+  <path d="M25 66            Q29 51 44 47            Q60 43 72 54            Q80 61 81 72            Q92 74 97 83            Q103 95 96 105            Q90 114 77 114            L31 114            Q14 115 8 103            Q2 92 9 79            Q14 70 25 66Z" fill="#FFFFFF" stroke="#50E6FF" stroke-width="4"/>
+
+  <!-- Secondary sketched cyan outline -->
+  <path d="M20 74            Q27 67 33 67            M32 56 Q45 47 58 54            M85 81 Q96 87 92 98" stroke="#0078D4" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Soft cyan sketch shading inside cloud -->
+  <path d="M14 101            Q20 109 32 109            L76 109            Q88 110 94 102" stroke="#B5F5FF" stroke-width="3" opacity=".8"/>
+
+  <!-- Backup circular arrow: dark ink under-stroke -->
+  <path d="M57 86            C55 73 45 65 33 66            C20 67 13 77 14 89            C15 101 24 108 35 108            L43 108" stroke="#16568B" stroke-width="9"/>
+
+  <!-- Azure-blue hand-drawn backup arrow -->
+  <path d="M57 86            C55 73 45 65 33 66            C20 67 13 77 14 89            C15 101 24 108 35 108            L43 108" stroke="#0078D4" stroke-width="6"/>
+
+  <!-- Bold directional arrowhead -->
+  <path d="M39 98            L52 108            L39 118Z" fill="#0078D4" stroke="#16568B" stroke-width="2.5"/>
+
+  <!-- Tiny backup settings gear -->
+  <path d="M31 79            L35 79            L37 83            L40 84            L44 82            L47 85            L45 89            L46 92            L50 94            L50 98            L46 100            L45 103            L47 107            L44 110            L40 108            L37 109            L35 113            L31 113            L29 109            L26 108            L22 110            L19 107            L21 103            L20 100            L16 98            L16 94            L20 92            L21 89            L19 85            L22 82            L26 84            L29 83Z" fill="#0078D4" stroke="#16568B" stroke-width="2.2" transform="translate(5 -8) scale(.85)"/>
+
+  <!-- Gear hub -->
+  <circle cx="33" cy="88" r="5" fill="#FFFFFF" stroke="#16568B" stroke-width="2.5"/>
+
+  <!-- Small settings detail -->
+  <path d="M31 86 Q33 84 35 87" stroke="#50E6FF" stroke-width="1.8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M12 39 L6 34            M19 34 L18 26" stroke="#F4CB52" stroke-width="3"/>
+
+  <path d="M109 85 L115 80            M113 92 L121 91" stroke="#F4CB52" stroke-width="3"/>
+
+  <!-- Handwritten-style annotation marks -->
+  <path d="M61 118 L68 120            M72 120 L77 119" stroke="#0078D4" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Small cloud sketch flicks -->
+  <path d="M54 39 L58 35            M108 69 L113 67" stroke="#B8DFFF" stroke-width="2" opacity=".8"/>
+
+</svg>

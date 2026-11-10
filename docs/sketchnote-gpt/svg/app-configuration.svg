@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>App Configuration (sketch)</title>
+  
+  <desc>Azure-blue cloud with a large golden configuration gear and a smaller green gear, illustrated using uneven marker outlines, editable vector paths, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="appCloudBlue" x1="64" y1="12" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".52" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="appGearGold" x1="88" y1="51" x2="88" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".5" stop-color="#FFC613"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+
+    <linearGradient id="appGearGreen" x1="23" y1="91" x2="48" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#91CE49"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cloud -->
+  <path d="M38 87            C20 89 8 77 8 61            C8 45 19 34 34 32            C40 17 53 10 68 11            C87 12 100 25 101 43            C114 44 122 54 122 66            C122 79 111 88 98 88            L39 88Z" fill="url(#appCloudBlue)" stroke="#155EA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose sketchnote cloud highlights -->
+  <path d="M17 57            Q18 43 35 40            M44 27            Q54 16 68 17            M80 20            Q94 28 95 43" stroke="#C5E6FF" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Subtle cloud contour -->
+  <path d="M17 69            Q21 80 34 81            M108 52            Q117 58 116 68" stroke="#B2DAFA" stroke-width="2.3" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Small green configuration gear -->
+  <path d="M31 91            L40 91            L42 97            L47 99            L53 96            L59 102            L56 108            L58 113            L64 116            L64 124            L57 126            L53 122            L47 124            L43 128            L34 127            L32 122            L27 120            L21 123            L15 118            L18 112            L16 107            L10 104            L12 96            L19 95            L23 90            L29 93Z" fill="url(#appGearGreen)" stroke="#4D8725" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small gear center -->
+  <path d="M38 102            C45 102 50 108 49 115            C48 121 42 125 36 123            C30 122 26 117 27 111            C28 106 32 102 38 102Z" fill="#FFFFFF" stroke="#4D8725" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Small gear inner marker detail -->
+  <path d="M33 108            Q36 105 40 107" stroke="#A9D76C" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Large golden configuration gear -->
+  <path d="M82 48            L94 48            L98 57            L105 60            L114 56            L123 65            L119 74            L122 82            L128 86            L127 99            L118 103            L115 111            L119 120            L110 128            L101 124            L94 127            L90 128            L78 127            L75 119            L67 116            L58 120            L50 111            L54 102            L51 95            L43 91            L44 79            L53 76            L56 68            L52 60            L61 52            L70 56            L78 53Z" fill="url(#appGearGold)" stroke="#B97A17" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Gear inner depth ring -->
+  <path d="M86 70            C98 69 108 79 108 91            C108 103 98 112 86 112            C74 112 65 102 65 91            C65 79 74 70 86 70Z" fill="none" stroke="#E79B18" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="17 5" opacity=".65"/>
+
+  <!-- White central gear opening -->
+  <path d="M86 79            C93 79 99 84 99 91            C99 98 93 104 86 104            C79 104 74 98 74 91            C74 84 79 79 86 79Z" fill="#FFFFFF" stroke="#B97A17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn inner reflection -->
+  <path d="M81 85            Q85 82 90 85" stroke="#FFE38A" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Golden gear marker highlights -->
+  <path d="M63 66            Q70 58 79 58            M99 60            Q108 65 112 73" stroke="#FFF0A2" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M111 18            L111 28            M106 23            L116 23" stroke="#FFD34E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sketchnote motion marks -->
+  <path d="M12 92            Q16 96 21 98            M7 100            L11 104" stroke="#FFD34E" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Subtle configuration annotation strokes -->
+  <path d="M35 9            Q42 5 49 5            M102 34            L108 37" stroke="#4894FE" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

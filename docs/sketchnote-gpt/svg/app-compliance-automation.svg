@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>App Compliance Automation (sketch)</title>
+  
+  <desc>Azure-blue cloud with a lime-green automation gear and a white compliance checkmark, illustrated with organic marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="30" y1="18" x2="98" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="gearLime" x1="64" y1="38" x2="64" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B4EC36"/>
+      <stop offset=".55" stop-color="#A4E434"/>
+      <stop offset="1" stop-color="#86D633"/>
+    </linearGradient>
+
+    <linearGradient id="gearCenter" x1="64" y1="60" x2="64" y2="89" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76BC2D"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure cloud silhouette -->
+  <path d="M35 109            C17 110 6 97 6 81            C6 65 17 53 33 51            C39 31 55 20 74 21            C95 21 110 37 111 56            C123 60 127 70 126 83            C125 98 113 109 98 109            Z" fill="url(#cloudBlue)" stroke="#075EA8" stroke-width="3.5"/>
+
+  <!-- Loose cloud marker highlights -->
+  <path d="M15 75            Q18 61 35 59            M43 44            Q53 27 73 28            M85 31            Q102 38 104 57" stroke="#D4EFFF" stroke-width="3" opacity=".85"/>
+
+  <path d="M13 90 Q19 102 35 102            M112 65 Q120 73 118 83" stroke="#FFFFFF" stroke-width="2.3" opacity=".6"/>
+
+  <!-- Subtle hand-sketched cloud texture -->
+  <path d="M24 69 L33 66            M18 82 L25 82            M100 42 L104 48" stroke="#005BA1" stroke-width="2" opacity=".4"/>
+
+  <!-- Automation gear outer teeth -->
+  <path d="M58 39            Q59 36 62 36            L68 36            Q71 36 72 39            L75 45            L80 47            L87 44            Q90 43 92 46            L97 51            Q99 54 97 57            L93 63            L95 69            L102 72            Q105 73 105 76            L105 82            Q105 85 102 86            L95 89            L93 95            L97 101            Q99 104 96 107            L91 112            Q88 114 85 112            L79 108            L73 110            L70 117            Q69 120 66 120            L60 120            Q57 120 56 117            L53 110            L47 108            L41 112            Q38 114 35 112            L30 107            Q28 104 30 101            L34 95            L32 89            L25 86            Q22 85 22 82            L22 76            Q22 73 25 72            L32 69            L34 63            L30 57            Q28 54 30 51            L35 46            Q38 43 41 45            L47 48            L53 45 Z" fill="url(#gearLime)" stroke="#5E9624" stroke-width="3.4"/>
+
+  <!-- Slight imperfect inner gear contour -->
+  <path d="M64 48            C80 47 92 60 92 77            C92 93 80 106 64 106            C47 106 35 93 35 77            C35 60 47 48 64 48 Z" stroke="#D8FA7C" stroke-width="2.5" stroke-dasharray="13 6" opacity=".85"/>
+
+  <!-- Gear center -->
+  <path d="M64 59            C75 58 84 67 84 78            C84 90 75 99 64 99            C52 99 44 90 44 79            C44 67 52 59 64 59 Z" fill="url(#gearCenter)" stroke="#4E8521" stroke-width="3.2"/>
+
+  <!-- White compliance checkmark -->
+  <path d="M53 78            L61 86            L76 70" stroke="#FFFFFF" stroke-width="6.5"/>
+
+  <!-- Light marker reinforcement -->
+  <path d="M54 75 L61 82            M68 76 L74 70" stroke="#EFFFF0" stroke-width="1.8" opacity=".8"/>
+
+  <!-- Gear surface marker highlights -->
+  <path d="M60 42 L68 42            M38 52 L43 54            M87 51 L91 55            M29 77 L29 81            M98 77 L98 81" stroke="#E9FFAC" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Hand-drawn gear detail strokes -->
+  <path d="M39 69 Q43 56 54 53            M75 102 Q85 97 89 87" stroke="#5E9624" stroke-width="2" opacity=".55"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F7C948" stroke-width="3">
+    <path d="M107 24 L113 17"/>
+    <path d="M115 32 L123 29"/>
+    <path d="M99 19 L100 12"/>
+  </g>
+
+  <path d="M18 111 L12 117            M27 115 L26 123" stroke="#F7C948" stroke-width="2.8"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M27 24 L27 33            M22.5 28.5 L31.5 28.5" stroke="#F7C948" stroke-width="2.5"/>
+
+  <!-- Minimal sketchnote motion strokes -->
+  <path d="M10 55 L17 51            M13 61 L19 58            M109 114 L117 110" stroke="#32D4F5" stroke-width="2.3"/>
+
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Auto Scale (sketch)</title>
+
+  
+  <desc>
+    Azure Auto Scale icon featuring an expanding blue diagonal
+    arrow, a grey application frame, and a green dotted scaling
+    boundary. Organic marker outlines, subtle yellow accents,
+    and a transparent background. All elements use explicit
+    editable vector paths without use elements.
+  </desc>
+
+  <defs>
+    <linearGradient id="scaleBlue" x1="53" y1="74" x2="115" y2="9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1B93EB"/>
+      <stop offset="1" stop-color="#6BB9F2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Explicit green scaling markers -->
+  <g fill="#76BC2D" stroke="#568C20" stroke-width="0.65" stroke-linejoin="round">
+
+    <!-- Top dotted boundary -->
+    <path d="M7.6 7.8 L14.1 7.5 L14.5 14.1 L7.8 14.4Z"/>
+    <path d="M22.6 7.8 L29.1 7.5 L29.5 14.1 L22.8 14.4Z"/>
+    <path d="M37.6 7.8 L44.1 7.5 L44.5 14.1 L37.8 14.4Z"/>
+    <path d="M52.6 7.8 L59.1 7.5 L59.5 14.1 L52.8 14.4Z"/>
+
+    <!-- Left dotted boundary -->
+    <path d="M7.6 22.8 L14.1 22.5 L14.5 29.1 L7.8 29.4Z"/>
+    <path d="M7.6 37.8 L14.1 37.5 L14.5 44.1 L7.8 44.4Z"/>
+    <path d="M7.6 52.8 L14.1 52.5 L14.5 59.1 L7.8 59.4Z"/>
+    <path d="M7.6 67.8 L14.1 67.5 L14.5 74.1 L7.8 74.4Z"/>
+    <path d="M7.6 82.8 L14.1 82.5 L14.5 89.1 L7.8 89.4Z"/>
+    <path d="M7.6 97.8 L14.1 97.5 L14.5 104.1 L7.8 104.4Z"/>
+    <path d="M7.6 112.8 L14.1 112.5 L14.5 119.1 L7.8 119.4Z"/>
+
+    <!-- Bottom dotted boundary -->
+    <path d="M22.6 112.8 L29.1 112.5 L29.5 119.1 L22.8 119.4Z"/>
+    <path d="M37.6 112.8 L44.1 112.5 L44.5 119.1 L37.8 119.4Z"/>
+    <path d="M52.6 112.8 L59.1 112.5 L59.5 119.1 L52.8 119.4Z"/>
+    <path d="M67.6 112.8 L74.1 112.5 L74.5 119.1 L67.8 119.4Z"/>
+    <path d="M82.6 112.8 L89.1 112.5 L89.5 119.1 L82.8 119.4Z"/>
+    <path d="M97.6 112.8 L104.1 112.5 L104.5 119.1 L97.8 119.4Z"/>
+    <path d="M112.6 112.8 L119.1 112.5 L119.5 119.1 L112.8 119.4Z"/>
+
+    <!-- Right dotted boundary -->
+    <path d="M112.6 97.8 L119.1 97.5 L119.5 104.1 L112.8 104.4Z"/>
+    <path d="M112.6 82.8 L119.1 82.5 L119.5 89.1 L112.8 89.4Z"/>
+    <path d="M112.6 67.8 L119.1 67.5 L119.5 74.1 L112.8 74.4Z"/>
+
+  </g>
+
+  <!-- Slightly irregular grey application frame -->
+  <path d="M26 25        Q26 23 29 23        L65 23        M26 25        L26 99        Q26 102 30 102        L100 102        Q103 102 103 99        L103 69" stroke="#B3B3B3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner sketch highlight on the frame -->
+  <path d="M30 29 L30 96        M35 98 L96 98        M99 94 L99 75" stroke="#E0E0E0" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- Organic blue diagonal scaling arrow -->
+  <path d="M54 65        L93 26        L83 16        Q81 14 84 13        L115 13        Q118 13 118 16        L118 47        Q118 50 115 48        L105 38        L66 77        Q64 79 62 77        L54 69        Q52 67 54 65Z" fill="url(#scaleBlue)" stroke="#0078D4" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn highlight along the arrow shaft -->
+  <path d="M60 66        L95 31        Q97 29 99 31" stroke="#B9E3FF" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrowhead marker accents -->
+  <path d="M91 18 L111 18        M112 22 L112 39" stroke="#A9DAFA" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Sketch motion marks -->
+  <path d="M74 36 L78 29        M81 40 L87 36" stroke="#5EA0EF" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M105 5 L108 2        M116 6 L120 3" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M47 77 L42 82        M51 82 L48 88" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small freehand annotations -->
+  <path d="M36 38 L43 38        M36 43 L40 43" stroke="#B3B3B3" stroke-width="1.9" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M81 89 L88 89        M81 94 L92 94" stroke="#B3B3B3" stroke-width="1.9" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Subtle scaling direction ticks -->
+  <path d="M65 12 L70 12        M116 61 L116 65" stroke="#76BC2D" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

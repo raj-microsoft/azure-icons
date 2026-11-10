@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Advisor (sketch)</title>
+  
+  <desc>Azure-blue cloud with a hand-drawn gold award seal and turquoise ribbon tails.</desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="25" y1="10" x2="99" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#28B5D9"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="ribbonLeft" x1="53" y1="75" x2="75" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42E8CA"/>
+      <stop offset="1" stop-color="#20BDA9"/>
+    </linearGradient>
+    <linearGradient id="ribbonRight" x1="76" y1="76" x2="99" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C2B1"/>
+      <stop offset="1" stop-color="#168F89"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Organic Azure cloud silhouette -->
+  <path d="M35 94            C18 96 7 84 8 69            C8 55 18 44 33 43            C38 25 52 14 68 14            C87 13 101 27 103 44            C117 46 124 58 123 71            C122 84 112 94 99 95            Z" fill="url(#cloudBlue)" stroke="#126B9D" stroke-width="3.6"/>
+
+  <!-- Loose marker-style cloud highlights -->
+  <path d="M17 65            C19 55 26 50 37 49            M43 36            C49 25 58 21 69 22            M82 24            C92 29 96 36 97 46" stroke="#C6F7FF" stroke-width="3" opacity=".85"/>
+
+  <path d="M14 79            Q20 89 34 89            M107 52            Q117 58 117 69" stroke="#FFFFFF" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Subtle hand-drawn cloud texture -->
+  <path d="M30 68 L39 68            M34 73 L46 73            M47 32 L52 27" stroke="#0878AF" stroke-width="2" opacity=".4"/>
+
+  <!-- Award ribbon tails -->
+  <path d="M75 78            L89 84            L103 110            Q105 114 102 117            L89 126            Q86 128 85 122            L74 94 Z" fill="url(#ribbonRight)" stroke="#087D83" stroke-width="3.2"/>
+
+  <path d="M75 78            L60 84            L48 110            Q46 114 49 117            L62 126            Q65 128 67 122            L78 94 Z" fill="url(#ribbonLeft)" stroke="#079A9B" stroke-width="3.2"/>
+
+  <!-- Ribbon fold details -->
+  <path d="M65 91 L54 112            M87 92 L98 112" stroke="#E0FFF5" stroke-width="2.6" opacity=".8"/>
+
+  <path d="M67 98 L63 110            M85 99 L90 112" stroke="#087D83" stroke-width="1.8" opacity=".6"/>
+
+  <!-- Hand-drawn scalloped award seal -->
+  <path d="M75 40            L82 44            L90 42            L94 49            L102 51            L102 59            L108 65            L104 72            L107 79            L100 84            L98 92            L90 93            L85 100            L77 97            L70 101            L64 96            L56 96            L53 88            L46 84            L49 76            L44 70            L49 63            L48 55            L56 52            L59 45            L67 46 Z" fill="#005BA1" stroke="#064476" stroke-width="3.4"/>
+
+  <!-- Slight imperfect inner marker ring -->
+  <path d="M77 50            C91 49 101 61 99 75            C97 88 86 95 75 94            C62 92 54 83 54 71            C54 59 64 50 77 50 Z" stroke="#74DFF1" stroke-width="2" stroke-dasharray="8 5" opacity=".75"/>
+
+  <!-- Golden Advisor medallion -->
+  <path d="M76 53            C89 52 99 62 98 74            C97 87 89 94 76 94            C63 94 54 85 54 73            C54 61 64 53 76 53 Z" fill="#FFCA00" stroke="#C98D00" stroke-width="3.5"/>
+
+  <!-- Sketchy golden ring -->
+  <path d="M76 58            C87 57 94 65 93 74            C93 83 85 90 76 89            C66 89 59 82 59 73            C59 65 66 59 76 58 Z" stroke="#FFF0A6" stroke-width="2.3" stroke-dasharray="15 5"/>
+
+  <!-- Small hand-sketched recommendation sparkle -->
+  <path d="M76 62            L79.5 69.5            L88 71            L82 77            L83.5 85            L76 81            L68.5 85            L70 77            L64 71            L72.5 69.5 Z" fill="#FFF1A8" stroke="#B77C00" stroke-width="2.2"/>
+
+  <!-- Marker strokes for depth -->
+  <path d="M62 65 Q65 60 71 59            M84 88 Q90 85 92 79" stroke="#FFFFFF" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Yellow sketchnote accent marks -->
+  <path d="M109 29 L115 22            M116 38 L124 35            M99 24 L100 16" stroke="#FFCA00" stroke-width="3.3"/>
+
+  <path d="M20 108 L14 114            M30 113 L29 121" stroke="#FFCA00" stroke-width="2.8"/>
+
+  <!-- Tiny handwritten-style motion strokes -->
+  <path d="M14 32 Q18 26 23 24            M17 39 L24 35" stroke="#32D4F5" stroke-width="2.5"/>
+
+  <path d="M111 102 L117 107            M108 109 L112 115" stroke="#37C2B1" stroke-width="2.5"/>
+</svg>

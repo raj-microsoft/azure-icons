@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Blob Block (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Blob Block icon with a blue header,
+    cyan storage container, and four rectangular data blocks.
+    Original Azure-blue, cyan, and white colours with
+    uneven marker outlines, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="blobCyan" x1="64" y1="40" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".775" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="blobHeader" x1="12" y1="15" x2="116" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#168BE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main cyan storage container -->
+  <path d="M10 41        L118 41        L118 108        Q118 113 113 113        L15 113        Q10 113 10 108Z" fill="url(#blobCyan)" stroke="#168EBD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn blue container header -->
+  <path d="M15 16        Q10 16 10 21        L10 41        L118 41        L118 21        Q118 16 113 16        Z" fill="url(#blobHeader)" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Header marker highlight -->
+  <path d="M18 23        Q18 21 22 21        L107 21" stroke="#70B9F5" stroke-width="2.7" stroke-linecap="round" opacity=".85"/>
+
+  <!-- First blue data block -->
+  <path d="M24 51        Q24 49 27 49        L59 49        Q62 49 62 52        L62 69        Q62 72 59 72        L27 72        Q24 72 24 69Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- First block sketch highlight -->
+  <path d="M29 54 L55 54" stroke="#66B5F1" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Second white data block -->
+  <path d="M70 51        Q70 49 73 49        L105 49        Q108 49 108 52        L108 69        Q108 72 105 72        L73 72        Q70 72 70 69Z" fill="#FFFFFF" stroke="#168EBD" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- White block inner sketch -->
+  <path d="M75 54 L101 54" stroke="#D7F7FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Third blue data block -->
+  <path d="M24 80        Q24 78 27 78        L59 78        Q62 78 62 81        L62 98        Q62 101 59 101        L27 101        Q24 101 24 98Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Third block sketch highlight -->
+  <path d="M29 83 L55 83" stroke="#66B5F1" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Fourth blue data block -->
+  <path d="M70 80        Q70 78 73 78        L105 78        Q108 78 108 81        L108 98        Q108 101 105 101        L73 101        Q70 101 70 98Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Fourth block sketch highlight -->
+  <path d="M75 83 L101 83" stroke="#66B5F1" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Cyan marker strokes -->
+  <g stroke="#B6F4FF" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M15 48 L15 65"/>
+    <path d="M15 75 L15 91"/>
+    <path d="M113 49 L113 65"/>
+    <path d="M113 78 L113 94"/>
+  </g>
+
+  <!-- Subtle hand-drawn marker imperfections -->
+  <g stroke="#0078D4" stroke-width="1.7" stroke-linecap="round" opacity=".65">
+    <path d="M20 46 L26 44"/>
+    <path d="M102 45 L109 46"/>
+    <path d="M18 106 L24 109"/>
+    <path d="M103 108 L110 106"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#E9BF4B" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M23 11 L20 5"/>
+    <path d="M32 10 L32 3"/>
+
+    <path d="M105 10 L109 4"/>
+    <path d="M113 14 L120 10"/>
+
+    <path d="M5 56 L1 54"/>
+    <path d="M5 64 L0 66"/>
+
+    <path d="M121 86 L126 89"/>
+    <path d="M119 95 L124 101"/>
+
+    <path d="M45 118 L42 124"/>
+    <path d="M54 119 L55 125"/>
+  </g>
+
+  <!-- Tiny sketchnote sparkle accents -->
+  <g fill="#F1CB5B">
+    <path d="M16 119 L18 115 L20 119 L18 123Z"/>
+    <path d="M118 116 L120 112 L122 116 L120 120Z"/>
+    <circle cx="94" cy="8" r="1.7"/>
+    <circle cx="6" cy="105" r="1.6"/>
+  </g>
+
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Automation Accounts (sketch)</title>
+  
+  <desc>Azure-blue hand-drawn automation gear with a bold golden lightning bolt, preserving the original Azure Automation Accounts symbolism.</desc>
+
+  <defs>
+    <linearGradient id="gearBlue" x1="34" y1="8" x2="94" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".52" stop-color="#2E8CE1"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="boltGold" x1="87" y1="13" x2="42" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".52" stop-color="#FFB718"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn automation gear -->
+  <path d="     M58 5     Q57 4 55 7     L49 20     Q43 22 38 25     L25 19     Q23 18 21 21     L13 29     Q11 31 13 34     L19 47     Q16 52 15 57     L3 61     Q1 62 2 65     L2 76     Q2 78 5 79     L18 83     Q20 89 24 94     L18 107     Q17 109 20 111     L29 119     Q31 121 34 119     L47 113     Q52 116 57 117     L61 125     Q62 127 65 126     L76 126     Q79 126 80 123     L84 111     Q90 109 95 105     L108 111     Q110 112 112 109     L120 100     Q122 98 120 95     L114 82     Q117 77 118 72     L125 68     Q127 67 126 64     L126 53     Q126 50 123 49     L111 45     Q108 39 104 35     L110 22     Q111 20 108 18     L99 10     Q97 8 94 10     L82 16     Q76 13 72 12     L68 5Z      M64 37     C48 37 36 49 36 64     C36 80 48 92 64 92     C80 92 92 80 92 64     C92 48 80 37 64 37Z" fill="url(#gearBlue)" fill-rule="evenodd" stroke="#005BA1" stroke-width="3.5"/>
+
+  <!-- Irregular blue marker highlights -->
+  <path d="M25 31 L31 25            M7 65 L14 63            M31 112 L37 109            M65 120 L66 115            M112 97 L108 91            M120 56 L114 54            M99 17 L94 22            M61 10 L59 18" stroke="#A9D8FF" stroke-width="2.5"/>
+
+  <!-- Inner gear ring, loosely sketched -->
+  <path d="M63 32            C81 31 96 44 97 62            M97 70 C94 87 81 98 65 98            M54 97 C39 93 30 80 30 65            M31 55 C35 42 46 34 56 32" stroke="#005BA1" stroke-width="2.6" opacity=".75"/>
+
+  <!-- Inner opening: transparent -->
+  <path d="M64 39            C49 39 39 50 39 64            C39 79 50 89 64 89            C79 89 89 78 89 64            C89 49 78 39 64 39Z" fill="none" stroke="#B6DFFF" stroke-width="2.5"/>
+
+  <!-- Golden lightning bolt: original diagonal silhouette -->
+  <path d="M65 13            Q66 11 69 11            L95 11            Q99 11 96 15            L61 59            L94 59            Q98 59 95 63            L38 119            Q33 124 35 116            L60 75            L36 75            Q32 75 35 70            L63 16Z" fill="url(#boltGold)" stroke="#B9740D" stroke-width="3.5"/>
+
+  <!-- Hand-drawn lightning highlight -->
+  <path d="M70 17 L88 17            L54 63            M87 65 L46 107" stroke="#FFE88B" stroke-width="3" opacity=".9"/>
+
+  <!-- Fine marker definition -->
+  <path d="M39 72 L63 72            M66 16 L42 65" stroke="#E9920A" stroke-width="1.8" opacity=".75"/>
+
+  <!-- Subtle sketchnote energy marks -->
+  <path d="M16 12 L10 6            M10 21 L3 18            M113 7 L119 2            M119 27 L125 24" stroke="#0078D4" stroke-width="2.6"/>
+
+  <!-- Yellow energy accents -->
+  <path d="M8 105 L3 110            M13 115 L10 122            M116 116 L122 121" stroke="#F7C64A" stroke-width="2.8"/>
+
+  <!-- Tiny hand-drawn sparkle -->
+  <path d="M111 39 L111 47            M107 43 L115 43" stroke="#FFD70F" stroke-width="2.6"/>
+
+  <!-- Loose sketch finishing strokes -->
+  <path d="M44 7 Q48 5 52 6            M83 122 Q89 120 92 117            M4 88 Q6 94 9 97" stroke="#5EA0EF" stroke-width="2.2"/>
+</svg>

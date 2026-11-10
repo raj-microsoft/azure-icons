@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure SQL Server Stretch Databases (sketch)</title>
+  
+  <desc>
+    Hand-drawn grey SQL server building with cyan windows,
+    connected to an Azure-blue cylindrical database.
+    Uneven marker outlines, original Azure colours,
+    subtle yellow sketch accents and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="buildingGrey" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B3B2B3"/>
+      <stop offset="1" stop-color="#979797"/>
+    </linearGradient>
+    <linearGradient id="databaseBlue" x1="0" y1="0" x2="1" y2=".2">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- SQL server building silhouette -->
+  <path d="M8 31            L52 7            Q54 6 56 8            L100 32            L100 40            L92 40            L92 87            L84 87            L84 40            L25 40            L25 88            L17 88            L17 40            L8 40 Z" fill="url(#buildingGrey)" stroke="#737373" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Roof marker highlight -->
+  <path d="M17 32 L53 13 L89 33" stroke="#D9D8D8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Building structure -->
+  <path d="M27 43 L27 86 M81 43 L81 77" stroke="#858585" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Upper-left cyan window -->
+  <path d="M34 49            L51 48            L51 65            L34 66 Z" fill="#50E6FF" stroke="#0078A8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Upper-right cyan window -->
+  <path d="M60 49            L77 49            L77 65            L60 65 Z" fill="#50E6FF" stroke="#0078A8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Lower-left cyan window -->
+  <path d="M34 73            L51 73            L51 90            L34 90 Z" fill="#50E6FF" stroke="#0078A8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Lower-right cyan window, partially behind database -->
+  <path d="M60 73            L77 73            L77 90            L60 90 Z" fill="#50E6FF" stroke="#0078A8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Window sketch highlights -->
+  <g stroke="#E0FBFF" stroke-width="2" stroke-linecap="round" opacity=".85">
+    <path d="M38 53 L46 52"/>
+    <path d="M64 53 L72 53"/>
+    <path d="M38 77 L46 77"/>
+    <path d="M64 77 L70 77"/>
+  </g>
+
+  <!-- Subtle stretch connection behind database -->
+  <path d="M78 77            C84 73 91 72 100 76" stroke="#0078D4" stroke-width="3" stroke-dasharray="4 5" stroke-linecap="round"/>
+
+  <!-- Database body -->
+  <path d="M64 64            C64 55 117 55 117 64            L117 111            C117 122 64 122 64 111 Z" fill="url(#databaseBlue)" stroke="#004F91" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Database middle separation -->
+  <path d="M64 87            C65 98 116 99 117 87" stroke="#36A8EB" stroke-width="2.3" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Database lower separation -->
+  <path d="M65 106            C72 116 109 117 116 106" stroke="#36A8EB" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".7"/>
+
+  <!-- Database cylindrical top -->
+  <path d="M117 64            C117 71 105 76 90 76            C75 76 64 71 64 64            C64 57 76 52 90 52            C105 52 117 57 117 64 Z" fill="#E8E8E8" stroke="#005BA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Cyan top disk -->
+  <path d="M110 64            C110 68 101 71 90 71            C79 71 71 68 71 64            C71 60 79 57 90 57            C101 57 110 60 110 64 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Inner database disk -->
+  <path d="M75 67            C82 63 98 63 105 67            C99 70 82 71 75 67 Z" fill="#32BEDD" opacity=".95"/>
+
+  <!-- Hand-drawn database shine -->
+  <path d="M70 81            C69 90 70 99 71 106" stroke="#66C7FF" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M110 81 L110 98" stroke="#004A88" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Small Azure-blue marker flicks -->
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".75">
+    <path d="M57 24 L61 27"/>
+    <path d="M12 47 L12 53"/>
+    <path d="M120 82 L123 86"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#E9BC45" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M109 30 L113 24"/>
+    <path d="M115 35 L122 32"/>
+    <path d="M121 42 L125 43"/>
+    <path d="M38 14 L35 8"/>
+    <path d="M30 19 L25 15"/>
+  </g>
+
+  <!-- Tiny hand-drawn star accents -->
+  <g fill="#F2CA5A">
+    <path d="M117 17 L119 13 L121 17 L119 21 Z"/>
+    <path d="M11 101 L13 97 L15 101 L13 105 Z"/>
+    <circle cx="123" cy="112" r="1.7"/>
+  </g>
+
+  <!-- Organic marker imperfections -->
+  <g stroke="#777777" stroke-width="1.5" stroke-linecap="round" opacity=".65">
+    <path d="M12 35 L18 32"/>
+    <path d="M46 10 L51 7"/>
+    <path d="M21 76 L21 82"/>
+  </g>
+
+</svg>

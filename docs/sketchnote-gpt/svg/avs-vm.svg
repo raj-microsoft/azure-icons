@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>AVS VM (sketch)</title>
+
+  <defs>
+    <linearGradient id="avsGreen" x1="64" y1="8" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+    <linearGradient id="avsStand" x1="64" y1="90" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn AVS virtual machine monitor -->
+  <path d="M11 10            Q11 6 16 6            L111 7            Q117 7 117 13            L116 88            Q116 93 111 93            L16 92            Q10 92 10 87Z" fill="url(#avsGreen)" stroke="#477B24" stroke-width="3.6"/>
+
+  <!-- Loose marker highlights -->
+  <path d="M17 18 L17 78            M24 13 Q61 11 105 13" stroke="#C8F5A1" stroke-width="2.4" opacity=".75"/>
+
+  <!-- Central VMware-style isometric cube -->
+  <!-- Top face -->
+  <path d="M64 26            L86 39            L64 52            L42 39Z" fill="#FFFFFF" stroke="#477B24" stroke-width="2.8"/>
+
+  <!-- Left upper face -->
+  <path d="M42 39            L64 52            L42 65Z" fill="#FFFFFF" opacity=".82" stroke="#477B24" stroke-width="2.6"/>
+
+  <!-- Left lower face -->
+  <path d="M42 65            L64 52            L64 78Z" fill="#FFFFFF" stroke="#477B24" stroke-width="2.6"/>
+
+  <!-- Right upper face -->
+  <path d="M64 52            L86 39            L86 65Z" fill="#FFFFFF" opacity=".65" stroke="#477B24" stroke-width="2.6"/>
+
+  <!-- Right lower face -->
+  <path d="M64 52            L86 65            L64 78Z" fill="#FFFFFF" opacity=".85" stroke="#477B24" stroke-width="2.6"/>
+
+  <!-- Delicate sketchnote cube contours -->
+  <path d="M49 39 L64 31 L78 39            M48 65 L48 57            M80 55 L80 62" stroke="#D2F3B9" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Hand-inked cube fold emphasis -->
+  <path d="M64 52 L64 78            M42 39 L64 52 L86 39" stroke="#477B24" stroke-width="2.3"/>
+
+  <!-- Monitor support stem -->
+  <path d="M53 93            L75 93            L75 104            Q75 111 84 113            L88 119            L40 119            L44 113            Q53 111 53 104Z" fill="url(#avsStand)" stroke="#707070" stroke-width="3"/>
+
+  <!-- Sketchy stand base -->
+  <path d="M42 115            Q45 112 50 112            L78 112            Q84 112 86 115            L89 121            Q65 123 39 121Z" fill="#CCCCCC" stroke="#707070" stroke-width="2.8"/>
+
+  <!-- Restrained Azure-blue sketchnote accents -->
+  <path d="M22 33 L17 28            M28 27 L27 20" stroke="#0078D4" stroke-width="3"/>
+
+  <!-- Warm yellow accent strokes -->
+  <path d="M100 31 L106 26            M104 38 L111 37" stroke="#F4CB52" stroke-width="3"/>
+
+  <!-- Tiny handwritten-style marker details -->
+  <path d="M23 81 L29 85            M99 79 L105 75" stroke="#D8F7C2" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Monitor edge details -->
+  <path d="M25 86 L36 86            M94 86 L104 86" stroke="#477B24" stroke-width="2" opacity=".55"/>
+
+</svg>

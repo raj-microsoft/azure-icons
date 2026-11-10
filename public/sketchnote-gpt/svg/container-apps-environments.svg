@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Container Apps Environments (sketch)</title>
+  
+  <desc>
+    Four irregular grey environment panels surrounding a central
+    purple container, with a lighter violet front face and darker
+    purple side face. Hand-drawn marker outlines, subtle Azure-blue
+    and yellow accents, transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="frontPurple" x1="24" y1="29" x2="67" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="0.5" stop-color="#8C56E7"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+
+    <linearGradient id="sidePurple" x1="65" y1="32" x2="101" y2="97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#773ADC"/>
+      <stop offset="0.55" stop-color="#6635BB"/>
+      <stop offset="1" stop-color="#552F99"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Four environment panels -->
+  <g stroke="#949494" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Upper left -->
+    <path d="M11 58              L11 16              Q11 11 17 11              L58 12              L58 58              Z"/>
+
+    <!-- Upper right -->
+    <path d="M70 12              L111 11              Q117 11 117 17              L117 58              L70 58              Z"/>
+
+    <!-- Lower left -->
+    <path d="M11 70              L58 70              L58 116              L17 117              Q11 117 11 111              Z"/>
+
+    <!-- Lower right -->
+    <path d="M70 70              L117 70              L117 111              Q117 117 111 117              L70 116              Z"/>
+  </g>
+
+  <!-- Subtle secondary sketch traces -->
+  <g stroke="#C5C5C5" stroke-width="1.7" stroke-linecap="round" opacity="0.75">
+    <path d="M16 51 L16 19 Q16 16 21 16 L48 16"/>
+    <path d="M79 16 L108 16 Q112 16 112 21 L112 48"/>
+    <path d="M16 79 L16 108 Q16 112 21 112 L48 112"/>
+    <path d="M80 112 L108 112 Q112 112 112 108 L112 80"/>
+  </g>
+
+  <!-- Central container: left/front face -->
+  <path d="M64 30            L27 36            Q24 37 24 40            L24 87            Q24 90 27 91            L64 99            Z" fill="url(#frontPurple)" stroke="#552F99" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central container: right/side face -->
+  <path d="M64 30            L100 43            Q103 44 103 47            L103 85            Q103 88 100 89            L64 99            Z" fill="url(#sidePurple)" stroke="#4D278E" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top folded edge, emphasizing geometry -->
+  <path d="M27 36            L64 30            L100 43" stroke="#C1A3FF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front container ridges -->
+  <path d="M32 44            L41 43            L41 88            L32 86Z" fill="#B796F9" opacity="0.75"/>
+
+  <path d="M47 41            L57 39            L57 93            L47 91Z" fill="#B796F9" opacity="0.55"/>
+
+  <!-- Hand-drawn ridge outlines -->
+  <g stroke="#6B37BF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 44 L32 86 L41 88 L41 43"/>
+    <path d="M47 41 L47 91 L57 93 L57 39"/>
+  </g>
+
+  <!-- Front-face sketch highlights -->
+  <g stroke="#DFCCFF" stroke-width="2" stroke-linecap="round" opacity="0.75">
+    <path d="M35 48 L35 76"/>
+    <path d="M50 45 L50 81"/>
+    <path d="M28 83 L28 86"/>
+  </g>
+
+  <!-- Side-face subtle depth strokes -->
+  <g stroke="#9D76E7" stroke-width="2" stroke-linecap="round" opacity="0.65">
+    <path d="M72 40 L72 89"/>
+    <path d="M83 44 L83 86"/>
+    <path d="M94 48 L94 82"/>
+  </g>
+
+  <!-- Main central fold -->
+  <path d="M64 32            Q65 59 64 97" stroke="#43227C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Azure-blue annotation accents -->
+  <g stroke="#0078D4" stroke-width="2.5" stroke-linecap="round">
+    <path d="M6 39 L6 47"/>
+    <path d="M121 77 L121 85"/>
+  </g>
+
+  <!-- Yellow marker sparks -->
+  <g stroke="#FFD45A" stroke-width="2.7" stroke-linecap="round">
+    <path d="M91 25 L94 19"/>
+    <path d="M99 28 L105 25"/>
+    <path d="M21 101 L17 105"/>
+  </g>
+
+  <!-- Small sketchnote accent ticks -->
+  <g stroke="#B796F9" stroke-width="2" stroke-linecap="round">
+    <path d="M60 22 L60 17"/>
+    <path d="M67 22 L69 17"/>
+    <path d="M61 105 L61 110"/>
+  </g>
+</svg>

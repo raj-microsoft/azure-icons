@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Databricks (sketch)</title>
+  
+  <desc>
+    Hand-drawn Databricks logo featuring three stacked,
+    open isometric layers in original Databricks red.
+    Uneven marker outlines, subtle sketch highlights,
+    restrained yellow accents, and transparent background.
+    Standalone editable vector illustration.
+  </desc>
+
+  <!-- Upper isometric layer -->
+  <path d="M64 12            L112 39            Q114 40 112 42            L64 69            L16 42            Q14 40 16 39            Z" fill="none" stroke="#FF3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle hand-drawn upper edge reinforcement -->
+  <path d="M24 39            Q43 28 63 17            Q85 28 104 39" stroke="#FF6B57" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
+
+  <!-- First open layer side folds -->
+  <path d="M16 42            L16 54            Q16 56 19 58            L64 83            L109 58            Q112 56 112 54            L112 42" fill="none" stroke="#FF3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- First fold sketch detail -->
+  <path d="M22 57            Q42 69 61 79" stroke="#FF8878" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Middle stacked layer -->
+  <path d="M16 65            L16 77            Q16 79 19 81            L64 106            L109 81            Q112 79 112 77            L112 65" fill="none" stroke="#FF3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Middle isometric return edges -->
+  <path d="M18 65            L64 91            L110 65" fill="none" stroke="#FF3621" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower stacked layer -->
+  <path d="M16 88            L16 100            Q16 102 19 104            L64 124            L109 104            Q112 102 112 100            L112 88" fill="none" stroke="#FF3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower isometric return edges -->
+  <path d="M18 88            L64 114            L110 88" fill="none" stroke="#FF3621" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small sketch imperfections -->
+  <path d="M27 74            Q42 83 54 90" stroke="#FF8878" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M75 101            Q91 93 103 85" stroke="#FF8878" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M29 109            Q41 116 52 120" stroke="#FF8878" stroke-width="1.8" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M117 24L121 19            M119 31L125 29" stroke="#F4C542" stroke-width="2.6" stroke-linecap="round"/>
+
+  <path d="M9 76L5 73            M9 83L4 84" stroke="#F4C542" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Loose handwritten-style marker strokes -->
+  <path d="M10 31            Q13 25 20 22" stroke="#FF3621" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+
+  <path d="M117 109            Q114 115 108 118" stroke="#FF3621" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+</svg>

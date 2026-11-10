@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Application Security Groups (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure security shield containing an application
+    monitor and three-dimensional cube, with uneven marker
+    outlines, original Azure blues, and subtle yellow accents.
+  </desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="64" y1="5" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6BB9F2"/>
+      <stop offset="0.55" stop-color="#45A7EF"/>
+      <stop offset="1" stop-color="#1B93EB"/>
+    </linearGradient>
+
+    <linearGradient id="screenBlue" x1="31" y1="32" x2="97" y2="79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn security shield -->
+  <path d="M64 5        C75 4 79 17 92 18        L110 19        Q114 19 114 24        L114 62        C115 86 97 105 67 122        Q64 124 61 122        C32 105 13 86 14 62        L14 24        Q14 19 19 19        L36 18        C49 17 53 5 64 5Z" fill="#1B93EB" stroke="#005BA1" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Inner shield face -->
+  <path d="M64 10        C74 9 79 22 92 23        L108 24        L108 62        C108 83 91 101 64 117        C37 101 20 83 20 62        L20 24        L36 23        C49 22 54 10 64 10Z" fill="url(#shieldBlue)" stroke="#A7DCFF" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Loose sketch contour -->
+  <path d="M27 32        L27 63        C27 83 42 98 57 108" stroke="#D3EDFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="15 5 4 5" opacity="0.75"/>
+
+  <path d="M100 33        L100 63        C100 80 90 94 78 103" stroke="#0078D4" stroke-width="2" stroke-linecap="round" stroke-dasharray="12 5 3 5" opacity="0.65"/>
+
+  <!-- Application monitor shadow -->
+  <path d="M33 31        L95 32        Q99 32 99 37        L99 76        Q99 80 95 80        L33 80        Q29 80 29 76        L29 36        Q29 31 33 31Z" fill="#005BA1" opacity="0.25"/>
+
+  <!-- Hand-drawn monitor frame -->
+  <path d="M33 30        L94 31        Q98 31 98 35        L98 74        Q98 78 94 78        L34 78        Q30 78 30 74        L30 35        Q30 30 33 30Z" fill="url(#screenBlue)" stroke="#1F56A3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White application display -->
+  <path d="M37 37        L90 37        Q92 37 92 40        L92 69        Q92 72 89 72        L38 72        Q36 72 36 69        L36 40        Q36 37 37 37Z" fill="#FFFFFF" stroke="#D9ECFA" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Small sketchy screen highlight -->
+  <path d="M40 42 L51 42        M40 46 L45 46" stroke="#B8DCF7" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- Application cube: top face -->
+  <path d="M64 43        L78 51        L64 59        L50 51Z" fill="#83B9F9" stroke="#1F56A3" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <!-- Cube left face -->
+  <path d="M50 51        L64 59        L64 75        L50 67Z" fill="#5EA0EF" stroke="#1F56A3" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <!-- Cube right face -->
+  <path d="M64 59        L78 51        L78 67        L64 75Z" fill="#0078D4" stroke="#1F56A3" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <!-- Informal cube marker details -->
+  <path d="M55 51 L64 46 L73 51" stroke="#D8EAFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M54 57 L54 64        M68 62 L74 58" stroke="#BDE5FF" stroke-width="1.7" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Monitor support -->
+  <path d="M57 79        L71 79        L72 88        Q72 91 77 92        L51 92        Q56 91 56 88Z" fill="#1F56A3" stroke="#164A8A" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Monitor base -->
+  <path d="M48 92        Q49 89 53 89        L75 89        Q79 89 80 92        L81 95        L47 95Z" fill="#1F56A3" stroke="#164A8A" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M53 92 L75 92" stroke="#83B9F9" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <path d="M83 44 L88 40        M86 50 L93 49" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M39 83 L34 87        M43 87 L40 92" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Shield annotation strokes -->
+  <path d="M35 16 L41 12        M89 13 L94 17" stroke="#83B9F9" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M56 109 L64 114 L71 109" stroke="#D3EDFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+</svg>

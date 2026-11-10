@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Defender Historian (sketch)</title>
+  
+  <desc>
+    Azure-blue historical database cylinder with three
+    stacked elliptical layers and an overlapping orange
+    clock. Hand-drawn marker outlines, original Azure
+    and orange colours, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="historianBlue" x1="10" y1="24" x2="91" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.48" stop-color="#238CDD"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="historianTop" x1="12" y1="8" x2="99" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6CFFF"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main historical database cylinder -->
+  <path d="     M9 20     C9 9 29 5 55 5     C81 5 101 10 101 20     L101 105     C101 116 81 121 55 121     C29 121 9 116 9 105     Z" fill="url(#historianBlue)" stroke="#15558A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top database ellipse -->
+  <path d="     M9 20     C9 9 29 5 55 5     C81 5 101 10 101 20     C101 31 81 36 55 36     C29 36 9 31 9 20     Z" fill="url(#historianTop)" stroke="#2679BF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top hand-drawn marker highlight -->
+  <path d="     M20 18     C29 10 72 9 89 18" stroke="#E1F0FF" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- First database layer separator -->
+  <path d="     M9 47     C9 57 29 63 55 63     C81 63 101 57 101 47" stroke="#83B9F9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="     M14 49     C24 56 39 59 55 59" stroke="#B8D9FF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Second database layer separator -->
+  <path d="     M9 77     C9 87 29 93 55 93     C81 93 101 87 101 77" stroke="#83B9F9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="     M14 79     C25 87 40 89 56 89" stroke="#B8D9FF" stroke-width="2" stroke-linecap="round" opacity="0.82"/>
+
+  <!-- Subtle vertical sketch highlights -->
+  <path d="M15 34 Q14 66 15 103" stroke="#8ACAF5" stroke-width="2.3" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M94 35 Q96 49 94 66" stroke="#005BA1" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Hand-drawn bottom database curve -->
+  <path d="     M18 108     Q33 117 55 117" stroke="#65BBF3" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Clock white separation halo -->
+  <path d="     M95 57     C113 57 126 71 126 89     C126 108 112 123 93 123     C74 123 59 109 59 90     C59 71 74 57 95 57     Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Original orange clock rim -->
+  <path d="     M94 60     C111 60 123 74 123 90     C123 107 110 120 94 120     C77 120 64 107 64 90     C64 73 77 60 94 60     Z" fill="#F78D1E" stroke="#C76A16" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- White clock face -->
+  <path d="     M94 66     C108 66 117 77 117 90     C117 104 107 114 94 114     C80 114 70 104 70 90     C70 77 80 66 94 66     Z" fill="#FFFFFF" stroke="#E7AB72" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Clock face hand-drawn highlight -->
+  <path d="     M76 82     Q81 72 92 71" stroke="#FFE2C1" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Clock hands: history/time symbol -->
+  <path d="     M94 73     Q93 81 94 90     L105 101" stroke="#888888" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central clock hub -->
+  <path d="     M99 90     C99 93 97 95 94 95     C91 95 89 93 89 90     C89 87 91 85 94 85     C97 85 99 87 99 90     Z" fill="#666666" stroke="#555555" stroke-width="1.5"/>
+
+  <!-- Minimal clock index strokes -->
+  <g stroke="#D1D1D1" stroke-width="2.2" stroke-linecap="round">
+    <path d="M94 69 L94 71"/>
+    <path d="M113 90 L111 90"/>
+    <path d="M94 111 L94 109"/>
+    <path d="M75 90 L77 90"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M105 49 L108 43"/>
+    <path d="M115 55 L121 51"/>
+    <path d="M119 65 L125 64"/>
+    <path d="M17 2 L22 6"/>
+  </g>
+
+  <!-- Small handwritten-style sketch marks -->
+  <path d="M22 100 Q30 103 39 104" stroke="#B8D9FF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M28 42 Q38 45 48 45" stroke="#D2E7FF" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Accent dots -->
+  <circle cx="116" cy="45" r="2" fill="#F4C542"/>
+  <circle cx="123" cy="53" r="1.4" fill="#F4C542"/>
+  <circle cx="23" cy="125" r="1.8" fill="#50E6FF"/>
+</svg>

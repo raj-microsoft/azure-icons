@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Red Hat OpenShift (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Red Hat OpenShift circular emblem with
+    original red tones, uneven marker contours, offset
+    diagonal segments and subtle yellow sketch accents.
+    Transparent background.
+  </desc>
+
+  <path d="M34 61        C35 48 42 34 54 28        C67 20 82 22 93 31        C97 34 101 39 104 44        L85 51        C80 45 73 42 65 43        C54 44 47 52 46 61        Z" fill="#DB212F" stroke="#982338" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <path d="M39 57        C43 43 53 34 65 32        C75 30 84 33 91 38" stroke="#F36A64" stroke-width="2.3" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M91 38        L107 32        C110 35 113 39 115 43        L98 49        C96 45 94 41 91 38Z" fill="#C32034" stroke="#982338" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M97 39 L109 35" stroke="#F17370" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M34 61        L46 57        C45 62 46 67 48 71        L35 76        C33 71 33 66 34 61Z" fill="#C32034" stroke="#982338" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <path d="M35 64 L45 60" stroke="#F16D65" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M35 77        L48 72        C50 80 56 87 63 90        L43 98        C38 92 36 85 35 77Z" fill="#EA2227" stroke="#A91E32" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <path d="M39 82        C40 87 42 91 45 94" stroke="#FF8171" stroke-width="2.2" stroke-linecap="round"/>
+
+  <path d="M43 98        L63 90        C70 95 80 96 88 91        C99 86 104 75 102 64        L121 57        C124 72 118 89 105 100        C91 112 72 114 57 107        C51 105 47 102 43 98Z" fill="#DB212F" stroke="#982338" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <path d="M67 99        C78 104 90 101 100 94        C107 89 112 79 113 70" stroke="#F36F69" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
+
+  <path d="M98 49        L115 43        C119 48 121 53 121 57        L102 64        C102 58 101 53 98 49Z" fill="#EA2227" stroke="#A91E32" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <path d="M105 50        C108 53 109 56 110 59" stroke="#FF8470" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M29 64        L49 57" stroke="#AD213A" stroke-width="2.4" stroke-linecap="round"/>
+
+  <path d="M30 77        L49 70" stroke="#BA2034" stroke-width="2.3" stroke-linecap="round"/>
+
+  <path d="M39 101        L64 92" stroke="#AD213A" stroke-width="2.1" stroke-linecap="round"/>
+
+  <path d="M89 35        L108 28" stroke="#BA2034" stroke-width="2.2" stroke-linecap="round"/>
+
+  <path d="M95 52        L117 44" stroke="#AD213A" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M99 68        L124 59" stroke="#BA2034" stroke-width="2.2" stroke-linecap="round"/>
+
+  <g stroke="#EABF47" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M23 39 L29 35"/>
+    <path d="M21 46 L27 44"/>
+    <path d="M30 29 L34 23"/>
+
+    <path d="M110 19 L112 13"/>
+    <path d="M116 23 L122 20"/>
+    <path d="M118 29 L124 29"/>
+
+    <path d="M22 103 L27 100"/>
+    <path d="M27 111 L33 106"/>
+
+  </g>
+
+  <g fill="#F1CA58">
+    <path d="M21 29 L23 26 L25 29 L23 32Z"/>
+    <path d="M119 102 L121 98 L123 102 L121 105Z"/>
+    <circle cx="31" cy="117" r="1.8"/>
+    <circle cx="114" cy="111" r="1.5"/>
+  </g>
+
+  <g stroke="#A92839" stroke-width="1.5" stroke-linecap="round" opacity=".65">
+    <path d="M51 39 L55 36"/>
+    <path d="M74 25 L79 26"/>
+    <path d="M88 107 L93 105"/>
+    <path d="M54 104 L58 107"/>
+  </g>
+
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Devices (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure Devices icon featuring a large desktop
+    display and overlapping smartphone. Original Azure-blue
+    frames, pale cyan screens, uneven marker outlines,
+    restrained yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="deviceScreen" x1="16" y1="19" x2="100" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0FFFD"/>
+      <stop offset="1" stop-color="#D2EBFF"/>
+    </linearGradient>
+
+    <linearGradient id="devicePhone" x1="98" y1="28" x2="98" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#3990E4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="devicePhoneScreen" x1="99" y1="39" x2="99" y2="109" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0FFFD"/>
+      <stop offset="1" stop-color="#D2EBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Large Azure desktop display frame -->
+  <path d="     M12 8     Q8 8 8 13     L8 88     Q8 92 13 92     L107 92     Q112 92 112 87     L112 13     Q112 9 107 9     L12 8     Z" fill="#0078D4" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pale cyan desktop screen -->
+  <path d="     M17 16     Q15 16 15 19     L15 82     Q15 85 18 85     L101 85     Q105 85 105 82     L105 20     Q105 17 102 17     L17 16     Z" fill="url(#deviceScreen)" stroke="#5EA0EF" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Desktop screen marker highlights -->
+  <path d="     M21 24     Q20 44 21 61     M26 21     Q40 20 52 21" stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Top display indicator -->
+  <path d="M54 12 L65 12.5" stroke="#F2F2F2" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn screen reflection -->
+  <path d="     M26 74     Q41 73 54 74" stroke="#B4DFFF" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 5" opacity=".7"/>
+
+  <!-- Overlapping smartphone frame -->
+  <path d="     M80 28     Q77 28 77 32     L77 115     Q77 120 81 120     L116 120     Q121 120 121 116     L121 33     Q121 29 117 29     L80 28     Z" fill="url(#devicePhone)" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Smartphone display -->
+  <path d="     M85 38     Q83 38 83 40     L83 107     Q83 109 85 109     L113 109     Q115 109 115 107     L115 41     Q115 39 113 39     L85 38     Z" fill="url(#devicePhoneScreen)" stroke="#5EA0EF" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Smartphone earpiece -->
+  <path d="     M94 33     Q99 32.5 104 33" stroke="#F2F2F2" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Smartphone home indicator -->
+  <path d="     M96 115     Q99 114 102 115" stroke="#F2F2F2" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Subtle smartphone reflection -->
+  <path d="     M88 46     L88 65     M91 43     L101 43" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Hand-drawn device edge details -->
+  <path d="     M74 39 L74 48     M74 54 L74 60" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="     M117 17 L121 12     M122 23 L127 22     M122 30 L126 34" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small Azure marker accents -->
+  <path d="     M13 100 L18 96     M20 104 L26 101" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Bottom sketchnote strokes -->
+  <path d="     M16 97 Q42 99 68 97     M85 124 Q99 126 116 124" stroke="#A19F9D" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 5" opacity=".65"/>
+</svg>

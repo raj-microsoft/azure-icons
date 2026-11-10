@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>App Space Component (sketch)</title>
+
+  <defs>
+    <linearGradient id="paperTeal" x1="20" y1="8" x2="106" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6ECCBC"/>
+      <stop offset=".55" stop-color="#48A99F"/>
+      <stop offset="1" stop-color="#318581"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn document silhouette -->
+  <path d="M20 8            Q19 7 22 7            L70 8            Q73 9 75 12            L113 48            Q115 50 115 54            L114 117            Q114 122 109 122            L21 121            Q15 121 15 116            L16 14            Q16 9 20 8Z" fill="url(#paperTeal)" stroke="#245F60" stroke-width="3.5"/>
+
+  <!-- Slightly irregular folded page corner -->
+  <path d="M74 10            L74 43            Q74 49 80 49            L112 49Z" fill="#318581" stroke="#245F60" stroke-width="3.2"/>
+
+  <path d="M79 17            L79 40            Q79 44 84 44            L104 44" stroke="#8ED9CA" stroke-width="2" opacity=".85"/>
+
+  <!-- Sketchy secondary edge -->
+  <path d="M22 16 L21 110            M25 116 L103 117" stroke="#A5E4D6" stroke-width="1.8" opacity=".5"/>
+
+  <!-- Left code chevron -->
+  <path d="M49 58            L31 77            Q29 79 32 82            L49 99" stroke="#245F60" stroke-width="11"/>
+
+  <path d="M49 58            L31 77            Q29 79 32 82            L49 99" stroke="#FFFFFF" stroke-width="7.2"/>
+
+  <!-- Right code chevron -->
+  <path d="M79 58            L97 77            Q100 80 97 82            L79 99" stroke="#245F60" stroke-width="11"/>
+
+  <path d="M79 58            L97 77            Q100 80 97 82            L79 99" stroke="#FFFFFF" stroke-width="7.2"/>
+
+  <!-- Hand-inked forward slash -->
+  <path d="M72 52            Q69 63 65 75            T56 107" stroke="#245F60" stroke-width="11"/>
+
+  <path d="M72 52            Q69 63 65 75            T56 107" stroke="#FFFFFF" stroke-width="7.2"/>
+
+  <!-- Small sketchnote accent strokes -->
+  <path d="M35 49 L29 44            M43 45 L40 38" stroke="#F5CE58" stroke-width="3"/>
+
+  <path d="M91 105 L97 109            M99 98 L106 100" stroke="#F5CE58" stroke-width="3"/>
+
+  <!-- Subtle ink details -->
+  <path d="M22 27 L22 34            M108 108 L108 113" stroke="#245F60" stroke-width="2" opacity=".55"/>
+
+</svg>

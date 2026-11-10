@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure IoT Operations (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn isometric IoT operations cube with a layered
+    turquoise hexagonal structure, connected circular network
+    nodes, uneven marker outlines, restrained yellow highlights,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cubeTop" x1="38" y1="25" x2="90" y2="72" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D9F9FF"/>
+      <stop offset="1" stop-color="#9CEBFF"/>
+    </linearGradient>
+
+    <linearGradient id="cubeLeft" x1="32" y1="55" x2="70" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+
+    <linearGradient id="cubeRight" x1="70" y1="55" x2="105" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back-layer IoT hexagon -->
+  <path d="M12 28            Q12 25 15 23            L45 7            Q48 5 51 7            L78 23            L78 62            L48 81            L15 62            Q12 60 12 57Z" fill="#198AB3" stroke="#126B8D" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Inner face of the layered hexagon -->
+  <path d="M23 35            L51 19            L79 35            L79 66            L51 82            L23 66Z" fill="#32BEDD" stroke="#147E9E" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Main cube: top -->
+  <path d="M34 46            Q34 43 38 41            L71 22            Q75 20 79 22            L111 41            Q115 43 115 46            L75 70Z" fill="url(#cubeTop)" stroke="#167FA2" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Main cube: left face -->
+  <path d="M34 46            L75 70            L75 113            Q72 115 69 113            L38 95            Q34 93 34 89Z" fill="url(#cubeLeft)" stroke="#146F95" stroke-width="3.3" stroke-linejoin="round"/>
+
+  <!-- Main cube: right face -->
+  <path d="M75 70            L115 46            L115 89            Q115 93 112 95            L79 113            Q77 114 75 113Z" fill="url(#cubeRight)" stroke="#146F95" stroke-width="3.3" stroke-linejoin="round"/>
+
+  <!-- Sketchy structural edges -->
+  <g stroke="#0E779F" stroke-width="1.5" stroke-linecap="round" opacity="0.55">
+    <path d="M38 48L72 68"/>
+    <path d="M79 69L111 50"/>
+    <path d="M39 58L39 85"/>
+    <path d="M109 59L109 85"/>
+  </g>
+
+  <!-- Central IoT operation hub -->
+  <circle cx="75" cy="70" r="9.5" fill="#FFFFFF" stroke="#157DA3" stroke-width="3"/>
+
+  <circle cx="75" cy="70" r="4.5" fill="#32BEDD" stroke="#157DA3" stroke-width="1.7"/>
+
+  <!-- IoT connection paths -->
+  <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M75 60L75 29"/>
+    <path d="M65 70L34 70"/>
+    <path d="M85 70L115 70"/>
+    <path d="M75 80L75 113"/>
+    <path d="M68 63L40 46"/>
+    <path d="M82 63L108 46"/>
+  </g>
+
+  <!-- Connection nodes -->
+  <g fill="#198AB3" stroke="#FFFFFF" stroke-width="2.8">
+
+    <circle cx="75" cy="29" r="6.5"/>
+    <circle cx="34" cy="70" r="6.5"/>
+    <circle cx="115" cy="70" r="6.5"/>
+    <circle cx="75" cy="113" r="6.5"/>
+    <circle cx="40" cy="46" r="6.5"/>
+    <circle cx="108" cy="46" r="6.5"/>
+
+  </g>
+
+  <!-- Small hand-drawn node highlights -->
+  <g stroke="#D7FAFF" stroke-width="1.8" stroke-linecap="round">
+    <path d="M73 26L76 25"/>
+    <path d="M31 68L34 67"/>
+    <path d="M112 68L115 67"/>
+    <path d="M72 111L75 110"/>
+    <path d="M37 44L40 43"/>
+    <path d="M105 44L108 43"/>
+  </g>
+
+  <!-- Sketchbook yellow accent strokes -->
+  <g stroke="#F4B400" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 20L96 14"/>
+    <path d="M100 25L107 22"/>
+    <path d="M18 79L12 83"/>
+    <path d="M23 86L20 93"/>
+  </g>
+
+  <!-- Cyan motion marks -->
+  <g stroke="#32BEDD" stroke-width="2.3" stroke-linecap="round">
+    <path d="M53 15L58 11"/>
+    <path d="M60 13L63 8"/>
+  </g>
+
+  <!-- Subtle hand-drawn ground underline -->
+  <path d="M42 120            Q75 124 106 119" stroke="#198AB3" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="15 5 7 5" opacity="0.65"/>
+
+</svg>

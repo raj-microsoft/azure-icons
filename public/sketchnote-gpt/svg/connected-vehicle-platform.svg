@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Connected Vehicle Platform (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Connected Vehicle Platform icon featuring
+    a blue cloud, cyan connected car, diagonal white connection
+    link, and two circular network nodes. Original Azure-blue
+    and cyan palette with restrained yellow highlights,
+    irregular marker outlines, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="14" y1="16" x2="94" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.45" stop-color="#378FE4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="vehicleCyan" x1="34" y1="70" x2="116" y2="109" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="0.55" stop-color="#3DCDEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="nodeSilver" x1="42" y1="42" x2="77" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cloud silhouette -->
+  <path d="M28 84            C15 84 9 74 10 63            C11 51 19 43 31 41            C35 22 49 14 63 16            C81 17 91 28 93 43            C105 45 112 55 112 66            C112 76 106 83 95 85            C88 86 80 84 73 84            Z" fill="url(#cloudBlue)" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner cloud sketch highlight -->
+  <path d="M19 62            C20 52 27 47 37 47            C40 30 51 23 63 24" stroke="#B8DEFF" stroke-width="2.7" stroke-linecap="round" opacity="0.85"/>
+
+  <path d="M75 25            Q87 31 88 45            M98 51            Q105 56 105 65" stroke="#CDEBFF" stroke-width="2.3" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Cloud marker accent -->
+  <path d="M31 77 Q42 79 52 77" stroke="#D9F1FF" stroke-width="2.2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Diagonal cloud-to-vehicle connection -->
+  <path d="M46 51            Q55 65 63 77            Q70 88 78 97" stroke="#005BA1" stroke-width="9" stroke-linecap="round" opacity="0.4"/>
+
+  <path d="M46 50            Q55 64 63 76            Q70 87 78 96" stroke="#FFFFFF" stroke-width="5.6" stroke-linecap="round"/>
+
+  <!-- Small connection node at cloud -->
+  <path d="M45 43            C50 42 55 46 55 51            C55 57 51 61 46 61            C40 61 36 57 36 52            C36 47 40 44 45 43Z" fill="url(#nodeSilver)" stroke="#005BA1" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <path d="M41 49 Q45 46 49 49" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Vehicle body: rounded hand-drawn silhouette -->
+  <path d="M29 96            Q29 92 32 88            C36 85 43 84 50 81            L62 73            C69 68 76 67 84 68            C97 68 105 71 112 77            L119 82            C124 83 127 85 127 91            L127 100            Q126 106 120 106            L115 106            C114 98 109 95 103 95            C96 95 91 99 91 106            L59 106            C59 98 54 95 48 95            C41 95 37 99 37 106            L33 106            Q27 105 28 100Z" fill="url(#vehicleCyan)" stroke="#007C9F" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Vehicle roof contour -->
+  <path d="M49 83            L63 75            Q72 70 83 72            Q96 72 106 80" stroke="#E6FBFF" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Windshield and side windows -->
+  <path d="M65 77            Q72 73 81 74            L81 86            L52 86Z" fill="#DFF8FF" stroke="#0078D4" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <path d="M86 74            Q97 75 105 83            L108 86            L86 86Z" fill="#DFF8FF" stroke="#0078D4" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Sketch-style window reflections -->
+  <path d="M61 83 L70 77            M91 77 L98 82" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Vehicle door seam -->
+  <path d="M84 88 L84 100" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Small vehicle door handles -->
+  <path d="M72 91 L78 91            M91 91 L97 91" stroke="#005BA1" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Left wheel -->
+  <path d="M48 95            C55 95 60 100 60 107            C60 114 55 119 48 119            C41 119 36 114 36 107            C36 100 41 95 48 95Z" fill="#32BEDD" stroke="#005BA1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M48 101            C52 101 54 104 54 107            C54 111 51 113 48 113            C44 113 42 110 42 107            C42 104 45 101 48 101Z" fill="#E5F9FF" stroke="#0078D4" stroke-width="2"/>
+
+  <!-- Right wheel -->
+  <path d="M103 95            C110 95 115 100 115 107            C115 114 110 119 103 119            C96 119 91 114 91 107            C91 100 96 95 103 95Z" fill="#32BEDD" stroke="#005BA1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M103 101            C107 101 109 104 109 107            C109 111 106 113 103 113            C99 113 97 110 97 107            C97 104 100 101 103 101Z" fill="#E5F9FF" stroke="#0078D4" stroke-width="2"/>
+
+  <!-- Vehicle bumper and lighting accents -->
+  <path d="M119 89 L124 91" stroke="#FFE452" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M30 95 L34 94" stroke="#FFD400" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- Connection endpoint over vehicle -->
+  <path d="M78 91            C83 91 87 95 87 100            C87 105 83 109 78 109            C73 109 69 105 69 100            C69 95 73 91 78 91Z" fill="url(#nodeSilver)" stroke="#0078D4" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M74 97 Q78 94 82 98" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote connection accents -->
+  <path d="M66 49 L69 43            M74 53 L81 50            M77 62 L83 65" stroke="#FFD400" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Hand-drawn network signal waves -->
+  <path d="M54 39            Q64 33 74 39            M58 44            Q64 40 70 44" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- Tiny marker strokes -->
+  <path d="M17 91 L22 94            M23 98 L27 100" stroke="#0078D4" stroke-width="2.1" stroke-linecap="round" opacity="0.7"/>
+
+</svg>

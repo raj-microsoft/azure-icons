@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender DCS Controller (sketch)</title>
+  
+  <desc>Hand-drawn industrial controller with three directional arrows, a central control node, and a cyan controller unit with green status indicators.</desc>
+
+  <defs>
+    <linearGradient id="azureArrows" x1="30" y1="10" x2="99" y2="65" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+    <linearGradient id="controllerCyan" x1="64" y1="81" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".65" stop-color="#2CC2E5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Central upward control arrow -->
+  <path d="M62 57            L62 16            L54 16            L65 5            L76 16            L68 16            L68 57" fill="url(#azureArrows)" stroke="#23649C" stroke-width="3.2"/>
+
+  <!-- Upper-left branching arrow -->
+  <path d="M57 59            L40 42            L33 49            L33 28            L54 28            L47 35            L61 49" fill="url(#azureArrows)" stroke="#23649C" stroke-width="3.2"/>
+
+  <!-- Upper-right branching arrow -->
+  <path d="M73 59            L90 42            L97 49            L97 28            L76 28            L83 35            L69 49" fill="url(#azureArrows)" stroke="#23649C" stroke-width="3.2"/>
+
+  <!-- Sketch accents on arrows -->
+  <path d="M65 21 L65 39            M39 34 L48 43            M91 34 L82 43" stroke="#DCEEFF" stroke-width="2" opacity=".85"/>
+
+  <!-- Central control node -->
+  <path d="M65 59            C73 59 79 65 79 73            C79 81 73 87 65 87            C57 87 51 81 51 73            C51 65 57 59 65 59 Z" fill="#83B9F9" stroke="#225F91" stroke-width="3.2"/>
+
+  <circle cx="65" cy="73" r="7" fill="#E4F5FF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <path d="M61 69 Q65 66 69 70" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Controller mounting stem -->
+  <path d="M47 78            Q47 75 50 75            L80 75            Q83 75 83 78            L83 85            L47 85 Z" fill="#198AB3" stroke="#17658C" stroke-width="3"/>
+
+  <!-- Main DCS controller body -->
+  <path d="M17 84            Q17 80 22 80            L108 80            Q113 80 113 85            L113 115            Q113 120 108 120            L22 120            Q17 120 17 115 Z" fill="url(#controllerCyan)" stroke="#145F86" stroke-width="3.5"/>
+
+  <!-- Uneven marker border highlight -->
+  <path d="M24 86 Q48 85 72 86 L104 86" stroke="#A5EDFA" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Side controller connectors -->
+  <path d="M17 96            L6 96            Q4 96 4 99            L4 104            Q4 107 7 107            L17 107 Z" fill="#32BEDD" stroke="#17658C" stroke-width="2.5"/>
+
+  <path d="M113 96            L122 96            Q125 96 125 99            L125 104            Q125 107 122 107            L113 107 Z" fill="#32BEDD" stroke="#17658C" stroke-width="2.5"/>
+
+  <!-- Controller panel divider -->
+  <path d="M92 86 L92 114" stroke="#13769F" stroke-width="2" opacity=".65"/>
+
+  <!-- First status indicator -->
+  <path d="M98 89 L106 89 L106 97 L98 97 Z" fill="#B4EC36" stroke="#4C8A28" stroke-width="2"/>
+
+  <!-- Second status indicator -->
+  <path d="M98 104 L106 104 L106 112 L98 112 Z" fill="#B4EC36" stroke="#4C8A28" stroke-width="2"/>
+
+  <!-- Hand-drawn controller details -->
+  <path d="M27 94 Q48 93 68 94            M27 101 Q47 102 68 101            M27 108 Q43 107 57 108" stroke="#D8F5FF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Small sketchnote accent strokes -->
+  <path d="M90 15 L95 9            M98 19 L105 17" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <path d="M36 65 L31 61            M35 72 L28 72" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Subtle lower marker flourish -->
+  <path d="M29 124 Q48 126 64 124" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+</svg>

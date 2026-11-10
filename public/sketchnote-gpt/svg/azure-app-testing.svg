@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Azure App Testing (sketch)</title>
+
+  <defs>
+    <linearGradient id="testBlue" x1="25" y1="17" x2="95" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58AAFE"/>
+      <stop offset=".55" stop-color="#367AF2"/>
+      <stop offset="1" stop-color="#2052CB"/>
+    </linearGradient>
+    <linearGradient id="flaskCyan" x1="94" y1="65" x2="94" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16BBDA"/>
+      <stop offset="1" stop-color="#6FE8F5"/>
+    </linearGradient>
+    <linearGradient id="sparkYellow" x1="12" y1="8" x2="43" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFCD0F"/>
+      <stop offset="1" stop-color="#E67505"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure App Testing cloud silhouette -->
+  <path d="M43 35            Q48 19 66 17            Q84 15 94 28            Q100 36 101 46            Q114 45 121 57            Q127 68 120 79            Q114 89 100 89            L35 89            Q18 90 10 79            Q2 69 8 55            Q15 41 30 38            Q36 35 43 35Z" fill="url(#testBlue)" stroke="#174F97" stroke-width="3.5"/>
+
+  <!-- Hand-drawn cloud segment contours -->
+  <path d="M43 35            Q61 35 74 49            Q87 63 89 89" stroke="#174F97" stroke-width="2.7"/>
+
+  <path d="M74 49            Q86 39 101 46" stroke="#174F97" stroke-width="2.5"/>
+
+  <!-- Light blue cloud highlight -->
+  <path d="M48 31 Q55 21 67 22            Q80 21 88 32" stroke="#B9DFFF" stroke-width="2.6" opacity=".85"/>
+
+  <!-- Lower blue cloud facet -->
+  <path d="M74 49            Q87 65 89 89            L47 89            Q49 65 74 49Z" fill="#2052CB" opacity=".85"/>
+
+  <!-- Subtle hand-inked cloud strokes -->
+  <path d="M14 61 Q18 47 31 44            M107 52 Q117 58 117 68" stroke="#A8D9FF" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Testing laboratory flask neck -->
+  <path d="M85 69            L105 69            M89 69            L89 91            L70 119            Q68 123 74 123            L116 123            Q121 123 118 118            L100 91            L100 69" fill="none" stroke="#087C99" stroke-width="8"/>
+
+  <path d="M85 69            L105 69            M89 69            L89 91            L70 119            Q68 123 74 123            L116 123            Q121 123 118 118            L100 91            L100 69" stroke="#16BBDA" stroke-width="5.2"/>
+
+  <!-- White interior of laboratory flask -->
+  <path d="M89 78 L100 78            L100 93            L116 118            L73 118            L89 93Z" fill="#FFFFFF"/>
+
+  <!-- Cyan experimental liquid -->
+  <path d="M77 113            Q84 103 93 106            Q101 111 108 108            L116 119            L73 119Z" fill="url(#flaskCyan)" stroke="#16BBDA" stroke-width="1.8"/>
+
+  <!-- Hand-sketched liquid wave -->
+  <path d="M80 111            Q88 105 96 110            Q103 114 110 110" stroke="#16BBDA" stroke-width="2.1"/>
+
+  <!-- Testing bubbles -->
+  <circle cx="91" cy="114" r="2" fill="#FFFFFF" opacity=".9"/>
+  <circle cx="101" cy="116" r="1.5" fill="#FFFFFF" opacity=".85"/>
+
+  <!-- Large testing sparkle -->
+  <path d="M29 8            Q32 22 43 25            Q32 28 29 42            Q26 28 15 25            Q26 22 29 8Z" fill="url(#sparkYellow)" stroke="#C77E08" stroke-width="2.4"/>
+
+  <!-- Small testing sparkle -->
+  <path d="M13 42            Q15 50 22 52            Q15 54 13 62            Q11 54 4 52            Q11 50 13 42Z" fill="#FFCD0F" stroke="#C77E08" stroke-width="2"/>
+
+  <!-- Handwritten-style sparkle details -->
+  <path d="M47 12 L51 7            M45 35 L50 39" stroke="#F2C849" stroke-width="2.5"/>
+
+  <!-- Azure marker accents -->
+  <path d="M27 96 L36 98            M40 101 L45 103" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Subtle sketchnote finishing marks -->
+  <path d="M111 94 L116 91            M57 94 L63 96" stroke="#58AAFE" stroke-width="2" opacity=".8"/>
+
+</svg>

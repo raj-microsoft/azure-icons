@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Data Sharing (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure data table with a blue header,
+    cyan body, four data cells, and a sweeping outward
+    sharing arrow. Original Azure blue and cyan colours,
+    subtle yellow accents, uneven marker outlines,
+    and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="dataCyan" x1="48" y1="39" x2="48" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="shareBlue" x1="77" y1="99" x2="111" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main data-sharing table silhouette -->
+  <path d="M13 20            Q11 20 10 24            L10 94            Q10 101 16 102            L69 102            Q73 79 96 73            L103 73            L103 26            Q103 20 97 20            Z" fill="url(#dataCyan)" stroke="#087FAE" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Azure-blue table header -->
+  <path d="M15 20            L97 20            Q103 20 103 26            L103 42            L10 42            L10 26            Q10 20 15 20Z" fill="#0078D4" stroke="#005BA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Header marker highlights -->
+  <path d="M18 25            Q49 23 92 25" stroke="#82C8FF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M17 34 L41 34" stroke="#B8E7FF" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Upper-left data cell -->
+  <path d="M22 51            Q22 49 25 49            L48 49            Q51 49 51 52            L51 67            Q51 69 48 69            L25 69            Q22 69 22 66Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Upper-right white data cell -->
+  <path d="M58 52            Q58 49 61 49            L88 49            Q91 49 91 52            L91 66            Q91 69 88 69            L61 69            Q58 69 58 66Z" fill="#FFFFFF" stroke="#168DBB" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Lower-left data cell -->
+  <path d="M22 77            Q22 74 25 74            L48 74            Q51 74 51 77            L51 91            Q51 94 48 94            L25 94            Q22 94 22 91Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Lower-right data cell, partly behind sharing arrow -->
+  <path d="M58 77            Q58 74 61 74            L87 74            Q90 74 90 77            L90 91            Q90 94 87 94            L61 94            Q58 94 58 91Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn cell highlights -->
+  <g stroke="#A5EFFF" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".85">
+
+    <path d="M27 54 L43 54"/>
+    <path d="M27 79 L43 79"/>
+    <path d="M63 79 L78 79"/>
+
+  </g>
+
+  <!-- White cell content details -->
+  <g stroke="#32BEDD" stroke-width="2.1" stroke-linecap="round">
+
+    <path d="M64 55 L83 55"/>
+    <path d="M64 62 L76 62"/>
+
+  </g>
+
+  <!-- Sweeping data-sharing arrow -->
+  <path d="M77 108            C80 88 91 78 108 76            L108 67            Q108 62 112 65            L125 78            Q128 81 125 84            L112 97            Q108 100 108 95            L108 89            C96 89 88 96 82 111            Q80 116 77 113            Q76 111 77 108Z" fill="url(#shareBlue)" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn arrow highlight -->
+  <path d="M84 100            Q94 82 111 82" stroke="#C0E7FF" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <path d="M113 72 L120 80" stroke="#C5E9FF" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <!-- Data sparkle -->
+    <path d="M111 30 L111 39"/>
+    <path d="M107 34 L116 34"/>
+
+    <!-- Sharing emphasis -->
+    <path d="M113 106 L117 102"/>
+    <path d="M118 111 L123 107"/>
+
+    <!-- Data movement marks -->
+    <path d="M65 113 L70 110"/>
+    <path d="M62 119 L68 116"/>
+
+  </g>
+
+  <!-- Subtle handwritten-style sketch marks -->
+  <g stroke="#0078D4" stroke-width="1.7" stroke-linecap="round" fill="none" opacity=".65">
+
+    <path d="M17 109 Q25 112 34 110"/>
+    <path d="M38 110 L44 110"/>
+
+    <path d="M8 59 Q5 65 7 71"/>
+    <path d="M96 14 Q103 15 106 19"/>
+
+  </g>
+
+</svg>

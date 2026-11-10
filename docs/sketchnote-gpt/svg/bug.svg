@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Bug (sketch)</title>
+  
+  <desc>
+    Hand-drawn purple Azure bug with six angular legs,
+    V-shaped antennae, rounded segmented body,
+    uneven marker outlines, subtle cyan and yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="bugPurple" x1="45" y1="19" x2="86" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B796F9"/>
+      <stop offset=".42" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- V-shaped antennae -->
+  <path d="M63 29            Q56 20 43 7            M65 29            Q76 15 85 7" stroke="#773ADC" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left angular legs -->
+  <g stroke="#773ADC" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 39              L13 54              Q10 55 10 59              L10 67"/>
+
+    <path d="M44 67              L13 82              Q10 83 10 87              L10 94"/>
+
+    <path d="M45 94              L13 109              Q10 110 10 114              L10 120"/>
+  </g>
+
+  <!-- Right angular legs -->
+  <g stroke="#773ADC" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M82 39              L115 54              Q118 55 118 59              L118 67"/>
+
+    <path d="M84 67              L115 82              Q118 83 118 87              L118 94"/>
+
+    <path d="M83 94              L115 109              Q118 110 118 114              L118 120"/>
+  </g>
+
+  <!-- Bug body -->
+  <path d="M64 19            C46 18 34 32 34 51            L34 92            C34 110 46 121 64 121            C82 121 94 110 94 92            L94 51            C94 32 82 18 64 19Z" fill="url(#bugPurple)" stroke="#6030A8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn inner contour -->
+  <path d="M42 54            Q41 38 51 29            M39 67            Q38 89 43 102            M50 112            Q64 122 79 112" stroke="#D9C4FF" stroke-width="2.4" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Upper head highlights -->
+  <path d="M42 37            Q45 27 54 24            Q55 33 48 38            Q44 40 42 37Z" fill="#B796F9"/>
+
+  <path d="M86 37            Q83 27 74 24            Q73 33 80 38            Q84 40 86 37Z" fill="#B796F9"/>
+
+  <!-- Sketched body segmentation -->
+  <g stroke="#E7D9FF" stroke-linecap="round" opacity=".78">
+    <path d="M47 60 Q64 65 81 60" stroke-width="2.4" stroke-dasharray="14 5 8 4"/>
+
+    <path d="M47 82 Q64 87 81 82" stroke-width="2.4" stroke-dasharray="11 5 16 4"/>
+
+    <path d="M64 48 Q61 73 64 104" stroke-width="1.8" stroke-dasharray="7 6"/>
+  </g>
+
+  <!-- Subtle Azure-blue sketch accents -->
+  <g stroke="#32D4F5" stroke-width="2.5" stroke-linecap="round">
+    <path d="M25 42 L31 37              M20 49 L26 46"/>
+    <path d="M102 37 L108 42              M106 47 L112 50"/>
+  </g>
+
+  <!-- Yellow sketchnote emphasis -->
+  <g stroke="#FFD45A" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 21 L96 15              M99 29 L107 26              M86 16 L87 9" stroke-width="3"/>
+
+    <path d="M22 104 L17 99              M29 112 L25 117" stroke-width="2.4"/>
+  </g>
+
+  <!-- Small hand-drawn ink details -->
+  <path d="M52 43 Q55 39 59 40            M69 40 Q73 39 76 43" stroke="#F4EDFF" stroke-width="2.4" stroke-linecap="round"/>
+
+  <path d="M53 105 Q64 110 75 105" stroke="#D9C4FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Marker stroke variations -->
+  <g stroke="#6030A8" stroke-width="1.7" stroke-linecap="round" opacity=".65">
+    <path d="M7 61 L7 67              M7 88 L7 94              M7 114 L7 120"/>
+    <path d="M121 61 L121 67              M121 88 L121 94              M121 114 L121 120"/>
+  </g>
+</svg>

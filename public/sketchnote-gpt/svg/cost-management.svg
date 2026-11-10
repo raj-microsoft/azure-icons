@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Cost Management (sketch)</title>
+
+  
+  <desc>
+    Azure Cost Management icon recreated as an editable
+    hand-drawn sketchnote. An irregular green hexagonal
+    cost badge surrounds a white currency symbol with
+    two circular markers. Original Azure greens,
+    subtle marker outlines, restrained cyan and yellow
+    highlights, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="costGreen" x1="64" y1="10" x2="64" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset=".32" stop-color="#73B82C"/>
+      <stop offset=".65" stop-color="#6CAB29"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn hexagonal cost badge -->
+  <path d="M43 11            Q46 9 51 9            L78 10            Q85 10 89 17            L116 58            Q120 64 116 71            L89 111            Q85 118 78 118            L50 117            Q44 117 40 111            L12 71            Q8 65 12 58            L39 17            Q41 13 43 11            Z" fill="url(#costGreen)" stroke="#47791C" stroke-width="4"/>
+
+  <!-- Uneven inner marker contour -->
+  <path d="M47 17            Q50 15 55 16            L77 16            Q82 16 85 22            L109 59            Q112 64 109 69            L84 106" stroke="#B4EC36" stroke-width="2.8" opacity=".8"/>
+
+  <!-- Lower sketched contour -->
+  <path d="M77 112            Q61 113 50 111            Q46 110 43 105            L18 69" stroke="#47791C" stroke-width="2" opacity=".55"/>
+
+  <!-- Upper white currency marker -->
+  <path d="M64 23            C68 23 71 26 71 30            C71 34 68 37 64 37            C60 37 57 34 57 30            C57 26 60 23 64 23            Z" fill="#FFFFFF" stroke="#E6F5DB" stroke-width="1.5"/>
+
+  <!-- Main hand-drawn S-shaped currency symbol -->
+  <path d="M82 50            Q76 42 63 42            C50 42 43 49 43 59            C43 69 52 73 64 76            C76 79 84 83 83 94            C82 105 73 110 62 110            Q48 110 41 100" stroke="#FFFFFF" stroke-width="9"/>
+
+  <!-- Slightly offset marker reinforcement -->
+  <path d="M79 52            Q72 45 63 46            M46 98            Q54 106 65 105" stroke="#E9F7E3" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Central currency curve -->
+  <path d="M47 61            Q48 52 59 52            Q71 51 76 60            M52 89            Q59 95 69 91" stroke="#FFFFFF" stroke-width="3" opacity=".85"/>
+
+  <!-- Lower white currency marker -->
+  <path d="M64 111            C68 111 71 114 71 118            C71 122 68 125 64 125            C60 125 57 122 57 118            C57 114 60 111 64 111            Z" fill="#FFFFFF" stroke="#E6F5DB" stroke-width="1.5"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#FFD400" stroke-width="3">
+    <path d="M23 24 L29 29"/>
+    <path d="M16 34 L24 36"/>
+    <path d="M102 24 L97 30"/>
+    <path d="M110 35 L103 38"/>
+  </g>
+
+  <!-- Subtle Azure-blue annotation strokes -->
+  <g stroke="#50E6FF" stroke-width="2.4">
+    <path d="M5 79 Q8 88 15 94"/>
+    <path d="M114 91 Q120 84 122 77"/>
+  </g>
+
+  <!-- Tiny handwritten-style sparkle -->
+  <g stroke="#FFD400" stroke-width="2.3">
+    <path d="M109 106 L109 116"/>
+    <path d="M104 111 L114 111"/>
+  </g>
+
+</svg>

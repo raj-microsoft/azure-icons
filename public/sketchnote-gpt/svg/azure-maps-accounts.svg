@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Maps Accounts (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Maps Accounts icon featuring a circular
+    turquoise compass background and a faceted navigation arrow.
+    Original Azure cyan colors, uneven marker outlines,
+    subtle yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="mapsCircle" x1="64" y1="5" x2="64" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".48" stop-color="#28B7DB"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn circular map background -->
+  <path d="     M64 7     C96 6 121 31 121 63     C122 96 97 121 65 122     C32 123 7 98 7 65     C6 33 31 8 64 7     Z" fill="url(#mapsCircle)" stroke="#005BA1" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Organic circular highlight -->
+  <path d="     M22 48     C29 29 44 20 62 18     C77 17 89 22 99 32" stroke="#B9F3FF" stroke-width="3" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <!-- Loose inner marker contour -->
+  <path d="     M110 78     C105 97 87 111 67 113     M24 85     C19 75 17 65 20 55" stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".65"/>
+
+  <!-- Navigation pointer: pale cyan western facet -->
+  <path d="     M73 23     Q74 20 76 23     L87 69     L29 91     Q27 92 29 89     Z" fill="#9CEBFF" stroke="#005BA1" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Navigation pointer: translucent white upper facet -->
+  <path d="     M73 23     L94 102     L64 40     Z" fill="#FFFFFF" fill-opacity=".72" stroke="#005BA1" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Navigation pointer: lower cyan facet -->
+  <path d="     M63 78     L87 69     L94 102     Z" fill="#32BEDD" stroke="#005BA1" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Navigation geometry marker strokes -->
+  <path d="     M73 29     L38 82" stroke="#E5FCFF" stroke-width="2.6" stroke-linecap="round" fill="none" opacity=".9"/>
+
+  <path d="     M68 78     L84 72" stroke="#D8F9FF" stroke-width="2" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <path d="     M89 80     L92 94" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".65"/>
+
+  <!-- Small hand-sketched navigation glint -->
+  <path d="     M74 34     L79 56" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <path d="M16 23 L22 27" stroke-width="2.8"/>
+
+    <path d="M25 15 L28 21" stroke-width="2.5"/>
+
+    <path d="M10 33 L17 34" stroke-width="2.4"/>
+
+    <path d="M103 14 L99 21" stroke-width="2.8"/>
+
+    <path d="M113 22 L107 27" stroke-width="2.5"/>
+
+    <path d="M105 113 L111 117" stroke-width="2.6"/>
+  </g>
+
+  <!-- Loose cartographic marker flourishes -->
+  <g stroke="#0078D4" stroke-linecap="round" fill="none">
+
+    <path d="       M11 101       Q17 109 25 113" stroke-width="2"/>
+
+    <path d="       M40 124       Q50 127 59 125" stroke-width="1.8"/>
+
+    <path d="       M119 39       Q124 49 125 57" stroke-width="1.8"/>
+  </g>
+
+  <!-- Tiny hand-drawn compass markers -->
+  <g fill="#F4C542">
+    <circle cx="64" cy="2.5" r="2"/>
+    <circle cx="125" cy="65" r="2"/>
+    <circle cx="64" cy="125" r="2"/>
+    <circle cx="3" cy="65" r="2"/>
+  </g>
+
+  <!-- Small sketch dots -->
+  <circle cx="32" cy="107" r="1.7" fill="#D5FAFF"/>
+  <circle cx="101" cy="49" r="1.8" fill="#B9F3FF"/>
+
+</svg>

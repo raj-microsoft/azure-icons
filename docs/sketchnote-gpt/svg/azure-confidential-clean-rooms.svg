@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Confidential Clean Rooms (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure blue security shield with central keyhole,
+    connected diagonally to four green network nodes.
+    Preserves the original Azure Confidential Clean Rooms
+    symbolism, blue and green palette, with restrained yellow
+    sketch accents and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="64" y1="34" x2="64" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="nodeGreen" x1="0" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#52D17C"/>
+      <stop offset="1" stop-color="#309C61"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Four diagonal secure collaboration connections -->
+  <g stroke="#309C61" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M35 38              Q29 32 22 26"/>
+
+    <path d="M93 38              Q100 31 106 25"/>
+
+    <path d="M35 88              Q28 96 21 103"/>
+
+    <path d="M93 88              Q101 96 107 103"/>
+
+  </g>
+
+  <!-- Fine hand-drawn connection highlights -->
+  <g stroke="#8CE5A9" stroke-width="1.8" stroke-linecap="round" opacity=".85">
+
+    <path d="M27 28 L34 35"/>
+    <path d="M96 34 L103 27"/>
+    <path d="M26 99 L33 92"/>
+    <path d="M96 92 L103 99"/>
+
+  </g>
+
+  <!-- Upper-left secure network node -->
+  <path d="M22 12            C29 12 35 17 35 24            C35 31 30 36 23 36            C16 36 11 31 11 24            C11 17 16 12 22 12Z" fill="url(#nodeGreen)" stroke="#237C4C" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Upper-right secure network node -->
+  <path d="M106 12            C113 12 119 17 119 24            C119 31 114 36 107 36            C100 36 95 31 95 24            C95 17 100 12 106 12Z" fill="url(#nodeGreen)" stroke="#237C4C" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Lower-left secure network node -->
+  <path d="M21 92            C28 92 34 97 34 104            C34 111 29 116 22 116            C15 116 10 111 10 104            C10 97 15 92 21 92Z" fill="url(#nodeGreen)" stroke="#237C4C" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Lower-right secure network node -->
+  <path d="M107 92            C114 92 120 97 120 104            C120 111 115 116 108 116            C101 116 96 111 96 104            C96 97 101 92 107 92Z" fill="url(#nodeGreen)" stroke="#237C4C" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Node highlights -->
+  <g stroke="#B4F2C5" stroke-width="2" stroke-linecap="round" fill="none" opacity=".85">
+
+    <path d="M17 22 Q18 17 23 17"/>
+    <path d="M101 22 Q102 17 107 17"/>
+    <path d="M16 102 Q17 97 22 97"/>
+    <path d="M102 102 Q103 97 108 97"/>
+
+  </g>
+
+  <!-- Central confidentiality shield -->
+  <path d="M64 35            C55 41 45 46 36 46            Q32 46 32 50            L32 67            C32 84 42 97 62 105            Q64 106 66 105            C86 97 96 84 96 67            L96 50            Q96 46 92 46            C83 46 73 41 64 35Z" fill="url(#shieldBlue)" stroke="#005BA1" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Hand-drawn inner shield contour -->
+  <path d="M64 44            C56 49 47 53 40 53            L40 67            C40 81 48 91 64 98" stroke="#B9E3FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <path d="M88 56            L88 68            Q87 81 77 89" stroke="#005BA1" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Central security keyhole -->
+  <path d="M64 60            C58 60 54 64 54 70            C54 75 57 78 60 80            L60 88            Q60 92 64 92            Q68 92 68 88            L68 80            C72 78 74 74 74 70            C74 64 70 60 64 60Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <!-- Keyhole highlight -->
+  <path d="M60 67            Q63 63 67 66" stroke="#9CEBFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <!-- Trust sparkle above shield -->
+    <path d="M64 17 L64 26"/>
+    <path d="M59 21 L69 21"/>
+
+    <!-- Small protection emphasis -->
+    <path d="M47 30 L43 25"/>
+    <path d="M81 30 L85 25"/>
+
+    <!-- Secure data flow accents -->
+    <path d="M8 58 L14 58"/>
+    <path d="M11 54 L11 62"/>
+
+    <path d="M114 58 L120 58"/>
+    <path d="M117 54 L117 62"/>
+
+  </g>
+
+  <!-- Small handwritten-style sketch motion marks -->
+  <g stroke="#0078D4" stroke-width="1.7" stroke-linecap="round" fill="none" opacity=".65">
+
+    <path d="M44 110 Q50 114 55 115"/>
+    <path d="M74 115 Q80 113 84 110"/>
+
+    <path d="M39 37 Q43 34 48 33"/>
+    <path d="M80 33 Q85 34 89 37"/>
+
+  </g>
+
+</svg>

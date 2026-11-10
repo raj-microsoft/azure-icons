@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Controls (sketch)</title>
+
+  
+  <desc>
+    Three vertical Azure control sliders with cyan lower sections,
+    uneven blue marker outlines, and silver adjustment handles.
+    The outer handles are positioned high and the middle handle
+    low, preserving the original Controls icon symbolism.
+    Transparent background and fully editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="cyanSlider" x1="0" y1="40" x2="0" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".6" stop-color="#3DCDEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left slider blue rail -->
+  <path d="M21 11            Q21 8 25 8            L34 9            Q38 9 38 13            L38 115            Q38 119 34 119            L25 119            Q21 118 21 114            Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.2"/>
+
+  <!-- Left slider cyan active section -->
+  <path d="M22 48            L37 48            L37 114            Q37 118 33 118            L26 118            Q22 118 22 114            Z" fill="url(#cyanSlider)"/>
+
+  <!-- Middle slider blue rail -->
+  <path d="M55 12            Q55 8 59 8            L68 8            Q72 9 72 13            L72 115            Q72 119 68 119            L59 119            Q55 118 55 114            Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.2"/>
+
+  <!-- Middle slider cyan active section -->
+  <path d="M56 101            L71 101            L71 114            Q71 118 67 118            L60 118            Q56 118 56 114            Z" fill="url(#cyanSlider)"/>
+
+  <!-- Right slider blue rail -->
+  <path d="M89 12            Q89 8 93 8            L102 9            Q106 9 106 13            L106 115            Q106 119 102 119            L93 119            Q89 118 89 114            Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.2"/>
+
+  <!-- Right slider cyan active section -->
+  <path d="M90 48            L105 48            L105 114            Q105 118 101 118            L94 118            Q90 118 90 114            Z" fill="url(#cyanSlider)"/>
+
+  <!-- Left silver adjustment handle -->
+  <path d="M17 46            Q17 43 20 43            L40 43            Q43 43 43 46            L43 51            Q43 54 40 54            L20 54            Q17 54 17 51            Z" fill="#E6E6E6" stroke="#64748B" stroke-width="2.7"/>
+
+  <!-- Middle silver adjustment handle -->
+  <path d="M51 99            Q51 96 54 96            L74 96            Q77 96 77 99            L77 104            Q77 107 74 107            L54 107            Q51 107 51 104            Z" fill="#E6E6E6" stroke="#64748B" stroke-width="2.7"/>
+
+  <!-- Right silver adjustment handle -->
+  <path d="M85 46            Q85 43 88 43            L108 43            Q111 43 111 46            L111 51            Q111 54 108 54            L88 54            Q85 54 85 51            Z" fill="#E6E6E6" stroke="#64748B" stroke-width="2.7"/>
+
+  <!-- Hand-drawn handle reflections -->
+  <g stroke="#FFFFFF" stroke-width="2.1">
+    <path d="M21 46 L38 46"/>
+    <path d="M55 99 L72 99"/>
+    <path d="M89 46 L106 46"/>
+  </g>
+
+  <!-- Subtle cyan marker highlights -->
+  <g stroke="#9CEBFF" stroke-width="2.2" opacity=".85">
+    <path d="M26 61 Q25 82 26 104"/>
+    <path d="M60 109 L60 115"/>
+    <path d="M94 61 Q93 82 94 104"/>
+  </g>
+
+  <!-- Slightly irregular sketchnote motion marks -->
+  <g stroke="#5EA0EF" stroke-width="2.4">
+    <path d="M11 35 Q8 46 11 57"/>
+    <path d="M47 88 Q44 99 47 110"/>
+    <path d="M116 35 Q119 46 116 57"/>
+  </g>
+
+  <!-- Restrained yellow adjustment accents -->
+  <g stroke="#FFD400" stroke-width="3">
+    <path d="M10 42 L6 39"/>
+    <path d="M10 53 L5 56"/>
+    <path d="M45 96 L41 92"/>
+    <path d="M82 108 L86 112"/>
+    <path d="M117 42 L122 39"/>
+    <path d="M117 53 L122 56"/>
+  </g>
+
+  <!-- Tiny hand-drawn emphasis strokes -->
+  <g stroke="#50E6FF" stroke-width="2">
+    <path d="M28 3 L32 3"/>
+    <path d="M62 3 L66 3"/>
+    <path d="M96 3 L100 3"/>
+  </g>
+
+</svg>

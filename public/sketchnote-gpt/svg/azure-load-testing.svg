@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Load Testing (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure-blue laboratory flask with a white interior,
+    overlapping blue performance gauge, green and orange load
+    indicators, and a sweeping needle. Uneven marker outlines,
+    subtle yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="flaskBlue" x1="18" y1="8" x2="70" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="gaugeBlue" x1="66" y1="66" x2="116" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Small sketchnote emphasis strokes -->
+  <g stroke="#F4B400" stroke-width="2.8" stroke-linecap="round">
+    <path d="M19 25L13 20"/>
+    <path d="M26 19L24 11"/>
+    <path d="M34 17L37 11"/>
+  </g>
+
+  <!-- Laboratory flask neck -->
+  <path d="M34 14            L67 14            Q70 14 70 18            Q70 22 66 22            L63 22            L63 47            Q63 49 65 52            L79 73            L66 96            L12 96            Q8 96 11 91            L38 51            Q40 48 40 45            L40 22            L35 22            Q31 22 31 18            Q31 14 34 14Z" fill="url(#flaskBlue)" stroke="#064B80" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn flask rim -->
+  <path d="M35 19Q50 20 66 19" stroke="#8CCEFF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- White chemistry chamber -->
+  <path d="M45 39            L58 39            L58 49            Q58 53 61 57            L72 75            Q60 86 60 91            L19 91            L43 56            Q46 52 46 48Z" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Subtle chemistry highlight -->
+  <path d="M45 57L27 85" stroke="#B8E5FF" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Small laboratory bubbles -->
+  <g fill="#32BEDD" stroke="#0078D4" stroke-width="1.4">
+    <circle cx="42" cy="77" r="3"/>
+    <circle cx="50" cy="66" r="2.3"/>
+    <circle cx="33" cy="85" r="1.8"/>
+  </g>
+
+  <!-- Load-testing performance gauge body -->
+  <circle cx="91" cy="91" r="31" fill="url(#gaugeBlue)" stroke="#064B80" stroke-width="3.5"/>
+
+  <!-- Sketchy outer gauge highlight -->
+  <path d="M67 73            Q83 53 104 65" stroke="#8ED6FF" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Gauge white dial -->
+  <circle cx="91" cy="91" r="24.5" fill="#FFFFFF" stroke="#D4E8F5" stroke-width="2"/>
+
+  <!-- Green low-load indicator -->
+  <path d="M72 94            A20 20 0 0 1 84 73" stroke="#B4EC36" stroke-width="8.5" stroke-linecap="round"/>
+
+  <!-- Green moderate-load indicator -->
+  <path d="M74 101            A20 20 0 0 0 83 109" stroke="#B4EC36" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Orange high-load indicator -->
+  <path d="M96 72            A20 20 0 0 1 111 87" stroke="#F78D1E" stroke-width="8.5" stroke-linecap="round"/>
+
+  <!-- Gauge needle -->
+  <path d="M90 90L108 81" stroke="#005BA1" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M91 91L108 81" stroke="#4EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Needle pivot -->
+  <circle cx="91" cy="91" r="5.3" fill="#5EA0EF" stroke="#005BA1" stroke-width="2"/>
+
+  <circle cx="90" cy="90" r="1.6" fill="#FFFFFF"/>
+
+  <!-- Subtle gauge tick marks -->
+  <g stroke="#7F9EB5" stroke-width="1.8" stroke-linecap="round">
+    <path d="M78 104L75 107"/>
+    <path d="M91 109L91 113"/>
+    <path d="M105 102L108 105"/>
+  </g>
+
+  <!-- Yellow sketchnote speed marks -->
+  <g stroke="#F4B400" stroke-width="2.8" stroke-linecap="round">
+    <path d="M107 57L111 51"/>
+    <path d="M116 63L122 60"/>
+    <path d="M119 72L125 71"/>
+  </g>
+
+  <!-- Loose marker underline -->
+  <path d="M18 105Q38 108 57 104" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="13 5 6 5" opacity="0.7"/>
+
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Dashboard (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Dashboard icon featuring a wide teal
+    analytics panel, white zigzag line chart with circular
+    data points, horizontal summary bar, and two vertical
+    comparison bars. Original teal-green palette, uneven
+    marker outlines, restrained Azure-blue and yellow
+    accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="dashboardTeal" x1="18" y1="18" x2="112" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6CC6B9"/>
+      <stop offset="0.46" stop-color="#6AC4B7"/>
+      <stop offset="0.77" stop-color="#56B1A4"/>
+      <stop offset="1" stop-color="#258277"/>
+    </linearGradient>
+
+    <linearGradient id="barWhite" x1="83" y1="31" x2="108" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8FAF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main dashboard panel -->
+  <path d="M12 22            Q12 18 17 18            L111 19            Q116 19 116 24            L116 103            Q116 108 111 108            L17 107            Q12 107 12 102Z" fill="url(#dashboardTeal)" stroke="#258277" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Irregular inner marker border -->
+  <path d="M18 30            L18 99            Q18 102 22 102            L107 103            Q111 103 111 99" stroke="#A6E5DC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+
+  <!-- Top dashboard highlight -->
+  <path d="M21 25            Q55 24 104 25" stroke="#C5F0E9" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Left analytics line chart -->
+  <path d="M27 73            L40 53            L56 68            L72 41" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Slight hand-drawn secondary stroke -->
+  <path d="M28 69            L40 50            M58 65 L70 44" stroke="#DDF8F3" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Chart data point 1 -->
+  <path d="M27 67            C31 67 34 70 34 74            C34 78 31 81 27 81            C23 81 20 78 20 74            C20 70 23 67 27 67Z" fill="#FFFFFF" stroke="#258277" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Chart data point 2 -->
+  <path d="M40 46            C44 46 47 49 47 53            C47 57 44 60 40 60            C36 60 33 57 33 53            C33 49 36 46 40 46Z" fill="#FFFFFF" stroke="#258277" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Chart data point 3 -->
+  <path d="M56 61            C60 61 63 64 63 68            C63 72 60 75 56 75            C52 75 49 72 49 68            C49 64 52 61 56 61Z" fill="#FFFFFF" stroke="#258277" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Chart data point 4 -->
+  <path d="M72 34            C76 34 79 37 79 41            C79 45 76 48 72 48            C68 48 65 45 65 41            C65 37 68 34 72 34Z" fill="#FFFFFF" stroke="#258277" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Small chart marker reflections -->
+  <g stroke="#C7EEE7" stroke-width="1.7" stroke-linecap="round">
+    <path d="M24 72 L26 70"/>
+    <path d="M37 51 L39 49"/>
+    <path d="M53 66 L55 64"/>
+    <path d="M69 39 L71 37"/>
+  </g>
+
+  <!-- Horizontal summary metric bar -->
+  <path d="M24 92            Q24 89 27 89            L77 89            Q80 89 80 92            L80 98            Q80 100 77 100            L27 100            Q24 100 24 97Z" fill="#FFFFFF" fill-opacity="0.65" stroke="#DDF8F3" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <!-- Summary bar highlight -->
+  <path d="M29 92 Q51 91 72 92" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Tall comparison bar -->
+  <path d="M88 36            Q88 33 91 33            L97 33            Q100 33 100 36            L100 97            Q100 100 97 100            L91 100            Q88 100 88 97Z" fill="url(#barWhite)" stroke="#258277" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Short comparison bar -->
+  <path d="M104 62            Q104 59 107 59            L110 59            Q113 59 113 62            L113 97            Q113 100 110 100            L107 100            Q104 100 104 97Z" fill="url(#barWhite)" stroke="#258277" stroke-width="2.1" stroke-linejoin="round"/>
+
+  <!-- Subtle bar sketch highlights -->
+  <g stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.9">
+    <path d="M92 39 L92 88"/>
+    <path d="M107 65 L107 91"/>
+  </g>
+
+  <!-- Small teal marker ticks -->
+  <g stroke="#258277" stroke-width="1.5" stroke-linecap="round" opacity="0.55">
+    <path d="M95 45 L97 45"/>
+    <path d="M95 53 L97 53"/>
+    <path d="M95 61 L97 61"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote emphasis -->
+  <g stroke="#FFD45A" stroke-width="2.8" stroke-linecap="round">
+    <path d="M76 30 L79 24"/>
+    <path d="M83 34 L89 31"/>
+    <path d="M82 41 L86 43"/>
+  </g>
+
+  <!-- Azure-blue annotation accents -->
+  <g stroke="#0078D4" stroke-width="2.3" stroke-linecap="round">
+    <path d="M7 44 L3 41"/>
+    <path d="M7 53 L2 53"/>
+    <path d="M120 83 L125 85"/>
+  </g>
+
+  <!-- Tiny hand-drawn dashboard motion marks -->
+  <g stroke="#6CC6B9" stroke-width="2" stroke-linecap="round">
+    <path d="M30 112 L27 117"/>
+    <path d="M40 113 L39 119"/>
+    <path d="M102 112 L106 116"/>
+  </g>
+
+</svg>

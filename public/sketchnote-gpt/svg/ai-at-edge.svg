@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>AI at Edge (sketch)</title>
+  
+  <desc>Hand-drawn sketchnote style Azure AI at Edge icon with an edge device, status dots, and an AI lens.</desc>
+
+  <defs>
+    <linearGradient id="edgePanel" x1="15" y1="110" x2="15" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#46A0DE"/>
+    </linearGradient>
+    <linearGradient id="aiLensCore" x1="77" y1="81" x2="104" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#46A0DE"/>
+      <stop offset="1" stop-color="#8DC8E8"/>
+    </linearGradient>
+    <linearGradient id="aiLensRing" x1="68" y1="100" x2="111" y2="57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left edge device -->
+  <path d="M18 14            Q16 14 16 18            L16 100            Q16 105 21 105            L51 105            L67 89            Q63 80 63 70            Q63 53 74 42            L74 18            Q74 14 70 14            Z" fill="url(#edgePanel)" stroke="#0A5DA8" stroke-width="3.2"/>
+
+  <!-- Inner sketch contour -->
+  <path d="M23 21            L23 96            Q23 99 26 99            L48 99" stroke="#8FD6F3" stroke-width="2" opacity=".55"/>
+
+  <!-- Status / compute dots -->
+  <circle cx="33" cy="32" r="5" fill="#D8F4FF" stroke="#0A5DA8" stroke-width="2.2"/>
+  <circle cx="53" cy="32" r="5" fill="#D8F4FF" stroke="#0A5DA8" stroke-width="2.2"/>
+  <circle cx="33" cy="52" r="5" fill="#D8F4FF" stroke="#0A5DA8" stroke-width="2.2"/>
+  <circle cx="53" cy="52" r="5" fill="#D8F4FF" stroke="#0A5DA8" stroke-width="2.2"/>
+  <circle cx="33" cy="72" r="5" fill="#D8F4FF" stroke="#0A5DA8" stroke-width="2.2"/>
+  <circle cx="53" cy="72" r="5" fill="#D8F4FF" stroke="#0A5DA8" stroke-width="2.2"/>
+
+  <!-- Tiny sketchnote ticks on panel -->
+  <path d="M27 86 L39 86            M27 91 L46 91" stroke="#BFEFFF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- AI lens core -->
+  <path d="M83 49            C95 46 107 53 110 65            C113 78 105 90 93 93            C80 96 68 89 65 76            C62 64 70 52 83 49Z" fill="url(#aiLensCore)" stroke="#249FCD" stroke-width="3"/>
+
+  <!-- AI lens outer ring and handle -->
+  <path d="M83 43            C101 39 118 49 122 66            C126 84 115 101 98 105            C90 107 82 106 75 102            L58 119            Q55 122 51 122            Q47 121 45 118            Q42 115 42 111            Q42 107 45 104            L62 87            C58 80 57 72 59 64            C63 52 72 45 83 43Z            M84 52            C75 55 69 63 69 72            C69 84 79 93 90 92            C101 90 109 80 107 69            C105 57 95 49 84 52Z" fill="url(#aiLensRing)" stroke="#1FA8CC" stroke-width="3.4"/>
+
+  <!-- Hand-drawn AI neuron / brain cue inside lens -->
+  <circle cx="82" cy="70" r="3.2" fill="#FFFFFF" opacity=".9"/>
+  <circle cx="94" cy="64" r="3.2" fill="#FFFFFF" opacity=".9"/>
+  <circle cx="97" cy="77" r="3.2" fill="#FFFFFF" opacity=".9"/>
+  <circle cx="85" cy="83" r="3.2" fill="#FFFFFF" opacity=".9"/>
+
+  <path d="M82 70 L94 64            M82 70 L85 83            M85 83 L97 77            M94 64 L97 77" stroke="#FFFFFF" stroke-width="2.4" opacity=".92"/>
+
+  <!-- Lens highlights -->
+  <path d="M76 58            Q83 51 92 52" stroke="#DFF9FF" stroke-width="2.8" opacity=".9"/>
+  <path d="M70 76            Q71 83 76 88" stroke="#DFF9FF" stroke-width="2" opacity=".65"/>
+
+  <!-- Handle highlight -->
+  <path d="M58 111 L69 100" stroke="#DDF9FF" stroke-width="2.4" opacity=".7"/>
+
+  <!-- Small yellow sketchnote accent -->
+  <path d="M101 24 L101 31            M97.5 27.5 L104.5 27.5" stroke="#F2C94C" stroke-width="2.8"/>
+  <path d="M110 29 L114 25            M111 35 L117 35" stroke="#F2C94C" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Little hand-drawn motion marks -->
+  <path d="M78 36 L82 33            M70 40 L73 39" stroke="#46A0DE" stroke-width="2" opacity=".75"/>
+</svg>

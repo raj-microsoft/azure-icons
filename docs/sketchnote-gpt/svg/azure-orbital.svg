@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Orbital (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Orbital satellite angled diagonally across
+    a pale grey orbital ring. Azure-blue satellite structure,
+    bright cyan central module, tapered solar panels, and
+    a small cyan ground communication node. Uneven marker
+    outlines, restrained yellow accents, transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="orbitalBlue" x1="40" y1="22" x2="104" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="orbitalCyan" x1="54" y1="37" x2="83" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+
+    <linearGradient id="solarBlue" x1="27" y1="65" x2="67" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn planetary orbit -->
+  <path d="M17 64            C17 37 38 17 65 16            C92 15 113 34 115 61            C117 87 98 110 72 114" stroke="#B3B3B3" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="90 4 52 4" opacity="0.8"/>
+
+  <path d="M22 65            C22 42 40 22 63 21            M111 75            C108 94 94 105 79 109" stroke="#E6E6E6" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Lower-left orbital signal arcs -->
+  <g stroke="#B3B3B3" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M10 92              C10 109 22 121 39 121"/>
+    <path d="M17 93              C17 105 26 114 38 114"/>
+  </g>
+
+  <!-- Small sketchnote orbital accents -->
+  <g stroke="#F4B400" stroke-width="2.7" stroke-linecap="round">
+    <path d="M106 20L111 14"/>
+    <path d="M113 27L121 24"/>
+    <path d="M18 33L12 29"/>
+  </g>
+
+  <!-- Satellite main diagonal structural beam -->
+  <path d="M45 25            Q47 23 50 26            L106 82            Q108 85 105 88            L98 95            Q95 98 92 95            L36 39            Q33 36 36 33Z" fill="url(#orbitalBlue)" stroke="#064D83" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Marker highlight along satellite beam -->
+  <path d="M44 30L98 84" stroke="#91CDFF" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Structural cross-brace -->
+  <path d="M44 48            L49 43            L91 85            L86 90Z" fill="#005BA1" stroke="#064D83" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Upper satellite connector -->
+  <path d="M77 39            L88 28            Q90 26 92 28            L101 37            Q103 39 101 41            L90 52Z" fill="#005BA1" stroke="#064D83" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Bright cyan satellite module -->
+  <path d="M63 38            Q65 36 67 38            L89 60            Q91 62 89 64            L69 84            Q67 86 65 84            L43 62            Q41 60 43 58Z" fill="url(#orbitalCyan)" stroke="#087EA9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Module internal detail -->
+  <path d="M52 57            L66 43            M58 63            L72 49" stroke="#E1FCFF" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+
+  <path d="M69 77L82 64" stroke="#198AB3" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Lower-left satellite solar panel -->
+  <path d="M33 68            Q31 66 28 67            L14 72            Q9 74 12 78            L43 109            Q47 113 49 108            L54 94            Q55 91 53 89Z" fill="url(#solarBlue)" stroke="#06518F" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Solar panel hand-drawn cell divisions -->
+  <g stroke="#8BCAFF" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M26 72L48 94"/>
+    <path d="M19 81L43 105"/>
+    <path d="M37 75L20 86"/>
+    <path d="M46 85L31 97"/>
+  </g>
+
+  <!-- Solar panel edge highlight -->
+  <path d="M16 76L30 71L49 90" stroke="#B8E4FF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Satellite feed and sensor stem -->
+  <path d="M43 86L34 95" stroke="#005BA1" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Satellite communication sensor -->
+  <circle cx="29" cy="101" r="8" fill="url(#orbitalCyan)" stroke="#1686B7" stroke-width="3"/>
+
+  <!-- Sensor highlight -->
+  <path d="M25 98Q28 95 32 98" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Communication signal emphasis -->
+  <g stroke="#0078D4" stroke-width="2.3" stroke-linecap="round">
+    <path d="M18 107Q23 114 31 115"/>
+    <path d="M13 112Q20 121 32 122"/>
+  </g>
+
+  <!-- Yellow sketchnote sparkle -->
+  <g stroke="#F4B400" stroke-width="2.7" stroke-linecap="round">
+    <path d="M110 99L116 94"/>
+    <path d="M114 106L122 105"/>
+    <path d="M105 106L106 113"/>
+  </g>
+
+</svg>

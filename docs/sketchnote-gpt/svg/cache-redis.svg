@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Cache Redis (sketch)</title>
+
+  
+  <desc>
+    Three Azure-blue cylindrical cache containers arranged
+    in a triangular formation, with cyan elliptical tops,
+    uneven hand-drawn marker outlines, subtle highlights,
+    and restrained yellow accents. Transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cacheBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".48" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back-left cache cylinder -->
+  <path d="M7 27            C7 20 19 17 34 17            C49 17 61 21 61 27            L61 74            C61 81 49 85 34 85            C19 85 7 81 7 74Z" fill="url(#cacheBlue)" stroke="#174F82" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Back-left cylinder top -->
+  <path d="M7 27            C7 20 19 17 34 17            C49 17 61 21 61 27            C61 34 49 37 34 37            C19 37 7 33 7 27Z" fill="#E8E8E8" stroke="#174F82" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M14 27            C14 23 23 21 34 21            C45 21 54 23 54 27            C54 31 45 33 34 33            C23 33 14 31 14 27Z" fill="#50E6FF"/>
+
+  <path d="M20 30            Q34 25 48 30            Q35 35 20 30Z" fill="#32BEDD"/>
+
+  <!-- Back-left sketch highlights -->
+  <path d="M12 42 Q11 54 13 67" stroke="#68C9F0" stroke-width="2.6" stroke-linecap="round"/>
+
+  <path d="M20 77 Q34 82 47 77" stroke="#50B4E6" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Back-right cache cylinder -->
+  <path d="M67 27            C67 20 79 17 94 17            C109 17 121 21 121 27            L121 74            C121 81 109 85 94 85            C79 85 67 81 67 74Z" fill="url(#cacheBlue)" stroke="#174F82" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Back-right cylinder top -->
+  <path d="M67 27            C67 20 79 17 94 17            C109 17 121 21 121 27            C121 34 109 37 94 37            C79 37 67 33 67 27Z" fill="#E8E8E8" stroke="#174F82" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M74 27            C74 23 83 21 94 21            C105 21 114 23 114 27            C114 31 105 33 94 33            C83 33 74 31 74 27Z" fill="#50E6FF"/>
+
+  <path d="M80 30            Q94 25 108 30            Q95 35 80 30Z" fill="#32BEDD"/>
+
+  <!-- Back-right sketch highlights -->
+  <path d="M72 42 Q71 54 73 67" stroke="#68C9F0" stroke-width="2.6" stroke-linecap="round"/>
+
+  <path d="M80 77 Q94 82 107 77" stroke="#50B4E6" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Front cache cylinder -->
+  <path d="M37 58            C37 51 49 48 64 48            C79 48 91 52 91 58            L91 106            C91 113 79 117 64 117            C49 117 37 113 37 106Z" fill="url(#cacheBlue)" stroke="#174F82" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front cylinder top -->
+  <path d="M37 58            C37 51 49 48 64 48            C79 48 91 52 91 58            C91 65 79 68 64 68            C49 68 37 64 37 58Z" fill="#E8E8E8" stroke="#174F82" stroke-width="3.1" stroke-linejoin="round"/>
+
+  <path d="M44 58            C44 54 53 52 64 52            C75 52 84 54 84 58            C84 62 75 64 64 64            C53 64 44 62 44 58Z" fill="#50E6FF"/>
+
+  <path d="M50 61            Q64 56 78 61            Q65 66 50 61Z" fill="#32BEDD"/>
+
+  <!-- Front cylinder hand-drawn highlights -->
+  <path d="M42 73 Q41 86 43 101" stroke="#68C9F0" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M50 109 Q64 114 78 109" stroke="#50B4E6" stroke-width="2.3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Subtle sketch shading -->
+  <g stroke="#155EA1" stroke-width="2" stroke-linecap="round" opacity=".5">
+    <path d="M56 86 L56 91"/>
+    <path d="M64 87 L64 94"/>
+    <path d="M72 86 L72 91"/>
+  </g>
+
+  <!-- Azure-blue hand-drawn accent strokes -->
+  <g stroke="#0078D4" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M3 44 Q2 51 4 57"/>
+    <path d="M124 44 Q126 52 124 59"/>
+    <path d="M49 122 Q64 125 79 122"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4BE46" stroke-width="2.8" stroke-linecap="round" fill="none">
+    <path d="M11 11 L7 6"/>
+    <path d="M20 9 L20 4"/>
+    <path d="M108 10 L112 5"/>
+    <path d="M117 14 L123 12"/>
+  </g>
+
+  <!-- Small cache sparkle -->
+  <path d="M100 99 L100 107            M96 103 L104 103" stroke="#F4BE46" stroke-width="2.4" stroke-linecap="round"/>
+
+</svg>

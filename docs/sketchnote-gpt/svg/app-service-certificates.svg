@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>App Service Certificates (sketch)</title>
+  
+  <desc>Hand-drawn Azure App Service Certificate with an orange document border, white certificate interior, handwritten-style text lines, and a red-and-gold certification seal with ribbon tails. Transparent background.</desc>
+
+  <defs>
+    <linearGradient id="certificateOrange" x1="64" y1="8" x2="64" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FAA21D"/>
+      <stop offset=".55" stop-color="#F8911E"/>
+      <stop offset="1" stop-color="#F78D1E"/>
+    </linearGradient>
+
+    <linearGradient id="sealRed" x1="14" y1="58" x2="51" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F04435"/>
+      <stop offset="1" stop-color="#E62323"/>
+    </linearGradient>
+
+    <linearGradient id="sealGold" x1="28" y1="62" x2="30" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD075"/>
+      <stop offset="1" stop-color="#FFB34D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Orange certificate frame -->
+  <path d="M9 9            Q9 6 14 6            L115 7            Q120 7 120 13            L119 94            Q119 99 114 99            L14 98            Q9 98 9 93            Z" fill="url(#certificateOrange)" stroke="#C66A15" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White certificate paper -->
+  <path d="M17 16            Q17 14 20 14            L108 15            Q112 15 112 19            L111 88            Q111 91 108 91            L20 90            Q17 90 17 87            Z" fill="#FFFFFF" stroke="#D97819" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn inner paper highlight -->
+  <path d="M23 23            L23 43            M28 20            Q65 19 102 21" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Certificate heading line -->
+  <path d="M35 36            Q68 35 99 36" stroke="#D15900" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Handwritten-style certificate text -->
+  <path d="M57 52            Q77 51 101 52            M57 64            Q79 63 100 64            M57 76            Q73 75 87 76" stroke="#D15900" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Small handwritten flourish -->
+  <path d="M90 76            Q96 73 101 76" stroke="#E49A5E" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Red ribbon tails -->
+  <path d="M21 89            L19 120            Q19 124 23 121            L34 112            L45 122            Q49 125 49 120            L46 89Z" fill="#B31B1B" stroke="#8E2020" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Ribbon marker folds -->
+  <path d="M28 94            L27 113            M41 95            L43 113" stroke="#F16A59" stroke-width="2.3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Outer certification seal -->
+  <path d="M34 59            C45 59 54 68 54 79            C54 90 45 99 34 99            C23 99 14 90 14 79            C14 68 23 59 34 59Z" fill="url(#sealRed)" stroke="#A51E1E" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Gold certification medallion -->
+  <path d="M34 67            C41 67 47 72 47 79            C47 86 41 92 34 92            C27 92 21 86 21 79            C21 72 27 67 34 67Z" fill="url(#sealGold)" stroke="#C47B20" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Seal inner hand-drawn contour -->
+  <path d="M27 75            Q30 70 36 71            M41 83            Q38 88 33 88" stroke="#FFE6AC" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Subtle embossed seal detail -->
+  <path d="M31 79            L34 82            L39 76" stroke="#D88725" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketchnote yellow sparkle -->
+  <path d="M111 108            L111 118            M106 113            L116 113" stroke="#FFD34E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn decorative marker strokes -->
+  <path d="M60 105            Q72 108 84 105            M68 114            L80 113" stroke="#F8911E" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small Azure-blue accent -->
+  <path d="M5 35            Q3 42 5 49            M7 55            L9 59" stroke="#4894FE" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

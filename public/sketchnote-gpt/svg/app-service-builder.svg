@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>App Service Builder (sketch)</title>
+  
+  <desc>Hand-drawn right-facing App Service Builder ribbon in original cyan, blue, and violet gradients, with four short builder strokes and subtle yellow marker accents.</desc>
+
+  <defs>
+    <linearGradient id="builderBody" x1="45" y1="14" x2="104" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B52F4"/>
+      <stop offset=".52" stop-color="#7A41DC"/>
+      <stop offset="1" stop-color="#9529C1"/>
+    </linearGradient>
+
+    <linearGradient id="builderFold" x1="47" y1="10" x2="112" y2="83" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3BD5FF"/>
+      <stop offset=".48" stop-color="#367AF2"/>
+      <stop offset="1" stop-color="#9C6CFE"/>
+    </linearGradient>
+
+    <linearGradient id="builderBars" x1="8" y1="55" x2="49" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#367AF2"/>
+      <stop offset=".5" stop-color="#7A41DC"/>
+      <stop offset="1" stop-color="#9529C1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main forward-pointing builder ribbon -->
+  <path d="M49 7            Q49 4 53 4            Q56 4 59 7            L122 58            Q127 62 122 67            L59 118            Q55 122 51 119            Q47 116 50 111            L78 64            L50 17            Q48 13 49 7 Z" fill="url(#builderBody)" stroke="#52259D" stroke-width="3.5"/>
+
+  <!-- Luminous upper ribbon fold -->
+  <path d="M53 5            Q56 4 59 7            L122 58            Q127 62 122 67            L91 92            Q99 85 94 76            L78 64            L50 17            Q47 11 49 7            Q50 5 53 5 Z" fill="url(#builderFold)" stroke="#4263D8" stroke-width="2.7"/>
+
+  <!-- Dark inner folding shadow -->
+  <path d="M78 64            L94 76            Q100 85 91 92            L81 100            Q90 89 85 80 Z" fill="#3B148A" opacity=".65"/>
+
+  <!-- Hand-drawn highlight following arrow -->
+  <path d="M56 12            Q71 23 88 37            L116 60" stroke="#D9F8FF" stroke-width="3" opacity=".85"/>
+
+  <path d="M114 69            L94 85            M83 97            L61 114" stroke="#C9A8FF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Builder strokes: original four-bar symbolism -->
+  <g fill="url(#builderBars)" stroke="#5930B0" stroke-width="2.5">
+    <path d="M9 57              Q9 54 12 54              L19 54              Q23 54 23 59              Q23 64 19 64              L12 64              Q8 64 9 57 Z"/>
+
+    <path d="M37 57              Q37 54 41 54              L54 54              Q59 54 59 59              Q59 64 54 64              L41 64              Q37 64 37 60 Z"/>
+
+    <path d="M9 85              Q9 81 13 81              L38 81              Q43 81 43 86              Q43 91 38 91              L13 91              Q9 91 9 87 Z"/>
+
+    <path d="M9 113              Q9 109 13 109              L29 109              Q34 109 34 114              Q34 119 29 119              L13 119              Q9 119 9 115 Z"/>
+  </g>
+
+  <!-- Hand-drawn light strokes on builder bars -->
+  <g stroke="#D9CDFF" stroke-width="2.2" opacity=".85">
+    <path d="M13 57 L18 57"/>
+    <path d="M42 57 L52 57"/>
+    <path d="M14 84 L34 84"/>
+    <path d="M14 112 L26 112"/>
+  </g>
+
+  <!-- Loose marker detail along ribbon -->
+  <path d="M70 31 L77 37            M84 43 L92 50            M102 57 L107 61" stroke="#FFFFFF" stroke-width="1.8" opacity=".55"/>
+
+  <path d="M57 103            Q65 88 74 73" stroke="#B891FF" stroke-width="2" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote sparks -->
+  <g stroke="#F7C948" stroke-width="3">
+    <path d="M94 16 L99 9"/>
+    <path d="M104 23 L112 20"/>
+    <path d="M86 12 L86 5"/>
+  </g>
+
+  <!-- Hand-drawn tiny sparkle -->
+  <path d="M25 20 L25 30            M20 25 L30 25" stroke="#F7C948" stroke-width="2.7"/>
+
+  <!-- Motion lines reinforcing build direction -->
+  <g stroke="#367AF2" stroke-width="2.5" opacity=".8">
+    <path d="M9 43 L22 43"/>
+    <path d="M15 48 L30 48"/>
+    <path d="M44 104 L49 100"/>
+  </g>
+
+  <!-- Minimal bottom sketchnote accents -->
+  <path d="M85 113 L91 119            M95 108 L102 112" stroke="#F7C948" stroke-width="2.6"/>
+</svg>

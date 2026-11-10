@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Cloud Shell (sketch)</title>
+  
+  <desc>Hand-drawn Azure Cloud Shell terminal with a command prompt, overlapping blue cloud, uneven marker strokes, and transparent background.</desc>
+
+  <defs>
+    <linearGradient id="shellCloud" x1="69" y1="62" x2="117" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".52" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Loose sketch accent behind terminal -->
+  <path d="M13 27 Q11 27 11 31 L10 94" stroke="#8BBCE7" stroke-width="1.6" stroke-linecap="round" opacity=".5"/>
+  <path d="M18 104 Q34 106 48 104" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".38"/>
+
+  <!-- Terminal window outer silhouette -->
+  <path d="M17 22            Q16 21 20 21            L103 22            Q107 22 107 26            L108 99            Q108 103 104 103            L19 102            Q15 102 15 98            Z" fill="#BFBFBF" stroke="#555F69" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Grey title bar -->
+  <path d="M17 26            Q17 23 21 23            L102 24            Q105 24 105 28            L106 43            Q73 42 17 43            Z" fill="#949494"/>
+
+  <!-- Marker line separating header -->
+  <path d="M17 43 Q42 44 70 43 T106 44" stroke="#626A73" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Hand-drawn title bar controls -->
+  <circle cx="26" cy="33" r="3.1" fill="#D5D5D5" stroke="#626A73" stroke-width="1.4"/>
+  <circle cx="37" cy="33" r="3" fill="#D5D5D5" stroke="#626A73" stroke-width="1.4"/>
+  <circle cx="48" cy="33" r="3" fill="#D5D5D5" stroke="#626A73" stroke-width="1.4"/>
+
+  <!-- Terminal screen -->
+  <path d="M22 49            Q22 47 25 47            L98 48            Q101 48 101 51            L102 94            Q102 97 99 97            L24 96            Q21 96 21 93            Z" fill="#005BA1" stroke="#164B7A" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Subtle hand-drawn screen highlight -->
+  <path d="M27 52 Q47 51 65 52" stroke="#5EA0EF" stroke-width="1.4" stroke-linecap="round" opacity=".5"/>
+
+  <!-- Large recognizable terminal prompt -->
+  <path d="M35 62            L48 73            Q49 74 48 75            L35 86" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Command cursor -->
+  <path d="M54 86 Q63 85 73 86" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Small yellow sketchnote details -->
+  <path d="M27 57 L29 54" stroke="#F4C542" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M76 54 L81 53" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Cloud overlapping bottom-right terminal -->
+  <path d="M75 113            C65 113 60 106 61 98            C62 90 68 85 77 85            C80 74 89 68 100 69            C112 69 120 77 121 88            C127 91 130 97 128 104            C126 110 121 113 114 113            Z" fill="url(#shellCloud)" stroke="#005BA1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(-3 -1)"/>
+
+  <!-- Hand-drawn cloud contour highlights -->
+  <path d="M67 98            Q68 91 78 91            M80 85            Q86 73 98 75            M105 76            Q115 80 115 89" stroke="#B9DEFF" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Cloud interior marker accent -->
+  <path d="M76 105 Q85 106 94 105" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+
+  <!-- Sketch motion marks -->
+  <path d="M118 71 L121 67            M123 79 L127 77" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Tiny hand-drawn decorative underline -->
+  <path d="M79 119 Q95 121 112 118" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+</svg>

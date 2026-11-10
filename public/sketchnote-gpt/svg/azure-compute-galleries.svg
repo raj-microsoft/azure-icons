@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Compute Galleries (sketch)</title>
+  
+  <desc>
+    A hand-drawn purple Azure compute gallery chip with
+    irregular marker outlines, perimeter connector pins,
+    and a luminous cyan isometric compute cube.
+    Transparent background and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="galleryPurple" x1="64" y1="17" x2="64" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top connector pins -->
+  <path d="M47 21            L47 8            Q47 6 49 6            L54 6            Q56 6 56 9            L56 21 Z" fill="#773ADC" stroke="#5930A8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M70 21            L70 8            Q70 6 72 6            L77 6            Q79 6 79 9            L79 21 Z" fill="#773ADC" stroke="#5930A8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Bottom connector pins -->
+  <path d="M47 107            L47 120            Q47 122 49 122            L54 122            Q56 122 56 119            L56 107 Z" fill="#773ADC" stroke="#5930A8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M70 107            L70 120            Q70 122 72 122            L77 122            Q79 122 79 119            L79 107 Z" fill="#773ADC" stroke="#5930A8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Left connector pins -->
+  <path d="M19 49            L7 49            Q5 49 5 51            L5 56            Q5 58 7 58            L19 58 Z" fill="#773ADC" stroke="#5930A8" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <path d="M19 70            L7 70            Q5 70 5 72            L5 77            Q5 79 7 79            L19 79 Z" fill="#773ADC" stroke="#5930A8" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Right connector pins -->
+  <path d="M109 49            L121 49            Q123 49 123 51            L123 56            Q123 58 121 58            L109 58 Z" fill="#773ADC" stroke="#5930A8" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <path d="M109 70            L121 70            Q123 70 123 72            L123 77            Q123 79 121 79            L109 79 Z" fill="#773ADC" stroke="#5930A8" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Main hand-drawn processor silhouette -->
+  <path d="M23 15            Q19 15 18 20            L17 105            Q17 111 23 112            L104 113            Q110 112 111 106            L112 23            Q112 17 106 16            Z" fill="url(#galleryPurple)" stroke="#5930A8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven inner marker border -->
+  <path d="M29 25            Q27 25 27 29            L26 98            Q26 103 31 103            L97 104            Q102 104 102 99            L103 29            Q103 25 98 25            Z" stroke="#C6A5FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+
+  <!-- Subtle upper-edge sketch highlight -->
+  <path d="M31 20 Q56 19 83 20" stroke="#E0CAFF" stroke-width="2.3" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Compute cube: upper face -->
+  <path d="M64 38            L87 51            L64 65            L41 51            Z" fill="#C3F1FF" stroke="#126B9B" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Left cube face -->
+  <path d="M41 51            L64 65            L64 92            L41 79            Z" fill="#9CEBFF" stroke="#126B9B" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Right cube face -->
+  <path d="M87 51            L64 65            L64 92            L87 79            Z" fill="#50E6FF" stroke="#126B9B" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Faceted gallery cube details -->
+  <path d="M41 79            Q52 72 64 65            L64 92            Z" fill="#C3F1FF" opacity=".7"/>
+
+  <path d="M87 79            Q76 72 64 65            L64 92            Z" fill="#9CEBFF" opacity=".55"/>
+
+  <!-- Hand-drawn cube edge reinforcement -->
+  <path d="M64 65            Q63 78 64 92" stroke="#126B9B" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Small cyan reflected highlight -->
+  <path d="M53 51 L64 45 L74 51" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M92 37 L92 31            M89 34 L95 34" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M35 89 L32 93            M39 91 L37 96" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Small handwritten-style motion strokes -->
+  <path d="M31 38 Q33 35 36 34" stroke="#E3D2FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M91 91 Q94 88 95 84" stroke="#E3D2FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Loose external sketch accents -->
+  <path d="M13 31 Q11 39 12 44" stroke="#773ADC" stroke-width="1.7" stroke-linecap="round" opacity=".45"/>
+
+  <path d="M116 85 Q118 93 115 99" stroke="#773ADC" stroke-width="1.7" stroke-linecap="round" opacity=".45"/>
+
+  <path d="M41 117 Q59 119 67 117" stroke="#773ADC" stroke-width="1.7" stroke-linecap="round" opacity=".4"/>
+</svg>

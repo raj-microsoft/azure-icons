@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Breeze (sketch)</title>
+
+  
+  <desc>
+    Azure Breeze icon recreated as a hand-drawn circular
+    swirl with three flowing blue ribbons, uneven marker
+    outlines, subtle cyan highlights and restrained yellow
+    accents. Transparent background and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="breezeTop" x1="22" y1="12" x2="100" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8DC8E8"/>
+      <stop offset=".55" stop-color="#46A0DE"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="breezeMiddle" x1="35" y1="44" x2="112" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#46A0DE"/>
+      <stop offset=".65" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#155EA1"/>
+    </linearGradient>
+
+    <linearGradient id="breezeBottom" x1="32" y1="104" x2="105" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#155EA1"/>
+      <stop offset=".65" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#2A446F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main circular upper ribbon -->
+  <path d="M96 18            C82 8 64 7 48 13            C30 19 18 34 13 49            C10 58 9 66 13 69            C20 76 47 64 67 50            C83 39 93 28 96 18Z" fill="url(#breezeTop)" stroke="#155EA1" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper ribbon marker highlight -->
+  <path d="M21 48            C30 29 44 19 62 17            C71 16 79 17 85 20" stroke="#C5EAF7" stroke-width="3.4" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Sweeping upper edge -->
+  <path d="M17 69            C38 72 66 56 84 42            C91 36 97 29 100 22" stroke="#155EA1" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".75"/>
+
+  <!-- Middle swirling body -->
+  <path d="M96 18            C112 29 121 45 122 64            C102 48 72 55 48 70            C33 79 20 91 15 101            C7 86 9 65 15 52            C12 67 21 72 38 67            C60 61 84 41 96 18Z" fill="url(#breezeMiddle)" stroke="#155EA1" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central flow highlight -->
+  <path d="M24 89            C43 65 68 53 88 51" stroke="#80C9F0" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M38 91            C60 72 88 61 110 65" stroke="#B6E6FA" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Lower wave ribbon -->
+  <path d="M15 101            C34 82 58 71 80 66            C98 62 113 62 122 69            C120 86 113 99 101 111            C90 123 71 126 55 121            C37 117 24 110 15 101Z" fill="#0078D4" stroke="#155EA1" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Dark inner lower ribbon -->
+  <path d="M20 105            C42 92 64 86 84 83            C103 80 115 83 110 95            C100 115 82 123 63 122            C45 121 31 114 20 105Z" fill="url(#breezeBottom)" stroke="#155EA1" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Lower wave highlight -->
+  <path d="M28 104            C49 94 70 87 90 86" stroke="#46A0DE" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+
+  <path d="M44 113            C57 118 73 119 85 115" stroke="#8DC8E8" stroke-width="2.4" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Hand-drawn airflow strokes -->
+  <g stroke="#0078D4" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".8">
+    <path d="M7 44 Q10 36 15 30"/>
+    <path d="M112 28 Q119 36 122 43"/>
+    <path d="M108 114 Q101 121 94 124"/>
+  </g>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <g stroke="#F4BE46" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M24 15 L20 9"/>
+    <path d="M32 11 L32 5"/>
+    <path d="M115 16 L121 11"/>
+    <path d="M119 23 L126 21"/>
+  </g>
+
+  <!-- Small hand-drawn motion sparkle -->
+  <path d="M8 111 L8 119            M4 115 L12 115" stroke="#F4BE46" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

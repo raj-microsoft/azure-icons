@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure HPC Workbenches (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure-blue protective shield containing a white
+    engineering gear and two cyan user silhouettes. Uneven marker
+    outlines, subtle yellow highlights, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="30" y1="12" x2="100" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6BB9F2"/>
+      <stop offset="1" stop-color="#1B93EB"/>
+    </linearGradient>
+
+    <linearGradient id="gearWhite" x1="43" y1="30" x2="87" y2="93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E6E6E6"/>
+    </linearGradient>
+
+    <linearGradient id="cyanPeople" x1="48" y1="47" x2="78" y2="79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="0.65" stop-color="#2EC9EB"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Small sketchnote accent marks -->
+  <g stroke="#F4B400" stroke-width="3" stroke-linecap="round">
+    <path d="M19 28L13 23"/>
+    <path d="M25 20L23 13"/>
+    <path d="M110 32L117 26"/>
+    <path d="M114 41L122 40"/>
+  </g>
+
+  <!-- Main protective shield -->
+  <path d="M64 9            C53 9 49 17 34 18            L17 20            Q13 20 13 25            L13 60            C13 87 40 108 61 120            Q64 122 67 120            C88 108 115 87 115 60            L115 25            Q115 20 111 20            L94 18            C79 17 75 9 64 9Z" fill="#1B93EB" stroke="#155D91" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner marker-painted shield -->
+  <path d="M64 15            C53 15 48 23 35 24            L20 26            L20 60            C20 82 43 103 64 114            C85 103 108 82 108 60            L108 26            L93 24            C80 23 75 15 64 15Z" fill="url(#shieldBlue)" stroke="#B7E3FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose shield highlight -->
+  <path d="M25 33L25 59            Q26 78 39 91" stroke="#D9F1FF" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Gear silhouette -->
+  <path d="     M59 32     L69 32     L73 42     L79 45     L89 41     L96 48     L91 58     L94 65     L104 69     L104 79     L94 82     L91 88     L96 98     L89 105     L79 100     L73 103     L69 113     L59 113     L55 103     L49 100     L39 105     L32 98     L37 88     L34 82     L24 79     L24 69     L34 65     L37 58     L32 48     L39 41     L49 45     L55 42     Z" fill="url(#gearWhite)" stroke="#596875" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" transform="translate(0 -8) scale(1 0.91)"/>
+
+  <!-- Gear inner opening -->
+  <path d="M64 40            C47 40 37 51 37 65            C37 81 49 92 64 92            C79 92 91 81 91 65            C91 51 80 40 64 40Z" fill="#EAF8FF" stroke="#8398A6" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="39 3 28 3"/>
+
+  <!-- Secondary HPC collaborator -->
+  <circle cx="77" cy="57" r="6.2" fill="#198AB3" stroke="#116D94" stroke-width="2"/>
+
+  <path d="M66 76            C66 68 70 64 77 64            C84 64 89 70 89 77            L89 80            L66 80Z" fill="#198AB3" stroke="#116D94" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <!-- Main HPC workbench user -->
+  <circle cx="59" cy="53" r="9" fill="url(#cyanPeople)" stroke="#117CA9" stroke-width="2.6"/>
+
+  <!-- Hand-drawn reflection on head -->
+  <path d="M55 49Q58 46 62 49" stroke="#D5F9FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Main user shoulders -->
+  <path d="M42 80            C43 67 48 62 59 62            C70 62 77 70 77 80            Q77 83 74 83            L45 83            Q41 83 42 80Z" fill="url(#cyanPeople)" stroke="#117CA9" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small white shirt/identity accent -->
+  <path d="M54 65L59 73L64 65" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- Yellow engineering spark -->
+  <g stroke="#F4B400" stroke-width="2.5" stroke-linecap="round">
+    <path d="M96 36L99 30"/>
+    <path d="M101 41L107 38"/>
+    <path d="M29 98L24 103"/>
+  </g>
+
+  <!-- Subtle hand-drawn completion underline -->
+  <path d="M48 110Q64 116 80 109" stroke="#FFD166" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="12 5 7 5" opacity="0.9"/>
+
+</svg>

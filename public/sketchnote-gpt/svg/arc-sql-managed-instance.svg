@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Arc SQL Managed Instance (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Arc SQL Managed Instance icon featuring
+    a grey SQL server, Azure-blue SQL cloud, and cyan
+    elliptical Arc platform. Original colors are preserved
+    with uneven marker outlines and subtle yellow accents.
+  </desc>
+
+  <defs>
+    <linearGradient id="serverGrey" x1="18" y1="8" x2="75" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B3B3"/>
+      <stop offset="1" stop-color="#949494"/>
+    </linearGradient>
+
+    <linearGradient id="sqlCloudBlue" x1="72" y1="39" x2="72" y2="103" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="arcBaseBlue" x1="64" y1="89" x2="64" y2="126" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure Arc platform: visible lower edge -->
+  <path d="M6 96        C8 84 31 79 64 79        C97 79 120 85 122 96        L122 110        C120 120 98 125 64 125        C30 125 9 120 6 110Z" fill="#5EA0EF" stroke="#0078D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn platform side shading -->
+  <path d="M11 110        C21 118 39 121 63 121        C89 121 108 117 117 110" stroke="#83B9F9" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Cyan elliptical platform surface -->
+  <path d="M122 96        C122 108 96 115 64 115        C31 115 6 108 6 96        C6 84 31 78 64 78        C97 78 122 84 122 96Z" fill="url(#arcBaseBlue)" stroke="#0078D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Informal platform contour -->
+  <path d="M15 94        C24 85 43 83 62 83        C86 83 105 87 114 94" stroke="#D5FAFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="13 5 4 5" opacity="0.8"/>
+
+  <!-- Server shadow -->
+  <path d="M19 10        L68 9        Q72 9 72 14        L72 96        Q72 100 68 100        L19 100        Q15 100 15 96        L15 14        Q15 10 19 10Z" fill="#005BA1" opacity="0.18"/>
+
+  <!-- Grey SQL managed server -->
+  <path d="M20 7        L68 8        Q71 8 71 12        L71 94        Q71 98 67 98        L20 98        Q16 98 16 94        L16 12        Q16 7 20 7Z" fill="url(#serverGrey)" stroke="#666666" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Server highlight / sketch contour -->
+  <path d="M22 13        L22 91        M27 12 L61 12" stroke="#E1E1E1" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Upper server drive -->
+  <path d="M27 19        L60 19        Q65 19 65 24        Q65 29 60 29        L27 29        Q23 29 23 24        Q23 19 27 19Z" fill="#003067" stroke="#164A8A" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Upper cyan activity light -->
+  <path d="M34 20        C39 20 42 23 42 26        C42 30 39 33 35 33        C31 33 28 30 28 26        C28 23 31 20 34 20Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.8"/>
+
+  <!-- Lower server drive -->
+  <path d="M27 42        L60 42        Q65 42 65 47        Q65 52 60 52        L27 52        Q23 52 23 47        Q23 42 27 42Z" fill="#003067" stroke="#164A8A" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Lower cyan activity light -->
+  <path d="M34 43        C39 43 42 46 42 49        C42 53 39 56 35 56        C31 56 28 53 28 49        C28 46 31 43 34 43Z" fill="#50E6FF" stroke="#0078D4" stroke-width="1.8"/>
+
+  <!-- Tiny server-panel marker marks -->
+  <path d="M47 24 L59 24        M47 47 L59 47" stroke="#83B9F9" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Azure SQL cloud silhouette -->
+  <path d="M51 101        C36 101 27 91 27 79        C27 67 36 57 49 56        C52 42 64 34 78 35        C94 36 104 46 106 59        C117 61 123 70 123 81        C123 93 114 101 102 101Z" fill="url(#sqlCloudBlue)" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose bright-blue cloud contour -->
+  <path d="M36 72        C40 65 46 63 54 63        C58 48 67 42 79 43        C89 43 98 50 100 63" stroke="#A8D9FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+
+  <!-- Small cloud edge highlights -->
+  <path d="M32 82        C34 88 39 92 45 94        M111 70        C116 74 118 79 117 84" stroke="#83B9F9" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- SQL lettering: vector-only handwritten-style forms -->
+  <g stroke="#F2F2F2" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- S -->
+    <path d="M60 69          C55 65 47 66 47 72          C47 77 58 77 59 83          C60 89 51 91 46 87"/>
+
+    <!-- Q -->
+    <path d="M83 79          C83 70 79 66 73 66          C67 66 63 71 63 79          C63 87 67 91 73 91          C79 91 83 86 83 79Z"/>
+
+    <path d="M77 85 L86 94"/>
+
+    <!-- L -->
+    <path d="M93 67 L93 90 L107 90"/>
+
+  </g>
+
+  <!-- Subtle yellow sketchnote emphasis -->
+  <path d="M103 42 L109 38        M108 48 L116 46" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M12 68 L7 72        M15 74 L11 79" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Informal marker annotations -->
+  <path d="M35 4 L41 2        M46 4 L51 2" stroke="#B3B3B3" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M32 118 L38 121        M92 121 L98 118" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round"/>
+
+</svg>

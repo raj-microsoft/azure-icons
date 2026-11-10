@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Sentinel (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue security shield with a cyan monitoring arc, white central detection node and restrained yellow sketch accents.</desc>
+
+  <defs>
+    <linearGradient id="sentinelBlue" x1="64" y1="9" x2="64" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6BB9F2"/>
+      <stop offset=".48" stop-color="#2E9CED"/>
+      <stop offset="1" stop-color="#1B93EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn shield silhouette -->
+  <path d="M64 10            C75 9 79 18 96 21            Q106 23 113 23            Q117 24 117 29            L117 65            C117 86 103 102 85 115            Q75 122 66 126            Q64 127 61 125            C41 113 12 93 11 65            L11 29            Q11 24 16 23            C33 22 42 19 49 14            Q56 9 64 10Z" fill="#1B93EB" stroke="#1767AC" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Inner shield: deliberately irregular marker contour -->
+  <path d="M64 16            C76 15 80 25 98 27            L109 29            L109 64            C109 84 96 99 80 111            L64 120            C48 110 20 91 19 65            L19 30            C38 28 47 24 54 19            Q59 16 64 16Z" fill="url(#sentinelBlue)" stroke="#C3F1FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle left-edge marker highlight -->
+  <path d="M25 34            C39 32 48 28 55 23" stroke="#D9F5FF" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M25 44 L25 63            Q26 79 37 92" stroke="#A5DFFF" stroke-width="2.4" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Sentinel radar / monitoring arc -->
+  <path d="M30 65            C32 47 45 34 63 33            C83 32 98 46 100 65" stroke="#1767AC" stroke-width="13" stroke-linecap="round" opacity=".28"/>
+
+  <path d="M30 65            C32 47 45 34 63 33            C83 32 98 46 100 65" stroke="#C3F1FF" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Slightly uneven hand-inked arc edge -->
+  <path d="M35 57            Q41 39 59 37            Q79 34 91 51" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Central detection node -->
+  <path d="M64 52            C76 52 85 61 85 73            C85 85 75 94 63 94            C51 94 43 84 43 73            C43 61 52 52 64 52Z" fill="#FFFFFF" stroke="#1767AC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner node sketch highlight -->
+  <path d="M53 66            Q58 58 67 60" stroke="#C3F1FF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small Azure monitoring glint -->
+  <path d="M63 66            L65 71            L70 73            L65 75            L63 80            L61 75            L56 73            L61 71Z" fill="#50B5E8" opacity=".9"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M103 38 L111 34            M105 46 L115 45            M99 32 L103 25" stroke="#F5C84C" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- Tiny handwritten-style annotation -->
+  <path d="M30 98            Q38 106 47 110" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M43 104            L48 110            L40 111" stroke="#F5C84C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Minimal shield accent strokes -->
+  <path d="M84 103            Q96 92 101 82" stroke="#D7F4FF" stroke-width="2.4" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M56 115            Q62 119 66 121" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+</svg>

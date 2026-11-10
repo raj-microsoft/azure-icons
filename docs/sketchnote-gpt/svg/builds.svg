@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Builds (sketch)</title>
+
+  
+  <desc>
+    Azure Builds icon featuring a purple downward build arrow,
+    three lime-green build blocks, and a violet build platform
+    containing two bright green blocks. Uneven marker outlines,
+    subtle sketch highlights, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="buildArrow" x1="64" y1="5" x2="64" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset=".55" stop-color="#9E6FF0"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+
+    <linearGradient id="buildPlatform" x1="64" y1="89" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn downward build arrow -->
+  <path d="M58 7            Q58 5 61 5            L70 6            Q72 6 72 9            L72 31            L84 31            Q88 31 86 35            L67 55            Q64 58 61 55            L42 35            Q39 31 44 31            L56 31            L56 10            Q56 7 58 7Z" fill="url(#buildArrow)" stroke="#6030B2" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Marker-style arrow highlights -->
+  <path d="M62 12 Q62 21 62 29" stroke="#D3BCFF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M48 36 L62 50" stroke="#C4A5FF" stroke-width="2.6" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M69 47 L79 36" stroke="#6C35C5" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- First build block -->
+  <path d="M30 68            Q30 66 33 66            L45 66            Q48 66 48 69            L48 81            Q48 84 45 84            L33 84            Q30 84 30 81Z" fill="#86D633" stroke="#4C982C" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Second build block -->
+  <path d="M55 67            Q55 65 58 65            L70 66            Q73 66 73 69            L73 81            Q73 84 70 84            L58 84            Q55 84 55 81Z" fill="#86D633" stroke="#4C982C" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Third build block -->
+  <path d="M80 68            Q80 66 83 66            L95 66            Q98 66 98 69            L98 81            Q98 84 95 84            L83 84            Q80 84 80 81Z" fill="#86D633" stroke="#4C982C" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn block highlights -->
+  <g stroke="#C7F58A" stroke-width="2.3" stroke-linecap="round" opacity=".9">
+    <path d="M34 72 L42 72"/>
+    <path d="M59 71 L67 71"/>
+    <path d="M84 72 L92 72"/>
+  </g>
+
+  <!-- Violet build platform -->
+  <path d="M10 91            Q10 88 14 88            Q38 87 64 88            L114 88            Q118 88 118 92            L118 115            Q118 119 114 119            Q65 121 14 119            Q10 119 10 115Z" fill="url(#buildPlatform)" stroke="#6030B2" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Platform top marker highlight -->
+  <path d="M17 94 Q39 92 55 93" stroke="#D5BFFF" stroke-width="2.8" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M83 94 Q97 93 111 94" stroke="#D5BFFF" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+
+  <!-- First platform build block -->
+  <path d="M45 97            Q45 95 48 95            L60 95            Q63 95 63 98            L63 110            Q63 113 60 113            L48 113            Q45 113 45 110Z" fill="#B4EC36" stroke="#6AAB25" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Second platform build block -->
+  <path d="M70 97            Q70 95 73 95            L85 95            Q88 95 88 98            L88 110            Q88 113 85 113            L73 113            Q70 113 70 110Z" fill="#B4EC36" stroke="#6AAB25" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Lime block sketch highlights -->
+  <g stroke="#E3FA8E" stroke-width="2.4" stroke-linecap="round">
+    <path d="M49 101 L57 101"/>
+    <path d="M74 101 L82 101"/>
+  </g>
+
+  <!-- Subtle hand-drawn construction accents -->
+  <g stroke="#773ADC" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".65">
+    <path d="M20 77 L24 77"/>
+    <path d="M103 76 L108 76"/>
+    <path d="M17 124 Q29 126 39 124"/>
+    <path d="M93 124 Q103 126 112 123"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4BE46" stroke-width="2.8" stroke-linecap="round" fill="none">
+    <path d="M38 20 L33 15"/>
+    <path d="M44 13 L43 8"/>
+    <path d="M91 20 L96 15"/>
+    <path d="M95 28 L102 27"/>
+  </g>
+
+  <!-- Small build sparkle -->
+  <path d="M64 60 L64 65            M61.5 62.5 L66.5 62.5" stroke="#F4BE46" stroke-width="2.3" stroke-linecap="round"/>
+
+</svg>

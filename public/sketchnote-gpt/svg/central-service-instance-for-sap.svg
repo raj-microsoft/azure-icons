@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Central Service Instance For SAP (sketch)</title>
+
+  
+  <desc>
+    Azure-blue slanted SAP service panel containing a white
+    isometric compute cube surrounded by three cyan circulation
+    arrows. Uneven marker outlines, subtle sketch highlights,
+    restrained yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="sapPanel" x1="30" y1="27" x2="91" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn SAP service panel -->
+  <path d="M10 29            Q10 25 15 25            L115 25            Q122 25 118 31            L68 100            Q66 103 62 103            L14 103            Q10 103 10 99Z" fill="url(#sapPanel)" stroke="#164D81" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Marker-style panel highlights -->
+  <path d="M17 32            Q39 31 62 32" stroke="#5CB5ED" stroke-width="2.7" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M17 42 Q16 62 17 82" stroke="#52A9E1" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M75 93 L109 45" stroke="#248DD3" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Three-part circular service orchestration -->
+  <!-- Upper-right circulation arrow -->
+  <path d="M48 39            C66 35 81 47 83 62            C84 68 83 74 80 79" stroke="#00FFFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <path d="M79 67 L80 80 L92 76" stroke="#00FFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Bottom circulation arrow -->
+  <path d="M77 82            C66 96 48 97 35 87" stroke="#50E6FF" stroke-width="5.8" stroke-linecap="round" fill="none"/>
+
+  <path d="M37 98 L33 85 L46 88" stroke="#50E6FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Left circulation arrow -->
+  <path d="M29 81            C21 65 27 48 42 41" stroke="#00FFFF" stroke-width="5.8" stroke-linecap="round" fill="none"/>
+
+  <path d="M30 38 L44 39 L37 51" stroke="#00FFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Central isometric compute cube -->
+  <!-- Top face -->
+  <path d="M43 55            L57 47            L71 55            L57 63Z" fill="#FFFFFF" fill-opacity=".92" stroke="#D7F3FF" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Left face -->
+  <path d="M43 55            L57 63            L57 79            L43 71Z" fill="#FFFFFF" fill-opacity=".75" stroke="#D7F3FF" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Right face -->
+  <path d="M57 63            L71 55            L71 71            L57 79Z" fill="#FFFFFF" fill-opacity=".62" stroke="#D7F3FF" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn cube edge highlights -->
+  <path d="M48 54 L57 49 L66 54" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <path d="M57 66 L57 75" stroke="#B9E7FA" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Sketch-style motion marks -->
+  <g stroke="#B4F8FF" stroke-width="2.2" stroke-linecap="round" opacity=".85">
+    <path d="M62 37 L67 39"/>
+    <path d="M75 45 L79 49"/>
+    <path d="M25 57 L24 64"/>
+    <path d="M51 94 L58 95"/>
+  </g>
+
+  <!-- Azure-blue exterior sketch accents -->
+  <g stroke="#0078D4" stroke-width="2.3" stroke-linecap="round" fill="none" opacity=".75">
+    <path d="M5 40 Q3 49 5 58"/>
+    <path d="M26 109 Q42 111 55 109"/>
+    <path d="M111 58 L117 50"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4BE46" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M18 18 L14 12"/>
+    <path d="M28 16 L29 9"/>
+    <path d="M108 17 L113 11"/>
+    <path d="M117 20 L124 18"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M85 104 L85 112            M81 108 L89 108" stroke="#F4BE46" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

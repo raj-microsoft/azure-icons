@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Branch (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure-blue diamond containing a branching
+    directional arrow. Uneven marker outlines, pale cyan
+    arrows, subtle yellow highlights, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="branchBlue" x1="28" y1="19" x2="103" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".5" stop-color="#4093E6"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn diamond silhouette -->
+  <path d="M59 8            Q64 4 69 9            L119 59            Q124 64 119 69            L69 119            Q64 124 59 119            L9 69            Q4 64 9 59            Z" fill="url(#branchBlue)" stroke="#174E83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketchy interior border -->
+  <path d="M59 15 L64 12 L69 16            L112 59 Q116 64 112 69            L69 112 Q64 116 59 112            L16 69 Q12 64 16 59 Z" stroke="#A9D9FF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24 5 9 5" opacity=".55"/>
+
+  <!-- Main vertical branch stem -->
+  <path d="M57 26            Q57 24 60 24            L69 24            Q72 24 72 28            L72 80            Q72 83 75 83            L84 83            Q87 83 84 86            L66 105            Q64 108 61 105            L43 86            Q40 83 44 83            L54 83            Q57 83 57 80            Z" fill="#C3F1FF" stroke="#125B91" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Branch curving toward right -->
+  <path d="M72 48            Q82 61 99 58            Q102 58 102 55            L102 50            Q102 47 105 50            L119 62            Q122 64 119 67            L105 79            Q102 82 102 78            L102 74            Q102 71 99 71            Q83 72 72 64            Z" fill="#C3F1FF" stroke="#125B91" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Irregular pen details inside arrows -->
+  <path d="M62 31 Q61 47 62 65            M61 75 L61 86            M50 87 L63 100" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
+
+  <path d="M79 56 Q87 65 101 64            M108 61 L114 64" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Yellow sketch emphasis -->
+  <g stroke="#FFD45A" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M83 35 L88 30              M91 43 L98 40              M84 27 L85 21" stroke-width="3"/>
+
+    <path d="M27 82 L22 86              M35 89 L32 95" stroke-width="2.6"/>
+  </g>
+
+  <!-- Tiny hand-drawn motion strokes -->
+  <g stroke="#D7F5FF" stroke-linecap="round" opacity=".85">
+    <path d="M39 47 L45 47              M37 54 L43 54" stroke-width="2"/>
+
+    <path d="M85 92 L91 89              M81 98 L86 95" stroke-width="1.8"/>
+  </g>
+
+  <!-- Subtle marker edge accents -->
+  <path d="M22 53 L53 22            M75 114 L105 84" stroke="#8DD0FF" stroke-width="2.1" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M16 74 L54 112            M76 17 L111 52" stroke="#135B98" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+</svg>

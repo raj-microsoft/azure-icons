@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Defender Industrial Printer (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure industrial printer with a blue housing,
+    dark upper paper-feed panel, cyan output tray, and a
+    printed sheet. Original Azure-blue colours, uneven
+    marker outlines, restrained yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="printerBody" x1="16" y1="15" x2="111" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.65" stop-color="#4294E7"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="printerPaper" x1="62" y1="83" x2="62" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#C3F1FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper industrial printer feed -->
+  <path d="     M20 8     Q20 5 24 5     L104 5     Q108 5 108 9     L108 25     L20 25     Z" fill="#005BA1" stroke="#164E80" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Feed panel sketch highlight -->
+  <path d="M27 12 Q64 10 100 12" stroke="#58B5EA" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Main printer housing -->
+  <path d="     M12 15     Q7 15 7 21     L7 109     Q7 113 12 113     L116 113     Q121 113 121 109     L121 21     Q121 15 116 15     Z" fill="url(#printerBody)" stroke="#17558A" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven upper housing highlight -->
+  <path d="     M14 25     Q14 21 19 21     L109 21     Q114 21 114 26" stroke="#B9DCFF" stroke-width="2.6" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Hand-drawn housing side highlights -->
+  <path d="M14 34 Q13 62 14 85" stroke="#A4CFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M114 35 Q116 61 114 82" stroke="#2879BF" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Central printer panel -->
+  <path d="     M20 39     Q20 36 24 36     L104 36     Q108 36 108 39     L108 69     Q108 72 104 72     L24 72     Q20 72 20 69     Z" fill="#5EA0EF" fill-opacity="0.35" stroke="#347FB9" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Printer status indicator -->
+  <circle cx="102" cy="57" r="5.3" fill="#C3F1FF" stroke="#247EB4" stroke-width="2"/>
+
+  <circle cx="101" cy="56" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Lower Azure-blue panel -->
+  <path d="     M7 98     Q64 97 121 98     L121 113     L7 113     Z" fill="#0078D4" stroke="#17558A" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Paper output slot -->
+  <path d="     M22 79     Q22 76 26 76     L102 76     Q106 76 106 79     L106 89     Q106 92 102 92     L26 92     Q22 92 22 89     Z" fill="#83B9F9" stroke="#175E9B" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Slot inner shadow -->
+  <path d="M29 84 Q63 82 99 84" stroke="#005BA1" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Printed paper sheet -->
+  <path d="     M27 86     L100 86     L100 119     Q100 123 96 123     L31 123     Q27 123 27 119     Z" fill="url(#printerPaper)" stroke="#247EAE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Paper top edge -->
+  <path d="M32 91 Q63 90 95 91" stroke="#E7FAFF" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Handwritten-style printed document lines -->
+  <g stroke="#65BFE0" stroke-width="2.5" stroke-linecap="round" opacity="0.8">
+    <path d="M40 101 Q58 100 82 101"/>
+    <path d="M40 109 Q65 108 89 109"/>
+    <path d="M40 117 Q56 116 72 117"/>
+  </g>
+
+  <!-- Paper corner sketch highlight -->
+  <path d="M32 97 L32 115" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 42 L1 38"/>
+    <path d="M3 53 L0 53"/>
+    <path d="M124 37 L127 32"/>
+    <path d="M124 47 L127 47"/>
+    <path d="M108 119 L114 123"/>
+  </g>
+
+  <!-- Small marker-style motion accents -->
+  <path d="M43 82 Q51 80 58 82" stroke="#C3F1FF" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M71 82 Q79 80 87 82" stroke="#C3F1FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Sketch accent dots -->
+  <circle cx="115" cy="124" r="1.8" fill="#F4C542"/>
+  <circle cx="15" cy="120" r="2" fill="#50E6FF"/>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Data Catalog (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Data Catalog icon featuring a layered
+    gray catalog book and overlapping Azure-blue database
+    cylinder. Uneven marker outlines, cyan database highlights,
+    subtle yellow accents, and transparent background.
+    All elements are editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="catalogCover" x1="12" y1="14" x2="77" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B2B3"/>
+      <stop offset=".48" stop-color="#A9A9A9"/>
+      <stop offset="1" stop-color="#979797"/>
+    </linearGradient>
+
+    <linearGradient id="databaseBlue" x1="55" y1="88" x2="119" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".36" stop-color="#0071C8"/>
+      <stop offset=".55" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="databaseCyan" x1="65" y1="53" x2="110" y2="72" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Catalog book: layered back cover -->
+  <path d="     M 10 14     L 17 5     Q 19 3 23 3     L 84 3     Q 91 3 91 10     L 91 90     Q 91 93 88 96     L 81 102     L 10 102     Z" fill="#999999" stroke="#676767" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Visible white page layer -->
+  <path d="     M 15 15     L 21 9     Q 23 7 27 7     L 82 7     Q 86 7 86 12     L 86 88     L 78 96     L 15 96     Z" fill="#FFFFFF" stroke="#B5B5B5" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Book page edge -->
+  <path d="     M 19 13     L 80 13     L 80 89     L 74 95" stroke="#D5D5D5" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main gray catalog cover -->
+  <path d="     M 9 14     Q 9 12 13 12     L 77 12     Q 81 12 81 17     L 81 99     Q 81 102 77 102     L 12 102     Q 9 102 9 98     Z" fill="url(#catalogCover)" stroke="#696969" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Uneven marker edge highlight -->
+  <path d="     M 15 22     L 15 89     Q 15 95 21 96     M 22 17     L 68 17" stroke="#E1E1E1" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Subtle hand-drawn catalog details -->
+  <path d="     M 26 32     Q 42 30 60 32     M 26 43     Q 40 45 53 43     M 26 54     Q 37 52 46 54" stroke="#777777" stroke-width="3.2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Small catalog section marker -->
+  <path d="     M 23 25     L 23 17     L 32 17     L 32 25     L 28 22     Z" fill="#F3B82D" stroke="#B7871E" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Sketchy paper contour -->
+  <path d="     M 5 28     L 5 80     M 29 6     L 59 6     M 85 22     L 85 46" stroke="#777777" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="17 5 9 5" opacity=".5"/>
+
+  <!-- Database cylinder: main body -->
+  <path d="     M 56 62     C 56 55 70 50 88 50     C 106 50 120 55 120 62     L 120 114     C 120 122 106 125 88 125     C 70 125 56 121 56 114     Z" fill="url(#databaseBlue)" stroke="#064C87" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Database top lip -->
+  <path d="     M 56 62     C 56 54 70 49 88 49     C 106 49 120 54 120 62     C 120 70 106 74 88 74     C 70 74 56 70 56 62     Z" fill="#E8E8E8" stroke="#567A91" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Cyan inner database ellipse -->
+  <path d="     M 63 61     C 63 56 74 53 88 53     C 102 53 113 56 113 61     C 113 66 102 69 88 69     C 74 69 63 66 63 61     Z" fill="url(#databaseCyan)" stroke="#198AB3" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Central database ellipse shadow -->
+  <path d="     M 69 65     Q 88 59 107 65     Q 100 69 88 69     Q 76 69 69 65     Z" fill="#198AB3" opacity=".8"/>
+
+  <!-- Inner cylinder highlight -->
+  <path d="     M 63 79     L 63 108     Q 63 115 74 118" stroke="#6CC9FF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Curved cylinder base -->
+  <path d="     M 57 112     C 60 120 72 123 88 123     C 105 123 116 119 119 112" stroke="#004C8B" stroke-width="2.4" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Hand-drawn data rows -->
+  <path d="     M 68 85     Q 88 91 108 85     M 68 100     Q 88 106 108 100" stroke="#B1E7FF" stroke-width="2.7" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Short database marker strokes -->
+  <path d="     M 73 94     L 81 95     M 95 95     L 103 94     M 77 112     Q 88 115 99 112" stroke="#50E6FF" stroke-width="2.1" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Freehand outer database contour -->
+  <path d="     M 53 75     L 53 102     M 123 80     L 123 105     M 67 126     Q 85 131 104 126" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="15 5 7 5" opacity=".65"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="     M 111 35     L 111 43     M 107 39     L 115 39" stroke="#F3B82D" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Azure-blue annotation marks -->
+  <path d="     M 96 30     Q 102 34 103 40     M 99 27     L 103 29" stroke="#159DCE" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Tiny handwritten-style accents -->
+  <path d="     M 31 69     Q 38 66 46 69     M 31 77     L 43 77" stroke="#F3B82D" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+</svg>

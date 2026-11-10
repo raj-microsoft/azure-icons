@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Data Lake Storage Gen1 (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure Data Lake Storage Gen1 folder with its
+    distinctive stepped tab, cyan-blue gradient, and central
+    white lightning bolt. Uneven marker outlines, subtle
+    yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="lakeFolder" x1="63" y1="35" x2="67" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="0.46" stop-color="#2CC3E6"/>
+      <stop offset="0.75" stop-color="#25AFD4"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear folder and original stepped tab -->
+  <path d="     M10 30     Q10 27 14 27     L46 28     Q49 28 52 30     L66 40     L114 40     Q119 40 119 45     L119 105     L9 105     Z" fill="#005BA1" stroke="#164D79" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small original tab indicator -->
+  <path d="M21 35 L44 35" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M21 35 L27 35" stroke="#1AC3F2" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Main front folder with stepped upper edge -->
+  <path d="     M10 48     Q10 45 14 45     L49 45     Q51 45 54 43     L63 34     Q65 32 68 32     L114 32     Q119 32 119 37     L119 108     Q119 112 114 112     L14 112     Q9 112 9 108     L9 52     Q9 49 10 48     Z" fill="url(#lakeFolder)" stroke="#155A85" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Irregular hand-drawn folder highlight -->
+  <path d="     M16 54     Q16 51 21 51     L49 51     Q55 51 59 47     L66 39     Q68 37 72 37     L109 37" stroke="#B4F4FF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+
+  <!-- Loose marker strokes -->
+  <path d="M15 62 Q14 80 15 100" stroke="#8BE9F9" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+
+  <path d="M25 106 Q61 108 105 106" stroke="#0C83B2" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Central iconic lightning bolt -->
+  <path d="     M72 47     Q73 46 72 49     L65 69     L81 69     Q84 69 82 72     L56 100     Q53 103 54 99     L61 81     L47 81     Q44 81 46 78     L69 49     Q71 47 72 47     Z" fill="#FFFFFF" stroke="#126A9A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle inner marker detail -->
+  <path d="M67 58 L57 76" stroke="#B6EDFF" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M75 74 L63 88" stroke="#B6EDFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 52 L90 46"/>
+    <path d="M89 61 L98 59"/>
+    <path d="M83 94 L89 100"/>
+  </g>
+
+  <!-- Hand-drawn accent dots -->
+  <circle cx="98" cy="48" r="2.1" fill="#F4C542"/>
+  <circle cx="104" cy="54" r="1.4" fill="#F4C542"/>
+
+  <!-- Small sketch marks outside silhouette -->
+  <path d="M5 39 L8 36" stroke="#32D4F5" stroke-width="2.2" stroke-linecap="round"/>
+
+  <path d="M123 99 L125 96" stroke="#198AB3" stroke-width="2" stroke-linecap="round"/>
+</svg>

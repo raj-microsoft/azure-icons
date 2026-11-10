@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Sustainability (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure-blue cloud with an overlapping green
+    sustainability leaf. Original Azure blue and lime-green
+    colours, organic marker outlines, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="sustainCloud" x1="62" y1="9" x2="62" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="sustainLeaf" x1="60" y1="92" x2="123" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset="1" stop-color="#86D633"/>
+    </linearGradient>
+
+    <linearGradient id="leafShade" x1="67" y1="100" x2="114" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5E9624"/>
+      <stop offset="1" stop-color="#365615"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure cloud: organic marker silhouette -->
+  <path d="M32 91        C18 92 9 82 9 69        C9 56 18 47 31 45        C35 25 48 12 64 12        C82 12 96 25 99 45        C113 47 121 57 121 69        C121 82 112 91 98 92        Z" fill="url(#sustainCloud)" stroke="#174D78" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose cloud contour -->
+  <path d="M17 57        Q22 49 32 50        M38 39        Q45 19 62 18        M77 20        Q93 27 94 46        M109 51        Q116 57 116 67" stroke="#D8EEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Subtle cloud marker highlight -->
+  <path d="M17 72        Q19 81 27 85        M34 86        L45 86" stroke="#9DD8FF" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Green leaf: natural asymmetric silhouette -->
+  <path d="M61 122        C61 111 66 99 76 88        C87 76 100 69 116 69        C122 69 126 70 126 70        C128 73 121 82 119 92        C116 103 112 112 103 116        C95 120 86 118 79 113        C71 116 67 124 61 122Z" fill="url(#sustainLeaf)" stroke="#365615" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower leaf depth and organic shading -->
+  <path d="M61 122        C63 109 76 94 91 85        C103 77 115 74 122 73        C112 80 104 90 99 98        C94 106 91 111 79 113        C71 116 67 124 61 122Z" fill="url(#leafShade)" opacity=".5"/>
+
+  <!-- Sweeping central leaf vein -->
+  <path d="M62 120        C67 108 77 98 88 90        C99 82 109 78 117 76" stroke="#365615" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Short secondary leaf veins -->
+  <g stroke="#5E9624" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M77 99 Q76 91 81 85"/>
+    <path d="M88 90 Q88 83 94 78"/>
+    <path d="M99 83 Q102 80 105 77"/>
+    <path d="M78 99 Q87 102 93 101"/>
+    <path d="M90 89 Q101 93 108 90"/>
+  </g>
+
+  <!-- Leaf upper highlight -->
+  <path d="M88 82        Q102 73 116 73" stroke="#C6F27B" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Hand-drawn growth accent -->
+  <path d="M55 111        Q52 105 49 103        M51 114        L45 111" stroke="#76BC2D" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote emphasis -->
+  <g stroke="#F5C84C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M104 31 L109 26"/>
+    <path d="M111 39 L117 37"/>
+    <path d="M41 102 L37 107"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M24 27 L24 35        M20 31 L28 31" stroke="#F5C84C" stroke-width="2.3" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Hybrid Center (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Hybrid Center icon featuring a blue cloud
+    and overlapping three-dimensional cyan hybrid cube.
+    Organic marker outlines, original Azure colors,
+    restrained yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="hybridCloud" x1="65" y1="20" x2="65" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#268CE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure cloud silhouette -->
+  <path d="     M38 108     C22 110 11 99 11 85     C10 71 20 59 35 57     C40 37 54 25 72 25     C93 24 108 38 109 57     C123 60 128 72 126 85     C125 98 115 108 101 108     Z" fill="url(#hybridCloud)" stroke="#005BA1" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose cloud marker highlights -->
+  <path d="     M18 80     Q21 66 39 63     Q44 42 61 34     Q70 30 79 32" stroke="#B9EAFF" stroke-width="3" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <path d="     M88 34     Q104 44 104 61     M115 65     Q123 73 121 84" stroke="#D7F3FF" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".7"/>
+
+  <!-- Hand-drawn cloud detail strokes -->
+  <g stroke="#0078D4" stroke-linecap="round" fill="none">
+    <path d="M20 57 Q26 52 33 51" stroke-width="2.2"/>
+    <path d="M47 29 Q53 23 61 21" stroke-width="2"/>
+    <path d="M112 42 Q117 46 120 52" stroke-width="2.2"/>
+  </g>
+
+  <!-- Dark blue hybrid foundation -->
+  <path d="     M16 82     C16 62 30 51 46 51     C64 51 77 66 77 83     L77 108     L42 108     C26 108 16 97 16 82     Z" fill="#005BA1" stroke="#005BA1" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Subtle foundation marker contour -->
+  <path d="     M22 78     Q25 62 39 58     Q52 54 64 65" stroke="#50E6FF" stroke-width="2.3" stroke-linecap="round" fill="none" opacity=".65"/>
+
+  <!-- Cube top: original pale cyan -->
+  <path d="     M46 60     Q48 59 51 61     L69 71     Q72 73 69 75     L49 87     Q47 88 45 87     L25 75     Q22 73 25 71     Z" fill="#9CEBFF" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cube left face -->
+  <path d="     M25 74     L47 87     L47 111     Q47 114 44 112     L26 102     Q24 101 24 98     Z" fill="#50E6FF" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cube right face -->
+  <path d="     M47 87     L70 74     L70 98     Q70 101 67 103     L47 114     Z" fill="#32BEDD" stroke="#005BA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cube top sketch highlights -->
+  <path d="     M31 73     L47 64     L62 73" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Left face freehand highlight -->
+  <path d="     M30 82     Q29 91 30 97     L40 103" stroke="#C8F8FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Right face sketched shading -->
+  <path d="     M64 84     Q64 91 63 98     L53 104" stroke="#0078D4" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+
+  <!-- Cube construction markers -->
+  <g stroke="#005BA1" stroke-linecap="round" fill="none" opacity=".6">
+    <path d="M47 91 L47 103" stroke-width="1.5"/>
+    <path d="M35 67 L43 63" stroke-width="1.7"/>
+  </g>
+
+  <!-- Yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M18 48 L23 45" stroke-width="3"/>
+    <path d="M15 55 L21 54" stroke-width="2.7"/>
+    <path d="M26 42 L28 37" stroke-width="2.5"/>
+
+    <path d="M95 21 L98 16" stroke-width="2.8"/>
+    <path d="M102 25 L108 23" stroke-width="2.5"/>
+
+    <path d="M80 116 Q88 119 96 116" stroke-width="2.7"/>
+  </g>
+
+  <!-- Freehand movement marks -->
+  <g stroke="#50E6FF" stroke-linecap="round" fill="none">
+    <path d="M83 72 Q88 69 93 71" stroke-width="2" stroke-dasharray="3 5"/>
+    <path d="M88 81 Q94 79 99 81" stroke-width="1.8" stroke-dasharray="3 5"/>
+  </g>
+
+  <!-- Subtle marker dots -->
+  <circle cx="33" cy="26" r="2.2" fill="#50E6FF"/>
+  <circle cx="39" cy="21" r="1.5" fill="#0078D4"/>
+  <circle cx="114" cy="112" r="2" fill="#F4C542"/>
+
+</svg>

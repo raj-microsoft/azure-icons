@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Anomaly Detector (sketch)</title>
+  
+  <desc>Hand-drawn Azure Anomaly Detector icon featuring a blue magnifying glass, cyan anomaly waveform, and orange detection crosshair with marker-style outlines and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="lensBlue" x1="20" y1="12" x2="105" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="waveCyan" x1="22" y1="49" x2="101" y2="81" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#16B8E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Magnifying glass handle -->
+  <path d="M82 80            L116 112            Q121 117 116 122            Q112 126 107 121            L75 88Z" fill="url(#lensBlue)" stroke="#155EA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Handle highlight -->
+  <path d="M91 92            Q102 103 112 113" stroke="#BCE8FF" stroke-width="2.8" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Outer magnifying-glass ring -->
+  <path d="M54 12            C77 11 98 28 101 51            C105 75 88 96 65 100            C41 104 20 89 15 66            C10 42 25 20 47 14            Q51 13 54 12Z" fill="url(#lensBlue)" stroke="#174F85" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White inner lens -->
+  <path d="M55 24            C75 23 89 38 90 56            C91 74 77 88 59 89            C40 90 26 77 25 59            C24 40 37 26 55 24Z" fill="#FFFFFF" stroke="#174F85" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lens reflection -->
+  <path d="M35 38            Q43 29 55 29" stroke="#BBDFF8" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Cyan anomaly waveform -->
+  <path d="M27 59            L42 59            L50 75            L60 43            L72 80            L82 57            L89 68" stroke="url(#waveCyan)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Waveform hand-drawn fine accent -->
+  <path d="M29 54            L39 54            M62 39            L65 34" stroke="#50E6FF" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Orange anomaly detection crosshair -->
+  <path d="M51 17            L51 34            M51 84            L51 101            M13 59            L31 59            M80 59            L98 59" stroke="#FAA21D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Orange detection ring -->
+  <path d="M51 34            C65 34 76 45 76 59            C76 73 65 84 51 84            C37 84 27 73 27 59            C27 45 37 34 51 34Z" stroke="#FAA21D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Detection ring marker highlight -->
+  <path d="M37 40            Q43 35 49 35            M70 70            Q66 78 57 81" stroke="#FFD36A" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Small yellow sketchnote sparkle -->
+  <path d="M108 19            L108 29            M103 24            L113 24" stroke="#FFD34E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Hand-drawn analysis emphasis -->
+  <path d="M106 38            Q112 43 114 50            M109 57            L115 60" stroke="#4894FE" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Small handwritten-style motion marks -->
+  <path d="M13 99            Q20 105 28 107            M20 113            L27 115" stroke="#FFD34E" stroke-width="3" stroke-linecap="round"/>
+
+</svg>

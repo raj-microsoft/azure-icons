@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Disks (Classic) (sketch)</title>
+
+  
+  <desc>
+    Two vertically stacked classic Azure storage disks.
+    The upper disk is Azure blue and the lower disk is green,
+    each with an elliptical surface, central hub, and visible
+    cylindrical edge. Uneven hand-drawn marker outlines,
+    restrained yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="classicBlue" x1="22" y1="18" x2="106" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset=".4" stop-color="#5EA0EF"/>
+      <stop offset=".7" stop-color="#4C98EA"/>
+      <stop offset="1" stop-color="#127FD9"/>
+    </linearGradient>
+
+    <linearGradient id="classicBlueEdge" x1="20" y1="43" x2="108" y2="67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset=".55" stop-color="#2588DF"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="classicGreen" x1="22" y1="81" x2="106" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset=".55" stop-color="#76BC2D"/>
+      <stop offset="1" stop-color="#69A828"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Lower classic disk: cylindrical body -->
+  <path d="     M12 89     C12 76 35 69 64 69     C92 69 116 77 116 89     L116 103     C115 115 92 123 64 123     C36 123 13 115 12 103     Z" fill="#5E9624" stroke="#477B1B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower green disk top -->
+  <path d="     M12 89     C12 76 35 69 64 69     C92 69 116 77 116 89     C116 102 92 110 64 110     C36 110 12 102 12 89     Z" fill="url(#classicGreen)" stroke="#4F8F1D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Green disk center -->
+  <path d="     M47 89     C47 86 54 84 64 84     C74 84 81 86 81 89     C81 92 74 94 64 94     C54 94 47 92 47 89     Z" fill="#5E9624" stroke="#477B1B" stroke-width="1.8"/>
+
+  <!-- Green disk highlight -->
+  <path d="     M23 87     Q29 81 41 79     M20 99     Q28 105 40 107" stroke="#B4EC36" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Green cylindrical edge highlight -->
+  <path d="     M19 106     Q35 117 63 117     Q91 117 109 106" stroke="#86D633" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Upper classic disk: cylindrical body -->
+  <path d="     M12 40     C12 27 35 19 64 19     C92 19 116 27 116 40     L116 54     C115 67 92 74 64 74     C36 74 13 67 12 54     Z" fill="url(#classicBlueEdge)" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper Azure-blue disk surface -->
+  <path d="     M12 40     C12 27 35 19 64 19     C92 19 116 27 116 40     C116 53 92 61 64 61     C36 61 12 53 12 40     Z" fill="url(#classicBlue)" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper disk central hub -->
+  <path d="     M47 40     C47 37 54 35 64 35     C74 35 81 37 81 40     C81 43 74 45 64 45     C54 45 47 43 47 40     Z" fill="#005BA1" stroke="#004A87" stroke-width="1.8"/>
+
+  <!-- Blue disk hand-drawn highlights -->
+  <path d="     M24 36     Q31 30 43 28     M88 29     Q102 32 108 38" stroke="#C3F1FF" stroke-width="2.8" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Azure disk cylindrical rim -->
+  <path d="     M19 53     Q34 65 64 66     Q94 65 109 53" stroke="#5EA0EF" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn marker strokes -->
+  <path d="     M26 62 L32 65     M95 64 L102 61     M27 114 L34 117" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Restrained yellow sketch accents -->
+  <path d="     M110 17 L115 12     M117 24 L123 22     M119 32 L125 35" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small Azure sketchnote marks -->
+  <path d="     M7 78 L3 82     M7 86 L2 87" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Bottom hand-drawn baseline -->
+  <path d="     M28 125     Q64 127 100 125" stroke="#A19F9D" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 5" opacity=".65"/>
+
+</svg>

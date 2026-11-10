@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Support Center Blue (sketch)</title>
+  
+  <desc>Hand-drawn three-dimensional Azure Support Center puzzle cube with a violet top, Azure-blue side panels, interlocking puzzle tabs, irregular marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="supportPurple" x1="64" y1="7" x2="64" y2="67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="supportLeft" x1="15" y1="44" x2="69" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="supportRight" x1="76" y1="48" x2="114" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left face: blue puzzle panel -->
+  <path d="M12 38            L30 49            C25 51 23 55 24 60            C25 66 32 69 37 66            C40 64 42 61 42 57            L59 67            L59 87            C62 84 66 83 70 85            C75 87 77 93 74 98            C71 103 65 104 60 101            L60 121            Q60 125 56 123            L13 98            Q10 97 10 93            L10 41            Q10 37 12 38Z" fill="url(#supportLeft)" stroke="#175E9D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Right face: complementary puzzle panel -->
+  <path d="M68 67            L85 57            C82 54 81 50 83 46            C86 41 93 40 97 44            C100 47 101 50 100 53            L114 44            Q118 42 118 47            L118 94            Q118 98 115 100            L69 125            Q65 127 65 122            L65 101            C70 104 76 102 79 98            C82 93 80 87 75 85            C71 83 68 84 65 87            L65 72            Q65 69 68 67Z" fill="url(#supportRight)" stroke="#175E9D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Purple top with interlocking puzzle-piece detail -->
+  <path d="M13 32            L59 6            Q64 3 69 6            L115 32            Q118 34 114 37            L98 46            C97 42 94 39 90 39            C84 38 80 43 80 48            C80 52 82 55 85 57            L67 67            Q64 69 61 67            L43 56            C46 53 47 49 45 45            C43 40 37 38 32 41            C28 43 27 46 28 49            L13 40            Q8 36 13 32Z" fill="url(#supportPurple)" stroke="#6532B1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top marker highlight -->
+  <path d="M22 33            L60 12            Q64 10 69 13" stroke="#D9C5FF" stroke-width="2.6" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Top facet sketch -->
+  <path d="M53 29            Q64 22 76 29" stroke="#CBAAFB" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Hand-drawn cube spine -->
+  <path d="M64 70            Q63 78 64 85" stroke="#D9F3FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Left face marker accents -->
+  <path d="M17 48            L17 89            Q17 93 23 96" stroke="#B6E2FF" stroke-width="2.8" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M27 81            Q36 88 44 92" stroke="#D6F1FF" stroke-width="2.3" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Right face marker accents -->
+  <path d="M110 65            L110 90            Q110 93 106 95" stroke="#B8E7FF" stroke-width="2.7" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M87 108            L102 99" stroke="#D9F4FF" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M104 13 L107 5            M113 19 L122 15            M111 9 L116 3" stroke="#F5C84C" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn emphasis strokes -->
+  <path d="M5 66 L2 61            M5 75 L1 75" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Tiny marker underline -->
+  <path d="M25 112            Q37 120 49 124" stroke="#F5C84C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M44 119            L50 124            L42 125" stroke="#F5C84C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

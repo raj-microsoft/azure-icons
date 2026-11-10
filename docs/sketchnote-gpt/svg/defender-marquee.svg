@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Defender Marquee (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure-blue rectangular marquee featuring
+    bold white PLC lettering. Preserves the original
+    industrial controller symbolism, horizontal silhouette,
+    blue gradient, and angular technical typography.
+    Uneven marker outlines, subtle yellow sketch accents,
+    editable vector paths, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="marqueeBlue" x1="9" y1="64" x2="119" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset="0.36" stop-color="#0071C8"/>
+      <stop offset="0.52" stop-color="#0078D4"/>
+      <stop offset="0.82" stop-color="#006ABB"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main rectangular marquee -->
+  <path d="     M10 29     Q9 27 13 27     L115 28     Q119 28 119 32     L119 96     Q119 100 115 100     L13 100     Q9 100 9 96     Z" fill="url(#marqueeBlue)" stroke="#164F80" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Imperfect hand-drawn inner border -->
+  <path d="     M15 35     Q15 33 19 33     L109 34     Q113 34 113 38     L113 90     Q113 94 109 94     L19 94     Q15 94 15 90     Z" stroke="#80C7F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+
+  <!-- Marker highlight across upper edge -->
+  <path d="M21 31 Q63 30 105 32" stroke="#B6E1FF" stroke-width="2.1" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- P: angular industrial lettering -->
+  <path d="     M23 48     L43 48     L47 52     L44 67     L40 71     L26 71     L23 87     L17 87     L23 68     L20 65     Z      M28 54     L26 65     L39 65     L41 54     Z" fill="#FFFFFF" fill-rule="evenodd" stroke="#D9EDFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- L: angular industrial lettering -->
+  <path d="     M51 48     L57 48     L51 81     L69 81     L68 87     L44 87     L42 84     L48 68     L46 65     Z" fill="#FFFFFF" stroke="#D9EDFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- C: angular industrial lettering -->
+  <path d="     M78 48     L101 48     L104 52     L101 59     L95 59     L96 54     L81 54     L76 81     L91 81     L92 76     L98 76     L96 84     L92 87     L70 87     L68 84     L74 68     L72 65     L75 51     Z" fill="#FFFFFF" stroke="#D9EDFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Angular letter marker accents -->
+  <g stroke="#BBDFFF" stroke-width="1.6" stroke-linecap="round" opacity="0.85">
+    <path d="M25 51 L39 51"/>
+    <path d="M51 53 L48 63"/>
+    <path d="M80 51 L97 51"/>
+    <path d="M73 80 L75 72"/>
+  </g>
+
+  <!-- Hand-drawn lower border highlight -->
+  <path d="M21 97 Q63 98 108 97" stroke="#005BA1" stroke-width="2.3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 20 L9 25"/>
+    <path d="M16 15 L19 22"/>
+    <path d="M122 20 L126 15"/>
+    <path d="M123 105 L127 110"/>
+    <path d="M112 108 L115 115"/>
+  </g>
+
+  <!-- Small marker-style sketch details -->
+  <path d="M4 44 L4 54" stroke="#50E6FF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <path d="M124 76 L124 84" stroke="#50E6FF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Sketch accent dots -->
+  <circle cx="24" cy="19" r="1.8" fill="#F4C542"/>
+  <circle cx="116" cy="18" r="1.6" fill="#F4C542"/>
+  <circle cx="104" cy="113" r="2" fill="#50E6FF"/>
+</svg>

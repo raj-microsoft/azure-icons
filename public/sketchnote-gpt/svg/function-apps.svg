@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Function Apps (sketch)</title>
+  
+  <desc>Sketch-style Azure Function Apps icon with blue code brackets and a golden lightning bolt.</desc>
+
+  <defs>
+    <linearGradient id="boltGold" x1="49" y1="13" x2="83" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".48" stop-color="#FFC314"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left hand-drawn code bracket -->
+  <path d="M35 29            Q33 27 30 30            L11 52            Q8 56 12 60            L31 80            Q34 83 37 79            L40 75            Q41 73 39 71            L23 55            L40 38            Q42 36 39 33 Z" fill="#1490DF" stroke="#12649C" stroke-width="2.8"/>
+
+  <!-- Left bracket cyan highlight -->
+  <path d="M13 54            Q11 56 14 59            L32 78" stroke="#50E6FF" stroke-width="5.5"/>
+  <path d="M17 51 L35 32" stroke="#50E6FF" stroke-width="2.6"/>
+
+  <!-- Right hand-drawn code bracket -->
+  <path d="M93 29            Q96 27 99 30            L117 52            Q121 56 117 60            L97 81            Q94 84 91 80            L88 76            Q86 74 89 71            L105 55            L88 38            Q86 36 89 33 Z" fill="#1490DF" stroke="#12649C" stroke-width="2.8"/>
+
+  <!-- Right bracket cyan highlight -->
+  <path d="M114 53            Q117 56 114 59            L96 78" stroke="#50E6FF" stroke-width="5.5"/>
+  <path d="M110 49 L93 32" stroke="#50E6FF" stroke-width="2.6"/>
+
+  <!-- Central lightning bolt: intentionally uneven silhouette -->
+  <path d="M67 9            Q68 8 71 9            L94 10            Q97 11 95 15            L64 58            L89 58            Q94 58 91 63            L35 119            Q31 122 33 115            L48 73            L29 73            Q25 73 28 68            L65 12 Z" fill="url(#boltGold)" stroke="#A96813" stroke-width="3.2"/>
+
+  <!-- Warm marker accent inside lightning -->
+  <path d="M69 18            L84 18            L54 65            L79 65            L44 102" stroke="#FFF1A3" stroke-width="4" opacity=".85"/>
+
+  <!-- Sketchy lightning edge accents -->
+  <path d="M63 15 L34 67" stroke="#E98D16" stroke-width="1.5"/>
+  <path d="M86 68 L42 111" stroke="#E98D16" stroke-width="1.8"/>
+  <path d="M50 78 L40 107" stroke="#C77C16" stroke-width="1.5"/>
+
+  <!-- Small hand-drawn energy marks -->
+  <path d="M52 13 L48 7 M43 20 L36 17" stroke="#FEA11B" stroke-width="2.5"/>
+  <path d="M99 87 L107 91 M96 94 L101 101" stroke="#1490DF" stroke-width="2.4"/>
+
+  <!-- Loose marker flourishes -->
+  <path d="M18 87 Q20 91 25 92" stroke="#50E6FF" stroke-width="2"/>
+  <path d="M106 19 Q110 21 112 26" stroke="#50E6FF" stroke-width="2"/>
+
+  <!-- Tiny sketchnote spark -->
+  <path d="M111 106 L111 114            M107 110 L115 110" stroke="#FEA11B" stroke-width="2.2"/>
+</svg>

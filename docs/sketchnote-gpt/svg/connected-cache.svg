@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Connected Cache (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Connected Cache icon featuring a blue cloud,
+    stacked cyan-and-blue cache disks, and a curved synchronization
+    arrow. Uneven marker outlines, original Azure colours,
+    restrained yellow accents, and transparent background.
+    Fully editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="12" y1="17" x2="80" y2="79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="diskBlue" x1="65" y1="55" x2="113" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn cloud silhouette -->
+  <path d="M30 76            C17 77 9 68 10 56            C10 44 19 36 31 35            C35 20 47 13 60 15            C74 16 82 26 82 39            C93 40 101 49 101 60            C101 70 94 77 83 77            Z" fill="url(#cloudBlue)" stroke="#005BA1" stroke-width="3.8"/>
+
+  <!-- Cloud highlight -->
+  <path d="M19 55            Q20 44 35 43            Q41 22 59 23" stroke="#9CEBFF" stroke-width="3" opacity=".9"/>
+
+  <!-- Subtle marker contour -->
+  <path d="M14 61            Q15 72 30 73            M66 20            Q77 25 77 39" stroke="#50E6FF" stroke-width="2" opacity=".75"/>
+
+  <!-- Rear cache cylinder: top -->
+  <path d="M62 57            C62 51 74 47 91 47            C108 47 120 51 120 57            C120 63 108 67 91 67            C74 67 62 63 62 57            Z" fill="#9CEBFF" stroke="#0078D4" stroke-width="3.4"/>
+
+  <!-- Upper cache cylinder body -->
+  <path d="M62 57            C62 63 74 67 91 67            C108 67 120 63 120 57            L120 75            C120 81 108 85 91 85            C74 85 62 81 62 75            Z" fill="url(#diskBlue)" stroke="#005BA1" stroke-width="3.2"/>
+
+  <!-- Upper cylinder curved baseline -->
+  <path d="M64 74            C74 84 108 84 118 74" stroke="#9CEBFF" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Lower cache cylinder body -->
+  <path d="M62 85            C62 91 74 95 91 95            C108 95 120 91 120 85            L120 103            C120 110 108 114 91 114            C74 114 62 110 62 103            Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.4"/>
+
+  <!-- Middle cache disk rim -->
+  <path d="M62 85            C62 79 74 75 91 75            C108 75 120 79 120 85            C120 91 108 95 91 95            C74 95 62 91 62 85            Z" fill="#32BEDD" stroke="#0078D4" stroke-width="3.2"/>
+
+  <!-- Lower cylinder highlight -->
+  <path d="M66 103            Q76 111 94 110" stroke="#50E6FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Small hand-drawn cache indicator dots -->
+  <path d="M105 102            a2 2 0 1 0 4 0            a2 2 0 1 0 -4 0" fill="#9CEBFF"/>
+
+  <path d="M112 100            a1.8 1.8 0 1 0 3.6 0            a1.8 1.8 0 1 0 -3.6 0" fill="#FFD400"/>
+
+  <!-- Curved cloud-to-cache connection arrow -->
+  <path d="M40 58            C39 78 48 94 67 96            C73 97 78 96 83 94" stroke="#FFFFFF" stroke-width="9" opacity=".95"/>
+
+  <path d="M40 58            C39 78 48 94 67 96            C73 97 78 96 83 94" stroke="#5EA0EF" stroke-width="3.2" stroke-dasharray="5 3"/>
+
+  <!-- Bold white directional arrowhead -->
+  <path d="M75 85            L87 94            L76 105            L76 98            Q67 99 61 96            L61 91            Q69 94 76 92            Z" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Hand-drawn movement strokes -->
+  <path d="M34 82            Q39 94 49 100            M46 106            Q55 113 64 114" stroke="#5EA0EF" stroke-width="2" stroke-dasharray="4 5" opacity=".8"/>
+
+  <!-- Restrained yellow sketchnote highlights -->
+  <g stroke="#FFD400" stroke-width="3">
+    <path d="M18 22 L24 27"/>
+    <path d="M30 14 L33 22"/>
+    <path d="M111 34 L106 40"/>
+  </g>
+
+  <!-- Tiny sketched connectivity sparkle -->
+  <g stroke="#FFD400" stroke-width="2.4">
+    <path d="M48 109 L48 119"/>
+    <path d="M43 114 L53 114"/>
+  </g>
+
+  <!-- Tiny cyan handwritten-style accent -->
+  <path d="M103 44            Q109 42 115 45" stroke="#50E6FF" stroke-width="2.2"/>
+
+</svg>

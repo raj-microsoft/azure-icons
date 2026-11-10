@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>DDoS Protection Plans (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue protective shield containing a grey server with two dark-blue status bars and cyan lights.</desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="64" y1="9" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset=".18" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="serverGrey" x1="44" y1="26" x2="84" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D8DEE5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Protective shield: uneven marker silhouette -->
+  <path d="M64 8            C75 8 77 19 91 20            L111 22            Q116 22 116 28            L116 60            C117 84 95 105 67 121            Q64 123 61 121            C33 105 11 85 12 60            L12 28            Q12 22 17 22            L37 20            C51 19 53 8 64 8 Z" fill="#0078D4" stroke="#164F84" stroke-width="3.8"/>
+
+  <!-- Inner Azure shield -->
+  <path d="M64 14            C74 14 78 25 91 26            L109 27            L109 60            C110 81 90 100 64 115            C38 100 18 81 19 60            L19 27            L37 26            C50 25 54 14 64 14 Z" fill="url(#shieldBlue)" stroke="#A7D8FF" stroke-width="2.5"/>
+
+  <!-- Hand-drawn shield highlight -->
+  <path d="M26 36            L26 59            Q26 78 42 93" stroke="#C9EBFF" stroke-width="3" opacity=".75"/>
+
+  <path d="M84 27 Q94 32 103 32" stroke="#D9F0FF" stroke-width="2" opacity=".7"/>
+
+  <!-- Central protected server -->
+  <path d="M47 27            Q47 24 51 24            L79 25            Q83 25 83 29            L84 88            Q84 92 80 92            L49 92            Q45 92 45 88            L46 30            Q46 28 47 27 Z" fill="url(#serverGrey)" stroke="#34516A" stroke-width="3.5"/>
+
+  <!-- Server top marker highlight -->
+  <path d="M51 30 L76 30" stroke="#FFFFFF" stroke-width="2.5" opacity=".9"/>
+
+  <!-- First server status bar -->
+  <path d="M52 36            Q52 34 55 34            L74 34            Q77 34 77 37            L77 43            Q77 46 74 46            L55 46            Q52 46 52 43 Z" fill="#003067" stroke="#224B70" stroke-width="2"/>
+
+  <!-- First cyan status light -->
+  <path d="M60 40            A3.2 3.2 0 1 1 53.6 40            A3.2 3.2 0 1 1 60 40 Z" fill="#50E6FF"/>
+
+  <!-- Second server status bar -->
+  <path d="M52 53            Q52 51 55 51            L74 51            Q77 51 77 54            L77 60            Q77 63 74 63            L55 63            Q52 63 52 60 Z" fill="#003067" stroke="#224B70" stroke-width="2"/>
+
+  <!-- Second cyan status light -->
+  <circle cx="56.8" cy="57" r="3.2" fill="#50E6FF"/>
+
+  <!-- Small server hardware details -->
+  <path d="M54 72 Q64 71 75 72            M54 78 Q64 79 75 78" stroke="#8195A6" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Subtle protection marker strokes -->
+  <path d="M31 47 L36 52 L43 43" stroke="#D4F2FF" stroke-width="3" opacity=".85"/>
+
+  <!-- Small sketchnote accent marks -->
+  <path d="M91 43 L96 38            M94 51 L101 49            M92 60 L99 63" stroke="#FFCC4D" stroke-width="2.8"/>
+
+  <!-- Shield lower contour sketch -->
+  <path d="M43 99 Q53 108 64 114" stroke="#C5E6FF" stroke-width="2.5" opacity=".7"/>
+
+  <!-- Hand-drawn sparkle -->
+  <path d="M102 15 L102 9            M98 18 L93 16            M106 18 L111 15" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Small exterior marker flourish -->
+  <path d="M7 72 Q5 78 9 83" stroke="#32BEDD" stroke-width="2.5"/>
+</svg>

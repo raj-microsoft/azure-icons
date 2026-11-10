@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Managed Redis (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Managed Redis microchip with a grey
+    processor frame, Azure-blue central tile, and white
+    stylized Redis R. Uneven marker outlines, subtle yellow
+    highlights, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="chipGrey" x1="17" y1="16" x2="112" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B0B0B0"/>
+      <stop offset="1" stop-color="#757575"/>
+    </linearGradient>
+
+    <linearGradient id="redisBlue" x1="35" y1="31" x2="96" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top processor pins -->
+  <g fill="#929292" stroke="#626262" stroke-width="2.1" stroke-linejoin="round">
+    <path d="M35 24L35 11Q35 8 38 8L41 9L41 24Z"/>
+    <path d="M55 24L55 9Q55 7 58 8L61 9L61 24Z"/>
+    <path d="M75 24L75 9Q75 7 78 8L81 9L81 24Z"/>
+    <path d="M95 24L95 11Q95 8 98 9L101 10L101 24Z"/>
+  </g>
+
+  <!-- Bottom processor pins -->
+  <g fill="#858585" stroke="#626262" stroke-width="2.1" stroke-linejoin="round">
+    <path d="M35 104L35 118Q35 121 38 121L41 120L41 104Z"/>
+    <path d="M55 104L55 119Q55 122 58 121L61 120L61 104Z"/>
+    <path d="M75 104L75 119Q75 122 78 121L81 120L81 104Z"/>
+    <path d="M95 104L95 118Q95 121 98 120L101 119L101 104Z"/>
+  </g>
+
+  <!-- Left processor pins -->
+  <g fill="#929292" stroke="#626262" stroke-width="2.1" stroke-linejoin="round">
+    <path d="M24 35L11 35Q8 35 9 38L10 41L24 41Z"/>
+    <path d="M24 55L9 55Q7 55 8 58L9 61L24 61Z"/>
+    <path d="M24 75L9 75Q7 75 8 78L9 81L24 81Z"/>
+    <path d="M24 95L11 95Q8 95 9 98L10 101L24 101Z"/>
+  </g>
+
+  <!-- Right processor pins -->
+  <g fill="#858585" stroke="#626262" stroke-width="2.1" stroke-linejoin="round">
+    <path d="M104 35L118 35Q121 35 120 38L119 41L104 41Z"/>
+    <path d="M104 55L119 55Q122 55 121 58L120 61L104 61Z"/>
+    <path d="M104 75L119 75Q122 75 121 78L120 81L104 81Z"/>
+    <path d="M104 95L118 95Q121 95 120 98L119 101L104 101Z"/>
+  </g>
+
+  <!-- Main microchip frame -->
+  <path d="M24 20            Q24 17 29 17            L100 18            Q108 18 109 25            L109 102            Q108 109 101 109            L27 109            Q19 108 19 101            L19 27            Q19 22 24 20Z" fill="url(#chipGrey)" stroke="#646464" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn inner frame -->
+  <path d="M31 27            Q29 28 29 32            L29 96            Q29 100 34 100            L96 100            Q100 100 100 96            L100 32            Q100 28 96 28            Z" fill="#D5D5D5" stroke="#737373" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Azure-blue processor tile -->
+  <path d="M36 33            Q36 31 40 31            L91 32            Q96 32 96 37            L96 91            Q96 96 91 96            L40 96            Q35 96 35 91            L35 38            Q35 35 36 33Z" fill="url(#redisBlue)" stroke="#064A7C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketchy inner tile highlight -->
+  <path d="M40 43L40 38Q40 36 44 36L83 36" stroke="#6BB9F2" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Stylized Redis R: upper flourish -->
+  <path d="M44 53            C55 46 67 43 77 44            C86 45 90 50 88 58            C86 66 77 72 68 72            C61 72 57 69 55 64            C56 74 63 78 72 77            C82 76 88 71 92 64" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Redis R: expressive diagonal stem -->
+  <path d="M46 82            C53 73 60 65 66 57            L76 46" stroke="#FFFFFF" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Redis R: flowing lower stroke -->
+  <path d="M62 66            C62 77 66 84 74 84            C82 84 89 78 92 70" stroke="#FFFFFF" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small white marker detail -->
+  <path d="M73 50            C77 50 80 52 80 55            C80 59 76 62 72 62" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- Tiny processor surface details -->
+  <g stroke="#E6E6E6" stroke-width="1.7" stroke-linecap="round" opacity="0.8">
+    <path d="M25 31L25 43"/>
+    <path d="M103 83L103 96"/>
+    <path d="M44 103L57 103"/>
+    <path d="M77 23L92 23"/>
+  </g>
+
+  <!-- Yellow hand-drawn sketchnote accents -->
+  <g stroke="#F4B400" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M113 19L118 14"/>
+    <path d="M117 27L124 25"/>
+    <path d="M11 111L6 116"/>
+    <path d="M17 116L15 123"/>
+  </g>
+
+  <!-- Small Azure-blue emphasis marks -->
+  <g stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" opacity="0.75">
+    <path d="M11 19L6 15"/>
+    <path d="M17 15L16 9"/>
+  </g>
+
+</svg>

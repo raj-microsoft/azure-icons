@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Bonsai (sketch)</title>
+
+  
+  <desc>
+    Stylized Azure Bonsai tree with a twisting dark plum trunk,
+    angular green foliage, delicate branch details and a shallow
+    ceramic bonsai pot. Hand-drawn marker outlines with subtle
+    Azure-blue and yellow accents. Transparent background.
+  </desc>
+
+  <!-- Left foliage cluster -->
+  <path d="M12 48 L12 39 L19 39 L19 31            L28 31 L28 22 L39 22 L39 16            L54 16 L54 22 L63 22 L63 31            L57 31 L57 39 L65 39 L65 47            L54 47 L54 53 L41 53 L41 59            L29 59 L29 55 L19 55 L19 62            L11 62 L11 55 L7 55 L7 48Z" fill="#52A646" stroke="#32783C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper central foliage -->
+  <path d="M46 17 L46 9 L62 9 L62 14            L72 14 L72 23 L81 23 L81 18            L94 18 L94 27 L103 27            L103 34 L111 34 L111 43            L105 43 L105 51 L95 51            L95 57 L83 57 L83 49            L75 49 L75 57 L65 57            L65 47 L57 47 L57 39            L48 39 L48 31 L41 31            L41 23 L46 23Z" fill="#60B451" stroke="#32783C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Right extended foliage -->
+  <path d="M96 44 L106 44 L106 38            L115 38 L115 46 L121 46            L121 57 L125 57 L125 68            L119 68 L119 78 L112 78            L112 84 L121 84 L121 92            L111 92 L111 88 L102 88            L102 80 L94 80 L94 72            L88 72 L88 63 L96 63Z" fill="#52A646" stroke="#32783C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Lower left foliage -->
+  <path d="M9 60 L18 60 L18 55 L27 55            L27 61 L37 61 L37 55            L48 55 L48 62 L54 62            L54 70 L46 70 L46 76            L36 76 L36 82 L26 82            L26 77 L16 77 L16 82            L9 82 L9 74 L5 74 L5 65            L9 65Z" fill="#52A646" stroke="#32783C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Leaf highlight strokes -->
+  <g stroke="#9DD37B" stroke-width="2.5" stroke-linecap="round" opacity=".85">
+    <path d="M20 44 L20 36 L29 36"/>
+    <path d="M36 27 L45 27"/>
+    <path d="M54 20 L65 20"/>
+    <path d="M75 31 L85 31 L85 38"/>
+    <path d="M99 37 L105 37"/>
+    <path d="M106 56 L115 56"/>
+    <path d="M103 68 L113 68"/>
+    <path d="M17 68 L27 68"/>
+    <path d="M36 65 L43 65"/>
+  </g>
+
+  <!-- Small angular foliage gaps -->
+  <g stroke="#32783C" stroke-width="2" stroke-linecap="round" opacity=".7">
+    <path d="M34 39 L34 45 L41 45"/>
+    <path d="M54 35 L60 35"/>
+    <path d="M74 41 L81 41"/>
+    <path d="M94 53 L101 53"/>
+    <path d="M112 73 L117 73"/>
+    <path d="M24 74 L30 74"/>
+  </g>
+
+  <!-- Main twisting bonsai trunk -->
+  <path d="M55 112            C62 107 73 103 72 94            C71 85 56 77 50 70            C43 61 49 55 58 49            C65 44 67 40 65 35            C73 41 73 48 67 54            C60 61 57 65 66 72            C75 78 91 82 96 92            C101 101 88 108 80 112            L94 112            C104 104 108 96 100 87            C92 77 77 75 70 68            C64 62 72 56 78 52            C83 48 83 43 79 39            C91 43 91 54 83 61            C80 64 80 67 86 70            C101 77 110 83 112 96            C114 103 108 109 103 112Z" fill="#473A4B" stroke="#352A3A" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Left curling branch -->
+  <path d="M56 76            C48 72 39 69 34 63            C30 58 32 53 36 49            C29 53 27 60 31 67            C36 76 47 81 57 85Z" fill="#473A4B" stroke="#352A3A" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Fine branches -->
+  <g stroke="#473A4B" fill="none" stroke-width="2.5" stroke-linecap="round">
+    <path d="M69 54 Q61 47 59 40"/>
+    <path d="M81 62 Q91 57 96 49"/>
+    <path d="M100 86 Q109 82 115 77"/>
+    <path d="M53 69 Q42 66 37 59"/>
+    <path d="M86 80 Q90 72 91 66"/>
+  </g>
+
+  <!-- Subtle bark highlights -->
+  <g stroke="#766477" fill="none" stroke-width="2.2" stroke-linecap="round">
+    <path d="M78 106 Q85 101 87 95"/>
+    <path d="M66 98 Q68 92 63 87"/>
+    <path d="M59 65 Q58 61 62 57"/>
+    <path d="M94 86 Q100 90 102 96"/>
+  </g>
+
+  <!-- Hand-drawn ceramic bonsai pot -->
+  <path d="M31 113            Q31 111 35 111            L109 111            Q113 111 113 114            L110 119            Q108 124 101 124            L43 124            Q36 124 34 119Z" fill="#E9E4E9" stroke="#473A4B" stroke-width="3.4" stroke-linejoin="round"/>
+
+  <!-- Pot rim -->
+  <path d="M30 111 Q70 110 114 111            L114 115 Q72 117 30 115Z" fill="#A69AA8" stroke="#473A4B" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Pot sketch line -->
+  <path d="M43 120 Q69 121 98 120" stroke="#89788C" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Pot feet -->
+  <g fill="#473A4B">
+    <path d="M42 123 L49 123 L47 127 L40 127Z"/>
+    <path d="M96 123 L104 123 L106 127 L98 127Z"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4BE46" stroke-width="2.8" stroke-linecap="round" fill="none">
+    <path d="M16 18 L12 13"/>
+    <path d="M25 13 L25 7"/>
+    <path d="M113 22 L118 17"/>
+    <path d="M117 30 L123 29"/>
+  </g>
+
+  <!-- Tiny leaf accent -->
+  <path d="M88 13 Q93 7 99 11            Q96 17 88 13Z" fill="#F4BE46"/>
+
+</svg>

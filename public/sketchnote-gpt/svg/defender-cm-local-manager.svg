@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Defender CM Local Manager (sketch)</title>
+  
+  <desc>
+    Hand-drawn charcoal security gear with a circular center,
+    overlaid by three stacked Azure-blue server modules.
+    Uneven marker outlines, cyan highlights, restrained
+    yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="gearGrey" x1="18" y1="12" x2="83" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7A7A7A"/>
+      <stop offset="0.55" stop-color="#606060"/>
+      <stop offset="1" stop-color="#454545"/>
+    </linearGradient>
+
+    <linearGradient id="serverBlue" x1="88" y1="20" x2="89" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.5" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn management gear -->
+  <path d="     M58 7     L72 7     L77 23     Q82 25 87 28     L103 21     L113 32     L106 47     Q109 52 111 57     L125 62     L125 77     L109 82     Q107 88 103 93     L110 108     L99 119     L84 112     Q78 115 73 116     L68 126     L54 126     L49 112     Q43 110 38 107     L23 115     L12 104     L20 89     Q17 84 16 79     L2 73     L2 59     L17 54     Q19 48 22 43     L15 28     L26 17     L41 25     Q46 22 52 21     Z" fill="url(#gearGrey)" stroke="#343434" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven sketch highlights on gear -->
+  <path d="     M20 31 L28 23 L39 29     M55 15 L60 12 L69 13     M11 64 L7 66 L11 70     M22 100 L27 107" stroke="#A5A5A5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+
+  <!-- Circular cutout in the gear -->
+  <path d="     M65 34     C45 33 30 48 30 67     C30 86 45 101 64 101     C83 101 98 86 98 67     C98 49 83 34 65 34     Z" fill="none" stroke="#303030" stroke-width="4" stroke-linejoin="round"/>
+
+  <path d="     M64 38     C46 38 35 51 35 67     C35 83 47 96 64 96     C80 96 93 83 93 67     C93 51 80 38 64 38     Z" fill="none" stroke="#C4C4C4" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="38 5 18 5" opacity="0.9"/>
+
+  <!-- Azure server module 1 -->
+  <path d="     M67 27     L88 18     Q91 17 94 18     L121 29     Q125 31 122 33     L100 43     Q97 45 93 43     L68 33     Q63 31 67 27     Z" fill="serverBlue" stroke="#164D81" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <path d="     M66 31     L95 43     Q98 44 101 43     L123 33     L123 53     Q123 55 120 56     L99 66     Q96 67 93 65     L67 55     Q65 54 65 51     Z" fill="#003067" stroke="#123D69" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Top facet highlight -->
+  <path d="M76 29 L92 23 L111 31" stroke="#A9DBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- First server detail lines -->
+  <g stroke="#32B0E7" stroke-width="2.2" stroke-linecap="round">
+    <path d="M72 39 L88 46"/>
+    <path d="M72 46 L88 53"/>
+    <path d="M94 48 L96 49"/>
+  </g>
+
+  <circle cx="115" cy="45" r="3" fill="#50E6FF" stroke="#A2F5FF" stroke-width="1.2"/>
+
+  <!-- Azure server module 2 -->
+  <path d="     M67 56     L88 47     Q91 46 94 47     L121 58     Q125 60 122 62     L100 72     Q97 74 93 72     L68 62     Q63 60 67 56     Z" fill="url(#serverBlue)" stroke="#164D81" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <path d="     M65 60     L94 72     Q98 74 101 72     L123 62     L123 81     Q123 84 120 85     L99 95     Q96 96 93 94     L67 84     Q65 83 65 80     Z" fill="#003067" stroke="#123D69" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <path d="M75 58 L92 52 L112 60" stroke="#B3E0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g stroke="#32B0E7" stroke-width="2.2" stroke-linecap="round">
+    <path d="M72 69 L88 76"/>
+    <path d="M72 76 L88 83"/>
+  </g>
+
+  <circle cx="115" cy="74" r="3" fill="#50E6FF" stroke="#A2F5FF" stroke-width="1.2"/>
+
+  <!-- Azure server module 3 -->
+  <path d="     M67 85     L88 76     Q91 75 94 76     L121 87     Q125 89 122 91     L100 101     Q97 103 93 101     L68 91     Q63 89 67 85     Z" fill="url(#serverBlue)" stroke="#164D81" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <path d="     M65 89     L94 101     Q98 103 101 101     L123 91     L123 110     Q123 113 120 114     L99 124     Q96 125 93 123     L67 113     Q65 112 65 109     Z" fill="#003067" stroke="#123D69" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <path d="M76 87 L92 81 L111 89" stroke="#B3E0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g stroke="#32B0E7" stroke-width="2.2" stroke-linecap="round">
+    <path d="M72 98 L88 105"/>
+    <path d="M72 105 L88 112"/>
+  </g>
+
+  <circle cx="115" cy="103" r="3" fill="#50E6FF" stroke="#A2F5FF" stroke-width="1.2"/>
+
+  <!-- Hand-drawn motion accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 12 L22 17"/>
+    <path d="M30 6 L32 13"/>
+    <path d="M47 4 L45 11"/>
+    <path d="M39 73 L46 73"/>
+    <path d="M42 82 L47 78"/>
+  </g>
+
+  <!-- Small sketch accent dots -->
+  <circle cx="18" cy="20" r="2" fill="#F4C542"/>
+  <circle cx="49" cy="85" r="1.7" fill="#F4C542"/>
+  <circle cx="108" cy="120" r="1.5" fill="#50E6FF"/>
+
+  <!-- Loose marker arc -->
+  <path d="     M38 50     Q43 42 51 40" stroke="#D4D4D4" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+</svg>

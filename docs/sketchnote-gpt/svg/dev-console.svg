@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Dev Console (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Dev Console featuring a cyan terminal window,
+    deep Azure-blue title bar, white command prompt chevron,
+    and underscore cursor. Uneven marker outlines, subtle yellow
+    highlights, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="consoleCyan" x1="64" y1="40" x2="64" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="headerBlue" x1="13" y1="20" x2="115" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#1689DC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main console body -->
+  <path d="     M12 39     Q12 37 16 38     L112 38     Q117 38 117 43     L116 105     Q116 111 111 111     L17 112     Q12 112 12 107     Z" fill="url(#consoleCyan)" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Azure-blue application title bar -->
+  <path d="     M17 18     Q14 18 13 22     L12 43     Q37 42 64 43     L117 43     L117 23     Q117 18 112 18     L17 18     Z" fill="url(#headerBlue)" stroke="#005A9E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn title-bar separator -->
+  <path d="     M15 44     Q41 43 65 44     Q91 45 115 44" stroke="#004E8A" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Subtle top edge marker highlight -->
+  <path d="     M20 22     Q58 21 99 22" stroke="#77C8F5" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Small sketchnote window controls -->
+  <circle cx="23" cy="31" r="2.7" fill="#FFFFFF" opacity=".9"/>
+
+  <circle cx="33" cy="31" r="2.7" fill="#FFFFFF" opacity=".65"/>
+
+  <circle cx="43" cy="31" r="2.7" fill="#FFFFFF" opacity=".45"/>
+
+  <!-- Terminal command prompt chevron -->
+  <path d="     M31 58     L50 77     L31 96" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Slight marker-edge accent -->
+  <path d="     M29 58     L47 77     L29 96" stroke="#E6E6E6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Terminal underscore cursor -->
+  <path d="     M58 96     Q72 95 87 96" stroke="#F2F2F2" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Subtle white cursor highlight -->
+  <path d="     M60 92     L84 92" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="     M120 55     L125 52     M121 63     L127 63     M120 71     L125 74" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Hand-drawn reflection inside console -->
+  <path d="     M20 52     Q19 69 20 82" stroke="#B5F1FF" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Bottom sketchnote outline accent -->
+  <path d="     M22 117     Q63 119 105 117" stroke="#A19F9D" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 5" opacity=".7"/>
+
+</svg>

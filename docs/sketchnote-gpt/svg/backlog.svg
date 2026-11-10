@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Backlog (sketch)</title>
+
+  
+  <desc>
+    Three stacked Azure-blue checkmarks paired with grey
+    task lines, preserving the original Backlog icon.
+    Organic marker outlines, subtle cyan highlights,
+    restrained yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="checkBlue" x1="24" y1="12" x2="24" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#1380DA"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrey" x1="49" y1="0" x2="117" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B8B8B8"/>
+      <stop offset="1" stop-color="#858585"/>
+    </linearGradient>
+  </defs>
+
+  <!-- First checklist checkmark -->
+  <path d="M8 27        Q7 25 10 22        L13 19        Q16 17 19 20        L25 26        L42 9        Q45 6 48 9        L51 12        Q53 15 50 18        L28 40        Q25 43 22 40        Z" fill="url(#checkBlue)" stroke="#174D78" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- First task line -->
+  <path d="M58 22        Q58 18 63 18        L115 18        Q120 18 120 23        Q120 28 115 28        L63 28        Q58 28 58 22Z" fill="url(#lineGrey)" stroke="#686868" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Second checklist checkmark -->
+  <path d="M8 63        Q7 61 10 58        L13 55        Q16 53 19 56        L25 62        L42 45        Q45 42 48 45        L51 48        Q53 51 50 54        L28 76        Q25 79 22 76        Z" fill="url(#checkBlue)" stroke="#174D78" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Second task line -->
+  <path d="M58 58        Q58 54 63 54        L115 54        Q120 54 120 59        Q120 64 115 64        L63 64        Q58 64 58 58Z" fill="url(#lineGrey)" stroke="#686868" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Third checklist checkmark -->
+  <path d="M8 99        Q7 97 10 94        L13 91        Q16 89 19 92        L25 98        L42 81        Q45 78 48 81        L51 84        Q53 87 50 90        L28 112        Q25 115 22 112        Z" fill="url(#checkBlue)" stroke="#174D78" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Third task line -->
+  <path d="M58 94        Q58 90 63 90        L115 90        Q120 90 120 95        Q120 100 115 100        L63 100        Q58 100 58 94Z" fill="url(#lineGrey)" stroke="#686868" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan hand-drawn checkmark highlights -->
+  <g stroke="#BFEAFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M13 26 L24 36 L46 14"/>
+    <path d="M13 62 L24 72 L46 50"/>
+    <path d="M13 98 L24 108 L46 86"/>
+  </g>
+
+  <!-- Uneven marker highlights on task lines -->
+  <g stroke="#E3E3E3" stroke-width="2.1" stroke-linecap="round" opacity=".85">
+    <path d="M65 21 Q86 20 107 21"/>
+    <path d="M65 57 Q86 56 107 57"/>
+    <path d="M65 93 Q86 92 107 93"/>
+  </g>
+
+  <!-- Subtle hand-drawn task underline details -->
+  <g stroke="#9A9A9A" stroke-width="1.5" stroke-linecap="round" opacity=".55">
+    <path d="M68 32 Q91 33 111 32"/>
+    <path d="M68 68 Q91 69 111 68"/>
+    <path d="M68 104 Q91 105 111 104"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M37 6 L39 2"/>
+    <path d="M53 7 L58 5"/>
+    <path d="M122 112 L126 116"/>
+  </g>
+
+  <!-- Small hand-drawn emphasis sparkle -->
+  <path d="M113 111 L113 119        M109 115 L117 115" stroke="#F5C84C" stroke-width="2.2" stroke-linecap="round"/>
+
+</svg>

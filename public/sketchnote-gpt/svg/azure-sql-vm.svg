@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure SQL VM (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue SQL virtual machine monitor with white SQL lettering, a grey metallic stand, uneven marker outlines, and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="screenBlue" x1="64" y1="12" x2="64" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#318DDD"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="standGrey" x1="64" y1="88" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset=".55" stop-color="#A5A5A5"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn virtual machine monitor -->
+  <path d="M12 13            Q8 13 8 18            L8 84            Q8 89 13 89            L115 89            Q120 89 120 84            L120 18            Q120 13 115 13            Z" fill="url(#screenBlue)" stroke="#185D9D" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Irregular inner screen outline -->
+  <path d="M15 21            Q15 19 18 19            L110 19            Q113 19 113 22            L113 79            Q113 82 110 82            L18 82            Q15 82 15 79Z" stroke="#A7D7FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+
+  <!-- Top-left marker reflection -->
+  <path d="M20 25 L20 39            M25 24 L37 24" stroke="#D9EDFF" stroke-width="2.7" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Subtle screen-edge shadow -->
+  <path d="M17 84 Q64 86 111 84" stroke="#165D9A" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- SQL lettering: S -->
+  <path d="M43 36            C38 32 29 34 26 39            C22 45 28 50 36 53            C44 56 47 62 43 68            C39 74 30 74 24 69" stroke="#F2F2F2" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- SQL lettering: Q -->
+  <path d="M66 34            C55 33 49 41 49 53            C49 65 55 73 66 73            C77 73 83 64 83 53            C83 42 77 34 66 34Z" stroke="#F2F2F2" stroke-width="6.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Q tail -->
+  <path d="M71 66 L85 80" stroke="#F2F2F2" stroke-width="6.3" stroke-linecap="round"/>
+
+  <!-- SQL lettering: L -->
+  <path d="M94 36            L94 71            L110 71" stroke="#F2F2F2" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small handwritten marker highlights -->
+  <path d="M28 40 Q33 36 39 38" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M57 43 Q62 38 69 41" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Monitor neck -->
+  <path d="M53 89            L75 89            Q74 104 80 111            L48 111            Q54 104 53 89Z" fill="url(#standGrey)" stroke="#666666" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Metal stand shading -->
+  <path d="M58 92            Q59 103 55 109" stroke="#E2E2E2" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M71 92            Q70 102 74 108" stroke="#707070" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Monitor base -->
+  <path d="M48 111            Q40 112 37 119            Q36 123 41 123            L87 123            Q92 123 91 119            Q88 112 80 111Z" fill="url(#standGrey)" stroke="#666666" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Base marker reflection -->
+  <path d="M46 118 Q64 116 82 118" stroke="#E5E5E5" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Yellow sketchnote spark -->
+  <path d="M110 5 L113 1            M120 9 L125 6            M119 16 L126 17" stroke="#F5C84C" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small handwritten-style emphasis -->
+  <path d="M12 103            Q22 108 33 105" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M28 101            L34 105            L28 110" stroke="#F5C84C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Minimal lower sketch underline -->
+  <path d="M48 127 Q65 125 82 127" stroke="#2A80C2" stroke-width="1.8" stroke-linecap="round" opacity=".5"/>
+</svg>

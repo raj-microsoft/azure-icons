@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure VMware Solution (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue cloud with a central green virtualization keyhole, green infrastructure platform, white status indicators, and subtle yellow marker accents.</desc>
+
+  <defs>
+    <linearGradient id="vmCloud" x1="64" y1="13" x2="64" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#278DDF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="vmPlatform" x1="64" y1="91" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure cloud silhouette -->
+  <path d="M37 103            C20 105 8 94 8 79            C8 64 18 53 33 51            C39 29 54 16 75 16            C95 16 109 30 111 50            C124 54 127 65 126 78            C125 93 114 103 100 103            Z" fill="url(#vmCloud)" stroke="#1767A8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven inner cloud marker outline -->
+  <path d="M16 77            C17 65 24 58 38 57            C43 36 56 24 75 23            C91 23 103 34 105 49" stroke="#B9DEFF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M114 60            Q122 68 118 81" stroke="#D2EBFF" stroke-width="2.4" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Cloud reflection -->
+  <path d="M45 43            Q52 30 65 28" stroke="#E0F2FF" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Central virtualization symbol: outer keyhole -->
+  <path d="M64 48            C50 48 42 58 42 70            C42 79 47 86 54 90            L54 101            L74 101            L74 90            C82 86 87 78 87 70            C87 58 78 48 64 48Z" fill="#FFFFFF" stroke="#1767A8" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner green virtualization loop -->
+  <path d="M64 56            C56 56 50 62 50 70            C50 77 55 82 61 84            L61 101            L68 101            L68 84            C75 82 80 77 80 70            C80 62 73 56 64 56Z" fill="#76BC2D" stroke="#4F9222" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Keyhole negative-space detail -->
+  <path d="M58 65            Q64 61 70 65            Q74 69 71 75            Q68 79 64 79            Q59 79 56 74            Q54 69 58 65Z" fill="#FFFFFF"/>
+
+  <!-- Vertical virtualization connector -->
+  <path d="M64 81 L64 99" stroke="#D9F6C5" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Green infrastructure platform -->
+  <path d="M23 96            Q23 93 27 93            L101 93            Q105 93 105 97            L105 115            Q105 119 101 119            L27 119            Q23 119 23 115Z" fill="url(#vmPlatform)" stroke="#4D8D22" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn top platform edge -->
+  <path d="M29 99 Q63 97 99 99" stroke="#B8EE82" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Platform status indicators -->
+  <path d="M91 101            Q91 100 93 100            L97 100            Q99 100 99 102            L99 105            Q99 107 97 107            L93 107            Q91 107 91 105Z" fill="#FFFFFF"/>
+
+  <path d="M91 110            Q91 109 93 109            L97 109            Q99 109 99 111            L99 114            Q99 116 97 116            L93 116            Q91 116 91 114Z" fill="#FFFFFF" opacity=".65"/>
+
+  <!-- Server panel detail -->
+  <path d="M33 106 L50 106            M33 112 L44 112" stroke="#DDF8CA" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Slightly imperfect platform reflection -->
+  <path d="M28 102 L28 113" stroke="#C7F39E" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Yellow handwritten-style sparkle -->
+  <path d="M110 27 L113 19            M118 34 L125 30            M105 24 L102 17" stroke="#F5C84C" stroke-width="3.1" stroke-linecap="round"/>
+
+  <!-- Small sketchnote emphasis -->
+  <path d="M10 111            Q14 117 20 119" stroke="#F5C84C" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M15 115 L21 119 L14 121" stroke="#F5C84C" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Minimal lower sketch underline -->
+  <path d="M42 124 Q65 127 87 124" stroke="#2A80C2" stroke-width="1.9" stroke-linecap="round" opacity=".55"/>
+</svg>

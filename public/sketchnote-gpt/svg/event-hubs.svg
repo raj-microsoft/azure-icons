@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Event Hubs (sketch)</title>
+
+  
+  <desc id="desc">Six green event blocks arranged in a staggered grid between two gray bus rails with four terminal posts, illustrated with uneven marker outlines and restrained Azure-blue and yellow accents.</desc>
+
+  <!-- Upper event bus rail -->
+  <path d="M14 18            Q14 15 18 15            L110 15            Q114 15 114 19            L114 25            Q114 28 110 28            L18 28            Q14 28 14 25Z" fill="#949494" stroke="#656565" stroke-width="2.7"/>
+
+  <!-- Lower event bus rail -->
+  <path d="M14 101            Q14 98 18 98            L110 98            Q114 98 114 102            L114 108            Q114 111 110 111            L18 111            Q14 111 14 108Z" fill="#949494" stroke="#656565" stroke-width="2.7"/>
+
+  <!-- Four hand-drawn terminal posts -->
+  <g fill="#999999" stroke="#626262" stroke-width="2.8">
+
+    <path d="M10 10              Q10 8 13 8              L20 8              Q23 8 23 11              L23 35              Q23 38 20 38              L11 38              Q8 38 8 35              L8 13              Q8 10 10 10Z"/>
+
+    <path d="M108 11              Q108 8 111 8              L118 8              Q121 8 121 11              L121 35              Q121 38 118 38              L110 38              Q108 38 108 35Z"/>
+
+    <path d="M11 90              L20 90              Q23 90 23 93              L23 117              Q23 120 20 120              L13 120              Q9 120 9 117              L9 93              Q9 90 11 90Z"/>
+
+    <path d="M111 90              L118 90              Q121 90 121 93              L121 117              Q121 120 118 120              L111 120              Q108 120 108 117              L108 93              Q108 90 111 90Z"/>
+  </g>
+
+  <!-- Terminal marker highlights -->
+  <g stroke="#D8D8D8" stroke-width="2" opacity=".85">
+    <path d="M13 14 L13 30"/>
+    <path d="M113 14 L113 30"/>
+    <path d="M14 96 L14 113"/>
+    <path d="M113 96 L113 113"/>
+  </g>
+
+  <!-- Freehand rail highlights -->
+  <g stroke="#D2D2D2" stroke-width="1.8" opacity=".85">
+    <path d="M29 19 Q58 18 91 19"/>
+    <path d="M35 105 Q66 104 99 105"/>
+  </g>
+
+  <!-- Event block: upper left -->
+  <path d="M34 39            Q34 36 38 36            L52 36            Q56 36 56 40            L56 49            Q56 53 52 53            L38 53            Q34 53 34 49Z" fill="#86D633" stroke="#4F8F22" stroke-width="2.7"/>
+
+  <!-- Event block: middle left -->
+  <path d="M34 61            Q34 58 38 58            L52 58            Q56 58 56 62            L56 71            Q56 75 52 75            L38 75            Q34 75 34 71Z" fill="#76BC2D" stroke="#4F8F22" stroke-width="2.7"/>
+
+  <!-- Event block: lower left -->
+  <path d="M34 83            Q34 80 38 80            L52 80            Q56 80 56 84            L56 93            Q56 97 52 97            L38 97            Q34 97 34 93Z" fill="#76BC2D" stroke="#4F8F22" stroke-width="2.7"/>
+
+  <!-- Event block: upper center -->
+  <path d="M62 50            Q62 47 66 47            L80 47            Q84 47 84 51            L84 60            Q84 64 80 64            L66 64            Q62 64 62 60Z" fill="#76BC2D" stroke="#4F8F22" stroke-width="2.7"/>
+
+  <!-- Event block: lower center -->
+  <path d="M62 72            Q62 69 66 69            L80 69            Q84 69 84 73            L84 82            Q84 86 80 86            L66 86            Q62 86 62 82Z" fill="#76BC2D" stroke="#4F8F22" stroke-width="2.7"/>
+
+  <!-- Event block: right -->
+  <path d="M90 61            Q90 58 94 58            L108 58            Q112 58 112 62            L112 71            Q112 75 108 75            L94 75            Q90 75 90 71Z" fill="#76BC2D" stroke="#4F8F22" stroke-width="2.7"/>
+
+  <!-- Subtle marker highlights on event blocks -->
+  <g stroke="#D4F4A5" stroke-width="2" opacity=".85">
+    <path d="M39 41 L49 41"/>
+    <path d="M39 63 L49 63"/>
+    <path d="M39 85 L49 85"/>
+    <path d="M67 52 L77 52"/>
+    <path d="M67 74 L77 74"/>
+    <path d="M95 63 L105 63"/>
+  </g>
+
+  <!-- Tiny sketch shadow strokes -->
+  <g stroke="#4E9222" stroke-width="1.6" opacity=".75">
+    <path d="M51 45 L51 49"/>
+    <path d="M51 67 L51 71"/>
+    <path d="M51 89 L51 93"/>
+    <path d="M79 56 L79 60"/>
+    <path d="M79 78 L79 82"/>
+    <path d="M107 67 L107 71"/>
+  </g>
+
+  <!-- Suggested event movement, hand-drawn -->
+  <g stroke="#0078D4" stroke-width="2.3" opacity=".85">
+    <path d="M57 44 Q60 44 62 46"/>
+    <path d="M85 55 Q88 56 90 59"/>
+    <path d="M57 68 Q60 68 62 70"/>
+    <path d="M85 77 Q88 76 90 74"/>
+  </g>
+
+  <!-- Azure-blue freehand exterior marks -->
+  <g stroke="#0078D4" stroke-width="2.5">
+    <path d="M29 44 L25 40"/>
+    <path d="M29 52 L23 51"/>
+    <path d="M116 53 L121 49"/>
+  </g>
+
+  <!-- Restrained yellow emphasis -->
+  <g stroke="#FFCC4D" stroke-width="2.6">
+    <path d="M64 34 L62 29"/>
+    <path d="M73 33 L74 27"/>
+    <path d="M84 36 L88 31"/>
+    <path d="M91 93 L95 97"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M99 36            Q101 44 109 46            Q101 48 99 56            Q97 48 89 46            Q97 44 99 36Z" fill="#FFCC4D" stroke="#D4A125" stroke-width="1.4"/>
+
+  <!-- Tiny sketch dots -->
+  <g fill="#0078D4">
+    <circle cx="28" cy="83" r="1.7"/>
+    <circle cx="88" cy="40" r="1.6"/>
+  </g>
+
+</svg>

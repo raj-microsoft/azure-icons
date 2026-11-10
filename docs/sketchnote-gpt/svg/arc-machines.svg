@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Arc Machines (sketch)</title>
+
+  <defs>
+    <linearGradient id="arcPurple" x1="64" y1="8" x2="64" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+    <linearGradient id="arcBase" x1="64" y1="89" x2="64" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn elliptical Azure Arc platform -->
+  <path d="M5 94            Q5 87 14 84            Q34 76 64 77            Q95 76 114 84            Q123 88 123 95            L122 109            Q120 117 103 121            Q64 131 24 120            Q7 116 5 108Z" fill="url(#arcBase)" stroke="#2878B9" stroke-width="3.3"/>
+
+  <!-- Bright cyan platform surface -->
+  <path d="M5 94            C5 83 31 76 64 76            C96 75 123 83 123 94            C123 105 97 112 64 112            C31 112 5 105 5 94Z" fill="#50E6FF" stroke="#2878B9" stroke-width="3.3"/>
+
+  <!-- Loose sketched rim -->
+  <path d="M12 98 Q24 107 45 109            M81 109 Q107 106 117 98" stroke="#B5F5FF" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Platform side contour -->
+  <path d="M12 111 Q34 124 65 124            Q98 124 116 112" stroke="#267DC5" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Server machine silhouette -->
+  <path d="M36 9            Q36 6 40 6            L87 7            Q91 7 91 12            L91 91            Q91 95 87 95            L40 95            Q36 95 36 91Z" fill="url(#arcPurple)" stroke="#552F99" stroke-width="3.6"/>
+
+  <!-- Hand-inked machine edge highlight -->
+  <path d="M42 14 L42 87            M47 12 L82 12" stroke="#CAA9FF" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Upper server slot -->
+  <path d="M46 19            Q46 17 50 17            L78 17            Q83 17 83 22            L83 28            Q83 32 78 32            L50 32            Q46 32 46 28Z" fill="#552F99" stroke="#412477" stroke-width="2.5"/>
+
+  <!-- Lower server slot -->
+  <path d="M46 41            Q46 38 50 38            L78 39            Q83 39 83 43            L83 50            Q83 54 78 54            L50 54            Q46 54 46 50Z" fill="#552F99" stroke="#412477" stroke-width="2.5"/>
+
+  <!-- Slot reflections -->
+  <path d="M51 22 L65 22            M51 44 L65 44" stroke="#9867DD" stroke-width="2" opacity=".8"/>
+
+  <!-- Cyan machine status indicators -->
+  <circle cx="75" cy="24.5" r="4.2" fill="#50E6FF" stroke="#237CA7" stroke-width="1.8"/>
+
+  <circle cx="75" cy="46.5" r="4.2" fill="#50E6FF" stroke="#237CA7" stroke-width="1.8"/>
+
+  <!-- Tiny indicator highlights -->
+  <path d="M73.5 23 L74.5 22.5            M73.5 45 L74.5 44.5" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- Subtle hand-drawn machine details -->
+  <path d="M49 68 L77 68            M49 74 L69 74" stroke="#C3A1FA" stroke-width="2" opacity=".5"/>
+
+  <!-- Restrained sketchnote accents -->
+  <path d="M21 31 L15 26            M27 26 L25 18" stroke="#F4CB52" stroke-width="3"/>
+
+  <path d="M101 25 L107 19            M105 33 L113 31" stroke="#F4CB52" stroke-width="3"/>
+
+  <!-- Small Azure-blue annotation strokes -->
+  <path d="M18 88 L24 85            M105 85 L111 88" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Hand-drawn finishing marks -->
+  <path d="M44 99 L48 101            M80 101 L84 99" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+
+</svg>

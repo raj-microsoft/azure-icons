@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender External Management (sketch)</title>
+  
+  <desc>Hand-drawn Azure monitor with management gear, connected to two external server units.</desc>
+
+  <defs>
+    <linearGradient id="screenBlue" x1="12" y1="51" x2="83" y2="106" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="serverBlue" x1="69" y1="8" x2="121" y2="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="standGrey" x1="46" y1="102" x2="46" y2="123" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CCCCCC"/>
+      <stop offset="1" stop-color="#707070"/>
+    </linearGradient>
+  </defs>
+
+  <!-- External server stack -->
+  <path d="M73 8            Q73 5 77 5            L118 6            Q121 6 121 10            L121 25            Q121 28 118 28            L76 28            Q73 28 73 25 Z" fill="url(#serverBlue)" stroke="#164F84" stroke-width="3"/>
+
+  <path d="M73 33            Q73 30 77 30            L118 30            Q121 30 121 34            L121 49            Q121 52 118 52            L77 52            Q73 52 73 49 Z" fill="url(#serverBlue)" stroke="#164F84" stroke-width="3"/>
+
+  <!-- Server face details -->
+  <path d="M81 12 L105 12            M81 20 L100 20            M81 37 L105 37            M81 45 L100 45" stroke="#D7EDFF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Server status lights -->
+  <path d="M111 12 L116 12 L116 17 L111 17 Z            M111 20 L116 20 L116 25 L111 25 Z            M111 36 L116 36 L116 41 L111 41 Z            M111 44 L116 44 L116 49 L111 49 Z" fill="#92CEFF" stroke="#24649A" stroke-width="1.2"/>
+
+  <!-- External management connection -->
+  <path d="M110 54            L110 68            Q110 72 105 72            L79 72" stroke="#164F84" stroke-width="7"/>
+
+  <path d="M110 54            L110 68            Q110 72 105 72            L79 72" stroke="#32BEDD" stroke-width="3.5"/>
+
+  <!-- Connector marker highlights -->
+  <path d="M114 58 L114 64            M95 76 L87 76" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Main management monitor -->
+  <path d="M10 55            Q10 51 15 51            L77 51            Q82 51 82 56            L82 102            Q82 106 77 106            L15 106            Q10 106 10 101 Z" fill="url(#screenBlue)" stroke="#164F84" stroke-width="3.8"/>
+
+  <!-- Inner hand-drawn screen frame -->
+  <path d="M17 59            Q17 57 20 57            L72 57            Q75 57 75 60            L75 96            Q75 99 72 99            L20 99            Q17 99 17 96 Z" stroke="#C5E8FF" stroke-width="2" opacity=".8"/>
+
+  <!-- Management gear -->
+  <path d="M42 63            L50 63            L52 69            L57 71            L62 68            L68 74            L65 79            L67 84            L72 86            L72 93            L65 95            L63 100            L57 97            L52 100            L50 94            L43 94            L41 100            L35 97            L30 100            L27 94            L21 92            L21 86            L27 84            L29 79            L26 74            L32 68            L37 71            L41 69 Z" transform="translate(0 -6) scale(.96)" fill="#FFFFFF" stroke="#214F78" stroke-width="2.5"/>
+
+  <!-- Gear center -->
+  <circle cx="45" cy="72" r="9" fill="#5EA0EF" stroke="#164F84" stroke-width="3"/>
+
+  <circle cx="45" cy="72" r="4" fill="#DDF5FF"/>
+
+  <!-- Gear sketchnote details -->
+  <path d="M34 64 Q39 58 46 59            M54 79 Q50 84 44 84" stroke="#D1F2FF" stroke-width="2" opacity=".8"/>
+
+  <!-- Monitor stand -->
+  <path d="M39 106            L53 106            L54 116            Q56 119 61 120            L65 122            L27 122            L31 120            Q37 118 38 115 Z" fill="url(#standGrey)" stroke="#505C66" stroke-width="3"/>
+
+  <!-- Base sketch highlight -->
+  <path d="M34 119 Q46 117 57 119" stroke="#E7E7E7" stroke-width="2"/>
+
+  <!-- External management annotation marks -->
+  <path d="M87 60 L93 56            M89 65 L97 64" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Small handwritten-style blue flourish -->
+  <path d="M15 111 Q21 114 27 112" stroke="#32BEDD" stroke-width="2.5"/>
+
+  <!-- Subtle server sparkle -->
+  <path d="M63 17 L67 12            M65 23 L70 24" stroke="#FFCC4D" stroke-width="2.5"/>
+</svg>

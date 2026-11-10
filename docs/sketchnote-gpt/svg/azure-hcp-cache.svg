@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure HCP Cache (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure cloud with an overlapping cyan cache storage
+    module, three white horizontal cache layers, uneven blue marker
+    outlines, subtle yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="62" y1="15" x2="62" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.52" stop-color="#268CE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="cacheCyan" x1="54" y1="54" x2="111" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#70EDFF"/>
+      <stop offset="0.48" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#2CC3E6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn cloud silhouette -->
+  <path d="     M37 97     C23 99 12 89 12 76     C11 62 20 52 34 50     C37 32 51 19 68 19     C87 18 101 32 102 49     C116 51 124 62 123 75     C122 88 113 97 100 98     Z" fill="url(#cloudBlue)" stroke="#005BA1" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Organic secondary marker contour -->
+  <path d="     M18 73     C18 62 25 56 37 55     M40 47     C45 31 56 25 69 25     M75 25     C87 28 94 37 96 49     M107 54     C117 59 119 66 118 75" stroke="#B9EAFF" stroke-width="2.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+
+  <!-- Loose sketchnote motion strokes -->
+  <g stroke="#0078D4" stroke-linecap="round" fill="none">
+    <path d="M19 49 Q24 44 30 43" stroke-width="2.1"/>
+    <path d="M43 22 Q49 17 56 16" stroke-width="2"/>
+    <path d="M106 39 Q112 43 115 48" stroke-width="2.2"/>
+  </g>
+
+  <!-- Soft cloud highlight -->
+  <path d="     M25 71     Q27 60 39 59     Q43 58 44 52     Q49 33 66 31" stroke="#D8F4FF" stroke-width="3.2" stroke-linecap="round" fill="none" opacity="0.65"/>
+
+  <!-- Cache module back edge -->
+  <path d="     M53 55     Q53 50 59 50     L110 50     Q116 50 116 56     L116 111     Q116 117 110 117     L59 117     Q53 117 53 111     Z" fill="#0078D4" stroke="#005BA1" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Main cyan cache housing -->
+  <path d="     M55 55     Q55 52 60 52     L108 52     Q113 52 113 57     L113 109     Q113 114 108 114     L60 114     Q55 114 55 109     Z" fill="url(#cacheCyan)" stroke="#005BA1" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Irregular marker edge highlights -->
+  <path d="     M61 57     Q83 56 106 57" stroke="#C8F8FF" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+
+  <path d="     M60 63     Q59 82 60 106" stroke="#B1F4FF" stroke-width="2.1" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Cache layer 1 -->
+  <path d="     M66 64     Q66 62 69 62     L101 62     Q104 62 104 65     L104 72     Q104 75 101 75     L69 75     Q66 75 66 72     Z" fill="#FFFFFF" stroke="#0078D4" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Cache layer 2 -->
+  <path d="     M66 81     Q66 79 69 79     L101 79     Q104 79 104 82     L104 89     Q104 92 101 92     L69 92     Q66 92 66 89     Z" fill="#FFFFFF" fill-opacity="0.85" stroke="#0078D4" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Cache layer 3 -->
+  <path d="     M66 98     Q66 96 69 96     L101 96     Q104 96 104 99     L104 106     Q104 109 101 109     L69 109     Q66 109 66 106     Z" fill="#FFFFFF" fill-opacity="0.7" stroke="#0078D4" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Tiny hand-marked cache details -->
+  <g stroke="#50E6FF" stroke-width="1.8" stroke-linecap="round">
+    <path d="M72 69 L79 69"/>
+    <path d="M72 86 L79 86"/>
+    <path d="M72 103 L79 103"/>
+  </g>
+
+  <!-- Yellow accent marks -->
+  <g stroke="#F4C542" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M42 62 L46 57" stroke-width="3"/>
+    <path d="M38 68 L44 66" stroke-width="2.7"/>
+    <path d="M48 62 L49 67" stroke-width="2.4"/>
+
+    <path d="M104 35 L108 30" stroke-width="2.8"/>
+    <path d="M110 39 L116 37" stroke-width="2.5"/>
+
+    <path d="M36 106 Q42 110 48 109" stroke-width="2.5"/>
+  </g>
+
+  <!-- Hand-drawn lower shadow strokes -->
+  <g stroke="#005BA1" stroke-linecap="round" fill="none" opacity="0.65">
+    <path d="M62 119 Q83 121 106 119" stroke-width="1.8"/>
+    <path d="M119 86 Q122 82 123 78" stroke-width="1.7"/>
+  </g>
+
+  <!-- Small decorative marker dots -->
+  <circle cx="32" cy="34" r="2.2" fill="#50E6FF"/>
+  <circle cx="25" cy="40" r="1.5" fill="#0078D4"/>
+  <circle cx="117" cy="103" r="1.8" fill="#F4C542"/>
+
+</svg>

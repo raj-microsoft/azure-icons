@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Elastic Job Agents (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure SQL database cylinder with a clock indicating
+    scheduled jobs and three outward arrows representing elastic
+    job distribution. Original Azure-blue and cyan colours,
+    uneven marker outlines, subtle yellow accents, and a
+    transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="databaseBlue" x1="19" y1="24" x2="106" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset="0.48" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="clockCyan" x1="75" y1="9" x2="119" y2="53" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure database cylinder -->
+  <path d="M19 23            Q19 19 25 17            C43 10 68 11 86 16            Q104 20 105 25            L105 79            Q104 87 86 91            C67 96 42 96 25 90            Q19 87 19 80            Z" fill="url(#databaseBlue)" stroke="#004E8A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cylinder top -->
+  <path d="M19 23            C19 10 105 9 105 23            C105 37 19 37 19 23Z" fill="#EAEAEA" stroke="#005BA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Cyan database surface -->
+  <path d="M30 23            C30 15 94 15 94 23            C94 31 30 31 30 23Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Inner elliptical sketch -->
+  <path d="M37 26            Q62 18 87 26            Q62 34 37 26Z" fill="#198AB3" opacity="0.85"/>
+
+  <!-- Database sketch strokes -->
+  <path d="M23 39            Q58 53 101 39" stroke="#7BDFFF" stroke-width="2.3" stroke-linecap="round" opacity="0.75"/>
+
+  <path d="M23 62            Q60 75 101 61" stroke="#7BDFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M25 76            Q27 83 41 85" stroke="#B2EDFF" stroke-width="2.1" stroke-linecap="round" opacity="0.75"/>
+
+  <path d="M17 40 Q15 53 17 67" stroke="#0078D4" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Clock outer ring -->
+  <path d="M94 9            C108 8 120 19 120 33            C121 48 110 59 96 60            C82 61 70 50 70 35            C69 21 80 10 94 9Z" fill="url(#clockCyan)" stroke="#168EAE" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Clock face -->
+  <path d="M95 16            C106 16 114 24 114 35            C114 45 106 53 95 53            C85 53 77 45 77 35            C77 24 85 16 95 16Z" fill="#FFFFFF" stroke="#198AB3" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Clock hands -->
+  <path d="M95 35            L95 22" stroke="#949494" stroke-width="3.4" stroke-linecap="round"/>
+
+  <path d="M95 35            L104 44" stroke="#949494" stroke-width="3.4" stroke-linecap="round"/>
+
+  <circle cx="95" cy="35" r="4" fill="#5E5E5E" stroke="#FFFFFF" stroke-width="1.2"/>
+
+  <!-- Clock sketch ticks -->
+  <path d="M95 18 L95 20            M111 35 L109 35            M95 51 L95 49            M79 35 L81 35" stroke="#32BEDD" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Left elastic distribution arrow -->
+  <path d="M39 73            L22 90            L16 84            Q14 82 14 86            L14 108            Q14 111 17 111            L39 111            Q42 111 40 108            L34 102            L51 85" fill="#50E6FF" stroke="#198AB3" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Center elastic distribution arrow -->
+  <path d="M57 82            L57 105            L48 105            Q45 105 47 108            L62 123            Q64 125 66 123            L81 108            Q83 105 80 105            L71 105            L71 82" fill="#50E6FF" stroke="#198AB3" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right elastic distribution arrow -->
+  <path d="M77 85            L94 102            L88 108            Q86 111 90 111            L112 111            Q115 111 115 108            L115 86            Q115 83 112 85            L106 91            L89 74" fill="#50E6FF" stroke="#198AB3" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn arrow highlights -->
+  <path d="M18 103 L18 95" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M61 107 L61 94" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M110 103 L110 95" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Yellow scheduling accents -->
+  <path d="M116 7 L121 3" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M123 16 L127 14" stroke="#F4C542" stroke-width="2.6" stroke-linecap="round"/>
+
+  <path d="M67 12 L64 6" stroke="#F4C542" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Yellow marker highlights -->
+  <path d="M22 115 L35 115" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M94 115 L108 115" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small sketchnote sparkle -->
+  <path d="M8 60 L8 68            M4 64 L12 64" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Subtle motion marks -->
+  <path d="M43 98 L39 102" stroke="#32BEDD" stroke-width="1.7" stroke-linecap="round"/>
+
+  <path d="M85 98 L89 102" stroke="#32BEDD" stroke-width="1.7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Consumption Commitment (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn clock with a blue circular commitment arrow
+    and an overlapping Azure-blue financial agreement scroll.
+    Original gray, white, and Azure-blue palette, irregular
+    marker outlines, subtle yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="clockBlue" x1="12" y1="20" x2="95" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#168DE3"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="paperBlue" x1="72" y1="73" x2="111" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#78B5F5"/>
+      <stop offset=".55" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clock housing, slightly irregular -->
+  <path d="     M 54 9     C 82 9 103 31 105 57     C 106 67 103 78 98 86     L 80 102     C 72 107 61 109 52 107     C 25 106 8 86 8 58     C 7 31 28 10 54 9 Z" fill="#B0B0B0" stroke="#777777" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- White clock dial -->
+  <path d="     M 54 16     C 77 16 97 35 97 59     C 97 83 79 101 55 101     C 32 101 15 83 15 59     C 15 36 32 16 54 16 Z" fill="#FFFFFF" stroke="#D0D0D0" stroke-width="2.5"/>
+
+  <!-- Blue outer commitment arrow -->
+  <path d="     M 55 9     C 82 9 104 31 105 58     C 105 67 103 74 99 82" stroke="url(#clockBlue)" stroke-width="7" stroke-linecap="round"/>
+
+  <path d="     M 16 31     C 6 44 4 62 11 80     C 20 103 42 114 63 107" stroke="#0078D4" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Commitment arrowhead -->
+  <path d="     M 8 21     L 34 18     L 24 43     L 19 36     L 13 40 Z" fill="#0078D4" stroke="#075A9E" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M 13 26 L 26 23 L 21 35" stroke="#8FD7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn outer contour -->
+  <path d="     M 58 5     Q 85 7 100 29     M 5 72     Q 9 94 28 106     M 43 112     Q 55 116 67 110" stroke="#1599C5" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="17 5 8 5" opacity=".65"/>
+
+  <!-- Clock tick marks -->
+  <g stroke="#7A7A7A" stroke-width="2.8" stroke-linecap="round">
+    <path d="M 55 22 L 55 29"/>
+    <path d="M 80 32 L 75 37"/>
+    <path d="M 91 59 L 84 59"/>
+    <path d="M 29 59 L 22 59"/>
+    <path d="M 35 38 L 30 33"/>
+    <path d="M 35 81 L 30 86"/>
+    <path d="M 55 89 L 55 95"/>
+  </g>
+
+  <!-- Clock hands -->
+  <path d="     M 55 59     Q 54 44 55 28" stroke="#666666" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="     M 55 59     L 73 77" stroke="#777777" stroke-width="5.5" stroke-linecap="round"/>
+
+  <!-- Clock center -->
+  <circle cx="55" cy="59" r="7.2" fill="#666666" stroke="#444444" stroke-width="2"/>
+
+  <circle cx="53" cy="57" r="2" fill="#D8D8D8"/>
+
+  <!-- Small yellow time highlight -->
+  <path d="     M 39 24     L 42 20     M 44 27     L 48 24" stroke="#F3B82D" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Financial commitment scroll front -->
+  <path d="     M 72 75     C 72 71 75 68 79 68     L 108 68     C 114 68 118 72 118 78     L 118 117     L 88 117     C 83 117 80 120 76 121     C 72 121 70 117 70 113     L 72 75 Z" fill="url(#paperBlue)" stroke="#075A9E" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Rolled top-left attachment -->
+  <path d="     M 70 78     C 70 73 74 69 79 69     C 84 69 88 73 88 78     L 88 82     L 75 82     L 70 82 Z" fill="#0078D4" stroke="#075A9E" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <path d="     M 74 75     Q 79 72 84 76" stroke="#A4D9FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Financial commitment symbol, hand-drawn dollar mark -->
+  <path d="     M 94 83     C 88 79 83 84 84 88     C 85 92 94 91 95 96     C 96 101 88 104 83 100     M 89 79 L 89 105" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small dot details -->
+  <circle cx="81" cy="83" r="1.7" fill="#FFFFFF"/>
+  <circle cx="99" cy="84" r="1.7" fill="#FFFFFF"/>
+
+  <!-- Handwritten-style agreement lines -->
+  <g stroke="#FFFFFF" stroke-linecap="round" opacity=".95">
+    <path d="M 81 109 Q 94 108 108 109" stroke-width="2.7"/>
+    <path d="M 82 114 Q 97 115 112 113" stroke-width="2.6"/>
+  </g>
+
+  <!-- Right-side scroll shadow -->
+  <path d="     M 112 75     Q 114 80 114 88     L 114 111" stroke="#C2E5FF" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Curled lower parchment edge -->
+  <path d="     M 88 116     L 124 116     C 124 122 121 125 116 125     L 80 125     C 85 124 88 120 88 116 Z" fill="#5EA0EF" stroke="#075A9E" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <path d="M 94 120 Q 105 121 117 120" stroke="#BCE5FF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Golden commitment sparkle -->
+  <path d="     M 115 57     L 115 64     M 111 61     L 119 61" stroke="#F3B82D" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Subtle Azure sketch accents -->
+  <path d="     M 66 114     L 61 117     M 122 90     L 125 94" stroke="#1599C5" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+</svg>

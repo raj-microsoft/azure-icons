@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Lighthouse (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Lighthouse with a pointed blue roof,
+    open lantern gallery, central beacon, tapered tower,
+    diagonal light-blue bands and subtle yellow accents.
+    Original Azure colors and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="towerBlue" x1="64" y1="32" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".53" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <clipPath id="towerClip">
+      <path d="         M43 53         Q42 53 41 57         L13 116         Q11 122 18 122         L110 122         Q117 122 115 116         L87 57         Q86 53 83 53         Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Small hand-drawn light rays -->
+  <g stroke="#F4C542" stroke-linecap="round" fill="none">
+    <path d="M43 27 L34 22" stroke-width="3.2"/>
+    <path d="M41 35 L29 35" stroke-width="2.8"/>
+    <path d="M85 27 L94 22" stroke-width="3.2"/>
+    <path d="M87 35 L99 35" stroke-width="2.8"/>
+    <path d="M64 8 L64 4" stroke-width="2.5"/>
+  </g>
+
+  <!-- Lighthouse tapered tower -->
+  <path d="     M43 53     Q42 53 41 57     L13 116     Q11 122 18 122     L110 122     Q117 122 115 116     L87 57     Q86 53 83 53     Z" fill="url(#towerBlue)" stroke="#005BA1" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Diagonal lighter bands -->
+  <g clip-path="url(#towerClip)">
+    <path d="       M25 83       L84 51       L106 51       L18 102       Z" fill="#83B9F9"/>
+
+    <path d="       M55 126       L105 96       L116 112       L91 127       Z" fill="#83B9F9"/>
+
+    <!-- Freehand band edges -->
+    <path d="M25 84 Q58 67 85 52" stroke="#D5EBFF" stroke-width="2.2" stroke-linecap="round"/>
+
+    <path d="M55 125 Q82 109 105 97" stroke="#B9DCFF" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Subtle tower highlight -->
+    <path d="M39 73 Q30 93 23 113" stroke="#D8EFFF" stroke-width="2.8" stroke-linecap="round" opacity=".7"/>
+  </g>
+
+  <!-- Beacon gallery rear -->
+  <path d="     M40 25     L88 25     L88 53     L40 53     Z" fill="#EAF8FF" fill-opacity=".45"/>
+
+  <!-- Beacon lantern glow -->
+  <path d="     M58 43     L58 38     Q58 32 64 32     Q70 32 70 38     L70 43     Z" fill="#F4C542" opacity=".28"/>
+
+  <!-- Original blue central beacon -->
+  <path d="     M59 53     L59 38     Q59 33 64 33     Q69 33 69 38     L69 53     Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M63 38 L63 44" stroke="#9CEBFF" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Lighthouse gallery uprights -->
+  <path d="M41 25 Q42 38 41 53" stroke="#0078D4" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M87 25 Q86 39 87 53" stroke="#0078D4" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Pointed roof -->
+  <path d="     M35 24     Q34 22 38 20     L62 6     Q64 5 66 7     L90 20     Q94 22 93 25     L35 25     Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Roof sketch highlights -->
+  <path d="M43 21 Q55 14 63 10" stroke="#9CEBFF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M69 11 L84 20" stroke="#50E6FF" stroke-width="1.9" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Roof and gallery lower outlines -->
+  <path d="M38 27 Q64 28 90 27" stroke="#005BA1" stroke-width="2.2" stroke-linecap="round"/>
+
+  <path d="M41 53 Q64 52 87 53" stroke="#005BA1" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn structural marks -->
+  <g stroke="#005BA1" stroke-linecap="round" fill="none" opacity=".65">
+    <path d="M46 59 L42 67" stroke-width="1.8"/>
+    <path d="M83 59 L87 67" stroke-width="1.8"/>
+    <path d="M21 117 Q33 118 45 117" stroke-width="1.6"/>
+    <path d="M94 117 Q102 118 109 117" stroke-width="1.6"/>
+  </g>
+
+  <!-- Restrained sketchnote flourishes -->
+  <g stroke="#F4C542" stroke-linecap="round" fill="none">
+    <path d="M18 65 L25 62" stroke-width="2.6"/>
+    <path d="M16 73 L23 72" stroke-width="2.3"/>
+    <path d="M106 67 L113 63" stroke-width="2.6"/>
+    <path d="M109 75 L116 75" stroke-width="2.3"/>
+  </g>
+
+  <!-- Loose freehand marker echoes -->
+  <g stroke="#0078D4" stroke-linecap="round" fill="none">
+    <path d="M11 102 Q14 93 19 85" stroke-width="1.8"/>
+    <path d="M117 101 Q114 91 110 84" stroke-width="1.8"/>
+  </g>
+
+  <!-- Tiny marker dots -->
+  <circle cx="24" cy="45" r="1.8" fill="#50E6FF"/>
+  <circle cx="104" cy="44" r="1.8" fill="#50E6FF"/>
+  <circle cx="64" cy="16" r="1.6" fill="#F4C542"/>
+
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Compute Fleet (sketch)</title>
+  
+  <desc>Three staggered Azure compute panels with a fleet synchronization symbol, sketched marker outlines, original Azure blues, cyan highlights, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="fleetBack" x1="15" y1="20" x2="78" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#238CD9"/>
+      <stop offset="1" stop-color="#155EA1"/>
+    </linearGradient>
+    <linearGradient id="fleetMid" x1="34" y1="30" x2="95" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50B5EE"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="fleetFront" x1="55" y1="45" x2="115" y2="107" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C3F1FF"/>
+      <stop offset="1" stop-color="#8DC8E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear compute panel -->
+  <path d="M10 43 Q10 40 14 38 L69 7 Q73 5 75 8 L75 58 Q75 62 71 64 L16 96 Q11 99 11 94 Z" fill="#2A446F" stroke="#173C68" stroke-width="3.2"/>
+  <path d="M15 42 L70 11 L70 58 L16 90 Z" fill="url(#fleetBack)" stroke="#0078D4" stroke-width="2.6"/>
+  <path d="M19 46 L65 20 M19 53 L65 27" stroke="#8DC8E8" stroke-width="1.6" opacity=".5"/>
+
+  <!-- Hand-drawn rear deployment boundary -->
+  <path d="M8 39 L8 33 Q8 30 12 28 L58 2 Q62 0 65 2" stroke="#0078D4" stroke-width="2.3" stroke-dasharray="5 5"/>
+  <path d="M7 46 L7 83 M14 100 L22 96" stroke="#0078D4" stroke-width="2.2" stroke-dasharray="5 6"/>
+
+  <!-- Middle compute panel -->
+  <path d="M29 52 Q29 48 33 46 L88 15 Q93 12 95 16 L95 69 Q95 73 91 75 L36 107 Q31 110 30 105 Z" fill="#155EA1" stroke="#174A78" stroke-width="3.5"/>
+  <path d="M34 51 Q34 49 38 47 L89 18 L89 68 L35 100 Z" fill="url(#fleetMid)" stroke="#005BA1" stroke-width="2.7"/>
+  <path d="M39 54 L83 29 M39 61 L83 36" stroke="#9CEBFF" stroke-width="1.5" opacity=".55"/>
+
+  <!-- Rear-panel marker highlights -->
+  <path d="M21 78 L26 75 M22 84 L30 79" stroke="#50E6FF" stroke-width="2.4"/>
+  <path d="M40 89 L43 87 M46 85 L49 83" stroke="#FFF4BD" stroke-width="2.2"/>
+
+  <!-- Front compute panel side edge -->
+  <path d="M49 63 Q49 59 53 57 L108 26 Q113 23 116 27 L120 30 L120 83 Q120 87 116 89 L61 120 Q56 123 53 119 L49 115 Z" fill="#46A0DE" stroke="#155EA1" stroke-width="3.5"/>
+  <path d="M54 65 Q54 61 58 59 L113 28 Q117 26 118 30 L118 82 Q118 86 114 88 L59 119 Q54 122 54 116 Z" fill="url(#fleetFront)" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Irregular sketched inner panel -->
+  <path d="M60 66 L111 37 L112 82 L61 112 Z" fill="#8DC8E8" fill-opacity=".25" stroke="#238CD9" stroke-width="1.8"/>
+  <path d="M62 70 L108 44" stroke="#FFFFFF" stroke-width="2.3" opacity=".75"/>
+
+  <!-- Fleet synchronization ring -->
+  <path d="M92 61            C98 60 102 65 101 73            C100 82 94 90 87 94            C79 99 72 97 71 90            C69 83 74 73 81 67" stroke="#FFFFFF" stroke-width="5.8"/>
+  <path d="M92 61            C98 60 102 65 101 73            C100 82 94 90 87 94            C79 99 72 97 71 90            C69 83 74 73 81 67" stroke="#005BA1" stroke-width="3.6"/>
+
+  <!-- Synchronization arrow -->
+  <path d="M81 66 L89 62 L87 72" fill="#50E6FF" stroke="#005BA1" stroke-width="3"/>
+  <path d="M90 60 L93 58" stroke="#0078D4" stroke-width="1.8"/>
+
+  <!-- Isometric compute cube -->
+  <path d="M77 82 L85 73 L96 75 L88 85 Z" fill="#C3F1FF" stroke="#0078D4" stroke-width="2.4"/>
+  <path d="M77 82 L88 85 L88 96 L77 93 Z" fill="#9CEBFF" stroke="#0078D4" stroke-width="2.4"/>
+  <path d="M88 85 L96 75 L96 86 L88 96 Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.4"/>
+
+  <!-- Subtle handwritten-style accents -->
+  <path d="M100 48 L105 45 M103 53 L109 50" stroke="#FFFFFF" stroke-width="2.2"/>
+  <path d="M64 103 L68 101" stroke="#005BA1" stroke-width="2.2"/>
+
+  <!-- Fleet connection marks -->
+  <path d="M24 21 Q28 17 33 16" stroke="#F4C542" stroke-width="2.7"/>
+  <path d="M31 13 L35 15 L32 19" stroke="#F4C542" stroke-width="2.5"/>
+  <path d="M101 102 Q108 99 112 95" stroke="#F4C542" stroke-width="2.5"/>
+  <path d="M110 94 L114 94 L113 99" stroke="#F4C542" stroke-width="2.3"/>
+
+  <!-- Sketched grounding strokes -->
+  <path d="M42 116 Q47 118 50 117" stroke="#0078D4" stroke-width="2.1"/>
+  <path d="M64 124 Q77 125 87 119" stroke="#8DC8E8" stroke-width="1.8"/>
+</svg>

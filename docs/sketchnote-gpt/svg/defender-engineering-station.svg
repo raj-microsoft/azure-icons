@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Defender Engineering Station (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure engineering workstation featuring a blue
+    desktop monitor, white coding brackets, a diagonal slash,
+    and a grey metal stand. Original Azure colours, uneven
+    marker outlines, restrained yellow accents, and a
+    transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="monitorBlue" x1="64" y1="9" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.82" stop-color="#238CDD"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="standGrey" x1="64" y1="91" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main monitor: slightly uneven marker silhouette -->
+  <path d="     M10 9     Q7 9 7 13     L7 87     Q7 91 11 91     L117 91     Q121 91 121 87     L121 13     Q121 9 117 9     Z" fill="url(#monitorBlue)" stroke="#15558A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn upper screen highlight -->
+  <path d="     M14 17     Q14 15 18 15     L109 15     Q114 15 114 19" stroke="#B8DFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Imperfect screen-edge sketch strokes -->
+  <path d="M13 27 Q12 49 13 77" stroke="#8ACAF5" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M19 85 Q63 87 109 85" stroke="#005BA1" stroke-width="2.2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Left code bracket < -->
+  <path d="     M49 30     Q47 29 45 32     L28 47     Q25 50 28 53     L45 69     Q47 71 49 69" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left bracket subtle marker shadow -->
+  <path d="M44 37 L31 49 L44 62" stroke="#A5D4FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+  <!-- Right code bracket > -->
+  <path d="     M79 30     Q81 29 83 32     L100 47     Q103 50 100 53     L83 69     Q81 71 79 69" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right bracket marker shadow -->
+  <path d="M84 37 L97 49 L84 62" stroke="#A5D4FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+  <!-- Central diagonal coding slash -->
+  <path d="     M72 23     Q73 21 76 23     L78 24     Q80 25 79 28     L57 76     Q56 79 53 78     L51 77     Q49 76 50 73     Z" fill="#FFFFFF" stroke="#D8EBFC" stroke-width="1.3" stroke-linejoin="round"/>
+
+  <!-- Slash handwritten highlight -->
+  <path d="M73 29 L55 69" stroke="#9FC6F5" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Monitor lower bezel detail -->
+  <path d="M18 91 Q65 93 110 91" stroke="#164F80" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Stand neck -->
+  <path d="     M53 91     L75 91     L76 104     Q76 109 79 112     L85 114     L43 114     L49 112     Q52 109 52 104     Z" fill="url(#standGrey)" stroke="#666666" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Stand neck sketch highlight -->
+  <path d="M58 95 L58 107" stroke="#E4E4E4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Monitor foot -->
+  <path d="     M45 112     Q48 110 54 110     L74 110     Q80 110 83 112     L91 116     Q94 118 94 121     L34 121     Q34 118 37 116     Z" fill="#CCCCCC" stroke="#707070" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Loose hand-drawn base line -->
+  <path d="M43 117 Q64 115 86 117" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 26 L1 22"/>
+    <path d="M3 36 L0 36"/>
+    <path d="M124 26 L127 21"/>
+    <path d="M124 35 L127 35"/>
+    <path d="M101 107 L107 103"/>
+    <path d="M104 114 L111 115"/>
+  </g>
+
+  <!-- Small sketch accent dots -->
+  <circle cx="110" cy="101" r="2" fill="#F4C542"/>
+  <circle cx="18" cy="101" r="2" fill="#50E6FF"/>
+
+  <!-- Small screen glint -->
+  <path d="M105 20 L111 20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>

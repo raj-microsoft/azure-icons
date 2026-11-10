@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Custom IP Prefix (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Custom IP Prefix icon featuring a layered
+    blue network address panel with three white connection dots,
+    an overlapping cyan globe with meridians and parallels,
+    and a curved routing arrow. Original Azure-blue and cyan
+    colours, uneven marker outlines, restrained yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="panelBlue" x1="18" y1="15" x2="94" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.5" stop-color="#378FE4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="globeCyan" x1="67" y1="66" x2="121" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="0.55" stop-color="#3DCDEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark blue rear network panel -->
+  <path d="M9 9            Q9 5 14 5            L96 6            Q100 6 100 11            L100 63            C87 63 76 70 71 82            L14 82            Q9 82 9 77Z" fill="#005BA1" stroke="#003F78" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main Azure-blue address window -->
+  <path d="M19 17            Q19 13 23 13            L106 14            Q110 14 110 18            L110 68            C94 64 79 73 75 89            L23 89            Q19 89 19 85Z" fill="url(#panelBlue)" stroke="#005BA1" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Window header -->
+  <path d="M19 18            Q19 14 23 14            L106 14            Q110 14 110 18            L110 36            L19 36Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn header highlight -->
+  <path d="M25 20 Q63 19 101 20" stroke="#B8DEFF" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Header's subtle marker underline -->
+  <path d="M25 39 Q60 40 99 39" stroke="#B9E1FF" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Three white network address dots -->
+  <path d="M36 54            C40 54 43 57 43 61            C43 65 40 68 36 68            C32 68 29 65 29 61            C29 57 32 54 36 54Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M59 54            C63 54 66 57 66 61            C66 65 63 68 59 68            C55 68 52 65 52 61            C52 57 55 54 59 54Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M82 54            C86 54 89 57 89 61            C89 65 86 68 82 68            C78 68 75 65 75 61            C75 57 78 54 82 54Z" fill="#FFFFFF" stroke="#005BA1" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Dot highlights -->
+  <g stroke="#D9F1FF" stroke-width="1.6" stroke-linecap="round">
+    <path d="M33 59 L35 57"/>
+    <path d="M56 59 L58 57"/>
+    <path d="M79 59 L81 57"/>
+  </g>
+
+  <!-- Cyan custom-routing return arrow -->
+  <path d="M72 111            C59 111 49 101 49 88            Q49 84 50 80" stroke="#007C9F" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <path d="M72 111            C59 111 49 101 49 88            Q49 84 50 80" stroke="#50E6FF" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Routing arrowhead -->
+  <path d="M38 84            L51 69            Q53 67 55 70            L68 84            Q70 87 66 87            L60 87            C60 94 63 99 69 101            L69 108            C57 105 52 98 51 87            L41 87            Q37 87 38 84Z" fill="#50E6FF" stroke="#007C9F" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Globe outer circle -->
+  <path d="M124 96            C124 111 112 123 97 123            C82 123 70 111 70 96            C70 81 82 69 97 69            C112 69 124 81 124 96Z" fill="none" stroke="#007C9F" stroke-width="3.6"/>
+
+  <!-- Globe inner circular sketch -->
+  <path d="M120 96            C120 109 110 119 97 119            C84 119 74 109 74 96            C74 83 84 73 97 73            C110 73 120 83 120 96Z" fill="none" stroke="url(#globeCyan)" stroke-width="2.6"/>
+
+  <!-- Globe equator and parallels -->
+  <g fill="none" stroke="#32BEDD" stroke-width="2.6" stroke-linecap="round">
+    <path d="M72 96 Q97 94 122 96"/>
+    <path d="M77 83 Q97 87 117 83"/>
+    <path d="M77 109 Q97 105 117 109"/>
+  </g>
+
+  <!-- Globe meridians -->
+  <g fill="none" stroke="#32BEDD" stroke-width="2.5" stroke-linecap="round">
+    <path d="M97 71 L97 121"/>
+    <path d="M97 71              C84 79 82 89 82 96              C82 105 88 115 97 121"/>
+    <path d="M97 71              C110 79 112 89 112 96              C112 105 106 115 97 121"/>
+  </g>
+
+  <!-- Globe white marker highlight -->
+  <path d="M83 78 Q89 74 94 74" stroke="#C9F8FF" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#FFD45A" stroke-width="2.7" stroke-linecap="round">
+    <path d="M111 61 L115 56"/>
+    <path d="M118 65 L124 62"/>
+    <path d="M119 72 L124 73"/>
+  </g>
+
+  <!-- Small Azure-blue sketch accents -->
+  <g stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" opacity="0.8">
+    <path d="M12 95 L8 99"/>
+    <path d="M21 100 L18 105"/>
+    <path d="M31 109 L28 114"/>
+  </g>
+
+</svg>

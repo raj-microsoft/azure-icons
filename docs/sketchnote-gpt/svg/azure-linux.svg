@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Linux (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Linux icon preserving the original
+    three-part flowing silhouette: a sweeping light-blue
+    left ribbon, deep Azure-blue right ribbon, and soft
+    white central form. Uneven marker outlines, original
+    Azure colours, subtle yellow sketch accents, and
+    a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="linuxLeft" x1="8" y1="120" x2="89" y2="5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset=".35" stop-color="#0E89DB"/>
+      <stop offset=".72" stop-color="#28A9E8"/>
+      <stop offset="1" stop-color="#32B5ED"/>
+    </linearGradient>
+
+    <linearGradient id="linuxRight" x1="56" y1="65" x2="122" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B4C8A"/>
+      <stop offset=".68" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#32B5ED"/>
+    </linearGradient>
+
+    <linearGradient id="linuxCenter" x1="61" y1="122" x2="61" y2="61" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E6E6E6"/>
+      <stop offset=".5" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FCFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left sweeping Azure Linux ribbon -->
+  <path d="M3 124            C5 117 8 109 11 100            L37 23            C42 9 54 2 67 2            C77 2 86 6 92 13            L90 13            C73 13 58 27 58 44            C58 52 60 58 64 64            C51 66 41 75 36 89            L26 116            C24 121 20 124 14 124            Z" fill="url(#linuxLeft)" stroke="#075B99" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left ribbon inner marker highlight -->
+  <path d="M12 109            L43 25            C48 14 56 9 66 8" stroke="#91E5FF" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M20 113            L37 65" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Right deep-blue flowing ribbon -->
+  <path d="M91 13            L110 13            C104 18 96 28 96 39            C96 51 102 58 109 68            C117 79 125 90 125 103            C125 113 121 120 115 124            L102 87            C97 73 84 65 68 65            C66 65 65 65 64 66            C60 60 58 52 58 44            C58 27 73 13 91 13            Z" fill="url(#linuxRight)" stroke="#064E89" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right ribbon blue facet -->
+  <path d="M91 17            L102 17            C95 26 91 34 91 42            C91 56 100 66 106 76            C112 86 117 98 119 108            C116 91 106 78 96 69            C84 59 65 62 64 63            C61 58 59 51 60 44            C61 28 75 17 91 17 Z" fill="#0078D4" opacity=".25"/>
+
+  <!-- Right ribbon highlight -->
+  <path d="M102 20            C94 29 92 38 94 47" stroke="#69C7F4" stroke-width="2.8" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M108 69            C117 82 121 91 122 101" stroke="#50B7ED" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Central white Linux form -->
+  <path d="M68 65            C84 65 98 75 103 90            L115 124            L11 124            C18 124 24 120 26 113            L36 89            C41 75 53 65 68 65            Z" fill="url(#linuxCenter)" stroke="#6A9CB8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Soft central hand-drawn contour -->
+  <path d="M43 88            C48 76 57 71 68 71" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".95"/>
+
+  <path d="M77 72            C87 75 94 82 98 94" stroke="#C8E8F2" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Subtle grey material shading -->
+  <path d="M28 117            Q27 121 23 123            L106 123" stroke="#C8D3DC" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Organic sketchnote marker contours -->
+  <g stroke="#005A9E" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".7">
+    <path d="M38 31 Q43 18 51 13"/>
+    <path d="M5 116 L9 105"/>
+    <path d="M73 9 Q81 10 86 14"/>
+    <path d="M118 115 Q123 106 121 98"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#FFD70F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M111 7 L111 16"/>
+    <path d="M106.5 11.5 L115.5 11.5"/>
+    <path d="M11 55 L15 59"/>
+    <path d="M15 55 L11 59"/>
+  </g>
+
+  <!-- Loose Azure-blue hand-drawn emphasis marks -->
+  <g stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <path d="M5 79 Q8 74 13 72"/>
+    <path d="M119 64 Q123 69 124 74"/>
+    <path d="M37 119 Q42 121 48 120"/>
+  </g>
+
+  <!-- Small handwritten-style accent strokes -->
+  <g stroke="#FFD70F" stroke-width="2" stroke-linecap="round">
+    <path d="M24 16 L20 12"/>
+    <path d="M30 11 L28 6"/>
+  </g>
+
+</svg>

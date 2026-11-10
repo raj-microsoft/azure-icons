@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Cost Budgets (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Cost Budgets icon featuring a green
+    circular budget tracking arrow, central green dollar
+    symbol, and three orange milestone dots. Original
+    Azure green and orange palette with uneven marker
+    outlines, subtle yellow and Azure-blue accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="budgetGreen" x1="30" y1="18" x2="104" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset="0.55" stop-color="#70B22B"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+
+    <linearGradient id="milestoneOrange" x1="10" y1="10" x2="42" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFB347"/>
+      <stop offset="0.55" stop-color="#F78D1E"/>
+      <stop offset="1" stop-color="#E87812"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main circular budget tracking arrow -->
+  <path d="M81 15            C102 22 116 42 116 65            C116 94 94 115 66 116            C44 117 27 105 18 89" stroke="#5E9624" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Green hand-drawn arrow highlight -->
+  <path d="M81 15            C102 22 116 42 116 65            C116 94 94 115 66 116            C44 117 27 105 18 89" stroke="url(#budgetGreen)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrowhead representing budget cycle -->
+  <path d="M15 76            L9 104            Q9 107 12 106            L39 96            Q42 95 40 92            L19 74            Q16 72 15 76Z" fill="#76BC2D" stroke="#4B7C1F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Inner arrow marker highlight -->
+  <path d="M17 82 L15 98 L31 93" stroke="#B4E477" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central dollar symbol: bold sketchnote marker -->
+  <path d="M67 30            L67 98" stroke="#5E9624" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Upper dollar curve -->
+  <path d="M82 41            C74 36 61 35 54 41            C47 47 49 57 57 62            C63 66 74 68 80 74            C87 81 82 90 74 93            C65 97 55 94 47 89" stroke="#76BC2D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Secondary hand-drawn dollar highlight -->
+  <path d="M80 38            Q65 32 55 39            M49 93            Q61 100 73 96" stroke="#A2D86C" stroke-width="2.3" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Dollar stem marker texture -->
+  <path d="M70 34 L70 47            M70 81 L70 94" stroke="#A2D86C" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Orange milestone 1: left -->
+  <path d="M8 49            C8 43 12 39 18 39            C24 39 28 43 28 49            C28 55 24 59 18 59            C12 59 8 55 8 49Z" fill="url(#milestoneOrange)" stroke="#C66A12" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Orange milestone 2: upper left -->
+  <path d="M23 20            C23 14 27 10 33 10            C39 10 43 14 43 20            C43 26 39 30 33 30            C27 30 23 26 23 20Z" fill="url(#milestoneOrange)" stroke="#C66A12" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Orange milestone 3: top -->
+  <path d="M52 10            C52 4 56 1 62 1            C68 1 72 5 72 11            C72 17 68 21 62 21            C56 21 52 16 52 10Z" fill="url(#milestoneOrange)" stroke="#C66A12" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Small glossy marker highlights on dots -->
+  <g stroke="#FFD78B" stroke-width="2.5" stroke-linecap="round">
+    <path d="M13 46 Q15 43 19 44"/>
+    <path d="M28 17 Q30 14 34 15"/>
+    <path d="M57 7 Q60 5 64 7"/>
+  </g>
+
+  <!-- Small dot shadows for hand-drawn dimension -->
+  <g fill="#D87517" opacity="0.55">
+    <path d="M20 54 Q24 53 25 49 Q26 56 20 56Z"/>
+    <path d="M35 25 Q39 23 40 20 Q40 26 35 27Z"/>
+    <path d="M64 17 Q68 15 69 11 Q70 18 64 18Z"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote emphasis -->
+  <g stroke="#FFD45A" stroke-width="2.7" stroke-linecap="round">
+    <path d="M92 19 L97 14"/>
+    <path d="M100 27 L107 24"/>
+    <path d="M104 35 L111 35"/>
+  </g>
+
+  <!-- Subtle Azure-blue annotation strokes -->
+  <g stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" opacity="0.8">
+    <path d="M103 106 L108 110"/>
+    <path d="M94 114 L97 119"/>
+    <path d="M43 117 L39 121"/>
+  </g>
+
+  <!-- Small hand-sketched motion ticks -->
+  <g stroke="#76BC2D" stroke-width="2" stroke-linecap="round">
+    <path d="M118 51 L123 49"/>
+    <path d="M120 61 L125 61"/>
+    <path d="M117 78 L122 80"/>
+  </g>
+
+</svg>

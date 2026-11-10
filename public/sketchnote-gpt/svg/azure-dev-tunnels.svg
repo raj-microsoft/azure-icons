@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Dev Tunnels (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Dev Tunnels icon preserving the original
+    rounded tunnel entrance, white central opening, and cyan
+    perspective pathway. Original Azure-blue and cyan colors,
+    uneven marker outlines, subtle yellow sketch accents,
+    transparent background, and fully editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="tunnelBody" x1="64" y1="8" x2="64" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#03497F"/>
+      <stop offset=".48" stop-color="#0865A7"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="tunnelPath" x1="64" y1="89" x2="64" y2="126" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer tunnel: recognizable arched silhouette -->
+  <path d="     M 8 118     L 8 56     C 8 26 31 6 63 6     C 96 5 120 27 120 56     L 120 118     Z" fill="url(#tunnelBody)" stroke="#063F70" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn outer arch highlight -->
+  <path d="     M 15 69     L 15 55     C 15 29 36 13 62 13     M 78 15     C 99 20 113 36 113 57" stroke="#5EA0EF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Subtle secondary sketch contour -->
+  <path d="     M 4 83     L 4 55     Q 5 32 22 17     M 39 7     Q 52 2 66 3     M 91 10     Q 116 22 124 48     L 124 77" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="16 5 8 5" opacity=".65"/>
+
+  <!-- Tunnel side-wall marker strokes -->
+  <path d="     M 19 77     L 19 109     M 109 77     L 109 109" stroke="#1687C5" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- White central tunnel opening -->
+  <path d="     M 40 88     L 40 57     C 40 44 50 34 63 34     C 77 34 88 44 88 57     L 88 88     Z" fill="#FFFFFF" stroke="#075A9E" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Inner opening highlight -->
+  <path d="     M 46 81     L 46 57     C 46 47 53 40 63 40     M 74 43     Q 82 48 82 58" stroke="#C9EFFF" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Slightly uneven internal arch contour -->
+  <path d="     M 36 81     L 36 57     Q 37 39 53 32     M 75 32     Q 93 40 93 57     L 93 81" stroke="#159DCE" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="12 5 7 5" opacity=".6"/>
+
+  <!-- Cyan perspective pathway -->
+  <path d="     M 40 88     L 88 88     L 126 126     L 2 126     Z" fill="url(#tunnelPath)" stroke="#168DB5" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pathway perspective edges -->
+  <path d="     M 40 88     L 3 125     M 88 88     L 125 125" stroke="#098FB6" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Subtle central perspective guide -->
+  <path d="     M 64 94     Q 63 107 64 122" stroke="#D9FAFF" stroke-width="2.7" stroke-linecap="round" stroke-dasharray="8 7" opacity=".75"/>
+
+  <!-- Perspective cross-strokes -->
+  <path d="     M 34 103     Q 64 105 94 103     M 18 118     Q 64 120 110 118" stroke="#84EAFA" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Hand-drawn pathway edge highlights -->
+  <path d="     M 34 95     L 13 116     M 94 95     L 115 116" stroke="#D5FAFF" stroke-width="2.3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Small sketchnote marker annotations -->
+  <path d="     M 24 39     Q 29 28 38 24     M 90 26     Q 100 32 104 43" stroke="#8BD4FF" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Restrained yellow accent sparks -->
+  <path d="     M 104 14     L 108 9     M 109 19     L 115 19" stroke="#F3B82D" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="     M 19 95     L 14 99     M 108 95     L 113 99" stroke="#F3B82D" stroke-width="2.4" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Freehand decorative motion marks -->
+  <path d="     M 55 23     Q 64 21 73 23     M 48 117     L 53 117     M 75 117     L 80 117" stroke="#50E6FF" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title"><title>App Services (sketch)</title>
+  
+
+  <defs>
+    <clipPath id="globe">
+      <path d="M64 8                C94 7 119 31 120 61                C121 92 97 119 66 120                C35 122 9 99 8 68                C6 37 32 10 64 8Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Hand-drawn Azure globe -->
+  <path d="M64 8            C94 7 119 31 120 61            C121 92 97 119 66 120            C35 122 9 99 8 68            C6 37 32 10 64 8Z" fill="#0078D4"/>
+
+  <!-- Uneven outer marker outline -->
+  <path d="M64 8            C94 7 119 31 120 61            C121 92 97 119 66 120            C35 122 9 99 8 68            C6 37 32 10 64 8Z" stroke="#104D80" stroke-width="3.2"/>
+
+  <g clip-path="url(#globe)">
+
+    <!-- Azure-blue marker highlights -->
+    <path d="M25 39              C35 22 51 16 68 15              C85 14 102 25 110 41" stroke="#5EA0EF" stroke-width="6" opacity=".65"/>
+
+    <path d="M18 76              C22 94 38 108 55 112" stroke="#5EA0EF" stroke-width="3" opacity=".55"/>
+
+    <!-- Sweeping network orbit -->
+    <path d="M29 67              C45 37 72 23 105 27" stroke="#FFFFFF" stroke-width="7" opacity=".88"/>
+
+    <path d="M28 67              C47 38 74 25 106 28" stroke="#C9EBFF" stroke-width="1.8" stroke-dasharray="3 9" opacity=".8"/>
+
+    <!-- Left lower orbit -->
+    <path d="M29 68              C21 84 18 95 17 109" stroke="#EAF7FF" stroke-width="6" opacity=".9"/>
+
+    <!-- Network connection: left to bottom -->
+    <path d="M31 69              Q43 88 70 98" stroke="#F6FBFF" stroke-width="6.5"/>
+
+    <!-- Network connection: bottom to right -->
+    <path d="M72 98              Q94 109 114 102" stroke="#F6FBFF" stroke-width="6.5"/>
+
+    <!-- Diagonal upper connection -->
+    <path d="M39 16              C49 39 70 56 97 72" stroke="#EDF8FF" stroke-width="6" opacity=".9"/>
+
+    <!-- Right edge orbit -->
+    <path d="M104 74              Q114 81 125 85" stroke="#EAF7FF" stroke-width="6" opacity=".9"/>
+
+    <!-- Marker motion strokes -->
+    <path d="M48 47 Q61 36 76 33" stroke="#FFCC4D" stroke-width="2.6" stroke-dasharray="3 6"/>
+
+    <path d="M47 87 Q54 93 61 95" stroke="#FFCC4D" stroke-width="2.5" opacity=".85"/>
+
+  </g>
+
+  <!-- Left network node -->
+  <path d="M33 48            C44 47 52 56 52 67            C52 79 43 88 31 88            C19 87 12 77 13 66            C14 55 22 48 33 48Z" fill="#F7FAFC" stroke="#174F77" stroke-width="3.2"/>
+
+  <path d="M22 60 Q28 54 36 56" stroke="#FFFFFF" stroke-width="3.5"/>
+
+  <path d="M20 72 Q23 79 31 81" stroke="#AABCCA" stroke-width="2.3"/>
+
+  <!-- Bottom network node -->
+  <path d="M72 86            C79 86 85 92 85 99            C85 107 79 113 72 113            C64 114 58 108 58 100            C58 92 64 86 72 86Z" fill="#F5F8FA" stroke="#174F77" stroke-width="3"/>
+
+  <path d="M64 96 Q68 91 73 92" stroke="#FFFFFF" stroke-width="2.4"/>
+
+  <!-- Right network node -->
+  <path d="M101 60            C109 59 116 66 116 74            C116 83 109 89 101 89            C92 89 86 83 86 74            C86 66 93 60 101 60Z" fill="#F5F8FA" stroke="#174F77" stroke-width="3"/>
+
+  <path d="M93 71 Q96 65 103 66" stroke="#FFFFFF" stroke-width="2.6"/>
+
+  <!-- Small hand-drawn accent marks -->
+  <g stroke="#FFCC4D" stroke-width="2.8">
+    <path d="M51 49 L55 44"/>
+    <path d="M60 45 L61 39"/>
+    <path d="M66 48 L71 45"/>
+    <path d="M91 94 L95 90"/>
+    <path d="M99 96 L101 92"/>
+  </g>
+
+  <!-- Sketch-style outer emphasis -->
+  <g stroke="#0078D4" stroke-width="2.3" opacity=".85">
+    <path d="M19 29 L14 24"/>
+    <path d="M27 21 L25 14"/>
+    <path d="M108 20 L113 15"/>
+    <path d="M116 28 L122 25"/>
+    <path d="M21 107 L16 112"/>
+  </g>
+
+  <!-- Yellow handwritten sparkle -->
+  <g stroke="#FFCC4D" stroke-width="2.8">
+    <path d="M114 108 L114 119"/>
+    <path d="M109 113 L119 113"/>
+    <path d="M110.5 109.5 L117.5 116.5" stroke-width="1.6"/>
+    <path d="M117.5 109.5 L110.5 116.5" stroke-width="1.6"/>
+  </g>
+
+  <!-- Final marker details -->
+  <g stroke="#FFFFFF" stroke-width="1.8" opacity=".7">
+    <path d="M43 31 Q51 24 59 22"/>
+    <path d="M81 110 Q90 107 96 102"/>
+  </g>
+</svg>

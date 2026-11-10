@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Arc Data services (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue database cylinder standing on a wide cyan elliptical platform, preserving the original Arc Data Services silhouette.</desc>
+
+  <defs>
+    <linearGradient id="dbBlue" x1="25" y1="0" x2="104" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="platformBlue" x1="0" y1="90" x2="0" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wide floating Azure data platform -->
+  <path d="M5 94            C5 82 31 74 64 74            C97 74 123 82 123 94            L123 108            C122 119 96 125 64 125            C31 125 7 119 5 108Z" fill="#5EA0EF" stroke="#0067B8" stroke-width="3.5"/>
+
+  <!-- Platform's bright cyan top -->
+  <path d="M5 94            C5 82 31 74 64 74            C97 74 123 82 123 94            C123 106 97 113 64 113            C31 113 5 106 5 94Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Slightly irregular marker highlight -->
+  <path d="M14 91            C25 82 43 79 59 79            M83 79 C101 81 114 86 119 92" stroke="#D5F9FF" stroke-width="2.5"/>
+
+  <!-- Cylinder body -->
+  <path d="M26 17            C26 29 43 34 64 34            C85 34 102 29 102 17            L102 91            C102 102 85 108 64 108            C43 108 26 102 26 91Z" fill="url(#dbBlue)" stroke="#004E8A" stroke-width="3.5"/>
+
+  <!-- Subtle hand-drawn vertical surface marks -->
+  <path d="M33 38            Q32 62 33 88            M96 37            Q97 63 96 89" stroke="#50B7EF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Curved database surface highlight -->
+  <path d="M40 43            Q40 67 40 91            M46 97            Q63 103 80 98" stroke="#5EA0EF" stroke-width="3" opacity=".8"/>
+
+  <!-- Database top rim -->
+  <path d="M26 17            C26 5 43 2 64 2            C85 2 102 6 102 17            C102 29 85 34 64 34            C43 34 26 29 26 17Z" fill="#E8E8E8" stroke="#697B8B" stroke-width="3.5"/>
+
+  <!-- Cyan inner ellipse -->
+  <path d="M35 16            C35 9 48 6 64 6            C80 6 93 10 93 16            C93 23 80 27 64 27            C48 27 35 23 35 16Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Inner ellipse lower-depth shadow -->
+  <path d="M40 23            C46 19 55 18 64 18            C75 18 84 20 89 23            C83 26 74 28 64 28            C53 28 45 26 40 23Z" fill="#198AB3" opacity=".9"/>
+
+  <!-- Quick marker highlight on inner rim -->
+  <path d="M43 13            C52 9 72 8 83 13" stroke="#DAFAFF" stroke-width="2.5"/>
+
+  <!-- Database upper rim sketch strokes -->
+  <path d="M28 22            Q37 34 57 36            M76 35            Q94 32 101 24" stroke="#005BA1" stroke-width="2.5"/>
+
+  <!-- Subtle cyan base reflections -->
+  <path d="M17 103            Q25 109 39 111            M89 111            Q108 108 117 101" stroke="#B7F7FF" stroke-width="2.5"/>
+
+  <!-- Azure sketchnote accent: tiny data rays -->
+  <path d="M13 46 L7 43            M15 55 L8 55            M115 45 L121 41            M115 55 L123 54" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Restrained yellow annotation spark -->
+  <path d="M110 20 L110 28            M106 24 L114 24" stroke="#F7C64A" stroke-width="3"/>
+
+  <!-- Small sketch notation marks -->
+  <path d="M13 72 Q17 69 21 70            M107 70 Q112 68 116 72" stroke="#50E6FF" stroke-width="2.5"/>
+
+  <!-- Deliberately irregular platform edge -->
+  <path d="M12 113            Q34 126 61 126            M76 126            Q104 123 118 114" stroke="#0078D4" stroke-width="2" opacity=".8"/>
+</svg>

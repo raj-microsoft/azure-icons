@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Monitor Pipeline (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Monitor Pipeline icon featuring an Azure-blue
+    monitoring cloud, a three-part horizontal pipeline, and two
+    directional data-flow arrows. Original Azure blue and cyan
+    colours, uneven marker outlines, restrained yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="35" y1="18" x2="35" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="pipeCyan" x1="0" y1="54" x2="0" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8DC8E8"/>
+      <stop offset="1" stop-color="#46A0DE"/>
+    </linearGradient>
+
+    <linearGradient id="pipeBlue" x1="0" y1="60" x2="0" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#155EA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure monitoring cloud -->
+  <path d="M30 94            C16 95 6 84 6 71            C6 58 15 48 28 46            C33 32 46 23 61 23            C77 23 89 32 93 45            Q88 47 85 53            L82 59            Q76 55 70 59            Q65 63 65 71            L65 80            Q57 84 56 94            Z" fill="url(#cloudBlue)" stroke="#075A9B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cloud hand-drawn highlights -->
+  <path d="M17 61            Q20 53 30 51            M37 43            Q46 29 60 29" stroke="#B8E7FF" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M67 29            Q81 31 87 44" stroke="#D4F1FF" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M14 74            Q17 84 27 87" stroke="#005BA1" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Upper data-flow arrow: right to left -->
+  <path d="M89 48            L82 41            Q80 39 82 37            L89 30            Q91 28 93 30            L93 34            L116 34            Q123 34 123 41            L123 50            Q123 58 115 58            L111 58" stroke="#155EA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M89 48            L82 41            L89 34" stroke="#155EA1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Pipeline central body -->
+  <path d="M73 63            L112 63            L112 91            L73 91 Z" fill="url(#pipeBlue)" stroke="#124E87" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Left pipeline connector -->
+  <path d="M63 58            Q63 55 67 55            L72 55            Q76 55 76 59            L76 96            Q76 100 72 100            L67 100            Q63 100 63 96 Z" fill="url(#pipeCyan)" stroke="#155EA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Right pipeline connector -->
+  <path d="M109 58            Q109 55 113 55            L118 55            Q122 55 122 59            L122 96            Q122 100 118 100            L113 100            Q109 100 109 96 Z" fill="url(#pipeCyan)" stroke="#155EA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Pipeline inner hand-drawn highlights -->
+  <path d="M82 69            L103 69" stroke="#8DC8E8" stroke-width="2.6" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M69 62            L69 89            M115 62            L115 89" stroke="#D9F3FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M81 85            Q92 87 103 85" stroke="#003F7A" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Lower data-flow arrow: left to right -->
+  <path d="M67 91            Q58 91 58 101            L58 105            Q58 113 67 113            L96 113            L96 118            L106 108            L96 98            L96 103            L72 103" fill="none" stroke="#155EA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Extra offset marker strokes -->
+  <path d="M65 108            Q75 109 85 108" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M101 39            L115 39" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <g stroke="#FFD70F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112 12 L112 22"/>
+    <path d="M107 17 L117 17"/>
+    <path d="M29 106 L29 114"/>
+    <path d="M25 110 L33 110"/>
+  </g>
+
+  <!-- Loose Azure-blue marker accents -->
+  <g stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <path d="M6 43 Q9 38 14 36"/>
+    <path d="M9 98 Q14 101 19 102"/>
+    <path d="M119 108 Q123 112 124 117"/>
+  </g>
+
+  <!-- Small handwritten-style emphasis marks -->
+  <g stroke="#FFD70F" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M100 18 L103 13"/>
+    <path d="M119 25 L124 23"/>
+    <path d="M37 116 L42 119"/>
+  </g>
+
+</svg>

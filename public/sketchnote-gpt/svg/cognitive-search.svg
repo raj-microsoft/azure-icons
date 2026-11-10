@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Cognitive Search (sketch)</title>
+
+  
+  <desc>
+    Azure Cognitive Search icon featuring a rounded Azure-blue
+    cloud with a prominent white magnifying glass and pale-blue
+    lens. Organic marker outlines, original Azure colors,
+    restrained yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="searchCloud" x1="64" y1="16" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="searchLens" x1="53" y1="48" x2="82" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A9D1FF"/>
+      <stop offset="1" stop-color="#83B9F9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cloud silhouette -->
+  <path d="M36 109            C20 110 7 99 7 82            C7 67 18 54 33 52            C39 31 56 20 76 21            C98 21 112 36 113 55            C126 58 125 72 125 82            C125 98 113 109 99 109            Q68 111 36 109Z" fill="url(#searchCloud)" stroke="#1766A8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cloud hand-drawn highlights -->
+  <g stroke="#B8E0FF" stroke-width="3" stroke-linecap="round" fill="none" opacity=".85">
+    <path d="M16 77 Q18 64 33 61"/>
+    <path d="M44 49 Q52 30 73 29"/>
+    <path d="M89 32 Q103 40 105 54"/>
+  </g>
+
+  <!-- Cloud contour sketch strokes -->
+  <g stroke="#005BA1" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".55">
+    <path d="M15 91 Q22 102 36 101"/>
+    <path d="M114 65 Q120 73 118 82"/>
+    <path d="M108 100 Q115 96 117 89"/>
+  </g>
+
+  <!-- Magnifying glass handle shadow -->
+  <path d="M54 83            L34 104            Q30 108 26 104            Q22 100 26 96            L47 75Z" fill="#155EA1" opacity=".35"/>
+
+  <!-- Magnifying glass handle -->
+  <path d="M53 79            L33 101            Q29 105 25 101            Q21 97 25 93            L46 72Z" fill="#F2F2F2" stroke="#D5E9F7" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Handle marker highlight -->
+  <path d="M29 96 L46 79" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Magnifying glass outer ring -->
+  <path d="M89 51            C98 60 100 74 94 86            C88 98 74 104 61 101            C48 98 39 87 39 74            C39 61 48 49 61 45            C72 42 82 44 89 51Z" fill="#F2F2F2" stroke="#DCECF7" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner blue lens -->
+  <path d="M83 57            C90 64 91 74 87 82            C83 91 73 96 64 94            C54 92 47 84 47 74            C47 64 54 55 64 52            C71 50 78 52 83 57Z" fill="url(#searchLens)" stroke="#5C9EDC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Glass reflection -->
+  <path d="M54 69            Q58 59 68 58" stroke="#EAF6FF" stroke-width="3.4" stroke-linecap="round" fill="none" opacity=".95"/>
+
+  <path d="M77 58 Q82 61 84 67" stroke="#D5EBFF" stroke-width="2" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <!-- Subtle lens sketch detail -->
+  <path d="M55 84 Q63 94 75 88" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round" fill="none" opacity=".65"/>
+
+  <!-- Hand-drawn Azure accent strokes -->
+  <g stroke="#0078D4" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".75">
+    <path d="M12 49 L17 43"/>
+    <path d="M9 58 L13 54"/>
+    <path d="M105 115 Q113 113 118 108"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4BE46" stroke-width="2.8" stroke-linecap="round" fill="none">
+    <path d="M22 28 L17 23"/>
+    <path d="M31 23 L31 16"/>
+    <path d="M110 24 L115 18"/>
+    <path d="M118 32 L124 30"/>
+  </g>
+
+  <!-- Small discovery sparkle -->
+  <path d="M108 113 L108 121            M104 117 L112 117" stroke="#F4BE46" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

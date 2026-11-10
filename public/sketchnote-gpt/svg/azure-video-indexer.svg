@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Video Indexer (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Video Indexer icon featuring a bold triangular
+    play symbol with three cyan indexing segments. Original Azure-blue
+    and cyan gradients, uneven marker outlines, subtle yellow accents,
+    and a transparent background. Fully editable vector artwork.
+  </desc>
+
+  <defs>
+    <linearGradient id="videoBlue" x1="14" y1="12" x2="111" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#268CE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="indexCyan" x1="40" y1="28" x2="80" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main triangular play silhouette -->
+  <path d="M16 12        Q16 7 21 10        L116 61        Q122 64 116 68        L21 119        Q15 122 15 115        Z         M35 37        L35 91        L84 64        Z" fill="url(#videoBlue)" fill-rule="evenodd" stroke="#174D78" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose hand-drawn outer contour -->
+  <path d="M22 17        Q46 30 66 41        M85 51        L109 64        M108 70        Q80 86 57 99        M38 109        L22 117" stroke="#B6DDFF" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Left vertical indexing segment -->
+  <path d="M15 49        Q24 50 35 49        L35 78        Q25 77 15 78        Z" fill="url(#indexCyan)" stroke="#176889" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Upper diagonal indexing segment -->
+  <path d="M53 29        L78 43        L66 64        L42 50        Z" fill="url(#indexCyan)" stroke="#176889" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower diagonal indexing segment -->
+  <path d="M66 64        L78 85        L53 99        L42 78        Z" fill="url(#indexCyan)" stroke="#176889" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner play opening accent -->
+  <path d="M41 45        L41 83        L76 64" stroke="#E1F5FF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Hand-drawn cyan marker highlights -->
+  <g stroke="#E4FBFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M21 56 L21 69"/>
+    <path d="M51 40 L62 46"/>
+    <path d="M51 86 L60 81"/>
+  </g>
+
+  <!-- Subtle indexing motion marks -->
+  <g stroke="#0078D4" stroke-width="2.1" stroke-linecap="round" opacity=".8">
+    <path d="M27 30 L27 40"/>
+    <path d="M27 88 L27 98"/>
+    <path d="M88 57 L97 62"/>
+  </g>
+
+  <!-- Yellow sketchnote emphasis marks -->
+  <g stroke="#F5C84C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M94 32 L99 26"/>
+    <path d="M103 40 L110 38"/>
+    <path d="M91 99 L97 105"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M115 90        L115 98        M111 94        L119 94" stroke="#F5C84C" stroke-width="2.3" stroke-linecap="round"/>
+
+</svg>

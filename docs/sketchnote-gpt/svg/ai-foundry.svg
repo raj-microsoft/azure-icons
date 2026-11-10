@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>AI Foundry (sketch)</title>
+  
+  <desc>Hand-drawn interpretation of the Azure AI Foundry logo, preserving its sculptural ribbon silhouette, indigo and violet colors, and overlapping curved forms.</desc>
+
+  <defs>
+    <linearGradient id="mainRibbon" x1="27" y1="118" x2="66" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#302EC9"/>
+      <stop offset=".43" stop-color="#302EC9"/>
+      <stop offset=".85" stop-color="#CACAFB"/>
+      <stop offset="1" stop-color="#7F7EAF"/>
+    </linearGradient>
+
+    <linearGradient id="innerRibbon" x1="78" y1="82" x2="91" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#201BA6"/>
+      <stop offset=".5" stop-color="#2D29C7"/>
+      <stop offset="1" stop-color="#151698"/>
+    </linearGradient>
+
+    <linearGradient id="rightRibbon" x1="103" y1="84" x2="103" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3530C3"/>
+      <stop offset=".5" stop-color="#6D71D1"/>
+      <stop offset=".96" stop-color="#C0BFF5"/>
+      <stop offset="1" stop-color="#E3E4FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Primary sculptural Foundry ribbon -->
+  <path d="M15 119            Q10 119 13 110            C18 94 31 57 44 27            C49 16 54 9 61 8            L81 8            C76 11 75 32 75 43            L75 94            C75 111 69 120 54 120            Z" fill="url(#mainRibbon)" stroke="#24239B" stroke-width="3.5"/>
+
+  <!-- Hand-drawn ribbon edge highlight -->
+  <path d="M20 108            C29 83 41 48 52 25            Q57 15 62 14" stroke="#E5E4FF" stroke-width="3" opacity=".9"/>
+
+  <path d="M23 113            Q38 114 53 113            C65 113 68 104 68 91" stroke="#171593" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Tall inner ribbon rising from upper fold -->
+  <path d="M81 8            C88 8 92 19 96 32            L104 54            C96 56 90 62 90 70            L90 82            Q87 88 84 82            L75 58            L75 43            C75 28 77 10 81 8 Z" fill="url(#innerRibbon)" stroke="#171593" stroke-width="3.2"/>
+
+  <!-- Folded upper ribbon highlight -->
+  <path d="M82 13            C87 20 90 33 94 44" stroke="#A7A6F7" stroke-width="2.7" opacity=".85"/>
+
+  <!-- Right-facing curved Foundry loop -->
+  <path d="M104 43            L117 43            Q121 43 121 48            L121 70            C121 84 111 89 101 89            L87 89            Q83 89 82 85            C82 78 82 64 86 57            C90 49 95 43 104 43 Z" fill="url(#rightRibbon)" stroke="#3530A6" stroke-width="3.5"/>
+
+  <!-- Interior cutout / overlap -->
+  <path d="M104 51            C96 51 91 57 91 65            L91 80" stroke="#DDDFFF" stroke-width="3" opacity=".85"/>
+
+  <!-- Dark folded transition -->
+  <path d="M75 58            L83 84            Q85 89 90 89            L86 89            Q81 89 79 83            L75 72 Z" fill="#151698" opacity=".75"/>
+
+  <!-- Subtle handmade marker detailing -->
+  <path d="M31 93 L35 82            M38 76 L43 63            M47 55 L50 47" stroke="#F0EFFF" stroke-width="2" opacity=".65"/>
+
+  <path d="M56 21 Q59 17 63 16            M59 110 Q65 105 65 97" stroke="#FFFFFF" stroke-width="2.1" opacity=".55"/>
+
+  <path d="M110 48 L115 48            M115 56 L115 69            Q114 77 108 81" stroke="#E8E7FF" stroke-width="2.1" opacity=".8"/>
+
+  <!-- Fine hand-drawn contour accents -->
+  <path d="M13 123 Q32 124 53 123            M79 15 Q78 23 78 30" stroke="#5753D9" stroke-width="1.7" opacity=".6"/>
+
+  <!-- Restrained yellow sketchnote sparks -->
+  <path d="M108 22 L114 15            M116 30 L124 27            M99 18 L100 10" stroke="#F7C948" stroke-width="3.2"/>
+
+  <path d="M10 76 L5 72            M14 68 L11 61" stroke="#F7C948" stroke-width="2.6"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M45 9 L45 16            M41 12.5 L49 12.5" stroke="#F7C948" stroke-width="2.4"/>
+
+  <!-- Minimal violet motion strokes -->
+  <path d="M105 100 Q112 98 117 94            M109 106 L115 103" stroke="#8E8FF4" stroke-width="2.4"/>
+
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Download (sketch)</title>
+  
+  <desc>Hand-drawn Azure download icon featuring a blue desktop monitor, a prominent downward arrow, a download tray, and subtle yellow marker accents.</desc>
+
+  <defs>
+    <linearGradient id="screenBlue" x1="14" y1="18" x2="113" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6BB9F2"/>
+      <stop offset="0.55" stop-color="#1490DF"/>
+      <stop offset="1" stop-color="#1B93EB"/>
+    </linearGradient>
+    <linearGradient id="arrowBlue" x1="64" y1="7" x2="64" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6BB9F2"/>
+      <stop offset="1" stop-color="#1B93EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sketchy monitor silhouette -->
+  <path d="M13 25            Q12 22 17 21            L110 22            Q115 21 116 26            L115 91            Q115 95 111 96            L17 95            Q12 95 12 91            Z" fill="url(#screenBlue)" stroke="#1F56A3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner screen -->
+  <path d="M20 30            Q20 28 23 29            L105 29            Q108 29 108 32            L107 84            Q107 87 104 87            L23 87            Q20 87 20 84            Z" fill="#FFFFFF" stroke="#1F56A3" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Loose marker edge -->
+  <path d="M17 26 Q15 42 16 59 L16 84" stroke="#6BB9F2" stroke-width="1.7" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Download arrow with hand-drawn proportions -->
+  <path d="M55 9            Q55 7 58 7            L70 7            Q73 7 73 10            L73 37            L88 37            Q92 37 89 41            L67 63            Q64 66 61 63            L39 41            Q36 37 40 37            L55 37            Z" fill="url(#arrowBlue)" stroke="#1F56A3" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrow sketch detail -->
+  <path d="M60 13 Q59 25 60 36" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" opacity="0.65"/>
+
+  <path d="M47 42 L62 57" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Download tray -->
+  <path d="M34 66            Q34 64 37 64            L42 64            Q44 64 44 67            L44 73            L84 73            L84 67            Q84 64 87 64            L92 64            Q95 64 95 67            L95 79            Q95 82 92 82            L37 82            Q34 82 34 79            Z" fill="#E8E8E8" stroke="#949494" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Tray interior -->
+  <path d="M44 72 Q63 74 84 72" stroke="#777777" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Yellow marker highlight -->
+  <path d="M49 85 Q64 87 79 85" stroke="#F4C542" stroke-width="3.2" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Monitor lower edge -->
+  <path d="M17 92 Q64 94 111 92" stroke="#1F56A3" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Monitor stand -->
+  <path d="M53 96            L75 96            Q74 108 79 113            L49 113            Q54 108 53 96            Z" fill="#1F56A3" stroke="#173F7B" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Stand foot -->
+  <path d="M46 112            Q47 110 51 110            L77 110            Q81 110 83 113            L87 118            Q88 121 84 121            L44 121            Q40 121 42 118            Z" fill="#1F56A3" stroke="#173F7B" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M48 117 Q64 115 80 117" stroke="#6BB9F2" stroke-width="1.8" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Sketchnote accent strokes -->
+  <path d="M96 37 L102 33" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M99 45 L106 44" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M29 43 L24 39" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M28 51 L22 51" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M99 13 L99 20 M95.5 16.5 L102.5 16.5" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Subtle outer sketch marks -->
+  <path d="M9 36 Q7 49 9 62" stroke="#1B93EB" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+
+  <path d="M119 66 Q121 77 119 86" stroke="#1B93EB" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+</svg>

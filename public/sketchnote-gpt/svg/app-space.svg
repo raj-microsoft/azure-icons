@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>App Space (sketch)</title>
+
+  
+  <desc>
+    Azure App Space icon with interlocking spiral paths,
+    sketchy blue marker outlines, cyan nodes,
+    and subtle yellow highlights.
+  </desc>
+
+  <defs>
+    <linearGradient id="azureInk" x1="25" y1="9" x2="100" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.55" stop-color="#2196E0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="cyanInk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer interlocking spiral: flowing marker stroke -->
+  <path d="M21 57        C20 32 39 13 65 13        C94 12 116 35 116 65        C116 68 115 71 114 73" stroke="#0067B8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M22 56        C21 32 40 15 65 14        C92 13 113 35 114 64" stroke="url(#azureInk)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner spiral on the upper-left side -->
+  <path d="M31 61        C29 44 41 31 57 29        C78 26 96 43 96 64        C96 84 80 99 61 99        C45 99 33 89 28 76" stroke="#0078D4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M32 60        C31 44 43 32 58 30        C77 28 94 44 94 64        C94 82 79 97 61 97" stroke="#68B6F3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+
+  <!-- Counter-spiral -->
+  <path d="M107 70        C109 96 90 114 65 115        C36 116 13 94 13 65        C13 62 13 60 14 57" stroke="#0067B8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M106 71        C107 95 89 112 65 113        C37 114 15 93 15 65" stroke="url(#azureInk)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner counter-spiral -->
+  <path d="M97 67        C99 84 86 98 69 99        C48 102 31 85 31 64        C31 44 47 29 66 29        C82 29 94 39 99 52" stroke="#0078D4" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose hand-drawn contour accents -->
+  <path d="M18 43        C22 27 35 16 49 11" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="12 5 4 5" opacity="0.85"/>
+
+  <path d="M79 119        C94 115 106 105 113 92" stroke="#5EA0EF" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="10 5 3 5" opacity="0.8"/>
+
+  <!-- Upper-right cyan endpoint -->
+  <path d="M112 5        L122 6        Q125 6 124 10        L124 18        Q124 21 121 21        L112 20        Q109 20 109 17        L110 8        Q110 5 112 5Z" fill="#32BEDD" stroke="#087FA8" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <path d="M113 9 L120 9 L120 16" stroke="#B6F6FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper-left cyan endpoint -->
+  <path d="M10 17        L19 17        Q22 18 21 21        L21 29        Q21 32 18 32        L10 31        Q7 31 7 28        L7 21        Q7 18 10 17Z" fill="#32BEDD" stroke="#087FA8" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <path d="M11 21 L17 21" stroke="#B6F6FF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Lower-right cyan endpoint -->
+  <path d="M108 107        L120 106        Q124 106 124 110        L125 121        Q125 125 121 125        L109 124        Q105 124 105 120        L105 111        Q105 108 108 107Z" fill="#32BEDD" stroke="#087FA8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <path d="M110 111 L119 111 L120 119" stroke="#B6F6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central upper node -->
+  <path d="M66 44        L75 44        Q78 44 78 47        L78 56        Q78 59 75 59        L66 59        Q63 59 63 56        L63 47        Q63 44 66 44Z" fill="#50E6FF" stroke="#087FA8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M67 48 L74 48" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Central lower node -->
+  <path d="M52 72        L61 71        Q64 71 64 74        L64 83        Q64 86 61 86        L52 86        Q49 86 49 83        L49 75        Q49 72 52 72Z" fill="#50E6FF" stroke="#087FA8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M53 76 L60 76" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M80 38 L85 34        M84 43 L91 41" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M39 89 L35 94        M43 93 L41 99" stroke="#F4C542" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Small marker emphasis marks -->
+  <path d="M100 27 L104 24        M102 32 L108 30" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M18 98 L22 103        M24 101 L27 106" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

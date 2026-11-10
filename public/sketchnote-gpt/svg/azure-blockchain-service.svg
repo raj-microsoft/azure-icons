@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Azure Blockchain Service (sketch)</title>
+  
+  <desc>Three interconnected violet blockchain cubes arranged in a triangle, with cyan connection arcs, irregular marker outlines and transparent background.</desc>
+
+  <defs>
+    <linearGradient id="blockTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C4A5FF"/>
+      <stop offset="1" stop-color="#B796F9"/>
+    </linearGradient>
+    <linearGradient id="blockRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9054EA"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cyan blockchain connection arcs -->
+  <path d="M81 39            C95 42 103 51 106 64" stroke="#32BEDD" stroke-width="6"/>
+  <path d="M105 64 L100 58 M105 64 L108 56" stroke="#50E6FF" stroke-width="2.5"/>
+
+  <path d="M86 108            C72 118 56 118 42 109" stroke="#32BEDD" stroke-width="6"/>
+  <path d="M42 109 L50 110 M42 109 L45 117" stroke="#50E6FF" stroke-width="2.5"/>
+
+  <path d="M23 66            C25 55 31 46 40 40" stroke="#32BEDD" stroke-width="6"/>
+  <path d="M40 40 L32 42 M40 40 L36 48" stroke="#50E6FF" stroke-width="2.5"/>
+
+  <!-- Top blockchain cube: left face -->
+  <path d="M37 20            L65 36            L65 68            L37 52Z" fill="#A67AF4" stroke="#6740B5" stroke-width="3"/>
+
+  <!-- Top blockchain cube: right face -->
+  <path d="M65 36            L93 20            L93 52            L65 68Z" fill="url(#blockRight)" stroke="#57309E" stroke-width="3"/>
+
+  <!-- Top blockchain cube: upper face -->
+  <path d="M37 20            L65 4            L93 20            L65 36Z" fill="url(#blockTop)" stroke="#7651C8" stroke-width="3"/>
+
+  <!-- Top cube marker highlights -->
+  <path d="M44 21 L65 9 L84 20" stroke="#E6D5FF" stroke-width="2.5"/>
+  <path d="M42 29 L42 47            M88 28 L88 47" stroke="#D2AEFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Top cube connection port -->
+  <ellipse cx="80" cy="40" rx="5.5" ry="8" transform="rotate(30 80 40)" fill="#552F99" stroke="#46247F" stroke-width="2"/>
+  <path d="M78 36 Q75 40 77 43" stroke="#B796F9" stroke-width="2"/>
+
+  <!-- Lower-left cube: left face -->
+  <path d="M4 78            L32 94            L32 125            L4 109Z" fill="#A67AF4" stroke="#6740B5" stroke-width="3"/>
+
+  <!-- Lower-left cube: right face -->
+  <path d="M32 94            L60 78            L60 109            L32 125Z" fill="url(#blockRight)" stroke="#57309E" stroke-width="3"/>
+
+  <!-- Lower-left cube: upper face -->
+  <path d="M4 78            L32 62            L60 78            L32 94Z" fill="url(#blockTop)" stroke="#7651C8" stroke-width="3"/>
+
+  <!-- Lower-left cube sketch strokes -->
+  <path d="M10 79 L32 67 L53 79" stroke="#E6D5FF" stroke-width="2.5"/>
+  <path d="M9 87 L9 105            M55 86 L55 104" stroke="#D2AEFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Lower-left cube connection port -->
+  <ellipse cx="46" cy="102" rx="5.5" ry="8" transform="rotate(30 46 102)" fill="#552F99" stroke="#46247F" stroke-width="2"/>
+  <path d="M44 98 Q41 102 43 105" stroke="#B796F9" stroke-width="2"/>
+
+  <!-- Lower-right cube: left face -->
+  <path d="M68 78            L96 94            L96 125            L68 109Z" fill="#A67AF4" stroke="#6740B5" stroke-width="3"/>
+
+  <!-- Lower-right cube: right face -->
+  <path d="M96 94            L124 78            L124 109            L96 125Z" fill="url(#blockRight)" stroke="#57309E" stroke-width="3"/>
+
+  <!-- Lower-right cube: upper face -->
+  <path d="M68 78            L96 62            L124 78            L96 94Z" fill="url(#blockTop)" stroke="#7651C8" stroke-width="3"/>
+
+  <!-- Lower-right cube marker highlights -->
+  <path d="M74 79 L96 67 L117 79" stroke="#E6D5FF" stroke-width="2.5"/>
+  <path d="M73 86 L73 104            M119 86 L119 104" stroke="#D2AEFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Lower-right cube connection port -->
+  <ellipse cx="82" cy="102" rx="5.5" ry="8" transform="rotate(-30 82 102)" fill="#552F99" stroke="#46247F" stroke-width="2"/>
+  <path d="M80 98 Q78 101 80 105" stroke="#B796F9" stroke-width="2"/>
+
+  <!-- Fine sketchnote detail around links -->
+  <path d="M96 45 L101 42            M109 49 L114 46            M54 119 L52 124            M67 121 L68 126            M16 51 L11 49" stroke="#0078D4" stroke-width="2.2"/>
+
+  <!-- Restrained yellow accent spark -->
+  <path d="M107 15 L107 24            M102.5 19.5 L111.5 19.5" stroke="#F7C64A" stroke-width="2.8"/>
+
+  <!-- Small illustrative accent -->
+  <path d="M17 17 L13 13            M21 12 L20 7" stroke="#F7C64A" stroke-width="2.3"/>
+
+</svg>

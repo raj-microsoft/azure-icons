@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Application Group (sketch)</title>
+
+  <defs>
+    <linearGradient id="azureBlue" x1="64" y1="8" x2="64" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset=".58" stop-color="#0072CA"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn circular Azure badge -->
+  <path d="M64 8            C80 7 96 15 107 27            C118 39 121 52 120 66            C119 83 113 97 101 108            C90 119 77 121 63 120            C47 121 32 115 21 103            C11 92 7 78 8 63            C8 47 14 33 26 22            C36 13 49 8 64 8Z" fill="url(#azureBlue)" stroke="#164F79" stroke-width="3.5"/>
+
+  <!-- Loose marker echo around the badge -->
+  <path d="M27 20 Q42 6 62 6            M105 24 Q122 41 123 61            M109 101 Q97 117 79 122            M21 105 Q7 91 5 73" stroke="#0078D4" stroke-width="2.2" opacity=".65"/>
+
+  <!-- Subtle curved marker highlights -->
+  <path d="M25 40 Q37 21 57 20            M72 19 Q86 21 97 33" stroke="#62B9EE" stroke-width="3" opacity=".65"/>
+
+  <!-- Central application group: 3 x 3 tiles -->
+  <!-- Uneven handmade outlines preserve the grid -->
+
+  <!-- Row 1 -->
+  <path d="M37 37 L53 36.5 L53.5 53            L36.5 53.5 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <path d="M57 36.5 L74 37 L73.5 53.5            L57 53 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <path d="M78 37 L94 36.5 L94.5 53            L77.5 53.5 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <!-- Row 2 -->
+  <path d="M36.5 57 L53 57.5 L53.5 74            L37 73.5 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <path d="M57 57.5 L73.5 57 L74 74            L56.5 73.5 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <path d="M78 57 L94 57.5 L94.5 73.5            L77.5 74 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <!-- Row 3 -->
+  <path d="M37 78 L53.5 77.5 L53 94            L36.5 94.5 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <path d="M57 78 L74 77.5 L73.5 94            L57.5 94.5 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <path d="M78 77.5 L94 78 L94.5 94            L77.5 94.5 Z" fill="#FFFFFF" stroke="#164F79" stroke-width="2.2"/>
+
+  <!-- Delicate sketchnote hatch marks in selected tiles -->
+  <path d="M41 41 L46 41            M61 41 L66 41            M82 41 L87 41            M41 62 L46 62            M61 62 L66 62            M82 62 L87 62            M41 83 L46 83            M61 83 L66 83            M82 83 L87 83" stroke="#B6DCF5" stroke-width="1.5" opacity=".8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M26 30 L21 25            M32 25 L30 18" stroke="#F4CB52" stroke-width="3"/>
+
+  <path d="M102 98 L108 103            M105 91 L112 93" stroke="#F4CB52" stroke-width="3"/>
+
+  <!-- Small hand-inked sparkle -->
+  <path d="M104 44 L104 52            M100 48 L108 48" stroke="#F4CB52" stroke-width="2.5"/>
+
+  <!-- Tiny marker texture details -->
+  <path d="M23 77 L25 83            M86 111 L92 108" stroke="#7DC7F2" stroke-width="2" opacity=".7"/>
+
+</svg>

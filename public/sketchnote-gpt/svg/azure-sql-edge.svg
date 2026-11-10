@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure SQL Edge (sketch)</title>
+  
+  <desc>Sketched cyan cloud with an orbiting Azure-blue ring, a small upper database and a prominent SQL database cylinder. Transparent background and editable vector paths.</desc>
+  <defs>
+    <linearGradient id="edgeCloud" x1="68" y1="17" x2="68" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".55" stop-color="#2EC7E9"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="edgeDb" x1="40" y1="80" x2="84" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#005BA1"/>
+      <stop offset=".5" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="edgeSmallDb" x1="83" y1="22" x2="110" y2="22" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#005BA1"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Small upper database -->
+  <path d="M83 13 Q96 17 110 13 L110 38            C110 45 83 45 83 38Z" fill="url(#edgeSmallDb)" stroke="#174D78" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M83 13 C83 5 110 5 110 13            C110 21 83 21 83 13Z" fill="#E8E8E8" stroke="#174D78" stroke-width="2.4"/>
+  <ellipse cx="96.5" cy="12.5" rx="9" ry="3.3" fill="#50E6FF" stroke="#198AB3" stroke-width="1.5"/>
+  <path d="M86 28 Q96 33 107 28" stroke="#75C9F1" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Main Azure cloud -->
+  <path d="M43 95            C26 97 17 87 17 74            C17 62 26 53 38 52            C43 34 58 24 73 25            C91 25 102 37 103 54            C115 56 121 65 120 76            C119 87 110 95 98 95Z" fill="url(#edgeCloud)" stroke="#176889" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose hand-drawn cloud highlights -->
+  <path d="M24 65 Q28 57 38 58            M43 47 Q52 30 69 31            M81 31 Q96 37 97 54" stroke="#D8FAFF" stroke-width="2.4" stroke-linecap="round" opacity=".85"/>
+  <path d="M24 79 Q26 87 34 89            M109 85 Q115 80 114 73" stroke="#8ADFF4" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Orbit loop: rear arc -->
+  <path d="M22 83            C8 104 9 116 21 119            C38 124 70 107 94 88            C117 70 131 49 121 35            Q118 31 113 30" stroke="#0072C6" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketch accent following the orbit -->
+  <path d="M18 103 Q15 112 22 115            M102 79 Q119 62 123 49" stroke="#50E6FF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Primary SQL database cylinder -->
+  <path d="M40 73            C43 82 84 82 87 73            L87 116            C85 127 42 127 40 116Z" fill="url(#edgeDb)" stroke="#174D78" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Database rim -->
+  <path d="M40 73            C40 62 87 62 87 73            C87 84 40 84 40 73Z" fill="#E8E8E8" stroke="#174D78" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="63.5" cy="72.8" rx="17.5" ry="4.7" fill="#50E6FF" stroke="#198AB3" stroke-width="1.8"/>
+  <path d="M49 74 Q64 79 78 74" stroke="#198AB3" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Hand-drawn database band and highlights -->
+  <path d="M41 91 Q63 101 86 91" stroke="#63C9F4" stroke-width="2.1" stroke-linecap="round" opacity=".8"/>
+  <path d="M46 85 Q45 99 46 111" stroke="#80D9F6" stroke-width="2.4" stroke-linecap="round" opacity=".65"/>
+
+  <!-- SQL lettering as individually drawn vector strokes -->
+  <g stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- S -->
+    <path d="M57 94              Q51 91 49 96              Q47 99 53 102              Q59 105 54 109              Q51 111 48 108"/>
+    <!-- Q -->
+    <path d="M71 101              C71 95 68 93 64 93              C60 93 58 97 58 102              C58 107 61 110 65 110              C69 110 71 107 71 101Z"/>
+    <path d="M67 107 L73 113"/>
+    <!-- L -->
+    <path d="M77 94 L77 109 L84 109"/>
+  </g>
+
+  <!-- Front orbit continuation -->
+  <path d="M23 119            C36 122 63 112 90 94" stroke="#0072C6" stroke-width="3.4" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 43 L23 39"/>
+    <path d="M34 37 L32 31"/>
+    <path d="M117 19 L122 15"/>
+    <path d="M118 26 L124 25"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M14 47 L14 53 M11 50 L17 50" stroke="#F5C84C" stroke-width="2" stroke-linecap="round"/>
+</svg>

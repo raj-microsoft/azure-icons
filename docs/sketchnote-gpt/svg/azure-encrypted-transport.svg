@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Encrypted Transport (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Encrypted Transport icon featuring a central
+    Azure-blue encryption key surrounded by asymmetric concentric
+    communication arcs. Preserves the original cyan, deep blue,
+    and orange colors with uneven marker outlines, subtle yellow
+    accents, and a transparent background. Fully editable vectors.
+  </desc>
+
+  <defs>
+    <linearGradient id="encryptKey" x1="64" y1="36" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="encryptCyan" x1="65" y1="8" x2="91" y2="97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#36DFF1"/>
+      <stop offset=".52" stop-color="#2DD0E6"/>
+      <stop offset="1" stop-color="#119FC5"/>
+    </linearGradient>
+
+    <linearGradient id="encryptBlue" x1="39" y1="25" x2="39" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="encryptOrange" x1="111" y1="26" x2="111" y2="109" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FE8401"/>
+      <stop offset="1" stop-color="#E67505"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer cyan transport arc -->
+  <path d="     M 21 26     C 32 13 47 6 64 6     C 78 6 91 10 102 18     L 93 29     C 104 37 111 49 111 63     C 111 76 106 87 97 96" stroke="url(#encryptCyan)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan outer marker highlights -->
+  <path d="     M 28 21     Q 44 9 61 10     M 74 11     Q 87 13 97 20     M 100 39     Q 106 49 106 60" stroke="#B8F8FF" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Inner deep-blue transport arc -->
+  <path d="     M 73 24     C 60 20 47 23 38 32     C 23 47 21 67 32 83     L 39 92     L 26 102     C 15 91 9 77 9 62     C 9 51 12 40 18 31" stroke="url(#encryptBlue)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven inner blue sketch accents -->
+  <path d="     M 67 28     Q 52 25 41 36     M 27 48     Q 22 64 31 77     M 13 70     Q 16 86 26 96" stroke="#8FD8FF" stroke-width="2.3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Outer left blue communication arc -->
+  <path d="     M 13 36     C 6 51 5 66 10 81     C 13 91 18 99 25 106" stroke="#0078D4" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right orange encrypted-transport arc -->
+  <path d="     M 111 30     C 119 41 123 52 123 64     C 123 81 116 96 103 107" stroke="url(#encryptOrange)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Orange hand-drawn highlight -->
+  <path d="     M 115 39     Q 120 51 119 63     M 118 78     Q 114 92 105 101" stroke="#FFD18A" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Fine sketchnote arc contours -->
+  <path d="     M 16 22     Q 29 10 44 5     M 82 4     Q 97 9 108 19     M 126 48     Q 130 69 122 87     M 5 90     Q 10 102 19 111" stroke="#159DCE" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="14 5 7 5" opacity=".7"/>
+
+  <!-- Central key head and shaft -->
+  <path d="     M 64 37     C 51 37 41 47 41 60     C 41 69 46 77 53 82     L 53 110     Q 53 113 56 115     L 62 121     Q 64 123 67 121     L 78 113     Q 81 110 78 107     L 73 102     L 78 97     Q 81 94 78 91     L 73 86     L 73 82     C 81 77 87 69 87 60     C 87 47 77 37 64 37     Z" fill="url(#encryptKey)" stroke="#075A9E" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Keyhole -->
+  <path d="     M 64 48     C 58 48 54 52 54 58     C 54 64 58 68 64 68     C 70 68 74 64 74 58     C 74 52 70 48 64 48     Z" fill="#FFFFFF" stroke="#075A9E" stroke-width="2.6"/>
+
+  <!-- Keyhole inner marker shadow -->
+  <path d="     M 59 55     Q 62 51 66 53" stroke="#B8E9FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Key body highlights -->
+  <path d="     M 47 57     Q 48 46 58 43     M 59 83     L 59 109     L 64 114" stroke="#B0DFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+
+  <!-- Key teeth sketch -->
+  <path d="     M 70 89     L 74 94     L 69 99     M 69 105     L 74 110" stroke="#D3EDFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Yellow encryption sparkle -->
+  <path d="     M 91 37     L 91 44     M 87 40     L 95 40" stroke="#F3B82D" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Small freehand communication marks -->
+  <path d="     M 89 113     L 94 117     M 95 110     L 100 111     M 29 115     L 33 119" stroke="#F3B82D" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Defender Pneumatic Device (sketch)</title>
+  
+  <desc>
+    Hand-drawn pneumatic pressure gauge connected to a
+    horizontal industrial air cylinder. Preserves the
+    original circular gauge, vertical connector, and
+    long rectangular actuator. Azure-blue gradients,
+    navy marker outlines, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="pneumaticBlue" x1="58" y1="13" x2="65" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular pressure gauge housing -->
+  <path d="     M47 13     C64 12 80 26 80 46     C80 64 66 78 47 79     C28 79 13 65 13 46     C13 28 27 14 47 13     Z" fill="url(#pneumaticBlue)" stroke="#002050" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven hand-drawn gauge inner rim -->
+  <path d="     M47 23     C61 22 70 33 70 46     C70 59 60 69 47 69     C34 69 24 59 24 46     C24 33 34 23 47 23     Z" fill="#87C4FA" stroke="#002050" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner dial -->
+  <path d="     M47 30     C56 30 63 37 63 46     C63 55 56 62 47 62     C38 62 31 55 31 46     C31 37 38 30 47 30     Z" fill="#C3F1FF" stroke="#005BA1" stroke-width="2.2"/>
+
+  <!-- Vertical pressure indicator -->
+  <path d="M47 34 Q46 43 47 50" stroke="#002050" stroke-width="4" stroke-linecap="round"/>
+
+  <circle cx="47" cy="46" r="3" fill="#005BA1"/>
+
+  <!-- Hand-drawn gauge reflection -->
+  <path d="     M29 39     Q33 28 43 27     M53 27 Q61 30 65 37" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Small gauge calibration ticks -->
+  <g stroke="#005BA1" stroke-width="2.3" stroke-linecap="round">
+    <path d="M36 35 L39 38"/>
+    <path d="M58 35 L55 38"/>
+    <path d="M34 49 L38 48"/>
+    <path d="M60 49 L56 48"/>
+  </g>
+
+  <!-- Gauge-to-actuator vertical connector -->
+  <path d="     M41 78     L53 78     L53 94     L41 94     Z" fill="#3C91E5" stroke="#002050" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M44 82 L44 91" stroke="#A4D7FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Main horizontal pneumatic cylinder -->
+  <path d="     M20 94     Q18 94 16 91     L11 91     Q7 91 6 96     L6 109     Q6 114 11 115     L16 115     Q18 111 21 111     L106 111     Q110 111 112 115     L117 115     Q122 114 122 109     L122 99     Q122 94 117 92     L112 91     Q110 94 106 94     Z" fill="url(#pneumaticBlue)" stroke="#002050" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cylinder upper reflective band -->
+  <path d="     M22 98     Q62 97 105 98" stroke="#B3DEFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cylinder lower sketch line -->
+  <path d="     M25 107     Q64 108 103 107" stroke="#005BA1" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Left pneumatic end cap -->
+  <path d="     M12 94     L19 94     L19 112     L12 112     Q9 111 9 108     L9 99     Q9 95 12 94     Z" fill="#5EA0EF" stroke="#002050" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <!-- Right pneumatic end cap -->
+  <path d="     M110 94     L117 94     Q120 96 120 100     L120 108     Q120 112 117 112     L110 112     Z" fill="#5EA0EF" stroke="#002050" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <!-- Small mechanical end-cap details -->
+  <g stroke="#002050" stroke-width="2" stroke-linecap="round">
+    <path d="M13 99 L16 99"/>
+    <path d="M13 106 L16 106"/>
+    <path d="M113 99 L116 99"/>
+    <path d="M113 106 L116 106"/>
+  </g>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 20 L12 16"/>
+    <path d="M27 12 L24 6"/>
+    <path d="M68 15 L73 10"/>
+    <path d="M83 36 L89 33"/>
+    <path d="M83 45 L90 46"/>
+  </g>
+
+  <!-- Hand-drawn airflow marks -->
+  <g stroke="#32B0E7" stroke-width="2.3" stroke-linecap="round">
+    <path d="M65 85 Q70 82 75 85"/>
+    <path d="M78 85 Q83 82 88 85"/>
+    <path d="M91 85 Q96 82 101 85"/>
+  </g>
+
+  <!-- Small sketch accent dots -->
+  <circle cx="84" cy="24" r="2" fill="#F4C542"/>
+  <circle cx="92" cy="29" r="1.5" fill="#F4C542"/>
+  <circle cx="28" cy="120" r="1.8" fill="#50E6FF"/>
+</svg>

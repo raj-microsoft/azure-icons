@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Arc PostgreSQL (sketch)</title>
+  
+  <desc>Azure Arc PostgreSQL database cylinder on a cyan elliptical platform, with a white PostgreSQL elephant and green Arc connection badge.</desc>
+
+  <defs>
+    <linearGradient id="pgBody" x1="23" y1="0" x2="101" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".5" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="pgPlatform" x1="0" y1="88" x2="0" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wide floating Arc data platform -->
+  <path d="M5 94            C5 82 30 75 63 75            C96 75 123 83 123 94            L123 108            C122 119 96 125 63 125            C31 125 7 119 5 108Z" fill="url(#pgPlatform)" stroke="#0078D4" stroke-width="3.5"/>
+
+  <!-- Cyan platform surface -->
+  <path d="M5 94            C5 82 30 75 63 75            C96 75 123 83 123 94            C123 105 97 113 63 113            C30 113 5 105 5 94Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3"/>
+
+  <!-- Sketchy platform highlights -->
+  <path d="M13 91 Q32 79 57 79            M84 80 Q107 83 118 91" stroke="#D9FAFF" stroke-width="2.5"/>
+
+  <!-- PostgreSQL database cylinder -->
+  <path d="M23 17            C23 28 40 34 60 34            C80 34 99 29 99 17            L99 91            C99 103 80 108 60 108            C40 108 23 102 23 91Z" fill="url(#pgBody)" stroke="#004E8A" stroke-width="3.5"/>
+
+  <!-- Uneven marker surface accents -->
+  <path d="M30 38 Q29 61 30 87            M92 38 Q94 63 92 85" stroke="#50B7EF" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M36 42 Q35 67 36 91            M41 98 Q54 104 68 101" stroke="#5EA0EF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Database top rim -->
+  <path d="M23 17            C23 7 40 2 60 2            C81 2 99 7 99 17            C99 28 81 34 60 34            C40 34 23 28 23 17Z" fill="#E8E8E8" stroke="#687B89" stroke-width="3.5"/>
+
+  <!-- Inner cyan ellipse -->
+  <path d="M32 16            C32 10 45 6 60 6            C76 6 90 10 90 16            C90 23 76 27 60 27            C45 27 32 23 32 16Z" fill="#50E6FF" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Inner top depth -->
+  <path d="M37 23            Q60 14 85 23            Q61 31 37 23Z" fill="#198AB3"/>
+
+  <path d="M39 13 Q59 6 81 13" stroke="#D9FAFF" stroke-width="2.5"/>
+
+  <!-- PostgreSQL elephant: recognizable ears and head -->
+  <g fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2.5">
+    <!-- Left ear -->
+    <path d="M55 48              C43 42 34 45 34 56              C34 66 39 79 44 82              Q48 85 53 75              L57 65Z"/>
+
+    <!-- Right ear -->
+    <path d="M67 48              C76 41 87 44 88 54              C89 64 83 78 76 82              Q71 83 68 75              L64 64Z"/>
+
+    <!-- Forehead and cheeks -->
+    <path d="M48 52              Q50 42 61 42              Q73 42 76 53              L75 69              Q71 77 66 80              L56 80              Q49 75 47 68Z"/>
+
+    <!-- Curved elephant trunk -->
+    <path d="M56 72              Q61 76 65 72              Q68 77 66 85              L64 93              Q63 100 69 100              Q74 100 76 95" fill="none" stroke="#F2F2F2" stroke-width="7"/>
+  </g>
+
+  <!-- Ear separation lines -->
+  <path d="M47 57 Q43 65 47 72            M76 57 Q81 64 77 72" stroke="#005BA1" stroke-width="2.5"/>
+
+  <!-- Elephant eyes -->
+  <path d="M52 60 Q55 58 58 61            M65 61 Q68 58 71 60" stroke="#005BA1" stroke-width="2.5"/>
+
+  <circle cx="55" cy="62" r="1.8" fill="#005BA1"/>
+  <circle cx="68" cy="62" r="1.8" fill="#005BA1"/>
+
+  <!-- Tusks -->
+  <path d="M53 74 Q50 83 55 85            M70 75 Q73 82 70 85" stroke="#F2F2F2" stroke-width="3"/>
+
+  <!-- Subtle head definition -->
+  <path d="M59 48 Q62 46 65 49" stroke="#D9E9F7" stroke-width="2"/>
+
+  <!-- Azure Arc PostgreSQL green badge -->
+  <g transform="rotate(-13 99 93)">
+    <ellipse cx="99" cy="93" rx="20" ry="14" fill="#76BC2D" stroke="#4E8E21" stroke-width="3"/>
+
+    <!-- White connection / integration swirl -->
+    <path d="M88 96              C90 88 97 83 104 85              C111 87 112 94 107 99              C103 103 96 104 94 100              C92 96 96 92 101 92" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+
+    <path d="M102 88              L107 85              L108 91" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Sketchnote marker accents -->
+  <path d="M12 45 L6 42            M12 54 L5 54            M109 43 L116 39" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Small yellow insight sparkle -->
+  <path d="M113 17 L113 25            M109 21 L117 21" stroke="#F7C64A" stroke-width="3"/>
+
+  <!-- Hand-drawn platform reflection -->
+  <path d="M14 108 Q27 117 46 119            M77 121 Q94 120 108 115" stroke="#B7F7FF" stroke-width="2.5"/>
+
+  <!-- Small cyan motion marks -->
+  <path d="M12 70 Q16 67 20 69            M106 69 Q110 67 114 70" stroke="#50E6FF" stroke-width="2.5"/>
+
+  <!-- Irregular lower platform outline -->
+  <path d="M12 114 Q34 126 59 126            M78 126 Q104 124 117 115" stroke="#0078D4" stroke-width="2" opacity=".8"/>
+</svg>

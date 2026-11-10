@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Storage Accounts (sketch)</title>
+
+  
+  <desc>Hand-drawn Azure Storage Accounts icon with a teal header, silver-grey storage cabinet, and three horizontal storage slots in white, turquoise, and dark teal.</desc>
+
+  <defs>
+    <linearGradient id="storageBody" x1="64" y1="43" x2="64" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E6E6E6"/>
+      <stop offset=".55" stop-color="#C1C1C1"/>
+      <stop offset="1" stop-color="#B3B3B3"/>
+    </linearGradient>
+    <linearGradient id="storageHeader" x1="14" y1="12" x2="114" y2="47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54D8C8"/>
+      <stop offset=".6" stop-color="#37C2B1"/>
+      <stop offset="1" stop-color="#258F83"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main storage cabinet -->
+  <path d="M10 42            L118 42            L118 112            Q118 117 113 117            L15 117            Q10 117 10 112 Z" fill="url(#storageBody)" stroke="#777F82" stroke-width="3.2"/>
+
+  <!-- Hand-drawn teal header -->
+  <path d="M15 13            Q10 13 10 18            L10 43            Q37 44 64 43            Q91 42 118 43            L118 18            Q118 13 113 13            Q65 12 15 13 Z" fill="url(#storageHeader)" stroke="#258277" stroke-width="3.2"/>
+
+  <!-- Header marker highlight -->
+  <path d="M18 19            Q52 17 87 19" stroke="#B7F6EB" stroke-width="3.1" opacity=".85"/>
+
+  <path d="M17 25 L17 36" stroke="#83E8DB" stroke-width="2.3"/>
+
+  <!-- Divider between header and cabinet -->
+  <path d="M12 44            Q64 45 116 44" stroke="#258277" stroke-width="2.6"/>
+
+  <!-- Cabinet side highlights -->
+  <path d="M16 52            Q15 80 16 107" stroke="#F7F7F7" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M111 52 L111 109" stroke="#92999A" stroke-width="2.2" opacity=".7"/>
+
+  <!-- First storage slot: white -->
+  <path d="M27 53            Q24 53 24 57            L24 66            Q24 69 27 69            L101 69            Q104 69 104 66            L104 57            Q104 54 101 54 Z" fill="#FFFFFF" stroke="#8D9999" stroke-width="2.4"/>
+
+  <!-- White slot marker detail -->
+  <path d="M30 58 Q62 57 97 58" stroke="#DDE8E8" stroke-width="2.1"/>
+
+  <!-- Second storage slot: turquoise -->
+  <path d="M27 75            Q24 75 24 79            L24 88            Q24 91 27 91            L101 91            Q104 91 104 88            L104 79            Q104 76 101 76 Z" fill="#37C2B1" stroke="#258277" stroke-width="2.4"/>
+
+  <!-- Turquoise slot highlight -->
+  <path d="M30 80 Q63 79 97 80" stroke="#A4F3E8" stroke-width="2.4"/>
+
+  <!-- Third storage slot: dark teal -->
+  <path d="M27 97            Q24 97 24 101            L24 110            Q24 113 27 113            L101 113            Q104 113 104 110            L104 101            Q104 98 101 98 Z" fill="#258277" stroke="#17675F" stroke-width="2.4"/>
+
+  <!-- Dark teal slot marker highlight -->
+  <path d="M30 102 Q63 101 97 102" stroke="#65D5C6" stroke-width="2.3"/>
+
+  <!-- Slightly imperfect lower cabinet outline -->
+  <path d="M17 119            Q64 121 111 119" stroke="#9A9FA0" stroke-width="1.8" opacity=".65"/>
+
+  <!-- Small hand-drawn accent marks -->
+  <path d="M5 27 L2 23            M5 34 L1 34" stroke="#37C2B1" stroke-width="2.2"/>
+
+  <path d="M122 24 L126 20            M123 32 L127 33" stroke="#37C2B1" stroke-width="2.2"/>
+
+  <!-- Tiny sketchnote sparkle -->
+  <path d="M119 75 L119 83            M115 79 L123 79" stroke="#258277" stroke-width="2.2"/>
+
+  <!-- Subtle freehand detail -->
+  <path d="M5 102 Q7 109 12 113" stroke="#37C2B1" stroke-width="2"/>
+
+</svg>

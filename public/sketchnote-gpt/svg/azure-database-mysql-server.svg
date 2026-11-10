@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Database MySQL Server (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure MySQL database cylinder with a cyan
+    elliptical top, Azure-blue body, white My lettering,
+    irregular marker outlines, and restrained yellow accents.
+    Transparent background and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="mysqlBody" x1="17" y1="70" x2="111" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".18" stop-color="#0069B8"/>
+      <stop offset=".52" stop-color="#0078D4"/>
+      <stop offset=".82" stop-color="#006ABB"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="mysqlTop" x1="30" y1="12" x2="93" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9DEEFF"/>
+      <stop offset=".55" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main cylindrical database body -->
+  <path d="     M 18 22     C 18 13 38 7 64 7     C 90 7 110 13 110 22     L 110 106     C 110 116 90 122 64 122     C 38 122 18 116 18 106     Z" fill="url(#mysqlBody)" stroke="#064C87" stroke-width="3.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Database top rim -->
+  <path d="     M 18 22     C 18 12 38 6 64 6     C 90 6 110 12 110 22     C 110 32 90 38 64 38     C 38 38 18 32 18 22     Z" fill="#E8E8E8" stroke="#69879A" stroke-width="3.3" stroke-linejoin="round"/>
+
+  <!-- Inner cyan data surface -->
+  <path d="     M 29 21     C 29 15 44 11 64 11     C 84 11 99 15 99 21     C 99 27 84 31 64 31     C 44 31 29 27 29 21     Z" fill="url(#mysqlTop)" stroke="#198AB3" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Inner top shadow -->
+  <path d="     M 36 26     Q 64 18 92 26     Q 82 31 64 31     Q 46 31 36 26     Z" fill="#198AB3" opacity=".8"/>
+
+  <!-- Sketchy cyan surface highlights -->
+  <path d="     M 39 18     Q 53 13 69 15     M 78 16     Q 87 17 92 20" stroke="#D9FAFF" stroke-width="2.5" stroke-linecap="round" opacity=".95"/>
+
+  <!-- Left cylindrical marker highlight -->
+  <path d="     M 25 43     L 25 98     Q 25 110 41 114" stroke="#56B7F3" stroke-width="3.3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Right cylindrical shadow contour -->
+  <path d="     M 103 43     L 103 102     Q 102 111 92 115" stroke="#004A89" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Freehand cylinder bottom curve -->
+  <path d="     M 19 103     C 22 116 40 124 64 124     C 88 124 107 117 110 104" stroke="#005BA1" stroke-width="2" stroke-linecap="round" stroke-dasharray="17 5 9 5" opacity=".75"/>
+
+  <!-- Hand-drawn MySQL M -->
+  <path d="     M 34 87     L 34 62     Q 34 58 38 58     Q 41 58 43 62     L 50 78     L 57 62     Q 59 58 62 58     Q 66 58 66 62     L 66 87     L 59 87     L 59 70     L 54 83     Q 52 88 49 88     Q 46 88 44 83     L 40 70     L 40 87     Z" fill="#F2F2F2" stroke="#D8F0FF" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Hand-drawn MySQL y -->
+  <path d="     M 72 67     L 79 67     L 79 79     Q 79 82 82 82     L 91 82     L 91 67     L 98 67     L 98 86     Q 98 95 89 95     L 73 95     L 73 89     L 88 89     Q 91 89 91 86     L 82 86     Q 72 86 72 78     Z" fill="#F2F2F2" stroke="#D8F0FF" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Subtle handwritten-style highlights -->
+  <path d="     M 38 64     L 38 73     M 61 64     L 61 72     M 76 71     L 76 77" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Small Azure sketchnote motion marks -->
+  <path d="     M 10 47     L 10 62     M 115 51     L 115 67     M 33 125     Q 46 129 57 127" stroke="#159DCE" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="9 5" opacity=".7"/>
+
+  <!-- Restrained yellow sketch accents -->
+  <path d="     M 116 25     L 121 20     M 118 31     L 125 31" stroke="#F3B82D" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="     M 8 88     L 12 84     M 9 95     L 14 95" stroke="#F3B82D" stroke-width="2.3" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Tiny hand-drawn database detail -->
+  <path d="     M 43 104     Q 64 108 84 104" stroke="#8AD9FF" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+</svg>

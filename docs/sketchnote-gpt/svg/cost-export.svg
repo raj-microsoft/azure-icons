@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Cost Export (sketch)</title>
+  
+  <defs>
+    <linearGradient id="azBlue" x1="28" y1="12" x2="28" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="azBlue2" x1="64" y1="12" x2="64" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6AAAF2"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="exportGreen" x1="77" y1="28" x2="115" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- blue tile grid -->
+  <g stroke="#16639A" stroke-width="3.4">
+    <path d="M10 14q0-4 4-4h24q4 0 4 4v20q0 4-4 4H14q-4 0-4-4Z" fill="url(#azBlue)"/>
+    <path d="M10 50q0-4 4-4h24q4 0 4 4v20q0 4-4 4H14q-4 0-4-4Z" fill="url(#azBlue)"/>
+    <path d="M10 86q0-4 4-4h24q4 0 4 4v20q0 4-4 4H14q-4 0-4-4Z" fill="url(#azBlue)"/>
+
+    <path d="M50 14q0-4 4-4h24q4 0 4 4v20q0 4-4 4H54q-4 0-4-4Z" fill="url(#azBlue2)"/>
+    <path d="M50 86q0-4 4-4h24q4 0 4 4v20q0 4-4 4H54q-4 0-4-4Z" fill="url(#azBlue2)"/>
+  </g>
+
+  <!-- sketchy inner highlights -->
+  <g stroke="#CDEBFF" stroke-width="2" opacity=".85">
+    <path d="M16 17h15M16 53h14M16 89h15"/>
+    <path d="M56 17h14M56 89h14"/>
+    <path d="M16 22v8M56 22v7M56 94v7"/>
+  </g>
+
+  <!-- connector / export arrow -->
+  <path d="M86 30l28 28a7 7 0 0 1 0 10L86 96c-3 3-8 1-8-3V75a3 3 0 0 0-3-3H54c-3 0-5-2-5-5V59c0-3 2-5 5-5h21a3 3 0 0 0 3-3V33c0-4 5-6 8-3Z" fill="url(#exportGreen)" stroke="#4E7C22" stroke-width="4"/>
+
+  <!-- arrow highlight -->
+  <path d="M85 37l22 22" stroke="#B9F07A" stroke-width="3"/>
+  <path d="M82 64h21" stroke="#D7F7AF" stroke-width="2.6" opacity=".9"/>
+
+  <!-- hand-drawn motion / export accents -->
+  <g stroke="#F4C542" stroke-width="2.8">
+    <path d="M103 21l4-6"/>
+    <path d="M111 29l7-1"/>
+    <path d="M108 39l6 3"/>
+  </g>
+
+  <!-- restrained Azure annotation accents -->
+  <g stroke="#0078D4" stroke-width="2.2" opacity=".9">
+    <path d="M87 103l6 4"/>
+    <path d="M38 116l8-1"/>
+    <path d="M88 15l5 2"/>
+  </g>
+
+  <!-- subtle handwritten/sketchnote ticks -->
+  <g stroke="#1F4E79" stroke-width="1.8" opacity=".7">
+    <path d="M44 27l3-2"/>
+    <path d="M44 63l3-2"/>
+    <path d="M44 99l3-2"/>
+    <path d="M84 99l4-2"/>
+  </g>
+</svg>

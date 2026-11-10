@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Biz Talk (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn sketchnote illustration of the Azure Biz Talk icon:
+    an Azure-blue cloud, a white integration hub motif with a lime-green
+    center, and a blue connector stem leading to a lower blue node.
+    Uses uneven marker outlines, restrained Azure-blue and yellow accents,
+    subtle handwritten-style details, transparent background, and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="12" x2="64" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="greenCore" x1="64" y1="56" x2="64" y2="79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset=".45" stop-color="#7AC32F"/>
+      <stop offset="1" stop-color="#86D633"/>
+    </linearGradient>
+
+    <linearGradient id="nodeBlue" x1="64" y1="92" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main cloud silhouette -->
+  <path d="M34 82        C20 83 10 73 10 60        C10 48 19 38 31 36        C36 18 49 10 64 10        C81 10 94 20 98 37        C112 39 120 48 120 60        C120 73 111 82 97 82        H36        Q35 82 34 82Z" fill="url(#cloudBlue)" stroke="#174D78" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose sketchnote contour -->
+  <path d="M18 48        Q24 40 33 41        M39 31        Q45 17 61 16        M75 17        Q91 22 94 38        M106 44        Q113 49 114 58" stroke="#D8EEFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Cloud highlight -->
+  <path d="M19 64        Q21 72 28 76        M34 77        Q39 78 46 77" stroke="#9ED4FF" stroke-width="2.4" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Connector stem -->
+  <path d="M59 78        H69        V102        H59        Z" fill="#005BA1" stroke="#174D78" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <!-- Lower node -->
+  <circle cx="64" cy="111" r="14" fill="url(#nodeBlue)" stroke="#174D78" stroke-width="3"/>
+
+  <!-- Lower node highlight -->
+  <path d="M57 105        Q64 101 71 105" stroke="#A9D9FF" stroke-width="2.3" stroke-linecap="round" opacity=".9"/>
+
+  <!-- White integration motif -->
+  <!-- top arrow / feed -->
+  <path d="M64 27        L74 37        H68        V47        H60        V37        H54        Z" fill="#FFFFFF" stroke="#DDEFFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- left input -->
+  <path d="M31 45        H49        L43 39        L47 35        L61 49        L47 63        L43 59        L49 53        H31        Z" fill="#FFFFFF" stroke="#DDEFFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- right input -->
+  <path d="M97 45        H79        L85 39        L81 35        L67 49        L81 63        L85 59        L79 53        H97        Z" fill="#FFFFFF" stroke="#DDEFFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- lower curved join -->
+  <path d="M45 62        Q45 79 64 79        Q83 79 83 62        L77 62        Q77 73 64 73        Q51 73 51 62        Z" fill="#FFFFFF" stroke="#DDEFFF" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- central green hub -->
+  <circle cx="64" cy="60" r="10.5" fill="url(#greenCore)" stroke="#5E9624" stroke-width="2.2"/>
+
+  <!-- green hub highlight -->
+  <path d="M59 55        Q64 52 69 55" stroke="#C7F27B" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- subtle white sketch accents around motif -->
+  <g stroke="#F6FCFF" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M64 31 L69 36"/>
+    <path d="M37 49 L45 49"/>
+    <path d="M83 49 L91 49"/>
+    <path d="M53 69 Q58 72 64 72"/>
+  </g>
+
+  <!-- small handwritten motion marks -->
+  <g stroke="#0078D4" stroke-width="1.9" stroke-linecap="round" opacity=".55">
+    <path d="M26 28 L22 24"/>
+    <path d="M104 28 L108 24"/>
+    <path d="M76 91 L80 95"/>
+  </g>
+
+  <!-- restrained yellow sketchnote accents -->
+  <g stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M94 17 L99 12"/>
+    <path d="M102 24 L109 22"/>
+    <path d="M29 90 L24 95"/>
+  </g>
+
+  <!-- tiny sparkle -->
+  <path d="M108 92        L108 99        M104.5 95.5        L111.5 95.5" stroke="#F5C84C" stroke-width="2.1" stroke-linecap="round"/>
+
+</svg>

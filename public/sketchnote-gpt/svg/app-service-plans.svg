@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>App Service Plans (sketch)</title>
+  
+  <desc>Hand-drawn Azure App Service Plans icon featuring a tall gray server with two dark navy status slots and cyan indicators, partially overlapped by a blue cloud. Transparent background with subtle yellow sketchnote accents.</desc>
+
+  <defs>
+    <linearGradient id="planServer" x1="40" y1="8" x2="40" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B3B3"/>
+      <stop offset=".48" stop-color="#9F9F9F"/>
+      <stop offset="1" stop-color="#949494"/>
+    </linearGradient>
+
+    <linearGradient id="planCloud" x1="76" y1="48" x2="76" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".5" stop-color="#348DE3"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tall server body -->
+  <path d="M9 8            Q9 5 14 5            L68 6            Q72 6 72 11            L72 117            Q72 122 67 122            L14 121            Q9 121 9 116            Z" fill="url(#planServer)" stroke="#666666" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Server marker highlights -->
+  <path d="M17 15            L17 39            M19 12            Q39 11 62 13            M17 73            L17 108" stroke="#E5E5E5" stroke-width="2.8" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Upper server slot -->
+  <path d="M22 21            Q22 17 27 17            L56 17            Q61 17 61 22            L61 29            Q61 33 56 33            L27 33            Q22 33 22 29            Z" fill="#003067" stroke="#174F85" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper cyan status light -->
+  <path d="M30 21            C34 21 37 24 37 27            C37 31 34 33 30 33            C26 33 24 30 24 27            C24 24 27 21 30 21Z" fill="#50E6FF" stroke="#198AB3" stroke-width="1.8"/>
+
+  <!-- Lower server slot -->
+  <path d="M22 44            Q22 40 27 40            L56 40            Q61 40 61 45            L61 52            Q61 56 56 56            L27 56            Q22 56 22 52            Z" fill="#003067" stroke="#174F85" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower cyan status light -->
+  <path d="M30 44            C34 44 37 47 37 50            C37 54 34 56 30 56            C26 56 24 53 24 50            C24 47 27 44 30 44Z" fill="#50E6FF" stroke="#198AB3" stroke-width="1.8"/>
+
+  <!-- Server slot highlights -->
+  <path d="M43 24            L54 24            M43 47            L54 47" stroke="#4380B1" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Overlapping App Service cloud -->
+  <path d="M52 119            C37 120 26 109 26 96            C26 83 35 74 47 72            C52 58 63 52 76 52            C92 52 104 63 105 78            C117 79 123 88 123 99            C123 110 114 119 102 119            L52 119Z" fill="url(#planCloud)" stroke="#155EA1" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cloud inner marker highlights -->
+  <path d="M34 94            Q35 82 48 80            M56 69            Q63 59 76 60            M87 62            Q99 68 99 80" stroke="#C5E6FF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Lower cloud contour -->
+  <path d="M35 105            Q41 113 52 112            M105 112            Q115 109 116 99" stroke="#B4DEFA" stroke-width="2.3" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Hand-drawn yellow sparkle -->
+  <path d="M100 18            L100 28            M95 23            L105 23" stroke="#FFD34E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sketchnote emphasis near server -->
+  <path d="M80 15            Q87 12 93 14            M83 23            L89 22" stroke="#FFD34E" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Subtle handwritten-style motion strokes -->
+  <path d="M116 43            Q121 48 122 55            M117 61            L121 64" stroke="#4894FE" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Small finishing marker accent -->
+  <path d="M8 126            Q18 124 27 126" stroke="#FFD34E" stroke-width="2.7" stroke-linecap="round"/>
+
+</svg>

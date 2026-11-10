@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Change Analysis (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure-blue change analysis marker with white
+    circular refresh arrows, paired with a green zigzag
+    analytics chart and four circular data points.
+    Uneven ink outlines, restrained yellow accents,
+    original Azure colours, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="changeBlue" x1="59" y1="8" x2="104" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#1689DF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="changeGreen" x1="15" y1="65" x2="112" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset=".55" stop-color="#76BC2D"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn green analytics trend -->
+  <path d="M16 111            Q18 107 21 105            L47 74            Q49 71 52 75            L78 100            Q80 103 83 100            L110 70" stroke="#477C22" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M16 111            L49 76            L81 105            L111 71" stroke="url(#changeGreen)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketched green data points -->
+  <g fill="url(#changeGreen)" stroke="#477C22" stroke-width="3.2" stroke-linejoin="round">
+
+    <path d="M16 99              C23 97 30 103 30 111              C30 118 24 123 17 123              C10 123 5 117 6 110              C6 104 10 100 16 99Z"/>
+
+    <path d="M48 65              C56 64 62 70 62 77              C62 85 56 91 48 90              C41 90 35 84 36 77              C36 70 41 65 48 65Z"/>
+
+    <path d="M80 94              C88 93 94 100 94 107              C94 115 88 121 80 120              C73 120 67 114 68 107              C68 100 73 95 80 94Z"/>
+
+    <path d="M110 59              C118 58 124 64 124 72              C124 79 118 85 111 85              C103 85 97 79 98 72              C98 65 103 60 110 59Z"/>
+  </g>
+
+  <!-- Marker highlights on data points -->
+  <g stroke="#C7F29A" stroke-width="2.4" stroke-linecap="round" opacity=".9">
+    <path d="M11 108 Q14 103 19 104"/>
+    <path d="M42 75 Q45 70 50 71"/>
+    <path d="M74 105 Q77 100 82 101"/>
+    <path d="M104 70 Q107 64 113 66"/>
+  </g>
+
+  <!-- Main blue change-analysis symbol -->
+  <path d="M62 15            C75 3 96 4 108 16            C120 28 121 47 110 59            L88 82            L65 59            C53 47 52 29 62 15Z" fill="url(#changeBlue)" stroke="#145B91" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Freehand inner contour -->
+  <path d="M64 29            Q66 18 77 14            Q90 9 101 19            M111 34            Q115 46 105 56" stroke="#A9D9FF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- White circular refresh arrows -->
+  <g stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Upper clockwise arc -->
+    <path d="M72 39              C72 30 79 24 88 24              C98 24 104 31 104 40"/>
+
+    <!-- Upper arrowhead -->
+    <path d="M94 36 L104 43 L110 33"/>
+
+    <!-- Lower return arc -->
+    <path d="M104 48              C101 58 94 63 85 62              C76 61 70 54 70 46"/>
+
+    <!-- Lower arrowhead -->
+    <path d="M80 49 L70 42 L64 52"/>
+  </g>
+
+  <!-- Fine white marker variation -->
+  <g stroke="#DDF3FF" stroke-width="1.7" stroke-linecap="round">
+    <path d="M79 29 Q87 24 94 29"/>
+    <path d="M79 56 Q88 62 96 55"/>
+  </g>
+
+  <!-- Yellow sketchnote emphasis -->
+  <g stroke="#FFD45A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112 11 L117 5"/>
+    <path d="M119 21 L126 18"/>
+    <path d="M120 31 L126 32"/>
+  </g>
+
+  <!-- Small hand-drawn chart annotations -->
+  <g stroke="#32D4F5" stroke-width="2" stroke-linecap="round">
+    <path d="M29 56 L35 51"/>
+    <path d="M25 63 L31 60"/>
+    <path d="M37 46 L39 40"/>
+  </g>
+
+  <!-- Subtle chart movement indicators -->
+  <g stroke="#86D633" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M44 97 L50 103"/>
+    <path d="M98 92 L103 87"/>
+  </g>
+
+  <!-- Irregular ink accents -->
+  <path d="M10 125 Q18 128 26 122            M99 87 Q110 91 119 83" stroke="#477C22" stroke-width="1.7" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Final yellow handwritten-style tick -->
+  <path d="M39 113 L43 117 L50 108" stroke="#FFD45A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure NetApp Files (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure NetApp Files storage icon with a dark teal
+    header, turquoise storage enclosure, three horizontal file
+    layers, and a central blue NetApp symbol. Uneven marker
+    outlines, original Azure colors, subtle yellow accents,
+    and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="netappBody" x1="64" y1="41" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".58" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Storage enclosure -->
+  <path d="     M9 38     L119 38     L119 107     Q119 114 112 114     L16 114     Q9 114 9 107     Z" fill="url(#netappBody)" stroke="#198AB3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper storage header -->
+  <path d="     M9 19     Q9 15 15 15     L113 15     Q119 15 119 21     L119 39     L9 39     Z" fill="#198AB3" stroke="#005BA1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Header marker highlight -->
+  <path d="M17 22 Q46 20 76 22 L109 22" stroke="#50E6FF" stroke-width="2.7" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Header lower hand-drawn seam -->
+  <path d="M15 39 Q63 40 113 39" stroke="#005BA1" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Storage layer 1: white -->
+  <path d="     M24 49     Q24 47 27 47     L101 47     Q104 47 104 50     L104 59     Q104 62 101 62     L27 62     Q24 62 24 59     Z" fill="#FFFFFF" stroke="#198AB3" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Storage layer 2: pale cyan -->
+  <path d="     M24 67     Q24 65 27 65     L101 65     Q104 65 104 68     L104 77     Q104 80 101 80     L27 80     Q24 80 24 77     Z" fill="#9CEBFF" stroke="#198AB3" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Storage layer 3: pale cyan -->
+  <path d="     M24 85     Q24 83 27 83     L101 83     Q104 83 104 86     L104 95     Q104 98 101 98     L27 98     Q24 98 24 95     Z" fill="#9CEBFF" stroke="#198AB3" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Central NetApp symbol -->
+  <path d="     M39 53     Q39 51 42 51     L86 51     Q89 51 89 54     L89 100     Q89 103 86 103     L73 103     Q70 103 70 100     L70 79     Q70 76 67 76     L61 76     Q58 76 58 79     L58 100     Q58 103 55 103     L42 103     Q39 103 39 100     Z" fill="#0078D4" stroke="#005BA1" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- NetApp symbol highlight -->
+  <path d="     M45 57     Q62 56 82 57" stroke="#50E6FF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <path d="M45 64 Q44 78 45 94" stroke="#5EA0EF" stroke-width="2.1" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <!-- Inner arch marker detail -->
+  <path d="     M57 82     L57 76     Q57 72 62 72     L67 72     Q72 72 72 76     L72 82" stroke="#B9EAFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".75"/>
+
+  <!-- Subtle enclosure marker strokes -->
+  <g stroke="#B9F3FF" stroke-linecap="round" fill="none">
+    <path d="M15 47 Q14 68 15 91" stroke-width="2.5"/>
+    <path d="M17 106 Q24 109 33 108" stroke-width="2"/>
+    <path d="M96 108 Q105 109 112 106" stroke-width="2"/>
+  </g>
+
+  <!-- Hand-drawn file-layer accents -->
+  <g stroke="#FFFFFF" stroke-linecap="round" fill="none" opacity=".75">
+    <path d="M29 52 L35 52" stroke-width="2"/>
+    <path d="M29 70 L35 70" stroke-width="2"/>
+    <path d="M29 88 L35 88" stroke-width="2"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M4 28 L1 24" stroke-width="2.8"/>
+    <path d="M4 36 L0 36" stroke-width="2.4"/>
+    <path d="M122 48 L126 45" stroke-width="2.7"/>
+    <path d="M122 56 L127 56" stroke-width="2.3"/>
+    <path d="M99 119 Q107 122 114 119" stroke-width="2.5"/>
+  </g>
+
+  <!-- Loose sketchnote marker echoes -->
+  <g stroke="#0078D4" stroke-linecap="round" fill="none">
+    <path d="M14 120 Q31 124 46 122" stroke-width="1.8"/>
+    <path d="M82 122 Q91 124 99 122" stroke-width="1.7"/>
+    <path d="M123 76 Q126 87 123 95" stroke-width="1.8" stroke-dasharray="4 5"/>
+  </g>
+
+  <!-- Tiny marker details -->
+  <circle cx="17" cy="7" r="1.8" fill="#50E6FF"/>
+  <circle cx="111" cy="8" r="1.8" fill="#F4C542"/>
+  <circle cx="64" cy="119" r="1.6" fill="#32BEDD"/>
+
+</svg>

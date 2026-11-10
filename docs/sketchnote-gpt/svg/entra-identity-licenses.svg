@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Entra Identity Licenses (sketch)</title>
+  
+  <desc>
+    Hand-drawn Microsoft Entra identity silhouette in cyan and
+    teal, with a purple licensing award ribbon and golden-yellow
+    medallion. Uneven marker outlines, transparent background,
+    and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="identityCyan" x1="55" y1="12" x2="55" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#32D4F5"/>
+      <stop offset="0.63" stop-color="#2EC9EB"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+
+    <linearGradient id="headCyan" x1="54" y1="8" x2="58" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+
+    <linearGradient id="ribbonPurple" x1="101" y1="91" x2="101" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#773ADC"/>
+      <stop offset="1" stop-color="#A67AF4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Identity body silhouette -->
+  <path d="M56 57            C82 57 100 74 106 100            Q108 107 109 112            Q110 120 102 121            L12 121            Q4 120 6 112            C10 78 26 57 56 57Z" fill="url(#identityCyan)" stroke="#147A9D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White shirt / collar -->
+  <path d="M39 61            Q56 73 73 61            L57 104            Q56 107 54 103            Z" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- Collar sketch lines -->
+  <path d="M40 64 L54 78            M72 64 L58 78" stroke="#B9F5FF" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Head -->
+  <path d="M56 9            C74 8 87 22 87 40            C87 58 73 71 56 71            C38 71 25 57 25 40            C25 23 38 9 56 9Z" fill="url(#headCyan)" stroke="#147A9D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn head highlight -->
+  <path d="M34 34            Q37 19 53 16" stroke="#B9F5FF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Subtle identity body marker strokes -->
+  <path d="M17 99            Q22 79 35 70" stroke="#8BE7F7" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+
+  <path d="M78 73            Q95 90 98 108" stroke="#0D7EA8" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Purple licensing ribbon tails -->
+  <path d="M91 89            L110 89            L115 122            Q115 125 112 124            L101 117            L90 124            Q87 126 88 122            Z" fill="url(#ribbonPurple)" stroke="#6830B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Ribbon fold details -->
+  <path d="M92 108 L90 120            M110 108 L113 120" stroke="#C9A9FF" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Purple award medallion -->
+  <path d="M101 54            C114 54 124 64 124 77            C124 90 114 100 101 100            C88 100 78 90 78 77            C78 64 88 54 101 54Z" fill="#A67AF4" stroke="#773ADC" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Yellow medallion center -->
+  <path d="M101 62            C110 62 117 69 117 77            C117 86 110 93 101 93            C92 93 85 86 85 77            C85 69 92 62 101 62Z" fill="#FFE452" stroke="#C59B28" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn medal highlight -->
+  <path d="M89 74            Q92 66 100 66" stroke="#FFF5A0" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Subtle license certification mark -->
+  <path d="M94 77            L99 82            L108 72" stroke="#B77C16" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose purple sketch accents -->
+  <path d="M85 61 Q92 53 102 52" stroke="#C6A4FF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M119 89 Q125 81 125 73" stroke="#773ADC" stroke-width="1.7" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M117 43 L122 37" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M122 51 L127 49" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M17 18 L12 13" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M14 27 L8 25" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small sketchnote sparkle -->
+  <path d="M105 12 L105 20            M101 16 L109 16" stroke="#F4C542" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Uneven marker baseline -->
+  <path d="M16 125            Q45 127 74 125" stroke="#32D4F5" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+</svg>

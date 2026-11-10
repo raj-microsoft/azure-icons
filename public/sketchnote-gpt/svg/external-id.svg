@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>external id (sketch)</title>
+  
+  <desc>Two overlapping identity silhouettes in deep Azure blue and bright cyan, connected by a prominent bidirectional arrow. Hand-drawn marker outlines, subtle highlights, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="deepBlue" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#0055C5"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+    <linearGradient id="cyanBlue" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#66DDFF"/>
+      <stop offset="1" stop-color="#0294E4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear external identity: head -->
+  <path d="M88 8            C101 8 110 18 110 30            C110 42 101 51 89 52            C76 52 66 43 66 30            C66 18 75 8 88 8Z" fill="url(#deepBlue)" stroke="#173F83" stroke-width="3.8"/>
+
+  <!-- Rear identity: shoulders and torso -->
+  <path d="M89 53            C111 53 122 67 124 91            Q125 98 119 100            L54 100            Q49 99 50 92            C52 67 65 53 89 53Z" fill="url(#deepBlue)" stroke="#173F83" stroke-width="3.8"/>
+
+  <!-- Rear identity: white shirt opening -->
+  <path d="M77 53            Q88 60 99 54            L89 82Z" fill="#F5FBFF" opacity=".92"/>
+
+  <!-- Rear silhouette marker accents -->
+  <path d="M75 16 Q82 11 91 13" stroke="#77B9F6" stroke-width="2.6"/>
+  <path d="M109 64 Q116 73 118 86" stroke="#5EA0EF" stroke-width="2.4"/>
+  <path d="M66 72 Q61 82 60 90" stroke="#5EA0EF" stroke-width="2" opacity=".75"/>
+
+  <!-- Front identity: head -->
+  <path d="M43 29            C56 29 65 39 65 51            C65 64 55 73 43 73            C31 73 21 63 21 51            C21 39 30 29 43 29Z" fill="url(#cyanBlue)" stroke="#087CB9" stroke-width="3.8"/>
+
+  <!-- Front identity: shoulders and torso -->
+  <path d="M43 74            C65 74 77 89 79 113            Q80 120 74 121            L12 121            Q5 120 6 113            C8 89 20 74 43 74Z" fill="url(#cyanBlue)" stroke="#087CB9" stroke-width="3.8"/>
+
+  <!-- Front identity: white shirt opening -->
+  <path d="M32 75            Q43 81 54 75            L43 103Z" fill="#F3FCFF" opacity=".94"/>
+
+  <!-- Front silhouette sketch highlights -->
+  <path d="M29 41 Q33 34 42 34" stroke="#D1F7FF" stroke-width="2.8"/>
+  <path d="M16 99 Q20 87 29 82" stroke="#A9EDFF" stroke-width="2.5"/>
+  <path d="M61 83 Q69 91 71 105" stroke="#087CB9" stroke-width="2" opacity=".7"/>
+
+  <!-- Bidirectional identity exchange arrow: outline -->
+  <path d="M75 88            L65 88            L65 80            Q65 77 62 80            L49 94            Q47 96 49 98            L62 112            Q65 115 65 111            L65 104            L105 104            L105 111            Q105 115 108 112            L121 98            Q123 96 121 94            L108 80            Q105 77 105 81            L105 88            Z" fill="#FFFFFF" stroke="#1677B5" stroke-width="5" opacity=".95"/>
+
+  <!-- Arrow inner body -->
+  <path d="M79 92 L61 92 L61 86            L51 96 L61 106 L61 100            L109 100 L109 106            L119 96 L109 86 L109 92Z" fill="#66DDFF" stroke="#087CB9" stroke-width="2.7"/>
+
+  <!-- Marker highlights along connection -->
+  <path d="M70 95 Q84 94 99 95" stroke="#E7FCFF" stroke-width="2.5"/>
+
+  <!-- Directional sketch strokes -->
+  <g stroke="#0055C5" stroke-width="2.2">
+    <path d="M79 108 L85 108"/>
+    <path d="M88 108 L94 108"/>
+  </g>
+
+  <!-- Restrained yellow emphasis marks -->
+  <g stroke="#FFCB3D" stroke-width="3">
+    <path d="M112 46 L117 42"/>
+    <path d="M117 53 L123 53"/>
+    <path d="M11 69 L16 65"/>
+    <path d="M8 77 L14 78"/>
+  </g>
+
+  <!-- Azure-blue hand-drawn motion accents -->
+  <g stroke="#5EA0EF" stroke-width="2.4">
+    <path d="M56 19 L60 15"/>
+    <path d="M63 23 L69 21"/>
+    <path d="M85 116 L91 116"/>
+  </g>
+
+  <!-- Small identity exchange spark -->
+  <g stroke="#FFCB3D" stroke-width="2.3">
+    <path d="M80 66 L80 73"/>
+    <path d="M76 69 L84 69"/>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Capacity Reservation Groups (sketch)</title>
+  
+  <desc>
+    Hand-drawn isometric capacity reservation cube with two
+    stacked internal layers. Original Azure magenta, plum,
+    and lavender-pink colors, irregular marker outlines,
+    translucent cube faces, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="topPink" x1="30" y1="12" x2="99" y2="61" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8A9D0"/>
+      <stop offset="1" stop-color="#DC92BF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer isometric cube: left translucent face -->
+  <path d="M10 34            L64 65            L64 124            Q62 125 59 123            L13 96            Q10 94 10 91            Z" fill="#CE74B6" fill-opacity=".42" stroke="#9B4B89" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Outer isometric cube: right translucent face -->
+  <path d="M64 65            L118 34            L118 91            Q118 94 115 96            L68 123            Q66 125 64 124            Z" fill="#A33A85" fill-opacity=".35" stroke="#84316F" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Lower reserved-capacity layer: top diamond -->
+  <path d="M19 68            L31 61            L64 80            L97 61            L109 68            L64 94            Z" fill="#A33A85" stroke="#762A70" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Lower reserved-capacity layer: left side -->
+  <path d="M19 68            L64 94            L64 106            L19 80            Z" fill="#59285F" stroke="#48204F" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Lower reserved-capacity layer: right side -->
+  <path d="M64 94            L109 68            L109 80            L64 106            Z" fill="#6C2D70" stroke="#48204F" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Lower layer sketched highlights -->
+  <path d="M25 70 L61 91            M68 91 L103 70" stroke="#DC92BF" stroke-width="1.9" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Upper reserved-capacity layer: top diamond -->
+  <path d="M19 45            L64 19            L109 45            L64 71            Z" fill="#A33A85" stroke="#762A70" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Upper layer: left depth -->
+  <path d="M19 45            L64 71            L64 83            L19 57            Z" fill="#59285F" stroke="#48204F" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <!-- Upper layer: right depth -->
+  <path d="M64 71            L109 45            L109 57            L64 83            Z" fill="#702E73" stroke="#48204F" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn top-layer highlights -->
+  <path d="M27 45            L61 25            M69 25 L101 44" stroke="#E8A9D0" stroke-width="2.1" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M27 51 L61 70            M68 70 L102 51" stroke="#C974AE" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Transparent outer cube: top face -->
+  <path d="M10 34            Q10 32 13 30            L61 3            Q64 1 67 3            L115 30            Q118 32 118 34            L64 65            Z" fill="url(#topPink)" fill-opacity=".58" stroke="#A65B96" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Reinforce outer cube structure -->
+  <path d="M10 34            L64 65            L118 34            M64 65 L64 123" stroke="#874075" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top face marker highlights -->
+  <path d="M20 32 L61 9            M69 9 L107 31" stroke="#F6D9E9" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Loose sketchnote edge strokes -->
+  <path d="M16 42 L16 57            M16 63 L16 84            M112 43 L112 62            M112 68 L112 85" stroke="#B45A9D" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Small yellow sketchnote sparkle -->
+  <path d="M113 8 L116 3            M119 14 L125 12            M115 19 L120 23" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Subtle hand-drawn accent marks -->
+  <path d="M6 76 L2 79            M7 84 L4 89" stroke="#F4C542" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Minimal marker dots -->
+  <circle cx="9" cy="13" r="2" fill="#DC92BF"/>
+  <circle cx="121" cy="105" r="2" fill="#F4C542"/>
+  <circle cx="8" cy="112" r="1.8" fill="#A33A85"/>
+</svg>

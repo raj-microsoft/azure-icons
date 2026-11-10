@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Data Factories (sketch)</title>
+  
+  <desc id="desc">A hand-drawn Azure-blue data cylinder connected to a factory with a sawtooth roof, three white windows, cyan highlights and subtle yellow sketchnote accents.</desc>
+
+  <defs>
+    <linearGradient id="data-blue" x1="9" y1="24" x2="65" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".5" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="factory-blue" x1="52" y1="70" x2="118" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tall data storage cylinder -->
+  <path d="M9 18            C9 9 23 5 34 5            C47 5 63 10 63 19            L63 116            Q63 121 58 121            L15 121            Q9 121 9 115Z" fill="url(#data-blue)" stroke="#064F87" stroke-width="3.2"/>
+
+  <!-- Top database rim -->
+  <path d="M9 18            C9 10 21 5 35 5            C50 5 63 11 63 19            C63 27 50 32 35 32            C20 32 9 26 9 18Z" fill="#EAEAEA" stroke="#476C85" stroke-width="2.8"/>
+
+  <!-- Cyan database opening -->
+  <path d="M16 18            C16 13 25 10 35 10            C47 10 56 14 56 19            C56 24 47 27 35 27            C24 27 16 23 16 18Z" fill="#50E6FF" stroke="#198AB3" stroke-width="2"/>
+
+  <!-- Inner database sketch -->
+  <path d="M22 22            Q35 15 49 22" stroke="#198AB3" stroke-width="2.4"/>
+
+  <!-- Cylinder marker highlights -->
+  <path d="M16 37            Q15 70 17 105" stroke="#69BBF0" stroke-width="3" opacity=".8"/>
+
+  <path d="M54 36 L54 55" stroke="#005BA1" stroke-width="2" opacity=".65"/>
+
+  <!-- Factory silhouette with two sawtooth roof peaks -->
+  <path d="M34 100            L62 73            L90 46            Q93 43 95 47            L95 70            L116 48            Q120 44 120 50            L120 115            Q120 121 114 121            L34 121Z" fill="url(#factory-blue)" stroke="#064F87" stroke-width="3.4"/>
+
+  <!-- Freehand roof highlights -->
+  <path d="M43 101            L88 56            M100 76            L114 61" stroke="#65B5EA" stroke-width="2.7" opacity=".85"/>
+
+  <!-- Three readable white factory windows -->
+  <path d="M39 94            Q39 91 42 91            L53 91            Q56 91 56 94            L56 105            Q56 108 53 108            L42 108            Q39 108 39 105Z" fill="#FFFFFF" stroke="#135C91" stroke-width="2"/>
+
+  <path d="M67 94            Q67 91 70 91            L81 91            Q84 91 84 94            L84 105            Q84 108 81 108            L70 108            Q67 108 67 105Z" fill="#FFFFFF" stroke="#135C91" stroke-width="2"/>
+
+  <path d="M95 94            Q95 91 98 91            L109 91            Q112 91 112 94            L112 105            Q112 108 109 108            L98 108            Q95 108 95 105Z" fill="#FFFFFF" stroke="#135C91" stroke-width="2"/>
+
+  <!-- Hand-drawn window glints -->
+  <g stroke="#B5DDF5" stroke-width="1.7">
+    <path d="M44 95 L48 95"/>
+    <path d="M72 95 L76 95"/>
+    <path d="M100 95 L104 95"/>
+  </g>
+
+  <!-- Base marker accent -->
+  <path d="M37 115            Q75 116 114 115" stroke="#003F7C" stroke-width="2.2" opacity=".7"/>
+
+  <!-- Azure sketch marks -->
+  <g stroke="#0078D4" stroke-width="2.4">
+    <path d="M17 3 L14 0"/>
+    <path d="M57 4 L61 1"/>
+    <path d="M123 78 L127 76"/>
+  </g>
+
+  <!-- Restrained yellow emphasis -->
+  <g stroke="#FFCC4D" stroke-width="2.7">
+    <path d="M79 36 L76 30"/>
+    <path d="M88 33 L89 27"/>
+    <path d="M104 37 L108 32"/>
+  </g>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M111 7            Q113 15 121 17            Q113 19 111 27            Q109 19 101 17            Q109 15 111 7Z" fill="#FFCC4D" stroke="#D6A222" stroke-width="1.5"/>
+
+  <!-- Tiny data-flow motion strokes -->
+  <g stroke="#50E6FF" stroke-width="2">
+    <path d="M71 54 L77 48"/>
+    <path d="M76 61 L82 55"/>
+  </g>
+</svg>

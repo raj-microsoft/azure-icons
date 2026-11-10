@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Stack HCI Sizer (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure-blue checklist document with a folded corner,
+    two completed assessment items, and an overlapping cyan sizing
+    ruler. Original Azure blues and cyan tones, uneven marker outlines,
+    subtle yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="documentBlue" x1="43" y1="6" x2="43" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="rulerTop" x1="69" y1="78" x2="69" y2="103" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="rulerBody" x1="80" y1="93" x2="80" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure assessment document -->
+  <path d="M14 8            Q14 5 18 5            L49 5            L85 39            L85 101            Q85 105 81 105            L18 105            Q14 105 14 101Z" fill="url(#documentBlue)" stroke="#174D78" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Folded document corner -->
+  <path d="M49 5            L49 34            Q49 39 54 39            L85 39Z" fill="#0078D4" stroke="#174D78" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Fold highlight -->
+  <path d="M55 12 L78 35 L56 35            Q53 35 53 31 L53 15" stroke="#8DCCFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Uneven marker highlight on paper -->
+  <path d="M20 17 L20 95            M24 12 L43 12" stroke="#A7D8FF" stroke-width="2.2" stroke-linecap="round" opacity=".6"/>
+
+  <!-- First checklist text stroke -->
+  <path d="M31 48            Q44 47 57 48" stroke="#C3F1FF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- First completed checklist item -->
+  <path d="M64 44            L69 49            L79 38" stroke="#C3F1FF" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Second checklist text stroke -->
+  <path d="M31 68            Q43 67 57 68" stroke="#C3F1FF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Second completed checklist item -->
+  <path d="M64 64            L69 69            L79 58" stroke="#C3F1FF" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle handwritten underline -->
+  <path d="M31 56            Q42 55 52 56            M31 76            Q42 75 52 76" stroke="#D6F7FF" stroke-width="1.7" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Sizing ruler: top elliptical opening -->
+  <path d="M35 91            C35 82 50 78 68 78            C86 78 101 82 101 91            C101 100 86 104 68 104            C50 104 35 100 35 91Z" fill="url(#rulerTop)" stroke="#176889" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Ruler hollow centre -->
+  <path d="M49 91            C49 86 58 84 68 84            C78 84 87 86 87 91            C87 96 78 98 68 98            C58 98 49 96 49 91Z" fill="#D9FAFF" stroke="#198AB3" stroke-width="2.3"/>
+
+  <!-- Cyan sizing ruler body -->
+  <path d="M35 91            C35 100 50 104 68 104            L121 104            Q124 104 124 107            L124 121            Q124 124 121 124            L68 124            C50 124 35 120 35 111Z" fill="url(#rulerBody)" stroke="#176889" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketchy cylindrical edge -->
+  <path d="M35 91            C35 100 50 104 68 104            M35 111            C35 120 50 124 68 124" stroke="#198AB3" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Hand-drawn ruler graduations -->
+  <g stroke="#32BEDD" stroke-width="2.7" stroke-linecap="round">
+    <path d="M49 112 L49 120"/>
+    <path d="M59 115 L59 122"/>
+    <path d="M70 108 L70 122"/>
+    <path d="M80 115 L80 122"/>
+    <path d="M90 108 L90 122"/>
+    <path d="M100 115 L100 122"/>
+    <path d="M110 108 L110 122"/>
+    <path d="M119 115 L119 122"/>
+  </g>
+
+  <!-- Ruler top highlight -->
+  <path d="M43 88            Q53 82 68 82" stroke="#E0FCFF" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Hand-drawn sizing indicator -->
+  <path d="M107 84 L119 84            M107 80 L107 88            M119 80 L119 88" stroke="#0078D4" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M94 46 L100 41"/>
+    <path d="M97 54 L105 52"/>
+    <path d="M27 112 L22 117"/>
+  </g>
+
+  <!-- Small marker sparkle -->
+  <path d="M108 65 L108 73            M104 69 L112 69" stroke="#F5C84C" stroke-width="2.2" stroke-linecap="round"/>
+
+</svg>

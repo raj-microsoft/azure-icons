@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Cloud Services (Classic) (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure cloud with two white compute gears,
+    preserving the original Cloud Services Classic symbolism.
+    Uneven marker outlines, original Azure-blue gradient,
+    subtle cyan highlights, yellow sketch accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="15" x2="64" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".24" stop-color="#559CEC"/>
+      <stop offset=".55" stop-color="#3C91E5"/>
+      <stop offset=".84" stop-color="#1380DA"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Azure cloud silhouette -->
+  <path d="M35 106            C18 107 7 95 7 80            C7 65 17 53 32 51            C38 31 53 17 74 17            C96 17 111 32 112 53            C124 57 127 67 126 79            C125 95 113 106 98 106            Z" fill="url(#cloudBlue)" stroke="#075A9E" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Loose outer sketchnote contour -->
+  <path d="M12 63            Q18 52 31 49            M39 42            C48 23 61 15 77 15            M104 36            Q113 45 115 55            M120 90            Q114 101 102 104" stroke="#137BD0" stroke-width="2.1" stroke-linecap="round" fill="none" opacity=".75"/>
+
+  <!-- Cloud marker highlights -->
+  <path d="M17 73            Q21 59 35 57            M44 39            Q56 23 75 24            M91 28            Q103 35 105 49" stroke="#B6DEFF" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Subtle lower cloud highlight -->
+  <path d="M33 100            Q61 102 95 100" stroke="#6BB9F2" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Upper compute gear: white teeth -->
+  <path d="M67 36            L72 34            L76 41            Q80 41 84 43            L91 39            L96 44            L92 51            Q94 55 94 59            L102 62            L102 69            L94 72            Q93 77 90 80            L94 87            L89 92            L82 88            Q78 90 74 90            L71 98            L64 98            L61 90            Q57 89 54 87            L47 91            L42 86            L46 79            Q44 75 43 71            L36 68            L36 61            L44 58            Q45 54 47 51            L43 44            L48 39            L55 43            Q59 41 63 40            Z" fill="#FFFFFF" stroke="#075A9E" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Upper gear inner opening -->
+  <path d="M69 54            C76 54 81 60 81 67            C81 74 76 79 69 79            C62 79 57 74 57 67            C57 60 62 54 69 54Z" fill="#278BD9" stroke="#075A9E" stroke-width="2.6"/>
+
+  <!-- Inner circular sketch highlight -->
+  <path d="M62 63            Q65 58 71 59" stroke="#A8DFFF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Lower-left compute gear -->
+  <path d="M29 68            L34 66            L37 72            Q40 72 43 74            L49 71            L54 76            L51 82            Q53 85 53 88            L60 91            L60 97            L53 100            Q52 103 50 105            L53 111            L48 116            L42 113            Q39 115 36 115            L33 122            L27 122            L24 115            Q21 114 18 112            L12 115            L8 110            L11 104            Q9 101 9 98            L3 95            L3 89            L10 86            Q11 83 13 80            L10 75            L15 71            L21 74            Q24 72 27 72            Z" fill="#FFFFFF" stroke="#075A9E" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Lower gear circular opening -->
+  <path d="M31 84            C37 84 42 89 42 95            C42 101 37 106 31 106            C25 106 20 101 20 95            C20 89 25 84 31 84Z" fill="#278BD9" stroke="#075A9E" stroke-width="2.5"/>
+
+  <!-- Small lower gear highlight -->
+  <path d="M25 92            Q27 88 32 89" stroke="#A8DFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hand-drawn gear edge strokes -->
+  <path d="M50 46 L55 49            M89 45 L86 49            M95 65 L98 65" stroke="#C7E9FF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <path d="M16 77 L20 80            M46 77 L43 80            M14 107 L18 104" stroke="#B9DFFF" stroke-width="1.9" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M111 12 L114 5            M119 17 L125 15            M114 22 L119 26" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small sketch accents -->
+  <path d="M8 32 L4 29            M13 27 L12 21" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Minimal marker dots -->
+  <circle cx="21" cy="13" r="2" fill="#32BEDD"/>
+  <circle cx="119" cy="112" r="2" fill="#F4C542"/>
+  <circle cx="108" cy="120" r="1.8" fill="#0078D4"/>
+</svg>

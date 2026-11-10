@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Data Lake Store Gen1 (sketch)</title>
+  
+  <desc>Hand-drawn Azure Data Lake Store folder with a cyan front panel and white lightning bolt.</desc>
+
+  <defs>
+    <linearGradient id="lake" x1="64" y1="32" x2="64" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset=".46" stop-color="#2CC3E6"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back of folder: uneven marker silhouette -->
+  <path d="M9 23            Q9 19 14 19            L49 20            Q52 20 55 22            L69 32            L115 32            Q120 32 120 37            L120 108            L9 108 Z" fill="#005BA1" stroke="#174E78" stroke-width="3.5"/>
+
+  <!-- Small folder label -->
+  <path d="M21 27            Q22 26 24 26            L43 27            Q45 27 45 29            L45 33            L21 33 Z" fill="#FFFFFF" stroke="#164E77" stroke-width="1.8"/>
+
+  <path d="M22 27 L28 27 L28 33 L22 33 Z" fill="#1AC3F2"/>
+
+  <!-- Front folder panel -->
+  <path d="M9 43            Q9 39 14 39            L48 39            Q51 39 54 36            L63 28            Q65 26 69 26            L114 26            Q120 26 120 32            L120 110            Q120 115 115 115            L13 115            Q8 115 8 110            L8 48            Q8 45 9 43 Z" fill="url(#lake)" stroke="#145F89" stroke-width="3.5"/>
+
+  <!-- Deliberately imperfect inner marker line -->
+  <path d="M15 49            Q17 46 21 46            L49 46            Q54 46 58 42            L67 34" stroke="#A7EDFA" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Lightning bolt: original central symbolism -->
+  <path d="M72 45            Q73 42 76 44            L66 65            L80 65            Q83 65 81 68            L56 98            Q53 101 54 96            L60 76            L47 76            Q44 76 46 73            Z" fill="#FFFFFF" stroke="#17658B" stroke-width="3.5"/>
+
+  <!-- Lightning marker highlight -->
+  <path d="M69 53 L57 70            M72 72 L62 85" stroke="#B9EEFF" stroke-width="2" opacity=".85"/>
+
+  <!-- Small handwritten-style motion accents -->
+  <path d="M90 56 L96 52            M93 65 L101 65            M89 76 L96 81" stroke="#FFCC4D" stroke-width="3"/>
+
+  <!-- Folder edge sketch details -->
+  <path d="M15 96 L15 106            Q15 110 20 110            M104 109 L113 109" stroke="#D5F5FF" stroke-width="2.5" opacity=".7"/>
+
+  <!-- Subtle sketchnote corner accents -->
+  <path d="M21 119 Q35 122 48 119" stroke="#0078D4" stroke-width="2.5"/>
+
+  <path d="M104 19 L107 13            M112 21 L119 17" stroke="#FFCC4D" stroke-width="2.5"/>
+</svg>

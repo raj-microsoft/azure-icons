@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Data Explorer Clusters (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure Data Explorer Clusters icon featuring
+    a large Azure-blue triangular explorer symbol,
+    cyan geometric facet, white diamond cluster nodes,
+    and three diagonal grey data strokes.
+    Uneven marker outlines, subtle yellow sketch accents,
+    and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="explorerBlue" x1="12" y1="9" x2="120" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54AEF0"/>
+      <stop offset="1" stop-color="#1988D9"/>
+    </linearGradient>
+
+    <linearGradient id="explorerCyan" x1="65" y1="14" x2="116" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8DF1FF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+
+    <linearGradient id="dataGrey" x1="14" y1="112" x2="80" y2="57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B2B3"/>
+      <stop offset="1" stop-color="#979797"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Large triangular explorer silhouette -->
+  <path d="M14 13            Q11 11 12 16            L112 117            Q116 121 117 114            L117 14            Q117 10 112 10            L17 10            Q14 10 14 13            Z" fill="url(#explorerBlue)" stroke="#176DAF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan explorer facet -->
+  <path d="M43 43            L74 11            L112 11            Q117 11 117 16            L117 53            L82 88            Z" fill="url(#explorerCyan)" stroke="#168CBF" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Hand-drawn facet boundary -->
+  <path d="M44 43            Q63 63 82 88" stroke="#1676B5" stroke-width="2.4" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Subtle marker highlights -->
+  <path d="M21 17            Q37 18 54 17" stroke="#D2F2FF" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M111 24            Q112 41 111 50" stroke="#E1FAFF" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Cluster diamond nodes -->
+  <path d="M70 37            Q71 36 72 37            L77 42            Q78 43 77 44            L72 49            Q71 50 70 49            L65 44            Q64 43 65 42            Z" fill="#FFFFFF" stroke="#168CBF" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <path d="M88 19            L94 25            L88 31            L82 25            Z" fill="#FFFFFF" stroke="#168CBF" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <path d="M88 55            L94 61            L88 67            L82 61            Z" fill="#FFFFFF" stroke="#168CBF" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <path d="M106 37            L112 43            L106 49            L100 43            Z" fill="#FFFFFF" stroke="#168CBF" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <!-- Tiny hand-drawn node details -->
+  <path d="M70 40 L73 43" stroke="#C3F1FF" stroke-width="1.5" stroke-linecap="round"/>
+
+  <path d="M87 22 L90 25" stroke="#C3F1FF" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Long diagonal data stroke -->
+  <path d="M13 109            Q12 108 14 106            L58 62            Q60 60 62 62            L67 67            Q69 69 67 71            L23 115            Q21 117 19 115            Z" fill="url(#dataGrey)" stroke="#747474" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Upper short data stroke -->
+  <path d="M12 82            L36 58            Q38 56 40 58            L45 63            Q47 65 45 67            L21 91            Q19 93 17 91            L12 86            Q10 84 12 82            Z" fill="url(#dataGrey)" stroke="#747474" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Lower short data stroke -->
+  <path d="M48 116            L72 92            Q74 90 76 92            L81 97            Q83 99 81 101            L57 125            Q55 127 53 125            L48 120            Q46 118 48 116            Z" fill="url(#dataGrey)" stroke="#747474" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Marker reflections on data strokes -->
+  <path d="M18 108 L35 91" stroke="#E0E0E0" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M17 83 L30 70" stroke="#E0E0E0" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M53 117 L66 104" stroke="#E0E0E0" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Yellow sketchnote spark -->
+  <path d="M122 67 L125 63            M121 73 L126 72" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M27 49 L23 45            M31 45 L29 40" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Loose handwritten-style sketch accents -->
+  <path d="M8 33            Q9 24 13 21" stroke="#1988D9" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+
+  <path d="M100 120            Q109 124 117 120" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+
+  <path d="M82 96            Q87 101 90 105" stroke="#50E6FF" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Fiji (sketch)</title>
+  
+  <desc>Three stacked isometric Azure-blue server layers with a dark central opening, cyan indicators, and irregular hand-drawn marker outlines.</desc>
+
+  <defs>
+    <linearGradient id="topBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="leftBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="rightBlue" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset="1" stop-color="#003F78"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bottom server layer -->
+  <g stroke="#003F78" stroke-width="3.5">
+    <path d="M13 78 L64 107 L115 78 L115 99              Q115 102 111 104 L67 127              Q64 129 61 127 L16 103              Q12 101 13 97Z" fill="url(#leftBlue)"/>
+    <path d="M64 107 L115 78 L115 99              Q115 102 111 104 L64 127Z" fill="url(#rightBlue)"/>
+    <path d="M13 78 Q12 76 16 74              L60 49 Q64 47 68 49              L113 74 Q118 77 114 80              L68 107 Q64 109 60 107Z" fill="url(#topBlue)"/>
+  </g>
+
+  <!-- Middle server layer -->
+  <g stroke="#003F78" stroke-width="3.5">
+    <path d="M13 54 L64 83 L115 54 L115 76              Q115 79 111 81 L68 104              Q64 106 60 104 L16 80              Q12 78 13 75Z" fill="url(#leftBlue)"/>
+    <path d="M64 83 L115 54 L115 76              Q115 79 111 81 L64 104Z" fill="url(#rightBlue)"/>
+    <path d="M13 54 Q12 52 16 50              L60 25 Q64 23 68 25              L113 50 Q118 53 114 56              L68 83 Q64 85 60 83Z" fill="url(#topBlue)"/>
+  </g>
+
+  <!-- Top server layer -->
+  <g stroke="#003F78" stroke-width="3.5">
+    <path d="M13 30 L64 59 L115 30 L115 52              Q115 55 111 57 L68 80              Q64 82 60 80 L16 56              Q12 54 13 51Z" fill="url(#leftBlue)"/>
+    <path d="M64 59 L115 30 L115 52              Q115 55 111 57 L64 80Z" fill="url(#rightBlue)"/>
+    <path d="M13 30 Q12 28 16 26              L60 2 Q64 0 68 2              L113 26 Q118 29 114 32              L68 59 Q64 61 60 59Z" fill="url(#topBlue)"/>
+  </g>
+
+  <!-- Dark recessed opening on top -->
+  <path d="M36 29 L63 13 Q65 12 68 14            L92 28 Q95 30 92 32            L66 47 Q64 48 61 46            L36 32 Q33 30 36 29Z" fill="#003067" stroke="#002653" stroke-width="3"/>
+
+  <!-- Subtle hand-drawn top highlights -->
+  <g stroke="#A5DBFF" stroke-width="2.4">
+    <path d="M22 28 L47 14"/>
+    <path d="M79 12 L103 26"/>
+    <path d="M39 33 L61 45"/>
+  </g>
+
+  <!-- Irregular marker edge details -->
+  <g stroke="#5EA0EF" stroke-width="2.1" opacity=".85">
+    <path d="M19 39 L19 49"/>
+    <path d="M19 64 L19 73"/>
+    <path d="M19 88 L19 97"/>
+    <path d="M70 64 L109 41"/>
+    <path d="M70 88 L109 65"/>
+    <path d="M70 112 L109 89"/>
+  </g>
+
+  <!-- Cyan status indicators on front-left face -->
+  <g fill="#50E6FF" stroke="#0078D4" stroke-width="1.6">
+    <path d="M49 51 L55 54 L55 60 L49 57Z"/>
+    <path d="M49 75 L55 78 L55 84 L49 81Z"/>
+    <path d="M49 99 L55 102 L55 108 L49 105Z"/>
+  </g>
+
+  <!-- Three angled panels on right side -->
+  <g fill="#5EA0EF" stroke="#003F78" stroke-width="1.8">
+    <path d="M84 58 L108 44 L108 51 L84 65Z"/>
+    <path d="M84 82 L108 68 L108 75 L84 89Z"/>
+    <path d="M84 106 L108 92 L108 99 L84 113Z"/>
+  </g>
+
+  <!-- Sketch reinforcement on front faces -->
+  <g stroke="#003F78" stroke-width="1.8" opacity=".55">
+    <path d="M24 60 L40 69"/>
+    <path d="M24 84 L40 93"/>
+    <path d="M24 108 L40 117"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#FFCB3D" stroke-width="3">
+    <path d="M8 18 L13 14"/>
+    <path d="M5 26 L10 26"/>
+    <path d="M117 15 L121 11"/>
+    <path d="M121 23 L126 23"/>
+  </g>
+
+  <!-- Azure-blue motion accents -->
+  <g stroke="#5EA0EF" stroke-width="2.4">
+    <path d="M6 65 L10 62"/>
+    <path d="M4 73 L9 73"/>
+    <path d="M119 86 L124 83"/>
+  </g>
+
+  <!-- Tiny hand-drawn emphasis marks -->
+  <g stroke="#FFCB3D" stroke-width="2.3">
+    <path d="M118 113 L122 117"/>
+    <path d="M112 120 L115 125"/>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Batch AI (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue light bulb with branching neural-network connections, white circuit details, a grey metallic base, and subtle yellow marker accents. Transparent background.</desc>
+
+  <defs>
+    <radialGradient id="batchBulb" cx="60" cy="40" r="57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6BB9F2"/>
+      <stop offset=".45" stop-color="#55AEF0"/>
+      <stop offset="1" stop-color="#1B93EB"/>
+    </radialGradient>
+    <linearGradient id="batchBase" x1="64" y1="96" x2="64" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#CCCCCC"/>
+      <stop offset=".55" stop-color="#A3A3A3"/>
+      <stop offset="1" stop-color="#777777"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn light-bulb silhouette -->
+  <path d="M64 8            C43 7 27 19 23 39            C18 59 27 72 37 84            C43 91 47 99 48 103            Q49 107 53 107            L75 107            Q79 107 80 103            C83 91 91 83 98 73            C107 61 108 44 101 29            C94 15 80 8 64 8Z" fill="url(#batchBulb)" stroke="#1769AE" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Irregular inner marker reflection -->
+  <path d="M32 41            C35 25 46 17 61 16            Q72 14 82 21" stroke="#C4EAFF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M29 49 Q27 61 35 72" stroke="#B4E3FF" stroke-width="2.3" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Central AI neural stem -->
+  <path d="M64 16            Q63 38 64 57            L64 104" stroke="#F2F2F2" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left neural branches -->
+  <path d="M64 51            L48 43            L40 43            M64 73            L48 65            L39 76" stroke="#F2F2F2" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right neural branches -->
+  <path d="M64 51            L80 43            L88 33            M64 73            L81 64            L89 73" stroke="#F2F2F2" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper-left neural network junction -->
+  <path d="M40 43            L34 33            M40 43            L32 52" stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Upper-right neural network junction -->
+  <path d="M88 33            L98 28            M88 33            L97 42" stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Lower-left neural network junction -->
+  <path d="M39 76            L29 81            M39 76            L38 63" stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Lower-right neural network junction -->
+  <path d="M89 73            L100 80            M89 73            L90 59" stroke="#F2F2F2" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- AI circuit nodes -->
+  <circle cx="64" cy="51" r="4" fill="#FFFFFF" stroke="#278DD8" stroke-width="2"/>
+
+  <circle cx="64" cy="73" r="4" fill="#FFFFFF" stroke="#278DD8" stroke-width="2"/>
+
+  <circle cx="40" cy="43" r="3.6" fill="#FFFFFF" stroke="#278DD8" stroke-width="1.8"/>
+
+  <circle cx="88" cy="33" r="3.6" fill="#FFFFFF" stroke="#278DD8" stroke-width="1.8"/>
+
+  <circle cx="39" cy="76" r="3.6" fill="#FFFFFF" stroke="#278DD8" stroke-width="1.8"/>
+
+  <circle cx="89" cy="73" r="3.6" fill="#FFFFFF" stroke="#278DD8" stroke-width="1.8"/>
+
+  <!-- Small hand-drawn AI signal accents -->
+  <path d="M49 29 L53 24            M76 85 L82 90" stroke="#E3F6FF" stroke-width="2.4" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Metallic bulb socket -->
+  <path d="M48 105            L80 105            L80 116            Q80 119 77 121            L72 125            Q71 126 68 126            L60 126            Q57 126 56 125            L51 121            Q48 119 48 116Z" fill="url(#batchBase)" stroke="#777777" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn socket threads -->
+  <path d="M51 109            Q64 107 78 109            M50 115            Q64 113 78 115            M55 121            Q64 119 73 121" stroke="#E6E6E6" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Socket shadow details -->
+  <path d="M76 107 L76 115" stroke="#777777" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M54 108 L54 115" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M111 30 L117 23            M114 40 L124 38            M105 24 L105 16" stroke="#F5C84C" stroke-width="3.3" stroke-linecap="round"/>
+
+  <!-- Left-side handwritten emphasis -->
+  <path d="M13 34 L7 29            M12 44 L4 44" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small sketch underline -->
+  <path d="M84 113 Q96 109 104 103" stroke="#F5C84C" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M99 102            L105 103            L103 109" stroke="#F5C84C" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

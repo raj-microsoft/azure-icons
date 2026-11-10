@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Automanaged VM (sketch)</title>
+
+  <defs>
+    <linearGradient id="vmBlue" x1="64" y1="7" x2="64" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".8" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#0068B9"/>
+    </linearGradient>
+    <linearGradient id="vmStand" x1="64" y1="90" x2="64" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn virtual machine monitor -->
+  <path d="M11 9            Q11 6 16 6            L112 7            Q117 7 117 12            L116 88            Q116 93 111 93            L16 92            Q10 92 10 87Z" fill="url(#vmBlue)" stroke="#16568B" stroke-width="3.7"/>
+
+  <!-- Loose marker highlight along the frame -->
+  <path d="M17 18 L17 78            M23 13 Q61 11 105 13" stroke="#B6DEFF" stroke-width="2.4" opacity=".65"/>
+
+  <!-- Curved automatic-management arrow -->
+  <path d="M73 23            C91 28 101 46 96 64            C92 83 74 88 60 85            C44 82 34 68 35 53            Q35 43 42 34" stroke="#174F83" stroke-width="9"/>
+
+  <path d="M73 23            C91 28 101 46 96 64            C92 83 74 88 60 85            C44 82 34 68 35 53            Q35 43 42 34" stroke="#FFFFFF" stroke-width="6.2"/>
+
+  <!-- Sketchy arrowhead -->
+  <path d="M27 35            L48 27            L49 48Z" fill="#FFFFFF" stroke="#174F83" stroke-width="2.6"/>
+
+  <!-- Central automation gear -->
+  <path d="M57 35            L65 35            L68 42            Q71 43 74 45            L81 42            L87 49            L84 56            Q86 59 86 62            L93 65            L93 73            L86 76            Q85 79 83 81            L85 88            L78 94            L71 91            Q68 93 65 93            L62 100            L54 100            L51 93            Q48 92 45 90            L38 93            L32 86            L35 79            Q33 76 33 73            L26 70            L26 62            L33 59            Q34 56 36 53            L33 46            L40 40            L47 43            Q50 41 54 41Z" fill="#FFFFFF" stroke="#174F83" stroke-width="3.2" transform="translate(6 -6) scale(.88)"/>
+
+  <!-- Gear's central ring -->
+  <path d="M64 49            C75 49 82 57 82 67            C82 78 74 85 64 85            C53 85 46 77 46 67            C46 57 53 49 64 49Z" fill="#5EA0EF" stroke="#174F83" stroke-width="3" transform="translate(6 -6) scale(.88)"/>
+
+  <!-- White gear hub -->
+  <path d="M64 57            C70 57 74 61 74 67            C74 73 70 77 64 77            C58 77 54 73 54 67            C54 61 58 57 64 57Z" fill="#FFFFFF" stroke="#174F83" stroke-width="2.5" transform="translate(6 -6) scale(.88)"/>
+
+  <!-- Hand-inked gear highlights -->
+  <path d="M51 45 L54 43            M76 47 L79 49            M79 77 L77 80" stroke="#C9E9FF" stroke-width="2.2"/>
+
+  <!-- Monitor support -->
+  <path d="M53 93            L75 93            L75 104            Q75 111 84 113            L88 119            L40 119            L44 113            Q53 111 53 104Z" fill="url(#vmStand)" stroke="#707070" stroke-width="3"/>
+
+  <!-- Hand-drawn stand base -->
+  <path d="M42 115            Q45 112 50 112            L78 112            Q84 112 86 115            L89 121            Q65 123 39 121Z" fill="#CCCCCC" stroke="#707070" stroke-width="2.8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M22 31 L17 26            M28 25 L27 18" stroke="#F4CB52" stroke-width="3"/>
+
+  <path d="M102 37 L108 32            M106 44 L113 43" stroke="#F4CB52" stroke-width="3"/>
+
+  <!-- Tiny handwritten-style annotation marks -->
+  <path d="M22 82 L27 85            M101 78 L106 74" stroke="#B8E2FF" stroke-width="2" opacity=".8"/>
+
+</svg>

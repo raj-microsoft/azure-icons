@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Cubes (sketch)</title>
+
+  
+  <desc>
+    Three irregular hand-drawn isometric green cubes arranged
+    in a triangular formation, preserving the Azure Cubes icon.
+    Original lime-green, bright-green and medium-green faces,
+    uneven marker outlines, subtle highlights, restrained
+    Azure-blue and yellow accents, and transparent background.
+    Fully editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="0" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C7F45A"/>
+      <stop offset="1" stop-color="#B4EC36"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper cube: top face -->
+  <path d="M64 5            Q66 5 68 7            L94 22            Q96 24 93 26            L66 42            Q64 43 62 42            L34 26            Q32 24 35 22            L61 7            Q63 5 64 5            Z" fill="url(#cubeTop)" stroke="#5E9624" stroke-width="2.8"/>
+
+  <!-- Upper cube: left face -->
+  <path d="M34 25            L64 42            L64 76            Q63 79 60 77            L36 63            Q34 62 34 59            Z" fill="#86D633" stroke="#5E9624" stroke-width="3.2"/>
+
+  <!-- Upper cube: right face -->
+  <path d="M64 42            L94 25            L94 59            Q94 62 92 63            L68 77            Q64 79 64 76            Z" fill="#76BC2D" stroke="#5E9624" stroke-width="3.2"/>
+
+  <!-- Upper cube sketch highlights -->
+  <path d="M43 24            L63 12            L85 24            M40 32            L40 55            M70 47            L88 37" stroke="#D7FF83" stroke-width="2.4" opacity=".85"/>
+
+  <!-- Lower-left cube: top face -->
+  <path d="M34 59            Q36 58 38 60            L60 73            Q63 75 60 77            L34 93            Q32 94 30 93            L5 78            Q3 76 6 74            L31 60            Q33 59 34 59            Z" fill="#B4EC36" stroke="#5E9624" stroke-width="2.8"/>
+
+  <!-- Lower-left cube: left face -->
+  <path d="M5 77            L33 94            L33 123            Q32 126 29 124            L7 111            Q5 110 5 107            Z" fill="#86D633" stroke="#5E9624" stroke-width="3.2"/>
+
+  <!-- Lower-left cube: right face -->
+  <path d="M33 94            L61 77            L61 107            Q61 110 59 111            L37 124            Q33 126 33 123            Z" fill="#76BC2D" stroke="#5E9624" stroke-width="3.2"/>
+
+  <!-- Lower-left hand-drawn highlights -->
+  <path d="M13 76            L33 65            L52 76            M11 84            L11 105            M39 98            L55 89" stroke="#D7FF83" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Lower-right cube: top face -->
+  <path d="M95 59            Q97 58 99 60            L123 74            Q126 76 123 78            L98 93            Q96 94 94 93            L68 77            Q66 75 69 73            L93 60            Q94 59 95 59            Z" fill="#B4EC36" stroke="#5E9624" stroke-width="2.8"/>
+
+  <!-- Lower-right cube: left face -->
+  <path d="M68 77            L96 94            L96 123            Q95 126 92 124            L70 111            Q68 110 68 107            Z" fill="#86D633" stroke="#5E9624" stroke-width="3.2"/>
+
+  <!-- Lower-right cube: right face -->
+  <path d="M96 94            L124 77            L124 107            Q124 110 122 111            L100 124            Q96 126 96 123            Z" fill="#76BC2D" stroke="#5E9624" stroke-width="3.2"/>
+
+  <!-- Lower-right hand-drawn highlights -->
+  <path d="M77 76            L96 65            L116 76            M74 84            L74 105            M102 98            L118 89" stroke="#D7FF83" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Subtle marker contour accents -->
+  <g stroke="#47791C" stroke-width="1.6" opacity=".5">
+    <path d="M59 45 L59 69"/>
+    <path d="M89 32 L89 55"/>
+    <path d="M28 98 L28 116"/>
+    <path d="M56 83 L56 102"/>
+    <path d="M91 99 L91 117"/>
+    <path d="M119 83 L119 103"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#FFD400" stroke-width="2.8">
+    <path d="M24 12 L30 18"/>
+    <path d="M18 23 L26 25"/>
+    <path d="M104 10 L100 17"/>
+    <path d="M113 20 L106 23"/>
+  </g>
+
+  <!-- Tiny Azure-blue sketch marks -->
+  <g stroke="#50E6FF" stroke-width="2.2">
+    <path d="M12 49 Q17 45 23 46"/>
+    <path d="M105 49 Q111 46 117 49"/>
+  </g>
+
+  <!-- Small handwritten-style sparkle -->
+  <g stroke="#FFD400" stroke-width="2.2">
+    <path d="M63 113 L63 123"/>
+    <path d="M58 118 L68 118"/>
+  </g>
+
+</svg>

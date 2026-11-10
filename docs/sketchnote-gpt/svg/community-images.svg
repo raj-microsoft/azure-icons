@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Community Images (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure Community Images icon featuring a
+    blue rectangular image card with a cyan isometric cube,
+    overlapping a grey circular community image disc.
+    Original Azure-blue, cyan and grey palette with subtle
+    yellow sketch accents and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="communityGrey" x1="77" y1="14" x2="77" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999999"/>
+      <stop offset="1" stop-color="#767676"/>
+    </linearGradient>
+
+    <linearGradient id="communityInner" x1="77" y1="42" x2="77" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B3B3B3"/>
+      <stop offset="1" stop-color="#999999"/>
+    </linearGradient>
+
+    <linearGradient id="communityBlue" x1="8" y1="7" x2="74" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset=".55" stop-color="#006CBF"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear community image disc -->
+  <path d="M77 13            C106 12 126 35 126 64            C126 93 105 115 77 116            C48 117 27 94 27 65            C27 37 48 14 77 13Z" fill="url(#communityGrey)" stroke="#626262" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Irregular outer marker contour -->
+  <path d="M76 19            C102 18 119 39 120 64            M117 82            Q107 105 83 109" stroke="#C5C5C5" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Inner circular image impression -->
+  <path d="M77 40            C91 40 102 51 102 65            C102 79 91 90 77 90            C63 90 52 79 52 65            C52 51 63 40 77 40Z" fill="url(#communityInner)" stroke="#737373" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Inner disc highlight -->
+  <path d="M62 53            Q68 45 78 46            M92 54            Q98 64 93 74" stroke="#D6D6D6" stroke-width="2.3" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Foreground Azure image card -->
+  <path d="M9 7            Q10 5 14 5            L72 6            Q76 6 77 10            L77 117            Q77 121 73 122            L10 122            Q6 122 6 117            L7 11            Q7 8 9 7Z" fill="url(#communityBlue)" stroke="#164F83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketchy card border details -->
+  <path d="M13 15 L13 43            M16 12 Q42 10 68 13            M69 85 L69 113            M15 115 Q41 118 62 115" stroke="#6AB7EF" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="18 5 7 5" opacity=".7"/>
+
+  <!-- Cyan isometric cube: top face -->
+  <path d="M22 52            L42 40            Q44 39 46 40            L65 52            L44 65            Z" fill="#C3F1FF" stroke="#157EA9" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cube left face -->
+  <path d="M22 52            L44 65            L44 92            L22 79Z" fill="#9CEBFF" stroke="#157EA9" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Cube right face -->
+  <path d="M44 65            L65 52            L65 79            L44 92Z" fill="#50E6FF" stroke="#157EA9" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Uneven cube marker strokes -->
+  <path d="M28 51 L43 43            M27 60 L27 74            M50 66 L61 59            M59 73 L59 78" stroke="#E7FBFF" stroke-width="2.1" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Hand-drawn cube construction detail -->
+  <path d="M44 65            Q45 77 44 92            M22 79            Q33 85 44 92" stroke="#198AB3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 4" opacity=".75"/>
+
+  <!-- Sketchnote yellow emphasis -->
+  <g stroke="#FFD45A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 26 L89 19"/>
+    <path d="M96 30 L104 26"/>
+    <path d="M103 40 L110 40"/>
+  </g>
+
+  <!-- Small cyan handwritten-style details -->
+  <g stroke="#50E6FF" stroke-width="2.3" stroke-linecap="round">
+    <path d="M19 101 L26 101"/>
+    <path d="M31 101 L42 101"/>
+    <path d="M19 107 L35 107"/>
+  </g>
+
+  <!-- Subtle outer disc annotation marks -->
+  <path d="M89 107            Q102 103 109 92            M112 47            Q116 57 115 68" stroke="#D2D2D2" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Small yellow finishing flourish -->
+  <path d="M84 121 L89 124 L96 117" stroke="#FFD45A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

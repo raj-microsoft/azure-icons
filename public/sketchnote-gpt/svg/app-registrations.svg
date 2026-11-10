@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>App Registrations (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure App Registrations icon featuring
+    a blue three-by-three application grid and a cyan
+    isometric registration cube in the lower-right corner.
+  </desc>
+
+  <defs>
+    <linearGradient id="appGrid" x1="48" y1="6" x2="48" y2="109" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".45" stop-color="#4897E9"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="cubeRight" x1="96" y1="74" x2="120" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Application grid: top row -->
+  <path d="M9 10 Q9 7 12 7            L33 7 Q36 8 36 11            L36 34 Q35 37 32 37            L12 37 Q9 36 9 33 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <path d="M43 8 L65 7            Q68 8 68 11            L68 34 Q68 37 65 37            L43 37 Q41 36 41 33            L41 11 Q41 9 43 8 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <path d="M75 7 L97 7            Q100 8 100 11            L100 34 Q99 37 96 37            L75 37 Q73 36 73 33            L73 11 Q73 8 75 7 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <!-- Application grid: middle row -->
+  <path d="M9 43 L33 42            Q36 43 36 46            L36 68 Q36 71 32 71            L12 71 Q9 70 9 67 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <path d="M43 42 L65 43            Q68 43 68 46            L68 68 Q68 71 65 71            L43 71 Q41 70 41 67            L41 46 Q41 43 43 42 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <path d="M75 43 L97 42            Q100 43 100 46            L100 68 Q99 71 96 71            L75 71 Q73 70 73 67            L73 46 Q73 43 75 43 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <!-- Application grid: bottom row -->
+  <path d="M9 77 L33 77            Q36 78 36 81            L36 103 Q35 106 32 106            L12 106 Q9 105 9 102 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <path d="M43 77 L65 77            Q68 78 68 81            L68 103 Q68 106 65 106            L43 106 Q41 105 41 102            L41 81 Q41 78 43 77 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <!-- Bottom-right grid tile, partially obscured -->
+  <path d="M75 77 L97 77            Q100 78 100 81            L100 103 Q99 106 96 106            L75 106 Q73 105 73 102            L73 81 Q73 78 75 77 Z" fill="url(#appGrid)" stroke="#1769AD" stroke-width="2.8"/>
+
+  <!-- Subtle hand-drawn tile highlights -->
+  <g stroke="#D8EEFF" stroke-width="2.2" opacity=".8">
+    <path d="M15 14 L28 14"/>
+    <path d="M47 14 L61 14"/>
+    <path d="M79 14 L93 14"/>
+    <path d="M15 49 L28 49"/>
+    <path d="M47 49 L61 49"/>
+    <path d="M79 49 L93 49"/>
+    <path d="M15 83 L28 83"/>
+    <path d="M47 83 L61 83"/>
+  </g>
+
+  <!-- Small marker texture lines -->
+  <g stroke="#005BA1" stroke-width="1.8" opacity=".45">
+    <path d="M16 31 L22 31"/>
+    <path d="M48 31 L54 31"/>
+    <path d="M80 31 L86 31"/>
+    <path d="M16 65 L22 65"/>
+    <path d="M48 65 L54 65"/>
+    <path d="M80 65 L86 65"/>
+    <path d="M16 99 L22 99"/>
+    <path d="M48 99 L54 99"/>
+  </g>
+
+  <!-- Registered application cube: top face -->
+  <path d="M70 83            L96 68            Q98 67 100 68            L124 82            Q126 83 124 85            L98 100 Z" fill="#9CEBFF" stroke="#168DAE" stroke-width="3.2"/>
+
+  <!-- Cube left face -->
+  <path d="M70 83            L98 100            L98 124            Q98 126 95 124            L72 110            Q70 109 70 106 Z" fill="#50E6FF" stroke="#168DAE" stroke-width="3.2"/>
+
+  <!-- Cube right face -->
+  <path d="M98 100            L124 83            L124 106            Q124 109 121 111            L98 124 Z" fill="url(#cubeRight)" stroke="#168DAE" stroke-width="3.2"/>
+
+  <!-- Cube top sketch highlights -->
+  <path d="M82 82 L96 74            M101 76 L114 83" stroke="#E6FCFF" stroke-width="2.4" opacity=".95"/>
+
+  <!-- Organic cube seam -->
+  <path d="M98 102            Q97 112 98 122" stroke="#007E9E" stroke-width="1.8" opacity=".6"/>
+
+  <!-- Left cube face highlight -->
+  <path d="M77 94 L77 105            M82 99 L82 105" stroke="#D9FCFF" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Right cube face highlight -->
+  <path d="M116 93 L116 104" stroke="#9CEBFF" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Azure-blue sketchnote annotation -->
+  <path d="M108 55 L112 51            M115 60 L121 59" stroke="#0078D4" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Yellow registration sparkle -->
+  <path d="M113 34 L113 43            M108.5 38.5 L117.5 38.5" stroke="#F2C94C" stroke-width="3"/>
+
+  <path d="M121 31 L124 28" stroke="#F2C94C" stroke-width="2.3"/>
+
+  <!-- Small hand-drawn motion ticks -->
+  <path d="M59 113 L64 116            M65 109 L68 112" stroke="#0078D4" stroke-width="2.2" opacity=".7"/>
+</svg>

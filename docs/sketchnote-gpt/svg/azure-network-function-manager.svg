@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Network Function Manager (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn network management icon featuring three
+    turquoise nodes connected by a circular network,
+    with a purple cloud containing a white configuration
+    gear. Original Azure teal and violet colours,
+    uneven marker outlines, restrained yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="nodeTeal" x1="0" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3CD4C2"/>
+      <stop offset=".52" stop-color="#3ACEBC"/>
+      <stop offset="1" stop-color="#37C2B1"/>
+    </linearGradient>
+
+    <linearGradient id="cloudPurple" x1="64" y1="35" x2="64" y2="97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9D79EB"/>
+      <stop offset=".55" stop-color="#8862E1"/>
+      <stop offset="1" stop-color="#7548D6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular network connection -->
+  <path d="M77 15            C101 20 116 41 116 68            Q116 86 106 101" stroke="#37C2B1" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <path d="M91 115            Q64 130 37 115" stroke="#37C2B1" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <path d="M22 101            C15 90 12 79 12 68            C12 42 28 20 51 15" stroke="#37C2B1" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- Offset hand-drawn network strokes -->
+  <g stroke="#83E7DA" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".8">
+    <path d="M84 21 Q101 30 108 48"/>
+    <path d="M107 86 Q105 92 101 97"/>
+    <path d="M47 119 Q63 124 80 119"/>
+    <path d="M18 78 Q17 61 25 47"/>
+  </g>
+
+  <!-- Top network node -->
+  <path d="M75 14            C75 21 70 26 64 26            C58 26 53 21 53 14            C53 7 58 3 64 3            C70 3 75 8 75 14 Z" fill="url(#nodeTeal)" stroke="#168F83" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Lower-left network node -->
+  <path d="M35 109            C35 116 30 122 24 122            C18 122 13 117 13 110            C13 103 18 98 24 98            C30 98 35 103 35 109 Z" fill="url(#nodeTeal)" stroke="#168F83" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Lower-right network node -->
+  <path d="M115 109            C115 116 110 122 104 122            C98 122 93 117 93 110            C93 103 98 98 104 98            C110 98 115 103 115 109 Z" fill="url(#nodeTeal)" stroke="#168F83" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Node marker highlights -->
+  <g stroke="#D7FFF8" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M58 13 Q60 8 65 8"/>
+    <path d="M18 108 Q20 103 25 103"/>
+    <path d="M98 108 Q100 103 105 103"/>
+  </g>
+
+  <!-- Central cloud silhouette -->
+  <path d="M45 94            C31 94 22 85 22 73            C22 61 30 53 42 51            C47 38 58 31 71 32            C84 32 94 40 97 51            C110 53 118 62 118 73            C118 85 109 94 96 94            Z" fill="url(#cloudPurple)" stroke="#5630A7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cloud hand-drawn highlights -->
+  <path d="M29 67            Q32 58 44 57            M50 47            Q58 36 70 37" stroke="#D9C7FF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M78 38            Q90 42 93 55" stroke="#BDA4F5" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M28 78            Q32 88 44 89" stroke="#5530A5" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- White configuration gear -->
+  <path d="M60 48            L68 48            L71 55            L76 57            L83 54            L88 60            L84 67            L85 72            L92 75            L92 83            L85 86            L83 91            L86 98            L79 102            L73 98            L68 100            L65 107            L57 107            L54 100            L49 98            L42 102            L37 96            L41 89            L39 84            L32 81            L32 73            L39 70            L41 65            L38 58            L44 53            L51 57            L56 55 Z" fill="#FFFFFF" stroke="#6241AD" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(12 -10) scale(.82)"/>
+
+  <!-- Gear central opening -->
+  <path d="M64 63            C70 63 75 68 75 74            C75 80 70 85 64 85            C58 85 53 80 53 74            C53 68 58 63 64 63 Z" fill="#8057DA" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Gear center marker highlight -->
+  <path d="M58 72            Q60 67 65 68" stroke="#D9C7FF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Subtle purple gear contour -->
+  <path d="M48 63            Q45 72 49 82            M79 65            Q83 73 79 82" stroke="#E5D9FF" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <g stroke="#FFD70F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 22 L110 32"/>
+    <path d="M105 27 L115 27"/>
+    <path d="M8 31 L12 35"/>
+    <path d="M12 31 L8 35"/>
+  </g>
+
+  <!-- Small Azure-blue hand-drawn accents -->
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M5 64 Q5 57 8 52"/>
+    <path d="M119 91 Q123 86 124 80"/>
+    <path d="M49 125 Q55 127 61 126"/>
+  </g>
+
+  <!-- Loose handwritten-style emphasis strokes -->
+  <g stroke="#FFD70F" stroke-width="2" stroke-linecap="round">
+    <path d="M88 8 L92 4"/>
+    <path d="M96 13 L101 10"/>
+    <path d="M39 11 L35 7"/>
+  </g>
+
+</svg>

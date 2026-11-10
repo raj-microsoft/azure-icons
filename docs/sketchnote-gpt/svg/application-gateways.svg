@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title"><title>Application Gateways (sketch)</title>
+  
+
+  <defs>
+    <linearGradient id="gateway-green" x1="25" y1="17" x2="104" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset=".55" stop-color="#6DAD2A"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn green gateway diamond -->
+  <path d="M59 8            Q64 4 69 9            L119 59            Q124 64 119 70            L69 120            Q64 124 59 119            L9 69            Q5 64 10 59            Z" fill="url(#gateway-green)" stroke="#426D1B" stroke-width="3.3"/>
+
+  <!-- Light sketch highlight along upper edges -->
+  <path d="M17 58            L59 16            Q64 11 69 16            L109 56" stroke="#B6DE77" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Subtle marker border variation -->
+  <path d="M113 74            L68 116            Q64 119 60 115            L16 71" stroke="#487E20" stroke-width="1.8" opacity=".7"/>
+
+  <!-- Central application/service globe -->
+  <path d="M64 19            C75 18 84 27 85 38            C86 50 77 59 65 59            C53 60 44 51 44 40            C43 28 52 20 64 19Z" fill="#0078D4" stroke="#174F77" stroke-width="2.8"/>
+
+  <!-- Hand-drawn globe network connections -->
+  <g stroke="#DDF2FF" stroke-width="2.9">
+    <path d="M53 37              Q61 26 78 29"/>
+    <path d="M52 38              Q49 47 51 53"/>
+    <path d="M56 40              Q62 49 70 52"/>
+    <path d="M61 24              Q68 37 77 42"/>
+    <path d="M71 52              Q78 54 83 48"/>
+  </g>
+
+  <!-- Globe network nodes -->
+  <path d="M54 31            C59 30 62 34 62 38            C62 43 58 46 53 46            C48 46 45 42 46 38            C46 34 49 31 54 31Z" fill="#F5F8FA" stroke="#174F77" stroke-width="1.8"/>
+
+  <path d="M70 48            C74 48 77 51 77 55            C77 59 74 61 70 61            C66 61 64 58 64 55            C64 51 67 48 70 48Z" fill="#F5F8FA" stroke="#174F77" stroke-width="1.7"/>
+
+  <path d="M79 35            C83 35 86 38 86 42            C86 46 83 49 79 49            C75 49 72 46 72 42            C72 38 75 35 79 35Z" fill="#F5F8FA" stroke="#174F77" stroke-width="1.7"/>
+
+  <!-- Application Gateway split traffic arrows -->
+  <!-- Left outbound arrow -->
+  <path d="M60 52            L34 78            L25 69            L25 90            L46 90            L37 81            L69 49            Z" fill="#FFFFFF" stroke="#38691D" stroke-width="2.1"/>
+
+  <!-- Right outbound arrow -->
+  <path d="M72 50            L101 79            L110 70            L110 91            L89 91            L98 82            L64 48            Z" fill="#FFFFFF" stroke="#38691D" stroke-width="2.1"/>
+
+  <!-- Downward routing arrow -->
+  <path d="M59 58            L69 58            L69 97            L80 97            L64 113            L48 97            L59 97            Z" fill="#FFFFFF" stroke="#38691D" stroke-width="2.2"/>
+
+  <!-- Sketch lines along arrow edges -->
+  <g stroke="#D5E6D0" stroke-width="1.5" opacity=".85">
+    <path d="M37 75 L55 57"/>
+    <path d="M78 58 L97 77"/>
+    <path d="M63 68 L63 92"/>
+  </g>
+
+  <!-- Yellow routing emphasis -->
+  <g stroke="#FFCC4D" stroke-width="2.8">
+    <path d="M19 48 L14 43"/>
+    <path d="M26 41 L24 34"/>
+    <path d="M105 42 L111 37"/>
+    <path d="M110 50 L117 48"/>
+  </g>
+
+  <!-- Hand-drawn routing motion marks -->
+  <g stroke="#FFCC4D" stroke-width="2.3">
+    <path d="M19 83 L15 87"/>
+    <path d="M18 92 L13 94"/>
+    <path d="M110 98 L116 101"/>
+    <path d="M107 105 L110 111"/>
+  </g>
+
+  <!-- Small sketch sparkle -->
+  <g stroke="#FFCC4D" stroke-width="2.2">
+    <path d="M98 18 L98 29"/>
+    <path d="M93 23 L103 23"/>
+    <path d="M94.5 19.5 L101.5 26.5" stroke-width="1.3"/>
+    <path d="M101.5 19.5 L94.5 26.5" stroke-width="1.3"/>
+  </g>
+
+  <!-- Tiny freehand accent marks -->
+  <g stroke="#EAF6DB" stroke-width="1.8" opacity=".8">
+    <path d="M29 56 L36 49"/>
+    <path d="M93 57 L99 63"/>
+    <path d="M49 104 L55 110"/>
+  </g>
+</svg>

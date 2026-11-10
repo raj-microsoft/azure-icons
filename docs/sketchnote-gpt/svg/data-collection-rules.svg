@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Data Collection Rules (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue document with cyan checklist and a right-pointing data flow arrow.</desc>
+
+  <defs>
+    <linearGradient id="paper" x1="25" y1="8" x2="115" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="9" y1="18" x2="91" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main document: slightly imperfect marker silhouette -->
+  <path d="M27 9            Q25 7 23 11            L23 117            Q23 122 28 122            L117 121            Q121 120 121 116            L120 10            Q120 7 116 8            Z" fill="url(#paper)" stroke="#164F84" stroke-width="3.5"/>
+
+  <!-- Hand-drawn document edge -->
+  <path d="M115 14 Q117 38 115 59            M116 81 Q118 99 115 114" stroke="#B7E0FF" stroke-width="2" opacity=".7"/>
+
+  <!-- Cyan rules panel -->
+  <path d="M9 20            Q9 16 14 16            L94 17            Q98 17 99 21            L98 67            Q98 71 94 72            L11 71            Q8 70 8 66            Z" fill="url(#panel)" stroke="#17688F" stroke-width="3.5"/>
+
+  <!-- First rule checkbox -->
+  <path d="M22 29 L34 28 L35 41 L21 42 Z" fill="#EFFFFF" stroke="#116A94" stroke-width="2.5"/>
+
+  <!-- First rule checkmark -->
+  <path d="M24 34 L28 38 L35 29" stroke="#0078D4" stroke-width="3"/>
+
+  <!-- First rule text line -->
+  <path d="M44 32 Q60 31 75 32 L87 31" stroke="#FFFFFF" stroke-width="5"/>
+  <path d="M45 39 Q63 40 82 38" stroke="#EAFBFF" stroke-width="2" opacity=".75"/>
+
+  <!-- Second rule checkbox -->
+  <path d="M21 49 L35 48 L36 62 L22 63 Z" fill="#EFFFFF" stroke="#116A94" stroke-width="2.5"/>
+
+  <!-- Second rule checkmark -->
+  <path d="M24 55 L28 59 L35 50" stroke="#0078D4" stroke-width="3"/>
+
+  <!-- Second rule text line -->
+  <path d="M44 53 Q62 52 87 53" stroke="#FFFFFF" stroke-width="5"/>
+  <path d="M45 61 Q60 60 76 61" stroke="#EAFBFF" stroke-width="2" opacity=".75"/>
+
+  <!-- Subtle handwritten annotation beneath panel -->
+  <path d="M37 81 Q46 78 55 81            M61 81 Q70 79 78 81" stroke="#D5EFFF" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Data flow arrow, matching original layout -->
+  <path d="M24 91            Q24 89 27 89            L91 89            L91 79            Q91 76 94 79            L113 96            Q116 98 113 101            L94 117            Q91 119 91 115            L91 106            L27 106            Q24 106 24 103            Z" fill="#83B9F9" stroke="#164F84" stroke-width="3.5"/>
+
+  <!-- Marker-style highlights on arrow -->
+  <path d="M35 94 Q54 93 75 94            M81 94 L90 94" stroke="#E6F5FF" stroke-width="2.5" opacity=".85"/>
+  <path d="M98 87 L108 97 L99 106" stroke="#D6EBFF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Small sketchnote spark accents -->
+  <path d="M103 25 L103 20            M100 28 L96 27            M106 28 L110 25" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Subtle blue marker accent -->
+  <path d="M15 79 Q12 84 15 88" stroke="#32BEDD" stroke-width="2.5"/>
+
+  <!-- Document corner highlight -->
+  <path d="M107 14 L113 14 L113 20" stroke="#D7EEFF" stroke-width="2.5" opacity=".9"/>
+</svg>

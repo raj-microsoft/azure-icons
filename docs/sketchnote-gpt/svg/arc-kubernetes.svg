@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Arc Kubernetes (sketch)</title>
+
+  
+  <desc>
+    Seven hand-drawn purple Kubernetes container blocks
+    arranged in three staggered rows above an Azure-blue
+    elliptical platform. Uneven marker outlines, original
+    violet and cyan colors, subtle yellow sketch accents,
+    and a transparent background. All shapes are explicit
+    editable vector paths without use elements.
+  </desc>
+
+  <defs>
+    <linearGradient id="arcPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B77AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure Arc platform bottom thickness -->
+  <path d="M6 94        C8 80 30 75 64 75        C98 75 120 80 122 94        L122 108        C121 119 99 124 65 124        C30 124 8 119 6 108Z" fill="#5EA0EF" stroke="#0078D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Platform front marker shading -->
+  <path d="M10 105        C20 116 41 119 64 119        C88 119 108 116 118 106" stroke="#83B9F9" stroke-width="2.3" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Elliptical cyan top surface -->
+  <path d="M122 94        C122 106 96 113 64 113        C31 113 6 106 6 94        C6 82 31 75 64 75        C96 75 122 82 122 94Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Freehand surface contour -->
+  <path d="M14 92        C23 84 41 81 64 81        C87 81 105 84 114 92" stroke="#B6F6FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="14 5 4 5" opacity="0.9"/>
+
+  <!-- Back row: left Kubernetes container -->
+  <g transform="translate(45 20) rotate(-2)" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M-12 -10 L0 -14 L13 -9 L1 -5Z" fill="#B77AF4" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-12 -10 L1 -5 L1 12 L-12 8Z" fill="#9560E8" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M1 -5 L13 -9 L13 7 L1 12Z" fill="url(#arcPurple)" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-8 -7 L-8 7 M-3 -5 L-3 9" stroke="#341A6E" stroke-width="1.8"/>
+
+    <path d="M5 -3 L10 -5 M5 1 L10 -1" stroke="#D7BCFF" stroke-width="1.6" opacity="0.9"/>
+
+    <path d="M-10 -12 L0 -16" stroke="#C49AF7" stroke-width="1.6" opacity="0.8"/>
+  </g>
+
+  <!-- Back row: right Kubernetes container -->
+  <g transform="translate(83 20) rotate(2)" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M-12 -10 L0 -14 L13 -9 L1 -5Z" fill="#B77AF4" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-12 -10 L1 -5 L1 12 L-12 8Z" fill="#9560E8" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M1 -5 L13 -9 L13 7 L1 12Z" fill="url(#arcPurple)" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-8 -7 L-8 7 M-3 -5 L-3 9" stroke="#341A6E" stroke-width="1.8"/>
+
+    <path d="M5 -3 L10 -5 M5 1 L10 -1" stroke="#D7BCFF" stroke-width="1.6" opacity="0.9"/>
+
+    <path d="M-10 -12 L0 -16" stroke="#C49AF7" stroke-width="1.6" opacity="0.8"/>
+  </g>
+
+  <!-- Middle row: left Kubernetes container -->
+  <g transform="translate(26 52) rotate(-2)" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M-12 -10 L0 -14 L13 -9 L1 -5Z" fill="#B77AF4" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-12 -10 L1 -5 L1 12 L-12 8Z" fill="#9560E8" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M1 -5 L13 -9 L13 7 L1 12Z" fill="url(#arcPurple)" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-8 -7 L-8 7 M-3 -5 L-3 9" stroke="#341A6E" stroke-width="1.8"/>
+
+    <path d="M5 -3 L10 -5 M5 1 L10 -1" stroke="#D7BCFF" stroke-width="1.6" opacity="0.9"/>
+
+    <path d="M-10 -12 L0 -16" stroke="#C49AF7" stroke-width="1.6" opacity="0.8"/>
+  </g>
+
+  <!-- Middle row: center Kubernetes container -->
+  <g transform="translate(64 52) rotate(1)" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M-12 -10 L0 -14 L13 -9 L1 -5Z" fill="#B77AF4" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-12 -10 L1 -5 L1 12 L-12 8Z" fill="#9560E8" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M1 -5 L13 -9 L13 7 L1 12Z" fill="url(#arcPurple)" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-8 -7 L-8 7 M-3 -5 L-3 9" stroke="#341A6E" stroke-width="1.8"/>
+
+    <path d="M5 -3 L10 -5 M5 1 L10 -1" stroke="#D7BCFF" stroke-width="1.6" opacity="0.9"/>
+
+    <path d="M-10 -12 L0 -16" stroke="#C49AF7" stroke-width="1.6" opacity="0.8"/>
+  </g>
+
+  <!-- Middle row: right Kubernetes container -->
+  <g transform="translate(102 52) rotate(2)" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M-12 -10 L0 -14 L13 -9 L1 -5Z" fill="#B77AF4" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-12 -10 L1 -5 L1 12 L-12 8Z" fill="#9560E8" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M1 -5 L13 -9 L13 7 L1 12Z" fill="url(#arcPurple)" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-8 -7 L-8 7 M-3 -5 L-3 9" stroke="#341A6E" stroke-width="1.8"/>
+
+    <path d="M5 -3 L10 -5 M5 1 L10 -1" stroke="#D7BCFF" stroke-width="1.6" opacity="0.9"/>
+
+    <path d="M-10 -12 L0 -16" stroke="#C49AF7" stroke-width="1.6" opacity="0.8"/>
+  </g>
+
+  <!-- Front row: left Kubernetes container -->
+  <g transform="translate(45 84) rotate(-1)" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M-12 -10 L0 -14 L13 -9 L1 -5Z" fill="#B77AF4" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-12 -10 L1 -5 L1 12 L-12 8Z" fill="#9560E8" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M1 -5 L13 -9 L13 7 L1 12Z" fill="url(#arcPurple)" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-8 -7 L-8 7 M-3 -5 L-3 9" stroke="#341A6E" stroke-width="1.8"/>
+
+    <path d="M5 -3 L10 -5 M5 1 L10 -1" stroke="#D7BCFF" stroke-width="1.6" opacity="0.9"/>
+
+    <path d="M-10 -12 L0 -16" stroke="#C49AF7" stroke-width="1.6" opacity="0.8"/>
+  </g>
+
+  <!-- Front row: right Kubernetes container -->
+  <g transform="translate(83 84) rotate(2)" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M-12 -10 L0 -14 L13 -9 L1 -5Z" fill="#B77AF4" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-12 -10 L1 -5 L1 12 L-12 8Z" fill="#9560E8" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M1 -5 L13 -9 L13 7 L1 12Z" fill="url(#arcPurple)" stroke="#341A6E" stroke-width="1.9"/>
+
+    <path d="M-8 -7 L-8 7 M-3 -5 L-3 9" stroke="#341A6E" stroke-width="1.8"/>
+
+    <path d="M5 -3 L10 -5 M5 1 L10 -1" stroke="#D7BCFF" stroke-width="1.6" opacity="0.9"/>
+
+    <path d="M-10 -12 L0 -16" stroke="#C49AF7" stroke-width="1.6" opacity="0.8"/>
+  </g>
+
+  <!-- Subtle platform sketch details -->
+  <path d="M22 101        C28 104 33 105 38 106        M91 106        C98 105 104 103 109 100" stroke="#0078D4" stroke-width="1.7" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Restrained yellow sketchnote emphasis -->
+  <path d="M104 19 L110 15        M108 26 L116 24" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M13 43 L8 39        M13 49 L6 49" stroke="#F4C542" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Small informal handwritten-style marks -->
+  <path d="M60 5 L64 2 L68 5" stroke="#B77AF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M17 116 L21 120        M107 120 L111 116" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round"/>
+
+</svg>

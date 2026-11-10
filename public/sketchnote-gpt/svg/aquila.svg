@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Aquila (sketch)</title>
+
+  <defs>
+    <linearGradient id="lightAzure" x1="60" y1="5" x2="91" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#83B9F9"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+    <linearGradient id="deepAzure" x1="28" y1="25" x2="42" y2="103" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+    <linearGradient id="middleAzure" x1="54" y1="30" x2="88" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper flowing Aquila ribbon -->
+  <path d="M47 26            Q54 9 70 7            Q89 4 99 18            Q105 26 104 38            Q92 35 82 39            Q70 17 47 26Z" fill="url(#lightAzure)" stroke="#286DA8" stroke-width="3.2"/>
+
+  <!-- Hand-drawn highlight -->
+  <path d="M65 13 Q79 8 89 17" stroke="#C7E5FF" stroke-width="2.5"/>
+
+  <!-- Left ribbon flowing downward -->
+  <path d="M47 26            Q31 26 20 37            Q7 50 8 68            Q9 85 27 92            Q35 95 42 93            Q52 65 64 55            Q58 38 47 26Z" fill="url(#deepAzure)" stroke="#164F79" stroke-width="3.5"/>
+
+  <!-- Inner overlapping ribbon -->
+  <path d="M47 26            Q62 31 76 49            Q67 55 57 66            Q51 49 36 34            Q41 29 47 26Z" fill="url(#middleAzure)" stroke="#286DA8" stroke-width="2.8"/>
+
+  <!-- Lower-left rising wing -->
+  <path d="M42 93            Q51 70 64 55            Q72 72 76 94            L37 95            Q39 94 42 93Z" fill="#0078D4" stroke="#164F79" stroke-width="3.2"/>
+
+  <!-- Right flowing wing -->
+  <path d="M76 49            Q88 37 104 38            Q121 42 124 58            Q126 68 119 79            Q128 91 122 107            Q116 122 98 123            Q92 123 88 121            Q98 101 96 83            Q94 64 76 49Z" fill="url(#lightAzure)" stroke="#286DA8" stroke-width="3.5"/>
+
+  <!-- Center connecting ribbon -->
+  <path d="M64 55            Q77 41 83 42            Q96 58 99 79            Q105 101 88 121            Q71 117 66 102            Q62 92 65 84            L76 84            Q73 66 64 55Z" fill="url(#middleAzure)" stroke="#286DA8" stroke-width="3.2"/>
+
+  <!-- Light hand-inked contour -->
+  <path d="M89 44 Q110 49 115 66            M15 60 Q17 46 29 38" stroke="#B8DFFF" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Circular monitoring dial -->
+  <path d="M96 73            C112 72 122 84 122 99            C122 114 111 124 96 124            C81 125 70 113 70 99            C70 84 81 73 96 73Z" fill="#F8FBFF" stroke="#286DA8" stroke-width="3.5"/>
+
+  <!-- Sketchy outer dial echo -->
+  <path d="M77 84 Q86 72 100 72            M117 113 Q109 124 97 126" stroke="#83B9F9" stroke-width="2.2"/>
+
+  <!-- Gauge segments -->
+  <path d="M78 99 Q78 91 83 85" stroke="#83B9F9" stroke-width="7"/>
+
+  <path d="M87 81 Q91 78 94 78" stroke="#83B9F9" stroke-width="7"/>
+
+  <path d="M100 78 Q106 79 110 83" stroke="#83B9F9" stroke-width="7"/>
+
+  <path d="M114 88 Q117 93 117 99" stroke="#83B9F9" stroke-width="7"/>
+
+  <path d="M78 105 Q80 111 84 115" stroke="#83B9F9" stroke-width="7"/>
+
+  <!-- Gauge needle -->
+  <path d="M96 99 L113 91" stroke="#F04049" stroke-width="4.5"/>
+
+  <!-- Needle tip -->
+  <path d="M113 91 L117 88 L115 94Z" fill="#F04049"/>
+
+  <!-- Gauge pivot -->
+  <circle cx="96" cy="99" r="5.2" fill="#4F4F4F" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- Restrained sketchnote yellow accents -->
+  <path d="M18 26 L12 20            M26 22 L24 14            M33 19 L36 12" stroke="#F3C952" stroke-width="3"/>
+
+  <path d="M113 30 L119 24            M117 37 L125 35" stroke="#F3C952" stroke-width="3"/>
+
+  <!-- Tiny handwritten-style marker flicks -->
+  <path d="M25 77 L30 81            M44 84 L48 78            M80 23 L85 25" stroke="#D0E9FF" stroke-width="2" opacity=".7"/>
+
+</svg>

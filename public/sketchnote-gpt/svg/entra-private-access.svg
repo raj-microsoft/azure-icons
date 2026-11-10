@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Entra Private Access (sketch)</title>
+  
+  <desc>
+    Hand-drawn Microsoft Entra Private Access icon featuring
+    an Azure-blue globe with curved latitude and longitude lines,
+    partially overlaid by a green security padlock.
+    Original Azure cyan, blue and green colours, uneven marker
+    outlines, subtle yellow accents and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="epaGlobe" x1="8" y1="22" x2="103" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#44DBF9"/>
+      <stop offset="0.48" stop-color="#36A4CB"/>
+      <stop offset="0.78" stop-color="#255F92"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+
+    <linearGradient id="epaHemisphere" x1="54" y1="9" x2="107" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66DDFF"/>
+      <stop offset="0.5" stop-color="#0294E4"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+
+    <linearGradient id="epaLock" x1="92" y1="66" x2="109" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn globe silhouette -->
+  <path d="M54 9            C79 8 99 24 105 47            C109 62 104 76 96 88            L75 106            C67 110 59 112 52 112            C24 111 9 91 9 61            C9 32 29 11 54 9Z" fill="url(#epaGlobe)" stroke="#225086" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Illuminated right hemisphere -->
+  <path d="M54 9            C79 8 99 24 105 47            C109 62 104 76 96 88            L75 106            C70 109 61 111 54 112            C61 95 66 77 66 61            C66 40 60 21 54 9Z" fill="url(#epaHemisphere)" opacity="0.92"/>
+
+  <!-- Globe longitude lines -->
+  <path d="M54 11            C36 24 30 43 30 61            C30 81 39 101 53 110" stroke="#0055C5" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <path d="M54 11            C72 24 79 43 79 61            C79 75 75 87 69 98" stroke="#225086" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <path d="M54 11            Q52 38 54 61            Q56 83 54 110" stroke="#0055C5" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Globe latitude lines -->
+  <path d="M22 35            Q54 44 87 35" stroke="#0055C5" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M11 52            Q54 56 104 52" stroke="#225086" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M12 72            Q47 77 76 73" stroke="#225086" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M24 91            Q44 85 67 89" stroke="#0055C5" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Loose hand-drawn globe highlights -->
+  <path d="M17 43 Q25 23 43 16" stroke="#C4F8FF" stroke-width="2.7" stroke-linecap="round" opacity="0.85"/>
+
+  <path d="M15 77 Q21 94 34 102" stroke="#8CEAFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M82 24 Q95 36 98 47" stroke="#B2F0FF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Security padlock shackle -->
+  <path d="M91 82            L91 75            C91 63 100 55 110 55            C120 55 126 63 126 75            L126 84            L117 84            L117 75            C117 69 114 65 109 65            C103 65 100 69 100 75            L100 84" fill="#86D633" stroke="#477B1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Shackle highlight -->
+  <path d="M95 76            C95 65 100 60 108 59" stroke="#D4F5A2" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Padlock body -->
+  <path d="M87 81            Q87 78 91 78            L122 78            Q126 78 126 82            L126 116            Q126 121 121 121            L91 121            Q87 121 87 116            Z" fill="url(#epaLock)" stroke="#477B1C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Padlock hand-drawn edge highlights -->
+  <path d="M92 86 L92 110" stroke="#D8F5A1" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M96 83 Q109 81 120 83" stroke="#D4F5A2" stroke-width="1.8" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Keyhole -->
+  <path d="M107 94            C111 94 114 97 114 101            C114 104 112 106 110 107            L112 113            L103 113            L105 107            C103 106 101 104 101 101            C101 97 104 94 107 94Z" fill="#225086" stroke="#315F25" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Subtle lock sketch detail -->
+  <path d="M96 116 Q108 118 120 115" stroke="#B4EC36" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Yellow sketchnote accent strokes -->
+  <path d="M113 44 L117 38" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M121 50 L126 47" stroke="#F4C542" stroke-width="2.6" stroke-linecap="round"/>
+
+  <path d="M13 19 L8 14" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M9 28 L3 26" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small sketchnote sparkle -->
+  <path d="M103 13 L103 21            M99 17 L107 17" stroke="#F4C542" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Loose exterior marker strokes -->
+  <path d="M6 76 Q9 94 22 106" stroke="#0294E4" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+
+  <path d="M40 117 Q54 121 69 115" stroke="#44DBF9" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+</svg>

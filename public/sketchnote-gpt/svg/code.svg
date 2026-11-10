@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Code (sketch)</title>
+  
+  <desc>
+    Azure-blue browser window with white code brackets
+    and a diagonal slash. Hand-drawn marker outlines,
+    original Azure gradients, subtle cyan highlights,
+    restrained yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="codeBlue" x1="64" y1="42" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".5" stop-color="#4093E6"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="codeWhite" x1="40" y1="62" x2="55" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".65" stop-color="#E4EFFC"/>
+      <stop offset="1" stop-color="#9FC6F5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Browser window silhouette -->
+  <path d="M10 17            Q10 13 15 13            L113 12            Q119 12 119 18            L120 109            Q120 115 114 115            L15 116            Q9 116 9 110            Z" fill="url(#codeBlue)" stroke="#075A9E" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Azure-blue title bar -->
+  <path d="M10 18            Q10 13 15 13            L113 12            Q119 12 119 18            L119 43            Q92 44 64 43            L9 44            Z" fill="#0078D4" stroke="#075A9E" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Uneven hand-drawn toolbar divider -->
+  <path d="M11 44            Q38 43 64 44            T118 43" stroke="#075A9E" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Toolbar marker highlights -->
+  <path d="M18 20            Q45 19 73 19            M82 19 L109 19" stroke="#6BB9F2" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Main left code bracket -->
+  <path d="M46 62            L28 80            Q26 82 29 85            L46 102" stroke="#075A9E" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+
+  <path d="M46 60            L28 80            Q26 82 29 84            L46 101" stroke="url(#codeWhite)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main right code bracket -->
+  <path d="M82 62            L100 80            Q102 82 99 85            L82 102" stroke="#075A9E" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+
+  <path d="M82 60            L100 80            Q102 82 99 84            L82 101" stroke="url(#codeWhite)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central diagonal code slash -->
+  <path d="M74 57            Q70 71 65 84            L57 106" stroke="#075A9E" stroke-width="11" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M74 56            Q70 70 65 83            L57 105" stroke="#F2F2F2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sketch-like highlights on symbols -->
+  <path d="M43 66 L32 79            M33 87 L42 97            M85 66 L96 79            M95 88 L86 97" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M71 65            L62 92" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Window edge marker detailing -->
+  <path d="M16 53            Q15 73 16 91            M17 101 L17 107" stroke="#A8DFFF" stroke-width="2.1" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M111 54            Q113 73 112 94            M27 109            Q64 110 101 109" stroke="#80C8F4" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <path d="M111 7 L114 2            M120 14 L125 12            M114 19 L119 23" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Small handwritten-style motion accents -->
+  <path d="M5 98 L2 102            M8 108 L5 113" stroke="#F4C542" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Minimal marker dots -->
+  <circle cx="7" cy="7" r="1.8" fill="#32BEDD"/>
+  <circle cx="121" cy="120" r="2" fill="#F4C542"/>
+  <circle cx="110" cy="123" r="1.8" fill="#0078D4"/>
+</svg>

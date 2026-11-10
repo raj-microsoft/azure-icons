@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Operator 5G Core (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Operator 5G Core icon featuring a large
+    cyan network cloud, a smaller Azure-blue cloud, and a
+    central violet circular 5G signal indicator with four
+    ascending white signal bars. Uneven marker outlines,
+    original Azure colours, subtle yellow accents, and
+    a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="coreCyan" x1="25" y1="20" x2="65" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="coreBlue" x1="94" y1="47" x2="109" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="corePurple" x1="64" y1="48" x2="64" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main cyan network cloud -->
+  <path d="M33 103            C17 104 7 92 6 78            C6 64 17 53 31 51            C36 36 50 25 66 25            C83 24 97 35 101 50            Q94 52 89 58            C82 53 74 52 66 54            C49 58 38 73 38 90            Q38 97 42 103 Z" fill="url(#coreCyan)" stroke="#138EAF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main cloud sketch highlights -->
+  <path d="M15 68            Q19 57 33 56            M40 48            Q49 32 65 32" stroke="#D6FAFF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M73 32            Q87 35 94 49" stroke="#90EFFF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M14 83            Q18 94 32 96" stroke="#0699BA" stroke-width="2.2" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Smaller right Azure cloud -->
+  <path d="M88 103            C78 103 71 96 71 87            C71 78 77 71 86 69            C89 58 99 52 110 53            C122 54 130 63 130 74            C138 77 143 84 143 93            C143 101 137 107 128 107            L91 107 Z" fill="url(#coreBlue)" stroke="#075A9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(-16 0)"/>
+
+  <!-- Smaller cloud marker highlights -->
+  <path d="M68 79            Q71 73 79 73            M87 65            Q94 59 103 62" stroke="#B9E6FF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M111 77            Q119 81 120 89" stroke="#D5F0FF" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Central violet 5G core -->
+  <path d="M64 50            C81 50 95 64 95 81            C95 98 81 112 64 112            C47 112 33 98 33 81            C33 64 47 50 64 50 Z" fill="url(#corePurple)" stroke="#5830AD" stroke-width="3.8" stroke-linejoin="round"/>
+
+  <!-- Violet circle handwritten highlight -->
+  <path d="M42 69            Q48 56 62 55" stroke="#E4D7FF" stroke-width="2.8" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M84 67            Q91 79 85 93" stroke="#CBB4FF" stroke-width="2.3" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Four ascending white 5G signal bars -->
+  <path d="M47 94            L47 91            Q47 89 49 89            L52 89            Q54 89 54 91            L54 94            Q54 96 52 96            L49 96            Q47 96 47 94 Z" fill="#FFFFFF"/>
+
+  <path d="M57 94            L57 83            Q57 81 59 81            L62 81            Q64 81 64 83            L64 94            Q64 96 62 96            L59 96            Q57 96 57 94 Z" fill="#FFFFFF"/>
+
+  <path d="M67 94            L67 75            Q67 73 69 73            L72 73            Q74 73 74 75            L74 94            Q74 96 72 96            L69 96            Q67 96 67 94 Z" fill="#FFFFFF"/>
+
+  <path d="M77 94            L77 66            Q77 64 79 64            L82 64            Q84 64 84 66            L84 94            Q84 96 82 96            L79 96            Q77 96 77 94 Z" fill="#FFFFFF"/>
+
+  <!-- Fine hand-drawn bar highlights -->
+  <g stroke="#E9DEFF" stroke-width="1.5" stroke-linecap="round">
+    <path d="M50 91 L50 93"/>
+    <path d="M60 84 L60 90"/>
+    <path d="M70 76 L70 88"/>
+    <path d="M80 68 L80 88"/>
+  </g>
+
+  <!-- Subtle violet core marker contour -->
+  <path d="M40 89            Q46 104 61 106            M72 105            Q83 101 88 91" stroke="#D7C4FF" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <g stroke="#FFD70F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M109 23 L109 33"/>
+    <path d="M104 28 L114 28"/>
+    <path d="M15 111 L19 115"/>
+    <path d="M19 111 L15 115"/>
+  </g>
+
+  <!-- Loose Azure-blue marker accents -->
+  <g stroke="#0078D4" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <path d="M5 48 Q8 43 13 41"/>
+    <path d="M113 112 Q118 109 121 104"/>
+    <path d="M44 118 Q50 121 56 120"/>
+  </g>
+
+  <!-- Handwritten-style emphasis marks -->
+  <g stroke="#FFD70F" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M97 16 L100 11"/>
+    <path d="M115 16 L119 12"/>
+    <path d="M25 119 L30 122"/>
+  </g>
+
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Analysis Services (sketch)</title>
+  
+  <desc>Three connected Azure-blue data blocks with violet analytical relationships, white connection nodes, and subtle yellow sketchnote accents.</desc>
+
+  <defs>
+    <linearGradient id="azureBlock" x1="0" y1="0" x2="0" y2="39" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left analytical data block -->
+  <path d="M7 18            Q7 16 10 16            L51 16            Q54 16 54 19            L54 51            Q54 54 51 54            L9 54            Q6 54 6 51            Z" fill="url(#azureBlock)" stroke="#126F9E" stroke-width="3.2"/>
+
+  <!-- Upper-right analytical data block -->
+  <path d="M79 39            Q79 37 82 37            L119 37            Q122 37 122 40            L122 74            Q122 77 119 77            L81 77            Q78 77 78 74            Z" fill="#29B9DD" stroke="#126F9E" stroke-width="3.2"/>
+
+  <!-- Lower-left analytical data block -->
+  <path d="M17 73            Q17 70 20 70            L59 70            Q62 70 62 73            L62 109            Q62 112 59 112            L19 112            Q16 112 16 109            Z" fill="#24ACD2" stroke="#126F9E" stroke-width="3.2"/>
+
+  <!-- Irregular marker highlights -->
+  <g stroke="#D4F8FF" stroke-width="2.6" opacity=".85">
+    <path d="M13 24 L13 43"/>
+    <path d="M19 22 L43 22"/>
+    <path d="M85 45 L111 45"/>
+    <path d="M84 50 L84 65"/>
+    <path d="M23 79 L51 79"/>
+    <path d="M23 84 L23 100"/>
+  </g>
+
+  <!-- Subtle block hatching -->
+  <g stroke="#087DAA" stroke-width="1.8" opacity=".45">
+    <path d="M42 48 L48 42"/>
+    <path d="M110 71 L116 65"/>
+    <path d="M50 106 L56 100"/>
+  </g>
+
+  <!-- Analytical network relationships -->
+  <g stroke="#773ADC" stroke-width="5">
+    <path d="M30 35              Q67 41 100 57"/>
+    <path d="M101 58              Q79 75 39 91"/>
+    <path d="M30 35              Q32 61 39 91"/>
+  </g>
+
+  <!-- Secondary hand-drawn connection strokes -->
+  <g stroke="#A67AF4" stroke-width="1.8" opacity=".75">
+    <path d="M34 31 Q67 37 94 51"/>
+    <path d="M95 64 Q73 79 46 87"/>
+    <path d="M25 43 Q29 67 34 83"/>
+  </g>
+
+  <!-- Connected data points -->
+  <g fill="#FFFFFF" stroke="#773ADC" stroke-width="2.7">
+    <path d="M30 27              C35 27 39 31 39 36              C39 41 35 45 30 45              C25 45 21 41 21 36              C21 31 25 27 30 27 Z"/>
+
+    <path d="M100 49              C105 49 109 53 109 58              C109 63 105 67 100 67              C95 67 91 63 91 58              C91 53 95 49 100 49 Z"/>
+
+    <path d="M39 82              C44 82 48 86 48 91              C48 96 44 100 39 100              C34 100 30 96 30 91              C30 86 34 82 39 82 Z"/>
+  </g>
+
+  <!-- Tiny marker dots -->
+  <g fill="#A67AF4">
+    <circle cx="30" cy="36" r="2"/>
+    <circle cx="100" cy="58" r="2"/>
+    <circle cx="39" cy="91" r="2"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F7C948" stroke-width="3">
+    <path d="M61 12 L66 6"/>
+    <path d="M69 19 L77 17"/>
+    <path d="M58 7 L58 3"/>
+
+    <path d="M106 92 L112 87"/>
+    <path d="M114 99 L122 97"/>
+
+    <path d="M7 105 L3 110"/>
+    <path d="M11 115 L10 122"/>
+  </g>
+
+  <!-- Hand-drawn analytical sparkle -->
+  <path d="M72 107 L72 116            M67.5 111.5 L76.5 111.5" stroke="#F7C948" stroke-width="2.5"/>
+
+  <!-- Small sketch motion lines -->
+  <g stroke="#32D4F5" stroke-width="2.2" opacity=".9">
+    <path d="M7 64 L14 61"/>
+    <path d="M10 70 L15 68"/>
+    <path d="M113 110 L120 107"/>
+  </g>
+
+</svg>

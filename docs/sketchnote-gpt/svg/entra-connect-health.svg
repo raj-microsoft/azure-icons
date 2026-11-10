@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Entra Connect Health (sketch)</title>
+  
+  <desc>Hand-drawn Microsoft Entra diamond in Azure blues and cyan, overlaid with a red health heart and white ECG pulse. Transparent background, editable vector paths, and subtle yellow marker accents.</desc>
+
+  <defs>
+    <linearGradient id="entraBlue" x1="27" y1="19" x2="102" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0294E4"/>
+      <stop offset="0.52" stop-color="#0055C5"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+    <linearGradient id="entraCyan" x1="48" y1="33" x2="72" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#44DBF9"/>
+    </linearGradient>
+    <linearGradient id="heartRed" x1="93" y1="63" x2="93" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F04049"/>
+      <stop offset="1" stop-color="#E62323"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Entra diamond silhouette -->
+  <path d="M58 10            Q63 5 68 11            L121 70            Q126 76 120 81            L70 114            Q64 118 58 114            L7 82            Q1 78 6 72            Z" fill="url(#entraBlue)" stroke="#225086" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left cyan ribbon -->
+  <path d="M58 10            Q63 5 68 11            L87 33            Q73 26 62 39            L32 73            L64 94            L51 103            Q43 109 34 103            L7 85            Q1 80 6 73            Z" fill="#32BDED" stroke="#0078D4" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner illuminated diamond -->
+  <path d="M64 37            L94 72            L64 94            L34 72            Z" fill="url(#entraCyan)" stroke="#198AB3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Dark blue right facet -->
+  <path d="M64 94            L94 72            L120 81            L70 114            Q66 117 64 115            Z" fill="#041642" opacity="0.42"/>
+
+  <!-- Hand-drawn facet lines -->
+  <path d="M36 72            Q48 54 64 39" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M66 95 L88 79" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- Loose outer marker strokes -->
+  <path d="M11 69 L53 20" stroke="#6DDFFF" stroke-width="2.3" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M14 87 Q31 99 41 105" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Red health heart -->
+  <path d="M94 75            C100 65 115 64 121 74            C130 89 117 105 94 121            C71 105 58 89 67 74            C73 64 87 65 94 75Z" fill="url(#heartRed)" stroke="#A91D2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Heart marker highlight -->
+  <path d="M71 81 Q74 71 84 73" stroke="#FFB5B5" stroke-width="2.6" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- ECG pulse -->
+  <path d="M69 93            L76 93            L81 85            L88 103            L96 78            L103 97            L109 89            L114 89            L119 89" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ECG secondary sketch accent -->
+  <path d="M80 106 L85 110" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Yellow sketchnote emphasis -->
+  <path d="M105 57 L109 50" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M115 62 L122 58" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M43 12 L40 6" stroke="#F4C542" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M22 34 L22 42            M18 38 L26 38" stroke="#F4C542" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Subtle lower sketch mark -->
+  <path d="M45 115 Q53 120 60 122" stroke="#32D4F5" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

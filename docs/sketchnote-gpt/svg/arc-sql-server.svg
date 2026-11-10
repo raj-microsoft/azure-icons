@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Arc SQL Server (sketch)</title>
+
+  <defs>
+    <linearGradient id="screenBlue" x1="64" y1="8" x2="64" y2="73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="metalStand" x1="64" y1="69" x2="64" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn Azure Arc elliptical platform -->
+  <path d="M5 94            Q5 88 14 85            Q35 77 64 78            Q96 77 114 85            Q123 89 123 95            L122 109            Q120 116 103 121            Q65 131 25 121            Q7 117 5 109Z" fill="#5EA0EF" stroke="#2878B9" stroke-width="3.4"/>
+
+  <!-- Cyan top surface -->
+  <path d="M5 94            C5 84 31 77 64 77            C97 77 123 84 123 94            C123 105 97 112 64 112            C31 112 5 105 5 94Z" fill="#50E6FF" stroke="#2878B9" stroke-width="3.2"/>
+
+  <!-- Sketchy platform contours -->
+  <path d="M13 99 Q27 108 47 110            M82 109 Q106 106 116 99" stroke="#C4F8FF" stroke-width="2.2" opacity=".85"/>
+
+  <path d="M12 111 Q34 124 64 124            Q96 124 115 112" stroke="#2878B9" stroke-width="2" opacity=".75"/>
+
+  <!-- Monitor support stem -->
+  <path d="M54 68            L74 68            L74 83            Q74 88 82 89            L85 94            L43 94            L46 89            Q54 88 54 83Z" fill="url(#metalStand)" stroke="#686868" stroke-width="3"/>
+
+  <!-- Monitor stand base -->
+  <path d="M44 92            Q45 89 50 89            L78 89            Q83 89 84 92            L86 97            L42 97Z" fill="#CCCCCC" stroke="#707070" stroke-width="2.8"/>
+
+  <!-- Monitor body -->
+  <path d="M16 8            Q16 5 20 5            L108 6            Q112 6 112 10            L112 69            Q112 73 108 73            L20 73            Q16 73 16 69Z" fill="url(#screenBlue)" stroke="#16568B" stroke-width="3.6"/>
+
+  <!-- Hand-inked screen highlights -->
+  <path d="M22 13 L22 61            M27 12 L101 12" stroke="#A9D7FF" stroke-width="2.2" opacity=".7"/>
+
+  <!-- SQL lettering drawn entirely with vector paths -->
+  <g stroke="#FFFFFF" stroke-width="5.8">
+
+    <!-- S -->
+    <path d="M43 25              Q36 21 31 25              Q25 30 32 36              L39 40              Q47 46 40 52              Q34 57 27 51"/>
+
+    <!-- Q -->
+    <path d="M66 25              C57 22 51 30 51 40              C51 50 57 56 65 54              C73 52 76 44 75 36              C74 29 70 25 66 25Z"/>
+
+    <!-- Q tail -->
+    <path d="M67 49 L78 60"/>
+
+    <!-- L -->
+    <path d="M88 25              L88 54              L103 54"/>
+
+  </g>
+
+  <!-- Tiny marker shine on SQL glyphs -->
+  <path d="M31 29 L34 27            M60 29 L63 28            M92 29 L92 35" stroke="#D7ECFF" stroke-width="1.6" opacity=".8"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M8 28 L3 23            M12 22 L11 15" stroke="#F3C952" stroke-width="3"/>
+
+  <path d="M115 27 L121 22            M118 34 L125 33" stroke="#F3C952" stroke-width="3"/>
+
+  <!-- Small hand-drawn Azure annotation strokes -->
+  <path d="M18 88 L24 85            M105 85 L111 88" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Platform sketch details -->
+  <path d="M40 102 L47 104            M81 104 L88 102" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure DocumentDB (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure DocumentDB icon preserving the original
+    blue database cylinder, pale cyan elliptical top, and
+    white JSON curly braces. Uneven marker outlines,
+    subtle Azure-blue and yellow sketch accents,
+    transparent background, and editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="documentDbBody" x1="17" y1="69" x2="111" y2="69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005DA1"/>
+      <stop offset=".07" stop-color="#0562AA"/>
+      <stop offset=".36" stop-color="#2772B9"/>
+      <stop offset=".52" stop-color="#3077BB"/>
+      <stop offset=".64" stop-color="#2C74B9"/>
+      <stop offset=".82" stop-color="#186CB5"/>
+      <stop offset="1" stop-color="#005DA1"/>
+    </linearGradient>
+
+    <linearGradient id="documentDbTop" x1="34" y1="11" x2="95" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B8E3F4"/>
+      <stop offset=".55" stop-color="#8EC8E7"/>
+      <stop offset="1" stop-color="#50B2DA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main database cylinder -->
+  <path d="     M 17 19     C 17 10 38 4 64 4     C 90 4 111 10 111 19     L 111 108     C 111 118 91 124 64 124     C 38 124 17 118 17 108     Z" fill="url(#documentDbBody)" stroke="#064B80" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Database top outer rim -->
+  <path d="     M 17 19     C 17 10 38 4 64 4     C 90 4 111 10 111 19     C 111 29 90 36 64 36     C 38 36 17 29 17 19     Z" fill="#E2E2E2" stroke="#858F98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan elliptical data surface -->
+  <path d="     M 28 18     C 28 12 44 8 64 8     C 84 8 100 12 100 18     C 100 24 84 29 64 29     C 44 29 28 24 28 18     Z" fill="url(#documentDbTop)" stroke="#378EBA" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Inner data-surface shadow -->
+  <path d="     M 36 24     Q 49 20 64 20     Q 80 20 92 24     Q 80 29 64 29     Q 47 29 36 24     Z" fill="#1E89B2" opacity=".85"/>
+
+  <!-- Hand-drawn top highlights -->
+  <path d="     M 38 15     Q 52 10 68 12     M 78 13     Q 88 14 93 17" stroke="#E0F8FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Left cylinder marker highlight -->
+  <path d="     M 24 42     L 24 101     Q 25 112 40 117" stroke="#67A9D9" stroke-width="3.1" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Right cylinder shaded contour -->
+  <path d="     M 104 42     L 104 104     Q 103 113 93 117" stroke="#004B88" stroke-width="2.8" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Uneven lower database contour -->
+  <path d="     M 18 105     C 22 118 40 125 64 125     C 89 125 107 118 110 106" stroke="#005DA1" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="17 5 8 5" opacity=".75"/>
+
+  <!-- Left JSON curly brace -->
+  <path d="     M 54 53     C 46 53 43 56 43 63     L 43 70     C 43 76 40 79 34 80     C 40 81 43 84 43 90     L 43 97     C 43 104 46 107 54 107" stroke="#F3F3F3" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right JSON curly brace -->
+  <path d="     M 74 53     C 82 53 85 56 85 63     L 85 70     C 85 76 88 79 94 80     C 88 81 85 84 85 90     L 85 97     C 85 104 82 107 74 107" stroke="#F3F3F3" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Fine hand-drawn brace highlights -->
+  <path d="     M 51 57     Q 47 58 47 64     M 47 96     Q 47 102 51 103     M 77 57     Q 81 58 81 64     M 81 96     Q 81 102 77 103" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Subtle code notation between braces -->
+  <path d="     M 59 73     L 63 77     L 59 81     M 69 73     L 65 81" stroke="#B6E6FF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
+
+  <!-- Hand-drawn database sketch marks -->
+  <path d="     M 31 45     Q 35 42 40 43     M 89 43     Q 95 42 99 45     M 44 114     Q 64 119 84 114" stroke="#8EC8E7" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Small Azure annotation strokes -->
+  <path d="     M 12 48     L 12 62     M 116 52     L 116 67     M 35 125     Q 47 129 58 127" stroke="#159DCE" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="9 5" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="     M 113 25     L 118 20     M 117 30     L 123 30" stroke="#F3B82D" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="     M 10 91     L 14 87     M 10 98     L 15 98" stroke="#F3B82D" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+</svg>

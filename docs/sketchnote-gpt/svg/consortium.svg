@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Consortium (sketch)</title>
+
+  
+  <desc>
+    Four colorful hand-drawn isometric cubes arranged in a
+    connected consortium network. Original Azure purple,
+    green, teal and orange colors, cyan connection arcs,
+    uneven marker outlines, subtle yellow accents and
+    a transparent background. Fully editable vector shapes.
+  </desc>
+
+  <!-- Curved consortium connection network -->
+  <g stroke="#32BEDD" stroke-width="4.5">
+    <path d="M47 37              Q64 28 82 42" stroke-dasharray="7 5"/>
+
+    <path d="M96 69              Q97 83 83 92" stroke-dasharray="7 5"/>
+
+    <path d="M48 96              Q32 89 29 74" stroke-dasharray="7 5"/>
+
+    <path d="M32 53              Q40 39 53 35" stroke-dasharray="7 5"/>
+  </g>
+
+  <!-- Faint hand-drawn connection accents -->
+  <g stroke="#50E6FF" stroke-width="1.6" opacity=".8">
+    <path d="M50 29 Q66 24 79 35"/>
+    <path d="M103 74 Q102 85 92 93"/>
+    <path d="M42 102 Q30 95 25 84"/>
+  </g>
+
+  <!-- Purple consortium cube: top -->
+  <path d="M64 5            L86 18            L64 32            L42 18            Z" fill="#B796F9" stroke="#773ADC" stroke-width="2.8"/>
+
+  <!-- Purple cube: left -->
+  <path d="M42 18            L64 32            L64 58            L42 44            Z" fill="#A67AF4" stroke="#773ADC" stroke-width="2.8"/>
+
+  <!-- Purple cube: right -->
+  <path d="M64 32            L86 18            L86 44            L64 58            Z" fill="#773ADC" stroke="#552F99" stroke-width="2.8"/>
+
+  <!-- Purple cube sketch highlights -->
+  <path d="M47 20 L62 29            M68 35 L82 26" stroke="#D5C1FF" stroke-width="2.2"/>
+
+  <!-- Purple node marker -->
+  <path d="M52 31            Q56 30 57 36            Q58 41 54 41            Q50 39 50 35            Q50 32 52 31Z" fill="#773ADC"/>
+
+  <path d="M76 32            Q80 29 80 34            Q80 39 76 42            Q72 43 73 38            Q73 34 76 32Z" fill="#552F99"/>
+
+  <!-- Teal consortium cube: top -->
+  <path d="M25 43            L47 56            L25 70            L3 56            Z" fill="#42E8CA" stroke="#258277" stroke-width="2.8"/>
+
+  <!-- Teal cube: left -->
+  <path d="M3 56            L25 70            L25 96            L3 82            Z" fill="#37C2B1" stroke="#258277" stroke-width="2.8"/>
+
+  <!-- Teal cube: right -->
+  <path d="M25 70            L47 56            L47 82            L25 96            Z" fill="#258277" stroke="#207067" stroke-width="2.8"/>
+
+  <!-- Teal sketch marks -->
+  <path d="M9 57 L23 66            M29 74 L43 65" stroke="#88FFE8" stroke-width="2.2"/>
+
+  <path d="M37 71            Q41 68 41 73            Q41 78 37 81            Q33 82 34 77            Q34 73 37 71Z" fill="#207067"/>
+
+  <!-- Green consortium cube: top -->
+  <path d="M103 43            L125 56            L103 70            L81 56            Z" fill="#B4EC36" stroke="#5E9624" stroke-width="2.8"/>
+
+  <!-- Green cube: left -->
+  <path d="M81 56            L103 70            L103 96            L81 82            Z" fill="#76BC2D" stroke="#5E9624" stroke-width="2.8"/>
+
+  <!-- Green cube: right -->
+  <path d="M103 70            L125 56            L125 82            L103 96            Z" fill="#5E9624" stroke="#47791C" stroke-width="2.8"/>
+
+  <!-- Green cube highlight -->
+  <path d="M88 57 L101 66            M107 73 L121 64" stroke="#D7FF86" stroke-width="2.2"/>
+
+  <path d="M91 72            Q95 71 96 77            Q97 82 93 82            Q89 80 89 76            Q89 73 91 72Z" fill="#5E9624"/>
+
+  <!-- Orange consortium cube: top -->
+  <path d="M64 75            L86 88            L64 102            L42 88            Z" fill="#FFB34D" stroke="#D15900" stroke-width="2.8"/>
+
+  <!-- Orange cube: left -->
+  <path d="M42 88            L64 102            L64 125            L42 111            Z" fill="#F78D1E" stroke="#D15900" stroke-width="2.8"/>
+
+  <!-- Orange cube: right -->
+  <path d="M64 102            L86 88            L86 111            L64 125            Z" fill="#D15900" stroke="#A94600" stroke-width="2.8"/>
+
+  <!-- Orange sketchnote edge highlights -->
+  <path d="M48 89 L62 98            M68 105 L82 96" stroke="#FFD28B" stroke-width="2.2"/>
+
+  <!-- Central network marker -->
+  <path d="M60 63            Q64 60 68 64            Q71 68 67 72            Q63 75 59 71            Q56 67 60 63Z" fill="#FFD400" stroke="#D6A000" stroke-width="2.3"/>
+
+  <!-- Short network signal strokes -->
+  <g stroke="#32BEDD" stroke-width="2.6">
+    <path d="M55 55 L59 60"/>
+    <path d="M72 58 L76 54"/>
+    <path d="M55 77 L51 81"/>
+    <path d="M73 77 L77 81"/>
+  </g>
+
+  <!-- Hand-drawn yellow accent marks -->
+  <g stroke="#FFD400" stroke-width="2.8">
+    <path d="M29 29 L33 34"/>
+    <path d="M20 34 L22 40"/>
+    <path d="M104 29 L100 35"/>
+    <path d="M113 34 L109 39"/>
+  </g>
+
+  <!-- Tiny sketchnote sparkles -->
+  <g stroke="#FFD400" stroke-width="2.2">
+    <path d="M15 104 L15 114"/>
+    <path d="M10 109 L20 109"/>
+
+    <path d="M111 105 L111 115"/>
+    <path d="M106 110 L116 110"/>
+  </g>
+
+</svg>

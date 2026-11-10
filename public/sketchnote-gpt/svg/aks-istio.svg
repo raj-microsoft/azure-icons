@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>AKS Istio (sketch)</title>
+  
+  <desc>Four diagonal Azure-blue arrows radiating from a purple Istio service-mesh hub, with irregular hand-drawn marker outlines and subtle yellow highlights.</desc>
+
+  <defs>
+    <radialGradient id="istioHub" cx="38%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset=".55" stop-color="#9167DD"/>
+      <stop offset="1" stop-color="#552F99"/>
+    </radialGradient>
+
+    <linearGradient id="istioNW" x1="12" y1="12" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83B9F9"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+
+    <linearGradient id="istioNE" x1="78" y1="51" x2="119" y2="9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+
+    <linearGradient id="istioSW" x1="51" y1="77" x2="9" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="istioSE" x1="77" y1="78" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#005BA1"/>
+      <stop offset="1" stop-color="#003067"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Northwest: inward-pointing arrow -->
+  <path d="M8 8            L34 8            L25 17            L51 43            L61 33            L61 61            L33 61            L43 51            L17 25            L8 34 Z" fill="url(#istioNW)" stroke="#1769AD" stroke-width="3.2"/>
+
+  <!-- Northeast: outward-pointing arrow -->
+  <path d="M67 33            L77 43            L103 17            L94 8            L120 8            L120 34            L111 25            L85 51            L95 61            L67 61 Z" fill="url(#istioNE)" stroke="#005BA1" stroke-width="3.2"/>
+
+  <!-- Southwest: outward-pointing arrow -->
+  <path d="M33 67            L61 67            L61 95            L51 85            L25 111            L34 120            L8 120            L8 94            L17 103            L43 77 Z" fill="url(#istioSW)" stroke="#004D8C" stroke-width="3.2"/>
+
+  <!-- Southeast: outward-pointing arrow -->
+  <path d="M67 67            L95 67            L85 77            L111 103            L120 94            L120 120            L94 120            L103 111            L77 85            L67 95 Z" fill="url(#istioSE)" stroke="#003067" stroke-width="3.2"/>
+
+  <!-- Hand-drawn directional highlights -->
+  <path d="M15 15 L32 15            M21 24 L43 46" stroke="#D7EDFF" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M84 42 L106 20            M108 15 L115 15" stroke="#C8E9FF" stroke-width="2.5" opacity=".85"/>
+
+  <path d="M42 85 L20 107            M15 111 L15 116" stroke="#79C5F0" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M85 85 L106 106            M110 113 L115 115" stroke="#5EA0EF" stroke-width="2.5" opacity=".75"/>
+
+  <!-- Central Istio service-mesh hub -->
+  <path d="M64 40            C77 39 88 50 88 63            C89 77 78 89 64 89            C50 89 39 78 40 64            C40 51 50 41 64 40 Z" fill="url(#istioHub)" stroke="#4B278B" stroke-width="3.5"/>
+
+  <!-- Offset marker contour -->
+  <path d="M51 47            Q58 42 67 44            M79 52            Q85 60 83 69" stroke="#DCC7FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Subtle service-mesh node motif -->
+  <path d="M56 58 L69 55            L74 67            L62 75            L53 67 Z" stroke="#E8D8FF" stroke-width="2.3" opacity=".9"/>
+
+  <g fill="#F2E9FF" stroke="#6C45B3" stroke-width="1.5">
+    <circle cx="56" cy="58" r="3.2"/>
+    <circle cx="69" cy="55" r="3.2"/>
+    <circle cx="74" cy="67" r="3.2"/>
+    <circle cx="62" cy="75" r="3.2"/>
+    <circle cx="53" cy="67" r="3.2"/>
+  </g>
+
+  <!-- Small hand-drawn flow marks -->
+  <path d="M62 29 L64 24 L66 29            M99 62 L104 64 L99 66            M62 99 L64 104 L66 99            M29 62 L24 64 L29 66" stroke="#0078D4" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M94 39 L98 35            M101 43 L106 42" stroke="#F2C94C" stroke-width="2.8"/>
+
+  <path d="M28 87 L24 91            M23 83 L18 83" stroke="#F2C94C" stroke-width="2.5"/>
+
+  <!-- Tiny marker ticks -->
+  <path d="M55 17 L58 21            M72 108 L75 112" stroke="#46A0DE" stroke-width="2.2" opacity=".7"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Data Lake Analytics (sketch)</title>
+  
+  <desc>Hand-drawn Azure Data Lake Analytics icon with a cyan rotated backing, blue dashboard and white lightning bolt.</desc>
+
+  <defs>
+    <linearGradient id="lakeBlue" x1="64" y1="20" x2="64" y2="109" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54AEF0"/>
+      <stop offset="1" stop-color="#1988D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rotated cyan backing sheet -->
+  <path d="M45 8            Q48 5 52 7            L117 36            Q122 38 120 44            L91 115            Q89 121 83 119            L11 86            Q6 84 9 78            L39 13            Q41 9 45 8Z" fill="#50E6FF" stroke="#176A96" stroke-width="3.4"/>
+
+  <!-- Loose hand-drawn backing highlight -->
+  <path d="M43 17 L49 11 L111 39" stroke="#C7F8FF" stroke-width="2.7" opacity=".85"/>
+
+  <!-- Main Azure blue panel -->
+  <path d="M27 21            Q23 21 22 27            L22 100            Q22 106 29 107            L99 107            Q106 107 106 100            L106 28            Q106 21 100 21            Z" fill="url(#lakeBlue)" stroke="#174E83" stroke-width="4"/>
+
+  <!-- Slightly imperfect marker contour -->
+  <path d="M29 26            Q26 27 27 33            L27 96            M33 102 L93 102            M101 95 L101 32" stroke="#B8EAFF" stroke-width="2.5" opacity=".64"/>
+
+  <!-- Main lightning / analytics symbol -->
+  <path d="M68 43            L53 76            Q52 79 56 79            L67 79            L57 98            L85 65            L68 65            L83 43            Z" fill="#F2F2F2" stroke="#174E83" stroke-width="3.5"/>
+
+  <!-- Hand-drawn lightning edge highlight -->
+  <path d="M70 47 L59 70            M64 91 L78 73" stroke="#FFFFFF" stroke-width="2.3" opacity=".9"/>
+
+  <!-- Subtle sketchnote marker accents -->
+  <path d="M44 48 L38 43            M42 57 L34 55            M88 48 L94 43" stroke="#FFE36A" stroke-width="3.2"/>
+
+  <path d="M88 85 L95 89            M85 92 L89 99" stroke="#FFE36A" stroke-width="2.8"/>
+
+  <!-- Tiny hand-drawn motion marks -->
+  <path d="M14 39 L10 35            M114 73 L119 69            M109 82 L116 81" stroke="#1988D9" stroke-width="2.4"/>
+
+  <!-- Minimal marker dots -->
+  <circle cx="37" cy="36" r="2.2" fill="#FFE36A"/>
+  <circle cx="91" cy="94" r="2" fill="#FFE36A"/>
+</svg>

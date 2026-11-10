@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Communication Services (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn purple conversation bubble with three white
+    message dots and an overlapping cyan phone-call badge.
+    Preserves the recognizable Azure Communication Services
+    symbolism and original purple, cyan and blue palette.
+    Transparent background with editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="chatPurple" x1="18" y1="17" x2="84" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+
+    <linearGradient id="callCyan" x1="96" y1="56" x2="96" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C3F1FF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn conversation bubble -->
+  <path d="M13 18            Q10 18 9 22            Q7 26 8 32            L8 87            Q8 94 15 95            L43 95            L43 109            Q43 114 48 111            L72 96            L99 96            Q106 96 108 89            L108 26            Q108 19 101 18            Q68 16 13 18            Z" fill="url(#chatPurple)" stroke="#5832A0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Irregular inner marker highlight -->
+  <path d="M16 27            Q15 24 21 24            L92 24" stroke="#D9BEFF" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M15 34 L15 79" stroke="#C6A6FF" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+
+  <!-- Three conversational dots -->
+  <g fill="#FFFFFF" stroke="#E9DFFF" stroke-width="1.8" stroke-linejoin="round">
+
+    <path d="M29 51              C30 45 37 44 41 48              C45 52 43 59 38 61              C33 63 28 58 29 51Z"/>
+
+    <path d="M51 52              C52 46 59 44 63 48              C67 52 65 59 60 61              C55 63 50 58 51 52Z"/>
+
+    <path d="M73 52              C74 46 81 45 85 49              C89 53 86 60 81 61              C76 62 72 58 73 52Z"/>
+
+  </g>
+
+  <!-- Small sketched shine marks on speech bubble -->
+  <g stroke="#EADFFF" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M25 34 L31 31"/>
+    <path d="M36 31 L39 29"/>
+    <path d="M20 72 L20 79"/>
+  </g>
+
+  <!-- Cyan communication call badge -->
+  <path d="M120 87            C120 104 107 117 91 117            C75 117 62 104 62 88            C61 72 74 58 90 58            C107 57 120 70 120 87Z" fill="url(#callCyan)" stroke="#087FB7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Soft hand-drawn inner badge highlight -->
+  <path d="M70 78            C74 68 83 64 94 65" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M113 92            Q110 104 100 109" stroke="#32BEDD" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Recognizable telephone receiver -->
+  <path d="M84 70            Q82 68 79 70            L74 74            Q71 77 73 84            Q77 98 88 105            Q99 112 106 106            L109 103            Q111 101 109 98            L103 90            Q101 88 98 90            L94 93            Q92 94 89 91            Q85 88 83 83            Q82 81 84 79            L87 76            Q88 74 86 72            Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Receiver contour -->
+  <path d="M78 77            Q77 82 80 87            Q86 100 99 104" stroke="#80D6FF" stroke-width="2" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <!-- Conversation sparkle -->
+    <path d="M114 22 L114 30"/>
+    <path d="M110 26 L118 26"/>
+
+    <!-- Small emphasis marks -->
+    <path d="M119 39 L123 36"/>
+    <path d="M119 45 L124 44"/>
+
+    <!-- Communication flourish -->
+    <path d="M46 116 L49 119"/>
+    <path d="M53 115 L56 118"/>
+
+  </g>
+
+  <!-- Hand-drawn motion details -->
+  <g stroke="#5832A0" stroke-width="1.7" stroke-linecap="round" fill="none" opacity=".6">
+
+    <path d="M23 102 Q30 105 35 104"/>
+    <path d="M17 14 Q25 11 33 13"/>
+    <path d="M105 15 Q110 18 111 23"/>
+
+  </g>
+
+</svg>

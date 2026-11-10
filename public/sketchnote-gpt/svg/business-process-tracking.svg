@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Business Process Tracking (sketch)</title>
+  
+  <desc>
+    Three vertically stacked, downward-pointing process layers
+    preserving the original Azure Business Process Tracking icon.
+    Dark teal, muted green-teal, and bright green fills with
+    irregular marker outlines, subtle sketch highlights, small
+    yellow accents, and a transparent background.
+  </desc>
+
+  <!-- Top process layer: dark teal -->
+  <path d="M23 10            Q23 7 27 7            L101 7            Q105 7 105 11            L105 30            Q105 33 101 35            L66 47            Q64 48 61 47            L27 35            Q23 34 23 30            Z" fill="#225B62" stroke="#17464C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top layer marker highlights -->
+  <path d="M30 13            Q54 12 78 13            M84 13 L98 13" stroke="#65A9A8" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M29 19 L29 27            M99 20 L99 27" stroke="#4F9294" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Middle process layer: muted teal-green -->
+  <path d="M25 43            Q27 42 30 43            L63 54            Q64 55 66 54            L99 43            Q103 42 105 45            L105 70            Q105 74 101 76            L66 88            Q64 89 62 88            L27 76            Q23 75 23 71            L23 47            Q23 44 25 43            Z" fill="#399A91" stroke="#246E6A" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Middle layer hand-drawn highlight -->
+  <path d="M29 49            L62 60            Q64 61 67 60            L98 49" stroke="#8ED8CB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+
+  <path d="M29 58 L29 68            M99 57 L99 68" stroke="#77C9BD" stroke-width="1.9" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Bottom process layer: bright green -->
+  <path d="M25 84            Q27 82 30 83            L62 94            Q64 95 66 94            L99 83            Q103 82 105 85            L105 109            Q105 113 101 115            L66 127            Q64 128 62 127            L27 115            Q23 114 23 110            L23 88            Q23 85 25 84            Z" fill="#76D263" stroke="#418D4F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bottom layer marker highlights -->
+  <path d="M30 89            L62 100            Q64 101 67 100            L98 89" stroke="#B8F3A2" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+
+  <path d="M29 97 L29 108            M99 96 L99 107" stroke="#B0ED9B" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Subtle sketchnote motion marks -->
+  <path d="M14 29 L9 32            M15 35 L11 39" stroke="#399A91" stroke-width="2.3" stroke-linecap="round"/>
+
+  <path d="M114 62 L119 59            M114 68 L120 67" stroke="#399A91" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M113 12 L116 6            M119 17 L125 15            M114 21 L119 25" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M9 102 L4 106            M13 109 L10 115" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small marker dots -->
+  <circle cx="14" cy="13" r="2" fill="#76D263"/>
+  <circle cx="116" cy="103" r="2" fill="#F4C542"/>
+  <circle cx="9" cy="76" r="1.8" fill="#399A91"/>
+</svg>

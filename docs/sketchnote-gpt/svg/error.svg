@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Error (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure cloud with a cyan teardrop representing
+    an error state. Preserves the original cloud-and-drop
+    silhouette, Azure-blue gradients, irregular marker outlines,
+    subtle yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="cloudBlue" x1="64" y1="8" x2="64" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.48" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="dropCyan" x1="94" y1="69" x2="94" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="0.6" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn Azure cloud silhouette -->
+  <path d="M37 94            C21 96 9 84 9 68            C9 53 19 42 34 40            C40 21 55 10 74 10            C94 10 109 25 111 44            C125 47 127 60 125 70            C123 84 112 94 98 94            L40 94            Q38 94 37 94Z" fill="url(#cloudBlue)" stroke="#1F56A3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Loose cloud highlight -->
+  <path d="M16 64            Q18 49 35 47" stroke="#C4E8FF" stroke-width="2.8" stroke-linecap="round" opacity="0.85"/>
+
+  <path d="M44 33            Q54 16 72 17" stroke="#C4E8FF" stroke-width="2.6" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M105 34            Q112 41 115 51" stroke="#8DD0FF" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Subtle cloud marker texture -->
+  <path d="M18 75 Q23 85 35 87" stroke="#78BFF4" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M49 90 Q69 92 83 90" stroke="#B4E3FF" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Cyan error droplet -->
+  <path d="M94 67            C91 75 85 86 79 99            C76 105 75 110 77 116            C80 125 91 128 99 125            C109 122 114 113 110 103            C106 92 99 77 94 67Z" fill="url(#dropCyan)" stroke="#168EAE" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Droplet highlight -->
+  <path d="M88 95            Q83 105 84 112" stroke="#D4F8FF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+
+  <path d="M89 118            Q94 121 100 117" stroke="#8DEAFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Hand-drawn droplet edge -->
+  <path d="M103 94            Q109 106 107 114" stroke="#198AB3" stroke-width="1.7" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Restrained yellow marker accents -->
+  <path d="M114 15 L119 10" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M121 24 L126 22" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M24 23 L19 18" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small sketchnote sparkle -->
+  <path d="M11 32 L11 40            M7 36 L15 36" stroke="#F4C542" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- Loose exterior sketch marks -->
+  <path d="M5 75 Q8 88 19 96" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+
+  <path d="M115 88 Q120 84 122 78" stroke="#32BEDD" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+</svg>

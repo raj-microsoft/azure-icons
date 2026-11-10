@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Experimentation Studio (sketch)</title>
+  
+  <desc>
+    Two overlapping laboratory flasks representing Azure
+    Experimentation Studio. A large cyan and Azure-blue flask
+    with bubbling experiments sits in front of a smaller
+    purple flask. Uneven marker outlines, subtle hand-drawn
+    details, yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="experimentCyan" x1="42" y1="33" x2="42" y2="119" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+
+    <linearGradient id="experimentBlue" x1="43" y1="45" x2="43" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="experimentPurple" x1="94" y1="38" x2="94" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Loose laboratory sketchnote accents -->
+  <path d="M12 86Q9 92 10 99" stroke="#0078D4" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+
+  <path d="M113 32L117 27            M119 38L124 36" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Rear purple flask neck -->
+  <path d="M84 43            L84 70            Q84 73 82 76            L64 104            Q62 109 68 110            L119 110            Q124 109 121 104            L103 76            Q101 73 101 70            L101 43" fill="url(#experimentPurple)" stroke="#552F99" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Purple flask rim -->
+  <path d="M81 42            Q81 39 84 39            L102 39            Q105 39 105 42            Q105 45 102 45            L84 45            Q81 45 81 42Z" fill="#A67AF4" stroke="#552F99" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Purple flask liquid -->
+  <path d="M87 76            L99 76            L115 103            Q117 106 112 106            L73 106            Q70 106 73 102            Z" fill="#552F99" opacity=".95"/>
+
+  <!-- Rear liquid highlight -->
+  <path d="M89 82Q92 80 96 82" stroke="#C5A5FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Purple flask measurement sketch -->
+  <path d="M105 89L109 89            M108 95L112 95" stroke="#D9C5FF" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Main cyan flask neck and silhouette -->
+  <path d="M29 34            L29 67            Q29 71 26 75            L5 108            Q1 115 8 118            Q10 119 14 119            L74 119            Q80 119 82 115            Q84 112 80 107            L58 75            Q55 71 55 67            L55 34Z" fill="url(#experimentCyan)" stroke="#137EAA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main flask rim -->
+  <path d="M27 32            Q25 32 25 35            L25 37            Q25 40 28 40            L56 40            Q59 40 59 37            L59 35            Q59 32 56 32Z" fill="#5AD4F5" stroke="#137EAA" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Main Azure-blue liquid -->
+  <path d="M34 63            L50 63            L50 70            Q50 75 53 79            L75 111            Q77 114 72 114            L13 114            Q10 114 12 110            L33 79            Q36 75 36 70            L36 63Z" fill="url(#experimentBlue)" stroke="#0067AF" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <!-- Slightly irregular liquid surface -->
+  <path d="M34 63            Q39 61 43 63            Q47 65 50 63" stroke="#B2ECFF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Cyan-to-blue liquid sketch highlight -->
+  <path d="M25 97            Q21 103 17 110" stroke="#91DEFF" stroke-width="2.7" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M56 83            Q64 94 69 103" stroke="#85D8FF" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Glass neck reflection -->
+  <path d="M32 44L32 57" stroke="#D3FAFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Rising experiment bubbles -->
+  <circle cx="37" cy="28" r="5.5" fill="#0078D4" stroke="#005BA1" stroke-width="1.6"/>
+
+  <circle cx="49" cy="13" r="4" fill="#0078D4" stroke="#005BA1" stroke-width="1.3"/>
+
+  <circle cx="46" cy="48" r="3.5" fill="#0078D4" stroke="#005BA1" stroke-width="1.2"/>
+
+  <!-- Bubble reflections -->
+  <path d="M35 25L37 24            M48 11L49 10" stroke="#BCEEFF" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- Small bubbles inside flask -->
+  <circle cx="38" cy="86" r="2.8" fill="#8BE8FF" opacity=".85"/>
+
+  <circle cx="49" cy="99" r="2.1" fill="#C3F1FF" opacity=".85"/>
+
+  <circle cx="33" cy="105" r="1.7" fill="#C3F1FF" opacity=".8"/>
+
+  <!-- Subtle fluid motion lines -->
+  <path d="M27 90Q33 87 39 90" stroke="#B1EBFF" stroke-width="1.8" stroke-linecap="round" opacity=".65"/>
+
+  <path d="M49 108Q55 106 61 108" stroke="#9CEBFF" stroke-width="1.8" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Tiny yellow experiment sparkles -->
+  <path d="M64 20L64 13            M60 17L68 17" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M18 54L14 50            M20 47L19 41" stroke="#F4C542" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Hand-drawn finishing marks -->
+  <path d="M17 123Q35 126 50 123" stroke="#0078D4" stroke-width="1.7" stroke-linecap="round" opacity=".4"/>
+
+  <path d="M100 116Q112 118 119 114" stroke="#773ADC" stroke-width="1.7" stroke-linecap="round" opacity=".45"/>
+</svg>

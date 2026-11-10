@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Container Storage (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn purple container at the center of four cyan
+    storage cylinders, connected by a sketchy grey network frame.
+    Original Azure purple, cyan and grey palette with subtle
+    yellow accents. Transparent background, editable paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="containerPurple" x1="40" y1="38" x2="87" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B77AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+
+    <linearGradient id="storageCyan" x1="0" y1="0" x2="0" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+
+    <linearGradient id="frameGrey" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B0B0B0"/>
+      <stop offset="1" stop-color="#8C8C8C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn storage network frame -->
+  <g stroke="url(#frameGrey)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M51 16              L24 27              Q13 31 13 43              L13 50"/>
+
+    <path d="M77 16              L104 27              Q115 31 115 43              L115 50"/>
+
+    <path d="M13 78              L13 87              Q13 96 23 100              L51 112"/>
+
+    <path d="M115 78              L115 87              Q115 96 105 100              L77 112"/>
+
+  </g>
+
+  <!-- Fine sketch highlights on frame -->
+  <g stroke="#D2D2D2" stroke-width="1.7" stroke-linecap="round" fill="none">
+
+    <path d="M22 37 Q24 33 31 31 L48 24"/>
+    <path d="M80 24 L98 31 Q106 34 107 40"/>
+    <path d="M22 91 Q25 95 32 98"/>
+    <path d="M96 98 Q104 95 107 91"/>
+
+  </g>
+
+  <!-- Top storage cylinder -->
+  <g stroke="#087FAE" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M53 10              L75 10              L75 29              Q64 37 53 29              Z" fill="url(#storageCyan)"/>
+
+    <path d="M53 10              C53 4 75 4 75 10              C75 16 53 16 53 10Z" fill="#8CF2FF"/>
+
+    <path d="M53 20              Q64 27 75 20" fill="none" stroke="#168EBC" stroke-width="2"/>
+
+    <path d="M53 27              Q64 34 75 27" fill="none" stroke="#168EBC" stroke-width="2"/>
+
+  </g>
+
+  <!-- Bottom storage cylinder -->
+  <g stroke="#087FAE" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M53 101              L75 101              L75 120              Q64 127 53 120              Z" fill="url(#storageCyan)"/>
+
+    <path d="M53 101              C53 95 75 95 75 101              C75 107 53 107 53 101Z" fill="#8CF2FF"/>
+
+    <path d="M53 111              Q64 118 75 111" fill="none" stroke="#168EBC" stroke-width="2"/>
+
+    <path d="M53 118              Q64 125 75 118" fill="none" stroke="#168EBC" stroke-width="2"/>
+
+  </g>
+
+  <!-- Left storage cylinder -->
+  <g stroke="#087FAE" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M3 53              L23 53              L23 73              Q13 80 3 73              Z" fill="url(#storageCyan)"/>
+
+    <path d="M3 53              C3 47 23 47 23 53              C23 59 3 59 3 53Z" fill="#8CF2FF"/>
+
+    <path d="M3 63              Q13 69 23 63" fill="none" stroke="#168EBC" stroke-width="2"/>
+
+    <path d="M3 71              Q13 77 23 71" fill="none" stroke="#168EBC" stroke-width="2"/>
+
+  </g>
+
+  <!-- Right storage cylinder -->
+  <g stroke="#087FAE" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M105 53              L125 53              L125 73              Q115 80 105 73              Z" fill="url(#storageCyan)"/>
+
+    <path d="M105 53              C105 47 125 47 125 53              C125 59 105 59 105 53Z" fill="#8CF2FF"/>
+
+    <path d="M105 63              Q115 69 125 63" fill="none" stroke="#168EBC" stroke-width="2"/>
+
+    <path d="M105 71              Q115 77 125 71" fill="none" stroke="#168EBC" stroke-width="2"/>
+
+  </g>
+
+  <!-- Central container top face -->
+  <path d="M43 47            L61 39            Q64 38 67 39            L87 47            L64 57            Z" fill="#B77AF4" stroke="#552F99" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Central container left face -->
+  <path d="M43 47            L64 57            L64 88            L43 79            Z" fill="#552F99" stroke="#45257F" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Central container right face -->
+  <path d="M64 57            L87 47            L87 79            L64 88            Z" fill="url(#containerPurple)" stroke="#552F99" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Container ribbed detailing -->
+  <g stroke="#B77AF4" stroke-width="3" stroke-linecap="round" opacity=".85">
+
+    <path d="M48 56 L48 75"/>
+    <path d="M55 59 L55 79"/>
+
+  </g>
+
+  <!-- Hand-drawn purple face highlights -->
+  <g stroke="#DCC0FF" stroke-width="2" stroke-linecap="round" fill="none" opacity=".8">
+
+    <path d="M69 62 L82 56"/>
+    <path d="M69 70 L82 64"/>
+    <path d="M69 78 L82 72"/>
+
+  </g>
+
+  <!-- Small center storage emblem -->
+  <path d="M72 48            Q77 45 81 48" stroke="#F2E7FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <!-- Storage sparkle -->
+    <path d="M91 17 L91 25"/>
+    <path d="M87 21 L95 21"/>
+
+    <!-- Container emphasis -->
+    <path d="M35 40 L30 36"/>
+    <path d="M32 46 L26 44"/>
+
+    <!-- Network flow markers -->
+    <path d="M92 92 L97 88"/>
+    <path d="M97 96 L102 92"/>
+
+  </g>
+
+  <!-- Subtle handwritten sketch details -->
+  <g stroke="#0078D4" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".6">
+
+    <path d="M30 63 Q34 60 38 61"/>
+    <path d="M90 61 Q94 60 98 63"/>
+
+    <path d="M38 111 Q42 114 46 115"/>
+    <path d="M82 115 Q87 114 91 111"/>
+
+  </g>
+
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>AI Manager (sketch)</title>
+  
+  <desc>Hand-drawn Azure AI Manager icon featuring a lavender AI circuit network, an ascending purple management ribbon, and subtle Azure-blue and yellow sketch accents.</desc>
+
+  <defs>
+    <radialGradient id="aimGlow" cx="35%" cy="22%" r="90%">
+      <stop offset="0" stop-color="#DECBFF"/>
+      <stop offset=".67" stop-color="#AC80FF"/>
+      <stop offset="1" stop-color="#9C6CFE"/>
+    </radialGradient>
+    <linearGradient id="aimRibbon" x1="29" y1="116" x2="116" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B2AB5"/>
+      <stop offset=".55" stop-color="#7A41DC"/>
+      <stop offset="1" stop-color="#9C6CFE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper sweeping AI orchestration ribbon -->
+  <path d="M43 94            C27 98 15 96 12 88            C7 75 23 55 47 47            C64 41 79 40 94 43            L83 65            C69 65 57 69 45 76            C31 84 30 90 43 94 Z" fill="url(#aimGlow)" stroke="#7541C6" stroke-width="3.3"/>
+
+  <!-- Marker-like contour on upper ribbon -->
+  <path d="M18 79            Q25 64 44 57            Q58 50 73 49" stroke="#F0E5FF" stroke-width="2.8" opacity=".9"/>
+
+  <path d="M22 91 Q30 96 39 92" stroke="#8250DF" stroke-width="2.2" opacity=".75"/>
+
+  <!-- AI circuit nodes -->
+  <g stroke="#8B4EE3" stroke-width="3">
+    <path d="M30 83 L44 83              M44 83 L44 76              M44 76 L56 76"/>
+    <path d="M35 65 L35 72              Q35 77 40 77"/>
+    <path d="M57 69 L57 58              Q57 55 61 55              L69 55"/>
+    <path d="M68 75 L68 60              Q68 55 73 55              L77 55"/>
+  </g>
+
+  <!-- Circuit terminals -->
+  <g fill="#F4ECFF" stroke="#8B4EE3" stroke-width="2.6">
+    <path d="M25 82              C25 78 29 76 32 78              C36 80 35 85 32 87              C29 89 25 86 25 82 Z"/>
+    <path d="M30 62              C30 58 34 56 37 58              C41 60 40 65 37 67              C34 69 30 66 30 62 Z"/>
+    <path d="M51 75              C51 71 55 69 58 71              C62 73 61 78 58 80              C55 82 51 79 51 75 Z"/>
+    <path d="M65 55              C65 51 69 49 72 51              C76 53 75 58 72 60              C69 62 65 59 65 55 Z"/>
+  </g>
+
+  <!-- Small hand-drawn circuit highlights -->
+  <path d="M43 83 L47 83            M58 63 L58 60" stroke="#DCC6FF" stroke-width="2"/>
+
+  <!-- Main ascending AI management ribbon -->
+  <path d="M12 97            C26 105 44 105 61 98            C84 89 99 66 111 30            L102 30            Q99 30 101 26            L112 15            Q114 13 117 15            L124 21            Q126 23 126 26            L126 45            C126 49 125 52 123 57            C111 88 94 109 72 117            C50 125 28 118 12 97 Z" fill="url(#aimRibbon)" stroke="#4F249D" stroke-width="3.5"/>
+
+  <!-- Organic edge highlights -->
+  <path d="M25 105            Q46 115 67 106            Q91 96 107 63" stroke="#C3A5FF" stroke-width="3" opacity=".8"/>
+
+  <path d="M113 34            Q109 48 104 59" stroke="#E4D4FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Azure-blue sketchnote accent strokes -->
+  <path d="M78 29 L82 25            M85 34 L91 32" stroke="#0078D4" stroke-width="2.8"/>
+
+  <!-- Yellow hand-drawn sparkle -->
+  <path d="M94 13 L94 21            M90 17 L98 17" stroke="#F2C94C" stroke-width="3"/>
+
+  <path d="M87 11 L84 8            M101 10 L104 7" stroke="#F2C94C" stroke-width="2.2"/>
+
+  <!-- Additional sketch motion ticks -->
+  <path d="M14 61 L19 56            M10 68 L15 66" stroke="#9C6CFE" stroke-width="2.4" opacity=".8"/>
+</svg>

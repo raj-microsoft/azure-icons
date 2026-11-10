@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Collaborative Service (sketch)</title>
+
+  
+  <desc>
+    Three connected collaboration nodes forming a triangular
+    network. Original Azure blue, violet and teal colors,
+    organic marker outlines, subtle sketch highlights,
+    restrained yellow accents and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="collabBlue" x1="94" y1="12" x2="94" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="collabPurple" x1="23" y1="40" x2="23" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+
+    <linearGradient id="collabTeal" x1="83" y1="85" x2="83" y2="125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3CD4C2"/>
+      <stop offset="1" stop-color="#258277"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper collaboration connection -->
+  <path d="M42 43            L53 26            C63 10 82 10 93 26            L108 48" stroke="#0078D4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Upper connection sketch highlight -->
+  <path d="M48 41            L58 28            Q73 9 88 30" stroke="#82BEF6" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Left collaboration connection -->
+  <path d="M24 69            L12 88            C2 105 12 119 30 119            L52 119" stroke="#A67AF4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Left connection sketch highlight -->
+  <path d="M18 85            Q8 102 17 111            Q23 116 34 115" stroke="#D1B6FA" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Right collaboration connection -->
+  <path d="M104 69            L118 90            C129 107 118 119 101 119            L88 119" stroke="#37C2B1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Right connection sketch highlight -->
+  <path d="M111 84            Q123 102 114 111            Q109 115 103 115" stroke="#85E7DB" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Azure-blue collaboration node -->
+  <path d="M115 34            C115 47 106 56 94 56            C82 56 73 47 73 35            C73 23 82 13 94 13            C106 13 115 22 115 34Z" fill="url(#collabBlue)" stroke="#155EA1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Blue node marker highlight -->
+  <path d="M81 31            Q84 21 94 21" stroke="#BCE1FF" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>
+
+  <path d="M103 47 Q108 43 109 37" stroke="#2F8FDC" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Violet collaboration node -->
+  <path d="M44 60            C44 72 35 82 23 82            C11 82 2 73 2 61            C2 49 11 40 23 40            C35 40 44 48 44 60Z" fill="url(#collabPurple)" stroke="#6030B2" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Violet node marker highlight -->
+  <path d="M10 58            Q13 48 23 48" stroke="#DCC8FF" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>
+
+  <path d="M33 72 Q38 68 38 62" stroke="#B58AF8" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Teal collaboration node -->
+  <path d="M104 106            C104 118 95 126 83 126            C71 126 62 117 62 105            C62 93 71 84 83 84            C95 84 104 94 104 106Z" fill="url(#collabTeal)" stroke="#258277" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Teal node marker highlight -->
+  <path d="M70 103            Q73 93 83 92" stroke="#B0F5E9" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>
+
+  <path d="M94 116 Q98 112 98 107" stroke="#63DECC" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Subtle hand-drawn connection details -->
+  <g stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".75">
+    <path d="M60 19 L65 16" stroke="#0078D4"/>
+    <path d="M15 97 L13 103" stroke="#A67AF4"/>
+    <path d="M115 99 L116 104" stroke="#37C2B1"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4BE46" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M30 25 L26 19"/>
+    <path d="M39 20 L40 14"/>
+    <path d="M113 15 L118 10"/>
+    <path d="M119 23 L125 21"/>
+  </g>
+
+  <!-- Small collaboration sparkle -->
+  <path d="M49 91 L49 99            M45 95 L53 95" stroke="#F4BE46" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

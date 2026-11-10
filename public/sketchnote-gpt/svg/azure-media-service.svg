@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Media Service (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Media Service icon preserving the
+    recognizable six-segment circular aperture surrounding
+    a cyan hexagonal media core. Original Azure blues,
+    uneven marker outlines, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="deepBlue" x1="28" y1="16" x2="99" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".45" stop-color="#004E8F"/>
+      <stop offset="1" stop-color="#003067"/>
+    </linearGradient>
+
+    <linearGradient id="azureBlue" x1="20" y1="20" x2="107" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="lightBlue" x1="18" y1="19" x2="112" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="cyanFacet" x1="35" y1="44" x2="67" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C3F1FF"/>
+      <stop offset=".55" stop-color="#99EDFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left aperture blade -->
+  <path d="M19 24            C31 9 51 4 69 7            C87 9 104 20 113 35            L94 46            L66 30            C50 23 34 21 19 24 Z" fill="url(#deepBlue)" stroke="#003067" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Upper-right aperture blade -->
+  <path d="M76 9            C98 13 115 30 121 51            C125 64 124 76 120 88            L99 82            L99 46            C96 29 88 17 76 9 Z" fill="url(#azureBlue)" stroke="#004E8F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Lower-right aperture blade -->
+  <path d="M121 48            C126 66 122 87 109 102            C98 116 82 122 64 123            L64 101            L94 83            C110 73 118 61 121 48 Z" fill="url(#lightBlue)" stroke="#075A9B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Lower aperture blade -->
+  <path d="M109 103            C97 117 81 123 64 123            C42 123 23 111 13 94            L34 82            L64 100            C79 108 96 109 109 103 Z" fill="url(#deepBlue)" stroke="#003067" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Lower-left aperture blade -->
+  <path d="M13 94            C4 77 4 56 14 39            C20 27 29 18 39 13            L37 47            L34 82            C35 101 45 115 55 121            C37 118 22 108 13 94 Z" fill="url(#azureBlue)" stroke="#075A9B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Upper-left light-blue aperture blade -->
+  <path d="M39 13            C23 20 11 36 7 53            C4 67 7 80 13 92            C12 72 23 58 37 47            L65 30            C53 20 45 16 39 13 Z" fill="url(#lightBlue)" stroke="#075A9B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Central hexagonal media core -->
+  <path d="M64 30            L96 48            Q98 49 98 52            L98 81            Q98 84 96 85            L66 103            Q64 104 62 103            L32 85            Q30 84 30 81            L30 52            Q30 49 32 48 Z" fill="#C3F1FF" stroke="#005BA1" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Hexagon left facet -->
+  <path d="M64 67            L64 102            L33 83            L33 51 Z" fill="url(#cyanFacet)"/>
+
+  <!-- Hexagon right facet -->
+  <path d="M64 67            L95 51            L95 83            L64 102 Z" fill="#50E6FF"/>
+
+  <!-- Hexagon top facet -->
+  <path d="M33 51            L64 33            L95 51            L64 67 Z" fill="#C3F1FF"/>
+
+  <!-- Hand-drawn facet boundaries -->
+  <path d="M34 52            Q49 59 64 67            Q80 59 94 52            M64 68            Q63 84 64 101" stroke="#198AB3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+
+  <!-- Inner cyan marker highlights -->
+  <path d="M39 52            L61 39" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M39 63            L39 78" stroke="#E8FCFF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M88 65            L88 78" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+
+  <!-- Organic marker contours on aperture -->
+  <g stroke="#B8E7FF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".8">
+    <path d="M24 29 Q35 19 48 17"/>
+    <path d="M101 28 Q111 38 115 50"/>
+    <path d="M112 87 Q105 101 94 108"/>
+    <path d="M17 73 Q20 88 29 98"/>
+  </g>
+
+  <!-- Deep-blue sketchnote accents -->
+  <g stroke="#003067" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".65">
+    <path d="M48 11 Q61 8 74 12"/>
+    <path d="M81 116 Q93 113 102 105"/>
+    <path d="M16 43 Q20 36 26 31"/>
+    <path d="M117 65 Q118 74 115 81"/>
+  </g>
+
+  <!-- Restrained yellow sparkle accents -->
+  <g stroke="#FFD70F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M111 9 L111 19"/>
+    <path d="M106 14 L116 14"/>
+    <path d="M7 106 L12 111"/>
+    <path d="M12 106 L7 111"/>
+  </g>
+
+  <!-- Loose handwritten-style emphasis strokes -->
+  <g stroke="#FFD70F" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M118 25 L123 22"/>
+    <path d="M119 32 L125 31"/>
+  </g>
+
+  <!-- Small Azure-blue marker flourishes -->
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M5 30 Q7 25 11 22"/>
+    <path d="M119 104 Q116 110 111 113"/>
+    <path d="M39 125 Q45 127 51 125"/>
+  </g>
+
+</svg>

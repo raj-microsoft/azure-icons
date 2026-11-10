@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Synapse Analytics (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Synapse Analytics icon featuring an
+    irregular Azure-blue hexagonal frame, two cyan analytics
+    nodes, and a sweeping curved data connection.
+    Original Azure colours, uneven marker outlines,
+    subtle yellow highlights, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="synapseBlue" x1="20" y1="12" x2="105" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="synapseCyan" x1="35" y1="35" x2="94" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".55" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer hand-drawn hexagonal frame -->
+  <path d="M64 8        L111 35        Q113 36 113 39        L113 90        Q113 93 110 95        L65 121        Q63 122 61 120        L16 95        Q14 93 14 90        L15 38        Q15 36 18 34        Z" fill="none" stroke="#005BA1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Original Azure-blue hexagon highlight -->
+  <path d="M64 8        L111 35        L113 40        L64 15        L20 40" stroke="#0078D4" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Left and lower frame marker highlights -->
+  <path d="M19 44        L19 89        L62 115" stroke="#0078D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <path d="M108 45        L108 88        L67 115" stroke="#198AB3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+
+  <!-- Upper diagonal data connection -->
+  <path d="M41 49        L96 18" stroke="#005BA1" stroke-width="11" stroke-linecap="round" opacity=".35"/>
+
+  <path d="M41 47        Q58 39 74 30        L96 18" stroke="#50E6FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower diagonal data connection -->
+  <path d="M88 78        L33 110" stroke="#005BA1" stroke-width="11" stroke-linecap="round" opacity=".35"/>
+
+  <path d="M88 78        Q65 91 33 110" stroke="#50E6FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sweeping analytics flow -->
+  <path d="M43 51        C61 43 79 51 87 65        C90 69 92 74 92 78" stroke="#005BA1" stroke-width="12" stroke-linecap="round" fill="none" opacity=".35"/>
+
+  <path d="M43 51        C59 45 76 52 84 65        Q89 71 90 78" stroke="#50E6FF" stroke-width="7.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Inner cyan motion highlight -->
+  <path d="M54 51        C67 51 76 58 81 68" stroke="#B8F7FF" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- First analytics node -->
+  <path d="M56 51        C56 58 50 64 43 64        C36 64 30 58 30 51        C30 44 36 38 43 38        C50 38 56 44 56 51Z" fill="url(#synapseCyan)" stroke="#0078A8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- First node highlight -->
+  <path d="M35 49        C36 44 40 42 44 42" stroke="#D6FBFF" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+
+  <!-- Second analytics node -->
+  <path d="M103 77        C103 85 97 91 89 91        C82 91 76 85 76 77        C76 70 82 64 89 64        C97 64 103 70 103 77Z" fill="url(#synapseCyan)" stroke="#0078A8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Second node highlight -->
+  <path d="M81 75        C82 71 86 68 90 68" stroke="#D6FBFF" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+
+  <!-- Small data-flow strokes -->
+  <g stroke="#198AB3" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M59 57 L65 60"/>
+    <path d="M67 63 L72 68"/>
+    <path d="M52 91 L58 88"/>
+    <path d="M65 83 L71 80"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#E9BF4B" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <path d="M45 15 L42 9"/>
+    <path d="M51 12 L51 5"/>
+
+    <path d="M112 19 L117 14"/>
+    <path d="M117 25 L124 23"/>
+
+    <path d="M7 70 L2 73"/>
+    <path d="M8 77 L3 82"/>
+
+    <path d="M80 116 L84 123"/>
+    <path d="M88 112 L94 117"/>
+
+  </g>
+
+  <!-- Tiny handwritten-style sparkle marks -->
+  <g fill="#F0C85B">
+    <path d="M29 22 L31 18 L33 22 L31 26Z"/>
+    <path d="M119 102 L121 98 L123 102 L121 106Z"/>
+    <circle cx="9" cy="107" r="1.7"/>
+    <circle cx="106" cy="11" r="1.6"/>
+  </g>
+
+  <!-- Hand-drawn marker imperfections -->
+  <g stroke="#0078D4" stroke-width="1.6" stroke-linecap="round" opacity=".65">
+    <path d="M24 34 L29 31"/>
+    <path d="M101 37 L105 40"/>
+    <path d="M20 101 L26 105"/>
+    <path d="M99 104 L104 100"/>
+  </g>
+
+</svg>

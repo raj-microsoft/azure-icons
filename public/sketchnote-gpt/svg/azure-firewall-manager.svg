@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Firewall Manager (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn red firewall brick wall with a golden
+    quartered protection shield. Uneven marker outlines,
+    original Azure Firewall Manager colours, subtle
+    sketch accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="shieldGold" x1="69" y1="39" x2="116" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD70F"/>
+      <stop offset=".48" stop-color="#FFC400"/>
+      <stop offset="1" stop-color="#FEA11B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Firewall wall silhouette -->
+  <path d="M9 13            Q10 10 14 11            L99 12            Q103 12 104 16            L104 65            Q103 69 99 70            L13 69            Q9 69 9 65            Z" fill="#821010" stroke="#651515" stroke-width="3.3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Upper brick row -->
+  <path d="M15 18            L41 18.5            L41 30            L15 29.5 Z" fill="#E62323" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M45 18.5            L72 18            L72.5 30            L45 30.5 Z" fill="#FF7381" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M77 18            L98 18.5            L98 30            L77 30 Z" fill="#E62323" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Middle brick row -->
+  <path d="M15 35            L27 35            L27.5 47            L15 47 Z" fill="#E62323" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M32 35            L59 35.5            L59 47            L32 47 Z" fill="#FF7381" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M64 35            L91 35            L91 47            L64 47.5 Z" fill="#E62323" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M95 35            L98 35            L98 47            L95 47 Z" fill="#FF7381"/>
+
+  <!-- Lower brick row -->
+  <path d="M15 52            L41 52            L41 64            L15 63.5 Z" fill="#E62323" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M46 52            L72 52.5            L72 64            L46 63.5 Z" fill="#FF7381" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M77 52            L98 52            L98 64            L77 64 Z" fill="#E62323" stroke="#821010" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Subtle uneven brick marker strokes -->
+  <g stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".48">
+    <path d="M19 22 L32 22.5"/>
+    <path d="M49 22 L63 22"/>
+    <path d="M81 22 L91 22.5"/>
+    <path d="M36 39 L51 39"/>
+    <path d="M68 39 L79 39.5"/>
+    <path d="M19 56 L32 56.5"/>
+    <path d="M50 56 L63 56.5"/>
+  </g>
+
+  <!-- Protective shield offset marker silhouette -->
+  <path d="M94 38            C100 38 103 40 108 42            Q114 45 122 45            Q125 45 125 49            L125 76            C125 95 108 110 95 118            Q93 120 90 118            C76 109 61 95 61 76            L61 49            Q61 45 65 45            C74 45 77 42 83 40            Q88 38 94 38 Z" fill="#DFA500" stroke="#8B5700" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Shield inner surface -->
+  <path d="M93 43            C99 43 102 47 108 49            Q113 51 120 51            L120 76            C120 92 106 105 93 113            C80 105 66 92 66 76            L66 51            Q77 51 83 46            Q87 43 93 43 Z" fill="url(#shieldGold)"/>
+
+  <!-- Quartered Azure shield design -->
+  <path d="M93 44            C99 44 102 48 108 50            Q113 52 119 52            L119 78            L93 78 Z" fill="#FEA11B"/>
+
+  <path d="M67 52            Q77 52 83 47            Q88 43 93 44            L93 78            L67 78 Z" fill="#FFD400"/>
+
+  <path d="M67 78            L93 78            L93 112            C81 104 69 92 67 78 Z" fill="#FEB517"/>
+
+  <path d="M93 78            L119 78            C117 92 105 104 93 112 Z" fill="#FFD400"/>
+
+  <!-- Central hand-drawn quadrant division -->
+  <path d="M93 45            Q92.5 62 93 78            Q93.5 95 93 111" stroke="#9B6A00" stroke-width="2" stroke-linecap="round" opacity=".72"/>
+
+  <path d="M68 78            Q80 77.5 93 78            Q106 78.5 118 78" stroke="#9B6A00" stroke-width="2" stroke-linecap="round" opacity=".72"/>
+
+  <!-- Shield glossy marker highlight -->
+  <path d="M72 56            Q81 55 86 49" stroke="#FFF3A0" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+
+  <path d="M112 87            Q108 96 100 102" stroke="#FFF1A0" stroke-width="2.3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Imperfect hand-inked shield outline -->
+  <path d="M93 39            Q101 39 107 43            Q113 46 122 46            M124 53            L124 76            Q123 96 94 117            M88 115            Q62 97 62 76            L62 51" stroke="#7C4D00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+
+  <!-- Sketchnote sparkle accents -->
+  <g stroke="#0078D4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M45 80 L45 91"/>
+    <path d="M40 85.5 L50 85.5"/>
+    <path d="M21 99 L27 105"/>
+    <path d="M27 99 L21 105"/>
+  </g>
+
+  <!-- Restrained handwritten-style emphasis marks -->
+  <g stroke="#F4B400" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M109 25 Q112 21 115 17"/>
+    <path d="M117 34 L124 31"/>
+    <path d="M101 23 L102 16"/>
+  </g>
+
+  <!-- Small loose ink strokes -->
+  <g stroke="#0078D4" stroke-width="1.7" stroke-linecap="round" opacity=".75">
+    <path d="M16 79 Q24 81 32 79"/>
+    <path d="M18 84 Q24 85 28 84"/>
+  </g>
+
+</svg>

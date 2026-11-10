@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Monitors for SAP Solutions (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure-blue cloud with an overlapping cyan performance
+    monitoring dashboard. Segmented speedometer, teal indicator needle,
+    grey pivot, uneven marker outlines, subtle yellow accents,
+    and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="sapCloud" x1="29" y1="19" x2="101" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="sapGauge" x1="51" y1="65" x2="112" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F2F2F2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Small sketchnote emphasis marks -->
+  <g stroke="#F4B400" stroke-width="2.8" stroke-linecap="round">
+    <path d="M22 29L17 23"/>
+    <path d="M31 23L29 15"/>
+    <path d="M109 29L115 23"/>
+    <path d="M114 37L122 34"/>
+  </g>
+
+  <!-- Azure cloud silhouette -->
+  <path d="M35 101            C20 101 10 91 10 77            C10 63 20 52 34 50            C39 30 54 19 73 20            C92 21 105 34 108 52            C120 54 126 65 125 77            C124 91 114 101 100 102            L37 102            Q36 102 35 101Z" fill="url(#sapCloud)" stroke="#1764A5" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cloud marker highlight -->
+  <path d="M21 73            Q23 59 38 58            M45 43            Q55 27 73 29" stroke="#B9E1FF" stroke-width="2.7" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Cloud highlight detail -->
+  <path d="M88 31            Q100 38 102 49" stroke="#9DD5FF" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Dashboard outer silhouette -->
+  <path d="M42 109            C43 79 65 59 87 59            C109 59 124 78 125 109            Q125 115 119 115            L48 115            Q42 115 42 109Z" fill="#50E6FF" stroke="#1384B1" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White gauge face -->
+  <path d="M48 108            C50 84 65 66 87 66            C109 66 119 85 120 108            Q120 110 117 110            L51 110            Q48 110 48 108Z" fill="url(#sapGauge)" stroke="#E1F1F8" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Gauge segments: lower-left -->
+  <path d="M55 101            Q56 89 64 81            L74 91            Q69 96 68 101Z" fill="#32BEDD" stroke="#168CAE" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Gauge segments: upper-left -->
+  <path d="M66 79            Q74 71 84 70            L84 85            Q79 86 75 91Z" fill="#50E6FF" stroke="#199CC5" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Gauge segments: upper-right -->
+  <path d="M89 70            Q99 71 106 79            L96 91            Q93 87 89 85Z" fill="#9CEBFF" stroke="#35B9D4" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Gauge segments: lower-right -->
+  <path d="M108 81            Q116 90 117 101            L104 101            Q103 96 97 92Z" fill="#9CEBFF" stroke="#35B9D4" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn gauge markings -->
+  <g stroke="#168CAE" stroke-width="1.8" stroke-linecap="round" opacity="0.7">
+    <path d="M61 104L65 104"/>
+    <path d="M85 73L85 77"/>
+    <path d="M111 104L115 104"/>
+  </g>
+
+  <!-- Monitoring needle -->
+  <path d="M87 106            L111 94" stroke="#168CAE" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M89 104L109 94" stroke="#50E6FF" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Needle pivot -->
+  <circle cx="87" cy="106" r="6" fill="#767676" stroke="#515151" stroke-width="2"/>
+
+  <circle cx="85.5" cy="104.5" r="1.7" fill="#FFFFFF"/>
+
+  <!-- Small sketchnote monitoring accent -->
+  <g stroke="#F4B400" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M115 59L120 54"/>
+    <path d="M120 66L125 64"/>
+  </g>
+
+  <!-- Loose hand-drawn underline -->
+  <path d="M49 121Q84 125 116 120" stroke="#0078D4" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="13 5 7 5" opacity="0.65"/>
+
+</svg>

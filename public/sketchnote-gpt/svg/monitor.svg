@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Monitor (sketch)</title>
+
+  
+  <desc>Hand-drawn Azure Monitor icon featuring a blue circular frame, segmented cyan monitoring gauge, red indicator needle, and dark central pivot.</desc>
+
+  <defs>
+    <radialGradient id="monitorBlue" cx="42%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#5C9FEE"/>
+      <stop offset=".82" stop-color="#3990E4"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </radialGradient>
+
+    <radialGradient id="monitorPivot" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#8C8E90"/>
+      <stop offset=".55" stop-color="#6E7071"/>
+      <stop offset="1" stop-color="#3E3F3F"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer hand-drawn Azure-blue circular frame -->
+  <path d="M64 5            C96 4 122 29 123 62            C125 94 99 121 66 123            C33 125 6 100 5 67            C3 35 29 7 64 5 Z" fill="url(#monitorBlue)" stroke="#12649C" stroke-width="3.1"/>
+
+  <!-- Open white interior -->
+  <path d="M64 14            C91 13 113 35 114 63            C115 91 94 113 65 114            C37 115 15 94 14 66            C13 38 35 15 64 14 Z" fill="#FFFFFF" stroke="#D5EDFF" stroke-width="1.8"/>
+
+  <!-- Subtle sketch highlights around outer ring -->
+  <path d="M17 48 Q25 24 48 17" stroke="#A8DDFF" stroke-width="2.8"/>
+
+  <path d="M91 109 Q108 97 114 78" stroke="#087BD6" stroke-width="2.1" opacity=".65"/>
+
+  <!-- Gauge segment: lower left -->
+  <path d="M20 67            Q21 82 33 95            L47 81            Q40 75 39 67 Z" fill="#9CEBFF" stroke="#258BBE" stroke-width="2.2"/>
+
+  <!-- Gauge segment: left -->
+  <path d="M20 60            Q21 42 34 31            L48 45            Q41 51 39 60 Z" fill="#50E6FF" stroke="#258BBE" stroke-width="2.2"/>
+
+  <!-- Gauge segment: upper left -->
+  <path d="M39 26            Q49 20 60 20            L60 39            Q54 40 49 44 Z" fill="#32BEDD" stroke="#258BBE" stroke-width="2.2"/>
+
+  <!-- Gauge segment: upper right -->
+  <path d="M68 20            Q82 21 94 32            L80 46            Q75 41 68 39 Z" fill="#32BEDD" stroke="#258BBE" stroke-width="2.2"/>
+
+  <!-- Gauge segment: right -->
+  <path d="M99 37            Q107 47 108 60            L89 60            Q87 53 83 49 Z" fill="#32BEDD" stroke="#258BBE" stroke-width="2.2"/>
+
+  <!-- Hand-drawn cyan marker highlights -->
+  <path d="M25 55 Q28 44 34 39" stroke="#B6F5FF" stroke-width="3"/>
+
+  <path d="M45 29 Q51 25 57 25" stroke="#A7F1FF" stroke-width="2.5"/>
+
+  <path d="M72 25 Q81 27 88 34" stroke="#A7F1FF" stroke-width="2.5"/>
+
+  <path d="M102 47 Q105 52 105 57" stroke="#9CEBFF" stroke-width="2.4"/>
+
+  <path d="M25 72 Q28 82 35 89" stroke="#D4F9FF" stroke-width="2.5"/>
+
+  <!-- Red monitoring needle -->
+  <path d="M62 61            L99 46            Q103 45 104 48            Q105 51 101 53            L67 69 Z" fill="#F04049" stroke="#A92835" stroke-width="2.2"/>
+
+  <!-- Needle highlight -->
+  <path d="M72 62 L99 49" stroke="#FF8A91" stroke-width="2" opacity=".9"/>
+
+  <!-- Central pivot shadow -->
+  <path d="M64 54            C71 54 76 59 76 65            C76 72 71 77 64 77            C57 77 52 72 52 65            C52 59 57 54 64 54 Z" fill="#E8EDF1" opacity=".85"/>
+
+  <!-- Central dark pivot -->
+  <path d="M64 57            C69 57 73 61 73 65            C73 70 69 74 64 74            C59 74 55 70 55 65            C55 61 59 57 64 57 Z" fill="url(#monitorPivot)" stroke="#3E3F3F" stroke-width="2.4"/>
+
+  <!-- Pivot reflection -->
+  <path d="M59 63 Q61 59 65 60" stroke="#D4D6D8" stroke-width="2.2"/>
+
+  <!-- Small sketchnote motion accents -->
+  <path d="M34 10 L30 5            M26 16 L20 13" stroke="#50E6FF" stroke-width="2.3"/>
+
+  <path d="M105 17 L110 12            M111 25 L118 23" stroke="#1490DF" stroke-width="2.3"/>
+
+  <!-- Tiny monitoring sparkle -->
+  <path d="M105 102 L105 110            M101 106 L109 106" stroke="#50E6FF" stroke-width="2.2"/>
+
+  <!-- Hand-drawn accent strokes -->
+  <path d="M22 101 Q30 111 40 115" stroke="#5EA0EF" stroke-width="2.1"/>
+
+  <path d="M88 16 Q98 21 105 30" stroke="#9CEBFF" stroke-width="2.1"/>
+
+</svg>

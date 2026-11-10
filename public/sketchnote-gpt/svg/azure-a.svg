@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Azure A (sketch)</title>
+  
+  <desc>
+    Hand-drawn Microsoft Azure A logo with its iconic
+    angular silhouette, deep-blue left leg, cyan-blue
+    right leg, diagonal crossbar, and subtle marker details.
+    Transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="azureLeft" x1="43" y1="8" x2="12" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#114A8B"/>
+      <stop offset="1" stop-color="#0669BC"/>
+    </linearGradient>
+
+    <linearGradient id="azureRight" x1="67" y1="8" x2="108" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3CCBF4"/>
+      <stop offset="1" stop-color="#2892DF"/>
+    </linearGradient>
+
+    <linearGradient id="azureBridge" x1="42" y1="82" x2="108" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left angular Azure leg -->
+  <path d="     M39 10     Q40 6 45 6     L79 6     L42 116     Q41 121 36 121     L9 121     Q4 121 7 114     Z" fill="url(#azureLeft)" stroke="#114A8B" stroke-width="3.5"/>
+
+  <!-- Hand-drawn left-leg highlights -->
+  <path d="     M42 16     L13 107     M17 114     L31 114" stroke="#5EA0EF" stroke-width="2.6" opacity=".85"/>
+
+  <!-- Small irregular marker stroke -->
+  <path d="     M48 12     Q60 10 72 12" stroke="#78B9F4" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Azure diagonal crossbar -->
+  <path d="     M39 81     Q37 81 39 85     L75 119     Q77 121 81 121     L110 121     L96 81     Z" fill="url(#azureBridge)" stroke="#005BA1" stroke-width="3.2"/>
+
+  <!-- Crossbar marker highlight -->
+  <path d="     M45 86     L79 116     Q82 118 87 118" stroke="#66C9FF" stroke-width="2.6" opacity=".85"/>
+
+  <!-- Right Azure leg -->
+  <path d="     M84 10     Q83 6 79 6     L45 6     Q50 6 52 12     L87 115     Q89 121 94 121     L119 121     Q124 121 121 114     Z" fill="url(#azureRight)" stroke="#0879BC" stroke-width="3.5"/>
+
+  <!-- Cyan marker highlight on right leg -->
+  <path d="     M86 18     L115 109     M109 115     L116 115" stroke="#B6F0FF" stroke-width="2.7" opacity=".85"/>
+
+  <!-- Fine right-edge sketch line -->
+  <path d="     M92 34     L109 87" stroke="#0078D4" stroke-width="1.8" opacity=".65"/>
+
+  <!-- Azure fold shadow -->
+  <path d="     M45 81     L58 81     L87 115     L79 115     Z" fill="#114A8B" opacity=".22"/>
+
+  <!-- Hand-drawn fold detail -->
+  <path d="     M44 82     Q50 81 57 82     M61 89     L78 109" stroke="#005BA1" stroke-width="2" opacity=".7"/>
+
+  <!-- Subtle sketchnote accent strokes -->
+  <path d="     M23 24     L17 19     M19 33     L12 31     M102 15     L108 10" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Restrained yellow sparkle -->
+  <path d="     M111 42     L111 51     M106.5 46.5     L115.5 46.5" stroke="#F7C64A" stroke-width="2.8"/>
+
+  <!-- Small yellow sketch ticks -->
+  <path d="     M17 91     L11 95     M105 98     L111 101" stroke="#F7C64A" stroke-width="2.5"/>
+
+  <!-- Loose marker finishing strokes -->
+  <path d="     M8 124     Q21 126 34 124     M96 124     Q109 126 121 123" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+
+</svg>

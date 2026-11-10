@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Load Balancers (sketch)</title>
+
+  
+  <desc>Hand-drawn green diamond with three directional arrows, a central Azure-blue hub, and a small connected lower node.</desc>
+
+  <defs>
+    <linearGradient id="lbGreen" x1="25" y1="12" x2="105" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset=".55" stop-color="#70B52B"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn diamond silhouette -->
+  <path d="M60 7            Q64 3 69 8            L120 59            Q125 64 120 69            L69 120            Q64 125 59 120            L8 69            Q3 64 8 59            Z" fill="url(#lbGreen)" stroke="#426F1D" stroke-width="3.3"/>
+
+  <!-- Uneven marker edge highlights -->
+  <path d="M15 58 L59 14 Q63 10 67 13" stroke="#A5DD54" stroke-width="2.8" opacity=".85"/>
+
+  <path d="M113 75 L70 116 Q65 120 61 117" stroke="#4D8321" stroke-width="2.1" opacity=".7"/>
+
+  <!-- Top directional arrow -->
+  <path d="M49 35            L63 20            Q64 19 65 20            L80 35            Q82 38 78 38            L70 38            L70 48            Q70 50 68 50            L60 50            Q58 50 58 48            L58 38            L51 38            Q47 38 49 35 Z" fill="#B4EC36" stroke="#528D20" stroke-width="2.2"/>
+
+  <!-- Left directional arrow -->
+  <path d="M35 49            L20 63            Q19 64 20 65            L35 80            Q38 82 38 78            L38 70            L48 70            Q50 70 50 68            L50 60            Q50 58 48 58            L38 58            L38 51            Q38 47 35 49 Z" fill="#B4EC36" stroke="#528D20" stroke-width="2.2"/>
+
+  <!-- Right directional arrow -->
+  <path d="M93 49            L108 63            Q109 64 108 65            L93 80            Q90 82 90 78            L90 70            L80 70            Q78 70 78 68            L78 60            Q78 58 80 58            L90 58            L90 51            Q90 47 93 49 Z" fill="#B4EC36" stroke="#528D20" stroke-width="2.2"/>
+
+  <!-- Hand-drawn arrow highlights -->
+  <path d="M54 34 L64 25 L74 34" stroke="#E1FF83" stroke-width="2.3"/>
+
+  <path d="M34 54 L24 64 L34 74" stroke="#E1FF83" stroke-width="2.3"/>
+
+  <path d="M94 54 L104 64 L94 74" stroke="#E1FF83" stroke-width="2.3"/>
+
+  <!-- White central hub -->
+  <path d="M64 47            C74 46 82 54 83 63            C84 74 76 82 65 83            C54 84 46 76 46 65            C46 55 54 48 64 47 Z" fill="#FFFFFF" stroke="#396D26" stroke-width="2.6"/>
+
+  <!-- Azure-blue center -->
+  <path d="M64 55            C70 54 75 59 75 65            C75 71 70 76 64 76            C58 76 53 71 53 65            C53 59 58 55 64 55 Z" fill="#5EA0EF" stroke="#1976BF" stroke-width="2.2"/>
+
+  <!-- Subtle central blue highlight -->
+  <path d="M57 63 Q59 57 65 58" stroke="#C5E7FF" stroke-width="2.5"/>
+
+  <!-- Connector to lower node -->
+  <path d="M64 82            Q65 88 64 94" stroke="#FFFFFF" stroke-width="7"/>
+
+  <path d="M64 83 L64 94" stroke="#5EA0EF" stroke-width="2.2"/>
+
+  <!-- Lower connected white node -->
+  <path d="M64 91            C71 90 77 96 77 103            C77 110 71 116 64 116            C57 116 51 110 51 103            C51 96 57 91 64 91 Z" fill="#FFFFFF" stroke="#396D26" stroke-width="2.5"/>
+
+  <!-- Lower node hand-drawn accent -->
+  <path d="M57 101 Q59 96 64 96" stroke="#5EA0EF" stroke-width="2.6"/>
+
+  <!-- Small decorative marker details -->
+  <path d="M29 31 L25 25            M22 37 L15 35" stroke="#B4EC36" stroke-width="2.4"/>
+
+  <path d="M99 28 L104 23            M105 35 L112 33" stroke="#B4EC36" stroke-width="2.4"/>
+
+  <!-- Tiny sketchnote sparkle -->
+  <path d="M96 96 L96 104            M92 100 L100 100" stroke="#E1FF83" stroke-width="2.2"/>
+
+  <!-- Freehand movement accent -->
+  <path d="M27 91 Q32 98 39 102" stroke="#B4EC36" stroke-width="2.1"/>
+
+</svg>

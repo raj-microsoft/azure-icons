@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Azure OpenAI (sketch)</title>
+  
+  <desc id="desc">Azure-blue rounded square with a hand-drawn four-point AI sparkle formed by negative space, subtle marker outlines, and restrained yellow accents.</desc>
+
+  <defs>
+    <radialGradient id="azure-fill" cx="32%" cy="25%" r="105%">
+      <stop offset="0" stop-color="#83B9F9"/>
+      <stop offset=".52" stop-color="#268DE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main Azure OpenAI tile with organic marker edges -->
+  <path fill="url(#azure-fill)" stroke="#155C98" stroke-width="3.2" fill-rule="evenodd" d="           M20 8           Q8 8 8 21           L8 107           Q8 120 21 120           L107 120           Q120 120 120 107           L120 21           Q120 8 107 8           Z            M76 8           L76 30           C76 55 96 76 120 76           L98 76           C74 76 53 96 53 120           L53 98           C53 74 33 53 8 53           L30 53           C55 53 76 33 76 8           Z"/>
+
+  <!-- Slightly imperfect upper-left highlight -->
+  <path d="M17 43            L17 23            Q17 17 25 17            L49 17" stroke="#C0E5FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Lower-right marker contour -->
+  <path d="M111 88            L111 105            Q111 111 104 111            L80 111" stroke="#005AAB" stroke-width="2.4" opacity=".7"/>
+
+  <!-- White sparkle boundary, sketched by hand -->
+  <path d="M76 13            C75 36 57 53 34 53            M13 53            C35 54 52 72 53 96            M53 115            C54 92 73 76 97 76            M116 76            C92 75 77 57 76 34" stroke="#EAF7FF" stroke-width="2.1" opacity=".9"/>
+
+  <!-- Tiny marker highlight strokes -->
+  <g stroke="#B7DEFF" stroke-width="2" opacity=".85">
+    <path d="M23 31 L23 39"/>
+    <path d="M30 23 L39 23"/>
+    <path d="M91 105 L101 105"/>
+    <path d="M105 91 L105 98"/>
+  </g>
+
+  <!-- Azure-blue freehand emphasis marks -->
+  <g stroke="#0078D4" stroke-width="2.6">
+    <path d="M28 3 L25 0"/>
+    <path d="M39 4 L39 0"/>
+    <path d="M124 35 L128 32"/>
+    <path d="M124 44 L128 44"/>
+  </g>
+
+  <!-- Restrained yellow sketch accents -->
+  <g stroke="#FFCC4D" stroke-width="2.6">
+    <path d="M4 79 L0 82"/>
+    <path d="M4 88 L0 89"/>
+    <path d="M80 124 L82 128"/>
+    <path d="M89 124 L94 127"/>
+  </g>
+
+  <!-- Hand-drawn yellow AI twinkle -->
+  <path d="M110 5            Q111 13 119 14            Q111 15 110 23            Q109 15 101 14            Q109 13 110 5Z" fill="#FFCC4D" stroke="#E7AA26" stroke-width="1.5"/>
+
+  <!-- Mini cyan sparkle -->
+  <g stroke="#50E6FF" stroke-width="2.2">
+    <path d="M15 114 L15 123"/>
+    <path d="M10.5 118.5 L19.5 118.5"/>
+  </g>
+
+  <!-- Minimal sketch dots -->
+  <g fill="#FFCC4D">
+    <circle cx="94" cy="5" r="1.8"/>
+    <circle cx="124" cy="94" r="1.8"/>
+  </g>
+</svg>

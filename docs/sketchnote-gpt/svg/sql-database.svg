@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>SQL Database (sketch)</title>
+
+  
+  <desc>Hand-drawn Azure SQL Database cylinder with a cyan elliptical top, blue curved body, and white SQL lettering constructed from editable vector paths.</desc>
+
+  <defs>
+    <linearGradient id="sqlBlue" x1="19" y1="65" x2="109" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".30" stop-color="#0071C8"/>
+      <stop offset=".53" stop-color="#0078D4"/>
+      <stop offset=".78" stop-color="#006ABB"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="sqlCyan" x1="64" y1="10" x2="64" y2="43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset=".55" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main database cylindrical body -->
+  <path d="M19 29            C19 18 39 11 64 11            C89 11 109 18 109 29            L109 107            C109 119 89 125 64 125            C39 125 19 119 19 107 Z" fill="url(#sqlBlue)" stroke="#064F86" stroke-width="3.2"/>
+
+  <!-- Hand-drawn body side highlights -->
+  <path d="M24 43            Q23 73 24 102            Q24 111 32 115" stroke="#50B9F2" stroke-width="3" opacity=".8"/>
+
+  <path d="M103 44            Q105 77 103 105" stroke="#004E90" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Bottom curved database seam -->
+  <path d="M22 104            C30 116 46 119 64 119            C83 119 99 115 106 104" stroke="#50A8E0" stroke-width="2.3" opacity=".65"/>
+
+  <!-- Top database ellipse -->
+  <path d="M19 28            C19 16 39 8 64 8            C89 8 109 16 109 28            C109 40 89 47 64 47            C39 47 19 40 19 28 Z" fill="#E8E8E8" stroke="#477C9D" stroke-width="3"/>
+
+  <!-- Cyan top surface -->
+  <path d="M28 27            C28 19 44 14 64 14            C84 14 100 19 100 27            C100 35 84 41 64 41            C44 41 28 35 28 27 Z" fill="url(#sqlCyan)" stroke="#168DBA" stroke-width="2.2"/>
+
+  <!-- Subtle elliptical inner reflection -->
+  <path d="M35 32            C46 26 55 25 64 25            C75 25 86 28 94 32            C85 38 45 39 35 32 Z" fill="#198AB3" opacity=".78"/>
+
+  <!-- Marker-like highlight on top -->
+  <path d="M37 23            Q50 16 67 18" stroke="#D9FAFF" stroke-width="3.2"/>
+
+  <!-- Sketchy elliptical edge detail -->
+  <path d="M29 35            Q45 46 68 45" stroke="#B7DCEB" stroke-width="2.2"/>
+
+  <!-- SQL lettering: S -->
+  <path d="M42 65            C37 61 29 63 29 70            C29 76 37 78 41 81            C48 86 42 95 35 94            Q31 94 28 91" stroke="#F2F2F2" stroke-width="6.5"/>
+
+  <!-- SQL lettering: Q -->
+  <path d="M65 64            C54 62 49 71 49 80            C49 90 54 97 64 96            C73 95 77 88 77 79            C77 70 73 64 65 64 Z" stroke="#F2F2F2" stroke-width="6.5"/>
+
+  <path d="M67 91 L79 103" stroke="#F2F2F2" stroke-width="6.2"/>
+
+  <!-- SQL lettering: L -->
+  <path d="M87 65            L87 94            L103 94" stroke="#F2F2F2" stroke-width="6.5"/>
+
+  <!-- Subtle freehand lettering accents -->
+  <path d="M32 68 Q36 65 40 68" stroke="#FFFFFF" stroke-width="1.8" opacity=".8"/>
+
+  <path d="M56 73 Q59 67 65 68" stroke="#FFFFFF" stroke-width="1.8" opacity=".75"/>
+
+  <!-- Tiny sketchnote sparkle -->
+  <path d="M113 17 L113 25            M109 21 L117 21" stroke="#50E6FF" stroke-width="2.3"/>
+
+  <!-- Small hand-drawn accent marks -->
+  <path d="M12 57 L7 54            M12 64 L5 64" stroke="#1490DF" stroke-width="2.4"/>
+
+  <path d="M115 76 L121 73            M116 83 L123 84" stroke="#50E6FF" stroke-width="2.2"/>
+
+  <!-- Lower sketchnote flourish -->
+  <path d="M33 121            Q42 126 51 126" stroke="#5EA0EF" stroke-width="1.7" opacity=".8"/>
+
+</svg>

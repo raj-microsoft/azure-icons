@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Dashboard Hub (sketch)</title>
+  
+  <desc>Three staggered teal dashboard panels with a white analytics line chart, horizontal metric bar, and vertical bar indicators. Hand-drawn marker outlines, original teal colours, restrained Azure-blue and yellow accents, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="dhBack" x1="12" y1="45" x2="94" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#37C2B1"/>
+      <stop offset="1" stop-color="#258277"/>
+    </linearGradient>
+    <linearGradient id="dhMiddle" x1="22" y1="30" x2="105" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#37C2B1"/>
+      <stop offset="1" stop-color="#2C9A8D"/>
+    </linearGradient>
+    <linearGradient id="dhFront" x1="35" y1="15" x2="117" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3CD4C2"/>
+      <stop offset="1" stop-color="#37C2B1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rear dashboard -->
+  <path d="     M9 43     Q9 39 13 39     L94 39     Q98 39 98 43     L98 108     Q98 112 94 112     L13 112     Q9 112 9 108     Z" fill="url(#dhBack)" stroke="#216E67" stroke-width="3.5"/>
+
+  <!-- Rear panel marker highlights -->
+  <path d="M15 47 L15 101" stroke="#75E1D3" stroke-width="2.5" opacity=".7"/>
+
+  <path d="M19 106 L45 106" stroke="#1E756C" stroke-width="2" opacity=".65"/>
+
+  <!-- Middle dashboard -->
+  <path d="     M21 31     Q21 27 25 27     L106 27     Q110 27 110 31     L110 96     Q110 100 106 100     L25 100     Q21 100 21 96     Z" fill="url(#dhMiddle)" stroke="#258277" stroke-width="3.5"/>
+
+  <!-- Middle panel sketch strokes -->
+  <path d="M27 35 L27 92" stroke="#8AE7DA" stroke-width="2.3" opacity=".7"/>
+
+  <path d="M32 94 L53 94" stroke="#1F8378" stroke-width="2" opacity=".65"/>
+
+  <!-- Front dashboard -->
+  <path d="     M33 19     Q33 15 37 15     L118 15     Q122 15 122 19     L122 84     Q122 88 118 88     L37 88     Q33 88 33 84     Z" fill="url(#dhFront)" stroke="#258277" stroke-width="3.8"/>
+
+  <!-- Subtle uneven inner frame -->
+  <path d="     M39 25     L116 25     M39 31     L39 81" stroke="#A4F2E8" stroke-width="2" opacity=".65"/>
+
+  <!-- Main analytics line chart -->
+  <path d="     M47 56     L58 43     L72 55     L85 34" stroke="#FFFFFF" stroke-width="4.2"/>
+
+  <!-- Hand-drawn line highlight -->
+  <path d="     M48 59     L59 46     L72 58     L87 37" stroke="#D9FFF8" stroke-width="1.6" opacity=".75"/>
+
+  <!-- Chart data points -->
+  <circle cx="47" cy="56" r="4.7" fill="#FFFFFF" stroke="#258277" stroke-width="1.8"/>
+
+  <circle cx="58" cy="43" r="4.7" fill="#FFFFFF" stroke="#258277" stroke-width="1.8"/>
+
+  <circle cx="72" cy="55" r="4.7" fill="#FFFFFF" stroke="#258277" stroke-width="1.8"/>
+
+  <circle cx="85" cy="34" r="4.7" fill="#FFFFFF" stroke="#258277" stroke-width="1.8"/>
+
+  <!-- Horizontal metric bar -->
+  <path d="     M44 72     Q44 70 46 70     L88 70     Q90 70 90 72     L90 80     Q90 82 88 82     L46 82     Q44 82 44 80     Z" fill="#FFFFFF" fill-opacity=".68"/>
+
+  <!-- Metric bar marker detail -->
+  <path d="M49 76 L80 76" stroke="#B9F5EA" stroke-width="1.8" opacity=".8"/>
+
+  <!-- Tall right metric bar -->
+  <path d="     M96 31     Q96 29 98 29     L103 29     Q105 29 105 31     L105 80     Q105 82 103 82     L98 82     Q96 82 96 80     Z" fill="#FFFFFF" fill-opacity=".9"/>
+
+  <!-- Short right metric bar -->
+  <path d="     M109 51     Q109 49 111 49     L115 49     Q117 49 117 51     L117 80     Q117 82 115 82     L111 82     Q109 82 109 80     Z" fill="#FFFFFF" fill-opacity=".9"/>
+
+  <!-- Vertical bar sketch highlights -->
+  <path d="M99 36 L99 72            M112 55 L112 74" stroke="#BDEFE9" stroke-width="1.5"/>
+
+  <!-- Restrained yellow annotation accents -->
+  <g stroke="#F4C542" stroke-width="2.7">
+    <path d="M87 23 L91 18"/>
+    <path d="M94 24 L99 22"/>
+    <path d="M115 97 L120 94"/>
+  </g>
+
+  <!-- Azure-blue sketchnote motion marks -->
+  <g stroke="#0078D4" stroke-width="2.2">
+    <path d="M13 30 L18 26"/>
+    <path d="M9 119 L17 119"/>
+    <path d="M28 111 L34 114"/>
+  </g>
+
+  <!-- Small freehand marker imperfections -->
+  <g stroke="#1C8076" stroke-width="1.8" opacity=".75">
+    <path d="M39 91 L46 91"/>
+    <path d="M114 91 L119 91"/>
+    <path d="M24 103 L30 103"/>
+  </g>
+</svg>

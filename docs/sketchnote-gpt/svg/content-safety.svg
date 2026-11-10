@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Content Safety (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Content Safety icon featuring a blue
+    protective shield, content inspection lines, green
+    scanning brackets, and a green verification badge.
+    Original Azure-blue and green colours, subtle yellow
+    accents, uneven marker outlines, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="csShield" x1="30" y1="14" x2="97" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".52" stop-color="#238CD9"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="csCheck" x1="78" y1="75" x2="111" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn content scanning corners -->
+  <g stroke="#76BC2D" stroke-width="4.5">
+    <path d="M23 9 L8 9 L8 27"/>
+    <path d="M105 9 L120 9 L120 27"/>
+    <path d="M8 101 L8 119 L23 119"/>
+    <path d="M120 101 L120 119 L105 119"/>
+  </g>
+
+  <!-- Secondary sketch strokes on scanning frame -->
+  <g stroke="#5E9624" stroke-width="1.7" opacity=".7">
+    <path d="M12 15 L12 23"/>
+    <path d="M109 13 L116 13"/>
+    <path d="M12 106 L12 114"/>
+    <path d="M110 115 L116 115"/>
+  </g>
+
+  <!-- Protective shield silhouette -->
+  <path d="     M64 11     C74 10 78 21 99 22     Q103 22 103 27     L103 61     C103 82 85 99 66 112     Q64 114 61 112     C41 99 25 82 25 61     L25 27     Q25 23 29 22     C50 21 54 10 64 11     Z" fill="#005BA1" stroke="#174B78" stroke-width="3.5"/>
+
+  <!-- Inner shield panel -->
+  <path d="     M64 17     C73 17 79 27 96 28     L96 60     C96 77 82 93 64 105     C45 93 32 77 32 60     L32 28     C49 27 55 17 64 17     Z" fill="url(#csShield)" stroke="#C3F1FF" stroke-width="2.3"/>
+
+  <!-- Uneven marker highlight on shield -->
+  <path d="     M36 34     Q48 32 55 26     M40 70     Q46 84 58 93" stroke="#9CEBFF" stroke-width="2.4" opacity=".75"/>
+
+  <!-- Content illustration: image placeholder -->
+  <path d="     M41 39     Q41 37 43 37     L62 37     Q64 37 64 39     L64 53     Q64 55 62 55     L43 55     Q41 55 41 53     Z" fill="#FFFFFF" fill-opacity=".75" stroke="#E7F5FF" stroke-width="1.5"/>
+
+  <!-- Image landscape strokes -->
+  <path d="M44 51 L49 45 L53 49 L57 43 L62 51" stroke="#0078D4" stroke-width="2.2"/>
+  <circle cx="48" cy="42" r="2" fill="#F4C542"/>
+
+  <!-- Content inspection lines -->
+  <g stroke="#FFFFFF" stroke-width="4.2" opacity=".85">
+    <path d="M72 40 L88 40"/>
+    <path d="M72 49 L87 49"/>
+    <path d="M41 64 L87 64"/>
+    <path d="M41 74 L82 74"/>
+    <path d="M41 84 L68 84"/>
+  </g>
+
+  <!-- Fine sketch-style line accents -->
+  <g stroke="#C3F1FF" stroke-width="1.4" opacity=".65">
+    <path d="M43 67 L56 67"/>
+    <path d="M44 77 L52 77"/>
+    <path d="M73 52 L81 52"/>
+  </g>
+
+  <!-- Approved content badge: irregular hand-drawn circle -->
+  <path d="     M94 72     C109 71 120 82 120 96     C121 110 111 120 97 121     C83 122 73 112 72 99     C71 85 80 74 94 72     Z" fill="url(#csCheck)" stroke="#4F851F" stroke-width="3.8"/>
+
+  <!-- Badge sketch highlight -->
+  <path d="M81 85 Q85 78 95 78" stroke="#C8F28E" stroke-width="2.8"/>
+
+  <!-- Large hand-drawn verification check -->
+  <path d="     M82 97     L92 107     L111 86" stroke="#FFFFFF" stroke-width="8"/>
+
+  <path d="     M83 96     L92 105     L110 86" stroke="#F2F2F2" stroke-width="3.5"/>
+
+  <!-- Subtle yellow sketchnote emphasis -->
+  <g stroke="#F4C542" stroke-width="2.7">
+    <path d="M108 62 L114 57"/>
+    <path d="M113 69 L120 67"/>
+    <path d="M17 49 L12 45"/>
+    <path d="M19 56 L13 54"/>
+  </g>
+
+  <!-- Small marker motion details -->
+  <g stroke="#0078D4" stroke-width="2">
+    <path d="M44 15 L49 12"/>
+    <path d="M77 15 L82 18"/>
+    <path d="M46 108 L51 112"/>
+  </g>
+
+</svg>

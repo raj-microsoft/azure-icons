@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>ATM Multistack (sketch)</title>
+  
+  <desc>Two offset stacks of three Azure server modules, connected by a central purple octagonal multistack routing symbol.</desc>
+
+  <defs>
+    <linearGradient id="atmPurple" x1="64" y1="28" x2="64" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C69AEB"/>
+      <stop offset=".48" stop-color="#9A72CE"/>
+      <stop offset="1" stop-color="#6F4BB2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-right server stack -->
+  <g stroke="#087DA9" stroke-width="2.6">
+    <path d="M67 4 Q67 2 70 2 L123 2 Q126 2 126 5              L126 17 Q126 20 123 20 L70 20 Q67 20 67 17Z" fill="#9CEBFF"/>
+    <path d="M67 24 Q67 22 70 22 L123 22 Q126 22 126 25              L126 37 Q126 40 123 40 L70 40 Q67 40 67 37Z" fill="#41D2EE"/>
+    <path d="M67 44 Q67 42 70 42 L123 42 Q126 42 126 45              L126 57 Q126 60 123 60 L70 60 Q67 60 67 57Z" fill="#198AB3"/>
+  </g>
+
+  <!-- Hand-drawn server highlights -->
+  <path d="M72 6 Q91 5 112 6            M72 26 Q91 25 112 26            M72 46 Q91 45 112 46" stroke="#E2FAFF" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Upper server status lights -->
+  <g fill="#FFFFFF">
+    <circle cx="118" cy="8" r="2.5"/>
+    <circle cx="118" cy="15" r="2" opacity=".6"/>
+    <circle cx="118" cy="28" r="2.5"/>
+    <circle cx="118" cy="35" r="2" opacity=".6"/>
+    <circle cx="118" cy="48" r="2.5"/>
+    <circle cx="118" cy="55" r="2" opacity=".6"/>
+  </g>
+
+  <!-- Lower-left server stack -->
+  <g stroke="#005BA1" stroke-width="2.6">
+    <path d="M3 69 Q3 67 6 67 L58 67 Q61 67 61 70              L61 82 Q61 85 58 85 L6 85 Q3 85 3 82Z" fill="#83B9F9"/>
+    <path d="M3 89 Q3 87 6 87 L58 87 Q61 87 61 90              L61 102 Q61 105 58 105 L6 105 Q3 105 3 102Z" fill="#2E8CE1"/>
+    <path d="M3 109 Q3 107 6 107 L58 107 Q61 107 61 110              L61 122 Q61 125 58 125 L6 125 Q3 125 3 122Z" fill="#005BA1"/>
+  </g>
+
+  <!-- Lower server marker highlights -->
+  <path d="M8 71 Q27 70 47 71            M8 91 Q27 90 47 91            M8 111 Q27 110 47 111" stroke="#D9EFFF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Lower server indicator lights -->
+  <g fill="#FFFFFF">
+    <circle cx="53" cy="73" r="2.5"/>
+    <circle cx="53" cy="80" r="2" opacity=".6"/>
+    <circle cx="53" cy="93" r="2.5"/>
+    <circle cx="53" cy="100" r="2" opacity=".6"/>
+    <circle cx="53" cy="113" r="2.5"/>
+    <circle cx="53" cy="120" r="2" opacity=".6"/>
+  </g>
+
+  <!-- Central purple octagonal routing badge -->
+  <path d="M49 29            Q50 28 53 28            L75 28            Q78 28 80 30            L98 48            Q100 50 100 53            L100 76            Q100 79 98 81            L80 99            Q78 101 75 101            L53 101            Q50 101 48 99            L30 81            Q28 79 28 76            L28 53            Q28 50 30 48Z" fill="url(#atmPurple)" stroke="#6743A7" stroke-width="3.5"/>
+
+  <!-- Uneven inner octagon -->
+  <path d="M54 35            L74 35            L93 54            L93 75            L74 94            L54 94            L35 75            L35 54Z" stroke="#F2F2F2" stroke-width="3"/>
+
+  <!-- Subtle purple marker highlights -->
+  <path d="M34 49 L51 32 Q54 30 58 31            M81 34 L96 49            M96 77 L80 96" stroke="#E3C9F8" stroke-width="2.4" opacity=".8"/>
+
+  <!-- Multistack routing arrows -->
+  <g stroke="#FFFFFF" stroke-width="3.7">
+    <!-- Upper-left to lower-right path -->
+    <path d="M39 54 L51 42              L63 54" fill="none"/>
+    <path d="M56 54 L63 54 L63 47" fill="none"/>
+
+    <!-- Diagonal stack connection -->
+    <path d="M64 54              L82 72" fill="none"/>
+    <path d="M73 72 L82 72 L82 63" fill="none"/>
+
+    <!-- Lower-left to upper-right route -->
+    <path d="M43 75 L55 87              L67 75" fill="none"/>
+    <path d="M60 75 L67 75 L67 82" fill="none"/>
+
+    <!-- Cross-stack transfer -->
+    <path d="M49 64 L79 64" fill="none" stroke-width="2.8"/>
+    <path d="M73 59 L79 64 L73 69" fill="none" stroke-width="2.8"/>
+  </g>
+
+  <!-- Small yellow sketchnote accents -->
+  <path d="M16 50 L11 45            M20 45 L19 38            M106 86 L113 82            M108 92 L116 92" stroke="#F7C64A" stroke-width="2.6"/>
+
+  <!-- Azure-blue motion marks -->
+  <path d="M6 59 Q11 56 16 58            M110 67 Q115 65 121 68" stroke="#0078D4" stroke-width="2.4"/>
+
+  <!-- Small hand-drawn sparkle -->
+  <path d="M17 19 L17 27            M13 23 L21 23" stroke="#F7C64A" stroke-width="2.6"/>
+
+  <!-- Fine illustrative marker ticks -->
+  <path d="M40 23 L44 20            M88 108 L92 112            M98 103 L103 105" stroke="#0078D4" stroke-width="2.2"/>
+</svg>

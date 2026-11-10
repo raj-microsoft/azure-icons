@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Object Understanding (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn object recognition illustration with four cyan
+    scanning corners, a three-dimensional blue cube, and a
+    turquoise cone. Preserves the original Azure colors,
+    geometric symbolism, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="coneFill" x1="83" y1="18" x2="83" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42E8CA"/>
+      <stop offset="1" stop-color="#37C2B1"/>
+    </linearGradient>
+
+    <linearGradient id="cubeRight" x1="45" y1="65" x2="77" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#70EDFF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Recognition frame: upper-left -->
+  <path d="     M29 8     L9 8     Q6 8 6 12     L6 33" stroke="#50E6FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Recognition frame: upper-right -->
+  <path d="     M99 8     L119 8     Q122 8 122 12     L122 33" stroke="#50E6FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Recognition frame: lower-left -->
+  <path d="     M6 95     L6 116     Q6 120 10 120     L29 120" stroke="#50E6FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Recognition frame: lower-right -->
+  <path d="     M122 95     L122 116     Q122 120 118 120     L99 120" stroke="#50E6FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Freehand scanning-frame highlights -->
+  <g stroke="#D2FAFF" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M11 17 L11 29"/>
+    <path d="M107 13 L116 13"/>
+    <path d="M12 101 L12 113"/>
+    <path d="M107 115 L116 115"/>
+  </g>
+
+  <!-- Turquoise cone: back silhouette -->
+  <path d="     M57 66     L80 19     Q83 14 86 20     L108 65     Q112 70 112 75     C112 86 99 92 83 92     C67 92 54 86 54 75     Q54 70 57 66     Z" fill="url(#coneFill)" stroke="#198AB3" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cone curved lower edge -->
+  <path d="     M56 73     C61 84 74 87 84 87     C96 87 106 82 110 74" stroke="#198AB3" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".65"/>
+
+  <!-- Hand-drawn cone highlight -->
+  <path d="     M81 28     Q70 52 63 68" stroke="#B4FFF0" stroke-width="3" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <path d="     M89 39     Q97 58 101 68" stroke="#2BAF9D" stroke-width="2" stroke-linecap="round" fill="none" opacity=".65"/>
+
+  <!-- Cone soft marker accent -->
+  <path d="     M95 82     Q101 80 105 76" stroke="#9CF7E7" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Cube top face -->
+  <path d="     M18 57     L46 41     Q48 40 50 41     L76 56     Q79 58 76 60     L49 76     Q47 77 45 76     Z" fill="#C3F1FF" stroke="#198AB3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cube left face -->
+  <path d="     M18 57     L47 74     L47 108     Q47 110 44 109     L19 94     Q17 93 17 90     Z" fill="#9CEBFF" stroke="#198AB3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cube right face -->
+  <path d="     M47 74     L77 57     L77 90     Q77 93 74 95     L47 110     Z" fill="url(#cubeRight)" stroke="#198AB3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cube face highlights -->
+  <path d="     M25 58     L47 46     L66 57" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".85"/>
+
+  <path d="     M23 67     L23 87     L38 96" stroke="#E0FAFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <path d="     M70 68     L70 87     L55 97" stroke="#0078D4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".65"/>
+
+  <!-- Small hand-drawn vertex markers -->
+  <g fill="#198AB3">
+    <circle cx="18" cy="57" r="3.2"/>
+    <circle cx="47" cy="41" r="3.2"/>
+    <circle cx="77" cy="57" r="3.2"/>
+    <circle cx="47" cy="74" r="3.2"/>
+    <circle cx="18" cy="93" r="3"/>
+    <circle cx="47" cy="109" r="3"/>
+    <circle cx="77" cy="93" r="3"/>
+  </g>
+
+  <!-- Vertex glints -->
+  <g fill="#D5FAFF">
+    <circle cx="17" cy="56" r="1"/>
+    <circle cx="46" cy="40" r="1"/>
+    <circle cx="76" cy="56" r="1"/>
+    <circle cx="46" cy="73" r="1"/>
+  </g>
+
+  <!-- Subtle object-recognition annotations -->
+  <g stroke="#F4C542" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M37 22 L41 27" stroke-width="2.8"/>
+    <path d="M44 17 L46 23" stroke-width="2.5"/>
+    <path d="M102 35 L108 32" stroke-width="2.7"/>
+    <path d="M106 43 L113 43" stroke-width="2.4"/>
+    <path d="M86 108 L91 112" stroke-width="2.6"/>
+    <path d="M95 105 L99 107" stroke-width="2.3"/>
+  </g>
+
+  <!-- Loose handwritten-style sketch marks -->
+  <g stroke="#198AB3" stroke-linecap="round" fill="none">
+    <path d="M32 113 Q39 117 47 115" stroke-width="1.8"/>
+    <path d="M68 116 Q76 113 82 110" stroke-width="1.8"/>
+    <path d="M114 53 Q117 59 116 65" stroke-width="1.7" stroke-dasharray="3 5"/>
+  </g>
+
+  <!-- Small annotation dots -->
+  <circle cx="35" cy="31" r="1.7" fill="#F4C542"/>
+  <circle cx="108" cy="87" r="1.8" fill="#50E6FF"/>
+  <circle cx="83" cy="12" r="1.6" fill="#42E8CA"/>
+
+</svg>

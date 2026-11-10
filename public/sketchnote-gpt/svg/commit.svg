@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Commit (sketch)</title>
+  
+  <desc>
+    Hand-drawn commit icon preserving the original purple
+    upward arrow and horizontal status bar with three squares.
+    Original Azure purple gradients, white and lime-green
+    indicators, uneven marker outlines, restrained yellow
+    accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="commitArrow" x1="64" y1="8" x2="64" y2="67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset=".45" stop-color="#9E6FF0"/>
+      <stop offset=".77" stop-color="#8952E5"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+
+    <linearGradient id="commitBar" x1="64" y1="82" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A67AF4"/>
+      <stop offset=".735" stop-color="#8952E5"/>
+      <stop offset="1" stop-color="#773ADC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upward commit arrow -->
+  <path d="M35 31            Q33 29 36 26            L60 5            Q64 1 68 5            L92 26            Q95 29 92 32            Q91 33 88 33            L76 33            Q74 33 74 36            L74 65            Q74 69 70 69            L58 69            Q54 69 54 65            L54 36            Q54 33 51 33            L39 33            Q36 33 35 31            Z" fill="url(#commitArrow)" stroke="#6530B5" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrow hand-drawn highlight -->
+  <path d="M44 27            L61 11            Q64 8 67 11            L84 27" stroke="#D9C2FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+
+  <path d="M60 40            Q59 51 60 61" stroke="#C5A5FA" stroke-width="2.2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Slight irregular side marker strokes -->
+  <path d="M49 37 L49 45            M79 38 L79 46" stroke="#A67AF4" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Commit status bar -->
+  <path d="M9 85            Q9 81 14 81            L114 80            Q119 80 119 85            L120 115            Q120 121 114 121            L14 122            Q9 122 9 117            Z" fill="url(#commitBar)" stroke="#6530B5" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper bar marker highlight -->
+  <path d="M17 86            Q42 85 65 85            M75 85 L111 85" stroke="#D8C2FC" stroke-width="2.2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- First status square: white -->
+  <path d="M26 92            Q26 90 29 90            L44 90            Q47 90 47 93            L47 109            Q47 112 44 112            L29 112            Q26 112 26 109            Z" fill="#FFFFFF" stroke="#6530B5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Second status square: lime green -->
+  <path d="M54 92            Q54 90 57 90            L72 90            Q75 90 75 93            L75 109            Q75 112 72 112            L57 112            Q54 112 54 109            Z" fill="#B4EC36" stroke="#6530B5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Third status square: lime green -->
+  <path d="M82 92            Q82 90 85 90            L100 90            Q103 90 103 93            L103 109            Q103 112 100 112            L85 112            Q82 112 82 109            Z" fill="#B4EC36" stroke="#6530B5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Status indicator sketch highlights -->
+  <path d="M31 95 L42 95            M59 95 L70 95            M87 95 L98 95" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Loose bar edge detailing -->
+  <path d="M16 96 L16 111            M113 95 L113 110            M19 116 Q64 117 109 115" stroke="#B18AEC" stroke-width="1.9" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M103 14 L106 8            M111 19 L117 17            M106 24 L111 28" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Small sketched motion marks -->
+  <path d="M22 48 L15 45            M24 56 L17 57" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Minimal marker dots -->
+  <circle cx="15" cy="17" r="2" fill="#A67AF4"/>
+  <circle cx="114" cy="57" r="2" fill="#F4C542"/>
+  <circle cx="119" cy="70" r="1.8" fill="#773ADC"/>
+</svg>

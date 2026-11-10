@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>API Center (sketch)</title>
+  
+  <desc>Azure API Center represented by a lavender hexagonal hub connected to four cyan API endpoints, with irregular marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="apiCyan" x1="64" y1="6" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#198AB3"/>
+    </linearGradient>
+    <linearGradient id="apiPurple" x1="46" y1="27" x2="76" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C69AEB"/>
+      <stop offset="1" stop-color="#6F4BB2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left API endpoint -->
+  <path d="M24 9            C29 7 34 10 35 16            C36 22 32 26 27 27            C21 28 16 24 16 19            C15 14 19 10 24 9Z" fill="#8DE2F0" stroke="#168DB2" stroke-width="3.2"/>
+
+  <!-- Upper-left connector -->
+  <path d="M32 26            Q39 36 44 46" stroke="url(#apiCyan)" stroke-width="5.5"/>
+
+  <!-- Upper-left connector sketch highlight -->
+  <path d="M36 29 L42 39" stroke="#B7F0F7" stroke-width="2" opacity=".85"/>
+
+  <!-- Right-side endpoint connection -->
+  <path d="M77 53            Q88 53 99 53" stroke="url(#apiCyan)" stroke-width="6"/>
+
+  <!-- Right endpoint -->
+  <path d="M109 38            C118 38 124 44 124 53            C124 62 118 68 109 68            C101 68 95 62 95 53            C95 45 101 38 109 38Z" fill="#8DE2F0" stroke="#168DB2" stroke-width="3.5"/>
+
+  <!-- Right endpoint inner detail -->
+  <path d="M109 44            C115 44 119 48 119 53            C119 58 115 63 109 63" stroke="#E0FAFF" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Lower-right connector -->
+  <path d="M66 79            Q72 89 79 99" stroke="url(#apiCyan)" stroke-width="5.5"/>
+
+  <!-- Lower-right endpoint -->
+  <path d="M81 98            C88 96 95 101 96 108            C97 115 92 121 85 122            C78 123 72 118 71 111            C70 105 75 99 81 98Z" fill="#8DE2F0" stroke="#168DB2" stroke-width="3.2"/>
+
+  <!-- Lower-left connector -->
+  <path d="M42 77            Q35 89 29 101" stroke="url(#apiCyan)" stroke-width="6"/>
+
+  <!-- Lower-left endpoint -->
+  <path d="M17 96            C25 93 33 97 36 104            C39 112 35 120 28 123            C20 126 11 122 8 115            C5 107 9 99 17 96Z" fill="#8DE2F0" stroke="#168DB2" stroke-width="3.5"/>
+
+  <!-- Lower-left endpoint highlight -->
+  <path d="M13 108            Q16 101 23 101" stroke="#E0FAFF" stroke-width="2.8" opacity=".9"/>
+
+  <!-- Central API hexagon -->
+  <path d="M52 29            Q55 27 58 29            L77 40            Q80 42 80 46            L80 67            Q80 71 77 73            L58 84            Q55 86 52 84            L33 73            Q30 71 30 67            L30 46            Q30 42 33 40Z" fill="url(#apiPurple)" stroke="#6940A7" stroke-width="3.8"/>
+
+  <!-- Inner hand-drawn hexagonal contour -->
+  <path d="M39 46            L54 37            Q56 36 58 38            L71 46            M73 52 L73 65            M68 71 L57 77" stroke="#E4D0F6" stroke-width="2.6" opacity=".85"/>
+
+  <!-- Central API symbol: connected nodes -->
+  <path d="M47 52 L62 48            M47 52 L50 65            M50 65 L64 62            M62 48 L64 62" stroke="#F6ECFF" stroke-width="2.8"/>
+
+  <g fill="#F6ECFF" stroke="#784DB5" stroke-width="1.5">
+    <circle cx="47" cy="52" r="3.6"/>
+    <circle cx="62" cy="48" r="3.6"/>
+    <circle cx="50" cy="65" r="3.6"/>
+    <circle cx="64" cy="62" r="3.6"/>
+  </g>
+
+  <!-- Hand-drawn connection accents -->
+  <path d="M83 47 L89 47            M84 59 L91 59" stroke="#0078D4" stroke-width="2.3" opacity=".75"/>
+
+  <path d="M63 92 L67 97            M35 90 L32 95" stroke="#32BEDD" stroke-width="2.3" opacity=".8"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M85 16 L85 25            M80.5 20.5 L89.5 20.5" stroke="#F2C94C" stroke-width="3"/>
+
+  <path d="M94 12 L98 8            M96 27 L101 29" stroke="#F2C94C" stroke-width="2.4"/>
+
+  <!-- Small handwritten-style marker ticks -->
+  <path d="M10 43 L16 40            M11 51 L17 50" stroke="#0078D4" stroke-width="2.3" opacity=".7"/>
+
+  <path d="M105 87 L110 84            M111 94 L117 94" stroke="#32BEDD" stroke-width="2.3" opacity=".7"/>
+</svg>

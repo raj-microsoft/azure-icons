@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Operator Service Manager (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Operator Service Manager icon featuring
+    a blue radio transmission antenna, concentric signal waves,
+    a silver antenna structure, and a cyan service-management
+    badge containing circular synchronization arrows and a gear.
+    Original Azure blue and cyan colours, uneven marker outlines,
+    restrained yellow accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="antennaSilver" x1="48" y1="36" x2="48" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#D6D6D6"/>
+      <stop offset="1" stop-color="#7B7B7B"/>
+    </linearGradient>
+
+    <linearGradient id="managerCyan" x1="69" y1="66" x2="119" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".48" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#159ABF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer radio transmission waves -->
+  <g fill="none" stroke="#0078D4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M21 9              Q7 27 7 44              Q7 62 21 79"/>
+
+    <path d="M83 9              Q97 27 97 44              Q97 55 92 64"/>
+
+    <path d="M32 19              Q23 30 23 44              Q23 58 32 69"/>
+
+    <path d="M72 19              Q81 30 81 44              Q81 50 79 55"/>
+
+  </g>
+
+  <!-- Uneven hand-drawn signal highlights -->
+  <g fill="none" stroke="#5EA0EF" stroke-width="2.2" stroke-linecap="round" opacity=".85">
+    <path d="M17 19 Q11 31 12 43"/>
+    <path d="M17 61 Q19 67 23 72"/>
+    <path d="M87 18 Q93 29 93 40"/>
+    <path d="M28 31 Q26 39 28 46"/>
+    <path d="M76 29 Q78 36 77 42"/>
+  </g>
+
+  <!-- Radio transmitter center -->
+  <path d="M52 22            C64 22 74 32 74 44            C74 56 64 66 52 66            C40 66 30 56 30 44            C30 32 40 22 52 22 Z" fill="#0078D4" stroke="#075A9B" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M39 36            Q43 28 52 28" stroke="#A6E2FF" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M62 34            Q67 39 67 45" stroke="#004E8F" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Silver antenna support structure -->
+  <path d="M52 64            L75 121            L67 121            L52 79            L37 121            L29 121 Z" fill="url(#antennaSilver)" stroke="#737F89" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Antenna interior support -->
+  <path d="M42 103            L62 103            M38 113            L66 113" stroke="#929CA5" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Antenna silver marker highlights -->
+  <path d="M48 83            L36 116" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Antenna base -->
+  <path d="M26 122            Q26 119 30 119            L76 119            Q79 119 79 123            L79 125            L26 125 Z" fill="#A6A6A6" stroke="#737F89" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Cyan service-management badge -->
+  <path d="M94 65            C112 65 124 78 124 96            C124 113 112 124 95 124            L64 124            L64 96            C64 78 76 65 94 65 Z" fill="url(#managerCyan)" stroke="#087EA3" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Badge upper highlight -->
+  <path d="M73 87            Q79 72 94 72" stroke="#D5FAFF" stroke-width="2.8" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Circular synchronization arrow: upper -->
+  <path d="M78 95            C78 84 87 76 98 77            Q106 77 112 84" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <path d="M107 81            L115 85            L115 76" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Circular synchronization arrow: lower -->
+  <path d="M113 98            C113 110 104 117 94 117            Q85 117 79 110" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <path d="M84 113            L76 109            L76 118" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Central service configuration gear -->
+  <path d="M94 85            L98 85            L99.5 89            L103 90            L107 88            L110 91            L108 95            L109 98            L113 100            L113 104            L109 106            L108 109            L110 113            L107 116            L103 114            L99.5 115            L98 119            L94 119            L92.5 115            L89 114            L85 116            L82 113            L84 109            L83 106            L79 104            L79 100            L83 98            L84 95            L82 91            L85 88            L89 90            L92.5 89 Z" fill="#FFFFFF" stroke="#168BAB" stroke-width="1.8" stroke-linejoin="round" transform="translate(19.2 20.4) scale(.8)"/>
+
+  <!-- Gear center -->
+  <path d="M96 96            C100 96 103 99 103 103            C103 107 100 110 96 110            C92 110 89 107 89 103            C89 99 92 96 96 96 Z" fill="#32BEDD" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- Fine gear highlight -->
+  <path d="M92 102            Q93 99 96 99" stroke="#DFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Restrained yellow sketchnote sparkle -->
+  <g stroke="#FFD70F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112 24 L112 34"/>
+    <path d="M107 29 L117 29"/>
+    <path d="M14 95 L18 99"/>
+    <path d="M18 95 L14 99"/>
+  </g>
+
+  <!-- Loose Azure marker accents -->
+  <g stroke="#0078D4" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M4 75 Q7 81 11 85"/>
+    <path d="M104 49 Q109 52 111 57"/>
+    <path d="M16 118 Q19 121 23 122"/>
+  </g>
+
+  <!-- Handwritten-style emphasis strokes -->
+  <g stroke="#FFD70F" stroke-width="2" stroke-linecap="round">
+    <path d="M103 15 L107 10"/>
+    <path d="M119 40 L124 38"/>
+    <path d="M20 14 L16 10"/>
+  </g>
+
+</svg>

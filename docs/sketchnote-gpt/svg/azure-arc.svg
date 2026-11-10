@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Arc (sketch)</title>
+  
+  <desc>
+    Two mirrored Azure-blue and cyan pillars with folded
+    geometric faces, connected by curved Arc bridges.
+    Hand-drawn marker outlines, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="arcLeft" x1="8" y1="30" x2="53" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="arcRight" x1="76" y1="29" x2="120" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9CEBFF"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+    <linearGradient id="arcBridge" x1="25" y1="64" x2="103" y2="83" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset=".55" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left pillar: upper folded cap -->
+  <path d="M6 32            L31 17            L52 30            L27 46Z" fill="#5EA0EF" stroke="#005BA1" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Left pillar: outer face -->
+  <path d="M6 32            L27 46            L27 113            L6 100Z" fill="url(#arcLeft)" stroke="#005BA1" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Left pillar: inner folded face -->
+  <path d="M27 46            L52 30            L52 100            L27 113Z" fill="#0078D4" stroke="#005BA1" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Left lower facet -->
+  <path d="M27 83            L52 98            L27 113Z" fill="#005BA1" stroke="#004B87" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Left hand-drawn edge highlights -->
+  <path d="M12 37 L12 95            M32 48 L47 39            M32 104 L47 96" stroke="#86C8F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Right pillar: upper folded cap -->
+  <path d="M76 30            L101 17            L122 32            L97 46Z" fill="#9CEBFF" stroke="#087FA8" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Right pillar: inner face -->
+  <path d="M76 30            L97 46            L97 113            L76 100Z" fill="url(#arcRight)" stroke="#087FA8" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Right pillar: outer cyan face -->
+  <path d="M97 46            L122 32            L122 100            L97 113Z" fill="#50E6FF" stroke="#087FA8" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Right lower facet -->
+  <path d="M97 83            L76 98            L97 113Z" fill="#32BEDD" stroke="#087FA8" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Right marker highlights -->
+  <path d="M103 47 L116 39            M116 45 L116 94            M81 96 L92 103" stroke="#C7F8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+
+  <!-- Rear Arc connection -->
+  <path d="M28 44            C41 56 53 59 64 59            C76 59 87 55 99 44" stroke="#005BA1" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <path d="M29 43            C42 54 53 57 64 57            C76 57 87 53 98 43" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Main Arc sweeping bridge -->
+  <path d="M27 61            C38 78 51 84 64 84            C78 84 91 77 98 61" stroke="#004F8B" stroke-width="15" stroke-linecap="round" fill="none"/>
+
+  <path d="M27 60            C39 76 52 81 64 81            C77 81 90 75 98 60" stroke="url(#arcBridge)" stroke-width="11" stroke-linecap="round" fill="none"/>
+
+  <!-- Hand-drawn bright bridge contour -->
+  <path d="M33 65            C43 77 54 79 64 79            C77 79 87 73 93 65" stroke="#83B9F9" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".9"/>
+
+  <!-- Lower curved Arc stroke -->
+  <path d="M28 73            C38 91 51 97 64 97            C78 97 90 90 98 73" stroke="#005BA1" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <path d="M35 82            C44 91 54 94 64 94            C76 94 86 89 93 81" stroke="#32BEDD" stroke-width="2" stroke-linecap="round" fill="none" opacity=".9"/>
+
+  <!-- Sketchy top-face accents -->
+  <path d="M14 32 L30 22 L44 30            M85 31 L101 22 L114 31" stroke="#D4EEFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote marks -->
+  <path d="M55 12 L59 7            M65 11 L67 5" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M54 104 L58 109            M65 106 L65 112" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small informal marker annotations -->
+  <path d="M14 107 L19 112            M109 112 L114 107" stroke="#5EA0EF" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M56 33            Q64 29 72 33" stroke="#32BEDD" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 4" opacity=".8"/>
+
+</svg>

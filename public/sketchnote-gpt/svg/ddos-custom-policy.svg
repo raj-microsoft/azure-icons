@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>DDoS Custom Policy (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure security shield with three policy
+    lines and a diagonal green editing pencil.
+    Original Azure-blue and green colours, uneven marker
+    outlines, subtle yellow accents, and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="shieldBlue" x1="44" y1="30" x2="50" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.55" stop-color="#268FE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="pencilGreen" x1="69" y1="51" x2="112" y2="9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D633"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main security shield silhouette -->
+  <path d="     M48 16     Q50 15 53 17     C64 25 74 29 86 30     Q90 30 90 35     L90 67     C90 91 77 107 51 117     Q48 118 45 117     C19 107 7 91 7 67     L7 35     Q7 31 12 31     C24 30 36 25 45 18     Q47 16 48 16     Z" fill="url(#shieldBlue)" stroke="#15558A" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Irregular sketchnote shield highlight -->
+  <path d="     M15 38     C27 37 39 30 48 24     C59 32 69 35 80 37     M14 45     L14 67     Q14 82 22 92" stroke="#B7DFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.82"/>
+
+  <!-- Three policy rules, preserved from original icon -->
+  <g stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M24 57 Q35 56 47 57" stroke-width="5.5"/>
+    <path d="M24 72 Q40 71 55 72" stroke-width="5.5"/>
+    <path d="M24 87 Q46 86 65 87" stroke-width="5.5"/>
+  </g>
+
+  <!-- Subtle marker offsets on policy lines -->
+  <g stroke="#BCEBFF" stroke-width="1.5" stroke-linecap="round" opacity="0.8">
+    <path d="M28 53 L44 53"/>
+    <path d="M28 68 L51 68"/>
+    <path d="M28 83 L60 83"/>
+  </g>
+
+  <!-- Pencil tip: white editable vector -->
+  <path d="     M65 62     L72 40     L82 50     L60 57     Q58 58 59 61     Q61 63 65 62     Z" fill="#F2F2F2" stroke="#36546A" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Dark graphite point -->
+  <path d="     M60 57     L65 62     L59 64     Q57 63 58 61     Z" fill="#35556B"/>
+
+  <!-- Pencil body: original two-tone green -->
+  <path d="     M72 40     L105 7     L119 21     L86 54     Z" fill="url(#pencilGreen)" stroke="#427A23" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pencil facet -->
+  <path d="     M79 47     L112 14     L119 21     L86 54     Z" fill="#76BC2D" stroke="#4E9227" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn pencil separator -->
+  <path d="M101 11 L115 25" stroke="#F2F2F2" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Pencil cap -->
+  <path d="     M105 7     L112 1     Q114 -1 117 2     L124 9     Q127 12 124 15     L119 21     Z" fill="#86D633" stroke="#427A23" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Cap two-tone facet -->
+  <path d="     M112 1     L124 13     L119 21     L112 14     L119 7     Z" fill="#76BC2D" opacity="0.9"/>
+
+  <!-- Pencil marker highlight -->
+  <path d="M78 39 L103 14" stroke="#D8F5A9" stroke-width="2.3" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M97 61 L104 59"/>
+    <path d="M101 69 L109 72"/>
+    <path d="M94 77 L99 83"/>
+    <path d="M9 19 L15 23"/>
+    <path d="M19 12 L22 19"/>
+  </g>
+
+  <!-- Small sketch accent dots -->
+  <circle cx="109" cy="54" r="2.2" fill="#F4C542"/>
+  <circle cx="115" cy="61" r="1.5" fill="#F4C542"/>
+  <circle cx="17" cy="105" r="2" fill="#50E6FF"/>
+
+  <!-- Loose outline detail near shield base -->
+  <path d="M34 109 Q41 113 48 115" stroke="#80D6FF" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+</svg>

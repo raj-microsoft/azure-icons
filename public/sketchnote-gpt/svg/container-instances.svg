@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Container Instances (sketch)</title>
+  
+  <desc>Azure-blue cloud with an upward deployment arrow and a purple container instance, illustrated with uneven marker outlines and subtle yellow accents.</desc>
+
+  <defs>
+    <linearGradient id="aciCloud" x1="24" y1="8" x2="104" y2="87" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#3C91E5"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="aciSide" x1="65" y1="70" x2="102" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B796F9"/>
+      <stop offset="1" stop-color="#A67AF4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn Azure cloud silhouette -->
+  <path d="     M35 84     C20 86 9 76 9 62     C8 49 16 39 30 36     C34 19 49 9 65 10     C84 10 96 23 98 39     C110 40 119 50 119 63     C120 76 110 85 97 85     Z" fill="url(#aciCloud)" stroke="#155EA1" stroke-width="3.5"/>
+
+  <!-- Irregular marker contour -->
+  <path d="M17 55 Q19 43 34 42            M39 28 Q49 15 65 16            M99 45 Q111 48 113 59" stroke="#C3F1FF" stroke-width="2.8" opacity=".8"/>
+
+  <!-- Cloud deployment arrow -->
+  <path d="     M44 48     L62 29     Q64 27 66 29     L84 48     Q87 51 83 51     L73 51     L73 74     Q73 76 71 76     L57 76     Q55 76 55 74     L55 51     L46 51     Q42 51 44 48     Z" fill="#F2F2F2" stroke="#155EA1" stroke-width="2.8"/>
+
+  <!-- Sketch accent on arrow -->
+  <path d="M62 38 L64 35 L68 39" stroke="#8DC8E8" stroke-width="2.2"/>
+  <path d="M61 56 L61 68" stroke="#8DC8E8" stroke-width="2.2"/>
+
+  <!-- Container top face -->
+  <path d="     M34 79     Q34 76 38 75     L63 69     Q65 69 68 70     L98 80     Q101 81 98 83     L67 92     Q65 93 62 92     L37 83     Q34 82 34 79     Z" fill="#B796F9" stroke="#552F99" stroke-width="3.3"/>
+
+  <!-- Container left face -->
+  <path d="     M35 81     L65 91     L65 119     Q65 122 62 121     L37 115     Q34 114 34 111     L34 84     Q34 82 35 81     Z" fill="#552F99" stroke="#422078" stroke-width="3.5"/>
+
+  <!-- Container right face -->
+  <path d="     M65 91     L99 81     L99 111     Q99 114 96 115     L65 122     Z" fill="url(#aciSide)" stroke="#552F99" stroke-width="3.5"/>
+
+  <!-- Hand-drawn vertical container ribs -->
+  <path d="M44 87 L44 113            M54 90 L54 116" stroke="#B77AF4" stroke-width="5.5"/>
+
+  <path d="M44 89 L44 110            M54 93 L54 113" stroke="#D0ACFF" stroke-width="1.7"/>
+
+  <!-- Right-face panel divisions -->
+  <path d="M75 90 L75 116            M86 86 L86 113" stroke="#773ADC" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Small container corner highlights -->
+  <path d="M70 95 L70 111" stroke="#E2CEFF" stroke-width="2.2"/>
+  <path d="M92 87 L95 86" stroke="#E2CEFF" stroke-width="2"/>
+
+  <!-- Subtle yellow sketchnote accents -->
+  <path d="M102 26 L106 20            M108 32 L115 29" stroke="#F4C542" stroke-width="2.8"/>
+
+  <path d="M16 87 L21 91            M12 94 L17 97" stroke="#F4C542" stroke-width="2.6"/>
+
+  <!-- Mini deployment motion marks -->
+  <path d="M85 37 L90 34            M39 57 L35 54" stroke="#FFFFFF" stroke-width="2.3" opacity=".85"/>
+
+  <!-- Grounding sketch strokes -->
+  <path d="M25 119 Q30 122 37 121            M103 118 L110 115" stroke="#0078D4" stroke-width="2.1"/>
+
+</svg>

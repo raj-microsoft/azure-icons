@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Entra Global Secure Access (sketch)</title>
+  
+  <desc>Hand-drawn Microsoft Entra Global Secure Access globe with Azure-blue and cyan hemispheres, curved latitude and longitude lines, subtle yellow marker accents, and a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="globeBase" x1="12" y1="32" x2="116" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#44DBF9"/>
+      <stop offset="0.48" stop-color="#36A4CB"/>
+      <stop offset="0.78" stop-color="#255F92"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+
+    <linearGradient id="globeRight" x1="65" y1="10" x2="113" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66DDFF"/>
+      <stop offset="0.5" stop-color="#0294E4"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+
+    <linearGradient id="globeLines" x1="25" y1="18" x2="91" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0055C5"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main hand-drawn globe silhouette -->
+  <path d="M64 9            C94 8 117 32 118 62            C120 92 96 117 65 119            C35 120 10 97 9 67            C8 36 32 11 64 9Z" fill="url(#globeBase)" stroke="#225086" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan-blue right hemisphere -->
+  <path d="M64 9            C94 8 117 32 118 62            C120 92 96 117 65 119            C72 97 80 78 80 64            C80 44 72 20 64 9Z" fill="url(#globeRight)" opacity="0.95"/>
+
+  <!-- Outer sketch highlight -->
+  <path d="M17 43            Q28 19 52 14" stroke="#B6F4FF" stroke-width="2.8" stroke-linecap="round" opacity="0.85"/>
+
+  <path d="M111 83            Q104 103 87 112" stroke="#44DBF9" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Equatorial latitude band -->
+  <path d="M11 53            Q64 56 116 53" stroke="url(#globeLines)" stroke-width="3.2" stroke-linecap="round"/>
+
+  <path d="M11 76            Q64 79 116 76" stroke="url(#globeLines)" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- Upper curved latitude -->
+  <path d="M25 34            Q64 45 103 34" stroke="#0055C5" stroke-width="3" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- Lower curved latitude -->
+  <path d="M25 96            Q64 85 103 96" stroke="#225086" stroke-width="3" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- Longitude curve on left -->
+  <path d="M64 10            C42 22 35 43 35 64            C35 87 46 108 64 118" stroke="#0055C5" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+
+  <!-- Longitude curve on right -->
+  <path d="M64 10            C85 23 94 43 94 64            C94 88 83 108 64 118" stroke="#225086" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+
+  <!-- Central meridian -->
+  <path d="M64 11            Q62 36 64 64            Q66 91 64 117" stroke="#0055C5" stroke-width="2.7" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Sketched latitude details -->
+  <path d="M18 64 Q26 66 33 65" stroke="#E0F9FF" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M98 65 Q108 64 114 66" stroke="#C6F3FF" stroke-width="1.8" stroke-linecap="round" opacity="0.75"/>
+
+  <path d="M45 39 Q53 41 60 41" stroke="#8CEAFF" stroke-width="1.7" stroke-linecap="round" opacity="0.75"/>
+
+  <path d="M71 88 Q81 87 89 84" stroke="#8CEAFF" stroke-width="1.7" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Hand-drawn global connection points -->
+  <circle cx="35" cy="53" r="3.4" fill="#FFFFFF" stroke="#0055C5" stroke-width="1.7"/>
+
+  <circle cx="94" cy="76" r="3.4" fill="#FFFFFF" stroke="#225086" stroke-width="1.7"/>
+
+  <circle cx="64" cy="34" r="3" fill="#FFFFFF" stroke="#0055C5" stroke-width="1.5"/>
+
+  <!-- Subtle dashed secure connection -->
+  <path d="M37 51            Q52 39 62 35" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 5" opacity="0.9"/>
+
+  <path d="M67 37            Q91 46 94 72" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 5" opacity="0.85"/>
+
+  <!-- Yellow marker accents -->
+  <path d="M104 14 L109 8" stroke="#F4C542" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M113 23 L120 20" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M13 22 L8 16" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round"/>
+
+  <path d="M8 32 L3 30" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small sketchnote sparkle -->
+  <path d="M115 105 L115 113            M111 109 L119 109" stroke="#F4C542" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Loose exterior marker strokes -->
+  <path d="M6 72 Q8 91 20 105" stroke="#0294E4" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+
+  <path d="M93 121 Q78 126 64 125" stroke="#44DBF9" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+</svg>

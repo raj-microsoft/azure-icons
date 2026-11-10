@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>All Resources (sketch)</title>
+  
+  <desc>Nine hand-drawn green resource tiles arranged in a three-by-three grid, preserving the original Azure All Resources icon.</desc>
+
+  <defs>
+    <linearGradient id="resourceGreen" x1="64" y1="120" x2="64" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5E9624"/>
+      <stop offset=".35" stop-color="#6CAB29"/>
+      <stop offset=".68" stop-color="#73B82C"/>
+      <stop offset="1" stop-color="#76BC2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top row -->
+  <path d="M10 12 Q10 9 14 9            L43 9 Q46 10 46 13            L46 42 Q45 45 42 45            L13 45 Q10 44 10 41 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <path d="M51 10 L80 9            Q83 9 83 12            L83 42 Q82 45 79 45            L51 45 Q49 44 49 41            L49 13 Q49 11 51 10 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <path d="M89 9 L115 9            Q119 9 119 13            L119 41 Q119 45 115 45            L88 45 Q86 44 86 41            L86 13 Q86 10 89 9 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <!-- Middle row -->
+  <path d="M10 50 L42 49            Q46 49 46 53            L46 79 Q46 83 42 83            L13 83 Q10 82 10 79 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <path d="M52 49 L79 50            Q83 50 83 53            L83 80 Q83 83 79 83            L52 83 Q49 82 49 79            L49 53 Q49 50 52 49 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <path d="M89 50 L115 49            Q119 50 119 53            L119 79 Q118 83 115 83            L89 83 Q86 82 86 79            L86 53 Q86 50 89 50 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <!-- Bottom row -->
+  <path d="M10 89 Q10 87 13 87            L43 87 Q46 88 46 91            L46 115 Q46 119 42 119            L14 119 Q10 119 10 115 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <path d="M52 87 L80 87            Q83 88 83 91            L83 115 Q83 119 79 119            L52 119 Q49 118 49 115            L49 91 Q49 88 52 87 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <path d="M89 87 L115 87            Q119 88 119 92            L119 115 Q119 119 115 119            L89 119 Q86 118 86 115            L86 91 Q86 88 89 87 Z" fill="url(#resourceGreen)" stroke="#4D8420" stroke-width="3"/>
+
+  <!-- Light hand-drawn marker highlights -->
+  <g stroke="#C5E99D" stroke-width="2.4" opacity=".75">
+    <path d="M17 16 L36 16"/>
+    <path d="M56 16 L75 16"/>
+    <path d="M94 16 L111 16"/>
+    <path d="M17 56 L36 56"/>
+    <path d="M56 56 L75 56"/>
+    <path d="M94 56 L111 56"/>
+    <path d="M17 94 L36 94"/>
+    <path d="M56 94 L75 94"/>
+    <path d="M94 94 L111 94"/>
+  </g>
+
+  <!-- Subtle sketchnote-style tile marks -->
+  <g stroke="#477D1D" stroke-width="2" opacity=".45">
+    <path d="M18 36 L24 36"/>
+    <path d="M57 36 L63 36"/>
+    <path d="M95 36 L101 36"/>
+    <path d="M18 74 L24 74"/>
+    <path d="M57 74 L63 74"/>
+    <path d="M95 74 L101 74"/>
+    <path d="M18 110 L24 110"/>
+    <path d="M57 110 L63 110"/>
+    <path d="M95 110 L101 110"/>
+  </g>
+
+  <!-- Restrained Azure-blue annotation -->
+  <path d="M5 55 L5 72            M3 63 L7 63" stroke="#0078D4" stroke-width="2.2" opacity=".75"/>
+
+  <!-- Small yellow sketchnote accent -->
+  <path d="M123 22 L123 30            M120 26 L126 26" stroke="#F2C94C" stroke-width="2.5"/>
+
+  <!-- Tiny marker tick -->
+  <path d="M122 96 L125 99" stroke="#0078D4" stroke-width="2" opacity=".65"/>
+</svg>

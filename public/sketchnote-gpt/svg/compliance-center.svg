@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Compliance Center (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue compliance document with a rounded
+  backplate, three checklist rows, and an overlapping green
+  approval badge. Uneven ink outlines, subtle yellow highlights,
+  and transparent background.</desc>
+
+  <defs>
+    <linearGradient id="documentBlue" x1="18" y1="15" x2="96" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset="0.55" stop-color="#1689DC"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="backBlue" x1="44" y1="20" x2="101" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005BA1"/>
+      <stop offset="1" stop-color="#003067"/>
+    </linearGradient>
+    <linearGradient id="approvalGreen" x1="78" y1="72" x2="117" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#74BA20"/>
+      <stop offset="1" stop-color="#57A300"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark blue rounded compliance backplate -->
+  <path d="M65 13            C87 13 104 30 108 51            C110 61 108 72 104 80            C94 77 84 79 76 86            C68 94 66 105 69 113            C51 117 34 109 23 95            C12 81 10 60 16 43            C23 25 42 14 65 13Z" fill="url(#backBlue)" stroke="#003067" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Main checklist page, slightly irregular marker silhouette -->
+  <path d="M18 14            Q18 10 23 10            L96 11            Q100 11 100 16            L100 78            C89 77 79 83 74 92            C69 100 69 108 72 116            C51 121 31 109 18 92            Z" fill="url(#documentBlue)" stroke="#005BA1" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Imperfect marker tracing -->
+  <path d="M22 18 L22 87            M26 14 C45 13 71 15 92 14" stroke="#B7DCFF" stroke-width="2.1" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Top yellow annotation accent -->
+  <path d="M33 29 Q52 26 72 29" stroke="#FFD45A" stroke-width="3.5" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- Checklist row 1 -->
+  <path d="M34 39            L43 38            L44 47            L34 48 Z" fill="#EAF6FF" stroke="#003F78" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M53 40 Q68 39 83 40            M53 46 Q67 47 84 46" stroke="#FFFFFF" stroke-width="4.1" stroke-linecap="round"/>
+
+  <!-- Checklist row 2 -->
+  <path d="M34 58            L44 58            L43 67            L34 68 Z" fill="#EAF6FF" stroke="#003F78" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M53 59 Q69 58 84 59            M54 65 Q68 66 83 65" stroke="#FFFFFF" stroke-width="4.1" stroke-linecap="round"/>
+
+  <!-- Checklist row 3 -->
+  <path d="M34 78            L44 77            L44 87            L35 88 Z" fill="#EAF6FF" stroke="#003F78" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M53 79 Q65 78 77 79            M54 85 Q62 86 72 85" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Small hand-sketched checkmarks -->
+  <path d="M36 42 L39 45 L45 37            M36 62 L39 65 L45 57            M36 82 L39 85 L45 77" stroke="#0078D4" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Handwritten-style document annotation -->
+  <path d="M36 100 Q49 103 62 100" stroke="#FFD45A" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M39 105 Q50 108 59 105" stroke="#EAF6FF" stroke-width="1.7" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Green compliance approval seal -->
+  <path d="M117 95            C117 108 107 118 95 119            C82 120 72 110 72 97            C71 84 81 74 94 73            C107 72 117 82 117 95Z" fill="url(#approvalGreen)" stroke="#326D00" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven inner ring -->
+  <path d="M111 95            C112 105 105 113 95 114            C85 115 78 107 78 97            C77 87 84 79 94 79" stroke="#B8E878" stroke-width="2" stroke-linecap="round" stroke-dasharray="17 5 8 6" opacity="0.65"/>
+
+  <!-- Large white approval check -->
+  <path d="M83 96            Q87 100 92 105            Q101 94 108 86" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Fine marker emphasis -->
+  <path d="M84 94 L92 102 L106 85" stroke="#E8FFD5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Restrained yellow sketchnote spark accents -->
+  <path d="M108 67 L111 60            M117 73 L123 70            M121 83 L126 82" stroke="#F4C84B" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Tiny ink ticks -->
+  <path d="M15 102 L21 106            M21 111 L25 114" stroke="#005BA1" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+</svg>

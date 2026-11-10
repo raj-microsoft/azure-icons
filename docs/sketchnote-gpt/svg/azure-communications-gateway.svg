@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Communications Gateway (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Communications Gateway icon featuring
+    a cyan communication globe, four directional arrows,
+    original Azure-blue and green colors, uneven marker
+    contours, and subtle yellow sketch accents.
+    Transparent background with editable vector paths.
+  </desc>
+
+  <defs>
+    <linearGradient id="gatewayCyan" x1="40" y1="23" x2="84" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset=".55" stop-color="#32BEDD"/>
+      <stop offset="1" stop-color="#1599C5"/>
+    </linearGradient>
+
+    <linearGradient id="gatewayBlue" x1="48" y1="7" x2="80" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#168DE3"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="gatewayGreen" x1="10" y1="48" x2="119" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A3E85A"/>
+      <stop offset="1" stop-color="#86D633"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Central communication globe -->
+  <path d="     M 57 27     C 43 29 31 40 27 55     M 27 73     C 31 89 43 100 57 102     M 71 102     C 87 99 99 87 102 73     M 102 55     C 99 40 87 29 71 27" stroke="url(#gatewayCyan)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Sketch contours around globe -->
+  <path d="     M 53 23     Q 35 27 27 43     M 23 78     Q 31 98 52 106     M 75 106     Q 96 99 105 79     M 105 49     Q 97 29 76 23" stroke="#168EB7" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="19 5 9 6" opacity=".65"/>
+
+  <!-- Globe latitude lines -->
+  <path d="     M 38 53     Q 64 50 90 53     M 35 75     Q 64 78 93 75" stroke="#32BEDD" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Globe equator -->
+  <path d="     M 29 64     Q 46 62 64 64     Q 83 66 99 64" stroke="#50E6FF" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Longitude arcs -->
+  <path d="     M 64 35     C 52 42 46 53 46 64     C 46 78 53 89 64 95     M 64 35     C 76 42 82 53 82 64     C 82 78 75 89 64 95" stroke="url(#gatewayCyan)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Vertical axis -->
+  <path d="     M 64 37     Q 62 50 64 64     Q 66 79 64 93" stroke="#1599C5" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Inner globe sketch accents -->
+  <path d="     M 40 47     Q 47 37 55 34     M 73 94     Q 85 87 90 78" stroke="#A7F5FF" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Top directional Azure arrow -->
+  <path d="     M 49 18     L 64 3     L 79 18     L 70 18     L 70 36     L 58 36     L 58 18     Z" fill="url(#gatewayBlue)" stroke="#075A9E" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Top arrow hand-drawn highlight -->
+  <path d="     M 55 17     L 64 8     L 73 17     M 62 22     L 62 32" stroke="#8CD9FF" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Bottom directional Azure arrow -->
+  <path d="     M 58 92     L 70 92     L 70 110     L 79 110     L 64 125     L 49 110     L 58 110     Z" fill="url(#gatewayBlue)" stroke="#075A9E" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Bottom arrow sketch highlight -->
+  <path d="     M 62 97     L 62 114     M 55 112     L 64 120     L 73 112" stroke="#8CD9FF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Left green inward arrow -->
+  <path d="     M 4 58     L 20 58     L 20 48     L 35 64     L 20 80     L 20 70     L 4 70     Z" fill="url(#gatewayGreen)" stroke="#548C20" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Left arrow marker highlight -->
+  <path d="     M 8 62     L 24 62     M 23 54     L 31 64" stroke="#D5F7A2" stroke-width="2.1" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Right green outward arrow -->
+  <path d="     M 93 64     L 108 48     L 108 58     L 124 58     L 124 70     L 108 70     L 108 80     Z" fill="url(#gatewayGreen)" stroke="#548C20" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Right arrow marker highlight -->
+  <path d="     M 100 64     L 111 53     M 111 62     L 120 62" stroke="#D5F7A2" stroke-width="2.1" stroke-linecap="round" opacity=".9"/>
+
+  <!-- Hand-drawn motion marks -->
+  <path d="     M 41 19     L 36 14     M 87 19     L 92 14     M 41 109     L 36 114     M 87 109     L 92 114" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Subtle yellow communication sparks -->
+  <path d="     M 38 38     L 42 34     M 35 33     L 39 31     M 88 90     L 92 94     M 93 86     L 97 89" stroke="#F3B82D" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Tiny sketchnote signal details -->
+  <path d="     M 33 88     Q 38 94 43 96     M 85 32     Q 91 36 94 42" stroke="#F3B82D" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="5 5" opacity=".8"/>
+
+</svg>

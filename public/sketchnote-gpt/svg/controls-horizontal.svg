@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Controls Horizontal (sketch)</title>
+
+  
+  <desc>
+    Three horizontal green slider controls with staggered
+    adjustable handles. Original Azure portal green palette,
+    uneven marker outlines, light grey slider grips,
+    subtle Azure-blue and yellow accents, and a transparent
+    background.
+  </desc>
+
+  <defs>
+    <linearGradient id="sliderGreen" x1="0" y1="20" x2="0" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset="0.45" stop-color="#72B62C"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+
+    <linearGradient id="handleGreen" x1="18" y1="30" x2="114" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76BC2D"/>
+      <stop offset="0.55" stop-color="#72B62C"/>
+      <stop offset="1" stop-color="#5E9624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top horizontal slider track -->
+  <path d="M11 26            Q11 22 16 22            L112 23            Q117 23 117 27            L117 34            Q117 38 112 38            L16 38            Q11 38 11 34Z" fill="#5E9624" stroke="#416F19" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Top slider active segment -->
+  <path d="M50 23            L112 23            Q117 23 117 27            L117 34            Q117 38 112 38            L50 38Z" fill="url(#sliderGreen)" stroke="#4E8120" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Middle horizontal slider track -->
+  <path d="M11 58            Q11 54 16 54            L112 55            Q117 55 117 59            L117 66            Q117 70 112 70            L16 70            Q11 70 11 66Z" fill="#5E9624" stroke="#416F19" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Middle active segment -->
+  <path d="M92 55            L112 55            Q117 55 117 59            L117 66            Q117 70 112 70            L92 70Z" fill="url(#sliderGreen)" stroke="#4E8120" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Bottom horizontal slider track -->
+  <path d="M11 90            Q11 86 16 86            L112 87            Q117 87 117 91            L117 98            Q117 102 112 102            L16 102            Q11 102 11 98Z" fill="#5E9624" stroke="#416F19" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Bottom active segment -->
+  <path d="M53 87            L112 87            Q117 87 117 91            L117 98            Q117 102 112 102            L53 102Z" fill="url(#handleGreen)" stroke="#4E8120" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Uneven light-green marker highlights -->
+  <g stroke="#A2D86C" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <path d="M17 27 Q43 26 68 27"/>
+    <path d="M17 59 Q49 58 75 59"/>
+    <path d="M17 91 Q42 90 64 91"/>
+  </g>
+
+  <!-- Top slider grip, positioned left of center -->
+  <path d="M46 15            Q46 12 49 12            L54 12            Q57 12 57 15            L57 45            Q57 48 54 48            L49 48            Q46 48 46 45Z" fill="#E6E6E6" stroke="#858585" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Middle slider grip, positioned right -->
+  <path d="M91 47            Q91 44 94 44            L99 44            Q102 44 102 47            L102 77            Q102 80 99 80            L94 80            Q91 80 91 77Z" fill="#E6E6E6" stroke="#858585" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bottom slider grip, positioned left -->
+  <path d="M49 79            Q49 76 52 76            L57 76            Q60 76 60 79            L60 109            Q60 112 57 112            L52 112            Q49 112 49 109Z" fill="#E6E6E6" stroke="#858585" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn grip highlights -->
+  <g stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.95">
+    <path d="M49 17 L49 41"/>
+    <path d="M94 49 L94 73"/>
+    <path d="M52 81 L52 105"/>
+  </g>
+
+  <!-- Sketch-style grip markings -->
+  <g stroke="#B5B5B5" stroke-width="1.5" stroke-linecap="round">
+    <path d="M52 23 L54 23              M52 29 L54 29              M52 35 L54 35"/>
+    <path d="M97 55 L99 55              M97 61 L99 61              M97 67 L99 67"/>
+    <path d="M55 87 L57 87              M55 93 L57 93              M55 99 L57 99"/>
+  </g>
+
+  <!-- Subtle freehand track contours -->
+  <g stroke="#416F19" stroke-width="1.3" stroke-linecap="round" opacity="0.55">
+    <path d="M18 34 Q30 35 42 34"/>
+    <path d="M19 66 Q47 67 73 66"/>
+    <path d="M65 98 Q86 99 108 98"/>
+  </g>
+
+  <!-- Azure-blue sketchnote accent marks -->
+  <g stroke="#0078D4" stroke-width="2.5" stroke-linecap="round">
+    <path d="M39 10 L36 6"/>
+    <path d="M106 46 L110 42"/>
+    <path d="M43 114 L39 118"/>
+  </g>
+
+  <!-- Restrained yellow adjustment highlights -->
+  <g stroke="#FFD45A" stroke-width="2.8" stroke-linecap="round">
+    <path d="M61 14 L65 9"/>
+    <path d="M106 53 L112 51"/>
+    <path d="M64 108 L69 112"/>
+  </g>
+
+  <!-- Tiny handwritten-style motion strokes -->
+  <g stroke="#76BC2D" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M31 15 L36 15"/>
+    <path d="M108 76 L113 76"/>
+    <path d="M37 108 L43 108"/>
+  </g>
+
+</svg>

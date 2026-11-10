@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Application Insights (sketch)</title>
+  
+  <desc>Hand-drawn purple lightbulb with diagnostic filament, metallic base, and subtle sketchnote accents.</desc>
+
+  <defs>
+    <radialGradient id="bulbPurple" cx="45%" cy="34%" r="76%">
+      <stop offset="0" stop-color="#B77AF4"/>
+      <stop offset=".48" stop-color="#A672ED"/>
+      <stop offset="1" stop-color="#624FD0"/>
+    </radialGradient>
+    <linearGradient id="bulbShine" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn bulb silhouette -->
+  <path d="M64 9            C42 8 24 20 20 41            C15 61 25 77 36 90            C42 98 45 104 47 111            Q48 114 52 114            L76 114            Q80 114 81 110            C84 98 91 90 99 80            C110 66 113 48 105 31            C98 16 83 9 64 9Z" fill="url(#bulbPurple)" stroke="#5743B5" stroke-width="3.5"/>
+
+  <!-- Organic marker-style secondary outline -->
+  <path d="M30 28            C39 17 51 13 64 13            M87 17 C102 26 108 40 107 54            M105 68 C100 84 84 95 80 109" stroke="#D5B1FA" stroke-width="2.6" opacity=".8"/>
+
+  <!-- Soft translucent glass reflection -->
+  <path d="M42 28            C28 39 27 55 35 68            C40 74 43 78 46 82" stroke="#E9D8FF" stroke-width="5" opacity=".65"/>
+
+  <path d="M51 19 Q65 14 78 20" stroke="#E9D8FF" stroke-width="2.5" opacity=".65"/>
+
+  <!-- Diagnostic filament: left loop -->
+  <path d="M55 91            L55 45            C55 34 41 33 41 44            C41 52 48 54 55 54" stroke="#F2F2F2" stroke-width="5"/>
+
+  <!-- Diagnostic filament: right loop -->
+  <path d="M73 91            L73 45            C73 34 87 33 87 44            C87 52 80 54 73 54" stroke="#F2F2F2" stroke-width="5"/>
+
+  <!-- Filament bridge -->
+  <path d="M55 54            Q64 56 73 54" stroke="#F2F2F2" stroke-width="5"/>
+
+  <!-- Fine hand-drawn filament highlights -->
+  <path d="M57 61 L57 86            M71 61 L71 86" stroke="#D9CAFA" stroke-width="1.6" opacity=".85"/>
+
+  <!-- Small insight spark inside bulb -->
+  <path d="M64 28 L64 35            M60 31 L68 31" stroke="#FFE18A" stroke-width="2.5"/>
+
+  <!-- Metallic bulb socket -->
+  <path d="M48 103            Q64 105 80 103            L80 116            Q79 120 75 122            L70 126            L58 126            L53 122            Q49 120 48 116Z" fill="#CECECE" stroke="#777777" stroke-width="3"/>
+
+  <!-- Hand-drawn metal thread marks -->
+  <path d="M49 109            Q64 112 79 108            M49 115            Q64 118 79 114            M53 121            Q64 123 75 120" stroke="#999999" stroke-width="3"/>
+
+  <!-- Socket highlight -->
+  <path d="M52 106 L52 116            M57 124 L69 124" stroke="#F2F2F2" stroke-width="2"/>
+
+  <!-- Small yellow sketchnote rays -->
+  <path d="M15 29 L7 24            M11 47 L3 46            M21 13 L15 6            M113 28 L121 23            M117 46 L125 45            M105 13 L111 6" stroke="#F7C64A" stroke-width="3.5"/>
+
+  <!-- Azure-blue sketchnote accent strokes -->
+  <path d="M12 74 L6 78            M116 74 L122 78" stroke="#0078D4" stroke-width="3"/>
+
+  <!-- Small illustrative sparkle -->
+  <path d="M101 91 L101 99            M97 95 L105 95" stroke="#F7C64A" stroke-width="2.5"/>
+
+  <!-- Subtle marker detail -->
+  <path d="M25 87 Q29 94 34 97            M93 94 Q98 90 100 85" stroke="#8E70DB" stroke-width="2.2"/>
+</svg>

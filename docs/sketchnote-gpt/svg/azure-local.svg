@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Local (sketch)</title>
+
+  
+  <desc>
+    Three stacked purple Azure Local server modules with
+    white status indicators, standing on a cyan elliptical
+    platform. Organic marker outlines, original Azure
+    purple and cyan colors, subtle yellow accents,
+    and transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="platformBlue" x1="64" y1="94" x2="64" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50E6FF"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Elliptical platform lower body -->
+  <path d="     M5 96     Q5 91 12 91     L116 91     Q123 91 123 96     L123 108     Q122 116 104 121     Q86 126 64 126     Q39 126 20 120     Q6 115 5 108     Z" fill="#5EA0EF" stroke="#0078D4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Platform top ellipse -->
+  <path d="     M123 95     C123 107 97 114 64 114     C31 114 5 107 5 95     C5 84 31 77 64 77     C97 77 123 84 123 95     Z" fill="#50E6FF" stroke="#0078D4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn platform shine -->
+  <path d="     M15 94     Q32 85 52 85" stroke="#D5FAFF" stroke-width="2.6" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <path d="     M15 109     Q32 118 53 119" stroke="#B9EAFF" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".8"/>
+
+  <!-- Server stack backing shadow -->
+  <path d="     M17 4     Q17 2 22 2     L107 2     Q111 2 111 7     L111 92     Q111 96 107 96     L22 96     Q17 96 17 92     Z" fill="#552F99" opacity=".18"/>
+
+  <!-- Upper server: light purple -->
+  <path d="     M18 5     Q18 3 22 3     L105 3     Q109 3 109 7     L109 26     Q109 29 105 29     L22 29     Q18 29 18 26     Z" fill="#B596F5" stroke="#552F99" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper server marker highlight -->
+  <path d="     M24 9     Q54 8 82 9" stroke="#E6D9FF" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+
+  <!-- Upper server status indicators -->
+  <path d="     M96 9     L102 9     L102 15     L96 15     Z" fill="#F2F2F2" stroke="#552F99" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <path d="     M96 19     L102 19     L102 25     L96 25     Z" fill="#F2F2F2" stroke="#552F99" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Middle server: medium purple -->
+  <path d="     M18 35     Q18 32 22 32     L105 32     Q109 32 109 36     L109 55     Q109 59 105 59     L22 59     Q18 59 18 55     Z" fill="#9266E6" stroke="#552F99" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Middle server marker strokes -->
+  <path d="     M24 38     Q51 37 81 38" stroke="#CDB5FF" stroke-width="2.6" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Middle server status indicators -->
+  <path d="     M96 39     L102 39     L102 45     L96 45     Z" fill="#F2F2F2" stroke="#552F99" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <path d="     M96 49     L102 49     L102 55     L96 55     Z" fill="#F2F2F2" stroke="#552F99" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Lower server: deep purple -->
+  <path d="     M18 65     Q18 62 22 62     L105 62     Q109 62 109 66     L109 85     Q109 89 105 89     L22 89     Q18 89 18 85     Z" fill="#552F99" stroke="#3B206F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower server highlight -->
+  <path d="     M24 68     Q52 67 81 68" stroke="#9266E6" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <!-- Lower server status indicators -->
+  <path d="     M96 69     L102 69     L102 75     L96 75     Z" fill="#F2F2F2" stroke="#3B206F" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <path d="     M96 79     L102 79     L102 85     L96 85     Z" fill="#F2F2F2" stroke="#3B206F" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Subtle hand-drawn server detailing -->
+  <g stroke-linecap="round" fill="none">
+
+    <path d="M28 19 Q43 18 57 19" stroke="#E6D9FF" stroke-width="1.8"/>
+
+    <path d="M28 49 Q44 48 58 49" stroke="#CDB5FF" stroke-width="1.8"/>
+
+    <path d="M28 79 Q44 78 58 79" stroke="#9266E6" stroke-width="1.8"/>
+
+    <path d="M23 12 L23 23" stroke="#E6D9FF" stroke-width="2" opacity=".75"/>
+
+    <path d="M23 42 L23 53" stroke="#CDB5FF" stroke-width="2" opacity=".75"/>
+
+    <path d="M23 72 L23 83" stroke="#9266E6" stroke-width="2" opacity=".75"/>
+  </g>
+
+  <!-- Yellow sketchnote accents -->
+  <g stroke="#F4C542" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <path d="M7 22 L12 20" stroke-width="2.8"/>
+
+    <path d="M5 29 L12 29" stroke-width="2.4"/>
+
+    <path d="M116 40 L121 37" stroke-width="2.8"/>
+
+    <path d="M116 47 L123 47" stroke-width="2.4"/>
+
+    <path d="M37 118 Q48 122 58 122" stroke-width="2.3"/>
+  </g>
+
+  <!-- Loose hand-drawn motion marks -->
+  <g stroke="#0078D4" stroke-linecap="round" fill="none">
+
+    <path d="M7 73 Q9 68 13 65" stroke-width="1.8"/>
+
+    <path d="M115 73 Q119 77 120 82" stroke-width="1.8"/>
+
+    <path d="M91 121 Q101 119 108 116" stroke-width="1.7"/>
+  </g>
+
+  <!-- Tiny marker dots -->
+  <circle cx="9" cy="54" r="1.8" fill="#50E6FF"/>
+
+  <circle cx="119" cy="59" r="1.8" fill="#F4C542"/>
+
+  <circle cx="64" cy="120" r="1.6" fill="#D5FAFF"/>
+
+</svg>

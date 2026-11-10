@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Data Virtualization (sketch)</title>
+  
+  <desc>Hand-drawn interlinked green chain with diagonal connectors and Azure-blue endpoint nodes.</desc>
+
+  <defs>
+    <linearGradient id="chainGreen" x1="20" y1="100" x2="105" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4AA647"/>
+      <stop offset="1" stop-color="#8DE971"/>
+    </linearGradient>
+    <linearGradient id="nodeBlue" x1="15" y1="10" x2="45" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="nodeBlue2" x1="85" y1="85" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EA0EF"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-right chain link -->
+  <path d="M60 30            L67 23            C79 11 98 12 109 24            C120 36 120 52 108 64            L100 72" stroke="#246E36" stroke-width="13"/>
+
+  <path d="M60 30            L67 23            C79 11 98 12 109 24            C120 36 120 52 108 64            L100 72" stroke="url(#chainGreen)" stroke-width="8"/>
+
+  <!-- Lower-left chain link -->
+  <path d="M29 60            L21 68            C9 80 11 98 23 109            C35 120 51 118 63 106            L72 97" stroke="#246E36" stroke-width="13"/>
+
+  <path d="M29 60            L21 68            C9 80 11 98 23 109            C35 120 51 118 63 106            L72 97" stroke="url(#chainGreen)" stroke-width="8"/>
+
+  <!-- Central diagonal link -->
+  <path d="M42 86            Q44 83 47 80            L80 47            Q83 44 86 42" stroke="#246E36" stroke-width="13"/>
+
+  <path d="M42 86            Q44 83 47 80            L80 47            Q83 44 86 42" stroke="url(#chainGreen)" stroke-width="8"/>
+
+  <!-- Upper-left connection: grey marker line -->
+  <path d="M24 24            Q43 43 60 59" stroke="#626C74" stroke-width="10"/>
+
+  <path d="M25 24            Q42 42 58 57" stroke="#C4CCD1" stroke-width="5"/>
+
+  <!-- Lower-right connection: grey marker line -->
+  <path d="M70 70            Q87 87 105 105" stroke="#626C74" stroke-width="10"/>
+
+  <path d="M72 72            Q89 89 104 104" stroke="#C4CCD1" stroke-width="5"/>
+
+  <!-- Azure-blue endpoint: upper left -->
+  <path d="M43 22            C43 34 34 44 22 44            C10 44 5 33 6 23            C7 11 15 6 26 6            C36 7 43 14 43 22 Z" fill="url(#nodeBlue)" stroke="#185A8A" stroke-width="3.5"/>
+
+  <!-- Upper-left node marker highlight -->
+  <path d="M13 22 Q15 13 25 12" stroke="#D7F2FF" stroke-width="3" opacity=".85"/>
+
+  <!-- Azure-blue endpoint: lower right -->
+  <path d="M121 104            C122 116 113 122 103 122            C91 122 85 113 85 104            C85 93 93 85 104 85            C115 85 121 93 121 104 Z" fill="url(#nodeBlue2)" stroke="#185A8A" stroke-width="3.5"/>
+
+  <!-- Lower-right node marker highlight -->
+  <path d="M93 103 Q95 94 104 93" stroke="#D7F2FF" stroke-width="3" opacity=".85"/>
+
+  <!-- Subtle sketch highlights -->
+  <path d="M73 24 Q87 16 98 26" stroke="#D5F8C9" stroke-width="2.5" opacity=".8"/>
+
+  <path d="M22 90 Q22 103 34 109" stroke="#D5F8C9" stroke-width="2.5" opacity=".8"/>
+
+  <!-- Small sketchnote motion marks -->
+  <path d="M51 16 L55 10            M57 21 L64 18" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <path d="M75 111 L69 117            M79 116 L76 123" stroke="#FFCC4D" stroke-width="2.5"/>
+
+  <!-- Light handwritten-style accent on central link -->
+  <path d="M52 79 L77 54" stroke="#D9F6D0" stroke-width="2" opacity=".65"/>
+</svg>

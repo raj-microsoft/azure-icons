@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Browser (sketch)</title>
+  
+  <desc>
+    Hand-drawn browser window with an Azure-blue toolbar,
+    pale address field, and cyan content area. Uneven marker
+    outlines, subtle sketch highlights, restrained yellow
+    accents, and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="browserCyan" x1="64" y1="43" x2="64" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D4F5"/>
+      <stop offset=".45" stop-color="#32D2F2"/>
+      <stop offset=".78" stop-color="#32CAEA"/>
+      <stop offset="1" stop-color="#32BEDD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main browser window silhouette -->
+  <path d="M9 17            Q9 13 14 13            L113 12            Q119 12 119 18            L120 109            Q120 115 114 115            L15 116            Q9 116 9 110            Z" fill="url(#browserCyan)" stroke="#087FA6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Azure-blue browser toolbar -->
+  <path d="M9 18            Q9 13 15 13            L113 12            Q119 12 119 18            L119 42            Q91 43 64 42            L9 43            Z" fill="#0078D4" stroke="#075A9E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand-drawn separator -->
+  <path d="M11 43            Q38 42 64 43            T118 42" stroke="#075A9E" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Browser address bar -->
+  <path d="M26 22            Q26 20 30 20            L100 20            Q104 20 104 24            L104 32            Q104 35 101 35            L29 36            Q26 36 26 33            Z" fill="#F2F2F2" stroke="#D7E4ED" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Address bar marker detail -->
+  <path d="M34 28            Q51 27 67 28            M73 28 L91 28" stroke="#B2C9D8" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Subtle hand-drawn upper highlight -->
+  <path d="M16 18            Q19 16 23 17            M109 17 L113 18" stroke="#77BDF0" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Content panel: light sketch highlights -->
+  <path d="M17 52            Q16 71 17 88            M18 99 L18 106" stroke="#A5F1FF" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M27 52            Q61 51 100 52" stroke="#82E7FA" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Lower content-edge highlights -->
+  <path d="M26 109            Q61 110 101 109" stroke="#0FA8D3" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Loose double-marker accent -->
+  <path d="M114 54            Q115 77 114 96" stroke="#9AEEFB" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M113 5 L116 1            M121 10 L126 8" stroke="#F4C542" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- Small sketch accent -->
+  <path d="M5 103 L2 107            M7 113 L5 119" stroke="#F4C542" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Minimal decorative marker dots -->
+  <circle cx="121" cy="122" r="2" fill="#F4C542"/>
+  <circle cx="5" cy="7" r="1.8" fill="#32BEDD"/>
+</svg>

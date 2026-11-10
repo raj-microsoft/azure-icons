@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Workbooks (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Workbooks icon with a rounded square
+    and three overlapping diagonal blue and cyan panels.
+    Preserves the original geometric composition and colours
+    with uneven marker outlines, subtle yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="workbookBase" x1="110" y1="12" x2="17" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#289BF2"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="workbookMiddle" x1="35" y1="20" x2="104" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00CCF9"/>
+      <stop offset="1" stop-color="#0095E6"/>
+    </linearGradient>
+
+    <linearGradient id="workbookTop" x1="20" y1="10" x2="69" y2="77" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7CECFF"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+
+    <clipPath id="workbookClip">
+      <path d="M17 8                Q9 8 9 17                L9 111                Q9 120 18 120                L111 120                Q120 120 120 111                L120 17                Q120 8 111 8Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main rounded workbook silhouette -->
+  <path d="M17 8        Q9 8 9 17        L9 111        Q9 120 18 120        L111 120        Q120 120 120 111        L120 17        Q120 8 111 8Z" fill="url(#workbookBase)" stroke="#174D78" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g clip-path="url(#workbookClip)">
+
+    <!-- Original upper-left cyan panel -->
+    <path d="M9 8          L103 8          L69 43          L55 29          L9 77Z" fill="url(#workbookTop)" stroke="#1689B9" stroke-width="2.8" stroke-linejoin="round"/>
+
+    <!-- Blue diagonal foundation -->
+    <path d="M9 77          L55 29          L69 43          L103 8          L120 8          L120 27          L69 78          L55 64          L9 110Z" fill="url(#workbookBase)" stroke="#176AA6" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <!-- Bright cyan foreground panel -->
+    <path d="M9 111          L55 64          L69 78          L120 27          L120 111          Q120 120 111 120          L18 120          Q9 120 9 111Z" fill="url(#workbookMiddle)" stroke="#176AA6" stroke-width="2.8" stroke-linejoin="round"/>
+
+    <!-- Delicate uneven marker highlights -->
+    <path d="M17 19          L17 59          M22 15          L84 15" stroke="#E0FBFF" stroke-width="2.6" stroke-linecap="round" opacity=".8"/>
+
+    <!-- Hand-drawn top-panel accent -->
+    <path d="M23 68          L55 37          M59 37          L66 44" stroke="#D6F9FF" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+
+    <!-- Middle diagonal edge highlight -->
+    <path d="M17 103          L55 70          L69 84          L113 40" stroke="#9CEBFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+    <!-- Foreground marker texture using vector strokes -->
+    <path d="M27 111          L51 88          M80 109          L108 81" stroke="#7CEBFF" stroke-width="2.4" stroke-linecap="round" opacity=".65"/>
+
+  </g>
+
+  <!-- Loose hand-drawn outer contour -->
+  <path d="M15 35        L15 20        Q15 14 22 14        M103 14        L112 14        Q115 14 115 21        M115 95        L115 109        Q115 115 108 115        M37 115        L21 115" stroke="#D1F2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+
+  <!-- Original diagonal junction sketch details -->
+  <path d="M48 29        L55 23        M75 43        L82 36" stroke="#0078D4" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F5C84C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M105 2 L108 -2"/>
+    <path d="M116 3 L121 1"/>
+    <path d="M2 91 L-2 96"/>
+  </g>
+
+  <!-- Hand-drawn sparkle -->
+  <path d="M124 65        L124 73        M120 69        L128 69" stroke="#F5C84C" stroke-width="2.3" stroke-linecap="round"/>
+
+</svg>

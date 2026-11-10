@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Managed Grafana (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure-blue dashboard containing the
+    recognizable Grafana spiral and gear-like silhouette.
+    Original Azure blues, off-white Grafana symbol,
+    uneven marker strokes, restrained yellow accents,
+    and a transparent background.
+  </desc>
+
+  <defs>
+    <linearGradient id="grafanaAzure" x1="22" y1="15" x2="106" y2="113" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EA0EF"/>
+      <stop offset=".55" stop-color="#258DE0"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Azure dashboard silhouette -->
+  <path d="M10 17            Q10 12 16 12            L112 13            Q118 13 118 19            L117 109            Q117 115 111 115            L16 114            Q10 114 10 108 Z" fill="url(#grafanaAzure)" stroke="#075A9B" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Subtle dashboard highlight -->
+  <path d="M17 19            Q17 18 21 18            L108 19" stroke="#B5E5FF" stroke-width="2.8" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M111 29            L111 102" stroke="#005EAA" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+
+  <!-- Grafana gear-like outer silhouette -->
+  <path d="M59 31            Q63 24 67 23            Q74 27 76 34            Q83 34 90 38            Q96 34 101 37            Q105 43 102 51            Q111 60 111 71            Q115 76 116 82            Q111 87 104 88            Q100 98 91 103            Q91 111 85 115            Q77 114 73 108            Q65 109 57 106            Q48 112 41 110            Q37 102 41 94            Q34 89 31 82            Q21 81 17 74            Q19 64 27 60            Q27 51 32 44            Q28 36 32 29            Q41 25 49 30            Q54 27 59 31 Z" fill="#F2F2F2" stroke="#194F7C" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Internal negative-space Grafana spiral -->
+  <path d="M100 67            C98 46 83 35 66 35            C44 35 31 52 31 71            C31 92 47 105 65 105            C82 105 94 94 94 79            C94 65 85 56 73 56            C60 56 52 64 52 75            C52 85 59 92 68 92            C75 92 80 88 81 82            C76 85 72 83 69 80            C66 77 66 72 69 68            C72 63 78 61 84 64            C91 68 94 77 90 86            C85 98 70 102 58 96            C45 90 39 79 41 66            C43 51 54 43 68 43            C84 43 96 53 100 67 Z" fill="#0078D4" stroke="#075A9B" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Spiral depth and marker emphasis -->
+  <path d="M43 65            C47 49 59 42 72 45" stroke="#76C8FF" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M88 69            Q94 76 89 86" stroke="#69BFFF" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Spiral center -->
+  <path d="M69 76            Q70 69 76 68            Q83 68 84 75            Q85 82 79 86            Q73 90 67 86" stroke="#F2F2F2" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Organic marker line around the gear -->
+  <path d="M29 61            Q25 69 27 76            M37 91            Q41 101 50 104            M85 39            Q94 45 98 54" stroke="#D9F2FF" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Small off-white highlights -->
+  <g stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity=".85">
+    <path d="M36 32 L42 35"/>
+    <path d="M63 28 L66 33"/>
+    <path d="M99 78 L103 82"/>
+    <path d="M47 103 L52 101"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#FFD70F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 27 L120 36"/>
+    <path d="M115.5 31.5 L124.5 31.5"/>
+    <path d="M5 84 L9 88"/>
+    <path d="M9 84 L5 88"/>
+  </g>
+
+  <!-- Loose hand-drawn Azure marker accents -->
+  <g stroke="#0078D4" stroke-width="2.1" stroke-linecap="round" fill="none">
+    <path d="M4 43 Q6 38 9 36"/>
+    <path d="M121 96 Q124 100 124 105"/>
+    <path d="M22 120 Q28 122 34 120"/>
+  </g>
+
+  <!-- Handwritten-style sketch marks -->
+  <g stroke="#FFD70F" stroke-width="2" stroke-linecap="round">
+    <path d="M91 5 L94 2"/>
+    <path d="M100 7 L105 5"/>
+  </g>
+
+</svg>

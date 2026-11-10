@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Azure AD B2C (sketch)</title>
+
+  <defs>
+    <linearGradient id="b2cBlue" x1="24" y1="13" x2="103" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66DDFF"/>
+      <stop offset=".45" stop-color="#0294E4"/>
+      <stop offset="1" stop-color="#225086"/>
+    </linearGradient>
+    <linearGradient id="b2cDark" x1="73" y1="18" x2="108" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0055C5"/>
+      <stop offset="1" stop-color="#041642"/>
+    </linearGradient>
+    <linearGradient id="b2cCyan" x1="64" y1="36" x2="64" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#CBF8FF"/>
+      <stop offset="1" stop-color="#44DBF9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hand-drawn Azure AD B2C diamond silhouette -->
+  <path d="M58 12            Q64 5 70 12            L119 68            Q124 74 117 79            L70 109            Q64 113 58 109            L10 79            Q4 75 9 68Z" fill="url(#b2cDark)" stroke="#173F78" stroke-width="3.7"/>
+
+  <!-- Bright overlapping Azure identity ribbon -->
+  <path d="M58 12            Q64 5 70 12            L88 32            Q77 26 68 32            Q64 35 60 39            L35 69            L64 89            L49 99            Q43 103 36 99            L10 79            Q4 75 9 68Z" fill="url(#b2cBlue)" stroke="#1766A5" stroke-width="3"/>
+
+  <!-- Inner luminous diamond -->
+  <path d="M64 37            L95 72            L64 93            L34 72Z" fill="url(#b2cCyan)" stroke="#177BB4" stroke-width="3.2"/>
+
+  <!-- Faceted identity ribbon -->
+  <path d="M34 72 L64 93 L49 102            Q44 104 39 101            L20 88Z" fill="#0294E4" stroke="#1766A5" stroke-width="2.3"/>
+
+  <!-- Right-hand translucent overlap -->
+  <path d="M64 12            Q68 9 71 13            L119 68            Q124 74 117 79            L70 109            Q67 111 64 111Z" fill="#041642" opacity=".16"/>
+
+  <!-- Sketchy luminous edge contours -->
+  <path d="M16 69 L55 24            Q60 17 64 16            M23 79 L43 92" stroke="#B9F3FF" stroke-width="2.2" opacity=".8"/>
+
+  <path d="M78 24 L110 61            M103 84 L91 92" stroke="#77BFFF" stroke-width="2" opacity=".65"/>
+
+  <!-- Small rear customer identity -->
+  <circle cx="108" cy="81" r="10" fill="#773ADC" stroke="#50309A" stroke-width="2.5"/>
+
+  <!-- Rear customer shoulders -->
+  <path d="M92 106            Q93 94 102 92            Q109 89 116 94            Q123 98 123 108            L92 108Z" fill="#773ADC" stroke="#50309A" stroke-width="2.8"/>
+
+  <!-- Rear collar sketch -->
+  <path d="M103 93 L108 102 L113 93" stroke="#E8DCFF" stroke-width="2.5"/>
+
+  <!-- Main customer head -->
+  <path d="M84 75            C95 74 101 81 101 91            C101 101 94 107 84 107            C74 107 68 100 68 91            C68 82 74 75 84 75Z" fill="#A67AF4" stroke="#6540A7" stroke-width="3.3"/>
+
+  <!-- Main customer shoulders -->
+  <path d="M55 120            Q57 105 67 101            Q75 97 84 99            Q95 98 103 105            Q110 110 112 121            Q84 125 55 121Z" fill="#A67AF4" stroke="#6540A7" stroke-width="3.3"/>
+
+  <!-- White sketched shirt collars -->
+  <path d="M75 102 L84 115 L91 102            M84 115 L84 121" stroke="#FFFFFF" stroke-width="3.2"/>
+
+  <!-- Subtle marker highlights -->
+  <path d="M75 84 Q78 80 83 80            M64 113 Q68 107 73 106" stroke="#E4D3FF" stroke-width="2.5" opacity=".85"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <path d="M17 38 L11 33            M24 32 L22 24" stroke="#F4CB52" stroke-width="3"/>
+
+  <path d="M105 38 L111 33            M109 45 L117 44" stroke="#F4CB52" stroke-width="3"/>
+
+  <!-- Hand-inked annotation flicks -->
+  <path d="M26 106 L33 110            M39 112 L43 115" stroke="#0078D4" stroke-width="2.4"/>
+
+</svg>

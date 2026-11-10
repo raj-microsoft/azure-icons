@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Bare Metal Infrastructure (sketch)</title>
+  
+  <desc>Three stacked Azure-blue bare-metal servers with status lights, a green support stand, uneven marker outlines, and restrained yellow sketch accents.</desc>
+
+  <defs>
+    <linearGradient id="serverTop" x1="64" y1="10" x2="64" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#83B9F9"/>
+      <stop offset="1" stop-color="#5EA0EF"/>
+    </linearGradient>
+
+    <linearGradient id="serverMiddle" x1="64" y1="39" x2="64" y2="69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3293E2"/>
+      <stop offset="1" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="serverBottom" x1="64" y1="68" x2="64" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+
+    <linearGradient id="standBlue" x1="64" y1="108" x2="64" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005BA1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper bare-metal server -->
+  <path d="M10 12            Q10 9 14 9            L114 9            Q118 9 118 13            L118 35            Q118 39 114 39            L14 39            Q10 39 10 35Z" fill="url(#serverTop)" stroke="#216DAF" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Middle server -->
+  <path d="M10 43            Q10 40 14 40            L114 40            Q118 40 118 44            L118 66            Q118 70 114 70            L14 70            Q10 70 10 66Z" fill="url(#serverMiddle)" stroke="#1766A9" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower server -->
+  <path d="M10 74            Q10 71 14 71            L114 71            Q118 71 118 75            L118 96            Q118 100 114 100            L14 100            Q10 100 10 96Z" fill="url(#serverBottom)" stroke="#164E83" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Uneven marker highlights -->
+  <path d="M17 15 Q60 13 111 15" stroke="#D8ECFF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M17 46 Q62 44 111 46" stroke="#9DD2FF" stroke-width="2.4" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M17 77 Q61 75 111 77" stroke="#65B3E8" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Left-side status lights, top row -->
+  <path d="M31 18            C36 18 40 22 40 27            C40 32 36 35 31 35            C26 35 23 31 23 27            C23 22 26 18 31 18Z" fill="#F2F2F2" stroke="#357DB9" stroke-width="2"/>
+
+  <path d="M52 18            C57 18 61 22 61 27            C61 32 57 35 52 35            C47 35 44 31 44 27            C44 22 47 18 52 18Z" fill="#F2F2F2" stroke="#357DB9" stroke-width="2"/>
+
+  <!-- Middle status lights -->
+  <path d="M31 49            C36 49 40 53 40 58            C40 63 36 66 31 66            C26 66 23 62 23 58            C23 53 26 49 31 49Z" fill="#83B9F9" stroke="#D9F1FF" stroke-width="2"/>
+
+  <path d="M52 49            C57 49 61 53 61 58            C61 63 57 66 52 66            C47 66 44 62 44 58            C44 53 47 49 52 49Z" fill="#83B9F9" stroke="#D9F1FF" stroke-width="2"/>
+
+  <!-- Bottom status lights -->
+  <path d="M31 80            C36 80 40 84 40 89            C40 94 36 97 31 97            C26 97 23 93 23 89            C23 84 26 80 31 80Z" fill="#83B9F9" stroke="#B9E5FF" stroke-width="2"/>
+
+  <path d="M52 80            C57 80 61 84 61 89            C61 94 57 97 52 97            C47 97 44 93 44 89            C44 84 47 80 52 80Z" fill="#83B9F9" stroke="#B9E5FF" stroke-width="2"/>
+
+  <!-- Small hand-drawn light reflections -->
+  <path d="M28 23 L31 21            M49 23 L52 21            M28 54 L31 52            M49 54 L52 52" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Server ventilation lines -->
+  <path d="M78 24 L103 24            M78 30 L97 30" stroke="#D6ECFF" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M78 55 L103 55            M78 61 L97 61" stroke="#B5DDFF" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <path d="M78 86 L103 86            M78 92 L97 92" stroke="#93C9F2" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Small rack separation marks -->
+  <path d="M15 40 L113 40            M15 71 L113 71" stroke="#D1E9FF" stroke-width="1.5" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Green supporting stem -->
+  <path d="M61 100 L61 112            L68 112 L68 100Z" fill="#76BC2D" stroke="#4F8D25" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Blue stand foot -->
+  <path d="M49 109            Q49 107 52 107            L76 107            Q80 107 80 111            L80 117            Q80 121 76 121            L52 121            Q49 121 49 117Z" fill="url(#standBlue)" stroke="#155D98" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Stand highlight -->
+  <path d="M55 112 Q64 110 74 112" stroke="#8AC7F1" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Green horizontal infrastructure baseline -->
+  <path d="M17 116            Q34 115 48 116            M81 116            Q97 115 112 116" stroke="#76BC2D" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote sparkle -->
+  <path d="M109 5 L112 1            M119 9 L125 6" stroke="#F5C84C" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Handwritten-style emphasis -->
+  <path d="M13 107 Q23 111 34 108" stroke="#F5C84C" stroke-width="2.7" stroke-linecap="round"/>
+
+  <path d="M29 104 L35 108 L29 113" stroke="#F5C84C" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small bottom sketch stroke -->
+  <path d="M53 125 Q65 127 77 125" stroke="#2A80C2" stroke-width="1.8" stroke-linecap="round" opacity=".5"/>
+</svg>
