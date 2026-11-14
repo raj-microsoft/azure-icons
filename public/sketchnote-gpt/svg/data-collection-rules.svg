@@ -1,63 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Data Collection Rules (sketch)</title>
-  
-  <desc>Hand-drawn Azure-blue document with cyan checklist and a right-pointing data flow arrow.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Data Collection Rules (sketch)</title>
   <defs>
-    <linearGradient id="paper" x1="25" y1="8" x2="115" y2="122" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="a" x1="10.463" y1="15.888" x2="10.463" y2="-2.112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#5ea0ef"/>
     </linearGradient>
-    <linearGradient id="panel" x1="9" y1="18" x2="91" y2="70" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#50E6FF"/>
-      <stop offset="1" stop-color="#32BEDD"/>
+    <linearGradient id="b" x1="7.179" y1="0.537" x2="7.179" y2="12.51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50e6ff"/>
+      <stop offset="1" stop-color="#32bedd"/>
     </linearGradient>
   </defs>
 
-  <!-- Main document: slightly imperfect marker silhouette -->
-  <path d="M27 9            Q25 7 23 11            L23 117            Q23 122 28 122            L117 121            Q121 120 121 116            L120 10            Q120 7 116 8            Z" fill="url(#paper)" stroke="#164F84" stroke-width="3.5"/>
+  <g transform="scale(7.111111)">
+    <!-- Main blue document panel -->
+    <rect x="3.113" y="0" width="14.7" height="18" rx="0.6" fill="url(#a)"/>
 
-  <!-- Hand-drawn document edge -->
-  <path d="M115 14 Q117 38 115 59            M116 81 Q118 99 115 114" stroke="#B7E0FF" stroke-width="2" opacity=".7"/>
+    <!-- Cyan header panel -->
+    <rect x="0.187" y="1.867" width="13.985" height="7.291" rx="0.541" fill="url(#b)"/>
 
-  <!-- Cyan rules panel -->
-  <path d="M9 20            Q9 16 14 16            L94 17            Q98 17 99 21            L98 67            Q98 71 94 72            L11 71            Q8 70 8 66            Z" fill="url(#panel)" stroke="#17688F" stroke-width="3.5"/>
+    <!-- First blank checkbox and horizontal rule -->
+    <path d="       M11.887,4.423       H5.069       a.122,.122 0 0 1 -.124,-.120       V3.9       a.123,.123 0 0 1 .123,-.123       h6.818       a.124,.124 0 0 1 .124,.123       v.4       a.122,.122 0 0 1 -.122,.123       Z       M3.987,4.714       V3.488       a.212,.212 0 0 0 -.212,-.212       H2.547       a.212,.212 0 0 0 -.212,.211       V4.714       a.211,.211 0 0 0 .211,.211       H3.773       a.211,.211 0 0 0 .214,-.211       Z" fill="#fff"/>
 
-  <!-- First rule checkbox -->
-  <path d="M22 29 L34 28 L35 41 L21 42 Z" fill="#EFFFFF" stroke="#116A94" stroke-width="2.5"/>
+    <!-- Second blank checkbox and horizontal rule -->
+    <path d="       M11.886,7.023       H5.069       A.124,.124 0 0 1 4.945,6.9       V6.494       a.124,.124 0 0 1 .124,-.124       h6.816       a.125,.125 0 0 1 .124,.124       v.4       a.125,.125 0 0 1 -.123,.125       Z        M3.68,6.194       H2.657       v1.02       H3.68       Z        M3.787,5.873       A.216,.216 0 0 1 4,6.087       V7.32       a.214,.214 0 0 1 -.214,.213       H2.55       a.213,.213 0 0 1 -.213,-.213       V6.083       a.213,.213 0 0 1 .213,-.213       Z" fill="#fff" opacity="0.8"/>
 
-  <!-- First rule checkmark -->
-  <path d="M24 34 L28 38 L35 29" stroke="#0078D4" stroke-width="3"/>
-
-  <!-- First rule text line -->
-  <path d="M44 32 Q60 31 75 32 L87 31" stroke="#FFFFFF" stroke-width="5"/>
-  <path d="M45 39 Q63 40 82 38" stroke="#EAFBFF" stroke-width="2" opacity=".75"/>
-
-  <!-- Second rule checkbox -->
-  <path d="M21 49 L35 48 L36 62 L22 63 Z" fill="#EFFFFF" stroke="#116A94" stroke-width="2.5"/>
-
-  <!-- Second rule checkmark -->
-  <path d="M24 55 L28 59 L35 50" stroke="#0078D4" stroke-width="3"/>
-
-  <!-- Second rule text line -->
-  <path d="M44 53 Q62 52 87 53" stroke="#FFFFFF" stroke-width="5"/>
-  <path d="M45 61 Q60 60 76 61" stroke="#EAFBFF" stroke-width="2" opacity=".75"/>
-
-  <!-- Subtle handwritten annotation beneath panel -->
-  <path d="M37 81 Q46 78 55 81            M61 81 Q70 79 78 81" stroke="#D5EFFF" stroke-width="2.5" opacity=".8"/>
-
-  <!-- Data flow arrow, matching original layout -->
-  <path d="M24 91            Q24 89 27 89            L91 89            L91 79            Q91 76 94 79            L113 96            Q116 98 113 101            L94 117            Q91 119 91 115            L91 106            L27 106            Q24 106 24 103            Z" fill="#83B9F9" stroke="#164F84" stroke-width="3.5"/>
-
-  <!-- Marker-style highlights on arrow -->
-  <path d="M35 94 Q54 93 75 94            M81 94 L90 94" stroke="#E6F5FF" stroke-width="2.5" opacity=".85"/>
-  <path d="M98 87 L108 97 L99 106" stroke="#D6EBFF" stroke-width="2.5" opacity=".85"/>
-
-  <!-- Small sketchnote spark accents -->
-  <path d="M103 25 L103 20            M100 28 L96 27            M106 28 L110 25" stroke="#FFCC4D" stroke-width="2.5"/>
-
-  <!-- Subtle blue marker accent -->
-  <path d="M15 79 Q12 84 15 88" stroke="#32BEDD" stroke-width="2.5"/>
-
-  <!-- Document corner highlight -->
-  <path d="M107 14 L113 14 L113 20" stroke="#D7EEFF" stroke-width="2.5" opacity=".9"/>
+    <!-- Original directional arrow -->
+    <path d="       M13.382,11.108       a.121,.121 0 0 0 -.084,-.035       a.118,.118 0 0 0 -.117,.119       v1.365       h0       v.122       H3.113       v1.773       H13.181       v1.385       a.118,.118 0 0 0 .2,.084       L15.705,13.6       l0,0       a.117,.117 0 0 0 0,-.166       Z" fill="#83b9f9"/>
+  </g>
 </svg>

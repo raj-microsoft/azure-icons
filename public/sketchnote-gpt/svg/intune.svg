@@ -1,72 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Intune (sketch)</title>
-  
-  <desc>Azure-blue desktop monitor connected to a cyan mobile device, with a synchronization arrow and organic marker outlines.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Intune (sketch)</title>
   <defs>
-    <linearGradient id="monitor" x1="12" y1="14" x2="92" y2="84" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <linearGradient id="desktopBlue" x1="8.05" y1="11.32" x2="8.05" y2="1.26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset=".82" stop-color="#5ea0ef"/>
     </linearGradient>
-    <linearGradient id="stand" x1="50" y1="81" x2="50" y2="111" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1F56A3"/>
-      <stop offset="1" stop-color="#1490DF"/>
+    <linearGradient id="standBlue" x1="8.05" y1="15.21" x2="8.05" y2="11.32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1490df"/>
+      <stop offset=".98" stop-color="#1f56a3"/>
+    </linearGradient>
+    <linearGradient id="personWhite" x1="8.05" y1="7.87" x2="8.05" y2="4.94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d2ebff"/>
+      <stop offset="1" stop-color="#f0fffd"/>
     </linearGradient>
   </defs>
 
-  <!-- Desktop monitor: slightly uneven sketched silhouette -->
-  <path d="M9 14            Q10 10 15 11            L106 12            Q110 12 110 17            L109 77            Q109 82 105 82            L14 81            Q9 81 9 76 Z" fill="url(#monitor)" stroke="#1768AE" stroke-width="3.6"/>
+  <g transform="scale(7.111111)">
+    <!-- Desktop monitor -->
+    <path d="M1 1.26       H15.1       Q15.6 1.26 15.6 1.76       V10.82       Q15.6 11.32 15.1 11.32       H1       Q.5 11.32 .5 10.82       V1.76       Q.5 1.26 1 1.26Z" fill="url(#desktopBlue)"/>
 
-  <!-- White desktop display -->
-  <path d="M16 19            Q16 17 20 18            L101 19            Q103 19 103 22            L102 73            Q102 75 99 75            L19 74            Q16 74 16 71 Z" fill="#FFFFFF" stroke="#B7DCF7" stroke-width="2.5"/>
+    <!-- White display -->
+    <path d="M1.62 2.1       H14.48       Q14.76 2.1 14.76 2.38       V10.21       Q14.76 10.49 14.48 10.49       H1.62       Q1.34 10.49 1.34 10.21       V2.38       Q1.34 2.1 1.62 2.1Z" fill="#fff"/>
 
-  <!-- Desktop monitor stand -->
-  <path d="M46 82            L65 82            Q64 93 68 99            Q70 102 77 103            Q81 104 82 110            L31 110            Q31 105 36 103            Q44 102 45 96            Q47 90 46 82 Z" fill="url(#stand)" stroke="#165B9E" stroke-width="3.2"/>
+    <!-- Original desktop stand -->
+    <path d="M11.08 14.37       C9.58 14.14 9.52 13.06 9.53 11.37       H6.53       C6.53 13.11 6.47 14.19 4.98 14.37       Q4.24 14.52 4.24 15.21       H11.78       Q11.78 14.53 11.08 14.37Z" fill="url(#standBlue)"/>
 
-  <!-- Hand-drawn stand highlight -->
-  <path d="M51 86 Q52 95 48 101" stroke="#81C6F4" stroke-width="2.5"/>
+    <!-- Original phone silhouette -->
+    <path d="M17.17 5.91       H10.29       A2.31 2.31 0 1 0 10.29 6.83       H11       V16.41       Q11 16.74 11.33 16.74       H17.16       Q17.49 16.74 17.49 16.41       V6.24       Q17.49 5.91 17.17 5.91Z" fill="#32bedd"/>
 
-  <!-- Monitor management connection node -->
-  <circle cx="56" cy="48" r="11" fill="#D2EBFF" stroke="#0078D4" stroke-width="3"/>
+    <!-- Phone display -->
+    <path d="M11.74 6.82       H16.77       Q16.89 6.82 16.89 6.94       V15.4       Q16.89 15.52 16.77 15.52       H11.74       Q11.62 15.52 11.62 15.4       V6.94       Q11.62 6.82 11.74 6.82Z" fill="#fff"/>
 
-  <circle cx="56" cy="48" r="4" fill="#5EA0EF" stroke="#FFFFFF" stroke-width="1.8"/>
+    <!-- Original user icon -->
+    <circle cx="8.05" cy="6.41" r="1.46" opacity=".9" fill="url(#personWhite)"/>
 
-  <!-- Connected-device line -->
-  <path d="M67 48            Q83 44 94 48            L110 48" stroke="#0078D4" stroke-width="5"/>
-
-  <path d="M70 44 Q84 40 92 44" stroke="#78BDF1" stroke-width="2" opacity=".8"/>
-
-  <!-- Mobile phone: cyan original coloring -->
-  <path d="M79 42            Q79 39 83 39            L118 39            Q122 39 122 43            L122 117            Q122 121 118 121            L83 121            Q79 121 79 117 Z" fill="#32BEDD" stroke="#168AA9" stroke-width="3.8"/>
-
-  <!-- Mobile screen -->
-  <path d="M85 47            Q85 45 87 45            L114 45            Q116 45 116 47            L116 108            Q116 110 114 110            L87 110            Q85 110 85 108 Z" fill="#FFFFFF" stroke="#A8E7F2" stroke-width="2.2"/>
-
-  <!-- Device-management transfer arrow -->
-  <path d="M88 72            L101 72            L101 65            Q101 63 103 65            L113 76            Q115 78 113 80            L103 91            Q101 93 101 90            L101 83            L88 83 Z" fill="#0078D4" stroke="#155B9D" stroke-width="2.6"/>
-
-  <!-- Arrow marker highlight -->
-  <path d="M92 76 L104 76            M105 71 L110 77" stroke="#8DCCF7" stroke-width="2" opacity=".85"/>
-
-  <!-- Mobile bottom navigation detail -->
-  <path d="M94 116 Q101 117 108 116" stroke="#E2F9FC" stroke-width="2.6"/>
-
-  <!-- Subtle yellow sketchnote accents -->
-  <g stroke="#F2C230" stroke-width="2.5">
-    <path d="M64 25 L67 19"/>
-    <path d="M71 29 L77 26"/>
-    <path d="M38 31 L34 26"/>
-  </g>
-
-  <!-- Organic blue marker accents -->
-  <g stroke="#5EA0EF" stroke-width="2.3" opacity=".7">
-    <path d="M23 24 Q35 22 44 24"/>
-    <path d="M21 68 L32 68"/>
-    <path d="M17 86 L25 86"/>
-  </g>
-
-  <!-- Small sketch motion strokes -->
-  <g stroke="#32BEDD" stroke-width="2.2">
-    <path d="M73 57 L77 59"/>
-    <path d="M73 63 L77 64"/>
+    <!-- Original long desktop-to-device transfer arrow.
+         Preserved at its original coordinates and full horizontal extent. -->
+    <path d="M14.88 10.82       L13.76 9.7       Q13.66 9.64 13.66 9.75       V10.43       Q13.66 10.49 13.6 10.49       H11       V11.32       H13.6       Q13.66 11.32 13.66 11.38       V12.07       Q13.66 12.17 13.76 12.12       L14.88 11       Q14.94 10.91 14.88 10.82Z" fill="#0078d4"/>
   </g>
 </svg>

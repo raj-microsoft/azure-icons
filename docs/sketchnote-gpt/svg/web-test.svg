@@ -1,81 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Web Test (sketch)</title>
-  
-  <desc>Azure-blue network globe with white connected nodes and an overlapping cyan laboratory flask containing turquoise test liquid.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Web Test (sketch)</title>
   <defs>
-    <radialGradient id="globeBlue" cx="40%" cy="32%" r="75%">
-      <stop offset=".18" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <radialGradient id="a" cx="1848.536" cy="3347.483" r="50.267" gradientTransform="translate(-269.742 -494.591) scale(.15)" gradientUnits="userSpaceOnUse">
+      <stop offset=".183" stop-color="#5ea0ef"/>
+      <stop offset="1" stop-color="#0078d4"/>
     </radialGradient>
-    <linearGradient id="flaskCyan" x1="92" y1="65" x2="96" y2="123" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#32D4F5"/>
-      <stop offset=".45" stop-color="#31D1F3"/>
-      <stop offset="1" stop-color="#198AB3"/>
+    <linearGradient id="b" x1="3.459" y1="9.738" x2="3.431" y2="6.226" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset=".123" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
     </linearGradient>
-    <linearGradient id="nodeWhite" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#FCFCFC"/>
-      <stop offset="1" stop-color="#CCCCCC"/>
+    <linearGradient id="c" x1="8.547" y1="13.251" x2="8.547" y2="10.102" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset=".123" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+    <linearGradient id="d" x1="13.196" y1="8.878" x2="13.296" y2="18.078" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32d4f5"/>
+      <stop offset=".321" stop-color="#31d1f3"/>
+      <stop offset="1" stop-color="#198ab3"/>
     </linearGradient>
   </defs>
 
-  <!-- Azure network globe -->
-  <path d="M57 7            C84 6 106 26 108 53            C111 79 96 101 74 109            C52 117 28 108 16 89            C3 69 7 43 23 25            C32 14 44 8 57 7Z" fill="url(#globeBlue)" stroke="#15549A" stroke-width="3.4"/>
+  <g transform="scale(7.111111)">
+    <!-- Original blue circular background -->
+    <path d="M12.161 13.492       A7.54 7.54 0 1 1 2.92 1.576       L3 1.517       A7.54 7.54 0 0 1 12.161 13.492Z" fill="url(#a)"/>
 
-  <!-- Loose marker highlights -->
-  <path d="M22 35 Q35 15 57 14            M83 17 Q99 29 102 44" stroke="#9CEBFF" stroke-width="2.4" opacity=".75"/>
+    <!-- Original background highlights -->
+    <path d="M5.491 5.965       A11.539 11.539 0 0 1 13.4 2.788       A7.474 7.474 0 0 0 12.081 1.507       A12.775 12.775 0 0 0 7.917 2.489       A11 11 0 0 0 4.3 4.986       A2.435 2.435 0 0 1 5.491 5.965Z" fill="#fff" opacity=".6"/>
 
-  <!-- Curved web connections -->
-  <g stroke="#D9F1FF" stroke-width="4.4" opacity=".75">
-    <path d="M27 23 Q30 38 36 51"/>
-    <path d="M16 78 Q22 64 36 51"/>
-    <path d="M36 51 Q55 28 85 27"/>
-    <path d="M36 51 Q47 74 71 86"/>
-    <path d="M51 10 Q63 36 87 53"/>
-    <path d="M87 53 Q100 62 105 72"/>
-    <path d="M71 86 Q86 92 100 88"/>
+    <path d="M1.757 8.994       A16.727 16.727 0 0 0 1.016 11.321       A8.172 8.172 0 0 0 1.568 12.139       A7.434 7.434 0 0 0 2.059 12.713       A15.853 15.853 0 0 1 3.02 9.636       A2.423 2.423 0 0 1 1.757 8.994Z" fill="#fff" opacity=".6"/>
+
+    <path d="M2.626 4.97       A10.587 10.587 0 0 1 2.015 2.358       A7.454 7.454 0 0 0 1.038 3.651       A11.712 11.712 0 0 0 1.538 5.751       A2.429 2.429 0 0 1 2.626 4.97Z" fill="#f2f2f2" opacity=".55"/>
+
+    <!-- Original upper-left circular element -->
+    <circle cx="3.439" cy="7.251" r="2.424" fill="url(#b)"/>
+
+    <path d="M6.972 11.677       A1.568 1.568 0 0 1 7.448 10.551       A10.677 10.677 0 0 1 5.208 8.9       A2.413 2.413 0 0 1 3.884 9.628       A10.513 10.513 0 0 0 5.171 10.768       A10.968 10.968 0 0 0 6.987 11.875       A1.489 1.489 0 0 1 6.972 11.677Z" fill="#f2f2f2" opacity=".55"/>
+
+    <path d="M12.559 11.864       A10.583 10.583 0 0 1 10.117 11.58       Q10.121 11.628 10.121 11.676       A1.568 1.568 0 0 1 9.673 12.776       A12.242 12.242 0 0 0 12.699 12.992       A7.486 7.486 0 0 0 13.72 11.8       A10.711 10.711 0 0 1 12.559 11.864Z" fill="#f2f2f2" opacity=".55"/>
+
+    <!-- Original lower circular element -->
+    <circle cx="8.547" cy="11.677" r="1.575" fill="url(#c)"/>
+
+    <path d="M10.484 7.469       A1.629 1.629 0 0 1 11.027 6.593       A22.368 22.368 0 0 1 7.068 2.912       A15.137 15.137 0 0 1 5.308 .321       A7.429 7.429 0 0 0 4.342 .692       A15.767 15.767 0 0 0 6.236 3.519       A23.43 23.43 0 0 0 10.484 7.469Z" fill="#f2f2f2" opacity=".7"/>
+
+    <!-- Original upper-right white circular element -->
+    <circle cx="12.136" cy="7.772" r="1.672" fill="#fff"/>
+
+    <path d="M14.944 8.9       L14.66 8.75       L14.633 8.735       L14.37 8.593       L14.322 8.566       Q14.202 8.501 14.027 8.4       L13.747 8.241       A1.586 1.586 0 0 1 13.183 9.061       Q13.346 9.156 13.515 9.251       L13.59 9.293       L13.898 9.464       L13.928 9.481       Q14.302 9.685 14.693 9.881       A7.258 7.258 0 0 0 14.944 8.9Z" fill="#f2f2f2" opacity=".55"/>
+
+    <!-- Original white circular elements -->
+    <circle cx="3.439" cy="7.251" r="2.424" fill="#fff"/>
+    <circle cx="8.547" cy="11.677" r="1.575" fill="#fff"/>
+
+    <!-- Original flask silhouette -->
+    <path d="M17.654 18.006       H8.927       C8.649 18.006 8.485 17.562 8.642 17.333       L11.65 12.949       A.351 .351 0 0 0 11.711 12.749       V9.849       A.173 .173 0 0 0 11.538 9.677       H11.376       A.346 .346 0 0 1 11.031 9.332       V9.183       A.346 .346 0 0 1 11.376 8.837       H15.2       A.346 .346 0 0 1 15.545 9.183       V9.339       A.346 .346 0 0 1 15.2 9.684       H15.038       A.172 .172 0 0 0 14.866 9.856       V12.756       A.345 .345 0 0 0 14.926 12.956       L17.935 17.333       C18.1 17.562 17.932 18.006 17.654 18.006Z" fill="url(#d)"/>
+
+    <!-- Original plain white flask interior; no added bubbles -->
+    <path d="M9.932 16.835       L12.217 13.5       A.831 .831 0 0 0 12.364 13.028       V11.69       A.265 .265 0 0 1 12.629 11.425       H13.929       A.264 .264 0 0 1 14.194 11.69       V13.123       A.564 .564 0 0 0 14.294 13.441       L16.628 16.835       A.2 .2 0 0 1 16.463 17.147       H10.1       A.2 .2 0 0 1 9.932 16.835Z" fill="#fff"/>
+
+    <!-- Original turquoise liquid at the bottom -->
+    <path d="M10.615 15.839       A4.272 4.272 0 0 1 14.447 15.405       Q15.283 15.873 15.581 15.318       L16.66 16.818       A.289 .289 0 0 1 16.426 17.275       H10.106       A.289 .289 0 0 1 9.876 16.812Z" fill="#3cd4c2"/>
   </g>
-
-  <!-- Large web node -->
-  <path d="M36 36            C45 35 53 43 53 52            C53 62 45 69 35 69            C26 69 19 62 19 52            C19 43 26 36 36 36Z" fill="url(#nodeWhite)" stroke="#80B6D9" stroke-width="2.5"/>
-
-  <!-- Upper-right web node -->
-  <path d="M87 42            C94 42 100 47 100 54            C100 61 94 66 87 66            C80 66 75 61 75 54            C75 47 80 42 87 42Z" fill="#F2F2F2" stroke="#80B6D9" stroke-width="2.4"/>
-
-  <!-- Lower network node -->
-  <path d="M70 76            C77 76 83 81 83 88            C83 95 77 101 70 101            C63 101 58 95 58 88            C58 81 63 76 70 76Z" fill="#F2F2F2" stroke="#80B6D9" stroke-width="2.4"/>
-
-  <!-- Sketched node highlights -->
-  <path d="M27 47 Q30 42 36 43            M81 50 Q84 47 88 48            M64 85 Q67 82 71 83" stroke="#FFFFFF" stroke-width="2.2"/>
-
-  <!-- Laboratory flask neck -->
-  <path d="M83 63            L104 63            Q107 63 107 67            Q107 70 104 70            L102 70            L102 87            L122 116            Q126 122 120 123            L68 123            Q62 122 66 116            L86 87            L86 70            L83 70            Q80 70 80 67            Q80 63 83 63Z" fill="url(#flaskCyan)" stroke="#167EAB" stroke-width="3.3"/>
-
-  <!-- Flask rim -->
-  <path d="M82 66 Q93 64 105 66" stroke="#B6F5FF" stroke-width="2.2"/>
-
-  <!-- Inner white flask silhouette -->
-  <path d="M90 79            L98 79            L98 89            Q98 91 100 94            L115 115            Q117 118 113 118            L75 118            Q71 118 74 114            L89 93            Q90 91 90 88Z" fill="#FFFFFF" stroke="#D9F7FF" stroke-width="2"/>
-
-  <!-- Turquoise testing liquid -->
-  <path d="M79 109            Q86 104 94 106            C103 108 106 112 111 107            L117 116            Q118 120 114 120            L74 120            Q71 120 74 116Z" fill="#3CD4C2" stroke="#1C9D9A" stroke-width="1.8"/>
-
-  <!-- Liquid surface -->
-  <path d="M81 109            Q89 104 97 108            Q105 112 111 108" stroke="#8CF5E6" stroke-width="2.2"/>
-
-  <!-- Tiny test bubbles -->
-  <circle cx="92" cy="101" r="2.2" fill="#3CD4C2"/>
-  <circle cx="99" cy="96" r="1.6" fill="#3CD4C2"/>
-  <circle cx="96" cy="113" r="1.6" fill="#FFFFFF" opacity=".85"/>
-
-  <!-- Hand-drawn flask glint -->
-  <path d="M89 84 L89 92            M81 110 L84 106" stroke="#FFFFFF" stroke-width="2" opacity=".85"/>
-
-  <!-- Yellow sketchnote accents -->
-  <path d="M113 53 L117 47            M119 58 L125 56            M113 61 L119 65" stroke="#FFD34D" stroke-width="2.8"/>
-
-  <!-- Small handwritten-style marks -->
-  <path d="M14 109 L20 105            M19 115 L26 112" stroke="#FFD34D" stroke-width="2.4"/>
-
-  <!-- Sketch underline -->
-  <path d="M70 126 Q94 127 118 125" stroke="#198AB3" stroke-width="1.7" opacity=".65"/>
 </svg>

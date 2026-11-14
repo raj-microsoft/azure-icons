@@ -1,57 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Verification As A Service (sketch)</title>
   <defs>
-    <linearGradient id="azure" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="panelBlue" x1="1.58" y1="785.952" x2="3.231" y2="767.08" gradientTransform="translate(4 785.516) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#5e9eee"/>
       <stop offset="1" stop-color="#0078d2"/>
     </linearGradient>
-    <linearGradient id="cyan" x1="0" y1="0" x2="0.8" y2="1">
-      <stop offset="0" stop-color="#9cebff"/>
+    <linearGradient id="personCyan" x1="-25.483" y1="767.733" x2="-25.125" y2="763.642" gradientTransform="translate(31.6 773.32) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".183" stop-color="#9cebff"/>
+      <stop offset="1" stop-color="#50e6ff"/>
+    </linearGradient>
+    <linearGradient id="headCyan" x1="-25.327" y1="770.911" x2="-25.013" y2="767.322" gradientTransform="translate(31.6 773.32) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".183" stop-color="#9cebff"/>
       <stop offset="1" stop-color="#50e6ff"/>
     </linearGradient>
   </defs>
 
-  <!-- Verification document -->
-  <path d="M18 9     Q13 9 13 15     L13 109     Q13 116 20 117     L78 117     Q84 116 84 110     L84 17     Q83 10 77 10 Z" fill="url(#azure)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)">
+    <!-- Original vertical blue verification panel -->
+    <path d="M.015.62       Q-.005.27.31.015       L12.19.005       Q12.79-.005 12.81.62       L12.79 17.37       Q12.79 17.97 12.19 18       L.62 17.98       Q.015 17.96 0 17.38       Z" fill="url(#panelBlue)"/>
 
-  <!-- Document top highlight -->
-  <path d="M23 17 Q48 14 74 17" fill="none" stroke="#9bd1ff" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Original horizontal information bars -->
+    <path d="M3.05 13.49       Q2.72 13.47 2.72 13.81       L2.72 14.46       Q2.73 14.80 3.06 14.80       L9.74 14.80       Q10.09 14.80 10.09 14.47       L10.09 13.81       Q10.08 13.49 9.75 13.48       Z" fill="#8ec1fa"/>
 
-  <!-- User identity symbol -->
-  <circle cx="48" cy="39" r="15" fill="url(#cyan)" stroke="#0878b9" stroke-width="2.5"/>
+    <path d="M3.04 10.94       Q2.72 10.93 2.72 11.27       L2.72 11.93       Q2.73 12.25 3.06 12.25       L9.74 12.25       Q10.09 12.25 10.09 11.93       L10.09 11.27       Q10.08 10.94 9.75 10.94       Z" fill="#8ec1fa"/>
 
-  <path d="M39 38     Q39 30 48 30     Q57 30 57 38     Q57 43 48 47     Q39 43 39 38Z" fill="#f2f2f2" opacity=".9"/>
+    <!-- Filled person silhouette: preserve solid head and shoulders -->
+    <path d="M9.05 9.45       Q9.42 9.45 9.58 9.17       Q9.64 9.05 9.62 8.83       Q9.38 5.58 6.42 5.58       Q3.38 5.58 3.19 8.82       Q3.15 9.16 3.45 9.38       Q3.56 9.45 3.75 9.45       Z" fill="url(#personCyan)"/>
 
-  <path d="M34 62     Q36 53 48 53     Q60 53 62 62" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    <!-- Original white central clothing detail -->
+    <path d="M5.49 5.72       Q5.94 6.02 6.44 6.01       Q6.95 6.02 7.39 5.74       L6.44 8.24       Z" fill="#f2f2f2"/>
 
-  <!-- Verification record lines -->
-  <g fill="#8ec1fa">
-    <rect x="27" y="76" width="45" height="7" rx="3"/>
-    <rect x="27" y="91" width="45" height="7" rx="3"/>
-    <rect x="27" y="106" width="35" height="6" rx="3"/>
-  </g>
+    <!-- Solid circular head -->
+    <path d="M6.43 2.40       C7.43 2.40 8.23 3.20 8.23 4.20       C8.23 5.20 7.43 6.01 6.43 6.01       C5.43 6.01 4.63 5.20 4.63 4.20       C4.63 3.20 5.43 2.40 6.43 2.40       Z" fill="url(#headCyan)"/>
 
-  <!-- Verification seal -->
-  <circle cx="91" cy="82" r="29" fill="#86d633" stroke="#4d9b22" stroke-width="3.5"/>
+    <!-- Original green verification badge -->
+    <path d="M14.10 5.105       C16.25 5.105 18 6.85 18 9       C18 11.15 16.25 12.895 14.10 12.895       C11.95 12.895 10.21 11.15 10.21 9       C10.21 6.85 11.95 5.105 14.10 5.105       Z" fill="#86d633"/>
 
-  <circle cx="91" cy="82" r="23" fill="none" stroke="#d4ff9d" stroke-width="2" stroke-dasharray="3 4"/>
+    <!-- Original white checkmark, retaining its two-part construction -->
+    <path d="M13.706 10.305       L13.348 10.663       Q13.257 10.70 13.127 10.58       L11.706 9.242       Q11.62 9.15 11.706 9.03       L11.953 8.783       Q12.05 8.69 12.174 8.80       Z" fill="#fff"/>
 
-  <!-- Check mark -->
-  <path d="M76 82     L87 93     Q89 95 91 92     L108 72" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <path d="M76 82 L87 93 L108 72" fill="none" stroke="#f0fff0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Seal sparkle accents -->
-  <g fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
-    <path d="M112 48 L112 56"/>
-    <path d="M108 52 L116 52"/>
-    <path d="M117 103 L123 107"/>
-    <path d="M69 54 L64 49"/>
-  </g>
-
-  <!-- Sketchnote marker details -->
-  <g fill="none" stroke="#9cebff" stroke-width="2" stroke-linecap="round">
-    <path d="M20 69 L17 74"/>
-    <path d="M70 115 L77 113"/>
-    <path d="M31 23 Q40 19 48 20"/>
+    <path d="M13.134 10.666       L12.776 10.308       L16.045 7.039       Q16.14 6.95 16.266 7.08       L16.513 7.327       Q16.61 7.42 16.49 7.55       L13.355 10.663       Q13.24 10.75 13.134 10.666       Z" fill="#f0f0f0"/>
   </g>
 </svg>
