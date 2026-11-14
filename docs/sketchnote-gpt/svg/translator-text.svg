@@ -1,61 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Translator Text (sketch)</title>
   <defs>
-    <linearGradient id="translatorBlue" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="a" x1="9" y1="0" x2="9" y2="18" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#5ea0ef"/>
       <stop offset="1" stop-color="#0078d4"/>
     </linearGradient>
-    <linearGradient id="whiteFade" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="b" x1="-998.057" y1="-213.109" x2="-1002.698" y2="-204.987" gradientTransform="translate(-195.271 1006.992) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="c" x1="-122.365" y1="1106.487" x2="-127.006" y2="1114.61" gradientTransform="translate(-1106.024 -112.477) rotate(-90)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#fff" stop-opacity=".3"/>
     </linearGradient>
   </defs>
 
-  <!-- Main translation tile -->
-  <path d="M17 9     Q12 9 11 15     L10 108     Q10 117 19 118     L108 119     Q117 118 118 109     L118 19     Q117 10 108 10 Z" fill="url(#translatorBlue)" stroke="#005ba1" stroke-width="3.5" stroke-linejoin="round"/>
+  <g transform="scale(7.111111)">
+    <rect width="18" height="18" rx=".6" fill="url(#a)"/>
 
-  <!-- Subtle marker highlight -->
-  <path d="M19 20 Q57 13 105 19" fill="none" stroke="#9bd1ff" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    <!-- Original Latin translation glyph -->
+    <path d="       M13.281 9.822       Q12.18 9.79 11.335 10.359       L11.335 11.299       Q12.13 10.6 13.203 10.599       Q14.383 10.599 14.383 12.058       L12.666 12.299       Q10.776 12.561 10.776 14.167       Q10.776 14.89 11.26 15.367       Q11.744 15.82 12.599 15.82       Q13.74 15.82 14.361 14.791       H14.383       V15.686       H15.3       V11.958       Q15.3 9.822 13.281 9.822       Z        M14.381 13.356       Q14.381 14.067 13.936 14.567       Q13.49 15.045 12.81 15.045       Q12.33 15.045 12.01 14.78       Q11.71 14.515 11.71 14.02       Q11.71 13.48 12.034 13.22       Q12.34 12.976 13 12.976       L14.381 12.786       Z" fill="#fff"/>
 
-  <!-- Left language symbol -->
-  <g fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M28 36 Q43 32 58 36"/>
-    <path d="M43 34 Q42 57 26 72"/>
-    <path d="M33 50 Q43 64 57 69"/>
-    <path d="M27 77 Q43 80 57 74"/>
-  </g>
+    <!-- Upper circular directional arrow -->
+    <path d="       M13.782 8.891       L15.319 7.311       Q15.57 7.06 15.159 7       H14.476       Q14.276 7 14.276 6.8       Q14.298 2.953 10.147 2.856       Q9.947 2.856 9.947 3.056       V4.056       Q9.947 4.256 10.163 4.256       Q12.826 4.31 13.026 6.8       Q13.026 7 12.826 7       H12.2       Q11.878 7 12.039 7.311       L13.464 8.891       Q13.63 9.08 13.782 8.891       Z" fill="url(#b)"/>
 
-  <!-- Small letter-like vector glyph -->
-  <g fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M33 48 L44 48 L50 70"/>
-    <path d="M36 62 L48 62"/>
-  </g>
+    <!-- Lower circular directional arrow -->
+    <path d="       M4.52 9.932       L2.982 11.512       Q2.731 11.763 3.143 11.823       H3.825       Q4.025 11.823 4.025 12.023       Q4 15.871 8.15 15.967       Q8.35 15.967 8.35 15.767       V14.767       Q8.35 14.567 8.135 14.567       Q5.272 14.52 5.272 12.016       Q5.272 11.816 5.472 11.816       H6.104       Q6.425 11.816 6.265 11.505       L4.841 9.932       Q4.68 9.74 4.52 9.932       Z" fill="url(#c)"/>
 
-  <!-- Translation arrows -->
-  <g fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M64 35       Q87 27 96 47       Q99 53 99 59"/>
-    <path d="M89 50 L99 61 L109 50"/>
-    <path d="M65 91       Q43 101 33 83       Q29 77 29 70"/>
-    <path d="M39 79 L29 68 L19 79"/>
-  </g>
-
-  <!-- Right language symbol -->
-  <g fill="#fff">
-    <path d="M77 65 Q88 62 98 66       L98 71 Q87 68 77 72 Z"/>
-    <path d="M79 79 Q88 75 97 78       L97 84 Q88 81 79 86 Z"/>
-    <path d="M78 92 Q88 88 97 91       L97 97 Q88 94 78 99 Z"/>
-  </g>
-
-  <!-- Hand-drawn accent strokes -->
-  <g fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
-    <path d="M20 99 L25 96"/>
-    <path d="M104 29 L108 25"/>
-    <path d="M105 105 L109 101"/>
-  </g>
-
-  <!-- Sketchnote motion marks -->
-  <g fill="none" stroke="#d8efff" stroke-width="2" stroke-linecap="round">
-    <path d="M13 42 L8 39"/>
-    <path d="M115 81 L120 78"/>
-    <path d="M52 114 L60 116"/>
+    <!-- Original Japanese translation glyph -->
+    <path d="       M6.63 4.4       Q7.54 4.55 8.046 5.146       Q8.61 5.8 8.032 7.0       Q7.45 7.67 6.118 7.93       L5.833 7.287       Q6.85 7.2 7.433 6.825       Q8 6.4 7.56 5.583       Q7.15 5.13 6.467 5.01       Q6.1 6.3 5.329 7.31       Q5.46 7.55 5.591 7.767       L5.055 8.139       Q4.93 7.99 4.837 7.806       Q4.17 8.44 3.393 8.44       Q2.9 8.44 2.582 8.123       Q2.253 7.81 2.253 7.186       Q2.253 6.4 2.777 5.73       Q3.31 5.03 4.143 4.669       Q4.167 3.869 4.195 3.55       Q3.361 3.582 2.878 3.582       L2.771 2.963       Q3.29 2.982 4.242 2.947       Q4.32 2.2 4.452 1.583       L5.071 1.674       L4.9 2.9       Q6.2 2.79 7.49 2.59       L7.621 3.19       Q6.24 3.45 4.844 3.512       Q4.785 4.04 4.785 4.44       Q5.25 4.25 5.963 4.317       Q6.045 4.06 6.078 3.805       L6.712 3.896       Q6.65 4.18 6.63 4.4       Z        M4.552 7.172       Q4.171 6.33 4.171 5.351       Q3.64 5.65 3.258 6.151       Q2.921 6.59 2.921 7.151       Q2.921 7.53 3.064 7.659       Q3.21 7.789 3.358 7.789       Q3.88 7.789 4.552 7.172       Z        M5.793 4.962       Q5.28 4.93 4.817 5.109       Q4.87 5.86 5.047 6.573       Q5.55 5.85 5.793 4.962       Z" fill="#fff"/>
   </g>
 </svg>
