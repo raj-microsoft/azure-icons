@@ -1,66 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>VM App Versions (sketch)</title>
-  
-  <desc>Hand-drawn Azure virtual machine monitor with layered application version squares and a purple application version badge.</desc>
-
-  <defs>
-    <linearGradient id="screenBlue" x1="18" y1="12" x2="91" y2="82" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
-    </linearGradient>
-    <linearGradient id="standBlue" x1="45" y1="79" x2="64" y2="113" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1F56A3"/>
-      <stop offset="1" stop-color="#1490DF"/>
-    </linearGradient>
-    <linearGradient id="badgePurple" x1="92" y1="66" x2="110" y2="123" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#B796F9"/>
-      <stop offset="1" stop-color="#773ADC"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Monitor silhouette -->
-  <path d="M13 13            Q12 11 17 11            L115 12            Q119 12 119 17            L118 71            Q117 74 114 71            C99 57 77 64 70 82            L16 82            Q11 82 11 78            Z" fill="url(#screenBlue)" stroke="#15549A" stroke-width="3.4"/>
-
-  <!-- Loose marker edge -->
-  <path d="M17 17 Q47 15 77 17 L112 17            M16 23 L16 70" stroke="#9CEBFF" stroke-width="2.3" opacity=".7"/>
-
-  <!-- Screen highlights -->
-  <path d="M23 27 L39 27            M23 33 L32 33" stroke="#9CEBFF" stroke-width="2" opacity=".65"/>
-
-  <!-- Application version symbol: layered squares -->
-  <path d="M55 34 L74 34            Q76 34 76 36            L76 53" stroke="#773ADC" stroke-width="5"/>
-
-  <path d="M55 34 L74 34            M76 39 L76 48" stroke="#B796F9" stroke-width="1.5" opacity=".65"/>
-
-  <!-- Outer version container -->
-  <path d="M35 40            Q35 38 38 38            L52 38            M66 59 L66 66            Q66 68 63 68            L36 68            Q33 68 33 65            L33 40" stroke="#FFFFFF" stroke-width="4.2"/>
-
-  <!-- Inner version tile -->
-  <path d="M45 46            L62 45            Q64 45 64 48            L64 62            L46 62            Q44 62 44 60            Z" fill="#9CEBFF" stroke="#176CA8" stroke-width="2.4"/>
-
-  <path d="M48 49 L58 49            M48 53 L54 53" stroke="#FFFFFF" stroke-width="1.8" opacity=".85"/>
-
-  <!-- Tiny hand-drawn revision marks -->
-  <path d="M82 30 L85 26            M89 33 L94 31            M82 40 L87 42" stroke="#FFD34D" stroke-width="2.8"/>
-
-  <!-- Monitor stand -->
-  <path d="M48 82            L66 82            C64 91 64 101 71 106            Q74 108 74 112            L31 112            Q31 108 37 106            C45 102 48 94 48 82Z" fill="url(#standBlue)" stroke="#15549A" stroke-width="3"/>
-
-  <path d="M39 107 Q52 104 66 108" stroke="#5EA0EF" stroke-width="2.5"/>
-
-  <!-- Version badge: circular purple marker -->
-  <path d="M97 66            C115 65 125 78 124 94            C124 111 112 123 97 123            C80 123 68 112 68 95            C68 79 80 66 97 66Z" fill="url(#badgePurple)" stroke="#6533B4" stroke-width="3.4"/>
-
-  <!-- Sketch accent around badge -->
-  <path d="M78 78 Q91 66 105 72            M117 81 Q122 90 118 101" stroke="#DDC6FF" stroke-width="2.3" opacity=".85"/>
-
-  <!-- Original application-version glyph -->
-  <path d="M82 111            L96 78            Q97 76 99 79            L113 111            Z" fill="none" stroke="#FFFFFF" stroke-width="3.2"/>
-
-  <path d="M88 106            L97 86            L106 106Z" fill="none" stroke="#FFFFFF" stroke-width="2.3"/>
-
-  <!-- Small yellow sketchnote spark -->
-  <path d="M119 57 L122 52            M113 55 L114 49            M123 62 L127 60" stroke="#FFD34D" stroke-width="2.8"/>
-
-  <!-- Underline detail -->
-  <path d="M31 118 Q46 120 63 118" stroke="#1490DF" stroke-width="2" opacity=".65"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>VM App Versions (sketch)</title>
+<path d="M4.40 .55 C13.9 .30 23.7 .76 33.62 .53 S53.1 .37 62.30 .54 S81.8 .77 91.24 .52 S110.8 .35 119.92 .55 Q123.65 .52 123.55 4.16 C123.39 11.6 123.76 19.1 123.52 26.46 S123.38 41.7 123.57 49.02 S123.74 64.4 123.54 71.49 Q123.52 73.85 121.53 72.79 Q120.92 72.46 120.39 71.93 C105.02 57.32 78.31 60.44 67.29 82.21 C60.4 82.41 53.1 82.05 46.29 82.23 S32.3 82.44 25.34 82.28 S11.2 82.08 4.40 82.21 Q.62 82.24 .71 78.52 C.87 70.2 .43 61.5 .73 53.27 S.90 36.8 .62 28.73 S.49 12.0 .71 4.17 Q.69 .49 4.40 .55Z" fill="#1689df" stroke="#086ab5" stroke-width=".65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.23 82.69 Q54.5 82.48 58.77 82.65 Q63.1 82.81 67.29 82.69 C65.9 88.1 65.2 92.6 65.1 97.4 S65.6 105.6 67.02 109.28 Q67.65 110.87 67.03 112.82 Q66.62 114.20 65.17 114.18 C59.6 114.02 53.9 114.43 48.43 114.23 S37.2 114.02 31.84 114.18 Q31.85 108.13 37.97 107.19 C44.0 106.5 47.4 103.8 49.0 99.2 S50.28 88.4 50.23 82.69Z" fill="#197bc7" stroke="#164f95" stroke-width=".62" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.72 34.23 Q55.1 34.37 59.54 34.29 Q64.0 34.17 68.36 34.23 Q69.16 34.20 69.13 34.99 Q69.28 39.4 69.08 43.82 Q68.98 48.2 69.13 52.67 Q69.13 53.43 68.38 53.42 Q63.96 53.28 59.56 53.37 Q55.1 53.55 50.72 53.42 Q49.95 53.42 49.96 52.66 Q49.83 48.3 50.03 43.84 Q50.17 39.4 49.96 34.99 Q49.95 34.23 50.72 34.23Z" fill="#9cebff"/>
+<path d="M81.26 20.71 Q76.7 20.85 72.19 20.77 Q67.6 20.61 63.14 20.71 Q62.38 20.69 62.39 21.42 Q62.52 23.1 62.46 24.72 Q62.39 25.45 63.14 25.45 Q69.8 25.32 76.47 25.45 Q77.97 25.45 77.97 26.95 Q77.83 30.3 78.03 33.75 Q78.18 37.2 77.97 40.53 Q77.97 41.26 78.71 41.26 Q80.4 41.39 82.02 41.26 Q82.75 41.26 82.75 40.53 Q82.61 35.9 82.70 31.36 Q82.88 26.7 82.75 22.20 Q82.75 20.71 81.26 20.71Z" fill="#773adc"/>
+<path d="M74.90 44.44 Q75.06 50.4 74.90 56.37 Q74.90 57.74 73.53 57.74 Q59.9 57.54 46.30 57.74 Q44.93 57.74 44.93 56.37 Q45.12 43.5 44.93 30.66 Q44.93 29.29 46.30 29.29 Q53.1 29.43 59.95 29.29 Q60.68 29.29 60.68 28.56 Q60.78 27.1 60.68 25.75 Q60.68 25.02 59.95 25.02 Q51.0 25.19 41.96 25.02 Q40.59 25.02 40.59 26.38 Q40.42 43.6 40.59 60.74 Q40.59 62.10 41.96 62.10 Q59.9 61.91 77.92 62.10 Q79.29 62.10 79.29 60.74 Q79.11 52.6 79.29 44.44 Q79.29 43.71 78.54 43.71 Q77.1 43.60 75.65 43.71 Q74.90 43.71 74.90 44.44Z" fill="#fff"/>
+<path d="M97.12 66.69 C105.48 66.44 113.29 69.77 118.95 75.43 C124.79 81.17 127.40 88.94 127.40 97.31 C127.72 105.71 124.33 113.47 118.73 119.09 C113.12 124.77 105.37 127.40 97.12 127.40 C88.74 127.72 80.94 124.35 75.31 118.76 C69.67 113.09 66.72 105.55 66.95 97.31 C66.73 88.91 70.03 81.12 75.68 75.47 C81.34 69.81 88.92 66.52 97.12 66.69Z" fill="#8750e4" stroke="#6531bd" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M112.82 115.26 Q105.0 115.40 97.12 115.31 Q89.2 115.16 81.41 115.26 L81.48 115.08 Q84.70 107.75 87.88 100.47 Q92.46 90.06 96.97 79.72 Q97.08 79.43 97.42 79.43 Q98.00 79.40 98.22 79.96 Q100.85 86.29 103.46 92.63 Q106.11 98.96 108.70 105.29 L112.75 115.08 Z M106.67 113.06 Q101.45 100.25 96.21 87.36 Q90.54 100.17 84.98 113.06 Q95.82 112.94 106.67 113.06Z" fill="#fff" fill-rule="evenodd"/>
 </svg>
