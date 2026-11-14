@@ -1,69 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Managed Service Fabric (sketch)</title>
-  
-  <desc>Orange connected fabric nodes forming a pentagonal network, with an overlapping purple management gear and subtle Azure-blue and yellow marker accents.</desc>
-
-  <defs>
-    <linearGradient id="fabricOrange" x1="18" y1="12" x2="104" y2="109" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FAA21D"/>
-      <stop offset="1" stop-color="#EF7100"/>
-    </linearGradient>
-    <linearGradient id="gearPurple" x1="63" y1="72" x2="111" y2="126" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#A67AF4"/>
-      <stop offset=".52" stop-color="#864FE4"/>
-      <stop offset="1" stop-color="#773ADC"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Connected Service Fabric network -->
-  <path d="M19 53            Q36 41 62 22            Q83 37 109 54            L98 83            M19 53            L34 106            L45 106" stroke="#E27908" stroke-width="11"/>
-
-  <!-- Hand-drawn lighter connector strokes -->
-  <path d="M20 51 Q42 36 61 20            Q84 36 108 51" stroke="#FAA21D" stroke-width="3" opacity=".8"/>
-
-  <path d="M23 61 L37 99" stroke="#FBC263" stroke-width="2.6" opacity=".8"/>
-
-  <!-- Top network node -->
-  <path d="M62 4            C72 4 80 12 80 22            C80 32 72 40 62 40            C52 40 44 32 44 22            C44 12 52 4 62 4 Z" fill="url(#fabricOrange)" stroke="#C76505" stroke-width="3.6"/>
-
-  <path d="M53 17 Q59 11 67 14" stroke="#FFD27C" stroke-width="3"/>
-
-  <!-- Left network node -->
-  <path d="M19 35            C29 35 37 43 37 53            C37 63 29 71 19 71            C9 71 2 63 2 53            C2 43 9 35 19 35 Z" fill="url(#fabricOrange)" stroke="#C76505" stroke-width="3.6"/>
-
-  <path d="M10 49 Q13 43 20 43" stroke="#FFD27C" stroke-width="2.8"/>
-
-  <!-- Right network node -->
-  <path d="M109 35            C119 35 126 43 126 53            C126 63 119 71 109 71            C99 71 91 63 91 53            C91 43 99 35 109 35 Z" fill="url(#fabricOrange)" stroke="#C76505" stroke-width="3.6"/>
-
-  <path d="M101 48 Q105 43 112 44" stroke="#FFD27C" stroke-width="2.8"/>
-
-  <!-- Lower-left fabric node -->
-  <path d="M35 88            C45 88 53 96 53 106            C53 116 45 124 35 124            C25 124 17 116 17 106            C17 96 25 88 35 88 Z" fill="url(#fabricOrange)" stroke="#C76505" stroke-width="3.6"/>
-
-  <path d="M27 102 Q31 96 38 97" stroke="#FFD27C" stroke-width="2.8"/>
-
-  <!-- Managed services gear -->
-  <path d="M81 72            L89 72            L92 81            Q95 82 98 84            L106 80            L113 87            L109 95            Q111 98 112 101            L121 104            L121 113            L112 116            Q111 119 109 121            L113 126            L101 126            L98 123            Q95 125 92 126            L89 128            L81 128            L78 122            Q75 121 72 120            L65 124            L59 117            L63 110            Q61 107 62 104            L54 101            L54 92            L63 89            Q64 86 66 84            L62 77            L69 71            L77 75 Z" fill="url(#gearPurple)" stroke="#6333A6" stroke-width="3.3"/>
-
-  <!-- Uneven gear marker highlight -->
-  <path d="M69 82            Q74 78 79 79            M97 86 Q104 91 105 97" stroke="#C9ACFF" stroke-width="2.5" opacity=".85"/>
-
-  <!-- Gear central opening -->
-  <path d="M87 91            C95 91 101 97 101 105            C101 113 95 119 87 119            C79 119 73 113 73 105            C73 97 79 91 87 91 Z" fill="#FFFFFF" stroke="#6333A6" stroke-width="3.2"/>
-
-  <path d="M87 99            C90 99 93 102 93 105            C93 109 90 111 87 111            C83 111 81 108 81 105            C81 102 83 99 87 99 Z" fill="#A67AF4" stroke="#773ADC" stroke-width="2.1"/>
-
-  <!-- Azure-blue marker accent -->
-  <path d="M69 51 Q75 48 81 52" stroke="#0078D4" stroke-width="2.7"/>
-
-  <path d="M75 46 L80 52 L74 57" stroke="#0078D4" stroke-width="2.5"/>
-
-  <!-- Yellow sketchnote spark -->
-  <path d="M48 57 L52 51            M54 61 L61 59            M44 53 L43 47" stroke="#F5C542" stroke-width="2.7"/>
-
-  <!-- Small blue sketch flourish -->
-  <path d="M8 84 Q14 80 20 83" stroke="#0078D4" stroke-width="2.4"/>
-
-  <!-- Orange handwritten-style underline -->
-  <path d="M50 118 Q55 120 60 119" stroke="#EF7100" stroke-width="2" opacity=".65"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Managed Service Fabric (sketch)</title>
+<defs><linearGradient id="orange" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAA21D"/><stop offset="1" stop-color="#EF7100"/></linearGradient><linearGradient id="purple" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#A67AF4"/><stop offset="0.45" stop-color="#9968ED"/><stop offset="1" stop-color="#773ADC"/></linearGradient></defs>
+<g transform="scale(7.111111)"><path d="M10.15 2.978 L8.883 2.048 L7.637 2.968 L1.732 7.177 L4.03 14.125 L4.511 15.596 L6.405 15.596 L6.405 14.126 L5.573 14.125 L3.53 7.77 L8.883 3.908 L14.278 7.78 L13.921 8.889 L15.468 8.889 L15.468 8.945 L16.035 7.228 L16.035 7.177 Z" fill="#E27908" stroke="#C96708" stroke-width="0.055" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M4.868 12.530 C6.245 12.530 7.392 13.674 7.392 15.054 C7.392 16.437 6.250 17.578 4.868 17.578 C3.486 17.578 2.344 16.435 2.344 15.054 C2.344 13.672 3.486 12.530 4.868 12.530 Z" fill="#F49A18"/>
+<path d="M15.320 4.970 C16.700 4.970 17.844 6.112 17.844 7.494 C17.844 8.875 16.701 10.018 15.320 10.018 C13.938 10.018 12.796 8.876 12.796 7.494 C12.796 6.112 13.938 4.970 15.320 4.970 Z" fill="#F49A18"/>
+<path d="M2.680 4.970 C4.062 4.970 5.204 6.112 5.204 7.494 C5.204 8.875 4.062 10.018 2.680 10.018 C1.298 10.018 0.156 8.876 0.156 7.494 C0.156 6.112 1.298 4.970 2.680 4.970 Z" fill="#F49A18"/>
+<path d="M8.883 0.367 C10.265 0.367 11.407 1.509 11.407 2.891 C11.407 4.273 10.265 5.415 8.883 5.415 C7.501 5.415 6.359 4.273 6.359 2.891 C6.359 1.509 7.501 0.367 8.883 0.367 Z" fill="#F49A18"/>
+<path fill="url(#purple)" fill-rule="evenodd" stroke="#6930C2" stroke-width="0.055" stroke-linejoin="round" stroke-linecap="round" d="M13.211 16.532 L13.794 16.288 L14.806 16.754 L15.412 16.148 L15.353 16.030 L14.932 15.230 L15.102 14.624 L16.070 14.224 L16.070 13.360 L16.025 13.323 L15.125 13.013 L14.896 12.422 L15.354 11.535 L15.398 11.435 L15.125 11.140 L14.800 10.800 L14.682 10.859 L13.817 11.302 L13.226 11.132 L12.850 10.172 L11.993 10.172 L11.948 10.216 L11.653 11.095 L11.047 11.324 L10.047 10.851 L9.441 11.457 L9.500 11.575 L9.951 12.432 L9.707 13.023 L8.667 13.400 L8.667 14.264 L8.793 14.301 L9.709 14.601 L9.953 15.229 L9.480 16.229 L10.086 16.842 L10.204 16.791 L11.068 16.348 L11.659 16.591 L12.036 17.633 L12.908 17.633 Z M12.442 12.601 C13.112 12.601 13.654 13.143 13.654 13.813 C13.654 14.483 13.112 15.025 12.442 15.025 C11.772 15.025 11.230 14.483 11.230 13.813 C11.230 13.143 11.772 12.601 12.442 12.601 Z"/></g></svg>
