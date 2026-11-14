@@ -1,43 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Time Series Insights Access Policies (sketch)</title>
+
   <defs>
-    <radialGradient id="gold" cx="42%" cy="30%" r="75%">
-      <stop offset="0" stop-color="#ffd70f"/>
+    <radialGradient id="keyGold" cx="125.5" cy="123.98" r="11.18" gradientTransform="translate(-110.36 -108.4) scale(.94)" gradientUnits="userSpaceOnUse">
+      <stop offset=".27" stop-color="#ffd70f"/>
       <stop offset=".49" stop-color="#ffcb12"/>
       <stop offset=".88" stop-color="#feac19"/>
       <stop offset="1" stop-color="#fea11b"/>
     </radialGradient>
   </defs>
 
-  <!-- Hand-drawn access-policy key -->
-  <g stroke="#9a650b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M68 12       C62 7 54 9 49 14       L25 38       C19 44 20 53 26 59       L47 80       C50 83 52 87 52 91       L52 111       C52 114 54 117 57 120       L66 127       C68 129 71 129 73 126       L84 115       C86 113 86 111 84 109       L79 104       C77 102 77 100 79 98       L84 93       C86 91 86 89 84 87       L79 82       C77 80 78 78 80 76       L87 69       L106 50       C112 44 112 35 106 29       Z" fill="url(#gold)" transform="translate(0 0)"/>
+  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
 
-    <!-- Inner key details -->
-    <path d="M50 26 L91 67" fill="none" stroke="#ff9300" stroke-width="2.5" opacity=".8"/>
-    <path d="M43 43 L85 85" fill="none" stroke="#ff9300" stroke-width="2.5" opacity=".8"/>
-    <path d="M52 91 L52 111 Q52 115 57 120" fill="none" stroke="#ff9300" stroke-width="2" opacity=".8"/>
+    <!-- Original key silhouette with gently irregular marker edges -->
+    <path d="M14 7.10          C14.81 6.29 14.81 4.99 14 4.18          L10.46 .61          C9.65-.20 8.35-.20 7.54 .61          L4 4.18          C3.19 4.99 3.19 6.29 4 7.10          L7 10.10          Q7.17 10.27 7.17 10.51          L7.17 16          Q7.17 16.30 7.38 16.50          L8.73 17.85          Q9.06 18.16 9.39 17.85          L10.70 16.54          L11.47 15.76          Q11.65 15.57 11.47 15.38          L10.92 14.83          Q10.71 14.62 10.92 14.41          L11.47 13.85          Q11.65 13.66 11.47 13.47          L10.92 12.91          Q10.72 12.70 10.92 12.50          L11.47 11.94          Q11.65 11.75 11.47 11.56          L10.70 10.78          L10.70 10.50          Z           M9 1.47          C9.65 1.47 10.18 2 10.18 2.65          C10.18 3.30 9.65 3.82 9 3.82          C8.35 3.82 7.83 3.29 7.83 2.64          C7.83 1.99 8.35 1.47 9 1.47          Z" fill="url(#keyGold)" fill-rule="evenodd" stroke="#e5a01c" stroke-width=".055"/>
 
-    <!-- Key head -->
-    <circle cx="64" cy="28" r="9" fill="#fff1a3" stroke="#c27b0a" stroke-width="2.5"/>
-    <circle cx="64" cy="28" r="3.5" fill="#ffb400" stroke="none"/>
+    <!-- Original narrow shaft highlight -->
+    <path d="M8.07 16.13          Q8.25 16.32 8.42 16.13          Q8.50 16.06 8.50 15.94          L8.50 11.47          Q8.50 11.31 8.38 11.25          Q8.18 11.14 8.06 11.29          Q7.99 11.36 7.99 11.47          L7.99 15.94          Q7.99 16.05 8.07 16.13          Z" fill="#ff9300" opacity=".75"/>
 
-    <!-- Sketchnote marker accents -->
-    <path d="M35 42 Q39 36 45 33" fill="none" stroke="#fff0a0" stroke-width="2.5"/>
-    <path d="M43 57 L63 77" fill="none" stroke="#fff0a0" stroke-width="2" opacity=".8"/>
-    <path d="M59 96 L59 113" fill="none" stroke="#fff0a0" stroke-width="2" opacity=".8"/>
-  </g>
+    <!-- First original horizontal key marking -->
+    <path d="M6.47 5.37          L11.69 5.37          Q12.01 5.37 12.01 5.69          L12.01 5.74          Q12.01 6.06 11.69 6.06          L6.47 6.06          Q6.15 6.06 6.15 5.74          L6.15 5.69          Q6.15 5.37 6.47 5.37          Z" fill="#ff9300" opacity=".75"/>
 
-  <!-- Small access-policy signal marks -->
-  <g fill="none" stroke="#0078d4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M94 17 Q108 25 111 39"/>
-    <path d="M103 10 Q120 21 123 39"/>
-    <path d="M94 17 L90 24"/>
-    <path d="M111 39 L104 39"/>
-  </g>
+    <!-- Second original horizontal key marking -->
+    <path d="M6.47 6.49          L11.69 6.49          Q12.01 6.49 12.01 6.81          L12.01 6.86          Q12.01 7.18 11.69 7.18          L6.47 7.18          Q6.15 7.18 6.15 6.86          L6.15 6.81          Q6.15 6.49 6.47 6.49          Z" fill="#ff9300" opacity=".75"/>
 
-  <!-- Blue marker details -->
-  <g fill="#0078d4">
-    <circle cx="107" cy="53" r="3"/>
-    <circle cx="116" cy="62" r="2.3"/>
   </g>
 </svg>

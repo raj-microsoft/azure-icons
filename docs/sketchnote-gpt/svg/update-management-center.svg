@@ -1,65 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Update Management Center (sketch)</title>
-  <defs>
-    <linearGradient id="gearBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1689df"/>
-      <stop offset=".55" stop-color="#0078d4"/>
-      <stop offset="1" stop-color="#005ba1"/>
-    </linearGradient>
-    <linearGradient id="centerBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#005ba1"/>
-      <stop offset="1" stop-color="#003067"/>
-    </linearGradient>
-    <linearGradient id="cycleCyan" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#9cebff"/>
-      <stop offset=".55" stop-color="#50e6ff"/>
-      <stop offset="1" stop-color="#32bedd"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Update management gear -->
-  <path d="M58 7     L69 7 L74 20     Q79 21 83 24     L96 19 L104 27     L99 40 Q102 45 103 50     L117 55 L117 67     L103 72 Q102 78 99 82     L105 95 L96 104     L83 98 Q78 102 73 103     L68 118 L56 118     L51 104 Q45 103 41 100     L28 106 L19 97     L25 83 Q22 78 21 73     L7 68 L7 56     L21 51 Q22 45 25 41     L19 28 L28 19     L41 25 Q46 22 52 20 Z" fill="url(#gearBlue)" stroke="#004b87" stroke-width="3.5" stroke-linejoin="round"/>
-
-  <!-- Gear highlight -->
-  <path d="M58 12 L66 12 M30 26 L38 30 M91 27 L97 32     M12 60 L19 60 M108 61 L115 61" fill="none" stroke="#9cebff" stroke-width="2.5" stroke-linecap="round"/>
-
-  <!-- Central mechanism -->
-  <circle cx="62" cy="62" r="34" fill="url(#centerBlue)" stroke="#003067" stroke-width="3"/>
-
-  <circle cx="62" cy="62" r="29" fill="none" stroke="#50e6ff" stroke-width="1.8" opacity=".65"/>
-
-  <!-- Circular update arrows -->
-  <g fill="none" stroke="url(#cycleCyan)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M42 48       Q51 34 67 37       Q78 39 83 49"/>
-    <path d="M73 49 L84 51 L85 39"/>
-
-    <path d="M82 76       Q72 90 56 86       Q45 84 40 74"/>
-    <path d="M50 74 L39 72 L38 84"/>
-  </g>
-
-  <!-- Arrowhead yellow marker accents -->
-  <g fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
-    <path d="M77 35 L84 30"/>
-    <path d="M44 89 L37 94"/>
-  </g>
-
-  <!-- Center status indicator -->
-  <circle cx="62" cy="62" r="13" fill="#0078d4" stroke="#9cebff" stroke-width="2.5"/>
-
-  <path d="M55 62 L60 68 L70 55" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Hand-drawn marker details -->
-  <g fill="none" stroke="#9cebff" stroke-width="2" stroke-linecap="round" opacity=".85">
-    <path d="M30 72 Q31 77 34 80"/>
-    <path d="M89 46 Q92 51 91 56"/>
-    <path d="M58 109 L65 110"/>
-    <path d="M99 88 L103 84"/>
-  </g>
-
-  <!-- Small maintenance spark -->
-  <g fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
-    <path d="M108 18 L108 27"/>
-    <path d="M104 22 L112 22"/>
-    <path d="M16 103 L16 110"/>
-    <path d="M12 106 L20 106"/>
-  </g>
+<defs>
+<linearGradient id="gearBlue" x1="64" y1="0" x2="64" y2="128" gradientUnits="userSpaceOnUse"><stop offset="0.219" stop-color="#0078d4"/><stop offset="1" stop-color="#005ba1"/></linearGradient>
+<linearGradient id="innerBlue" x1="64.09" y1="31.47" x2="64.09" y2="96.53" gradientUnits="userSpaceOnUse"><stop offset="0.191" stop-color="#005ba1"/><stop offset="1" stop-color="#003067"/></linearGradient>
+<linearGradient id="topCyan" x1="42.9" y1="33.14" x2="87.05" y2="33.14" gradientUnits="userSpaceOnUse"><stop offset="0.314" stop-color="#9cebff"/><stop offset="1" stop-color="#50e6ff"/></linearGradient>
+<linearGradient id="rightCyan" x1="61.39" y1="59.22" x2="105.42" y2="59.22" gradientUnits="userSpaceOnUse"><stop offset="0.357" stop-color="#50e6ff"/><stop offset="1" stop-color="#32bedd"/></linearGradient>
+<linearGradient id="bottomCyan" x1="36.4" y1="94.86" x2="83.12" y2="94.86" gradientUnits="userSpaceOnUse"><stop offset="0.314" stop-color="#9cebff"/><stop offset="1" stop-color="#50e6ff"/></linearGradient>
+<linearGradient id="leftCyan" x1="43.83" y1="42.57" x2="43.83" y2="92.87" gradientUnits="userSpaceOnUse"><stop offset="0.357" stop-color="#50e6ff"/><stop offset="1" stop-color="#32bedd"/></linearGradient>
+</defs>
+<path d="M127.95 68.36 L127.98 59.77 Q127.96 57.03 125.24 55.97 L110.83 51.16 Q110.01 50.89 109.60 49.97 L106.49 41.88 Q106.16 41.08 106.58 40.27 L113.15 27.03 Q114.36 24.65 112.42 22.42 L105.96 15.98 Q104.13 14.15 101.37 15.23 L88.17 21.82 Q87.35 22.20 86.56 21.90 L78.46 18.77 Q77.62 18.47 77.32 17.61 L71.75 2.97 Q70.87 0.40 67.99 0.39 L59.34 0.37 Q56.57 0.40 55.55 3.07 L50.74 16.89 Q50.43 17.75 49.68 18.06 L41.53 21.82 Q40.59 22.18 39.80 21.85 L26.69 15.23 Q24.27 14.06 22.07 15.96 L15.60 22.39 Q13.72 24.35 14.85 27.05 L21.46 40.24 Q21.83 41.06 21.53 41.84 L18.39 49.96 Q18.05 50.83 17.21 51.14 L2.60 56.62 Q0.03 57.54 0.05 60.42 L0.07 69.04 Q0.07 71.83 2.75 72.86 L17.19 77.67 Q18.08 77.99 18.44 78.88 L21.53 86.96 Q21.86 87.81 21.43 88.60 L14.84 101.80 Q13.72 104.30 15.56 106.40 L22.05 112.86 Q24.04 114.76 26.69 113.59 L39.88 107.04 Q40.66 106.63 41.49 106.97 L49.63 110.07 Q50.46 110.39 50.75 111.20 L56.23 125.17 Q57.19 127.70 60.02 127.65 L68.69 127.66 Q71.41 127.62 72.48 124.93 L77.29 110.51 Q77.62 109.58 78.51 109.26 L86.57 106.16 Q87.37 105.84 88.16 106.23 L101.39 112.83 Q104.03 113.95 106.02 112.08 L112.43 105.69 Q114.38 103.68 113.17 101.02 L106.65 88.62 Q106.17 87.80 106.52 86.98 L109.63 78.85 Q109.91 78.05 110.79 77.74 L125.41 72.27 Q127.99 71.34 127.95 68.36 Z M64.10 96.52 C46.10 96.55 31.54 81.99 31.54 64.01 C31.55 46.06 46.10 31.47 64.10 31.47 C82.03 31.49 96.61 46.05 96.61 64.01 C96.60 81.98 82.02 96.50 64.10 96.52 Z" fill="url(#gearBlue)" fill-rule="evenodd" stroke="#005ba1" stroke-width="0.58" stroke-linejoin="round"/>
+<path d="M96.61 64.01 C96.58 81.98 82.03 96.52 64.10 96.53 C46.12 96.49 31.53 81.97 31.54 64.01 C31.56 46.04 46.12 31.49 64.10 31.47 C82.04 31.50 96.59 46.05 96.61 64.01 Z" fill="url(#innerBlue)" stroke="#003d75" stroke-width="0.55" stroke-linejoin="round"/>
+<path d="M90.83 37.97 Q90.03 37.57 89.25 37.18 C80.55 33.02 70.35 32.70 61.39 36.22 Q52.72 36.33 46.30 40.18 Q44.18 41.49 43.22 39.21 L42.43 37.62 Q41.35 35.35 43.35 33.96 C53.82 27.49 66.14 26.74 77.98 32.04 Q85.54 35.04 90.83 37.97 Z" fill="url(#topCyan)" stroke="#42c5e4" stroke-width="0.52" stroke-linejoin="round"/>
+<path d="M89.18 83.60 L82.24 69.75 Q80.88 67.40 83.56 66.54 L88.78 67.43 C90.70 59.48 88.92 51.47 83.96 45.78 C78.49 39.34 70.19 36.45 61.39 36.22 C70.35 32.70 80.55 33.02 89.25 37.18 Q90.03 37.57 90.83 37.97 C97.76 45.33 100.20 54.38 99.76 65.00 Q99.64 67.28 99.40 68.86 L104.11 69.84 Q106.94 70.53 104.07 73.31 L94.56 81.20 L92.12 83.22 Q90.04 85.07 89.18 83.60 Z" fill="url(#rightCyan)" stroke="#249ebc" stroke-width="0.55" stroke-linejoin="round"/>
+<path d="M36.40 90.03 Q37.21 90.46 37.99 90.82 C46.65 94.97 56.86 95.29 65.85 91.77 Q74.50 91.69 80.94 87.82 Q83.04 86.50 84.04 88.80 L84.83 90.38 Q85.83 92.66 83.69 94.04 C73.32 100.55 60.90 101.22 49.40 96.00 Q41.60 92.95 36.40 90.03 Z" fill="url(#bottomCyan)" stroke="#42c5e4" stroke-width="0.52" stroke-linejoin="round"/>
+<path d="M38.06 44.41 L45.00 58.25 Q46.35 60.68 43.75 61.50 L38.36 60.60 C36.56 68.52 38.28 76.56 43.33 82.19 C48.80 88.66 57.10 91.54 65.85 91.77 C56.86 95.29 46.65 94.97 37.99 90.82 Q37.21 90.46 36.40 90.03 C29.41 82.68 27.07 73.60 27.48 63.02 Q27.56 60.73 27.81 59.15 L23.10 58.17 Q20.29 57.47 23.16 54.72 L32.68 46.80 L35.13 44.80 Q37.28 42.92 38.06 44.41 Z" fill="url(#leftCyan)" stroke="#249ebc" stroke-width="0.55" stroke-linejoin="round"/>
 </svg>

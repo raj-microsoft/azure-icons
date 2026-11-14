@@ -1,69 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Network Watcher (sketch)</title>
-  
-  <desc>Azure-blue network globe examined through a cyan magnifying glass with a green monitoring heartbeat, illustrated using uneven marker strokes.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Network Watcher (sketch)</title>
 
   <defs>
-    <radialGradient id="globeBlue" cx="67" cy="44" r="49" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset=".52" stop-color="#4394E7"/>
-      <stop offset="1" stop-color="#0078D4"/>
+    <radialGradient id="globeBlue" cx="6.61" cy="45.13" r="6.4" gradientTransform="translate(5.04 -35.89) scale(.94)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5ea0ef"/>
+      <stop offset=".28" stop-color="#5b9fee"/>
+      <stop offset=".47" stop-color="#529bec"/>
+      <stop offset=".64" stop-color="#4394e7"/>
+      <stop offset=".79" stop-color="#2d8be1"/>
+      <stop offset=".93" stop-color="#117fd9"/>
+      <stop offset="1" stop-color="#0078d4"/>
     </radialGradient>
-    <linearGradient id="lensCyan" x1="24" y1="57" x2="78" y2="112" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#50E6FF"/>
-      <stop offset="1" stop-color="#32BEDD"/>
-    </linearGradient>
   </defs>
 
-  <!-- Network globe -->
-  <path d="M79 8            C103 8 120 27 120 51            C120 75 102 94 79 94            C55 94 37 75 37 51            C37 27 55 8 79 8Z" fill="url(#globeBlue)" stroke="#1768B4" stroke-width="3.3"/>
+  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
 
-  <!-- Globe meridians -->
-  <path d="M79 10            C65 19 59 35 59 51            C59 68 65 84 79 92            M79 10            C93 19 99 35 99 51            C99 68 93 84 79 92" stroke="#D2EEFF" stroke-width="2.7"/>
+    <!-- Original diagonal handle -->
+    <rect x="-.15" y="14.53" width="5.89" height="1.34" rx=".63" transform="translate(-9.93 6.43) rotate(-45)" fill="#198ab3"/>
 
-  <path d="M79 10 Q77 31 79 51            Q81 72 79 92" stroke="#E5F7FF" stroke-width="2" opacity=".85"/>
+    <!--
+      Open blue globe grid.
+      Original compound-path geometry preserves transparent
+      cells between the blue meridians and parallels.
+    -->
+    <path d="M17 4.35          A6.44 6.44 0 0 0 16.25 3          A6.24 6.24 0 0 0 7.51 1.76          l-.06.05          A6.18 6.18 0 0 0 5.24 5.14          c0 .22-.1.44-.13.66          A6.25 6.25 0 0 0 7 11.26          h0          a2.09 2.09 0 0 0 .22.2          l.02.02          .22.18          h0          a5.76 5.76 0 0 0 .94.6          l.1.06          .17.07          .14.07          .15.06          .16.06          .14.05          .2.06          .11.03          .29.08          h0          l.32.07          h.08          a1.9 1.9 0 0 0 .25 0          l.1.02          h1.07          l.23-.02          h0          l.12-.02          a5.1 5.1 0 0 0 .76-.15          h0          a6.2 6.2 0 0 0 2.21-1.1          a6.36 6.36 0 0 0 1.13-1.13          A6.28 6.28 0 0 0 17 4.35          Z           M15.58 3.42          h-1.25          a5.92 5.92 0 0 0-.88-1.66          A5.34 5.34 0 0 1 15.58 3.42          Z           M11.67 1.42          a3.27 3.27 0 0 1 1.8 2          h-1.8          Z           M11.67 4.26          h2.07          a9.23 9.23 0 0 1 .33 2.11          h-2.4          Z           M11.67 7.17          h2.4          a9.23 9.23 0 0 1-.33 2.12          h-2.07          Z           M8.52 5.74          A8.73 8.73 0 0 1 8.8 4.22          h2.07          v2.11          H8.48          c.01-.2.02-.4.04-.59          Z           M10.87 1.38          v2          H9.08          A3.23 3.23 0 0 1 10.87 1.38          Z           M7.94 2.44          l.02-.02          a5.83 5.83 0 0 1 1.1-.64          a6.12 6.12 0 0 0-.88 1.67          H7          a5.68 5.68 0 0 1 .94-1.01          Z           M6.45 4.22          H8          a9.11 9.11 0 0 0-.24 1.34          c0 .25-.05.51-.05.77          H5.85          a6.46 6.46 0 0 1 .15-.75          a6 6 0 0 1 .45-1.36          Z           M5.85 7.13          h1.83          A9.35 9.35 0 0 0 8 9.25          H6.45          a5.36 5.36 0 0 1-.6-2.12          Z           M7 10.07          l.02.02          h1.19          a5.92 5.92 0 0 0 .88 1.66          A5.31 5.31 0 0 1 7 10.07          Z           M10.89 12.07          a3.23 3.23 0 0 1-1.79-2          h1.79          Z           M10.87 9.23          H8.8          a9.24 9.24 0 0 1-.32-2.12          h2.39          Z           M12.4 11.67          a2 2 0 0 1-.73.42          v-2          h1.8          a4.44 4.44 0 0 1-1.07 1.58          Z           M14.6 11          h0          a5.19 5.19 0 0 1-1.15.68          a5.92 5.92 0 0 0 .88-1.66          h1.25          A5.35 5.35 0 0 1 14.6 11          Z           M16.08 9.25          h-1.5          a10.64 10.64 0 0 0 .29-2.12          h1.81          a5.27 5.27 0 0 1-.6 2.12          Z           M14.87 6.33          a10.64 10.64 0 0 0-.29-2.11          h1.51          a5.54 5.54 0 0 1 .6 2.11          Z" fill="url(#globeBlue)" fill-rule="evenodd" stroke="#167ed2" stroke-width=".025"/>
 
-  <!-- Globe latitudes -->
-  <path d="M45 30 Q79 42 113 30            M38 51 Q79 54 119 51            M45 72 Q79 60 113 72" stroke="#D2EEFF" stroke-width="2.8"/>
+    <!-- Foreground magnifying-glass lens -->
+    <path d="M10.40 10.94          C10.40 13.17 8.59 14.98 6.36 14.98          C4.13 14.98 2.32 13.17 2.32 10.94          C2.32 8.71 4.13 6.90 6.36 6.90          C8.59 6.90 10.40 8.71 10.40 10.94          Z" fill="#50e6ff"/>
 
-  <!-- Hand-inked globe edge highlights -->
-  <path d="M48 30 Q58 13 75 13            M91 14 Q108 20 114 36            M112 68 Q105 83 91 88" stroke="#B8E2FF" stroke-width="2" opacity=".8"/>
+    <!-- White circular lens interior -->
+    <path d="M9.52 10.87          C9.52 12.62 8.10 14.04 6.35 14.04          C4.60 14.04 3.18 12.62 3.18 10.87          C3.18 9.12 4.60 7.70 6.35 7.70          C8.10 7.70 9.52 9.12 9.52 10.87          Z" fill="#ffffff"/>
 
-  <!-- Magnifying glass handle -->
-  <path d="M30 99            L10 119" stroke="#167CA5" stroke-width="13"/>
+    <!-- Original green monitoring waveform -->
+    <path d="M4.72 10.94          l.80 1.86          .81-2.39          .67 1.36          .83-1.40          h1.29          A3.57 3.57 0 0 0 9 9.90          H7.61          l-.54.91          -.83-1.58          -.77 2.27          -.70-1.61          -.86 1.57          h-.46          a2.57 2.57 0 0 0 .15.47          h.58          Z" fill="#76bc2d"/>
 
-  <path d="M30 99 L10 119" stroke="#50BBDD" stroke-width="7"/>
-
-  <path d="M26 103 L13 116" stroke="#A4F1FF" stroke-width="2" opacity=".85"/>
-
-  <!-- Magnifying glass outer rim -->
-  <path d="M47 57            C64 57 78 71 78 88            C78 105 64 119 47 119            C30 119 16 105 16 88            C16 71 30 57 47 57Z" fill="url(#lensCyan)" stroke="#138FB8" stroke-width="3.5"/>
-
-  <!-- White monitoring lens -->
-  <path d="M47 64            C60 64 71 75 71 88            C71 101 60 112 47 112            C34 112 23 101 23 88            C23 75 34 64 47 64Z" fill="#FFFFFF" stroke="#A9EAF6" stroke-width="2.4"/>
-
-  <!-- Lens reflection -->
-  <path d="M28 83 Q31 71 43 69" stroke="#B5F1FF" stroke-width="2.5" opacity=".9"/>
-
-  <!-- Monitoring heartbeat -->
-  <path d="M26 94            L33 94            L39 82            L46 104            L53 77            L60 96            L65 87            L70 87" stroke="#76BC2D" stroke-width="4.3"/>
-
-  <!-- Fine heartbeat marker highlight -->
-  <path d="M39 85 L45 101            M53 80 L59 93" stroke="#B7EA83" stroke-width="1.5"/>
-
-  <!-- Small network junction dots -->
-  <circle cx="79" cy="30" r="2" fill="#E8F8FF"/>
-  <circle cx="99" cy="51" r="2" fill="#E8F8FF"/>
-  <circle cx="79" cy="72" r="2" fill="#E8F8FF"/>
-
-  <!-- Restrained sketchnote yellow accents -->
-  <path d="M116 12 L121 7            M121 21 L126 20            M22 49 L17 44" stroke="#FFD65A" stroke-width="2.7"/>
-
-  <!-- Hand-drawn observation sparkle -->
-  <path d="M22 17 L22 26            M18 21 L26 21" stroke="#FFD65A" stroke-width="2.5"/>
-
-  <circle cx="22" cy="21" r="1.6" fill="#FFE58A"/>
-
-  <!-- Loose marker annotation -->
-  <path d="M83 100 Q95 99 105 92            M105 92 L103 98            M105 92 L99 91" stroke="#FFD65A" stroke-width="2.3"/>
-
+  </g>
 </svg>
