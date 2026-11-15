@@ -1,39 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>StorSimple Data Managers (sketch)</title>
-  <defs>
-    <linearGradient id="storageBlue" x1="18" y1="72" x2="110" y2="72" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#005ba1"/>
-      <stop offset=".36" stop-color="#0071c8"/>
-      <stop offset=".52" stop-color="#0078d4"/>
-      <stop offset=".82" stop-color="#006abb"/>
-      <stop offset="1" stop-color="#005ba1"/>
-    </linearGradient>
-    <linearGradient id="waterBlue" x1="29" y1="9" x2="99" y2="29" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#50e6ff"/>
-      <stop offset="1" stop-color="#00bcf2"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>StorSimple Data Managers (sketch)</title>
+  
 
-  <g transform="scale(7.111111)">
-    <!-- Storage cylinder -->
-    <path d="M9,5.14c-3.52,0-6.37-1-6.37-2.33l0,12.35              c0,1.27,2.8,2.31,6.28,2.34H9              c3.52,0,6.38-1,6.38-2.31l0-12.35              C15.39,4.12,12.53,5.15,9,5.14Z" fill="url(#storageBlue)" stroke="#0065ad" stroke-width=".035" stroke-linejoin="round"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
 
-    <!-- Top rim -->
-    <path d="M15.39,2.84c0,1.28-2.86,2.31-6.38,2.3              s-6.37-1-6.37-2.33S5.5.49,9,.5              s6.37,1.06,6.37,2.34" fill="#f2f2f2" stroke="#d9f5ff" stroke-width=".025"/>
+    <!-- Cylindrical storage body -->
+    <path d="       M19.2 21.3       C19.1 33.9 39.3 41.2 64.1 41.2       C88.9 41.1 109 33.9 109 21.3       L108.8 105.8       C108.8 117.2 88.9 124 64.1 124       C39.2 124 19.1 117.2 19.1 105.8Z" fill="#0871c3" stroke="#174d83" stroke-width="3.5"/>
 
-    <!-- Cyan top surface -->
-    <path d="M13.9,2.65c0,.81-2.19,1.47-4.89,1.46              S4.13,3.44,4.13,2.62              6.32,1.15,9,1.16s4.89.67,4.88,1.49" fill="url(#waterBlue)"/>
+    <!-- Side marker details -->
+    <path d="M25.2 42       L25.3 102.7       Q26 111.4 39.1 115.2" stroke="#68b8f4" stroke-width="2.3"/>
 
-    <path d="M9,3a11.86,11.86,0,0,0-3.88.56              A11.39,11.39,0,0,0,9,4.11              a11.44,11.44,0,0,0,3.88-.57              A12.08,12.08,0,0,0,9,3Z" fill="#198ab3"/>
+    <path d="M102 42       L101.8 102" stroke="#68b8f4" stroke-width="2.1"/>
 
-    <!-- Original gear silhouette -->
-    <path d="M12.47,10.18l-.82-.26              c-.05,0-.08,0-.1-.09l-.17-.42              a.38.38,0,0,1,0-.15              c.12-.26.24-.52.38-.77              a.11.11,0,0,0,0-.16              c-.14-.14-.28-.26-.41-.41              a.13.13,0,0,0-.22,0              l-.7.35c-.05,0-.08,0-.13,0l-.41-.17              A.14.14,0,0,1,9.73,8              c-.1-.27-.2-.54-.28-.81              a.11.11,0,0,0-.1-.09H8.68              c-.07,0-.08,0-.12.08              -.08.28-.17.55-.27.82              0,0,0,.09-.09.1l-.42.17              a.22.22,0,0,1-.16,0l-.8-.39              a.11.11,0,0,0-.12,0              c-.15.16-.3.33-.47.48              a.08.08,0,0,0,0,.12              c.13.25.25.51.39.76              a.18.18,0,0,1,0,.16l-.18.39              a.14.14,0,0,1-.12.12              c-.27.1-.54.2-.81.28              -.07,0-.09.05-.09.11V11              c0,.07,0,.1.08.12              .28.08.55.19.82.27              a.13.13,0,0,1,.1.11              c0,.13.12.27.17.41              a.19.19,0,0,1,0,.15              c-.14.27-.26.54-.39.81              a.09.09,0,0,0,0,.11l.5.49              s.05.05.08,0l.48-.25L7.61,13              s.09,0,.14,0l.42.17              c.05,0,.07.05.09.1              .1.27.2.56.28.83              a.12.12,0,0,0,.11.09h.66              c.07,0,.09,0,.12-.08              .09-.27.19-.55.27-.82              a.15.15,0,0,1,.09-.1l.43-.17              a.15.15,0,0,1,.13,0l.8.39              a.1.1,0,0,0,.12,0              c.15-.16.31-.33.48-.48              s.05-.07,0-.14              a8.1,8.1,0,0,1-.39-.78              .11.11,0,0,1,0-.15              c.06-.14.12-.27.17-.41              a.13.13,0,0,1,.1-.1              c.27-.1.55-.21.82-.29              .07,0,.08-.05.08-.12              0-.24,0-.44,0-.65S12.54,10.21,12.47,10.18Z" fill="#fff" stroke="#f4fbff" stroke-width=".025" stroke-linejoin="round"/>
+    <path d="M24 108       C41 123 87 125 104 108" stroke="#004d89" stroke-width="2.3"/>
 
-    <!-- Power-button center: vertical stem and open circular arc -->
-    <path d="M9.205,9.17              A.86,.86 0 1 1 8.795,9.17" fill="none" stroke="#0078d4" stroke-width=".17" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Storage top rim -->
+    <path d="       M19.2 21.2       C19.2 10.2 39.1 5.1 64 5.1       C88.8 5.1 109 10.9 109 21.2       C109 32.3 88.9 39.1 64 39.1       C39.2 39.1 19.2 32.4 19.2 21.2Z" fill="#f2f2f2" stroke="#174d83" stroke-width="3.3"/>
 
-    <path d="M9,8.94              L9,10.05" fill="none" stroke="#0078d4" stroke-width=".18" stroke-linecap="round"/>
+    <!-- Cyan inset ellipse -->
+    <path d="       M29.1 20.4       C29.1 13.2 44.7 10 64 10       C83.3 10 99 14 99 20.8       C99 27.8 83.2 33.1 64 33.1       C44.9 33.1 29.1 27.6 29.1 20.4Z" fill="#50e6ff" stroke="#198ab3" stroke-width="2.5"/>
 
-    <!-- Restrained hand-drawn marker character -->
-    <path d="M8.99,8.96L9.015,9.01              M8.97,10.08L9.02,10.10" fill="none" stroke="#005ba1" stroke-width=".045" stroke-linecap="round"/>
+    <!-- Dark teal top detail -->
+    <path d="       M37.1 26.1       C44.3 22.1 54.2 21.2 64 21.2       C74.7 21.2 85.6 23.1 92.2 26.9       C84.9 30.8 74.8 32.9 64 32.9       C53.6 32.9 43.5 30.1 37.1 26.1Z" fill="#198ab3" stroke="#087ca5" stroke-width="1.8"/>
+
+    <!-- White management gear -->
+    <path d="       M59.2 51       L68.9 51       L72 59       Q75.1 60.2 78 62       L86 59       L93 66       L89 74       Q91 77 92 80       L100 83       L100 93       L92 96       Q91 99 89 102       L93 110       L86 117       L78 113       Q75 115 72 116       L69 123       L59 123       L56 116       Q53 115 50 113       L42 117       L35 110       L39 102       Q37 99 36 96       L28 93       L28 83       L36 80       Q37 77 39 74       L35 66       L42 59       L50 62       Q53 60 56 59Z" fill="#ffffff" stroke="#174d83" stroke-width="2.8"/>
+
+    <!-- Gear inner circular opening -->
+    <path d="       M64 67       C76 67 85 76 85 88       C85 100 76 109 64 109       C52 109 43 100 43 88       C43 76 52 67 64 67Z" fill="#0871c3" stroke="#ffffff" stroke-width="3"/>
+
+    <!-- Central power button symbol -->
+    <path d="       M64 76       L64 88" stroke="#ffffff" stroke-width="4.2"/>
+
+    <path d="       M56.3 79.2       C52.8 81.8 51.4 85.1 51.8 89       C52.1 95.2 57.2 99.7 64 99.7       C70.6 99.7 75.7 95.2 76.1 89       C76.5 85.1 75 81.8 71.6 79.2" stroke="#ffffff" stroke-width="4.2"/>
+
   </g>
 </svg>
