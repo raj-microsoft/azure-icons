@@ -1,29 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Data Collection Rules (sketch)</title>
-  <defs>
-    <linearGradient id="a" x1="10.463" y1="15.888" x2="10.463" y2="-2.112" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-    <linearGradient id="b" x1="7.179" y1="0.537" x2="7.179" y2="12.51" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#50e6ff"/>
-      <stop offset="1" stop-color="#32bedd"/>
-    </linearGradient>
-  </defs>
-
-  <g transform="scale(7.111111)">
-    <!-- Main blue document panel -->
-    <rect x="3.113" y="0" width="14.7" height="18" rx="0.6" fill="url(#a)"/>
-
-    <!-- Cyan header panel -->
-    <rect x="0.187" y="1.867" width="13.985" height="7.291" rx="0.541" fill="url(#b)"/>
-
-    <!-- First blank checkbox and horizontal rule -->
-    <path d="       M11.887,4.423       H5.069       a.122,.122 0 0 1 -.124,-.120       V3.9       a.123,.123 0 0 1 .123,-.123       h6.818       a.124,.124 0 0 1 .124,.123       v.4       a.122,.122 0 0 1 -.122,.123       Z       M3.987,4.714       V3.488       a.212,.212 0 0 0 -.212,-.212       H2.547       a.212,.212 0 0 0 -.212,.211       V4.714       a.211,.211 0 0 0 .211,.211       H3.773       a.211,.211 0 0 0 .214,-.211       Z" fill="#fff"/>
-
-    <!-- Second blank checkbox and horizontal rule -->
-    <path d="       M11.886,7.023       H5.069       A.124,.124 0 0 1 4.945,6.9       V6.494       a.124,.124 0 0 1 .124,-.124       h6.816       a.125,.125 0 0 1 .124,.124       v.4       a.125,.125 0 0 1 -.123,.125       Z        M3.68,6.194       H2.657       v1.02       H3.68       Z        M3.787,5.873       A.216,.216 0 0 1 4,6.087       V7.32       a.214,.214 0 0 1 -.214,.213       H2.55       a.213,.213 0 0 1 -.213,-.213       V6.083       a.213,.213 0 0 1 .213,-.213       Z" fill="#fff" opacity="0.8"/>
-
-    <!-- Original directional arrow -->
-    <path d="       M13.382,11.108       a.121,.121 0 0 0 -.084,-.035       a.118,.118 0 0 0 -.117,.119       v1.365       h0       v.122       H3.113       v1.773       H13.181       v1.385       a.118,.118 0 0 0 .2,.084       L15.705,13.6       l0,0       a.117,.117 0 0 0 0,-.166       Z" fill="#83b9f9"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Data Collection Rules (sketch)</title>
+<path d="M25 3Q23 3 23 7L23 120Q23 125 27 125L120 125Q125 124 125 120L125 7Q125 3 121 3Z" fill="#3789DF" stroke="#164F84" stroke-width="3.2"/>
+<path d="M116 14Q119 13 122 15M120 32Q121 51 120 65M120 91Q122 108 119 117" stroke="#B7DFFF" stroke-width="1.8" opacity=".65"/>
+<path d="M5 16Q4 15 7 15L96 15Q99 15 99 19L99 61Q99 65 95 65L7 65Q4 65 4 61Z" fill="#42CBE8" stroke="#164F84" stroke-width="3.2"/>
+<path d="M18 25Q18 24 20 24L27 24Q29 24 29 26L29 33Q29 35 27 35L20 35Q18 35 18 33Z" fill="#FFFFFF" stroke="#155C85" stroke-width="2.5"/>
+<path d="M36 27Q49 26 62 27Q75 26 85 27" stroke="#164F84" stroke-width="5.8"/>
+<path d="M36 27Q49 26 62 27Q75 26 85 27" stroke="#FFFFFF" stroke-width="4"/>
+<path d="M18 43Q18 42 20 42L27 42Q29 42 29 44L29 51Q29 53 27 53L20 53Q18 53 18 51Z" fill="#42CBE8" stroke="#164F84" stroke-width="3"/>
+<path d="M19 44Q20 43 22 43L27 43Q28 43 28 45L28 50Q28 52 26 52L21 52Q19 52 19 50Z" stroke="#FFFFFF" stroke-width="1.5"/>
+<path d="M36 45Q50 44 64 45L85 45" stroke="#164F84" stroke-width="5.8"/>
+<path d="M36 45Q50 44 64 45L85 45" stroke="#FFFFFF" stroke-width="4"/>
+<path d="M25 91Q23 91 23 94L23 100Q23 103 26 103L94 103L94 112Q94 115 97 112L112 99Q115 97 112 95L97 81Q94 78 94 82L94 91Z" fill="#83B9F9" stroke="#164F84" stroke-width="3.2"/>
+<path d="M34 96Q52 95 72 96M77 96Q84 96 89 96" stroke="#E8F5FF" stroke-width="2" opacity=".8"/>
+<path d="M105 19L106 14M101 21L97 19M109 22L113 19" stroke="#FFCC4D" stroke-width="2.2"/>
 </svg>
