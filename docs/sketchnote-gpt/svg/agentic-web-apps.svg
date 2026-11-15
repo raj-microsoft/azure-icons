@@ -1,41 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Agentic Web Apps (sketch)</title>
-  <defs>
-    <linearGradient id="chatBlue" x1="6.26" y1="13.7" x2="6.26" y2="1.18" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2764e7"/>
-      <stop offset=".19" stop-color="#3478f0"/>
-      <stop offset=".4" stop-color="#3f87f8"/>
-      <stop offset=".65" stop-color="#4591fc"/>
-      <stop offset="1" stop-color="#4894fe"/>
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Agentic Web Apps (sketch)</title>
 
-    <linearGradient id="globeGreen" x1="12.32" y1="16.75" x2="12.32" y2="4.07" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#197123"/>
-      <stop offset=".24" stop-color="#318b35"/>
-      <stop offset=".51" stop-color="#4aa647"/>
-    </linearGradient>
-
-    <linearGradient id="dots" x1="0" y1="7.9" x2="0" y2="6.23" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#cfcfcf"/>
-      <stop offset=".33" stop-color="#e5e5e5"/>
-      <stop offset="1" stop-color="#f2f2f2"/>
-    </linearGradient>
-  </defs>
-
-  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
-
-    <!-- Original blue chat bubble silhouette -->
-    <path d="M6.26,1.18C2.8,1.18,0,3.99,0,7.44          c0,.95.21,1.84.59,2.65          -.25,1.02-.47,2.11-.57,2.62          -.11.58.39,1.08.96.98          .52-.09,1.65-.3,2.7-.54          .79.36,1.66.55,2.58.55          3.46,0,6.26-2.8,6.26-6.26          S9.72,1.18,6.26,1.18Z" fill="url(#chatBlue)" stroke="#2764e7" stroke-width=".075"/>
-
-    <!-- Original open-background globe:
-         exact filled lattice geometry, no solid circle -->
-    <path d="M12.38,4.13          c.41.75.68,1.58.78,2.46          .2.47.37,1.02.49,1.63          h-.48          c-.04.33-.09.64-.17.95          h.8          c.04.41.07.83.07,1.27          0,.67-.06,1.32-.15,1.91          h-2.54          c-.36.36-.76.68-1.19.95          h3.53          c-.42,1.54-1.14,2.55-1.87,2.55          s-1.42-.96-1.84-2.44          c-.28.17-.57.31-.87.44          .19.62.43,1.17.72,1.62          -.72-.28-1.35-.72-1.88-1.26          -.37.08-.75.14-1.13.16          1.17,1.48,2.97,2.43,5,2.43          3.51,0,6.36-2.85,6.36-6.36          0-3.26-2.46-5.95-5.62-6.32Z           M13.69,5.53          l-.07-.11.18.08          c1.22.54,2.21,1.51,2.76,2.73          h-1.94          c-.19-1.06-.51-1.99-.94-2.7Z           M16.11,13.5          c-.61.89-1.47,1.59-2.49,1.99          .37-.58.67-1.32.87-2.17          h1.73          l-.12.18Z           M14.68,12.36          c.09-.6.14-1.25.14-1.91          0-.43-.02-.86-.06-1.27          h2.14          c.1.41.15.84.15,1.27          0,.67-.12,1.32-.35,1.91          h-2.02Z" fill="url(#globeGreen)" fill-rule="nonzero" stroke="#318b35" stroke-width=".045"/>
-
-    <!-- Three original light-grey conversation dots -->
-    <path d="M6.26,6.23          c.46,0,.83.37.83.83          s-.37.83-.83.83          -.83-.37-.83-.83          .37-.83.83-.83Z" fill="url(#dots)"/>
-
-    <path d="M3.74,6.23          c.46,0,.83.37.83.83          s-.37.83-.83.83          -.83-.37-.83-.83          .37-.83.83-.83Z" fill="url(#dots)"/>
-
-    <path d="M8.76,6.23          c.46,0,.83.37.83.83          s-.37.83-.83.83          -.83-.37-.83-.83          .37-.83.83-.83Z" fill="url(#dots)"/>
-
-  </g>
+<defs><clipPath id="globeClip"><path d="M86 33 C105 32 122 47 125 67 C130 89 116 109 98 116 C79 123 60 111 52 94 C44 76 51 53 67 40 C73 36 80 33 86 33Z"/></clipPath></defs>
+<path d="M86 33 C105 32 122 47 125 67 C130 89 116 109 98 116 C79 123 60 111 52 94 C44 76 51 53 67 40 C73 36 80 33 86 33Z" fill="#36943D" stroke="#185C2C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M87 35 C106 34 120 49 123 68 C127 89 114 107 97 114" stroke="#185C2C" stroke-width="1.5" stroke-linecap="round" opacity=".9"/>
+<g clip-path="url(#globeClip)" fill="none" stroke="#D9F1D5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M76 39 C66 51 62 66 63 80 C63 94 69 106 78 113" stroke-width="2.7"/>
+<path d="M87 35 C83 53 83 96 88 117" stroke-width="2.5"/>
+<path d="M99 39 C110 52 114 68 112 82 C111 96 105 107 97 114" stroke-width="2.6"/>
+<path d="M55 58 C73 52 99 52 119 59" stroke-width="2.5"/>
+<path d="M51 77 C73 71 102 72 126 77" stroke-width="2.7"/>
+<path d="M54 96 C74 90 102 91 119 97" stroke-width="2.5"/>
+</g>
+<path d="M44 10 C22 9 5 25 4 46 C2 56 6 66 11 73 C9 80 6 88 5 92 C5 95 8 97 12 96 L32 91 C41 95 51 96 61 92 C79 87 89 70 89 51 C89 29 71 12 50 10 C48 10 46 10 44 10Z" fill="#438BFA" stroke="#174F85" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="none" stroke="#174F85" stroke-linecap="round" stroke-linejoin="round">
+<path d="M43 12 C23 11 7 27 6 46 C5 57 8 65 13 72" stroke-width="1.5"/>
+<path d="M7 91 C8 93 10 93 13 92 L32 89" stroke-width="1.4"/>
+<path d="M35 93 C44 96 54 95 62 91 C79 85 87 70 87 53" stroke-width="1.3"/>
+</g>
+<g fill="#F2F2F2" stroke="#174F85" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M21.5 50 C21.5 47 23.8 44.7 27 44.6 C30.2 44.5 32.5 46.9 32.5 50 C32.5 53.1 30.2 55.4 27 55.4 C23.8 55.4 21.5 53.1 21.5 50Z"/>
+<path d="M39.5 50 C39.5 47 41.8 44.7 45 44.6 C48.2 44.5 50.5 46.9 50.5 50 C50.5 53.1 48.2 55.4 45 55.4 C41.8 55.4 39.5 53.1 39.5 50Z"/>
+<path d="M57.5 50 C57.5 47 59.8 44.7 63 44.6 C66.2 44.5 68.5 46.9 68.5 50 C68.5 53.1 66.2 55.4 63 55.4 C59.8 55.4 57.5 53.1 57.5 50Z"/>
+</g>
+<g fill="none" stroke="#FFD34E" stroke-width="2.5" stroke-linecap="round"><path d="M110 25 L110 30"/><path d="M107 28 L113 28"/><path d="M19 103 Q25 106 31 104"/><path d="M39 109 L43 108"/></g>
 </svg>

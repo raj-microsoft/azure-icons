@@ -1,28 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>AI Gateway (sketch)</title>
-  <defs>
-    <linearGradient id="leftRibbon" x1="-611.4" y1="-205.23" x2="-611.4" y2="-224.06" gradientTransform="translate(617.13 -205.76) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3BD5FF"/>
-      <stop offset=".37" stop-color="#0FAFFF"/>
-      <stop offset=".71" stop-color="#9C6CFE"/>
-      <stop offset="1" stop-color="#BB45EA"/>
-    </linearGradient>
-    <linearGradient id="rightRibbon" x1="-604.85" y1="-207.94" x2="-604.85" y2="-224.5" gradientTransform="translate(617.13 -205.76) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset=".32" stop-color="#0094F0"/>
-      <stop offset=".65" stop-color="#6864F6"/>
-      <stop offset="1" stop-color="#A931D8"/>
-    </linearGradient>
-    <radialGradient id="orb" cx="114.65" cy="-115.18" fx="114.65" fy="-115.18" r=".96" gradientTransform="translate(9.87 -881.72) rotate(45) scale(5.47 -5.47)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#29C3FF"/>
-      <stop offset=".23" stop-color="#4894FE"/>
-      <stop offset=".5" stop-color="#6864F6"/>
-      <stop offset=".89" stop-color="#A931D8"/>
-    </radialGradient>
-  </defs>
-
-  <g transform="scale(7.111111)">
-    <path d="M11.02 1.15C10.47.65 9.76.37 9 .37C8.19.37 7.44.68 6.87 1.25L1.26 6.87C.69 7.44.38 8.19.38 9s.31 1.56.88 2.13l2.77 2.77 1.2 1.2c.83.83 2.12.94 3.07.33.05-.03.08-.08.08-.13 0-.05-.01-.11-.05-.15L2.78 9.6c-.16-.16-.25-.38-.25-.6s.09-.44.25-.6l3.8-3.8 1.82-1.82.39-.38c.59-.59 1.35-.9 2.12-.93.08 0 .14-.05.17-.12.02-.07 0-.15-.05-.19Z" fill="url(#leftRibbon)"/>
-    <path d="M16.74 6.87 12.77 2.9c-.83-.83-2.12-.94-3.07-.33-.05.03-.08.08-.08.13 0 .05.01.11.05.15l5.55 5.55c.16.16.25.38.25.6s-.09.44-.25.6l-3.8 3.79-1.82 1.82-.39.38c-.59.59-1.34.89-2.11.93h-.01c-.07 0-.14.05-.16.12-.03.07 0 .15.05.19.55.5 1.27.78 2.02.78.8 0 1.56-.31 2.13-.88l5.62-5.62c.57-.57.88-1.32.88-2.13s-.31-1.56-.88-2.13Z" fill="url(#rightRibbon)"/>
-    <path d="M9 11.59c1.43 0 2.59-1.16 2.59-2.59S10.43 6.41 9 6.41 6.41 7.57 6.41 9 7.57 11.59 9 11.59Z" fill="url(#orb)"/>
-  </g>
-</svg>
+<path d="M68 17 C58 9 47 11 38 20 L11 46 C1 56 1 72 11 82 L36 106 C42 112 49 113 54 107 C57 104 58 102 55 99 L22 61 C19 58 19 56 22 53 L65 13 C66 12 67 12 68 12Z" fill="#35BDF5" stroke="#174F85" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="none" stroke="#174F85" stroke-linecap="round" stroke-linejoin="round"><path d="M65 15 C55 10 46 13 39 21 L13 47" stroke-width="1.5"/><path d="M8 64 C8 72 13 78 19 84" stroke-width="1.4"/><path d="M37 104 Q45 112 52 106" stroke-width="1.3"/></g>
+<path d="M73 23 C79 15 85 14 91 20 L117 46 C127 56 127 72 117 82 L89 110 C79 120 64 123 53 115 C57 118 60 116 63 113 L106 73 C109 70 109 68 106 65 L75 34 C71 30 69 27 73 23Z" fill="#168FE5" stroke="#174F85" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="none" stroke="#174F85" stroke-linecap="round" stroke-linejoin="round"><path d="M75 25 Q82 16 90 22 L115 48" stroke-width="1.5"/><path d="M120 62 Q122 73 114 81 L88 108" stroke-width="1.4"/><path d="M56 116 Q66 121 76 117" stroke-width="1.3"/></g>
+<path d="M64 46 C75 45 83 53 83 64 C83 75 75 83 64 83 C53 83 45 75 45 64 C45 53 53 46 64 46Z" fill="#6864E8" stroke="#174F85" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M63 48 C54 48 47 55 47 64 C47 73 54 81 64 81 C73 81 81 74 81 64" stroke="#174F85" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<g stroke="#FFD34E" stroke-width="2.7" stroke-linecap="round"><path d="M90 9 L90 15"/><path d="M87 12 L93 12"/><path d="M10 95 Q16 103 23 107"/><path d="M15 111 L20 115"/></g></svg>
