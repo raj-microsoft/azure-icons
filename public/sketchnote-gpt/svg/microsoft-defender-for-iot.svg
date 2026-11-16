@@ -1,34 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Microsoft Defender for IoT (sketch)</title>
-  <defs>
-    <linearGradient id="shieldCyan" x1="64" y1="122.69" x2="64" y2="5.31" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#50e6ff"/>
-      <stop offset="1" stop-color="#9cebff"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Microsoft Defender for IoT (sketch)</title>
+  
+  <desc>Hand-drawn cyan security shield containing exactly five white network nodes and four branching connections, faithfully following the official icon's composition.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Original outer shield -->
-    <path d="M16.364 8.4c0 4.84-5.849 8.736-7.122 9.526a.459.459 0 0 1-.484 0c-1.273-.79-7.122-4.686-7.122-9.526V2.582a.463.463 0 0 1 .452-.462C6.638 2 5.59 0 9 0s2.362 2 6.912 2.12a.463.463 0 0 1 .452.462Z" fill="#50e6ff"/>
+  <!-- Outer protective shield -->
+  <path d="M64 4            C76 4 80 17 108 18            Q115 18 116 24            L116 60            C116 88 84 111 66 123            Q64 125 61 123            C43 112 12 88 12 60            L12 24            Q12 18 19 18            C47 17 52 4 64 4Z" fill="#50E6FF" stroke="#184B70" stroke-width="3.8"/>
 
-    <!-- Original inner shield -->
-    <path d="M15.754 8.454c0 4.438-5.365 8.011-6.532 8.736a.418.418 0 0 1-.444 0c-1.167-.725-6.532-4.3-6.532-8.736V3.114a.425.425 0 0 1 .415-.423C6.834 2.578 5.873.747 9 .747s2.166 1.831 6.339 1.944a.425.425 0 0 1 .415.423Z" fill="url(#shieldCyan)"/>
+  <!-- Flat inner shield face, slightly irregular -->
+  <path d="M64 10            C77 10 82 22 107 23            Q110 23 110 27            L110 60            C110 83 82 105 65 116            Q64 117 62 116            C45 104 18 83 18 60            L18 27            Q18 23 22 23            C47 22 51 10 64 10Z" fill="#9CEBFF" stroke="#2077A2" stroke-width="2.4"/>
 
-    <!-- Original five-node tree connections -->
-    <path d="M12.234 11.646 10.069 7.855l-.215.124.176-.13-2.452-3.486-.448.326 2.172 3.088-4.813.397.046.559 4.767-.396-1.581 2.627.475.286 1.626-2.705 1.931 3.375Z" fill="#e6e6e6"/>
+  <!-- Five-node tree: connections behind nodes -->
+  <g stroke="#42546C" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Upper-left node to central hub -->
+    <path d="M52 33 Q60 43 67 54"/>
 
-    <!-- Original central node -->
-    <circle cx="9.854" cy="8.037" r="1.281" fill="#fff"/>
+    <!-- Left node to central hub -->
+    <path d="M32 61 Q48 60 67 57"/>
 
-    <!-- Original upper-left node -->
-    <circle cx="7.39" cy="4.571" r="1.073" fill="#fff"/>
+    <!-- Central hub to lower-left node -->
+    <path d="M69 59 Q63 72 56 80"/>
 
-    <!-- Original left node -->
-    <circle cx="4.516" cy="8.519" r=".865" fill="#fff"/>
-
-    <!-- Original lower-middle node -->
-    <circle cx="8.014" cy="11.159" r=".865" fill="#fff"/>
-
-    <!-- Original lower-right node -->
-    <circle cx="12.005" cy="11.828" r="1.008" fill="#fff"/>
+    <!-- Central hub to lower-right node -->
+    <path d="M73 59 Q81 71 87 85"/>
   </g>
+
+  <!-- Subtle secondary marker retraces -->
+  <g stroke="#0078D4" stroke-width="1.5" stroke-linecap="round" opacity=".75">
+    <path d="M55 37 Q61 46 65 51"/>
+    <path d="M36 63 L56 60"/>
+    <path d="M66 66 L59 78"/>
+    <path d="M77 66 Q82 75 85 80"/>
+  </g>
+
+  <!-- Upper-left node -->
+  <path d="M52 25            C56 25 60 29 60 33            C60 38 57 41 52 41            C47 41 44 38 44 33            C44 29 47 25 52 25Z" fill="#FFFFFF" stroke="#274C70" stroke-width="3"/>
+
+  <!-- Central hub, largest node -->
+  <path d="M70 47            C75 47 80 51 80 57            C80 63 76 67 70 67            C64 67 60 63 60 57            C60 51 64 47 70 47Z" fill="#FFFFFF" stroke="#274C70" stroke-width="3.3"/>
+
+  <!-- Left node -->
+  <path d="M32 55            C36 55 39 58 39 62            C39 66 36 69 32 69            C28 69 25 66 25 62            C25 58 28 55 32 55Z" fill="#FFFFFF" stroke="#274C70" stroke-width="2.8"/>
+
+  <!-- Lower-left node -->
+  <path d="M56 75            C60 75 63 78 63 82            C63 86 60 89 56 89            C52 89 49 86 49 82            C49 78 52 75 56 75Z" fill="#FFFFFF" stroke="#274C70" stroke-width="2.8"/>
+
+  <!-- Lower-right node -->
+  <path d="M87 78            C92 78 95 82 95 86            C95 91 92 94 87 94            C82 94 79 91 79 86            C79 82 82 78 87 78Z" fill="#FFFFFF" stroke="#274C70" stroke-width="3"/>
+
+  <!-- Light handmade outline imperfections -->
+  <g stroke="#174A70" stroke-width="1.5" opacity=".65">
+    <path d="M45 31 Q47 25 52 24"/>
+    <path d="M62 52 Q65 47 70 46"/>
+    <path d="M26 60 Q27 56 31 54"/>
+    <path d="M50 79 Q52 75 56 74"/>
+    <path d="M81 83 Q83 79 87 77"/>
+  </g>
+
+  <!-- Sparse handwritten marker touches on shield -->
+  <g stroke="#0078D4" stroke-width="1.8" opacity=".55">
+    <path d="M23 29 Q35 29 44 25"/>
+    <path d="M83 24 Q94 29 104 29"/>
+    <path d="M23 70 Q27 85 40 96"/>
+    <path d="M104 70 Q101 83 92 93"/>
+  </g>
+
+  <!-- Restrained yellow marker ticks -->
+  <path d="M101 45 L104 41            M104 49 L108 46" stroke="#FFBD02" stroke-width="2.6"/>
+
 </svg>

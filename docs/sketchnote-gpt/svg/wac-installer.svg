@@ -1,55 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>WAC Installer (sketch)</title>
-  <defs>
-    <linearGradient id="toolbox-body" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#b3b2b3"/>
-      <stop offset=".38" stop-color="#afaeaf"/>
-      <stop offset=".76" stop-color="#a2a2a2"/>
-      <stop offset="1" stop-color="#979797"/>
-    </linearGradient>
-    <linearGradient id="blue-case" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5ea0ef"/>
-      <stop offset="1" stop-color="#0078d4"/>
-    </linearGradient>
-    <linearGradient id="handle" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3b3b3b"/>
-      <stop offset=".5" stop-color="#303030"/>
-      <stop offset="1" stop-color="#212121"/>
-    </linearGradient>
-    <linearGradient id="download-blue" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5ea0ef"/>
-      <stop offset="1" stop-color="#83b9f9"/>
-    </linearGradient>
-  </defs>
+  
+  <desc>Grey server tower with two cyan indicators, overlapping blue toolbox with dark handle and white latch, and a single blue download badge.</desc>
 
-  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Server tower -->
+  <path d="M14 7 Q14 3 19 3 L76 3 Q81 3 82 8            L82 105 Q81 110 76 110 L19 110            Q14 110 14 105 Z" fill="#ADADAD" stroke="#343941" stroke-width="3.5" stroke-linejoin="round"/>
 
-    <!-- Original vertical toolbox body -->
-    <path d="M11.725 15.036       C11.709 15.342 11.448 15.578 11.142 15.564       H2.209 C1.903 15.578 1.642 15.342 1.626 15.036       V.536 C1.642 .229 1.903 -.006 2.209 .008       H11.142 C11.448 -.006 11.709 .229 11.725 .536 Z" fill="url(#toolbox-body)" stroke="#858585" stroke-width=".12"/>
+  <!-- Upper server slot -->
+  <path d="M25 18 Q25 14 29 14 L64 14            Q69 14 69 19 L69 25            Q69 30 64 30 L29 30            Q25 30 25 25 Z" fill="#003067" stroke="#292F39" stroke-width="2.7" stroke-linejoin="round"/>
 
-    <!-- Upper original dark-blue compartment -->
-    <path d="M3.111 3.065       C3.081 2.428 3.542 1.888 4.209 1.856       H9.235 C9.873 1.886 10.365 2.428 10.336 3.065       C10.366 3.702 9.875 4.243 9.238 4.275       H4.209 C3.572 4.242 3.081 3.702 3.111 3.065 Z" fill="#003067" stroke="#002d60" stroke-width=".09"/>
+  <path d="M34 16 Q39 16 40 21 Q41 26 35 27            Q30 27 30 22 Q30 18 34 16 Z" fill="#50E6FF" stroke="#243947" stroke-width="2"/>
 
-    <!-- Lower original dark-blue compartment -->
-    <path d="M3.111 6.658       C3.084 6.023 3.574 5.485 4.209 5.453       H9.235 C9.871 5.483 10.363 6.021 10.336 6.658       C10.366 7.295 9.875 7.836 9.238 7.868       H4.209 C3.572 7.835 3.081 7.295 3.111 6.658 Z" fill="#003067" stroke="#002d60" stroke-width=".09"/>
+  <!-- Lower server slot -->
+  <path d="M25 43 Q25 39 29 39 L64 39            Q69 39 69 44 L69 50            Q69 55 64 55 L29 55            Q25 55 25 50 Z" fill="#003067" stroke="#292F39" stroke-width="2.7" stroke-linejoin="round"/>
 
-    <!-- Original cyan indicators -->
-    <circle cx="4.523" cy="3.065" r=".812" fill="#50e6ff" stroke="#168fc3" stroke-width=".07"/>
-    <circle cx="4.523" cy="6.658" r=".812" fill="#50e6ff" stroke="#168fc3" stroke-width=".07"/>
+  <path d="M34 41 Q39 41 40 46 Q41 51 35 52            Q30 52 30 47 Q30 43 34 41 Z" fill="#50E6FF" stroke="#243947" stroke-width="2"/>
 
-    <!-- Original blue toolbox casing on lower right -->
-    <path d="M8.108 17.993       V11.879 C8.108 11.527 8.394 11.242 8.747 11.242       H17.344 C17.696 11.242 17.982 11.527 17.983 11.879       V17.993 Z" fill="url(#blue-case)" stroke="#0069bd" stroke-width=".13"/>
+  <!-- Toolbox handle, behind the toolbox body -->
+  <path d="M75 80 L75 73 Q75 66 82 66            L105 66 Q112 66 112 73 L112 80            L106 80 L106 74 Q106 72 103 72            L84 72 Q81 72 81 75 L81 80 Z" fill="#353535" stroke="#202831" stroke-width="2.5" stroke-linejoin="round"/>
 
-    <!-- Original single toolbox handle -->
-    <path d="M15.827 11.241       H15.080 V10.164       C15.082 9.972 14.928 9.814 14.736 9.811       H11.389 C11.197 9.809 11.040 9.962 11.037 10.154       V11.241 H10.286 V10.164       C10.280 9.563 10.762 9.071 11.363 9.064       H14.702 C15.303 9.058 15.795 9.540 15.802 10.141 Z" fill="url(#handle)" stroke="#242424" stroke-width=".1"/>
+  <!-- Blue toolbox body -->
+  <path d="M59 81 Q59 79 63 79            L121 79 Q125 79 125 83            L125 123 Q125 126 121 126            L60 126 Q57 126 57 122            L57 84 Q57 81 59 81 Z" fill="#1684DF" stroke="#263747" stroke-width="3.4" stroke-linejoin="round"/>
 
-    <!-- Original white horizontal toolbox detail -->
-    <path d="M18 13.597 H8.108 V14.073 H12.042       V14.741 C12.042 14.899 12.170 15.027 12.328 15.027       H13.901 C14.059 15.027 14.187 14.899 14.187 14.741       V14.073 H18 Z" fill="#fff" stroke="#e4f2ff" stroke-width=".08"/>
+  <!-- Upper toolbox lid -->
+  <path d="M59 96 Q77 97 92 96            Q110 97 125 96            L125 100 Q109 101 92 100            Q75 101 59 100 Z" fill="#0869BA" stroke="#263747" stroke-width="2.2" stroke-linejoin="round"/>
 
-    <!-- Original circular download badge -->
-    <path d="M3.147 11.698       C1.409 11.698 0 13.107 0 14.845       C0 16.583 1.409 17.992 3.147 17.992       C4.885 17.992 6.294 16.583 6.294 14.845       C6.294 13.107 4.885 11.698 3.147 11.698 Z" fill="url(#download-blue)" stroke="#418bd5" stroke-width=".1"/>
+  <!-- White horizontal toolbox fastening strip -->
+  <path d="M59 97 L85 97 L85 101            L59 101 Z" fill="#F5FAFF" stroke="#34414A" stroke-width="1.2" stroke-linejoin="round"/>
 
-    <!-- Original single downward download arrow -->
-    <path d="M4.780 15.334       L3.349 16.765       C3.237 16.877 3.056 16.877 2.944 16.765       L1.513 15.334       C1.401 15.222 1.401 15.041 1.513 14.929       C1.625 14.817 1.806 14.817 1.918 14.929       L2.860 15.871 V13.128       C2.860 12.970 2.988 12.842 3.146 12.842       C3.304 12.842 3.432 12.970 3.432 13.128       V15.871 L4.374 14.929       C4.486 14.817 4.667 14.817 4.779 14.929       C4.891 15.041 4.892 15.222 4.780 15.334 Z" fill="#fff" stroke="#fff" stroke-width=".045"/>
+  <path d="M100 97 L124 97 L124 101            L100 101 Z" fill="#F5FAFF" stroke="#34414A" stroke-width="1.2" stroke-linejoin="round"/>
 
+  <!-- Central white toolbox latch -->
+  <path d="M85 97 L100 97 L100 105            Q100 107 98 107 L87 107            Q85 107 85 105 Z" fill="#FFFFFF" stroke="#293945" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <!-- Single download badge, overlapping server -->
+  <path d="M23 83            C35 82 45 91 45 104            C46 117 36 126 23 126            C10 126 1 117 1 104            C1 92 11 83 23 83 Z" fill="#72ACF3" stroke="#263747" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- One white downward arrow -->
+  <path d="M23 93            Q23 102 23 111            M15 106            L23 114            L31 106" fill="none" stroke="#293945" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M23 93            Q23 102 23 111            M15 106            L23 114            L31 106" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Restrained yellow marker accents -->
+  <g fill="none" stroke="#E6B93F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 17 L93 13"/>
+    <path d="M94 24 L99 22"/>
+  </g>
+
+  <!-- Subtle uneven sketch retraces along existing edges -->
+  <g fill="none" stroke="#3B4650" stroke-width="1.3" stroke-linecap="round" opacity=".8">
+    <path d="M17 10 Q16 27 17 41"/>
+    <path d="M26 17 Q25 22 26 27"/>
+    <path d="M26 44 Q25 49 27 53"/>
+    <path d="M61 84 Q60 89 61 94"/>
+    <path d="M122 105 Q123 114 122 121"/>
   </g>
 </svg>

@@ -1,29 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Backup Center (sketch)</title>
-  <defs>
-    <linearGradient id="cloudBlue" x1="79.47" y1="73.61" x2="79.47" y2="7.47" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset=".149" stop-color="#1882db"/>
-      <stop offset=".373" stop-color="#378fe4"/>
-      <stop offset=".594" stop-color="#4c99ea"/>
-      <stop offset=".806" stop-color="#5a9eee"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-  </defs>
+  
+  <desc>Azure-blue rear cloud, white foreground cloud with cyan outline, and a compact circular backup arrow surrounding a small blue settings gear.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Original cloud silhouette -->
-    <path d="M17.7 7.405a2.93 2.93 0 0 0-2.544-2.818A3.7 3.7 0 0 0 11.35 1.052a3.793 3.793 0 0 0-3.623 2.471A3.5 3.5 0 0 0 4.651 6.89a3.551 3.551 0 0 0 3.675 3.41 2.494 2.494 0 0 0 .324-.014H14.6a.6.6 0 0 0 .157-.024A2.966 2.966 0 0 0 17.7 7.405Z" fill="url(#cloudBlue)"/>
+  <!-- Rear Azure cloud -->
+  <path d="M34 49            Q33 39 39 32            Q46 24 56 25            Q62 12 75 9            Q88 6 98 14            Q108 22 108 33            Q119 35 123 44            Q129 56 122 66            Q117 75 106 75            L56 75            Q43 76 36 68            Q31 61 34 49 Z" fill="#438FDF" stroke="#233F56" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- Original white cloud layer -->
-    <path d="M10.777 9.965l.019.431.428.057a2.54 2.54 0 0 1 2.2 2.43 2.579 2.579 0 0 1-2.546 2.5h-.044l-.032.006-.035-.007h-6.6a3.232 3.232 0 0 1-1.238-.168 3.375 3.375 0 0 1-1.106-.643 3.324 3.324 0 0 1-.741-1.035 3.039 3.039 0 0 1 .559-3.21A3.147 3.147 0 0 1 3.6 9.36l.313-.037.109-.295a3.487 3.487 0 0 1 1.29-1.662 3.434 3.434 0 0 1 2-.6h.025a3.338 3.338 0 0 1 3.439 3.2Z" fill="#fff"/>
+  <!-- White foreground backup cloud -->
+  <path d="M28 68            Q32 52 46 48            Q60 43 72 51            Q83 59 83 71            Q96 73 101 84            Q107 97 98 108            Q92 116 79 116            L30 116            Q14 117 7 105            Q1 94 8 81            Q15 70 28 68 Z" fill="#FFFFFF" stroke="#263D4D" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- Original cyan cloud outline -->
-    <path d="M10.791 15.9l-.085-.019-6.539 0a3.738 3.738 0 0 1-1.4-.194 3.865 3.865 0 0 1-1.274-.741 3.815 3.815 0 0 1-.867-1.2 3.56 3.56 0 0 1 .644-3.755A3.65 3.65 0 0 1 3.549 8.863l0-.008a3.959 3.959 0 0 1 1.475-1.9 3.793 3.793 0 0 1 2.293-.689 3.852 3.852 0 0 1 3.954 3.677l.014.014a3.033 3.033 0 0 1 2.635 2.909 3.078 3.078 0 0 1-3.04 3.017ZM7.3 7.266A2.939 2.939 0 0 0 4.491 9.2l-.215.583-.617.072A2.654 2.654 0 0 0 2 10.67a2.546 2.546 0 0 0-.46 2.675 2.8 2.8 0 0 0 .623.863 2.8 2.8 0 0 0 .927.533 2.723 2.723 0 0 0 1.043.142H10.81l.01 0h.01a2.083 2.083 0 0 0 2.09-2.016 2.028 2.028 0 0 0-1.767-1.919l-.843-.111-.037-.852A2.842 2.842 0 0 0 7.353 7.266Z" fill="#50e6ff"/>
+  <!-- Cyan cloud contour -->
+  <path d="M28 68            Q32 52 46 48            Q60 43 72 51            Q83 59 83 71            Q96 73 101 84            Q107 97 98 108            Q92 116 79 116            L30 116            Q14 117 7 105            Q1 94 8 81            Q15 70 28 68 Z" fill="none" stroke="#50E6FF" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- Original small gear, retained at original scale and position -->
-    <path d="M5.1 12.5v-.3l-.307-.1-.078-.21.15-.313v-.036l-.1-.1-.114-.121H4.612l-.3.151-.21-.054-.127-.337h-.3l-.1.307-.21.078-.349-.165-.216.217v.036l.15.3-.084.21-.367.133v.3h.042l.319.108.09.205-.168.349.217.217h.036l.3-.156.21.084.133.367h.3v-.042l.109-.325.2-.084.355.162.21-.21v-.042l-.132-.289.06-.211Zm-1.269.277a.427.427 0 1 1 .155-.822.435.435 0 0 1 .193.157.427.427 0 0 1 .072.238.422.422 0 0 1-.4.427Z" fill="#0078d4"/>
+  <!-- Circular backup arrow, sized around the small gear -->
+  <path d="M54 87            C53 74 43 65 30 65            C17 65 9 75 9 88            C9 101 19 111 31 111            L36 111" fill="none" stroke="#263D4D" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Original circular backup arrow -->
-    <path d="M3.816 15.905a3.537 3.537 0 1 1 3.558-3.537H6.3a2.462 2.462 0 1 0-2.464 2.46H4.62a.056.056 0 0 0 .056-.016.063.063 0 0 0 .016-.026.076.076 0 0 0 0-.03v-.872a.087.087 0 0 1 .052-.067.1.1 0 0 1 .083.018l1.5 1.5a.082.082 0 0 1 0 .049.079.079 0 0 1-.027.042l-1.5 1.5a.083.083 0 0 1-.042.018.075.075 0 0 1-.044-.007.082.082 0 0 1-.035-.029.074.074 0 0 1-.014-.043v-.886a.075.075 0 0 0-.022-.053.073.073 0 0 0-.054-.022H3.816Z" fill="#0078d4" fill-rule="evenodd"/>
+  <path d="M54 87            C53 74 43 65 30 65            C17 65 9 75 9 88            C9 101 19 111 31 111            L36 111" fill="none" stroke="#0078D4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Directional arrowhead at bottom-right -->
+  <path d="M34 102            Q33 100 36 101            L49 110            Q51 111 49 113            L36 122            Q33 123 34 119            L34 115            L30 115            L30 108            L34 108 Z" fill="#0078D4" stroke="#263D4D" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Small eight-tooth settings gear centered inside arrow -->
+  <path d="M28 79            L32 79            L34 83            Q36 83 38 85            L42 83            L45 86            L43 90            Q44 92 44 94            L48 96            L48 100            L44 102            Q44 104 42 106            L44 109            L41 112            L37 110            Q35 112 33 112            L31 116            L27 116            L25 112            Q23 111 21 110            L17 112            L14 109            L16 105            Q15 103 15 101            L11 99            L11 95            L15 93            Q15 91 17 89            L15 86            L18 83            L22 85            Q24 83 26 83 Z" transform="translate(10 19) scale(.65)" fill="#0078D4" stroke="#263D4D" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Small white central gear hub -->
+  <path d="M29 86            Q32 85 34 88            Q36 91 33 94            Q30 96 27 93            Q25 90 27 88            Q28 87 29 86 Z" fill="#FFFFFF" stroke="#263D4D" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <!-- Restrained yellow marker ticks -->
+  <g fill="none" stroke="#E6B93F" stroke-width="2.5" stroke-linecap="round">
+    <path d="M13 37 L8 33"/>
+    <path d="M20 33 L19 27"/>
+  </g>
+
+  <!-- Subtle hand-drawn contour retraces -->
+  <g fill="none" stroke="#236B9D" stroke-width="1.5" stroke-linecap="round">
+    <path d="M39 41 Q44 30 55 30"/>
+    <path d="M69 21 Q80 12 91 20"/>
+    <path d="M35 55 Q47 46 59 51"/>
+    <path d="M85 80 Q96 84 97 94"/>
   </g>
 </svg>

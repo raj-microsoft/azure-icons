@@ -1,8 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Managed Service Fabric (sketch)</title>
-<defs><linearGradient id="orange" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAA21D"/><stop offset="1" stop-color="#EF7100"/></linearGradient><linearGradient id="purple" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#A67AF4"/><stop offset="0.45" stop-color="#9968ED"/><stop offset="1" stop-color="#773ADC"/></linearGradient></defs>
-<g transform="scale(7.111111)"><path d="M10.15 2.978 L8.883 2.048 L7.637 2.968 L1.732 7.177 L4.03 14.125 L4.511 15.596 L6.405 15.596 L6.405 14.126 L5.573 14.125 L3.53 7.77 L8.883 3.908 L14.278 7.78 L13.921 8.889 L15.468 8.889 L15.468 8.945 L16.035 7.228 L16.035 7.177 Z" fill="#E27908" stroke="#C96708" stroke-width="0.055" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M4.868 12.530 C6.245 12.530 7.392 13.674 7.392 15.054 C7.392 16.437 6.250 17.578 4.868 17.578 C3.486 17.578 2.344 16.435 2.344 15.054 C2.344 13.672 3.486 12.530 4.868 12.530 Z" fill="#F49A18"/>
-<path d="M15.320 4.970 C16.700 4.970 17.844 6.112 17.844 7.494 C17.844 8.875 16.701 10.018 15.320 10.018 C13.938 10.018 12.796 8.876 12.796 7.494 C12.796 6.112 13.938 4.970 15.320 4.970 Z" fill="#F49A18"/>
-<path d="M2.680 4.970 C4.062 4.970 5.204 6.112 5.204 7.494 C5.204 8.875 4.062 10.018 2.680 10.018 C1.298 10.018 0.156 8.876 0.156 7.494 C0.156 6.112 1.298 4.970 2.680 4.970 Z" fill="#F49A18"/>
-<path d="M8.883 0.367 C10.265 0.367 11.407 1.509 11.407 2.891 C11.407 4.273 10.265 5.415 8.883 5.415 C7.501 5.415 6.359 4.273 6.359 2.891 C6.359 1.509 7.501 0.367 8.883 0.367 Z" fill="#F49A18"/>
-<path fill="url(#purple)" fill-rule="evenodd" stroke="#6930C2" stroke-width="0.055" stroke-linejoin="round" stroke-linecap="round" d="M13.211 16.532 L13.794 16.288 L14.806 16.754 L15.412 16.148 L15.353 16.030 L14.932 15.230 L15.102 14.624 L16.070 14.224 L16.070 13.360 L16.025 13.323 L15.125 13.013 L14.896 12.422 L15.354 11.535 L15.398 11.435 L15.125 11.140 L14.800 10.800 L14.682 10.859 L13.817 11.302 L13.226 11.132 L12.850 10.172 L11.993 10.172 L11.948 10.216 L11.653 11.095 L11.047 11.324 L10.047 10.851 L9.441 11.457 L9.500 11.575 L9.951 12.432 L9.707 13.023 L8.667 13.400 L8.667 14.264 L8.793 14.301 L9.709 14.601 L9.953 15.229 L9.480 16.229 L10.086 16.842 L10.204 16.791 L11.068 16.348 L11.659 16.591 L12.036 17.633 L12.908 17.633 Z M12.442 12.601 C13.112 12.601 13.654 13.143 13.654 13.813 C13.654 14.483 13.112 15.025 12.442 15.025 C11.772 15.025 11.230 14.483 11.230 13.813 C11.230 13.143 11.772 12.601 12.442 12.601 Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Managed Service Fabric (sketch)</title>
+  
+  <desc>Four orange fabric nodes connected in an open pentagonal network, with one compact purple eight-tooth management cog at the lower right.</desc>
+
+  <!-- Original fabric network topology -->
+  <path d="M19 53            Q39 38 63 21            Q85 37 109 53            L99 78            M19 53            L35 106            L45 106" stroke="#713C17" stroke-width="11"/>
+
+  <path d="M19 53            Q39 38 63 21            Q85 37 109 53            L99 78            M19 53            L35 106            L45 106" stroke="#E27908" stroke-width="7.5"/>
+
+  <!-- Top orange node -->
+  <path d="M63 4            C73 4 81 12 81 22            C81 32 73 40 63 40            C53 40 45 32 45 22            C45 12 53 4 63 4 Z" fill="#FAA21D" stroke="#874712" stroke-width="3.5"/>
+
+  <!-- Left orange node -->
+  <path d="M19 35            C29 35 37 43 37 53            C37 63 29 71 19 71            C9 71 2 63 2 53            C2 43 9 35 19 35 Z" fill="#F39213" stroke="#874712" stroke-width="3.5"/>
+
+  <!-- Right orange node -->
+  <path d="M109 35            C119 35 126 43 126 53            C126 63 119 71 109 71            C99 71 91 63 91 53            C91 43 99 35 109 35 Z" fill="#F39213" stroke="#874712" stroke-width="3.5"/>
+
+  <!-- Lower-left orange node -->
+  <path d="M35 88            C45 88 53 96 53 106            C53 116 45 124 35 124            C25 124 17 116 17 106            C17 96 25 88 35 88 Z" fill="#EF8109" stroke="#874712" stroke-width="3.5"/>
+
+  <!-- One regular eight-tooth purple management cog -->
+  <path d="M86.8 69.4            L95.2 69.4            L97.2 76.1            L102.1 78.1            L108.2 74.8            L114.2 80.8            L110.9 86.9            L112.9 91.8            L119.6 93.8            L119.6 102.2            L112.9 104.2            L110.9 109.1            L114.2 115.2            L108.2 121.2            L102.1 117.9            L97.2 119.9            L95.2 126            L86.8 126            L84.8 119.9            L79.9 117.9            L73.8 121.2            L67.8 115.2            L71.1 109.1            L69.1 104.2            L62.4 102.2            L62.4 93.8            L69.1 91.8            L71.1 86.9            L67.8 80.8            L73.8 74.8            L79.9 78.1            L84.8 76.1 Z" transform="translate(0 -5)" fill="#925CE8" stroke="#49277C" stroke-width="2.8"/>
+
+  <!-- Single white gear opening -->
+  <path d="M99 93            C99 97.4 95.4 101 91 101            C86.6 101 83 97.4 83 93            C83 88.6 86.6 85 91 85            C95.4 85 99 88.6 99 93 Z" fill="#FFFFFF" stroke="#49277C" stroke-width="2.8"/>
+
+  <!-- Minimal marker-style edge retraces -->
+  <g stroke="#A95413" stroke-width="1.7">
+    <path d="M52 17 Q57 11 65 12"/>
+    <path d="M9 49 Q13 42 20 43"/>
+    <path d="M100 48 Q105 42 112 44"/>
+    <path d="M25 103 Q29 96 37 97"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F5C542" stroke-width="2.5">
+    <path d="M47 58 L51 53"/>
+    <path d="M55 61 L60 59"/>
+  </g>
+</svg>

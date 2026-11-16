@@ -1,30 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>HD Insight Clusters (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>HD Insight Clusters (sketch)</title>
   
-  <defs>
-    <linearGradient id="nodeLeft" x1="3.44" y1="14.22" x2="3.44" y2="10.54" gradientUnits="userSpaceOnUse">
-      <stop offset=".09" stop-color="#32bedd"/>
-      <stop offset="1" stop-color="#50e6ff"/>
-    </linearGradient>
-    <linearGradient id="nodeRight" x1="14.51" y1="14.22" x2="14.51" y2="10.54" gradientUnits="userSpaceOnUse">
-      <stop offset=".09" stop-color="#32bedd"/>
-      <stop offset="1" stop-color="#50e6ff"/>
-    </linearGradient>
-    <linearGradient id="nodeTop" x1="8.98" y1="4.4" x2="8.98" y2=".71" gradientUnits="userSpaceOnUse">
-      <stop offset=".09" stop-color="#32bedd"/>
-      <stop offset="1" stop-color="#50e6ff"/>
-    </linearGradient>
-  </defs>
+  <desc>Three small cyan cluster nodes with separated blue folded ribbon connectors in the original HDInsight Clusters layout.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Original central hexagonal cluster geometry -->
-    <path d="M7.32 11.84h3.31a.28.28 0 0 0 .27-.22 3.7 3.7 0 0 1 1.34-2.15.27.27 0 0 0 .07-.36l-1.72-3A.27.27 0 0 0 10.25 6 3.87 3.87 0 0 1 9 6.23 3.56 3.56 0 0 1 7.71 6a.28.28 0 0 0-.34.13l-1.72 3a.28.28 0 0 0 .07.36 3.7 3.7 0 0 1 1.33 2.14.27.27 0 0 0 .27.21Z              M5.32 2.55h-2a.27.27 0 0 0-.24.14L.54 7.06a.28.28 0 0 0 0 .28l.93 1.6a.29.29 0 0 0 .37.12 3.62 3.62 0 0 1 1.6-.37 2.69 2.69 0 0 1 .4 0 .31.31 0 0 0 .28-.14L4.91 7.2 6.1 5.14a.27.27 0 0 0 0-.31 3.65 3.65 0 0 1-.82-2.28Z              M12.39 2.55h2a.27.27 0 0 1 .24.14l2.17 4.37a.28.28 0 0 1 0 .28L15.87 9a.29.29 0 0 1-.37.12 3.77 3.77 0 0 0-1.61-.37l-.38 0a.28.28 0 0 1-.28-.14l-.79-1.37-1.2-2.07a.27.27 0 0 1 0-.31 3.67 3.67 0 0 0 .78-2.31Z              M10.77 13.44H7.18a.28.28 0 0 0-.27.18 3.64 3.64 0 0 1-1.39 1.79.29.29 0 0 0-.09.38l.79 1.36a.29.29 0 0 0 .24.14h5.05a.29.29 0 0 0 .24-.14l.78-1.35a.28.28 0 0 0-.09-.38 3.68 3.68 0 0 1-1.4-1.8.28.28 0 0 0-.27-.18Z" fill="#0078d4" stroke="#006bb8" stroke-width=".045" stroke-linejoin="round"/>
+  <!-- upper-left slanted connector -->
+  <path d="M36 18            L22 18            Q19 18 18 21            L4 46            Q3 49 5 52            L12 64            Q14 67 17 66            Q24 62 31 62            Q33 62 34 60            L47 39            Q48 36 45 33            Q39 28 36 18 Z" fill="#0078D4" stroke="#27465C" stroke-width="3.1"/>
 
-    <!-- Three original cluster nodes -->
-    <circle cx="3.44" cy="12.38" r="1.85" fill="url(#nodeLeft)" stroke="#159fbd" stroke-width=".045"/>
-    <circle cx="14.51" cy="12.38" r="1.85" fill="url(#nodeRight)" stroke="#159fbd" stroke-width=".045"/>
-    <circle cx="8.98" cy="2.55" r="1.85" fill="url(#nodeTop)" stroke="#159fbd" stroke-width=".045"/>
+  <!-- upper-right slanted connector -->
+  <path d="M92 18            L106 18            Q109 18 110 21            L124 46            Q126 49 124 52            L117 64            Q115 67 112 66            Q105 62 98 62            Q96 62 95 60            L82 39            Q80 36 83 33            Q89 28 92 18 Z" fill="#0078D4" stroke="#27465C" stroke-width="3.1"/>
 
-    <!-- Original inner blue geometry -->
-    <path d="M14.51 6.42a5.93 5.93 0 0 0-1.75.26l.3.52.79 1.37a.28.28 0 0 0 .28.14l.38 0a3.77 3.77 0 0 1 1.61.37A.27.27 0 0 0 16.49 9l.79-1.36.21-.37a5.88 5.88 0 0 0-2.98-.85Z              M10.9 11.62a3.7 3.7 0 0 1 1.34-2.15.27.27 0 0 0 .07-.36l-1-1.76a6 6 0 0 0-2.73 4.49h2.06a.28.28 0 0 0 .26-.22Z              M11.04 13.62a.28.28 0 0 0-.27-.18H8.64a6 6 0 0 0 2.5 3.85h.37a.29.29 0 0 0 .24-.14l.78-1.35a.28.28 0 0 0-.09-.38 3.68 3.68 0 0 1-1.4-1.8Z" fill="#5ea0ef" stroke="#438edb" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- center broad zigzag ribbon: main face -->
+  <path d="M54 42            Q63 45 73 42            L88 68            Q90 71 87 73            Q77 79 74 88            L51 88            Q49 79 40 73            Q37 71 39 68            Z" fill="#0078D4" stroke="#27465C" stroke-width="3.2"/>
+
+  <!-- center ribbon light side face -->
+  <path d="M56 45            Q63 47 70 45            L82 66            Q74 72 71 81            L54 81            Q51 72 45 68 Z" fill="#5EA0EF" stroke="#27465C" stroke-width="2.4"/>
+
+  <!-- center ribbon concave circular cutout -->
+  <path d="M79 67            Q86 67 90 72            Q94 77 94 83            Q88 83 84 80            Q80 77 78 72 Z" fill="#FFFFFF" stroke="#27465C" stroke-width="2.2"/>
+
+  <!-- bottom broad bent ribbon: main face -->
+  <path d="M50 97            Q60 100 72 97            L85 118            Q87 121 84 123            L47 123            Q44 121 45 118 Z" fill="#0078D4" stroke="#27465C" stroke-width="3.2"/>
+
+  <!-- bottom ribbon light side face -->
+  <path d="M53 99            Q61 101 69 99            L78 115            L50 115            Q48 111 49 107 Z" fill="#5EA0EF" stroke="#27465C" stroke-width="2.3"/>
+
+  <!-- bottom ribbon upper concave notch -->
+  <path d="M50 98            Q55 92 62 92            Q68 92 73 97            Q69 101 62 101            Q55 101 50 98 Z" fill="#FFFFFF" stroke="#27465C" stroke-width="2.2"/>
+
+  <!-- top cyan circle -->
+  <path d="M64 6            C71 6 77 12 77 19            C77 27 71 33 64 33            C57 33 51 27 51 19            C51 12 57 6 64 6 Z" fill="#50E6FF" stroke="#215A70" stroke-width="3"/>
+
+  <!-- bottom-left cyan circle -->
+  <path d="M25 73            C32 73 38 79 38 87            C38 94 32 100 25 100            C17 100 12 94 12 87            C12 79 17 73 25 73 Z" fill="#50E6FF" stroke="#215A70" stroke-width="3"/>
+
+  <!-- bottom-right cyan circle -->
+  <path d="M103 73            C110 73 116 79 116 87            C116 94 110 100 103 100            C95 100 90 94 90 87            C90 79 95 73 103 73 Z" fill="#50E6FF" stroke="#215A70" stroke-width="3"/>
+
+  <!-- tiny hand-drawn highlights on nodes -->
+  <g stroke="#D6FBFF" stroke-width="2.4">
+    <path d="M56 16 Q59 11 64 11"/>
+    <path d="M17 84 Q20 79 25 79"/>
+    <path d="M95 84 Q98 79 103 79"/>
+  </g>
+
+  <!-- subtle blue sketch retraces -->
+  <g stroke="#4D95CD" stroke-width="1.8">
+    <path d="M23 26 L10 48"/>
+    <path d="M105 26 L118 48"/>
+    <path d="M54 51 L47 64"/>
+    <path d="M74 50 L80 61"/>
+    <path d="M50 118 Q63 120 79 118"/>
+  </g>
+
+  <!-- restrained yellow sketchnote accents -->
+  <g stroke="#E6B93F" stroke-width="2.5">
+    <path d="M64 39 L64 43"/>
+    <path d="M10 68 L7 72"/>
+    <path d="M118 68 L121 72"/>
   </g>
 </svg>

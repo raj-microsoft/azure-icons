@@ -1,26 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Route Filters (sketch)</title>
-  <defs>
-    <linearGradient id="filterGreen" x1="5.82" y1="14.64" x2="5.82" y2="25.68" gradientTransform="translate(0 -11.41) scale(1 1.01)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5e9624"/>
-      <stop offset=".01" stop-color="#5f9724"/>
-      <stop offset=".35" stop-color="#6cab29"/>
-      <stop offset=".68" stop-color="#73b82c"/>
-      <stop offset="1" stop-color="#76bc2d"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Route Filters (sketch)</title>
+  
+  <desc>Green filter panel with three empty white squares and straight blue branching route arrows, illustrated with irregular hand-drawn marker outlines.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Original straight branching and directional arrows -->
-    <path d="M18,9.16l-2.12,2.12a.1.1,0,0,1-.18-.08V10a.11.11,0,0,0-.11-.1H12.09L14.27,12a.09.09,0,0,0,.12,0l0,0,.61-.62a.08.08,0,0,1,.14.06v2.19a.12.12,0,0,1-.12.12H12.87a.08.08,0,0,1-.06-.14l.62-.61,0,0a.09.09,0,0,0,0-.12L11.64,11V7.17l1.83-1.82a.08.08,0,0,0,0-.11l0,0-.62-.61a.08.08,0,0,1,.06-.14h2.19a.13.13,0,0,1,.12.13V6.75a.08.08,0,0,1-.14.06l-.61-.61,0,0a.09.09,0,0,0-.12,0L12.12,8.31h3.43a.11.11,0,0,0,.11-.11V7a.1.1,0,0,1,.18-.08L18,9A.1.1,0,0,1,18,9.16Z" fill="#0078d4"/>
+  <!-- Straight branching route symbol, behind panel -->
+  <g fill="#0078D4" stroke="#164C79" stroke-width="2.8">
+    <!-- Main right-pointing horizontal arrow -->
+    <path d="M80 59              L110 59              Q111 59 111 57              L111 50              Q111 48 113 50              L127 63              Q129 65 127 67              L113 81              Q111 83 111 80              L111 73              L80 73Z"/>
 
-    <!-- Green filter panel -->
-    <rect y="3.41" width="11.64" height="11.18" rx=".58" fill="url(#filterGreen)"/>
+    <!-- Upper diagonal branch -->
+    <path d="M80 61              L98 43              L94 39              Q92 37 95 37              L108 37              Q110 37 110 39              L110 52              Q110 55 108 53              L104 49              L86 67Z"/>
 
-    <!-- Three original blank checkbox squares: no ticks -->
-    <g fill="#fff">
-      <rect x="2.27" y="4.78" width="2.73" height="2.61" rx=".29"/>
-      <rect x="6.92" y="7.77" width="2.73" height="2.61" rx=".29"/>
-      <rect x="2.27" y="10.61" width="2.73" height="2.61" rx=".29"/>
-    </g>
+    <!-- Lower diagonal branch -->
+    <path d="M80 71              L104 95              L108 91              Q110 89 110 92              L110 105              Q110 107 108 107              L95 107              Q92 107 94 105              L98 101              L80 83Z"/>
   </g>
+
+  <!-- Main green filter panel -->
+  <path d="M5 24            Q5 20 9 20            L78 20            Q82 20 82 24            L82 99            Q82 103 78 103            L9 103            Q5 103 5 99Z" fill="#76BC2D" stroke="#345E20" stroke-width="3.8"/>
+
+  <!-- Slightly darker flat lower region -->
+  <path d="M8 78            L79 78            L79 99            Q79 100 76 100            L10 100            Q8 100 8 98Z" fill="#6CAB29"/>
+
+  <!-- Upper-left empty filter box -->
+  <path d="M22 31            Q22 30 24 30            L40 30            Q42 30 42 32            L42 47            Q42 49 40 49            L24 49            Q22 49 22 47Z" fill="#FFFFFF" stroke="#345E20" stroke-width="2.7"/>
+
+  <!-- Center-right empty filter box -->
+  <path d="M55 53            Q55 52 57 52            L73 52            Q75 52 75 54            L75 69            Q75 71 73 71            L57 71            Q55 71 55 69Z" fill="#FFFFFF" stroke="#345E20" stroke-width="2.7"/>
+
+  <!-- Lower-left empty filter box -->
+  <path d="M22 74            Q22 73 24 73            L40 73            Q42 73 42 75            L42 90            Q42 92 40 92            L24 92            Q22 92 22 90Z" fill="#FFFFFF" stroke="#345E20" stroke-width="2.7"/>
+
+  <!-- Subtle uneven marker retraces -->
+  <g stroke="#477B27" stroke-width="1.8" opacity=".75">
+    <path d="M11 26 L11 46"/>
+    <path d="M12 94 L12 98 L30 98"/>
+    <path d="M75 26 L76 39"/>
+    <path d="M25 33 L36 33"/>
+    <path d="M58 55 L70 55"/>
+    <path d="M25 76 L36 76"/>
+  </g>
+
+  <!-- Restrained blue edge accents -->
+  <g stroke="#50B6EA" stroke-width="1.8">
+    <path d="M91 61 L104 61"/>
+    <path d="M91 52 L102 41"/>
+    <path d="M91 82 L101 92"/>
+  </g>
+
+  <!-- Two small yellow marker ticks -->
+  <path d="M119 42 L122 38            M123 46 L127 44" stroke="#FFCA00" stroke-width="2.5"/>
 </svg>

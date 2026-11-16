@@ -1,1 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Service Providers (sketch)</title><defs><linearGradient id="person" x1="0" y1="0" x2="0" y2="1"><stop offset="0.1" stop-color="#54AEF0"/><stop offset="1" stop-color="#1988D9"/></linearGradient><linearGradient id="head" x1="0" y1="0" x2="0.1" y2="1"><stop offset="0.1" stop-color="#54AEF0"/><stop offset="1" stop-color="#1988D9"/></linearGradient><linearGradient id="grid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#86D633"/><stop offset="1" stop-color="#76BC2D"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M9.35 10.31 C9.35 10.02 9.56 9.80 9.86 9.80 L12.79 9.80 C11.52 8.26 9.62 7.37 7.48 7.37 C3 7.37 0.65 10.18 0.20 14.77 C0.11 15.50 0.63 16.12 1.36 16.19 L9.35 16.19 Z" fill="url(#person)" stroke="#167DC3" stroke-width="0.075" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.27 7.69 C5.90 8.10 6.66 8.34 7.48 8.34 C8.28 8.34 9.04 8.11 9.63 7.72 L7.46 13.40 Z" fill="#FFFFFF" opacity="0.8"/><path d="M7.48 0.17 C9.73 0.17 11.56 2.00 11.56 4.25 C11.56 6.50 9.73 8.33 7.48 8.33 C5.23 8.33 3.40 6.50 3.40 4.25 C3.40 2.00 5.23 0.17 7.48 0.17 Z" fill="url(#head)" stroke="#167DC3" stroke-width="0.075"/><g fill="url(#grid)" stroke="#70B52A" stroke-width="0.045" stroke-linejoin="round" stroke-linecap="round"><path d="M10.19 10.25 H12.20 V12.59 H9.86 V10.58 Q9.86 10.25 10.19 10.25 Z"/><path d="M12.59 10.25 H14.93 V12.59 H12.59 Z"/><path d="M15.31 10.25 H17.32 Q17.65 10.25 17.65 10.58 V12.59 H15.31 Z"/><path d="M9.86 13 H12.20 V15.34 H9.86 Z"/><path d="M12.59 13 H14.93 V15.34 H12.59 Z"/><path d="M15.31 13 H17.65 V15.34 H15.31 Z"/><path d="M9.86 15.71 H12.20 V18.05 H10.19 Q9.86 18.05 9.86 17.72 Z"/><path d="M12.59 15.71 H14.93 V18.05 H12.59 Z"/><path d="M15.31 15.71 H17.65 V17.72 Q17.65 18.05 17.32 18.05 H15.31 Z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Service Providers (sketch)</title>
+  
+  <desc>Hand-drawn blue provider avatar with nine separate green grid tiles arranged in three rows and three columns, without a backing panel.</desc>
+
+  <!-- Provider body -->
+  <path d="M3 103            C6 74 21 53 53 52            Q76 51 91 69            L70 69            Q67 69 67 73            L67 115            L12 115            Q2 115 3 103Z" fill="#1988D9" stroke="#075B9A" stroke-width="3.5"/>
+
+  <!-- Upper shoulder contour -->
+  <path d="M7 94            Q13 66 35 59            M57 56 Q72 56 81 66" stroke="#075B9A" stroke-width="2" opacity=".65"/>
+
+  <!-- White collar detail -->
+  <path d="M37 55            Q51 63 67 55            L53 95            Q52 98 50 94Z" fill="#EAF7FF" stroke="#075B9A" stroke-width="2.7"/>
+
+  <!-- Provider head -->
+  <path d="M53 2            C69 1 82 13 82 29            C83 46 71 59 54 59            C38 59 25 47 25 30            C25 14 37 3 53 2Z" fill="#54AEF0" stroke="#075B9A" stroke-width="3.7"/>
+
+  <!-- Hand-drawn head-edge retraces -->
+  <path d="M33 18 Q39 7 52 7            M73 18 Q79 29 74 40" stroke="#075B9A" stroke-width="1.8" opacity=".6"/>
+
+  <!-- Nine independent service tiles -->
+  <!-- Row 1 -->
+  <path d="M72 72            Q72 70 74 70            L85 70            L85 85            L70 85            L70 74            Q70 72 72 72Z" fill="#86D633" stroke="#356B20" stroke-width="2.5"/>
+
+  <path d="M89 70            L104 70            L104 85            L89 85Z" fill="#81CE31" stroke="#356B20" stroke-width="2.5"/>
+
+  <path d="M108 70            L120 70            Q123 70 123 73            L123 85            L108 85Z" fill="#76BC2D" stroke="#356B20" stroke-width="2.5"/>
+
+  <!-- Row 2 -->
+  <path d="M70 89            L85 89            L85 104            L70 104Z" fill="#81CE31" stroke="#356B20" stroke-width="2.5"/>
+
+  <path d="M89 89            L104 89            L104 104            L89 104Z" fill="#86D633" stroke="#356B20" stroke-width="2.5"/>
+
+  <path d="M108 89            L123 89            L123 104            L108 104Z" fill="#81CE31" stroke="#356B20" stroke-width="2.5"/>
+
+  <!-- Row 3 -->
+  <path d="M70 108            L85 108            L85 123            L73 123            Q70 123 70 120Z" fill="#76BC2D" stroke="#356B20" stroke-width="2.5"/>
+
+  <path d="M89 108            L104 108            L104 123            L89 123Z" fill="#81CE31" stroke="#356B20" stroke-width="2.5"/>
+
+  <path d="M108 108            L123 108            L123 120            Q123 123 120 123            L108 123Z" fill="#76BC2D" stroke="#356B20" stroke-width="2.5"/>
+
+  <!-- Subtle irregular marker-edge accents -->
+  <g stroke="#4D9421" stroke-width="1.4" opacity=".7">
+    <path d="M73 74 L82 73"/>
+    <path d="M91 73 L101 73"/>
+    <path d="M110 73 L119 74"/>
+    <path d="M73 92 L82 91"/>
+    <path d="M92 92 L101 91"/>
+    <path d="M111 92 L120 92"/>
+    <path d="M73 111 L82 111"/>
+    <path d="M92 111 L101 111"/>
+    <path d="M111 111 L120 111"/>
+  </g>
+
+  <!-- Two restrained yellow marker ticks -->
+  <path d="M91 53 L94 48            M98 56 L103 53" stroke="#F2C94C" stroke-width="2.7"/>
+
+</svg>
