@@ -1,50 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>pubsub (sketch)</title>
-  <defs>
-    <linearGradient id="nodeTL" x1="4.27" y1="1.31" x2="4.27" y2="7.23" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ccc"/>
-      <stop offset=".12" stop-color="#d7d7d7"/>
-      <stop offset=".42" stop-color="#ebebeb"/>
-      <stop offset=".72" stop-color="#f8f8f8"/>
-      <stop offset="1" stop-color="#fcfcfc"/>
-    </linearGradient>
-    <linearGradient id="nodeTR" x1="13.73" y1="2.5" x2="13.73" y2="6.04" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ccc"/>
-      <stop offset=".12" stop-color="#d7d7d7"/>
-      <stop offset=".42" stop-color="#ebebeb"/>
-      <stop offset=".72" stop-color="#f8f8f8"/>
-      <stop offset="1" stop-color="#fcfcfc"/>
-    </linearGradient>
-    <linearGradient id="nodeBL" x1="4.27" y1="11.96" x2="4.27" y2="15.5" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ccc"/>
-      <stop offset=".12" stop-color="#d7d7d7"/>
-      <stop offset=".42" stop-color="#ebebeb"/>
-      <stop offset=".72" stop-color="#f8f8f8"/>
-      <stop offset="1" stop-color="#fcfcfc"/>
-    </linearGradient>
-    <linearGradient id="nodeBR" x1="13.73" y1="11.96" x2="13.73" y2="15.5" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ccc"/>
-      <stop offset=".12" stop-color="#d7d7d7"/>
-      <stop offset=".42" stop-color="#ebebeb"/>
-      <stop offset=".72" stop-color="#f8f8f8"/>
-      <stop offset="1" stop-color="#fcfcfc"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>pubsub (sketch)</title>
+  
 
-  <g transform="scale(7.111111)">
-    <!-- Original square blue field -->
-    <path d="M1.31 .12h15.38c.65 0 1.18.53 1.18 1.19v15.38c0 .65-.53 1.18-1.18 1.18H1.31c-.65 0-1.18-.53-1.18-1.18V1.31C.12.65.65.12 1.31.12Z" fill="#0078d7" stroke="#0068b8" stroke-width=".09" stroke-linejoin="round"/>
+  <!-- Blue rounded-square foundation -->
+  <path d="M12 3        Q4 3 3 12        L3 115        Q3 124 12 125        L115 125        Q124 125 125 116        L125 12        Q125 4 116 3 Z" fill="#087BD4" stroke="#064F86" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Original asymmetric four-node branching paths -->
-    <path d="M9.59 8.41V.12H8.41v8.28H.12v1.18h8.28v8.28h1.18v-8.28h8.28V8.41Z" fill="#fff" opacity=".8"/>
+  <!-- Main vertical and horizontal cross -->
+  <path d="M64 5        Q63 24 64 43        L64 84        Q65 103 64 123" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
 
-    <path d="M3.68 14.33V3.68h1.18v10.65Z" fill="#fff"/>
-    <path d="M4.14 4.98l.84-.84 8.88 8.88-.84.84Z" fill="#fff"/>
-    <path d="M14.33 4.86H4.86V3.68h9.47Z" fill="#fff"/>
+  <path d="M5 64        Q28 63 48 64        L83 64        Q103 65 123 64" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
 
-    <!-- Four original nodes, retaining their unequal sizes and positions -->
-    <circle cx="4.27" cy="4.27" r="2.96" fill="url(#nodeTL)" stroke="#d0d0d0" stroke-width=".055"/>
-    <circle cx="13.73" cy="4.27" r="1.77" fill="url(#nodeTR)" stroke="#d0d0d0" stroke-width=".055"/>
-    <circle cx="4.27" cy="13.73" r="1.77" fill="url(#nodeBL)" stroke="#d0d0d0" stroke-width=".055"/>
-    <circle cx="13.73" cy="13.73" r="1.77" fill="url(#nodeBR)" stroke="#d0d0d0" stroke-width=".055"/>
+  <!-- Official left vertical connection -->
+  <path d="M29 30        Q28 47 29 64        L29 99" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Official top horizontal connection -->
+  <path d="M29 29        Q48 28 65 29        L99 29" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Official diagonal connection: upper-left to lower-right -->
+  <path d="M31 31        Q47 48 64 64        T97 97" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Four flat grey-white nodes, each marker-outlined -->
+  <path d="M50 29        C50 40 41 49 30 50        C19 51 9 42 9 30        C9 18 18 9 29 9        C41 8 50 17 50 29 Z" fill="#ECECEC" stroke="#064F86" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M111 30        C111 37 106 42 99 42        C91 43 85 38 85 30        C85 22 91 17 98 17        C106 17 111 22 111 30 Z" fill="#ECECEC" stroke="#064F86" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M42 98        C42 106 37 111 30 111        C22 112 17 106 17 99        C16 91 22 85 29 85        C37 85 42 91 42 98 Z" fill="#ECECEC" stroke="#064F86" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M111 98        C111 106 106 111 99 111        C91 112 85 106 85 99        C85 91 91 85 98 85        C106 85 111 91 111 98 Z" fill="#ECECEC" stroke="#064F86" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small, imperfect marker retraces -->
+  <g fill="none" stroke="#075B91" stroke-width="1.6" stroke-linecap="round">
+    <path d="M14 26 Q17 15 29 13"/>
+    <path d="M88 27 Q91 20 98 20"/>
+    <path d="M20 96 Q21 89 29 88"/>
+    <path d="M88 96 Q90 89 98 88"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote ticks -->
+  <g fill="none" stroke="#F4C542" stroke-width="2.8" stroke-linecap="round">
+    <path d="M53 13 L57 9"/>
+    <path d="M113 48 L118 45"/>
   </g>
 </svg>
