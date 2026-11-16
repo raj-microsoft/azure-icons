@@ -1,25 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round"><title>Azure Storage Mover (sketch)</title>
 
   
-  <desc>Magenta cloud with a cyan diagonal crossing transfer symbol and three circular endpoint nodes. The transfer bars pass behind the cloud.</desc>
+  <desc>Magenta cloud with exactly three cyan diagonal connectors terminating in round cyan nodes at upper-left, lower-left and lower-right.</desc>
 
-  <!-- Transfer symbol: complete diagonal cross, behind cloud -->
-  <path d="     M17 14     L113 110     M14 113     L110 17" stroke="#203746" stroke-width="9"/>
+  <!-- Three connectors, positioned behind the cloud -->
+  <path d="M17 14 L110 110" stroke="#203746" stroke-width="9"/>
+  <path d="M17 14 L110 110" stroke="#50E6FF" stroke-width="5.5"/>
 
-  <path d="     M17 14     L113 110     M14 113     L110 17" stroke="#50E6FF" stroke-width="5.5"/>
+  <path d="M14 113 L61 66" stroke="#203746" stroke-width="9"/>
+  <path d="M14 113 L61 66" stroke="#50E6FF" stroke-width="5.5"/>
 
-  <!-- Endpoint nodes -->
+  <!-- Exactly three endpoint nodes -->
   <circle cx="17" cy="14" r="8" fill="#32BEDD" stroke-width="3"/>
   <circle cx="14" cy="113" r="8" fill="#32BEDD" stroke-width="3"/>
-  <circle cx="113" cy="110" r="8" fill="#32BEDD" stroke-width="3"/>
+  <circle cx="110" cy="110" r="8" fill="#32BEDD" stroke-width="3"/>
 
-  <!-- Main cloud body, covering the crossing bars -->
-  <path d="     M33 94     C21 94 12 85 12 73     C12 61 20 52 31 50     C35 35 49 25 65 26     C84 25 100 39 104 57     C115 59 121 68 121 79     C121 92 110 102 97 102     L34 102     C33 102 32 101 33 94 Z" fill="#CE74B6" stroke-width="4"/>
+  <!-- Magenta cloud, concealing connector intersections -->
+  <path d="     M33 94     C21 94 12 85 12 73     C12 61 20 52 31 50     C35 35 49 25 65 26     C84 25 100 39 104 57     C115 59 121 68 121 79     C121 92 110 102 97 102     L34 102     Q30 102 33 94 Z" fill="#CE74B6" stroke-width="4"/>
 
-  <!-- Cloud interior contour -->
-  <path d="     M29 90     C22 89 17 82 17 74     C17 65 24 57 33 56     C37 41 50 32 64 32     C80 31 94 42 98 57     C107 59 114 66 114 76     C114 87 106 95 95 95" stroke="#E5A4D2" stroke-width="2.2" opacity=".85"/>
-
-  <!-- Slightly uneven cloud boundary emphasis -->
-  <path d="     M34 97     Q56 100 77 98     M102 94     Q114 87 115 77" stroke="#203746" stroke-width="2" opacity=".7"/>
+  <!-- Subtle cloud contour -->
+  <path d="     M29 90     C22 89 17 82 17 74     C17 65 24 57 33 56     C37 41 50 32 64 32     C80 31 94 42 98 57     C107 59 114 66 114 76     C114 87 106 95 95 95" stroke="#E5A4D2" stroke-width="2.2"/>
 
 </svg>

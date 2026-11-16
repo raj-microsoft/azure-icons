@@ -1,1 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Quickstart Center (sketch)</title><defs><linearGradient id="e5071660-aef6-4ef7-b2c3-5b03145c6e10" x1="8.47" y1="2.89" x2="14.96" y2="9.62" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#dfa500"/><stop offset="0.28" stop-color="#efb700"/><stop offset="0.51" stop-color="#ffca00"/><stop offset="1" stop-color="#e1a800"/></linearGradient><linearGradient id="ab9f452c-d59c-4813-b9db-ac7f1a29f09a" x1="6.86" y1="11.19" x2="-0.99" y2="18.81" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#faa21d"/><stop offset="0.24" stop-color="#f99d1a"/><stop offset="0.51" stop-color="#f69012"/><stop offset="0.8" stop-color="#f17905"/><stop offset="0.88" stop-color="#ef7100"/></linearGradient></defs><g transform="scale(7.111111)"><g><path d="M4.07,10.44a5.66,5.66,0,0,0-3-1.14.28.28,0,0,1-.27-.41A5.35,5.35,0,0,1,2.31,7.18a4.87,4.87,0,0,1,4.4-.85,1.67,1.67,0,0,1,.62.27Z" fill="#f78d1e" stroke="#d66e13" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/><path d="M7.7,14.06l3.84-3.26a1.82,1.82,0,0,1,.27.63,4.91,4.91,0,0,1-.86,4.4,5.21,5.21,0,0,1-1.71,1.48A.28.28,0,0,1,8.83,17,5.73,5.73,0,0,0,7.7,14.06Z" fill="#f78d1e" stroke="#d66e13" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/><path d="M17.38.27A24.27,24.27,0,0,0,4,10.31L7.69,14A24.27,24.27,0,0,0,17.73.62.29.29,0,0,0,17.38.27Z" fill="#fcd116"/><path d="M17.38.27A24.27,24.27,0,0,0,4,10.31L7.69,14A24.27,24.27,0,0,0,17.73.62.29.29,0,0,0,17.38.27Z" fill="url(#e5071660-aef6-4ef7-b2c3-5b03145c6e10)" stroke="#c99500" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/><path d="M17.38.27A22,22,0,0,0,12.93,2.1l3,3A22,22,0,0,0,17.73.62.29.29,0,0,0,17.38.27Z" fill="#0078d4" stroke="#0066ae" stroke-width=".025" stroke-linejoin="round" stroke-linecap="round"/><path d="M.26,17.44A10.32,10.32,0,0,1,4,10.31L7.69,14A10.32,10.32,0,0,1,.56,17.74.28.28,0,0,1,.26,17.44Z" fill="url(#ab9f452c-d59c-4813-b9db-ac7f1a29f09a)" stroke="#d96600" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11.42" cy="6.58" r="1.91" fill="#dfa500" stroke="#bd8500" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11.42" cy="6.58" r="1.43" fill="#f2f2f2" stroke="#d1d1d1" stroke-width=".025" stroke-linejoin="round" stroke-linecap="round"/><path d="M5.16,13.59a3,3,0,0,1-1.33.59,3.3,3.3,0,0,1,.58-1.34L8,9.24l.75.75Z" fill="#d15900" stroke="#b94b00" stroke-width=".025" stroke-linejoin="round" stroke-linecap="round"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round"><title>Quickstart Center (sketch)</title>
+
+  
+  <desc>Hand-drawn sketchnote rocket with a broad yellow fuselage, blue pointed nose, two orange fins, a large orange flame, and one plain pale cream porthole.</desc>
+
+  <!-- Broad orange flame / exhaust -->
+  <path d="     M8 118     C12 102 24 88 38 75     L53 92     C42 101 27 112 11 120     Q7 121 8 118 Z" fill="#F17905" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Left broad orange fin -->
+  <path d="     M29 76     C20 70 12 66 7 65     C10 59 15 54 21 51     C31 46 41 47 49 53     Z" fill="#F78D1E" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Lower broad orange fin -->
+  <path d="     M55 96     C60 103 64 111 65 119     C71 116 76 111 79 105     C83 96 82 86 77 78     Z" fill="#F78D1E" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Main broad yellow fuselage -->
+  <path d="     M36 74     C50 57 66 42 83 28     C95 18 107 11 118 8     Q120 8 120 11     C117 22 109 34 98 46     C84 63 68 79 52 92     Z" fill="#FFCA00" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Blue pointed nose -->
+  <path d="     M85 28     C95 20 106 13 118 8     C117 16 113 24 108 32     L97 43     Z" fill="#0078D4" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Plain porthole: single pale cream circle only -->
+  <circle cx="81" cy="47" r="13.5" fill="#F4E8B2" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Pencil/nib tail detail -->
+  <path d="     M31 102     C36 101 41 99 45 95     L59 82     L64 87     L51 101     C47 105 41 108 34 109     Q30 109 31 102 Z" fill="#D15900" stroke="#203746" stroke-width="3.8"/>
+
+</svg>
