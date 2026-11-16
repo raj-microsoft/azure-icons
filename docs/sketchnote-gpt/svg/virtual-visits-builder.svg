@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Virtual Visits Builder (sketch)</title><defs><linearGradient id="pageGradient" x1="-1516.205" y1="1550.824" x2="-1516.205" y2="1560.012" gradientTransform="matrix(1, 0, 0, -1, 1524, 1565.516)" gradientUnits="userSpaceOnUse"><stop offset="0.001" stop-color="#773adc"/><stop offset="0.229" stop-color="#7b3fde"/><stop offset="0.507" stop-color="#864ee4"/><stop offset="0.811" stop-color="#9867ed"/><stop offset="1" stop-color="#a67af4"/></linearGradient><linearGradient id="videoGradient" x1="-551.781" y1="1016.108" x2="-551.781" y2="1009.663" gradientTransform="matrix(1, 0, 0, -1, 564, 1025.516)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#50e6ff"/><stop offset="1" stop-color="#32bedd"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round"><g><path d="M.02,5.5H15.569v8.669a.52.52,0,0,1-.519.52H.54a.52.52,0,0,1-.52-.52V5.5Z" fill="url(#pageGradient)" stroke="#7040c8" stroke-width=".035"/><path d="M.542,2.19H15.047a.519.519,0,0,1,.519.52h0V5.5H.02V2.71a.52.52,0,0,1,.52-.52Z" fill="#773adc" stroke="#6830c4" stroke-width=".035"/><path d="M1.847,10.723V6.892c0-.1.06-.183.134-.183H7.319c.074,0,.134.082.134.183v3.831c0,.1-.06.182-.134.182H1.981C1.907,10.905,1.847,10.824,1.847,10.723Z" fill="#f2f2f2" stroke="#e5e5e5" stroke-width=".025"/><path d="M7.146,13.486H2.154c-.17,0-.307-.082-.307-.182V12.031c0-.1.137-.182.307-.182H7.146c.17,0,.307.081.307.182V13.3C7.453,13.4,7.316,13.486,7.146,13.486Z" fill="#b796f9" stroke="#a987ed" stroke-width=".025"/><path d="M14,8.226H8.827c-.176,0-.318-.081-.318-.182V6.787c0-.1.142-.182.318-.182H14c.176,0,.318.081.318.182V8.044C14.317,8.145,14.175,8.226,14,8.226Z" fill="#b796f9" stroke="#a987ed" stroke-width=".025"/><path d="M17.643,14.8l-3.277-1.525a.381.381,0,0,1-.233-.389V12.36a.386.386,0,0,1,.233-.39l3.277-1.524c.175-.045.337.142.337.389V14.41C17.98,14.658,17.816,14.844,17.643,14.8Z" fill="#32bedd" stroke="#24a9ce" stroke-width=".035"/><rect x="8.544" y="9.388" width="7.35" height="6.422" rx="0.385" fill="url(#videoGradient)" stroke="#29b7d7" stroke-width=".035"/><path d="M10.79,12.623V11.244a.382.382,0,0,1,.573-.331l1.2.69,1.194.689a.383.383,0,0,1,0,.662l-1.194.689-1.2.69A.382.382,0,0,1,10.79,14Z" fill="#c3f1ff" stroke="#b0eaff" stroke-width=".025"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Visits Builder (sketch)</title>
+  
+
+  <g stroke="#203746" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Browser page: purple body -->
+    <path d="M10 39              Q10 35 14 35              L113 35              L113 99              Q113 103 109 103              L14 103              Q10 103 10 99 Z" fill="#864EE4" stroke-width="3.5"/>
+
+    <!-- Browser header -->
+    <path d="M10 39              Q10 35 14 35              L109 35              Q113 35 113 39              L113 55              L10 55 Z" fill="#773ADC" stroke-width="3"/>
+
+    <!-- White page content pane -->
+    <path d="M23 62              Q23 60 25 60              L66 60              Q68 60 68 62              L68 87              Q68 89 66 89              L25 89              Q23 89 23 87 Z" fill="#F2F2F2" stroke-width="2.8"/>
+
+    <!-- Page information block -->
+    <path d="M23 94              Q23 92 25 92              L66 92              Q68 92 68 94              L68 99              L23 99 Z" fill="#B796F9" stroke-width="2"/>
+
+    <!-- Browser text information -->
+    <path d="M78 63              L103 63              Q105 63 105 65              L105 72              L78 72 Z" fill="#B796F9" stroke-width="2"/>
+
+    <!-- Video camera body -->
+    <rect x="60" y="78" width="48" height="42" rx="4" fill="#32BEDD" stroke-width="3.5"/>
+
+    <!-- Video camera side lens -->
+    <path d="M108 88              L123 81              Q126 80 126 84              L126 112              Q126 116 123 114              L108 107 Z" fill="#32BEDD" stroke-width="3.5"/>
+
+    <!-- Play symbol -->
+    <path d="M77 89              Q77 86 80 88              L96 98              Q99 100 96 102              L80 112              Q77 114 77 111 Z" fill="#C3F1FF" stroke-width="2.8"/>
+
+  </g>
+</svg>

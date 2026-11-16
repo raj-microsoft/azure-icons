@@ -1,43 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Mobile Engagement (sketch)</title>
-  <defs>
-    <linearGradient id="phoneBody" x1="9" y1="22.81" x2="9" y2="-2.491" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset=".165" stop-color="#1c84dc"/>
-      <stop offset=".378" stop-color="#3990e4"/>
-      <stop offset=".59" stop-color="#4d99ea"/>
-      <stop offset=".799" stop-color="#5a9eee"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-    <linearGradient id="screen" x1="9" y1="15.982" x2="9" y2="1.522" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d2ebff"/>
-      <stop offset=".997" stop-color="#f0fffd"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Mobile Engagement (sketch)</title>
 
-  <g transform="scale(7.111111)">
-    <!-- Original phone body -->
-    <rect x="3.612" y="0" width="10.777" height="18" rx=".419" fill="url(#phoneBody)" stroke="#287fc6" stroke-width=".035" stroke-linejoin="round"/>
+  
+  <desc>Wide blue smartphone with a speech bubble and three ascending analytics bars.</desc>
 
-    <!-- Earpiece -->
-    <rect x="7.758" y=".604" width="2.483" height=".333" rx=".154" fill="#f2f2f2"/>
+  <!-- Outer handset -->
+  <path d="M32 9            Q29 9 29 13            L29 115            Q29 120 34 120            L94 120            Q99 120 99 115            L99 13            Q99 8 94 8            L34 8            Q30 8 32 9Z" fill="#3990E4" stroke="#203746" stroke-width="4"/>
 
-    <!-- Screen -->
-    <rect x="4.623" y="1.522" width="8.754" height="14.461" rx=".201" opacity=".9" fill="url(#screen)" stroke="#d0e9fa" stroke-width=".025"/>
+  <!-- Inner screen -->
+  <path d="M37 21            Q36 19 40 19            L88 19            Q92 19 92 22            L92 107            Q92 109 88 109            L40 109            Q36 109 36 106            L36 23            Q36 21 37 21Z" fill="#DCEFFF" stroke="#203746" stroke-width="2.8"/>
 
-    <!-- Home button -->
-    <rect x="8.398" y="16.58" width="1.204" height="1.028" rx=".286" fill="#f2f2f2"/>
+  <!-- Top speaker -->
+  <path d="M58 14 Q64 13.5 70 14" stroke="#203746" stroke-width="2.5"/>
 
-    <!-- Original message panel: no additional bubbles or symbols -->
-    <path d="M11.4 2.892V6.476a.192.192 0 0 1-.193.192h-1.5a.047.047 0 0 0-.047.047v.578a.094.094 0 0 1-.151.074l-.9-.689a.048.048 0 0 0-.029-.01H5.974a.192.192 0 0 1-.193-.192V2.892A.192.192 0 0 1 5.974 2.7H11.21a.192.192 0 0 1 .19.192Z" fill="#5ea0ef" stroke="#438fd7" stroke-width=".025" stroke-linejoin="round"/>
+  <!-- Front camera -->
+  <circle cx="76" cy="14" r="1.5" fill="#F2F2F2" stroke="#203746" stroke-width="1.2"/>
 
-    <!-- Three original engagement bars -->
-    <rect x="5.768" y="9.88" width="1.683" height="4.782" rx=".293" fill="#5ea0ef"/>
-    <rect x="8.265" y="8.806" width="1.683" height="5.855" rx=".293" fill="#0078d4"/>
-    <rect x="10.761" y="7.927" width="1.683" height="6.734" rx=".293" fill="#005ba1"/>
+  <!-- Speech bubble -->
+  <path d="M44 33            Q43 31 47 31            L81 31            Q85 31 85 35            L85 52            Q85 57 81 57            L57 57            L49 63            L50 57            L47 57            Q43 57 43 53            L43 35            Q43 33 44 33Z" fill="#5EA0EF" stroke="#203746" stroke-width="3"/>
 
-    <!-- Restrained hand-drawn marker contours -->
-    <path d="M3.64 2.1v13.7c0 .95.08 1.55.48 1.87              M14.36 2.1v13.7c0 .92-.08 1.55-.48 1.87" fill="none" stroke="#176fb7" stroke-width=".045" stroke-linecap="round" opacity=".65"/>
+  <!-- First analytics bar -->
+  <path d="M44 79            Q43 78 45 78            L50 78            Q52 78 52 80            L52 98            Q52 100 50 100            L45 100            Q43 100 43 98Z" fill="#5EA0EF" stroke="#203746" stroke-width="2.8"/>
 
-    <path d="M5.02 1.7v13.9              M12.95 1.7v13.9" fill="none" stroke="#ffffff" stroke-width=".025" stroke-linecap="round" opacity=".35"/>
-  </g>
+  <!-- Second analytics bar -->
+  <path d="M60 73            Q59 71 61 71            L66 71            Q68 71 68 73            L68 98            Q68 100 66 100            L61 100            Q59 100 59 98Z" fill="#1689DC" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Third analytics bar -->
+  <path d="M76 66            Q75 64 77 64            L82 64            Q84 64 84 66            L84 98            Q84 100 82 100            L77 100            Q75 100 75 98Z" fill="#005BA1" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Home button -->
+  <circle cx="64" cy="114" r="3" fill="#F2F2F2" stroke="#203746" stroke-width="1.8"/>
+
 </svg>

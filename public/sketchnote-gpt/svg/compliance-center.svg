@@ -1,1 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Compliance Center (sketch)</title><defs><linearGradient id="a" x1="7.944" y1=".233" x2="7.944" y2="15.56" gradientUnits="userSpaceOnUse"><stop offset=".134" stop-color="#005ba1"/><stop offset="1" stop-color="#003067"/></linearGradient><linearGradient id="b" x1="7.945" y1="-.041" x2="7.945" y2="15.754" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5ea0ef"/><stop offset="1" stop-color="#0078d4"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M15.888 7.947a8.031 8.031 0 0 1-.041.81.282.282 0 0 1-.4.226 4.921 4.921 0 0 0-6.471 6.468.283.283 0 0 1-.225.4 8.026 8.026 0 0 1-.809.041 7.945 7.945 0 1 1 7.943-7.943Z" fill="url(#a)" stroke="#003d75" stroke-width=".035"/><path d="M14.443.528V8.671a4.921 4.921 0 0 0-5.464 6.78.283.283 0 0 1-.225.4 8.026 8.026 0 0 1-.809.041 7.931 7.931 0 0 1-6.5-3.373V.527A.529.529 0 0 1 1.976 0H13.914a.529.529 0 0 1 .529.528Z" fill="url(#b)" stroke="#176eb5" stroke-width=".035"/><g fill="#fff" opacity=".8"><rect x="3.782" y="4.524" width="1.609" height="1.292" rx=".291"/><rect x="3.822" y="7.3" width="1.609" height="1.292" rx=".292"/><rect x="3.81" y="10.077" width="1.608" height="1.292" rx=".291"/></g><g fill="#fff"><rect x="6.485" y="4.524" width="5.538" height="1.292" rx=".283"/><rect x="6.526" y="7.301" width="5.538" height="1.292" rx=".283"/><rect x="6.514" y="10.077" width="3.449" height="1.292" rx=".283"/></g><path d="M18 13.5a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z" fill="#57a300" stroke="#478d00" stroke-width=".035"/><path d="M12.851 15.656a.281.281 0 0 0 .427-.018l2.739-3.507a.225.225 0 0 0-.045-.312l-.51-.393a.227.227 0 0 0-.318.041L13 14.21l-1.2-1.29a.227.227 0 0 0-.32-.012l-.47.434a.23.23 0 0 0-.073.16.226.226 0 0 0 .06.164Z" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Compliance Center (sketch)</title>
+
+  
+  <desc>Hand-drawn blue compliance document with three rows of plain square list bullets and an overlapping green approval badge.</desc>
+
+  <!-- Dark blue circular backplate -->
+  <path d="M65 13            C87 13 104 30 108 51            Q111 68 100 82            Q85 77 75 91            Q65 103 70 115            C49 118 31 108 20 91            C8 72 11 49 23 32            Q39 13 65 13Z" fill="#003B70" stroke="#203746" stroke-width="3.5"/>
+
+  <!-- Main document -->
+  <path d="M18 14            Q18 10 23 10            L96 11            Q100 11 100 16            L100 78            Q88 77 78 88            Q68 99 72 116            Q50 119 34 106            Q18 92 18 75Z" fill="#1689DC" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Document top edge -->
+  <path d="M25 15 Q55 13 94 16" stroke="#203746" stroke-width="2.2"/>
+
+  <!-- Three plain square list bullets -->
+  <g fill="#EAF6FF" stroke="#203746" stroke-width="2.8">
+    <path d="M34 38 Q39 37 44 38 L44 48 L34 48Z"/>
+    <path d="M34 57 Q39 57 44 57 L44 67 L34 67Z"/>
+    <path d="M34 77 Q39 76 44 77 L44 87 L34 87Z"/>
+  </g>
+
+  <!-- Three document text rows -->
+  <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+    <path d="M54 40 Q68 39 84 40"/>
+    <path d="M54 46 Q68 46 83 46"/>
+    <path d="M54 59 Q69 58 84 59"/>
+    <path d="M54 65 Q68 65 83 65"/>
+    <path d="M54 79 Q65 78 77 79"/>
+    <path d="M54 85 Q63 85 72 85"/>
+  </g>
+
+  <!-- Green approval badge -->
+  <path d="M117 95            C117 108 107 118 95 119            C82 120 72 110 72 97            C71 84 81 74 94 73            C107 72 117 82 117 95Z" fill="#57A300" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- White approval check -->
+  <path d="M83 96            Q87 100 92 105            Q101 94 108 86" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

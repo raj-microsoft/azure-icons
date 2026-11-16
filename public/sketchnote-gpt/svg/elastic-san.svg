@@ -1,39 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Elastic SAN (sketch)</title>
-  <defs>
-    <linearGradient id="disk" x1="-313.941" y1="642.516" x2="-313.941" y2="653.768" gradientTransform="translate(324 660.516) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32bedd"/>
-      <stop offset="1" stop-color="#50e6ff"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round"><title>Elastic SAN (sketch)</title>
 
-  <g transform="scale(7.111111)">
-    <!-- Original separated upper storage disk -->
-    <path d="M5.688 2.679C2.582 2.679.058 2.092.005 1.364H0v2.672c0 .74 2.547 1.34 5.688 1.34 3.076 0 5.58-.575 5.683-1.293h0v-.046c0-.008 0-.016 0-.024v-.037h0V1.339c.005.739-2.542 1.34-5.683 1.34Z" fill="#5ea0ef"/>
-    <ellipse cx="5.688" cy="1.339" rx="5.688" ry="1.339" fill="#9cebff"/>
+  
 
-    <!-- Middle storage disk -->
-    <path d="M5.369 9.115c.31-.653.75-1.224 1.279-1.691-.307.012-.621.019-.943.019C2.564 7.443.017 6.843.017 6.103v2.698c0 .544 1.381 1.012 3.362 1.222.587-.445 1.266-.757 1.991-.907Z" fill="#0078d4"/>
-    <path d="M6.649 7.423c.952-.841 2.196-1.341 3.511-1.341.036 0 .072 0 .108.001.05-.001.1-.002.15-.002.331 0 .654.031.968.091.005-.023.007-.046.007-.069 0-.739-2.547-1.339-5.688-1.339S.017 5.364.017 6.103s2.547 1.339 5.688 1.339c.322 0 .637-.007.944-.019Z" fill="#32bedd"/>
+  <!-- Top storage disk -->
+  <path d="M8.5 18            Q9 12 24 10            Q45 6 65 11            Q80 14 82 19            L82 34            Q80 40 64 42            Q39 46 18 39            Q9 36 8.5 32 Z" fill="#5EA0EF" stroke-width="3.2"/>
 
-    <!-- Lower disk segment and left side -->
-    <path d="M1.414 13.873v-.049c.021-.685.184-1.353.472-1.964-1.148-.245-1.869-.599-1.869-.992v2.697c0 .344.551.657 1.455.894-.03-.192-.05-.387-.058-.586Z" fill="#005ba1"/>
-    <path d="M2.711 10.627c.39-.427.851-.775 1.355-1.041C1.724 9.752.017 10.263.017 10.868c0 .393.721.747 1.868.992.211-.447.487-.864.826-1.234Z" fill="#198ab3"/>
+  <path d="M8.5 18            C9 11 25 8 45 8            C66 8 81 12 82 18            C82 25 65 29 45 29            C24 29 9 25 8.5 18 Z" fill="#9CEBFF" stroke-width="3"/>
 
-    <!-- Original cloud silhouette -->
-    <path d="M18 14.474c-.057-1.746-1.367-3.195-3.098-3.428-.126-2.444-2.185-4.337-4.631-4.258-1.948-.047-3.713 1.139-4.407 2.959-2.091.252-3.683 1.994-3.747 4.098.092 2.379 2.092 4.236 4.471 4.152h7.867c1.935-.034 3.5-1.588 3.545-3.524Z" fill="url(#disk)"/>
+  <!-- Middle storage disk -->
+  <path d="M8.5 48            Q9 43 23 41            Q45 37 65 42            Q80 45 82 49            L82 64            Q79 70 63 72            Q39 76 18 69            Q9 66 8.5 62 Z" fill="#0078D4" stroke-width="3.2"/>
 
-    <!-- Original two opposing transfer arrows -->
-    <g fill="#fff">
-      <path d="M7.642 16.001l-1.947-1.956c-.038-.029-.046-.083-.017-.122.005-.007.011-.012.017-.017l1.947-1.947c.043-.039.109-.035.147.008.015.017.025.039.027.062v1.147c-.002.053.039.097.092.099.01 0 .02 0 .03-.004h2.521c.053.005.092.051.087.104h0v1.209c0 .053-.043.096-.096.096H7.938c-.053 0-.096.042-.096.095v1.156c.02.055-.01.116-.065.135s-.116-.01-.135-.065Z"/>
-      <path d="M12.44 11.959l2.016 2.016-2.016 2.025c-.036.038-.097.04-.135.004-.02-.019-.031-.046-.03-.074v-1.147c0-.058-.047-.104-.104-.104H9.564v-1.408h2.607c.057.005.108-.037.113-.095h0v-1.148c.002-.053.047-.094.1-.091.021 0 .041.009.057.022Z"/>
-    </g>
+  <path d="M8.5 48            C9 42 25 38 45 38            C66 38 81 42 82 48            C82 54 65 58 45 58            C24 58 9 54 8.5 48 Z" fill="#32BEDD" stroke-width="2.8"/>
 
-    <!-- Subtle marker outlines, keeping disks physically separated -->
-    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M.05 1.38c.08.71 2.6 1.3 5.64 1.3s5.6-.59 5.68-1.3" stroke="#0078b9" stroke-width=".045" opacity=".65"/>
-      <path d="M.05 6.15c.08.71 2.6 1.3 5.64 1.3" stroke="#005ba1" stroke-width=".045" opacity=".65"/>
-      <path d="M.05 10.9c.06.3.72.6 1.83.84" stroke="#005ba1" stroke-width=".045" opacity=".65"/>
-      <path d="M2.1 14.1c.1 2.1 2.2 3.7 4.55 3.65h7.85c1.9-.03 3.45-1.55 3.5-3.45" stroke="#0078b9" stroke-width=".045" opacity=".55"/>
-    </g>
-  </g>
+  <!-- Bottom storage disk -->
+  <path d="M8.5 78            Q9 73 23 71            Q45 67 65 72            Q80 75 82 79            L82 94            Q79 100 63 102            Q39 106 18 99            Q9 96 8.5 92 Z" fill="#005BA1" stroke-width="3.2"/>
+
+  <path d="M8.5 78            C9 72 25 68 45 68            C66 68 81 72 82 78            C82 84 65 88 45 88            C24 88 9 84 8.5 78 Z" fill="#0078D4" stroke-width="2.8"/>
+
+  <!-- Cloud silhouette -->
+  <path d="M43 119            C29 119 19 109 19 97            C18 85 27 75 40 73            C44 60 57 52 71 53            C87 52 100 64 102 79            C113 81 121 90 121 102            C121 112 113 120 101 120            L44 120 Z" fill="#32BEDD" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Left-pointing scaling arrow -->
+  <path d="M61 89            L48 101            L61 113            L61 106            L78 106            L78 97            L61 97 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Right-pointing scaling arrow -->
+  <path d="M84 89            L97 101            L84 113            L84 106            L67 106            L67 97            L84 97 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.8"/>
+
 </svg>
