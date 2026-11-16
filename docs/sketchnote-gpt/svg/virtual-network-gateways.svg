@@ -1,26 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Network Gateways (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Virtual Network Gateways (sketch)</title>
   
-  <defs>
-    <linearGradient id="gateway-gradient" x1="8.59" y1="-7.79" x2="9.12" y2="20.05" gradientUnits="userSpaceOnUse">
-      <stop offset=".22" stop-color="#32d4f5"/>
-      <stop offset=".47" stop-color="#31d1f3"/>
-      <stop offset=".63" stop-color="#2ec9eb"/>
-      <stop offset=".77" stop-color="#29bade"/>
-      <stop offset=".89" stop-color="#22a5cb"/>
-      <stop offset="1" stop-color="#198ab3"/>
-    </linearGradient>
-  </defs>
+  <desc>Hand-drawn Azure Virtual Network Gateway with a cyan gateway arch, rectangular body, and four white directional arrows. Horizontal arrows point inward toward the center.</desc>
 
-  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Gateway arch: dark irregular marker boundary -->
+  <path d="M27 57        L27 39        C27 18 42 7 64 7        C86 7 101 19 101 39        L101 57" fill="none" stroke="#243447" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <path d="M15.06,8.67h-1V5.59a5.81,5.81,0,0,0-1.49-3.92A4.79,4.79,0,0,0,8.91,0a4.79,4.79,0,0,0-3.7,1.67A5.73,5.73,0,0,0,3.72,5.59V8.67H2.91a.7.7,0,0,0-.69.69v8a.7.7,0,0,0,.69.69H15.06a.71.71,0,0,0,.7-.69V9.36A.71.71,0,0,0,15.06,8.67Zm-3.37,0H6.13V5.54A3.18,3.18,0,0,1,7,3.39a2.51,2.51,0,0,1,1.88-.86,2.54,2.54,0,0,1,1.89.86,3.19,3.19,0,0,1,.32.43h0a3,3,0,0,1,.61,1.71Z" fill="url(#gateway-gradient)"/>
+  <!-- Flat cyan arch -->
+  <path d="M27 57        L27 39        C27 18 42 7 64 7        C86 7 101 19 101 39        L101 57" fill="none" stroke="#32D4F5" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <path d="M15.09,8.67H2.92a.66.66,0,0,0-.44.17l13.05,9a.67.67,0,0,0,.25-.52v-8A.71.71,0,0,0,15.09,8.67Z" fill="#50e6ff"/>
+  <!-- Gateway body -->
+  <path d="M19 56        Q16 56 16 62        L16 112        Q16 120 23 120        L105 120        Q112 120 112 112        L112 62        Q112 56 106 56        Z" fill="#32D4F5" stroke="#243447" stroke-width="4" stroke-linejoin="round"/>
 
-    <path d="M2.94,8.67H15.1a.7.7,0,0,1,.45.17l-13.06,9a.7.7,0,0,1-.25-.52v-8A.72.72,0,0,1,2.94,8.67Z" fill="#fff" opacity=".2"/>
+  <!-- Flat lower gateway color region -->
+  <path d="M20 62        L108 62        L108 112        Q108 116 104 116        L24 116        Q20 116 20 112        Z" fill="#29BADE" stroke="#243447" stroke-width="1.8" stroke-linejoin="round"/>
 
-    <!-- Exact original compound arrow geometry -->
-    <path d="M7.8,10.6,9,9.4a.07.07,0,0,1,.09,0l1.19,1.2a.06.06,0,0,1,0,.1h-.7a.06.06,0,0,0-.06.06V12.3a.06.06,0,0,1-.06.06H8.67a.05.05,0,0,1-.06-.06V10.76a.07.07,0,0,0-.07-.06h-.7A.06.06,0,0,1,7.8,10.6Zm2.47,5.48L9.08,17.27a.06.06,0,0,1-.09,0L7.8,16.08a.06.06,0,0,1,0-.1h.7a.07.07,0,0,0,.07-.06V14.37a.06.06,0,0,1,.06-.06h.74a.06.06,0,0,1,.06.06v1.55a.06.06,0,0,0,.06.06h.7A.06.06,0,0,1,10.27,16.08Zm-4.7-1.55v-.7a.06.06,0,0,0-.06-.06H4a.06.06,0,0,1-.06-.06V13A.06.06,0,0,1,4,12.91H5.51a.06.06,0,0,0,.06-.06v-.7a.07.07,0,0,1,.11-.05l1.19,1.2a.06.06,0,0,1,0,.08l-1.19,1.2A.07.07,0,0,1,5.57,14.53Zm6.93-2.38v.7a.06.06,0,0,0,.06.06H14.1s.07,0,.07.06v.74a.07.07,0,0,1-.07.06H12.56a.06.06,0,0,0-.06.06v.7a.06.06,0,0,1-.1.05l-1.19-1.2a0,0,0,0,1,0-.08l1.19-1.2S12.5,12.09,12.5,12.15Z" fill="#fff" transform="translate(18 0) scale(-1 1)"/>
+  <!-- Four routing arrows, each pointing toward its
+       intended direction as in the official icon -->
 
+  <!-- Up arrow -->
+  <path d="M64 66        L64 78        L72 78        L64 69        L56 78        L64 78        Z" fill="none"/>
+
+  <path d="M54 76        L64 66        L74 76        L68 76        L68 88        L60 88        L60 76        Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Down arrow -->
+  <path d="M60 98        L68 98        L68 108        L74 108        L64 118        L54 108        L60 108        Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Left-side horizontal arrow points RIGHT, inward -->
+  <path d="M27 91        Q27 90 29 90        L43 90        L43 84        Q43 82 45 84        L56 95        Q57 96 56 97        L45 108        Q43 110 43 107        L43 101        L29 101        Q27 101 27 99        Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Right-side horizontal arrow points LEFT, inward -->
+  <path d="M101 91        Q101 90 99 90        L85 90        L85 84        Q85 82 83 84        L72 95        Q71 96 72 97        L83 108        Q85 110 85 107        L85 101        L99 101        Q101 101 101 99        Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g fill="none" stroke="#F4C542" stroke-width="2.8">
+    <path d="M13 39 L7 34"/>
+    <path d="M115 39 L121 34"/>
+    <path d="M12 104 L6 107"/>
+    <path d="M115 104 L122 107"/>
   </g>
 </svg>
