@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Multi Tenancy (sketch)</title><defs><linearGradient id="purpleBody" x1="6.234" y1="5.679" x2="6.234" y2="16.03" gradientUnits="userSpaceOnUse"><stop offset="0.227" stop-color="#a67af4"/><stop offset="1" stop-color="#773adc"/></linearGradient><linearGradient id="purpleHead" x1="5.972" y1="0.13" x2="6.727" y2="9.529" gradientUnits="userSpaceOnUse"><stop offset="0.225" stop-color="#a67af4"/><stop offset="1" stop-color="#773adc"/></linearGradient><linearGradient id="pyramidGradient" x1="9.128" y1="13.552" x2="18" y2="13.552" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1988d9"/><stop offset="0.9" stop-color="#54aef0"/></linearGradient></defs><g transform="scale(7.111111)"><g><g><path d="M16.312,11.946a.74.74,0,0,0,.742-.738.532.532,0,0,0,0-.089C16.758,8.792,15.431,6.9,12.9,6.9c-2.577,0-3.907,1.605-4.166,4.228a.745.745,0,0,0,.664.817.628.628,0,0,0,.075,0Z" fill="#773adc"/><circle cx="12.898" cy="5.114" r="2.335" fill="#773adc"/><path d="M11.355,14.162a1.109,1.109,0,0,0,1.112-1.105,1,1,0,0,0-.008-.134C12.024,9.439,10.036,6.6,6.243,6.6,2.385,6.6.394,9,.006,12.933A1.115,1.115,0,0,0,1,14.156a1.051,1.051,0,0,0,.112.006Z" fill="url(#purpleBody)"/><path d="M6.3,7.428A3.481,3.481,0,0,1,4.41,6.871l1.874,4.895L8.144,6.9A3.468,3.468,0,0,1,6.3,7.428Z" fill="#fff" opacity="0.8"/><circle cx="6.277" cy="3.932" r="3.496" fill="url(#purpleHead)"/></g><polygon points="13.564 9.54 9.128 15.751 13.564 17.564 18 15.751 13.564 9.54" fill="url(#pyramidGradient)" stroke="#1988d9" stroke-width=".035" stroke-linejoin="round"/><polygon points="13.564 9.54 9.128 15.751 13.564 17.564 13.564 9.54" fill="#50e6ff"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Multi Tenancy (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Multi Tenancy icon with two purple user
+    silhouettes and a single cyan-and-blue diamond-shaped pyramid
+    overlapping the lower right. Flat colors, gently uneven dark
+    marker outlines and a transparent background.
+  </desc>
+
+  <!-- Secondary user body, behind main silhouette -->
+  <path d="     M64 76     C66 59 76 49 91 49     C107 49 117 61 120 78     Q121 84 115 85     L69 85     Q63 85 64 76     Z" fill="#773ADC" stroke="#243447" stroke-width="3.1"/>
+
+  <!-- Secondary user head -->
+  <path d="     M107 36     C107 45 100 52 91 52     C82 52 75 45 75 36     C75 27 82 20 91 20     C100 20 107 27 107 36     Z" fill="#773ADC" stroke="#243447" stroke-width="3.1"/>
+
+  <!-- Main user body -->
+  <path d="     M2 88     C5 60 24 47 45 47     C71 47 87 65 90 90     Q91 100 82 100     L11 100     Q1 100 2 88     Z" fill="#A67AF4" stroke="#243447" stroke-width="3.6"/>
+
+  <!-- Main user white collar triangle -->
+  <path d="     M33 55     Q45 63 57 55     L45 89     Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.2"/>
+
+  <!-- Main user head -->
+  <path d="     M69 28     C69 42 59 53 45 53     C31 53 21 42 21 28     C21 14 31 3 45 3     C59 3 69 14 69 28     Z" fill="#A67AF4" stroke="#243447" stroke-width="3.5"/>
+
+  <!-- Cyan pyramid: back/right face -->
+  <path d="     M96 68     L126 112     L96 125     Z" fill="#1988D9" stroke="#243447" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Cyan pyramid: front/left face -->
+  <path d="     M96 68     L65 112     L96 125     Z" fill="#50E6FF" stroke="#243447" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Subtle central pyramid seam -->
+  <path d="M96 69 Q95 97 96 124" fill="none" stroke="#243447" stroke-width="2.4"/>
+
+</svg>

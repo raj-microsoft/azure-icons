@@ -1,43 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Service Bus (sketch)</title>
-  <defs>
-    <linearGradient id="busBottom" x1="8.995" y1="10.299" x2="8.995" y2="13.199" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#005ba1"/>
-      <stop offset=".258" stop-color="#00589d"/>
-      <stop offset=".525" stop-color="#004f90"/>
-      <stop offset=".796" stop-color="#003f7c"/>
-      <stop offset="1" stop-color="#003067"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Azure Service Bus (sketch)</title>
 
-  <g transform="scale(7.111111)">
+  
+  <desc id="desc">
+    A cyan folded message envelope positioned between two separate,
+    continuous gray brackets. The upper bracket is an inverted U,
+    and the lower bracket is a U. Flat colors, uneven dark marker
+    outlines, and a transparent background.
+  </desc>
 
-    <!-- Original four open corner brackets -->
-    <g fill="#999" stroke="#858585" stroke-width=".025">
-      <path d="M1.072 1.43h1.29v3.6a.286.286 0 0 1-.286.286H.786A.286.286 0 0 1 .5 5.035V2a.572.572 0 0 1 .572-.57Z"/>
-      <path d="M15.638 1.43h1.29A.572.572 0 0 1 17.5 2v3.035a.286.286 0 0 1-.286.286h-1.29a.286.286 0 0 1-.286-.286Z"/>
-      <path d="M.786 12.679h1.29a.286.286 0 0 1 .286.286v3.6H1.072A.572.572 0 0 1 .5 16v-3.035a.286.286 0 0 1 .286-.286Z"/>
-      <path d="M15.924 12.679h1.29a.286.286 0 0 1 .286.286V16a.572.572 0 0 1-.572.572h-1.29v-3.607a.286.286 0 0 1 .286-.286Z"/>
-    </g>
-    <g fill="#999" opacity=".5">
-      <path d="M1.072 1.43h1.29v3.6a.286.286 0 0 1-.286.286H.786A.286.286 0 0 1 .5 5.035V2a.572.572 0 0 1 .572-.57Z"/>
-      <path d="M15.638 1.43h1.29A.572.572 0 0 1 17.5 2v3.035a.286.286 0 0 1-.286.286h-1.29a.286.286 0 0 1-.286-.286Z"/>
-      <path d="M.786 12.679h1.29a.286.286 0 0 1 .286.286v3.6H1.072A.572.572 0 0 1 .5 16v-3.035a.286.286 0 0 1 .286-.286Z"/>
-      <path d="M15.924 12.679h1.29a.286.286 0 0 1 .286.286V16a.572.572 0 0 1-.572.572h-1.29v-3.607a.286.286 0 0 1 .286-.286Z"/>
-    </g>
+  <!-- Upper bracket: one continuous inverted U -->
+  <path d="     M8 10     Q6 10 4 13     L4 35     Q4 38 7 38     L13 38     Q16 38 16 35     L16 22     L112 22     L112 35     Q112 38 115 38     L121 38     Q124 38 124 35     L124 13     Q123 10 120 10     Z" fill="#999999" stroke="#243447" stroke-width="3"/>
 
-    <!-- Original open top and bottom horizontal bars, exact transforms -->
-    <path d="M8.66-6.163H9.907v17H8.66a.567.567 0 0 1-.567-.567V-5.6a.567.567 0 0 1 .567-.563Z" transform="translate(11.337 -6.663) rotate(90)" fill="#949494"/>
+  <!-- Lower bracket: one continuous U -->
+  <path d="     M7 90     Q4 90 4 93     L4 115     Q4 118 8 118     L120 118     Q124 118 124 115     L124 93     Q124 90 121 90     L115 90     Q112 90 112 93     L112 106     L16 106     L16 93     Q16 90 13 90     Z" fill="#999999" stroke="#243447" stroke-width="3"/>
 
-    <path d="M8.66 7.163H9.907v17H8.66a.567.567 0 0 1-.567-.567V7.73a.567.567 0 0 1 .567-.567Z" transform="translate(-6.663 24.663) rotate(-90)" fill="#949494"/>
+  <!-- Main cyan envelope silhouette -->
+  <path d="     M34 53     L61 34     Q64 31 67 34     L94 53     Q95 54 95 57     L95 91     Q95 94 92 94     L36 94     Q33 94 33 91     L33 57     Q33 55 34 53     Z" fill="#50E6FF" stroke="#243447" stroke-width="3"/>
 
-    <!-- Original three-dimensional Service Bus envelope -->
-    <polygon points="13.387 7.4 13.382 7.396 13.382 7.384 13.363 7.384 8.997 4.405 4.631 7.384 4.612 7.384 4.612 7.396 4.606 7.4 4.612 7.4 4.612 13.201 13.382 13.201 13.382 7.4 13.387 7.4" fill="#50e6ff"/>
+  <!-- Left folded envelope face -->
+  <path d="     M33 55     L64 75     L33 94     Q32 76 33 55     Z" fill="#32BEDD" stroke="#243447" stroke-width="2.3"/>
 
-    <path d="M4.606 7.4c0-.1.008 5.681.008 5.8L8.995 10.3Z" fill="#32bedd"/>
+  <!-- Right folded envelope face -->
+  <path d="     M95 55     L64 75     L95 94     Q96 76 95 55     Z" fill="#198AB3" stroke="#243447" stroke-width="2.3"/>
 
-    <path d="M13.384 7.4L8.995 10.3l4.381 2.9c0-.117.008-5.8.008-5.8Z" fill="#198ab3"/>
+  <!-- Bottom folded envelope face -->
+  <path d="     M33 94     L64 75     L95 94     Z" fill="#004F90" stroke="#243447" stroke-width="2.5"/>
 
-    <polygon points="8.995 10.299 4.614 13.194 4.614 13.199 13.376 13.199 13.376 13.194" fill="url(#busBottom)"/>
-
-  </g>
 </svg>

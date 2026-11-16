@@ -1,23 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>SendGrid Accounts (sketch)</title>
-  <defs>
-    <linearGradient id="a" x1="11.78" y1=".5" x2="11.78" y2="11.83" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32d4f5"/>
-      <stop offset=".23" stop-color="#31d0f1"/>
-      <stop offset=".46" stop-color="#2cc3e6"/>
-      <stop offset=".7" stop-color="#25afd4"/>
-      <stop offset=".94" stop-color="#1c92ba"/>
-      <stop offset="1" stop-color="#198ab3"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>SendGrid Accounts (sketch)</title>
 
-  <g transform="scale(7.111111)">
-    <!-- Original six overlapping square sections -->
-    <path d="       M6.22 11.83       H.67       V6.73       Q.67 6.17 1.24 6.17       H6.22       Z        M11.78 11.83       H6.22       V17.5       H11.21       Q11.78 17.5 11.78 16.93       Z" fill="#005ba1"/>
+  
+  <desc>
+    Seven staggered Azure-blue and cyan square tiles with
+    plain flat fills, gently wobbly hand-drawn dark marker
+    contours, subtly imperfect corners and a transparent
+    background. No highlights or decorative elements.
+  </desc>
 
-    <path d="       M11.78 11.83       H6.22       V6.17       H11.78       Z        M6.22 11.83       H.67       V16.93       Q.67 17.5 1.24 17.5       H6.22       Z" fill="#0078d4"/>
+  <!-- Top-left tile -->
+  <path d="     M45.2 8.1     Q44.7 5.1 48.1 5.2     Q65 4.1 82.1 5.1     Q85.3 5.2 85.1 8.2     Q84.1 25 85 42     Q65 42.8 45 42     Q45.9 25 45.2 8.1     Z" fill="#0078D4" stroke="#243447" stroke-width="2.8"/>
 
-    <path d="       M11.78 6.17       H6.22       V1.07       Q6.22 .5 6.79 .5       H11.78       Z        M17.33 6.17       H11.78       V11.83       H16.87       Q17.33 11.83 17.33 11.38       Z" fill="#0078d4"/>
+  <!-- Top-right tile -->
+  <path d="     M85.1 8.2     Q85.2 5.1 88.1 5.2     Q104 4.3 121 5.1     Q124.2 5.2 123.9 8     Q123 25 124 42     Q104 41.2 85 42     Q84.1 25 85.1 8.2     Z" fill="#32D4F5" stroke="#243447" stroke-width="2.9"/>
 
-    <path d="       M17.33 6.17       H11.78       V.5       H16.87       Q17.33 .5 17.33 .95       Z        M11.78 6.17       H6.22       V11.27       Q6.22 11.83 6.79 11.83       H11.78       Z" fill="url(#a)"/>
-  </g>
+  <!-- Middle-left tile -->
+  <path d="     M5.1 42     Q5 39.1 8.1 39.2     Q26 38.4 45 39     Q44.2 40.5 45 42     Q44.1 62 45 82     Q25 81.2 5 82     Q5.9 62 5.1 42     Z" fill="#005BA1" stroke="#243447" stroke-width="3.1"/>
+
+  <!-- Middle-center tile -->
+  <path d="     M45 42     Q65 42.8 85 42     Q84.2 62 85 82     Q65 82.9 45 82     Q44.1 62 45 42     Z" fill="#32D4F5" stroke="#243447" stroke-width="2.6"/>
+
+  <!-- Middle-right tile -->
+  <path d="     M85 42     Q104 41.2 124 42     Q123.1 60 124 79     Q124.2 82.2 121 82     Q103 81.2 85 82     Q84.2 62 85 42     Z" fill="#0078D4" stroke="#243447" stroke-width="3"/>
+
+  <!-- Bottom-left tile -->
+  <path d="     M5 82     Q25 81.2 45 82     Q44.2 101 45 120     Q26 119.1 8 120     Q5 120.2 5.1 117     Q5.8 100 5 82     Z" fill="#0078D4" stroke="#243447" stroke-width="2.7"/>
+
+  <!-- Bottom-center tile -->
+  <path d="     M45 82     Q65 82.9 85 82     Q84.1 101 85 120     Q66 119.2 48 120     Q45 120.1 45 117     Q44.2 100 45 82     Z" fill="#005BA1" stroke="#243447" stroke-width="2.9"/>
+
 </svg>
