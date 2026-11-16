@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Storage Azure Files (sketch)</title><defs><linearGradient id="folder-body" x1="9" y1="15.799" x2="9" y2="5.316" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#32bedd"/><stop offset=".775" stop-color="#32d4f5"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M.544 5.316H17.456v9.918a.565.565 0 0 1-.565.565H1.109a.565.565 0 0 1-.565-.565Z" fill="url(#folder-body)"/><path d="M1.112 2.2H16.888a.565.565 0 0 1 .565.565v2.55H.547v-2.55a.565.565 0 0 1 .565-.565Z" fill="#0078d4"/><path d="M13.9 7.32H9.715a.224.224 0 0 1-.125-.038l-1.2-.795a.219.219 0 0 0-.124-.038H4.752a.224.224 0 0 0-.224.224v7.392a.223.223 0 0 0 .224.223H13.9a.224.224 0 0 0 .224-.223V7.544a.224.224 0 0 0-.224-.224Z" fill="#5ea0ef"/><rect x="5.154" y="6.905" width="2.318" height=".464" rx=".098" fill="#fff"/><rect x="5.154" y="6.905" width=".464" height=".464" rx=".067" fill="#0078d4"/><path d="M13.9 7.309H9.3a.225.225 0 0 0-.159.066l-.739.739a.225.225 0 0 1-.159.066H4.752a.224.224 0 0 0-.224.224v5.65a.223.223 0 0 0 .224.223H13.9a.224.224 0 0 0 .224-.223V7.533a.224.224 0 0 0-.224-.224Z" fill="#fff" opacity=".9"/><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M.56 5.35L17.43 5.35L17.42 15.20Q17.40 15.78 16.88 15.78L1.13 15.78Q.57 15.76 .56 15.20Z" stroke="#168db5" stroke-width=".055"/><path d="M.58 2.77Q.57 2.24 1.12 2.23L16.87 2.23Q17.43 2.25 17.42 2.78" stroke="#005ba1" stroke-width=".055"/><path d="M4.58 7.54L4.58 14.25Q4.59 14.38 4.77 14.38L13.85 14.38" stroke="#398bd0" stroke-width=".04" opacity=".65"/><path d="M9.36 7.42L9.52 7.43L9.69 7.54" stroke="#398bd0" stroke-width=".035" opacity=".6"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Storage Azure Files (sketch)</title>
+  
+  <desc>Azure Files icon with a wide blue browser header, cyan storage panel, and a plain overlapping two-layer folder without a document.</desc>
+
+  <!-- Cyan storage container -->
+  <path d="M4 38            L124 38            L124 107            Q124 112 119 112            L9 112            Q4 112 4 107 Z" fill="#32CBE9" stroke="#203746" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Solid blue browser header: no folder tab -->
+  <path d="M9 16            L119 16            Q124 16 124 21            L124 38            L4 38            L4 21            Q4 16 9 16 Z" fill="#0078D4" stroke="#203746" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Rear blue folder layer -->
+  <path d="M32 46            Q32 44 34 44            L57 44            Q59 44 61 46            L69 52            L97 52            Q100 52 100 55            L100 100            Q100 102 97 102            L34 102            Q32 102 32 99 Z" fill="#5EA0EF" stroke="#203746" stroke-width="2.7" stroke-linejoin="round"/>
+
+  <!-- Small horizontal white-and-blue file marker,
+       located above the front folder -->
+  <path d="M37 48            Q37 47 38 47            L52 47            Q53 47 53 48            L53 50            Q53 51 52 51            L38 51            Q37 51 37 50 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.1" stroke-linejoin="round"/>
+
+  <path d="M37 48            Q37 47 38 47            L40 47            L40 51            L38 51            Q37 51 37 50 Z" fill="#0078D4" stroke="#203746" stroke-width=".8" stroke-linejoin="round"/>
+
+  <!-- Plain white front folder.
+       Small central notch on upper edge.
+       No document, text lines, or page fold. -->
+  <path d="M34 59            L57 59            Q59 59 60 58            L65 53            Q66 52 68 52            L97 52            Q100 52 100 55            L100 99            Q100 102 97 102            L35 102            Q32 102 32 99            L32 62            Q32 59 34 59 Z" fill="#F5FCFF" stroke="#203746" stroke-width="2.8" stroke-linejoin="round"/>
+
+</svg>

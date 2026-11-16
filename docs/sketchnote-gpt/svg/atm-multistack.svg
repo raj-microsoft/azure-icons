@@ -1,1 +1,83 @@
-<svg id="uuid-cfb7345c-5764-4e07-8795-2d90bf4ee9fa" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>ATM Multistack (sketch)</title><defs><linearGradient id="uuid-bcc3f115-baaa-4965-acc2-5ee94031e9e4" x1="-555.066" y1="1011.491" x2="-555.066" y2="1021.414" gradientTransform="translate(564 1025.516) scale(1 -1)" gradientUnits="userSpaceOnUse"><stop offset=".16" stop-color="#6f4bb2"/><stop offset=".32" stop-color="#7450b5"/><stop offset=".51" stop-color="#825dbf"/><stop offset=".72" stop-color="#9a72ce"/><stop offset=".94" stop-color="#bb90e4"/><stop offset="1" stop-color="#c69aeb"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><rect x="9.098" width="8.902" height="2.434" rx=".298" ry=".298" fill="#9cebff" stroke="#70cde5" stroke-width=".035"/><rect x="16.616" y=".426" width=".665" height=".665" rx=".149" ry=".149" fill="#fff"/><rect x="16.616" y="1.343" width=".665" height=".665" rx=".149" ry=".149" fill="#fff" isolation="isolate" opacity=".6"/><rect x="9.098" y="2.885" width="8.902" height="2.434" rx=".298" ry=".298" fill="#41d2ee" stroke="#20b5d4" stroke-width=".035"/><rect x="16.616" y="3.31" width=".665" height=".665" rx=".149" ry=".149" fill="#fff"/><rect x="16.616" y="4.227" width=".665" height=".665" rx=".149" ry=".149" fill="#fff" isolation="isolate" opacity=".6"/><rect x="9.098" y="5.769" width="8.902" height="2.434" rx=".298" ry=".298" fill="#198ab3" stroke="#08749d" stroke-width=".035"/><rect x="16.616" y="6.194" width=".665" height=".665" rx=".149" ry=".149" fill="#fff"/><rect x="16.616" y="7.111" width=".665" height=".665" rx=".149" ry=".149" fill="#fff" isolation="isolate" opacity=".6"/><rect x="-.016" y="9.798" width="8.9" height="2.434" rx=".298" ry=".298" fill="#83b9f9" stroke="#5797df" stroke-width=".035"/><rect x="7.501" y="10.224" width=".665" height=".665" rx=".149" ry=".149" fill="#fff"/><rect x="7.501" y="11.141" width=".665" height=".665" rx=".149" ry=".149" fill="#fff" isolation="isolate" opacity=".6"/><rect x="-.016" y="12.683" width="8.9" height="2.434" rx=".298" ry=".298" fill="#2e8ce1" stroke="#176fc0" stroke-width=".035"/><rect x="7.501" y="13.108" width=".665" height=".665" rx=".149" ry=".149" fill="#fff"/><rect x="7.501" y="14.025" width=".665" height=".665" rx=".149" ry=".149" fill="#fff" isolation="isolate" opacity=".6"/><rect x="-.016" y="15.566" width="8.9" height="2.434" rx=".298" ry=".298" fill="#005ba1" stroke="#064a82" stroke-width=".035"/><rect x="7.501" y="15.992" width=".665" height=".665" rx=".149" ry=".149" fill="#fff"/><rect x="7.501" y="16.909" width=".665" height=".665" rx=".149" ry=".149" fill="#fff" isolation="isolate" opacity=".6"/><g><path d="m10.854,4.101h-3.841c-.088,0-.172.036-.233.099l-2.709,2.709c-.063.061-.099.145-.099.233v3.841c0,.088.036.172.099.233l2.709,2.709c.061.063.145.099.233.099h3.841c.088,0,.172-.036.233-.099l2.709-2.709c.063-.061.099-.145.099-.233v-3.841c0-.088-.036-.172-.099-.233l-2.709-2.709c-.061-.063-.145-.099-.233-.099Z" fill="url(#uuid-bcc3f115-baaa-4965-acc2-5ee94031e9e4)" stroke="#6744a5" stroke-width=".035"/><path d="m13.125,7.259l-2.387-2.388c-.031-.031-.073-.047-.117-.047h-3.374c-.044,0-.086.016-.117.047l-2.388,2.388c-.031.031-.047.073-.047.117v3.374c0,.043.017.085.047.117l2.388,2.388c.031.031.073.047.117.047h3.374c.044,0,.086-.016.117-.047l2.387-2.388c.029-.032.046-.073.047-.117v-3.374c0-.044-.016-.086-.047-.117Zm-.21,3.181l-1.839-1.839.444-.449c.039-.034.042-.093.008-.132-.003-.003-.005-.006-.008-.008-.021-.008-.043-.008-.064,0l-1.582-.041c-.053,0-.096.041-.099.093l.041,1.582c0,.052.042.093.093.094.002,0,.004,0,.006,0,.022.011.048.011.07,0l.496-.49,1.956,1.926-1.483,1.483-2.02-2.014.467-.414c.039-.034.042-.093.008-.132-.003-.003-.005-.006-.008-.008-.017-.018-.04-.028-.064-.029l-1.57-.07c-.053,0-.096.041-.099.093l.041,1.582c0,.052.042.094.093.094.002,0,.004,0,.006,0,.026,0,.052-.011.07-.029l.473-.484,1.798,1.798h-2.866l-2.335-2.335v-3.298l.736-.73,1.5,1.471c.03.033.03.083,0,.117l-.041.041-.584.584c-.029.035-.025.086.01.115.014.011.031.018.049.019h2.218c.045,0,.082-.037.082-.082v-2.189c.008-.053-.029-.103-.082-.111-.053-.008-.103.029-.111.082l-.584.584-.041.041c-.033.03-.083.03-.117,0l-1.5-1.477.8-.8h3.304l2.335,2.335-.006,3.03Z" fill="#f2f2f2" stroke="#ffffff" stroke-width=".018"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>ATM Multistack (sketch)</title>
+  
+  <desc>Two diagonally offset three-tier server stacks and a central purple octagonal routing badge with four diagonal branching arrows.</desc>
+
+  <!-- Upper-right stack -->
+  <g stroke="#203746" stroke-width="2.2" stroke-linejoin="round">
+    <path d="M65 2 Q65 1 68 1 L124 1 Q127 1 127 4              L127 15 Q127 18 124 18 L68 18 Q65 18 65 15 Z" fill="#9CEBFF"/>
+    <path d="M65 22 Q65 21 68 21 L124 21 Q127 21 127 24              L127 35 Q127 38 124 38 L68 38 Q65 38 65 35 Z" fill="#41D2EE"/>
+    <path d="M65 42 Q65 41 68 41 L124 41 Q127 41 127 44              L127 55 Q127 58 124 58 L68 58 Q65 58 65 55 Z" fill="#198AB3"/>
+  </g>
+
+  <!-- Upper stack status indicators -->
+  <g fill="#FFFFFF" stroke="#203746" stroke-width=".85">
+    <path d="M118 5 Q121 5 121 8 Q121 10 118 10 Q116 10 116 8 Z"/>
+    <path d="M118 12 Q120 12 120 14 Q120 16 118 16 Q116 16 116 14 Z"/>
+    <path d="M118 25 Q121 25 121 28 Q121 30 118 30 Q116 30 116 28 Z"/>
+    <path d="M118 32 Q120 32 120 34 Q120 36 118 36 Q116 36 116 34 Z"/>
+    <path d="M118 45 Q121 45 121 48 Q121 50 118 50 Q116 50 116 48 Z"/>
+    <path d="M118 52 Q120 52 120 54 Q120 56 118 56 Q116 56 116 54 Z"/>
+  </g>
+
+  <!-- Lower-left stack -->
+  <g stroke="#203746" stroke-width="2.2" stroke-linejoin="round">
+    <path d="M1 70 Q1 68 4 68 L59 68 Q62 68 62 71              L62 82 Q62 85 59 85 L4 85 Q1 85 1 82 Z" fill="#83B9F9"/>
+    <path d="M1 90 Q1 88 4 88 L59 88 Q62 88 62 91              L62 102 Q62 105 59 105 L4 105 Q1 105 1 102 Z" fill="#2E8CE1"/>
+    <path d="M1 110 Q1 108 4 108 L59 108 Q62 108 62 111              L62 122 Q62 125 59 125 L4 125 Q1 125 1 122 Z" fill="#005BA1"/>
+  </g>
+
+  <!-- Lower stack status indicators -->
+  <g fill="#FFFFFF" stroke="#203746" stroke-width=".85">
+    <path d="M53 72 Q56 72 56 75 Q56 77 53 77 Q51 77 51 75 Z"/>
+    <path d="M53 79 Q55 79 55 81 Q55 83 53 83 Q51 83 51 81 Z"/>
+    <path d="M53 92 Q56 92 56 95 Q56 97 53 97 Q51 97 51 95 Z"/>
+    <path d="M53 99 Q55 99 55 101 Q55 103 53 103 Q51 103 51 101 Z"/>
+    <path d="M53 112 Q56 112 56 115 Q56 117 53 117 Q51 117 51 115 Z"/>
+    <path d="M53 119 Q55 119 55 121 Q55 123 53 123 Q51 123 51 121 Z"/>
+  </g>
+
+  <!-- Central octagonal badge -->
+  <path d="M50 29 Q51 28 54 28            L74 28 Q77 28 79 30            L98 49 Q100 51 100 54            L100 75 Q100 78 98 80            L79 99 Q77 101 74 101            L54 101 Q51 101 49 99            L30 80 Q28 78 28 75            L28 54 Q28 51 30 49 Z" fill="#A17BD1" stroke="#203746" stroke-width="3.4" stroke-linejoin="round"/>
+
+  <!-- Inner octagonal boundary -->
+  <path d="M54 35 L74 35            L93 54 L93 75            L74 94 L54 94            L35 75 L35 54 Z" fill="none" stroke="#F2F2F2" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Four diagonal branching arrows.
+       The arrows follow diagonal routes, not horizontal
+       opposed paths. Short angular heads retain the
+       directional changes of the official symbol. -->
+
+  <g fill="none" stroke="#203746" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Upper-left branch, pointing southeast -->
+    <path d="M41 51 L55 65 L64 56"/>
+    <path d="M54 56 L64 56 L64 66"/>
+
+    <!-- Upper-right branch, pointing northwest -->
+    <path d="M88 78 L72 62"/>
+    <path d="M72 72 L72 62 L82 62"/>
+
+    <!-- Lower-left branch, pointing northwest -->
+    <path d="M63 83 L47 67"/>
+    <path d="M47 77 L47 67 L57 67"/>
+
+    <!-- Lower-right branch, pointing southeast -->
+    <path d="M66 75 L80 89"/>
+    <path d="M70 89 L80 89 L80 79"/>
+  </g>
+
+  <g fill="none" stroke="#F2F2F2" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M41 51 L55 65 L64 56"/>
+    <path d="M54 56 L64 56 L64 66"/>
+
+    <path d="M88 78 L72 62"/>
+    <path d="M72 72 L72 62 L82 62"/>
+
+    <path d="M63 83 L47 67"/>
+    <path d="M47 77 L47 67 L57 67"/>
+
+    <path d="M66 75 L80 89"/>
+    <path d="M70 89 L80 89 L80 79"/>
+  </g>
+</svg>

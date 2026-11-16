@@ -1,52 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Clusters (sketch)</title>
-  <defs>
-    <linearGradient id="serverGray" x1="5.35" y1="7.02" x2="5.35" y2="17.19" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#B3B2B3"/>
-      <stop offset="0.38" stop-color="#AFAEAF"/>
-      <stop offset="0.76" stop-color="#A2A2A2"/>
-      <stop offset="1" stop-color="#979797"/>
-    </linearGradient>
-    <linearGradient id="cloudBlue" x1="11.33" y1="15.74" x2="11.33" y2="6.99" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078D4"/>
-      <stop offset="0.16" stop-color="#1380DA"/>
-      <stop offset="0.53" stop-color="#3C91E5"/>
-      <stop offset="0.82" stop-color="#559CEC"/>
-      <stop offset="1" stop-color="#5EA0EF"/>
-    </linearGradient>
-  </defs>
+  
 
-  <g transform="scale(7.111111)">
-    <!-- Left upper server -->
-    <path d="M7.77 10.68       C7.77 10.88 7.58 11.02 7.35 11.02       H.92 C.69 11.02 .50 10.88 .50 10.68       V1.20 C.50 1.00 .69 .86 .92 .86       H7.35 C7.58 .86 7.77 1.00 7.77 1.20 Z" fill="#949494" stroke="#858585" stroke-width=".045"/>
+  <!-- Rear left server -->
+  <path d="M6 8 Q6 5 10 5            L51 5 Q55 5 55 9            L55 74 Q55 78 51 78            L10 78 Q6 78 6 74 Z" fill="#999999" stroke="#203746" stroke-width="3" stroke-linejoin="round"/>
 
-    <path d="M1.57 5.20       C1.57 4.76 1.92 4.41 2.36 4.41       H6 C6.44 4.41 6.79 4.76 6.79 5.20       C6.79 5.64 6.44 5.99 6 5.99       H2.36 C1.92 5.99 1.57 5.64 1.57 5.20 Z" fill="#003067"/>
+  <!-- Rear right server -->
+  <path d="M64 8 Q64 5 68 5            L109 5 Q113 5 113 9            L113 74 Q113 78 109 78            L68 78 Q64 78 64 74 Z" fill="#999999" stroke="#203746" stroke-width="3" stroke-linejoin="round"/>
 
-    <path d="M1.57 2.86       C1.57 2.42 1.92 2.06 2.36 2.06       H6 C6.44 2.06 6.79 2.42 6.79 2.86       C6.79 3.30 6.44 3.65 6 3.65       H2.36 C1.92 3.65 1.57 3.30 1.57 2.86 Z" fill="#003067"/>
-
-    <circle cx="2.39" cy="2.86" r=".53" fill="#50E6FF"/>
-    <circle cx="2.39" cy="5.20" r=".53" fill="#50E6FF"/>
-
-    <!-- Right upper server -->
-    <path d="M15.79 10.63       C15.79 10.83 15.60 10.98 15.37 10.98       H8.94 C8.71 10.98 8.52 10.83 8.52 10.63       V1.16 C8.52 .96 8.71 .81 8.94 .81       H15.37 C15.60 .81 15.79 .96 15.79 1.16 Z" fill="#949494" stroke="#858585" stroke-width=".045"/>
-
-    <path d="M9.59 5.16       C9.59 4.72 9.94 4.37 10.38 4.37       H14 C14.44 4.37 14.79 4.72 14.79 5.16       C14.79 5.60 14.44 5.95 14 5.95       H10.38 C9.94 5.95 9.59 5.60 9.59 5.16 Z" fill="#003067"/>
-
-    <path d="M9.59 2.81       C9.59 2.37 9.94 2.02 10.38 2.02       H14 C14.44 2.02 14.79 2.37 14.79 2.81       C14.79 3.25 14.44 3.60 14 3.60       H10.38 C9.94 3.60 9.59 3.25 9.59 2.81 Z" fill="#003067"/>
-
-    <circle cx="10.41" cy="2.81" r=".53" fill="#50E6FF"/>
-    <circle cx="10.41" cy="5.16" r=".53" fill="#50E6FF"/>
-
-    <!-- Lower server -->
-    <path d="M9 16.84       C9 17.04 8.81 17.19 8.57 17.19       H2.14 C1.90 17.19 1.72 17.04 1.72 16.84       V7.37 C1.72 7.17 1.90 7.02 2.14 7.02       H8.57 C8.81 7.02 9 7.17 9 7.37 Z" fill="url(#serverGray)" stroke="#858585" stroke-width=".045"/>
-
-    <path d="M2.79 11.37       C2.79 10.93 3.14 10.58 3.58 10.58       H7.20 C7.64 10.58 7.99 10.93 7.99 11.37       C7.99 11.81 7.64 12.16 7.20 12.16       H3.58 C3.14 12.16 2.79 11.81 2.79 11.37 Z" fill="#003067"/>
-
-    <path d="M2.79 9.02       C2.79 8.58 3.14 8.23 3.58 8.23       H7.20 C7.64 8.23 7.99 8.58 7.99 9.02       C7.99 9.46 7.64 9.81 7.20 9.81       H3.58 C3.14 9.81 2.79 9.46 2.79 9.02 Z" fill="#003067"/>
-
-    <circle cx="3.61" cy="9.02" r=".53" fill="#50E6FF"/>
-    <circle cx="3.61" cy="11.37" r=".53" fill="#50E6FF"/>
-
-    <!-- Original empty cloud: no network nodes or internal symbols -->
-    <path d="M17.50 13       C17.50 11.60 16.46 10.47 15.09 10.34       C14.78 8.39 13.28 7 11.50 7       C9.95 7 8.62 7.96 8.07 9.33       C6.35 9.58 5.16 10.85 5.16 12.51       C5.16 14.37 6.72 15.74 8.64 15.74       H14.57       C14.62 15.74 14.67 15.73 14.72 15.71       C16.26 15.66 17.50 14.46 17.50 13 Z" fill="url(#cloudBlue)" stroke="#287FCB" stroke-width=".055" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left server slots -->
+  <g fill="#003067" stroke="#203746" stroke-width="2" stroke-linejoin="round">
+    <path d="M18 15 Q15 15 15 19              Q15 22 19 22              L42 22 Q46 22 46 19              Q46 15 42 15 Z"/>
+    <path d="M18 32 Q15 32 15 36              Q15 39 19 39              L42 39 Q46 39 46 36              Q46 32 42 32 Z"/>
   </g>
+
+  <!-- Right server slots -->
+  <g fill="#003067" stroke="#203746" stroke-width="2" stroke-linejoin="round">
+    <path d="M76 15 Q73 15 73 19              Q73 22 77 22              L100 22 Q104 22 104 19              Q104 15 100 15 Z"/>
+    <path d="M76 32 Q73 32 73 36              Q73 39 77 39              L100 39 Q104 39 104 36              Q104 32 100 32 Z"/>
+  </g>
+
+  <!-- Rear server indicator lights -->
+  <g fill="#50e6ff" stroke="#203746" stroke-width="1.3">
+    <path d="M20 16 Q23 15 24 19 Q24 22 20 22 Q17 21 17 19 Z"/>
+    <path d="M20 33 Q23 32 24 36 Q24 39 20 39 Q17 38 17 36 Z"/>
+    <path d="M78 16 Q81 15 82 19 Q82 22 78 22 Q75 21 75 19 Z"/>
+    <path d="M78 33 Q81 32 82 36 Q82 39 78 39 Q75 38 75 36 Z"/>
+  </g>
+
+  <!-- Front server, overlapping rear left server -->
+  <path d="M15 52 Q15 49 19 49            L60 49 Q64 49 64 53            L64 119 Q64 122 60 122            L19 122 Q15 122 15 119 Z" fill="#aeadae" stroke="#203746" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- Front server slots -->
+  <g fill="#003067" stroke="#203746" stroke-width="2" stroke-linejoin="round">
+    <path d="M27 65 Q24 65 24 69              Q24 72 28 72              L51 72 Q55 72 55 69              Q55 65 51 65 Z"/>
+    <path d="M27 82 Q24 82 24 86              Q24 89 28 89              L51 89 Q55 89 55 86              Q55 82 51 82 Z"/>
+  </g>
+
+  <!-- Front server indicator lights -->
+  <g fill="#50e6ff" stroke="#203746" stroke-width="1.3">
+    <path d="M29 66 Q32 65 33 69 Q33 72 29 72 Q26 71 26 69 Z"/>
+    <path d="M29 83 Q32 82 33 86 Q33 89 29 89 Q26 88 26 86 Z"/>
+  </g>
+
+  <!-- Plain virtual cluster cloud:
+       Official cloud silhouette, without network nodes,
+       connectors, highlights or decorative elements. -->
+  <path d="M104 111            C115 111 122 104 122 94            C122 85 116 78 107 77            C104 64 95 56 83 56            C71 56 61 64 58 75            C47 76 39 85 39 97            C39 108 48 115 60 115            L102 115            Q104 115 104 111 Z" fill="#398fe1" stroke="#203746" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

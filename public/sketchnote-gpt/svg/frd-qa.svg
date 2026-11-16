@@ -1,1 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>FRD QA (sketch)</title><defs><linearGradient id="uuid-28a661af-6f16-45b9-bd55-a04c97391471" x1="6.725" y1="15.3" x2="6.725" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset=".878" stop-color="#5ea0ef"/></linearGradient><radialGradient id="uuid-fd891cda-31e1-480a-9e8c-0d750f2b8141" cx="11.892" cy="12.51" r="3.549" gradientUnits="userSpaceOnUse"><stop offset=".225" stop-color="#32d4f5"/><stop offset=".59" stop-color="#32d2f2"/><stop offset=".825" stop-color="#32caea"/><stop offset="1" stop-color="#32bedd"/></radialGradient><radialGradient id="uuid-1578354a-3137-4b2d-8cfa-cde385eee489" cx="-970.857" cy="463.006" r="3.549" gradientTransform="translate(-958.965 475.516) rotate(-180)" gradientUnits="userSpaceOnUse"><stop offset=".225" stop-color="#32d4f5"/><stop offset=".59" stop-color="#32d2f2"/><stop offset=".825" stop-color="#32caea"/><stop offset="1" stop-color="#32bedd"/></radialGradient></defs><g transform="scale(7.111111)"><g><path d="M10.656,0h-3.825C6.796,0,6.76.003,6.725.005,6.69.003,6.655,0,6.619,0h-3.825C1.708,0,.828.881.828,1.967v11.367c0,.272.055.53.155.766.299.706.997,1.201,1.812,1.201h7.862c.815,0,1.514-.495,1.812-1.201.1-.235.155-.494.155-.766V1.967C12.623.881,11.742,0,10.656,0Z" fill="url(#uuid-28a661af-6f16-45b9-bd55-a04c97391471)" stroke="#1765a5" stroke-width=".025" stroke-linejoin="round"/><g><path d="M9.791,10.327H3.227c-.176.003-.322-.138-.325-.314-.003-.176.138-.322.314-.325.003,0,.007,0,.01,0h6.564c.176-.003.322.138.325.314s-.138.322-.314.325c-.003,0-.007,0-.01,0Z" fill="#fff" isolation="isolate" opacity=".8"/><path d="M8.453,11.653H3.227c-.176.003-.322-.138-.325-.314-.003-.176.138-.322.314-.325.003,0,.007,0,.01,0h5.226c.176.003.317.148.314.325-.003.172-.142.311-.314.314Z" fill="#fff" isolation="isolate" opacity=".6"/><path d="M9.791,12.979H3.227c-.176.003-.322-.138-.325-.314-.003-.176.138-.322.314-.325.003,0,.007,0,.01,0h6.564c.176-.003.322.138.325.314s-.138.322-.314.325c-.003,0-.007,0-.01,0Z" fill="#fff" isolation="isolate" opacity=".4"/><g><path d="M3.56,8.207v.404c.003.176-.138.322-.314.325-.176.003-.322-.138-.325-.314,0-.003,0-.007,0-.01v-.404c-.003-.176.138-.322.314-.325s.322.138.325.314c0,.003,0,.007,0,.01Z" fill="#fff" isolation="isolate" opacity=".2"/><path d="M5.216,6.473v2.138c.003.176-.138.322-.314.325-.176.003-.322-.138-.325-.314,0-.003,0-.007,0-.01v-2.138c.003-.176.148-.317.325-.314.172.003.311.142.314.314Z" fill="#fff" isolation="isolate" opacity=".3"/><path d="M6.871,4.863v3.748c.003.176-.138.322-.314.325-.176.003-.322-.138-.325-.314,0-.003,0-.007,0-.01v-3.748c-.003-.176.138-.322.314-.325s.322.138.325.314c0,.003,0,.007,0,.01Z" fill="#fff" isolation="isolate" opacity=".5"/><path d="M8.527,3.458v5.153c.003.176-.138.322-.314.325-.176.003-.322-.138-.325-.314,0-.003,0-.007,0-.01V3.458c-.003-.176.138-.322.314-.325s.322.138.325.314c0,.003,0,.007,0,.01Z" fill="#fff" isolation="isolate" opacity=".6"/><path d="M10.182,2.312v6.299c.003.176-.138.322-.314.325-.176.003-.322-.138-.325-.314,0-.003,0-.007,0-.01V2.312c-.003-.176.138-.322.314-.325s.322.138.325.314c0,.003,0,.007,0,.01Z" fill="#fff" isolation="isolate" opacity=".8"/></g></g></g><g id="uuid-715962a4-976a-4c09-8df1-608e1fdd101e"><g><path d="M17.011,17.785l-.054.054c-.215.215-.564.215-.779,0l-2.608-2.608.833-.833,2.608,2.608c.215.215.215.564,0,.779Z" fill="#198ab3"/><path d="M11.892,8.961c-1.96,0-3.549,1.589-3.549,3.549s1.589,3.549,3.549,3.549,3.549-1.589,3.549-3.549-1.589-3.549-3.549-3.549ZM11.899,15.234c-1.539,0-2.787-1.248-2.787-2.787s1.248-2.787,2.787-2.787,2.787,1.248,2.787,2.787-1.248,2.787-2.787,2.787Z" fill="url(#uuid-fd891cda-31e1-480a-9e8c-0d750f2b8141)" fill-rule="evenodd"/><path d="M13.56,10.209c-.968-.741-2.31-.751-3.289-.025,3.565-.866,4.328,2.952,4.328,2.952.299-1.097-.116-2.264-1.039-2.927Z" fill="#c3f1ff"/><circle cx="11.892" cy="12.51" r="3.549" fill="url(#uuid-1578354a-3137-4b2d-8cfa-cde385eee489)" opacity=".2"/><circle cx="11.899" cy="12.447" r="2.787" fill="#fff" opacity=".2"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>FRD QA (sketch)</title>
+
+  
+  <desc>
+    Azure FRD QA icon with a flat blue rounded document,
+    five ascending white chart bars, three horizontal text
+    lines, and a cyan magnifying glass overlapping the
+    lower-right corner. Uneven dark marker outlines,
+    transparent background, no decorative accents.
+  </desc>
+
+  <!-- Main blue rounded document -->
+  <path d="M20 2        L75.6 2        Q88.2 1.7 88.4 14.1        L88.5 94.6        Q88.5 107.3 75.5 107.5        L20.1 107.6        Q7.4 107.4 7.4 94.7        L7.3 15.1        Q7.2 2.2 20 2Z" fill="#318BDE" stroke="#243447" stroke-width="3.4"/>
+
+  <!-- Five ascending chart bars -->
+  <g stroke="#243447" stroke-width="6.4">
+    <path d="M23.1 58.5L23.1 61"/>
+    <path d="M34.9 46.2Q35.2 53.8 34.9 61"/>
+    <path d="M46.7 34.8Q46.4 47.5 46.7 61"/>
+    <path d="M58.5 24.8Q58.9 43.3 58.5 61"/>
+    <path d="M70.3 16.7Q70 38.7 70.3 61"/>
+  </g>
+
+  <g stroke="#FFFFFF" stroke-width="4.1">
+    <path d="M23.1 58.5L23.1 61"/>
+    <path d="M34.9 46.2Q35.2 53.8 34.9 61"/>
+    <path d="M46.7 34.8Q46.4 47.5 46.7 61"/>
+    <path d="M58.5 24.8Q58.9 43.3 58.5 61"/>
+    <path d="M70.3 16.7Q70 38.7 70.3 61"/>
+  </g>
+
+  <!-- Three horizontal document text lines -->
+  <g stroke="#243447" stroke-width="5.8">
+    <path d="M23 71.2Q45.4 70.9 69.7 71.2"/>
+    <path d="M23 80.6Q41.3 80.2 60.2 80.6"/>
+    <path d="M23 90.1Q45.5 89.7 69.7 90.1"/>
+  </g>
+
+  <g stroke="#FFFFFF" stroke-width="3.7">
+    <path d="M23 71.2Q45.4 70.9 69.7 71.2"/>
+    <path d="M23 80.6Q41.3 80.2 60.2 80.6"/>
+    <path d="M23 90.1Q45.5 89.7 69.7 90.1"/>
+  </g>
+
+  <!-- Magnifying glass handle, behind lens -->
+  <path d="M101.5 105.5        L119.4 123.8        Q121.4 125.8 123.5 123.7        Q125.8 121.5 123.5 119.2        L105.6 101.4Z" fill="#198AB3" stroke="#243447" stroke-width="2.8"/>
+
+  <!-- Transparent lens interior: underlying document remains visible -->
+  <path d="M85 69.3        C96 69.2 104.5 78.1 104.6 89.1        C104.7 100.2 96.1 109 85.1 109.1        C74 109.2 65.1 100.3 65.1 89.3        C65 78.3 73.9 69.4 85 69.3Z" fill="#32BEDD" fill-opacity=".12"/>
+
+  <!-- Cyan magnifying glass ring with hollow center -->
+  <path d="M84.6 63.8        C98.5 63.4 110.4 74.5 110.9 88.3        C111.3 102.5 100.1 114.4 86.2 114.8        C72.2 115.2 60.2 104.4 59.6 90.5        C59 76.2 70.2 64.2 84.6 63.8Z         M85 69.3        C73.9 69.4 65 78.3 65.1 89.3        C65.1 100.3 74 109.2 85.1 109.1        C96.1 109 104.7 100.2 104.6 89.1        C104.5 78.1 96 69.2 85 69.3Z" fill="#32BEDD" fill-rule="evenodd" stroke="#243447" stroke-width="2.7"/>
+
+</svg>
