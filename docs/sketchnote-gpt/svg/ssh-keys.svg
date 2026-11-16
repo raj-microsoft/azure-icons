@@ -1,33 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>SSH Keys (sketch)</title>
-  <defs>
-    <linearGradient id="cloudGradient" x1="9" y1="13.704" x2="9" y2="1.277" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset=".817" stop-color="#5ea0ef"/>
-    </linearGradient>
-    <linearGradient id="keyGradient" x1="8.999" y1="16.723" x2="8.999" y2="4.174" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32bedd"/>
-      <stop offset=".113" stop-color="#3ccce9"/>
-      <stop offset=".292" stop-color="#47dbf5"/>
-      <stop offset=".504" stop-color="#4ee3fd"/>
-      <stop offset=".834" stop-color="#50e6ff"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>SSH Keys (sketch)</title>
+  
+  <desc>Azure-blue cloud containing a large cyan diamond-headed SSH key with a small circular hole, broad angular shoulders, long vertical shaft and notched right edge. Flat colors and uneven charcoal marker outlines.</desc>
 
-  <g transform="scale(7.111111)">
+  <!-- Azure cloud silhouette -->
+  <path d="M36 98            C24 99 13 91 12 78            C10 66 18 54 31 50            Q34 48 39 48            C42 29 54 18 69 17            C85 16 98 27 101 43            C112 45 119 54 120 66            C122 81 112 95 99 98            Q95 99 90 98Z" fill="#348DDF" stroke="#30343D" stroke-width="3.6"/>
 
-    <!-- Original cloud silhouette -->
-    <path d="M17.767 9.812a3.941 3.941 0 0 0-3.419-3.787A4.965 4.965 0 0 0 9.234 1.277 5.094 5.094 0 0 0 4.366 4.6 4.7 4.7 0 0 0 .233 9.12 4.771 4.771 0 0 0 5.17 13.7c.147 0 .292-.007.435-.018H13.6a.822.822 0 0 0 .211-.032 3.987 3.987 0 0 0 3.956-3.838Z" fill="url(#cloudGradient)" stroke="#247ec5" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Small cloud contour details -->
+  <path d="M23 61 Q29 54 38 54            M47 31 Q56 22 67 23            M105 53 Q113 59 114 69" stroke="#1C5F9F" stroke-width="2.2"/>
 
-    <!-- Large diamond-headed key: original geometry preserved -->
-    <path d="M12.5 9.127a1.446 1.446 0 0 0 0-2.041L10.017 4.6a1.437 1.437 0 0 0-2.036 0L5.5 7.086a1.446 1.446 0 0 0 0 2.041L7.565 11.2a.4.4 0 0 1 .118.286v3.85a.492.492 0 0 0 .144.348l.941.944a.325.325 0 0 0 .461 0l.913-.915V15.7l.538-.538a.188.188 0 0 0 0-.266l-.387-.389a.205.205 0 0 1 0-.29l.387-.389a.187.187 0 0 0 0-.266l-.387-.389a.205.205 0 0 1 0-.29l.388-.389a.189.189 0 0 0 0-.266l-.539-.541v-.2ZM9 5.2a.82.82 0 1 1-.817.819A.817.817 0 0 1 9 5.2Z" fill="url(#keyGradient)" stroke="#25b8d4" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Large diamond-headed SSH key -->
+  <path d="M56 54            Q62 47 68 41            Q72 37 76 41            L91 56            Q96 61 91 67            L81 77            Q79 79 79 83            L79 108            L83 112            Q85 114 83 116            L80 119            L83 122            Q85 124 83 126            L77 132            L71 126            Q69 125 69 122            L69 84            Q69 81 67 79            L56 68            Q50 61 56 54Z" transform="translate(0 -14)" fill="#50DFF5" stroke="#30343D" stroke-width="3.7"/>
 
-    <!-- Original shaft highlight -->
-    <path d="M8.353 15.418a.176.176 0 0 0 .3-.134V12.168a.186.186 0 0 0-.081-.154.176.176 0 0 0-.272.154v3.116a.186.186 0 0 0 .053.134Z" fill="#0078d4" opacity=".75"/>
+  <!-- Small circular hole near top of diamond -->
+  <path d="M76 46            C72 46 69 49 69 53            C69 57 72 60 76 60            C80 60 83 57 83 53            C83 49 80 46 76 46Z" transform="translate(0 -14)" fill="#348DDF" stroke="#30343D" stroke-width="2.6"/>
 
-    <!-- Original key grooves -->
-    <path d="M7.23 7.916h3.642a.22.22 0 0 1 .22.22v.042a.22.22 0 0 1-.22.22H7.23a.22.22 0 0 1-.22-.22v-.041a.221.221 0 0 1 .22-.221Z" fill="#0078d4" opacity=".75"/>
+  <!-- Two horizontal marks across lower diamond -->
+  <path d="M63 69            Q76 70 88 69            M66 75            Q76 76 85 75" transform="translate(0 -14)" stroke="#176FAF" stroke-width="2.6"/>
 
-    <path d="M7.23 8.7h3.642a.22.22 0 0 1 .22.22v.041a.221.221 0 0 1-.221.221H7.23a.22.22 0 0 1-.22-.22v-.041a.221.221 0 0 1 .22-.221Z" fill="#0078d4" opacity=".75"/>
+  <!-- Vertical shaft marker stroke -->
+  <path d="M74 86            Q73 100 74 115" transform="translate(0 -14)" stroke="#176FAF" stroke-width="2.4"/>
 
-  </g>
+  <!-- Flat angular right-edge key teeth -->
+  <path d="M79 97 L83 101            M79 105 L83 109            M79 113 L83 117" transform="translate(0 -14)" stroke="#176FAF" stroke-width="1.8"/>
+
 </svg>

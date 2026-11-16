@@ -1,59 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Folder Website (sketch)</title>
-  <defs>
-    <linearGradient id="folderGold" x1="9.252" y1=".485" x2="8.842" y2="16.966" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffd400"/>
-      <stop offset="1" stop-color="#ffbd02"/>
-    </linearGradient>
-    <radialGradient id="globeBlue" cx="2073.6" cy="3109.478" r="26.184" gradientTransform="translate(-302.042 -456.312) scale(.15)" gradientUnits="userSpaceOnUse">
-      <stop offset=".183" stop-color="#5ea0ef"/>
-      <stop offset="1" stop-color="#0078d4"/>
-    </radialGradient>
-    <linearGradient id="globeGrey1" x1="6.874" y1="11.261" x2="6.86" y2="9.431" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ccc"/>
-      <stop offset=".123" stop-color="#d7d7d7"/>
-      <stop offset="1" stop-color="#fcfcfc"/>
-    </linearGradient>
-    <linearGradient id="globeGrey2" x1="9.524" y1="13.091" x2="9.524" y2="11.45" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ccc"/>
-      <stop offset=".123" stop-color="#d7d7d7"/>
-      <stop offset="1" stop-color="#fcfcfc"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Folder Website (sketch)</title>
+  
 
-  <g transform="scale(7.111111)">
-    <!-- Folder rear silhouette -->
-    <path d="M17.579 3.283       H9.727       Q9.587 3.283 9.494 3.213       L7.251 1.721       Q7.158 1.65 7.018 1.65       H.421       Q0 1.65 0 2.07       V15.93       Q0 16.35 .421 16.35       H17.579       Q18 16.35 18 15.93       V3.7       Q18 3.283 17.579 3.283Z" fill="#dfa500"/>
+  <!-- Rear folder -->
+  <path d="M7 19 Q7 14 12 14        L47 14 Q50 14 53 16        L69 27 Q72 29 76 29        L116 29 Q121 29 121 34        L121 109 Q121 115 116 115        L12 115 Q7 115 7 110 Z" fill="#DFA500" stroke="#765000" stroke-width="3.5" stroke-linejoin="round"/>
 
-    <!-- Original small white folder tab detail -->
-    <rect x="1.636" y="2.455" width="4.091" height=".818" rx=".172" fill="#fff"/>
+  <!-- White folder tab label -->
+  <rect x="17" y="21" width="23" height="4" rx="2" fill="#FFFFFF"/>
 
-    <!-- Folder front silhouette -->
-    <path d="M17.579 3.263       H8.956       Q8.77 3.263 8.656 3.386       L7.272 4.773       Q7.158 4.896 6.972 4.896       H.421       Q0 4.896 0 5.316       V15.91       Q0 16.329 .421 16.329       H17.579       Q18 16.329 18 15.91       V3.683       Q18 3.263 17.579 3.263Z" fill="url(#folderGold)"/>
+  <!-- Front folder -->
+  <path d="M7 40 Q7 36 12 36        L45 36 Q49 36 52 33        L59 27 Q61 25 65 25        L116 25 Q121 25 121 30        L121 111 Q121 116 116 116        L12 116 Q7 116 7 111 Z" fill="#FFCA0A" stroke="#9A6B00" stroke-width="3.8" stroke-linejoin="round"/>
 
-    <!-- Original blue globe -->
-    <path d="M11.407 13.216       A3.928 3.928 0 1 1 6.593 7.009       L6.633 6.979       A3.927 3.927 0 0 1 11.407 13.216Z" fill="url(#globeBlue)"/>
+  <!-- Folder marker details -->
+  <path d="M14 46 Q31 45 47 45" stroke="#FFF0A0" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M14 54 Q13 75 14 101" stroke="#FFE875" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M23 109 Q65 111 110 109" stroke="#E8A900" stroke-width="1.8" stroke-linecap="round"/>
 
-    <!-- Original globe surface highlights -->
-    <path d="M5.6 12.085       Q5.888 12.511 6.144 12.811       A8.217 8.217 0 0 1 6.644 11.211       A1.253 1.253 0 0 1 5.986 10.877       A8.775 8.775 0 0 0 5.6 12.085Z" fill="#f2f2f2" opacity=".55"/>
+  <!-- Blue website globe: radius 28, centered at 64,72 -->
+  <path d="M64 44        C79 44 92 56 92 72        C92 87 80 100 64 100        C49 100 36 88 36 72        C36 57 48 44 64 44 Z" fill="#1685D8" stroke="#064F91" stroke-width="3.5"/>
 
-    <path d="M6.44 8.777       A5.514 5.514 0 0 1 6.122 7.416       A3.922 3.922 0 0 0 5.613 8.09       A6.128 6.128 0 0 0 5.876 9.181       A1.261 1.261 0 0 1 6.44 8.777Z" fill="#f2f2f2" opacity=".55"/>
+  <!-- Globe subtle highlight -->
+  <path d="M43 63 Q49 49 64 49" stroke="#A8DFFF" stroke-width="2.2" stroke-linecap="round"/>
 
-    <path d="M7.785 10.826       A1.254 1.254 0 0 1 7.096 11.205       A5.347 5.347 0 0 0 7.766 11.799       A5.687 5.687 0 0 0 8.712 12.376       A.745 .745 0 0 1 8.7 12.27       A.815 .815 0 0 1 8.948 11.684       A5.566 5.566 0 0 1 7.785 10.826Z" fill="#f2f2f2" opacity=".55"/>
-
-    <path d="M10.342 12.22       Q10.342 12.245 10.342 12.27       A.82 .82 0 0 1 10.108 12.843       A6.412 6.412 0 0 0 11.684 12.956       A3.888 3.888 0 0 0 12.216 12.335       A5.561 5.561 0 0 1 11.616 12.368       A5.453 5.453 0 0 1 10.342 12.22Z" fill="#f2f2f2" opacity=".55"/>
-
-    <!-- Original globe grid and meridian structure -->
-    <path d="M10.816 9.622       A12.288 12.288 0 0 1 9.309 8.313       A6.284 6.284 0 0 1 12.05 7.641       A3.879 3.879 0 0 0 11.363 6.973       A6.68 6.68 0 0 0 9.194 7.485       Q8.969 7.581 8.767 7.72       L8.754 7.705       A7.885 7.885 0 0 1 7.837 6.355       A3.927 3.927 0 0 0 7.337 6.549       A8.282 8.282 0 0 0 8.294 7.983       A5.641 5.641 0 0 0 7.313 8.783       A1.262 1.262 0 0 1 7.935 9.292       A5.412 5.412 0 0 1 8.835 8.592       A12.741 12.741 0 0 0 10.535 10.08       A.856 .856 0 0 1 10.816 9.622Z" fill="#f2f2f2" opacity=".55"/>
-
-    <path d="M12.709 10.746       L12.695 10.738       L12.558 10.664       L12.532 10.65       L12.409 10.582       L12.379 10.565       L12.233 10.482       A.819 .819 0 0 1 11.939 10.909       L12.112 11.009       L12.151 11.031       L12.312 11.12       L12.327 11.129       Q12.522 11.235 12.709 11.342       A3.91 3.91 0 0 0 12.84 10.828Z" fill="#f2f2f2" opacity=".55"/>
-
-    <!-- Original three globe markers -->
-    <circle cx="6.864" cy="9.965" r="1.262" fill="url(#globeGrey1)"/>
-    <circle cx="9.524" cy="12.271" r=".82" fill="url(#globeGrey2)"/>
-    <circle cx="11.394" cy="10.236" r=".871" fill="#fff"/>
-
-    <!-- Original white marker faces -->
-    <circle cx="6.864" cy="9.965" r="1.262" fill="#fff"/>
-    <circle cx="9.524" cy="12.271" r=".82" fill="#fff"/>
+  <!-- Curved pale orbit bands -->
+  <g stroke="#EAF7FF" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <path d="M49 71 Q64 55 81 73"/>
+    <path d="M49 71 Q53 84 68 87"/>
+    <path d="M81 73 Q78 84 68 87"/>
+    <path d="M44 78 Q64 96 85 78"/>
+    <path d="M57 47 Q70 72 68 87" opacity=".65"/>
   </g>
+
+  <!-- Exactly three white network nodes -->
+
+  <!-- Left largest node -->
+  <circle cx="49" cy="71" r="6.5" fill="#FFFFFF" stroke="#075A9E" stroke-width="1.8"/>
+
+  <!-- Right smaller node -->
+  <circle cx="81" cy="73" r="4.7" fill="#FFFFFF" stroke="#075A9E" stroke-width="1.7"/>
+
+  <!-- Lower small node -->
+  <circle cx="68" cy="87" r="4.2" fill="#FFFFFF" stroke="#075A9E" stroke-width="1.7"/>
+
+  <!-- Restrained hand-drawn node details -->
+  <path d="M46 69 Q48 67 51 69" stroke="#D0E9FF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M79 71 L81 70" stroke="#D0E9FF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M66 86 L68 84" stroke="#D0E9FF" stroke-width="1.2" stroke-linecap="round"/>
+
 </svg>

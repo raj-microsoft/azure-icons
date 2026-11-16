@@ -1,1 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Identity Secure Score (sketch)</title><g transform="scale(7.111111)"><path d="M15.149,2.271H2.851A1.608,1.608,0,0,0,1.514,4.75a21.829,21.829,0,0,1,1.4,3.123A2.019,2.019,0,0,0,4.766,9h8.467a2.02,2.02,0,0,0,1.849-1.127,21.829,21.829,0,0,1,1.4-3.123A1.608,1.608,0,0,0,15.149,2.271Zm.434,1.919a22.611,22.611,0,0,0-1.5,3.322.7.7,0,0,1-.671.426H4.589a.7.7,0,0,1-.674-.432,22.575,22.575,0,0,0-1.5-3.316.584.584,0,0,1-.018-.6.489.489,0,0,1,.452-.261h12.3a.489.489,0,0,1,.452.261A.584.584,0,0,1,15.583,4.19Z" fill="#ff8c00" stroke="#e47700" stroke-width=".025"/><path d="M15.149,2.271H9.708V3.333h5.441a.487.487,0,0,1,.451.261.583.583,0,0,1-.017.6,22.611,22.611,0,0,0-1.5,3.322.7.7,0,0,1-.672.426h-3.7V9h3.525a2.02,2.02,0,0,0,1.849-1.127,21.829,21.829,0,0,1,1.4-3.123A1.608,1.608,0,0,0,15.149,2.271Z" fill="#dd5900" opacity="0.6"/><path d="M7.583,10.417h2.834v3.9H7.583Z" fill="#fcd116"/><path d="M9,10.417h1.417v3.9H9Z" fill="#dd5900" opacity="0.4"/><path d="M13.579,17.058l-.656-2.29c-.21-.489-.39-.81-.956-.81H6.033c-.566,0-.746.321-.956.81l-.656,2.29a.325.325,0,0,0,.321.442h8.516A.325.325,0,0,0,13.579,17.058Z" fill="#ff8c00" stroke="#e47700" stroke-width=".025"/><path d="M13.579,17.058l-.656-2.29c-.21-.489-.39-.81-.956-.81H9V17.5h4.258A.325.325,0,0,0,13.579,17.058Z" fill="#dd5900" opacity="0.6"/><path d="M7.583,11.442a2.772,2.772,0,0,0,2.834,0V10.417H7.583Z" fill="#dd5900" opacity="0.4"/><path d="M13.411.5H4.562c-.61,0-.577.7-.433.866S5.31,2.829,5.31,7.485a3.677,3.677,0,0,0,7.353,0c0-4.656,1-5.938,1.182-6.119A.53.53,0,0,0,13.411.5Z" fill="#fcd116" stroke="#e9b900" stroke-width=".025"/><path d="M9,11.124a3.693,3.693,0,0,0,3.663-3.639c0-4.656,1-5.938,1.182-6.119A.53.53,0,0,0,13.411.5H9Z" fill="#dd5900" opacity="0.3"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Identity Secure Score (sketch)</title>
+  
+  <desc>Plain golden trophy with orange side handles, a rounded cup, narrow stem and orange pedestal. Flat fills, irregular charcoal marker outlines and transparent background. No checkmark or decorative symbols.</desc>
+
+  <!-- Left orange trophy handle -->
+  <path d="M39 19            L20 19            Q10 19 11 29            Q12 36 18 46            L24 57            Q29 65 41 64            L42 56            Q33 57 29 49            Q23 39 20 31            Q18 27 24 27            L40 27Z" fill="#FF8C00" stroke="#36313A" stroke-width="3.2"/>
+
+  <!-- Right orange trophy handle -->
+  <path d="M89 19            L108 19            Q118 19 117 29            Q116 36 110 46            L104 57            Q99 65 87 64            L86 56            Q95 57 99 49            Q105 39 108 31            Q110 27 104 27            L88 27Z" fill="#E8750B" stroke="#36313A" stroke-width="3.2"/>
+
+  <!-- Trophy stem behind cup -->
+  <path d="M55 79            Q64 82 73 79            L73 100            Q64 103 55 100Z" fill="#FCD116" stroke="#36313A" stroke-width="3.2"/>
+
+  <!-- Flat orange right half of stem -->
+  <path d="M64 82            Q68 82 71 81            L71 98            Q68 100 64 100Z" fill="#E7A31A"/>
+
+  <!-- Cup body: broad rim, narrowing rounded bowl -->
+  <path d="M34 7            Q31 7 32 12            Q37 21 38 48            C38 67 46 79 63 80            C80 81 90 68 90 49            Q90 22 96 12            Q98 7 93 7            Q64 8 34 7Z" fill="#FCD116" stroke="#36313A" stroke-width="3.5"/>
+
+  <!-- Right-hand gold shadow face, flat color -->
+  <path d="M65 10            Q79 10 92 10            Q86 25 86 48            C86 65 79 75 65 77Z" fill="#E7A51A"/>
+
+  <!-- Main cup rim -->
+  <path d="M34 12            Q49 13.5 64 13            Q80 14 94 12" stroke="#36313A" stroke-width="2.7"/>
+
+  <!-- Minimal hand-drawn cup contour detailing -->
+  <path d="M43 23            Q45 33 45 45            M47 54            Q49 63 56 68" stroke="#D99B12" stroke-width="2.3"/>
+
+  <path d="M81 26            Q79 37 80 48            M77 61            Q74 68 69 70" stroke="#A87416" stroke-width="2.1"/>
+
+  <!-- Plain uninterrupted gold face: no checkmark -->
+
+  <!-- Slightly uneven orange trophy pedestal -->
+  <path d="M49 98            Q45 98 43 102            L34 119            Q32 124 38 124            L90 124            Q96 124 94 119            L85 102            Q83 98 79 98Z" fill="#FF8C00" stroke="#36313A" stroke-width="3.5"/>
+
+  <!-- Flat darker right pedestal face -->
+  <path d="M65 101            L79 101            Q82 101 83 104            L91 119            Q92 121 89 121            L65 121Z" fill="#DD6900"/>
+
+  <!-- Pedestal upper contour -->
+  <path d="M47 104            Q64 105 81 103" stroke="#36313A" stroke-width="2.4"/>
+
+  <!-- Small handmade surface details -->
+  <path d="M42 116 L40 120            M80 112 L84 117" stroke="#B85A00" stroke-width="2"/>
+
+</svg>

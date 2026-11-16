@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Notification Hubs (sketch)</title><defs><linearGradient id="a" x1="9" y1=".81" x2="9" y2="21.28" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffd70f"/><stop offset=".34" stop-color="#eeb309"/><stop offset=".77" stop-color="#dc8c03"/><stop offset="1" stop-color="#d57d01"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M17.5 2.5V13.33a.58.58 0 0 1-.59.58H12.39a.14.14 0 0 0-.14.14V15.8a.28.28 0 0 1-.45.22L9.08 13.94l-.09-.04H1.09a.58.58 0 0 1-.59-.58V2.5a.58.58 0 0 1 .59-.58H16.91a.58.58 0 0 1 .59.58Z" fill="url(#a)" stroke="#c98508" stroke-width=".045" stroke-linejoin="round"/><path d="M2.05 9l3 2.52a.29.29 0 0 0 .47-.22v-1.1H17.48V8.5H2.23a.29.29 0 0 0-.18.5Z" fill="#ffe452" stroke="#e3a80c" stroke-width=".025" stroke-linejoin="round"/><path d="M16.24 6.46 13.13 3.94a.29.29 0 0 0-.47.22v1.1H.5V7H16.06a.29.29 0 0 0 .18-.54Z" fill="#fff" stroke="#f2e8bd" stroke-width=".025" stroke-linejoin="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Notification Hubs (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn golden notification speech bubble containing
+    exactly two opposed horizontal arrows. Upper white arrow
+    points right; lower pale-yellow arrow points left.
+    Flat fills, uneven charcoal marker outlines,
+    transparent background, no additional symbols.
+  </desc>
+
+  <!-- Main golden notification speech bubble -->
+  <path d="M9 14        Q9 10 14 10        L114 10        Q119 10 119 15        L119 91        Q119 96 114 96        L85 96        Q83 96 83 99        L83 109        Q83 114 79 111        L60 97        Q59 96 56 96        L14 96        Q9 96 9 91        Z" fill="#EEB309" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Upper white arrow, pointing RIGHT -->
+  <path d="M9 47        L89 47        L89 40        Q89 37 92 39        L113 56        Q115 58 112 60        L92 76        Q89 78 89 74        L89 67        L9 67        Z" fill="none" stroke="none" opacity="0"/>
+
+  <path d="M9 39        L88 39        L88 31        Q88 28 91 30        L113 47        Q116 49 113 51        L91 68        Q88 70 88 66        L88 58        L9 58        Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Lower pale-yellow arrow, pointing LEFT -->
+  <path d="M119 69        L39 69        L39 61        Q39 58 36 60        L15 77        Q12 79 15 81        L36 98        Q39 100 39 96        L39 88        L119 88        Z" fill="none" stroke="none" opacity="0"/>
+
+  <path d="M119 65        L39 65        L39 58        Q39 55 36 57        L15 74        Q12 76 15 78        L36 95        Q39 97 39 93        L39 86        L119 86        Z" fill="#FFE452" stroke="#203746" stroke-width="2.8"/>
+
+</svg>

@@ -1,45 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>AI at Edge (sketch)</title>
-  <defs>
-    <linearGradient id="device" x1="4.834" y1="15.243" x2="4.834" y2=".173" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset="1" stop-color="#46a0de"/>
-    </linearGradient>
-    <linearGradient id="lens" x1="13.357" y1="13.247" x2="13.357" y2="6.877" gradientTransform="translate(11.027 -6.497) rotate(45)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#46a0de"/>
-      <stop offset="1" stop-color="#8dc8e8"/>
-    </linearGradient>
-    <linearGradient id="handle" x1="-81.739" y1="133.912" x2="-72.868" y2="125.512" gradientTransform="translate(88.575 -117.653)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32bedd"/>
-      <stop offset="1" stop-color="#50e6ff"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>AI at Edge (sketch)</title>
 
-  <g transform="scale(7.111111)">
-    <!-- Original edge-device silhouette -->
-    <path d="M8.193 8.858v-.005c.231-.931.697-1.763 1.35-2.43V1.869c0-.936-.759-1.695-1.695-1.695H1.82C.884.173.125.932.125 1.869v12.809c0 .312.253.565.565.565h4.868l2.947-2.985c-.465-1.065-.578-2.251-.313-3.395v-.005Z" fill="url(#device)"/>
+  
+  <desc id="desc">
+    Hand-drawn Azure AI at Edge icon with a blue rectangular
+    edge device, six pale status dots, and a cyan magnifying
+    glass overlapping its lower-right side. The magnifying
+    lens contains a plain blue center without symbols.
+  </desc>
 
-    <!-- Original six device indicators -->
-    <g fill="#d9f1ff">
-      <circle cx="3.516" cy="8.839" r=".753"/>
-      <circle cx="3.516" cy="6.201" r=".753"/>
-      <circle cx="3.516" cy="3.565" r=".753"/>
-      <circle cx="6.153" cy="8.839" r=".753"/>
-      <circle cx="6.153" cy="6.201" r=".753"/>
-      <circle cx="6.153" cy="3.565" r=".753"/>
-    </g>
+  <!-- Edge device: irregular rectangular silhouette -->
+  <path d="M 16 5        Q 16 2 20 2        L 65 2        Q 69 2 69 7        L 69 46        C 61 53 57 61 56 72        Q 54 83 60 93        L 40 113        L 9 113        Q 5 113 5 109        L 5 14        Q 5 5 16 5 Z" fill="#238BD5" stroke="#203746" stroke-width="3.5"/>
 
-    <!-- Original magnifying lens, intentionally empty -->
-    <ellipse cx="13.357" cy="10.062" rx="3.192" ry="3.178" transform="translate(-3.203 12.392) rotate(-45)" fill="url(#lens)"/>
+  <!-- Device status indicators: three rows, two columns -->
+  <path d="M 29 24        C 32 23 35 25 35 29        C 35 33 32 35 29 35        C 25 35 23 32 24 29        Q 24 25 29 24 Z" fill="#D9F4FF" stroke="#203746" stroke-width="2.3"/>
 
-    <!-- Original magnifier outline and handle -->
-    <path d="M17.228 7.749c-1.29-2.139-4.069-2.828-6.209-1.539-1.029.62-1.769 1.624-2.057 2.791-.263 1.136-.089 2.33.486 3.344L6 15.837c-.456.453-.458 1.19-.004 1.646.001.001.003.003.004.004.218.219.516.342.825.339.31.006.609-.117.825-.339l3.433-3.477c.373.217.775.381 1.193.486 2.437.585 4.887-.916 5.472-3.353.278-1.156.09-2.376-.522-3.395ZM16.432 10.843c-.345 1.422-1.616 2.425-3.079 2.431-.254.002-.507-.033-.751-.103-.373-.084-.724-.244-1.031-.471-.324-.221-.604-.501-.825-.825-.505-.747-.671-1.673-.457-2.549.329-1.429 1.599-2.442 3.065-2.446.258 0 .515.03.766.088.817.216 1.516.746 1.945 1.473.44.719.573 1.584.368 2.402Z" fill="url(#handle)"/>
+  <path d="M 48 24        Q 54 24 54 29        Q 54 35 48 35        Q 42 34 43 29        Q 43 25 48 24 Z" fill="#D9F4FF" stroke="#203746" stroke-width="2.3"/>
 
-    <!-- Subtle marker-style contour treatment -->
-    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M.17 1.87C.17.94.9.2 1.83.2h5.99c.93 0 1.68.74 1.68 1.67v4.55" stroke="#005ba1" stroke-width=".075" opacity=".65"/>
-      <path d="M.72 15.15h4.7l2.98-3.02" stroke="#005ba1" stroke-width=".075" opacity=".65"/>
-      <path d="M10.98 6.05c2.15-1.25 4.92-.55 6.2 1.7" stroke="#b9edff" stroke-width=".055" opacity=".7"/>
-      <path d="M9.45 12.55 6 16.04c-.44.45-.44 1.15.01 1.59" stroke="#1db9d6" stroke-width=".045" opacity=".65"/>
-    </g>
-  </g>
+  <path d="M 29 43        Q 35 43 35 48        Q 35 54 29 54        Q 23 54 24 48        Q 24 44 29 43 Z" fill="#D9F4FF" stroke="#203746" stroke-width="2.3"/>
+
+  <path d="M 48 43        Q 54 43 54 48        Q 54 54 48 54        Q 42 54 43 48        Q 43 44 48 43 Z" fill="#D9F4FF" stroke="#203746" stroke-width="2.3"/>
+
+  <path d="M 29 62        Q 35 62 35 67        Q 35 73 29 73        Q 23 73 24 67        Q 24 63 29 62 Z" fill="#D9F4FF" stroke="#203746" stroke-width="2.3"/>
+
+  <path d="M 48 62        Q 54 62 54 67        Q 54 73 48 73        Q 42 73 43 67        Q 43 63 48 62 Z" fill="#D9F4FF" stroke="#203746" stroke-width="2.3"/>
+
+  <!-- Magnifying glass handle behind the lens -->
+  <path d="M 70 91        L 39 123        Q 35 127 30 124        Q 25 121 28 116        L 61 83 Z" fill="#32BEDD" stroke="#203746" stroke-width="3.5"/>
+
+  <!-- Plain blue lens core: no internal symbols -->
+  <path d="M 95 51        C 108 52 118 62 119 76        C 120 90 109 103 95 104        C 81 106 68 96 67 82        C 65 67 76 53 90 51        Q 93 50 95 51 Z" fill="#72B8E3" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Cyan magnifying glass ring, with transparent center -->
+  <path fill-rule="evenodd" d="M 92 43        C 110 42 124 55 127 72        C 130 90 119 107 102 112        C 85 117 67 108 61 92        C 54 75 62 56 78 47        Q 84 44 92 43 Z         M 93 54        C 80 54 70 64 70 77        C 70 90 80 101 93 101        C 106 101 117 91 117 78        C 117 65 107 54 93 54 Z" fill="#39C9E8" stroke="#203746" stroke-width="3.5"/>
+
 </svg>

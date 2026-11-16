@@ -1,29 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Route Tables (sketch)</title>
-  <defs>
-    <linearGradient id="route-body" x1="10.56" y1="7.77" x2="10.56" y2="19.24" gradientUnits="userSpaceOnUse">
-      <stop offset=".22" stop-color="#32d4f5"/>
-      <stop offset="1" stop-color="#198ab3"/>
-    </linearGradient>
-    <linearGradient id="route-head" x1="10.23" y1="1.63" x2="11.07" y2="12.04" gradientUnits="userSpaceOnUse">
-      <stop offset=".22" stop-color="#32d4f5"/>
-      <stop offset="1" stop-color="#198ab3"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Route Tables (sketch)</title>
 
-  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
+  
+  <desc id="desc">
+    Hand-drawn Azure Route Tables icon featuring a cyan
+    circular node above a rounded cyan base with a white
+    downward wedge, and a blue routing arrow on the left
+    pointing left, matching the official icon.
+  </desc>
 
-    <!-- Original lower person silhouette -->
-    <path d="M16.23 17.17A1.21 1.21 0 0 0 17.46 16V15.8              c-.49-3.86-2.69-7-6.89-7s-6.48 2.66-6.91 7              a1.24 1.24 0 0 0 1.1 1.36H16.23Z" fill="url(#route-body)" stroke="#198ab3" stroke-width=".045"/>
+  <!-- Rounded destination base -->
+  <path d="M 34 119        C 35 109, 38 98, 44 88        C 50 78, 61 72, 75 71        C 89 70, 100 75, 107 86        C 114 96, 119 107, 121 117        Q 122 122, 117 123        L 40 123        Q 34 123, 34 119 Z" fill="#29B8DE" stroke="#203746" stroke-width="3.5"/>
 
-    <!-- Original white neck detail -->
-    <path d="M10.57 9.71a3.86 3.86 0 0 1-2.1-.61              l2.08 5.42 2.06-5.39              a3.83 3.83 0 0 1-2.04.58Z" fill="#fff" opacity=".8"/>
+  <!-- White downward wedge inside base -->
+  <path d="M 61 75        Q 74 83, 88 75        L 75 109        Q 74 111, 73 108 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.8"/>
 
-    <!-- Original upper circular head -->
-    <circle cx="10.57" cy="5.84" r="3.87" fill="url(#route-head)" stroke="#198ab3" stroke-width=".045"/>
+  <!-- Cyan circular network node -->
+  <path d="M 102 42        C 103 57, 92 69, 77 70        C 62 71, 50 61, 48 46        C 46 31, 56 18, 71 16        C 87 13, 100 25, 102 42 Z" fill="#32C9EC" stroke="#203746" stroke-width="3.5"/>
 
-    <!-- Original left-pointing turn arrow.
-         Direction, position and geometry preserved. -->
-    <path d="M6 5.88V1A.16.16 0 0 0 5.84.83H4.57              A.17.17 0 0 0 4.39 1v4.71              a.18.18 0 0 1-.17.17H3.1              A.12.12 0 0 1 3 5.76V4.45              a.11.11 0 0 0-.19-.08L.59 6.57              a.16.16 0 0 0 0 .24L2.79 9              A.11.11 0 0 0 3 8.93V7.61              A.11.11 0 0 1 3.1 7.5h2.74              A.17.17 0 0 0 6 7.33V5.88Z" fill="#0078d4" stroke="#0068b7" stroke-width=".045"/>
+  <!-- Left-pointing routing arrow:
+       vertical shaft, bottom horizontal arm,
+       and arrowhead on the LEFT -->
+  <path d="M 43 42        L 43 9        Q 43 6, 40 6        L 33 6        Q 30 6, 30 9        L 30 39        Q 30 42, 27 42        L 21 42        L 21 33        Q 21 31, 19 33        L 4 48        Q 2 50, 4 52        L 19 67        Q 21 69, 21 66        L 21 57        L 40 57        Q 43 57, 43 54 Z" fill="#0078D4" stroke="#203746" stroke-width="3.5"/>
 
-  </g>
 </svg>

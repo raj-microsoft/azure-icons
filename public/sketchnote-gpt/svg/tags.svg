@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Tags (sketch)</title><defs><linearGradient id="tag-purple" x1="9.84" y1="3.825" x2="9.84" y2="17.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c69aeb"/><stop offset="1" stop-color="#6f4bb2"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M14.977 2.5L13.1 .635A.471.471 0 0 0 12.753 .5L9.271 .627a.462.462 0 0 0-.312 .135L1.342 8.339a.462.462 0 0 0 0 .654L6.416 14.04a.465.465 0 0 0 .657 0L14.7 6.454a.456.456 0 0 0 .134-.288l.279-3.3a.461.461 0 0 0-.136-.366ZM12.711 3.737a.843.843 0 1 1 .848-.843.845.845 0 0 1-.848.843Z" fill="#773adc"/><path d="M12.711 1.383a1.512 1.512 0 1 0 1.52 1.511 1.515 1.515 0 0 0-1.52-1.511Zm.832 1.676a.848.848 0 1 1-1-.992.84.84 0 0 1 1 .992Z" fill="#341a6e"/><path d="M1.42 8.40L9.02.84Q9.14.69 9.34.68L12.72.55Q12.91.54 13.04.68L14.87 2.53Q15.01 2.68 14.98 2.88L14.70 6.37L7.08 13.99Q6.77 14.27 6.49 14.02L1.40 8.96Q1.17 8.68 1.42 8.40Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#4c238f" stroke-width=".045"/><path d="M16.658 5.828L14.78 3.96a.466.466 0 0 0-.346-.135l-3.483.126a.473.473 0 0 0-.312.135L3.023 11.663a.46.46 0 0 0 0 .654L8.1 17.365a.467.467 0 0 0 .657 0L16.38 9.779a.464.464 0 0 0 .134-.288l.278-3.3a.459.459 0 0 0-.134-.363ZM14.392 7.062a.843.843 0 1 1 .847-.843.846.846 0 0 1-.847.843Z" fill="url(#tag-purple)"/><path d="M14.392 4.707a1.512 1.512 0 1 0 1.519 1.512 1.516 1.516 0 0 0-1.519-1.512Zm.831 1.677a.848.848 0 1 1-1-.992.842.842 0 0 1 1 .992Z" fill="#552f99"/><path d="M15.223 6.384a.848.848 0 1 1-1-.992.842.842 0 0 1 1 .992Z" fill="#fff"/><path d="M13.543 3.059a.848.848 0 1 1-1-.992.84.84 0 0 1 1 .992Z" fill="#fff"/><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3.10 11.73L10.91 4.18Q11.05 4.03 11.24 4.03L14.72 3.91Q14.91 3.91 15.04 4.05L16.53 5.78Q16.69 5.94 16.65 6.17L16.37 9.68L8.76 17.25Q8.48 17.52 8.20 17.28L3.13 12.20Q2.91 11.95 3.10 11.73Z" stroke="#552f99" stroke-width=".045"/><path d="M3.75 11.82L11.40 4.42" stroke="#d8b8f1" stroke-width=".035" opacity=".65"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Tags (sketch)</title>
+  
+
+  <!-- Rear dark-purple tag -->
+  <path d="M10 60        L63 7        Q66 4 70 4        L89 4        Q92 4 94 7        L105 17        Q108 20 107 24        L103 43        L48 99        Q45 102 42 99        L10 66        Q7 63 10 60Z" fill="#773ADC" stroke="#341A6E" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Rear tag white hole -->
+  <circle cx="91" cy="21" r="7.2" fill="#FFFFFF" stroke="#341A6E" stroke-width="2.5"/>
+
+  <!-- Front lavender tag, offset down and right -->
+  <path d="M22 84        L75 31        Q78 28 82 28        L101 28        Q104 28 106 31        L117 41        Q120 44 119 48        L115 67        L60 123        Q57 126 54 123        L22 90        Q19 87 22 84Z" fill="#B58AE8" stroke="#341A6E" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front tag white hole -->
+  <circle cx="103" cy="45" r="7.2" fill="#FFFFFF" stroke="#341A6E" stroke-width="2.5"/>
+</svg>

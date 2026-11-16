@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Network Managers (sketch)</title><defs><linearGradient id="gearGradient" x1="12.141" y1="7.014" x2="12.141" y2="17.81" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5ea0ef"/><stop offset="1" stop-color="#0078d4"/></linearGradient></defs><g transform="scale(7.111111)"><g fill="#76bc2d"><path d="M10.475 3.319c.505 0 .911.406.911.911s-.406.911-.911.911-.911-.406-.911-.911.406-.911.911-.911Z"/><path d="M7.567 3.327c.503 0 .911.408.911.911s-.408.911-.911.911-.911-.408-.911-.911.408-.911.911-.911Z"/><path d="M4.66 3.327c.503 0 .911.408.911.911s-.408.911-.911.911-.911-.408-.911-.911.408-.911.911-.911Z"/></g><path d="M5.322 7.882 4.8 8.4a.235.235 0 0 1-.333 0h0L.605 4.554a.471.471 0 0 1 0-.666h0l.521-.523h0l4.2 4.183a.237.237 0 0 1 0 .334Z" fill="#50e6ff" stroke="#168bc9" stroke-width=".035" stroke-linejoin="round"/><path d="M4.721.08 5.244.6a.235.235 0 0 1 0 .333L1.122 5.068h0L.6 4.547a.473.473 0 0 1 0-.667h0L4.388.08a.235.235 0 0 1 .333 0Z" fill="#1490df" stroke="#0875bd" stroke-width=".035" stroke-linejoin="round"/><path d="M11.494 6.355h1.159l1.813-1.808a.472.472 0 0 0 0-.666l-.522-.523-3.005 3Z" fill="#50e6ff" stroke="#168bc9" stroke-width=".035" stroke-linejoin="round"/><path d="M14.465 4.542l-.523.521h0L9.82.929A.235.235 0 0 1 9.82.6h0l.529-.527a.235.235 0 0 1 .333 0h0l3.789 3.8a.472.472 0 0 1 0 .667h0Z" fill="#1490df" stroke="#0875bd" stroke-width=".035" stroke-linejoin="round"/><path d="M17.539 13.124V11.9h-.162l-1.331-.413-.306-.918.666-1.439-.864-.864H15.38l-1.241.63-.828-.342-.54-1.494H11.494v.18l-.432 1.314-.846.342-1.4-.666-.864.864.09.162.5 1.331-.288.9-1.511.485v1.314h.18l1.313.432.306.809-.666 1.44.9.917.18-.09 1.223-.629.846.342L11.566 18h1.223v-.18l.432-1.313.846-.342 1.421.665.864-.863-.09-.162-.522-1.3.342-.845Zm-5.361 1.8h-.037a2.357 2.357 0 1 1 .037 0Z" fill="url(#gearGradient)" stroke="#126cb6" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Network Managers (sketch)</title>
+
+  
+  <desc id="desc">
+    Two blue angle brackets enclosing three separate green
+    nodes, positioned above-left of a large blue cogwheel
+    with one plain circular opening.
+  </desc>
+
+  <!-- Left angle bracket -->
+  <path d="M35 7        L9 30        Q7 32 9 34        L35 55" stroke="#203746" stroke-width="9"/>
+  <path d="M35 7        L9 30        Q7 32 9 34        L35 55" stroke="#1490DF" stroke-width="5.5"/>
+
+  <!-- Right angle bracket -->
+  <path d="M72 7        L97 23        Q100 25 98 28        L73 42" stroke="#203746" stroke-width="9"/>
+  <path d="M72 7        L97 23        Q100 25 98 28        L73 42" stroke="#50E6FF" stroke-width="5.5"/>
+
+  <!-- Three independent green nodes -->
+  <g fill="#76BC2D" stroke="#203746" stroke-width="2.8">
+    <path d="M32 21              C37 21 40 25 40 30              C40 35 36 39 32 39              C27 39 24 35 24 30              C24 25 27 21 32 21 Z"/>
+    <path d="M53 21              C58 21 61 25 61 30              C61 35 57 39 53 39              C48 39 45 35 45 30              C45 25 48 21 53 21 Z"/>
+    <path d="M74 21              C79 21 82 25 82 30              C82 35 78 39 74 39              C69 39 66 35 66 30              C66 25 69 21 74 21 Z"/>
+  </g>
+
+  <!-- Large ordinary cogwheel -->
+  <path d="M84 53        L91 53        L94 59        Q98 60 101 62        L108 59        L115 66        L112 73        Q114 77 115 81        L122 85        L122 95        L115 98        Q114 102 112 105        L115 112        L108 119        L101 116        Q97 118 94 119        L91 126        L81 126        L78 119        Q74 118 71 116        L64 119        L57 112        L60 105        Q58 101 57 98        L50 95        L50 85        L57 81        Q58 77 60 73        L57 66        L64 59        L71 62        Q75 60 78 59        Z" fill="#328AD8" stroke="#203746" stroke-width="3.5"/>
+
+  <!-- Plain circular gear hole -->
+  <path d="M86 71        C96 71 103 78 103 88        C103 98 96 105 86 105        C76 105 69 98 69 88        C69 78 76 71 86 71 Z" fill="#FFFFFF" stroke="#203746" stroke-width="3.5"/>
+
+</svg>

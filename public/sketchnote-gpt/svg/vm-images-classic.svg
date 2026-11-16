@@ -1,1 +1,52 @@
-<svg id="b189dd31-f678-493f-b388-049997db3b0e" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>VM Images (Classic) (sketch)</title><defs><linearGradient id="add877bb-eba5-4f6c-85e2-a20ca8b1f954" x1="8.83" y1="12.87" x2="8.83" y2="0.87" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset="0.82" stop-color="#5ea0ef"/></linearGradient><linearGradient id="abfd55c2-f4e9-4954-8f01-2256c47fcbfe" x1="8.83" y1="17.5" x2="8.83" y2="12.87" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1490df"/><stop offset="0.98" stop-color="#1f56a3"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><rect x="-0.17" y="0.87" width="18" height="12" rx="0.6" fill="url(#add877bb-eba5-4f6c-85e2-a20ca8b1f954)" stroke="#1769b0" stroke-width=".035"/><rect x="0.83" y="1.87" width="16" height="10" rx="0.33" fill="#fff"/><polygon points="11.83 5.12 11.83 8.61 8.83 10.37 8.83 6.87 11.83 5.12" fill="#0078d4"/><polygon points="11.83 5.12 8.83 6.88 5.83 5.12 8.83 3.37 11.83 5.12" fill="#83b9f9"/><polygon points="8.83 6.88 8.83 10.37 5.83 8.61 5.83 5.12 8.83 6.88" fill="#5ea0ef"/><polygon points="5.83 8.61 8.83 6.87 8.83 10.37 5.83 8.61" fill="#83b9f9" opacity="0.2"/><polygon points="11.83 8.61 8.83 6.87 8.83 10.37 11.83 8.61" fill="#5ea0ef" opacity="0.2"/><path d="M12.44,16.5c-1.78-.28-1.85-1.56-1.85-3.63H7.06c0,2.07-.06,3.35-1.84,3.63a1,1,0,0,0-.89,1h9A1,1,0,0,0,12.44,16.5Z" fill="url(#abfd55c2-f4e9-4954-8f01-2256c47fcbfe)" stroke="#1f56a3" stroke-width=".025"/><path d="M5.1,2.57H2.62a.59.59,0,0,0-.6.59V5.64a.3.3,0,0,0,.3.3h.2a.3.3,0,0,0,.3-.3V3.35H5.1a.3.3,0,0,0,.3-.3V2.86A.3.3,0,0,0,5.1,2.57Z" fill="#5ea0ef" stroke="#438bd0" stroke-width=".018"/><path d="M5.1,10.37H2.81V8.09a.3.3,0,0,0-.3-.3H2.32a.3.3,0,0,0-.3.3v2.48a.59.59,0,0,0,.6.59H5.1a.3.3,0,0,0,.3-.29v-.2A.3.3,0,0,0,5.1,10.37Z" fill="#5ea0ef" stroke="#438bd0" stroke-width=".018"/><path d="M15,2.59H12.56a.29.29,0,0,0-.3.3v.19a.29.29,0,0,0,.3.29h2.28v2.3a.29.29,0,0,0,.3.29h.2a.29.29,0,0,0,.29-.29V3.19A.59.59,0,0,0,15,2.59Z" fill="#5ea0ef" stroke="#438bd0" stroke-width=".018"/><path d="M15.34,7.81h-.19a.3.3,0,0,0-.3.3v2.28H12.56a.29.29,0,0,0-.3.3v.2a.3.3,0,0,0,.3.3H15a.59.59,0,0,0,.59-.6V8.11A.3.3,0,0,0,15.34,7.81Z" fill="#5ea0ef" stroke="#438bd0" stroke-width=".018"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>VM Images (Classic) (sketch)</title>
+
+  
+  <desc id="desc">
+    Hand-drawn Azure virtual machine image icon featuring
+    a blue monitor, a central three-dimensional cube,
+    four prominent L-shaped corner brackets surrounding
+    the cube, and a monitor pedestal.
+  </desc>
+
+  <!-- Monitor outer frame -->
+  <path d="M 8 7        Q 8 5 12 5        L 116 5        Q 121 5 121 10        L 121 89        Q 121 93 117 93        L 11 93        Q 7 93 7 89        L 7 11        Q 7 8 8 7 Z" fill="#3189DE" stroke="#203746" stroke-width="3.5"/>
+
+  <!-- White monitor display -->
+  <path d="M 15 13        Q 15 12 18 12        L 111 12        Q 114 12 114 15        L 114 83        Q 114 86 111 86        L 18 86        Q 15 86 15 83 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.5"/>
+
+  <!-- Large upper-left corner bracket -->
+  <path d="M 39 24        L 25 24        Q 22 24 22 27        L 22 43" stroke="#203746" stroke-width="6.5"/>
+
+  <path d="M 39 24        L 25 24        Q 22 24 22 27        L 22 43" stroke="#5EA0EF" stroke-width="3.5"/>
+
+  <!-- Large upper-right corner bracket -->
+  <path d="M 89 24        L 103 24        Q 106 24 106 27        L 106 43" stroke="#203746" stroke-width="6.5"/>
+
+  <path d="M 89 24        L 103 24        Q 106 24 106 27        L 106 43" stroke="#5EA0EF" stroke-width="3.5"/>
+
+  <!-- Large lower-left corner bracket -->
+  <path d="M 22 58        L 22 73        Q 22 76 25 76        L 39 76" stroke="#203746" stroke-width="6.5"/>
+
+  <path d="M 22 58        L 22 73        Q 22 76 25 76        L 39 76" stroke="#5EA0EF" stroke-width="3.5"/>
+
+  <!-- Large lower-right corner bracket -->
+  <path d="M 106 58        L 106 73        Q 106 76 103 76        L 89 76" stroke="#203746" stroke-width="6.5"/>
+
+  <path d="M 106 58        L 106 73        Q 106 76 103 76        L 89 76" stroke="#5EA0EF" stroke-width="3.5"/>
+
+  <!-- Cube top face -->
+  <path d="M 64 30        L 84 42        L 64 54        L 44 42 Z" fill="#83B9F9" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Cube left face -->
+  <path d="M 44 42        L 64 54        L 64 78        L 44 66 Z" fill="#5EA0EF" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Cube right face -->
+  <path d="M 64 54        L 84 42        L 84 66        L 64 78 Z" fill="#0078D4" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Monitor stand neck -->
+  <path d="M 52 93        L 76 93        Q 75 104 79 112        Q 81 115 85 116        L 43 116        Q 48 114 50 110        Q 53 103 52 93 Z" fill="#1F65B6" stroke="#203746" stroke-width="3"/>
+
+  <!-- Monitor pedestal -->
+  <path d="M 46 115        Q 48 113 52 113        L 76 113        Q 81 113 84 115        L 91 122        Q 93 125 89 125        L 39 125        Q 35 125 37 122 Z" fill="#1490DF" stroke="#203746" stroke-width="3.2"/>
+
+</svg>

@@ -1,1 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Video Analyzers (sketch)</title><defs><linearGradient id="cloudGradient" x1="9" y1="0.199" x2="9" y2="15.707" gradientUnits="userSpaceOnUse"><stop offset="0.117" stop-color="#5ea0ef"/><stop offset="0.271" stop-color="#4595e8"/><stop offset="0.531" stop-color="#1f85dd"/><stop offset="0.741" stop-color="#087cd6"/><stop offset="0.873" stop-color="#0078d4"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M14.506,7.464A5.158,5.158,0,0,0,9.212,2.593,5.308,5.308,0,0,0,4.235,5.981,4.97,4.97,0,0,0,0,10.64a4.884,4.884,0,0,0,5,4.768l.086,0h8.894A4.024,4.024,0,0,0,18,11.381,4.081,4.081,0,0,0,14.506,7.464Z" fill="url(#cloudGradient)" stroke="#176eaf" stroke-width=".035" stroke-linejoin="round"/><g><polygon points="13.786 10.198 9.299 8.531 9.183 8.819 9.256 8.555 5.272 7.678 5.081 8.346 8.443 9.075 4.129 10.858 4.461 11.45 8.915 9.6 9.712 13.11 10.401 13.025 9.589 9.402 13.522 10.84 13.786 10.198" fill="#83b9f9" stroke="#67a9e9" stroke-width=".025" stroke-linejoin="round"/><path d="M4.581,8.6a.881.881,0,1,0,.156-1.236l-.02.016A.875.875,0,0,0,4.581,8.6Z" fill="#9cebff"/><path d="M3.581,11.717a.886.886,0,1,0,.15-1.245.886.886,0,0,0-.15,1.245Z" fill="#9cebff"/><path d="M12.843,10.947A.877.877,0,1,0,13,9.72l0,0a.867.867,0,0,0-.162,1.214Z" fill="#9cebff"/><path d="M9.361,13.653a.877.877,0,1,0,.156-1.23l0,0A.867.867,0,0,0,9.35,13.64Z" fill="#9cebff"/></g><path d="M11.736,9.038a.264.264,0,0,0,0-.458L9.8,7.46,7.858,6.341a.264.264,0,0,0-.4.229v4.478a.264.264,0,0,0,.4.229L9.8,10.158Z" fill="#c3f1ff" stroke="#b2eaff" stroke-width=".025" stroke-linejoin="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Video Analyzers (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure-blue cloud containing a pale cyan play
+    triangle and a connected four-node video analysis graph.
+    Flat colors, uneven charcoal marker outlines, and
+    transparent background.
+  </desc>
+
+  <!-- Azure cloud silhouette -->
+  <path d="     M35 109     C22 110 10 101 8 88     C6 74 15 62 30 58     C34 39 48 23 67 22     C88 20 103 35 105 53     C117 55 124 65 124 78     C125 94 114 108 99 109     Z" fill="#2186DB" stroke="#30343D" stroke-width="3.8"/>
+
+  <!-- Subtle cloud contour -->
+  <path d="     M19 69 Q24 62 33 62     M44 42 Q53 29 68 29     M106 61 Q116 66 117 77" stroke="#4FA3EC" stroke-width="2.6"/>
+
+  <!-- Analysis connections inside cloud -->
+  <g stroke="#30343D" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 65 L66 73"/>
+    <path d="M34 91 L66 73"/>
+    <path d="M66 73 L97 85"/>
+    <path d="M66 73 L72 108"/>
+  </g>
+
+  <g stroke="#83B9F9" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 65 L66 73"/>
+    <path d="M34 91 L66 73"/>
+    <path d="M66 73 L97 85"/>
+    <path d="M66 73 L72 108"/>
+  </g>
+
+  <!-- Four circular analysis nodes -->
+  <g fill="#9CEBFF" stroke="#30343D" stroke-width="3.1">
+
+    <path d="       M40 65       C40 69 37 72 33 72       C29 72 26 69 26 65       C26 61 29 58 33 58       C37 58 40 61 40 65Z"/>
+
+    <path d="       M40 91       C40 95 37 98 33 98       C29 98 26 95 26 91       C26 87 29 84 33 84       C37 84 40 87 40 91Z"/>
+
+    <path d="       M104 85       C104 89 101 92 97 92       C93 92 90 89 90 85       C90 81 93 78 97 78       C101 78 104 81 104 85Z"/>
+
+    <path d="       M79 108       C79 112 76 115 72 115       C68 115 65 112 65 108       C65 104 68 101 72 101       C76 101 79 104 79 108Z"/>
+
+  </g>
+
+  <!-- Central play triangle, layered over graph -->
+  <path d="     M53 49     Q53 46 56 48     L89 67     Q93 70 89 73     L56 92     Q53 94 53 90     Z" fill="#C3F1FF" stroke="#30343D" stroke-width="3.5"/>
+
+</svg>

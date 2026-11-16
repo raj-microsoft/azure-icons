@@ -1,1 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Orbital (sketch)</title><defs><linearGradient id="bd2169b4-22fa-40fa-93d7-5f862b02b343" x1="-485.564" y1="-607.983" x2="-485.564" y2="-600.613" gradientTransform="translate(567.077 439.786) scale(1.147 0.716)" gradientUnits="userSpaceOnUse"><stop offset="0.302" stop-color="#0078d4"/><stop offset="1" stop-color="#005ba1"/></linearGradient><linearGradient id="ec805316-488d-40aa-9f6c-9c749797063b" x1="-465.421" y1="-302.323" x2="-465.421" y2="-299.441" gradientTransform="translate(120.615 555.622) rotate(45)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9cebff"/><stop offset="1" stop-color="#50e6ff"/></linearGradient><linearGradient id="b56f8c72-405c-403f-ace7-a288a3d66de0" x1="-465.421" y1="-307.134" x2="-465.421" y2="-302.876" gradientTransform="translate(120.615 555.622) rotate(45)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5ea0ef"/><stop offset="1" stop-color="#0078d4"/></linearGradient></defs><g transform="scale(7.111111)"><g><path d="M9.192,17.636a.445.445,0,0,1,0-.889A7.9,7.9,0,0,0,14.664,3.224,7.9,7.9,0,0,0,1.233,8.918a.445.445,0,1,1-.889.007A8.784,8.784,0,0,1,15.287,2.59,8.784,8.784,0,0,1,9.2,17.636Z" fill="#e6e6e6"/><path d="M4.212,17.93A4.246,4.246,0,0,1,.131,14.316a4,4,0,0,1-.041-.628c.007-.281.143-.45.363-.454s.4.163.4.451a3.259,3.259,0,0,0,.281,1.43A3.382,3.382,0,0,0,3.9,17.164c.161.021.325.03.487.038.261.012.4.13.4.356s-.14.358-.389.372C4.336,17.933,4.274,17.93,4.212,17.93Z" fill="#b3b3b3" opacity="0.51"/><path d="M4.248,16.533A2.809,2.809,0,0,1,1.5,13.658a1.111,1.111,0,0,1,.043-.275.333.333,0,0,1,.335-.24.335.335,0,0,1,.346.224.922.922,0,0,1,.038.369A2.052,2.052,0,0,0,4.3,15.765a1.8,1.8,0,0,1,.233.006.392.392,0,0,1,.345.425.348.348,0,0,1-.373.336C4.42,16.536,4.334,16.533,4.248,16.533Z" fill="#b3b3b3" opacity="0.51"/><rect x="2.842" y="6.296" width="14.353" height="3.541" rx="0.49" transform="translate(8.638 -4.721) rotate(45)" fill="url(#bd2169b4-22fa-40fa-93d7-5f862b02b343)" stroke="#005ba1" stroke-width=".035"/><rect x="5.076" y="11.562" width="0.902" height="1.887" transform="translate(10.461 -0.246) rotate(45)" fill="#005ba1"/><circle cx="4.202" cy="13.83" r="1.134" fill="url(#ec805316-488d-40aa-9f6c-9c749797063b)" stroke="#168bc9" stroke-width=".035"/><rect x="6.07" y="9.155" width="4.686" height="0.928" transform="translate(9.266 -3.131) rotate(45)" fill="#005ba1"/><path d="M11.157,4.817h2.465a.229.229,0,0,1,.229.229V6.468a0,0,0,0,1,0,0H10.928a0,0,0,0,1,0,0V5.046a.229.229,0,0,1,.229-.229Z" transform="translate(7.619 -7.108) rotate(45)" fill="#005ba1"/><path d="M8.5,5.59h3.543a.576.576,0,0,1,.576.576V9.932a0,0,0,0,1,0,0h-4.7a0,0,0,0,1,0,0V6.166A.576.576,0,0,1,8.5,5.59Z" transform="translate(8.496 -4.99) rotate(45)" fill="#50e6ff" stroke="#1490df" stroke-width=".035"/><path d="M7.725,14.275l-3.972-3.96a.786.786,0,0,1,.331-1.3l2.4-.767,3.324,3.324L9.02,13.949A.787.787,0,0,1,7.725,14.275Z" fill="url(#b56f8c72-405c-403f-ace7-a288a3d66de0)" stroke="#005ba1" stroke-width=".035" stroke-linejoin="round"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Azure Orbital (sketch)</title>
+
+  
+  <desc>Hand-drawn Azure Orbital satellite with a diagonal blue structural beam, an upper-right connector panel, a central cyan module, a lower-left tapered solar panel, a small circular sensor, and two curved signal arcs inside a pale gray orbital ring. Flat fills and irregular dark marker outlines on a transparent background.</desc>
+
+  <!-- Pale gray planetary orbit -->
+  <path d="     M65 125     C94 125 119 104 124 75     C129 48 115 21 91 10     C66 -2 36 4 20 26     C10 39 5 53 6 65" stroke="#B9B9B9" stroke-width="5.2"/>
+
+  <!-- Short lower-left orbital signal arc -->
+  <path d="     M13 94     C12 105 20 115 30 117     Q33 118 35 117" stroke="#AFAFAF" stroke-width="4.5"/>
+
+  <!-- Larger lower-left orbital signal arc -->
+  <path d="     M4 96     C3 113 16 126 33 126" stroke="#AFAFAF" stroke-width="4.5"/>
+
+  <!-- Main diagonal satellite structural beam -->
+  <path d="     M35 15     Q38 12 41 15     L115 89     Q118 92 115 95     L101 109     Q98 112 95 109     L21 35     Q18 32 21 29Z" fill="#0078D4" stroke="#30343D" stroke-width="3.7"/>
+
+  <!-- Upper-right satellite connector panel -->
+  <path d="     M79 41     L88 32     Q90 30 92 32     L101 41     Q103 43 101 45     L92 54Z" fill="#005BA1" stroke="#30343D" stroke-width="3"/>
+
+  <!-- Narrow diagonal structural cross-brace -->
+  <path d="     M46 70     L51 65     L84 98     L79 103Z" fill="#005BA1" stroke="#30343D" stroke-width="2.7"/>
+
+  <!-- Lower-left tapered solar panel -->
+  <path d="     M46 61     L69 84     L62 101     Q60 106 55 104     L26 76     Q22 72 27 69Z" fill="#368EE2" stroke="#30343D" stroke-width="3.6"/>
+
+  <!-- Solar panel divisions -->
+  <path d="     M37 65 L63 91     M29 76 L56 102     M48 74 L34 84     M59 86 L45 97" stroke="#30343D" stroke-width="2.2"/>
+
+  <!-- Central cyan satellite module -->
+  <path d="     M62 38     Q65 35 68 38     L92 62     Q95 65 92 68     L73 87     L43 57     Q40 54 43 51Z" fill="#50E6FF" stroke="#30343D" stroke-width="3.7"/>
+
+  <!-- Small lower sensor connector -->
+  <path d="     M39 86     L32 93     L26 87     L33 80Z" fill="#005BA1" stroke="#30343D" stroke-width="2.8"/>
+
+  <!-- Circular communication sensor -->
+  <path d="     M30 89     C35 89 39 93 39 98     C39 103 35 107 30 107     C25 107 21 103 21 98     C21 93 25 89 30 89Z" fill="#50E6FF" stroke="#30343D" stroke-width="3.2"/>
+
+</svg>

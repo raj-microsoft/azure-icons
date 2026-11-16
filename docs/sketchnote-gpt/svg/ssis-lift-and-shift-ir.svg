@@ -1,2 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>SSIS Lift And Shift IR (sketch)</title><defs><linearGradient id="bodyGradient" x1="4.969" y1="45.222" x2="79.875" y2="45.222" gradientTransform="matrix(1, 0, 0, -1, 0, 102)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#005ba1"/><stop offset="0.07" stop-color="#0060a9"/><stop offset="0.36" stop-color="#0071c8"/><stop offset="0.52" stop-color="#0078d4"/><stop offset="0.64" stop-color="#0074cd"/><stop offset="0.82" stop-color="#006abb"/><stop offset="1" stop-color="#005ba1"/></linearGradient></defs><g transform="scale(1.28)"><path d="M42.425,27.445c-20.686,0-37.456-5.843-37.456-13.557V86.112c0,7.421,16.478,13.439,36.93,13.556h.526c20.681,0,37.45-5.843,37.45-13.556V13.888C79.875,21.426,63.106,27.445,42.425,27.445Z" fill="url(#bodyGradient)" stroke="#005ba1" stroke-width=".22" stroke-linejoin="round"/><path d="M79.875,13.888c0,7.538-16.769,13.557-37.45,13.557S4.965,21.6,4.965,13.888,21.735.332,42.425.332,79.875,6.175,79.875,13.888Z" fill="#e8e8e8" stroke="#a6c2d5" stroke-width=".22"/><path d="M71.17,12.777c0,4.793-12.914,8.649-28.749,8.649S13.672,17.57,13.672,12.777,26.586,4.188,42.421,4.188,71.17,8.045,71.17,12.777Z" fill="#50e6ff"/><path d="M42.425,14.752A73.46,73.46,0,0,0,19.7,18.083c4.985,1.839,15.164,3.645,22.866,3.376A65.267,65.267,0,0,0,65.3,18.008,76.58,76.58,0,0,0,42.425,14.752Z" fill="#198ab3"/><path d="M72.89,96.218A19.635,19.635,0,1,0,53.255,76.583,19.635,19.635,0,0,0,72.89,96.218Z" fill="#fff"/><path d="M72.421,59.928A16.65,16.65,0,1,1,66.047,61.2,16.656,16.656,0,0,1,72.421,59.928Zm0-5.96A22.64,22.64,0,1,0,88.4,60.6,22.609,22.609,0,0,0,72.421,53.968Z" fill="#003067" stroke="#003067" stroke-width=".12" stroke-linejoin="round"/><path d="M61.953,81.844a2.689,2.689,0,0,0,2.682,2.669h.018l8.991-.078V78.782h-5.8V68.369l-3.3.02a2.681,2.681,0,0,0-2.473,1.676,2.7,2.7,0,0,0-.2,1.031l.027,3.97H58.334v2.662h3.583Z" fill="#76bc2d" stroke="#659f27" stroke-width=".12" stroke-linejoin="round"/><path d="M83.513,70.954a2.689,2.689,0,0,0-2.682-2.669h-.018L72,68.359v6.272h5.8v9.8l3.121-.02a2.683,2.683,0,0,0,2.669-2.7l-.027-3.974h3.571V75.066H83.546Z" fill="#76bc2d" stroke="#659f27" stroke-width=".12" stroke-linejoin="round"/></g>​
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>SSIS Lift And Shift IR (sketch)</title>
+
+  
+  <desc id="desc">Blue database cylinder with a white circular badge containing two large opposing squared green transfer hooks.</desc>
+
+  <!-- Database cylindrical body -->
+  <path d="M6 18            C6 28 28 35 54 35            C80 35 102 28 102 18            L102 110            C102 120 80 127 54 127            C28 127 6 120 6 110 Z" fill="#0078D4" stroke="#203746" stroke-width="3.2"/>
+
+  <!-- Database top rim -->
+  <path d="M6 18            C6 8 28 1 54 1            C80 1 102 8 102 18            C102 28 80 35 54 35            C28 35 6 28 6 18 Z" fill="#E8E8E8" stroke="#203746" stroke-width="3"/>
+
+  <!-- Cyan top ellipse -->
+  <path d="M17 16            C17 10 34 5 54 5            C74 5 91 10 91 16            C91 22 74 27 54 27            C34 27 17 22 17 16 Z" fill="#50E6FF" stroke="#203746" stroke-width="2.4"/>
+
+  <!-- Dark cyan inner elliptical segment -->
+  <path d="M25 23            Q39 19 54 19            Q70 19 83 23            Q69 28 54 28            Q38 28 25 23 Z" fill="#198AB3" stroke="#203746" stroke-width="1.8"/>
+
+  <!-- White circular transfer badge -->
+  <path d="M92.7 69            C107 69 119 80 119 94            C119 108 108 120 94 120            C80 120 68 109 68 95            C68 81 79 69 92.7 69 Z" fill="#FFFFFF" stroke="#203746" stroke-width="3.4"/>
+
+  <!-- Outer badge rim -->
+  <path d="M92.5 64            C110 64 124 78 124 95            C124 112 110 125 93 125            C76 125 63 112 63 95            C63 78 76 64 92.5 64 Z" stroke="#203746" stroke-width="3.8"/>
+
+  <!-- Left green squared transfer hook -->
+  <path d="M79 89            Q79 88 81 88            L84 88            Q85 88 85 90            L85 101            L94 101            Q95 101 95 103            L95 106            Q95 108 93 108            L81 108            Q79 108 79 106            L79 98            L76 98            L76 95            L79 95 Z" fill="#76BC2D" stroke="#203746" stroke-width="1.8"/>
+
+  <!-- Right green squared transfer hook -->
+  <path d="M92 88            L105 88            Q107 88 107 90            L107 95            L110 95            L110 98            L107 98            L107 106            Q107 108 105 108            L102 108            Q101 108 101 106            L101 95            L92 95            Q91 95 91 93            L91 90            Q91 88 92 88 Z" fill="#76BC2D" stroke="#203746" stroke-width="1.8"/>
+
 </svg>
