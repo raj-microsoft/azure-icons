@@ -1,38 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Device Compliance (sketch)</title>
-  <defs>
-    <linearGradient id="deviceBlue" x1="6.36" y1="22.03" x2="6.36" y2="-1.85" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset=".17" stop-color="#1c84dc"/>
-      <stop offset=".38" stop-color="#3990e4"/>
-      <stop offset=".59" stop-color="#4d99ea"/>
-      <stop offset=".8" stop-color="#5a9eee"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-    <linearGradient id="deviceScreen" x1="6.36" y1="15.59" x2="6.36" y2="1.94" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d2ebff"/>
-      <stop offset="1" stop-color="#f0fffd"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Device Compliance (sketch)</title>
+  
+  <desc>Azure-blue smartphone with a completely blank pale display, small earpiece and home button, overlapped at the lower right by a green compliance square containing a bold white checkmark. Uneven dark marker outlines, flat colors and transparent background.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Original device outer body -->
-    <rect x="1.28" y=".5" width="10.17" height="16.99" rx=".51" fill="url(#deviceBlue)" stroke="#0063ad" stroke-width=".1" stroke-linejoin="round"/>
+  <!-- Smartphone body -->
+  <path d="M12.8 4.2        Q13 3 16.5 3        L77.4 3.4        Q81.2 3.5 81.3 7.5        L81.1 119.6        Q81 123 77 123.1        L16.6 122.9        Q12.5 122.8 12.5 118.7        L12.7 8.1        Q12.6 5.5 12.8 4.2Z" fill="#3990E4" stroke="#183F62" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Bottom speaker / button -->
-    <rect x="5.79" y="16.17" width="1.14" height=".97" rx=".27" fill="#f2f2f2"/>
+  <!-- Flat darker lower bezel -->
+  <path d="M15.2 110.3        L78.5 110.3        L78.4 118.7        Q78.4 120.3 76.5 120.3        L17.3 120.2        Q15.3 120.1 15.3 118.4Z" fill="#0078D4"/>
 
-    <!-- Top earpiece -->
-    <rect x="5.19" y="1.07" width="2.34" height=".31" rx=".15" fill="#f2f2f2"/>
+  <!-- Blank device display -->
+  <path d="M21.2 14.3        Q21.2 12.7 23.1 12.7        L70.7 13        Q72.6 13 72.7 15        L72.5 107.1        Q72.5 109 70.5 109        L23 108.8        Q21.1 108.7 21.1 106.8Z" fill="#EAF7FF" stroke="#20577E" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Blank device display: intentionally no text or lines -->
-    <rect x="2.23" y="1.94" width="8.26" height="13.65" rx=".19" opacity=".9" fill="url(#deviceScreen)" stroke="#b9d9f2" stroke-width=".045"/>
+  <!-- Display remains completely empty:
+       no text, lines, icons or interface elements -->
 
-    <!-- Original green compliance badge -->
-    <rect x="9.2" y="9.98" width="7.52" height="7.52" rx=".28" fill="#76bc2d" stroke="#579c20" stroke-width=".09" stroke-linejoin="round"/>
+  <!-- Small earpiece -->
+  <path d="M39.6 8.9        Q47.5 8.2 55.1 8.9" fill="none" stroke="#EAF6FF" stroke-width="3.2" stroke-linecap="round"/>
 
-    <!-- Original white checkmark -->
-    <path d="M10.9 13.22h.61a.19.19 0 0 1 .19.19v2.44a.19.19 0 0 1-.19.19h-.43a.19.19 0 0 1-.19-.19v-2.63Z" transform="translate(29.63 16.98) rotate(135)" fill="#fff"/>
+  <!-- Home button -->
+  <path d="M43.6 114        Q43.7 112.6 45.3 112.5        L51 112.6        Q52.6 112.7 52.6 114.2        L52.5 117.5        Q52.4 118.9 50.9 118.9        L45.3 118.8        Q43.8 118.7 43.7 117.2Z" fill="#F2F2F2" stroke="#184C76" stroke-width="1.6" stroke-linejoin="round"/>
 
-    <path d="M13.61 10.66h.61v5.6a.19.19 0 0 1-.19.19h-.43a.19.19 0 0 1-.19-.19v-5.41a.19.19 0 0 1 .19-.19Z" transform="translate(14 32.92) rotate(-135)" fill="#fff"/>
+  <!-- Green compliance square: lower-right overlap -->
+  <path d="M68.1 70.5        Q68.2 67.7 71.2 67.7        L115 68        Q118.3 68 118.4 71.4        L118.2 119.8        Q118.1 123 114.8 123.1        L71.1 123        Q68 122.9 68 119.7Z" fill="#76BC2D" stroke="#31571C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle uneven marker retrace along green border -->
+  <path d="M72.5 73.3        Q72.3 85 72.5 95        M73.7 119.1        Q87 119.4 99.2 119.1" fill="none" stroke="#588D29" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Broad compliance check: dark irregular marker edge -->
+  <path d="M80.4 91.4        L90 101.1        L107.1 82        Q108.6 80.3 110.1 81.7        L112.2 83.6        Q113.5 85 112.1 86.6        L92.7 108.2        Q90.8 110.1 88.9 108.2        L76.7 96.1        Q75.4 94.6 76.9 93.2        L78.5 91.5        Q79.5 90.6 80.4 91.4Z" fill="#FFFFFF" stroke="#2B5019" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Flat white center, slight freehand unevenness -->
+  <path d="M79 94.5        L90.5 105.7        L109.2 84.5" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Minimal hand-drawn edge details -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M17.2 20          Q17 31 17.2 43" stroke="#8DC5F3" stroke-width="1.7"/>
+
+    <path d="M17.1 54 L17.1 65" stroke="#8DC5F3" stroke-width="1.7"/>
+
+    <path d="M76.9 20          L76.9 38" stroke="#18588C" stroke-width="1.3"/>
+  </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M109.5 59.2 L112.5 55.6"/>
+    <path d="M116 62.8 L120 61.4"/>
   </g>
 </svg>

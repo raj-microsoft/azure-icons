@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Website Power (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Website Power (sketch)</title>
   
-  <defs>
-    <radialGradient id="globe" cx="8.5" cy="7.8" r="4.2" gradientUnits="userSpaceOnUse">
-      <stop offset=".183" stop-color="#5ea0ef"/>
-      <stop offset="1" stop-color="#0078d4"/>
-    </radialGradient>
-    <linearGradient id="silver" x1="7.243" y1="9.904" x2="7.232" y2="8.458" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ccc"/>
-      <stop offset=".123" stop-color="#d7d7d7"/>
-      <stop offset="1" stop-color="#fcfcfc"/>
-    </linearGradient>
-    <linearGradient id="silver2" x1="9.337" y1="11.349" x2="9.337" y2="10.053" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ccc"/>
-      <stop offset=".123" stop-color="#d7d7d7"/>
-      <stop offset="1" stop-color="#fcfcfc"/>
-    </linearGradient>
-  </defs>
+  <desc>Hand-drawn Azure sketchnote icon with two large crossed orbital ellipses, a central blue globe, three white circular nodes, and pale intersecting arcs inside the globe.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Grey orbital sections -->
-    <path d="M3.236 9c-.153.233-.3.465-.436.7a21.85 21.85 0 0 0 2.512 2.992A21.986 21.986 0 0 0 8.3 15.2q.348-.207.7-.438a20.494 20.494 0 0 1-3.165-2.6A20.56 20.56 0 0 1 3.236 9Z" fill="#b3b3b3"/>
-    <path d="M1.894 1.893a2.571 2.571 0 0 1 1.874-.648 6.9 6.9 0 0 1 2.319.469 13.289 13.289 0 0 1 2.231 1.08Q8.659 2.56 9 2.346A14.426 14.426 0 0 0 6.34 1.019C4.159.223 2.394.347 1.371 1.37-.116 2.858.362 5.846 2.339 9c.145-.231.3-.463.461-.7C1.187 5.591.731 3.056 1.894 1.893Z" fill="#b3b3b3"/>
+  <!-- rear gray orbital sweep -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 20              C28 8 49 14 70 30              C92 46 110 69 116 88              C121 102 118 113 109 115              C94 117 68 101 45 79              C23 58 10 33 18 20Z" fill="none" stroke="#3F4750" stroke-width="6.2"/>
+    <path d="M18 20              C28 8 49 14 70 30              C92 46 110 69 116 88              C121 102 118 113 109 115              C94 117 68 101 45 79              C23 58 10 33 18 20Z" fill="none" stroke="#B3B3B3" stroke-width="3.7"/>
 
-    <!-- Solid blue diagonal orbital band -->
-    <path d="M3.77 17.5a3.28 3.28 0 0 1-2.4-.871C-.7 14.56 1.035 9.589 5.312 5.311A18.318 18.318 0 0 1 11.66 1.02c2.181-.8 3.946-.672 4.969.35 2.068 2.068.336 7.039-3.941 11.317C9.632 15.742 6.222 17.5 3.77 17.5ZM14.232 1.245a6.9 6.9 0 0 0-2.319.469 17.572 17.572 0 0 0-6.078 4.12C1.983 9.686.178 14.389 1.894 16.105s6.419-.089 10.271-3.941 5.657-8.556 3.941-10.271h0a2.571 2.571 0 0 0-1.874-.648Z" fill="#5ea0ef" stroke="#438edb" stroke-width=".055" stroke-linejoin="round"/>
+    <!-- front blue orbital ellipse -->
+    <path d="M18 108              C8 96 16 71 35 48              C57 22 86 8 106 9              C116 9 122 15 123 25              C124 45 107 72 84 93              C58 116 28 121 18 108Z" fill="none" stroke="#173E62" stroke-width="6.2"/>
+    <path d="M18 108              C8 96 16 71 35 48              C57 22 86 8 106 9              C116 9 122 15 123 25              C124 45 107 72 84 93              C58 116 28 121 18 108Z" fill="none" stroke="#5EA0EF" stroke-width="3.9"/>
 
-    <!-- Second grey orbital section -->
-    <path d="M15.05 8.107a21.862 21.862 0 0 0-2.362-2.8A21.737 21.737 0 0 0 9.682 2.794c-.227.136-.455.28-.682.431a20.682 20.682 0 0 1 3.165 2.609 20.548 20.548 0 0 1 2.4 2.877L15.2 9.7c1.613 2.712 2.069 5.247.906 6.41s-3.7.707-6.41-.905c-.232.161-.465.314-.7.459a10.449 10.449 0 0 0 5.23 1.84 3.28 3.28 0 0 0 2.4-.871c1.439-1.44 1.024-4.287-.8-7.327l.009-.005-.116-.182c-.024-.039-.042-.076-.066-.115Z" fill="#b3b3b3"/>
+    <!-- small gray orbital tab on left/front -->
+    <path d="M19 59 L25 69 L18.5 75.2 L10.7 63.2 Z" fill="#B3B3B3" stroke="#4A5057" stroke-width="2.2"/>
+  </g>
 
-    <path d="M2.8 8.303 3.492 9.375l-.554.517-.842-1.293Z" fill="#b3b3b3"/>
+  <!-- central globe -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84.5 45.3              C95.2 55.6 95.7 72.7 85.4 84.5              C73.9 97.1 56.1 97.2 44.5 87.7              C32.3 77.5 31.4 59.3 41.9 47              C53 34 72 33.3 84.5 45.3Z" fill="#0078D4" stroke="#183F62" stroke-width="3.4"/>
+    <path d="M46 45.5              C57.1 36.9 72.8 37.6 82.2 47.1              C91.4 56.8 91.2 69.6 83.5 79.5              C73.8 90.3 58.1 91.2 47.6 83.5              C37 74.9 36.4 56.6 46 45.5Z" fill="#1689DE"/>
+  </g>
 
-    <!-- Central website globe -->
-    <path d="M10.824 11.448a3.1 3.1 0 1 1-3.8-4.9l.031-.024a3.1 3.1 0 0 1 3.771 4.927Z" fill="url(#globe)" stroke="#0069bd" stroke-width=".055"/>
+  <!-- pale intersecting globe/network arcs INSIDE the globe -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M49.8 51.7              C58.5 45.3 71.2 44.1 82.2 49.4" stroke="#EAF6FF" stroke-width="4.1"/>
+    <path d="M45.8 69              C51.6 58.2 63.1 52.2 75.6 53.4              C80.8 53.8 85.6 55.3 89.2 58" stroke="#D7EDFC" stroke-width="3.6"/>
+    <path d="M56.2 82              C64.7 74.4 77.1 71.9 88.6 75.2" stroke="#EAF6FF" stroke-width="4"/>
+    <path d="M56.3 42.8              C59 53.4 65.7 62.5 75.6 69.2              C79.3 71.7 83.1 73.7 87.1 75.1" stroke="#F2F2F2" stroke-width="3.2"/>
+    <path d="M43.9 57.8              C47.4 61.1 51.4 63.7 55.7 65.8              C64.5 70.3 74 73.8 84.6 77" stroke="#DDEFFC" stroke-width="3.1"/>
+    <path d="M74.3 42.2              C75.7 49.8 80.1 56.4 86.8 61.2" stroke="#DDEFFC" stroke-width="2.8"/>
+  </g>
 
-    <circle cx="7.235" cy="8.88" r=".997" fill="url(#silver)"/>
-    <circle cx="9.337" cy="10.701" r=".648" fill="url(#silver2)"/>
-    <circle cx="10.814" cy="9.094" r=".688" fill="#fff"/>
+  <!-- three white circular nodes -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="52.4" cy="63.1" r="12.3" fill="#FFFFFF" stroke="#234C72" stroke-width="2.4"/>
+    <circle cx="78.2" cy="77.9" r="8.2" fill="#FFFFFF" stroke="#234C72" stroke-width="2.1"/>
+    <circle cx="90.1" cy="58.5" r="8.7" fill="#FFFFFF" stroke="#234C72" stroke-width="2.1"/>
+  </g>
 
-    <!-- Globe surface details -->
-    <g fill="none" stroke="#f2f2f2" stroke-width=".075" stroke-linecap="round" opacity=".65">
-      <path d="M6.238 10.555a3.615 3.615 0 0 0 .227.336 3.056 3.056 0 0 0 .2.237 6.506 6.506 0 0 1 .395-1.266"/>
-      <path d="M6.9 7.942a4.356 4.356 0 0 1-.252-1.075 3.071 3.071 0 0 0-.4.532 4.836 4.836 0 0 0 .208.862"/>
-      <path d="M7.963 9.56a.99.99 0 0 1-.545.3 4.362 4.362 0 0 0 .53.469 4.593 4.593 0 0 0 .747.456"/>
-      <path d="M9.983 10.661a5.093 5.093 0 0 0 1.246.089 3.122 3.122 0 0 0 .42-.491"/>
-      <path d="M10.358 8.609A9.631 9.631 0 0 1 9.167 7.575a4.965 4.965 0 0 1 2.165-.531M8.729 7.1a6.128 6.128 0 0 1-.724-1.067M7.656 8.355a.994.994 0 0 1 .491.4M10.134 8.97a.674.674 0 0 1 .224-.361"/>
-      <path d="m11.853 9.5-.12-.065-.115-.066a.656.656 0 0 1-.232.338l.136.078.127.071"/>
-    </g>
+  <!-- restrained sketchnote accents -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M106.4 8.8 L112.2 4.1" stroke="#E6B93F" stroke-width="2.8"/>
+    <path d="M114.7 17.6 L122.3 16" stroke="#E6B93F" stroke-width="2.8"/>
+    <path d="M12.3 35.5 L8.1 31.8" stroke="#E6B93F" stroke-width="2.5"/>
+    <path d="M78 112 L81 118" stroke="#E6B93F" stroke-width="2.5"/>
 
-    <circle cx="7.235" cy="8.88" r=".997" fill="none" stroke="#fff" stroke-width=".045"/>
-    <circle cx="9.337" cy="10.701" r=".648" fill="none" stroke="#fff" stroke-width=".045"/>
+    <path d="M14 91 L18 94" stroke="#0078D4" stroke-width="1.8"/>
+    <path d="M39 108 Q48 113 57 111" stroke="#0078D4" stroke-width="1.8"/>
+    <path d="M103 100 L107 96" stroke="#0078D4" stroke-width="1.8"/>
+    <path d="M88 10 L94 11.8" stroke="#0078D4" stroke-width="1.8"/>
   </g>
 </svg>

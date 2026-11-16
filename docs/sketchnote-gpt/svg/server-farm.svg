@@ -1,49 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Server Farm (sketch)</title>
-  <defs>
-    <linearGradient id="server-gray" x1="5.759" y1="0.5" x2="5.759" y2="16.523" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#b3b2b3"/>
-      <stop offset="0.375" stop-color="#afaeaf"/>
-      <stop offset="0.763" stop-color="#a2a2a2"/>
-      <stop offset="1" stop-color="#979797"/>
-    </linearGradient>
-    <linearGradient id="farm-blue" x1="11.676" y1="17.5" x2="11.676" y2="8.901" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset="0.156" stop-color="#1380da"/>
-      <stop offset="0.528" stop-color="#3c91e5"/>
-      <stop offset="0.822" stop-color="#559cec"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Server Farm (sketch)</title>
+  
+  <desc>Gray rear server rack with two dark slots and cyan indicators, overlapped by a blue front-facing barn-shaped server building with pitched roof, cyan roof outline, small upper window and lower network symbol.</desc>
 
-  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Left server chassis -->
-    <path d="M10.96,15.98a.574.574,0,0,1-.6.543h-9.2a.574.574,0,0,1-.6-.543V1.043A.574.574,0,0,1,1.158.5h9.2a.574.574,0,0,1,.6.543Z" fill="url(#server-gray)" stroke="#8e8d8e" stroke-width=".11"/>
+  <!-- Rear server rack: tall gray rectangular cabinet -->
+  <path d="M5 7.5 Q5.2 4 9 4 L70 4.3 Q74.7 4.2 75 8.5            L74.7 111 Q74.5 115.8 70.5 116 L9 115.7            Q5 115.5 5.1 111Z" fill="#AFAEAF" stroke="#44464B" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- Server bays -->
-    <path d="M2.086,7.35A1.193,1.193,0,0,1,3.217,6.1H8.394A1.193,1.193,0,0,1,9.525,7.35h0A1.193,1.193,0,0,1,8.394,8.6H3.217A1.193,1.193,0,0,1,2.086,7.35Z" fill="#003067" stroke="#002a59" stroke-width=".09"/>
-    <path d="M2.086,3.649A1.193,1.193,0,0,1,3.217,2.4H8.394A1.193,1.193,0,0,1,9.525,3.649h0A1.193,1.193,0,0,1,8.394,4.895H3.217A1.193,1.193,0,0,1,2.086,3.649Z" fill="#003067" stroke="#002a59" stroke-width=".09"/>
+  <!-- Subtle flat side shading -->
+  <path d="M6.8 10 Q7 6.6 10 6.6 L16.2 6.7            L16 113.3 L9.2 113.2 Q7 113 7 110Z" fill="#979797"/>
 
-    <!-- Status lights -->
-    <circle cx="3.542" cy="3.649" r="0.836" fill="#50e6ff" stroke="#1a93c8" stroke-width=".07"/>
-    <circle cx="3.542" cy="7.35" r="0.836" fill="#50e6ff" stroke="#1a93c8" stroke-width=".07"/>
+  <!-- Upper dark server slot -->
+  <path d="M16.2 23.8 Q16.4 19.1 21.8 19            L58.7 19.2 Q64.1 19.2 64.4 24            L64.3 29.7 Q64.1 34 58.8 34.2            L21.5 34 Q16.3 34 16.2 29.3Z" fill="#003067" stroke="#263747" stroke-width="2.5" stroke-linejoin="round"/>
 
-    <!-- Server farm building -->
-    <path d="M14.849,10.484,11.676,8.9,8.388,10.484l-1.2,2.35v4.381a.286.286,0,0,0,.286.285h8.405a.286.286,0,0,0,.286-.285V12.834Z" fill="url(#farm-blue)" stroke="#006ec3" stroke-width=".11"/>
+  <!-- Upper cyan indicator -->
+  <path d="M30.5 20.9 C34.4 20.6 37.2 23.4 37.4 26.7            C37.5 30.5 34.6 33 31 32.9            C27.4 32.7 24.8 30.1 25 26.7            C25 23.5 27.3 21 30.5 20.9Z" fill="#50E6FF" stroke="#145B7A" stroke-width="1.7"/>
 
-    <!-- ORIGINAL FILLED cyan roof trim -->
-    <path d="M6.481,14.1a.438.438,0,0,1-.4-.62L7.491,10.4a.439.439,0,0,1,.191-.2l3.854-2.073a.438.438,0,0,1,.42,0L15.677,10.2a.434.434,0,0,1,.178.187L17.4,13.465a.437.437,0,1,1-.782.392L15.133,10.9l-3.394-1.89L8.226,10.9,6.879,13.843A.438.438,0,0,1,6.481,14.1Z" fill="#50e6ff" stroke="#2bbfe2" stroke-width=".07"/>
+  <!-- Lower dark server slot -->
+  <path d="M16.1 50.3 Q16.4 45.7 21.7 45.6            L58.8 45.6 Q64.3 45.8 64.4 50.8            L64.4 56.2 Q64.2 60.8 58.8 60.9            L21.5 60.8 Q16.2 60.7 16.1 55.7Z" fill="#003067" stroke="#263747" stroke-width="2.5" stroke-linejoin="round"/>
 
-    <!-- Window -->
-    <rect x="10.742" y="11.41" width="1.787" height="1.871" rx="0.285" fill="#005ba1" stroke="#00467f" stroke-width=".07"/>
+  <!-- Lower cyan indicator -->
+  <path d="M30.7 47.4 C34.3 47.3 37.3 50 37.3 53.2            C37.5 57.1 34.7 59.6 31 59.6            C27.5 59.5 24.9 56.8 24.9 53.3            C25 50 27.5 47.5 30.7 47.4Z" fill="#50E6FF" stroke="#145B7A" stroke-width="1.7"/>
 
-    <!-- Door and cross-brace details -->
-    <g fill="#005ba1" stroke="#00467f" stroke-width=".06">
-      <path d="M11.635,15.94l1.728-1.157a.283.283,0,0,0-.16-.049H10.067a.285.285,0,0,0-.16.049Z"/>
-      <polygon points="13.488 17.18 13.488 15.053 11.899 16.117 13.488 17.18"/>
-      <polygon points="11.371 16.117 9.782 15.053 9.782 17.18 11.371 16.117"/>
-      <polygon points="13.475 17.5 13.488 17.5 13.488 17.479 13.475 17.5"/>
-      <polygon points="9.782 17.479 9.782 17.5 9.796 17.5 9.782 17.479"/>
-      <polygon points="9.833 17.5 13.437 17.5 11.635 16.294 9.833 17.5"/>
-    </g>
+  <!-- Small uneven rack marker contours -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M10.5 15 Q10 40 10.4 65" stroke="#D7D7D7" stroke-width="1.7"/>
+    <path d="M11 81 L10.8 106" stroke="#747474" stroke-width="1.6"/>
+    <path d="M19 10.4 Q42 10 63 10.5" stroke="#E0E0E0" stroke-width="1.7"/>
+  </g>
+
+  <!-- Front building: simple barn shape, not an isometric cube -->
+  <path d="M52 75.8            L82.8 63.4            L105.1 73.6            L115.4 94.4            L115.5 123.3            Q115.4 125.5 113 125.4            L52.5 125.4            Q50.2 125.4 50.1 123            L50.1 94.3Z" fill="#3C91E5" stroke="#17476C" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Flat lower facade -->
+  <path d="M52.1 95.3 L113.4 95.4            L113.4 122.9 L52.2 123Z" fill="#0078D4"/>
+
+  <!-- Barn pitched-roof cyan contour -->
+  <path d="M45.3 101.2            L55.1 79.8            Q55.4 79.2 56.5 78.5            L82.2 64.7            Q83 64.3 84 64.8            L109.8 79.3            Q110.6 79.7 111 80.6            L121.6 101" fill="none" stroke="#183F60" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M45.3 100.9            L55.8 80.3            L83.1 65.5            L109.8 80.4            L121.4 100.9" fill="none" stroke="#50E6FF" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small square window below roof peak -->
+  <path d="M77.4 81.8            Q77.4 80.5 78.9 80.5            L89.7 80.6            Q91.1 80.6 91.1 82.1            L91 93.5            Q90.9 94.8 89.6 94.8            L78.8 94.8            Q77.5 94.8 77.5 93.4Z" fill="#005BA1" stroke="#173D60" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Bottom network/envelope symbol -->
+  <path d="M70 107.8            Q70 105.7 72.1 105.7            L94.4 105.7            Q96.4 105.7 96.4 107.8            L96.3 123.8            L70.1 123.8Z" fill="#005BA1" stroke="#173D60" stroke-width="2.3" stroke-linejoin="round"/>
+
+  <path d="M71.2 107.3 L83.2 115.8 L95.2 107.3" fill="none" stroke="#173D60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M71.5 122.3 L80.7 115.1            M94.7 122.3 L85.6 115.2" fill="none" stroke="#173D60" stroke-width="1.9" stroke-linecap="round"/>
+
+  <!-- Restrained hand-drawn marker accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 56.6 L113.3 52.5"/>
+    <path d="M116.2 61.6 L120 59.3"/>
   </g>
 </svg>

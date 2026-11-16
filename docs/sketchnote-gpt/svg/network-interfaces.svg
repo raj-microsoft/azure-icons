@@ -1,43 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Network Interfaces (sketch)</title>
-  <defs>
-    <linearGradient id="networkGreen" x1="9.01" y1="16.5" x2="9.01" y2="1.5" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5e9641"/>
-      <stop offset=".34" stop-color="#6baa42"/>
-      <stop offset=".67" stop-color="#73b743"/>
-      <stop offset="1" stop-color="#76bb43"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Network Interfaces (sketch)</title>
+  
+  <desc>Green network interface board with one dark left connector, two yellow right connectors, three original circuit routes, one upper controller, one white indicator and three lower vertical components. Flat colors and uneven dark marker outlines.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Original right-side yellow connectors -->
-    <path d="M15.89 2.91h1.27a.34.34 0 0 1 .34.34v3.5a.34.34 0 0 1-.34.34h-1.27Z" fill="#ffca00" stroke="#dba900" stroke-width=".07"/>
-    <path d="M15.89 9h1.27a.34.34 0 0 1 .34.34v5.86a.34.34 0 0 1-.34.34h-1.27Z" fill="#ffca00" stroke="#dba900" stroke-width=".07"/>
+  <!-- Right-side yellow connectors, behind board -->
+  <g stroke="#594713" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M111 21.2 L121.5 21.4 Q124 21.3 124 24 L124.1 48.1 Q124 50.4 121.5 50.3 L111 50.2Z" fill="#FFCA00"/>
+    <path d="M111 64.3 L121.5 64.2 Q124 64.4 124 67 L124.1 106.6 Q124 109.1 121.5 109 L111 109Z" fill="#FFCA00"/>
+  </g>
 
-    <!-- Main network interface body -->
-    <rect x="2.13" y="1.5" width="13.76" height="15" rx=".69" fill="url(#networkGreen)" stroke="#477d36" stroke-width=".12"/>
+  <!-- Left-side dark connector -->
+  <path d="M17.2 40.2 L7.1 40.4 Q4 40.4 4 43.5 L4 83.5 Q4 86.4 7 86.4 L17.2 86.3Z" fill="#3B3B3B" stroke="#242424" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- Original left internal circuit route -->
-    <path d="M5.9 12.9h-.71a.2.2 0 0 1-.19-.21V4.34a.19.19 0 0 1 .19-.2h1.93a.19.19 0 0 1 .19.2.2.2 0 0 1-.19.21H5.38v7.93h.52a.2.2 0 0 1 .19.21.21.21 0 0 1-.19.21Z" fill="#b4ec36"/>
+  <!-- Main green interface board -->
+  <path d="M20 10.4 Q20.2 6.5 24.1 6.5            L107.8 6.7 Q112 6.6 112 10.8            L112 117.1 Q112 121.4 107.8 121.4            L24 121.5 Q20 121.4 20 117.3Z" fill="#73B743" stroke="#355724" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <path d="M6 13.92H4.4a.2.2 0 0 1-.19-.21L4.08 3.38a.2.2 0 0 1 .06-.15.16.16 0 0 1 .13-.06h2.85v.41H4.47l.12 9.92H6Z" fill="#b4ec36"/>
+  <!-- Flat green lower shading -->
+  <path d="M23 81 L109 81 L109 117.2 Q109 118.5 107.4 118.5            L24.6 118.5 Q23 118.5 23 117Z" fill="#6BAA42"/>
 
-    <!-- Original right internal circuit route -->
-    <path d="M12 13h-1.59a.19.19 0 0 1-.14-.07.18.18 0 0 1-.06-.14V7.9a.19.19 0 0 1 .19-.2l.91 0 0-2.25h.38l0 2.44a.2.2 0 0 1-.18.21l-.91 0v4.42H12Z" fill="#b4ec36"/>
+  <!-- Board's hand-drawn outer contour -->
+  <path d="M25.1 13.2 Q41 12.6 57 13.1            M107 17 Q107.4 41 107 59            M25 94 L25.2 114.5" fill="none" stroke="#9BCB65" stroke-width="1.6" stroke-linecap="round"/>
 
-    <!-- Original upper dark-green component -->
-    <rect x="7.07" y="2.29" width="6.14" height="3.11" rx=".26" fill="#365615" stroke="#294710" stroke-width=".06"/>
+  <!-- Original circuit route 1: left nested paths -->
+  <g fill="none" stroke="#B4EC36" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50.8 91.7 L46.9 91.7              Q45.6 91.7 45.6 90.2              L45.6 31.1              Q45.6 29.7 47 29.7              L59.5 29.7" stroke-width="3.2"/>
 
-    <!-- Original three lower components: exact positions and orientation -->
-    <rect x="5.86" y="12.69" width="4.9" height="1.09" rx=".26" transform="translate(21.54 4.93) rotate(90)" fill="#365615"/>
+    <path d="M51.4 99.1 L41.1 99.1              L40.3 24.2              Q40.3 22.4 42 22.4              L59.5 22.4" stroke-width="3"/>
 
-    <rect x="3.99" y="12.71" width="4.9" height="1.09" rx=".26" transform="translate(19.7 6.82) rotate(90)" fill="#365615"/>
+    <!-- Original circuit route 2: right side -->
+    <path d="M86.8 37.8 L86.8 54.8              L80.4 54.8              Q78.9 54.8 78.9 56.4              L78.9 90.5              Q78.9 91.7 80.2 91.7              L89.4 91.7" stroke-width="3.1"/>
+  </g>
 
-    <rect x="9.98" y="12.71" width="4.9" height="1.09" rx=".26" transform="translate(25.68 .83) rotate(90)" fill="#f2f2f2"/>
+  <!-- Upper dark-green controller: original position and size -->
+  <path d="M55.6 13.5            L97.4 13.6 Q99.3 13.6 99.3 15.5            L99.3 33.8 Q99.2 35.6 97.4 35.6            L55.5 35.5 Q53.6 35.5 53.6 33.7            L53.6 15.3 Q53.7 13.5 55.6 13.5Z" fill="#365615" stroke="#253C18" stroke-width="2.9" stroke-linejoin="round"/>
 
-    <!-- Original central circular component -->
-    <ellipse cx="8.11" cy="8.06" rx="1.04" ry="1.12" fill="#f2f2f2" stroke="#d8e5d1" stroke-width=".06"/>
+  <!-- White circular indicator: no symbols -->
+  <path d="M61 49.7            C65.3 49.5 68.8 53.3 68.8 57.8            C68.9 62.4 65.4 66.4 61 66.5            C56.4 66.6 53.4 62.8 53.3 58.2            C53.2 53.6 56.5 49.8 61 49.7Z" fill="#F2F2F2" stroke="#354D2B" stroke-width="2.6"/>
 
-    <!-- Original left external dark connector -->
-    <path d="M.5 5.7h1.27a.34.34 0 0 1 .34.34v5.86a.34.34 0 0 1-.34.34H.5Z" transform="translate(2.61 17.95) rotate(180)" fill="#3b3b3b" stroke="#252525" stroke-width=".07"/>
+  <!-- Three vertical lower components -->
+  <path d="M52.5 76.5            L57.5 76.4 Q59.1 76.4 59.1 78            L59.2 109.7 Q59.2 111.2 57.6 111.2            L52.6 111.2 Q51.1 111.2 51.1 109.7            L51 78 Q51 76.5 52.5 76.5Z" fill="#365615" stroke="#253C18" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M65.7 76.4            L70.7 76.5 Q72.3 76.5 72.3 78.1            L72.2 109.6 Q72.2 111.1 70.7 111.2            L65.7 111.1 Q64.2 111.1 64.2 109.6            L64.2 78 Q64.2 76.5 65.7 76.4Z" fill="#365615" stroke="#253C18" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M94.6 76.5            L99.5 76.5 Q101.1 76.5 101.1 78            L101.1 109.7 Q101.1 111.2 99.5 111.2            L94.6 111.2 Q93 111.1 93 109.6            L93 78 Q93 76.5 94.6 76.5Z" fill="#F2F2F2" stroke="#354D2B" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Tiny intentional marker retraces -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M56.2 16.6 L70 16.4" stroke="#608331" stroke-width="1.3"/>
+    <path d="M23.5 24.4 L23.6 44" stroke="#426D27" stroke-width="1.4"/>
+    <path d="M108.7 84 L108.6 102" stroke="#426D27" stroke-width="1.4"/>
+  </g>
+
+  <!-- Two restrained yellow sketchnote ticks -->
+  <g fill="none" stroke="#FFCA00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9.4 28.2 L13.1 25.5"/>
+    <path d="M12.4 33.8 L16.4 32.7"/>
   </g>
 </svg>
