@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Storage Queue (sketch)</title><defs><linearGradient id="queuePurple" x1="9" y1="15.799" x2="9" y2="5.316" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a67af4"/><stop offset=".775" stop-color="#b796f9"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round"><path d="M.544 5.316H17.456V15.234a.565.565 0 0 1-.565.565H1.109a.565.565 0 0 1-.565-.565Z" fill="url(#queuePurple)" stroke="#9c6ce9" stroke-width=".035"/><path d="M1.112 2.2H16.888a.565.565 0 0 1 .565.565v2.55H.547v-2.55a.565.565 0 0 1 .565-.565Z" fill="#773adc" stroke="#6830c4" stroke-width=".035"/><rect x="2.625" y="6.435" width="3.683" height="7.933" rx=".274" fill="#fff"/><rect x="7.158" y="6.435" width="3.683" height="7.933" rx=".274" fill="#fff" opacity=".75"/><rect x="11.692" y="6.435" width="3.683" height="7.933" rx=".274" fill="#fff" opacity=".5"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round"><title>Storage Queue (sketch)</title>
+
+  
+  <desc>Purple Azure storage queue container with a header and three separate white vertical queue message panels.</desc>
+
+  <!-- Main queue container -->
+  <path d="     M9.5 39     Q9 36 13 36     L115 36     Q119 36 118.8 40     L119 108     Q119 113 114 113     L14 113     Q9 113 9 108     Z" fill="#B796F9" stroke-width="3.8"/>
+
+  <!-- Header strip -->
+  <path d="     M13 15.5     Q9 15 9 20     L9 37     Q9 40.5 13 40.5     L115 40.5     Q119 40 119 37     L119 20     Q119 15 115 15     Z" fill="#773ADC" stroke-width="3.5"/>
+
+  <!-- Header subtle hand-drawn detail -->
+  <path d="     M18 25     Q39 22 59 25     M78 25 Q92 23 107 25" stroke="#D9C3FF" stroke-width="2.2"/>
+
+  <!-- First queue message panel -->
+  <path d="     M21.5 47.5     Q21 46 23 46     L44 46     Q46.5 46 46.5 48.5     L46 99     Q46 101 44 101     L23 101     Q21 101 21 99     Z" fill="#FFFFFF" stroke-width="2.8"/>
+
+  <!-- Second queue message panel -->
+  <path d="     M52 47.5     Q52 46 54 46     L75 46     Q77 46 77 48     L77 99     Q77 101 75 101     L54 101     Q52 101 52 99     Z" fill="#FFFFFF" fill-opacity=".75" stroke-width="2.8"/>
+
+  <!-- Third queue message panel -->
+  <path d="     M83 47.5     Q83 46 85 46     L106 46     Q108 46 108 48     L108 99     Q108 101 106 101     L85 101     Q83 101 83 99     Z" fill="#FFFFFF" fill-opacity=".5" stroke-width="2.8"/>
+
+</svg>

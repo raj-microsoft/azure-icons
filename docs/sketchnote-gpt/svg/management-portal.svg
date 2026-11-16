@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Management Portal (sketch)</title><defs><linearGradient id="a" x1="9" y1="15.427" x2="9" y2="5.973" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#32bedd"/><stop offset=".175" stop-color="#32caea"/><stop offset=".41" stop-color="#32d2f2"/><stop offset=".775" stop-color="#32d4f5"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M1 5.973H17V14.893a.535.535 0 0 1-.535.535H1.535A.535.535 0 0 1 1 14.893Z" fill="url(#a)" stroke="#20a9ca" stroke-width=".035" stroke-linejoin="round"/><path d="M1.538 2.563H16.462A.535.535 0 0 1 17 3.1v2.873H1V3.1a.535.535 0 0 1 .538-.537Z" fill="#198ab3" stroke="#147b9e" stroke-width=".035" stroke-linejoin="round"/><path d="M1 5.973H5.194V15.428H1.536A.532.532 0 0 1 1 14.895Z" fill="#9cebff" stroke="#69cce8" stroke-width=".025" stroke-linejoin="round"/><path d="M5.194 13.356H17V14.9a.532.532 0 0 1-.532.532H5.194Z" fill="#32bedd" stroke="#22a8c8" stroke-width=".025" stroke-linejoin="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round"><title>Management Portal (sketch)</title>
+
+  
+  <desc>Azure management portal represented by a cyan rectangular window, teal header, pale cyan left sidebar and bottom status pane. The workspace remains blank.</desc>
+
+  <!-- Main portal window -->
+  <path d="     M14 18     Q14 15 18 15     L110 15     Q115 15 115 20     L115 103     Q115 108 110 108     L18 108     Q13 108 13 103     L13 21     Q13 19 14 18Z" fill="#32D2F2" stroke-width="3.8"/>
+
+  <!-- Management header -->
+  <path d="     M18 15     L110 15     Q115 15 115 20     L115 43     L13 43     L13 21     Q13 16 18 15Z" fill="#198AB3" stroke-width="3.5"/>
+
+  <!-- Left navigation sidebar -->
+  <path d="     M13.5 43     L40.5 43     L40.5 107.5     L18 107.5     Q13 107.5 13 103     Z" fill="#9CEBFF" stroke-width="3"/>
+
+  <!-- Blank main workspace -->
+  <path d="     M40.5 43     L115 43     L115 94     L40.5 94     Z" fill="#32D2F2" stroke-width="2.8"/>
+
+  <!-- Blank bottom status pane -->
+  <path d="     M40.5 94     L115 94     L115 103     Q115 108 110 108     L40.5 108     Z" fill="#32BEDD" stroke-width="2.8"/>
+
+</svg>

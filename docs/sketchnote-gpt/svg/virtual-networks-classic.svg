@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Networks (Classic) (sketch)</title><defs><linearGradient id="dot1" x1="10.7" y1="11.32" x2="10.7" y2="9" gradientTransform="translate(2.03 -1.15) rotate(-0.08)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset=".82" stop-color="#5ea0ef"/></linearGradient><linearGradient id="dot2" x1="6.99" y1="11.32" x2="7" y2="9" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset=".82" stop-color="#5ea0ef"/></linearGradient><linearGradient id="dot3" x1="3.29" y1="11.32" x2="3.3" y2="9" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset=".82" stop-color="#5ea0ef"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><circle cx="12.74" cy="8.99" r="1.16" fill="url(#dot1)"/><circle cx="9.04" cy="9" r="1.16" fill="url(#dot2)"/><circle cx="5.34" cy="9" r="1.16" fill="url(#dot3)"/><path d="M2.61,7.28h.94a.3.3,0,0,1,.3.3v6.94a.6.6,0,0,1-.6.6H2.31a0,0,0,0,1,0,0V7.58A.3.3,0,0,1,2.61,7.28Z" transform="translate(13.18 16.93) rotate(134.92)" fill="#50e6ff" stroke="#35c9ed" stroke-width=".055"/><path d="M2.56,2.91H3.5a.3.3,0,0,1,.3.3v7.43a0,0,0,0,1,0,0H2.86a.6.6,0,0,1-.6-.6V3.21a.3.3,0,0,1,.3-.3Z" transform="translate(5.66 -0.16) rotate(44.92)" fill="#1490df" stroke="#0878c4" stroke-width=".055"/><path d="M14.15,7.28h.94a.6.6,0,0,1,.6.6v6.94a.3.3,0,0,1-.3.3h-.94a.3.3,0,0,1-.3-.3V7.28a0,0,0,0,1,0,0Z" transform="translate(12.32 -7.28) rotate(45.08)" fill="#50e6ff" stroke="#35c9ed" stroke-width=".055"/><path d="M14.81,2.91h.94a0,0,0,0,1,0,0v7.43a.3.3,0,0,1-.3.3H14.5a.3.3,0,0,1-.3-.3V3.51a.6.6,0,0,1,.6-.6Z" transform="translate(30.36 0.99) rotate(135.08)" fill="#1490df" stroke="#0878c4" stroke-width=".055"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round"><title>Virtual Networks (Classic) (sketch)</title>
+
+  
+
+  <!-- Left open chevron -->
+  <path d="M35 18            Q32 17 30 21            L7 61            Q5 64 7 67            L31 108            Q33 112 36 109            L43 105            Q46 103 43 99            L24 64            L43 29            Q46 25 42 22 Z" fill="#1490DF" stroke-width="3.8"/>
+
+  <!-- Right open chevron -->
+  <path d="M93 18            Q96 17 98 21            L121 61            Q123 64 121 67            L97 108            Q95 112 92 109            L85 105            Q82 103 85 99            L104 64            L85 29            Q82 25 86 22 Z" fill="#50E6FF" stroke-width="3.8"/>
+
+  <!-- Three separate network dots -->
+  <path d="M42 57            C46 57 49 60 49 64            C49 68 46 71 42 71            C38 71 35 68 35 64            C35 60 38 57 42 57 Z" fill="#5EA0EF" stroke-width="3"/>
+
+  <path d="M64 57            C68 57 71 60 71 64            C71 68 68 71 64 71            C60 71 57 68 57 64            C57 60 60 57 64 57 Z" fill="#5EA0EF" stroke-width="3"/>
+
+  <path d="M86 57            C90 57 93 60 93 64            C93 68 90 71 86 71            C82 71 79 68 79 64            C79 60 82 57 86 57 Z" fill="#5EA0EF" stroke-width="3"/>
+
+</svg>

@@ -1,1 +1,46 @@
-<svg id="a18b905d-93c6-4fee-ba5b-699e2562e00f" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Traffic Manager Profiles (sketch)</title><defs><linearGradient id="b02c7a20-01da-4daf-91b9-e11528418dfc" x1="9" y1="17.5" x2="9" y2="0.5" gradientUnits="userSpaceOnUse"><stop offset="0.16" stop-color="#6f4bb2"/><stop offset="0.32" stop-color="#7450b5"/><stop offset="0.51" stop-color="#825dbf"/><stop offset="0.72" stop-color="#9a72ce"/><stop offset="0.94" stop-color="#bb90e4"/><stop offset="1" stop-color="#c69aeb"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><path stroke="#7450b5" stroke-width=".035" d="M12.29.5H5.71a.56.56,0,0,0-.4.17L.67,5.31a.56.56,0,0,0-.17.4v6.58a.56.56,0,0,0,.17.4l4.64,4.64a.56.56,0,0,0,.4.17h6.58a.56.56,0,0,0,.4-.17l4.64-4.64a.56.56,0,0,0,.17-.4V5.71a.56.56,0,0,0-.17-.4L12.69.67A.56.56,0,0,0,12.29.5Z" fill="url(#b02c7a20-01da-4daf-91b9-e11528418dfc)"/><path d="M6,7.64l-.07.07-1,1a.14.14,0,0,0,.1.23h3.8a.14.14,0,0,0,.14-.14V5.05A.14.14,0,0,0,8.64,5l-1,1-.07.07a.15.15,0,0,1-.2,0L4.8,3.54,3.43,4.92,6,7.44A.15.15,0,0,1,6,7.64Z" fill="#f2f2f2"/><path stroke="#ffffff" stroke-width=".018" d="M16.18,5.91,12.09,1.82a.28.28,0,0,0-.2-.08H6.11a.28.28,0,0,0-.2.08L1.82,5.91a.28.28,0,0,0-.08.2v5.78a.3.3,0,0,0,.08.2l4.09,4.09a.28.28,0,0,0,.2.08h5.78a.28.28,0,0,0,.2-.08l4.09-4.09a.3.3,0,0,0,.08-.2V6.11A.28.28,0,0,0,16.18,5.91Zm-.36,5.45L12.67,8.21l.76-.77a.16.16,0,0,0,0-.24.16.16,0,0,0-.11,0l-2.71-.07a.17.17,0,0,0-.17.16h0L10.51,10a.16.16,0,0,0,.17.16h0a.13.13,0,0,0,.12,0l.85-.84L15,12.62l-2.54,2.54L9,11.71,9.8,11a.16.16,0,0,0,0-.24.16.16,0,0,0-.11-.05L7,10.59a.17.17,0,0,0-.17.16h0l.07,2.71a.16.16,0,0,0,.17.16h0a.17.17,0,0,0,.12-.05L8,12.74l3.08,3.08H6.17l-4-4V6.17L3.43,4.92,4.8,3.54,6.17,2.17h5.66l4,4Z" fill="#f2f2f2"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Traffic Manager Profiles (sketch)</title>
+
+  
+  <desc>Purple hexagonal traffic manager profile with white branching directional arrows and no central network node.</desc>
+
+  <!-- Outer hexagonal profile -->
+  <path d="M46 9            Q48 7 51 7            L78 7            Q81 7 83 9            L119 45            Q121 47 121 50            L121 78            Q121 81 119 83            L83 119            Q81 121 78 121            L50 121            Q47 121 45 119            L9 83            Q7 81 7 78            L7 50            Q7 47 9 45Z" fill="#9A72CE" stroke="#203746" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Inner hexagonal border -->
+  <path d="M49 17            L79 17            L111 49            L111 79            L79 111            L49 111            L17 79            L17 49Z" stroke="#E8D6FF" stroke-width="2.5" opacity="0.85"/>
+
+  <!-- Main branching directional arrow -->
+  <g fill="#F2F2F2" stroke="#203746" stroke-width="2.2" stroke-linejoin="round">
+
+    <!-- Upper-left incoming direction -->
+    <path d="M36 38 L57 59 L57 35              L49 35 L57 25 L65 35              L57 35"/>
+
+    <!-- Right-pointing branch -->
+    <path d="M57 59 L82 59              L82 51 L96 59 L82 67              L82 59"/>
+
+    <!-- Downward branch -->
+    <path d="M57 59 L57 88              L49 88 L57 102 L65 88              L57 88"/>
+
+    <!-- Lower-right diagonal branch -->
+    <path d="M57 59 L91 91              L84 84 L99 99 L83 99              L91 91"/>
+
+  </g>
+
+  <!-- White directional branch strokes -->
+  <g stroke="#F2F2F2" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 38 L57 59"/>
+    <path d="M57 59 L57 35"/>
+    <path d="M57 59 L82 59"/>
+    <path d="M57 59 L57 88"/>
+    <path d="M57 59 L91 91"/>
+  </g>
+
+  <!-- Direction arrowheads -->
+  <g fill="#F2F2F2" stroke="#203746" stroke-width="2">
+    <path d="M49 35 L57 25 L65 35Z"/>
+    <path d="M82 51 L96 59 L82 67Z"/>
+    <path d="M49 88 L65 88 L57 102Z"/>
+    <path d="M83 99 L99 99 L91 91Z"/>
+  </g>
+
+</svg>

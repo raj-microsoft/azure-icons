@@ -1,1 +1,26 @@
-<svg id="ad094621-3a1a-48a5-aaf9-2376221c6085" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Private Link Services (sketch)</title><defs><linearGradient id="ea0182c4-a05a-47e0-8d38-dceaa08cffc1" x1="7.688" y1="-26.771" x2="7.688" y2="-21.482" gradientTransform="translate(0 32)" gradientUnits="userSpaceOnUse"><stop offset="0.23" stop-color="#5ea0ef"/><stop offset="0.32" stop-color="#5b9fee"/><stop offset="0.48" stop-color="#509aeb"/><stop offset="0.57" stop-color="#3f92e6"/><stop offset="0.75" stop-color="#2688df"/><stop offset="0.93" stop-color="#127fd9"/></linearGradient><linearGradient id="b2374fe1-82b4-4770-97f1-de978b276dd6" x1="10.312" y1="-24.568" x2="10.312" y2="-19.279" gradientTransform="translate(0 32)" gradientUnits="userSpaceOnUse"><stop offset="0.2" stop-color="#50e6ff"/><stop offset="0.65" stop-color="#32bedd"/><stop offset="1" stop-color="#198ab3"/></linearGradient><linearGradient id="f85376f9-8ccb-4ef0-ab3e-33ae7fcb4e4a" x1="9" y1="5.38" x2="9" gradientUnits="userSpaceOnUse"><stop offset="0.199" stop-color="#005ba1"/><stop offset="1" stop-color="#0078d4"/></linearGradient></defs><g transform="scale(7.111111)"><g><g><g><path d="M8.736,5.229H6.62a2.644,2.644,0,0,0-.41,5.253A2.824,2.824,0,0,1,6.237,9.5,1.67,1.67,0,0,1,6.62,6.2H8.736a1.675,1.675,0,0,1,0,3.35H8.154a1.275,1.275,0,0,0-.124.529,1.234,1.234,0,0,0,.084.441h.622a2.645,2.645,0,0,0,0-5.289Z" fill="url(#ea0182c4-a05a-47e0-8d38-dceaa08cffc1)"/><path d="M11.79,7.468a3.042,3.042,0,0,1,.031.405,2.722,2.722,0,0,1-.058.577,1.671,1.671,0,0,1-.383,3.3H9.264a1.675,1.675,0,0,1,0-3.35h.582a1.195,1.195,0,0,0,.04-.97H9.264a2.645,2.645,0,0,0,0,5.289H11.38a2.644,2.644,0,0,0,.41-5.253Z" fill="url(#b2374fe1-82b4-4770-97f1-de978b276dd6)"/></g><path d="M9-.025,1.15,4.465v8.97L9,17.975l7.85-4.49v-9Zm6.4,12.57L9,16.245,2.6,12.584V5.355L9,1.655l6.4,3.71Z" fill="#0078d4" stroke="#0069bd" stroke-width=".035" stroke-linejoin="round"/></g><polygon points="9 0 9 0 1.15 4.49 2.6 5.38 9 1.68 9 1.68 15.4 5.38 16.85 4.49 9 0" fill="url(#f85376f9-8ccb-4ef0-ab3e-33ae7fcb4e4a)"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Private Link Services (sketch)</title>
+
+  
+  <desc>Blue hexagonal service boundary containing two interlocking open spiral-shaped links, with distinct Azure-blue and cyan fills.</desc>
+
+  <!-- Outer hexagonal service boundary -->
+  <path d="M64 6            Q66 6 69 8            L117 35            Q120 37 120 41            L120 89            Q120 92 117 94            L68 122            Q64 124 61 122            L11 94            Q8 92 8 88            L8 40            Q8 37 11 35Z" stroke="#203746" stroke-width="9"/>
+
+  <path d="M64 6            Q66 6 69 8            L117 35            Q120 37 120 41            L120 89            Q120 92 117 94            L68 122            Q64 124 61 122            L11 94            Q8 92 8 88            L8 40            Q8 37 11 35Z" stroke="#0078D4" stroke-width="5.5"/>
+
+  <!-- First open spiral link: Azure blue -->
+  <path d="M62 38            L48 38            C35 38 27 46 27 57            C27 68 35 76 48 76            L62 76            C73 76 81 69 81 59            C81 52 76 48 69 48            L62 48            C56 48 52 52 52 57            C52 62 56 66 62 66            L67 66" fill="none" stroke="#203746" stroke-width="13"/>
+
+  <path d="M62 38            L48 38            C35 38 27 46 27 57            C27 68 35 76 48 76            L62 76            C73 76 81 69 81 59            C81 52 76 48 69 48            L62 48            C56 48 52 52 52 57            C52 62 56 66 62 66            L67 66" fill="none" stroke="#3F92E6" stroke-width="9"/>
+
+  <!-- Second open spiral link: cyan -->
+  <path d="M66 53            L80 53            C93 53 101 61 101 73            C101 84 93 92 80 92            L66 92            C55 92 47 85 47 75            C47 68 52 63 59 63            L66 63            C72 63 76 67 76 73            C76 78 72 82 66 82            L61 82" fill="none" stroke="#203746" stroke-width="13"/>
+
+  <path d="M66 53            L80 53            C93 53 101 61 101 73            C101 84 93 92 80 92            L66 92            C55 92 47 85 47 75            C47 68 52 63 59 63            L66 63            C72 63 76 67 76 73            C76 78 72 82 66 82            L61 82" fill="none" stroke="#32BEDD" stroke-width="9"/>
+
+  <!-- Small overlap definition -->
+  <path d="M56 52 Q61 49 67 53" stroke="#203746" stroke-width="3"/>
+
+  <path d="M61 78 Q66 81 72 77" stroke="#203746" stroke-width="3"/>
+
+</svg>
