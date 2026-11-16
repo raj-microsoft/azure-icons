@@ -1,1 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128"><title>Edge Management (sketch)</title><defs><linearGradient id="f471a08e-ef3a-4f8c-a080-5da9199c21f4" x1="8.9" y1="1.31" x2="8.9" y2="12.11" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5ea0ef"/><stop offset="0.18" stop-color="#559cec"/><stop offset="0.47" stop-color="#3c91e5"/><stop offset="0.84" stop-color="#1380da"/><stop offset="1" stop-color="#0078d4"/></linearGradient><linearGradient id="b6f9179b-e6d9-447e-a08b-5190cf63e24d" x1="8.88" y1="16.72" x2="8.88" y2="13.85" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset="0.16" stop-color="#1380da"/><stop offset="0.53" stop-color="#3c91e5"/><stop offset="0.82" stop-color="#559cec"/><stop offset="1" stop-color="#5ea0ef"/></linearGradient></defs><g transform="scale(7.111111)"><g id="bc5f08d8-e18b-48db-a908-1aa1ac861315" data-name="Layer 1"><path d="M16.4,8.7a3.39,3.39,0,0,0-2.92-3.29A4.27,4.27,0,0,0,9.1,1.28,4.37,4.37,0,0,0,4.94,4.16,4.08,4.08,0,0,0,1.4,8.09a4.12,4.12,0,0,0,4.23,4l.37,0h6.84L13,12A3.44,3.44,0,0,0,16.4,8.7Z" fill="url(#f471a08e-ef3a-4f8c-a080-5da9199c21f4)" stroke="#176eae" stroke-width=".055" stroke-linejoin="round"/><path d="M13.21,12.7h-4v-5H8.61v5h-4a.3.3,0,0,0-.3.3v1.17a.3.3,0,0,0,.3.3.29.29,0,0,0,.29-.3v-.88H8.61v.61H9.2v-.61h3.72v1.09a.3.3,0,0,0,.29.3.31.31,0,0,0,.3-.3V13A.3.3,0,0,0,13.21,12.7Z" fill="#949494" stroke="#777777" stroke-width=".045" stroke-linejoin="round"/><path d="M14.23,16.72H12.15a.36.36,0,0,1-.37-.37V14.22a.37.37,0,0,1,.37-.37h2.08a.38.38,0,0,1,.37.37v2.13A.37.37,0,0,1,14.23,16.72Zm-3.94-.37V14.22a.38.38,0,0,0-.37-.37H7.84a.37.37,0,0,0-.37.37v2.13a.36.36,0,0,0,.37.37H9.92A.37.37,0,0,0,10.29,16.35ZM6,16.35V14.22a.38.38,0,0,0-.37-.37H3.52a.38.38,0,0,0-.37.37v2.13a.37.37,0,0,0,.37.37H5.61A.37.37,0,0,0,6,16.35Z" fill="url(#b6f9179b-e6d9-447e-a08b-5190cf63e24d)" stroke="#126eae" stroke-width=".045" stroke-linejoin="round"/><path d="M12,6.6V5.91l-.1,0-.74-.24-.19-.47.37-.8-.48-.48-.1.05L10,4.28l-.48-.19-.3-.84H8.57l0,.1-.24.74-.47.19L7,3.9l-.48.49.05.09L7,5.17l-.2.47L5.92,6v.68l.09,0,.74.24.19.47-.37.8.48.48.1,0,.69-.35.47.19.3.83H9.3l0-.09.24-.74.47-.19.8.37.48-.48-.05-.1-.35-.69.19-.47Zm-3,1a1.33,1.33,0,1,1,1.32-1.33A1.32,1.32,0,0,1,8.94,7.6Z" fill="#fff"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Edge Management (sketch)</title>
+  
+  <desc id="desc">Azure-blue cloud with a modest white management gear and blue central opening, connected through a gray branching stem to three blank blue endpoint squares. Irregular charcoal marker outlines, flat fills and transparent background.</desc>
+
+  <!-- Azure-blue cloud: gently irregular hand-drawn silhouette -->
+  <path d="     M40.2 85.8     C28.5 87.7 18.1 81.1 13.1 72.1     Q9.4 66.2 10.2 59.6     C9.3 45.7 20.4 33.4 35.2 31.3     C40.4 17.7 52.6 9.3 66.8 9.4     Q78.9 8.6 88.3 17.2     C94.4 22.8 98.5 30.2 100.1 37.4     C111.7 39.1 119.3 48.3 120 60.5     Q121.3 72.1 112.4 79.9     C108 83.8 103.4 85.6 97 85.9     Q82.5 86.5 68.4 85.7     C58.6 86.4 48.7 85.6 40.2 85.8     Z" fill="#3c91e5" stroke="#203746" stroke-width="3.3"/>
+
+  <!-- Modest management gear: about 40% of cloud width -->
+  <!-- Outer gear spans approximately x43ΓÇô87, y28ΓÇô72 -->
+  <path d="     M61.5 28.3     Q64.7 27.9 68.1 28.4     L70.1 33.7     Q72.4 34.3 74.4 35.6     L79.4 33.3     Q82 35.3 84.3 38.1     L81.9 43     Q83.3 45 83.9 47.6     L89.1 49.5     Q89.5 52.7 88.9 56     L83.6 57.9     Q82.9 60.2 81.5 62.1     L83.8 67     Q81.5 69.8 78.7 71.6     L73.9 69.2     Q71.8 70.4 69.5 71     L67.5 76.1     Q64.1 76.5 61 75.9     L59.2 70.7     Q56.8 70 54.9 68.7     L50 71.1     Q47.4 69 45.3 66.2     L47.7 61.4     Q46.3 59.4 45.8 57     L40.5 55.1     Q40.1 51.8 40.7 48.6     L46 46.7     Q46.6 44.3 48 42.4     L45.8 37.5     Q48 34.8 50.7 32.8     L55.6 35.1     Q57.6 33.9 59.8 33.4     Z" fill="#ffffff" stroke="#203746" stroke-width="2.5"/>
+
+  <!-- Gear opening: blue cloud visible through central hole -->
+  <path d="     M64.9 43.1     C70.5 42.7 75.1 47.1 75.3 52.1     Q75.5 58.3 69.9 61.4     C64.9 64.1 58.3 61.5 56.3 56.1     Q54.6 51.5 57.9 46.8     C59.5 44.6 62 43.3 64.9 43.1     Z" fill="#3c91e5" stroke="#203746" stroke-width="2.6"/>
+
+  <!-- Connector stem and three branches: dark marker under-stroke -->
+  <path d="     M64 86     Q64.4 92.3 64.1 98     Q47.4 97.6 30.2 98.1     Q27.8 98 28.1 101     L28 105     M64.1 98     Q63.8 101.6 64 105     M64.1 98     Q83.6 98.4 100 98     Q102.2 98 102 101     L102 105" stroke="#203746" stroke-width="5.5"/>
+
+  <!-- Gray connector ink -->
+  <path d="     M64 86     Q64.4 92.3 64.1 98     Q47.4 97.6 30.2 98.1     Q27.8 98 28.1 101     L28 105     M64.1 98     Q63.8 101.6 64 105     M64.1 98     Q83.6 98.4 100 98     Q102.2 98 102 101     L102 105" stroke="#949494" stroke-width="3.2"/>
+
+  <!-- Left blank endpoint square -->
+  <path d="     M22 103.4     Q19 103.1 19.2 106     C18.9 110.3 19.5 116.6 19.1 120.8     Q19 124.2 22.3 124     Q28.6 124.4 35 124.1     Q38.2 124 38 120.9     C37.6 115.7 38.3 110.6 37.9 106.1     Q38 103.2 35 103.3     Q28.2 102.9 22 103.4     Z" fill="#0078d4" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Center blank endpoint square -->
+  <path d="     M58 103.4     Q55 103.1 55.2 106     C54.9 110.4 55.5 116.5 55.1 120.8     Q55 124.2 58.3 124     Q64.6 124.4 71 124.1     Q74.2 124 74 120.9     C73.6 115.7 74.3 110.6 73.9 106.1     Q74 103.2 71 103.3     Q64.2 102.9 58 103.4     Z" fill="#0078d4" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Right blank endpoint square -->
+  <path d="     M94 103.4     Q91 103.1 91.2 106     C90.9 110.4 91.5 116.5 91.1 120.8     Q91 124.2 94.3 124     Q100.6 124.4 107 124.1     Q110.2 124 110 120.9     C109.6 115.7 110.3 110.6 109.9 106.1     Q110 103.2 107 103.3     Q100.2 102.9 94 103.4     Z" fill="#0078d4" stroke="#203746" stroke-width="2.8"/>
+
+  <!-- Sparse doubled-ink portions strictly following existing outlines -->
+  <g fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round" opacity=".63">
+
+    <!-- Cloud contour -->
+    <path d="M12.1 52.1 Q15.6 39.1 27.7 34" stroke-width="1.3"/>
+    <path d="M41.3 20.1 Q51.9 8.8 65 9.2" stroke-width="1.2"/>
+    <path d="M82.4 12.5 Q94.7 21.2 99.1 33" stroke-width="1.25"/>
+    <path d="M110.3 42.3 Q119.3 49.6 120.2 60" stroke-width="1.3"/>
+    <path d="M117.5 72.1 Q111.2 83.3 99.2 85.4" stroke-width="1.25"/>
+    <path d="M42.7 86.2 Q53.6 85.7 64.4 86.3" stroke-width="1.15"/>
+
+    <!-- Gear silhouette -->
+    <path d="M61.5 28.1 Q64.9 27.6 68.3 28.3" stroke-width="1.1"/>
+    <path d="M79.6 33.1 Q82.4 35.3 84.5 38.3" stroke-width="1.15"/>
+    <path d="M89 49.6 Q89.7 52.9 88.8 56.2" stroke-width="1.15"/>
+    <path d="M83.8 67.2 Q81.4 70.2 78.7 71.7" stroke-width="1.1"/>
+    <path d="M45.1 66.2 Q47.4 69.1 50.2 71.3" stroke-width="1.1"/>
+
+    <!-- Gear inner opening -->
+    <path d="M59.2 45.3 Q63.7 42.2 68.5 43.6" stroke-width="1.15"/>
+    <path d="M74.9 49.4 Q76.2 55.3 72.4 59.4" stroke-width="1.1"/>
+
+    <!-- Connector portions -->
+    <path d="M63.6 89.1 Q64.5 93.3 63.8 97" stroke-width="1.1"/>
+    <path d="M33.1 98.4 Q45.8 97.4 57.6 98.2" stroke-width="1.1"/>
+    <path d="M73.5 98.2 Q85.1 98.6 96.5 97.8" stroke-width="1.1"/>
+
+    <!-- Left square -->
+    <path d="M19 108 Q19.6 113.1 19 119" stroke-width="1.25"/>
+    <path d="M24.3 124.3 Q29.1 123.7 34.2 124.3" stroke-width="1.1"/>
+
+    <!-- Center square -->
+    <path d="M55.1 108 Q55.6 113.3 55 119" stroke-width="1.25"/>
+    <path d="M60.1 124.3 Q65.2 123.7 70.4 124.3" stroke-width="1.1"/>
+
+    <!-- Right square -->
+    <path d="M91.1 108 Q91.6 113.1 91 119" stroke-width="1.25"/>
+    <path d="M96.1 124.3 Q101.2 123.7 106.3 124.3" stroke-width="1.1"/>
+  </g>
+</svg>

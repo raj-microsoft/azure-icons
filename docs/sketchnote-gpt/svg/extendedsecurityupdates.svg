@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>ExtendedSecurityUpdates (sketch)</title><defs><linearGradient id="a0a9e6cf-445c-437a-a4cc-1cf69d025bb3" x1="7.981" y1="16.737" x2="7.981" y2="0.724" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset="1" stop-color="#5ea0ef"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><g id="f3812ff1-dab6-4c66-bd45-5c638c6b6a32"><path d="M15.125,8.153c0,4.7-5.674,8.475-6.909,9.241a.443.443,0,0,1-.47,0C6.512,16.628.837,12.848.837,8.153V2.5a.449.449,0,0,1,.439-.447C5.69,1.937,4.674,0,7.981,0s2.292,1.937,6.706,2.057a.449.449,0,0,1,.438.447Z" fill="#0078d4" stroke="#0069bd" stroke-width=".025"/><path d="M14.533,8.2c0,4.306-5.2,7.772-6.336,8.475a.408.408,0,0,1-.431,0C6.634,15.973,1.43,12.507,1.43,8.2V3.021a.411.411,0,0,1,.4-.41C5.88,2.5,4.948.724,7.981.724s2.1,1.777,6.15,1.887a.411.411,0,0,1,.4.41Z" fill="url(#a0a9e6cf-445c-437a-a4cc-1cf69d025bb3)"/><circle cx="11.946" cy="12.783" r="5.217" fill="#76bc2d"/><path d="M8.22,12.293a.184.184,0,0,1-.253-.065l-.221-.372a.185.185,0,0,1,.065-.253l1.751-1.039a.184.184,0,0,1,.253.065l1.039,1.751a.184.184,0,0,1-.065.253l-.372.221a.185.185,0,0,1-.253-.065l-.308-.52a2.356,2.356,0,0,0-.048.877,2.165,2.165,0,0,0,.289.831,2.127,2.127,0,0,0,.4.5,2.394,2.394,0,0,0,.521.362,2.3,2.3,0,0,0,.6.207,2.362,2.362,0,0,0,.476.043.182.182,0,0,1,.18.167l.084.9a3.291,3.291,0,0,1-.945-.051,3.468,3.468,0,0,1-.884-.306,3.351,3.351,0,0,1-.765-.534,3.331,3.331,0,0,1-1.03-2,3.351,3.351,0,0,1,.093-1.33Zm4.256-1.7a2.323,2.323,0,0,1,.6.21,2.378,2.378,0,0,1,.52.362,2.184,2.184,0,0,1,.692,1.326,2.356,2.356,0,0,1-.048.877l-.308-.52a.185.185,0,0,0-.253-.065l-.372.221a.184.184,0,0,0-.065.253l1.039,1.752a.185.185,0,0,0,.253.064l1.751-1.039a.184.184,0,0,0,.065-.253l-.221-.372a.185.185,0,0,0-.253-.064l-.606.359a3.346,3.346,0,0,0,.093-1.329,3.33,3.33,0,0,0-1.03-2,3.378,3.378,0,0,0-.765-.533,3.454,3.454,0,0,0-.884-.306,3.3,3.3,0,0,0-.755-.063.182.182,0,0,0-.172.2l.066.71a.182.182,0,0,0,.181.168A2.1,2.1,0,0,1,12.476,10.6Z" fill="#fff"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>ExtendedSecurityUpdates (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue protective shield with a blank interior and an overlapping green circular update badge containing two white rotating arrows.</desc>
+
+  <!-- Main protective shield -->
+  <path d="M56 5            C48 5 43 18 13 19            Q7 19 7 25            L7 58            C7 86 29 107 54 123            Q56 125 59 123            C84 107 106 86 106 58            L106 25            Q106 19 100 19            C70 18 65 5 56 5Z" fill="#0078D4" stroke="#243447" stroke-width="3.8"/>
+
+  <!-- Inner blue shield field, intentionally blank -->
+  <path d="M56 11            C47 14 40 24 17 25            L17 58            C17 81 35 101 56 115            C78 101 96 81 96 58            L96 25            C73 24 65 14 56 11Z" fill="#5EA0EF" stroke="#243447" stroke-width="2.5"/>
+
+  <!-- Green circular security update badge -->
+  <path d="M85 54            C105 53 121 69 122 89            C123 109 107 125 87 125            C67 126 51 110 51 90            C51 70 66 55 85 54Z" fill="#76BC2D" stroke="#243447" stroke-width="3.8"/>
+
+  <!-- Counterclockwise update arrow: lower-left sweep -->
+  <path d="M72 82            C69 87 68 93 70 99            C73 110 83 116 94 114" fill="none" stroke="#243447" stroke-width="7" stroke-linecap="round"/>
+
+  <path d="M72 82            C69 87 68 93 70 99            C73 110 83 116 94 114" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Upper-left arrowhead -->
+  <path d="M63 83            L74 76            L81 88" fill="none" stroke="#243447" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M63 83            L74 76            L81 88" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Clockwise update arrow: upper-right sweep -->
+  <path d="M80 68            C91 65 102 70 107 80            C111 87 111 95 107 102" fill="none" stroke="#243447" stroke-width="7" stroke-linecap="round"/>
+
+  <path d="M80 68            C91 65 102 70 107 80            C111 87 111 95 107 102" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Lower-right arrowhead -->
+  <path d="M98 97            L107 108            L117 98" fill="none" stroke="#243447" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M98 97            L107 108            L117 98" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

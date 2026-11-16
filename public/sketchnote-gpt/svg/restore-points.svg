@@ -1,39 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Restore Points (sketch)</title>
-  <defs>
-    <linearGradient id="field" x1="9.8894" y1="15.8246" x2="9.8894" y2="1.0402" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-    <linearGradient id="cubeRight" x1="13.0867" y1="10.3311" x2="10.2737" y2="8.4273" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32bedd"/>
-      <stop offset="1" stop-color="#9cebff"/>
-    </linearGradient>
-    <linearGradient id="cubeLeft" x1="8.277" y1="12.0802" x2="8.277" y2="6.4367" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32bedd"/>
-      <stop offset="1" stop-color="#9cebff"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Restore Points (sketch)</title>
+  
+  <desc>Hand-drawn Azure Restore Points icon with a green recovery arrow wrapping outside the left edge of a blue circular disk, a small cyan isometric cube and four white corner brackets.</desc>
 
-  <g transform="scale(7.1111111111)">
-    <!-- Green restoration arc -->
-    <path d="M8.1465 .87A7.6263 7.6263 0 0 0 5.4131 14.7234l.2622-.6583a.1443.1443 0 0 1 .2489-.0364l1.884 2.4318a.1488.1488 0 0 1-.0238.2069.1443.1443 0 0 1-.0718.0307l-3.0248.4311a.1464.1464 0 0 1-.164-.1274.15.15 0 0 1 .009-.0738l.3831-.9741A8.8733 8.8733 0 0 1 .9743 10.5948a7.7593 7.7593 0 0 1 5.423-9.4691A7.5337 7.5337 0 0 1 8.1465.87Z" fill="#86d633"/>
+  <!-- Long green recovery arc outside the disk -->
+  <path d="     M60 5     C43 5 25 15 16 29     C7 42 4 55 6 70     C8 83 13 94 22 103     L28 99     C19 90 15 80 14 68     C13 55 17 43 24 32     C33 20 45 13 61 12     Z" fill="#86D633" stroke="#243447" stroke-width="2.9"/>
 
-    <!-- Blue circular field -->
-    <path d="M9.8894 1.04A7.3859 7.3859 0 0 0 4.5488 13.5346a7.08 7.08 0 0 0 .6884.6l.0836-.21a.5285.5285 0 0 1 .5014-.3336.5257.5257 0 0 1 .4033.2038l1.255 1.62A7.39 7.39 0 1 0 9.8894 1.04Z" fill="url(#field)"/>
+  <!-- Filled triangular arrowhead at lower-left -->
+  <path d="     M22 98     Q26 105 31 112     L16 116     Q15 116 16 113     L18 105     Q19 101 22 98Z" fill="#86D633" stroke="#243447" stroke-width="3.1"/>
 
-    <!-- Original three-sided cube -->
-    <g stroke="#218fbd" stroke-width=".035" stroke-linejoin="round">
-      <polygon points="13.114 6.437 13.114 10.188 9.889 12.08 9.889 8.318" fill="url(#cubeRight)"/>
-      <polygon points="13.114 6.437 9.9 8.329 6.665 6.437 9.9 4.556" fill="#c3f1ff"/>
-      <polygon points="9.889 8.329 9.889 12.08 6.665 10.188 6.665 6.437" fill="url(#cubeLeft)"/>
-    </g>
+  <!-- Blue circular disk -->
+  <path d="     M70 7     C89 6 106 17 116 34     C125 49 125 69 117 85     C110 101 92 113 73 113     C53 115 35 104 25 88     C15 72 16 51 25 35     C34 18 51 8 70 7Z" fill="#2389DE" stroke="#243447" stroke-width="3.5"/>
 
-    <!-- Four original white corner brackets -->
-    <g fill="#fff">
-      <path d="M7.7484 3.809H5.4635a.5483.5483 0 0 0-.5483.5483V6.6505a.2742.2742 0 0 0 .2741.2742h.1828a.2742.2742 0 0 0 .2742-.2742V4.5318H7.7484a.2741.2741 0 0 0 .2658-.2742V4.0831a.2741.2741 0 0 0-.2658-.2741Z"/>
-      <path d="M7.7484 12.2748H5.638V10.1727a.2742.2742 0 0 0-.2742-.2742H5.1893a.2742.2742 0 0 0-.2741.2742v2.3264a.5483.5483 0 0 0 .54.5566l.0083 0H7.7484A.2825.2825 0 0 0 8.017 12.76l-.0028-.0284V12.549a.2741.2741 0 0 0-.2658-.2742Z"/>
-      <path d="M14.2738 3.8347H12.0222a.2741.2741 0 0 0-.2742.2742v.1744a.2742.2742 0 0 0 .2481.298.2531.2531 0 0 0 .0261.0011h2.102V6.6679a.2742.2742 0 0 0 .2742.2742H14.59a.2742.2742 0 0 0 .2742-.2742V4.383a.5485.5485 0 0 0-.5468-.55c-.0149 0-.0293.0005-.0436.0017Z"/>
-      <path d="M14.5563 9.9159h-.1745a.2742.2742 0 0 0-.2742.2742v2.11H12.0222a.2741.2741 0 0 0-.2742.2742v.1828a.2741.2741 0 0 0 .2742.2741H14.307a.5566.5566 0 0 0 .5567-.5483V10.19a.2743.2743 0 0 0-.3074-.2742Z"/>
-    </g>
-  </g>
+  <!-- Four white restore-point corner brackets -->
+  <path d="     M55 29     L42 29     Q37 28 37 33     L37 46" stroke="#243447" stroke-width="8"/>
+
+  <path d="     M55 29     L42 29     Q37 28 37 33     L37 46" stroke="#FFFFFF" stroke-width="4.7"/>
+
+  <path d="     M85 29     L98 29     Q103 28 103 33     L103 46" stroke="#243447" stroke-width="8"/>
+
+  <path d="     M85 29     L98 29     Q103 28 103 33     L103 46" stroke="#FFFFFF" stroke-width="4.7"/>
+
+  <path d="     M37 76     L37 89     Q37 94 42 94     L55 94" stroke="#243447" stroke-width="8"/>
+
+  <path d="     M37 76     L37 89     Q37 94 42 94     L55 94" stroke="#FFFFFF" stroke-width="4.7"/>
+
+  <path d="     M103 76     L103 89     Q103 94 98 94     L85 94" stroke="#243447" stroke-width="8"/>
+
+  <path d="     M103 76     L103 89     Q103 94 98 94     L85 94" stroke="#FFFFFF" stroke-width="4.7"/>
+
+  <!-- Small isometric cube: upper face -->
+  <path d="     M70 35     L91 47     L70 59     L49 47Z" fill="#C3F1FF" stroke="#243447" stroke-width="2.7"/>
+
+  <!-- Cube left face -->
+  <path d="     M49 47     L70 59     L70 84     L49 72Z" fill="#75DFFF" stroke="#243447" stroke-width="2.7"/>
+
+  <!-- Cube right face -->
+  <path d="     M70 59     L91 47     L91 72     L70 84Z" fill="#32BEDD" stroke="#243447" stroke-width="2.7"/>
 </svg>

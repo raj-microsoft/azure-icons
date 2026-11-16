@@ -1,49 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Machine Learning Studio Web Service Plans (sketch)</title>
-  <defs>
-    <linearGradient id="gauge-face" x1="9.83" y1="1.59" x2="9.83" y2="8.94" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset=".56" stop-color="#fbfbfb"/>
-      <stop offset="1" stop-color="#f2f2f2"/>
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Machine Learning Studio Web Service Plans (sketch)</title>
+  
 
-    <linearGradient id="flask-blue" x1="5.71" y1="7.13" x2="5.82" y2="17.51" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32d4f5"/>
-      <stop offset=".32" stop-color="#31d1f3"/>
-      <stop offset=".53" stop-color="#2ec9eb"/>
-      <stop offset=".7" stop-color="#29bade"/>
-      <stop offset=".86" stop-color="#22a5cb"/>
-      <stop offset="1" stop-color="#198ab3"/>
-    </linearGradient>
-  </defs>
+  <!-- Upper semicircular gauge housing -->
+  <path d="M15.3 60.6            C16.8 27.8 36.6 4.2 69.9 3.8            C103.3 3.4 123.1 27.9 124.7 60.7            Q125.3 69.6 116.5 70.1            L23.1 70.1            Q14.2 69.8 15.3 60.6 Z" fill="#0078D4" stroke="#203746" stroke-width="3.3"/>
 
-  <g transform="scale(7.111111)">
+  <!-- Pale gauge face -->
+  <path d="M21.1 60.8            C23 32.5 40.6 9.6 69.9 9.5            C99.1 9.4 116.9 32.2 118.7 60.9            Q119.1 64.4 115.6 64.4            L24.4 64.4            Q20.8 64.4 21.1 60.8 Z" fill="#F8F8F8" stroke="#203746" stroke-width="2.2"/>
 
-    <!-- Original gauge outer silhouette -->
-    <path d="M9.83.52C14.45.52 17.27 4 17.5 8.65              A1.19 1.19 0 0 1 16.31 9.9h-13              A1.18 1.18 0 0 1 2.16 8.65              C2.39 4 5.21.52 9.83.52Z" fill="#0078d4" stroke="#0068b8" stroke-width=".055" stroke-linejoin="round"/>
+  <!-- Four colored speedometer segments -->
+  <path d="M29.6 55.3            Q31.4 40.9 40.3 30.5            L53.4 43.7            Q48 48.9 47 55.3 Z" fill="#005BA1" stroke="#203746" stroke-width="2"/>
 
-    <!-- Gauge face -->
-    <path d="M3.34 9.11A.39.39 0 0 1 3 8.69              C3.17 4.2 6.26 1.31 9.83 1.31              s6.66 2.89 6.88 7.38              a.47.47 0 0 1-.11.3              .44.44 0 0 1-.29.12Z" fill="url(#gauge-face)"/>
+  <path d="M43.8 27.2            Q53.4 17.4 67.3 16.9            L67.3 35.8            Q60.6 36.1 56.5 40.5 Z" fill="#0078D4" stroke="#203746" stroke-width="2"/>
 
-    <!-- Original gauge segments -->
-    <path d="M13.55 3.79a5.62 5.62 0 0 0-3.33-1.42V5              a3.07 3.07 0 0 1 1.55.66Z" fill="#5ea0ef"/>
+  <path d="M72.5 16.9            Q86.1 17.6 95.7 27.2            L82.8 40.5            Q78.4 36.6 72.5 35.8 Z" fill="#5EA0EF" stroke="#203746" stroke-width="2"/>
 
-    <path d="M6.11 3.79 7.89 5.62A3 3 0 0 1 9.43 5V2.37              A5.57 5.57 0 0 0 6.11 3.79Z" fill="#0078d4"/>
+  <path d="M99.5 30.5            Q108.7 40.7 110.3 55.3            L92.7 55.3            Q91.7 48.8 86.6 43.7 Z" fill="#5EA0EF" stroke="#203746" stroke-width="2"/>
 
-    <path d="M12.33 6.2A3.28 3.28 0 0 1 13 7.78h2.52              a5.9 5.9 0 0 0-1.38-3.41Z" fill="#5ea0ef"/>
+  <!-- Actual gauge needle, directed toward upper right -->
+  <path d="M71 52.1            L101.4 40.8            Q104.3 39.9 105.5 42.4            Q106.3 45.1 103.4 46.3            L73.4 58 Z" fill="#005BA1" stroke="#203746" stroke-width="1.8"/>
 
-    <path d="M7.33 6.2 5.55 4.37a5.84 5.84 0 0 0-1.38 3.41              h2.51a3.39 3.39 0 0 1 .65-1.58Z" fill="#005ba1"/>
+  <!-- Gauge pivot -->
+  <path d="M78 55.7            C78.2 66.7 61.6 67.5 61.5 56.4            C61.3 45.6 77.3 45.4 78 55.7 Z" fill="#767676" stroke="#203746" stroke-width="2.7"/>
 
-    <!-- Original gauge needle: explicitly retained -->
-    <path d="M14.46 5.63a.42.42 0 0 0-.52-.23              L10.23 6.88l.29.74 3.71-1.48              a.41.41 0 0 0 .23-.51Z" fill="#005ba1" stroke="#004d91" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Laboratory flask, positioned in front of gauge -->
+  <path d="M27.2 57            L57.4 57            Q60.4 57 60.4 60.1            Q60.4 63.1 57.4 63.1            L54.7 63.1            L54.7 82.1            Q54.7 84.2 56 86.1            L79.9 121            Q82.4 125.2 77.7 125.3            L7.1 125.3            Q2.5 125.3 5 121            L29.3 86            Q30.3 84.6 30.3 82.2            L30.3 63.1            L27.2 63.1            Q24.6 63.1 24.6 60.1            Q24.6 57.1 27.2 57 Z" fill="#32D4F5" stroke="#203746" stroke-width="3.3"/>
 
-    <!-- Needle pivot -->
-    <circle cx="9.83" cy="7.42" r="1.08" fill="#767676" stroke="#686868" stroke-width=".055"/>
+  <!-- White inner flask silhouette, not liquid or bubbles -->
+  <path d="M36.5 79            L36.5 85.4            Q36.5 89.3 34.1 92.6            L16 117.6            Q14.9 119.1 17.7 119.1            L66.7 119.1            Q69.3 119.1 68.1 117.4            L49.8 91.3            Q48.6 89.4 48.6 85.6            L48.6 79.1            Q48.6 77.3 46.9 77.3            L38.1 77.3            Q36.5 77.3 36.5 79 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.1"/>
 
-    <!-- Original flask silhouette: no added liquid or bubbles -->
-    <path d="M10.73 17.43H.89c-.31 0-.5-.5-.32-.76L4 11.73              A.38.38 0 0 0 4 11.51V8.24              A.2.2 0 0 0 3.84 8h-.19              a.39.39 0 0 1-.39-.39v-.13              a.39.39 0 0 1 .39-.39H8              a.38.38 0 0 1 .39.39v.17              A.38.38 0 0 1 8 8h-.21              a.2.2 0 0 0-.2.2v3.27              a.41.41 0 0 0 .07.22l3.4 4.94              c.17.3-.01.8-.33.8Z" fill="url(#flask-blue)" stroke="#168db8" stroke-width=".065" stroke-linejoin="round" stroke-linecap="round"/>
-
-    <!-- Original white flask interior -->
-    <path d="M2.19 16l2.46-3.6a.86.86 0 0 0 .16-.51v-1.46              a.29.29 0 0 1 .29-.29H6.5              a.28.28 0 0 1 .28.29V12              a.6.6 0 0 0 .11.34L9.41 16              a.21.21 0 0 1-.18.33H2.36              A.21.21 0 0 1 2.19 16Z" fill="#fff"/>
-
+  <!-- Gently doubled marker edges, no extra objects -->
+  <g stroke="#203746" stroke-width="1.1" opacity=".62">
+    <path d="M18.1 51.4 Q21 29.1 39.6 15.2"/>
+    <path d="M100.5 17.1 Q119.8 33.6 122 57.8"/>
+    <path d="M32.5 85.3 Q32.4 88.3 30.3 91.4"/>
+    <path d="M8.1 121.9 L22.7 101.4"/>
+    <path d="M76 121.5 L61.5 100.7"/>
+    <path d="M34.2 60.2 L52.5 60.2"/>
+    <path d="M63 52.3 Q65.2 48.5 70.1 48.9"/>
   </g>
 </svg>

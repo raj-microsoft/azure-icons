@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Private Endpoints (sketch)</title><defs><linearGradient id="f386bb7a-bcb2-4b67-b5b2-06819618ff51" x1="9.084" y1="790.967" x2="9.084" y2="787.492" gradientTransform="matrix(1, 0, 0, -1, 0, 791.516)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#50e6ff"/><stop offset="1" stop-color="#32bedd"/></linearGradient><linearGradient id="a62a9cad-b173-4785-ba81-8ee30d4dc6eb" x1="9.065" y1="13.843" x2="9.065" y2="10.368" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5e9624"/><stop offset="0.183" stop-color="#629c25"/><stop offset="0.435" stop-color="#6dae2a"/><stop offset="0.726" stop-color="#7fcb30"/><stop offset="0.822" stop-color="#86d633"/></linearGradient></defs><g transform="scale(7.111111)"><g id="bdcd7268-31fc-4163-9544-651d61f1498e"><g><path d="M7.85,13.342a1.738,1.738,0,1,0,2.436-2.479,1.715,1.715,0,0,0-.626-.389V3.009H8.548v7.444a1.729,1.729,0,0,0-.7,2.891Z" fill="#b3b3b3"/><circle cx="9.084" cy="2.209" r="1.738" fill="url(#f386bb7a-bcb2-4b67-b5b2-06819618ff51)"/><g><path d="M2.632,10.449h.937a.3.3,0,0,1,.3.3v6.909a.6.6,0,0,1-.6.6H2.332a0,0,0,0,1,0,0V10.749A.3.3,0,0,1,2.632,10.449Z" transform="translate(15.452 22.292) rotate(134.919)" fill="#50e6ff"/><path d="M2.581,6.093h.937a.3.3,0,0,1,.3.3v7.4a0,0,0,0,1,0,0H2.88a.6.6,0,0,1-.6-.6v-6.8A.3.3,0,0,1,2.581,6.093Z" transform="translate(7.91 0.749) rotate(44.919)" fill="#1490df"/><path d="M14.132,10.449h.937a.6.6,0,0,1,.6.6v6.909a.3.3,0,0,1-.3.3h-.937a.3.3,0,0,1-.3-.3V10.449a0,0,0,0,1,0,0Z" transform="translate(14.542 -6.333) rotate(45.081)" fill="#50e6ff"/><path d="M14.782,6.093h.937a0,0,0,0,1,0,0v7.4a.3.3,0,0,1-.3.3h-.937a.3.3,0,0,1-.3-.3v-6.8A.6.6,0,0,1,14.782,6.093Z" transform="translate(32.558 6.424) rotate(135.081)" fill="#1490df"/></g><circle cx="9.065" cy="12.106" r="1.738" fill="url(#a62a9cad-b173-4785-ba81-8ee30d4dc6eb)"/></g></g><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width=".04"><circle cx="9.084" cy="2.209" r="1.738" stroke="#159fc8" opacity=".7"/><circle cx="9.065" cy="12.106" r="1.738" stroke="#4e801f" opacity=".7"/><path d="M8.58 3.01 L8.57 10.42 M9.43 3.01 L9.43 10.42" stroke="#858585" opacity=".6"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Private Endpoints (sketch)</title>
+  
+  <desc>Two separate open blue and cyan angle brackets with four free tips, a thin gray central stem, a cyan upper endpoint and a smaller green lower endpoint.</desc>
+
+  <!-- Left bracket: upper blue diagonal -->
+  <path d="M40 47            Q39 46 37 48            L10 75            Q8 77 10 79            L13 82            Q15 83 17 81            L44 54            Q46 52 44 50Z" fill="#1490DF" stroke="#243447" stroke-width="2.5"/>
+
+  <!-- Left bracket: lower cyan diagonal -->
+  <path d="M10 75            Q8 77 10 79            L37 106            Q39 109 41 107            L44 104            Q46 102 44 100            L17 73            Q15 71 13 73Z" fill="#50E6FF" stroke="#243447" stroke-width="2.5"/>
+
+  <!-- Right bracket: upper blue diagonal -->
+  <path d="M88 47            Q89 46 91 48            L118 75            Q120 77 118 79            L115 82            Q113 83 111 81            L84 54            Q82 52 84 50Z" fill="#1490DF" stroke="#243447" stroke-width="2.5"/>
+
+  <!-- Right bracket: lower cyan diagonal -->
+  <path d="M118 75            Q120 77 118 79            L91 106            Q89 109 87 107            L84 104            Q82 102 84 100            L111 73            Q113 71 115 73Z" fill="#50E6FF" stroke="#243447" stroke-width="2.5"/>
+
+  <!-- Thin central gray stem -->
+  <path d="M61 22            Q64 21 67 22            L67 80            Q64 82 61 80Z" fill="#B3B3B3" stroke="#243447" stroke-width="1.8"/>
+
+  <!-- Cyan upper endpoint -->
+  <path d="M64 3            C71 3 76 8 76 15            C76 22 71 27 64 27            C57 27 52 22 52 15            C52 8 57 3 64 3Z" fill="#50E6FF" stroke="#243447" stroke-width="3"/>
+
+  <!-- Green lower endpoint -->
+  <path d="M64 67            C71 67 76 72 76 79            C76 86 71 91 64 91            C57 91 52 86 52 79            C52 72 57 67 64 67Z" fill="#86D633" stroke="#243447" stroke-width="3"/>
+</svg>

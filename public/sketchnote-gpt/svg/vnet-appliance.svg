@@ -1,63 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>VNet Appliance (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>VNet Appliance (sketch)</title>
   
+  <desc id="desc">Dotted Azure-blue square perimeter, four outward green diagonal arrows, and a central blue code tile with white angle brackets and three evenly spaced white dots. Irregular charcoal marker outlines, flat fills, and transparent background.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Four independent directional arrows -->
-    <path d="M15.1 11.85s-.06.01-.08.03l-.94.94s-.12.05-.16 0l-2.87-2.87c-.1-.1-.26-.1-.36 0l-.8.8c-.1.1-.1.26 0 .36l2.87 2.87s.05.12 0 .16l-.06.06-.89.89s-.05.12 0 .16c.02.02.05.03.08.03h3.22s0 0 0 0c.06 0 .12-.06.11-.12v-3.21c0-.06-.05-.11-.11-.12Z" fill="#62be55" stroke="#438f3e" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Dotted square perimeter: imperfect marker dabs -->
+  <path d="     M4 4     Q34 3.2 64 3.8     T124 4     Q124.8 33 124.2 64     T124 124     Q94 124.8 64 124.2     T4 124     Q3.2 94 3.8 64     T4 4 Z" stroke="#0078d4" stroke-width="5.7" stroke-dasharray="0.8 15.2" stroke-linecap="round"/>
 
-    <path d="M10.63 8.18c.1.1.26.1.36 0l2.87-2.87s.12-.05.16 0l.06.06.89.89s.12.05.16 0c.02-.02.03-.05.03-.08v-3.22s0 0 0 0c0-.06-.06-.12-.12-.11h-3.21c-.06 0-.11.05-.12.11 0 .03.01.06.03.08l.94.94s.05.12 0 .16l-2.87 2.87c-.1.1-.1.26 0 .36Z" fill="#62be55" stroke="#438f3e" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Northwest outward green arrow -->
+  <path d="     M51.2 51.1     Q40.9 41.6 29.1 29     L41.8 16.1     Q43.5 14.1 40.2 14.2     Q31 13.8 21.1 14.2     Q20.5 25.8 21.1 39.8     Q21.2 42.1 23.2 40.2     L28.2 35     Q38.7 45.1 49.9 57     Q51.9 59.1 54 57     L57 54     Q58.7 52 56.8 50     Z" fill="#62be55" stroke="#203746" stroke-width="2.8"/>
 
-    <path d="M7.33 9.96c-.1-.1-.26-.1-.36 0l-2.87 2.87s-.12.04-.16 0l-.94-.94s-.05-.03-.08-.03c-.06 0-.11.05-.12.12v3.21c0 .06.05.12.11.12h3.22s.06-.01.08-.03c.04-.05.04-.12 0-.16l-.89-.89-.06-.06s-.05-.12 0-.16l2.87-2.87c.1-.1.1-.26 0-.36Z" fill="#62be55" stroke="#438f3e" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Northeast outward green arrow -->
+  <path d="     M76.8 51     Q88.2 40 99 29     L86.2 16     Q84.2 14 87.5 14.2     Q97 13.8 106.9 14.1     Q107.6 26.6 106.8 39.9     Q106.8 42.1 104.8 40.1     L99.9 35.1     Q89.6 45.5 78 57.1     Q76 59 74.1 57     L71.1 54     Q69 52.1 71.2 50     Z" fill="#62be55" stroke="#203746" stroke-width="2.8"/>
 
-    <path d="M5.29 4.14s-.04-.12 0-.16l.94-.94s.03-.05.03-.08c0-.06-.05-.11-.12-.12H2.93c-.06 0-.12.05-.12.11v3.22s.01.06.03.08c.05.04.12.04.16 0l.89-.89.06-.06s.12-.05.16 0l2.87 2.87c.1.1.26.1.36 0l.8-.8c.1-.1.1-.26 0-.36L5.29 4.14Z" fill="#62be55" stroke="#438f3e" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Southwest outward green arrow -->
+  <path d="     M51 77     Q40.2 87.4 29.1 99     L41.9 111.9     Q43.5 114 40.1 113.9     Q30.6 114.3 21 113.9     Q20.5 101.7 21.2 88.1     Q21.3 85.9 23.3 87.9     L28.1 93     Q39 82.4 50 71     Q52 69.2 54 71.1     L57 74     Q58.9 76 56.8 78     Z" fill="#62be55" stroke="#203746" stroke-width="2.8"/>
 
-    <!-- Central blue code tile -->
-    <path d="M12.57 12.82h-7.14c-.14 0-.25-.13-.25-.29V5.48c0-.16.11-.29.25-.29h7.14c.14 0 .25.13.25.29v7.05c0 .16-.11.29-.25.29Z" fill="#0078d4" stroke="#0066b3" stroke-width=".045" stroke-linejoin="round"/>
+  <!-- Southeast outward green arrow -->
+  <path d="     M77 77     Q87.7 87.1 99 99.1     L86.1 112     Q84.3 114.1 87.4 114     Q97.1 114.2 107 113.8     Q107.5 101 106.8 88.1     Q106.7 85.9 104.8 87.9     L99.9 93     Q89 82.1 78 71     Q76.1 69.2 74.1 71.1     L71 74.1     Q69.1 76 71.2 78     Z" fill="#62be55" stroke="#203746" stroke-width="2.8"/>
 
-    <!-- White code brackets and dots -->
-    <g fill="#fff">
-      <circle cx="8" cy="8.9" r=".23"/>
-      <circle cx="8.97" cy="8.9" r=".23"/>
-      <circle cx="10.07" cy="9" r=".23"/>
-      <path d="M8.21 7.91s.03-.08 0-.11l-.17-.17s0 0 0 0c-.03-.03-.08-.03-.11 0L6.68 8.89s-.05.07-.04.11c0 .04.01.08.05.11l1.28 1.27s.08.03.11 0l.17-.17s.03-.08 0-.11l-1.11-1.1 1.07-1.09Z"/>
-      <path d="M11.26 8.88h0l-1.25-1.26c-.03-.03-.08-.03-.11 0l-.17.17s-.03.08 0 .11l1.08 1.09-1.11 1.1s-.03.08 0 .11l.17.17c.03.03.08.03.11 0l1.28-1.28c.03-.03.05-.07.05-.11 0-.04-.01-.08-.05-.11Z"/>
-    </g>
+  <!-- Central blue code tile -->
+  <path d="     M41.1 35.2     Q38.3 34.7 38 38.2     C37.6 53.7 38.4 71.7 38 87.7     Q37.9 91.3 41.2 91.1     C55.8 91.5 72.4 90.6 86.9 91.2     Q90.2 91.2 90.1 87.7     C89.6 72.6 90.5 53.8 89.9 38.1     Q89.8 34.8 86.8 35.1     C71.5 34.7 56.1 35.7 41.1 35.2     Z" fill="#0078d4" stroke="#203746" stroke-width="3.3"/>
 
-    <!-- Original perimeter blue markers -->
-    <g fill="#0078d4">
-      <rect x=".12" y=".12" width=".9" height=".9" rx=".22"/>
-      <rect x="2.53" y=".13" width=".9" height=".9" rx=".22"/>
-      <rect x="4.93" y=".13" width=".9" height=".9" rx=".22"/>
-      <rect x="7.34" y=".13" width=".9" height=".9" rx=".22"/>
-      <rect x="9.75" y=".13" width=".9" height=".9" rx=".22"/>
-      <rect x="12.16" y=".13" width=".9" height=".9" rx=".22"/>
-      <rect x="14.57" y=".12" width=".9" height=".9" rx=".22"/>
-      <rect x="17" y=".12" width=".88" height=".9" rx=".22"/>
+  <!-- Left white code bracket: uneven marker under-stroke -->
+  <path d="M58.1 53.1 Q53 58 48 63 Q52.7 68.3 58.2 73.1" stroke="#203746" stroke-width="6.3"/>
+  <path d="M58.1 53.1 Q53 58 48 63 Q52.7 68.3 58.2 73.1" stroke="#ffffff" stroke-width="3.6"/>
 
-      <rect x=".12" y="2.53" width=".9" height=".9" rx=".22"/>
-      <rect x=".12" y="4.94" width=".9" height=".9" rx=".22"/>
-      <rect x=".12" y="7.34" width=".9" height=".9" rx=".22"/>
-      <rect x=".12" y="9.75" width=".9" height=".9" rx=".22"/>
-      <rect x=".12" y="12.16" width=".9" height=".9" rx=".22"/>
-      <rect x=".12" y="14.57" width=".9" height=".9" rx=".22"/>
-      <rect x=".12" y="16.99" width=".9" height=".9" rx=".22"/>
+  <!-- Right white code bracket -->
+  <path d="M70.1 53 Q75.4 57.9 80 63 Q75 68.1 70 73" stroke="#203746" stroke-width="6.3"/>
+  <path d="M70.1 53 Q75.4 57.9 80 63 Q75 68.1 70 73" stroke="#ffffff" stroke-width="3.6"/>
 
-      <rect x="17" y="2.53" width=".88" height=".9" rx=".22"/>
-      <rect x="17" y="4.94" width=".88" height=".9" rx=".22"/>
-      <rect x="17" y="7.34" width=".88" height=".9" rx=".22"/>
-      <rect x="17" y="9.75" width=".88" height=".9" rx=".22"/>
-      <rect x="17" y="12.16" width=".88" height=".9" rx=".22"/>
-      <rect x="17" y="14.57" width=".88" height=".9" rx=".22"/>
-      <rect x="17" y="16.99" width=".88" height=".9" rx=".22"/>
+  <!-- Three evenly spaced white code dots, centered at x56,64,72 -->
+  <g fill="#ffffff" stroke="#203746" stroke-width="1.15">
+    <path d="M56 60.7 Q58.2 60.5 58.4 63 Q58.5 65.3 56 65.4 Q53.6 65.2 53.6 63 Q53.7 60.9 56 60.7 Z"/>
+    <path d="M64 60.7 Q66.3 60.5 66.4 63 Q66.4 65.4 64 65.4 Q61.7 65.2 61.6 63 Q61.8 60.8 64 60.7 Z"/>
+    <path d="M72 60.7 Q74.3 60.6 74.4 63 Q74.4 65.3 72 65.4 Q69.7 65.2 69.6 63 Q69.8 60.8 72 60.7 Z"/>
+  </g>
 
-      <rect x=".12" y="16.99" width=".9" height=".9" rx=".22"/>
-      <rect x="2.53" y="16.99" width=".9" height=".9" rx=".22"/>
-      <rect x="4.94" y="16.99" width=".9" height=".9" rx=".22"/>
-      <rect x="7.34" y="16.99" width=".9" height=".9" rx=".22"/>
-      <rect x="9.75" y="16.99" width=".9" height=".9" rx=".22"/>
-      <rect x="12.16" y="16.99" width=".9" height=".9" rx=".22"/>
-      <rect x="14.58" y="16.99" width=".9" height=".9" rx=".22"/>
-      <rect x="17" y="16.99" width=".88" height=".9" rx=".22"/>
-    </g>
+  <!-- Sparse doubled-ink strokes, following existing outlines only -->
+  <g stroke="#203746" fill="none" opacity=".65">
+    <!-- Northwest arrow -->
+    <path d="M21 18.5 Q20.6 26 21.3 33.2" stroke-width="1.2"/>
+    <path d="M33 32.6 Q42.1 41.1 49 48.7" stroke-width="1.1"/>
+
+    <!-- Northeast arrow -->
+    <path d="M94.8 32.6 Q86.5 41.4 79.4 48.4" stroke-width="1.1"/>
+    <path d="M106.8 18.7 Q107.5 26.9 106.9 34.5" stroke-width="1.2"/>
+
+    <!-- Southwest arrow -->
+    <path d="M21.1 94.2 Q20.6 102 21.2 109.1" stroke-width="1.2"/>
+    <path d="M34 94.2 Q42.2 86.4 49 79.8" stroke-width="1.1"/>
+
+    <!-- Southeast arrow -->
+    <path d="M93.8 94.3 Q85.8 86.3 79.3 79.7" stroke-width="1.1"/>
+    <path d="M106.9 94.3 Q107.5 101.5 106.8 109" stroke-width="1.2"/>
+
+    <!-- Central tile edges -->
+    <path d="M38.1 43 Q37.6 57 38.3 70.4" stroke-width="1.35"/>
+    <path d="M45.5 35.1 Q61 34.7 77.8 35.3" stroke-width="1.2"/>
+    <path d="M89.9 44.5 Q90.5 58.4 89.8 73.1" stroke-width="1.3"/>
+    <path d="M49.5 91.2 Q65.4 90.6 80.8 91.3" stroke-width="1.2"/>
   </g>
 </svg>

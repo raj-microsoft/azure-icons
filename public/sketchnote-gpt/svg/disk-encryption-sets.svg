@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Disk Encryption Sets (sketch)</title><defs><radialGradient id="diskGradient" cx="8.38" cy="445.94" r="4.05" gradientTransform="translate(0 -704.99) scale(1 1.59)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5ea0ef"/><stop offset=".11" stop-color="#519aeb"/><stop offset=".51" stop-color="#2588df"/><stop offset=".82" stop-color="#0a7cd7"/><stop offset="1" stop-color="#0078d4"/></radialGradient></defs><g transform="scale(7.111111)"><path d="M2.12.5H4.1v.57H2.12zm14.5.57h.32v.3h.55V.5h-.87v.57zM1.4 16.9h-.28v-.32H.5v.93h.9v-.6zm15.55-.3v.3h-.32v.6h.87v-.9h-.55zM1.13 1.36v-.3h.28V.5H.5v.86h.63zM5.07.5h1.97v.57H5.07zM8 .5h1.97v.57H8zm2.96 0h1.97v.57h-1.97zm2.94 0h1.97v.57H13.9zM2.14 16.9H4.1v.57H2.14zm2.94 0h1.97v.57H5.08zm2.95 0H10v.57H8.03zm2.95 0h1.97v.57h-1.97zm2.94 0h1.97v.57h-1.97zm3-14.85h.57v1.97h-.57zm0 2.95h.57v1.97h-.57zm0 2.94h.57V9.9h-.57zm0 2.94h.57v1.97h-.57zm0 2.95h.57v1.97h-.57zM.5 2.03h.57V4H.5zm0 2.95h.57v1.97H.5zm0 2.94h.57V9.9H.5zm0 2.95h.57v1.97H.5zm0 2.93h.57v1.97H.5z" fill="#0078d4"/><path d="M10.3 11a1.5 1.5 0 0 1 0-2.11l.76-.76a12.13 12.13 0 0 0-2.67-.29c-3.07 0-5.55 1-5.55 2.28S5.3 12.4 8.38 12.4a11.83 11.83 0 0 0 2.93-.4z" fill="#76bc2d" stroke="#5e9624" stroke-width=".04" stroke-linejoin="round"/><ellipse cx="8.38" cy="5.05" rx="5.54" ry="2.28" fill="url(#diskGradient)" stroke="#0066b3" stroke-width=".04"/><ellipse cx="8.51" cy="5.02" rx="1.84" ry=".5" fill="#005ba1"/><g fill="#0078d4"><path d="M15.58 10.65a1 1 0 0 0 0-1.44l-1.76-1.77a1 1 0 0 0-1.44 0L10.62 9.2a1 1 0 0 0 0 1.44l1.47 1.5a.32.32 0 0 1 .08.2v2.73a.35.35 0 0 0 .1.24l.67.67a.24.24 0 0 0 .33 0l1.02-1.02a.14.14 0 0 0 0-.19l-.3-.28a.13.13 0 0 1 0-.2l.27-.28a.14.14 0 0 0 0-.19l-.27-.27a.14.14 0 0 1 0-.21l.27-.27a.14.14 0 0 0 0-.19l-.38-.4v-.13zM13.1 7.87a.58.58 0 1 1 0 1.13.58.58 0 0 1 0-1.16z"/><path d="M12.05 7.1a1.49 1.49 0 0 1 1-.44 1.59 1.59 0 0 1 .65.15 1.2 1.2 0 0 0 .17-.48V5c0 1.25-2.48 2.27-5.54 2.27s-5.5-1-5.5-2.27v1.26c0 1.26 2.48 2.28 5.55 2.28a12.65 12.65 0 0 0 2.48-.24z"/></g><g fill="#c3f1ff"><path d="M12.65 15.1a.13.13 0 0 0 .18 0 .11.11 0 0 0 0-.08v-2.25a.17.17 0 0 0-.06-.11.13.13 0 0 0-.17 0 .07.07 0 0 0 0 .07V15a.11.11 0 0 0 .05.1z" opacity=".75"/><rect x="11.7" y="9.79" width="2.89" height=".34" rx=".16" opacity=".75"/><rect x="11.7" y="10.35" width="2.89" height=".34" rx=".16" opacity=".75"/></g><path d="M11.7 12.42l-.42-.42a12.21 12.21 0 0 1-2.9.34c-3.07 0-5.55-1-5.55-2.28v1.27c0 1.26 2.48 2.28 5.55 2.28a11.72 11.72 0 0 0 3.32-.46zM9.87 9.74a4.91 4.91 0 0 0-1.36-.17c-1 0-1.84.23-1.84.5s.83.5 1.84.5a4.89 4.89 0 0 0 1.43-.19 1.59 1.59 0 0 1-.07-.65z" fill="#5e9624"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Disk Encryption Sets (sketch)</title>
+  
+  <desc>Two stacked Azure storage disks, blue above green, with an overlapping encryption key and dashed selection boundary.</desc>
+
+  <!-- Dashed encryption-set boundary -->
+  <path d="M7 5            L120 5 Q123 5 123 9            L123 119 Q123 123 119 123            L9 123 Q5 123 5 119            L5 9 Q5 5 7 5 Z" stroke="#0078D4" stroke-width="2.6" stroke-dasharray="9 7"/>
+
+  <!-- Lower green disk: single storage layer -->
+  <path d="M20 72            C20 61 37 55 59 55            C80 55 98 62 98 72            L98 83            C98 94 81 101 59 101            C37 101 20 94 20 83 Z" fill="#5E9624" stroke="#243447" stroke-width="3.2"/>
+
+  <!-- Green disk upper elliptical face -->
+  <path d="M20 72            C20 61 37 55 59 55            C80 55 98 62 98 72            C98 83 81 89 59 89            C37 89 20 82 20 72 Z" fill="#76BC2D" stroke="#243447" stroke-width="3"/>
+
+  <!-- Upper blue disk: single storage layer -->
+  <path d="M20 36            C20 25 37 19 59 19            C80 19 98 26 98 36            L98 48            C98 59 81 66 59 66            C37 66 20 59 20 48 Z" fill="#0078D4" stroke="#243447" stroke-width="3.2"/>
+
+  <!-- Blue disk upper elliptical face -->
+  <path d="M20 36            C20 25 37 19 59 19            C80 19 98 26 98 36            C98 47 81 53 59 53            C37 53 20 46 20 36 Z" fill="#5EA0EF" stroke="#243447" stroke-width="3"/>
+
+  <!-- Dark center opening -->
+  <path d="M46 35            C46 32 52 30 59 30            C67 30 73 32 73 35            C73 38 67 40 59 40            C52 40 46 38 46 35 Z" fill="#005BA1" stroke="#243447" stroke-width="2"/>
+
+  <!-- Encryption key: angular bow and notched shaft -->
+  <path d="M94 65            Q97 62 100 65            L112 77            Q115 80 112 83            L104 91            Q103 92 103 95            L103 108            L107 112            Q108 113 107 115            L104 118            L101 115            L98 118            L95 115            L98 112            L95 109            L98 106            L98 103            L95 100            L95 94            Q95 92 93 90            L81 83            Q78 80 81 77 Z" fill="#1685DC" stroke="#243447" stroke-width="3.4"/>
+
+  <!-- Open circular keyhole -->
+  <path d="M96 75            C98 73 101 74 103 76            C105 78 104 81 102 83            C100 85 97 84 95 82            C93 80 94 77 96 75 Z" fill="none" stroke="#243447" stroke-width="3"/>
+
+</svg>

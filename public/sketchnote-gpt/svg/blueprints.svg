@@ -1,1 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Blueprints (sketch)</title><defs><linearGradient id="f5a0c05e-637e-4adf-b38d-bb1a0e612a3a" x1="6050.2" y1="-3638.83" x2="6038.28" y2="-3638.83" gradientTransform="translate(-3629.83 -6034.61) rotate(90)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#198ab3"/><stop offset="0" stop-color="#198ab3"/><stop offset="0.11" stop-color="#22a5cb"/><stop offset="0.23" stop-color="#29bade"/><stop offset="0.37" stop-color="#2ec9eb"/><stop offset="0.53" stop-color="#31d1f3"/><stop offset="0.78" stop-color="#32d4f5"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M15.16,13.51a2.08,2.08,0,0,1,2.28,2.24v0A1.89,1.89,0,0,1,14.38,17a.67.67,0,0,1-.26-.54V13.5Z" fill="#198ab3" stroke="#126d91" stroke-width=".055" stroke-linejoin="round"/><path d="M17.49,13.5v-9A2.29,2.29,0,0,0,15.2,2.23H.51a0,0,0,0,0,0,0v9a2.29,2.29,0,0,0,2.29,2.29l2.43,0h7.49a25.76,25.76,0,0,1,3,0c2,.32,1.64,2.47,1.64,2.47A11.13,11.13,0,0,0,17.49,13.5Z" fill="url(#f5a0c05e-637e-4adf-b38d-bb1a0e612a3a)" stroke="#167fa5" stroke-width=".055" stroke-linejoin="round"/><path d="M.5,11.42l0-.07a1.84,1.84,0,0,1,3.24-.9.23.23,0,0,0,.4-.15l0-7.82a1.36,1.36,0,0,0,0-.29v0h0a1.85,1.85,0,0,0-3.64,0h0v0a.92.92,0,0,0,0,.29Z" fill="#198ab3" stroke="#126d91" stroke-width=".055" stroke-linejoin="round"/><path d="M12.34,8.48a.28.28,0,0,0-.28-.28h-1c-.06-.14-.11-.29-.17-.43-.22-.57-.46-1.14-.69-1.7l-.08-.19a1.38,1.38,0,1,0-.7,0l-.09.2c-.25.56-.49,1.13-.73,1.7l-.18.44h-1a.28.28,0,0,0-.28.28.27.27,0,0,0,.28.28h.8c-.1.24-.19.48-.28.72-.22.58-.43,1.16-.63,1.75v0a.23.23,0,0,0,.42.19v0c.31-.54.6-1.09.88-1.63.18-.34.35-.68.52-1h1.26l.48,1c.28.55.56,1.1.85,1.64h0a.23.23,0,0,0,.42-.18h0c-.18-.59-.38-1.17-.58-1.75l-.27-.73h.74A.27.27,0,0,0,12.34,8.48ZM9,4.54a.81.81,0,0,1,1.62,0A.81.81,0,0,1,9,4.54ZM9.43,8.2l0-.07.33-.72.32.71,0,.08Z" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="title desc"><title>Blueprints (sketch)</title>
+  
+  <desc id="desc">Cyan blueprint scroll with irregular rolled edges, a small white drafting compass entirely inside the paper, gently wobbling charcoal marker outlines and sparse doubled-ink contours. Flat fills and transparent background.</desc>
+
+  <!-- Main cyan blueprint sheet -->
+  <path d="     M8.7 16.5     Q7.1 16.2 5.2 17.1     Q3.7 18.1 4.2 22.1     C4.5 37.5 3.7 54.9 4.3 70.8     Q3.9 76.4 4.6 81     C5.1 89.6 12.3 94.6 23.9 95.2     Q40.8 94.7 58 95.1     C73.3 94.6 90.1 95.5 107.4 95     Q117.2 92.6 124.1 95.3     C123.6 77.5 124.7 59.7 124.1 43.1     L124.3 32.1     C124 21.8 118.2 16.1 108.1 16.3     Q86.2 15.8 65.1 16.4     C44.6 16 25.7 16.9 8.7 16.5     Z" fill="#32d4f5" stroke="#203746" stroke-width="3.2"/>
+
+  <!-- Left rolled scroll edge -->
+  <path d="     M4.4 80.9     Q3.5 66.9 4.2 52.7     C4 41.7 3.8 29.2 4.3 18.2     Q4.1 10.5 9.6 7.1     C14.1 4.3 21.6 4.4 26.1 8.6     Q30.1 12.3 30.2 18.4     C29.7 31.2 30.4 45.3 30 58.8     L30.1 74.6     Q30 79.6 26.5 78.3     Q24.1 77.4 22.2 74.2     C18.7 69.8 14.1 70.5 10.7 73     Q6.8 75.6 4.4 80.9     Z" fill="#198ab3" stroke="#203746" stroke-width="3.3"/>
+
+  <!-- Rolled lower-right end -->
+  <path d="     M100.2 95.3     C105.1 94 111.9 94.2 116.4 99     Q122.2 104.2 123.1 111.4     C124.2 118.3 120.2 123.1 113.1 124.1     Q105.9 125.8 101.7 119.6     Q98.8 116.6 99.2 111.8     C99.7 105.7 99.6 100.7 100.2 95.3     Z" fill="#198ab3" stroke="#203746" stroke-width="3.2"/>
+
+  <!-- Compass hinge: irregular white circular ring -->
+  <path d="     M62.7 30.3     C67.8 29.5 71.9 33.7 72.1 38.8     C72.4 43.7 68.3 48 63.2 48.1     Q58.6 48.5 55.5 44.4     C53.7 41.9 53.7 37.3 55.7 34     Q58.2 30.4 62.7 30.3     Z" fill="none" stroke="#203746" stroke-width="5.5"/>
+
+  <path d="     M62.7 30.3     C67.8 29.5 71.9 33.7 72.1 38.8     C72.4 43.7 68.3 48 63.2 48.1     Q58.6 48.5 55.5 44.4     C53.7 41.9 53.7 37.3 55.7 34     Q58.2 30.4 62.7 30.3     Z" fill="none" stroke="#ffffff" stroke-width="3.1"/>
+
+  <!-- Left compass leg: charcoal marker under-stroke -->
+  <path d="     M60.1 47.7     Q57.3 54.4 54.3 60.2     C52.5 64.5 51.2 68.4 49.9 71.3     Q46.4 80.3 43.2 87   " fill="none" stroke="#203746" stroke-width="6.4"/>
+
+  <!-- Left compass leg: white ink -->
+  <path d="     M60.1 47.7     Q57.3 54.4 54.3 60.2     C52.5 64.5 51.2 68.4 49.9 71.3     Q46.4 80.3 43.2 87   " fill="none" stroke="#ffffff" stroke-width="3.7"/>
+
+  <!-- Right compass leg: charcoal marker under-stroke -->
+  <path d="     M67 47.8     Q70.1 54.3 73 60.7     C74.5 64.8 76.8 68.6 78 71.4     Q81.3 80 84.1 87   " fill="none" stroke="#203746" stroke-width="6.4"/>
+
+  <!-- Right compass leg: white ink -->
+  <path d="     M67 47.8     Q70.1 54.3 73 60.7     C74.5 64.8 76.8 68.6 78 71.4     Q81.3 80 84.1 87   " fill="none" stroke="#ffffff" stroke-width="3.7"/>
+
+  <!-- Horizontal compass adjustment bar -->
+  <path d="     M51.4 66.1     Q57.2 65.3 63.7 65.6     Q70.5 65.3 76 66.2   " fill="none" stroke="#203746" stroke-width="5.6"/>
+
+  <path d="     M51.4 66.1     Q57.2 65.3 63.7 65.6     Q70.5 65.3 76 66.2   " fill="none" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- Sparse doubled-ink portions following existing contours -->
+  <g fill="none" stroke="#203746" opacity=".65">
+
+    <!-- Blueprint sheet -->
+    <path d="M34 16.3 Q52.4 16.9 72.2 16.1" stroke-width="1.25"/>
+    <path d="M88.4 16.2 Q101 15.8 109.3 16.5" stroke-width="1.15"/>
+    <path d="M124.2 38.8 Q123.7 53.2 124.4 67.4" stroke-width="1.3"/>
+    <path d="M43 95.1 Q61.7 94.4 79.2 95.2" stroke-width="1.25"/>
+
+    <!-- Left rolled edge -->
+    <path d="M4.1 26.6 Q4.6 41.5 3.9 55.1" stroke-width="1.35"/>
+    <path d="M6.5 12.7 Q10.1 5.7 17.1 5.3" stroke-width="1.2"/>
+    <path d="M29.9 26.2 Q30.5 39.8 29.8 52.9" stroke-width="1.3"/>
+    <path d="M8.1 75.8 Q14 69.9 19.4 72" stroke-width="1.15"/>
+
+    <!-- Rolled lower-right end -->
+    <path d="M104.3 95.2 Q111.8 94 116.1 99" stroke-width="1.3"/>
+    <path d="M123.1 108 Q125 116.2 120.5 121.4" stroke-width="1.25"/>
+
+    <!-- Compass ring -->
+    <path d="M56.1 34.7 Q59.3 29.7 64 30.1" stroke-width="1.2"/>
+    <path d="M69 45.7 Q65.7 48.6 61.2 48.1" stroke-width="1.15"/>
+
+    <!-- Compass leg and bar edges -->
+    <path d="M57.7 53.6 Q54.1 61.9 51.7 67.7" stroke-width="1.15"/>
+    <path d="M70.8 56.5 Q74.5 65.4 77.2 70" stroke-width="1.15"/>
+    <path d="M57.1 65.3 Q64.1 65 70.7 65.4" stroke-width="1.1"/>
+  </g>
+</svg>
