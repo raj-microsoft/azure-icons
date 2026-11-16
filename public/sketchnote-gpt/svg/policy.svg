@@ -1,1 +1,37 @@
-<svg id="e0c2a2f0-e647-4f01-b91b-afb7bf15040d" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Policy (sketch)</title><defs><linearGradient id="a7f731a9-5c58-44f4-8037-3c3627e98008" x1="8.45" y1="11.47" x2="8.45" y2="6.24" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#198ab3"/><stop offset="0.16" stop-color="#1f9ac2"/><stop offset="0.5" stop-color="#29bade"/><stop offset="0.8" stop-color="#30cdef"/><stop offset="1" stop-color="#32d4f5"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><ellipse stroke="#168ab3" stroke-width=".035" cx="8.45" cy="8.85" rx="2.6" ry="2.61" fill="url(#a7f731a9-5c58-44f4-8037-3c3627e98008)"/><ellipse cx="15.73" cy="4.77" rx="1.27" ry="1.28" fill="#32bedd"/><ellipse cx="15.73" cy="8.95" rx="1.27" ry="1.28" fill="#32bedd"/><ellipse cx="15.73" cy="13.12" rx="1.27" ry="1.28" fill="#32bedd"/><ellipse cx="12.83" cy="6.91" rx="1.27" ry="1.28" fill="#50e6ff"/><ellipse cx="12.83" cy="11.09" rx="1.27" ry="1.28" fill="#50e6ff"/><path d="M2.41,5.58A.24.24,0,0,1,2.5,5.5L8.32,2.11c.08,0,5,2.78,5,2.78a.24.24,0,0,0,.36-.21V3.59a.24.24,0,0,0-.12-.21S8.4.46,8.33.5L1.11,4.64,1,4.72Z" fill="#949494" stroke="#858585" stroke-width=".025"/><path d="M13.3,13.14,8.56,15.87a.35.35,0,0,1-.11,0v1.6a.2.2,0,0,0,.11,0l5-2.86a.24.24,0,0,0,.12-.2V13.35A.24.24,0,0,0,13.3,13.14Z" fill="#949494" stroke="#858585" stroke-width=".025"/><path d="M8.45,15.9a.31.31,0,0,1-.13,0L2.5,12.47a.22.22,0,0,1-.12-.2V5.7a.27.27,0,0,1,0-.12L1,4.72a.28.28,0,0,0,0,.13v8.27a.24.24,0,0,0,.11.21l7.22,4.14a.24.24,0,0,0,.12,0Z" fill="#b3b3b3" stroke="#999" stroke-width=".025"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Policy (sketch)</title>
+  
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Upper isometric framework -->
+    <path d="M8 35          Q8 33 11 31          L62 2          Q64 1 66 3          L102 23          Q104 24 104 27          L104 33          Q104 35 102 34          L65 13          Q64 12 62 13          L18 39          Q15 41 14 43          Z" fill="#949494" stroke="#34383D" stroke-width="2.8"/>
+
+    <!-- Left and lower framework -->
+    <path d="M8 35          Q9 35 11 37          L17 40          Q18 41 18 44          L18 88          Q18 90 21 92          L62 116          Q64 117 66 116          L66 127          Q64 128 62 126          L9 95          Q7 94 7 91          L7 39          Q7 36 8 35          Z" fill="#B3B3B3" stroke="#34383D" stroke-width="2.8"/>
+
+    <!-- Lower-right framework segment -->
+    <path d="M66 116          Q67 116 69 115          L101 96          Q104 94 104 91          L104 95          Q104 97 102 98          L68 118          Q66 119 66 120          Z" fill="#949494" stroke="#34383D" stroke-width="2.5"/>
+
+    <path d="M66 116          L66 127          Q68 127 70 125          L103 106          Q105 105 105 102          L105 96          Q104 94 102 96          L69 115          Z" fill="#949494" stroke="#34383D" stroke-width="2.7"/>
+
+    <!-- Central circular policy core -->
+    <path d="M82.7 63          C82.5 73.9 74.3 82.3 63.3 82.2          C52.4 82 44 74 44.1 63          C44.2 52.1 52.1 43.7 63.2 43.8          C74.2 43.9 82.9 52 82.7 63          Z" fill="#29BADE" stroke="#263C48" stroke-width="3.3"/>
+
+    <!-- Five policy distribution nodes -->
+    <!-- Upper-right outer node -->
+    <path d="M118.7 24.1          C124.1 24.1 127 28 127 33.5          C127 39.1 123.5 42.8 118.3 42.7          C112.8 42.6 109.5 38.8 109.7 33.2          C109.8 27.9 113.5 24 118.7 24.1 Z" fill="#32BEDD" stroke="#263C48" stroke-width="2.5"/>
+
+    <!-- Middle-right outer node -->
+    <path d="M118.6 53.5          C124.1 53.4 127 57.5 126.9 62.9          C126.8 68.5 123.3 72.1 118 72          C112.8 71.9 109.5 68 109.7 62.6          C109.8 57.5 113.2 53.5 118.6 53.5 Z" fill="#32BEDD" stroke="#263C48" stroke-width="2.5"/>
+
+    <!-- Lower-right outer node -->
+    <path d="M118.5 83.1          C124 83 127.1 86.9 127 92.4          C126.9 98 123.3 101.7 118.2 101.5          C112.9 101.4 109.5 97.5 109.8 92          C110 86.7 113.4 83.1 118.5 83.1 Z" fill="#32BEDD" stroke="#263C48" stroke-width="2.5"/>
+
+    <!-- Upper inner cyan node -->
+    <path d="M98 39          C103.4 39 106.7 42.8 106.6 48.2          C106.5 53.8 102.9 57.4 97.7 57.2          C92.3 57.1 89 53.4 89.2 47.9          C89.3 42.6 92.8 39 98 39 Z" fill="#50E6FF" stroke="#263C48" stroke-width="2.5"/>
+
+    <!-- Lower inner cyan node -->
+    <path d="M97.9 68.4          C103.5 68.4 106.8 72.3 106.6 77.8          C106.4 83.2 102.8 86.9 97.6 86.7          C92.3 86.6 89 82.7 89.2 77.4          C89.4 72.2 92.8 68.4 97.9 68.4 Z" fill="#50E6FF" stroke="#263C48" stroke-width="2.5"/>
+
+  </g>
+</svg>

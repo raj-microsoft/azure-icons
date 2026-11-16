@@ -1,31 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Windows10 Core Services (sketch)</title>
-  <defs>
-    <linearGradient id="gearGradient" x1="8.41" y1="17.49" x2="8.41" y2="0.44" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset="0.06" stop-color="#0a7cd7"/>
-      <stop offset="0.34" stop-color="#2e8ce1"/>
-      <stop offset="0.59" stop-color="#4897e9"/>
-      <stop offset="0.82" stop-color="#589eed"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Windows10 Core Services (sketch)</title>
 
-  <g transform="scale(7.111111)">
+  
+  <desc>
+    Hand-drawn Azure-blue gear with a small cyan security
+    shield and white padlock, surrounded by a clockwise
+    green update arrow. Flat fills, irregular charcoal
+    marker outlines, and transparent background.
+  </desc>
 
-    <!-- Original gear silhouette -->
-    <path d="M15.23,3.76 13.85,2.42h-.14l-1.86,1-1.33-.59L9.68.44 7.75.46 7.66.73 7,2.81l-1.33.57-2.26-1L2.07,3.73 2.21,4l1,1.93L2.68,7.26.36,8.13v1.95l.27.09 2.08.64.57,1.33-1,2.27 1.39,1.35.25-.14 1.93-1 .62.76 1.6,2.11 1.93,0 .09-.27L10.78,16l1.1-.55 2.18-.13 1.36-1.39V13.8l.27-1 .79-2.37ZM8.87,13.33A4.37,4.37 0 1 1 13.23,9 4.36,4.36 0 0 1 8.87,13.33Z" fill="url(#gearGradient)" stroke="#267fc5" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Azure-blue gear silhouette -->
+  <path d="M55 4        L68 4        L73 20        Q79 21 85 24        L99 17        L109 27        L102 41        Q106 47 108 53        L121 59        L121 72        L108 77        Q106 85 102 91        L106 102        L96 112        L84 106        Q78 110 72 112        L67 124        L54 124        L48 111        Q42 109 37 105        L25 111        L16 101        L22 89        Q18 83 17 77        L4 72        L4 59        L17 54        Q19 47 23 42        L17 29        L27 19        L40 25        Q45 22 50 20        Z         M63 35        C45 35 31 49 31 67        C31 85 45 99 63 99        C81 99 95 85 95 67        C95 49 81 35 63 35        Z" fill="#4394E7" fill-rule="evenodd" stroke="#203746" stroke-width="3.5"/>
 
-    <!-- Outer shield: original proportions and position -->
-    <path d="M11.88,8.89c0,1.94-2.39,3.5-2.91,3.82a.23.23 0 0 1-.2,0c-.52-.32-2.9-1.88-2.9-3.82V6.56a.19.19 0 0 1 .18-.19c1.86,0 1.43-.85,2.82-.85s1,.8,2.82.85a.2.2 0 0 1 .19.19Z" fill="#32bedd" stroke="#159cba" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Cyan security shield: compact relative to gear -->
+  <path d="M62 43        Q68 43 72 47        Q77 49 83 49        Q85 49 85 52        L85 68        C85 80 72 89 64 94        Q63 95 61 94        C53 89 41 80 41 68        L41 52        Q41 49 44 49        Q51 49 55 46        Q58 43 62 43 Z" fill="#32BEDD" stroke="#203746" stroke-width="2.8"/>
 
-    <!-- Inner shield -->
-    <path d="M11.63,8.91c0,1.78-2.19,3.21-2.67,3.5a.19.19 0 0 1-.18,0c-.48-.29-2.66-1.72-2.66-3.5V6.77a.17.17 0 0 1 .16-.17c1.71,0,1.32-.78,2.59-.78s.89.74,2.59.78a.18.18 0 0 1 .17.17Z" fill="#50e6ff" stroke="#37c8e7" stroke-width=".025" stroke-linejoin="round"/>
+  <!-- Inner flat cyan shield face -->
+  <path d="M63 47        Q69 47 73 51        Q77 53 81 53        L81 68        C81 77 71 85 63 90        C55 85 45 77 45 68        L45 53        Q52 53 57 49        Q60 47 63 47 Z" fill="#50E6FF" stroke="#203746" stroke-width="1.5"/>
 
-    <!-- Original lock, unchanged in size and placement -->
-    <path d="M10.08,8.56H9.91V8a1.14,1.14 0 0 0-.3-.77.94.94 0 0 0-.74-.32 1,1 0 0 0-.74.32 1.14,1.14 0 0 0-.3.77v.6H7.66a.14.14 0 0 0-.14.14v1.56a.14.14 0 0 0 .14.13h2.42a.13.13 0 0 0 .14-.13V8.7a.14.14 0 0 0-.14-.14Zm-.66,0H8.32V8a.59.59 0 0 1 .17-.42.52.52 0 0 1 .38-.17.5.5 0 0 1 .38.17l.07.08h0a.67.67 0 0 1 .1.34Z" fill="#f2f2f2" stroke="#d7e5e9" stroke-width=".025" stroke-linejoin="round"/>
+  <!-- Small white padlock shackle -->
+  <path d="M56 65        L56 60        C56 55 59 52 63 52        C67 52 70 55 70 60        L70 65        L66 65        L66 60        Q66 56 63 56        Q60 56 60 60        L60 65 Z" fill="#F2F2F2" stroke="#203746" stroke-width="1.8"/>
 
-    <!-- Original green circular arrow: direction and geometry preserved -->
-    <path d="M14.16,2.39 14.87.92A.15.15 0 0 0 14.8.71h-.08l-5.51.42a.16.16 0 0 0-.14.17.13.13 0 0 0 0,.08l3.12,4.5a.16.16 0 0 0 .22,0l.05-.06.62-1.29a.17.17 0 0 1 .21-.08l0,0A6.33,6.33 0 0 1 15.61,9a6.42,6.42 0 0 1-6.29,6.56 6.68,6.68 0 0 1-3.11-.7.16.16 0 0 0-.21.06L5.18,16.4a.16.16 0 0 0 .06.21h0A8.52,8.52 0 0 0 16.69,13a8.31,8.31 0 0 0 .95-4.08A8.42,8.42 0 0 0 14.2,2.58a.17.17 0 0 1-.04-.19Z" fill="#86d633" stroke="#70bd2b" stroke-width=".025" stroke-linejoin="round"/>
+  <!-- Small white padlock body -->
+  <path d="M54 64        Q54 62 56 62        L70 62        Q72 62 72 64        L72 75        Q72 77 70 77        L56 77        Q54 77 54 75 Z" fill="#F2F2F2" stroke="#203746" stroke-width="2"/>
 
-  </g>
+  <!-- Clockwise green update arrow:
+       arrowhead upper-right, arc around right and bottom -->
+  <path d="M101 18        C116 29 124 46 124 64        C124 97 97 123 64 123        C54 123 44 120 35 115" fill="none" stroke="#203746" stroke-width="11"/>
+
+  <path d="M101 18        C116 29 124 46 124 64        C124 97 97 123 64 123        C54 123 44 120 35 115" fill="none" stroke="#86D633" stroke-width="7"/>
+
+  <!-- Green arrowhead pointing up-left -->
+  <path d="M101 18        L88 8        Q86 6 88 6        L124 3        Q127 3 125 7        L112 37        Q111 39 109 36        L102 24 Z" fill="#86D633" stroke="#203746" stroke-width="3" stroke-linejoin="round"/>
+
 </svg>

@@ -1,1 +1,38 @@
-<svg id="uuid-1e020a33-fd11-4123-94f7-60b023fbd868" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Foundry Project (sketch)</title><defs><linearGradient id="uuid-ffdc8327-6dd4-457d-91e5-79ab6754f3f5" x1="-608.13" y1="-206.36" x2="-608.13" y2="-222.59" gradientTransform="translate(617.13 -205.76) scale(1 -1)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b6b6e1"/><stop offset="1" stop-color="#7372d8"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><path d="M17.46,3.36h-7.74c-.08,0-.16-.02-.23-.07l-2.21-1.47c-.07-.05-.15-.07-.23-.07H.54c-.11,0-.22.04-.3.12-.08.08-.12.18-.12.3v13.67c0,.05.01.11.03.16.02.05.05.1.09.14.04.04.08.07.14.09.05.02.1.03.16.03h16.91c.05,0,.11-.01.16-.03.05-.02.1-.05.14-.09.04-.04.07-.08.09-.14.02-.05.03-.11.03-.16V3.77c0-.11-.05-.21-.12-.29-.08-.08-.18-.12-.29-.12Z" fill="#4846df" stroke="#3938c4" stroke-width=".025"/><path d="M5.6,2.54H1.91c-.09,0-.17.08-.17.17v.47c0,.09.08.17.17.17h3.7c.09,0,.17-.08.17-.17v-.47c0-.09-.08-.17-.17-.17Z" fill="#fff"/><path d="M17.46,3.34h-8.5c-.11,0-.22.04-.3.12l-1.36,1.37c-.08.08-.18.12-.3.12H.54c-.05,0-.11.01-.16.03-.05.02-.1.05-.14.09-.04.04-.07.08-.09.14-.02.05-.03.1-.03.16v10.44c0,.11.04.22.12.3.08.08.18.12.3.12h16.91c.11,0,.22-.04.3-.12.08-.08.12-.18.12-.3V3.75c0-.11-.04-.22-.12-.3-.08-.08-.18-.12-.3-.12h0Z" fill="url(#uuid-ffdc8327-6dd4-457d-91e5-79ab6754f3f5)" stroke="#7772d8" stroke-width=".025"/><path d="M12.6,8.43h-.8s-.07.02-.1.02l-.04-.13c-.1-.3-.24-.73-.29-.89-.15-.46-.42-.99-.87-1.03v-.02h-1.57c-.6,0-.99.65-1.3,1.28-.37.78-2.15,5.49-2.21,5.67-.1.27-.09.48.03.64.11.16.3.24.58.24h2.62c1.26,0,1.82-1,1.82-2v-.58l.09.15h.03c.05.03.11.05.17.05h.89c.5,0,1.47-.43,1.47-1.41v-1.49c0-.31-.2-.51-.5-.51h0ZM11.16,8.48l.03.09c-.11.06-.21.13-.3.22-.02.01-.03.03-.04.05-.09.09-.16.19-.22.29-.02.04-.04.08-.06.12-.05.13-.09.27-.09.41v.34s-.02-.05-.02-.08v-1c0-.18,0-.36,0-.53,0-.05,0-.09,0-.14,0-.15.01-.29.02-.42,0-.06,0-.11.01-.16,0-.08.01-.15.02-.22,0-.05.01-.1.02-.15.01-.09.02-.17.04-.24,0-.02,0-.03,0-.04.08.11.19.31.28.58.05.16.19.58.29.88h0ZM9.93,12.22c0,.25-.06,1.48-1.29,1.48h-2.62c-.09,0-.13-.01-.15-.01h0s0-.06.03-.17c.07-.2,1.84-4.88,2.19-5.62.32-.66.59-.99.83-.99h1.16c-.07.3-.12.8-.14,1.57,0,.22,0,.39,0,.44v3.3ZM12.58,10.43c0,.72-.82.89-.95.89h-.63v-1.67c0-.08.02-.16.06-.23,0-.02.03-.04.04-.06.03-.05.07-.11.12-.16.02-.02.04-.03.06-.05.06-.05.12-.09.19-.12.02,0,.03-.02.05-.02.09-.04.19-.06.29-.06h.78v1.48Z" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Foundry Project (sketch)</title>
+  
+  <desc>
+    Lavender Azure Foundry project folder with raised tab
+    and the original connected white Foundry ribbon symbol.
+    Flat fills, uneven charcoal marker outlines,
+    transparent background, and no extra geometry.
+  </desc>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Rear folder with raised tab -->
+    <path d="M5 15          Q5 12 9 12          L49 12          Q51 12 53 14          L69 24          Q70 25 73 25          L122 25          Q126 25 126 29          L126 111          L5 111          Z" fill="#4846DF" stroke="#343244" stroke-width="3.2"/>
+
+    <!-- Small white folder tab label -->
+    <path d="M16 18          Q16 17 18 17          L39 17          Q41 17 41 19          L41 22          Q41 23 39 23          L18 23          Q16 23 16 22          Z" fill="#FFFFFF" stroke="#353344" stroke-width="1.8"/>
+
+    <!-- Front folder silhouette -->
+    <path d="M5 36          Q5 33 9 33          L49 33          Q51 33 53 31          L62 22          Q64 20 67 20          L122 20          Q126 20 126 24          L126 111          Q126 115 122 115          L9 115          Q5 115 5 111          Z" fill="#9998DE" stroke="#353344" stroke-width="3.5"/>
+
+    <!-- Connected white Foundry ribbon:
+         left rising body, upright middle fold,
+         and rightward projecting curved loop -->
+
+    <!-- Main rising ribbon body -->
+    <path d="M38 91          C37 88 39 84 41 79          L54 46          C57 38 61 34 67 34          L78 34          C81 34 84 36 86 41          L91 55          Q92 58 93 61          L87 61          Q84 60 83 57          L79 44          Q78 41 76 41          L69 41          Q67 41 66 45          L51 88          Q49 94 44 94          L41 94          Q38 94 38 91          Z" fill="#FFFFFF" stroke="#36354B" stroke-width="2.5"/>
+
+    <!-- Continuous ribbon interior and lower sweep -->
+    <path d="M69 41          L76 41          Q73 44 73 51          Q72 58 72 64          L72 80          Q72 91 61 91          L45 91          Q48 89 51 82          L60 58          Q63 49 66 44          Q67 42 69 41          Z" fill="#FFFFFF" stroke="#36354B" stroke-width="2.3"/>
+
+    <!-- Right ribbon loop, joined to central upright -->
+    <path d="M72 61          Q76 55 84 55          L90 55          Q94 55 94 59          L94 70          Q94 78 86 80          Q84 81 81 81          L72 81          L72 74          L81 74          Q87 74 87 69          L87 62          L84 62          Q80 62 79 66          L79 81          L72 81          Z" fill="#FFFFFF" stroke="#36354B" stroke-width="2.3"/>
+
+    <!-- Negative-space opening inside upper ribbon -->
+    <path d="M76 43          Q78 45 79 49          L83 59          Q78 58 74 61          Q74 49 76 43          Z" fill="#9998DE" stroke="#36354B" stroke-width="1.8"/>
+
+  </g>
+</svg>

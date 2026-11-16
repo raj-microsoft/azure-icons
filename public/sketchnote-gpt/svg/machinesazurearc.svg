@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>MachinesAzureArc (sketch)</title><defs><linearGradient id="fa1955a2-9167-4a48-9f06-e30210fc6ef7" x1="9.23" x2="9.23" y2="18" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a67af4"/><stop offset="0.999" stop-color="#773adc"/></linearGradient></defs><g transform="scale(7.111111)"><g id="e09ece90-33de-4b2f-a5a3-49ac04dc41bb"><path d="M15.074,17.39A.645.645,0,0,1,14.4,18H4.062a.645.645,0,0,1-.675-.61V.61A.645.645,0,0,1,4.062,0H14.4a.645.645,0,0,1,.675.61Z" fill="url(#fa1955a2-9167-4a48-9f06-e30210fc6ef7)" stroke="#773adc" stroke-width=".055" stroke-linejoin="round"/><path d="M13.461,7.7a1.34,1.34,0,0,0-1.27-1.4H6.375a1.34,1.34,0,0,0-1.27,1.4h0a1.34,1.34,0,0,0,1.27,1.4h5.816a1.34,1.34,0,0,0,1.27-1.4Z" fill="#552f99"/><path d="M13.461,3.537a1.34,1.34,0,0,0-1.27-1.4H6.375a1.34,1.34,0,0,0-1.27,1.4h0a1.34,1.34,0,0,0,1.27,1.4h5.816a1.34,1.34,0,0,0,1.27-1.4Z" fill="#552f99"/><circle cx="11.826" cy="3.537" r="0.939" fill="#50e6ff"/><circle cx="11.826" cy="7.695" r="0.939" fill="#50e6ff"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>MachinesAzureArc (sketch)</title>
+  
+  <desc>Flat purple Azure Arc machine tower with two recessed horizontal server slots and cyan status lights, rendered with uneven charcoal marker outlines.</desc>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Main purple machine enclosure -->
+    <path d="M29 4          Q29 1 33 1          L99 1          Q103 1 103 5          L103 123          Q103 127 99 127          L33 127          Q29 127 29 123          Z" fill="#9357E9" stroke="#35313F" stroke-width="3.5"/>
+
+    <!-- Upper recessed server slot -->
+    <path d="M50 17          Q43 17 42 24          Q41 31 46 34          Q48 35 51 35          L84 35          Q91 35 93 29          Q95 23 91 19          Q89 17 85 17          Z" fill="#552F99" stroke="#30283C" stroke-width="3.1"/>
+
+    <!-- Upper cyan status indicator -->
+    <path d="M85 20          C89 20 92 23 92 27          C92 31 89 34 85 34          C81 34 78 31 78 27          C78 23 81 20 85 20          Z" fill="#50E6FF" stroke="#263943" stroke-width="2.2"/>
+
+    <!-- Lower recessed server slot -->
+    <path d="M50 47          Q43 47 42 54          Q41 61 46 64          Q48 65 51 65          L84 65          Q91 65 93 59          Q95 53 91 49          Q89 47 85 47          Z" fill="#552F99" stroke="#30283C" stroke-width="3.1"/>
+
+    <!-- Lower cyan status indicator -->
+    <path d="M85 50          C89 50 92 53 92 57          C92 61 89 64 85 64          C81 64 78 61 78 57          C78 53 81 50 85 50          Z" fill="#50E6FF" stroke="#263943" stroke-width="2.2"/>
+
+  </g>
+</svg>

@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>CDN Profiles (sketch)</title><defs><linearGradient id="cdn-cloud" x1="10.79" y1="2.17" x2="10.79" y2="16.56" gradientUnits="userSpaceOnUse"><stop offset=".18" stop-color="#5ea0ef"/><stop offset="1" stop-color="#0078d4"/></linearGradient></defs><g transform="scale(7.111111)"><g stroke-linecap="round" stroke-linejoin="round"><rect x="3.7" y="5.49" width="1.18" height="5.26" rx=".52" transform="translate(-3.83 12.41) rotate(-90)" fill="#b3b3b3" stroke="#999999" stroke-width=".025"/><rect x="2.04" y="7.88" width="1.18" height="5.26" rx=".52" transform="translate(-7.88 13.14) rotate(-90)" fill="#a3a3a3" stroke="#898989" stroke-width=".025"/><rect x="3.7" y="10.26" width="1.18" height="5.26" rx=".52" transform="translate(-8.6 17.19) rotate(-90)" fill="#7a7a7a" stroke="#686868" stroke-width=".025"/></g><path d="M18 11a3.28 3.28 0 0 0-2.81-3.18 4.13 4.13 0 0 0-4.21-4 4.23 4.23 0 0 0-4 2.8 3.89 3.89 0 0 0-3.38 3.8 4 4 0 0 0 4.06 3.86l.36 0h6.58l.17 0A3.32 3.32 0 0 0 18 11Z" fill="url(#cdn-cloud)" stroke="#1769aa" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>CDN Profiles (sketch)</title>
+  
+  <desc>
+    Azure CDN Profiles icon with three horizontal grey
+    delivery lines and a solid Azure-blue cloud.
+    Flat colors, uneven charcoal marker outlines,
+    transparent background, and no internal arrows.
+  </desc>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Upper grey delivery line -->
+    <path d="M10 40          Q7 40 7 43          Q7 46 10 46          L39 46          Q42 46 42 43          Q42 40 39 40          Z" fill="#B3B3B3" stroke="#383B40" stroke-width="2.4"/>
+
+    <!-- Middle grey delivery line -->
+    <path d="M2 57          Q0 57 0 60          Q0 63 3 63          L32 63          Q35 63 35 60          Q35 57 32 57          Z" fill="#A3A3A3" stroke="#383B40" stroke-width="2.4"/>
+
+    <!-- Lower grey delivery line -->
+    <path d="M10 74          Q7 74 7 77          Q7 80 10 80          L39 80          Q42 80 42 77          Q42 74 39 74          Z" fill="#7A7A7A" stroke="#383B40" stroke-width="2.4"/>
+
+    <!-- Main Azure CDN cloud -->
+    <path d="M54 101          C39 101 27 90 27 75          C27 61 37 50 50 48          C56 33 69 25 83 26          C100 26 112 38 114 54          C126 57 133 67 132 80          C131 91 122 100 110 101          Q107 102 103 101          L58 101          Q56 102 54 101          Z" transform="translate(-6 0)" fill="#268CE0" stroke="#293D4D" stroke-width="3.8"/>
+
+  </g>
+</svg>
