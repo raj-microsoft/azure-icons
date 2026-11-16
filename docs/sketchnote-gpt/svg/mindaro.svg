@@ -1,38 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Mindaro (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Mindaro (sketch)</title>
   
-  <defs>
-    <linearGradient id="code-gradient" x1="13.8" y1="4.27" x2="13.8" y2="9.34" gradientTransform="matrix(1 0 0 -1 0 20)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset=".16" stop-color="#1380da"/>
-      <stop offset=".53" stop-color="#3c91e5"/>
-      <stop offset=".82" stop-color="#559cec"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-  </defs>
 
-  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
-
-    <!-- Upper rear cube -->
-    <polygon points="13.23 2.49 13.23 7.33 9.08 9.76 9.08 4.91" fill="#949494" stroke="#858585" stroke-width=".07"/>
-    <polygon points="13.23 2.49 9.08 4.92 4.93 2.49 9.08 .07" fill="#b3b3b3" stroke="#929292" stroke-width=".07"/>
-    <polygon points="9.08 4.92 9.08 9.76 4.93 7.33 4.93 2.49" fill="#e6e6e6" stroke="#b3b3b3" stroke-width=".07"/>
-
-    <!-- Lower-left cube: preserve original position and spacing -->
-    <polygon points="8.61 10.67 8.61 15.49 4.47 17.92 4.47 13.09" fill="#949494" stroke="#858585" stroke-width=".07"/>
-    <polygon points="8.61 10.67 4.47 13.1 .31 10.67 4.47 8.24" fill="#b3b3b3" stroke="#929292" stroke-width=".07"/>
-    <polygon points="4.47 13.1 4.47 17.92 .31 15.49 .31 10.67" fill="#e6e6e6" stroke="#b3b3b3" stroke-width=".07"/>
-
-    <!-- Lower-right code cube -->
-    <polygon points="13.74 8.23 9.59 10.66 9.59 15.51 13.74 17.93 17.9 15.51 17.9 10.66" fill="#50e6ff" stroke="#22b9db" stroke-width=".07"/>
-
-    <!-- Code panel -->
-    <path d="M16.75 15.74h-5.86a.57.57 0 0 1-.56-.58v-3.95a.51.51 0 0 1 .47-.55h5.91a.6.6 0 0 1 .56.59v3.9a.52.52 0 0 1-.43.59z" fill="url(#code-gradient)" stroke="#0078d4" stroke-width=".07"/>
-
-    <!-- Left code bracket: no slash -->
-    <path d="M12.84 14.78l-1.57-1.55a.18.18 0 0 1 0-.24l1.6-1.49a.18.18 0 0 1 .22 0l.14.14a.15.15 0 0 1 0 .22L12 13a.17.17 0 0 0 0 .23l1.21 1.24a.14.14 0 0 1 0 .21l-.1.1a.16.16 0 0 1-.22 0z" fill="#f2f2f2"/>
-
-    <!-- Right code bracket: no slash -->
-    <path d="M14.72 14.78l1.56-1.55a.16.16 0 0 0 0-.24L14.64 11.5a.15.15 0 0 0-.22 0l-.11.12a.16.16 0 0 0 0 .22L15.55 13a.16.16 0 0 1 0 .24l-1.19 1.22a.14.14 0 0 0 0 .21l.09.09a.14.14 0 0 0 .2.07z" fill="#f2f2f2"/>
-
+  <!-- Top grey cube -->
+  <g>
+    <path d="M64 8 L92 24 L92 56 L64 72 L36 56 L36 24 Z" fill="#B3B3B3" stroke="#3F3F3F" stroke-width="3.2"/>
+    <path d="M64 8 L36 24 L64 40 L92 24 Z" fill="#B3B3B3" stroke="#3F3F3F" stroke-width="3.2"/>
+    <path d="M64 40 L92 24 L92 56 L64 72 Z" fill="#949494" stroke="#3F3F3F" stroke-width="3.2"/>
+    <path d="M64 40 L36 24 L36 56 L64 72 Z" fill="#E6E6E6" stroke="#3F3F3F" stroke-width="3.2"/>
+    <path d="M42 26 L61 37 M69 37 L86 27 M42 51 L60 62" stroke="#FFFFFF" stroke-width="1.8" opacity=".75"/>
   </g>
+
+  <!-- Lower-left grey cube -->
+  <g>
+    <path d="M31 58 L59 74 L59 106 L31 122 L3 106 L3 74 Z" fill="#B3B3B3" stroke="#3F3F3F" stroke-width="3.2"/>
+    <path d="M31 58 L3 74 L31 90 L59 74 Z" fill="#B3B3B3" stroke="#3F3F3F" stroke-width="3.2"/>
+    <path d="M31 90 L59 74 L59 106 L31 122 Z" fill="#949494" stroke="#3F3F3F" stroke-width="3.2"/>
+    <path d="M31 90 L3 74 L3 106 L31 122 Z" fill="#E6E6E6" stroke="#3F3F3F" stroke-width="3.2"/>
+    <path d="M10 76 L28 86 M36 88 L54 78 M10 101 L28 112" stroke="#FFFFFF" stroke-width="1.8" opacity=".75"/>
+  </g>
+
+  <!-- Right developer cube -->
+  <g>
+    <path d="M97 57 L125 73 L125 105 L97 121 L69 105 L69 73 Z" fill="#50E6FF" stroke="#124C77" stroke-width="3.2"/>
+    <path d="M97 57 L69 73 L97 89 L125 73 Z" fill="#50E6FF" stroke="#124C77" stroke-width="3.2"/>
+    <path d="M97 89 L125 73 L125 105 L97 121 Z" fill="#36BFFA" stroke="#124C77" stroke-width="3.2"/>
+    <path d="M97 89 L69 73 L69 105 L97 121 Z" fill="#1FA7F0" stroke="#124C77" stroke-width="3.2"/>
+
+    <!-- Front code panel -->
+    <path d="M76 76 Q76 73 79 73 L114 73 Q118 73 118 77 L118 102 Q118 105 115 105 L79 105 Q76 105 76 101 Z" fill="#2D86E3" stroke="#124C77" stroke-width="3"/>
+
+    <!-- Code brackets only: no slash -->
+    <path d="M90 83 L82 89 L90 96" stroke="#123E60" stroke-width="6"/>
+    <path d="M90 83 L82 89 L90 96" stroke="#F2F2F2" stroke-width="3.6"/>
+    <path d="M104 83 L112 89 L104 96" stroke="#123E60" stroke-width="6"/>
+    <path d="M104 83 L112 89 L104 96" stroke="#F2F2F2" stroke-width="3.6"/>
+
+    <path d="M74 75 L94 87 M102 88 L119 77" stroke="#FFFFFF" stroke-width="1.8" opacity=".7"/>
+  </g>
+
+  <!-- Small restrained yellow accents -->
+  <path d="M108 49 L111 44 L114 49 L119 52 L114 55 L111 60 L108 55 L103 52 Z" fill="#FFCA28" stroke="#3F3F3F" stroke-width="2"/>
+  <path d="M61 92 L64 88 L67 92" stroke="#FFCA28" stroke-width="3"/>
+  <path d="M25 16 L30 13 M32 20 L36 18 M113 114 L118 111 M120 117 L124 115" stroke="#0D6FB8" stroke-width="1.8" opacity=".75"/>
 </svg>

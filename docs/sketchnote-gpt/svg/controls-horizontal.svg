@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Controls Horizontal (sketch)</title><defs><linearGradient id="green" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#76bc2d"/><stop offset=".312" stop-color="#72b62c"/><stop offset="1" stop-color="#5e9624"/></linearGradient></defs><g transform="scale(7.111111)"><g fill="#5e9624"><rect x="0" y="2.309" width="18" height="2.494" rx=".596"/><rect x="0" y="7.812" width="18" height="2.494" rx=".596"/><rect x="0" y="13.229" width="18" height="2.494" rx=".596"/></g><g fill="url(#green)"><rect x="6.162" y="2.309" width="11.838" height="2.494" rx=".596"/><rect x="14.255" y="7.812" width="3.744" height="2.494" rx=".596"/><rect x="6.162" y="13.229" width="11.838" height="2.494" rx=".596"/></g><g fill="none" stroke="#47791f" stroke-width=".055" stroke-linecap="round" stroke-linejoin="round"><path d="M.10 2.92 C.10 2.69 .23 2.60 .48 2.61 L17.55 2.62 C17.79 2.62 17.91 2.73 17.90 2.96 L17.89 4.15 C17.88 4.40 17.76 4.51 17.52 4.51 L.47 4.51 C.22 4.51 .10 4.40 .10 4.16 Z"/><path d="M.10 8.43 C.10 8.20 .23 8.11 .48 8.11 L17.55 8.12 C17.79 8.12 17.91 8.23 17.90 8.46 L17.89 9.65 C17.88 9.90 17.76 10.01 17.52 10.01 L.47 10.01 C.22 10.01 .10 9.90 .10 9.66 Z"/><path d="M.10 13.85 C.10 13.62 .23 13.53 .48 13.53 L17.55 13.54 C17.79 13.54 17.91 13.65 17.90 13.88 L17.89 15.07 C17.88 15.32 17.76 15.43 17.52 15.43 L.47 15.43 C.22 15.43 .10 15.32 .10 15.08 Z"/></g><g fill="none" stroke="#8bc34a" stroke-width=".035" stroke-linecap="round" opacity=".55"><path d="M6.35 2.47 Q11.8 2.44 17.75 2.47"/><path d="M14.40 7.98 Q16.1 7.94 17.78 7.98"/><path d="M6.35 13.39 Q11.8 13.36 17.75 13.39"/></g><g fill="#e6e6e6"><rect x="6.034" y="1.673" width="1.178" height="3.766" rx=".589"/><rect x="13.965" y="7.125" width="1.178" height="3.766" rx=".589"/><rect x="6.034" y="12.561" width="1.178" height="3.766" rx=".589"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Controls Horizontal (sketch)</title>
+  
+
+  <!-- Top horizontal green bar -->
+  <path d="M9 18 Q5 18 5 23 L5 30 Q5 34 10 34 L118 34 Q123 34 123 30 L123 23 Q123 18 118 18Z" fill="#5E9624" stroke="#355A20" stroke-width="2.8"/>
+
+  <!-- Top bright section -->
+  <path d="M51 18.5 L118 18 Q123 18 123 23 L123 30 Q123 34 118 34 L51 33.5Z" fill="#76BC2D" stroke="#355A20" stroke-width="1.8"/>
+
+  <!-- Top narrow white gap, contained within bar -->
+  <path d="M43 19 L50 19.2 L50 33 L43 33.2Z" fill="#E6E6E6" stroke="#355A20" stroke-width="1.3"/>
+
+  <!-- Middle horizontal green bar -->
+  <path d="M9 56 Q5 56 5 61 L5 68 Q5 72 10 72 L118 72 Q123 72 123 68 L123 61 Q123 56 118 56Z" fill="#5E9624" stroke="#355A20" stroke-width="2.8"/>
+
+  <!-- Middle short bright section -->
+  <path d="M109 56.5 L118 56 Q123 56 123 61 L123 68 Q123 72 118 72 L109 71.5Z" fill="#76BC2D" stroke="#355A20" stroke-width="1.7"/>
+
+  <!-- Middle narrow white gap -->
+  <path d="M101 57 L108 57.2 L108 71 L101 71.2Z" fill="#E6E6E6" stroke="#355A20" stroke-width="1.3"/>
+
+  <!-- Bottom horizontal green bar -->
+  <path d="M9 94 Q5 94 5 99 L5 106 Q5 110 10 110 L118 110 Q123 110 123 106 L123 99 Q123 94 118 94Z" fill="#5E9624" stroke="#355A20" stroke-width="2.8"/>
+
+  <!-- Bottom bright section -->
+  <path d="M51 94.5 L118 94 Q123 94 123 99 L123 106 Q123 110 118 110 L51 109.5Z" fill="#76BC2D" stroke="#355A20" stroke-width="1.8"/>
+
+  <!-- Bottom narrow white gap -->
+  <path d="M43 95 L50 95.2 L50 109 L43 109.2Z" fill="#E6E6E6" stroke="#355A20" stroke-width="1.3"/>
+
+  <!-- Subtle freehand marker contours -->
+  <path d="M11 22 Q25 21 39 22 M55 22 Q84 21 113 22            M11 60 Q48 59 83 60 M112 60 L117 60            M11 98 Q25 97 39 98 M55 98 Q84 97 113 98" stroke="#A2D86C" stroke-width="1.8" opacity=".75"/>
+
+  <!-- Minimal sketchnote accents -->
+  <path d="M37 12 L34 8 M113 49 L117 45" stroke="#0078D4" stroke-width="2.3"/>
+  <path d="M53 12 L57 8 M112 79 L116 76 M53 116 L57 120" stroke="#FFCA28" stroke-width="2.6"/>
+</svg>
