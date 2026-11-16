@@ -1,21 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Security (sketch)</title>
-  <defs>
-    <linearGradient id="shieldBlue" x1="64" y1="119.25" x2="64" y2="8.57" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset=".064" stop-color="#0a7cd7"/>
-      <stop offset=".338" stop-color="#2e8ce1"/>
-      <stop offset=".594" stop-color="#4897e9"/>
-      <stop offset=".822" stop-color="#589eed"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Original filled shield -->
-  <path d="M110.22 60.34        C110.18 90.12 73.52 114.12 65.18 119.05        A.412.412 0 0 1 62.75 119.05        C54.06 114.12 17.78 90.12 17.78 60.34        V24.47        A.4.4 0 0 1 18.18 24.07        C49.19 21.2 42.61 8.57 64 8.57        C85.39 8.57 78.81 21.2 109.82 24.07        A.4.4 0 0 1 110.22 24.47        Z" fill="url(#shieldBlue)"/>
-
-  <!-- Left half of the original outer contour -->
-  <path d="M64 9        C42.61 8.57 49.19 21.2 18.18 24.07        A.4.4 0 0 0 17.78 24.47        V60.34        C17.78 90.12 54.06 114.12 62.75 119.05" fill="none" stroke="#0063b1" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Right half of the original outer contour -->
-  <path d="M64 9        C85.39 8.57 78.81 21.2 109.82 24.07        A.4.4 0 0 1 110.22 24.47        V60.34        C110.18 90.12 73.52 114.12 65.18 119.05" fill="none" stroke="#0063b1" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <path d="M64 9.5 C75 9 80 21.5 111 23 Q116 23 116 28 L115.5 59 C115 85 85 108 66 120 Q63 122 60 120 C39 107 12 85 12 59 L12.5 28 Q12 23 17 23 C46 22 52 9 64 9.5Z" fill="#2389DC" stroke="#123E60" stroke-width="4.2" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M64 10 C75 10 81 22 111 23 L112 53 C112 82 83 106 64 118 L64 10Z" fill="#52A0EB" stroke="none"/>
+  <path d="M64 10 C53 10 46 22 17 23 L16 59 C16 84 43 107 64 118Z" fill="#0878D0" stroke="none"/>
+  <path d="M64 9.5 C75 9 80 21.5 111 23 Q116 23 116 28 L115.5 59 C115 85 85 108 66 120 Q63 122 60 120 C39 107 12 85 12 59 L12.5 28 Q12 23 17 23 C46 22 52 9 64 9.5Z" fill="none" stroke="#123E60" stroke-width="4.2" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M64 15 C75 15 83 27 108 28 L108.5 58 C108 81 81 104 64 114 C45 103 19 81 19 59 L19 28 C44 27 53 15 64 15Z" fill="none" stroke="#164D76" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" opacity=".55"/>
+  <path d="M25 39 L28 36 L32 39" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M95 37 L99 33 L102 36" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M91 96 L96 92" fill="none" stroke="#FFCA28" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 57 Q23 70 30 79 M100 65 Q98 76 92 83" fill="none" stroke="#123E60" stroke-width="1.5" stroke-linecap="round" opacity=".48"/>
 </svg>

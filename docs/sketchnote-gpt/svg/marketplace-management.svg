@@ -1,51 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Marketplace Management (sketch)</title>
-  <defs>
-    <linearGradient id="building" x1="8.18" y1="6.52" x2="8.18" y2="15.24" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset=".48" stop-color="#f6f6f6"/>
-      <stop offset="1" stop-color="#e6e6e6"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Marketplace Management (sketch)</title>
+  
+  <desc>Hand-drawn cyan marketplace bag containing a tall narrow white building with three columns of small windows, two overlapping grey handles, and subtle yellow marker accents.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Rear right edge and folded side -->
-    <path d="M15.14 4.7h-1v12.81l1-1.93Z" fill="#50e6ff"/>
-    <path d="M15.14 15.57l-1 1.94 1-.8 1.23-.95Z" fill="#9cebff"/>
+  <!-- Rear bag side -->
+  <path d="M100 33.5            L108 33.7            L110 108            L100 121 Z" fill="#50E6FF" stroke="#174E65" stroke-width="3.2"/>
 
-    <!-- Two original arched handles -->
-    <path d="M8.57 2.79A1.57 1.57 0 0 1 10.2 1.28a1.57 1.57 0 0 1 1.62 1.51V4.7h.79V2.79a2.41 2.41 0 0 0-4.82 0V4.7h.78Z" fill="#a3a3a3"/>
-    <path d="M6.18 2.79A1.57 1.57 0 0 1 7.8 1.28a1.57 1.57 0 0 1 1.63 1.51V4.7h.78V2.79A2.36 2.36 0 0 0 7.8.49a2.35 2.35 0 0 0-2.4 2.3V4.7h.78Z" fill="#767676"/>
+  <!-- Rear folded side panel -->
+  <path d="M108 33.7            L114 34            L117 109            L110 108 Z" fill="#32BEDD" stroke="#174E65" stroke-width="2.8"/>
 
-    <!-- Main tall building silhouette -->
-    <polygon points="14.1 4.7 14.1 17.51 1.63 16.52 2 4.7" fill="#32bedd"/>
-    <polygon points="15.14 4.7 15.14 15.58 16.37 15.76 16 4.7" fill="#32bedd"/>
+  <!-- Lower side fold -->
+  <path d="M100 121            L110 108            L117 109            L109 117 Z" fill="#9CEBFF" stroke="#174E65" stroke-width="2.8"/>
 
-    <!-- Original single vertical building facade -->
-    <path d="M10.41 6.52H6a.29.29 0 0 0-.29.29v8a.29.29 0 0 0 .29.29l4.46.14a.28.28 0 0 0 .28-.29V6.81a.28.28 0 0 0-.33-.29Z" fill="url(#building)"/>
+  <!-- Rear grey handle -->
+  <path d="M42 33            L42 19.9            C42 9.7 49 4.1 57.7 4.2            C66.1 4.2 73.2 10.6 73.2 20            L73.2 33" stroke="#444B50" stroke-width="7"/>
 
-    <!-- Original window arrangement: three vertical columns -->
-    <g fill="#50a9cf">
-      <rect x="6.25" y="7.27" width=".89" height="1.06" rx=".08"/>
-      <rect x="6.25" y="9.2" width=".89" height="1.06" rx=".08"/>
-      <rect x="6.25" y="11.12" width=".89" height="1.06" rx=".08"/>
+  <path d="M42 33            L42 19.9            C42 9.7 49 4.1 57.7 4.2            C66.1 4.2 73.2 10.6 73.2 20            L73.2 33" stroke="#A3A3A3" stroke-width="4.1"/>
 
-      <rect x="7.7" y="7.27" width=".89" height="1.06" rx=".07"/>
-      <rect x="7.7" y="9.2" width=".89" height="1.06" rx=".07"/>
-      <rect x="7.7" y="11.12" width=".89" height="1.06" rx=".07"/>
-      <rect x="7.7" y="13.05" width=".89" height=".99" rx=".07"/>
+  <!-- Front grey handle -->
+  <path d="M27 33            L27 20            C27 9.5 34.3 4.1 43.2 4            C52 4 59.4 10.2 59.4 20            L59.4 33" stroke="#41484D" stroke-width="7"/>
 
-      <rect x="9.14" y="7.27" width=".89" height="1.06" rx=".07"/>
-      <rect x="9.14" y="9.2" width=".89" height="1.06" rx=".07"/>
-      <rect x="9.14" y="11.12" width=".89" height="1.06" rx=".07"/>
-    </g>
+  <path d="M27 33            L27 20            C27 9.5 34.3 4.1 43.2 4            C52 4 59.4 10.2 59.4 20            L59.4 33" stroke="#767676" stroke-width="4.1"/>
 
-    <!-- Subtle hand-drawn contour treatment -->
-    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M2 4.75 1.65 16.5l12.42.98V4.75" stroke="#007da8" stroke-width=".055" opacity=".65"/>
-      <path d="M15.17 4.76 16 4.8l.35 10.93-1.21-.17" stroke="#007da8" stroke-width=".055" opacity=".65"/>
-      <path d="M5.4 2.8A2.35 2.35 0 0 1 7.8.53a2.36 2.36 0 0 1 2.4 2.27" stroke="#666" stroke-width=".055" opacity=".65"/>
-      <path d="M8.62 2.8a1.57 1.57 0 0 1 1.58-1.48 1.57 1.57 0 0 1 1.59 1.48" stroke="#888" stroke-width=".045" opacity=".65"/>
-      <path d="M6.02 6.58h4.35v8.55" stroke="#d2d2d2" stroke-width=".035" opacity=".6"/>
-    </g>
+  <!-- Main cyan bag silhouette -->
+  <path d="M12.4 33.5            L100 33.5            L100 121            L9.8 114            Z" fill="#32BEDD" stroke="#174E65" stroke-width="3.8"/>
+
+  <!-- Uneven bag edge retrace -->
+  <path d="M15.3 37.3            Q34 36.7 49 37.2            M13 108 L13.4 97" stroke="#087FAE" stroke-width="1.7"/>
+
+  <!-- Tall white building: one narrow vertical panel -->
+  <path d="M42.5 46.5            Q42.5 45 44.2 45            L73.8 45.1            Q75.6 45.1 75.6 47            L75.6 105.4            Q75.5 107.2 73.7 107.1            L44 106.2            Q42.4 106.1 42.4 104.5 Z" fill="#F6F6F6" stroke="#465660" stroke-width="3.1"/>
+
+  <!-- Building windows: three narrow columns -->
+  <g stroke="#465660" stroke-width="1.65" fill="#FFFFFF">
+    <!-- Row 1 -->
+    <path d="M46 50 L51 50 L51 56 L46 56 Z"/>
+    <path d="M54 50 L59 50 L59 56 L54 56 Z"/>
+    <path d="M62 50 L67 50 L67 56 L62 56 Z"/>
+
+    <!-- Row 2 -->
+    <path d="M46 61 L51 61 L51 67 L46 67 Z"/>
+    <path d="M54 61 L59 61 L59 67 L54 67 Z"/>
+    <path d="M62 61 L67 61 L67 67 L62 67 Z"/>
+
+    <!-- Row 3 -->
+    <path d="M46 72 L51 72 L51 78 L46 78 Z"/>
+    <path d="M54 72 L59 72 L59 78 L54 78 Z"/>
+    <path d="M62 72 L67 72 L67 78 L62 78 Z"/>
+
+    <!-- Row 4 -->
+    <path d="M46 83 L51 83 L51 89 L46 89 Z"/>
+    <path d="M54 83 L59 83 L59 89 L54 89 Z"/>
+    <path d="M62 83 L67 83 L67 89 L62 89 Z"/>
+
+    <!-- Bottom-center window -->
+    <path d="M54 94 L59 94 L59 102 L54 102 Z"/>
+  </g>
+
+  <!-- Narrow building perimeter retrace -->
+  <path d="M46 47.6 L71.4 47.7            M72.6 101 L72.6 104" stroke="#A3A3A3" stroke-width="1.4"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#F2C94C" stroke-width="2.7">
+    <path d="M113 18 L117 13"/>
+    <path d="M117 26 L123 23"/>
   </g>
 </svg>

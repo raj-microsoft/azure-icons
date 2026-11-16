@@ -1,40 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual WANs (sketch)</title>
-  <defs>
-    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#32d4f5"/>
-      <stop offset=".22" stop-color="#31d1f3"/>
-      <stop offset=".53" stop-color="#2ec9eb"/>
-      <stop offset=".78" stop-color="#29bade"/>
-      <stop offset="1" stop-color="#198ab3"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Virtual WANs (sketch)</title>
+  
 
-  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Hand-drawn cyan cloud -->
+  <path d="M17 76 C8 73 6 65 9 56 C12 47 20 43 31 43 C36 26 50 17 67 19 C83 20 94 31 97 45 C109 44 119 53 119 65 C120 75 111 82 100 82 L24 82 Q20 81 17 76Z" fill="#2BC6E8" stroke="#123E60" stroke-width="3.5"/>
 
-    <!-- Original cloud -->
-    <path d="M17.5 8.9       A3.854 3.854 0 0 0 14.2 5.2       A4.871 4.871 0 0 0 9.2 .6       A5.011 5.011 0 0 0 4.5 3.8       A4.693 4.693 0 0 0 .5 8.2       A4.612 4.612 0 0 0 5.3 12.7       H13.7       A3.8 3.8 0 0 0 17.5 8.9 Z" fill="url(#cloud)" stroke="#198ab3" stroke-width=".09"/>
+  <!-- Subtle uneven cloud retraces -->
+  <path d="M24 48 Q29 41 36 38 M64 25 Q81 25 88 39" stroke="#123E60" stroke-width="1.6" opacity=".5"/>
 
-    <!-- Original light-gray globe disk -->
-    <circle cx="9" cy="12.9" r="4.4" fill="#f2f2f2" stroke="#dedede" stroke-width=".07"/>
+  <!-- Curved network paths behind globe -->
+  <path d="M37 73 Q23 66 23 55 Q24 46 33 42" stroke="#E6E6E6" stroke-width="4"/>
+  <path d="M91 73 Q105 66 105 55 Q104 46 95 42" stroke="#E6E6E6" stroke-width="4"/>
 
-    <!-- Original single compound globe grid path.
-         The blue regions form the longitude/latitude grid;
-         the enclosed areas remain transparent cutouts, showing the light-gray disk. -->
-    <path fill="#0078d4" fill-rule="evenodd" d="       M12.7 10.1       A4.6 4.6 0 0 0 6.3 9.2       A4.561 4.561 0 1 0 11.9 16.4       A4.557 4.557 0 0 0 12.7 10.1 Z        M5.1 12.6       A4.707 4.707 0 0 1 5.5 11       H6.6       A7.772 7.772 0 0 0 6.4 12.6 Z        M7.2 11 H8.7 V12.6 H7       A7.772 7.772 0 0 1 7.2 11 Z        M9.3 11 H10.8       A7.772 7.772 0 0 1 11 12.6 H9.3 Z        M7.2 13.1 H8.8 V14.7 H7.2 L6.9 13.2 Z        M9.3 13.1 H11.1       A9.971 9.971 0 0 1 10.9 14.7 H9.3 Z        M11.7 13.1 H13       A4.707 4.707 0 0 1 12.6 14.7 H11.5       A7.772 7.772 0 0 0 11.7 13.1 Z        M11.7 12.6       A9.971 9.971 0 0 0 11.5 11 H12.6       A4.193 4.193 0 0 1 13 12.6 Z        M12.2 10.4 H11.3       A4.5 4.5 0 0 0 10.7 9.2       A4.428 4.428 0 0 1 12.2 10.4 Z        M9.3 10.5 V9       A2.171 2.171 0 0 1 10.7 10.4 Z        M8.8 9 V10.5 H7.4       A2.118 2.118 0 0 1 8.8 9 Z        M6.6 9.7       A5.582 5.582 0 0 1 7.4 9.2       A3.1 3.1 0 0 0 6.8 10.5 H5.9       A2.7 2.7 0 0 1 6.6 9.7 Z        M5.1 13.2 H6.4       A9.971 9.971 0 0 0 6.6 14.8 H5.5       A5.349 5.349 0 0 1 5.1 13.2 Z        M5.9 15.3 H6.8 L7.4 16.5       A3.491 3.491 0 0 1 5.9 15.3 Z        M7.4 15.3 H8.7 V16.8       A2.433 2.433 0 0 1 7.4 15.3 Z        M9.3 16.8 V15.3 H10.6       A1.968 1.968 0 0 1 9.3 16.8 Z        M11.5 16       A2.622 2.622 0 0 1 10.6 16.5       A3.379 3.379 0 0 0 11.2 15.3 H12.1       A1.344 1.344 0 0 1 11.5 16 Z     "/>
+  <!-- Upper cloud-side connection endpoints -->
+  <path d="M33 37 C36 37 38 39 38 42 C38 45 36 47 33 47 C30 47 28 45 28 42 C28 39 30 37 33 37Z" fill="#F2F2F2" stroke="#123E60" stroke-width="2"/>
+  <path d="M95 37 C98 37 100 39 100 42 C100 45 98 47 95 47 C92 47 90 45 90 42 C90 39 92 37 95 37Z" fill="#F2F2F2" stroke="#123E60" stroke-width="2"/>
 
-    <!-- Left network connection -->
-    <path d="M5.1 11.4       A4.025 4.025 0 0 1 2.9 8.5       A3.646 3.646 0 0 1 4.4 5.6       L5 5.1 L5.5 5.7 L4.9 6.2       A2.509 2.509 0 0 0 3.7 8.4       A3.031 3.031 0 0 0 5.5 10.7 Z" fill="#e6e6e6"/>
+  <!-- Pale globe body -->
+  <path d="M64 52 C83 52 98 67 98 86 C98 105 83 120 64 120 C45 120 30 105 30 86 C30 67 45 52 64 52Z" fill="#F2F2F2" stroke="#123E60" stroke-width="3.5"/>
 
-    <circle cx="5.3" cy="5.4" r="1.1" fill="#f2f2f2"/>
+  <!-- Globe meridians -->
+  <path d="M64 53 C47 65 46 105 64 119 M64 53 C81 65 82 105 64 119 M64 54 L64 118" stroke="#0078D4" stroke-width="2.4"/>
 
-    <!-- Right network connection -->
-    <path d="M12.7 11.4       L12.3 10.7       A3.259 3.259 0 0 0 14.1 8.4       A2.748 2.748 0 0 0 12.9 6.2       L12.3 5.8 L12.8 5.2       L13.4 5.6       A3.071 3.071 0 0 1 14.9 8.5       A4.025 4.025 0 0 1 12.7 11.4 Z" fill="#e6e6e6"/>
+  <!-- Globe parallels -->
+  <path d="M39 72 Q64 65 89 72 M31 86 Q64 80 97 86 M39 100 Q64 107 89 100" stroke="#0078D4" stroke-width="2.4"/>
 
-    <circle cx="12.6" cy="5.4" r="1.1" fill="#f2f2f2"/>
+  <!-- Globe inner sketch boundary -->
+  <path d="M64 57 C80 57 93 70 93 86 C93 102 80 115 64 115 C48 115 35 102 35 86 C35 70 48 57 64 57Z" stroke="#0078D4" stroke-width="1.5" opacity=".65"/>
 
-    <!-- Pink endpoints at original globe intersections -->
-    <circle cx="5.3" cy="11.1" r="1.1" fill="#ce74b6"/>
-    <circle cx="12.6" cy="11.1" r="1.1" fill="#ce74b6"/>
+  <!-- Pink network endpoints at the globe intersections -->
+  <path d="M37 67 C40.5 67 43 69.5 43 73 C43 76.5 40.5 79 37 79 C33.5 79 31 76.5 31 73 C31 69.5 33.5 67 37 67Z" fill="#CE74B6" stroke="#123E60" stroke-width="2.3"/>
+  <path d="M91 67 C94.5 67 97 69.5 97 73 C97 76.5 94.5 79 91 79 C87.5 79 85 76.5 85 73 C85 69.5 87.5 67 91 67Z" fill="#CE74B6" stroke="#123E60" stroke-width="2.3"/>
 
-  </g>
+  <!-- Restrained yellow marker accents -->
+  <path d="M14 91 L9 95 M111 91 L117 95 M64 13 L64 8" stroke="#FFCA28" stroke-width="3"/>
 </svg>

@@ -1,32 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Translator Text (sketch)</title>
-  <defs>
-    <linearGradient id="a" x1="9" y1="0" x2="9" y2="18" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5ea0ef"/>
-      <stop offset="1" stop-color="#0078d4"/>
-    </linearGradient>
-    <linearGradient id="b" x1="-998.057" y1="-213.109" x2="-1002.698" y2="-204.987" gradientTransform="translate(-195.271 1006.992) rotate(90)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#fff" stop-opacity=".3"/>
-    </linearGradient>
-    <linearGradient id="c" x1="-122.365" y1="1106.487" x2="-127.006" y2="1114.61" gradientTransform="translate(-1106.024 -112.477) rotate(-90)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#fff" stop-opacity=".3"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Translator Text (sketch)</title>
+  
+  <desc>Hand-drawn Azure Translator icon with Japanese hiragana あ, Latin lowercase a, and bidirectional translation arrows.</desc>
 
-  <g transform="scale(7.111111)">
-    <rect width="18" height="18" rx=".6" fill="url(#a)"/>
+  <!-- Azure-blue translation tile -->
+  <path d="M17 9 Q11 9 11 16 L10 108 Q10 117 19 118 L108 119 Q117 118 118 109 L118 19 Q117 10 108 10Z" fill="#1686D9" stroke="#123E60" stroke-width="3.8"/>
 
-    <!-- Original Latin translation glyph -->
-    <path d="       M13.281 9.822       Q12.18 9.79 11.335 10.359       L11.335 11.299       Q12.13 10.6 13.203 10.599       Q14.383 10.599 14.383 12.058       L12.666 12.299       Q10.776 12.561 10.776 14.167       Q10.776 14.89 11.26 15.367       Q11.744 15.82 12.599 15.82       Q13.74 15.82 14.361 14.791       H14.383       V15.686       H15.3       V11.958       Q15.3 9.822 13.281 9.822       Z        M14.381 13.356       Q14.381 14.067 13.936 14.567       Q13.49 15.045 12.81 15.045       Q12.33 15.045 12.01 14.78       Q11.71 14.515 11.71 14.02       Q11.71 13.48 12.034 13.22       Q12.34 12.976 13 12.976       L14.381 12.786       Z" fill="#fff"/>
+  <!-- Irregular dark marker retrace -->
+  <path d="M18 14 Q14 18 15 27 M113 25 L113 102 Q112 113 104 114 M22 114 L42 115" stroke="#123E60" stroke-width="1.5" opacity=".5"/>
 
-    <!-- Upper circular directional arrow -->
-    <path d="       M13.782 8.891       L15.319 7.311       Q15.57 7.06 15.159 7       H14.476       Q14.276 7 14.276 6.8       Q14.298 2.953 10.147 2.856       Q9.947 2.856 9.947 3.056       V4.056       Q9.947 4.256 10.163 4.256       Q12.826 4.31 13.026 6.8       Q13.026 7 12.826 7       H12.2       Q11.878 7 12.039 7.311       L13.464 8.891       Q13.63 9.08 13.782 8.891       Z" fill="url(#b)"/>
+  <!-- Japanese hiragana あ: top bar -->
+  <path d="M20 30 Q37 29 55 27" stroke="#123E60" stroke-width="7"/>
+  <path d="M20 30 Q37 29 55 27" stroke="#FFFFFF" stroke-width="4.2"/>
 
-    <!-- Lower circular directional arrow -->
-    <path d="       M4.52 9.932       L2.982 11.512       Q2.731 11.763 3.143 11.823       H3.825       Q4.025 11.823 4.025 12.023       Q4 15.871 8.15 15.967       Q8.35 15.967 8.35 15.767       V14.767       Q8.35 14.567 8.135 14.567       Q5.272 14.52 5.272 12.016       Q5.272 11.816 5.472 11.816       H6.104       Q6.425 11.816 6.265 11.505       L4.841 9.932       Q4.68 9.74 4.52 9.932       Z" fill="url(#c)"/>
+  <!-- Japanese あ: central vertical curve -->
+  <path d="M37 18 Q34 35 35 49 Q36 56 42 62" stroke="#123E60" stroke-width="7"/>
+  <path d="M37 18 Q34 35 35 49 Q36 56 42 62" stroke="#FFFFFF" stroke-width="4.2"/>
 
-    <!-- Original Japanese translation glyph -->
-    <path d="       M6.63 4.4       Q7.54 4.55 8.046 5.146       Q8.61 5.8 8.032 7.0       Q7.45 7.67 6.118 7.93       L5.833 7.287       Q6.85 7.2 7.433 6.825       Q8 6.4 7.56 5.583       Q7.15 5.13 6.467 5.01       Q6.1 6.3 5.329 7.31       Q5.46 7.55 5.591 7.767       L5.055 8.139       Q4.93 7.99 4.837 7.806       Q4.17 8.44 3.393 8.44       Q2.9 8.44 2.582 8.123       Q2.253 7.81 2.253 7.186       Q2.253 6.4 2.777 5.73       Q3.31 5.03 4.143 4.669       Q4.167 3.869 4.195 3.55       Q3.361 3.582 2.878 3.582       L2.771 2.963       Q3.29 2.982 4.242 2.947       Q4.32 2.2 4.452 1.583       L5.071 1.674       L4.9 2.9       Q6.2 2.79 7.49 2.59       L7.621 3.19       Q6.24 3.45 4.844 3.512       Q4.785 4.04 4.785 4.44       Q5.25 4.25 5.963 4.317       Q6.045 4.06 6.078 3.805       L6.712 3.896       Q6.65 4.18 6.63 4.4       Z        M4.552 7.172       Q4.171 6.33 4.171 5.351       Q3.64 5.65 3.258 6.151       Q2.921 6.59 2.921 7.151       Q2.921 7.53 3.064 7.659       Q3.21 7.789 3.358 7.789       Q3.88 7.789 4.552 7.172       Z        M5.793 4.962       Q5.28 4.93 4.817 5.109       Q4.87 5.86 5.047 6.573       Q5.55 5.85 5.793 4.962       Z" fill="#fff"/>
-  </g>
+  <!-- Japanese あ: lower rounded loop -->
+  <path d="M35 41 C25 42 19 49 20 56 C21 63 32 64 41 57 C49 51 54 41 54 35" stroke="#123E60" stroke-width="7"/>
+  <path d="M35 41 C25 42 19 49 20 56 C21 63 32 64 41 57 C49 51 54 41 54 35" stroke="#FFFFFF" stroke-width="4.2"/>
+
+  <!-- Japanese あ: terminal sweep -->
+  <path d="M44 40 C54 40 60 46 60 53 C60 60 55 65 48 66" stroke="#123E60" stroke-width="7"/>
+  <path d="M44 40 C54 40 60 46 60 53 C60 60 55 65 48 66" stroke="#FFFFFF" stroke-width="4.2"/>
+
+  <!-- Upper clockwise translation arrow -->
+  <path d="M70 23 C88 22 101 32 101 48 L101 54" stroke="#123E60" stroke-width="7"/>
+  <path d="M70 23 C88 22 101 32 101 48 L101 54" stroke="#FFFFFF" stroke-width="4.4"/>
+
+  <path d="M91 49 L101 61 L111 49" stroke="#123E60" stroke-width="7"/>
+  <path d="M91 49 L101 61 L111 49" stroke="#FFFFFF" stroke-width="4.4"/>
+
+  <!-- Lower counterclockwise translation arrow -->
+  <path d="M59 103 C42 105 28 95 28 81 L28 75" stroke="#123E60" stroke-width="7"/>
+  <path d="M59 103 C42 105 28 95 28 81 L28 75" stroke="#FFFFFF" stroke-width="4.4"/>
+
+  <path d="M18 80 L28 68 L38 80" stroke="#123E60" stroke-width="7"/>
+  <path d="M18 80 L28 68 L38 80" stroke="#FFFFFF" stroke-width="4.4"/>
+
+  <!-- Latin lowercase a: white letter with irregular marker edging -->
+  <path d="M99 83 Q93 78 84 80 C74 81 70 88 70 96 C70 104 76 110 85 109 Q94 108 99 99" stroke="#123E60" stroke-width="9"/>
+  <path d="M99 83 Q93 78 84 80 C74 81 70 88 70 96 C70 104 76 110 85 109 Q94 108 99 99" stroke="#FFFFFF" stroke-width="5.5"/>
+
+  <!-- Latin a: upright right stem -->
+  <path d="M100 81 Q99 94 100 108" stroke="#123E60" stroke-width="9"/>
+  <path d="M100 81 Q99 94 100 108" stroke="#FFFFFF" stroke-width="5.5"/>
+
+  <!-- Latin a: inner counter remains open and blue -->
+  <path d="M89 87 C83 84 77 89 77 96 C77 102 83 105 89 101" stroke="#FFFFFF" stroke-width="2.1"/>
+
+  <!-- Restrained yellow marker accents -->
+  <path d="M105 31 L110 27 M106 111 L111 107 M16 101 L20 98" stroke="#FFCA28" stroke-width="2.8"/>
+
+  <!-- Small external sketch ticks -->
+  <path d="M9 43 L5 40 M119 82 L123 79" stroke="#123E60" stroke-width="1.7" opacity=".55"/>
 </svg>

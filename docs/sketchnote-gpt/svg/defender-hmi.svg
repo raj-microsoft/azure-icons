@@ -1,30 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Defender HMI (sketch)</title>
-  <defs>
-    <linearGradient id="screenBlue" x1="2.41235" y1="6.63924" x2="15.5876" y2="6.63924" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#83B9F9"/>
-    </linearGradient>
-    <clipPath id="indicatorClip">
-      <rect x="12" y="11" width="4" height="4"/>
-    </clipPath>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender HMI (sketch)</title>
+  
+  <desc>Hand-drawn Azure-blue industrial HMI with a blank light-blue display, white status indicators, and a circular control gauge.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Original HMI outer casing -->
-    <path d="M.876474 3.50358       C1.16764 2.58036 1.94129 2 2.78448 2       H15.1233       C15.9861 2 16.771 2.60746 17.0582 3.55669       C18.3429 7.80331 18.2815 10.6002 17.0679 14.4702       C16.7747 15.4051 15.9955 16 15.1423 16       H2.86786       C1.98292 16 1.18337 15.36 .908183 14.3787       C-.274081 10.163 -.320169 7.29785 .876474 3.50358Z" fill="#0078D4" stroke="#005ba1" stroke-width=".09" stroke-linejoin="round"/>
+  <!-- Irregular industrial housing -->
+  <path d="M21 16.5 Q15 17 12 26 C3 51 4 78 13 102 Q16 112 25 113 L104 113 Q113 112 116 103 C124 78 125 53 116 27 Q113 17 104 17 Z" fill="#0078D4" stroke="#163E60" stroke-width="4"/>
 
-    <!-- Original blank HMI display: no chart, text or markings -->
-    <path d="M2.41235 4.0413       C2.41235 3.83633 2.57852 3.67017 2.78349 3.67017       H15.2165       C15.4214 3.67017 15.5876 3.83633 15.5876 4.0413       V9.23718       C15.5876 9.44215 15.4214 9.60831 15.2165 9.60831       H2.78349       C2.57852 9.60831 2.41235 9.44215 2.41235 9.23718Z" fill="url(#screenBlue)" stroke="#9ac8f5" stroke-width=".055" stroke-linejoin="round"/>
+  <!-- Subtle marker retracing on housing -->
+  <path d="M19 31 Q12 57 16 78 M20 98 Q22 105 30 106" stroke="#164F84" stroke-width="2" opacity=".6"/>
 
-    <!-- Original lower control indicators -->
-    <circle cx="8.54412" cy="13.5441" r=".544118" fill="#fff"/>
-    <circle cx="6.54412" cy="13.5441" r=".544118" fill="#fff"/>
-    <rect x="2.0412" y="13.134" width="3" height="1" rx=".5" fill="#fff"/>
+  <!-- Blank HMI screen: no graph, nodes, or baseline -->
+  <path d="M22 31 Q22 28 26 28 L102 29 Q106 29 106 33 L106 68 Q106 72 102 72 L25 72 Q21 72 21 68 Z" fill="#70ACF2" stroke="#163E60" stroke-width="3.2"/>
 
-    <!-- Original right status indicator -->
-    <g clip-path="url(#indicatorClip)">
-      <circle cx="13.9999" cy="13" r="1.8889" fill="#fff"/>
-      <path d="M15.402 11.7343         C15.3172 11.6404 15.223 11.5551 15.1211 11.4797         L13.903 12.8806         L14.1716 13.1492Z" fill="#00188F"/>
-    </g>
-  </g>
+  <!-- Lower white status bar -->
+  <path d="M22 94 Q22 91 25 91 L42 91 Q45 91 45 94 Q45 97 42 97 L25 97 Q22 97 22 94Z" fill="#FFFFFF" stroke="#163E60" stroke-width="1.7"/>
+
+  <!-- Two small white status lights -->
+  <path d="M58 94 C58 96.4 56.5 98 54 98 C51.5 98 50 96.4 50 94 C50 91.6 51.5 90 54 90 C56.5 90 58 91.6 58 94Z" fill="#FFFFFF" stroke="#163E60" stroke-width="1.5"/>
+  <path d="M72 94 C72 96.4 70.5 98 68 98 C65.5 98 64 96.4 64 94 C64 91.6 65.5 90 68 90 C70.5 90 72 91.6 72 94Z" fill="#FFFFFF" stroke="#163E60" stroke-width="1.5"/>
+
+  <!-- Circular control gauge -->
+  <path d="M99 81 C107 81 113 87 113 95 C113 103 107 109 99 109 C91 109 85 103 85 95 C85 87 91 81 99 81Z" fill="#FFFFFF" stroke="#163E60" stroke-width="3"/>
+
+  <!-- Dark-blue gauge pointer -->
+  <path d="M99 95 L107 87" stroke="#00188F" stroke-width="3.5"/>
+  <path d="M99 92.5 C100.5 92.5 101.5 93.7 101.5 95 C101.5 96.5 100.4 97.5 99 97.5 C97.5 97.5 96.5 96.4 96.5 95 C96.5 93.5 97.6 92.5 99 92.5Z" fill="#00188F"/>
+
+  <!-- Tiny yellow sketchnote ticks -->
+  <path d="M116 18 L120 12 M120 24 L125 22" stroke="#FFCC4D" stroke-width="2.5"/>
+  <path d="M8 89 L4 93 M10 97 L6 100" stroke="#FFCC4D" stroke-width="2.5"/>
 </svg>
