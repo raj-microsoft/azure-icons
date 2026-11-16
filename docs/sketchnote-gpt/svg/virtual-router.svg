@@ -1,29 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Virtual Router (sketch)</title>
-  <defs>
-    <linearGradient id="router-blue" x1="9" y1="17.329" x2="9" y2=".671" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#005ba1"/>
-      <stop offset=".15" stop-color="#0063af"/>
-      <stop offset=".439" stop-color="#006fc3"/>
-      <stop offset=".724" stop-color="#0076d0"/>
-      <stop offset="1" stop-color="#0078d4"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Virtual Router (sketch)</title>
 
-  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
+  
+  <desc>Blue circular router with four separate directional arrows: cyan arrows pointing upward and downward, white arrows pointing inward from the left and right. No central disk.</desc>
 
-    <!-- Original circular silhouette -->
-    <circle cx="9" cy="9" r="8.329" fill="url(#router-blue)" stroke="#005ba1" stroke-width=".16"/>
+  <!-- Circular Azure-blue router body -->
+  <path d="M64 5            C96 4 123 31 123 63            C124 96 97 123 65 123            C32 124 5 98 5 65            C4 32 30 6 64 5 Z" fill="#0078D4" stroke="#172B3A" stroke-width="3.8"/>
 
-    <!-- Top inward-pointing arrow -->
-    <path d="M6.6,4.138l2.3-2.3a.273.273,0,0,1,.387,0l2.3,2.3a.122.122,0,0,1-.086.209H10.086a.122.122,0,0,0-.122.123V7.343a.1.1,0,0,1-.1,.1H8.321a.1.1,0,0,1-.1-.1V4.47A.122.122,0,0,0,8.1,4.347H6.687A.123.123,0,0,1,6.6,4.138Z" fill="#9cebff" stroke="#8bdcf5" stroke-width=".09"/>
+  <!-- Top arrow: pointing UP -->
+  <path d="M47 34            L62 19            Q64 17 66 19            L81 34            Q83 37 79 37            L71 37            L71 51            Q71 53 69 53            L59 53            Q57 53 57 51            L57 37            L49 37            Q45 37 47 34 Z" fill="#9CEBFF" stroke="#172B3A" stroke-width="2.7"/>
 
-    <!-- Bottom inward-pointing arrow -->
-    <path d="M11.586,13.862l-2.3,2.3a.273.273,0,0,1-.387,0l-2.3-2.3a.123.123,0,0,1,.087-.209H8.1a.122.122,0,0,0,.122-.123V10.657a.1.1,0,0,1,.1-.1H9.866a.1.1,0,0,1,.1.1V13.53a.122.122,0,0,0,.122.123H11.5A.122.122,0,0,1,11.586,13.862Z" fill="#9cebff" stroke="#8bdcf5" stroke-width=".09"/>
+  <!-- Bottom arrow: pointing DOWN -->
+  <path d="M59 75            L69 75            Q71 75 71 77            L71 91            L79 91            Q83 91 81 94            L66 109            Q64 111 62 109            L47 94            Q45 91 49 91            L57 91            L57 77            Q57 75 59 75 Z" fill="#9CEBFF" stroke="#172B3A" stroke-width="2.7"/>
 
-    <!-- Right inward-pointing arrow -->
-    <path d="M12.884,11.513l-2.3-2.3a.273.273,0,0,1,0-.387l2.3-2.3a.122.122,0,0,1,.209.086V8.027a.123.123,0,0,0,.122.123h2.874a.1.1,0,0,1,.1,.1V9.792a.1.1,0,0,1-.1,.1H13.215a.122.122,0,0,0-.122.122v1.414A.123.123,0,0,1,12.884,11.513Z" fill="#f2f2f2" stroke="#ffffff" stroke-width=".09"/>
+  <!-- Right arrow: pointing INWARD / LEFT -->
+  <path d="M74 62            L90 46            Q93 43 93 47            L93 55            L108 55            Q110 55 110 57            L110 67            Q110 69 108 69            L93 69            L93 77            Q93 81 90 78            L74 62 Z" fill="#F2F2F2" stroke="#172B3A" stroke-width="2.7"/>
 
-    <!-- Left inward-pointing arrow -->
-    <path d="M5.116,6.527l2.3,2.3a.273.273,0,0,1,0,.387l-2.3,2.3a.123.123,0,0,1-.209-.087V10.012a.122.122,0,0,0-.122-.122H1.911a.1.1,0,0,1-.1-.1V8.247a.1.1,0,0,1,.1-.1H4.785a.123.123,0,0,0,.122-.123V6.613A.122.122,0,0,1,5.116,6.527Z" fill="#f2f2f2" stroke="#ffffff" stroke-width=".09"/>
+  <!-- Left arrow: pointing INWARD / RIGHT -->
+  <path d="M54 62            L38 46            Q35 43 35 47            L35 55            L20 55            Q18 55 18 57            L18 67            Q18 69 20 69            L35 69            L35 77            Q35 81 38 78            L54 62 Z" fill="#F2F2F2" stroke="#172B3A" stroke-width="2.7"/>
+
+  <!-- Subtle uneven marker retraces -->
+  <g stroke="#50E6FF" stroke-width="1.7" opacity=".75">
+    <path d="M37 15 Q49 9 63 10"/>
+    <path d="M115 46 Q119 57 117 70"/>
+    <path d="M42 114 Q56 120 72 117"/>
   </g>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#E6B93F" stroke-width="2.5">
+    <path d="M24 22 L19 17"/>
+    <path d="M104 22 L109 17"/>
+  </g>
+
 </svg>

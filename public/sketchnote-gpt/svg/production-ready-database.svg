@@ -1,32 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Production Ready Database (sketch)</title>
-  <defs>
-    <linearGradient id="databaseBody" x1="0.072" y1="12.971" x2="12.822" y2="12.971" gradientTransform="translate(2.584 -2.826) rotate(0.147)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#005ba1"/>
-      <stop offset="0.068" stop-color="#0060a9"/>
-      <stop offset="0.356" stop-color="#0071c8"/>
-      <stop offset="0.517" stop-color="#0078d4"/>
-      <stop offset="0.642" stop-color="#0074cd"/>
-      <stop offset="0.82" stop-color="#006abb"/>
-      <stop offset="1" stop-color="#005ba1"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Production Ready Database (sketch)</title>
+  
+  <desc>Single Azure-blue database cylinder with an elliptical cyan top and a prominent white readiness checkmark. Flat colors, irregular dark marker outlines, transparent background, and no horizontal database bands.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Database cylinder body: original uninterrupted silhouette -->
-    <path d="M9.01,5.145              C5.489,5.136 2.638,4.089 2.641,2.806              L2.609,15.161              C2.609,16.433 5.409,17.473 8.891,17.499              H8.978              C12.499,17.508 15.356,16.476 15.359,15.193              L15.391,2.838              C15.388,4.122 12.531,5.154 9.01,5.145Z" fill="url(#databaseBody)" stroke="#005ba1" stroke-width="0.12" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Single continuous database cylinder -->
+  <path d="M19.5 29.5        C19.2 18.2 38.7 10.5 63.6 10.8        C88.8 10.4 108.9 18.3 108.5 29.8        L108.1 96.5        C108.5 109.6 88.6 117.1 63.7 117.3        C38.6 117.1 19.1 109.1 19.4 96.2        Z" fill="#0078D4" stroke="#123D60" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Top elliptical rim -->
-    <path d="M15.391,2.839              C15.391,4.121 12.531,5.154 9.01,5.145              S2.638,4.089 2.641,2.806              S5.5,0.491 9.022,0.5              S15.394,1.557 15.391,2.839Z" fill="#e6e6e6" stroke="#005ba1" stroke-width="0.1" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Flat dark-blue side region, without horizontal divisions -->
+  <path d="M19.7 32.5        Q23.4 40.8 33.5 44.2        L33.3 108.5        Q23.1 104.9 19.5 96.2        Z" fill="#005BA1"/>
 
-    <!-- Cyan inner surface -->
-    <path d="M13.9,2.647              C13.9,3.463 11.708,4.118 9.01,4.111              S4.127,3.438 4.129,2.622              S6.321,1.151 9.02,1.158              S13.902,1.831 13.9,2.647Z" fill="#50e6ff" stroke="#198ab3" stroke-width="0.055" stroke-linejoin="round"/>
+  <path d="M96.7 43.5        Q104.9 39.8 108.3 32        L108.1 96.6        Q107.7 104.2 96.4 110.4        Z" fill="#006ABB"/>
 
-    <!-- Original darker central surface -->
-    <path d="M9.015,2.975              A11.749,11.749 0 0 0 5.143,3.525              A11.336,11.336 0 0 0 9.013,4.111              A11.343,11.343 0 0 0 12.885,3.545              A11.74,11.74 0 0 0 9.015,2.975Z" fill="#198ab3"/>
+  <!-- Top elliptical rim -->
+  <path d="M19.5 29.5        C19.4 18.4 39.2 10.7 63.8 10.8        C88.5 10.6 108.5 18.5 108.5 29.6        C108.6 41 88.8 48.6 63.6 48.5        C38.6 48.7 19.2 41.3 19.5 29.5        Z" fill="#E6E6E6" stroke="#163F5B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Original white crossed marking -->
-    <path d="M5.986,10.089              H6.838              A0.262,0.262 0 0 1 7.1,10.351              V13.736              A0.262,0.262 0 0 1 6.838,13.998              H6.248              A0.262,0.262 0 0 1 5.986,13.736Z" transform="translate(19.687 15.934) rotate(135)" fill="#fff" stroke="#fff" stroke-width="0.035" stroke-linejoin="round"/>
+  <!-- Cyan data surface -->
+  <path d="M29.8 28.4        C29.7 21.2 45.1 16.2 63.8 16.2        C82.7 16 98.4 21.3 98.3 28.6        C98.3 35.9 82.8 41.4 63.6 41.2        C44.9 41.3 29.5 36 29.8 28.4        Z" fill="#50E6FF" stroke="#125B7F" stroke-width="2.6" stroke-linejoin="round"/>
 
-    <path d="M9.7,6.562              H10.552              V14.347              A0.262,0.262 0 0 1 10.29,14.609              H9.7              A0.262,0.262 0 0 1 9.438,14.347              V6.824              A0.262,0.262 0 0 1 9.7,6.562Z" transform="translate(9.575 25.138) rotate(-135)" fill="#f2f2f2" stroke="#fff" stroke-width="0.035" stroke-linejoin="round"/>
+  <!-- Dark cyan elliptical interior marking -->
+  <path d="M38.1 33.1        C45.8 29.7 54.5 28.7 63.7 28.8        C74.2 28.6 83.3 30 89.8 33.5        C83.1 37.1 74.1 39.1 63.7 39        C53.5 39 44.8 37 38.1 33.1        Z" fill="#198AB3"/>
+
+  <!-- Subtle hand-drawn cylinder contours, not layer bands -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20.5 45.2 Q20 66 20.3 86" stroke="#12466A" stroke-width="1.5"/>
+
+    <path d="M107.1 46 Q107.7 69 106.9 89" stroke="#12466A" stroke-width="1.5"/>
+
+    <path d="M20 96.7          C21.2 109.3 40 116.5 63.7 116.7          C87.4 116.7 107.3 109.6 108 96.6" stroke="#123D60" stroke-width="2.5"/>
+
+    <path d="M23.6 99.2 Q27.8 107.7 39.5 111" stroke="#49A4E0" stroke-width="1.8"/>
+
+    <path d="M88.3 112 Q98.2 108.7 103.2 101" stroke="#49A4E0" stroke-width="1.8"/>
   </g>
+
+  <!-- Single bold white readiness checkmark -->
+  <!-- Dark uneven marker outline -->
+  <path d="M40.3 80.1        Q41.2 78.9 42.5 79.4        L56.8 93.2        L87.4 61.9        Q89.3 60.2 91 62        L93.6 64.5        Q95 66.2 93.3 68        L59.1 103        Q57.1 105 54.9 102.9        L37.9 85.7        Q36.8 84.2 38.1 82.7        Z" fill="#123D60" stroke="#123D60" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Flat white tick interior -->
+  <path d="M41.6 83.1        L56.8 98.5        L90 65.1        L88.9 64        L57.2 95.9        Q56.6 96.6 55.8 95.8        L40.7 81.9        Z" fill="#FFFFFF" stroke="#F2F2F2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Restrained sketchnote marker accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M109.8 18.2 114.3 14.6"/>
+    <path d="M115.7 30.2 120.1 29.5"/>
+    <path d="M12.2 67.4 8.5 65.1"/>
+  </g>
+
 </svg>

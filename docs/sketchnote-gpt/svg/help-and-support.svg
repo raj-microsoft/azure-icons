@@ -1,28 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Help and Support (sketch)</title>
-  <defs>
-    <linearGradient id="support-body" x1="0" y1="0" x2="0" y2="1">
-      <stop offset=".22" stop-color="#32d4f5"/>
-      <stop offset="1" stop-color="#198ab3"/>
-    </linearGradient>
-    <linearGradient id="support-head" x1="0" y1="0" x2="0" y2="1">
-      <stop offset=".22" stop-color="#32d4f5"/>
-      <stop offset="1" stop-color="#198ab3"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Help and Support (sketch)</title>
+  
+  <desc>Cyan support agent with white triangular collar and a simple gray overhead headset ending in one right earcup, without a microphone boom.</desc>
 
-  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cyan shoulders and torso -->
+  <path d="M61 65            C45 65 33 70 24 80            C15 90 11 105 10 118            Q9 125 17 125            L103 125            Q112 125 113 118            C112 106 108 92 100 82            C91 71 80 65 67 65 Z" fill="#32BEDD" stroke="#172B3A" stroke-width="3.5"/>
 
-    <!-- Original body silhouette -->
-    <path d="M14.65 18A1.3 1.3 0 0 0 16 16.71v-.16c-.51-4.07-2.84-7.38-7.27-7.38S1.85 12 1.4 16.56A1.29 1.29 0 0 0 2.56 18H14.65Z" fill="url(#support-body)" stroke="#1685a9" stroke-width=".07"/>
+  <!-- White triangular collar -->
+  <path d="M47 67            Q55 73 64 73            Q72 73 80 67            L64 108 Z" fill="#F5FAFC" stroke="#172B3A" stroke-width="2.7"/>
 
-    <!-- Original white neck detail -->
-    <path d="M8.68 10.13a4 4 0 0 1-2.21-.65L8.66 15.2l2.18-5.68a4.09 4.09 0 0 1-2.16.61Z" fill="#fff" opacity=".8"/>
+  <!-- Rounded cyan head -->
+  <path d="M64 14            C80 14 93 27 93 43            C94 60 82 74 65 74            C48 75 35 62 35 45            C35 28 47 15 64 14 Z" fill="#32BEDD" stroke="#172B3A" stroke-width="3.5"/>
 
-    <!-- Original head -->
-    <circle cx="8.68" cy="6.05" r="4.08" fill="url(#support-head)" stroke="#1685a9" stroke-width=".07"/>
+  <!-- Headset arch: no left earcup or boom microphone -->
+  <path d="M27 25            C35 11 48 5 64 4            C83 3 97 12 104 28            C109 39 110 48 107 54" stroke="#172B3A" stroke-width="8"/>
 
-    <!-- Original solid gray headset band: exact filled silhouette -->
-    <path d="M14.8 7.23a6.26 6.26 0 0 0-.09-2.55A6.19 6.19 0 0 0 8.89 0a5.53 5.53 0 0 0-5.21 2.77.59.59 0 0 0 .18.81h0a.54.54 0 0 0 .74-.16A4.53 4.53 0 0 1 8.82 1.13a5.1 5.1 0 0 1 4.76 3.68 5.34 5.34 0 0 1 .13 2.19.93.93 0 0 0-.54.59l-.27.9a.94.94 0 0 0 .62 1.17A1 1 0 0 0 14.7 9l.27-.9a.92.92 0 0 0-.17-.87Z" fill="#767676"/>
+  <path d="M27 25            C35 11 48 5 64 4            C83 3 97 12 104 28            C109 39 110 48 107 54" stroke="#929292" stroke-width="4.5"/>
 
+  <!-- Single right headset earcup, matching official -->
+  <path d="M104 51            Q108 48 112 51            Q115 54 113 59            L110 68            Q108 73 103 71            Q98 70 99 65            L102 55            Q102 52 104 51 Z" fill="#767676" stroke="#172B3A" stroke-width="3"/>
+
+  <!-- Subtle hand-drawn cyan contours -->
+  <g stroke="#087DAE" stroke-width="1.8">
+    <path d="M19 112 Q23 94 35 84"/>
+    <path d="M91 82 Q105 95 106 112"/>
+    <path d="M83 49 Q80 61 72 66"/>
+  </g>
+
+  <!-- Restrained sketchnote details -->
+  <g stroke="#0078D4" stroke-width="2.3">
+    <path d="M18 34 L12 31"/>
+    <path d="M16 42 L10 42"/>
+  </g>
+
+  <!-- Small yellow marker ticks -->
+  <g stroke="#E6B93F" stroke-width="2.7">
+    <path d="M116 17 L120 12"/>
+    <path d="M121 24 L126 22"/>
   </g>
 </svg>

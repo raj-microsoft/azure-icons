@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Reserved Capacity (sketch)</title>
-  <g transform="scale(7.111111)">
-    <!-- Original inner nested diamond -->
-    <polygon points="15.433 9.341 13.721 10.347 12.005 11.354 8.998 13.119 5.992 11.354 4.279 10.347 2.567 9.341 8.998 5.559" fill="#a33a85"/>
-
-    <polygon points="15.433 9.341 15.433 12.563 8.998 16.341 2.567 12.563 2.567 9.341 4.279 10.347 5.992 11.354 8.998 13.119 12.005 11.354 13.721 10.347" fill="#59285f"/>
-
-    <!-- Original translucent right cube face -->
-    <path d="M16.755 4.794V13.21a.565.565 0 0 1-.281.49L9.288 17.922A.566.566 0 0 1 9 18V9.022l7.679-4.51a.569.569 0 0 1 .076.282Z" fill="#a33a85" opacity=".6"/>
-
-    <!-- Original translucent top cube face -->
-    <path d="M16.68 4.512 9 9.011v.011L1.32 4.511A.551.551 0 0 1 1.526 4.3L8.718.075a.569.569 0 0 1 .57 0L16.477 4.302a.567.567 0 0 1 .203.21Z" fill="#dc92bf" opacity=".6"/>
-
-    <!-- Original translucent left cube face -->
-    <path d="M9 9.022V18a.547.547 0 0 1-.284-.077L1.526 13.7a.565.565 0 0 1-.281-.49V4.791a.564.564 0 0 1 .075-.28Z" fill="#ce74b6" opacity=".6"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Reserved Capacity (sketch)</title><path d="M64 39 Q65 39 67 40 L108 64 Q110 65 108 67 L65 92 Q64 93 62 92 L19 67 Q17 65 20 64 Z" fill="#A33A85" stroke="#54254E" stroke-width="3" stroke-linejoin="round"/><path d="M19 65 L64 91 L64 114 Q64 116 62 115 L20 91 Q19 90 19 88 Z" fill="#773365" stroke="#482345" stroke-width="3" stroke-linejoin="round"/><path d="M109 65 L64 91 L64 114 Q64 116 66 115 L108 91 Q109 90 109 88 Z" fill="#59285F" stroke="#432044" stroke-width="3" stroke-linejoin="round"/><path d="M64 7 Q65 7 67 8 L117 37 Q120 39 117 41 L66 71 Q64 72 62 71 L11 41 Q8 39 11 37 L61 8 Q63 7 64 7 Z" fill="#DC92BF" fill-opacity=".58" stroke="#71305F" stroke-width="3.5" stroke-linejoin="round"/><path d="M10 39 L64 71 L64 124 Q63 125 61 124 L11 95 Q10 94 10 91 Z" fill="#CE74B6" fill-opacity=".47" stroke="#653059" stroke-width="3.5" stroke-linejoin="round"/><path d="M118 39 L64 71 L64 124 Q65 125 67 124 L117 95 Q118 94 118 91 Z" fill="#A33A85" fill-opacity=".46" stroke="#59285F" stroke-width="3.5" stroke-linejoin="round"/><path d="M12 40 Q38 55 64 71 Q91 55 116 40" fill="none" stroke="#66305D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 72 Q63.5 97 64 122" fill="none" stroke="#59285F" stroke-width="2.1" stroke-linecap="round"/><path d="M19 39 Q42 25 61 14 M70 15 Q91 27 111 39" fill="none" stroke="#76365F" stroke-width="1.5" stroke-linecap="round" opacity=".65"/><path d="M15 48 Q14 67 15 85 M113 54 Q114 72 113 88" fill="none" stroke="#633056" stroke-width="1.5" stroke-linecap="round" opacity=".65"/><path d="M20 65 L64 91 L108 65 M64 91 L64 114" fill="none" stroke="#482345" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".82"/></svg>
