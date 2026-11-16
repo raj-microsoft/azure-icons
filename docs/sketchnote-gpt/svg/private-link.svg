@@ -1,47 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Private Link (sketch)</title>
-  <defs>
-    <linearGradient id="a" x1="7.699" y1="9.22" x2="7.699" y2="15.594" gradientUnits="userSpaceOnUse">
-      <stop offset=".23" stop-color="#5ea0ef"/>
-      <stop offset=".32" stop-color="#5b9fee"/>
-      <stop offset=".48" stop-color="#509aeb"/>
-      <stop offset=".57" stop-color="#3f92e6"/>
-      <stop offset=".75" stop-color="#2688df"/>
-      <stop offset=".93" stop-color="#127fd9"/>
-    </linearGradient>
-    <linearGradient id="b" x1="9.927" y1="11.121" x2="9.927" y2="15.612" gradientUnits="userSpaceOnUse">
-      <stop offset=".02" stop-color="#5ea0ef"/>
-      <stop offset=".14" stop-color="#5b9fee"/>
-      <stop offset=".23" stop-color="#5b9fee"/>
-      <stop offset=".34" stop-color="#509aeb"/>
-      <stop offset=".44" stop-color="#3f92e6"/>
-      <stop offset=".63" stop-color="#2688df"/>
-      <stop offset=".93" stop-color="#127fd9"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Private Link (sketch)</title>
 
-  <g transform="scale(7.111111)">
-    <!-- Central connector stem -->
-    <path d="M8.252 2.521              Q8.81 2.508 9.374 2.521              L9.374 9.594              Q8.81 9.603 8.252 9.594 Z" fill="#7a7a7a"/>
+  
+  <desc>Hand-drawn Azure Private Link icon with a top connector node, vertical gray stem, two overlapping horizontal chain links, and four angled outer bracket arms.</desc>
 
-    <!-- Top endpoint -->
-    <path d="M10.459 2.3              A1.647 1.647 0 1 1 7.165 2.3              A1.647 1.647 0 0 1 10.459 2.3Z" fill="#1490df"/>
+  <!-- Vertical connector stem -->
+  <path d="M59 16.5        L67 16.8        L67.2 66.5        L59.2 66.2 Z" fill="#7A7A7A" stroke="#203746" stroke-width="2.5"/>
 
-    <!-- Upper chain-link loop -->
-    <path d="M8.588 9.22              H6.788              A2.246 2.246 0 0 0 6.44 13.681              Q6.411 13.24 6.462 12.846              A1.418 1.418 0 0 1 6.766 10.046              H8.566              A1.422 1.422 0 0 1 8.566 12.89              H8.094              Q7.998 13.34 8.065 13.638              H8.592              A2.246 2.246 0 1 0 8.588 9.22Z" fill="url(#a)"/>
+  <!-- Top connector node -->
+  <path d="M75.8 16.4        C75.8 23.2 70.6 28.4 63.5 28.5        C56.8 28.6 51.6 23.3 51.6 16.4        C51.5 9.4 56.9 4.5 63.7 4.6        C70.7 4.6 75.9 9.6 75.8 16.4 Z" fill="#1490DF" stroke="#203746" stroke-width="3"/>
 
-    <!-- Lower chain-link loop -->
-    <path d="M11.182 11.121              Q11.208 11.465 11.208 11.465              Q11.208 11.711 11.159 11.956              A1.418 1.418 0 0 1 10.834 14.756              H9.034              A1.423 1.423 0 0 1 9.034 11.911              H9.528              Q9.628 11.462 9.557 11.088              H9.037              A2.246 2.246 0 0 0 9.037 15.579              H10.837              A2.246 2.246 0 0 0 11.182 11.121Z" fill="url(#b)"/>
+  <!-- Upper horizontal chain link -->
+  <path d="M61.1 65.7        L48.2 65.7        C39.1 65.7 32.3 72.3 32.3 81.4        C32.3 90.5 39.2 97.4 48.2 97.4        L61.1 97.4        C70.1 97.4 77.1 90.6 77.1 81.5        C77.1 72.5 70.1 65.7 61.1 65.7 Z        M61.1 71.6        C66.7 71.6 71.3 75.9 71.3 81.5        C71.3 87.2 66.8 91.7 61.1 91.7        L48.2 91.7        C42.6 91.7 38 87.1 38 81.4        C38 75.7 42.5 71.6 48.2 71.6 Z" fill="#5EA0EF" fill-rule="evenodd" stroke="#203746" stroke-width="2.4"/>
 
-    <!-- Lower-left diagonal connector -->
-    <path d="M5.58 16.525              L5.168 16.94              Q4.97 17.14 4.768 16.94              L.161 12.34              Q-.24 11.94 .177 11.528              L.593 11.116              L5.58 16.108              Q5.776 16.3 5.58 16.525Z" fill="#50e6ff"/>
+  <!-- Lower-right chain link, interlocking -->
+  <path d="M68.9 79        L81.8 79        C90.9 79 97.6 85.7 97.6 94.7        C97.6 103.8 90.8 110.7 81.8 110.7        L68.9 110.7        C59.9 110.7 53 103.8 53 94.7        C53 85.7 59.9 79 68.9 79 Z        M68.9 84.8        C63.3 84.8 58.8 89.1 58.8 94.7        C58.8 100.4 63.3 104.9 68.9 104.9        L81.8 104.9        C87.4 104.9 91.9 100.4 91.9 94.7        C91.9 89.1 87.4 84.8 81.8 84.8 Z" fill="#2688DF" fill-rule="evenodd" stroke="#203746" stroke-width="2.4"/>
 
-    <!-- Upper-left diagonal connector -->
-    <path d="M5.082 7.02              L5.542 7.48              Q5.824 7.762 5.542 8.04              L.625 12.809              L.164 12.352              Q-.12 12.07 .164 11.552              L4.685 7.02              Q4.88 6.82 5.082 7.02Z" fill="#1490df"/>
+  <!-- Upper-link overlap restored over lower chain -->
+  <path d="M71.2 78.7        C71.4 81.1 71.2 83.5 70.2 85.7" stroke="#203746" stroke-width="2.5"/>
 
-    <!-- Lower-right diagonal connector -->
-    <path d="M12.417 16.851              Q12.411 16.655 12.417 16.455              L17.417 11.466              L17.833 11.882              Q18.249 12.298 17.833 12.684              L13.222 17.272              Q12.831 17.55 12.417 16.851Z" fill="#50e6ff"/>
+  <!-- Left upper angled bracket -->
+  <path d="M35.9 49.8        L39.3 53.1        L5.1 87.4        L1.8 84.1 Z" fill="#1490DF" stroke="#203746" stroke-width="2.7"/>
 
-    <!-- Upper-right diagonal connector -->
-    <path d="M13.311 7.349              L17.836 11.885              Q18.399 12.448 17.375 13.138              L12.454 8.206              Q12.165 7.917 12.454 7.75              L12.914 7.294              Q13.196 7.067 13.311 7.349Z" fill="#1490df"/>
-  </g>
+  <!-- Left lower angled bracket -->
+  <path d="M1.8 84.1        L5.1 80.8        L39.3 115        L36 118.3 Z" fill="#50E6FF" stroke="#203746" stroke-width="2.7"/>
+
+  <!-- Right upper angled bracket -->
+  <path d="M91.6 52.1        L95 48.8        L126.2 80.1        Q128 82 126.1 84        L123 87.1 Z" fill="#1490DF" stroke="#203746" stroke-width="2.7"/>
+
+  <!-- Right lower angled bracket -->
+  <path d="M126.1 84        L123 80.8        L88.7 115        L92 118.3        L126.1 84 Z" fill="#50E6FF" stroke="#203746" stroke-width="2.7"/>
+
 </svg>

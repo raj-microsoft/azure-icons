@@ -1,27 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Genomics Accounts (sketch)</title>
-  <defs>
-    <linearGradient id="orange" x1="9" y1=".5" x2="9" y2="17.5" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#faa21d"/>
-      <stop offset=".28" stop-color="#f99e1b"/>
-      <stop offset=".57" stop-color="#f69113"/>
-      <stop offset=".87" stop-color="#f27d07"/>
-      <stop offset="1" stop-color="#ef7100"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Genomics Accounts (sketch)</title>
+  
+  <desc>Intertwining Azure-blue and cyan DNA strands with horizontal genetic rungs, flat fills, uneven charcoal marker outlines, and no directional arrows or decorative objects.</desc>
 
-  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
-
-    <!-- Original orange connecting base -->
-    <path d="M10 12.23l-.25-.11 0 0c-.27-.11-.51-.21-.73-.32              -.22.11-.46.21-.73.32l0 0L8 12.23l-.68.30              A10.6 10.6 0 0 0 9 13.39a10.6 10.6 0 0 0 1.69-.86Z" fill="url(#orange)"/>
-
-    <!-- Original blue right strand, fully filled -->
-    <path d="M6.56 15a2.47 2.47 0 0 0-.42.91h6.25v.5H6.05              c0 .12 0 .25 0 .38a.74.74 0 0 1-.72.75h0              a.74.74 0 0 1-.74-.72 4.46 4.46 0 0 1 2.74-4.25              A10.6 10.6 0 0 0 9 13.39l-.15.07-.28.12              A6.11 6.11 0 0 0 7 14.45h5.35V15ZM10 12.23              l-.25-.11 0 0c-.27-.11-.51-.21-.73-.32              -.22.11-.46.21-.73.32l0 0L8 12.23l-.68.30              A10.6 10.6 0 0 0 9 13.39a10.6 10.6 0 0 0 1.69-.86ZM12.76 1.59H6.07              a1.78 1.78 0 0 1 0-.28.73.73 0 1 0-1.46-.14              c0 .09-.19 2.32 2.75 4A9.82 9.82 0 0 1 9 4.27              L8.37 4a5.35 5.35 0 0 1-.9-.54h4V3H6.88              a3.16 3.16 0 0 1-.64-.9h6.52ZM10.67 5.15l-.43.23              -.11 0A8.93 8.93 0 0 0 9 5.89a6.46 6.46 0 0 1 1.91 1.37              H5.38v.5h5.91a2.63 2.63 0 0 1 .35.89H5.38v.51h6.3              a1.8 1.8 0 0 1-.38.91H5.38v.51h5.47A7.47 7.47 0 0 1 9 11.78              c.22.11.46.21.73.32l0 0 .25.11.68.3              c2.19-1.36 2.47-2.79 2.47-3.42a4.87 4.87 0 0 0-2.46-3.94Z" fill="#0078d4"/>
-
-    <!-- Original cyan left strand, fully filled -->
-    <path d="M8 12.23l-.68.30C5.12 11.17 4.84 9.74 4.84 9.11              a4.87 4.87 0 0 1 2.49-4l.43.23.11 0A8.93 8.93 0 0 1 9 5.89              c-1.12.56-2.69 1.62-2.69 3.22 0 .24.14 1.45 2.69 2.67              -.22.11-.46.21-.73.32l0 0ZM13.42 1.17a.74.74 0 0 0-.8-.67              .71.71 0 0 0-.66.81s.33 1.33-2.07 2.59L9 4.27              a9.82 9.82 0 0 1 1.67.88c2.94-1.66 2.76-3.89 2.75-3.98ZM10.69 12.53              A10.6 10.6 0 0 1 9 13.39l.15.07.28.12              c1.24.54 2.57 1.26 2.53 3.17a.74.74 0 0 0 .72.75h0              a.74.74 0 0 0 .74-.72 4.46 4.46 0 0 0-2.73-4.25ZM10.44 5.27              l.23-.12A9.82 9.82 0 0 0 9 4.27a9.82 9.82 0 0 0-1.67.88              l.43.23.11 0A8.93 8.93 0 0 1 9 5.89              c.59-.23.95-.38 1.17-.48l.07 0h0a1.12 1.12 0 0 0 .2-.14Z" fill="#32bedd"/>
-
-    <!-- Original solid horizontal blue rungs -->
-    <path d="M6.88 3.05h5.88v.5H6.88z              M5.38 7.26h5.91v.5H5.38z              M5.38 8.65h6.3v.51h-6.3z              M5.38 10.07h5.47v.51H5.38z              M7 14.45h5.35v.5H7z" fill="#0078d4"/>
-
+  <!-- Upper DNA ladder rungs -->
+  <g stroke="#203746" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M43 12 Q64 13 85 12"/>
+    <path d="M42 23 Q64 24 86 23"/>
+    <path d="M45 34 Q64 35 83 34"/>
   </g>
+  <g stroke="#0078D4" stroke-width="2.5" stroke-linecap="round">
+    <path d="M43 12 Q64 13 85 12"/>
+    <path d="M42 23 Q64 24 86 23"/>
+    <path d="M45 34 Q64 35 83 34"/>
+  </g>
+
+  <!-- Middle DNA ladder rungs -->
+  <g stroke="#203746" stroke-width="4.2" stroke-linecap="round">
+    <path d="M43 52 Q64 53 85 52"/>
+    <path d="M39 63 Q64 64 89 63"/>
+    <path d="M39 74 Q64 75 89 74"/>
+  </g>
+  <g stroke="#32BEDD" stroke-width="2.5" stroke-linecap="round">
+    <path d="M43 52 Q64 53 85 52"/>
+    <path d="M39 63 Q64 64 89 63"/>
+    <path d="M39 74 Q64 75 89 74"/>
+  </g>
+
+  <!-- Lower DNA ladder rungs -->
+  <g stroke="#203746" stroke-width="4.2" stroke-linecap="round">
+    <path d="M45 93 Q64 94 83 93"/>
+    <path d="M42 104 Q64 105 86 104"/>
+    <path d="M43 115 Q64 116 85 115"/>
+  </g>
+  <g stroke="#0078D4" stroke-width="2.5" stroke-linecap="round">
+    <path d="M45 93 Q64 94 83 93"/>
+    <path d="M42 104 Q64 105 86 104"/>
+    <path d="M43 115 Q64 116 85 115"/>
+  </g>
+
+  <!-- Azure-blue DNA strand -->
+  <path d="M38 5            C34 20 45 29 64 38            C82 47 91 55 91 64            C91 73 81 82 64 91            C46 100 35 109 38 123" stroke="#203746" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M38 5            C34 20 45 29 64 38            C82 47 91 55 91 64            C91 73 81 82 64 91            C46 100 35 109 38 123" stroke="#0078D4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cyan DNA strand -->
+  <path d="M90 5            C94 20 83 29 64 38            C46 47 37 55 37 64            C37 73 47 82 64 91            C82 100 93 109 90 123" stroke="#203746" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M90 5            C94 20 83 29 64 38            C46 47 37 55 37 64            C37 73 47 82 64 91            C82 100 93 109 90 123" stroke="#32BEDD" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle orange genetic crossing accent -->
+  <path d="M55 85            Q59 88 64 91            Q69 94 74 97" stroke="#203746" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M55 85            Q59 88 64 91            Q69 94 74 97" stroke="#F79A18" stroke-width="2.6" stroke-linecap="round"/>
 </svg>

@@ -1,21 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>API Proxy (sketch)</title>
-  <defs>
-    <linearGradient id="proxy-center" x1="6.531" y1="6.615" x2="11.319" y2="11.403" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#37c2b1"/>
-      <stop offset="1" stop-color="#258277"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>API Proxy (sketch)</title>
 
-  <g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round">
+  
+  <desc>Hand-drawn Azure API Proxy with two opposing turquoise communication arcs, horizontal endpoint connectors, and a plain green central disk.</desc>
 
-    <!-- Central plain rounded disk: no arrow or additional symbol -->
-    <rect x="6.531" y="6.615" width="4.788" height="4.788" rx="2.364" fill="url(#proxy-center)" stroke="#258277" stroke-width=".055"/>
+  <!-- Left communication arc -->
+  <path d="M56.5 37.7        C41 41.1 30.2 52.6 30.1 64.2        C30 76.8 40.3 88.1 56.5 91.3" stroke="#203746" stroke-width="11.5"/>
+  <path d="M56.5 37.7        C41 41.1 30.2 52.6 30.1 64.2        C30 76.8 40.3 88.1 56.5 91.3" stroke="#3CD4C2" stroke-width="7.4"/>
 
-    <!-- Left circulating arrow body -->
-    <path d="M8 12.693a3.773 3.773 0 0 1-.015-7.387              .649.649 0 1 0-.266-1.27              A5.091 5.091 0 0 0 3.73 8.359              H2.574a1.351 1.351 0 0 0-1.187-.7h-.034              A1.353 1.353 0 0 0 0 9.007v.034              a1.353 1.353 0 0 0 1.353 1.353h.034              a1.351 1.351 0 0 0 1.2-.737H3.733              a5.087 5.087 0 0 0 4.005 4.308              .649.649 0 0 0 .262-1.272Z" fill="#3cd4c2" stroke="#32c4b4" stroke-width=".045"/>
+  <!-- Right communication arc -->
+  <path d="M71.5 37.7        C87.2 41.2 97.8 52.5 97.9 64.2        C98.1 76.8 87.8 88.2 71.5 91.3" stroke="#203746" stroke-width="11.5"/>
+  <path d="M71.5 37.7        C87.2 41.2 97.8 52.5 97.9 64.2        C98.1 76.8 87.8 88.2 71.5 91.3" stroke="#3CD4C2" stroke-width="7.4"/>
 
-    <!-- Right circulating arrow body -->
-    <path d="M16.647 7.654h-.034              a1.351 1.351 0 0 0-1.187.705H14.27              a5.091 5.091 0 0 0-3.987-4.323              .649.649 0 0 0-.266 1.27              A3.773 3.773 0 0 1 10 12.693              a.649.649 0 0 0 .26 1.272              a5.087 5.087 0 0 0 4-4.308h1.15              a1.351 1.351 0 0 0 1.2.737h.034              A1.353 1.353 0 0 0 18 9.041V9.007              a1.353 1.353 0 0 0-1.353-1.353Z" fill="#3cd4c2" stroke="#32c4b4" stroke-width=".045"/>
+  <!-- Left horizontal connector -->
+  <path d="M18 64.2 Q24 63.9 30.1 64.2" stroke="#203746" stroke-width="9"/>
+  <path d="M18 64.2 Q24 63.9 30.1 64.2" stroke="#3CD4C2" stroke-width="5.8"/>
 
-  </g>
+  <!-- Right horizontal connector -->
+  <path d="M97.9 64.2 Q104 64 110 64.2" stroke="#203746" stroke-width="9"/>
+  <path d="M97.9 64.2 Q104 64 110 64.2" stroke="#3CD4C2" stroke-width="5.8"/>
+
+  <!-- Left endpoint -->
+  <path d="M10 54.9        C15.8 54.5 20.3 58.4 20.5 64        C20.7 69.9 16.4 74.2 10.5 74.3        C4.7 74.4 1.5 70.1 1.6 64.3        C1.7 58.8 5.1 55.1 10 54.9 Z" fill="#3CD4C2" stroke="#203746" stroke-width="3"/>
+
+  <!-- Right endpoint -->
+  <path d="M117.5 54.9        C123.1 54.8 126.5 59 126.4 64.3        C126.3 70.1 122.6 74.4 117 74.3        C111.3 74.2 107.4 70 107.5 64.1        C107.6 58.6 112 54.7 117.5 54.9 Z" fill="#3CD4C2" stroke="#203746" stroke-width="3"/>
+
+  <!-- Plain central proxy disk: no arrow or internal symbols -->
+  <path d="M64 47.2        C73.2 47 80.8 54.6 80.9 63.8        C81.1 73.4 73.5 81.1 64 81.2        C54.7 81.4 47.1 73.8 47 64.2        C46.9 54.8 54.4 47.4 64 47.2 Z" fill="#37B9A8" stroke="#203746" stroke-width="3.5"/>
+
 </svg>
