@@ -1,22 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure DevOps (sketch)</title>
-  <defs>
-    <linearGradient id="azdoGradient" x1="9" y1="16.97" x2="9" y2="1.03" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset="0.16" stop-color="#1380da"/>
-      <stop offset="0.53" stop-color="#3c91e5"/>
-      <stop offset="0.82" stop-color="#559cec"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure DevOps (sketch)</title>
+  
+  <desc>
+    Hand-drawn Azure DevOps logo preserving the
+    official angular ribbon geometry, open left
+    connector, slanted upper arm, right vertical
+    panel, and folded lower ribbon. Flat Azure-blue
+    fills, uneven charcoal marker outlines,
+    and a transparent background.
+  </desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Main Azure DevOps logo component -->
-    <path d="M17,4          V13.74          L13,17.02          L6.8,14.76          V17          L3.29,12.41          L13.52,13.21          V4.44          Z" fill="url(#azdoGradient)"/>
+  <!-- Main upper-right ribbon and descending panel -->
+  <path d="M119 28        Q120.5 27.5 121 30        L121 96.8        Q121 98.5 119.5 99.8        L94.1 120.7        Q92.5 121.8 90.5 121        L49.5 105.9        L49.5 121        L26.2 90.5        L97.2 96.2        L97.2 34.2        Z" fill="#0078D4" stroke="#203746" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Original upper-left disconnected logo component -->
-    <path d="M13.59,4.49          L7.85,1          V3.29          L2.58,4.84          L1,6.87          V11.48          L3.26,12.48          V6.57          Z" fill="url(#azdoGradient)"/>
+  <!-- Upper folded diagonal ribbon -->
+  <path d="M97.2 34.2        L121 28        L121 96.8        L94.1 120.7        L49.5 105.9        L49.5 121        L26.2 90.5        L97.2 96.2        Z" fill="#3C91E5" stroke="#203746" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Subtle hand-drawn contour; follows existing logo geometry -->
-    <path d="M17.015,4.015          L16.99,13.745          L12.995,17.035          L6.79,14.775          L6.805,16.99          L3.275,12.395          L13.535,13.225          L13.515,4.425          Z          M13.575,4.505          L7.865,0.985          L7.835,3.305          L2.565,4.855          L0.985,6.855          L1.015,11.495          L3.275,12.465          L3.245,6.555          Z" fill="none" stroke="#1678c5" stroke-width="0.045" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+  <!-- Lower folded ribbon: dark-blue visible face -->
+  <path d="M26.2 90.5        L97.2 96.2        L97.2 34.2        L121 28        L121 96.8        L94.1 120.7        L49.5 105.9        L49.5 121        Z" fill="#1380DA" stroke="#203746" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Angular upper connector and left descending arm -->
+  <path d="M97.7 34.7        L57.5 10.3        L57.5 26.2        L20.6 37        L9.5 51.2        L9.5 83.4        L25.8 90.3        L25.8 49.1        Z" fill="#5EA0EF" stroke="#203746" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left connector front face -->
+  <path d="M9.5 51.2        L25.8 49.1        L25.8 90.3        L9.5 83.4        Z" fill="#2B89DF" stroke="#203746" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper connector shoulder -->
+  <path d="M9.5 51.2        L20.6 37        L57.5 26.2        L57.5 10.3        L97.7 34.7        L25.8 49.1        Z" fill="#559CEC" stroke="#203746" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right folded panel, visibly separate from the left arm -->
+  <path d="M97.2 34.2        L121 28        L121 96.8        L94.1 120.7        L49.5 105.9        L49.5 121        L26.2 90.5        L97.2 96.2        Z" fill="#3C91E5" stroke="#203746" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower vertical fold -->
+  <path d="M26.2 90.5        L49.5 105.9        L49.5 121        Z" fill="#0078D4" stroke="#203746" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
 </svg>

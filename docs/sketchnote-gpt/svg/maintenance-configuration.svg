@@ -1,43 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Maintenance Configuration (sketch)</title>
-  <defs>
-    <radialGradient id="blueField" cx="5.614" cy="6.147" r="7.443" gradientTransform="translate(1.878 1.801) scale(.944)" gradientUnits="userSpaceOnUse">
-      <stop offset=".183" stop-color="#5ea0ef"/>
-      <stop offset=".555" stop-color="#5c9fee"/>
-      <stop offset=".689" stop-color="#559ced"/>
-      <stop offset=".785" stop-color="#4a97e9"/>
-      <stop offset=".862" stop-color="#3990e4"/>
-      <stop offset=".928" stop-color="#2387de"/>
-      <stop offset=".985" stop-color="#087bd6"/>
-      <stop offset="1" stop-color="#0078d4"/>
-    </radialGradient>
-    <radialGradient id="hub" cx="6.45" cy="6.92" r="1.041" gradientTransform="translate(1.124 1.09) scale(.943)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#7f7f7f"/>
-      <stop offset="1" stop-color="#5e5e5e"/>
-    </radialGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Maintenance Configuration (sketch)</title>
+  
+  <desc>Azure-blue clock with gray hands and a diagonal solid-gray maintenance wrench featuring an open jaw.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Blue circular field and white inner dial -->
-    <circle cx="7.18" cy="7.607" r="7.03" fill="url(#blueField)"/>
-    <circle cx="7.208" cy="7.607" r="6.121" fill="#fff"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
 
-    <!-- Clock ticks -->
-    <g fill="#7a7a7a">
-      <path d="M7.038 11.73h.338v1.05h-.338z"/>
-      <path d="M3.338 3.98l.24-.24.742.742-.24.24z"/>
-      <path d="M3.39 11.18l.742-.742.24.24-.742.742z"/>
-      <path d="M1.945 7.43h1.05v.338h-1.05z"/>
-    </g>
+    <!-- Clock outer silhouette -->
+    <path d="M51 5              C77 4 100 26 101 53              C102 80 80 103 52 103              C25 104 4 82 4 55              C3 28 24 6 51 5 Z" fill="#5EA0EF" stroke="#243447" stroke-width="3.8"/>
+
+    <!-- Clock face -->
+    <path d="M52 12              C74 11 94 30 94 54              C94 77 75 96 52 96              C28 96 11 77 11 55              C11 32 29 13 52 12 Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.8"/>
+
+    <!-- Clock markers -->
+    <path d="M51 85 L51 91              M18 54 L25 54              M27 29 L32 34              M28 79 L33 74" stroke="#7A7A7A" stroke-width="3.1"/>
 
     <!-- Clock hands -->
-    <path d="M9.745 9.484L7.957 7.706a.43.43 0 0 0-.291-.123.411.411 0 0 0 .054-.2V2.858a.431.431 0 0 0-.43-.43h-.082a.431.431 0 0 0-.431.43v4.53a.431.431 0 0 0 .431.43h.048a.427.427 0 0 0 .035.555l1.78 1.777a.432.432 0 0 0 .608 0l.058-.058a.432.432 0 0 0 0-.608z" fill="#7a7a7a"/>
+    <path d="M52 22              Q52 21 53 22              L53 54              L67 68" stroke="#243447" stroke-width="8"/>
 
-    <circle cx="7.212" cy="7.596" r=".996" fill="url(#hub)"/>
+    <path d="M52 22 L52 54 L67 68" stroke="#7A7A7A" stroke-width="5.5"/>
 
-    <!-- Original open-jaw wrench: jaw opening and proportions preserved -->
-    <path d="M8.855 16.582       L14.39 10.258       A2.9 2.9 0 0 0 17.153 9.383       A2.691 2.691 0 0 0 17.711 6.722       L16.246 8.367       L14.679 8.077       L14.159 6.59       L15.625 4.97       A2.866 2.866 0 0 0 12.982 5.855       A2.647 2.647 0 0 0 12.442 8.506       L6.542 15.251       A1.309 1.309 0 0 0 8.512 16.975Z" fill="#949494" stroke="#858585" stroke-width=".045" stroke-linejoin="round"/>
+    <!-- Clock pivot -->
+    <path d="M59 54              C59 58 56 61 52 61              C48 61 45 58 45 54              C45 50 48 47 52 47              C56 47 59 50 59 54 Z" fill="#5E5E5E" stroke="#243447" stroke-width="2.3"/>
 
-    <!-- Subtle hand-drawn edge accents without changing the wrench jaw -->
-    <path d="M8.855 16.582L14.39 10.258       M12.442 8.506L6.542 15.251" fill="none" stroke="#777" stroke-width=".025" opacity=".55"/>
+    <!-- Solid-gray maintenance wrench with open jaw -->
+    <path d="M46 119              C42 124 35 125 30 121              C25 117 25 111 29 106              L88 39              C85 32 86 24 91 18              C97 11 107 10 114 14              L103 26              L107 37              L119 39              L128 28              C131 37 128 47 121 53              C115 58 108 59 101 56              L46 119 Z" fill="#949494" stroke="#243447" stroke-width="3.6"/>
+
+    <!-- Wrench jaw structural edges -->
+    <path d="M103 26              L107 37              L119 39" fill="none" stroke="#686868" stroke-width="2.3"/>
+
   </g>
 </svg>

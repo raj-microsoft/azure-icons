@@ -1,1 +1,33 @@
-<svg id="b7c2a418-e983-45bb-8b22-a3ab53d9ffdb" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure NetApp Files (sketch)</title><defs><linearGradient id="ecfac9f9-2ace-451a-aef4-4aae90523bfb" x1="9" y1="15.83" x2="9" y2="5.79" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#32bedd"/><stop offset="0.18" stop-color="#32caea"/><stop offset="0.41" stop-color="#32d2f2"/><stop offset="0.78" stop-color="#32d4f5"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><path stroke="#25b9d7" stroke-width=".025" d="M.5,5.79h17a0,0,0,0,1,0,0v9.48a.57.57,0,0,1-.57.57H1.07a.57.57,0,0,1-.57-.57V5.79A0,0,0,0,1,.5,5.79Z" fill="url(#ecfac9f9-2ace-451a-aef4-4aae90523bfb)"/><path d="M1.07,2.17H16.93a.57.57,0,0,1,.57.57V5.79a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2.73A.57.57,0,0,1,1.07,2.17Z" fill="#198ab3"/><path d="M2.81,6.89H15.17a.27.27,0,0,1,.27.27v1.4a.27.27,0,0,1-.27.27H2.81a.27.27,0,0,1-.26-.27V7.16A.27.27,0,0,1,2.81,6.89Z" fill="#fff"/><path d="M2.82,9.68H15.18a.27.27,0,0,1,.27.27v1.41a.27.27,0,0,1-.27.27H2.82a.26.26,0,0,1-.26-.27V10A.26.26,0,0,1,2.82,9.68Z" fill="#9cebff"/><path d="M2.82,12.5H15.18a.27.27,0,0,1,.27.27v1.41a.27.27,0,0,1-.27.27H2.82a.26.26,0,0,1-.26-.27V12.77A.26.26,0,0,1,2.82,12.5Z" fill="#9cebff"/><path stroke="#0069bd" stroke-width=".025" id="ae090ab3-6849-4f1b-8ada-ca4d90aafe4f" d="M5.11,7.86v5.59a.28.28,0,0,0,.28.28H7.74A.28.28,0,0,0,8,13.45V10.13a.27.27,0,0,1,.28-.28H9.69a.27.27,0,0,1,.28.28v3.32a.28.28,0,0,0,.29.28h2.35a.28.28,0,0,0,.28-.28V7.86a.28.28,0,0,0-.28-.28H5.39A.28.28,0,0,0,5.11,7.86Z" fill="#0078d4"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Azure NetApp Files (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure NetApp Files icon with a dark teal header,
+    turquoise storage enclosure, three horizontal storage layers,
+    and a simple squared blue NetApp arch. Flat fills, uneven
+    charcoal marker outlines, and transparent background.
+  </desc>
+
+  <!-- Turquoise storage enclosure -->
+  <path d="M4 41            L124 41            L124 107            Q124 112 119 112            L9 112            Q4 112 4 107            Z" fill="#32BEDD" stroke="#243447" stroke-width="3.4"/>
+
+  <!-- Dark teal storage header -->
+  <path d="M9 15            L119 15            Q124 15 124 20            L124 41            L4 41            L4 20            Q4 15 9 15            Z" fill="#198AB3" stroke="#243447" stroke-width="3.4"/>
+
+  <!-- Upper white storage layer -->
+  <path d="M21 49            Q20 49 20 51            L20 59            Q20 61 22 61            L106 61            Q108 61 108 59            L108 51            Q108 49 106 49            Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.2"/>
+
+  <!-- Middle pale-cyan storage layer -->
+  <path d="M22 69            L106 69            Q108 69 108 71            L108 79            Q108 81 106 81            L22 81            Q20 81 20 79            L20 71            Q20 69 22 69            Z" fill="#9CEBFF" stroke="#243447" stroke-width="2.2"/>
+
+  <!-- Lower pale-cyan storage layer -->
+  <path d="M22 89            L106 89            Q108 89 108 91            L108 99            Q108 101 106 101            L22 101            Q20 101 20 99            L20 91            Q20 89 22 89            Z" fill="#9CEBFF" stroke="#243447" stroke-width="2.2"/>
+
+  <!--
+    Official NetApp squared arch.
+    One continuous blue shape with a rectangular opening.
+    No extra central symbol, inset panel, or lock detail.
+  -->
+  <path d="M37 56            Q37 54 39 54            L89 54            Q91 54 91 56            L91 101            Q91 103 89 103            L73 103            Q71 103 71 101            L71 75            Q71 73 69 73            L59 73            Q57 73 57 75            L57 101            Q57 103 55 103            L39 103            Q37 103 37 101            Z" fill="#0078D4" stroke="#243447" stroke-width="3.2"/>
+
+</svg>

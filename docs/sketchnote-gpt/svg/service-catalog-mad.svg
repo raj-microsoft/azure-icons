@@ -1,1 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Service Catalog MAD (sketch)</title><defs><linearGradient id="pageGradient" x1="8.15" y1="17.5" x2="8.15" y2="2.1" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#773adc"/><stop offset=".25" stop-color="#9255e6"/><stop offset=".5" stop-color="#a669ee"/><stop offset=".76" stop-color="#b376f2"/><stop offset="1" stop-color="#b77af4"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M1.93 2.1L3.15.7A.58.58 0 0 1 3.59.5h11.6a.81.81 0 0 1 .88.83v14.5a.6.6 0 0 1-.19.44l-1.3 1.2H2.72l-.8-.34z" fill="#773adc"/><path d="M2.9 2.1l.74-.85A.53.53 0 0 1 4 1.08h10.88a.52.52 0 0 1 .52.52v13.78a.52.52 0 0 1-.17.39l-1.15 1.05z" fill="#fff"/><path d="M14,2.1H2a0,0,0,0,0-.05,0v15a.39.39,0,0,0,.38.39H14a.39.39,0,0,0,.38-.39V2.48A.38.38,0,0,0,14,2.1Z" fill="url(#pageGradient)"/><g stroke="#5525a5" stroke-width=".075" stroke-linecap="round" stroke-linejoin="round" opacity=".55"><path d="M1.94 2.08L3.17.72Q3.34.49 3.61.53L15.17.5Q15.98.52 16.04 1.34V15.83Q16.02 16.08 15.86 16.27L14.57 17.46"/><path d="M2.91 2.12L3.66 1.27Q3.8 1.05 4.02 1.1L14.89 1.09Q15.4 1.1 15.4 1.61V15.37Q15.4 15.62 15.22 15.78L14.09 16.83"/><path d="M1.97 2.15L1.96 17.13Q1.98 17.52 2.35 17.53L13.97 17.53Q14.2 17.53 14.36 17.36"/></g><g fill="#fff"><path d="M8.35 11.18l-1.6-.88a.05.05 0 0 1 0 0V8.5a.05.05 0 0 1 0 0l1.57.87v1.75M6.3 10l-1.6-.85a.08.08 0 0 1 0 0v-1.8a.05.05 0 0 1 0 0 0 0 0 0 1 0 0l1.57.87V10a.05.05 0 0 1 0 0"/><path d="M7 8l1.57-.85 1.6.85a.05.05 0 0 1 0 0l-1.56.85L7 8" opacity=".8"/><path d="M5 6.87L6.52 6h.05l1.53.84a.05.05 0 0 1 0 .08l-1.55.85L5 6.93m4.08-.03l1.56-.9a0 0 0 0 1 0 0l1.53.84a.05.05 0 0 1 0 0 .08.08 0 0 1 0 0l-1.55.85h-.05L9.1 7a0 0 0 0 1 0 0M7 5.8l1.56-.84h.05l1.55.83a.05.05 0 0 1 0 0l-1.57.84L7 5.86" opacity=".8"/><path d="M8.82 11.18l1.57-.87V8.5l-1.58.87a.05.05 0 0 0 0 0v1.75a.05.05 0 0 0 0 0zm3.63-3.86a0 0 0 0 0 0 0l-1.58.87a.05.05 0 0 0 0 0V10a.05.05 0 0 0 0 0h.05l1.57-.87a.05.05 0 0 0 0 0V7.36s-.02-.04-.04-.04zM9 12.2c.32 0 .65.1.67.5a.57.57 0 0 1 0 .23l.8-.33a.05.05 0 0 0 0 0v-1.8a.05.05 0 0 0 0 0l-1.58.87v.53zm3.4-2.58l-1.58.87v1.75a.05.05 0 0 0 0 0h.05l1.57-.87v-1.7z" opacity=".6"/><path d="M7.32 11.9c.1.15.2.3.3.32h.78v-.54a.05.05 0 0 0 0 0l-1.6-.9v.5a2.07 2.07 0 0 1 .52.63zm-1.17-.76a1.3 1.3 0 0 1 .21 0v-.65a.05.05 0 0 0 0 0l-1.6-.87a.05.05 0 0 0 0 0v1.68a2.57 2.57 0 0 0 .5-.08 4.36 4.36 0 0 1 .89-.08z"/><path d="M11.88 13l-1 .6-1.1.65a1.56 1.56 0 0 1-.86.11h-.33l-1 .05h-.53c-.43 0-1.06-.45-1.4-.76l-.17-.16A2 2 0 0 0 4.1 13h-.58v-1.47H4.7a2.21 2.21 0 0 0 .54-.08 4.28 4.28 0 0 1 .92-.11 1.24 1.24 0 0 1 1 .67c.14.2.26.37.43.4s.58 0 .95 0H9c.4 0 .48.12.5.3a.43.43 0 0 1-.11.33 2.41 2.41 0 0 1-.69.11c-.33 0-1.2.1-1.42-.1l-.6-.53-.12.15.6.52a1.21 1.21 0 0 0 .81.19c.16 0 .54 0 .75-.05a3.24 3.24 0 0 0 .67-.09.12.12 0 0 0 .08 0c.06 0 1.4-.6 1.77-.77s1-.22 1.05 0-.1.36-.4.52z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Service Catalog MAD (sketch)</title>
+  
+  <desc>
+    Purple layered service catalog document with one
+    subdivided isometric cube arrangement and a supporting
+    hand beneath it. Flat fills, uneven charcoal outlines,
+    and transparent background.
+  </desc>
+
+  <!-- Layered document: rear purple cover -->
+  <path d="M14 17 L23 7 Q25 5 28 5        L108 5 Q114 5 114 11        L114 112 L104 122        L19 122 L14 120 Z" fill="#773ADC" stroke="#203746" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Narrow white page layer -->
+  <path d="M21 17 L27 11        L105 11 L109 15        L109 109 L101 117        L20 117 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Main purple document face -->
+  <path d="M15 17        Q15 15 18 15        L99 15 Q102 15 102 18        L102 119 Q102 122 99 122        L18 122 Q15 122 15 119 Z" fill="#A669EE" stroke="#203746" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- One subdivided isometric cube structure -->
+  <!-- Upper middle diamond -->
+  <path d="M58 35 L69 29 L80 35 L69 41 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Upper-left diamond -->
+  <path d="M44 43 L55 37 L66 43 L55 49 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Upper-right diamond -->
+  <path d="M72 43 L83 37 L94 43 L83 49 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Middle central diamond -->
+  <path d="M58 51 L69 45 L80 51 L69 57 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Left central diamond -->
+  <path d="M30 59 L41 53 L52 59 L41 65 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Right central diamond -->
+  <path d="M86 59 L97 53 L108 59 L97 65 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Connected left/front cube faces -->
+  <path d="M44 43 L55 49 L55 64 L44 58 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <path d="M55 49 L66 43 L66 58 L55 64 Z" fill="#F1E5FF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Connected center cube faces -->
+  <path d="M58 51 L69 57 L69 73 L58 66 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <path d="M69 57 L80 51 L80 66 L69 73 Z" fill="#F1E5FF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Connected right/front cube faces -->
+  <path d="M72 43 L83 49 L83 64 L72 58 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <path d="M83 49 L94 43 L94 58 L83 64 Z" fill="#F1E5FF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Lower-left subdivision -->
+  <path d="M44 66 L55 72 L55 88 L44 82 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <path d="M55 72 L66 66 L66 82 L55 88 Z" fill="#F1E5FF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Lower-right subdivision -->
+  <path d="M72 66 L83 72 L83 88 L72 82 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <path d="M83 72 L94 66 L94 82 L83 88 Z" fill="#F1E5FF" stroke="#203746" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Supporting hand beneath the geometric service map -->
+  <path d="M25 94        L33 94        Q38 93 42 91        Q46 89 51 90        Q56 91 59 95        L64 100        L70 100        Q75 100 75 104        Q75 107 71 107        L57 107        Q54 107 52 105        L48 102" fill="#FFFFFF" stroke="#203746" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Hand palm and extended fingers -->
+  <path d="M25 94 L33 94        Q40 94 45 100        L50 105        Q54 110 61 110        L72 110        Q78 110 83 107        L94 100        Q98 97 95 95        Q93 93 89 95        L77 101        Q75 103 71 103        L64 103        Q61 103 59 100" fill="#FFFFFF" stroke="#203746" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Activity Log (sketch)</title><defs><linearGradient id="f8a6a4fc-9e8d-423a-97d1-d514179ece73" x1="8.15" y1="17.5" x2="8.15" y2="2.09" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1988d9"/><stop offset="0.9" stop-color="#54aef0"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M1.93,2.11,3.14.7A.59.59,0,0,1,3.59.5H15.2a.81.81,0,0,1,.89.83v14.5a.57.57,0,0,1-.2.43l-1.3,1.19H2.72l-.81-.33Z" fill="#005ba1"/><path d="M2.91,2.1l.74-.84A.5.5,0,0,1,4,1.08H14.89a.52.52,0,0,1,.52.52V15.38a.52.52,0,0,1-.17.39l-1.16,1.05Z" fill="#fff"/><path d="M14,2.09H2a.06.06,0,0,0-.06.06v15a.39.39,0,0,0,.39.38H14a.38.38,0,0,0,.38-.38V2.48A.39.39,0,0,0,14,2.09Z" fill="url(#f8a6a4fc-9e8d-423a-97d1-d514179ece73)"/><rect x="4.72" y="6.2" width="6.58" height="2.38" rx="0.28" fill="#fff"/><path d="M1.94 2.12 L3.15 .72 Q3.34 .49 3.6 .53 L15.18 .53 Q16.04 .54 16.06 1.34 L16.07 15.81 Q16.05 16.08 15.83 16.27 L14.59 17.43" fill="none" stroke="#003f78" stroke-width=".045" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/><path d="M2.02 17.15 Q2.04 17.52 2.4 17.52 L13.99 17.53 Q14.36 17.49 14.38 17.12" fill="none" stroke="#1678c5" stroke-width=".04" stroke-linecap="round" opacity=".65"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Activity Log (sketch)</title>
+
+  
+  <desc>
+    Hand-drawn Azure Activity Log icon with a dark blue
+    offset book backing, exposed white page, blue front cover,
+    and one blank white rectangular label.
+    Flat fills, uneven charcoal marker outlines,
+    and transparent background.
+  </desc>
+
+  <!-- Dark blue offset book backing -->
+  <path d="M14 20            L22 10            Q24 7 28 7            L108 7            Q114 7 114 13            L114 111            Q114 115 111 118            L102 126            L18 126            L13 123            Z" fill="#005BA1" stroke="#243447" stroke-width="3.4"/>
+
+  <!-- Exposed white page -->
+  <path d="M21 20            L26 14            Q27 12 30 12            L104 12            Q109 12 109 17            L109 108            Q109 111 107 113            L100 120            L21 120            Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.5"/>
+
+  <!-- Main blue activity log cover -->
+  <path d="M14 20            Q14 18 17 18            L99 18            Q103 18 103 22            L103 122            Q103 126 99 126            L17 126            Q14 126 14 122            Z" fill="#329BDF" stroke="#243447" stroke-width="3.5"/>
+
+  <!-- Single blank white label -->
+  <path d="M34 47            Q34 45 37 45            L78 45            Q81 45 81 48            L81 59            Q81 62 78 62            L37 62            Q34 62 34 59            Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.4"/>
+
+</svg>

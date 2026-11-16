@@ -1,1 +1,27 @@
-<svg id="b8d4ff6d-c1e7-4878-8e1b-24a12cad15e1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Sphere (sketch)</title><defs><linearGradient id="fdda967e-7651-4c84-9759-7be8308e5f44" x1="9" y1="17.826" x2="9" y2="0.826" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#198ab3"/><stop offset="0.442" stop-color="#28b7db"/><stop offset="0.775" stop-color="#32d4f5"/></linearGradient><linearGradient id="a71b08ef-312b-4529-8bf0-fa396a725f2f" x1="5.75" y1="-3114.591" x2="12.303" y2="-3119.908" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0.9"/><stop offset="1" stop-color="#fff" stop-opacity="0.8"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><g><circle stroke="#168bb7" stroke-width=".055" cx="9" cy="9.326" r="8.5" fill="url(#fdda967e-7651-4c84-9759-7be8308e5f44)"/><path d="M8.81,15.067c-.973-.6-4.151-2.747-4.151-5.255V6.605L5,6.584A4.044,4.044,0,0,0,7.35,5.842,2.48,2.48,0,0,1,9,5.353a2.511,2.511,0,0,1,1.648.487A4.048,4.048,0,0,0,13,6.584l.34.021V9.812c0,2.508-3.178,4.656-4.152,5.255L9,15.183Z" fill="url(#a71b08ef-312b-4529-8bf0-fa396a725f2f)" stroke="#d8f7fc" stroke-width=".035"/><path d="M9,14.643C7.114,13.472,5.119,11.6,5.119,9.812V7.037a4.446,4.446,0,0,0,2.486-.812A2.027,2.027,0,0,1,9,5.813a2.073,2.073,0,0,1,1.394.411,4.456,4.456,0,0,0,2.487.813V9.812C12.881,11.6,10.886,13.472,9,14.643Z" fill="#50e6ff" stroke="#36c9e9" stroke-width=".035"/><g><circle cx="15.345" cy="14.083" r="1.302" fill="#fff"/><path d="M15.345,12.781a1.3,1.3,0,1,1-1.3,1.3,1.3,1.3,0,0,1,1.3-1.3m0-.651A1.954,1.954,0,1,0,17.3,14.083a1.956,1.956,0,0,0-1.953-1.953Z" fill="#b3b3b3" stroke="#a6a6a6" stroke-width=".025"/></g><g><circle cx="2.655" cy="14.083" r="1.302" fill="#fff"/><path d="M2.655,12.781a1.3,1.3,0,1,1-1.3,1.3,1.3,1.3,0,0,1,1.3-1.3m0-.651a1.954,1.954,0,1,0,1.953,1.953A1.955,1.955,0,0,0,2.655,12.13Z" fill="#b3b3b3" stroke="#a6a6a6" stroke-width=".025"/></g><g><circle cx="9" cy="2.128" r="1.302" fill="#fff"/><path d="M9,.826a1.3,1.3,0,1,1-1.3,1.3A1.3,1.3,0,0,1,9,.826M9,.174a1.954,1.954,0,1,0,1.953,1.954A1.956,1.956,0,0,0,9,.174Z" fill="#b3b3b3" stroke="#a6a6a6" stroke-width=".025"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Sphere (sketch)</title>
+  
+  <desc>
+    Azure Sphere with a turquoise circular field,
+    an empty cyan security shield, and three white
+    circular nodes. Flat fills, irregular charcoal
+    marker outlines, and transparent surroundings.
+  </desc>
+
+  <!-- Turquoise circular field -->
+  <path d="M64 6        C96 5 120 29 122 61        C124 94 99 120 66 122        C33 124 7 100 6 67        C5 34 30 8 64 6Z" fill="#28B7DB" stroke="#203746" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Security shield: pale outer shape -->
+  <path d="M64 36.7        C58 36.4 54 39.5 49 42.5        C44 45.5 38.5 47.2 33.2 47.4        L33.1 69.6        C33.2 88.1 51.3 102.5 64 110.7        C76.8 102.5 94.7 88.1 94.9 69.6        L94.8 47.4        C89.3 47.2 84 45.5 79 42.5        C74 39.5 70 36.4 64 36.7Z" fill="#F3FDFF" stroke="#203746" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner cyan shield, intentionally empty -->
+  <path d="M64 40.3        C58.8 40.1 54.8 43.1 50.5 45.7        C46.5 48.2 42 50.2 36.5 50.6        L36.5 69.6        C36.5 84.2 51.4 97.8 64 106.8        C76.6 97.8 91.5 84.2 91.5 69.6        L91.5 50.6        C86 50.2 81.5 48.2 77.5 45.7        C73.2 43.1 69.2 40.1 64 40.3Z" fill="#50E6FF" stroke="#203746" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upper white circular node -->
+  <path d="M64 2.3        C71.5 2 77.8 8 78 15.5        C78.2 23.2 72 29.2 64.4 29.5        C56.7 29.8 50.3 23.6 50.2 16        C50.1 8.4 56.4 2.6 64 2.3Z" fill="#FFFFFF" stroke="#203746" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower-left white circular node -->
+  <path d="M19.1 86.4        C26.6 85.9 33 91.9 33.3 99.4        C33.6 107.1 27.3 113.3 19.8 113.6        C12.1 113.9 5.8 107.9 5.7 100.3        C5.5 92.8 11.5 86.9 19.1 86.4Z" fill="#FFFFFF" stroke="#203746" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lower-right white circular node -->
+  <path d="M108.5 86.4        C116 85.9 122.2 91.8 122.5 99.4        C122.8 107.1 116.7 113.3 109 113.6        C101.4 113.9 95.2 107.9 95.1 100.3        C95 92.8 101 86.9 108.5 86.4Z" fill="#FFFFFF" stroke="#203746" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
