@@ -1,32 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Logic Apps Custom Connector (sketch)</title>
-  <defs>
-    <linearGradient id="blueNode" x1="4.76" y1="9.66" x2="4.76" y2="17.06" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#008bf1"/>
-      <stop offset="1" stop-color="#004dae"/>
-    </linearGradient>
-    <linearGradient id="greenTop" x1="4.83" y1="1.06" x2="4.83" y2="6.38" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#76bc2d"/>
-      <stop offset="1" stop-color="#5e9624"/>
-    </linearGradient>
-    <linearGradient id="greenRight" x1="14.4" y1="10.64" x2="14.4" y2="15.95" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#76bc2d"/>
-      <stop offset="1" stop-color="#5e9624"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Logic Apps Custom Connector (sketch)</title>
+  
+  <desc>Hand-drawn Azure Logic Apps Custom Connector icon featuring two blank green square nodes, a solid blue diamond, and a grey L-shaped connector. Flat colors, uneven dark marker outlines, and transparent background.</desc>
 
-  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Grey L-shaped connector backbone -->
+  <path d="M34.5 44            L34.8 91            Q34.9 96 40 96            L88 96" stroke="#42494D" stroke-width="10"/>
 
-    <!-- Original connecting path -->
-    <polygon points="5.36 12.77 5.36 6.38 4.31 6.38 4.31 12.77 4.31 13.36 4.31 13.82 12.65 13.82 12.65 12.77 5.36 12.77" fill="#949494" stroke="#858585" stroke-width="0.10"/>
+  <path d="M34.5 44            L34.8 91            Q34.9 96 40 96            L88 96" stroke="#949494" stroke-width="6.5"/>
 
-    <!-- Lower-left blue diamond: blank node -->
-    <path d="M4.38,9.82 L1.22,13 a.55.55 0 0 0 0,.77 L4.38,16.9 a.55.55 0 0 0 .77,0 L8.31,13.74 a.55.55 0 0 0 0-.77 L5.15,9.82 a.55.55 0 0 0-.77,0 Z" fill="url(#blueNode)" stroke="#0875cf" stroke-width="0.13"/>
+  <!-- Top blank green node -->
+  <path d="M19.5 9.2            Q16.2 9.1 16.1 12.8            L16 42            Q16 45.8 20.1 46            L50.8 45.9            Q55.2 45.8 55.1 41.7            L55.2 13            Q55.1 9.2 51.1 9.1 Z" fill="#76BC2D" stroke="#345A27" stroke-width="3.8"/>
 
-    <!-- Upper-left green square: blank node -->
-    <path d="M7.49,5.84 V1.6 A.54.54 0 0 0 7,1.06 H2.71 a.54.54 0 0 0-.54.54 V5.84 a.54.54 0 0 0 .54.54 H7 a.54.54 0 0 0 .49-.54 Z" fill="url(#greenTop)" stroke="#639d27" stroke-width="0.13"/>
+  <!-- Small freehand edge retrace -->
+  <path d="M21.5 12.9 Q35 12.2 48.7 13" stroke="#345A27" stroke-width="1.5"/>
 
-    <!-- Lower-right green square: blank node -->
-    <path d="M11.74,11.18 v4.23 a.54.54 0 0 0 .54.54 h4.24 a.54.54 0 0 0 .54-.54 v-4.23 a.54.54 0 0 0-.54-.54 h-4.24 a.54.54 0 0 0-.54.54 Z" fill="url(#greenRight)" stroke="#639d27" stroke-width="0.13"/>
+  <!-- Right blank green node -->
+  <path d="M88.4 77.4            Q84.7 77.3 84.8 81.5            L84.7 109.4            Q84.8 113.7 89 113.8            L117.2 113.7            Q121.3 113.7 121.5 109.3            L121.4 81.8            Q121.3 77.5 117.1 77.5 Z" fill="#76BC2D" stroke="#345A27" stroke-width="3.8"/>
 
+  <!-- Small freehand edge retrace -->
+  <path d="M90.2 81 Q102.5 80.4 115.3 81" stroke="#345A27" stroke-width="1.5"/>
+
+  <!-- Solid blue connector diamond -->
+  <path d="M33 70            Q36 67.4 39.1 70.2            L59.8 90.8            Q63.3 94.1 60 97.6            L39.3 118.6            Q36 122 32.5 118.7            L11.8 98            Q8.5 94.6 11.9 91.2 Z" fill="#0078D4" stroke="#173B55" stroke-width="4.2"/>
+
+  <!-- Subtle hand-drawn contour retraces -->
+  <path d="M16.6 91 L31.7 75.8" stroke="#173B55" stroke-width="1.6"/>
+
+  <path d="M43.4 114.8 L56.2 101.7" stroke="#173B55" stroke-width="1.4"/>
+
+  <!-- Restrained yellow sketchnote accents -->
+  <g stroke="#E8BC46" stroke-width="2.5">
+    <path d="M9 58 L5 54"/>
+    <path d="M15 56 L14 50"/>
+    <path d="M110 67 L113 62"/>
   </g>
 </svg>

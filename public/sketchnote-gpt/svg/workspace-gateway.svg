@@ -1,5 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Workspace Gateway (sketch)</title><defs><linearGradient id="purpleNode" x1="83.2" y1="86.5" x2="111.4" y2="86.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6f4bb2"/><stop offset="1" stop-color="#c69aeb"/></linearGradient><linearGradient id="gatewayBlue" x1="69.75" y1="86.28" x2="124.56" y2="86.28" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset="1" stop-color="#83b9f9"/></linearGradient><linearGradient id="cloudCyan" x1="56.14" y1="92.07" x2="56.14" y2="9.7" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#198ab3"/><stop offset="0.09" stop-color="#1f9dc4"/><stop offset="0.24" stop-color="#28b5d9"/><stop offset="0.4" stop-color="#2dc6e9"/><stop offset="0.57" stop-color="#31d1f2"/><stop offset="0.78" stop-color="#32d4f5"/></linearGradient></defs>
-<path d="M65.86 85.52 L35.33 85.53 L35.06 85.55 Q33.91 85.65 32.73 85.65 L32.50 85.65 Q32.03 85.67 31.54 85.67 C18.04 85.67 7.04 75.15 6.41 61.67 C6.87 49.43 15.99 39.53 28.17 38.07 L32.04 37.60 L33.40 33.94 C37.36 23.29 47.65 16.13 59.02 16.14 Q59.28 16.14 59.52 16.15 L59.82 16.15 Q60.23 16.14 60.66 16.14 C74.88 16.14 86.49 27.28 87.10 41.49 L87.34 46.85 L92.67 47.55 C99.39 48.44 104.91 52.61 107.73 58.34 Q108.75 58.73 109.74 59.19 C110.03 57.10 110.92 55.12 112.27 53.44 C108.27 46.94 101.52 42.28 93.51 41.22 C92.75 23.56 78.21 9.73 60.66 9.73 Q60.15 9.73 59.63 9.75 L59.02 9.75 C44.94 9.75 32.30 18.51 27.39 31.77 C12.10 33.55 0.46 46.31 0 61.71 C0.67 78.72 14.68 92.08 31.56 92.08 Q32.14 92.08 32.72 92.06 Q34.18 92.06 35.59 91.95 L66.24 91.94 Q65.68 88.77 65.86 85.52 Z" fill="url(#cloudCyan)" stroke="#168eb5" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="84.36" y="75.16" width="22.64" height="22.64" rx="11.18" ry="11.18" transform="rotate(-45 95.68 86.48)" fill="url(#purpleNode)" stroke="#805ab9" stroke-width="0.55"/>
-<path d="M104.90 101.89 C96.67 107.31 85.61 105.03 80.19 96.80 C76.29 90.87 76.27 83.20 80.15 77.25 C81.12 75.85 80.77 73.94 79.37 72.98 C77.98 72.01 76.07 72.36 75.11 73.76 Q75.08 73.80 75.02 73.90 C69.46 82.46 69.91 93.61 76.13 101.70 L72.26 105.57 C70.02 104.92 67.60 105.55 65.96 107.21 L65.85 107.32 C63.36 109.81 63.35 113.85 65.83 116.35 L65.94 116.46 C68.44 118.96 72.49 118.96 74.99 116.46 L75.10 116.35 C76.79 114.65 77.39 112.16 76.65 109.88 L80.48 106.04 C88.59 112.25 99.73 112.65 108.27 107.05 C109.68 106.12 110.07 104.22 109.14 102.81 C108.21 101.39 106.30 101.00 104.90 101.89 Z M126.14 56.25 L126.13 56.24 L126.02 56.13 C123.53 53.63 119.47 53.63 116.97 56.13 L116.86 56.24 C115.20 57.90 114.58 60.32 115.24 62.57 L111.37 66.44 C103.28 60.21 92.14 59.77 83.58 65.33 C82.18 66.30 81.83 68.21 82.80 69.60 C83.73 70.94 85.54 71.32 86.94 70.47 C95.19 65.09 106.24 67.42 111.62 75.67 C115.50 81.61 115.48 89.28 111.58 95.21 C110.65 96.63 111.04 98.53 112.46 99.46 C113.88 100.39 115.78 100.00 116.71 98.58 C122.29 90.04 121.88 78.91 115.68 70.81 L119.53 66.96 C121.81 67.70 124.31 67.10 126.01 65.41 L126.12 65.30 C128.62 62.80 128.63 58.75 126.14 56.25 Z" fill="url(#gatewayBlue)" stroke="#247fc7" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Workspace Gateway (sketch)</title>
+  
+  <desc>Open cyan cloud outline with an overlapping blue circular gateway orbit, two diagonal endpoint connectors and a solid purple central node. Uneven dark marker outlines, flat colors and transparent background.</desc>
+
+  <!-- Cloud outline: transparent interior, open at lower right -->
+  <path d="M65.8 86.7            L35.2 86.6            C33.8 86.8 32.6 86.9 31.3 86.9            C16.1 87 6.5 76.5 6.2 63            C6 51 14.5 41.1 27.5 38.9            C32.3 25.2 44.1 16.5 58.5 16.2            C74.5 15.6 87.2 27.1 88.1 42.3            C95.8 43.4 102.7 48.2 106 54.9" stroke="#17485C" stroke-width="9"/>
+
+  <path d="M65.8 86.7            L35.2 86.6            C33.8 86.8 32.6 86.9 31.3 86.9            C16.1 87 6.5 76.5 6.2 63            C6 51 14.5 41.1 27.5 38.9            C32.3 25.2 44.1 16.5 58.5 16.2            C74.5 15.6 87.2 27.1 88.1 42.3            C95.8 43.4 102.7 48.2 106 54.9" stroke="#32D4F5" stroke-width="5.5"/>
+
+  <!-- Subtle irregular cloud marker retrace -->
+  <path d="M12 60            Q13 46.7 30.6 44.3            M35.7 35.8            Q43.3 22 58.5 21.6            M66 21.8            Q81 25.5 82.7 41.5" stroke="#176982" stroke-width="1.7"/>
+
+  <!-- Gateway continuous circular orbit -->
+  <path d="M108 65.6            C101 60.1 91.4 59.3 83.5 64.5            C75.3 69.8 72.8 80.7 77.4 89.4            C82.7 99.4 95.4 102.2 105.3 96.4            C115.2 90.7 118.1 78.3 112.8 69.4" stroke="#173C60" stroke-width="9"/>
+
+  <path d="M108 65.6            C101 60.1 91.4 59.3 83.5 64.5            C75.3 69.8 72.8 80.7 77.4 89.4            C82.7 99.4 95.4 102.2 105.3 96.4            C115.2 90.7 118.1 78.3 112.8 69.4" stroke="#398FE4" stroke-width="5.5"/>
+
+  <!-- Upper-right diagonal gateway connector -->
+  <path d="M111.2 66.9 L119.3 58.8" stroke="#173C60" stroke-width="9"/>
+  <path d="M111.2 66.9 L119.3 58.8" stroke="#398FE4" stroke-width="5.5"/>
+
+  <!-- Upper-right connector endpoint -->
+  <path d="M116.1 52.7            Q119.2 49.9 122.2 52.8            Q125.2 55.8 122.3 58.9            Q119.3 61.9 116.1 58.8            Q113.1 55.8 116.1 52.7 Z" fill="#83B9F9" stroke="#173C60" stroke-width="3"/>
+
+  <!-- Lower-left diagonal gateway connector -->
+  <path d="M79.3 95.3 L71.2 103.4" stroke="#173C60" stroke-width="9"/>
+  <path d="M79.3 95.3 L71.2 103.4" stroke="#398FE4" stroke-width="5.5"/>
+
+  <!-- Lower-left connector endpoint -->
+  <path d="M68.1 103.6            Q71.1 100.6 74.2 103.6            Q77.2 106.7 74.1 109.8            Q71.1 112.8 68 109.7            Q65 106.7 68.1 103.6 Z" fill="#83B9F9" stroke="#173C60" stroke-width="3"/>
+
+  <!-- Purple gateway core -->
+  <path d="M91.1 72.4            C94.7 68.8 99.8 69 103.2 72.6            C106.8 76.3 106.4 81.4 103 84.8            C99.4 88.4 94.3 88.1 90.8 84.6            C87.2 81.1 87.5 76.1 91.1 72.4 Z" fill="#9468C6" stroke="#443065" stroke-width="3.6"/>
+
+  <!-- Restrained sketchnote accent marks -->
+  <g stroke="#E8BC46" stroke-width="2.6">
+    <path d="M110 42 L113.1 36.8"/>
+    <path d="M117.5 45 L122.5 42.4"/>
+  </g>
 </svg>

@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Workspaces (sketch)</title>
-  <defs>
-    <linearGradient id="workspaceBlue" x1="64" y1="124" x2="64" y2="4" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#005ba1"/>
-      <stop offset=".168" stop-color="#0063ae"/>
-      <stop offset=".577" stop-color="#0072ca"/>
-      <stop offset=".815" stop-color="#0078d4"/>
-    </linearGradient>
-  </defs>
+  
+  <desc>Hand-drawn Azure Workspaces icon with a blue circular background, one cyan hollow workspace tile and three blank white workspace tiles.</desc>
 
-  <!-- Original circular background -->
-  <circle cx="64" cy="64" r="60.45" fill="url(#workspaceBlue)" stroke="#0063ae" stroke-width="1.2"/>
+  <!-- Circular Azure background -->
+  <path d="M64 4            C96 3 123 29 124 62            C126 95 99 123 66 124            C32 126 5 100 4 66            C2 32 29 5 64 4 Z" fill="#0072C6" stroke="#173B55" stroke-width="3.6" stroke-linejoin="round"/>
 
-  <!-- Upper-right workspace tile: exact original geometry -->
-  <g transform="scale(7.111111)">
-    <path d="M8.88,4.69a.753.753,0,0,0-.753.752V9.136a.753.753,0,0,0,.753.752h3.693a.752.752,0,0,0,.752-.752V5.442a.752.752,0,0,0-.752-.752Zm.677.978a.451.451,0,0,0-.452.451V8.458a.452.452,0,0,0,.452.452H11.9a.451.451,0,0,0,.451-.452V6.119a.451.451,0,0,0-.451-.451Z" fill="#7de2fb" fill-rule="evenodd"/>
+  <!-- Subtle freehand circle retraces -->
+  <path d="M29 19 Q45 7 65 8" fill="none" stroke="#174562" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M111 87 Q102 111 80 117" fill="none" stroke="#174562" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Upper-right cyan workspace frame -->
+  <path d="M62.5 33.2            Q62.7 30.2 66.5 30.1            L89.4 30            Q93 30.1 93.2 33.8            L93.1 57.5            Q93 61.2 89.5 61.5            L66.4 61.4            Q62.6 61.3 62.5 57.7 Z            M70.4 37.2            Q69.1 37.3 69.2 39            L69.2 52.5            Q69.3 54.6 71.4 54.6            L84.8 54.5            Q86.7 54.5 86.7 52.5            L86.8 39            Q86.8 37.2 84.8 37.2 Z" fill="#7DE2FB" fill-rule="evenodd" stroke="#173B55" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Upper-left blank white workspace -->
+  <path d="M37.3 46.3            Q37.4 43.2 40.5 43.2            L53 43.3            Q56.3 43.2 56.4 46.5            L56.3 59.1            Q56.2 62.4 53 62.4            L40.4 62.3            Q37.3 62.2 37.3 59 Z" fill="#FFFFFF" stroke="#173B55" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Lower-left blank white workspace -->
+  <path d="M37.4 71.2            Q37.3 68 40.5 68            L53.1 68.1            Q56.3 68 56.4 71.3            L56.4 83.8            Q56.3 87 53.1 87.1            L40.6 87            Q37.4 87 37.3 83.8 Z" fill="#FFFFFF" stroke="#173B55" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Lower-right blank white workspace -->
+  <path d="M62 70.8            Q62 67.6 65.3 67.6            L77.9 67.7            Q81.1 67.7 81.2 70.9            L81.2 83.4            Q81.2 86.7 78 86.8            L65.2 86.7            Q62 86.6 62 83.5 Z" fill="#FFFFFF" stroke="#173B55" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Tiny hand-drawn yellow marker accents -->
+  <g fill="none" stroke="#F2C94C" stroke-width="2.7" stroke-linecap="round">
+    <path d="M100 33 L104 29"/>
+    <path d="M104 41 L109 39"/>
+    <path d="M23 44 L19 41"/>
   </g>
-
-  <!-- Left-middle blank tile -->
-  <path d="M33.2 53.4            Q33.2 50.2 36.4 50.2            H49.6 Q52.8 50.2 52.8 53.4            V66.6 Q52.8 69.8 49.6 69.8            H36.4 Q33.2 69.8 33.2 66.6Z" fill="#fff"/>
-
-  <!-- Lower-left blank tile -->
-  <path d="M33.2 78.2            Q33.2 75 36.4 75            H49.6 Q52.8 75 52.8 78.2            V91.4 Q52.8 94.6 49.6 94.6            H36.4 Q33.2 94.6 33.2 91.4Z" fill="#fff"/>
-
-  <!-- Lower-middle blank tile -->
-  <path d="M57.7 77.8            Q57.7 74.6 60.9 74.6            H74.1 Q77.3 74.6 77.3 77.8            V91 Q77.3 94.2 74.1 94.2            H60.9 Q57.7 94.2 57.7 91Z" fill="#fff"/>
-
-  <!-- Subtle hand-drawn contour details -->
-  <path d="M33.5 53.6            Q33.1 50.4 36.4 50.3            M33.5 78.4            Q33.1 75.2 36.4 75.1            M58 78            Q57.8 74.8 61 74.7" fill="none" stroke="#b8efff" stroke-width="1.1" stroke-linecap="round"/>
 </svg>

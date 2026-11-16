@@ -1,49 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Spring Apps (sketch)</title>
+  
+  <desc>Four simple hollow Azure-blue window frames in a two-by-two grid, with an overlapping green Spring leaf emblem. Hand-drawn uneven dark marker outlines, flat fills and transparent background.</desc>
 
-  <defs>
-    <linearGradient id="paneTL" x1="-0.258" y1="-0.226" x2="8.727" y2="8.720" gradientUnits="userSpaceOnUse">
-      <stop offset=".059" stop-color="#0086ec"/>
-      <stop offset="1" stop-color="#004dae"/>
-    </linearGradient>
+  <!-- Upper-left hollow window frame -->
+  <path d="M5 5.5            Q5.2 3.6 7.5 3.8            L58.1 4            Q60.2 4.1 60.1 6.5            L60 58.1            Q59.9 60.4 57.8 60.3            L7.2 60.1            Q4.8 60 4.9 57.6 Z            M13 12.8            L13 51.8            L51.7 51.7            L51.8 12.9 Z" fill="#087BDA" fill-rule="evenodd" stroke="#173B55" stroke-width="3" stroke-linejoin="round"/>
 
-    <linearGradient id="paneTR" x1="9.064" y1="8.780" x2="17.493" y2=".669" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#004dae"/>
-      <stop offset=".941" stop-color="#0086ec"/>
-    </linearGradient>
+  <!-- Upper-right hollow window frame -->
+  <path d="M69.9 6.2            Q70 3.8 72.4 3.9            L121.1 4            Q123.6 4.1 123.6 6.5            L123.8 57.8            Q123.8 60.3 121.3 60.3            L70 60.2 Z            M78.1 12.9            L78.1 51.7            L115.4 51.8            L115.5 12.8 Z" fill="#087BDA" fill-rule="evenodd" stroke="#173B55" stroke-width="3" stroke-linejoin="round"/>
 
-    <linearGradient id="paneBR" x1="8.863" y1="8.499" x2="17.770" y2="18.081" gradientUnits="userSpaceOnUse">
-      <stop offset=".059" stop-color="#0086ec"/>
-      <stop offset="1" stop-color="#004dae"/>
-    </linearGradient>
+  <!-- Lower-left hollow window frame -->
+  <path d="M5 69.7            Q5 67.6 7.5 67.6            L57.8 67.5            Q60.1 67.5 60.1 69.9            L60.2 121            Q60.2 123.5 57.9 123.5            L7.3 123.6            Q4.9 123.5 4.9 121 Z            M13.1 75.9            L13 114.7            L51.8 114.7            L51.7 75.9 Z" fill="#087BDA" fill-rule="evenodd" stroke="#173B55" stroke-width="3" stroke-linejoin="round"/>
 
-    <linearGradient id="paneBL" x1="8.643" y1="9.163" x2=".493" y2="17.672" gradientUnits="userSpaceOnUse">
-      <stop offset=".059" stop-color="#0086ec"/>
-      <stop offset="1" stop-color="#004dae"/>
-    </linearGradient>
-  </defs>
+  <!-- Lower-right hollow window frame -->
+  <path d="M70 69.8            Q70 67.5 72.5 67.5            L121 67.6            Q123.5 67.6 123.5 70            L123.6 121            Q123.6 123.5 121.2 123.5            L72.3 123.6            Q69.9 123.5 69.9 121 Z            M78.1 76            L78.1 114.7            L115.4 114.7            L115.5 76 Z" fill="#087BDA" fill-rule="evenodd" stroke="#173B55" stroke-width="3" stroke-linejoin="round"/>
 
-  <g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Freehand marker retraces on frame edges -->
+  <g fill="none" stroke="#17445F" stroke-width="1.4" stroke-linecap="round">
+    <path d="M8 7 L24 7.2"/>
+    <path d="M73 7 L88 7"/>
+    <path d="M8 71 L23 71"/>
+    <path d="M73 71 L87 71"/>
+  </g>
 
-    <!-- Upper-left: original single open pane -->
-    <path d="M7.335 7.347          H1.930          Q1.644 7.347 1.644 7.061          V1.942          Q1.644 1.656 1.930 1.656          H7.049          Q7.335 1.656 7.335 1.942          V7.347           M8.480 8.491          V.800          Q8.480 .511 8.194 .511          H.786          Q.500 .511 .500 .800          V8.205          Q.500 8.491 .786 8.491          Z" fill="url(#paneTL)" fill-rule="evenodd" stroke="#0057b8" stroke-width=".035"/>
+  <!-- Central Spring circular emblem -->
+  <path d="M106 58            C104 42 93 28 78 22            C80 29 78 34 74 40            C64 34 52 34 42 39            C26 46 18 61 20 77            C22 94 36 107 52 110            C69 113 87 107 98 94            C106 84 109 70 106 58 Z" fill="#5FB832" stroke="#234E32" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Upper-right: original single open pane -->
-    <path d="M10.665 7.347          V1.942          Q10.665 1.656 10.951 1.656          H16.070          Q16.356 1.656 16.356 1.942          V7.061          Q16.356 7.347 16.070 7.347          H10.665           M9.520 8.491          H17.214          Q17.500 8.491 17.500 8.205          V.800          Q17.500 .511 17.214 .511          H9.806          Q9.520 .511 9.520 .800          Z" fill="url(#paneTR)" fill-rule="evenodd" stroke="#0057b8" stroke-width=".035"/>
+  <!-- Central Spring white leaf -->
+  <path d="M43 83            C35 76 36 62 43 55            C52 47 62 49 72 47            C84 45 92 38 97 28            C102 43 108 66 100 79            C93 91 77 90 65 91            C55 92 47 88 43 83 Z" fill="#FFFFFF" stroke="#234E32" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Lower-right: original single open pane -->
-    <path d="M10.665 10.653          H16.070          Q16.356 10.653 16.356 10.939          V16.058          Q16.356 16.344 16.070 16.344          H10.951          Q10.665 16.344 10.665 16.058          V10.653           M9.520 9.509          V17.200          Q9.520 17.487 9.806 17.487          H17.214          Q17.500 17.487 17.500 17.200          V9.795          Q17.500 9.509 17.214 9.509          Z" fill="url(#paneBR)" fill-rule="evenodd" stroke="#0057b8" stroke-width=".035"/>
+  <!-- Leaf vein -->
+  <path d="M44 91            C59 84 73 80 83 69            C91 61 95 50 97 41" fill="none" stroke="#327C2D" stroke-width="4" stroke-linecap="round"/>
 
-    <!-- Lower-left: original single open pane -->
-    <path d="M7.335 10.653          V16.058          Q7.335 16.344 7.049 16.344          H1.930          Q1.644 16.344 1.644 16.058          V10.939          Q1.644 10.653 1.930 10.653          H7.335           M8.480 9.509          H.786          Q.500 9.509 .500 9.795          V17.200          Q.500 17.487 .786 17.487          H8.194          Q8.480 17.487 8.480 17.200          Z" fill="url(#paneBL)" fill-rule="evenodd" stroke="#0057b8" stroke-width=".035"/>
+  <!-- Fine organic leaf detail -->
+  <path d="M56 82 Q69 80 77 73" fill="none" stroke="#78BD4A" stroke-width="1.8" stroke-linecap="round"/>
 
-    <!-- Original green Spring emblem -->
-    <path d="M14.900 8.220          C14.760 6.520 14.420 4.890 13.867 3.339          Q13.650 3.870 13.304 4.324          C12.300 3.270 10.858 2.681 9.268 2.681          C6.157 2.681 3.635 5.203 3.635 8.314          C3.635 11.425 6.157 13.947 9.268 13.947          C12.379 13.947 14.900 11.425 14.900 8.314          Z" fill="#5fb832" stroke="#438d29" stroke-width=".05"/>
+  <!-- Spring signature dot -->
+  <path d="M37 93            C39 91 42.4 92 43 95            C43.6 98 40.5 100.2 38 99            C35.4 98 35.1 95 37 93 Z" fill="#FFFFFF" stroke="#234E32" stroke-width="2"/>
 
-    <!-- Original white leaf and flowing Spring detail -->
-    <path d="M13.821 10.849          C12.413 12.679 9.456 12.069 7.579 12.163          Q7.231 12.170 6.921 12.210          L7.203 12.116          C8.173 11.827 9.072 11.543 9.972 11.130          C11.730 10.327 12.900 8.877 13.305 6.859          C12.559 8.668 11.250 9.930 9.362 10.614          C8.359 10.977 7.314 11.232 6.262 11.414          L6.168 11.367          C4.809 10.708 4.762 7.751 7.200 6.812          C8.280 6.390 9.312 6.624 10.486 6.343          C11.915 6.019 13.055 5.202 13.775 3.900          C14.479 5.920 15.230 8.971 13.821 10.849          Z" fill="#ffffff"/>
-
-    <!-- Original small white dot -->
-    <path d="M6.358 12.210          C6.358 12.469 6.148 12.679 5.889 12.679          C5.629 12.679 5.419 12.469 5.419 12.210          C5.419 11.951 5.629 11.741 5.889 11.741          C6.148 11.741 6.358 11.951 6.358 12.210          Z" fill="#ffffff"/>
-
+  <!-- Restrained yellow sketchnote accents -->
+  <g fill="none" stroke="#E8BC46" stroke-width="2.4" stroke-linecap="round">
+    <path d="M64 11 L64 16"/>
+    <path d="M115 63 L120 63"/>
   </g>
 </svg>

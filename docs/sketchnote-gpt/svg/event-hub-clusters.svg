@@ -1,44 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Event Hub Clusters (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Event Hub Clusters (sketch)</title>
   
-  <g transform="scale(7.111111)">
-    <g fill="#949494" stroke="#777777" stroke-width="0.055" stroke-linejoin="round" stroke-linecap="round">
-      <!-- Upper-left open bracket -->
-      <path d="M9.11 2.36h0a.29.29 0 0 0-.29-.29h-8a.29.29 0 0 0-.29.29h0V3.89A.14.14 0 0 0 .64 4H1.3a.14.14 0 0 0 .14-.14V3h6.72v.91A.15.15 0 0 0 8.31 4H9a.15.15 0 0 0 .15-.14V2.36Z"/>
-      <path d="M1.44 7.88a.15.15 0 0 0-.14-.15H.64a.15.15 0 0 0-.14.15V9.4h0c0 .15.1.28.21.28H4.19V8.78H1.44Z"/>
+  <desc>Three staggered clusters formed from open grey top and bottom brackets, with small green event tiles and dark hand-drawn outlines.</desc>
 
-      <!-- Middle-left open bracket -->
-      <path d="M13.31 5.8h0a.28.28 0 0 0-.29-.28H5a.28.28 0 0 0-.29.28h0V7.33a.15.15 0 0 0 .15.14H5.5a.14.14 0 0 0 .14-.14v-.9h6.72v.9a.15.15 0 0 0 .15.14h.65a.15.15 0 0 0 .15-.14V5.8Z"/>
-      <path d="M5.64 11.32a.14.14 0 0 0-.14-.14H4.85a.15.15 0 0 0-.15.14v1.53h0a.25.25 0 0 0 .21.28H8.39v-.91H5.64Z"/>
-    </g>
+  <!-- Rear cluster: open top bracket -->
+  <path d="M5 27            Q5 24.5 8 24.5            L61 24.7            Q63.8 24.8 63.8 27.5            L63.8 36.3" stroke="#353F45" stroke-width="7"/>
+  <path d="M5 27            Q5 24.5 8 24.5            L61 24.7            Q63.8 24.8 63.8 27.5            L63.8 36.3" stroke="#949494" stroke-width="4.4"/>
 
-    <!-- Original connector bars -->
-    <g fill="#b3b3b3" stroke="#858585" stroke-width="0.035" stroke-linejoin="round">
-      <path d="M9.18 8.24h.65v1.81a.14.14 0 0 1-.14.14H9a.14.14 0 0 1-.14-.14V8.53a.29.29 0 0 1 .32-.29Z"/>
-      <path d="M16.56 8.24h.65a.29.29 0 0 1 .29.29v1.53a.14.14 0 0 1-.14.14H16.7a.14.14 0 0 1-.14-.14V8.24Z"/>
-      <path d="M13 4.4h.63V13H13a.29.29 0 0 1-.29-.29v-8A.29.29 0 0 1 13 4.4Z" transform="translate(21.9 -4.5) rotate(90)"/>
-      <path d="M9 14h.65a.14.14 0 0 1 .14.14v1.81h-.61a.29.29 0 0 1-.29-.29v-1.55A.14.14 0 0 1 9 14Z"/>
-      <path d="M16.7 14h.65a.14.14 0 0 1 .14.14v1.53a.29.29 0 0 1-.29.29h-.65v-1.85a.14.14 0 0 1 .15-.11Z"/>
-      <path d="M13 11.17h.63v8.61H13a.29.29 0 0 1-.29-.29v-8a.29.29 0 0 1 .29-.32Z" transform="translate(-2.27 28.67) rotate(-90)"/>
-    </g>
+  <!-- Rear cluster: open bottom bracket -->
+  <path d="M5.2 55.8            L5 67            Q5 69.8 8 69.8            L30.2 69.7" stroke="#353F45" stroke-width="7"/>
+  <path d="M5.2 55.8            L5 67            Q5 69.8 8 69.8            L30.2 69.7" stroke="#949494" stroke-width="4.4"/>
 
-    <!-- Original green cluster nodes -->
-    <g stroke-linejoin="round" stroke-width="0.045" stroke="#477e20">
-      <path fill="#76bc2d" d="M14.09 11.74a.13.13 0 0 1-.11.13H13a.12.12 0 0 1-.13-.12V11a.14.14 0 0 1 .11-.13h1a.12.12 0 0 1 .13.12Z"/>
-      <path fill="#5e9624" d="M15.88 12.5a.13.13 0 0 1-.11.13h-1a.12.12 0 0 1-.13-.12v-.74a.11.11 0 0 1 .11-.12h1a.11.11 0 0 1 .13.11Z"/>
-      <path fill="#5e9624" d="M14.09 13.26a.12.12 0 0 1-.11.13H13a.12.12 0 0 1-.13-.11v-.75a.12.12 0 0 1 .13-.13h1a.11.11 0 0 1 .13.11Z"/>
-      <path fill="#86d633" d="M12.3 11a.11.11 0 0 1-.11.12h-1a.11.11 0 0 1-.12-.12v-.77a.11.11 0 0 1 .11-.12h1c.1 0 .15.05.15.12Z"/>
-      <path fill="#76bc2d" d="M12.3 12.5a.12.12 0 0 1-.11.13h-1a.12.12 0 0 1-.12-.12v-.76a.12.12 0 0 1 .11-.13h1c.1 0 .15.05.15.13Z"/>
-      <path fill="#5e9624" d="M12.3 14a.11.11 0 0 1-.11.13h-1a.12.12 0 0 1-.12-.13v-.78a.12.12 0 0 1 .11-.13h1a.13.13 0 0 1 .15.13Z"/>
-    </g>
+  <!-- Rear event tiles: vertical column -->
+  <path d="M17.5 32.4 L25.8 32.2 L25.8 39.5 L17.6 39.7 Z" fill="#76BC2D" stroke="#345A27" stroke-width="2"/>
+  <path d="M17.5 43.2 L25.8 43.1 L25.8 50.4 L17.5 50.5 Z" fill="#76BC2D" stroke="#345A27" stroke-width="2"/>
+  <path d="M17.5 54.1 L25.8 54 L25.8 61.3 L17.6 61.4 Z" fill="#76BC2D" stroke="#345A27" stroke-width="2"/>
 
-    <!-- Original left-side green nodes -->
-    <g fill="#76bc2d" stroke="#477e20" stroke-width="0.045" stroke-linejoin="round">
-      <path d="M7.82 8.32a.11.11 0 0 1-.11.12h-1a.11.11 0 0 1-.13-.11v-.77a.11.11 0 0 1 .11-.13h1c.1 0 .15.05.15.13Z"/>
-      <path d="M7.82 9.08c0-.08-.05-.12-.15-.12h-1a.12.12 0 0 0-.11.13v.78a.12.12 0 0 0 .13.11h1a.12.12 0 0 0 .11-.13Z"/>
-      <path d="M7.82 10.6c0-.07-.05-.12-.15-.12h-1a.11.11 0 0 0-.11.12v.78a.11.11 0 0 0 .13.11h1a.11.11 0 0 0 .11-.13Z"/>
-      <path d="M3.62 4.11A.13.13 0 0 0 3.47 4h-1a.12.12 0 0 0-.11.13v.78A.12.12 0 0 0 2.47 5h1a.11.11 0 0 0 .11-.13Z"/>
-      <path d="M3.62 5.63c0-.07-.05-.12-.15-.12h-1a.11.11 0 0 0-.11.12v.77a.11.11 0 0 0 .12.11h1a.11.11 0 0 0 .11-.12Z"/>
-      <path d="M3.62 7.16c0-.08-.05-.13-.15-.13h-1a.12.12 0 0 0-.11.13v.76a.12.12 0 0 0 .12.12h1a.12.12 0 0 0 .11-.13Z"/>
-    </g>
+  <!-- Middle cluster: open top bracket -->
+  <path d="M34.7 51.4            Q34.7 48.8 37.5 48.7            L91.3 48.8            Q94 48.9 94 51.6            L94 60.3" stroke="#353F45" stroke-width="7"/>
+  <path d="M34.7 51.4            Q34.7 48.8 37.5 48.7            L91.3 48.8            Q94 48.9 94 51.6            L94 60.3" stroke="#949494" stroke-width="4.4"/>
+
+  <!-- Middle cluster: open bottom bracket -->
+  <path d="M34.7 80            L34.7 91            Q34.7 93.8 37.5 93.8            L59.3 93.7" stroke="#353F45" stroke-width="7"/>
+  <path d="M34.7 80            L34.7 91            Q34.7 93.8 37.5 93.8            L59.3 93.7" stroke="#949494" stroke-width="4.4"/>
+
+  <!-- Middle event tiles: vertical column -->
+  <path d="M47.1 56.9 L55.5 56.8 L55.4 64.1 L47 64.2 Z" fill="#76BC2D" stroke="#345A27" stroke-width="2"/>
+  <path d="M47.1 67.7 L55.5 67.6 L55.5 75 L47.1 75.1 Z" fill="#76BC2D" stroke="#345A27" stroke-width="2"/>
+  <path d="M47.1 78.6 L55.5 78.5 L55.4 85.8 L47.1 85.9 Z" fill="#76BC2D" stroke="#345A27" stroke-width="2"/>
+
+  <!-- Front cluster: open top bracket -->
+  <path d="M63.5 74.7            Q63.5 72.1 66.3 72            L119.5 72.2            Q122 72.2 122 75            L122 84" stroke="#353F45" stroke-width="7"/>
+  <path d="M63.5 74.7            Q63.5 72.1 66.3 72            L119.5 72.2            Q122 72.2 122 75            L122 84" stroke="#B3B3B3" stroke-width="4.4"/>
+
+  <!-- Front cluster: open bottom bracket -->
+  <path d="M63.5 103.4            L63.5 114.8            Q63.5 117.4 66.3 117.4            L119.5 117.5            Q122 117.5 122 114.7            L122 103.6" stroke="#353F45" stroke-width="7"/>
+  <path d="M63.5 103.4            L63.5 114.8            Q63.5 117.4 66.3 117.4            L119.5 117.5            Q122 117.5 122 114.7            L122 103.6" stroke="#B3B3B3" stroke-width="4.4"/>
+
+  <!-- Front cluster: three-by-two staggered event arrangement -->
+  <path d="M78.4 84 L86.7 83.9 L86.7 91.1 L78.4 91.3 Z" fill="#86D633" stroke="#345A27" stroke-width="2"/>
+  <path d="M78.4 94.8 L86.7 94.7 L86.7 102 L78.4 102.1 Z" fill="#76BC2D" stroke="#345A27" stroke-width="2"/>
+  <path d="M78.4 105.6 L86.7 105.5 L86.7 112.8 L78.4 112.9 Z" fill="#5E9624" stroke="#345A27" stroke-width="2"/>
+
+  <path d="M91.3 89.3 L99.7 89.2 L99.7 96.4 L91.3 96.5 Z" fill="#76BC2D" stroke="#345A27" stroke-width="2"/>
+  <path d="M104.2 94.7 L112.6 94.6 L112.6 101.9 L104.2 102 Z" fill="#5E9624" stroke="#345A27" stroke-width="2"/>
+  <path d="M91.3 100.2 L99.7 100.1 L99.7 107.3 L91.3 107.4 Z" fill="#5E9624" stroke="#345A27" stroke-width="2"/>
+
+  <!-- Minimal uneven pen retraces -->
+  <g stroke="#596167" stroke-width="1.4" opacity=".8">
+    <path d="M10 21.4 Q26 20.8 39 21.2"/>
+    <path d="M40 45.6 Q58 45 70 45.5"/>
+    <path d="M69 69 Q87 68.5 102 69"/>
+  </g>
+
+  <!-- Restrained yellow marker ticks -->
+  <g stroke="#F2B827" stroke-width="2.5">
+    <path d="M12 13 L15 18"/>
+    <path d="M21 11 L21 17"/>
+    <path d="M109 62 L112 67"/>
   </g>
 </svg>
