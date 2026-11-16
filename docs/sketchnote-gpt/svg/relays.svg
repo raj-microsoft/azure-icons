@@ -1,41 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Relays (sketch)</title>
-  <defs>
-    <linearGradient id="relay-left" x1="6.11" y1="12.5" x2="6.11" y2="9.42" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6f4bb2"/>
-      <stop offset="1" stop-color="#c69aeb"/>
-    </linearGradient>
-    <linearGradient id="relay-right" x1="12.06" y1="12.5" x2="12.06" y2="9.42" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6f4bb2"/>
-      <stop offset="1" stop-color="#c69aeb"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Relays (sketch)</title>
+  
 
-  <g transform="scale(7.111111)">
+  <!-- Unified inverted-U upper bracket -->
+  <path d="M10 10        Q5 10 5 15        L5 33        Q5 36 8 36        L15 36        Q18 36 18 33        L18 21        Q41 20 64 21        Q88 20 111 21        L111 33        Q111 36 114 36        L120 36        Q123 36 123 33        L123 15        Q123 10 118 10        Q91 11 64 10        Q37 11 10 10 Z" fill="#999999" stroke="#203746" stroke-width="2.8"/>
 
-    <!-- Original open upper and lower bracket assemblies -->
-    <g fill="#999" stroke="#858585" stroke-width=".035" stroke-linejoin="round">
-      <path d="M1.15,1.27H2.44V4.87H.87V1.84a.57.57,0,0,1,.28-.57Z"/>
-      <path d="M15.72,1.27H17a.57.57,0,0,1,.57.57v3H15.72Z"/>
-      <path d="M.87,12.52H2.45v3.89H1.15a.57.57,0,0,1-.57-.57v-3.03a.29.29,0,0,1,.29-.29Z"/>
-      <path d="M15.72,12.52H17.3a.29.29,0,0,1,.29.29v3a.57.57,0,0,1-.57.57h-1.3Z"/>
-    </g>
+  <!-- Unified U-shaped lower bracket -->
+  <path d="M8 89        Q5 89 5 92        L5 111        Q5 116 10 116        Q37 115 64 116        Q91 115 118 116        Q123 116 123 111        L123 92        Q123 89 120 89        L114 89        Q111 89 111 92        L111 105        Q88 106 64 105        Q41 106 18 105        L18 92        Q18 89 15 89 Z" fill="#999999" stroke="#203746" stroke-width="2.8"/>
 
-    <!-- Original horizontal bracket bars; deliberately open at both ends -->
-    <path d="M8.74-6.32H10V10.68H8.74a.57.57,0,0,1-.57-.57V-5.75a.57.57,0,0,1,.57-.57Z" transform="translate(11.26 -6.9) rotate(90)" fill="#949494" stroke="#858585" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- V-shaped relay connections -->
+  <path d="M64.5 44        Q54 60 43.5 78" stroke="#203746" stroke-width="6.5"/>
 
-    <path d="M8.74,7H10V24H8.74a.57.57,0,0,1-.57-.57V7.57A.57.57,0,0,1,8.74,7Z" transform="translate(-6.42 24.59) rotate(-90)" fill="#949494" stroke="#858585" stroke-width=".035" stroke-linejoin="round"/>
+  <path d="M64.5 44        Q54 60 43.5 78" stroke="#949494" stroke-width="3.8"/>
 
-    <!-- Original three-way relay connections -->
-    <path d="M12.38 10.79 L9.4 6.01 L9.13 6.18 L8.87 6.01 L5.88 10.79 L6.49 11.16 L9.13 6.93 L11.78 11.17 Z" fill="#949494" stroke="#858585" stroke-width=".045" stroke-linejoin="round"/>
+  <path d="M64.5 44        Q75 60 85.8 78" stroke="#203746" stroke-width="6.5"/>
 
-    <!-- Central relay -->
-    <circle cx="9.08" cy="6.21" r="1.54" fill="#86d633" stroke="#6fae2c" stroke-width=".045"/>
+  <path d="M64.5 44        Q75 60 85.8 78" stroke="#949494" stroke-width="3.8"/>
 
-    <!-- Left relay -->
-    <circle cx="6.11" cy="10.96" r="1.54" fill="url(#relay-left)" stroke="#8060b4" stroke-width=".045"/>
+  <!-- Upper green relay node: center (64.5,44), radius 11 -->
+  <path d="M75.5 44        C75.5 50 70.6 55 64.5 55        C58.4 55 53.5 50.1 53.5 44        C53.5 37.9 58.4 33 64.5 33        C70.6 33 75.5 37.9 75.5 44 Z" fill="#86D633" stroke="#203746" stroke-width="2.8"/>
 
-    <!-- Right relay -->
-    <circle cx="12.06" cy="10.96" r="1.54" fill="url(#relay-right)" stroke="#8060b4" stroke-width=".045"/>
+  <!-- Lower-left purple node: center (43.5,78), radius 11 -->
+  <path d="M54.5 78        C54.5 84.1 49.6 89 43.5 89        C37.4 89 32.5 84.1 32.5 78        C32.5 71.9 37.4 67 43.5 67        C49.6 67 54.5 71.9 54.5 78 Z" fill="#A77AD8" stroke="#203746" stroke-width="2.8"/>
 
-  </g>
+  <!-- Lower-right purple node: center (85.8,78), radius 11 -->
+  <path d="M96.8 78        C96.8 84.1 91.9 89 85.8 89        C79.7 89 74.8 84.1 74.8 78        C74.8 71.9 79.7 67 85.8 67        C91.9 67 96.8 71.9 96.8 78 Z" fill="#A77AD8" stroke="#203746" stroke-width="2.8"/>
+
 </svg>

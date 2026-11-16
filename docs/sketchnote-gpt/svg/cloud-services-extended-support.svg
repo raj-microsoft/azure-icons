@@ -1,36 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Cloud Services (extended support) (sketch)</title>
-  <defs>
-    <linearGradient id="cloud" x1="8.006" y1="1.867" x2="8.006" y2="12.695" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5EA0EF"/>
-      <stop offset="1" stop-color="#0078D4"/>
-    </linearGradient>
-    <linearGradient id="orange" x1="14.119" y1="8.901" x2="14.119" y2="16.873" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FAA21D"/>
-      <stop offset=".4" stop-color="#F79415"/>
-      <stop offset="1" stop-color="#EF7100"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Cloud Services (extended support) (sketch)</title>
+  
 
-  <g transform="scale(7.111111)" stroke-linejoin="round">
-    <!-- Original cloud silhouette -->
-    <path d="M9.637 12.782       C9.637 10.305 11.642 8.3 14.119 8.3       C14.806 8.3 15.446 8.456 16.01 8.734       C15.92 7.087 14.62 5.8 12.945 5.8       C12.945 3.336 10.838 1.333 8.255 1.333       C6.219 1.333 4.524 2.626 3.788 4.433       C1.635 4.712 0 6.526 0 8.725       C0 11.09 2.028 13.014 4.529 13.014       H9.661       C9.657 12.935 9.637 12.862 9.637 12.782Z" fill="url(#cloud)"/>
+  <!-- Main cloud: corrected official proportions -->
+  <path d="M32 92            C15 93 5 82 5 67            C5 52 15 41 29 40            C33 23 45 11 59 10            C76 8 89 22 92 41            C105 43 114 51 114 62            Q114 67 112 70            C106 67 100 66 94 67            C77 70 70 82 70 94            L33 94            Q31 94 32 92 Z" fill="#258DE0" stroke="#203746" stroke-width="3.4"/>
 
-    <!-- Small cloud detail -->
-    <circle cx="4.314" cy="8.63" r=".657" fill="#E3E3E3"/>
+  <!-- Upper gear: center (62,41), outer radius ~19.5 -->
+  <path d="M59.6 21.7            L64.2 21.8 L66.1 26            Q68.1 26.5 69.8 27.7            L74.2 25.7 L77.4 29            L75.5 33.3            Q76.6 35 77 37            L81.2 39            L81.3 43.4            L77 45.3            Q76.5 47.5 75.4 49            L77.3 53.3            L74 56.6            L69.8 54.7            Q68 55.9 66 56.4            L64.2 60.5            L59.6 60.4            L57.9 56.2            Q55.8 55.7 54 54.5            L49.8 56.4            L46.6 53.1            L48.4 49            Q47.4 47.3 46.9 45.2            L42.7 43.2            L42.8 38.8            L47 37            Q47.5 34.9 48.5 33.2            L46.7 29            L50 25.8            L54.1 27.7            Q56 26.5 57.9 26 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.4"/>
 
-    <!-- Small left gear, original proportions -->
-    <path d="M6.627 8.88V8.353H6.553L5.988 8.168L5.84 7.807L6.127 7.2L5.757 6.83H5.683L5.156 7.1L4.8 6.955L4.568 6.317H4.036V6.391L3.851 6.955L3.462 7.1L2.862 6.813L2.492 7.183V7.257L2.76 7.784L2.612 8.145L1.964 8.376V8.95H2.038L2.603 9.135L2.75 9.5L2.463 10.111L2.833 10.481H2.907L3.435 10.212L3.795 10.36L4.027 11H4.554V10.926L4.739 10.361L5.1 10.213L5.711 10.5L6.081 10.13V10.056L5.812 9.529L5.96 9.168L6.627 8.88Z" fill="#FFFFFF"/>
-    <circle cx="4.314" cy="8.63" r="1.008" fill="url(#cloud)"/>
+  <!-- Upper gear center: light gray -->
+  <path d="M69.7 41            C69.7 45.3 66.3 48.7 62 48.7            C57.8 48.7 54.3 45.3 54.3 41            C54.3 36.8 57.8 33.3 62 33.3            C66.2 33.3 69.7 36.8 69.7 41 Z" fill="#E3E3E3" stroke="#203746" stroke-width="2.1"/>
 
-    <!-- Small upper gear, original proportions -->
-    <circle cx="8.718" cy="5.799" r=".777" fill="#E3E3E3"/>
-    <path d="M11.494 6.1V5.466H11.41L10.726 5.253L10.568 4.781L10.911 4.041L10.467 3.597H10.383L9.745 3.921L9.319 3.745L9.042 2.977H8.385V3.069L8.163 3.745L7.728 3.921L7.006 3.578L6.562 4.022L6.608 4.106L6.867 4.79L6.719 5.253L5.942 5.503V6.178H6.035L6.71 6.4L6.867 6.817L6.525 7.557L6.988 8.029L7.08 7.983L7.709 7.659L8.144 7.834L8.422 8.602H9.051V8.51L9.273 7.834L9.708 7.659L10.439 8.002L10.883 7.558L10.837 7.475L10.568 6.808L10.744 6.374L11.494 6.1Z" fill="#FFFFFF"/>
-    <circle cx="8.718" cy="5.799" r="1.221" fill="url(#cloud)"/>
+  <!-- Lower gear: center (30.7,61.4), outer radius ~16.5 -->
+  <path d="M28.8 45.1            L32.5 45.2 L34.1 48.8            Q35.7 49.2 37.1 50.2            L40.7 48.6            L43.4 51.3            L41.8 54.9            Q42.6 56.3 43.1 58            L46.9 59.7            L47 63.3            L43.2 65            Q42.7 66.8 41.9 68.1            L43.5 71.7            L40.8 74.4            L37.1 72.8            Q35.7 73.7 34.1 74.1            L32.5 77.7            L28.8 77.7            L27.2 74.1            Q25.5 73.7 24.1 72.8            L20.5 74.4            L17.9 71.6            L19.5 68            Q18.6 66.6 18.2 65            L14.4 63.3            L14.4 59.7            L18.2 58            Q18.6 56.4 19.5 54.9            L17.9 51.3            L20.6 48.6            L24.1 50.2            Q25.6 49.3 27.2 48.8 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.3"/>
 
-    <!-- Main orange operation gear -->
-    <path d="M14.121 8.9       C16.263 8.9 18 10.638 18 12.782       C18 14.925 16.263 16.664 14.119 16.664       C11.976 16.664 10.238 14.926 10.238 12.782       C10.238 10.639 11.977 8.9 14.121 8.9Z" fill="url(#orange)"/>
+  <!-- Lower gear center: light gray -->
+  <path d="M37.1 61.4            C37.1 65 34.3 67.8 30.7 67.8            C27.2 67.8 24.3 65 24.3 61.4            C24.3 57.9 27.2 55 30.7 55            C34.2 55 37.1 57.9 37.1 61.4 Z" fill="#E3E3E3" stroke="#203746" stroke-width="2"/>
 
-    <!-- Original white opposing-arrow symbol -->
-    <path d="M16.1 10.615L13.812 10.629       C13.68 10.63 13.63 10.795 13.724 10.861       L14.547 11.436L13 13.207L12.194 12.385       C12.1 12.29 11.961 12.352 11.961 12.479       L11.947 14.767       C11.947 14.868 12.029 14.95 12.13 14.95       L14.418 14.936       C14.543 14.935 14.594 14.77 14.506 14.704       L13.683 13.897       L15.222 12.358       L16.029 13.18       C16.123 13.275 16.262 13.213 16.262 13.086       L16.276 10.798       C16.276 10.697 16.194 10.615 16.1 10.615Z" fill="#FFFFFF"/>
-  </g>
+  <!-- Extended-support badge: center ~100.4,90.9 -->
+  <path d="M100.4 63.3            C114 63.3 125.6 74.8 125.6 90.9            C125.6 106.7 114.3 118.5 100.4 118.5            C85.1 118.5 72.8 106.2 72.8 90.9            C72.8 75.7 85.1 63.3 100.4 63.3 Z" fill="#F79415" stroke="#203746" stroke-width="3"/>
+
+  <!-- Upper-right outward arrow -->
+  <path d="M99 79.2            L113.5 79.1            Q115 79.1 115 80.6            L114.9 95            L109.8 89.8            L101.6 98            L96.4 92.8            L104.6 84.5 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.2"/>
+
+  <!-- Lower-left outward arrow -->
+  <path d="M86 87.4            L91.2 92.6            L99.4 84.4            L104.6 89.6            L96.4 97.8            L101.6 103            L87.1 103.1            Q85.7 103.1 85.7 101.7            L85.8 87.5            Q85.8 87 86 87.4 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.2"/>
+
 </svg>

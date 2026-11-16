@@ -1,36 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Metrics Advisor (sketch)</title>
-  <defs>
-    <linearGradient id="chartBlue" x1="8.284" y1="13.471" x2="8.284" y2=".189" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset="1" stop-color="#5ea0ef"/>
-    </linearGradient>
-  </defs>
+  
 
-  <g transform="scale(7.111111)">
-    <!-- Original chart panel -->
-    <rect x="1.904" y=".189" width="12.761" height="13.281" rx=".521" fill="url(#chartBlue)" stroke="#0874c7" stroke-width=".045"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
 
-    <!-- Original chart nodes -->
-    <g fill="#fff">
-      <ellipse cx="6.29" cy="5.086" rx="1.025" ry="1.029"/>
-      <ellipse cx="10.124" cy="7.034" rx="1.025" ry="1.029"/>
-      <ellipse cx="12.628" cy="2.116" rx="1.025" ry="1.029"/>
-      <ellipse cx="4.241" cy="10.987" rx="1.025" ry="1.029"/>
-    </g>
+    <!-- Dashboard panel -->
+    <path d="M18 3              Q14 3 14 7              L14 91              Q14 95 18 95              L100 95              Q104 95 104 91              L104 7              Q104 3 100 3 Z" fill="#258DE0" stroke="#203746" stroke-width="3.2"/>
 
-    <!-- Original chart connecting line -->
-    <path d="M4.591 11.097L3.891 10.876L5.879 4.575L10.083 6.547L12.298 1.957L12.959 2.276L10.429 7.52L6.327 5.596Z" fill="#fff" opacity=".8"/>
+    <!-- Chart connection: dark marker under white line -->
+    <path d="M31 78 L45 36 L72 49 L89 15" fill="none" stroke="#203746" stroke-width="6"/>
 
-    <!-- Left award ribbon -->
-    <path d="M16 15.764L14.153 17.74       Q13.963 17.93 13.747 17.611       L12.629 12.162       Q12.629 12.02 12.74 11.94       L13.959 11.44       Q14.198 11.37 14.257 11.56       L16.057 15.531       Q16.13 15.65 16 15.764Z" fill="#32bedd" stroke="#25a9cb" stroke-width=".045"/>
+    <path d="M31 78 L45 36 L72 49 L89 15" fill="none" stroke="#FFFFFF" stroke-width="3"/>
 
-    <!-- Right award ribbon -->
-    <path d="M9.969 15.764L11.816 17.74       Q12.056 17.98 12.223 17.611       L13.34 12.162       Q13.34 12.02 13.229 11.94       L12.01 11.44       Q11.771 11.37 11.712 11.56       L9.877 15.5       Q9.84 15.63 9.969 15.764Z" fill="#50e6ff" stroke="#32bedd" stroke-width=".045"/>
+    <!-- Chart markers at original coordinates -->
+    <path d="M38 78              C38 87 24 87 24 78              C24 69 38 69 38 78 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.3"/>
 
-    <!-- Original award medallion outer silhouette -->
-    <path d="M13.276 7.322       L13.516 7.122       Q13.78 6.92 13.977 7.168       Q14.02 7.2 14.042 7.279       L14.153 7.579       Q14.3 7.82 14.568 7.819       L14.873 7.763       Q15.24 7.72 15.307 8.123       L15.252 8.423       Q15.22 8.7 15.492 8.839       L15.787 8.939       Q16.13 9.08 15.944 9.418       Q15.93 9.48 15.879 9.529       L15.679 9.76       Q15.5 9.98 15.679 10.24       L15.879 10.48       Q16.08 10.84 15.632 11.02       L15.337 11.131       Q15.097 11.24 15.097 11.547       L15.152 11.847       Q15.21 12.22 14.783 12.269       L14.478 12.269       Q14.2 12.24 14.042 12.509       L13.931 12.796       Q13.78 13.16 13.449 12.955       L13.218 12.724       Q12.998 12.55 12.738 12.724       L12.498 12.918       Q12.13 13.12 11.977 12.7       L11.867 12.413       Q11.76 12.17 11.451 12.173       L11.151 12.229       Q10.772 12.2 10.717 11.858       L10.773 11.558       Q10.8 11.28 10.532 11.142       L10.246 11.031       Q9.858 10.89 10.089 10.552       L10.289 10.312       Q10.48 10.09 10.289 9.831       L10.089 9.601       Q9.88 9.24 10.336 9.068       L10.623 8.958       Q10.86 8.85 10.863 8.542       L10.844 8.265       Q10.83 7.886 11.165 7.831       L11.294 7.831       L11.594 7.886       Q11.973 7.94 12.11 7.646       L12.22 7.346       Q12.36 6.967 12.701 7.188       L12.941 7.388       Q13.13 7.56 13.276 7.322Z" fill="#005ba1" stroke="#004e8e" stroke-width=".045"/>
+    <path d="M52 36              C52 45 38 45 38 36              C38 27 52 27 52 36 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.3"/>
 
-    <!-- Original yellow award center -->
-    <circle cx="13.045" cy="10.112" r="2.18" fill="#ffd400" stroke="#e5bd00" stroke-width=".045"/>
+    <path d="M79 49              C79 58 65 58 65 49              C65 40 79 40 79 49 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.3"/>
+
+    <path d="M96 15              C96 24 82 24 82 15              C82 6 96 6 96 15 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.3"/>
+
+    <!-- Left cyan ribbon, behind award seal -->
+    <path d="M85 83              Q88 88 93 91              L84 124              Q83 126 81 123              L71 112              Q70 111 72 108              L82 85 Z" fill="#50E6FF" stroke="#203746" stroke-width="2.8"/>
+
+    <!-- Right cyan ribbon, behind award seal -->
+    <path d="M100 83              Q104 85 106 89              L113 110              Q114 112 112 114              L102 124              Q100 126 99 122              L92 91 Z" fill="#32BEDD" stroke="#203746" stroke-width="2.8"/>
+
+    <!-- Compact asymmetric toothed award seal -->
+    <path d="M93 50.5              L97 54              Q99 55 101 53              L104 52              L107 56              L107 60              Q108 62 111 62              L114 64              L112 69              Q111 71 114 73              L115 76              L111 79              Q109 81 111 84              L110 87              L105 88              Q103 88 102 91              L99 93              L95 90              Q93 89 91 91              L87 93              L84 90              Q83 88 80 88              L77 86              L78 81              Q78 79 75 78              L72 75              L75 71              Q77 69 75 67              L74 63              L79 61              Q81 61 82 58              L85 54              L89 56              Q91 57 92 54 Z" fill="#005BA1" stroke="#203746" stroke-width="2.6"/>
+
+    <!-- Gold medallion: center (93,72), radius ~15 -->
+    <path d="M93 57              C101 56.5 108 63 108 71.5              C108.5 80 102 87 93.5 87              C85 87.5 78 81 78 72.5              C77.5 64 84 57 93 57 Z" fill="#FFD400" stroke="#203746" stroke-width="2.6"/>
+
   </g>
 </svg>

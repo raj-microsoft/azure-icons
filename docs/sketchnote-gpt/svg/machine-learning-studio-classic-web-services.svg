@@ -1,26 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Machine Learning Studio (Classic) Web Services (sketch)</title>
-  <defs>
-    <linearGradient id="flaskGradient" x1="5.77" y1="7.08" x2="5.88" y2="17.58" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32D4F5"/>
-      <stop offset=".32" stop-color="#31D1F3"/>
-      <stop offset=".53" stop-color="#2EC9EB"/>
-      <stop offset=".7" stop-color="#29BADE"/>
-      <stop offset=".86" stop-color="#22A5CB"/>
-      <stop offset="1" stop-color="#198AB3"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Machine Learning Studio (Classic) Web Services (sketch)</title>
+  
 
-  <g transform="scale(7.111111)">
-    <!-- Original globe silhouette -->
-    <path d="M15.08 11.65       A6.25 6.25 0 1 1 7.41 1.77       L7.48 1.72       A6.25 6.25 0 0 1 15.08 11.65Z" fill="#F2F2F2"/>
+  <!-- Rear globe -->
+  <path d="M80 4        C104 3 124 23 124 48        C124 72 104 92 80 92        C56 92 36 72 36 48        C36 24 55 4 80 4 Z" fill="#F2F2F2" stroke="#203746" stroke-width="3.2"/>
 
-    <!-- Original globe grid: no additional molecular symbols -->
-    <path d="M16.24 2.94       A6.26 6.26 0 0 0 7.48 1.71       L7.41 1.76       A6.26 6.26 0 0 0 11.26 13       A6.16 6.16 0 0 0 15.08 11.69       A6.28 6.28 0 0 0 16.24 2.94Z        M5.81 6.31       A5.55 5.55 0 0 1 6.42 4.18       H7.93 A10.84 10.84 0 0 0 7.64 6.31Z        M8.45 6.31       A9.41 9.41 0 0 1 8.77 4.18       H10.85 V6.31Z        M11.65 4.18       H13.73 A9.41 9.41 0 0 1 14.05 6.31       H11.65Z        M11.65 7.11       H14.05 A9.24 9.24 0 0 1 13.73 9.23       H11.65Z        M8.77 7.11       H10.85 V9.23 H8.77       A9.24 9.24 0 0 1 8.45 7.11Z        M14.86 7.11       H16.68 A5.61 5.61 0 0 1 16.08 9.23       H14.56 A10 10 0 0 0 14.86 7.11Z        M14.56 6.31       A10.13 10.13 0 0 0 14.26 4.18       H15.78 A5.41 5.41 0 0 1 16.38 6.31Z        M15.57 3.38       H14.32 A5.92 5.92 0 0 0 13.44 1.72       A5.4 5.4 0 0 1 15.57 3.38Z        M11.65 1.34       A3.27 3.27 0 0 1 13.45 3.38       H11.65Z        M9.05 3.38       A3.27 3.27 0 0 1 10.85 1.34       V3.38Z        M6.93 3.38       A5.05 5.05 0 0 1 7.91 2.4       L7.94 2.38       A5.39 5.39 0 0 1 9.05 1.73       A6.12 6.12 0 0 0 8.17 3.38Z        M5.81 7.11       H7.64 A10.74 10.74 0 0 0 7.93 9.23       H6.42 A5.22 5.22 0 0 1 5.81 7.11Z        M6.94 10.05       H8.18 A6.06 6.06 0 0 0 9.06 11.71       A5.35 5.35 0 0 1 6.94 10.05Z        M9.05 10.05       H10.85 V12.08       A3.27 3.27 0 0 1 9.05 10.05Z        M11.65 10.05       H13.45 A3.27 3.27 0 0 1 11.65 12.08Z        M14.59 11       H14.58       A5 5 0 0 1 13.43 11.68       A5.82 5.82 0 0 0 14.32 10.05       H15.57 A5.68 5.68 0 0 1 14.59 11Z" fill="#0078D4" fill-rule="evenodd"/>
+  <!-- Straight horizontal latitude lines -->
+  <path d="M41 27 L119 27        M36 48 L124 48        M42 69 L118 69" stroke="#0078D4" stroke-width="2.8"/>
 
-    <!-- Original empty flask -->
-    <path d="M10.85 17.5       H.89       C.58 17.5 .39 16.99 .57 16.73       L4 11.73       A.39 .39 0 0 0 4.07 11.5       V8.2       A.2 .2 0 0 0 3.87 8       H3.69       A.39 .39 0 0 1 3.3 7.61       V7.43       A.39 .39 0 0 1 3.69 7.04       H8.06       A.4 .4 0 0 1 8.45 7.44       V7.62       A.4 .4 0 0 1 8.06 8.02       H7.87       A.19 .19 0 0 0 7.68 8.22       V11.53       A.34 .34 0 0 0 7.75 11.75       L11.18 16.75       C11.36 17 11.17 17.5 10.85 17.5Z" fill="url(#flaskGradient)" stroke="#198AB3" stroke-width=".045" stroke-linejoin="round"/>
+  <!-- Symmetric curved meridians -->
+  <path d="M80 5        C59 19 59 76 80 91        M80 5        C101 19 101 76 80 91" stroke="#0078D4" stroke-width="2.8"/>
 
-    <!-- Original empty white flask interior -->
-    <path d="M2.24 16.18       L4.71 12.58       A.87 .87 0 0 0 4.87 12.06       V10.61       A.29 .29 0 0 1 5.16 10.33       H6.56       A.29 .29 0 0 1 6.85 10.61       V12.16       A.6 .6 0 0 0 6.95 12.51       L9.48 16.18       A.22 .22 0 0 1 9.30 16.52       H2.42       A.22 .22 0 0 1 2.24 16.18Z" fill="#FFFFFF"/>
-  </g>
+  <!-- Central meridian -->
+  <path d="M80 5 Q78.5 48 80 91" stroke="#0078D4" stroke-width="2.5"/>
+
+  <!-- Flask outer silhouette -->
+  <path d="M29 54        L29 78        Q29 81 27 84        L5 115        Q2 119 5 122        Q7 123 11 123        L73 123        Q78 123 79 120        Q80 118 77 114        L57 84        Q55 81 55 78        L55 54 Z" fill="#32BEDD" stroke="#203746" stroke-width="3.2"/>
+
+  <!-- Flask rim -->
+  <path d="M27 49        Q24 49 24 52        L24 55        Q24 58 27 58        L57 58        Q60 58 60 55        L60 52        Q60 49 57 49 Z" fill="#32D4F5" stroke="#203746" stroke-width="3"/>
+
+  <!-- Plain white inner inset -->
+  <path d="M35 74        Q35 72 38 72        L47 72        Q50 72 50 75        L50 85        Q50 88 52 91        L69 115        Q71 118 67 118        L16 118        Q13 118 16 114        L33 90        Q35 87 35 84 Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.2"/>
 </svg>

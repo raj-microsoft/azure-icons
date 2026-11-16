@@ -1,40 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Intune (sketch)</title>
-  <defs>
-    <linearGradient id="desktopBlue" x1="8.05" y1="11.32" x2="8.05" y2="1.26" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0078d4"/>
-      <stop offset=".82" stop-color="#5ea0ef"/>
-    </linearGradient>
-    <linearGradient id="standBlue" x1="8.05" y1="15.21" x2="8.05" y2="11.32" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1490df"/>
-      <stop offset=".98" stop-color="#1f56a3"/>
-    </linearGradient>
-    <linearGradient id="personWhite" x1="8.05" y1="7.87" x2="8.05" y2="4.94" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d2ebff"/>
-      <stop offset="1" stop-color="#f0fffd"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Intune (sketch)</title>
 
-  <g transform="scale(7.111111)">
-    <!-- Desktop monitor -->
-    <path d="M1 1.26       H15.1       Q15.6 1.26 15.6 1.76       V10.82       Q15.6 11.32 15.1 11.32       H1       Q.5 11.32 .5 10.82       V1.76       Q.5 1.26 1 1.26Z" fill="url(#desktopBlue)"/>
+  
+  <desc>
+    Hand-drawn Azure Intune icon featuring a blue desktop monitor,
+    supporting stand, circular connection hub, long horizontal
+    connection and a tall cyan-outlined rectangular panel.
+    Blank white interiors, flat colors, uneven dark marker
+    contours and transparent background.
+  </desc>
 
-    <!-- White display -->
-    <path d="M1.62 2.1       H14.48       Q14.76 2.1 14.76 2.38       V10.21       Q14.76 10.49 14.48 10.49       H1.62       Q1.34 10.49 1.34 10.21       V2.38       Q1.34 2.1 1.62 2.1Z" fill="#fff"/>
+  <!-- Desktop monitor housing -->
+  <path d="     M7 9     Q7 6 11 6     L107 6     Q111 6 111 10     L111 77     Q111 80 107 80     L11 80     Q7 80 7 76     Z" fill="#5EA0EF" stroke="#243447" stroke-width="3.4"/>
 
-    <!-- Original desktop stand -->
-    <path d="M11.08 14.37       C9.58 14.14 9.52 13.06 9.53 11.37       H6.53       C6.53 13.11 6.47 14.19 4.98 14.37       Q4.24 14.52 4.24 15.21       H11.78       Q11.78 14.53 11.08 14.37Z" fill="url(#standBlue)"/>
+  <!-- Blank white desktop display -->
+  <path d="     M13 15     Q13 13 16 13     L102 13     Q105 13 105 16     L105 70     Q105 73 102 73     L16 73     Q13 73 13 70     Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.5"/>
 
-    <!-- Original phone silhouette -->
-    <path d="M17.17 5.91       H10.29       A2.31 2.31 0 1 0 10.29 6.83       H11       V16.41       Q11 16.74 11.33 16.74       H17.16       Q17.49 16.74 17.49 16.41       V6.24       Q17.49 5.91 17.17 5.91Z" fill="#32bedd"/>
+  <!-- Monitor stand -->
+  <path d="     M47 80     L70 80     Q69 91 72 98     Q74 102 81 104     Q85 105 86 109     L31 109     Q32 105 36 104     Q44 102 46 96     Q48 91 47 80     Z" fill="#1F56A3" stroke="#243447" stroke-width="3"/>
 
-    <!-- Phone display -->
-    <path d="M11.74 6.82       H16.77       Q16.89 6.82 16.89 6.94       V15.4       Q16.89 15.52 16.77 15.52       H11.74       Q11.62 15.52 11.62 15.4       V6.94       Q11.62 6.82 11.74 6.82Z" fill="#fff"/>
+  <!-- Stand lower face -->
+  <path d="     M35 105     Q59 103 82 105     Q85 106 86 109     L31 109     Q31 107 35 105     Z" fill="#1490DF" stroke="#243447" stroke-width="2.2"/>
 
-    <!-- Original user icon -->
-    <circle cx="8.05" cy="6.41" r="1.46" opacity=".9" fill="url(#personWhite)"/>
+  <!-- Circular desktop connection hub -->
+  <path d="     M68 45     C68 51 63 56 57 56     C51 56 46 51 46 45     C46 39 51 34 57 34     C63 34 68 39 68 45     Z" fill="#D2EBFF" stroke="#243447" stroke-width="3"/>
 
-    <!-- Original long desktop-to-device transfer arrow.
-         Preserved at its original coordinates and full horizontal extent. -->
-    <path d="M14.88 10.82       L13.76 9.7       Q13.66 9.64 13.66 9.75       V10.43       Q13.66 10.49 13.6 10.49       H11       V11.32       H13.6       Q13.66 11.32 13.66 11.38       V12.07       Q13.66 12.17 13.76 12.12       L14.88 11       Q14.94 10.91 14.88 10.82Z" fill="#0078d4"/>
-  </g>
+  <!-- Long horizontal connection toward right panel -->
+  <path d="M68 45 Q85 44 108 45 L120 45" fill="none" stroke="#243447" stroke-width="8"/>
+
+  <path d="M68 45 Q85 44 108 45 L120 45" fill="none" stroke="#32BEDD" stroke-width="4.5"/>
+
+  <!-- Tall cyan rectangular panel -->
+  <path d="     M79 42     Q79 39 83 39     L119 39     Q123 39 123 43     L123 119     Q123 123 119 123     L83 123     Q79 123 79 119     Z" fill="#32BEDD" stroke="#243447" stroke-width="3.5"/>
+
+  <!-- Completely blank white panel interior -->
+  <path d="     M85 49     Q85 47 87 47     L115 47     Q117 47 117 49     L117 111     Q117 113 115 113     L87 113     Q85 113 85 111     Z" fill="#FFFFFF" stroke="#243447" stroke-width="2.3"/>
+
+  <!-- Long rightward transfer arrow overlapping panel -->
+  <path d="     M66 77     Q80 76 94 77     L101 77     L101 69     Q101 67 103 69     L113 80     Q115 82 113 84     L103 95     Q101 97 101 94     L101 87     L66 87     Q64 87 64 85     L64 79     Q64 77 66 77     Z" fill="#0078D4" stroke="#243447" stroke-width="2.7"/>
+
 </svg>

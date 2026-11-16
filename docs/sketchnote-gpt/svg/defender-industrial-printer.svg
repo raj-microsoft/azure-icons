@@ -1,28 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Defender Industrial Printer (sketch)</title>
-  <defs>
-    <linearGradient id="paperBlue" x1="8.83946" y1="18" x2="8.83946" y2="11.6574" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#C3F1FF"/>
-      <stop offset=".999" stop-color="#9CEBFF"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Defender Industrial Printer (sketch)</title>
+  
+  <desc>Hand-drawn Azure industrial printer with blue housing, dark upper paper-feed panel, small status indicator, cyan output slot and completely blank cyan paper positioned in front of the slot. Flat colors, uneven dark marker outlines and transparent background.</desc>
 
-  <g transform="scale(7.111111)">
-    <!-- Original top paper housing -->
-    <path d="M2.53165 0       H15.4684       Q15.8824 0 15.8824 .239734       V2.93674       Q15.8824 3.17647 15.4684 3.17647       H2.53165       Q2.11768 3.17647 2.11768 2.93674       V.239734       Q2.11768 0 2.53165 0Z" fill="#005BA1"/>
+  <!-- Upper industrial paper-feed assembly -->
+  <path d="M18 4 Q18 2 22 2 L106 2 Q110 2 110 5 L110 22 Q109 24 106 24 L21 24 Q18 23 18 20 Z" fill="#005BA1" stroke="#243447" stroke-width="3.1"/>
 
-    <!-- Original printer body -->
-    <path d="M.964286 1.05884       H17.0357       Q18 1.05884 18 2.42018       V15.8824       H0       V2.42018       Q0 1.05884 .964286 1.05884Z" fill="#5EA0EF"/>
+  <!-- Main printer housing -->
+  <path d="M9 10 Q5 10 5 16 L5 109 Q5 113 10 113 L118 113 Q123 113 123 109 L123 17 Q123 10 118 10 Z" fill="#5EA0EF" stroke="#243447" stroke-width="3.5"/>
 
-    <!-- Original lower blue strip -->
-    <path d="M0 14.0824       H17.6824       V15.6706       H0Z" fill="#0078D4"/>
+  <!-- Lower Azure-blue housing band -->
+  <path d="M5 100 Q64 99 123 100 L123 109 Q123 113 118 113 L10 113 Q5 113 5 109 Z" fill="#0078D4" stroke="#243447" stroke-width="2.7"/>
 
-    <!-- Original control panel -->
-    <path d="M2.75287 11.3295       H14.9293       Q15.3529 11.3295 15.3529 11.753       V12.7059       Q15.3529 13.1295 14.9293 13.1295       H2.75287       Q2.32935 13.1295 2.32935 12.7059       V11.753       Q2.32935 11.3295 2.75287 11.3295Z" fill="#83B9F9"/>
+  <!-- Small round printer status indicator, approximately 6px diameter -->
+  <path d="M108 54 C109.8 54 111 55.4 111 57 C111 58.8 109.7 60 108 60 C106.2 60 105 58.6 105 57 C105 55.3 106.3 54 108 54 Z" fill="#C3F1FF" stroke="#243447" stroke-width="1.5"/>
 
-    <!-- Original status indicator -->
-    <circle cx="14.7177" cy="7.94111" r=".42353" fill="#C3F1FF"/>
+  <!-- Paper output slot, drawn BEHIND the sheet -->
+  <path d="M19 76 Q19 73 23 73 L105 73 Q109 73 109 77 L109 87 Q109 91 105 91 L23 91 Q19 91 19 87 Z" fill="#83B9F9" stroke="#243447" stroke-width="3"/>
 
-    <!-- Original blank paper output -->
-    <path d="M3.17645 11.6471       H14.5059       V17.5765       Q14.5059 18 14.0823 18       H3.59998       Q3.17645 18 3.17645 17.5765       Z" fill="url(#paperBlue)"/>
-  </g>
+  <!-- Completely blank cyan output paper, IN FRONT of slot -->
+  <!-- Top edge is only 2px below slot's top edge -->
+  <path d="M24 75            Q24 75 27 75            L101 75            Q104 75 104 78            L104 121            Q104 125 100 125            L28 125            Q24 125 24 121            Z" fill="#C3F1FF" stroke="#243447" stroke-width="2.8"/>
+
 </svg>

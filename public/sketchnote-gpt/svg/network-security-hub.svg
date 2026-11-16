@@ -1,27 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Network Security Hub (sketch)</title>
-  <defs>
-    <linearGradient id="shieldFill" x1="12.051" y1="1.477" x2="4.134" y2="16.083" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0fafff"/>
-      <stop offset="1" stop-color="#2764e7"/>
-    </linearGradient>
-    <linearGradient id="shieldEdge" x1="12.051" y1="1.477" x2="4.134" y2="16.083" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0094f0"/>
-      <stop offset="1" stop-color="#2052cb"/>
-    </linearGradient>
-    <linearGradient id="brickFill" x1="9" y1="14.347" x2="9" y2="3.785" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6ab2ff"/>
-      <stop offset="1" stop-color="#d8f7ff"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Network Security Hub (sketch)</title>
+  
 
-  <g transform="scale(7.111111)">
-    <!-- Original shield silhouette -->
-    <path d="M9 17.873       c-.246 0-.486-.051-.712-.151l-1.411-.627       c-1.432-.636-2.729-1.512-3.856-2.603       -1.406-1.361-2.212-3.264-2.212-5.221V3.291       c0-.411.334-.745.745-.745h.943       c1.332 0 2.642-.358 3.788-1.036L8.307.315       c.268-.158.64-.228.894-.174.349.071.441.13.932.435       l1.582.934c1.147.678 2.456 1.036 3.789 1.036h.943       c.41 0 .744.334.744.745v5.981       c0 1.957-.806 3.86-2.212 5.221       -1.127 1.09-2.423 1.965-3.856 2.603l-1.411.627       c-.227.1-.466.151-.712.151Z" fill="url(#shieldFill)" stroke="#2764e7" stroke-width=".075" stroke-linejoin="round"/>
+  <!-- Main shield silhouette -->
+  <path d="M64 5        Q61 5 58 7        L43 16        Q30 24 15 24        L11 24        Q7 24 7 29        L7 66        Q7 85 20 101        Q35 116 60 124        Q64 126 68 124        Q93 116 108 101        Q121 85 121 66        L121 29        Q121 24 117 24        L113 24        Q98 24 85 16        L70 7        Q67 5 64 5 Z" fill="#168EEB" stroke="#203746" stroke-width="4"/>
 
-    <!-- Original inner shield contour -->
-    <path d="M9 17.873       c-.246 0-.486-.051-.712-.151l-1.411-.627       c-1.432-.636-2.729-1.512-3.856-2.603       -1.406-1.361-2.212-3.264-2.212-5.221V3.291       c0-.411.334-.745.745-.745h.943       c1.332 0 2.642-.358 3.788-1.036L8.307.315       c.268-.158.64-.228.894-.174.349.071.441.13.932.435       l1.582.934c1.147.678 2.456 1.036 3.789 1.036h.943       c.41 0 .744.334.744.745v5.981       c0 1.957-.806 3.86-2.212 5.221       -1.127 1.09-2.423 1.965-3.856 2.603l-1.411.627       c-.227.1-.466.151-.712.151Z       M1.833 3.57v5.702c0 1.681.693 3.316 1.901 4.485       1.04 1.006 2.238 1.815 3.56 2.402l1.41.627       c.188.083.404.083.594 0l1.41-.627       c1.323-.588 2.521-1.396 3.56-2.402       1.207-1.169 1.9-2.804 1.9-4.485V3.57h-.662       c-1.516 0-3.006-.407-4.31-1.178L9.175 1.198       c-.104-.062-.239-.062-.343 0L6.809 2.393       c-1.304.77-2.794 1.178-4.309 1.178h-.666Z" fill="url(#shieldEdge)" stroke="#2052cb" stroke-width=".045" stroke-linejoin="round"/>
+  <!-- Inner shield boundary -->
+  <path d="M64 12        Q62 12 60 14        L46 22        Q31 31 14 31        L14 66        Q14 83 25 96        Q39 110 62 117        Q64 118 66 117        Q89 110 103 96        Q114 83 114 66        L114 31        Q97 31 82 22        L68 14        Q66 12 64 12 Z" stroke="#203746" stroke-width="2.3"/>
 
-    <!-- Original brick-pattern divider layout; no network nodes -->
-    <path d="M9.592 11.219V7.225h6.575V6.042h-2.138V3.424       c-.402-.071-.796-.173-1.183-.301v2.919h-7.69V3.123       c-.387.128-.781.23-1.183.301v2.618H1.833v1.183h6.576v3.994H2.152       c.136.412.315.808.532 1.183h1.288v1.566       c.376.345.77.665 1.183.96v-2.526h7.69v2.526       c.413-.294.808-.615 1.183-.96v-1.567h1.288       c.217-.375.396-.771.532-1.183H9.592Z" fill="url(#brickFill)" stroke="#8bcfff" stroke-width=".045" stroke-linejoin="round"/>
-  </g>
+  <!-- Firewall brickwork: upper horizontal mortar -->
+  <path d="M15 48        Q39 47 64 48        Q88 49 113 48" stroke="#203746" stroke-width="7"/>
+
+  <path d="M15 48        Q39 47 64 48        Q88 49 113 48" stroke="#A8DCFF" stroke-width="4.2"/>
+
+  <!-- Firewall brickwork: lower horizontal mortar -->
+  <path d="M17 85        Q40 84 64 85        Q88 86 111 85" stroke="#203746" stroke-width="7"/>
+
+  <path d="M17 85        Q40 84 64 85        Q88 86 111 85" stroke="#A8DCFF" stroke-width="4.2"/>
+
+  <!-- Upper brick vertical joints -->
+  <path d="M37 31 L37 48        M91 31 L91 48" stroke="#203746" stroke-width="7"/>
+
+  <path d="M37 31 L37 48        M91 31 L91 48" stroke="#A8DCFF" stroke-width="4.2"/>
+
+  <!-- Middle brick vertical joint -->
+  <path d="M64 48        Q63 65 64 85" stroke="#203746" stroke-width="7"/>
+
+  <path d="M64 48        Q63 65 64 85" stroke="#A8DCFF" stroke-width="4.2"/>
+
+  <!-- Lower brick vertical joints -->
+  <path d="M37 85 L37 109        M91 85 L91 109" stroke="#203746" stroke-width="7"/>
+
+  <path d="M37 85 L37 109        M91 85 L91 109" stroke="#A8DCFF" stroke-width="4.2"/>
+
 </svg>
