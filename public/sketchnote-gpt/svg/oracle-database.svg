@@ -1,41 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Oracle Database (sketch)</title>
   
 
-  <!-- Azure cloud behind the database -->
+  <!-- Azure cloud: original proportions preserved -->
   <path d="M40.8 1.8            C28.7 1.2 19.5 7.8 16.9 19.1            C7.4 21.1 1.9 29.6 2.1 39            C2.5 51.8 13.2 59.4 25.7 58.4            Q28.1 58.6 30.1 58.1            L40.8 58.2            L40.7 43.4            Q40.3 36.1 47.8 33.6            Q58.6 29.4 79 29.1            C76.6 24.1 71.1 21.2 64.6 20.7            C63.5 9.2 53.8 1.5 40.8 1.8 Z" fill="#50E6FF" stroke="#203746" stroke-width="3.4"/>
 
-  <!-- Three separate database tiers with white dividing stripes -->
+  <!-- Bottom terracotta tier -->
+  <path d="M40.7 97.1            Q49.5 106.3 84.3 106.4            Q113.4 106.2 126.4 97.1            L126.4 118.3            Q126.2 122 113.3 125            Q84.5 129.3 54.4 125.2            Q40.8 122.3 40.7 118.3 Z" fill="#C74634" stroke="#203746" stroke-width="3.1"/>
 
-  <!-- Bottom tier -->
-  <path d="M40.7 97.1            Q49.5 106.3 84.3 106.4            Q113.4 106.2 126.4 97.1            L126.4 118.3            Q126.2 122 113.3 125            Q84.5 131.3 54.4 125.2            Q40.8 122.3 40.7 118.3 Z" fill="#C74634" stroke="#203746" stroke-width="3.2"/>
+  <!-- Middle terracotta tier -->
+  <path d="M40.7 69.1            Q50.7 78.3 84 78.4            Q114.4 78.2 126.4 69.1            L126.4 91            Q125.9 96.1 112.8 98.4            Q84 104.3 54.6 98.5            Q41.2 95.8 40.7 91 Z" fill="#C74634" stroke="#203746" stroke-width="3.1"/>
 
-  <!-- Middle tier -->
-  <path d="M40.7 69.1            Q50.7 78.3 84 78.4            Q114.4 78.2 126.4 69.1            L126.4 91            Q125.9 96.1 112.8 98.4            Q84 104.3 54.6 98.5            Q41.2 95.8 40.7 91 Z" fill="#D77B6D" stroke="#203746" stroke-width="3.2"/>
+  <!-- Upper terracotta tier -->
+  <path d="M40.7 44.1            Q41 37.8 54.3 35            Q83.7 28.7 113.3 35            Q126.3 37.9 126.4 44.2            L126.4 63.1            Q126 68.8 113.2 71.5            Q83.9 77.5 54.5 71.6            Q40.8 68.5 40.7 63.1 Z" fill="#C74634" stroke="#203746" stroke-width="3.1"/>
 
-  <!-- Upper tier -->
-  <path d="M40.7 44.1            Q41 37.8 54.3 35            Q83.7 28.7 113.3 35            Q126.3 37.9 126.4 44.2            L126.4 63.1            Q126 68.8 113.2 71.5            Q83.9 77.5 54.5 71.6            Q40.8 68.5 40.7 63.1 Z" fill="#C74634" stroke="#203746" stroke-width="3.2"/>
+  <!-- First narrow white curved separator -->
+  <path d="M40.7 63.1            Q42.3 69.1 55.6 71.5            Q84 77.2 112.5 71.7            Q124.9 69.1 126.4 63.1            L126.4 69.1            Q123.4 74.8 111.8 76.9            Q83.8 82.3 55.7 77            Q42.5 74.5 40.7 69.1 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.7"/>
 
-  <!-- White database stripes: distinct exposed gaps -->
-  <g fill="#FFFFFF" stroke="#203746" stroke-width="2.1">
-    <path d="M40.7 63.1              Q42.3 69.1 55.6 71.5              Q84 77.2 112.5 71.7              Q124.9 69.1 126.4 63.1              L126.4 69.1              Q123.4 74.8 111.8 76.9              Q83.8 82.3 55.7 77              Q42.5 74.5 40.7 69.1 Z"/>
-    <path d="M40.7 91              Q42.7 96.8 55.9 99              Q84 104.5 112.5 99              Q124.9 96.5 126.4 91              L126.4 97.1              Q123.1 102.5 111.5 104.7              Q83.8 110.1 55.4 104.7              Q42.3 102.2 40.7 97.1 Z"/>
-  </g>
+  <!-- Second narrow white curved separator -->
+  <path d="M40.7 91            Q42.7 96.8 55.9 99            Q84 104.5 112.5 99            Q124.9 96.5 126.4 91            L126.4 97.1            Q123.1 102.5 111.5 104.7            Q83.8 110.1 55.4 104.7            Q42.3 102.2 40.7 97.1 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.7"/>
 
-  <!-- Elliptical top surface -->
-  <path d="M126.4 44.1            C126 51.9 107.2 55.1 83.6 55.1            C60.1 55.2 40.7 51.8 40.7 44.1            C40.7 36.3 60.4 32.9 83.6 32.9            C107.3 32.9 126.4 36.4 126.4 44.1 Z" fill="#D98A7D" stroke="#203746" stroke-width="3.1"/>
+  <!-- White upper elliptical surface -->
+  <path d="M126.4 44.1            C126 51.9 107.2 55.1 83.6 55.1            C60.1 55.2 40.7 51.8 40.7 44.1            C40.7 36.3 60.4 32.9 83.6 32.9            C107.3 32.9 126.4 36.4 126.4 44.1 Z" fill="#FFFFFF" stroke="#203746" stroke-width="3.1"/>
 
-  <!-- Inner top ellipse -->
-  <path d="M46.2 43.9            C52 39 66.2 37.3 83.7 37.3            C101 37.3 115.2 39 120.8 43.9            C113.5 48.2 100 50.7 83.6 50.7            C67.2 50.7 53.4 48.3 46.2 43.9 Z" fill="#C74634" stroke="#203746" stroke-width="2.1"/>
+  <!-- Subtle inner ellipse: white, never red -->
+  <path d="M46.2 43.9            C52 39 66.2 37.3 83.7 37.3            C101 37.3 115.2 39 120.8 43.9            C113.5 48.2 100 50.7 83.6 50.7            C67.2 50.7 53.4 48.3 46.2 43.9 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.65"/>
 
-  <!-- Distinctive white curved database markings -->
-  <g stroke="#203746" stroke-width="1.15" fill="#FFFFFF">
-    <path d="M97.8 58.5              Q109.3 58.2 118.9 54.2              Q120.1 53.8 120.5 55.1              Q120.7 56.5 119.3 57              Q109.6 61.2 97.9 61.5              Q96.3 61.5 96.2 60              Q96.1 58.7 97.8 58.5 Z"/>
-    <path d="M97.7 84.8              Q109.1 84.6 118.9 80.6              Q120.2 80.1 120.5 81.5              Q120.7 82.8 119.3 83.5              Q108.9 87.6 97.9 87.8              Q96.3 87.7 96.2 86.4              Q96.1 85 97.7 84.8 Z"/>
-    <path d="M97.7 111.5              Q109.4 111.3 118.9 107.3              Q120.2 106.8 120.5 108.2              Q120.8 109.6 119.3 110.2              Q109.2 114.3 97.9 114.5              Q96.4 114.4 96.2 113              Q96.1 111.7 97.7 111.5 Z"/>
-  </g>
+  <!-- Upper tier: short curved white stripe on right -->
+  <path d="M97.8 58.5            Q109.3 58.2 118.9 54.2            Q120.1 53.8 120.5 55.1            Q120.7 56.5 119.3 57            Q109.6 61.2 97.9 61.5            Q96.3 61.5 96.2 60            Q96.1 58.7 97.8 58.5 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.1"/>
 
-  <!-- Sparse doubled-ink strokes on existing contours -->
-  <g stroke="#203746" stroke-width="1.2" opacity=".65">
+  <!-- Middle tier: matching white stripe -->
+  <path d="M97.7 84.8            Q109.1 84.6 118.9 80.6            Q120.2 80.1 120.5 81.5            Q120.7 82.8 119.3 83.5            Q108.9 87.6 97.9 87.8            Q96.3 87.7 96.2 86.4            Q96.1 85 97.7 84.8 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.1"/>
+
+  <!-- Bottom tier: matching white stripe -->
+  <path d="M97.7 111.5            Q109.4 111.3 118.9 107.3            Q120.2 106.8 120.5 108.2            Q120.8 109.6 119.3 110.2            Q109.2 114.3 97.9 114.5            Q96.4 114.4 96.2 113            Q96.1 111.7 97.7 111.5 Z" fill="#FFFFFF" stroke="#203746" stroke-width="1.1"/>
+
+  <!-- Sparse doubled charcoal ink along existing edges -->
+  <g stroke="#203746" stroke-width="1.1" fill="none" opacity=".6">
     <path d="M5.3 32.3 Q2.8 42.1 9.5 49.6"/>
     <path d="M20.2 18.2 Q25.4 7.2 37.2 5.5"/>
     <path d="M44.3 59.6 L44.1 65.1"/>
