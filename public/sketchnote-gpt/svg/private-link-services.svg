@@ -1,26 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Private Link Services (sketch)</title>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Private Link Services (sketch)</title>
   
-  <desc>Blue hexagonal service boundary containing two interlocking open spiral-shaped links, with distinct Azure-blue and cyan fills.</desc>
 
-  <!-- Outer hexagonal service boundary -->
-  <path d="M64 6            Q66 6 69 8            L117 35            Q120 37 120 41            L120 89            Q120 92 117 94            L68 122            Q64 124 61 122            L11 94            Q8 92 8 88            L8 40            Q8 37 11 35Z" stroke="#203746" stroke-width="9"/>
+  <!-- White interior -->
+  <path d="M64 8            L113 36            Q117 39 117 45            L117 83            Q117 89 112 92            L69 117            Q64 120 59 117            L16 92            Q11 89 11 83            L11 45            Q11 39 16 36 Z" fill="#FFFFFF" stroke="#203746" stroke-width="3.5" stroke-linejoin="round"/>
 
-  <path d="M64 6            Q66 6 69 8            L117 35            Q120 37 120 41            L120 89            Q120 92 117 94            L68 122            Q64 124 61 122            L11 94            Q8 92 8 88            L8 40            Q8 37 11 35Z" stroke="#0078D4" stroke-width="5.5"/>
+  <!-- Thick blue hexagonal ring -->
+  <path d="M64 13            L108 39            L108 89            L64 115            L20 89            L20 39 Z" fill="none" stroke="#168ACB" stroke-width="8" stroke-linejoin="round"/>
 
-  <!-- First open spiral link: Azure blue -->
-  <path d="M62 38            L48 38            C35 38 27 46 27 57            C27 68 35 76 48 76            L62 76            C73 76 81 69 81 59            C81 52 76 48 69 48            L62 48            C56 48 52 52 52 57            C52 62 56 66 62 66            L67 66" fill="none" stroke="#203746" stroke-width="13"/>
+  <path d="M64 13            L108 39            L108 89            L64 115            L20 89            L20 39 Z" fill="none" stroke="#203746" stroke-width="2.5" stroke-linejoin="round"/>
 
-  <path d="M62 38            L48 38            C35 38 27 46 27 57            C27 68 35 76 48 76            L62 76            C73 76 81 69 81 59            C81 52 76 48 69 48            L62 48            C56 48 52 52 52 57            C52 62 56 66 62 66            L67 66" fill="none" stroke="#3F92E6" stroke-width="9"/>
+  <!-- Upper-left hollow C-shaped link: dark outer outline -->
+  <path d="M73 45            C68 39 62 37 53 37            C41 37 31 45 31 56            C31 67 41 75 53 75            C62 75 68 71 73 66" stroke="#203746" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Second open spiral link: cyan -->
-  <path d="M66 53            L80 53            C93 53 101 61 101 73            C101 84 93 92 80 92            L66 92            C55 92 47 85 47 75            C47 68 52 63 59 63            L66 63            C72 63 76 67 76 73            C76 78 72 82 66 82            L61 82" fill="none" stroke="#203746" stroke-width="13"/>
+  <!-- Upper-left colored loop -->
+  <path d="M73 45            C68 39 62 37 53 37            C41 37 31 45 31 56            C31 67 41 75 53 75            C62 75 68 71 73 66" stroke="#32B4E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <path d="M66 53            L80 53            C93 53 101 61 101 73            C101 84 93 92 80 92            L66 92            C55 92 47 85 47 75            C47 68 52 63 59 63            L66 63            C72 63 76 67 76 73            C76 78 72 82 66 82            L61 82" fill="none" stroke="#32BEDD" stroke-width="9"/>
+  <!-- Lower-right hollow C-shaped link: dark outer outline -->
+  <path d="M55 63            C60 57 66 53 75 53            C87 53 97 61 97 72            C97 83 87 91 75 91            C66 91 60 87 55 82" stroke="#203746" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Small overlap definition -->
-  <path d="M56 52 Q61 49 67 53" stroke="#203746" stroke-width="3"/>
-
-  <path d="M61 78 Q66 81 72 77" stroke="#203746" stroke-width="3"/>
+  <!-- Lower-right colored loop -->
+  <path d="M55 63            C60 57 66 53 75 53            C87 53 97 61 97 72            C97 83 87 91 75 91            C66 91 60 87 55 82" stroke="#32D4F5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 
 </svg>

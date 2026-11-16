@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Storage Mover (sketch)</title><defs><linearGradient id="connector" x1="9.024" y1="2.162" x2="8.899" y2="19.749" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#50e6ff"/><stop offset="1" stop-color="#32bedd"/></linearGradient><linearGradient id="cloud" x1="9.188" y1="13.797" x2="9.188" y2="2.296" gradientUnits="userSpaceOnUse"><stop offset=".001" stop-color="#a33a85"/><stop offset="1" stop-color="#ce74b6"/></linearGradient><linearGradient id="node-top" x1="2.017" y1=".148" x2="2.017" y2="2.953" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#50e6ff"/><stop offset="1" stop-color="#32bedd"/></linearGradient><linearGradient id="node-bottom-left" x1="1.402" y1="15.047" x2="1.402" y2="17.852" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#50e6ff"/><stop offset="1" stop-color="#32bedd"/></linearGradient><linearGradient id="node-bottom-right" x1="16.598" y1="14.597" x2="16.598" y2="17.402" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#50e6ff"/><stop offset="1" stop-color="#32bedd"/></linearGradient></defs><g transform="scale(7.111111)"><polygon points="16.848 15.585 2.416 1.152 1.619 1.948 8.39 8.72 1.006 16.05 1.799 16.849 9.187 9.516 16.052 16.381 16.848 15.585" fill="url(#connector)"/><g fill="none" stroke="#27a9cf" stroke-width=".045" stroke-linecap="round" stroke-linejoin="round" opacity=".65"><path d="M1.78 2.08L8.39 8.72M1.28 16.12L8.95 8.53M9.19 9.52L16.05 16.38"/></g><path d="M1.568 2.878c.733.248 1.529-.145 1.778-.878.248-.733-.145-1.529-.878-1.778C1.734-.026.938.367.689 1.101c-.248.733.145 1.529.878 1.778Z" fill="url(#node-top)"/><path d="M.953 17.778c.733.248 1.529-.145 1.778-.878.248-.733-.145-1.529-.878-1.778-.733-.248-1.529.145-1.778.878-.248.733.145 1.529.878 1.778Z" fill="url(#node-bottom-left)"/><path d="M16.148 17.328c.733.248 1.529-.145 1.778-.878.248-.733-.145-1.529-.878-1.778-.733-.248-1.529.145-1.778.878s.145 1.529.878 1.778Z" fill="url(#node-bottom-right)"/><path d="M17.291,10.195c-.052-1.783-1.388-3.265-3.156-3.501-.106-2.513-2.214-4.474-4.729-4.396-2.001-.036-3.806,1.198-4.499,3.076-2.133,.255-3.758,2.031-3.822,4.178,.093,2.432,2.14,4.329,4.573,4.236h7.801c.065,.011,.131,.011,.195,0,1.982-.024,3.589-1.611,3.639-3.593Z" fill="url(#cloud)"/><path d="M17.291,10.195c-.052-1.783-1.388-3.265-3.156-3.501-.106-2.513-2.214-4.474-4.729-4.396-2.001-.036-3.806,1.198-4.499,3.076-2.133,.255-3.758,2.031-3.822,4.178,.093,2.432,2.14,4.329,4.573,4.236h7.801c.065,.011,.131,.011,.195,0,1.982-.024,3.589-1.611,3.639-3.593Z" fill="none" stroke="#8d326f" stroke-width=".055" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round"><title>Azure Storage Mover (sketch)</title>
+
+  
+  <desc>Magenta cloud with a cyan diagonal crossing transfer symbol and three circular endpoint nodes. The transfer bars pass behind the cloud.</desc>
+
+  <!-- Transfer symbol: complete diagonal cross, behind cloud -->
+  <path d="     M17 14     L113 110     M14 113     L110 17" stroke="#203746" stroke-width="9"/>
+
+  <path d="     M17 14     L113 110     M14 113     L110 17" stroke="#50E6FF" stroke-width="5.5"/>
+
+  <!-- Endpoint nodes -->
+  <circle cx="17" cy="14" r="8" fill="#32BEDD" stroke-width="3"/>
+  <circle cx="14" cy="113" r="8" fill="#32BEDD" stroke-width="3"/>
+  <circle cx="113" cy="110" r="8" fill="#32BEDD" stroke-width="3"/>
+
+  <!-- Main cloud body, covering the crossing bars -->
+  <path d="     M33 94     C21 94 12 85 12 73     C12 61 20 52 31 50     C35 35 49 25 65 26     C84 25 100 39 104 57     C115 59 121 68 121 79     C121 92 110 102 97 102     L34 102     C33 102 32 101 33 94 Z" fill="#CE74B6" stroke-width="4"/>
+
+  <!-- Cloud interior contour -->
+  <path d="     M29 90     C22 89 17 82 17 74     C17 65 24 57 33 56     C37 41 50 32 64 32     C80 31 94 42 98 57     C107 59 114 66 114 76     C114 87 106 95 95 95" stroke="#E5A4D2" stroke-width="2.2" opacity=".85"/>
+
+  <!-- Slightly uneven cloud boundary emphasis -->
+  <path d="     M34 97     Q56 100 77 98     M102 94     Q114 87 115 77" stroke="#203746" stroke-width="2" opacity=".7"/>
+
+</svg>

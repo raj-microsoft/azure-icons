@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Web Slots (sketch)</title><defs><linearGradient id="a7378179-50f3-45ab-8197-d359c8bd30ce" x1="8.929" y1="7.745" x2="8.929" y2="0.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#37c2b1"/><stop offset="0.565" stop-color="#3fddc3"/><stop offset="0.908" stop-color="#42e8ca"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linejoin="round" stroke-linecap="round"><g id="bf6945d2-ac27-4d06-8533-06841ee98173"><g><path d="M15.335,11.969h1.124a.179.179,0,0,1,.179.179v3.86a0,0,0,0,1,0,0H15.156a0,0,0,0,1,0,0v-3.86a.179.179,0,0,1,.179-.179Z" fill="#767676"/><path d="M1.542,12.066H2.714a.18.18,0,0,1,.18.18v3.763a0,0,0,0,1,0,0H1.362a0,0,0,0,1,0,0V12.245A.18.18,0,0,1,1.542,12.066Z" fill="#767676"/><path d="M8.741,9.116h1a0,0,0,0,1,0,0V24.392a0,0,0,0,1,0,0h-1a.487.487,0,0,1-.487-.487V9.6A.487.487,0,0,1,8.741,9.116Z" transform="translate(-7.754 25.754) rotate(-90)" fill="#949494" stroke="#858585" stroke-width=".025"/><rect x="3.708" y="7.275" width="2.879" height="7.754" rx="0.375" fill="#0078d4" stroke="#0069bd" stroke-width=".025"/><rect x="7.55" y="7.275" width="2.879" height="7.754" rx="0.375" fill="#0078d4" stroke="#0069bd" stroke-width=".025"/><rect x="11.391" y="7.275" width="2.879" height="7.754" rx="0.375" fill="#37c2b1" stroke="#279f93" stroke-width=".025"/><path d="M14.1,3.52,11.129.545a.152.152,0,0,0-.259.107V2.386c-3.581,0-7.162,1.913-7.162,5.359.512-.768,3.07-2.811,7.162-2.811V6.6a.152.152,0,0,0,.259.107L14.1,3.734A.15.15,0,0,0,14.1,3.52Z" fill="url(#a7378179-50f3-45ab-8197-d359c8bd30ce)" stroke="#2dbba9" stroke-width=".025"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Web Slots (sketch)</title>
+  
+
+  <!-- Left upright tray arm -->
+  <path d="M15 84            Q19 83 24 85            L24 115            L15 116 Z" fill="#949494" stroke="#203746" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Right upright tray arm -->
+  <path d="M104 85            L113 84            L113 116            L104 115 Z" fill="#949494" stroke="#203746" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Three plain upright application bars -->
+  <path d="M31 53            Q31 51 34 51            L45 51            Q48 51 48 54            L48 104            L31 104 Z" fill="#0078D4" stroke="#203746" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M55 53            Q55 51 58 51            L69 51            Q72 51 72 54            L72 104            L55 104 Z" fill="#0078D4" stroke="#203746" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <path d="M79 53            Q79 51 82 51            L93 51            Q96 51 96 54            L96 104            L79 104 Z" fill="#37C2B1" stroke="#203746" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Bottom horizontal tray base -->
+  <path d="M15 107            Q15 106 19 106            L109 106            Q113 106 113 110            L113 116            L15 116 Z" fill="#949494" stroke="#203746" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Broad cyan curved routing arrow -->
+  <path d="M23 48            C30 31 51 25 75 26            L75 14            Q75 11 78 13            L102 34            Q104 36 102 38            L78 58            Q75 60 75 56            L75 44            C54 43 37 46 23 58            Q20 54 23 48 Z" fill="#3FDDC3" stroke="#203746" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

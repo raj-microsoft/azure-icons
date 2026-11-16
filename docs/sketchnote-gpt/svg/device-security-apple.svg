@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Device Security Apple (sketch)</title><defs><linearGradient id="shieldGradient" x1="11.122" y1="13.92" x2="2.751" y2="-0.562" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a33a85"/><stop offset="0.998" stop-color="#dc92bf"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round"><path d="M12.494,7.023c0,4.037-4.969,7.286-6.049,7.945a.4.4,0,0,1-.412,0C4.952,14.309-.016,11.06-.016,7.023V2.167a.389.389,0,0,1,.384-.385C4.232,1.679,3.343.013,6.239.013S8.245,1.679,12.11,1.782a.39.39,0,0,1,.384.385Z" fill="#ce74b6" stroke="#a94e96" stroke-width=".055"/><path d="M11.975,7.065c0,3.7-4.556,6.681-5.547,7.285a.362.362,0,0,1-.378,0C5.059,13.746.5,10.766.5,7.065V2.611a.357.357,0,0,1,.352-.353C4.4,2.164,3.583.636,6.239.636s1.84,1.528,5.384,1.622a.357.357,0,0,1,.352.353Z" fill="url(#shieldGradient)" stroke="#a94e96" stroke-width=".045"/><path d="M6.05,8.645H17.468a.368.368,0,0,1,.388.346v8.676a.368.368,0,0,1-.388.346H6.05a.369.369,0,0,1-.388-.346V8.991A.369.369,0,0,1,6.05,8.645Z" fill="#dc92bf" stroke="#bd6ca9" stroke-width=".045"/><path d="M6.028,8.645H17.491a.347.347,0,0,1,.365.326h0v1.308H5.662V8.971a.348.348,0,0,1,.366-.326Z" fill="#fff" opacity="0.7"/><path d="M16.2,13.686H8.669c-.167,0-.3.076-.3.17v.42c0,.094.136.17.3.17H16.2c.168,0,.3-.076.3-.17v-.42C16.5,13.762,16.363,13.686,16.2,13.686Z" fill="#fff" opacity="0.7"/><path d="M16.2,11.773H8.669c-.167,0-.3.076-.3.17v.42c0,.094.136.17.3.17H16.2c.168,0,.3-.076.3-.17v-.42C16.5,11.849,16.363,11.773,16.2,11.773Z" fill="#fff" opacity="0.7"/><path d="M16.68,16.286H8.652c-.178,0-.323.081-.323.181v.448c0,.1.145.182.323.182H16.68c.179,0,.324-.081.324-.182v-.448C17,16.367,16.859,16.286,16.68,16.286Z" fill="#fff" opacity="0.7"/><circle cx="7.118" cy="12.153" r="0.498" fill="#fff" opacity="0.7"/><circle cx="7.118" cy="14.066" r="0.498" fill="#fff" opacity="0.7"/><circle cx="6.998" cy="16.691" r="0.531" fill="#fff" opacity="0.7"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#203746" stroke-linecap="round" stroke-linejoin="round"><title>Device Security Apple (sketch)</title>
+
+  
+  <desc>Pink protective shield overlapping a pink device-security configuration panel with three plain circular list bullets and horizontal text lines.</desc>
+
+  <!-- Protective shield -->
+  <path d="     M44 8     Q47 6 50 9     C59 17 73 18 85 18     Q89 18 89 23     L89 49     C89 74 65 95 47 106     Q44 108 41 106     C23 95 7 76 7 49     L7 23     Q7 19 12 19     C26 18 34 17 41 9     Q43 7 44 8 Z" fill="#CE74B6" stroke-width="3.8"/>
+
+  <!-- Inner shield surface -->
+  <path d="     M44 14     C54 24 69 25 82 25     L82 49     C82 70 61 90 44 100     C27 90 14 72 14 49     L14 25     C29 25 36 23 44 14 Z" fill="#A33A85" stroke="#203746" stroke-width="2.5"/>
+
+  <!-- Shield hand-drawn contour -->
+  <path d="     M19 29 Q32 28 43 20     M19 36 L19 52     Q20 67 28 76" stroke="#F0B8DB" stroke-width="2.5"/>
+
+  <!-- Overlapping device configuration panel -->
+  <path d="     M43 62     Q43 59 47 59     L119 60     Q123 60 123 64     L123 119     Q123 123 119 123     L47 122     Q43 122 43 118 Z" fill="#DC92BF" stroke-width="3.8"/>
+
+  <!-- Panel header -->
+  <path d="     M45 65     Q45 62 48 62     L118 63     Q121 63 121 66     L121 72     L45 72 Z" fill="#F7DCEB" stroke-width="2.2"/>
+
+  <!-- Panel separator -->
+  <path d="M46 74 Q82 75 120 74" stroke-width="2"/>
+
+  <!-- Three plain circular list bullets -->
+  <circle cx="53" cy="86" r="4.2" fill="#FFFFFF" stroke-width="2"/>
+  <circle cx="53" cy="99" r="4.2" fill="#FFFFFF" stroke-width="2"/>
+  <circle cx="53" cy="113" r="4.2" fill="#FFFFFF" stroke-width="2"/>
+
+  <!-- Three horizontal configuration text lines -->
+  <path d="     M63 85.5 Q87 85 115 85.5     M63 98.5 Q89 98 115 98.5     M63 112.5 Q90 112 117 112.5" stroke="#FFFFFF" stroke-width="3.2"/>
+
+  <!-- Subtle hand-drawn panel details -->
+  <path d="     M48 77 L58 77     M117 78 L119 78" stroke="#F8E0EF" stroke-width="2"/>
+
+</svg>

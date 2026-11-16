@@ -1,46 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Traffic Manager Profiles (sketch)</title>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Traffic Manager Profiles (sketch)</title>
   
-  <desc>Purple hexagonal traffic manager profile with white branching directional arrows and no central network node.</desc>
 
-  <!-- Outer hexagonal profile -->
-  <path d="M46 9            Q48 7 51 7            L78 7            Q81 7 83 9            L119 45            Q121 47 121 50            L121 78            Q121 81 119 83            L83 119            Q81 121 78 121            L50 121            Q47 121 45 119            L9 83            Q7 81 7 78            L7 50            Q7 47 9 45Z" fill="#9A72CE" stroke="#203746" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Purple octagonal body -->
+  <path d="M43 7            L85 7            Q89 7 92 11            L117 36            Q121 40 121 45            L121 83            Q121 88 117 92            L92 117            Q88 121 83 121            L44 121            Q39 121 35 117            L11 93            Q7 89 7 84            L7 44            Q7 39 11 35            L35 11            Q39 7 43 7 Z" fill="#773ADC" stroke="#203746" stroke-width="4" stroke-linejoin="round"/>
 
-  <!-- Inner hexagonal border -->
-  <path d="M49 17            L79 17            L111 49            L111 79            L79 111            L49 111            L17 79            L17 49Z" stroke="#E8D6FF" stroke-width="2.5" opacity="0.85"/>
+  <!-- Pale inner octagonal border -->
+  <path d="M45 15            L83 15            L113 45            L113 83            L83 113            L45 113            L15 83            L15 45 Z" stroke="#C6A4FF" stroke-width="2" stroke-linejoin="round"/>
 
-  <!-- Main branching directional arrow -->
-  <g fill="#F2F2F2" stroke="#203746" stroke-width="2.2" stroke-linejoin="round">
+  <!-- Arrow 1: upper-left to lower-right -->
+  <path d="M24 23            L34 19            L67 52            L79 40            L82 72            L50 69            L62 57            Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.2" stroke-linejoin="round"/>
 
-    <!-- Upper-left incoming direction -->
-    <path d="M36 38 L57 59 L57 35              L49 35 L57 25 L65 35              L57 35"/>
+  <!-- Arrow 2: lower-right to upper-left -->
+  <path d="M113 91            L106 101            L79 74            L67 86            L64 54            L96 57            L84 69            Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.2" stroke-linejoin="round"/>
 
-    <!-- Right-pointing branch -->
-    <path d="M57 59 L82 59              L82 51 L96 59 L82 67              L82 59"/>
-
-    <!-- Downward branch -->
-    <path d="M57 59 L57 88              L49 88 L57 102 L65 88              L57 88"/>
-
-    <!-- Lower-right diagonal branch -->
-    <path d="M57 59 L91 91              L84 84 L99 99 L83 99              L91 91"/>
-
-  </g>
-
-  <!-- White directional branch strokes -->
-  <g stroke="#F2F2F2" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M36 38 L57 59"/>
-    <path d="M57 59 L57 35"/>
-    <path d="M57 59 L82 59"/>
-    <path d="M57 59 L57 88"/>
-    <path d="M57 59 L91 91"/>
-  </g>
-
-  <!-- Direction arrowheads -->
-  <g fill="#F2F2F2" stroke="#203746" stroke-width="2">
-    <path d="M49 35 L57 25 L65 35Z"/>
-    <path d="M82 51 L96 59 L82 67Z"/>
-    <path d="M49 88 L65 88 L57 102Z"/>
-    <path d="M83 99 L99 99 L91 91Z"/>
-  </g>
+  <!-- Arrow 3: lower-right to upper-left -->
+  <path d="M96 115            L85 118            L53 86            L41 98            L38 66            L70 69            L58 81            Z" fill="#FFFFFF" stroke="#203746" stroke-width="2.2" stroke-linejoin="round"/>
 
 </svg>

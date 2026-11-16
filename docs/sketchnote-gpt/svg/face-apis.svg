@@ -1,24 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Face APIs (sketch)</title>
-  <defs>
-    <linearGradient id="headGradient" x1="9.063" y1="1.292" x2="9.063" y2="16.959" gradientUnits="userSpaceOnUse">
-      <stop offset=".225" stop-color="#5ea0ef"/>
-      <stop offset="1" stop-color="#0078d4"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Face APIs (sketch)</title>
 
-  <g transform="scale(7.111111)">
+  
+  <desc>Azure Face APIs icon with a completely blank human head silhouette framed by four cyan scanning corners.</desc>
 
-    <!-- Original blank head silhouette: no facial features -->
-    <path d="M15.408 9.7c-.172-.4-1-.6-.821-1.535a6.576 6.576 0 0 0-.144-4.018 5.085 5.085 0 0 0-4.271-2.8 12.65 12.65 0 0 0-2.219 0 5.087 5.087 0 0 0-4.271 2.8 6.568 6.568 0 0 0-.143 4.018C3.717 9.1 2.89 9.3 2.718 9.7c-.3.691.4 2.293.621 2.97s1.25.325 1.512.918c.825 1.873 1.878 3.223 3.938 3.361a1.381 1.381 0 0 0 .193.014c.028 0 .053 0 .081 0s.053 0 .08 0a1.359 1.359 0 0 0 .193-.014c2.061-.138 3.114-1.488 3.939-3.361.261-.593 1.291-.24 1.512-.918s.913-2.283.621-2.97Z" fill="url(#headGradient)" stroke="#176fb7" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Four facial recognition scanning corners -->
+  <g fill="#50E6FF" stroke="#203746" stroke-width="3.2">
 
-    <!-- Original four corner brackets -->
-    <path d="M.6 4.908a.574.574 0 0 1-.575-.574V.574A.574.574 0 0 1 .6 0h3.52a.575.575 0 0 1 0 1.149H1.176v3.185a.574.574 0 0 1-.575.574Z" fill="#50e6ff" stroke="#32bedd" stroke-width=".025"/>
+    <!-- Top left -->
+    <path d="M34 10              Q23 9 11 10              Q9 11 10 21              L10 34              Q10 36 12 36              Q14 36 14 33              L14 14              Q24 13 34 14              Q37 14 37 12              Q37 10 34 10Z"/>
 
-    <path d="M17.4 4.908a.574.574 0 0 1-.574-.574V1.149h-2.948a.575.575 0 0 1 0-1.149H17.4a.574.574 0 0 1 .575.574v3.76a.574.574 0 0 1-.575.574Z" fill="#50e6ff" stroke="#32bedd" stroke-width=".025"/>
+    <!-- Top right -->
+    <path d="M94 10              Q106 9 117 10              Q119 11 118 21              L118 34              Q118 36 116 36              Q114 36 114 33              L114 14              Q104 13 94 14              Q91 14 91 12              Q91 10 94 10Z"/>
 
-    <path d="M4.122 18H.6a.574.574 0 0 1-.575-.574v-3.76a.575.575 0 0 1 1.149 0v3.185h2.948a.575.575 0 0 1 0 1.149Z" fill="#50e6ff" stroke="#32bedd" stroke-width=".025"/>
+    <!-- Bottom left -->
+    <path d="M10 94              L10 116              Q10 119 17 118              L34 118              Q37 118 37 116              Q37 114 34 114              L14 114              L14 94              Q14 91 12 91              Q10 91 10 94Z"/>
 
-    <path d="M17.4 18h-3.52a.575.575 0 0 1 0-1.149h2.946v-3.185a.575.575 0 0 1 1.149 0v3.76a.574.574 0 0 1-.575.574Z" fill="#50e6ff" stroke="#32bedd" stroke-width=".025"/>
+    <!-- Bottom right -->
+    <path d="M118 94              L118 116              Q118 119 111 118              L94 118              Q91 118 91 116              Q91 114 94 114              L114 114              L114 94              Q114 91 116 91              Q118 91 118 94Z"/>
 
   </g>
+
+  <!-- Main blank human head silhouette -->
+  <path d="M63 17            Q82 16 92 29            C101 40 100 52 97 62            Q96 67 102 73            Q107 79 103 86            Q100 93 95 94            Q92 96 90 103            C84 117 76 122 65 122            C52 122 43 116 37 103            Q34 96 30 94            Q24 93 23 85            Q19 76 25 71            Q30 67 28 61            C25 48 29 33 39 25            Q48 17 63 17Z" fill="#3989D5" stroke="#203746" stroke-width="4.2"/>
+
+  <!-- Subtle hand-drawn silhouette edge reinforcement -->
+  <path d="M40 27            Q49 19 63 19            M94 37            Q101 50 96 62            M27 75            Q23 83 29 90            M39 102            Q47 116 59 119            M76 119            Q85 113 89 102" stroke="#203746" stroke-width="1.8" opacity=".65"/>
+
+  <!-- Flat blue surface variation, without facial details -->
+  <path d="M43 30 Q53 23 64 24" stroke="#A9D9FF" stroke-width="2.4" opacity=".8"/>
+
+  <path d="M33 47 Q31 55 34 62" stroke="#5EA0EF" stroke-width="2.2" opacity=".8"/>
+
+  <!-- Restrained marker reinforcement on scanning corners -->
+  <g stroke="#203746" stroke-width="1.8" opacity=".7">
+    <path d="M14 31 L14 16 Q19 14 29 14"/>
+    <path d="M99 14 L113 14 L113 30"/>
+    <path d="M14 99 L14 113 L30 113"/>
+    <path d="M98 113 L113 113 L113 98"/>
+  </g>
+
 </svg>
