@@ -1,1 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure DocumentDB (sketch)</title><defs><linearGradient id="documentDbGradient" x1="1188.4" y1="2085.96" x2="1201.6" y2="2085.96" gradientTransform="translate(-1186 -2075.77)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#005da1"/><stop offset=".07" stop-color="#0562aa"/><stop offset=".36" stop-color="#2772b9"/><stop offset=".52" stop-color="#3077bb"/><stop offset=".64" stop-color="#2c74b9"/><stop offset=".82" stop-color="#186cb5"/><stop offset="1" stop-color="#005da1"/></linearGradient></defs><g transform="scale(7.111111)" stroke-linecap="round" stroke-linejoin="round"><path d="M9,5.03c-3.64,0-6.6-1.03-6.6-2.39v12.72c0,1.31,2.9,2.37,6.51,2.39h.09c3.64,0,6.6-1.03,6.6-2.39V2.64c0,1.33-2.96,2.39-6.6,2.39h0Z" fill="url(#documentDbGradient)" stroke="#005da1" stroke-width=".045"/><path d="M15.6,2.64c0,1.33-2.96,2.39-6.6,2.39S2.4,4,2.4,2.64,5.36.25,9,.25s6.6,1.03,6.6,2.39" fill="#e2e2e2"/><path d="M14.07,2.44c0,.84-2.28,1.52-5.07,1.52s-5.07-.68-5.07-1.52,2.28-1.51,5.07-1.51,5.07.68,5.07,1.51" fill="#8ec8e7"/><path d="M13.01,3.37c-1.29-.4-2.65-.59-4-.55-1.34-.03-2.68.16-3.95.57.93.35,2.36.57,3.95.57.81,0,1.58-.06,2.25-.16.59-.1,1.18-.24,1.75-.44h0Z" fill="#1e89b2"/><g><path d="M7.58,14.35c-.56,0-.97-.1-1.23-.31-.26-.21-.38-.57-.38-1.1v-.93c0-.47-.2-.71-.59-.71v-.71c.39,0,.59-.25.59-.74v-.86c0-.53.13-.9.38-1.12s.66-.32,1.23-.32v.72c-.41,0-.62.22-.62.67v.82c0,.62-.2,1.01-.6,1.17v.02c.4.16.6.56.6,1.19v.79c0,.25.05.43.14.54.1.11.25.16.47.16v.72h0Z" fill="#f3f3f3"/><path d="M12.62,11.3c-.39,0-.59.24-.59.72v.89c0,.54-.13.92-.38,1.13-.25.21-.66.31-1.22.31v-.72c.22,0,.37-.05.47-.16.1-.1.15-.28.15-.53v-.82c0-.62.2-1,.59-1.16v-.02c-.39-.16-.59-.57-.59-1.21v-.79c0-.45-.21-.67-.62-.67v-.72c.56,0,.97.11,1.22.32.25.22.38.58.38,1.1v.88c0,.49.2.73.59.73v.71h0Z" fill="#f3f3f3"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure DocumentDB (sketch)</title>
+  
+  <desc>Azure database cylinder with a cyan elliptical top and exactly two empty white JSON curly braces. No quotation marks or extra code symbols.</desc>
+
+  <!-- Database cylinder -->
+  <path d="M17 19            C17 10 38 4 64 4            C90 4 111 10 111 19            L111 108            C110 118 91 124 64 124            C38 124 17 118 17 108 Z" fill="#176DB5" stroke="#173F60" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Outer database rim -->
+  <path d="M17 19            C17 10 38 4 64 4            C90 4 111 10 111 19            C111 29 90 36 64 36            C38 36 17 29 17 19 Z" fill="#E2E2E2" stroke="#526E82" stroke-width="3"/>
+
+  <!-- Cyan elliptical surface -->
+  <path d="M28 18            C28 12 44 8 64 8            C84 8 100 12 100 18            C100 24 84 29 64 29            C44 29 28 24 28 18 Z" fill="#8EC8E7" stroke="#378EBA" stroke-width="2.2"/>
+
+  <!-- Inner surface shadow -->
+  <path d="M36 24            Q49 20 64 20            Q80 20 92 24            Q80 29 64 29            Q47 29 36 24 Z" fill="#1E89B2"/>
+
+  <!-- Top hand-drawn accents -->
+  <path d="M38 15 Q52 10 68 12            M78 13 Q88 14 93 17" stroke="#E0F8FF" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Cylinder side contours -->
+  <path d="M24 42 L24 101 Q25 112 40 117" stroke="#67A9D9" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M104 42 L104 104 Q103 113 93 117" stroke="#004B88" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M18 105 Q30 123 64 124 Q91 124 110 106" stroke="#005DA1" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="17 5 8 5" opacity=".75"/>
+
+  <!-- Left empty JSON curly brace -->
+  <path d="M54 53            C46 53 43 56 43 63            L43 70            C43 76 40 79 34 80            C40 81 43 84 43 90            L43 97            C43 104 46 107 54 107" stroke="#F3F3F3" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right empty JSON curly brace -->
+  <path d="M74 53            C82 53 85 56 85 63            L85 70            C85 76 88 79 94 80            C88 81 85 84 85 90            L85 97            C85 104 82 107 74 107" stroke="#F3F3F3" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle brace edge details -->
+  <path d="M51 57 Q47 58 47 64            M47 96 Q47 102 51 103            M77 57 Q81 58 81 64            M81 96 Q81 102 77 103" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Empty space between braces: no quotation marks or symbols -->
+
+  <!-- Small cylinder sketch details -->
+  <path d="M31 45 Q35 42 40 43            M89 43 Q95 42 99 45            M44 114 Q64 119 84 114" stroke="#8EC8E7" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Azure-blue annotation strokes -->
+  <path d="M12 48 L12 62            M116 52 L116 67            M35 125 Q47 129 58 127" stroke="#159DCE" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="9 5" opacity=".65"/>
+
+  <!-- Restrained yellow accents -->
+  <path d="M113 25 L118 20            M117 30 L123 30" stroke="#F3B82D" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M10 91 L14 87            M10 98 L15 98" stroke="#F3B82D" stroke-width="2.3" stroke-linecap="round" opacity=".85"/>
+</svg>

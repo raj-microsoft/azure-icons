@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Time Series Insights Event Sources (sketch)</title><defs><linearGradient id="eventGradient" x1="9.03" y1="13.38" x2="9.03" y2="4.63" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#198ab3"/><stop offset=".4" stop-color="#25aed3"/><stop offset=".78" stop-color="#2fcaec"/><stop offset="1" stop-color="#32d4f5"/></linearGradient></defs><g transform="scale(7.111111)"><rect x="4.65" y="4.63" width="8.75" height="8.75" rx=".41" fill="url(#eventGradient)"/><path d="M11.78 12.18l4.38-3.07a.13.13 0 0 0 0-.22l-4.38-3.06a.13.13 0 0 0-.21.11V7.7H4.65v2.6h6.92v1.77a.14.14 0 0 0 .21.11Z" fill="#c3f1ff" stroke="#b2eafa" stroke-width=".025" stroke-linejoin="round"/><path d="M17 17.6H1a.52.52 0 0 1-.52-.52V.92A.52.52 0 0 1 1 .4H17a.52.52 0 0 1 .52.52V6a.26.26 0 0 1-.41.22l-1-.7a.27.27 0 0 1-.11-.22V2H2.06V16H15.94V12.8a.26.26 0 0 1 .11-.21l1-.73a.26.26 0 0 1 .41.22v5a.52.52 0 0 1-.46.52Z" fill="#949494" stroke="#858585" stroke-width=".035" stroke-linejoin="round" stroke-linecap="round"/><path d="M15.94 2V5.25a.27.27 0 0 0 .11.22l1 .7A.26.26 0 0 0 17.5 6V2Z" fill="#767676"/><path d="M15.94 16V12.75a.25.25 0 0 1 .11-.21l1-.71a.27.27 0 0 1 .41.22v4Z" fill="#767676"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Time Series Insights Event Sources (sketch)</title>
+  
+
+  <g stroke="#203746" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Single thick C-shaped gray bracket, open on right -->
+    <path d="M112 40              L112 15              Q112 11 108 11              L20 11              Q16 11 16 15              L16 113              Q16 117 20 117              L108 117              Q112 117 112 113              L112 86              L104 86              L104 109              L24 109              L24 19              L104 19              L104 40 Z" fill="#949494" stroke-width="3.5"/>
+
+    <!-- Cyan arrow shaft -->
+    <path d="M40 44              Q39 44 39 47              L39 87              Q39 90 42 90              L83 90              L83 47              Q83 44 80 44 Z" fill="#25AED3" stroke-width="3.5"/>
+
+    <!-- Cyan right-pointing arrowhead -->
+    <path d="M82 46              L109 67              L82 88 Z" fill="#32D4F5" stroke-width="3.5"/>
+
+  </g>
+</svg>

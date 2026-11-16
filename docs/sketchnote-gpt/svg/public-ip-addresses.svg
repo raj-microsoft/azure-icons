@@ -1,28 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Public IP Addresses (sketch)</title>
-  <defs>
-    <linearGradient id="bodyGradient" x1="9" y1="15.83" x2="9" y2="5.79" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#32bedd"/>
-      <stop offset=".18" stop-color="#32caea"/>
-      <stop offset=".41" stop-color="#32d2f2"/>
-      <stop offset=".78" stop-color="#32d4f5"/>
-    </linearGradient>
-  </defs>
+  
 
-  <g transform="scale(7.111111)">
-    <!-- Original rectangular network device body -->
-    <path d="M.5 5.79h17v9.48a.57.57 0 0 1-.57.57H1.07a.57.57 0 0 1-.57-.57Z" fill="url(#bodyGradient)" stroke="#25abc9" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Cyan address panel -->
+  <path d="M13.5 43.5            Q13 40 17.5 39.5            L110 39.5            Q114.5 39.5 114.5 44            L114.5 104.5            Q114.5 109.5 109.5 109.5            L18 109.5            Q13.5 109.5 13.5 105 Z" fill="#32D2F2" stroke="#203746" stroke-width="4" stroke-linejoin="round"/>
 
-    <!-- Original grey top panel -->
-    <path d="M1.07 2.17H16.93a.57.57 0 0 1 .57.57v3.05H.5V2.73a.57.57 0 0 1 .57-.56Z" fill="#767676" stroke="#626262" stroke-width=".035" stroke-linejoin="round"/>
+  <!-- Gray server header -->
+  <path d="M18 21.5            Q13.5 21.5 13.5 26            L13.5 43            Q14 44 18 43.5            L110 43.5            L114.5 43            L114.5 26.5            Q114.5 21.5 110 21.5 Z" fill="#767676" stroke="#203746" stroke-width="3.8" stroke-linejoin="round"/>
 
-    <!-- Original three independent white dots -->
-    <circle cx="12.82" cy="10.19" r="1.38" fill="#f2f2f2" stroke="#d8f5fa" stroke-width=".035"/>
+  <!-- White address field -->
+  <path d="M27.5 32.5            Q27 32 30 32            L98.5 32            Q101 32 101 34.5            L101 38.5            Q100.5 40 98 40            L30 40            Q27 40 27 38 Z" fill="#F2F2F2" stroke="#203746" stroke-width="2" stroke-linejoin="round"/>
 
-    <circle cx="9.06" cy="10.19" r="1.38" fill="#f2f2f2" stroke="#d8f5fa" stroke-width=".035"/>
-
-    <circle cx="5.18" cy="10.19" r="1.38" fill="#f2f2f2" stroke="#d8f5fa" stroke-width=".035"/>
-
-    <!-- Original horizontal white panel detail -->
-    <rect x="2.79" y="3.25" width="12.43" height="1.46" rx=".28" fill="#f2f2f2" stroke="#e5e5e5" stroke-width=".025"/>
+  <!-- Exactly three white IP indicator dots -->
+  <g fill="#F2F2F2" stroke="#203746" stroke-width="2.8">
+    <circle cx="40" cy="77" r="9"/>
+    <circle cx="64" cy="77" r="9"/>
+    <circle cx="88" cy="77" r="9"/>
   </g>
 </svg>

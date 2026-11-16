@@ -1,40 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Logic Apps Template (sketch)</title>
-  <defs>
-    <linearGradient id="frameGradient" x1="8.994" y1="18" x2="8.994" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#119fc5"/>
-      <stop offset=".873" stop-color="#36dff1"/>
-    </linearGradient>
-    <linearGradient id="blueNode" x1="63.781" y1="638.899" x2="63.781" y2="636.46" gradientTransform="translate(-56 645.516) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#9cebff"/>
-      <stop offset="1" stop-color="#50e6ff"/>
-    </linearGradient>
-    <linearGradient id="greenNode" x1="7.781" y1="14.804" x2="7.781" y2="11.436" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#86d633"/>
-      <stop offset=".999" stop-color="#b4ec36"/>
-    </linearGradient>
-  </defs>
+  
 
-  <g transform="scale(7.111111)">
+  <g stroke="#203746" stroke-linecap="round" stroke-linejoin="round">
 
-    <!-- Original overlapping document sheets and frame -->
-    <path d="M16.429 14.999h-.881V3.711c0-.703-.57-1.273-1.273-1.273H3.001V1.274a.281.281 0 0 0-.562 0v1.164H1.261C.557 2.438-.013 3.008-.013 3.711v13.016c0 .703.57 1.273 1.273 1.273h13.016c.703 0 1.273-.57 1.273-1.273v-1.165h.881a.281.281 0 0 0 0-.562Z" fill="url(#frameGradient)" stroke="#159fc4" stroke-width=".025" stroke-linejoin="round"/>
+    <!-- Rear document: open cyan dashed outline -->
+    <path d="M35 99              L35 23              Q35 18 40 18              L111 18              Q117 18 117 24              L117 94" fill="none" stroke="#32D4F5" stroke-width="4" stroke-dasharray="7 5"/>
 
-    <path d="M16.808.003c-.006 0-.012 0-.018 0h-1.563a.281.281 0 0 0 0 .562h1.536c.152 0 .28-.121.288-.274a.28.28 0 0 0-.243-.288ZM7.727.563h1.5a.281.281 0 0 0 0-.563h-1.5a.281.281 0 0 0 0 .563ZM11.477.563h1.5a.281.281 0 0 0 0-.563h-1.5a.281.281 0 0 0 0 .563ZM3.977.563h1.5a.281.281 0 0 0 0-.563h-1.5a.281.281 0 0 0 0 .563ZM17.719 1.305a.281.281 0 0 0-.281.281v1.5a.281.281 0 0 0 .563 0v-1.5a.281.281 0 0 0-.281-.281ZM17.719 5.055a.281.281 0 0 0-.281.281v1.5a.281.281 0 0 0 .563 0v-1.5a.281.281 0 0 0-.281-.281ZM17.719 8.805a.281.281 0 0 0-.281.281v1.5a.281.281 0 0 0 .563 0v-1.5a.281.281 0 0 0-.281-.281ZM17.719 12.555a.281.281 0 0 0-.281.281v1.453H18v-1.453a.281.281 0 0 0-.281-.281Z" fill="url(#frameGradient)"/>
+    <!-- Front white document sheet -->
+    <path d="M25 30              Q20 30 20 35              L20 107              Q20 113 26 113              L97 113              Q103 113 103 107              L103 36              Q103 30 97 30 Z" fill="#FFFFFF" stroke-width="4"/>
 
-    <!-- Front document sheet -->
-    <path d="M14.276 3.001c.392 0 .71.319.71.71v13.016c0 .392-.319.71-.71.71H1.26c-.392 0-.71-.319-.71-.71V3.711c0-.392.319-.71.71-.71h13.016Z" fill="#fff" stroke="#d7f3fa" stroke-width=".025"/>
+    <!-- Hierarchy connector -->
+    <path d="M64 70              L64 78              M49 78 L82 78              M49 78 L49 83              M82 78 L82 83" fill="none" stroke="#0078D4" stroke-width="2.8"/>
 
-    <!-- Central workflow connector -->
-    <path d="M10.367 10.483H8.815c-.447 0-.809-.362-.809-.809V7.969h-.449v1.706c0 .447-.363.809-.809.809H5.196c-.353 0-.64.286-.64.64v1.246h.448v-1.248c0-.105.085-.189.189-.189h1.554c.353 0 .689-.147.927-.407a.15.15 0 0 1 .217 0c.238.259.573.407.925.407h1.552c.104 0 .189.084.189.188v1.247h.448v-1.246c0-.353-.287-.638-.64-.638Z" fill="#0078d4" stroke="#0068b9" stroke-width=".025" stroke-linejoin="round"/>
+    <!-- Top cyan hierarchy node -->
+    <path d="M55 51              Q55 49 58 49              L70 49              Q73 49 73 52              L73 67              Q73 70 70 70              L58 70              Q55 70 55 67 Z" fill="#50E6FF" stroke-width="3.2"/>
 
-    <!-- Upper blue document node -->
-    <rect x="5.982" y="5.649" width="3.597" height="3.597" rx=".322" fill="url(#blueNode)" stroke="#36c5e8" stroke-width=".025"/>
+    <!-- Lower-left green node -->
+    <path d="M39 84              Q39 82 42 82              L56 82              Q59 82 59 85              L59 99              Q59 102 56 102              L42 102              Q39 102 39 99 Z" fill="#A7E637" stroke-width="3.2"/>
 
-    <!-- Lower-left green document node -->
-    <rect x="2.983" y="11.669" width="3.597" height="3.597" rx=".322" fill="url(#greenNode)" stroke="#77c52c" stroke-width=".025"/>
-
-    <!-- Lower-right green document node -->
-    <rect x="8.982" y="11.669" width="3.597" height="3.597" rx=".322" fill="url(#greenNode)" stroke="#77c52c" stroke-width=".025"/>
+    <!-- Lower-right green node -->
+    <path d="M72 84              Q72 82 75 82              L89 82              Q92 82 92 85              L92 99              Q92 102 89 102              L75 102              Q72 102 72 99 Z" fill="#A7E637" stroke-width="3.2"/>
 
   </g>
 </svg>

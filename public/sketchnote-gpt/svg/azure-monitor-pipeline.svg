@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Monitor Pipeline (sketch)</title><defs><linearGradient id="uuid-9468b865-eac4-4ff2-b5b6-2babfb3374f2" x1="5.909" y1="2.691" x2="5.909" y2="13.239" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5ea0ef"/><stop offset=".178" stop-color="#559cec"/><stop offset=".472" stop-color="#3c91e5"/><stop offset=".844" stop-color="#1380da"/><stop offset="1" stop-color="#0078d4"/></linearGradient><linearGradient id="uuid-3ad1fb1c-b576-4203-8afc-a0b652002d39" x1="10.12" y1="13.294" x2="10.12" y2="7.819" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#46a0de"/><stop offset="1" stop-color="#8dc8e8"/></linearGradient><linearGradient id="uuid-8bf92bc2-af51-4860-95b1-96ac950961e9" x1="15.96" y1="13.294" x2="15.96" y2="7.819" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#46a0de"/><stop offset="1" stop-color="#8dc8e8"/></linearGradient><linearGradient id="uuid-39eb49ae-4371-40af-be57-402d26cef923" x1="13.04" y1="12.564" x2="13.04" y2="8.549" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#155ea1"/><stop offset="1" stop-color="#0078d4"/></linearGradient></defs><g transform="scale(7.111111)"><path d="M7.652,13.165c.004-.352.014-.58.03-.677.123-.733.602-1.294,1.244-1.502.005-.002.008-.006.008-.011v-2.377c0-.602.427-1.145,1.024-1.224.56-.075,1.058.245,1.257.719h.407l-.484-.485c-.326-.326-.326-.854,0-1.179l.68-.681c-.516-1.816-2.213-3.116-4.181-3.055-1.835-.033-3.49,1.096-4.129,2.816-1.959.237-3.45,1.87-3.508,3.842.088,2.228,1.962,3.966,4.19,3.885.124,0,.251-.006.368-.016h3.096c0-.019-.003-.037-.003-.056Z" fill="url(#uuid-9468b865-eac4-4ff2-b5b6-2babfb3374f2)" stroke="#1768a8" stroke-width=".025" stroke-linecap="round" stroke-linejoin="round"/><g><path d="M14.915,13.958l-1.091-1.091c-.074-.074-.185-.096-.282-.056s-.16.134-.16.239v.64h-3.903c-.289,0-.523-.235-.523-.523,0-.091.006-.427.014-.48.052-.3.247-.487.509-.487h.458l-.062-.23c-.039-.146-.067-.298-.084-.452l-.019-.163h-.294c-.674.002-1.228.499-1.346,1.209-.02.114-.024.602-.024.607,0,.366.143.71.402.969.259.258.603.401.968.401h3.904v.692c0,.105.063.199.16.239.032.013.066.02.099.02.067,0,.133-.026.183-.076l1.091-1.091c.101-.101.101-.266,0-.367Z" fill="#155ea1" stroke="#104e86" stroke-width=".025" stroke-linecap="round" stroke-linejoin="round"/><path d="M17.781,7.021c-.259-.258-.603-.401-.968-.401h-3.904v-.692c0-.105-.063-.199-.16-.239-.098-.04-.208-.018-.282.056l-1.091,1.091c-.101.101-.101.266,0,.367l1.091,1.091c.074.075.185.097.282.056.097-.04.16-.134.16-.239v-.64h3.903c.288,0,.523.235.523.523,0,.085-.007.429-.014.48-.052.301-.247.487-.509.487h-.458l.061.23c.039.149.068.302.084.453l.019.163h.294c.674-.002,1.228-.499,1.347-1.21.018-.11.024-.6.024-.606,0-.366-.143-.71-.402-.969Z" fill="#155ea1" stroke="#104e86" stroke-width=".025" stroke-linecap="round" stroke-linejoin="round"/><g><path d="M9.39,8.549c0-.427.366-.768.802-.727.38.036.658.377.658.758v3.952c0,.381-.279.722-.658.758-.435.042-.802-.3-.802-.727v-4.015Z" fill="url(#uuid-3ad1fb1c-b576-4203-8afc-a0b652002d39)" stroke="#387eae" stroke-width=".025" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.23,8.549c0-.427.366-.768.802-.727.38.036.658.377.658.758v3.952c0,.381-.279.722-.658.758-.435.042-.802-.3-.802-.727v-4.015Z" fill="url(#uuid-8bf92bc2-af51-4860-95b1-96ac950961e9)" stroke="#387eae" stroke-width=".025" stroke-linecap="round" stroke-linejoin="round"/><rect x="11.398" y="8.549" width="3.285" height="4.015" fill="url(#uuid-39eb49ae-4371-40af-be57-402d26cef923)" stroke="#15518c" stroke-width=".025" stroke-linecap="round" stroke-linejoin="round"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Monitor Pipeline (sketch)</title>
+  
+
+  <g stroke="#203746" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Monitoring cloud -->
+    <path d="M8 78              Q7 66 16 58              Q22 52 32 52              Q38 32 57 29              Q76 27 86 42              Q91 49 91 57              L83 61              L77 57              Q69 56 65 63              Q61 69 64 78              Q59 82 57 91              L27 91              Q11 91 8 78 Z" fill="#3C91E5" stroke-width="4"/>
+
+    <!-- Cloud lower contour -->
+    <path d="M17 62 Q23 55 33 55              M39 44 Q48 33 60 34" fill="none" stroke-width="2.2"/>
+
+    <!-- Upper routing arrow: left-facing -->
+    <path d="M88 43              L81 36              Q79 34 81 32              L88 25              Q91 23 93 26              L93 29              L113 29              Q121 29 121 37              L121 45              Q121 52 113 52              L93 52              L93 55 Z" fill="#155EA1" stroke-width="3.5"/>
+
+    <!-- Upper arrowhead definition -->
+    <path d="M92 26 L82 36 L92 46" fill="none" stroke-width="2.8"/>
+
+    <!-- Central horizontal pipeline -->
+    <path d="M67 62              Q67 60 70 60              L113 60              L113 91              L70 91              Q67 91 67 88 Z" fill="#0078D4" stroke-width="3.5"/>
+
+    <!-- Left pipe junction -->
+    <path d="M59 61              Q59 57 63 57              L68 57              Q72 57 72 61              L72 91              Q72 95 68 95              L63 95              Q59 95 59 91 Z" fill="#8DC8E8" stroke-width="3.5"/>
+
+    <!-- Right pipe junction -->
+    <path d="M106 61              Q106 57 110 57              L115 57              Q119 57 119 61              L119 91              Q119 95 115 95              L110 95              Q106 95 106 91 Z" fill="#8DC8E8" stroke-width="3.5"/>
+
+    <!-- Lower routing arrow: right-facing -->
+    <path d="M64 91              Q54 91 54 101              L54 105              Q54 114 64 114              L91 114              L91 120              L107 108              L91 96              L91 102              L67 102" fill="none" stroke="#155EA1" stroke-width="5.5"/>
+
+  </g>
+</svg>

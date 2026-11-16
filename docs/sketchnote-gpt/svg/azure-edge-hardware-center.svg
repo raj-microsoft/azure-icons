@@ -1,1 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Edge Hardware Center (sketch)</title><defs><linearGradient id="ab7bd307-a1a5-47a9-9d75-d4a1e8a13c0c" x1="6.094" y1="15.213" x2="6.094" y2="0.303" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0078d4"/><stop offset="1" stop-color="#5ea0ef"/></linearGradient></defs><g transform="scale(7.111111)"><g id="b5e76b12-28ef-4cdc-a26c-07c5cd2a1965"><path d="M12.184.508v7.38l-.1.06-3.29,1.9a.407.407,0,0,0-.2.26v.02a.355.355,0,0,0-.02.1v4.68H.514A.512.512,0,0,1,0,14.4V.508A.512.512,0,0,1,.514,0h11.16A.512.512,0,0,1,12.184.508Z" fill="url(#ab7bd307-a1a5-47a9-9d75-d4a1e8a13c0c)" stroke="#176eae" stroke-width=".045" stroke-linejoin="round"/><g><path d="M1.543,2.605H2.9a.254.254,0,0,1,.254.254v.992a.254.254,0,0,1-.254.254H1.543a.255.255,0,0,1-.255-.254V2.859A.255.255,0,0,1,1.543,2.605ZM1.3,5.615v.992a.255.255,0,0,0,.255.254H2.918a.254.254,0,0,0,.254-.254V5.615a.254.254,0,0,0-.254-.254H1.55A.255.255,0,0,0,1.3,5.615Z" fill="#fff" opacity="0.8"/><path d="M4.684,2.605h5.924a.254.254,0,0,1,.254.254v.992a.254.254,0,0,1-.254.254H4.684a.255.255,0,0,1-.255-.254V2.859A.255.255,0,0,1,4.684,2.605Zm-.255,3.01v.992a.255.255,0,0,0,.255.254h5.957a.255.255,0,0,0,.255-.254V5.615a.255.255,0,0,0-.255-.254H4.684A.255.255,0,0,0,4.429,5.615Z" fill="#fff"/></g><polygon points="18 10.21 18 15.406 13.505 18 13.501 17.992 13.501 12.8 18 10.21" fill="#50e6ff"/><polygon points="18 10.21 13.501 12.8 9.013 10.219 9.004 10.237 9.004 15.384 9 15.388 9 10.229 9.004 10.21 13.505 7.612 18 10.21" fill="#c3f1ff"/><polygon points="13.501 12.8 13.501 17.992 9.004 15.402 9.004 10.237 9.013 10.219 13.501 12.8" fill="#9cebff"/><g><path d="M13.716,7.246l-.07-.028c.012,0,.026.009.038.013S13.705,7.241,13.716,7.246Z" fill="#fff"/><g><path d="M12.184.508v7.38l-.1.06-3.29,1.9a.407.407,0,0,0-.2.26v.02a.355.355,0,0,0-.02.1v4.68H.514A.512.512,0,0,1,0,14.4V.508A.512.512,0,0,1,.514,0h11.16A.512.512,0,0,1,12.184.508Z" fill="url(#ab7bd307-a1a5-47a9-9d75-d4a1e8a13c0c)" stroke="#176eae" stroke-width=".045" stroke-linejoin="round"/><g><path d="M1.543,2.605H2.9a.254.254,0,0,1,.254.254v.992a.254.254,0,0,1-.254.254H1.543a.255.255,0,0,1-.255-.254V2.859A.255.255,0,0,1,1.543,2.605ZM1.3,5.615v.992a.255.255,0,0,0,.255.254H2.918a.254.254,0,0,0,.254-.254V5.615a.254.254,0,0,0-.254-.254H1.55A.255.255,0,0,0,1.3,5.615Z" fill="#fff" opacity="0.8"/><path d="M4.684,2.605h5.924a.254.254,0,0,1,.254.254v.992a.254.254,0,0,1-.254.254H4.684a.255.255,0,0,1-.255-.254V2.859A.255.255,0,0,1,4.684,2.605Zm-.255,3.01v.992a.255.255,0,0,0,.255.254h5.957a.255.255,0,0,0,.255-.254V5.615a.255.255,0,0,0-.255-.254H4.684A.255.255,0,0,0,4.429,5.615Z" fill="#fff"/></g></g><path d="M13.716,7.246l-.07-.028c.012,0,.026.009.038.013S13.705,7.241,13.716,7.246Z" fill="#fff"/></g><path d="M16.39,9.279l-4.375,2.665-.005.846a.064.064,0,0,1-.066.063.079.079,0,0,1-.049-.022l-.581-.693a.067.067,0,0,0-.062-.021l-.541.114a.06.06,0,0,1-.076-.048.017.017,0,0,1,0-.014V11.15l4.385-2.664h.005Z" fill="#fff" opacity="0.5"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>Azure Edge Hardware Center (sketch)</title>
+  
+
+  <!-- Main hardware panel -->
+  <path d="M15 9 Q12 9 12 13            L12 103 Q12 107 16 107            L65 107 L65 75            Q65 72 68 70 L85 60            L85 13 Q85 9 81 9 Z" fill="#2689db" stroke="#174d78" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Panel edge details -->
+  <path d="M19 16 Q18 40 19 59" fill="none" stroke="#a9d7ff" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M78 16 Q79 35 78 51" fill="none" stroke="#174d78" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- First status row -->
+  <path d="M24 27 Q24 25 26 25 L34 25            Q36 25 36 27 L36 35            Q36 37 34 37 L26 37            Q24 37 24 35 Z" fill="#fff" stroke="#174d78" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <path d="M45 27 Q45 25 47 25 L74 25            Q76 25 76 27 L76 35            Q76 37 74 37 L47 37            Q45 37 45 35 Z" fill="#fff" stroke="#174d78" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Second status row -->
+  <path d="M24 46 Q24 44 26 44 L34 44            Q36 44 36 46 L36 54            Q36 56 34 56 L26 56            Q24 56 24 54 Z" fill="#fff" stroke="#174d78" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <path d="M45 46 Q45 44 47 44 L74 44            Q76 44 76 46 L76 54            Q76 56 74 56 L47 56            Q45 56 45 54 Z" fill="#fff" stroke="#174d78" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Status details -->
+  <g fill="none" stroke="#50e6ff" stroke-width="1.7" stroke-linecap="round">
+    <path d="M26 30 L31 30"/>
+    <path d="M26 49 L31 49"/>
+  </g>
+
+  <!-- Foreground hardware cube: top face -->
+  <path d="M94 55 L122 71 L94 87            L66 71 Z" fill="#c3f1ff" stroke="#175c79" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cube left face -->
+  <path d="M66 71 L94 87 L94 120            L66 104 Z" fill="#9cebff" stroke="#175c79" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Cube right face -->
+  <path d="M122 71 L94 87 L94 120            L122 104 Z" fill="#50e6ff" stroke="#175c79" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Packaging stripe across foreground cube -->
+  <path d="M105.8 60.3            L116.5 66            L85.4 84.9            L85.3 90.9            Q85.3 91.3 84.9 91.3            Q84.5 91.3 84.1 90.9            L79.9 85.9            Q79.4 85.7 79 85.9            L75.1 86.7            Q74.7 86.8 74.6 86.4            L74.6 79.3 Z" fill="#fff" fill-opacity=".78" stroke="#175c79" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Top face marker detail -->
+  <path d="M76 71 L94 61 L111 71" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cube face details -->
+  <path d="M72 79 L72 99" fill="none" stroke="#e5fcff" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M116 79 L116 99" fill="none" stroke="#b6f7ff" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Center cube edge -->
+  <path d="M94 87 Q93 103 94 120" fill="none" stroke="#175c79" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Yellow sketchnote accents -->
+  <g fill="none" stroke="#f4c542" stroke-width="2.5" stroke-linecap="round">
+    <path d="M109 40 L113 35"/>
+    <path d="M114 46 L120 44"/>
+    <path d="M49 115 L46 120"/>
+    <path d="M55 117 L55 123"/>
+  </g>
+
+  <!-- Hand-drawn finishing strokes -->
+  <g fill="none" stroke="#0078d4" stroke-width="1.8" stroke-linecap="round">
+    <path d="M10 26 Q7 35 9 44" opacity=".65"/>
+    <path d="M16 112 Q25 116 37 114" opacity=".6"/>
+    <path d="M101 124 Q112 125 120 120" opacity=".55"/>
+  </g>
+
+  <path d="M24 96 Q35 99 45 97" fill="none" stroke="#b3e2ff" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
