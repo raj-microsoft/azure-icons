@@ -1,22 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>ABS Member (sketch)</title>
-  <defs>
-    <linearGradient id="memberShade" x1="102.5" y1="96.4" x2="84.4" y2="64.7" gradientUnits="userSpaceOnUse">
-      <stop offset=".101" stop-color="#773adc"/>
-      <stop offset="1" stop-color="#403457"/>
-    </linearGradient>
-  </defs>
-
-  <g transform="scale(7.111111)">
-    <!-- Right diamond face -->
-    <polygon points="16.299 4.726 16.299 13.274 9 17.5 9 9.048" fill="#773adc"/>
-
-    <!-- Solid dark purple member disk -->
-    <path d="M13.074 9.1C14.131 8.52 14.9 9 14.9 10.153a4.189 4.189 0 0 1-1.825 3.169c-1.056.576-1.825.1-1.825-1.056A3.933 3.933 0 0 1 13.074 9.1Z" fill="url(#memberShade)"/>
-
-    <!-- Top diamond face -->
-    <polygon points="16.299 4.726 9 9.048 1.701 4.726 9 .5" fill="#b796f9"/>
-
-    <!-- Left diamond face -->
-    <polygon points="9 9.048 9 17.5 1.701 13.274 1.701 4.726" fill="#a67af4"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>ABS Member (sketch)</title>
+  
+  <!-- top face -->
+  <path d="M12.6 34.6 C28.8 24.8, 44.8 15.1, 61.3 5.8 C63.1 4.7, 64.8 4.5, 66.6 5.5 C82.8 14.9, 98.7 24.1, 115.4 33.5 C116.7 34.2, 116.7 35.1, 115.3 35.9 C99.1 45.4, 82.8 54.9, 66.4 64.4 C64.8 65.3, 63.1 65.3, 61.5 64.4 C45.2 55.0, 29.1 45.4, 12.6 34.6 Z" fill="#b796f9" stroke="#1f2328" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- right face -->
+  <path d="M115.2 35.2 C115.6 54.5, 115.6 73.0, 115.1 92.7 C115.0 94.7, 114.3 95.7, 112.7 96.5 C97.6 105.2, 82.4 113.8, 67.3 122.6 C65.6 123.6, 64.6 123.5, 64.6 121.2 C64.4 102.8, 64.3 84.2, 64.4 64.8 C81.2 55.1, 98.0 45.2, 115.2 35.2 Z" fill="#773adc" stroke="#1f2328" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- left face -->
+  <path d="M12.5 34.8 C29.2 44.6, 45.7 54.4, 62.0 64.3 C63.4 65.1, 63.8 66.0, 63.8 67.4 C63.7 84.9, 63.8 102.6, 63.7 121.0 C63.6 123.5, 62.5 123.4, 60.8 122.4 C45.7 113.7, 30.6 104.9, 15.4 96.2 C13.6 95.2, 12.9 94.2, 12.9 92.0 C12.7 73.4, 12.6 54.9, 12.5 34.8 Z" fill="#a67af4" stroke="#1f2328" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- member oval on right face -->
+  <path d="M92.9 65.1 C97.0 62.8, 100.6 62.6, 103.1 64.4 C105.7 66.3, 106.7 69.6, 106.5 74.0 C106.0 81.2, 101.5 88.6, 94.7 92.5 C90.4 94.9, 86.8 95.1, 84.2 93.4 C81.6 91.7, 80.5 88.4, 80.7 83.9 C81.0 76.6, 85.9 69.2, 92.9 65.1 Z" fill="#403457" stroke="#1f2328" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- subtle outline wobble overlays -->
+  <path d="M13.8 35.3 C29.5 25.9,45.0 16.6,61.0 7.2" stroke="#1f2328" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M66.8 6.8 C82.4 15.6,98.0 24.5,114.1 33.6" stroke="#1f2328" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64.7 66.5 C64.6 84.4,64.6 102.1,64.9 120.5" stroke="#1f2328" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M93.2 66.6 C98.8 63.5,103.0 64.8,104.9 68.9" stroke="#1f2328" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
