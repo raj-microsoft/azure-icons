@@ -1,0 +1,19 @@
+<svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" id="art-67de2e1a6b-root" width="320" height="200">
+<title id="art-67de2e1a6b-title">Deploy microservices with Azure Container Apps and Dapr</title>
+<desc id="art-67de2e1a6b-desc">Three miniature service kiosks stand beside a tabletop railway. A courier tram carries a request between them, while a folded spare kiosk hints at elastic scaling.</desc>
+<style>@keyframes art-67de2e1a6b-m{0%,100%{transform:translateX(11px)}25%,75%{transform:translateX(105px)}50%{transform:translateX(197px)}}#art-67de2e1a6b-root #art-67de2e1a6b-t{animation:art-67de2e1a6b-m 5s cubic-bezier(.16,1,.3,1) infinite}</style>
+<rect width="320" height="200" fill="#f4f7f7"/>
+<ellipse cx="160" cy="169" rx="137" ry="10" fill="#dce8e7"/>
+<path d="M19 166H301" fill="none" stroke="#173b40" stroke-width="2" stroke-linecap="round"/>
+<rect x="26" y="126" width="268" height="31" rx="15.5" fill="#e3eeee" stroke="#173b40" stroke-width="2"/>
+<path d="M42 136H278M42 147H278" fill="none" stroke="#38878d" stroke-width="2" stroke-linecap="round"/>
+<path d="M54 136v11M82 136v11M110 136v11M138 136v11M166 136v11M194 136v11M222 136v11M250 136v11" fill="none" stroke="#173b40" stroke-width="2" opacity=".45"/>
+<g stroke="#173b40" stroke-width="2" stroke-linejoin="round">
+<path d="M37 73L58 57L79 73Z" fill="#147fbd"/><rect x="40" y="73" width="36" height="53" rx="3" fill="#d4eaf5"/><path d="M38 73H78L73 82H43Z" fill="#147fbd"/><rect x="49" y="95" width="18" height="31" rx="2" fill="#fff"/><circle cx="58" cy="110" r="5" fill="#147fbd"/>
+<path d="M130 73L152 55L174 73Z" fill="#146b62"/><rect x="133" y="73" width="38" height="53" rx="3" fill="#d6eee7"/><path d="M131 73H173L168 82H136Z" fill="#38878d"/><rect x="143" y="94" width="18" height="32" rx="2" fill="#fff"/><path d="M148 110l4 4 5-7" fill="none" stroke-linecap="round"/>
+<path d="M222 73L244 58L266 73Z" fill="#147fbd"/><rect x="225" y="73" width="38" height="53" rx="3" fill="#d4eaf5"/><path d="M223 73H265L260 82H228Z" fill="#38878d"/><rect x="235" y="94" width="18" height="32" rx="2" fill="#fff"/><path d="M239 101h10m-10 5h10m-10 5h7" fill="none" stroke-linecap="round"/>
+<path d="M276 113l12-10 12 10" fill="#b5dfd3"/><path d="M278 114h20v11h-20z" fill="#d9ede7"/><path d="M283 114v11m10-11v11" fill="none" stroke="#38878d"/>
+</g>
+<g id="art-67de2e1a6b-t" stroke="#173b40" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<rect x="34" y="133" width="26" height="17" rx="5" fill="#147fbd"/><path d="M38 133v-5h18v5" fill="#d5eaf5"/><rect x="41" y="136" width="12" height="7" rx="2" fill="#f4f7f7"/><rect x="44" y="123" width="7" height="7" rx="1.5" fill="#38878d"/><circle cx="41" cy="150" r="3" fill="#173b40"/><circle cx="54" cy="150" r="3" fill="#173b40"/>
+</g></svg>

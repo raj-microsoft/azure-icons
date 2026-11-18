@@ -1,0 +1,49 @@
+{
+  "worker": "A",
+  "updated": "2026-11-18T22:06:49.432Z",
+  "done": [
+    {
+      "position": 2,
+      "id": "106bf18ad9fb",
+      "art": "art/azure-local-hyperconverged-baseline-reference-architecture.svg",
+      "chat": "https://chatgpt.com/c/6afe1fb1-0b94-83ed-b988-6fc96c58c014",
+      "checks": "sanitized; Edge frames 850/2850 differ; visually clear"
+    },
+    {
+      "position": 4,
+      "id": "4ad14902359a",
+      "art": "art/deploy-microservices-with-azure-container-apps-and-dapr.svg",
+      "chat": "https://chatgpt.com/c/6afe20b7-b68c-83eb-9f74-eec65e0d20c8",
+      "checks": "sanitized; Edge frames 850/2850 differ; visually clear"
+    }
+  ],
+  "failed": [
+    {
+      "position": 0,
+      "id": "174dd11ad366",
+      "title": "Massive-scale VWAN architecture design",
+      "reason": "Initial ChatGPT SVG rejected CSS custom properties; single revision rejected offset-path/offset-distance. Phase 1 retained.",
+      "chat": "https://chatgpt.com/c/6afe1eda-a72c-83ed-ba58-bd762b8ab5b4",
+      "resolution": "Worker B independently supplied accepted VWAN art; preserve its shared mapping."
+    }
+  ],
+  "nextIndex": 6,
+  "status": "stopped-indexing-collision",
+  "limits": [],
+  "sheet": "C:\\Users\\dev\\.openclaw\\media\\outbound\\aac-art-A.png",
+  "stopReason": "Worker B report says one-based odd positions, overlapping this explicitly zero-based even assignment (0,2,4). Publishing verified shared checkpoint, then coordinator must resolve assignment before continuation.",
+  "notes": [
+    "Prompt keyframe names must differ from CSS classes/IDs: sanitizer replaces matching class selectors but not class attributes.",
+    "Use [data-markdown-copy-text] after generation completes to retrieve code once.",
+    "Design inferred from assigned brief; no separate design interview in subagent.",
+    "B mapped VWAN and left duplicate accepted variants for Local/microservices. A preserved currently shared mappings; no more builds/writes until publication completes."
+  ],
+  "checks": [
+    "npm run build and tsc pass",
+    "187 scene coverage and Learn URLs pass",
+    "all mapped art sanitizer checks pass",
+    "own Edge virtual frames differ; inspected clear/unclipped",
+    "reduced motion identical frames; zero active animations",
+    "impeccable detector []"
+  ]
+}

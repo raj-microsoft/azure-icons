@@ -522,7 +522,8 @@
     ],
     "duration": 4125,
     "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/azure-local-hyperconverged-baseline-reference-architecture.svg"
   },
   "1fd9c316dc70": {
     "archetype": "hybrid-islands",
@@ -1470,7 +1471,8 @@
     ],
     "duration": 5161,
     "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/deploy-microservices-with-azure-container-apps-and-dapr.svg"
   },
   "70ed7046aa85": {
     "archetype": "switchyard-routing",
@@ -2418,7 +2420,8 @@
     ],
     "duration": 4587,
     "reason": "Editorial review: traffic hops between hubs on a connected globe.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/massive-scale-vwan-architecture-design.svg"
   },
   "d0744b1d351d": {
     "archetype": "orchard-analytics",

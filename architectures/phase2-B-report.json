@@ -1,0 +1,77 @@
+{
+  "worker": "B",
+  "ordering": "last_modified descending, stable source order for ties, one-based odd positions",
+  "done": [
+    {
+      "position": 1,
+      "id": "174dd11ad366",
+      "art": "art/massive-scale-vwan-architecture-design.svg",
+      "source": "https://chatgpt.com/c/6afe1e9c-28e0-83ed-9957-f29939e2c5ba",
+      "revision": 1,
+      "checks": [
+        "sanitizer passed",
+        "headless Edge frames at 850/2850ms differ",
+        "both frames visually inspected: clear globe, paired hubs, moving parcel"
+      ]
+    },
+    {
+      "position": 3,
+      "id": "106bf18ad9fb",
+      "art": "art/azure-local-hyperconverged-baseline.svg",
+      "source": "https://chatgpt.com/c/6afe1f87-09b8-83ed-af7c-9d14457eb3a3",
+      "checks": [
+        "sanitized",
+        "Edge 850/2850ms frames differ",
+        "visually clear workshop and shared carousel"
+      ]
+    },
+    {
+      "position": 5,
+      "id": "4ad14902359a",
+      "art": "art/container-apps-dapr-microservices.svg",
+      "source": "https://chatgpt.com/c/6afe2010-b4cc-83ed-a50e-a86d50a42551",
+      "revision": 1,
+      "checks": [
+        "sanitized",
+        "Edge frames differ",
+        "visually inspected; revision corrected palette and route endpoint"
+      ]
+    }
+  ],
+  "failed": [],
+  "next_index": 7,
+  "status": "stopped-indexing-collision",
+  "limits_seen": [],
+  "last_message_at": "2026-11-18T22:02:44.564Z",
+  "sheet": "C:\\Users\\dev\\.openclaw\\media\\outbound\\aac-art-B.png",
+  "design_context": "Read brief and incumbent tokens; subagent inferred direction from explicit brief. One focal metaphor motion per illustration; host handles reduced motion.",
+  "notes": [
+    "Sanitizer disallows CSS custom properties, @media, offset-path, offset-distance and CSS stroke-linecap. Subsequent prompts specify literal colors, static presentation attributes, transform keyframes only.",
+    "ChatGPT completed code lives in [data-code-block][data-markdown-copy-text] attribute; streaming pre code may disappear after completion."
+  ],
+  "verification": {
+    "build": "npm run build passed; tsc clean",
+    "integration": "187 mappings, links, sanitizer and motion checks pass; desktop/dark axe clear",
+    "test_harness": "verify-aac has an immediate isDisabled assertion race after emulateMedia; dedicated waitForFunction test passed reduced motion and identical frames",
+    "page": "Edge virtual-time 850/2850ms differ; visual inspection clean",
+    "final_build": "npm run build passed with 3 mapped arts, TypeScript clean",
+    "final_page": "187 cards, virtual frames differ, reduced motion still, zero art errors",
+    "detector": "No findings"
+  },
+  "blocker": "Worker A report uses ZERO-based even positions 0,2,4; overlaps my explicitly assigned ONE-based odd positions 1,3,5. Both worked on VWAN/Azure Local. Coordinator must correct A to one-based even positions 2,4,6 before resuming. No further ChatGPT messages sent after discovery.",
+  "tab": "aac-art-B is about:blank",
+  "mapping_conflict": {
+    "id": "106bf18ad9fb",
+    "own_art": "art/azure-local-hyperconverged-baseline.svg",
+    "current_peer_art": "art/azure-local-hyperconverged-baseline-reference-architecture.svg",
+    "resolution": "Preserve peer mapping; publish own accepted variant without replacing peer. Coordinator chooses preferred art after fixing indexing.",
+    "microservices_current": "art/deploy-microservices-with-azure-container-apps-and-dapr.svg"
+  },
+  "sheet_created": true,
+  "publication": {
+    "status": "blocked-concurrent-writes",
+    "reason": "Worker A is actively overwriting the same article mappings and rebuilding docs; staging failed because docs artwork disappeared during its build. No commit or api-push attempted to avoid racing peer changes.",
+    "last_known_commit": "174145a",
+    "next_step": "Coordinator stop/correct A zero-based indexing, reconcile overlap, then build and publish the three accepted B arts."
+  }
+}
