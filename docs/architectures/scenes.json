@@ -22,7 +22,8 @@
     ],
     "duration": 4043,
     "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/ai-inferencing-silk-virtual-san.svg"
   },
   "f7b91caceee7": {
     "archetype": "bridge-migration",
@@ -197,7 +198,8 @@
     ],
     "duration": 5960,
     "reason": "Editorial review: a release passes through build, test and deployment.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/apiops-configuration-workshop.svg"
   },
   "dcb8c2defbc5": {
     "archetype": "document-press",
@@ -497,7 +499,8 @@
     ],
     "duration": 4379,
     "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/aks-local-container-harbor.svg"
   },
   "106bf18ad9fb": {
     "archetype": "hybrid-islands",
@@ -694,7 +697,8 @@
     ],
     "duration": 4668,
     "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/azure-hybrid-options.svg"
   },
   "9b407ac308a1": {
     "archetype": "brain-agents",
@@ -719,7 +723,8 @@
     ],
     "duration": 5376,
     "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/baseline-azure-machine-learning-inference.svg"
   },
   "5943c2edf616": {
     "archetype": "brain-agents",
@@ -1019,7 +1024,8 @@
     ],
     "duration": 4102,
     "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/custom-document-processing-models.svg"
   },
   "3ddc918809d1": {
     "archetype": "city-web",
@@ -1044,7 +1050,8 @@
     ],
     "duration": 5431,
     "reason": "Editorial review: requests arrive at a city of web services.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/adaptive-apps-mobile-greenhouse.svg"
   },
   "773fa8de228e": {
     "archetype": "observatory-monitoring",
@@ -1173,7 +1180,8 @@
     ],
     "duration": 5554,
     "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/cache-aside-quick-cubby.svg"
   },
   "306e470d9950": {
     "archetype": "identity-key",
@@ -1379,7 +1387,8 @@
     ],
     "duration": 5951,
     "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/ibm-maximo-application-suite.svg"
   },
   "540a00ad3419": {
     "archetype": "harbor-containers",
@@ -1446,7 +1455,8 @@
     ],
     "duration": 4293,
     "reason": "Editorial review: a release passes through build, test and deployment.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/aks-hybrid-edge-gitops.svg"
   },
   "4ad14902359a": {
     "archetype": "harbor-containers",
@@ -1569,7 +1579,8 @@
     ],
     "duration": 4855,
     "reason": "Editorial review: a release passes through build, test and deployment.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/devsecops-infrastructure-as-code.svg"
   },
   "a7b884fe15ca": {
     "archetype": "brain-agents",
@@ -1718,7 +1729,8 @@
     ],
     "duration": 5983,
     "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/event-driven-redis-cosmos-cache.svg"
   },
   "f924fc808e1b": {
     "archetype": "observatory-monitoring",
@@ -1789,7 +1801,8 @@
     ],
     "duration": 4499,
     "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/extract-object-text-scanner.svg"
   },
   "e774254d55e0": {
     "archetype": "pipeline-factory",
@@ -1953,7 +1966,8 @@
     ],
     "duration": 4269,
     "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/app-service-zone-lighthouses.svg"
   },
   "bd6da872edba": {
     "archetype": "pipeline-factory",
@@ -2045,7 +2059,8 @@
     ],
     "duration": 4600,
     "reason": "Editorial review: traffic hops between hubs on a connected globe.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/hub-spoke-azure-virtual-wan.svg"
   },
   "0e0ecf04a4f7": {
     "archetype": "observatory-monitoring",
@@ -2354,7 +2369,8 @@
     ],
     "duration": 4816,
     "reason": "Editorial review: a release passes through build, test and deployment.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/m365-configuration-pattern-loom.svg"
   },
   "ef04ef451975": {
     "archetype": "shield-fortress",
@@ -2805,7 +2821,8 @@
     ],
     "duration": 5249,
     "reason": "Editorial review: data grows into insight in an analytical orchard.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/fabric-medallion-data-warehouse.svg"
   },
   "2cfe7937c3ee": {
     "archetype": "archive-library",
@@ -2926,7 +2943,8 @@
     ],
     "duration": 5515,
     "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/multilayer-vm-fortress.svg"
   },
   "10590225fbe7": {
     "archetype": "globe-network",
@@ -3113,7 +3131,8 @@
     "actors": [],
     "duration": 5104,
     "reason": "Editorial review: a quantum state rotates within linked classical and quantum systems.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/quantum-classical-gyroscope.svg"
   },
   "945e2b7cc64b": {
     "archetype": "pipeline-factory",
@@ -3276,7 +3295,8 @@
     ],
     "duration": 5250,
     "reason": "Editorial review: a workload moves across a bridge between two islands.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/replicate-mainframe-precisely-connect.svg"
   },
   "be738e7936e8": {
     "archetype": "recovery-lighthouse",
@@ -3313,7 +3333,8 @@
     ],
     "duration": 5700,
     "reason": "Editorial review: a file is placed into a structured archive.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/sap-bw4hana-linux-azure.svg"
   },
   "954bc5f8941b": {
     "archetype": "archive-library",
@@ -3730,7 +3751,8 @@
     ],
     "duration": 5617,
     "reason": "Editorial review: a switch routes a request onto its selected track.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/multitenant-container-harbor-gate.svg"
   },
   "524533cb39d6": {
     "archetype": "conveyor-devops",
@@ -4182,6 +4204,7 @@
     ],
     "duration": 4728,
     "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/write-through-redis-sql.svg"
   }
 }
