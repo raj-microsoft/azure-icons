@@ -749,7 +749,8 @@
     ],
     "duration": 5996,
     "reason": "A coordinated reasoning engine behind an enterprise chat experience.",
-    "reviewed": true
+    "reviewed": true,
+    "art": "art/foundry-chat-protected-pavilion.svg"
   },
   "219bcb15941a": {
     "archetype": "brain-agents",
