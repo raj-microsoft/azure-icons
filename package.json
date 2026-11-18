@@ -6,12 +6,16 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "data": "node scripts/build-icons.mjs",
-    "build": "tsc --noEmit && vite build",
+    "build": "npm run data:aac && tsc --noEmit && vite build",
     "test": "node scripts/verify.mjs",
     "test:motion": "node src/motion.verify.mjs",
-    "sync-gpt": "node scripts/sync-gpt.mjs"
+    "sync-gpt": "node scripts/sync-gpt.mjs",
+    "data:aac": "node scripts/fetch-aac.mjs && node scripts/build-scenes.mjs",
+    "test:aac": "node scripts/verify-aac.mjs"
   },
   "dependencies": {
+    "@xmldom/xmldom": "^0.9.12",
+    "css-tree": "^3.2.1",
     "fflate": "^0.8.2",
     "fuse.js": "^7.1.0"
   },
@@ -19,6 +23,7 @@
     "@axe-core/playwright": "^4.14.0",
     "@fontsource-variable/manrope": "^5.2.8",
     "@resvg/resvg-js": "^2.6.2",
+    "@types/css-tree": "^3.2.0",
     "@types/node": "^24.0.0",
     "playwright-core": "^1.56.1",
     "sharp": "^0.35.5",

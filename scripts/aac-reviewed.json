@@ -1,0 +1,937 @@
+{
+  "CDN guidance": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Single region scenario - Private Link and DNS in Azure Virtual WAN": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Virtual hub extension pattern": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Hub-spoke network topology in Azure": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Guide to Private Link and DNS in Azure Virtual WAN": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Hub-spoke network topology using Azure Virtual WAN": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Massive-scale VWAN architecture design": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Virtual network connectivity options and spoke-to-spoke communication": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "AKS baseline for multiregion clusters": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Virtual WAN architecture optimized for department-specific requirements": {
+    "archetype": "globe-network",
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "label": ""
+  },
+  "Use Azure IoT Hub to privately upload files to an Azure Storage account": {
+    "archetype": "gate-vault",
+    "reason": "Editorial review: a parcel passes a controlled gate into a secure vault.",
+    "label": ""
+  },
+  "Computer forensics chain of custody in Azure": {
+    "archetype": "gate-vault",
+    "reason": "Editorial review: a parcel passes a controlled gate into a secure vault.",
+    "label": ""
+  },
+  "Valet Key pattern": {
+    "archetype": "gate-vault",
+    "reason": "Editorial review: a parcel passes a controlled gate into a secure vault.",
+    "label": ""
+  },
+  "Migrate cloud workloads across security tenants": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Rehost an IMS database and IMS data communications on Azure by using Raincode IMSql": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Migrate AIX workloads to Azure with Skytap": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Modernize mainframe and midrange data": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Migrate a web app by using Azure API Management": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Migrate an Oracle database to an Azure virtual machine": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Migrate IBM i series to Azure with Skytap": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "AIX UNIX on-premises to Azure Linux migration": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Replicate mainframe data by using Precisely Connect": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Replicate and sync mainframe data to Azure": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Migrate an Oracle database to OD@A Exadata Database Service": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Rehost mainframe applications to Azure with Raincode compilers": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Migrate IBM z/OS OLTP workloads to Azure": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Apache Kafka migration to Azure": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Use Qlik to replicate mainframe and midrange data to Azure": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "General mainframe refactor to Azure": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Migrate mainframe data tier to Azure with mLogica LIBER*IRIS": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Migrate an Oracle database to Azure": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Mainframe file replication and sync on Azure": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Replicate mainframe and midrange data to Azure by using RDRS": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Move archive data from mainframe systems to Azure": {
+    "archetype": "bridge-migration",
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "label": ""
+  },
+  "Stream processing with Azure Databricks": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Data streaming with AKS": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Deploy IBM Maximo Application Suite on Azure": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Siemens Teamcenter baseline architecture on Azure": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Re-engineer mainframe batch applications on Azure": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Real-time analytics with Azure Service Bus and Microsoft Fabric": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Use Teamcenter PLM with Azure NetApp Files": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Ingestion, ETL, and stream processing pipelines with Azure Databricks and Delta Lake": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": "SHARED LAKE"
+  },
+  "Extract, transform, and load (ETL)": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "High-volume batch transaction processing": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Stream processing with Azure Stream Analytics": {
+    "archetype": "pipeline-factory",
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "label": ""
+  },
+  "Build a conversation knowledge mining solution by using Foundry Tools": {
+    "archetype": "brain-agents",
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "label": ""
+  },
+  "Basic Microsoft Foundry chat reference architecture": {
+    "archetype": "brain-agents",
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "label": ""
+  },
+  "Use the many-models architecture approach to scale machine learning models": {
+    "archetype": "brain-agents",
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "label": ""
+  },
+  "Baseline Azure Machine Learning inference reference architecture": {
+    "archetype": "brain-agents",
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "label": ""
+  },
+  "Baseline Microsoft Foundry chat reference architecture in an Azure landing zone": {
+    "archetype": "brain-agents",
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "label": ""
+  },
+  "AI inferencing with Silk virtual SAN": {
+    "archetype": "brain-agents",
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "label": ""
+  },
+  "Dynamic AI agents at scale pattern": {
+    "archetype": "brain-agents",
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "label": ""
+  },
+  "Build a multiple-agent workflow automation solution by using Microsoft Agent Framework": {
+    "archetype": "brain-agents",
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "label": ""
+  },
+  "WordPress on Azure": {
+    "archetype": "city-web",
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "label": ""
+  },
+  "Highly available SharePoint farm": {
+    "archetype": "city-web",
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "label": ""
+  },
+  "Moodle deployment with Azure NetApp Files": {
+    "archetype": "city-web",
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "label": ""
+  },
+  "Basic web application": {
+    "archetype": "city-web",
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "label": ""
+  },
+  "Enterprise deployment that uses App Service Environment": {
+    "archetype": "city-web",
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "label": ""
+  },
+  "WordPress on App Service": {
+    "archetype": "city-web",
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "label": ""
+  },
+  "Build portable applications with adaptive apps": {
+    "archetype": "city-web",
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "label": ""
+  },
+  "WordPress on Azure Kubernetes Service": {
+    "archetype": "city-web",
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "label": ""
+  },
+  "Build a modern data platform architecture for SMBs by using Microsoft Fabric and Azure Databricks": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": "DATA PLATFORM"
+  },
+  "Use Azure Synapse Analytics for near real-time lakehouse data processing": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": "SHARED LAKE"
+  },
+  "Azure NetApp Files Object REST API for data and AI integration": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": ""
+  },
+  "Greenfield lakehouse on Microsoft Fabric": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": "SHARED LAKE"
+  },
+  "Analytics end-to-end with Microsoft Fabric": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": ""
+  },
+  "Design a medallion lakehouse with Azure Data Factory": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": "REFINE → SERVE"
+  },
+  "Azure Data Factory baseline architecture in an Azure landing zone": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": ""
+  },
+  "Create a modern analytics architecture by using Azure Databricks": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": ""
+  },
+  "Sync MongoDB Atlas data changes to Microsoft Fabric": {
+    "archetype": "data-lake",
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "label": ""
+  },
+  "Implement TIC 3.0 compliance": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Multilayered protection for Azure virtual machine access": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Manage virtual machine compliance": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Build the first layer of defense by using Azure security services": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Azure Data Factory enterprise hardened architecture": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Build the second layer of defense by using Microsoft Defender XDR": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Implement a secure hybrid network": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Protect APIs by using Application Gateway and API Management": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Use Azure Front Door to secure AKS workloads": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Securely managed web applications": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Map threats to your IT environment": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Design a secure research environment for regulated data": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Integrate Azure and Microsoft Defender XDR security services": {
+    "archetype": "shield-fortress",
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "label": ""
+  },
+  "Troubleshoot a hybrid VPN connection": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Azure enterprise cloud file share": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Azure Files accessed from on-premises and secured by AD DS in a private network": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Use Azure file shares in a hybrid environment": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Optimize administration of SQL Server instances in on-premises and multicloud environments using Azure Arc": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Azure hybrid options": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Azure Virtual Desktop for Azure Local": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Hybrid file services": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Azure Kubernetes Service (AKS) baseline architecture for Azure Local": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Azure Local hyperconverged storage switchless architecture": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Azure Local hyperconverged baseline reference architecture": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Azure Arc hybrid management and deployment for Kubernetes clusters": {
+    "archetype": "hybrid-islands",
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "label": ""
+  },
+  "Manage Microsoft 365 tenant configuration by using Microsoft365DSC and Azure DevOps": {
+    "archetype": "conveyor-devops",
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "label": ""
+  },
+  "Blue-green deployment of AKS clusters": {
+    "archetype": "conveyor-devops",
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "label": ""
+  },
+  "DevSecOps for infrastructure as code (IaC)": {
+    "archetype": "conveyor-devops",
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "label": ""
+  },
+  "Automate API Management configuration by using APIOps CLI": {
+    "archetype": "conveyor-devops",
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "label": ""
+  },
+  "Use Azure Databricks to orchestrate MLOps": {
+    "archetype": "conveyor-devops",
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "label": ""
+  },
+  "GitOps for Azure Kubernetes Service": {
+    "archetype": "conveyor-devops",
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "label": ""
+  },
+  "Automate SAP workloads by using SUSE on Azure": {
+    "archetype": "conveyor-devops",
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "label": ""
+  },
+  "Deploy containerized apps with AKS Hybrid and Edge by using GitOps": {
+    "archetype": "conveyor-devops",
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "label": ""
+  },
+  "IoT analytics with Azure Data Explorer and Azure IoT Hub": {
+    "archetype": "satellite-iot",
+    "reason": "Editorial review: a satellite gathers signals from connected devices.",
+    "label": ""
+  },
+  "Enable machine learning inference on an Azure IoT Edge device": {
+    "archetype": "satellite-iot",
+    "reason": "Editorial review: a satellite gathers signals from connected devices.",
+    "label": ""
+  },
+  "Automate video analysis by using Azure Machine Learning and Azure Vision in Foundry Tools": {
+    "archetype": "stage-media",
+    "reason": "Editorial review: a playhead scans a media frame on a broadcast stage.",
+    "label": ""
+  },
+  "Image classification on Azure": {
+    "archetype": "stage-media",
+    "reason": "Editorial review: a playhead scans a media frame on a broadcast stage.",
+    "label": ""
+  },
+  "Polyglot persistence with Azure Cosmos DB and Azure SQL Database": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "Run SAP HANA for Linux virtual machines in a scale-up architecture on Azure": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "Modern data warehouses for small or medium-sized businesses": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "Minimal storage – Change feed to replicate data": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "Oracle Database with Azure NetApp Files": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "SQL Server on Azure Virtual Machines with Azure NetApp Files": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "SAP deployment on Azure by using an Oracle database": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "Run SAP BW/4HANA with Linux virtual machines on Azure": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "Data warehousing and analytics": {
+    "archetype": "archive-library",
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "label": ""
+  },
+  "Deploy microservices with Azure Container Apps and Dapr": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Baseline architecture for an Azure Kubernetes Service (AKS) cluster": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Microservices architecture on Azure Kubernetes Service": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Identify microservice boundaries": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Container orchestration for microservices": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Use Azure Red Hat OpenShift in the financial services industry": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Deploy Microservices to Azure Container Apps": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Advanced Azure Kubernetes Service (AKS) microservices architecture": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Minimize coordination": {
+    "archetype": "harbor-containers",
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "label": ""
+  },
+  "Basic enterprise integration on Azure": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Use a split-brain DNS configuration to host a web app in Azure": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Gateway Routing pattern": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Messaging Bridge pattern": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Azure DNS Private Resolver": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Azure API Management landing zone architecture": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Use a message broker and events to integrate enterprise systems": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Integrate IBM mainframe and midrange message queues with Azure": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Use Application Gateway for Containers with a multitenant Azure Kubernetes Service cluster": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Design a hybrid Domain Name System (DNS) solution by using Azure": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Use API gateways in microservices": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Design interservice communication for microservices": {
+    "archetype": "switchyard-routing",
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "label": ""
+  },
+  "Extract and analyze call center data": {
+    "archetype": "observatory-monitoring",
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "label": ""
+  },
+  "Hybrid availability and performance monitoring": {
+    "archetype": "observatory-monitoring",
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "label": ""
+  },
+  "Scalable cloud applications and site reliability engineering (SRE)": {
+    "archetype": "observatory-monitoring",
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "label": ""
+  },
+  "Microsoft Sentinel automated responses": {
+    "archetype": "observatory-monitoring",
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "label": ""
+  },
+  "Build real-time monitoring and observable systems for media": {
+    "archetype": "observatory-monitoring",
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "label": ""
+  },
+  "Measure Azure app sustainability by using the SCI score": {
+    "archetype": "orchard-analytics",
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "label": ""
+  },
+  "Modern data warehouse medallion architecture in Microsoft Fabric": {
+    "archetype": "orchard-analytics",
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "label": "REFINE → SERVE"
+  },
+  "SAS on Azure architecture": {
+    "archetype": "orchard-analytics",
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "label": ""
+  },
+  "Use AI to forecast customer orders": {
+    "archetype": "orchard-analytics",
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "label": ""
+  },
+  "Use Microsoft Fabric to design an enterprise BI solution": {
+    "archetype": "orchard-analytics",
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "label": ""
+  },
+  "Build and deploy custom document processing models on Azure": {
+    "archetype": "document-press",
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "label": ""
+  },
+  "Extract text from objects using Power Automate and AI Builder": {
+    "archetype": "document-press",
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "label": ""
+  },
+  "Create an Azure AI Search index based on file content and metadata": {
+    "archetype": "document-press",
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "label": ""
+  },
+  "Generate documents from your data": {
+    "archetype": "document-press",
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "label": ""
+  },
+  "Extract and map information from unstructured content": {
+    "archetype": "document-press",
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "label": ""
+  },
+  "Use AI enrichment with image and text processing": {
+    "archetype": "document-press",
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "label": ""
+  },
+  "Automate PDF forms processing": {
+    "archetype": "document-press",
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "label": ""
+  },
+  "Automate document classification in Azure": {
+    "archetype": "document-press",
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "label": ""
+  },
+  "Cache-aside caching using Azure Managed Redis and Azure Database for PostgreSQL": {
+    "archetype": "cache-pantry",
+    "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
+    "label": ""
+  },
+  "Write-through caching with Azure Managed Redis and Azure SQL Database": {
+    "archetype": "cache-pantry",
+    "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
+    "label": ""
+  },
+  "Cache-Aside pattern": {
+    "archetype": "cache-pantry",
+    "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
+    "label": ""
+  },
+  "Event-driven cache updates with Azure Managed Redis and Azure Cosmos DB": {
+    "archetype": "cache-pantry",
+    "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
+    "label": ""
+  },
+  "Retry pattern": {
+    "archetype": "recovery-lighthouse",
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "label": ""
+  },
+  "High availability enterprise deployment that uses App Service Environment": {
+    "archetype": "recovery-lighthouse",
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "label": ""
+  },
+  "Deploy an Azure Arc-enabled SQL managed instance for disaster recovery": {
+    "archetype": "recovery-lighthouse",
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "label": ""
+  },
+  "Enterprise file shares with disaster recovery": {
+    "archetype": "recovery-lighthouse",
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "label": ""
+  },
+  "Multitier web application built for high availability and disaster recovery": {
+    "archetype": "recovery-lighthouse",
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "label": ""
+  },
+  "Cross-region resiliency for SQL TDE with Azure Key Vault Managed HSM": {
+    "archetype": "recovery-lighthouse",
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "label": ""
+  },
+  "Azure Data Factory mission-critical architecture": {
+    "archetype": "recovery-lighthouse",
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "label": ""
+  },
+  "Baseline highly available zone-redundant web application": {
+    "archetype": "recovery-lighthouse",
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "label": ""
+  },
+  "Run a Windows VM on Azure": {
+    "archetype": "compute-workshop",
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "label": ""
+  },
+  "Run a Linux VM on Azure": {
+    "archetype": "compute-workshop",
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "label": ""
+  },
+  "ArcGIS Pro on Azure Virtual Desktop": {
+    "archetype": "compute-workshop",
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "label": ""
+  },
+  "Azure Virtual Machines baseline architecture in an Azure landing zone": {
+    "archetype": "compute-workshop",
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "label": ""
+  },
+  "Azure Virtual Machines baseline architecture": {
+    "archetype": "compute-workshop",
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "label": ""
+  },
+  "Build workloads on spot virtual machines": {
+    "archetype": "compute-workshop",
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "label": ""
+  },
+  "Enhanced-security hybrid messaging infrastructure for desktop-client access": {
+    "archetype": "identity-key",
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "label": ""
+  },
+  "Enhanced-security hybrid messaging infrastructure for mobile access": {
+    "archetype": "identity-key",
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "label": ""
+  },
+  "Certificate life cycle management on Azure": {
+    "archetype": "identity-key",
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "label": ""
+  },
+  "Enhanced-security hybrid messaging infrastructure for web access": {
+    "archetype": "identity-key",
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "label": ""
+  },
+  "Improved-security access to App Service web apps from an on-premises network": {
+    "archetype": "identity-key",
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "label": ""
+  },
+  "Deploy AD DS in an Azure virtual network": {
+    "archetype": "identity-key",
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "label": ""
+  },
+  "Provide custom authentication to Foundry Models through a gateway": {
+    "archetype": "identity-key",
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "label": ""
+  },
+  "Microsoft Entra identity management and access management for AWS": {
+    "archetype": "identity-key",
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "label": ""
+  },
+  "Quantum computing integration with classical apps": {
+    "archetype": "quantum-orbits",
+    "reason": "Editorial review: a quantum state rotates within linked classical and quantum systems.",
+    "label": ""
+  },
+  "Noisy Neighbor antipattern": {
+    "archetype": "neighbor-apartments",
+    "reason": "Editorial review: separate tenants share the same building and its resources.",
+    "label": ""
+  },
+  "Map requests to tenants in a multitenant solution": {
+    "archetype": "neighbor-apartments",
+    "reason": "Editorial review: separate tenants share the same building and its resources.",
+    "label": ""
+  },
+  "Architectural considerations for a multitenant solution": {
+    "archetype": "neighbor-apartments",
+    "reason": "Separate tenant homes share a common infrastructure foundation.",
+    "label": ""
+  },
+  "Baseline Microsoft Foundry chat reference architecture": {
+    "archetype": "brain-agents",
+    "reason": "A coordinated reasoning engine behind an enterprise chat experience.",
+    "label": ""
+  },
+  "Multiregion load balancing": {
+    "archetype": "globe-network",
+    "reason": "Distribute incoming traffic across multiple regional hubs.",
+    "label": ""
+  }
+}

@@ -1,0 +1,5921 @@
+[
+  {
+    "summary": "Run real-time AI inferencing on live data without compromising stability or performance by using a Silk Cloud Data Platform virtual SAN deployed on Azure IaaS.",
+    "azure_categories": [
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning"
+    ],
+    "content_type": "architecture",
+    "title": "AI inferencing with Silk virtual SAN",
+    "last_modified": "2026-08-31T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-machine-learning",
+      "fabric",
+      "azure-kubernetes-service",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Machine Learning",
+      "Microsoft Fabric",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/ai-inferencing-on-azure-iaas",
+    "id": "b682e0dbe666"
+  },
+  {
+    "summary": "Migrate an on-premises IBM AIX system and web application to a highly available, secure RedHat Enterprise Linux solution in Azure.",
+    "azure_categories": [
+      "migration",
+      "networking",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Migration",
+      "Networking",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "AIX UNIX on-premises to Azure Linux migration",
+    "last_modified": "2024-07-09T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-netapp-files",
+      "azure-site-recovery",
+      "azure-sql-database",
+      "azure-virtual-machines",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure NetApp Files",
+      "Azure Site Recovery",
+      "Azure SQL Database",
+      "Azure Virtual Machines",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/unix-migration/migrate-aix-azure-linux",
+    "id": "f7b91caceee7"
+  },
+  {
+    "summary": "Run Azure Kubernetes Service (AKS) cluster in multiple regions to achieve high availability.",
+    "azure_categories": [
+      "containers",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "AKS baseline for multiregion clusters",
+    "last_modified": "2026-06-05T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-kubernetes-service",
+      "azure-front-door",
+      "azure-application-gateway",
+      "azure-container-registry",
+      "azure-firewall"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Front Door",
+      "Azure Application Gateway",
+      "Azure Container Registry",
+      "Azure Firewall"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster",
+    "id": "a062f0df3ae3"
+  },
+  {
+    "summary": "Learn about a scalable, secure AKS microservices architecture that builds on recommended AKS microservices baseline architectures and implementations.",
+    "azure_categories": [
+      "containers",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Advanced Azure Kubernetes Service (AKS) microservices architecture",
+    "last_modified": "2025-10-01T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-application-gateway",
+      "azure-container-registry",
+      "azure-kubernetes-service",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Application Gateway",
+      "Azure Container Registry",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices-advanced",
+    "id": "fad34c88867e"
+  },
+  {
+    "summary": "Learn how to use Microsoft data services to build a modern analytics platform capable of handling the most common data challenges in an organization.",
+    "azure_categories": [
+      "databases",
+      "analytics",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Analytics",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Analytics end-to-end with Microsoft Fabric",
+    "last_modified": "2025-10-24T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "fabric",
+      "azure",
+      "azure-cosmos-db",
+      "real-time-analytics",
+      "azure-databricks",
+      "azure-event-hubs"
+    ],
+    "display_products": [
+      "Microsoft Fabric",
+      "Azure",
+      "Azure Cosmos DB",
+      "Real-Time Intelligence in Microsoft Fabric",
+      "Azure Databricks",
+      "Azure Event Hubs"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end",
+    "id": "c69c5cbd25ef"
+  },
+  {
+    "summary": "Learn about Apache Kafka and about ways to migrate a Kafka implementation to Azure by using Azure services like HDInsight and Event Hubs.",
+    "azure_categories": [
+      "migration",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Migration",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Apache Kafka migration to Azure",
+    "last_modified": "2023-11-08T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-hdinsight",
+      "azure-cosmos-db",
+      "azure-data-lake-storage",
+      "azure-stream-analytics"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure HDInsight",
+      "Azure Cosmos DB",
+      "Azure Data Lake Storage",
+      "Azure Stream Analytics"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/hadoop/apache-kafka-migration",
+    "id": "ccb5bcc169e0"
+  },
+  {
+    "summary": "Explore an architecture for running ArcGIS Pro on Azure Virtual Desktop with ArcGIS Enterprise back-end components.",
+    "azure_categories": [
+      "analytics",
+      "azure-virtual-desktop",
+      "databases",
+      "identity"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Virtual Desktop Infrastructure",
+      "Databases",
+      "Identity"
+    ],
+    "content_type": "architecture",
+    "title": "ArcGIS Pro on Azure Virtual Desktop",
+    "last_modified": "2026-02-25T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-desktop",
+      "azure-netapp-files",
+      "azure-monitor",
+      "azure-policy",
+      "entra",
+      "entra-id"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Desktop",
+      "Azure NetApp Files",
+      "Azure Monitor",
+      "Azure Policy",
+      "Microsoft Entra",
+      "Microsoft Entra ID"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/data/esri-arcgis-azure-virtual-desktop",
+    "id": "2646a6d1db65"
+  },
+  {
+    "summary": "This article introduces the key considerations when planning a multitenant architecture.",
+    "azure_categories": [
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "Management and Governance"
+    ],
+    "content_type": "architecture",
+    "title": "Architectural considerations for a multitenant solution",
+    "last_modified": "2025-06-11T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure"
+    ],
+    "display_products": [
+      "Azure"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/multitenant/considerations/overview",
+    "id": "316443b3463d"
+  },
+  {
+    "summary": "Use the APIOps CLI and Azure API Management to extract, review, and deploy API Management configuration as version-controlled artifacts.",
+    "azure_categories": [
+      "devops",
+      "developer-tools",
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "DevOps",
+      "Developer Tools",
+      "Management and Governance"
+    ],
+    "content_type": "architecture",
+    "title": "Automate API Management configuration by using APIOps CLI",
+    "last_modified": "2026-09-01T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-api-management",
+      "azure-devops",
+      "azure-pipelines",
+      "github"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure API Management",
+      "Azure DevOps",
+      "Azure Pipelines",
+      "GitHub"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/devops/automated-api-deployments-apiops",
+    "id": "bb3661e303db"
+  },
+  {
+    "summary": "Use Azure services such as AI Document Intelligence, Azure Logic Apps, and Azure Functions to implement cost-effective and flexible automated PDF processing.",
+    "azure_categories": [
+      "media"
+    ],
+    "display_azure_categories": [
+      "Media"
+    ],
+    "content_type": "architecture",
+    "title": "Automate PDF forms processing",
+    "last_modified": "2025-01-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "document-intelligence",
+      "foundry-tools",
+      "azure-logic-apps",
+      "azure-functions"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Document Intelligence in Foundry Tools",
+      "Foundry Tools",
+      "Azure Logic Apps",
+      "Azure Functions"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/automate-pdf-forms-processing",
+    "id": "dcb8c2defbc5"
+  },
+  {
+    "summary": "The SUSE SAP automation solution speeds deployment of SAP infrastructure on Azure. Use it to bolster productivity and facilitate innovation.",
+    "azure_categories": [
+      "developer-tools",
+      "migration",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Developer Tools",
+      "Migration",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Automate SAP workloads by using SUSE on Azure",
+    "last_modified": "2025-02-12T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-files",
+      "azure-cloud-shell",
+      "azure-load-balancer",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Files",
+      "Azure Cloud Shell",
+      "Azure Load Balancer",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/sap-workload-automation-suse",
+    "id": "78d4188053a8"
+  },
+  {
+    "summary": "Learn how to use the durable functions feature of Azure Functions as an automated document processing pipeline to classify documents by type.",
+    "azure_categories": [
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning"
+    ],
+    "content_type": "architecture",
+    "title": "Automate document classification in Azure",
+    "last_modified": "2026-06-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-functions",
+      "microsoft-foundry",
+      "foundry-sdk",
+      "foundry-tools",
+      "azure-cognitive-search",
+      "document-intelligence"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Functions",
+      "Microsoft Foundry",
+      "Foundry SDK",
+      "Foundry Tools",
+      "Azure AI Search",
+      "Azure Document Intelligence in Foundry Tools"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/automate-document-classification-durable-functions",
+    "id": "e08a4d1bb046"
+  },
+  {
+    "summary": "Learn how to implement an architecture that automates video analysis by using Azure Machine Learning and Azure Vision in Foundry Tools.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "media",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Media",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Automate video analysis by using Azure Machine Learning and Azure Vision in Foundry Tools",
+    "last_modified": "2025-10-01T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-machine-learning",
+      "foundry-tools",
+      "azure-logic-apps",
+      "azure-data-lake-storage",
+      "fabric"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Machine Learning",
+      "Foundry Tools",
+      "Azure Logic Apps",
+      "Azure Data Lake Storage",
+      "Microsoft Fabric"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/analyze-video-computer-vision-machine-learning",
+    "id": "e3d6658e9e8b"
+  },
+  {
+    "summary": "Learn about a secure enterprise API management architecture that uses Azure Application Gateway, API Management, and CI/CD pipeline deployment.",
+    "azure_categories": [
+      "developer-tools",
+      "integration"
+    ],
+    "display_azure_categories": [
+      "Developer Tools",
+      "Integration"
+    ],
+    "content_type": "architecture",
+    "title": "Azure API Management landing zone architecture",
+    "last_modified": "2025-06-19T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-api-management",
+      "azure-application-gateway",
+      "azure-functions",
+      "dotnet"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure API Management",
+      "Azure Application Gateway",
+      "Azure Functions",
+      ".NET"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/integration/app-gateway-internal-api-management-function",
+    "id": "efa363a40898"
+  },
+  {
+    "summary": "Learn how Azure Arc extends Kubernetes cluster management and configuration across customer data centers, edge locations, and multiple cloud environments.",
+    "azure_categories": [
+      "hybrid",
+      "management-and-governance",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Management and Governance",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Arc hybrid management and deployment for Kubernetes clusters",
+    "last_modified": "2025-01-31T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-arc",
+      "azure-kubernetes-service",
+      "azure-monitor",
+      "azure-policy",
+      "azure-rbac"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Arc",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Monitor",
+      "Azure Policy",
+      "Azure Role-based access control"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/arc-hybrid-kubernetes",
+    "id": "a1573fed594d"
+  },
+  {
+    "summary": "Learn how to use Azure DNS Private Resolver to simplify hybrid recursive Domain Name System (DNS) resolution for on-premises and Azure workloads.",
+    "azure_categories": [
+      "hybrid",
+      "networking"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Networking"
+    ],
+    "content_type": "architecture",
+    "title": "Azure DNS Private Resolver",
+    "last_modified": "2026-03-19T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-dns",
+      "azure-expressroute",
+      "azure-firewall",
+      "azure-virtual-network",
+      "azure-vpn-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure DNS",
+      "Azure ExpressRoute",
+      "Azure Firewall",
+      "Azure Virtual Network",
+      "Azure VPN Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/architecture/azure-dns-private-resolver",
+    "id": "b80d083bfd06"
+  },
+  {
+    "summary": "Learn how to design and implement the medallion lakehouse architecture in an Azure landing zone by using Azure Data Factory, Azure Databricks, SQL Server, and Power BI.",
+    "azure_categories": [
+      "databases",
+      "storage",
+      "networking",
+      "security",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Storage",
+      "Networking",
+      "Security",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Data Factory baseline architecture in an Azure landing zone",
+    "last_modified": "2024-08-02T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory",
+      "azure-key-vault",
+      "azure-databricks",
+      "azure-sql-database"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory",
+      "Azure Key Vault",
+      "Azure Databricks",
+      "Azure SQL Database"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/architecture/azure-data-factory-on-azure-landing-zones-baseline",
+    "id": "f3798cb50e56"
+  },
+  {
+    "summary": "Learn how to design an enterprise-hardened workload for Azure Data Factory in an Azure landing zone to build robust and efficient data pipelines.",
+    "azure_categories": [
+      "databases",
+      "storage",
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Storage",
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Data Factory enterprise hardened architecture",
+    "last_modified": "2024-07-31T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory",
+      "azure-key-vault",
+      "azure-databricks",
+      "azure-sql-database"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory",
+      "Azure Key Vault",
+      "Azure Databricks",
+      "Azure SQL Database"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/architecture/azure-data-factory-enterprise-hardened",
+    "id": "6b7b5772631f"
+  },
+  {
+    "summary": "Learn how to design a mission-critical workload for Azure Data Factory in an Azure landing zone to build robust and efficient data pipelines.",
+    "azure_categories": [
+      "databases",
+      "storage",
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Storage",
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Data Factory mission-critical architecture",
+    "last_modified": "2024-07-31T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory",
+      "azure-key-vault",
+      "azure-databricks",
+      "azure-sql-database",
+      "azure-container-apps"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory",
+      "Azure Key Vault",
+      "Azure Databricks",
+      "Azure SQL Database",
+      "Azure Container Apps"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/architecture/azure-data-factory-mission-critical",
+    "id": "249b90e495c7"
+  },
+  {
+    "summary": "Learn how to provide on-premises access to Azure Files with security provided by on-premises Windows Server Active Directory Domain Services (AD DS).",
+    "azure_categories": [
+      "hybrid",
+      "storage",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Storage",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Files accessed from on-premises and secured by AD DS in a private network",
+    "last_modified": "2024-09-19T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-network",
+      "azure-expressroute",
+      "azure-storage-accounts",
+      "azure-files",
+      "azure-dns"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Network",
+      "Azure ExpressRoute",
+      "Azure Storage Accounts",
+      "Azure Files",
+      "Azure DNS"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/hybrid/azure-files-on-premises-authentication",
+    "id": "0f6d9fc0c075"
+  },
+  {
+    "summary": "Design a baseline architecture for Microsoft Azure Kubernetes Service (AKS) that runs on Azure Local or uses AKS on bare metal as an alternative deployment option.",
+    "azure_categories": [
+      "hybrid",
+      "compute",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Compute",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Kubernetes Service (AKS) baseline architecture for Azure Local",
+    "last_modified": "2026-08-21T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-kubernetes-service",
+      "azure-local",
+      "azure-arc"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Local",
+      "Azure Arc"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/hybrid/aks-baseline",
+    "id": "95159e185308"
+  },
+  {
+    "summary": "Learn how to design a connected, highly available Azure Local deployment that uses hyperconverged storage and storage-switched networking.",
+    "azure_categories": [
+      "hybrid",
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Management and Governance"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Local hyperconverged baseline reference architecture",
+    "last_modified": "2026-11-02T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-local",
+      "azure-arc",
+      "azure-key-vault",
+      "azure-monitor",
+      "microsoft-defender",
+      "defender-for-cloud"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Local",
+      "Azure Arc",
+      "Azure Key Vault",
+      "Azure Monitor",
+      "Microsoft Defender",
+      "Microsoft Defender for Cloud"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/azure-local-baseline",
+    "id": "106bf18ad9fb"
+  },
+  {
+    "summary": "Learn how to design a connected, hyperconverged Azure Local deployment of three to four machines that uses direct storage links and dual top-of-rack switches.",
+    "azure_categories": [
+      "hybrid",
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Management and Governance"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Local hyperconverged storage switchless architecture",
+    "last_modified": "2026-09-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-local",
+      "azure-arc",
+      "azure-key-vault",
+      "azure-monitor",
+      "microsoft-defender",
+      "defender-for-cloud"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Local",
+      "Azure Arc",
+      "Azure Key Vault",
+      "Azure Monitor",
+      "Microsoft Defender",
+      "Microsoft Defender for Cloud"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/azure-local-switchless",
+    "id": "1fd9c316dc70"
+  },
+  {
+    "summary": "Learn how to use the Azure NetApp Files Object REST API to connect enterprise file data to Microsoft Fabric and to Azure AI and analytics services.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "analytics",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Analytics",
+      "Storage"
+    ],
+    "content_type": "solution-idea",
+    "title": "Azure NetApp Files Object REST API for data and AI integration",
+    "last_modified": "2026-10-19T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-netapp-files",
+      "fabric",
+      "azure-cognitive-search",
+      "microsoft-foundry",
+      "azure-machine-learning"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure NetApp Files",
+      "Microsoft Fabric",
+      "Azure AI Search",
+      "Microsoft Foundry",
+      "Azure Machine Learning"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/analytics-netapp-object-api",
+    "id": "6ffc085868bb"
+  },
+  {
+    "summary": "Learn how to design Azure Virtual Desktop for Azure Local to provide a more secure and productive remote desktop experience for users.",
+    "azure_categories": [
+      "hybrid",
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Management and Governance"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Virtual Desktop for Azure Local",
+    "last_modified": "2026-03-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-local",
+      "entra",
+      "entra-id",
+      "azure-virtual-desktop"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Local",
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure Virtual Desktop"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/azure-local-workload-virtual-desktop",
+    "id": "e17f647ad889"
+  },
+  {
+    "summary": "Learn how to set up an environment that's configured to run a workload on Azure Virtual Machines.",
+    "azure_categories": [
+      "compute",
+      "migration",
+      "networking"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "Migration",
+      "Networking"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Virtual Machines baseline architecture",
+    "last_modified": "2024-01-19T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-bastion",
+      "azure-key-vault",
+      "azure-virtual-machines",
+      "azure-virtual-network",
+      "azure-vm-scalesets"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Bastion",
+      "Azure Key Vault",
+      "Azure Virtual Machines",
+      "Azure Virtual Network",
+      "Azure Virtual Machine Scale Sets"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/virtual-machines/baseline",
+    "id": "ca92fe571a6a"
+  },
+  {
+    "summary": "Learn how to build on the baseline architecture to address changes and expectations when you deploy it in an Azure landing zone.",
+    "azure_categories": [
+      "compute",
+      "migration",
+      "networking"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "Migration",
+      "Networking"
+    ],
+    "content_type": "architecture",
+    "title": "Azure Virtual Machines baseline architecture in an Azure landing zone",
+    "last_modified": "2024-01-06T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-bastion",
+      "azure-firewall",
+      "azure-log-analytics",
+      "azure-virtual-machines",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Bastion",
+      "Azure Firewall",
+      "Azure Log Analytics",
+      "Azure Virtual Machines",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/virtual-machines/baseline-landing-zone",
+    "id": "b0348226be08"
+  },
+  {
+    "summary": "Learn about an enterprise-level cloud file sharing solution that uses Azure Files, Azure File Sync, Azure private DNS, and Azure private endpoints.",
+    "azure_categories": [
+      "hybrid",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Azure enterprise cloud file share",
+    "last_modified": "2026-03-11T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-dns",
+      "azure-files",
+      "azure-private-link",
+      "azure-storage",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure DNS",
+      "Azure Files",
+      "Azure Private Link",
+      "Azure Storage",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/azure-files-private",
+    "id": "7171af091357"
+  },
+  {
+    "summary": "Learn how Azure hybrid options address workload placement, operations, sovereignty, connectivity, and AI requirements.",
+    "azure_categories": [
+      "hybrid",
+      "management-and-governance",
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Management and Governance",
+      "AI + Machine Learning"
+    ],
+    "content_type": "architecture",
+    "title": "Azure hybrid options",
+    "last_modified": "2026-08-24T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-arc",
+      "azure-local",
+      "foundry-local",
+      "azure-iot-operations",
+      "azure-iot-edge"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Arc",
+      "Azure Local",
+      "Foundry Local",
+      "Azure IoT Operations",
+      "Azure IoT Edge"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/technology-choices/hybrid-considerations",
+    "id": "2c133e00be57"
+  },
+  {
+    "summary": "Learn how to build a private, production-ready Azure Machine Learning inference platform with AKS, environment isolation, and controlled model promotion.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "devops",
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "DevOps",
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Baseline Azure Machine Learning inference reference architecture",
+    "last_modified": "2026-09-21T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-machine-learning",
+      "azure-kubernetes-service",
+      "azure-container-registry",
+      "azure-storage",
+      "azure-api-management"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Machine Learning",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Container Registry",
+      "Azure Storage",
+      "Azure API Management"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-azure-machine-learning-inference",
+    "id": "9b407ac308a1"
+  },
+  {
+    "summary": "Learn how to build network-secured, highly available, and zone-redundant enterprise chat applications by using Microsoft Foundry tools and Azure App Service.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "web",
+      "networking",
+      "security",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Web",
+      "Networking",
+      "Security",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Baseline Microsoft Foundry chat reference architecture",
+    "last_modified": "2026-06-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "foundry-tools",
+      "azure-app-service",
+      "azure-monitor",
+      "microsoft-foundry",
+      "foundry-agent-service"
+    ],
+    "display_products": [
+      "Azure",
+      "Foundry Tools",
+      "Azure App Service",
+      "Azure Monitor",
+      "Microsoft Foundry",
+      "Foundry Agent Service"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-microsoft-foundry-chat",
+    "id": "5943c2edf616"
+  },
+  {
+    "summary": "Learn about deploying the baseline Microsoft Foundry, Foundry Agent Service, Azure OpenAI in Foundry Models, and Azure App Service chat architecture in an Azure landing zone.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "web",
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Web",
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Baseline Microsoft Foundry chat reference architecture in an Azure landing zone",
+    "last_modified": "2026-06-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-openai",
+      "foundry-tools",
+      "azure-app-service",
+      "azure-key-vault",
+      "azure-monitor",
+      "microsoft-foundry"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure OpenAI in Foundry Models",
+      "Foundry Tools",
+      "Azure App Service",
+      "Azure Key Vault",
+      "Azure Monitor",
+      "Microsoft Foundry"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-microsoft-foundry-landing-zone",
+    "id": "219bcb15941a"
+  },
+  {
+    "summary": "Learn about the reference architecture for the recommended baseline infrastructure that deploys an Azure Kubernetes Service (AKS) cluster.",
+    "azure_categories": [
+      "containers",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Baseline architecture for an Azure Kubernetes Service (AKS) cluster",
+    "last_modified": "2025-12-30T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-application-gateway",
+      "azure-container-registry",
+      "azure-firewall",
+      "azure-kubernetes-service",
+      "azure-rbac"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Application Gateway",
+      "Azure Container Registry",
+      "Azure Firewall",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Role-based access control"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks/baseline-aks",
+    "id": "790f1bf3d7a9"
+  },
+  {
+    "summary": "Learn about a baseline reference architecture for a network secured, highly available, and zone-redundant Azure App Service web application.",
+    "azure_categories": [
+      "web",
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Management and Governance"
+    ],
+    "content_type": "architecture",
+    "title": "Baseline highly available zone-redundant web application",
+    "last_modified": "2025-12-12T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-application-gateway",
+      "azure-storage",
+      "azure-sql-database",
+      "azure-private-link",
+      "azure-virtual-network",
+      "azure-monitor"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Application Gateway",
+      "Azure Storage",
+      "Azure SQL Database",
+      "Azure Private Link",
+      "Azure Virtual Network",
+      "Azure Monitor"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/web-apps/app-service/architectures/baseline-zone-redundant",
+    "id": "c22532d0e4fa"
+  },
+  {
+    "summary": "Establish foundational knowledge for how to build and deploy enterprise chat applications by using Microsoft Foundry and Azure App Service.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "web",
+      "security",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Web",
+      "Security",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Basic Microsoft Foundry chat reference architecture",
+    "last_modified": "2026-06-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-monitor",
+      "microsoft-foundry",
+      "foundry-agent-service",
+      "foundry-tools",
+      "foundry-sdk"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Monitor",
+      "Microsoft Foundry",
+      "Foundry Agent Service",
+      "Foundry Tools",
+      "Foundry SDK"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/basic-microsoft-foundry-chat",
+    "id": "e21eab3ab79c"
+  },
+  {
+    "summary": "Learn how to implement a basic enterprise integration architecture on Azure by using Azure Logic Apps and Azure API Management.",
+    "azure_categories": [
+      "integration",
+      "developer-tools",
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Developer Tools",
+      "Management and Governance"
+    ],
+    "content_type": "architecture",
+    "title": "Basic enterprise integration on Azure",
+    "last_modified": "2026-04-16T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-api-management",
+      "azure-dns",
+      "azure-logic-apps",
+      "azure-monitor"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure API Management",
+      "Azure DNS",
+      "Azure Logic Apps",
+      "Azure Monitor"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/enterprise-integration/basic-enterprise-integration",
+    "id": "3a540683696d"
+  },
+  {
+    "summary": "Learn about proven practices for deploying web applications that use Azure App Service and Azure SQL Database.",
+    "azure_categories": [
+      "web"
+    ],
+    "display_azure_categories": [
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Basic web application",
+    "last_modified": "2025-10-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-monitor",
+      "azure-sql-database"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Monitor",
+      "Azure SQL Database"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/web-apps/app-service/architectures/basic-web-app",
+    "id": "a9a47d81440a"
+  },
+  {
+    "summary": "Learn how to deploy AKS clusters using a blue-green strategy.",
+    "azure_categories": [
+      "containers",
+      "devops",
+      "management-and-governance",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "DevOps",
+      "Management and Governance",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Blue-green deployment of AKS clusters",
+    "last_modified": "2024-05-31T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-kubernetes-service",
+      "azure-application-gateway",
+      "azure-container-registry",
+      "azure-front-door",
+      "azure-dns"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Application Gateway",
+      "Azure Container Registry",
+      "Azure Front Door",
+      "Azure DNS"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/aks/blue-green-deployment-for-aks",
+    "id": "19a1bcc64676"
+  },
+  {
+    "summary": "Learn how to design a scalable conversation analytics system that extracts insights from conversational data by using Foundry Tools and Microsoft Foundry.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Build a conversation knowledge mining solution by using Foundry Tools",
+    "last_modified": "2026-06-09T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "foundry-tools",
+      "azure-container-apps",
+      "azure-cosmos-db",
+      "agent-framework",
+      "microsoft-foundry"
+    ],
+    "display_products": [
+      "Azure",
+      "Foundry Tools",
+      "Azure Container Apps",
+      "Azure Cosmos DB",
+      "Microsoft Agent Framework",
+      "Microsoft Foundry"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/idea/unlock-insights-from-conversational-data",
+    "id": "5932408d900a"
+  },
+  {
+    "summary": "Use Microsoft Fabric and Azure Databricks to build a modern data platform architecture designed for small and medium businesses.",
+    "azure_categories": [
+      "analytics",
+      "databases",
+      "storage",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Databases",
+      "Storage",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Build a modern data platform architecture for SMBs by using Microsoft Fabric and Azure Databricks",
+    "last_modified": "2026-05-12T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-lake",
+      "azure-databricks",
+      "fabric",
+      "dynamics-365",
+      "azure-data-factory",
+      "microsoft-purview"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Lake",
+      "Azure Databricks",
+      "Microsoft Fabric",
+      "Dynamics 365",
+      "Azure Data Factory",
+      "Microsoft Purview"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/small-medium-modern-data-platform",
+    "id": "5fb4a299e984"
+  },
+  {
+    "summary": "Learn how to design and deploy scalable multi‑agent automation infrastructure by using Microsoft Agent Framework, Azure Container Apps, and Foundry Tools.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Build a multiple-agent workflow automation solution by using Microsoft Agent Framework",
+    "last_modified": "2026-06-08T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-container-apps",
+      "foundry-tools",
+      "azure-cosmos-db",
+      "microsoft-foundry",
+      "agent-framework"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Container Apps",
+      "Foundry Tools",
+      "Azure Cosmos DB",
+      "Microsoft Foundry",
+      "Microsoft Agent Framework"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/idea/multiple-agent-workflow-automation",
+    "id": "a76e90e24c88"
+  },
+  {
+    "summary": "Learn more about Azure options for orchestrating, storing, building, deploying, and using custom document processing models.",
+    "azure_categories": [
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning"
+    ],
+    "content_type": "architecture",
+    "title": "Build and deploy custom document processing models on Azure",
+    "last_modified": "2026-07-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "document-intelligence",
+      "foundry-tools",
+      "azure-logic-apps",
+      "azure-machine-learning-studio",
+      "microsoft-foundry",
+      "azure-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Document Intelligence in Foundry Tools",
+      "Foundry Tools",
+      "Azure Logic Apps",
+      "Azure Machine Learning Studio",
+      "Microsoft Foundry",
+      "Azure Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/build-deploy-custom-models",
+    "id": "e88156052d66"
+  },
+  {
+    "summary": "See how adaptive apps can operate across diverse environments and conditions, including disconnected, sovereign cloud, on-premises, and hybrid topologies.",
+    "azure_categories": [
+      "hybrid",
+      "open-source",
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Open Source",
+      "Migration"
+    ],
+    "content_type": "solution-idea",
+    "title": "Build portable applications with adaptive apps",
+    "last_modified": "2026-08-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-kubernetes-service",
+      "azure-arc",
+      "azure-local"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Arc",
+      "Azure Local"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/adaptive-apps",
+    "id": "3ddc918809d1"
+  },
+  {
+    "summary": "Learn how to build scalable real-time monitoring architecture for media streaming by using Azure Event Hubs, Fabric eventstreams, and Data Activator.",
+    "azure_categories": [
+      "media",
+      "ai-machine-learning",
+      "analytics"
+    ],
+    "display_azure_categories": [
+      "Media",
+      "AI + Machine Learning",
+      "Analytics"
+    ],
+    "content_type": "architecture",
+    "title": "Build real-time monitoring and observable systems for media",
+    "last_modified": "2024-06-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-explorer",
+      "azure-functions",
+      "fabric",
+      "azure-blob-storage",
+      "azure-event-hubs"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Explorer",
+      "Azure Functions",
+      "Microsoft Fabric",
+      "Azure Blob Storage",
+      "Azure Event Hubs"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/monitoring/monitoring-observable-systems-media",
+    "id": "773fa8de228e"
+  },
+  {
+    "summary": "Secure your IT environment by using Azure security services and Microsoft cloud security benchmark v2. This article is part of a series.",
+    "azure_categories": [
+      "integration",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Security"
+    ],
+    "content_type": "solution-idea",
+    "title": "Build the first layer of defense by using Azure security services",
+    "last_modified": "2026-05-20T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "entra",
+      "entra-id"
+    ],
+    "display_products": [
+      "Azure",
+      "Microsoft Entra",
+      "Microsoft Entra ID"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/azure-security-build-first-layer-defense",
+    "id": "7bce33c1e155"
+  },
+  {
+    "summary": "Enhance security in your IT environment by implementing Microsoft Defender XDR across applications and infrastructure to detect and respond to ransomware.",
+    "azure_categories": [
+      "integration",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Security"
+    ],
+    "content_type": "solution-idea",
+    "title": "Build the second layer of defense by using Microsoft Defender XDR",
+    "last_modified": "2026-05-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "microsoft-defender",
+      "defender-office365",
+      "defender-for-cloud-apps",
+      "defender-identity",
+      "m365",
+      "mem"
+    ],
+    "display_products": [
+      "Microsoft Defender",
+      "Microsoft Defender for Office 365",
+      "Microsoft Defender for Cloud Apps",
+      "Microsoft Defender for Identity",
+      "Microsoft 365",
+      "Microsoft Endpoint Manager"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/microsoft-defender-xdr-build-second-layer-defense",
+    "id": "57eadaa44555"
+  },
+  {
+    "summary": "Learn about best practices for how to build reliable workloads with Azure Spot Virtual Machines.",
+    "azure_categories": [
+      "compute"
+    ],
+    "display_azure_categories": [
+      "Compute"
+    ],
+    "content_type": "architecture",
+    "title": "Build workloads on spot virtual machines",
+    "last_modified": "2025-01-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/spot/spot-eviction",
+    "id": "9ee8c8ede198"
+  },
+  {
+    "summary": "Guidance on using Content Delivery Networks (CDNs) to deliver high-bandwidth content hosted in Azure.",
+    "azure_categories": [
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "CDN guidance",
+    "last_modified": "2022-07-25T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-front-door",
+      "azure-storage",
+      "azure-blob-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Front Door",
+      "Azure Storage",
+      "Azure Blob Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/best-practices/cdn",
+    "id": "74295cd6707a"
+  },
+  {
+    "summary": "Learn how to load data on demand into a cache, which can improve performance and maintain consistency between cached data and the underlying data store.",
+    "azure_categories": [
+      "web"
+    ],
+    "display_azure_categories": [
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Cache-Aside pattern",
+    "last_modified": "2025-09-11T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-managed-redis"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Managed Redis"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/patterns/cache-aside",
+    "id": "128ecd9f6027"
+  },
+  {
+    "summary": "Design a cache-aside workload for an Azure web application that uses Azure Managed Redis to reduce repeated reads from Azure Database for PostgreSQL.",
+    "azure_categories": [
+      "databases",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Cache-aside caching using Azure Managed Redis and Azure Database for PostgreSQL",
+    "last_modified": "2026-08-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-managed-redis",
+      "azure-database-postgresql",
+      "azure-app-service",
+      "azure-private-link",
+      "azure-monitor"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Managed Redis",
+      "Azure Database for PostgreSQL",
+      "Azure App Service",
+      "Azure Private Link",
+      "Azure Monitor"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/architecture/cache-aside-azure-managed-redis-postgresql",
+    "id": "ae09e88348f2"
+  },
+  {
+    "summary": "Learn how to create an infrastructure and workflow to automate the renewal process for certificates issued by a nonintegrated certification authority (CA).",
+    "azure_categories": [
+      "security"
+    ],
+    "display_azure_categories": [
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Certificate life cycle management on Azure",
+    "last_modified": "2026-04-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-automation",
+      "azure-event-grid",
+      "azure-key-vault"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Automation",
+      "Azure Event Grid",
+      "Azure Key Vault"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/certificate-lifecycle/",
+    "id": "306e470d9950"
+  },
+  {
+    "summary": "Learn how to create an infrastructure and workflow to help ensure a valid digital evidence chain of custody (CoC) for computer forensics in Azure.",
+    "azure_categories": [
+      "security"
+    ],
+    "display_azure_categories": [
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Computer forensics chain of custody in Azure",
+    "last_modified": "2026-04-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-automation",
+      "azure-key-vault",
+      "azure-storage-accounts"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Automation",
+      "Azure Key Vault",
+      "Azure Storage Accounts"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/forensics/",
+    "id": "da7eae780152"
+  },
+  {
+    "summary": "Learn how container orchestration makes it easy to manage complex multi-container microservice deployments, scaling, and cluster health.",
+    "azure_categories": [
+      "web",
+      "developer-tools"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Developer Tools"
+    ],
+    "content_type": "architecture",
+    "title": "Container orchestration for microservices",
+    "last_modified": "2021-05-27T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-kubernetes-service",
+      "azure-container-apps",
+      "azure-container-instances"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Container Apps",
+      "Azure Container Instances"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/microservices/design/orchestration",
+    "id": "d5576a941956"
+  },
+  {
+    "summary": "Learn how to create a modern analytics architecture by using Azure Databricks and Data Lake Storage. Unify data, analytics, and AI workloads at any scale.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "analytics",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Analytics",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Create a modern analytics architecture by using Azure Databricks",
+    "last_modified": "2026-03-31T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-databricks",
+      "fabric",
+      "power-platform",
+      "power-bi",
+      "azure-data-lake-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Databricks",
+      "Microsoft Fabric",
+      "Microsoft Power Platform",
+      "Power BI",
+      "Azure Data Lake Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/azure-databricks-modern-analytics-architecture",
+    "id": "c7e33caaa1fe"
+  },
+  {
+    "summary": "Build an Azure AI Search index to search for documents by using file content from Azure Blob Storage and metadata from Azure Table Storage.",
+    "azure_categories": [
+      "databases",
+      "ai-machine-learning",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "AI + Machine Learning",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Create an Azure AI Search index based on file content and metadata",
+    "last_modified": "2025-01-09T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cognitive-search",
+      "azure-blob-storage",
+      "azure-table-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure AI Search",
+      "Azure Blob Storage",
+      "Azure Table Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/search-blob-metadata",
+    "id": "594a48f85e12"
+  },
+  {
+    "summary": "Learn about a resilient deployment pattern for SQL Managed Instance. This solution highlights how Key Vault Managed HSM stores customer-managed TDE protector keys.",
+    "azure_categories": [
+      "databases",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Security"
+    ],
+    "content_type": "solution-idea",
+    "title": "Cross-region resiliency for SQL TDE with Azure Key Vault Managed HSM",
+    "last_modified": "2026-05-11T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-sql-managed-instance",
+      "azure-key-vault"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure SQL Managed Instance",
+      "Azure Key Vault"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/secure-sql-managed-instance-managed-hardware-security-module",
+    "id": "b160e83e0501"
+  },
+  {
+    "summary": "Use AKS to easily ingest and process a real-time data stream, with millions of data points collected via sensors.",
+    "azure_categories": [
+      "databases",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Data streaming with AKS",
+    "last_modified": "2024-11-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-api-management",
+      "azure-container-registry",
+      "azure-managed-redis",
+      "azure-cosmos-db"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure API Management",
+      "Azure Container Registry",
+      "Azure Managed Redis",
+      "Azure Cosmos DB"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/data-streaming-scenario",
+    "id": "98e2b5da298b"
+  },
+  {
+    "summary": "This example demonstrates a data pipeline that integrates large amounts of data from multiple sources into a unified analytics platform in Azure.",
+    "azure_categories": [
+      "analytics",
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Databases"
+    ],
+    "content_type": "architecture",
+    "title": "Data warehousing and analytics",
+    "last_modified": "2022-11-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-lake-storage",
+      "azure-cosmos-db",
+      "azure-data-factory",
+      "azure-sql-database",
+      "azure-table-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Lake Storage",
+      "Azure Cosmos DB",
+      "Azure Data Factory",
+      "Azure SQL Database",
+      "Azure Table Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/data/data-warehouse",
+    "id": "9535215ebefc"
+  },
+  {
+    "summary": "Learn how to extend an on-premises Active Directory domain to Azure to provide distributed authentication services in hybrid cloud environments.",
+    "azure_categories": [
+      "identity",
+      "hybrid"
+    ],
+    "display_azure_categories": [
+      "Identity",
+      "Hybrid + multicloud"
+    ],
+    "content_type": "architecture",
+    "title": "Deploy AD DS in an Azure virtual network",
+    "last_modified": "2026-06-16T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "azure",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Azure",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/identity/adds-extend-domain",
+    "id": "64dfd1b966fc"
+  },
+  {
+    "summary": "Learn how to run IBM Maximo Application Suite (MAS) on Azure by using Azure Red Hat OpenShift or self-managed Red Hat OpenShift.",
+    "azure_categories": [
+      "compute",
+      "containers",
+      "storage",
+      "analytics",
+      "iot",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "Containers",
+      "Storage",
+      "Analytics",
+      "Internet of Things",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Deploy IBM Maximo Application Suite on Azure",
+    "last_modified": "2026-08-06T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-files",
+      "azure-load-balancer",
+      "azure-redhat-openshift",
+      "azure-virtual-machines",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Files",
+      "Azure Load Balancer",
+      "Azure Red Hat OpenShift",
+      "Azure Virtual Machines",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/apps/deploy-ibm-maximo-application-suite",
+    "id": "1c3ecbf26261"
+  },
+  {
+    "summary": "Learn how to replatform and deploy existing Kubernetes microservice applications workloads to run in Azure Container Apps.",
+    "azure_categories": [
+      "developer-tools",
+      "containers"
+    ],
+    "display_azure_categories": [
+      "Developer Tools",
+      "Containers"
+    ],
+    "content_type": "architecture",
+    "title": "Deploy Microservices to Azure Container Apps",
+    "last_modified": "2025-11-05T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-container-apps",
+      "azure-cosmos-db",
+      "azure-service-bus"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Container Apps",
+      "Azure Cosmos DB",
+      "Azure Service Bus"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/serverless/microservices-with-container-apps",
+    "id": "540a00ad3419"
+  },
+  {
+    "summary": "Use Azure Arc to deploy an Azure Arc-enabled SQL managed instance across two sites that are outside of Azure in a highly available architecture.",
+    "azure_categories": [
+      "hybrid",
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Databases"
+    ],
+    "content_type": "architecture",
+    "title": "Deploy an Azure Arc-enabled SQL managed instance for disaster recovery",
+    "last_modified": "2024-06-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-arc",
+      "azure-sql-managed-instance"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Arc",
+      "Azure SQL Managed Instance"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/arc-sql-managed-instance-disaster-recovery",
+    "id": "46ef47ced42b"
+  },
+  {
+    "summary": "Build containerized app deployment pipelines for AKS Hybrid and Edge by using Azure Arc and GitOps, and use Flux automation for on-premises Kubernetes clusters.",
+    "azure_categories": [
+      "containers",
+      "hybrid",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Hybrid + multicloud",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Deploy containerized apps with AKS Hybrid and Edge by using GitOps",
+    "last_modified": "2026-08-21T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-kubernetes-service",
+      "azure-local",
+      "azure-arc",
+      "github",
+      "azure-pipelines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Local",
+      "Azure Arc",
+      "GitHub",
+      "Azure Pipelines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/hybrid/aks-hybrid-azure-local",
+    "id": "806e8c650e0f"
+  },
+  {
+    "summary": "Build a serverless microservices solution on Azure Container Apps by using Distributed Application Runtime (Dapr) and Kubernetes Event-driven Autoscaling (KEDA).",
+    "azure_categories": [
+      "containers",
+      "web",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Web",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Deploy microservices with Azure Container Apps and Dapr",
+    "last_modified": "2026-10-02T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-container-apps",
+      "dotnet",
+      "azure-sql-database",
+      "azure-cosmos-db",
+      "azure-managed-redis"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Container Apps",
+      ".NET",
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Managed Redis"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/serverless/microservices-with-container-apps-dapr",
+    "id": "4ad14902359a"
+  },
+  {
+    "summary": "Learn how to design a hybrid Domain Name System (DNS) solution to resolve names for workloads that are hosted on-premises and in Microsoft Azure.",
+    "azure_categories": [
+      "hybrid",
+      "networking"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Networking"
+    ],
+    "content_type": "architecture",
+    "title": "Design a hybrid Domain Name System (DNS) solution by using Azure",
+    "last_modified": "2026-04-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-bastion",
+      "azure-dns",
+      "azure-expressroute",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Bastion",
+      "Azure DNS",
+      "Azure ExpressRoute",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/hybrid-dns-infra",
+    "id": "70ed7046aa85"
+  },
+  {
+    "summary": "Learn how to design and implement the medallion lakehouse architecture in an Azure landing zone by using Azure Data Factory, Azure Databricks, Azure SQL Server, and Power BI.",
+    "azure_categories": [
+      "databases",
+      "storage",
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Storage",
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Design a medallion lakehouse with Azure Data Factory",
+    "last_modified": "2024-08-05T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/architecture/azure-data-factory-on-azure-landing-zones-index",
+    "id": "a4cd39cd26f9"
+  },
+  {
+    "summary": "Learn how to design an architecture on Azure for a regulated environment that allows researchers to access sensitive data.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "compute",
+      "security"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Compute",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Design a secure research environment for regulated data",
+    "last_modified": "2026-06-16T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-science-vm",
+      "azure-machine-learning",
+      "fabric"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Science Virtual Machines",
+      "Azure Machine Learning",
+      "Microsoft Fabric"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/architecture/secure-compute-for-research",
+    "id": "f8f20a9296e2"
+  },
+  {
+    "summary": "Learn about the tradeoffs between asynchronous messaging versus synchronous APIs for communication between microservices and some challenges in communication.",
+    "azure_categories": [
+      "integration",
+      "developer-tools"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Developer Tools"
+    ],
+    "content_type": "architecture",
+    "title": "Design interservice communication for microservices",
+    "last_modified": "2022-07-26T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-devops"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure DevOps"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/microservices/design/interservice-communication",
+    "id": "2d35df912569"
+  },
+  {
+    "summary": "See how to implement a GitHub-based DevSecOps pipeline that can validate and deploy infrastructure as code (IaC) to Azure.",
+    "azure_categories": [
+      "devops",
+      "security"
+    ],
+    "display_azure_categories": [
+      "DevOps",
+      "Security"
+    ],
+    "content_type": "solution-idea",
+    "title": "DevSecOps for infrastructure as code (IaC)",
+    "last_modified": "2026-07-23T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "microsoft-sentinel",
+      "azure",
+      "azure-monitor",
+      "github"
+    ],
+    "display_products": [
+      "Microsoft Sentinel",
+      "Azure",
+      "Azure Monitor",
+      "GitHub"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/devsecops-infrastructure-as-code",
+    "id": "025d8fe56375"
+  },
+  {
+    "summary": "Learn how to dynamically select and orchestrate AI agents from a pool by using Microsoft Foundry, Azure AI Search, and Azure OpenAI to build multiagent systems.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Dynamic AI agents at scale pattern",
+    "last_modified": "2026-05-20T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cognitive-search",
+      "azure-openai",
+      "microsoft-foundry",
+      "azure-cache-redis",
+      "azure-monitor"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure AI Search",
+      "Azure OpenAI in Foundry Models",
+      "Microsoft Foundry",
+      "Azure Cache for Redis",
+      "Azure Monitor"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/ai-agents-at-scale",
+    "id": "a7b884fe15ca"
+  },
+  {
+    "summary": "Enable machine learning inference on an IoT Edge device. Scenarios include image classification, object detection, and body, face, and gesture analysis.",
+    "azure_categories": [
+      "iot",
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "Internet of Things",
+      "AI + Machine Learning"
+    ],
+    "content_type": "architecture",
+    "title": "Enable machine learning inference on an Azure IoT Edge device",
+    "last_modified": "2024-10-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-iot-edge",
+      "azure-iot-hub"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure IoT Edge",
+      "Azure IoT Hub"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/iot/machine-learning-inference-iot-edge",
+    "id": "09cfe4f0f155"
+  },
+  {
+    "summary": "Enhance your security in a client access scenario by using Microsoft Entra multifactor authentication.",
+    "azure_categories": [
+      "security",
+      "hybrid",
+      "identity"
+    ],
+    "display_azure_categories": [
+      "Security",
+      "Hybrid + multicloud",
+      "Identity"
+    ],
+    "content_type": "architecture",
+    "title": "Enhanced-security hybrid messaging infrastructure for desktop-client access",
+    "last_modified": "2022-11-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "m365",
+      "office-365"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Microsoft 365",
+      "Office 365"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-client",
+    "id": "fad43a526fce"
+  },
+  {
+    "summary": "Enhance your security in a mobile access scenario by using Microsoft Entra multifactor authentication.",
+    "azure_categories": [
+      "security",
+      "hybrid",
+      "identity",
+      "mobile"
+    ],
+    "display_azure_categories": [
+      "Security",
+      "Hybrid + multicloud",
+      "Identity",
+      "Mobile"
+    ],
+    "content_type": "architecture",
+    "title": "Enhanced-security hybrid messaging infrastructure for mobile access",
+    "last_modified": "2022-11-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "m365",
+      "office-365"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Microsoft 365",
+      "Office 365"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-mobile",
+    "id": "1d15db20db37"
+  },
+  {
+    "summary": "Enhance your security in a web access scenario by using Microsoft Entra multifactor authentication.",
+    "azure_categories": [
+      "security",
+      "hybrid",
+      "identity",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Security",
+      "Hybrid + multicloud",
+      "Identity",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Enhanced-security hybrid messaging infrastructure for web access",
+    "last_modified": "2022-11-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "m365",
+      "office-365"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Microsoft 365",
+      "Office 365"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-web",
+    "id": "d1d00c83bc4e"
+  },
+  {
+    "summary": "Learn about the recommended architecture for deploying an enterprise application by using App Service Environment version 3 in Azure.",
+    "azure_categories": [
+      "management-and-governance",
+      "featured"
+    ],
+    "display_azure_categories": [
+      "Management and Governance",
+      ""
+    ],
+    "content_type": "architecture",
+    "title": "Enterprise deployment that uses App Service Environment",
+    "last_modified": "2024-12-04T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-application-gateway",
+      "azure-app-service",
+      "azure-firewall",
+      "azure-virtual-network",
+      "azure-private-link"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure Application Gateway",
+      "Azure App Service",
+      "Azure Firewall",
+      "Azure Virtual Network",
+      "Azure Private Link"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/web-apps/app-service-environment/architectures/app-service-environment-standard-deployment",
+    "id": "e21cc9a51c89"
+  },
+  {
+    "summary": "Learn how to implement resilient NetApp file shares. Failure of the primary Azure region causes automatic failover to the secondary Azure region.",
+    "azure_categories": [
+      "networking",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Enterprise file shares with disaster recovery",
+    "last_modified": "2024-06-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-netapp-files",
+      "entra",
+      "windows-server"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure NetApp Files",
+      "Microsoft Entra",
+      "Windows Server"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/file-storage/enterprise-file-shares-disaster-recovery",
+    "id": "30c9fba8440d"
+  },
+  {
+    "summary": "Find out how to update Azure Managed Redis asynchronously from committed changes in Azure Cosmos DB by using Azure Functions and the change feed.",
+    "azure_categories": [
+      "databases",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Event-driven cache updates with Azure Managed Redis and Azure Cosmos DB",
+    "last_modified": "2026-09-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-functions",
+      "azure-cosmos-db",
+      "azure-managed-redis",
+      "azure-monitor"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Cosmos DB",
+      "Azure Managed Redis",
+      "Azure Monitor"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/architecture/event-driven-cache-updates-azure-managed-redis-cosmos-db",
+    "id": "f42f02341ad8"
+  },
+  {
+    "summary": "Learn how to extract insights from customer conversations at a call center by using Foundry Tools and Foundry Models.",
+    "azure_categories": [
+      "analytics",
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "AI + Machine Learning"
+    ],
+    "content_type": "architecture",
+    "title": "Extract and analyze call center data",
+    "last_modified": "2026-04-30T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-blob-storage",
+      "azure-speech",
+      "microsoft-foundry",
+      "foundry-tools",
+      "power-platform",
+      "power-bi"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Blob Storage",
+      "Azure Speech in Foundry Tools",
+      "Microsoft Foundry",
+      "Foundry Tools",
+      "Microsoft Power Platform",
+      "Power BI"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/openai/architecture/call-center-openai-analytics",
+    "id": "f924fc808e1b"
+  },
+  {
+    "summary": "Learn how to build scalable systems for processing text, images, tables, and graphs with quality checks and human review for professional content workflows.",
+    "azure_categories": [
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning"
+    ],
+    "content_type": "solution-idea",
+    "title": "Extract and map information from unstructured content",
+    "last_modified": "2025-12-19T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "foundry-tools",
+      "azure-cosmos-db",
+      "azure-container-apps",
+      "microsoft-foundry"
+    ],
+    "display_products": [
+      "Azure",
+      "Foundry Tools",
+      "Azure Cosmos DB",
+      "Azure Container Apps",
+      "Microsoft Foundry"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/idea/multi-modal-content-processing",
+    "id": "0e8aff8650ec"
+  },
+  {
+    "summary": "Use AI Builder and Azure Document Intelligence in Foundry Tools in a Power Automate workflow to extract text from images for indexing and retrieval.",
+    "azure_categories": [
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning"
+    ],
+    "content_type": "architecture",
+    "title": "Extract text from objects using Power Automate and AI Builder",
+    "last_modified": "2026-08-27T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "power-platform",
+      "ai-builder",
+      "azure",
+      "document-intelligence",
+      "power-automate",
+      "azure-functions"
+    ],
+    "display_products": [
+      "Microsoft Power Platform",
+      "AI Builder",
+      "Azure",
+      "Azure Document Intelligence in Foundry Tools",
+      "Power Automate",
+      "Azure Functions"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/ai/extract-object-text",
+    "id": "29adbe29538a"
+  },
+  {
+    "summary": "Learn about extract, transform, load (ETL) and extract, load, transform (ELT) data transformation pipelines, and how to use control flows and data flows.",
+    "azure_categories": [
+      "databases",
+      "integration"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Integration"
+    ],
+    "content_type": "architecture",
+    "title": "Extract, transform, and load (ETL)",
+    "last_modified": "2025-09-15T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "fabric",
+      "azure",
+      "azure-data-factory"
+    ],
+    "display_products": [
+      "Microsoft Fabric",
+      "Azure",
+      "Azure Data Factory"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/data-guide/relational-data/etl",
+    "id": "e774254d55e0"
+  },
+  {
+    "summary": "Use the Gateway Routing design pattern to route requests to multiple services using a single endpoint.",
+    "azure_categories": [
+      "networking"
+    ],
+    "display_azure_categories": [
+      "Networking"
+    ],
+    "content_type": "architecture",
+    "title": "Gateway Routing pattern",
+    "last_modified": "2022-08-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-application-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Application Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/patterns/gateway-routing",
+    "id": "fde11ccf9523"
+  },
+  {
+    "summary": "Learn how to refactor general mainframe applications to run more cost-effectively and efficiently on Azure by using AKS or virtual machines.",
+    "azure_categories": [
+      "hybrid",
+      "migration",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Migration",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "General mainframe refactor to Azure",
+    "last_modified": "2025-04-02T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-files",
+      "azure-load-balancer",
+      "azure-sql-database",
+      "azure-storage",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Files",
+      "Azure Load Balancer",
+      "Azure SQL Database",
+      "Azure Storage",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/general-mainframe-refactor",
+    "id": "bb3324b96029"
+  },
+  {
+    "summary": "Learn how to build a simple system to generate documents. It combines retrieval, summarization, and generation to support faster document drafting by using AI.",
+    "azure_categories": [
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning"
+    ],
+    "content_type": "solution-idea",
+    "title": "Generate documents from your data",
+    "last_modified": "2025-12-01T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cognitive-search",
+      "azure-cosmos-db",
+      "microsoft-foundry"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure AI Search",
+      "Azure Cosmos DB",
+      "Microsoft Foundry"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/idea/generate-documents-from-your-data",
+    "id": "07a98bac6a47"
+  },
+  {
+    "summary": "Learn techniques for using GitOps principles to operate and manage an Azure Kubernetes Services (AKS) cluster. The solutions use Flux v2 and Argo CD.",
+    "azure_categories": [
+      "containers",
+      "devops",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "DevOps",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "GitOps for Azure Kubernetes Service",
+    "last_modified": "2025-10-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-kubernetes-service",
+      "github"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Kubernetes Service (AKS)",
+      "GitHub"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks",
+    "id": "fc625e7a3b56"
+  },
+  {
+    "summary": "Learn about a greenfield solution for creating a robust, scalable data platform by using the lakehouse design paradigm on Microsoft Fabric.",
+    "azure_categories": [
+      "analytics",
+      "databases",
+      "storage",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Databases",
+      "Storage",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Greenfield lakehouse on Microsoft Fabric",
+    "last_modified": "2026-02-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "fabric",
+      "power-platform",
+      "power-bi"
+    ],
+    "display_products": [
+      "Microsoft Fabric",
+      "Microsoft Power Platform",
+      "Power BI"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/data/greenfield-lakehouse-fabric",
+    "id": "a30f4a5e2ece"
+  },
+  {
+    "summary": "Learn how to implement DNS to support private endpoints in a Virtual WAN network. In these scenarios, every Virtual WAN hub has a firewall that has DNS proxy enabled.",
+    "azure_categories": [
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Guide to Private Link and DNS in Azure Virtual WAN",
+    "last_modified": "2023-04-26T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-private-link",
+      "azure-dns",
+      "azure-firewall",
+      "azure-virtual-wan"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Private Link",
+      "Azure DNS",
+      "Azure Firewall",
+      "Azure Virtual WAN"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/guide/private-link-virtual-wan-dns-guide",
+    "id": "84e8df38398a"
+  },
+  {
+    "summary": "Learn about the recommended architecture to deploy an enterprise application by using App Service Environment in multiple availability zones.",
+    "azure_categories": [
+      "management-and-governance",
+      "featured"
+    ],
+    "display_azure_categories": [
+      "Management and Governance",
+      ""
+    ],
+    "content_type": "architecture",
+    "title": "High availability enterprise deployment that uses App Service Environment",
+    "last_modified": "2026-07-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-application-gateway",
+      "azure-firewall",
+      "azure-virtual-network",
+      "azure-app-service"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure Application Gateway",
+      "Azure Firewall",
+      "Azure Virtual Network",
+      "Azure App Service"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/web-apps/app-service-environment/architectures/app-service-environment-high-availability-deployment",
+    "id": "a1547d50dae6"
+  },
+  {
+    "summary": "Use Azure Kubernetes Service (AKS) and Azure Service Bus to implement high-volume batch transaction processing.",
+    "azure_categories": [
+      "compute",
+      "hybrid",
+      "migration",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "Hybrid + multicloud",
+      "Migration",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "High-volume batch transaction processing",
+    "last_modified": "2022-07-25T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-kubernetes-service",
+      "azure-service-bus",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/process-batch-transactions",
+    "id": "bd6da872edba"
+  },
+  {
+    "summary": "Deploy a highly available SharePoint farm for intranet capabilities that uses Microsoft Entra ID, a SQL always on instance, and SharePoint resources.",
+    "azure_categories": [
+      "web",
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Management and Governance"
+    ],
+    "content_type": "solution-idea",
+    "title": "Highly available SharePoint farm",
+    "last_modified": "2022-05-27T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-load-balancer",
+      "sql-server"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure Load Balancer",
+      "SQL Server"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/highly-available-sharepoint-farm",
+    "id": "4aa8f5090664"
+  },
+  {
+    "summary": "Learn about hub-spoke topology in Azure, where the spoke virtual networks connect to the hub virtual network and can connect to each other.",
+    "azure_categories": [
+      "networking",
+      "management-and-governance",
+      "hybrid"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Management and Governance",
+      "Hybrid + multicloud"
+    ],
+    "content_type": "architecture",
+    "title": "Hub-spoke network topology in Azure",
+    "last_modified": "2026-04-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-bastion",
+      "azure-firewall",
+      "azure-network-watcher",
+      "azure-virtual-network",
+      "azure-vpn-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Bastion",
+      "Azure Firewall",
+      "Azure Network Watcher",
+      "Azure Virtual Network",
+      "Azure VPN Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/architecture/hub-spoke",
+    "id": "f6b46546aa23"
+  },
+  {
+    "summary": "Implement a hub-spoke topology that uses Azure Virtual WAN as the Microsoft-managed hub and has spoke virtual networks, branches, and remote users.",
+    "azure_categories": [
+      "networking",
+      "hybrid",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Hybrid + multicloud",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Hub-spoke network topology using Azure Virtual WAN",
+    "last_modified": "2026-08-12T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-wan",
+      "azure-virtual-network",
+      "azure-expressroute",
+      "azure-firewall"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual WAN",
+      "Azure Virtual Network",
+      "Azure ExpressRoute",
+      "Azure Firewall"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/architecture/hub-spoke-virtual-wan-architecture",
+    "id": "98f996ba26af"
+  },
+  {
+    "summary": "Use Azure Monitor to monitor performance and availability for OS workloads running on-premises, in third-party cloud providers, and in Microsoft Azure.",
+    "azure_categories": [
+      "hybrid",
+      "management-and-governance"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Management and Governance"
+    ],
+    "content_type": "architecture",
+    "title": "Hybrid availability and performance monitoring",
+    "last_modified": "2022-08-26T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-event-hubs",
+      "azure-log-analytics",
+      "azure-monitor",
+      "azure-storage",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Event Hubs",
+      "Azure Log Analytics",
+      "Azure Monitor",
+      "Azure Storage",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/hybrid-perf-monitoring",
+    "id": "0e0ecf04a4f7"
+  },
+  {
+    "summary": "Use Azure File Sync and Azure Files to extend file services hosting capabilities across cloud and on-premises file share resources.",
+    "azure_categories": [
+      "hybrid",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Hybrid file services",
+    "last_modified": "2026-06-05T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-expressroute",
+      "azure-files",
+      "azure-storage-accounts"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure ExpressRoute",
+      "Azure Files",
+      "Azure Storage Accounts"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/hybrid-file-services",
+    "id": "0253120e7c0a"
+  },
+  {
+    "summary": "Learn how to start from a carefully designed domain model to determine the right size for a microservice.",
+    "azure_categories": [
+      "integration",
+      "developer-tools"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Developer Tools"
+    ],
+    "content_type": "architecture",
+    "title": "Identify microservice boundaries",
+    "last_modified": "2022-07-26T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-devops"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure DevOps"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/microservices/model/microservice-boundaries",
+    "id": "3324714746cc"
+  },
+  {
+    "summary": "Learn how to build image classification into your applications by using Azure services such as Azure Content Understanding and Azure Functions.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "media"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Media"
+    ],
+    "content_type": "solution-idea",
+    "title": "Image classification on Azure",
+    "last_modified": "2026-04-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "foundry-tools",
+      "foundry-sdk",
+      "azure-blob-storage",
+      "azure-cosmos-db",
+      "azure-event-grid",
+      "azure-functions"
+    ],
+    "display_products": [
+      "Azure",
+      "Foundry Tools",
+      "Foundry SDK",
+      "Azure Blob Storage",
+      "Azure Cosmos DB",
+      "Azure Event Grid",
+      "Azure Functions"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/idea/intelligent-apps-image-processing",
+    "id": "74d4678546a9"
+  },
+  {
+    "summary": "Implement Trusted Internet Connection (TIC) 3.0 compliance for your internet-facing Azure applications and services, and improve the user experience.",
+    "azure_categories": [
+      "networking",
+      "security",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Security",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Implement TIC 3.0 compliance",
+    "last_modified": "2024-11-21T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-firewall",
+      "azure-application-gateway",
+      "azure-front-door",
+      "azure-log-analytics",
+      "azure-event-hubs"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Firewall",
+      "Azure Application Gateway",
+      "Azure Front Door",
+      "Azure Log Analytics",
+      "Azure Event Hubs"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/architecture/trusted-internet-connections",
+    "id": "f48bfe664b1d"
+  },
+  {
+    "summary": "Learn how to deploy a secure hybrid network that extends an on-premises network to Azure by implementing a perimeter network called a DMZ.",
+    "azure_categories": [
+      "networking",
+      "security",
+      "hybrid"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Security",
+      "Hybrid + multicloud"
+    ],
+    "content_type": "architecture",
+    "title": "Implement a secure hybrid network",
+    "last_modified": "2022-09-12T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-firewall",
+      "azure-load-balancer",
+      "azure-virtual-machines",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Firewall",
+      "Azure Load Balancer",
+      "Azure Virtual Machines",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz",
+    "id": "d1dc86b4387f"
+  },
+  {
+    "summary": "Set up improved-security private connectivity to an App Service web app or function app from an on-premises network or from within an Azure virtual network.",
+    "azure_categories": [
+      "security",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Security",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Improved-security access to App Service web apps from an on-premises network",
+    "last_modified": "2024-10-13T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-virtual-network",
+      "azure-private-link",
+      "azure-key-vault",
+      "azure-storage-accounts"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Virtual Network",
+      "Azure Private Link",
+      "Azure Key Vault",
+      "Azure Storage Accounts"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/web-apps/guides/networking/access-multitenant-web-app-from-on-premises",
+    "id": "c719b49f353d"
+  },
+  {
+    "summary": "Create ETL pipelines for batch and streaming data with Azure Databricks to simplify data lake ingestion at any scale.",
+    "azure_categories": [
+      "analytics",
+      "iot",
+      "databases",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Internet of Things",
+      "Databases",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Ingestion, ETL, and stream processing pipelines with Azure Databricks and Delta Lake",
+    "last_modified": "2022-07-13T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-databricks",
+      "azure-data-lake-storage",
+      "azure-iot-hub",
+      "azure-data-factory",
+      "azure-event-hubs"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Databricks",
+      "Azure Data Lake Storage",
+      "Azure IoT Hub",
+      "Azure Data Factory",
+      "Azure Event Hubs"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/ingest-etl-stream-with-adb",
+    "id": "76daa28b7272"
+  },
+  {
+    "summary": "Integrate security solutions from Azure and Microsoft 365 to create robust security for your hybrid and cloud IT environments. This article is part of a series.",
+    "azure_categories": [
+      "integration",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Security"
+    ],
+    "content_type": "solution-idea",
+    "title": "Integrate Azure and Microsoft Defender XDR security services",
+    "last_modified": "2024-09-20T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "microsoft-sentinel",
+      "azure",
+      "azure-monitor",
+      "microsoft-defender",
+      "defender-for-cloud",
+      "azure-log-analytics",
+      "azure-network-watcher"
+    ],
+    "display_products": [
+      "Microsoft Sentinel",
+      "Azure",
+      "Azure Monitor",
+      "Microsoft Defender",
+      "Microsoft Defender for Cloud",
+      "Azure Log Analytics",
+      "Azure Network Watcher"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/microsoft-365-defender-security-integrate-azure",
+    "id": "53b6ebb8ceda"
+  },
+  {
+    "summary": "This example describes a data-first approach to middleware integration that enables IBM message queues (MQs).",
+    "azure_categories": [
+      "hybrid",
+      "integration"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Integration"
+    ],
+    "content_type": "solution-idea",
+    "title": "Integrate IBM mainframe and midrange message queues with Azure",
+    "last_modified": "2026-05-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-logic-apps",
+      "azure-sql-database",
+      "azure-sql-managed-instance",
+      "azure-sql-virtual-machines",
+      "azure-database-postgresql"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Logic Apps",
+      "Azure SQL Database",
+      "Azure SQL Managed Instance",
+      "SQL Server on Azure Virtual Machines",
+      "Azure Database for PostgreSQL"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/integrate-ibm-message-queues-azure",
+    "id": "af20ff83688a"
+  },
+  {
+    "summary": "Use Azure Data Explorer with Azure IoT Hub for near real-time IoT data analytics on fast-flowing, high-volume streaming data from a wide range of IoT devices.",
+    "azure_categories": [
+      "analytics",
+      "iot"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Internet of Things"
+    ],
+    "content_type": "solution-idea",
+    "title": "IoT analytics with Azure Data Explorer and Azure IoT Hub",
+    "last_modified": "2026-02-13T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cosmos-db",
+      "azure-data-explorer",
+      "azure-digital-twins",
+      "azure-iot-hub"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Cosmos DB",
+      "Azure Data Explorer",
+      "Azure Digital Twins",
+      "Azure IoT Hub"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/iot-azure-data-explorer",
+    "id": "18989457bf00"
+  },
+  {
+    "summary": "Learn about several options for moving, converting, transforming, and storing mainframe and midrange file system data on-premises and in Azure.",
+    "azure_categories": [],
+    "display_azure_categories": [],
+    "content_type": "solution-idea",
+    "title": "Mainframe file replication and sync on Azure",
+    "last_modified": "2026-05-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory",
+      "azure-data-lake",
+      "azure-sql-database",
+      "azure-storage",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory",
+      "Azure Data Lake",
+      "Azure SQL Database",
+      "Azure Storage",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/mainframe-azure-file-replication",
+    "id": "3c12769e028b"
+  },
+  {
+    "summary": "Find out how to use Microsoft365DSC and Azure DevOps to manage changes that service administrators make to Microsoft 365 tenant configurations.",
+    "azure_categories": [
+      "management-and-governance",
+      "devops"
+    ],
+    "display_azure_categories": [
+      "Management and Governance",
+      "DevOps"
+    ],
+    "content_type": "architecture",
+    "title": "Manage Microsoft 365 tenant configuration by using Microsoft365DSC and Azure DevOps",
+    "last_modified": "2026-07-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-devops",
+      "azure-key-vault",
+      "azure-virtual-machines-windows",
+      "m365"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure DevOps",
+      "Azure Key Vault",
+      "Azure Windows Virtual Machines",
+      "Microsoft 365"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/devops/manage-microsoft-365-tenant-configuration-microsoft365dsc-devops",
+    "id": "fd9acc6a2465"
+  },
+  {
+    "summary": "Manage virtual machine compliance without disrupting DevOps practices. Use Azure VM Image Builder and Azure Compute Gallery to minimize risk from system images.",
+    "azure_categories": [
+      "compute",
+      "devops",
+      "management-and-governance",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "DevOps",
+      "Management and Governance",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Manage virtual machine compliance",
+    "last_modified": "2026-04-21T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-policy"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Policy"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/security/virtual-machine-compliance",
+    "id": "ef04ef451975"
+  },
+  {
+    "summary": "This article describes the considerations for mapping requests to tenants in a multitenant solution.",
+    "azure_categories": [
+      "management-and-governance",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Management and Governance",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Map requests to tenants in a multitenant solution",
+    "last_modified": "2024-11-24T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure"
+    ],
+    "display_products": [
+      "Azure"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/multitenant/considerations/map-requests",
+    "id": "0b0193b9775b"
+  },
+  {
+    "summary": "Diagram the IT environment of your organization and develop a threat map to plan and build your defensive layer of security. This article is the second in a part of a series.",
+    "azure_categories": [
+      "integration",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Security"
+    ],
+    "content_type": "solution-idea",
+    "title": "Map threats to your IT environment",
+    "last_modified": "2024-09-18T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "office-365"
+    ],
+    "display_products": [
+      "Azure",
+      "Office 365"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/map-threats-it-environment",
+    "id": "157a5e7265ff"
+  },
+  {
+    "summary": "Learn about the architecture for a massive-scale Azure Virtual WAN deployment that has multiple hubs per region.",
+    "azure_categories": [
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Massive-scale VWAN architecture design",
+    "last_modified": "2026-11-05T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-wan",
+      "azure-vm-scalesets",
+      "azure-expressroute"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual WAN",
+      "Azure Virtual Machine Scale Sets",
+      "Azure ExpressRoute"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/architecture/massive-scale-azure-architecture",
+    "id": "174dd11ad366"
+  },
+  {
+    "summary": "Create a sustainability model based on available proxies that scores the carbon impact of an application by using the SCI score.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "databases",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Databases",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Measure Azure app sustainability by using the SCI score",
+    "last_modified": "2026-01-15T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-monitor",
+      "azure-automation",
+      "azure-logic-apps",
+      "power-platform",
+      "power-bi"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Monitor",
+      "Azure Automation",
+      "Azure Logic Apps",
+      "Microsoft Power Platform",
+      "Power BI"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/apps/measure-azure-app-sustainability-sci-score",
+    "id": "d0744b1d351d"
+  },
+  {
+    "summary": "Learn how to use the Messaging Bridge pattern to integrate disparate systems built on top of different messaging infrastructures.",
+    "azure_categories": [
+      "integration",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Messaging Bridge pattern",
+    "last_modified": "2023-10-04T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-service-bus"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Service Bus"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/patterns/messaging-bridge",
+    "id": "d5e36b20265f"
+  },
+  {
+    "summary": "Learn about the infrastructure and DevOps considerations to deploy and run a microservices architecture on Azure Kubernetes Service (AKS).",
+    "azure_categories": [
+      "containers",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Microservices architecture on Azure Kubernetes Service",
+    "last_modified": "2025-03-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-container-registry",
+      "azure-kubernetes-service",
+      "azure-managed-redis",
+      "azure-pipelines",
+      "azure-monitor"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure Container Registry",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Managed Redis",
+      "Azure Pipelines",
+      "Azure Monitor"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices",
+    "id": "432cd28f73d9"
+  },
+  {
+    "summary": "Learn how Microsoft Entra ID can help secure and protect Amazon Web Services (AWS) identity management and account access. Discover Microsoft security solutions.",
+    "azure_categories": [
+      "identity"
+    ],
+    "display_azure_categories": [
+      "Identity"
+    ],
+    "content_type": "architecture",
+    "title": "Microsoft Entra identity management and access management for AWS",
+    "last_modified": "2025-10-13T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "entra",
+      "entra-id"
+    ],
+    "display_products": [
+      "Azure",
+      "Microsoft Entra",
+      "Microsoft Entra ID"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/aws/aws-azure-ad-security",
+    "id": "19f5ad07aad0"
+  },
+  {
+    "summary": "Use Microsoft Sentinel playbooks to generate automated responses and deliver intelligent security analytics for enterprises.",
+    "azure_categories": [
+      "migration",
+      "identity",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Migration",
+      "Identity",
+      "Security"
+    ],
+    "content_type": "solution-idea",
+    "title": "Microsoft Sentinel automated responses",
+    "last_modified": "2024-09-20T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "microsoft-sentinel",
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-logic-apps"
+    ],
+    "display_products": [
+      "Microsoft Sentinel",
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure Logic Apps"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/microsoft-sentinel-automated-response",
+    "id": "aa217ff86bca"
+  },
+  {
+    "summary": "This example illustrates a migration of AIX logical partitions (LPARs) to Skytap on Azure.",
+    "azure_categories": [
+      "hybrid",
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Migration"
+    ],
+    "content_type": "architecture",
+    "title": "Migrate AIX workloads to Azure with Skytap",
+    "last_modified": "2024-06-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-network",
+      "azure-private-link",
+      "azure-expressroute",
+      "azure-virtual-machines",
+      "azure-data-box-family"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Network",
+      "Azure Private Link",
+      "Azure ExpressRoute",
+      "Azure Virtual Machines",
+      "Azure Data Box"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/migrate-aix-workloads-to-azure-with-skytap",
+    "id": "32a6b7b240ee"
+  },
+  {
+    "summary": "This example architecture shows how to use the native IBM i backup and recovery services with Microsoft Azure components.",
+    "azure_categories": [
+      "hybrid",
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Migration"
+    ],
+    "content_type": "architecture",
+    "title": "Migrate IBM i series to Azure with Skytap",
+    "last_modified": "2024-06-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-network",
+      "azure-private-link",
+      "azure-expressroute",
+      "azure-virtual-machines",
+      "azure-data-box-family"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Network",
+      "Azure Private Link",
+      "Azure ExpressRoute",
+      "Azure Virtual Machines",
+      "Azure Data Box"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/migrate-ibm-i-series-to-azure-with-skytap",
+    "id": "2d747502449b"
+  },
+  {
+    "summary": "Migrate a z/OS online transaction processing (OLTP) workload to an Azure application that is cost effective, responsive, scalable, and adaptable.",
+    "azure_categories": [
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Migration"
+    ],
+    "content_type": "solution-idea",
+    "title": "Migrate IBM z/OS OLTP workloads to Azure",
+    "last_modified": "2026-05-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-front-door",
+      "azure-traffic-manager",
+      "azure-kubernetes-service",
+      "azure-managed-redis"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Front Door",
+      "Azure Traffic Manager",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Managed Redis"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/ibm-zos-online-transaction-processing-azure",
+    "id": "b54afc60979c"
+  },
+  {
+    "summary": "Review an example scenario in which an e-commerce company in the travel industry uses Azure API Management to migrate a legacy web application.",
+    "azure_categories": [
+      "web",
+      "migration",
+      "integration"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Migration",
+      "Integration"
+    ],
+    "content_type": "architecture",
+    "title": "Migrate a web app by using Azure API Management",
+    "last_modified": "2026-03-27T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-api-management",
+      "azure-monitor",
+      "azure-app-service"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure API Management",
+      "Azure Monitor",
+      "Azure App Service"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/apps/apim-api-scenario",
+    "id": "28138e73f08e"
+  },
+  {
+    "summary": "Learn how to migrate an Oracle database and its applications to Azure. You can migrate to either Azure virtual machines or OD@A Exadata Database Service.",
+    "azure_categories": [
+      "databases",
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Migration"
+    ],
+    "content_type": "solution-idea",
+    "title": "Migrate an Oracle database to Azure",
+    "last_modified": "2024-10-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-machines",
+      "azure-expressroute",
+      "azure-vpn-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Machines",
+      "Azure ExpressRoute",
+      "Azure VPN Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/idea/topic-migrate-oracle-azure",
+    "id": "ef4a4bfe3a16"
+  },
+  {
+    "summary": "Learn how to use Oracle ZDM and Azure networking to migrate an Oracle database to Oracle Database@Azure Exadata Database Service.",
+    "azure_categories": [
+      "databases",
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Migration"
+    ],
+    "content_type": "architecture",
+    "title": "Migrate an Oracle database to OD@A Exadata Database Service",
+    "last_modified": "2024-10-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-expressroute",
+      "azure-vpn-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure ExpressRoute",
+      "Azure VPN Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/idea/migrate-oracle-odaa-exadata",
+    "id": "bc7d83da398e"
+  },
+  {
+    "summary": "Learn how to migrate an Oracle Database instance to an Azure virtual machine by using Oracle Data Guard and Azure networking.",
+    "azure_categories": [
+      "databases",
+      "migration",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Migration",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Migrate an Oracle database to an Azure virtual machine",
+    "last_modified": "2024-10-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-machines",
+      "azure-expressroute",
+      "azure-vpn-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Machines",
+      "Azure ExpressRoute",
+      "Azure VPN Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/idea/migrate-oracle-azure-iaas",
+    "id": "ad6c538e860d"
+  },
+  {
+    "summary": "Learn how to define and implement a cross-tenant workload migration strategy to address business transformations like acquisitions or divestitures.",
+    "azure_categories": [
+      "migration",
+      "management-and-governance",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Migration",
+      "Management and Governance",
+      "Security"
+    ],
+    "content_type": "solution-idea",
+    "title": "Migrate cloud workloads across security tenants",
+    "last_modified": "2024-06-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-devops",
+      "azure-resource-manager",
+      "azure-backup"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure DevOps",
+      "Azure Resource Manager",
+      "Azure Backup"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/migrate-cloud-workloads-across-security-tenants",
+    "id": "8aa9172d30d6"
+  },
+  {
+    "summary": "Learn how mLogica LIBER*IRIS provides a proven solution for bulk data migration from a mainframe to Azure for enterprise workloads.",
+    "azure_categories": [
+      "databases",
+      "devops",
+      "migration",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "DevOps",
+      "Migration",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Migrate mainframe data tier to Azure with mLogica LIBER*IRIS",
+    "last_modified": "2026-04-08T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-database-mysql",
+      "azure-database-postgresql",
+      "azure-cosmos-db",
+      "azure-sql-database",
+      "azure-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Database for MySQL",
+      "Azure Database for PostgreSQL",
+      "Azure Cosmos DB",
+      "Azure SQL Database",
+      "Azure Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/mainframe-data-replication-azure-data-platform",
+    "id": "3b051d301ff8"
+  },
+  {
+    "summary": "Architecture for a high-availability solution that uses two Azure storage services, one for quick access to high-demand data, the other for low-demand data.",
+    "azure_categories": [
+      "databases",
+      "web",
+      "migration",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Web",
+      "Migration",
+      "Storage"
+    ],
+    "content_type": "solution-idea",
+    "title": "Minimal storage – Change feed to replicate data",
+    "last_modified": "2026-05-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-front-door",
+      "azure-app-service",
+      "azure-functions",
+      "azure-cosmos-db",
+      "azure-table-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Front Door",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Cosmos DB",
+      "Azure Table Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/idea/minimal-storage-change-feed-replicate-data",
+    "id": "8612db348134"
+  },
+  {
+    "summary": "Follow these recommendations to improve scalability by minimizing coordination between application services.",
+    "azure_categories": [
+      "databases",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Minimize coordination",
+    "last_modified": "2022-01-30T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-storage",
+      "azure-sql-database",
+      "azure-cosmos-db"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Storage",
+      "Azure SQL Database",
+      "Azure Cosmos DB"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/design-principles/minimize-coordination",
+    "id": "390e0e44466a"
+  },
+  {
+    "summary": "Learn how to implement a SQL-first modern data warehouse medallion architecture by using Fabric Data Warehouse, OneLake, Fabric Data Factory, and Power BI.",
+    "azure_categories": [
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Databases"
+    ],
+    "content_type": "architecture",
+    "title": "Modern data warehouse medallion architecture in Microsoft Fabric",
+    "last_modified": "2026-08-18T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "fabric",
+      "power-platform",
+      "power-bi"
+    ],
+    "display_products": [
+      "Microsoft Fabric",
+      "Microsoft Power Platform",
+      "Power BI"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/architecture/dataops-mdw",
+    "id": "fbf65f4e93ae"
+  },
+  {
+    "summary": "Learn how to use Microsoft Fabric, Azure SQL Database, Azure SQL Managed Instance, and Azure Data Lake Storage to modernize legacy and on-premises data.",
+    "azure_categories": [
+      "analytics",
+      "databases",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Databases",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Modern data warehouses for small or medium-sized businesses",
+    "last_modified": "2025-12-05T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-lake",
+      "azure-sql-database",
+      "fabric"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Lake",
+      "Azure SQL Database",
+      "Microsoft Fabric"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/data/small-medium-data-warehouse",
+    "id": "2cfe7937c3ee"
+  },
+  {
+    "summary": "Learn how to modernize IBM mainframe and midrange data. Use a data-first approach to migrate the data to scalable and more secure cloud storage on Azure.",
+    "azure_categories": [
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Migration"
+    ],
+    "content_type": "solution-idea",
+    "title": "Modernize mainframe and midrange data",
+    "last_modified": "2026-06-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cosmos-db",
+      "azure-data-lake",
+      "azure-sql-database",
+      "azure-sql-managed-instance",
+      "azure-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Cosmos DB",
+      "Azure Data Lake",
+      "Azure SQL Database",
+      "Azure SQL Managed Instance",
+      "Azure Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/modernize-mainframe-data-to-azure",
+    "id": "6aacb0049371"
+  },
+  {
+    "summary": "Deploy Moodle by using Azure NetApp Files for a resilient solution that provides high-throughput, low-latency access to scalable shared storage.",
+    "azure_categories": [
+      "databases",
+      "networking",
+      "storage",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Networking",
+      "Storage",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Moodle deployment with Azure NetApp Files",
+    "last_modified": "2024-11-11T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-application-gateway",
+      "azure-managed-redis",
+      "azure-database-mysql",
+      "azure-netapp-files",
+      "azure-vm-scalesets"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Application Gateway",
+      "Azure Managed Redis",
+      "Azure Database for MySQL",
+      "Azure NetApp Files",
+      "Azure Virtual Machine Scale Sets"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/file-storage/moodle-azure-netapp-files",
+    "id": "bc1b075d708e"
+  },
+  {
+    "summary": "Learn about a reference architecture that shows how to move data from mainframe and midrange systems to Azure.",
+    "azure_categories": [
+      "migration",
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Migration",
+      "Databases"
+    ],
+    "content_type": "architecture",
+    "title": "Move archive data from mainframe systems to Azure",
+    "last_modified": "2024-06-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory",
+      "azure-storage",
+      "azure-files",
+      "azure-blob-storage",
+      "azure-data-box-family"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory",
+      "Azure Storage",
+      "Azure Files",
+      "Azure Blob Storage",
+      "Azure Data Box"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/move-archive-data-mainframes",
+    "id": "edb8c3411690"
+  },
+  {
+    "summary": "Use multilayered security to control access to Azure VMs. See a solution that uses Azure and Microsoft Entra security services and aligns with security principles.",
+    "azure_categories": [
+      "security",
+      "identity",
+      "management-and-governance",
+      "compute",
+      "networking"
+    ],
+    "display_azure_categories": [
+      "Security",
+      "Identity",
+      "Management and Governance",
+      "Compute",
+      "Networking"
+    ],
+    "content_type": "solution-idea",
+    "title": "Multilayered protection for Azure virtual machine access",
+    "last_modified": "2026-08-18T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-bastion",
+      "azure-rbac",
+      "microsoft-defender",
+      "defender-for-cloud",
+      "azure-key-vault",
+      "entra",
+      "entra-id"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Bastion",
+      "Azure Role-based access control",
+      "Microsoft Defender",
+      "Microsoft Defender for Cloud",
+      "Azure Key Vault",
+      "Microsoft Entra",
+      "Microsoft Entra ID"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/multilayered-protection-azure-vm",
+    "id": "db264602849f"
+  },
+  {
+    "summary": "Learn how to build an Azure system that serves web and non-web workloads with resilient multitier applications in multiple Azure regions.",
+    "azure_categories": [
+      "networking",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Multiregion load balancing",
+    "last_modified": "2026-03-11T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-firewall",
+      "azure-application-gateway",
+      "azure-load-balancer",
+      "azure-traffic-manager"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Firewall",
+      "Azure Application Gateway",
+      "Azure Load Balancer",
+      "Azure Traffic Manager"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/high-availability/traffic-manager-application-gateway",
+    "id": "10590225fbe7"
+  },
+  {
+    "summary": "Learn how to create a resilient multitier web application built for high availability and disaster recovery on Azure by using VMs.",
+    "azure_categories": [
+      "web",
+      "featured"
+    ],
+    "display_azure_categories": [
+      "Web",
+      ""
+    ],
+    "content_type": "architecture",
+    "title": "Multitier web application built for high availability and disaster recovery",
+    "last_modified": "2026-04-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-arc",
+      "sql-server",
+      "windows"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Arc",
+      "SQL Server",
+      "Windows"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/infrastructure/multi-tier-app-disaster-recovery",
+    "id": "d743dcc4b876"
+  },
+  {
+    "summary": "Learn how the activity of one tenant can negatively affect the performance and reliability of other tenants in a multitenant system.",
+    "azure_categories": [
+      "management-and-governance",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Management and Governance",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Noisy Neighbor antipattern",
+    "last_modified": "2025-06-11T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure"
+    ],
+    "display_products": [
+      "Azure"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/antipatterns/noisy-neighbor/noisy-neighbor",
+    "id": "e75742a19dbf"
+  },
+  {
+    "summary": "Learn how to use Azure Arc for management, maintenance, and monitoring of SQL Server instances in on-premises and multicloud environments.",
+    "azure_categories": [
+      "hybrid",
+      "databases",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Databases",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Optimize administration of SQL Server instances in on-premises and multicloud environments using Azure Arc",
+    "last_modified": "2022-07-26T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-arc",
+      "sql-server",
+      "azure-kubernetes-service",
+      "azure-resource-manager",
+      "azure-sql-managed-instance"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Arc",
+      "SQL Server",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Resource Manager",
+      "Azure SQL Managed Instance"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/azure-arc-sql-server",
+    "id": "020b6f9396cc"
+  },
+  {
+    "summary": "Implement a high-bandwidth, low-latency solution for Oracle Database workloads. Use Azure NetApp Files for enterprise-scale performance and reduced costs.",
+    "azure_categories": [
+      "databases",
+      "hybrid",
+      "migration",
+      "networking",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Hybrid + multicloud",
+      "Migration",
+      "Networking",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Oracle Database with Azure NetApp Files",
+    "last_modified": "2024-07-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-netapp-files",
+      "azure-virtual-machines",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure NetApp Files",
+      "Azure Virtual Machines",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/file-storage/oracle-azure-netapp-files",
+    "id": "b37ff64cd2c1"
+  },
+  {
+    "summary": "Learn how to use Azure Cosmos DB and Azure SQL Database together in a polyglot persistence architecture that assigns each workload to its best-fit database.",
+    "azure_categories": [
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Databases"
+    ],
+    "content_type": "solution-idea",
+    "title": "Polyglot persistence with Azure Cosmos DB and Azure SQL Database",
+    "last_modified": "2026-05-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cosmos-db",
+      "azure-sql-database",
+      "azure-api-management"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Cosmos DB",
+      "Azure SQL Database",
+      "Azure API Management"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/idea/combine-relational-nosql",
+    "id": "b56f3fbb4bc1"
+  },
+  {
+    "summary": "Learn best practices for networking in Azure multitenant solutions, including hub-and-spoke topologies, virtual networks, and regional deployment strategies.",
+    "azure_categories": [
+      "web",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Protect APIs by using Application Gateway and API Management",
+    "last_modified": "2025-07-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-api-management",
+      "azure-application-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure API Management",
+      "Azure Application Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/web-apps/api-management/architectures/protect-apis",
+    "id": "c2ae14cc1956"
+  },
+  {
+    "summary": "Learn how to implement alternative authentication mechanisms for client applications that communicate with Foundry Models through a gateway.",
+    "azure_categories": [
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning"
+    ],
+    "content_type": "architecture",
+    "title": "Provide custom authentication to Foundry Models through a gateway",
+    "last_modified": "2024-12-16T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "foundry-tools",
+      "azure-openai",
+      "microsoft-foundry",
+      "azure-api-management",
+      "entra",
+      "entra-id"
+    ],
+    "display_products": [
+      "Azure",
+      "Foundry Tools",
+      "Azure OpenAI in Foundry Models",
+      "Microsoft Foundry",
+      "Azure API Management",
+      "Microsoft Entra",
+      "Microsoft Entra ID"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/guide/generative-ai-gateway-custom-authentication",
+    "id": "456f81c2ff1b"
+  },
+  {
+    "summary": "Learn how to integrate quantum work with classical applications by using direct quantum integration or workflow-orchestrated quantum integration patterns.",
+    "azure_categories": [
+      "compute",
+      "hybrid"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "Hybrid + multicloud"
+    ],
+    "content_type": "architecture",
+    "title": "Quantum computing integration with classical apps",
+    "last_modified": "2026-08-19T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-quantum"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Quantum"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/quantum/quantum-computing-integration-with-classical-apps",
+    "id": "452d235abf0a"
+  },
+  {
+    "summary": "Use Azure services to reengineer mainframe batch applications. This solution idea can reduce costs and improve scalability.",
+    "azure_categories": [
+      "developer-tools",
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Developer Tools",
+      "Migration"
+    ],
+    "content_type": "solution-idea",
+    "title": "Re-engineer mainframe batch applications on Azure",
+    "last_modified": "2026-06-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory",
+      "azure-databricks",
+      "azure-kubernetes-service",
+      "azure-sql-database",
+      "azure-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory",
+      "Azure Databricks",
+      "Azure Kubernetes Service (AKS)",
+      "Azure SQL Database",
+      "Azure Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/reengineer-mainframe-batch-apps-azure",
+    "id": "945e2b7cc64b"
+  },
+  {
+    "summary": "Learn how to use Microsoft Fabric with Azure Service Bus for near real-time solutions at enterprise scale in production environments.",
+    "azure_categories": [
+      "analytics"
+    ],
+    "display_azure_categories": [
+      "Analytics"
+    ],
+    "content_type": "solution-idea",
+    "title": "Real-time analytics with Azure Service Bus and Microsoft Fabric",
+    "last_modified": "2026-03-31T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-service-bus",
+      "fabric",
+      "real-time-analytics"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Service Bus",
+      "Microsoft Fabric",
+      "Real-Time Intelligence in Microsoft Fabric"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/analytics-service-bus",
+    "id": "1922e73d4d6b"
+  },
+  {
+    "summary": "Learn how to rehost an IMS database and IMS data communications on Azure without translations or changes by using Raincode IMSql.",
+    "azure_categories": [
+      "migration",
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Migration",
+      "Databases"
+    ],
+    "content_type": "solution-idea",
+    "title": "Rehost an IMS database and IMS data communications on Azure by using Raincode IMSql",
+    "last_modified": "2026-06-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-vm-scalesets",
+      "azure-logic-apps",
+      "azure-sql-managed-instance",
+      "azure-virtual-network",
+      "azure-expressroute"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Machine Scale Sets",
+      "Azure Logic Apps",
+      "Azure SQL Managed Instance",
+      "Azure Virtual Network",
+      "Azure ExpressRoute"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/rehost-ims-raincode-imsql",
+    "id": "59fa807488d2"
+  },
+  {
+    "summary": "This architecture shows how the Raincode COBOL compiler modernizes mainframe legacy applications.",
+    "azure_categories": [
+      "integration",
+      "databases",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Databases",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Rehost mainframe applications to Azure with Raincode compilers",
+    "last_modified": "2024-07-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-machines",
+      "azure-kubernetes-service",
+      "azure-files",
+      "azure-expressroute",
+      "azure-load-balancer"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Machines",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Files",
+      "Azure ExpressRoute",
+      "Azure Load Balancer"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/app-modernization/raincode-reference-architecture",
+    "id": "947da6f65fd5"
+  },
+  {
+    "summary": "Learn how to replicate data during mainframe and midrange system modernization. Sync on-premises data with Azure data during modernization.",
+    "azure_categories": [
+      "migration",
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Migration",
+      "Databases"
+    ],
+    "content_type": "solution-idea",
+    "title": "Replicate and sync mainframe data to Azure",
+    "last_modified": "2026-06-17T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory",
+      "azure-databricks",
+      "fabric"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory",
+      "Azure Databricks",
+      "Microsoft Fabric"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/migration/sync-mainframe-data-with-azure",
+    "id": "a74d6008a621"
+  },
+  {
+    "summary": "Learn how to use RDRS, a mainframe data replication solution, to migrate data to and from multiple Azure data platform services.",
+    "azure_categories": [
+      "migration",
+      "integration",
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Migration",
+      "Integration",
+      "Databases"
+    ],
+    "content_type": "architecture",
+    "title": "Replicate mainframe and midrange data to Azure by using RDRS",
+    "last_modified": "2025-04-09T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-database-migration",
+      "azure-functions",
+      "azure-logic-apps",
+      "azure-sql-database",
+      "azure-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Database Migration Service",
+      "Azure Functions",
+      "Azure Logic Apps",
+      "Azure SQL Database",
+      "Azure Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/mainframe-data-replication-azure-rdrs",
+    "id": "74d01aab5bb3"
+  },
+  {
+    "summary": "Learn how to use Precisely Connect to replicate mainframe and midrange data to Azure in real time with change data capture.",
+    "azure_categories": [
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Migration"
+    ],
+    "content_type": "architecture",
+    "title": "Replicate mainframe data by using Precisely Connect",
+    "last_modified": "2026-09-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-sql-database",
+      "azure-sql-managed-instance",
+      "fabric",
+      "azure-databricks",
+      "azure-event-hubs"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure SQL Database",
+      "Azure SQL Managed Instance",
+      "Microsoft Fabric",
+      "Azure Databricks",
+      "Azure Event Hubs"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/mainframe-replication-precisely-connect",
+    "id": "c53d61f9a075"
+  },
+  {
+    "summary": "Learn how to use the Retry pattern to enable an application to handle anticipated, temporary failures when the app tries to connect to a service or network resource.",
+    "azure_categories": [
+      "networking"
+    ],
+    "display_azure_categories": [
+      "Networking"
+    ],
+    "content_type": "architecture",
+    "title": "Retry pattern",
+    "last_modified": "2024-07-18T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure"
+    ],
+    "display_products": [
+      "Azure"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/patterns/retry",
+    "id": "be738e7936e8"
+  },
+  {
+    "summary": "Learn about the SAP BW/4HANA application tier and how it's suitable for a high availability, small-scale production environment of SAP BW/4HANA on Azure.",
+    "azure_categories": [
+      "databases",
+      "compute",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Compute",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Run SAP BW/4HANA with Linux virtual machines on Azure",
+    "last_modified": "2026-06-18T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-bastion",
+      "azure-managed-disks",
+      "azure-virtual-machines",
+      "azure-virtual-network",
+      "azure-sap"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Bastion",
+      "Azure Managed Disks",
+      "Azure Virtual Machines",
+      "Azure Virtual Network",
+      "SAP HANA on Azure Large Instances"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/sap/run-sap-bw4hana-with-linux-virtual-machines",
+    "id": "907c44fcc511"
+  },
+  {
+    "summary": "Learn about proven practices for running SAP HANA in a high-availability scale-up environment that supports disaster recovery on Azure.",
+    "azure_categories": [
+      "databases",
+      "compute",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Compute",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Run SAP HANA for Linux virtual machines in a scale-up architecture on Azure",
+    "last_modified": "2026-05-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/sap/run-sap-hana-for-linux-virtual-machines",
+    "id": "954bc5f8941b"
+  },
+  {
+    "summary": "Learn about best practices for running a Linux virtual machine on Azure, which requires some extra components, including networking and storage resources.",
+    "azure_categories": [
+      "compute",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Run a Linux VM on Azure",
+    "last_modified": "2026-04-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-backup",
+      "azure-bastion",
+      "azure-blob-storage",
+      "azure-resource-manager",
+      "azure-storage",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Backup",
+      "Azure Bastion",
+      "Azure Blob Storage",
+      "Azure Resource Manager",
+      "Azure Storage",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/n-tier/linux-vm",
+    "id": "a2ab20c23517"
+  },
+  {
+    "summary": "Learn about best practices for running a Windows virtual machine on Azure, which requires some extra components, including networking and storage resources.",
+    "azure_categories": [
+      "compute"
+    ],
+    "display_azure_categories": [
+      "Compute"
+    ],
+    "content_type": "architecture",
+    "title": "Run a Windows VM on Azure",
+    "last_modified": "2026-04-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-backup",
+      "azure-blob-storage",
+      "azure-resource-manager",
+      "azure-storage",
+      "azure-virtual-machines"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Backup",
+      "Azure Blob Storage",
+      "Azure Resource Manager",
+      "Azure Storage",
+      "Azure Virtual Machines"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/n-tier/windows-vm",
+    "id": "6f4ae4c4a8ae"
+  },
+  {
+    "summary": "Learn how to deploy SAP NetWeaver with Oracle Database on Azure in a high-availability (HA) architecture by using availability zones and Data Guard.",
+    "azure_categories": [
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Databases"
+    ],
+    "content_type": "architecture",
+    "title": "SAP deployment on Azure by using an Oracle database",
+    "last_modified": "2026-05-07T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-expressroute",
+      "azure-sap",
+      "azure-virtual-machines",
+      "azure-virtual-network",
+      "azure-netapp-files"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure ExpressRoute",
+      "SAP HANA on Azure Large Instances",
+      "Azure Virtual Machines",
+      "Azure Virtual Network",
+      "Azure NetApp Files"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/apps/sap-production",
+    "id": "82804f82a0cc"
+  },
+  {
+    "summary": "Learn how to run SAS analytics products on Azure. See guidelines for designing and implementing cloud solutions for SAS Viya and SAS Grid that use Azure.",
+    "azure_categories": [
+      "compute",
+      "storage",
+      "analytics"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "Storage",
+      "Analytics"
+    ],
+    "content_type": "architecture",
+    "title": "SAS on Azure architecture",
+    "last_modified": "2024-09-27T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-machines",
+      "azure-virtual-network",
+      "azure-files"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Machines",
+      "Azure Virtual Network",
+      "Azure Files"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/sas/sas-overview",
+    "id": "0b80451da0bd"
+  },
+  {
+    "summary": "Learn how to implement a high-bandwidth, low-latency solution for SQL Server workloads. Use Azure NetApp Files for enterprise-scale performance and reduced costs.",
+    "azure_categories": [
+      "databases",
+      "hybrid",
+      "migration",
+      "networking",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Hybrid + multicloud",
+      "Migration",
+      "Networking",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "SQL Server on Azure Virtual Machines with Azure NetApp Files",
+    "last_modified": "2025-09-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-netapp-files",
+      "azure-sqlserver-vm",
+      "azure-virtual-machines",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure NetApp Files",
+      "Azure SQL Server on Virtual Machines",
+      "Azure Virtual Machines",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/file-storage/sql-server-azure-netapp-files",
+    "id": "604b3a15cfc0"
+  },
+  {
+    "summary": "Build scalable cloud applications by using performance modeling and other principles and practices of site reliability engineering (SRE).",
+    "azure_categories": [
+      "web",
+      "developer-tools",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Developer Tools",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Scalable cloud applications and site reliability engineering (SRE)",
+    "last_modified": "2026-03-23T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-front-door",
+      "azure-api-management",
+      "azure-kubernetes-service",
+      "azure-application-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Front Door",
+      "Azure API Management",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Application Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/apps/scalable-apps-performance-modeling-site-reliability",
+    "id": "2b54f4c375ee"
+  },
+  {
+    "summary": "Learn how to deploy secure applications by using the App Service Environment, Azure Application Gateway, and Web Application Firewall.",
+    "azure_categories": [
+      "security",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Security",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Securely managed web applications",
+    "last_modified": "2025-06-20T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-application-gateway",
+      "azure-sql-database",
+      "azure-vpn-gateway",
+      "azure-web-application-firewall"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Application Gateway",
+      "Azure SQL Database",
+      "Azure VPN Gateway",
+      "Azure Web Application Firewall"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/apps/fully-managed-secure-apps",
+    "id": "108a9d54ad07"
+  },
+  {
+    "summary": "Learn about the Siemens Teamcenter product lifecycle management (PLM) baseline architecture on Azure for manufacturing and engineering enterprises.",
+    "azure_categories": [
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Siemens Teamcenter baseline architecture on Azure",
+    "last_modified": "2026-02-27T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-machines",
+      "azure-sql-database"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Machines",
+      "Azure SQL Database"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/manufacturing/teamcenter-baseline",
+    "id": "bc29a1182b0f"
+  },
+  {
+    "summary": "This article provides guidance on implementing DNS to support private endpoints in a Virtual WAN network in a single region where the virtual hub has a Firewall with DNS Proxy enabled. The solution includes implementing a virtual WAN hub extension for DNS.",
+    "azure_categories": [
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Single region scenario - Private Link and DNS in Azure Virtual WAN",
+    "last_modified": "2023-04-26T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-private-link",
+      "azure-dns",
+      "azure-firewall",
+      "azure-virtual-wan"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Private Link",
+      "Azure DNS",
+      "Azure Firewall",
+      "Azure Virtual WAN"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/guide/private-link-virtual-wan-dns-single-region-workload",
+    "id": "c0ff1264ef1a"
+  },
+  {
+    "summary": "Learn how to create a four-stage, end-to-end stream processing pipeline in Azure by using Azure Databricks.",
+    "azure_categories": [
+      "analytics",
+      "databases",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Databases",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Stream processing with Azure Databricks",
+    "last_modified": "2025-10-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cosmos-db",
+      "azure-databricks",
+      "azure-event-hubs",
+      "azure-log-analytics",
+      "azure-monitor"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Cosmos DB",
+      "Azure Databricks",
+      "Azure Event Hubs",
+      "Azure Log Analytics",
+      "Azure Monitor"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/data/stream-processing-databricks",
+    "id": "c523337192ef"
+  },
+  {
+    "summary": "This reference architecture shows an end-to-end stream processing pipeline, which ingests data, correlates records, and calculates a rolling average.",
+    "azure_categories": [
+      "analytics",
+      "databases"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Databases"
+    ],
+    "content_type": "architecture",
+    "title": "Stream processing with Azure Stream Analytics",
+    "last_modified": "2022-07-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cosmos-db",
+      "azure-event-hubs",
+      "azure-monitor",
+      "azure-stream-analytics"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Cosmos DB",
+      "Azure Event Hubs",
+      "Azure Monitor",
+      "Azure Stream Analytics"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/data/stream-processing-stream-analytics",
+    "id": "a94696f5809c"
+  },
+  {
+    "summary": "Learn how to integrate MongoDB Atlas with Microsoft Fabric by using open mirroring to keep data tables in sync with operational data changes.",
+    "azure_categories": [
+      "analytics"
+    ],
+    "display_azure_categories": [
+      "Analytics"
+    ],
+    "content_type": "architecture",
+    "title": "Sync MongoDB Atlas data changes to Microsoft Fabric",
+    "last_modified": "2026-03-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "fabric"
+    ],
+    "display_products": [
+      "Microsoft Fabric"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/analytics/sync-mongodb-atlas-fabric-analytics",
+    "id": "fba43547dfa8"
+  },
+  {
+    "summary": "Learn tips for how to troubleshoot a VPN gateway connection between an on-premises network and Azure.",
+    "azure_categories": [
+      "hybrid",
+      "networking"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Networking"
+    ],
+    "content_type": "architecture",
+    "title": "Troubleshoot a hybrid VPN connection",
+    "last_modified": "2025-02-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-network",
+      "azure-vpn-gateway",
+      "windows-server"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual Network",
+      "Azure VPN Gateway",
+      "Windows Server"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/troubleshoot-vpn",
+    "id": "c74251f214cd"
+  },
+  {
+    "summary": "Learn how to transform unstructured image and text data into full-text searchable content with Azure AI Search prebuilt skills and custom skills.",
+    "azure_categories": [
+      "ai-machine-learning"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning"
+    ],
+    "content_type": "solution-idea",
+    "title": "Use AI enrichment with image and text processing",
+    "last_modified": "2025-09-30T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-blob-storage",
+      "azure-cognitive-search",
+      "azure-functions"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Blob Storage",
+      "Azure AI Search",
+      "Azure Functions"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/solution-ideas/articles/ai-search-skillsets",
+    "id": "2024af93a201"
+  },
+  {
+    "summary": "Learn how to use AI and machine learning to forecast a customer's future order quantity for a specific SKU. See the Azure services that you can use in this solution.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "analytics"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Analytics"
+    ],
+    "content_type": "solution-idea",
+    "title": "Use AI to forecast customer orders",
+    "last_modified": "2026-02-09T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-machine-learning",
+      "fabric",
+      "azure-data-lake",
+      "azure-sql-database",
+      "power-platform",
+      "power-apps"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Machine Learning",
+      "Microsoft Fabric",
+      "Azure Data Lake",
+      "Azure SQL Database",
+      "Microsoft Power Platform",
+      "Power Apps"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/idea/next-order-forecasting",
+    "id": "028906c57b31"
+  },
+  {
+    "summary": "An API gateway sits between clients and services and acts as a reverse proxy. Learn how to choose an API gateway technology for a microservice.",
+    "azure_categories": [
+      "web",
+      "developer-tools"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Developer Tools"
+    ],
+    "content_type": "architecture",
+    "title": "Use API gateways in microservices",
+    "last_modified": "2025-02-01T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-application-gateway",
+      "azure-api-management"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Application Gateway",
+      "Azure API Management"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/microservices/design/gateway",
+    "id": "6cd5cfb01245"
+  },
+  {
+    "summary": "Learn how to use Application Gateway for Containers with your AKS cluster to expose microservice-based applications to the internet.",
+    "azure_categories": [
+      "containers",
+      "networking",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Networking",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Use Application Gateway for Containers with a multitenant Azure Kubernetes Service cluster",
+    "last_modified": "2026-06-25T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-application-gateway",
+      "azure-front-door",
+      "azure-private-link",
+      "azure-web-application-firewall",
+      "azure-key-vault",
+      "azure-container-registry",
+      "azure-kubernetes-service",
+      "azure-bastion"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Application Gateway",
+      "Azure Front Door",
+      "Azure Private Link",
+      "Azure Web Application Firewall",
+      "Azure Key Vault",
+      "Azure Container Registry",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Bastion"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/aks-agic/aks-agc",
+    "id": "726794359b7e"
+  },
+  {
+    "summary": "Learn about an approach for machine learning operations (MLOps) that uses Azure Databricks to run model training and batch scoring.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Open Source"
+    ],
+    "content_type": "solution-idea",
+    "title": "Use Azure Databricks to orchestrate MLOps",
+    "last_modified": "2026-04-02T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-databricks"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Databricks"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/idea/orchestrate-machine-learning-azure-databricks",
+    "id": "524533cb39d6"
+  },
+  {
+    "summary": "Learn how to secure AKS workloads by using end-to-end TLS encryption, Azure Front Door Premium, an Azure Private Link service, and a Gateway API ingress implementation.",
+    "azure_categories": [
+      "containers",
+      "networking",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Networking",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Use Azure Front Door to secure AKS workloads",
+    "last_modified": "2025-02-14T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-front-door",
+      "azure-key-vault",
+      "azure-private-link",
+      "azure-container-registry",
+      "azure-kubernetes-service"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Front Door",
+      "Azure Key Vault",
+      "Azure Private Link",
+      "Azure Container Registry",
+      "Azure Kubernetes Service (AKS)"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/aks-front-door/aks-front-door",
+    "id": "1dac3399d243"
+  },
+  {
+    "summary": "Learn how to use the Azure IoT Hub file upload feature to privately upload files to an Azure Storage account exposed through a firewall and custom domain.",
+    "azure_categories": [
+      "iot"
+    ],
+    "display_azure_categories": [
+      "Internet of Things"
+    ],
+    "content_type": "solution-idea",
+    "title": "Use Azure IoT Hub to privately upload files to an Azure Storage account",
+    "last_modified": "2026-11-03T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-iot-hub",
+      "azure-storage",
+      "azure-firewall",
+      "azure-virtual-network",
+      "azure-application-gateway"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure IoT Hub",
+      "Azure Storage",
+      "Azure Firewall",
+      "Azure Virtual Network",
+      "Azure Application Gateway"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/iot/iot-private-file-upload",
+    "id": "c7c45383ee42"
+  },
+  {
+    "summary": "Learn how to use an Azure Red Hat OpenShift landing zone to create secure, resilient, and compliant solutions in a hybrid cloud environment.",
+    "azure_categories": [
+      "containers",
+      "hybrid",
+      "security",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Containers",
+      "Hybrid + multicloud",
+      "Security",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Use Azure Red Hat OpenShift in the financial services industry",
+    "last_modified": "2025-09-24T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-redhat-openshift"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Red Hat OpenShift"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aro/azure-redhat-openshift-financial-services-workloads",
+    "id": "cb1bd9f2743a"
+  },
+  {
+    "summary": "Use Azure Event Hubs, Azure Synapse Analytics, and Azure Data Lake Storage to create an end-to-end, near real-time data lakehouse data processing solution.",
+    "azure_categories": [
+      "analytics",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "Use Azure Synapse Analytics for near real-time lakehouse data processing",
+    "last_modified": "2025-06-10T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-cognitive-search",
+      "azure-cosmos-db",
+      "azure-data-lake",
+      "azure-event-hubs",
+      "azure-synapse-analytics"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure AI Search",
+      "Azure Cosmos DB",
+      "Azure Data Lake",
+      "Azure Event Hubs",
+      "Azure Synapse Analytics"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/data/real-time-lakehouse-data-processing",
+    "id": "90eb450f6141"
+  },
+  {
+    "summary": "With identity-based authentication, you can control access to Azure file shares by using the Active Directory Domain Services.",
+    "azure_categories": [
+      "hybrid",
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Hybrid + multicloud",
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Use Azure file shares in a hybrid environment",
+    "last_modified": "2022-09-20T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-files"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure Files"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/hybrid/azure-file-share",
+    "id": "368292090f61"
+  },
+  {
+    "summary": "Explore an enterprise BI architecture that moves data from an on-premises data warehouse into Microsoft Fabric and transforms the data for analysis.",
+    "azure_categories": [
+      "analytics",
+      "databases",
+      "integration"
+    ],
+    "display_azure_categories": [
+      "Analytics",
+      "Databases",
+      "Integration"
+    ],
+    "content_type": "architecture",
+    "title": "Use Microsoft Fabric to design an enterprise BI solution",
+    "last_modified": "2025-11-01T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "fabric",
+      "azure",
+      "azure-blob-storage",
+      "entra",
+      "entra-id",
+      "power-platform",
+      "power-bi"
+    ],
+    "display_products": [
+      "Microsoft Fabric",
+      "Azure",
+      "Azure Blob Storage",
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Microsoft Power Platform",
+      "Power BI"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/analytics/enterprise-bi-microsoft-fabric",
+    "id": "ba356643c9af"
+  },
+  {
+    "summary": "Learn how to use Qlik Replicate to migrate mainframe and midrange systems to the cloud or extend those systems by using cloud applications.",
+    "azure_categories": [
+      "migration"
+    ],
+    "display_azure_categories": [
+      "Migration"
+    ],
+    "content_type": "architecture",
+    "title": "Use Qlik to replicate mainframe and midrange data to Azure",
+    "last_modified": "2026-05-29T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-event-hubs",
+      "azure-data-lake",
+      "azure-databricks"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Event Hubs",
+      "Azure Data Lake",
+      "Azure Databricks"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/mainframe/mainframe-midrange-data-replication-azure-qlik",
+    "id": "461f08ac0709"
+  },
+  {
+    "summary": "Learn how to use Azure NetApp Files as a storage solution for Siemens Teamcenter product lifecycle management (PLM).",
+    "azure_categories": [
+      "storage"
+    ],
+    "display_azure_categories": [
+      "Storage"
+    ],
+    "content_type": "architecture",
+    "title": "Use Teamcenter PLM with Azure NetApp Files",
+    "last_modified": "2024-11-05T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-netapp-files",
+      "azure-sql-database"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure NetApp Files",
+      "Azure SQL Database"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/manufacturing/teamcenter-plm-netapp-files",
+    "id": "b05d8ab5aa9d"
+  },
+  {
+    "summary": "Learn how to integrate enterprise back-end systems by using a message broker and events to decouple services for greater scalability and reliability.",
+    "azure_categories": [
+      "integration",
+      "developer-tools"
+    ],
+    "display_azure_categories": [
+      "Integration",
+      "Developer Tools"
+    ],
+    "content_type": "architecture",
+    "title": "Use a message broker and events to integrate enterprise systems",
+    "last_modified": "2026-03-30T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-event-grid",
+      "azure-service-bus"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Event Grid",
+      "Azure Service Bus"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/integration/queues-events",
+    "id": "2143c2145c77"
+  },
+  {
+    "summary": "Implement a split-brain DNS configuration to differentiate traffic treatment based on DNS and whether a client originates from the internet or a corporate network.",
+    "azure_categories": [
+      "networking",
+      "security",
+      "web",
+      "hybrid"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Security",
+      "Web",
+      "Hybrid + multicloud"
+    ],
+    "content_type": "architecture",
+    "title": "Use a split-brain DNS configuration to host a web app in Azure",
+    "last_modified": "2026-04-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-front-door",
+      "azure-application-gateway",
+      "azure-expressroute",
+      "azure-dns"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Front Door",
+      "Azure Application Gateway",
+      "Azure ExpressRoute",
+      "Azure DNS"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/networking/split-brain-dns",
+    "id": "b966ff0c187a"
+  },
+  {
+    "summary": "Learn how to manage and deploy a many-models architecture by using Azure Machine Learning and compute clusters to scale machine learning models.",
+    "azure_categories": [
+      "ai-machine-learning",
+      "analytics"
+    ],
+    "display_azure_categories": [
+      "AI + Machine Learning",
+      "Analytics"
+    ],
+    "content_type": "architecture",
+    "title": "Use the many-models architecture approach to scale machine learning models",
+    "last_modified": "2025-01-28T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-data-factory",
+      "azure-data-lake",
+      "azure-databricks",
+      "azure-machine-learning",
+      "azure-synapse-analytics"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Data Factory",
+      "Azure Data Lake",
+      "Azure Databricks",
+      "Azure Machine Learning",
+      "Azure Synapse Analytics"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/idea/many-models-machine-learning-azure-machine-learning",
+    "id": "eabcfd3b512a"
+  },
+  {
+    "summary": "Use a token or key that provides clients with restricted direct access to a specific resource or service.",
+    "azure_categories": [
+      "compute",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Compute",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Valet Key pattern",
+    "last_modified": "2024-05-08T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-storage"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Storage"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/patterns/valet-key",
+    "id": "4936902917f3"
+  },
+  {
+    "summary": "Learn how to design a single network that has varying security and performance requirements.",
+    "azure_categories": [
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Virtual WAN architecture optimized for department-specific requirements",
+    "last_modified": "2024-09-20T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-virtual-wan",
+      "azure-expressroute",
+      "azure-virtual-network"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Virtual WAN",
+      "Azure ExpressRoute",
+      "Azure Virtual Network"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/architecture/performance-security-optimized-vwan",
+    "id": "b6ea3f8c39e5"
+  },
+  {
+    "summary": "This article describes a pattern for exposing shared services, such as DNS, in a hub-and-spoke topology that uses Azure Virtual WAN.",
+    "azure_categories": [
+      "networking",
+      "security"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Security"
+    ],
+    "content_type": "architecture",
+    "title": "Virtual hub extension pattern",
+    "last_modified": "2023-04-26T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-private-link",
+      "azure-dns",
+      "azure-firewall",
+      "azure-virtual-wan"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Private Link",
+      "Azure DNS",
+      "Azure Firewall",
+      "Azure Virtual WAN"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/networking/guide/private-link-virtual-wan-dns-virtual-hub-extension-pattern",
+    "id": "6b4e08a8eff1"
+  },
+  {
+    "summary": "Compare virtual network peering and VPN gateways for Azure connectivity. Learn spoke-to-spoke communication patterns in hub-and-spoke architectures.",
+    "azure_categories": [
+      "networking",
+      "integration"
+    ],
+    "display_azure_categories": [
+      "Networking",
+      "Integration"
+    ],
+    "content_type": "architecture",
+    "title": "Virtual network connectivity options and spoke-to-spoke communication",
+    "last_modified": "2025-09-16T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "entra",
+      "entra-id",
+      "azure",
+      "azure-virtual-network",
+      "azure-vpn-gateway",
+      "virtual-network-manager"
+    ],
+    "display_products": [
+      "Microsoft Entra",
+      "Microsoft Entra ID",
+      "Azure",
+      "Azure Virtual Network",
+      "Azure VPN Gateway",
+      "Azure Virtual Network Manager"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/virtual-network-peering",
+    "id": "0d21d9458ce1"
+  },
+  {
+    "summary": "Learn how to use Azure Front Door, Azure App Service, and other Azure services to deploy a highly scalable and secure installation of WordPress.",
+    "azure_categories": [
+      "web",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "WordPress on App Service",
+    "last_modified": "2026-05-04T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-front-door",
+      "azure-load-balancer",
+      "azure-virtual-network",
+      "azure-app-service",
+      "azure-database-mysql"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Front Door",
+      "Azure Load Balancer",
+      "Azure Virtual Network",
+      "Azure App Service",
+      "Azure Database for MySQL"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/infrastructure/wordpress-app-service",
+    "id": "16dc8d3411fa"
+  },
+  {
+    "summary": "Learn about multiple options for hosting WordPress on Azure. See guidance and tips for deploying a secure, scalable, and cost-effective WordPress installation.",
+    "azure_categories": [
+      "web",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "WordPress on Azure",
+    "last_modified": "2023-06-30T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-front-door",
+      "azure-kubernetes-service",
+      "azure-web-application-firewall",
+      "azure-private-link"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Front Door",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Web Application Firewall",
+      "Azure Private Link"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/guide/infrastructure/wordpress-overview",
+    "id": "a11d6c59343d"
+  },
+  {
+    "summary": "Learn how to use Azure Kubernetes Service (AKS) to deploy a highly scalable and secure installation of WordPress for large, storage-intensive applications.",
+    "azure_categories": [
+      "web",
+      "containers",
+      "open-source"
+    ],
+    "display_azure_categories": [
+      "Web",
+      "Containers",
+      "Open Source"
+    ],
+    "content_type": "architecture",
+    "title": "WordPress on Azure Kubernetes Service",
+    "last_modified": "2026-05-04T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-managed-redis",
+      "azure-front-door",
+      "azure-kubernetes-service",
+      "azure-load-balancer",
+      "azure-netapp-files"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure Managed Redis",
+      "Azure Front Door",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Load Balancer",
+      "Azure NetApp Files"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/example-scenario/infrastructure/wordpress-container",
+    "id": "9090a69551e6"
+  },
+  {
+    "summary": "Learn how to design a write-through caching workload that uses Azure App Service, Azure Functions, Azure SQL Database, and Azure Managed Redis.",
+    "azure_categories": [
+      "databases",
+      "web"
+    ],
+    "display_azure_categories": [
+      "Databases",
+      "Web"
+    ],
+    "content_type": "architecture",
+    "title": "Write-through caching with Azure Managed Redis and Azure SQL Database",
+    "last_modified": "2026-06-30T00:00:00Z",
+    "locale": "en-us",
+    "products": [
+      "azure",
+      "azure-app-service",
+      "azure-functions",
+      "azure-sql-database",
+      "azure-managed-redis",
+      "azure-monitor"
+    ],
+    "display_products": [
+      "Azure",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure SQL Database",
+      "Azure Managed Redis",
+      "Azure Monitor"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/databases/architecture/write-through-caching-azure-sql-managed-redis",
+    "id": "e32aab2f0037"
+  }
+]

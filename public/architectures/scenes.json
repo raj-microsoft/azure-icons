@@ -1,0 +1,4184 @@
+{
+  "b682e0dbe666": {
+    "archetype": "brain-agents",
+    "seed": 517834831,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      }
+    ],
+    "duration": 4043,
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "reviewed": true
+  },
+  "f7b91caceee7": {
+    "archetype": "bridge-migration",
+    "seed": 1272620189,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      },
+      {
+        "id": "recovery-services-vaults",
+        "name": "Recovery Services Vaults"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 4197,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "a062f0df3ae3": {
+    "archetype": "globe-network",
+    "seed": 1512508744,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      }
+    ],
+    "duration": 4868,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "fad34c88867e": {
+    "archetype": "harbor-containers",
+    "seed": 2030360982,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "container-registries",
+        "name": "Container Registries"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      }
+    ],
+    "duration": 4309,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "c69c5cbd25ef": {
+    "archetype": "data-lake",
+    "seed": 3211191012,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      },
+      {
+        "id": "event-hubs",
+        "name": "Event Hubs"
+      }
+    ],
+    "duration": 4219,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "ccb5bcc169e0": {
+    "archetype": "bridge-migration",
+    "seed": 1236704309,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      }
+    ],
+    "duration": 4266,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "2646a6d1db65": {
+    "archetype": "compute-workshop",
+    "seed": 1947905344,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 8,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-virtual-desktop",
+        "name": "Azure Virtual Desktop"
+      },
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      }
+    ],
+    "duration": 5879,
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "reviewed": true
+  },
+  "316443b3463d": {
+    "archetype": "neighbor-apartments",
+    "seed": 396667780,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 2,
+    "label": "",
+    "actors": [],
+    "duration": 5546,
+    "reason": "Separate tenant homes share a common infrastructure foundation.",
+    "reviewed": true
+  },
+  "bb3661e303db": {
+    "archetype": "conveyor-devops",
+    "seed": 1629780442,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      },
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps"
+      }
+    ],
+    "duration": 5960,
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "reviewed": true
+  },
+  "dcb8c2defbc5": {
+    "archetype": "document-press",
+    "seed": 3482418284,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      },
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      }
+    ],
+    "duration": 5946,
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "reviewed": true
+  },
+  "78d4188053a8": {
+    "archetype": "conveyor-devops",
+    "seed": 764688226,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      },
+      {
+        "id": "azure-cloud-shell",
+        "name": "Azure Cloud Shell"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 4073,
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "reviewed": true
+  },
+  "e08a4d1bb046": {
+    "archetype": "document-press",
+    "seed": 503304688,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      },
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      }
+    ],
+    "duration": 5162,
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "reviewed": true
+  },
+  "e3d6658e9e8b": {
+    "archetype": "stage-media",
+    "seed": 4169657641,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning"
+      },
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      }
+    ],
+    "duration": 5855,
+    "reason": "Editorial review: a playhead scans a media frame on a broadcast stage.",
+    "reviewed": true
+  },
+  "efa363a40898": {
+    "archetype": "switchyard-routing",
+    "seed": 2298047197,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      }
+    ],
+    "duration": 4748,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "a1573fed594d": {
+    "archetype": "hybrid-islands",
+    "seed": 2880792529,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      }
+    ],
+    "duration": 4853,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "b80d083bfd06": {
+    "archetype": "switchyard-routing",
+    "seed": 2369873078,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "dns-zones",
+        "name": "DNS Zones"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      }
+    ],
+    "duration": 4734,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "f3798cb50e56": {
+    "archetype": "data-lake",
+    "seed": 470920062,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      }
+    ],
+    "duration": 4720,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "6b7b5772631f": {
+    "archetype": "shield-fortress",
+    "seed": 2612598985,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      }
+    ],
+    "duration": 5339,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "249b90e495c7": {
+    "archetype": "recovery-lighthouse",
+    "seed": 981541936,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 11,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      }
+    ],
+    "duration": 5411,
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "reviewed": true
+  },
+  "0f6d9fc0c075": {
+    "archetype": "hybrid-islands",
+    "seed": 3010116982,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      },
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      }
+    ],
+    "duration": 4676,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "95159e185308": {
+    "archetype": "hybrid-islands",
+    "seed": 2910372838,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "azure-local",
+        "name": "Azure Local"
+      },
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      }
+    ],
+    "duration": 4379,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "106bf18ad9fb": {
+    "archetype": "hybrid-islands",
+    "seed": 3591651053,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-local",
+        "name": "Azure Local"
+      },
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      }
+    ],
+    "duration": 4125,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "1fd9c316dc70": {
+    "archetype": "hybrid-islands",
+    "seed": 2455210170,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-local",
+        "name": "Azure Local"
+      },
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      }
+    ],
+    "duration": 5179,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "6ffc085868bb": {
+    "archetype": "data-lake",
+    "seed": 3098963581,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      },
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning"
+      }
+    ],
+    "duration": 4874,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "e17f647ad889": {
+    "archetype": "hybrid-islands",
+    "seed": 4103436615,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-local",
+        "name": "Azure Local"
+      },
+      {
+        "id": "azure-virtual-desktop",
+        "name": "Azure Virtual Desktop"
+      }
+    ],
+    "duration": 5923,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "ca92fe571a6a": {
+    "archetype": "compute-workshop",
+    "seed": 2461800720,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "bastions",
+        "name": "Bastions"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      }
+    ],
+    "duration": 4435,
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "reviewed": true
+  },
+  "b0348226be08": {
+    "archetype": "compute-workshop",
+    "seed": 2074363515,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "bastions",
+        "name": "Bastions"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      }
+    ],
+    "duration": 4852,
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "reviewed": true
+  },
+  "7171af091357": {
+    "archetype": "hybrid-islands",
+    "seed": 1811375089,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "dns-zones",
+        "name": "DNS Zones"
+      },
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      },
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      }
+    ],
+    "duration": 5855,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "2c133e00be57": {
+    "archetype": "hybrid-islands",
+    "seed": 2766237095,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 11,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "azure-local",
+        "name": "Azure Local"
+      },
+      {
+        "id": "foundry-local",
+        "name": "Foundry Local"
+      }
+    ],
+    "duration": 4668,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "9b407ac308a1": {
+    "archetype": "brain-agents",
+    "seed": 432797666,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "container-registries",
+        "name": "Container Registries"
+      }
+    ],
+    "duration": 5376,
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "reviewed": true
+  },
+  "5943c2edf616": {
+    "archetype": "brain-agents",
+    "seed": 2907016777,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      }
+    ],
+    "duration": 5996,
+    "reason": "A coordinated reasoning engine behind an enterprise chat experience.",
+    "reviewed": true
+  },
+  "219bcb15941a": {
+    "archetype": "brain-agents",
+    "seed": 279892963,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-openai",
+        "name": "Azure OpenAI"
+      },
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "app-services",
+        "name": "App Services"
+      }
+    ],
+    "duration": 5087,
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "reviewed": true
+  },
+  "790f1bf3d7a9": {
+    "archetype": "harbor-containers",
+    "seed": 3277086840,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "container-registries",
+        "name": "Container Registries"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      }
+    ],
+    "duration": 5116,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "c22532d0e4fa": {
+    "archetype": "recovery-lighthouse",
+    "seed": 4180300588,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      }
+    ],
+    "duration": 5483,
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "reviewed": true
+  },
+  "e21eab3ab79c": {
+    "archetype": "brain-agents",
+    "seed": 2216725124,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      }
+    ],
+    "duration": 5316,
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "reviewed": true
+  },
+  "3a540683696d": {
+    "archetype": "switchyard-routing",
+    "seed": 1919176932,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      },
+      {
+        "id": "dns-zones",
+        "name": "DNS Zones"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      }
+    ],
+    "duration": 5824,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "a9a47d81440a": {
+    "archetype": "city-web",
+    "seed": 831074313,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 4984,
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "reviewed": true
+  },
+  "19a1bcc64676": {
+    "archetype": "conveyor-devops",
+    "seed": 3653327604,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "container-registries",
+        "name": "Container Registries"
+      }
+    ],
+    "duration": 5854,
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "reviewed": true
+  },
+  "5932408d900a": {
+    "archetype": "brain-agents",
+    "seed": 3966231772,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      }
+    ],
+    "duration": 5648,
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "reviewed": true
+  },
+  "5fb4a299e984": {
+    "archetype": "data-lake",
+    "seed": 4112680723,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 8,
+    "label": "DATA PLATFORM",
+    "actors": [
+      {
+        "id": "data-lake-storage-gen1",
+        "name": "Data Lake Storage Gen1"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      },
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      }
+    ],
+    "duration": 5411,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "a76e90e24c88": {
+    "archetype": "brain-agents",
+    "seed": 3449858563,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 8,
+    "label": "",
+    "actors": [
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      }
+    ],
+    "duration": 4496,
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "reviewed": true
+  },
+  "e88156052d66": {
+    "archetype": "document-press",
+    "seed": 3234910749,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      },
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning"
+      }
+    ],
+    "duration": 4102,
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "reviewed": true
+  },
+  "3ddc918809d1": {
+    "archetype": "city-web",
+    "seed": 3114137721,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "azure-local",
+        "name": "Azure Local"
+      }
+    ],
+    "duration": 5431,
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "reviewed": true
+  },
+  "773fa8de228e": {
+    "archetype": "observatory-monitoring",
+    "seed": 337281019,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-data-explorer-clusters",
+        "name": "Azure Data Explorer Clusters"
+      },
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      }
+    ],
+    "duration": 4463,
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "reviewed": true
+  },
+  "7bce33c1e155": {
+    "archetype": "shield-fortress",
+    "seed": 3637083202,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [],
+    "duration": 5570,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "57eadaa44555": {
+    "archetype": "shield-fortress",
+    "seed": 1387709956,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [],
+    "duration": 4448,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "9ee8c8ede198": {
+    "archetype": "compute-workshop",
+    "seed": 3606966463,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      }
+    ],
+    "duration": 5882,
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "reviewed": true
+  },
+  "74295cd6707a": {
+    "archetype": "globe-network",
+    "seed": 145643282,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      }
+    ],
+    "duration": 4497,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "128ecd9f6027": {
+    "archetype": "cache-pantry",
+    "seed": 1096358504,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-managed-redis",
+        "name": "Azure Managed Redis"
+      }
+    ],
+    "duration": 4599,
+    "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
+    "reviewed": true
+  },
+  "ae09e88348f2": {
+    "archetype": "cache-pantry",
+    "seed": 3912752952,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-managed-redis",
+        "name": "Azure Managed Redis"
+      },
+      {
+        "id": "azure-database-postgresql-server",
+        "name": "Azure Database PostgreSQL Server"
+      },
+      {
+        "id": "app-services",
+        "name": "App Services"
+      }
+    ],
+    "duration": 5554,
+    "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
+    "reviewed": true
+  },
+  "306e470d9950": {
+    "archetype": "identity-key",
+    "seed": 25642369,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "event-grid-topics",
+        "name": "Event Grid Topics"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      }
+    ],
+    "duration": 5555,
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "reviewed": true
+  },
+  "da7eae780152": {
+    "archetype": "gate-vault",
+    "seed": 2898642431,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      }
+    ],
+    "duration": 5835,
+    "reason": "Editorial review: a parcel passes a controlled gate into a secure vault.",
+    "reviewed": true
+  },
+  "d5576a941956": {
+    "archetype": "harbor-containers",
+    "seed": 778978199,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      }
+    ],
+    "duration": 4905,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "c7e33caaa1fe": {
+    "archetype": "data-lake",
+    "seed": 1951788496,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 8,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      },
+      {
+        "id": "power-platform",
+        "name": "Power Platform"
+      }
+    ],
+    "duration": 5090,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "594a48f85e12": {
+    "archetype": "document-press",
+    "seed": 2563218855,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      }
+    ],
+    "duration": 5887,
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "reviewed": true
+  },
+  "b160e83e0501": {
+    "archetype": "recovery-lighthouse",
+    "seed": 2009030391,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "sql-managed-instance",
+        "name": "SQL Managed Instance"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      }
+    ],
+    "duration": 4378,
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "reviewed": true
+  },
+  "98e2b5da298b": {
+    "archetype": "pipeline-factory",
+    "seed": 2856048950,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      },
+      {
+        "id": "container-registries",
+        "name": "Container Registries"
+      }
+    ],
+    "duration": 5640,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "9535215ebefc": {
+    "archetype": "archive-library",
+    "seed": 1032927834,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 5629,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "64dfd1b966fc": {
+    "archetype": "identity-key",
+    "seed": 1875591832,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 4505,
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "reviewed": true
+  },
+  "1c3ecbf26261": {
+    "archetype": "pipeline-factory",
+    "seed": 1974016465,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      },
+      {
+        "id": "azure-red-hat-openshift",
+        "name": "Azure Red Hat OpenShift"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      }
+    ],
+    "duration": 5951,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "540a00ad3419": {
+    "archetype": "harbor-containers",
+    "seed": 3210436591,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 11,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "azure-service-bus",
+        "name": "Azure Service Bus"
+      }
+    ],
+    "duration": 4175,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "46ef47ced42b": {
+    "archetype": "recovery-lighthouse",
+    "seed": 2777435985,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "sql-managed-instance",
+        "name": "SQL Managed Instance"
+      }
+    ],
+    "duration": 5962,
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "reviewed": true
+  },
+  "806e8c650e0f": {
+    "archetype": "conveyor-devops",
+    "seed": 2407923653,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "azure-local",
+        "name": "Azure Local"
+      },
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      }
+    ],
+    "duration": 4293,
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "reviewed": true
+  },
+  "4ad14902359a": {
+    "archetype": "harbor-containers",
+    "seed": 368827482,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "azure-managed-redis",
+        "name": "Azure Managed Redis"
+      }
+    ],
+    "duration": 5161,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "70ed7046aa85": {
+    "archetype": "switchyard-routing",
+    "seed": 3471294319,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "bastions",
+        "name": "Bastions"
+      },
+      {
+        "id": "dns-zones",
+        "name": "DNS Zones"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      }
+    ],
+    "duration": 5540,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "a4cd39cd26f9": {
+    "archetype": "data-lake",
+    "seed": 1217093769,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 8,
+    "label": "REFINE → SERVE",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      }
+    ],
+    "duration": 5527,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "f8f20a9296e2": {
+    "archetype": "shield-fortress",
+    "seed": 1726077731,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning"
+      }
+    ],
+    "duration": 5124,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "2d35df912569": {
+    "archetype": "switchyard-routing",
+    "seed": 3142070219,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps"
+      }
+    ],
+    "duration": 5970,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "025d8fe56375": {
+    "archetype": "conveyor-devops",
+    "seed": 1323306177,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 11,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-sentinel",
+        "name": "Azure Sentinel"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      }
+    ],
+    "duration": 4855,
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "reviewed": true
+  },
+  "a7b884fe15ca": {
+    "archetype": "brain-agents",
+    "seed": 3271132564,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 11,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-openai",
+        "name": "Azure OpenAI"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      }
+    ],
+    "duration": 5816,
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "reviewed": true
+  },
+  "09cfe4f0f155": {
+    "archetype": "satellite-iot",
+    "seed": 237217643,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "iot-edge",
+        "name": "IoT Edge"
+      },
+      {
+        "id": "iot-hub",
+        "name": "IoT Hub"
+      }
+    ],
+    "duration": 5094,
+    "reason": "Editorial review: a satellite gathers signals from connected devices.",
+    "reviewed": true
+  },
+  "fad43a526fce": {
+    "archetype": "identity-key",
+    "seed": 3577500715,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [],
+    "duration": 4859,
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "reviewed": true
+  },
+  "1d15db20db37": {
+    "archetype": "identity-key",
+    "seed": 1377330610,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 6,
+    "label": "",
+    "actors": [],
+    "duration": 4289,
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "reviewed": true
+  },
+  "d1d00c83bc4e": {
+    "archetype": "identity-key",
+    "seed": 2037475494,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [],
+    "duration": 5266,
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "reviewed": true
+  },
+  "e21cc9a51c89": {
+    "archetype": "city-web",
+    "seed": 635367099,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      }
+    ],
+    "duration": 5575,
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "reviewed": true
+  },
+  "30c9fba8440d": {
+    "archetype": "recovery-lighthouse",
+    "seed": 325853423,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      }
+    ],
+    "duration": 4578,
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "reviewed": true
+  },
+  "f42f02341ad8": {
+    "archetype": "cache-pantry",
+    "seed": 1342130712,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      }
+    ],
+    "duration": 5983,
+    "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
+    "reviewed": true
+  },
+  "f924fc808e1b": {
+    "archetype": "observatory-monitoring",
+    "seed": 113091217,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      },
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      }
+    ],
+    "duration": 4700,
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "reviewed": true
+  },
+  "0e8aff8650ec": {
+    "archetype": "document-press",
+    "seed": 2818572530,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      }
+    ],
+    "duration": 5949,
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "reviewed": true
+  },
+  "29adbe29538a": {
+    "archetype": "document-press",
+    "seed": 2150913418,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "power-platform",
+        "name": "Power Platform"
+      },
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      }
+    ],
+    "duration": 4499,
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "reviewed": true
+  },
+  "e774254d55e0": {
+    "archetype": "pipeline-factory",
+    "seed": 842947608,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      }
+    ],
+    "duration": 4345,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "fde11ccf9523": {
+    "archetype": "switchyard-routing",
+    "seed": 2186634781,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      }
+    ],
+    "duration": 4010,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "bb3324b96029": {
+    "archetype": "bridge-migration",
+    "seed": 2983076667,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      }
+    ],
+    "duration": 5875,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "07a98bac6a47": {
+    "archetype": "document-press",
+    "seed": 645271944,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      }
+    ],
+    "duration": 5470,
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "reviewed": true
+  },
+  "fc625e7a3b56": {
+    "archetype": "conveyor-devops",
+    "seed": 379471150,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      }
+    ],
+    "duration": 5510,
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "reviewed": true
+  },
+  "a30f4a5e2ece": {
+    "archetype": "data-lake",
+    "seed": 3110929739,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 8,
+    "label": "SHARED LAKE",
+    "actors": [
+      {
+        "id": "power-platform",
+        "name": "Power Platform"
+      }
+    ],
+    "duration": 5052,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "84e8df38398a": {
+    "archetype": "globe-network",
+    "seed": 3518093658,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      },
+      {
+        "id": "dns-zones",
+        "name": "DNS Zones"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      }
+    ],
+    "duration": 5491,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "a1547d50dae6": {
+    "archetype": "recovery-lighthouse",
+    "seed": 4033510016,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 4269,
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "reviewed": true
+  },
+  "bd6da872edba": {
+    "archetype": "pipeline-factory",
+    "seed": 3253249049,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 11,
+    "label": "",
+    "actors": [
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "azure-service-bus",
+        "name": "Azure Service Bus"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      }
+    ],
+    "duration": 5238,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "4aa8f5090664": {
+    "archetype": "city-web",
+    "seed": 2862203681,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "sql-server",
+        "name": "SQL Server"
+      }
+    ],
+    "duration": 5295,
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "reviewed": true
+  },
+  "f6b46546aa23": {
+    "archetype": "globe-network",
+    "seed": 1117058797,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "bastions",
+        "name": "Bastions"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 4547,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "98f996ba26af": {
+    "archetype": "globe-network",
+    "seed": 3276598080,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-wans",
+        "name": "Virtual WANs"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      }
+    ],
+    "duration": 4600,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "0e0ecf04a4f7": {
+    "archetype": "observatory-monitoring",
+    "seed": 21650322,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "event-hubs",
+        "name": "Event Hubs"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      }
+    ],
+    "duration": 5503,
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "reviewed": true
+  },
+  "0253120e7c0a": {
+    "archetype": "hybrid-islands",
+    "seed": 2631712126,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      },
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      }
+    ],
+    "duration": 4928,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "3324714746cc": {
+    "archetype": "harbor-containers",
+    "seed": 727012584,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps"
+      }
+    ],
+    "duration": 5260,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "74d4678546a9": {
+    "archetype": "stage-media",
+    "seed": 4121241374,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      }
+    ],
+    "duration": 5784,
+    "reason": "Editorial review: a playhead scans a media frame on a broadcast stage.",
+    "reviewed": true
+  },
+  "f48bfe664b1d": {
+    "archetype": "shield-fortress",
+    "seed": 3764829767,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      }
+    ],
+    "duration": 4293,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "d1dc86b4387f": {
+    "archetype": "shield-fortress",
+    "seed": 3809287213,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 5522,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "c719b49f353d": {
+    "archetype": "identity-key",
+    "seed": 152491983,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      }
+    ],
+    "duration": 5776,
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "reviewed": true
+  },
+  "76daa28b7272": {
+    "archetype": "pipeline-factory",
+    "seed": 4129063058,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 3,
+    "label": "SHARED LAKE",
+    "actors": [
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      },
+      {
+        "id": "iot-hub",
+        "name": "IoT Hub"
+      },
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      }
+    ],
+    "duration": 5559,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "53b6ebb8ceda": {
+    "archetype": "shield-fortress",
+    "seed": 771394079,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-sentinel",
+        "name": "Azure Sentinel"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      },
+      {
+        "id": "microsoft-defender-for-cloud",
+        "name": "Microsoft Defender for Cloud"
+      }
+    ],
+    "duration": 4575,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "af20ff83688a": {
+    "archetype": "switchyard-routing",
+    "seed": 986505404,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      },
+      {
+        "id": "sql-managed-instance",
+        "name": "SQL Managed Instance"
+      }
+    ],
+    "duration": 4398,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "18989457bf00": {
+    "archetype": "satellite-iot",
+    "seed": 1230776504,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "azure-data-explorer-clusters",
+        "name": "Azure Data Explorer Clusters"
+      },
+      {
+        "id": "digital-twins",
+        "name": "Digital Twins"
+      }
+    ],
+    "duration": 5424,
+    "reason": "Editorial review: a satellite gathers signals from connected devices.",
+    "reviewed": true
+  },
+  "3c12769e028b": {
+    "archetype": "bridge-migration",
+    "seed": 3234923803,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "data-lake-storage-gen1",
+        "name": "Data Lake Storage Gen1"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 5150,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "fd9acc6a2465": {
+    "archetype": "conveyor-devops",
+    "seed": 838509861,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      }
+    ],
+    "duration": 4816,
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "reviewed": true
+  },
+  "ef04ef451975": {
+    "archetype": "shield-fortress",
+    "seed": 3543858808,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "policy",
+        "name": "Policy"
+      }
+    ],
+    "duration": 5765,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "0b0193b9775b": {
+    "archetype": "neighbor-apartments",
+    "seed": 835491284,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 4,
+    "label": "",
+    "actors": [],
+    "duration": 5748,
+    "reason": "Editorial review: separate tenants share the same building and its resources.",
+    "reviewed": true
+  },
+  "157a5e7265ff": {
+    "archetype": "shield-fortress",
+    "seed": 693352957,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 11,
+    "label": "",
+    "actors": [],
+    "duration": 4454,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "174dd11ad366": {
+    "archetype": "globe-network",
+    "seed": 2699161493,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-wans",
+        "name": "Virtual WANs"
+      },
+      {
+        "id": "vm-scale-sets",
+        "name": "VM Scale Sets"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      }
+    ],
+    "duration": 4587,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "d0744b1d351d": {
+    "archetype": "orchard-analytics",
+    "seed": 3720912656,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      },
+      {
+        "id": "power-platform",
+        "name": "Power Platform"
+      }
+    ],
+    "duration": 5130,
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "reviewed": true
+  },
+  "d5e36b20265f": {
+    "archetype": "switchyard-routing",
+    "seed": 1253855155,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-service-bus",
+        "name": "Azure Service Bus"
+      }
+    ],
+    "duration": 4541,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "432cd28f73d9": {
+    "archetype": "harbor-containers",
+    "seed": 2637789762,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "container-registries",
+        "name": "Container Registries"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "azure-managed-redis",
+        "name": "Azure Managed Redis"
+      }
+    ],
+    "duration": 5527,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "19f5ad07aad0": {
+    "archetype": "identity-key",
+    "seed": 3206238240,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [],
+    "duration": 5923,
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "reviewed": true
+  },
+  "aa217ff86bca": {
+    "archetype": "observatory-monitoring",
+    "seed": 3929999461,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 11,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-sentinel",
+        "name": "Azure Sentinel"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      }
+    ],
+    "duration": 5444,
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "reviewed": true
+  },
+  "32a6b7b240ee": {
+    "archetype": "bridge-migration",
+    "seed": 2310355494,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      }
+    ],
+    "duration": 4894,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "2d747502449b": {
+    "archetype": "bridge-migration",
+    "seed": 420422885,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      }
+    ],
+    "duration": 4779,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "b54afc60979c": {
+    "archetype": "bridge-migration",
+    "seed": 2470919538,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "azure-managed-redis",
+        "name": "Azure Managed Redis"
+      }
+    ],
+    "duration": 4696,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "28138e73f08e": {
+    "archetype": "bridge-migration",
+    "seed": 1371851175,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      },
+      {
+        "id": "app-services",
+        "name": "App Services"
+      }
+    ],
+    "duration": 5593,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "ef4a4bfe3a16": {
+    "archetype": "bridge-migration",
+    "seed": 1840193905,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      },
+      {
+        "id": "virtual-network-gateways",
+        "name": "Virtual Network Gateways"
+      }
+    ],
+    "duration": 4268,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "bc7d83da398e": {
+    "archetype": "bridge-migration",
+    "seed": 3925869768,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      },
+      {
+        "id": "virtual-network-gateways",
+        "name": "Virtual Network Gateways"
+      }
+    ],
+    "duration": 5815,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "ad6c538e860d": {
+    "archetype": "bridge-migration",
+    "seed": 774925970,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      },
+      {
+        "id": "virtual-network-gateways",
+        "name": "Virtual Network Gateways"
+      }
+    ],
+    "duration": 4701,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "8aa9172d30d6": {
+    "archetype": "bridge-migration",
+    "seed": 3406450507,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps"
+      },
+      {
+        "id": "recovery-services-vaults",
+        "name": "Recovery Services Vaults"
+      }
+    ],
+    "duration": 4133,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "3b051d301ff8": {
+    "archetype": "bridge-migration",
+    "seed": 948299212,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-database-postgresql-server",
+        "name": "Azure Database PostgreSQL Server"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 5300,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "8612db348134": {
+    "archetype": "archive-library",
+    "seed": 3755910417,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      }
+    ],
+    "duration": 5401,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "390e0e44466a": {
+    "archetype": "harbor-containers",
+    "seed": 1741251674,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      }
+    ],
+    "duration": 5484,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "fbf65f4e93ae": {
+    "archetype": "orchard-analytics",
+    "seed": 1949787655,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 10,
+    "label": "REFINE → SERVE",
+    "actors": [
+      {
+        "id": "power-platform",
+        "name": "Power Platform"
+      }
+    ],
+    "duration": 5249,
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "reviewed": true
+  },
+  "2cfe7937c3ee": {
+    "archetype": "archive-library",
+    "seed": 16374337,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-lake-storage-gen1",
+        "name": "Data Lake Storage Gen1"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 4154,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "6aacb0049371": {
+    "archetype": "bridge-migration",
+    "seed": 46342986,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "data-lake-storage-gen1",
+        "name": "Data Lake Storage Gen1"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 5827,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "bc1b075d708e": {
+    "archetype": "city-web",
+    "seed": 2548919817,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "azure-managed-redis",
+        "name": "Azure Managed Redis"
+      },
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      }
+    ],
+    "duration": 5995,
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "reviewed": true
+  },
+  "edb8c3411690": {
+    "archetype": "bridge-migration",
+    "seed": 396915025,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      }
+    ],
+    "duration": 4667,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "db264602849f": {
+    "archetype": "shield-fortress",
+    "seed": 3634627920,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "bastions",
+        "name": "Bastions"
+      },
+      {
+        "id": "microsoft-defender-for-cloud",
+        "name": "Microsoft Defender for Cloud"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      }
+    ],
+    "duration": 5515,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "10590225fbe7": {
+    "archetype": "globe-network",
+    "seed": 1967649989,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      }
+    ],
+    "duration": 4656,
+    "reason": "Distribute incoming traffic across multiple regional hubs.",
+    "reviewed": true
+  },
+  "d743dcc4b876": {
+    "archetype": "recovery-lighthouse",
+    "seed": 3897223868,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "sql-server",
+        "name": "SQL Server"
+      }
+    ],
+    "duration": 4230,
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "reviewed": true
+  },
+  "e75742a19dbf": {
+    "archetype": "neighbor-apartments",
+    "seed": 3626487312,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 6,
+    "label": "",
+    "actors": [],
+    "duration": 4975,
+    "reason": "Editorial review: separate tenants share the same building and its resources.",
+    "reviewed": true
+  },
+  "020b6f9396cc": {
+    "archetype": "hybrid-islands",
+    "seed": 2920425820,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "sql-server",
+        "name": "SQL Server"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      }
+    ],
+    "duration": 4337,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "b37ff64cd2c1": {
+    "archetype": "archive-library",
+    "seed": 1809740328,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 5911,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "b56f3fbb4bc1": {
+    "archetype": "archive-library",
+    "seed": 3264697527,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      },
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      }
+    ],
+    "duration": 5995,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "c2ae14cc1956": {
+    "archetype": "shield-fortress",
+    "seed": 279024000,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 8,
+    "label": "",
+    "actors": [
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      }
+    ],
+    "duration": 4558,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "456f81c2ff1b": {
+    "archetype": "identity-key",
+    "seed": 3938456595,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 8,
+    "label": "",
+    "actors": [
+      {
+        "id": "cognitive-services",
+        "name": "Cognitive Services"
+      },
+      {
+        "id": "azure-openai",
+        "name": "Azure OpenAI"
+      },
+      {
+        "id": "ai-foundry",
+        "name": "AI Foundry"
+      }
+    ],
+    "duration": 4351,
+    "reason": "Editorial review: a verified key opens a controlled door.",
+    "reviewed": true
+  },
+  "452d235abf0a": {
+    "archetype": "quantum-orbits",
+    "seed": 4257780930,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 0,
+    "label": "",
+    "actors": [],
+    "duration": 5104,
+    "reason": "Editorial review: a quantum state rotates within linked classical and quantum systems.",
+    "reviewed": true
+  },
+  "945e2b7cc64b": {
+    "archetype": "pipeline-factory",
+    "seed": 3384425295,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 4,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      }
+    ],
+    "duration": 5929,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "1922e73d4d6b": {
+    "archetype": "pipeline-factory",
+    "seed": 363098788,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-service-bus",
+        "name": "Azure Service Bus"
+      }
+    ],
+    "duration": 5330,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "59fa807488d2": {
+    "archetype": "bridge-migration",
+    "seed": 61230503,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "vm-scale-sets",
+        "name": "VM Scale Sets"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      },
+      {
+        "id": "sql-managed-instance",
+        "name": "SQL Managed Instance"
+      }
+    ],
+    "duration": 5904,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "947da6f65fd5": {
+    "archetype": "bridge-migration",
+    "seed": 2822837524,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      },
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      }
+    ],
+    "duration": 4811,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "a74d6008a621": {
+    "archetype": "bridge-migration",
+    "seed": 3304826329,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      }
+    ],
+    "duration": 4742,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "74d01aab5bb3": {
+    "archetype": "bridge-migration",
+    "seed": 3706509639,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 5311,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "c53d61f9a075": {
+    "archetype": "bridge-migration",
+    "seed": 1552675199,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      },
+      {
+        "id": "sql-managed-instance",
+        "name": "SQL Managed Instance"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      }
+    ],
+    "duration": 5250,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "be738e7936e8": {
+    "archetype": "recovery-lighthouse",
+    "seed": 4222761477,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 12,
+    "label": "",
+    "actors": [],
+    "duration": 5152,
+    "reason": "Editorial review: a lighthouse guides workloads to a resilient second shore.",
+    "reviewed": true
+  },
+  "907c44fcc511": {
+    "archetype": "archive-library",
+    "seed": 3337539635,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "bastions",
+        "name": "Bastions"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 5700,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "954bc5f8941b": {
+    "archetype": "archive-library",
+    "seed": 6622413,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      }
+    ],
+    "duration": 5104,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "a2ab20c23517": {
+    "archetype": "compute-workshop",
+    "seed": 1750139982,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "recovery-services-vaults",
+        "name": "Recovery Services Vaults"
+      },
+      {
+        "id": "bastions",
+        "name": "Bastions"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      }
+    ],
+    "duration": 5350,
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "reviewed": true
+  },
+  "6f4ae4c4a8ae": {
+    "archetype": "compute-workshop",
+    "seed": 3354169663,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "recovery-services-vaults",
+        "name": "Recovery Services Vaults"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      }
+    ],
+    "duration": 5417,
+    "reason": "Editorial review: a workshop assembles scalable compute resources.",
+    "reviewed": true
+  },
+  "82804f82a0cc": {
+    "archetype": "archive-library",
+    "seed": 4166695148,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 4842,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "0b80451da0bd": {
+    "archetype": "orchard-analytics",
+    "seed": 2322931558,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      }
+    ],
+    "duration": 4673,
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "reviewed": true
+  },
+  "604b3a15cfc0": {
+    "archetype": "archive-library",
+    "seed": 1828110829,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      },
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 5231,
+    "reason": "Editorial review: a file is placed into a structured archive.",
+    "reviewed": true
+  },
+  "2b54f4c375ee": {
+    "archetype": "observatory-monitoring",
+    "seed": 3420631770,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      }
+    ],
+    "duration": 4309,
+    "reason": "Editorial review: an observatory scans the health of a running system.",
+    "reviewed": true
+  },
+  "108a9d54ad07": {
+    "archetype": "shield-fortress",
+    "seed": 323830831,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 4997,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "bc29a1182b0f": {
+    "archetype": "pipeline-factory",
+    "seed": 1956739714,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-machine",
+        "name": "Virtual Machine"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 5834,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "c0ff1264ef1a": {
+    "archetype": "globe-network",
+    "seed": 4030809346,
+    "accent": "#417f6b",
+    "count": 4,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      },
+      {
+        "id": "dns-zones",
+        "name": "DNS Zones"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      }
+    ],
+    "duration": 4949,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "c523337192ef": {
+    "archetype": "pipeline-factory",
+    "seed": 2814287360,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      },
+      {
+        "id": "event-hubs",
+        "name": "Event Hubs"
+      }
+    ],
+    "duration": 4920,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "a94696f5809c": {
+    "archetype": "pipeline-factory",
+    "seed": 2892758931,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "event-hubs",
+        "name": "Event Hubs"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      }
+    ],
+    "duration": 5275,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "fba43547dfa8": {
+    "archetype": "data-lake",
+    "seed": 3552305786,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 3,
+    "label": "",
+    "actors": [],
+    "duration": 4521,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "c74251f214cd": {
+    "archetype": "hybrid-islands",
+    "seed": 4140033689,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "virtual-network-gateways",
+        "name": "Virtual Network Gateways"
+      }
+    ],
+    "duration": 4707,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "2024af93a201": {
+    "archetype": "document-press",
+    "seed": 1529581490,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 8,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      }
+    ],
+    "duration": 5082,
+    "reason": "Editorial review: a document goes through a machine that extracts structured fields.",
+    "reviewed": true
+  },
+  "028906c57b31": {
+    "archetype": "orchard-analytics",
+    "seed": 1126727851,
+    "accent": "#2d8196",
+    "count": 4,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning"
+      },
+      {
+        "id": "data-lake-storage-gen1",
+        "name": "Data Lake Storage Gen1"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 4769,
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "reviewed": true
+  },
+  "6cd5cfb01245": {
+    "archetype": "switchyard-routing",
+    "seed": 3245437838,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "api-management-services",
+        "name": "API Management Services"
+      }
+    ],
+    "duration": 5931,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "726794359b7e": {
+    "archetype": "switchyard-routing",
+    "seed": 2946994377,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      }
+    ],
+    "duration": 5617,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "524533cb39d6": {
+    "archetype": "conveyor-devops",
+    "seed": 4256954432,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      }
+    ],
+    "duration": 5019,
+    "reason": "Editorial review: a release passes through build, test and deployment.",
+    "reviewed": true
+  },
+  "1dac3399d243": {
+    "archetype": "shield-fortress",
+    "seed": 4213295271,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "key-vaults",
+        "name": "Key Vaults"
+      },
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      }
+    ],
+    "duration": 5677,
+    "reason": "Editorial review: layered defenses protect the workload inside a fortress.",
+    "reviewed": true
+  },
+  "c7c45383ee42": {
+    "archetype": "gate-vault",
+    "seed": 3531338473,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 0,
+    "label": "",
+    "actors": [
+      {
+        "id": "iot-hub",
+        "name": "IoT Hub"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      }
+    ],
+    "duration": 5687,
+    "reason": "Editorial review: a parcel passes a controlled gate into a secure vault.",
+    "reviewed": true
+  },
+  "cb1bd9f2743a": {
+    "archetype": "harbor-containers",
+    "seed": 2061826575,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-red-hat-openshift",
+        "name": "Azure Red Hat OpenShift"
+      }
+    ],
+    "duration": 4177,
+    "reason": "Editorial review: a harbor crane orchestrates containerized workloads.",
+    "reviewed": true
+  },
+  "90eb450f6141": {
+    "archetype": "data-lake",
+    "seed": 1602463680,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 12,
+    "label": "SHARED LAKE",
+    "actors": [
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "data-lake-storage-gen1",
+        "name": "Data Lake Storage Gen1"
+      },
+      {
+        "id": "event-hubs",
+        "name": "Event Hubs"
+      }
+    ],
+    "duration": 4849,
+    "reason": "Editorial review: streams feed a shared lake with a lakehouse on its shore.",
+    "reviewed": true
+  },
+  "368292090f61": {
+    "archetype": "hybrid-islands",
+    "seed": 263837445,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 1,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-azure-files",
+        "name": "Storage Azure Files"
+      }
+    ],
+    "duration": 5593,
+    "reason": "Editorial review: a cable carries work between a local island and a cloud island.",
+    "reviewed": true
+  },
+  "ba356643c9af": {
+    "archetype": "orchard-analytics",
+    "seed": 3922686030,
+    "accent": "#417f6b",
+    "count": 3,
+    "variant": 3,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "power-platform",
+        "name": "Power Platform"
+      }
+    ],
+    "duration": 5668,
+    "reason": "Editorial review: data grows into insight in an analytical orchard.",
+    "reviewed": true
+  },
+  "461f08ac0709": {
+    "archetype": "bridge-migration",
+    "seed": 4134601334,
+    "accent": "#417f6b",
+    "count": 5,
+    "variant": 6,
+    "label": "",
+    "actors": [
+      {
+        "id": "event-hubs",
+        "name": "Event Hubs"
+      },
+      {
+        "id": "data-lake-storage-gen1",
+        "name": "Data Lake Storage Gen1"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      }
+    ],
+    "duration": 5067,
+    "reason": "Editorial review: a workload moves across a bridge between two islands.",
+    "reviewed": true
+  },
+  "b05d8ab5aa9d": {
+    "archetype": "pipeline-factory",
+    "seed": 3246188319,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 4036,
+    "reason": "Editorial review: raw inputs become useful outputs on a factory line.",
+    "reviewed": true
+  },
+  "2143c2145c77": {
+    "archetype": "switchyard-routing",
+    "seed": 4091480723,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "event-grid-topics",
+        "name": "Event Grid Topics"
+      },
+      {
+        "id": "azure-service-bus",
+        "name": "Azure Service Bus"
+      }
+    ],
+    "duration": 4005,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "b966ff0c187a": {
+    "archetype": "switchyard-routing",
+    "seed": 4108331472,
+    "accent": "#328475",
+    "count": 3,
+    "variant": 11,
+    "label": "",
+    "actors": [
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "application-gateways",
+        "name": "Application Gateways"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      }
+    ],
+    "duration": 4333,
+    "reason": "Editorial review: a switch routes a request onto its selected track.",
+    "reviewed": true
+  },
+  "eabcfd3b512a": {
+    "archetype": "brain-agents",
+    "seed": 2946872752,
+    "accent": "#328475",
+    "count": 4,
+    "variant": 5,
+    "label": "",
+    "actors": [
+      {
+        "id": "data-factories",
+        "name": "Data Factories"
+      },
+      {
+        "id": "data-lake-storage-gen1",
+        "name": "Data Lake Storage Gen1"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      }
+    ],
+    "duration": 4052,
+    "reason": "Editorial review: specialist agents coordinate around a shared reasoning engine.",
+    "reviewed": true
+  },
+  "4936902917f3": {
+    "archetype": "gate-vault",
+    "seed": 1057088900,
+    "accent": "#328475",
+    "count": 5,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      }
+    ],
+    "duration": 4620,
+    "reason": "Editorial review: a parcel passes a controlled gate into a secure vault.",
+    "reviewed": true
+  },
+  "b6ea3f8c39e5": {
+    "archetype": "globe-network",
+    "seed": 3731222133,
+    "accent": "#38878d",
+    "count": 3,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-wans",
+        "name": "Virtual WANs"
+      },
+      {
+        "id": "expressroute-circuits",
+        "name": "ExpressRoute Circuits"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      }
+    ],
+    "duration": 5455,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "6b4e08a8eff1": {
+    "archetype": "globe-network",
+    "seed": 4190007961,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 9,
+    "label": "",
+    "actors": [
+      {
+        "id": "private-link",
+        "name": "Private Link"
+      },
+      {
+        "id": "dns-zones",
+        "name": "DNS Zones"
+      },
+      {
+        "id": "firewalls",
+        "name": "Firewalls"
+      }
+    ],
+    "duration": 4004,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "0d21d9458ce1": {
+    "archetype": "globe-network",
+    "seed": 396734163,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 7,
+    "label": "",
+    "actors": [
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "virtual-network-gateways",
+        "name": "Virtual Network Gateways"
+      }
+    ],
+    "duration": 5896,
+    "reason": "Editorial review: traffic hops between hubs on a connected globe.",
+    "reviewed": true
+  },
+  "16dc8d3411fa": {
+    "archetype": "city-web",
+    "seed": 2203610255,
+    "accent": "#2d8196",
+    "count": 5,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "virtual-networks",
+        "name": "Virtual Networks"
+      },
+      {
+        "id": "app-services",
+        "name": "App Services"
+      }
+    ],
+    "duration": 5001,
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "reviewed": true
+  },
+  "a11d6c59343d": {
+    "archetype": "city-web",
+    "seed": 723577371,
+    "accent": "#2d8196",
+    "count": 3,
+    "variant": 10,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      }
+    ],
+    "duration": 5764,
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "reviewed": true
+  },
+  "9090a69551e6": {
+    "archetype": "city-web",
+    "seed": 3994147705,
+    "accent": "#38878d",
+    "count": 4,
+    "variant": 2,
+    "label": "",
+    "actors": [
+      {
+        "id": "azure-managed-redis",
+        "name": "Azure Managed Redis"
+      },
+      {
+        "id": "front-door-and-cdn-profiles",
+        "name": "Front Door and CDN Profiles"
+      },
+      {
+        "id": "kubernetes-services",
+        "name": "Kubernetes Services"
+      }
+    ],
+    "duration": 5630,
+    "reason": "Editorial review: requests arrive at a city of web services.",
+    "reviewed": true
+  },
+  "e32aab2f0037": {
+    "archetype": "cache-pantry",
+    "seed": 3998721089,
+    "accent": "#38878d",
+    "count": 5,
+    "variant": 12,
+    "label": "",
+    "actors": [
+      {
+        "id": "app-services",
+        "name": "App Services"
+      },
+      {
+        "id": "function-apps",
+        "name": "Function Apps"
+      },
+      {
+        "id": "sql-database",
+        "name": "SQL Database"
+      }
+    ],
+    "duration": 4728,
+    "reason": "Editorial review: a nearby shelf serves a request before the deep store.",
+    "reviewed": true
+  }
+}
