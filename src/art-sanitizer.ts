@@ -6,14 +6,14 @@ export function sanitizeArt(source:string, parse:(s:string)=>Document, serialize
   if(/<!DOCTYPE|<!ENTITY|<\?/i.test(source.replace(/^\s*<\?xml[^?]*\?>/,'')))throw Error('DTD, entities and processing instructions are not allowed');
   const doc=parse(source.replace(/^\s*<\?xml[^?]*\?>/,''));
   const root=doc.documentElement;
-  if(!root||root.localName!=='svg'||doc.getElementsByTagName('parsererror').length)throw Error('Input must be a well-formed SVG document');
+  if(!root||root.localName!=='svg'||root.namespaceURI!=='http://www.w3.org/2000/svg'||doc.getElementsByTagName('parsererror').length)throw Error('Input must be a well-formed SVG document');
   const tags=new Set('svg g defs path rect circle ellipse line polyline polygon text tspan title desc clipPath mask linearGradient radialGradient stop pattern use image style animate animateTransform animateMotion mpath'.toLowerCase().split(' '));
   const attributes=new Set('id class xmlns xmlns:xlink viewBox width height x y x1 x2 y1 y2 cx cy r rx ry d points fill fill-opacity fill-rule stroke stroke-width stroke-linecap stroke-linejoin stroke-dasharray stroke-dashoffset stroke-opacity opacity transform transform-origin transform-box clip-path clip-rule mask offset stop-color stop-opacity gradientUnits gradientTransform spreadMethod fx fy fr patternUnits patternContentUnits patternTransform preserveAspectRatio href xlink:href font-family font-size font-weight text-anchor dominant-baseline attributeName type values from to by dur begin repeatCount repeatDur keyTimes keySplines calcMode additive accumulate path keyPoints rotate style'.toLowerCase().split(' '));
   const all=(e:Element):Element[]=>[e,...Array.from(e.getElementsByTagName('*'))];
   for(const el of all(root).slice(1))if(!tags.has(el.localName.toLowerCase())||el.namespaceURI&&el.namespaceURI!=='http://www.w3.org/2000/svg')el.parentNode?.removeChild(el);
   const ids=new Map<string,string>();
-  for(const el of all(root)){const id=el.getAttribute('id');if(id){if(ids.has(id))throw Error(`Duplicate SVG id: ${id}`);ids.set(id,`${prefix}${id.replace(/[^a-zA-Z0-9_-]/g,'-')}`)}}
-  const rootId=`${prefix}root`;if([...ids.values()].includes(rootId))throw Error('SVG id collides with the reserved root id');if(root.getAttribute('id'))ids.set(root.getAttribute('id')!,rootId);
+  for(const el of all(root)){const id=el.getAttribute('id');if(id){if(ids.has(id))throw Error(`Duplicate SVG id: ${id}`);const next=`${prefix}${id.replace(/[^a-zA-Z0-9_-]/g,'-')}`;if([...ids.values()].includes(next))throw Error('SVG IDs collide after normalization');ids.set(id,next)}}
+  const rootId=`${prefix}root`;if(all(root).slice(1).some(el=>ids.get(el.getAttribute('id')||'')===rootId))throw Error('SVG id collides with the reserved root id');if(root.getAttribute('id'))ids.set(root.getAttribute('id')!,rootId);
   const reference=(value:string)=>value.replace(/url\(\s*['"]?#([^)'"\s]+)['"]?\s*\)/g,(_,id)=>`url(#${ids.get(id)||prefix+id})`);
   const safePaint=(v:string)=>!/(?:url\s*\(\s*(?!#|['"]#)|javascript|data:|https?:|@import|expression|\\)/i.test(v);
   const props=new Set('fill fill-opacity stroke stroke-width stroke-opacity stroke-dasharray stroke-dashoffset opacity transform transform-origin transform-box animation animation-name animation-duration animation-delay animation-iteration-count animation-timing-function animation-direction animation-fill-mode animation-play-state'.split(' '));

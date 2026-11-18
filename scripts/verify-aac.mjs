@@ -12,7 +12,7 @@ const articles=JSON.parse(await readFile('public/architectures/articles.json','u
 const scenes=JSON.parse(await readFile('public/architectures/scenes.json','utf8'));
 assert.equal(articles.length,187);assert.equal(new Set(articles.map(a=>a.url)).size,187);
 for(const a of articles){assert(a.url.startsWith('https://learn.microsoft.com/'));const s=scenes[a.id];assert(s);assert(archetypes.includes(s.archetype));assert(s.reviewed);assert(s.duration>=4000&&s.duration<=6000);for(const actor of s.actors)await stat(`public/svg/${actor.id}.svg`);
- if(s.art){assert(/^art\/[a-zA-Z0-9/_-]+\.svg$/.test(s.art));const source=await readFile('public/architectures/'+s.art,'utf8');assert(Buffer.byteLength(source)<=40960);sanitize(source);new DOMParser().parseFromString(source,'image/svg+xml');assert(!/<script|foreignObject|\son\w+=|(?:href=["'](?:https?:|data:))/i.test(source))}
+ if(s.art){assert(/^art\/[a-zA-Z0-9/_-]+\.svg$/.test(s.art));const source=await readFile('public/architectures/'+s.art,'utf8');assert(Buffer.byteLength(source)<=40960);sanitize(source);assert(/<(?:animate|animateTransform|animateMotion)\b|@(?:-webkit-)?keyframes\b/.test(source),'Bespoke artwork must include motion');new DOMParser().parseFromString(source,'image/svg+xml');assert(!/<script|foreignObject|\son\w+=|(?:href=["'](?:https?:|data:))/i.test(source))}
 }
 const browser=await chromium.launch({executablePath:'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',headless:true});
 const context=await browser.newContext({viewport:{width:1440,height:1060},colorScheme:'light'});
@@ -22,6 +22,7 @@ try{
  await page.goto(origin,{waitUntil:'networkidle'});await page.locator('.architecture-card').first().waitFor();assert.equal(await page.locator('.architecture-card').count(),187);
  await page.waitForTimeout(300);assert(await page.evaluate(()=>window.aacTest.active())<=12);assert(await page.evaluate(()=>window.aacTest.active())>0);
  await page.screenshot({path:out+'/desktop.png'});
+ await page.setViewportSize({width:2200,height:3500});await page.waitForTimeout(250);assert.equal(await page.evaluate(()=>window.aacTest.active()),12);assert.equal(await page.locator('[data-playing=true]').count(),12);await page.setViewportSize({width:1440,height:1060});await page.waitForTimeout(100);report.checks.push('12-card animation cap under a large visible grid');
  const before=await page.locator('.preview').first().screenshot();await page.waitForTimeout(650);const after=await page.locator('.preview').first().screenshot();assert(!before.equals(after),'Live motion must change visible pixels');
  await page.evaluate(()=>window.aacTest.frame(850));await page.screenshot({path:out+'/frame-0850.png'});
  await page.evaluate(()=>window.aacTest.frame(2850));await page.screenshot({path:out+'/frame-2850.png'});

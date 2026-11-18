@@ -17,4 +17,8 @@ assert(css.includes('@keyframes css-glide'));assert(css.includes('#css-root .ite
 const smil=sanitize(wrap('<g id="moving"><rect width="10" height="10"/><animateTransform attributeName="transform" type="translate" values="0 0;20 0;0 0" dur="5s" repeatCount="indefinite"/></g>'),'smil-');
 assert(smil.includes('animateTransform'));assert(smil.includes('dur="5s"'));
 new DOMParser().parseFromString(css,'image/svg+xml');new DOMParser().parseFromString(smil,'image/svg+xml');
-console.log('Sanitizer: 15 security/parse/ID/viewBox/size/CSS/SMIL assertions passed');
+assert.throws(()=>sanitize(wrap('<path id="a.b"/><path id="a:b"/>')),/collide/);
+assert.throws(()=>sanitize(wrap('<style>@keyframes wrong{to{fill:red}}</style>')),/only transform/);
+const again=sanitize(css,'again-');assert(again.includes('#again-root .item'));assert(!again.includes('#again-root #again-root'));
+assert(sanitize(wrap('<g id="one" style="animation:glide 5s infinite"/><style>@keyframes glide{to{opacity:.5}}</style>'),'inline-').includes('animation:inline-glide'));
+console.log('Sanitizer: security, parse, unique IDs, viewBox, 40 KB, scoped CSS, inline keyframes, repeat sanitization and SMIL assertions passed');
