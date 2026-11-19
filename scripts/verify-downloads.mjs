@@ -15,9 +15,9 @@ try {
   await page.locator('#detail').waitFor();
   report.links = await page.locator('#detail-downloads a').evaluateAll(a => a.map(x => ({ text: x.textContent.trim(), href: x.getAttribute('href'), download: x.getAttribute('download') })));
   report.buttons = await page.locator('#detail button').allTextContents();
-  assert.deepEqual(report.links.map(l => l.text), ['Download SVG', 'PNG · 64 px', 'PNG · 256 px', 'PNG · 512 px']);
+  assert.deepEqual(report.links.map(l => l.text), ['Download SVG', 'PNG · 64 px', 'PNG · 256 px', 'PNG · 512 px', 'PNG · 1024 px']);
   const files = {};
-  for (let n = 0; n < 4; n++) {
+  for (let n = 0; n < 5; n++) {
     const ev = page.waitForEvent('download'); await page.locator('#detail-downloads a').nth(n).click(); const d = await ev;
     const dest = `${out}/${d.suggestedFilename()}`; await d.saveAs(dest); files[d.suggestedFilename()] = await readFile(dest);
   }
@@ -27,6 +27,7 @@ try {
     else { const m = await sharp(b).metadata(); report.downloads[name] = { bytes: b.length, w: m.width, h: m.height, alpha: m.hasAlpha }; }
   }
   assert.equal(report.downloads['Azure OpenAI-512.png'].w, 512);
+  assert.equal(report.downloads['Azure OpenAI-1024.png'].w, 1024); assert.equal(report.downloads['Azure OpenAI-1024.png'].h, 1024);
   await page.locator('#copy-svg').click(); await page.waitForTimeout(300);
   const copied = await page.evaluate(() => navigator.clipboard.readText()); assert.equal(copied, files['Azure OpenAI.svg'].toString()); report.copySvg = 'matches size-free download';
   await page.locator('#copy-png').click(); await page.waitForTimeout(800);
@@ -37,6 +38,7 @@ try {
   const z = page.waitForEvent('download'); await page.locator('#zip').click(); const zd = await z; await zd.saveAs(`${out}/sel.zip`);
   report.zip = Object.keys(unzipSync(await readFile(`${out}/sel.zip`)));
   assert(report.zip.includes('PNG-512/Azure OpenAI-512.png'));
+  assert(report.zip.includes('PNG-1024/Azure OpenAI-1024.png'));
   // ChatGPT style keeps 64/256 only (no 512 pipeline for variants)
   await page.goto(origin + '?style=gpt#azure-openai', { waitUntil: 'networkidle' }); await page.locator('#detail').waitFor();
   report.gptLinks = await page.locator('#detail-downloads a').allTextContents();

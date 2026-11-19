@@ -9,6 +9,7 @@ Build date: 10 November 2026 (Europe/Amsterdam).
 - Every canonical SVG checked against its original SHA-256. Git attributes disable text conversion for SVGs. Mixed-line-ending originals were also checked against committed Git bytes.
 - All 1,286 PNGs validated: 64×64 or 256×256, with alpha channels.
 - 2026-11-19: 643 transparent 512×512 PNGs added (`scripts/png-512.mjs`); all 643 official SVGs made size-free (root width/height removed, viewBox kept; `scripts/svg-size-free.mjs`), matching az-icons.com. Sketch/ChatGPT variant SVGs likewise. SHA-256 values in the provenance manifest describe the unmodified pack originals.
+- 2026-11-19 (follow-up): 643 transparent 1024×1024 PNGs added (`node scripts/png-512.mjs 1024`), rendered from the size-free SVGs.
 - Twenty deterministic random source SVG/PNG pairs browser-decoded and compared pixel-for-pixel against a fresh source rasterization; all match. Pair contact sheet visually inspected.
 - Workspaces and Load Balancer Hub each have two byte-different source files under the same name; deterministic first-file artwork is used. See README and provenance manifest.
 

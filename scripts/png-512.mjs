@@ -1,9 +1,9 @@
-// Render transparent 512 px PNGs from the official SVGs (same resvg + sharp pipeline as build-icons.mjs).
+// Render transparent large PNGs (default 512; pass a size, e.g. 1024) from the official SVGs (same resvg + sharp pipeline as build-icons.mjs).
 import { readdir, readFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { Resvg } from '@resvg/resvg-js';
-const size = 512, src = 'public/svg', out = path.join('public/png', String(size));
+const size = Number(process.argv[2] || 512), src = 'public/svg', out = path.join('public/png', String(size));
 await mkdir(out, { recursive: true });
 let count = 0;
 for (const file of (await readdir(src)).filter(f => f.endsWith('.svg')).sort()) {

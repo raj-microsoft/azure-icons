@@ -27,7 +27,7 @@ Download the [official V25 ZIP](https://arch-center.azureedge.net/icons/Azure_Pu
 - Instant Fuse.js search across names, category and acronyms; matching name text highlighted.
 - `/` to focus search; arrow-key grid navigation; native focus-trapped details dialog.
 - Category filters with search-aware counts, new-in-November filter and zero-result recovery.
-- Size-free official SVG (viewBox only, scales in PowerPoint/Visio/Figma/draw.io), transparent 64/256/512 PNG, copy SVG/PNG/name and multi-select ZIP.
+- Size-free official SVG (viewBox only, scales in PowerPoint/Visio/Figma/draw.io), transparent 64/256/512/1024 PNG, copy SVG/PNG/name and multi-select ZIP.
 - Lazy images, progressive 60-item rendering and CSS content visibility.
 - System-aware, persistent light/dark theme; reduced-motion support; 390px mobile layout.
 - Shareable `?q=`, `?category=`, `?new=1` and `#icon-id` URLs.

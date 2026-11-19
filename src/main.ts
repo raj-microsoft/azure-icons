@@ -64,7 +64,7 @@ const suffix=(v:Style)=>v==='gpt'?'-chatgpt':v==='sketch'?'-sketch':'';
 function initialStyle():Style {const valid=(s:string|null):Style=>s==='gpt'?s:'official';const requested=new URLSearchParams(location.search).get('style');if(requested)return valid(requested);try{return valid(localStorage.getItem('icon-style'))}catch{return 'official'}}
 let style:Style=initialStyle(),compare=false;
 const asset=(i:Icon,kind='svg',variant:Style=style)=>`${base}${variant==='gpt'?'sketchnote-gpt/':variant==='sketch'?'sketchnote/':''}${kind==='svg'?'svg':`png/${kind}`}/${i.id}.${kind==='svg'?'svg':'png'}`;
-const pngSizes=(variant:Style=style)=>variant==='official'?['64','256','512']:['64','256'];
+const pngSizes=(variant:Style=style)=>variant==='official'?['64','256','512','1024']:['64','256'];
 const filename=(i:Icon,kind='svg',variant:Style=style)=>`${i.name}${kind==='svg'?'':`-${kind}`}${suffix(variant)}.${kind==='svg'?'svg':'png'}`;
 let data:Index, icons:Icon[], results:Icon[]=[]; let category='All icons', onlyNew=false, query=new URLSearchParams(location.search).get('q')||'';
 let visible=0; const batch=60; const selected=new Set<string>(); let current:Icon|undefined; let opener:HTMLElement|null=null; let fuse:Fuse<Icon>; let observer:IntersectionObserver;
