@@ -3,9 +3,10 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import sharp from 'sharp';
 import { Resvg } from '@resvg/resvg-js';
+import { sizeFree } from './svg-size-free.mjs';
 const root = path.resolve('src/raw/Azure_Public_Service_Icons/Icons');
 const out = path.resolve('public');
-for (const d of ['svg','png/64','png/256']) await mkdir(path.join(out,d),{recursive:true});
+for (const d of ['svg','png/64','png/256','png/512']) await mkdir(path.join(out,d),{recursive:true});
 const pretty = s => s.replace(/\b(ai|iot|sql|api|vm|ip)\b/gi, s=>s.toUpperCase()).replace(/\b[a-z]/g,s=>s.toUpperCase());
 const aliases = [
  [/container apps|ACA/i,['ACA','Azure Container Apps']], [/kubernetes/i,['AKS','Azure Kubernetes Service','k8s']], [/virtual machine/i,['VM','VMs','compute']], [/virtual network/i,['VNet','network']], [/sql/i,['SQL','database']], [/entra|active directory/i,['AAD','Entra','Azure Active Directory','identity']], [/key vault/i,['KV','Key Vault','secrets']], [/container registr/i,['ACR','Azure Container Registry']], [/api management/i,['APIM']], [/openai/i,['AOAI','OpenAI','Azure OpenAI']], [/foundry/i,['Foundry','AI Studio','Azure AI']], [/fabric/i,['Fabric']], [/cosmos/i,['NoSQL']], [/storage account/i,['blob','ADLS']], [/function/i,['serverless']], [/app service/i,['web app']], [/event hub/i,['streaming']], [/service bus/i,['messaging']]
@@ -25,9 +26,10 @@ for (const category of (await readdir(root)).sort()) {
   const keywords = [...new Set([name,...name.split(/\s+/),cat,...aliases.filter(([re])=>re.test(name)).flatMap(([,a])=>a)])];
   const icon={id,name,categories:[cat],keywords,sources:1,...(novNames.some(n=>normalize(n)===normalize(name))?{isNew:true}:{})};
   byName.set(key,icon);
-  await copyFile(path.join(root,category,file),path.join(out,'svg',`${id}.svg`));
+  // Original bytes except the fixed root width/height, so the SVG scales with its viewBox in Office/Visio/Figma.
+  await writeFile(path.join(out,'svg',`${id}.svg`),sizeFree(Buffer.from(bytes.toString('latin1').replace(/(<svg\b[^>]*?)\sxviewBox=/,'$1 viewBox='),'latin1')));
   // Render the complete SVG viewBox, then contain it in a transparent square. No crop, rotation or distortion.
-  for(const size of [64,256]) {
+  for(const size of [64,256,512]) {
    const svg=new Resvg(bytes,{fitTo:{mode:'width',value:size}}).render().asPng();
    await sharp(svg).resize(size,size,{fit:'contain',background:{r:0,g:0,b:0,alpha:0}}).png().withMetadata({comments:[`Source: Microsoft Azure Architecture Center V25; ${category}/${file}; unmodified SVG rasterized with preserved aspect ratio.`]}).toFile(path.join(out,'png',String(size),`${id}.png`));
   }

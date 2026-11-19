@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Data Collection Rules (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>Data Collection Rules (sketch)</title>
 <path d="M25 3Q23 3 23 7L23 120Q23 125 27 125L120 125Q125 124 125 120L125 7Q125 3 121 3Z" fill="#3789DF" stroke="#164F84" stroke-width="3.2"/>
 <path d="M116 14Q119 13 122 15M120 32Q121 51 120 65M120 91Q122 108 119 117" stroke="#B7DFFF" stroke-width="1.8" opacity=".65"/>
 <path d="M5 16Q4 15 7 15L96 15Q99 15 99 19L99 61Q99 65 95 65L7 65Q4 65 4 61Z" fill="#42CBE8" stroke="#164F84" stroke-width="3.2"/>

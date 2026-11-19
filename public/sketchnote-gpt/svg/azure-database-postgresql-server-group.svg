@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><title>Azure Database PostgreSQL Server Group (sketch)</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none"><title>Azure Database PostgreSQL Server Group (sketch)</title>
 <path d="M19 24 L19 103 C19 114 39 121 64 121 C89 121 109 115 109 103 L109 24Z" fill="#0078D4" stroke="#064F87" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 31 L21 101 C22 110 40 117 64 118 C86 118 104 112 106 103" fill="none" stroke="#064F87" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
 <path d="M19 24 C19 13 39 7 64 7 C89 7 109 13 109 24 C109 35 89 41 64 41 C39 41 19 35 19 24Z" fill="#E8E8E8" stroke="#005BA1" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>

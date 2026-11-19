@@ -1,0 +1,45 @@
+import { chromium } from 'playwright-core';
+import { readFile, mkdir } from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import sharp from 'sharp';
+import { unzipSync } from 'fflate';
+const origin = process.env.TEST_URL || 'http://127.0.0.1:4173/azure-icons/';
+const out = '.impeccable/review/downloads'; await mkdir(out, { recursive: true });
+const browser = await chromium.launch({ executablePath: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe', headless: true });
+const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, permissions: ['clipboard-read', 'clipboard-write'], acceptDownloads: true });
+const page = await context.newPage(); const errors = []; page.on('pageerror', e => errors.push(e.message));
+const report = {};
+try {
+  await page.goto(origin + '#azure-openai', { waitUntil: 'networkidle' });
+  if (!await page.locator('#detail').isVisible()) { await page.locator('#search').fill('azure openai'); await page.locator('[data-open="azure-openai"]').click(); }
+  await page.locator('#detail').waitFor();
+  report.links = await page.locator('#detail-downloads a').evaluateAll(a => a.map(x => ({ text: x.textContent.trim(), href: x.getAttribute('href'), download: x.getAttribute('download') })));
+  report.buttons = await page.locator('#detail button').allTextContents();
+  assert.deepEqual(report.links.map(l => l.text), ['Download SVG', 'PNG · 64 px', 'PNG · 256 px', 'PNG · 512 px']);
+  const files = {};
+  for (let n = 0; n < 4; n++) {
+    const ev = page.waitForEvent('download'); await page.locator('#detail-downloads a').nth(n).click(); const d = await ev;
+    const dest = `${out}/${d.suggestedFilename()}`; await d.saveAs(dest); files[d.suggestedFilename()] = await readFile(dest);
+  }
+  report.downloads = {};
+  for (const [name, b] of Object.entries(files)) {
+    if (name.endsWith('.svg')) { const root = b.toString().match(/<svg\b[^>]*>/)[0]; assert(!/\s(width|height)=/.test(root)); assert(/viewBox="0 0 18 18"/.test(root)); report.downloads[name] = { bytes: b.length, root }; }
+    else { const m = await sharp(b).metadata(); report.downloads[name] = { bytes: b.length, w: m.width, h: m.height, alpha: m.hasAlpha }; }
+  }
+  assert.equal(report.downloads['Azure OpenAI-512.png'].w, 512);
+  await page.locator('#copy-svg').click(); await page.waitForTimeout(300);
+  const copied = await page.evaluate(() => navigator.clipboard.readText()); assert.equal(copied, files['Azure OpenAI.svg'].toString()); report.copySvg = 'matches size-free download';
+  await page.locator('#copy-png').click(); await page.waitForTimeout(800);
+  report.copyPng = await page.evaluate(async () => { const items = await navigator.clipboard.read(); const t = items[0].types; const blob = await items[0].getType('image/png'); const bmp = await createImageBitmap(blob); return { types: t, w: bmp.width, h: bmp.height }; });
+  report.toast = await page.locator('#toast').textContent();
+  await page.screenshot({ path: `${out}/detail.png` });
+  await page.locator('#detail-select').click(); await page.keyboard.press('Escape');
+  const z = page.waitForEvent('download'); await page.locator('#zip').click(); const zd = await z; await zd.saveAs(`${out}/sel.zip`);
+  report.zip = Object.keys(unzipSync(await readFile(`${out}/sel.zip`)));
+  assert(report.zip.includes('PNG-512/Azure OpenAI-512.png'));
+  // ChatGPT style keeps 64/256 only (no 512 pipeline for variants)
+  await page.goto(origin + '?style=gpt#azure-openai', { waitUntil: 'networkidle' }); await page.locator('#detail').waitFor();
+  report.gptLinks = await page.locator('#detail-downloads a').allTextContents();
+  report.errors = errors; assert.deepEqual(errors, []);
+  console.log(JSON.stringify(report, null, 1));
+} finally { await browser.close(); }

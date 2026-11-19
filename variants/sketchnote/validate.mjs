@@ -29,7 +29,7 @@ export async function validate(input,name){
  }
  if(shapes<3)throw Error('Need at least 3 shape elements');
  for(const t of Array.from(svg.getElementsByTagName('title')))t.parentNode.removeChild(t);
- svg.setAttribute('xmlns','http://www.w3.org/2000/svg');svg.setAttribute('viewBox','0 0 128 128');svg.setAttribute('width','128');svg.setAttribute('height','128');
+ svg.setAttribute('xmlns','http://www.w3.org/2000/svg');svg.setAttribute('viewBox','0 0 128 128');svg.removeAttribute('width');svg.removeAttribute('height');
  const title=doc.createElement('title');title.appendChild(doc.createTextNode(name+' (sketch)'));svg.insertBefore(title,svg.firstChild);
  const normalized=new XMLSerializer().serializeToString(svg)+'\n';if(Buffer.byteLength(normalized)>=40960)throw Error('Normalized SVG >=40KB');
  const pngs={},checks={};
