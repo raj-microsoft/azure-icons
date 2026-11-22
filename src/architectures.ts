@@ -7,7 +7,7 @@ type Article={id:string;title:string;summary:string;url:string;azure_categories:
 const base=import.meta.env.BASE_URL,app=document.querySelector<HTMLDivElement>('#app')!;
 const $=<T extends HTMLElement=HTMLElement>(s:string)=>document.querySelector<T>(s)!;
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-let motion=true;try{motion=localStorage.getItem('icon-motion')!=='off'}catch{}
+let motion=true;try{localStorage.removeItem('icon-motion')}catch{}
 let articles:Article[]=[],scenes:Record<string,Scene>={},observer:IntersectionObserver,frame=0;
 const visible=new Set<HTMLElement>(),active=new Set<HTMLElement>();
 const loaded=new WeakSet<HTMLElement>();
@@ -72,7 +72,7 @@ async function start(){try{
  $('#clear').onclick=()=>{query='';$<HTMLInputElement>('#search').value='';filter();$('#search').focus()};
  for(const id of ['category','type','product','sort'])$('#'+id).addEventListener('change',()=>{category=$<HTMLSelectElement>('#category').value;type=$<HTMLSelectElement>('#type').value;product=$<HTMLSelectElement>('#product').value;sort=$<HTMLSelectElement>('#sort').value;filter()});
  $('#reset').onclick=reset;$('#empty-reset').onclick=reset;
- $('#motion-toggle').onclick=()=>{motion=!motion;try{localStorage.setItem('icon-motion',motion?'on':'off')}catch{}sync()};
+ $('#motion-toggle').onclick=()=>{motion=!motion;sync()};
  $('#theme').onclick=()=>{const value=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=value;try{localStorage.setItem('icon-theme',value)}catch{}};
  reduced.addEventListener('change',sync);document.addEventListener('visibilitychange',sync);window.addEventListener('storage',e=>{if(e.key==='icon-motion'){motion=e.newValue!=='off';sync()}});
  document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','SELECT','TEXTAREA'].includes((e.target as HTMLElement).tagName)){e.preventDefault();$('#search').focus()}});
